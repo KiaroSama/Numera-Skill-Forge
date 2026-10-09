@@ -22,7 +22,7 @@ jobs:
       RUST_TEST_THREADS: 2
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-      - uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d
+      - uses: dtolnay/rust-toolchain@686976e191b89faba57d3206551f0f330d8cb249
         with:
           toolchain: 1.99.0
           components: rustfmt, clippy
@@ -32,6 +32,19 @@ jobs:
         timeout-minutes: 8
       - run: cargo build --locked -p forge-cli --release
       - run: python scripts/check-text.py
+      - run: python scripts/verify-collections.py
+      - name: Verify launcher and raw-mode publication contracts
+        shell: pwsh
+        timeout-minutes: 3
+        run: |
+          & ./scripts/check-launchers.ps1
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Verify launcher from another working directory
+        shell: pwsh
+        run: |
+          Set-Location scripts
+          & ../run.ps1 -Verify
+          exit $LASTEXITCODE
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
           name: cli-${{ matrix.os }}

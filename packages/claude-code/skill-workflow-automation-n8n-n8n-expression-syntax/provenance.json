@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "31400d8b454039410ca9ce9fb4f833d3f2ea563b0732fe633a9a5f9554b9fde8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/skills/n8n-expression-syntax/COMMON_MISTAKES.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax/COMMON_MISTAKES.md",
+      "size": 8658
+    },
+    {
+      "digest": "91fb77611cb7d7d48c9ec0eb3f5e2aad8fed3a7b305a429662b40b56c01521b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/skills/n8n-expression-syntax/EXAMPLES.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax/EXAMPLES.md",
+      "size": 8303
+    },
+    {
+      "digest": "30eef969ebe6b5c8fff8f9f9d99dd195f6c5e5390b26e143f508a7484030134e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/skills/n8n-expression-syntax/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax/README.md",
+      "size": 2323
+    },
+    {
+      "digest": "9184e19661c5c1bca7fab28594c4b596aceae80a18b328604f661cb82c1fb85f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax/skills/n8n-expression-syntax/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax/SKILL.md",
+      "size": 9600
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0315348f308264c833f4b7efbb957e138296fbf034990161b8416356a57258fe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+  "schema_version": 1
+}

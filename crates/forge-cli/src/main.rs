@@ -44,6 +44,10 @@ enum Commands {
         #[arg(long)]
         allow_executable: bool,
     },
+    Collection {
+        #[command(subcommand)]
+        command: Collections,
+    },
     Catalog {
         #[command(subcommand)]
         command: Catalog,
@@ -140,6 +144,14 @@ enum Sources {
     },
 }
 #[derive(Subcommand)]
+enum Collections {
+    Sync {
+        #[arg(long)]
+        apply: bool,
+    },
+    Verify,
+}
+#[derive(Subcommand)]
 enum Catalog {
     List,
 }
@@ -187,6 +199,12 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
         } => {
             json!({"action":"approve","source":source,"digest":digest,"allow_executable":allow_executable})
         }
+        Commands::Collection { command } => match command {
+            Collections::Sync { apply } => {
+                json!({"action":"collection-sync","apply":apply,"offline":cli.offline})
+            }
+            Collections::Verify => json!({"action":"collection-verify"}),
+        },
         Commands::Catalog { .. } => json!({"action":"catalog"}),
         Commands::Package { command } => match command {
             Packages::Inspect { package } => json!({"action":"package-inspect","package":package}),

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/doc",
+  "license": "Apache-2.0",
+  "name": "skill-document-processing-doc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

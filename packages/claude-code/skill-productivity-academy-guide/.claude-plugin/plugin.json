@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/academy-guide",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-academy-guide",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

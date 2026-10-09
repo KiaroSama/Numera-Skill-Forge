@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "71aedf5bb5c5bf00fc611bf51e379f3445fdda5a0ec61996d5eb783934ed3478",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/LICENSE.txt",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/LICENSE.txt",
+      "size": 1303
+    },
+    {
+      "digest": "b55ef83d8a2ea502fba7b689cc9ec1eeaf881e8f9ba002133f8b131b5cbc850b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/PROMPT-ONLY.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/PROMPT-ONLY.md",
+      "size": 21426
+    },
+    {
+      "digest": "e1b2fc2c517ab638f5463f4e606efcb3f73a2bbdb962e624d449d5a0f183128d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/README.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/README.md",
+      "size": 2931
+    },
+    {
+      "digest": "161a7ab7a5975c5348e6fd2e3b7e1203a420966382079b7bad9811fe726f68ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/SKILL.md",
+      "size": 5679
+    },
+    {
+      "digest": "bd8e7f7b640135c8a53932ed6c3cda27450ad0dbd73390038d9967c959dda08d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/brief-template.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/brief-template.md",
+      "size": 1050
+    },
+    {
+      "digest": "e869c90dc3e382f4e69a6bcb6c91d8ae356f19156e3bc06225e3d71faf7d88da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/examples/doc-chaser-lite-golden.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/examples/doc-chaser-lite-golden.md",
+      "size": 3464
+    },
+    {
+      "digest": "2c497fbad64c806ca45c684a3c0170ff56a72637dbf5ac87ce084ebd8b31fe12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/examples/practice-profile-golden.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/examples/practice-profile-golden.md",
+      "size": 1494
+    },
+    {
+      "digest": "ec4a8c8ce12d63923b49b28725b7ecbdff5f0c47a9b0ff92b9efdf035ad754a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/guard.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/guard.md",
+      "size": 16678
+    },
+    {
+      "digest": "29dac4fb958341f734dd267b5f65b2a12f08e977c51b240dca88b5d13fd246d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-doc-chaser-lite/skills/doc-chaser-lite/profile-template.md",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/profile-template.md",
+      "size": 1121
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e5182fbbf3ce65678dd00bef0262dc8577f7e87d7d7cee2dd8e14e49aac10485",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/doc-chaser-lite",
+  "schema_version": 1
+}

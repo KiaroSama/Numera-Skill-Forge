@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/LICENSE.txt",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/SKILL.md",
+      "size": 3124
+    },
+    {
+      "digest": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/theme-showcase.pdf",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/theme-showcase.pdf",
+      "size": 124310
+    },
+    {
+      "digest": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/arctic-frost.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/arctic-frost.md",
+      "size": 544
+    },
+    {
+      "digest": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/botanical-garden.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/botanical-garden.md",
+      "size": 519
+    },
+    {
+      "digest": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/desert-rose.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/desert-rose.md",
+      "size": 496
+    },
+    {
+      "digest": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/forest-canopy.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/forest-canopy.md",
+      "size": 506
+    },
+    {
+      "digest": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/golden-hour.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/golden-hour.md",
+      "size": 528
+    },
+    {
+      "digest": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/midnight-galaxy.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/midnight-galaxy.md",
+      "size": 513
+    },
+    {
+      "digest": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/modern-minimalist.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/modern-minimalist.md",
+      "size": 549
+    },
+    {
+      "digest": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/ocean-depths.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/ocean-depths.md",
+      "size": 555
+    },
+    {
+      "digest": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/sunset-boulevard.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/sunset-boulevard.md",
+      "size": 558
+    },
+    {
+      "digest": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-theme-factory/skills/theme-factory/themes/tech-innovation.md",
+      "path": "cli-tool/components/skills/creative-design/theme-factory/themes/tech-innovation.md",
+      "size": 547
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "4f0abd7009d8a02e38903487236841e2675614da104e0586fb3464d10825b516",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/theme-factory",
+  "schema_version": 1
+}

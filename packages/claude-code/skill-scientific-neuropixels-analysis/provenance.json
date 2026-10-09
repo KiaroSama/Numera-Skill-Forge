@@ -1,0 +1,152 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7759717de33144a96d07fefab6c592898fd8e1628e963097661561cd9c943ccd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/AI_CURATION.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/AI_CURATION.md",
+      "size": 8657
+    },
+    {
+      "digest": "b4a688e9b5420bc7754331f15e9144e7db6791496746d1990850593aa8e56974",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/ANALYSIS.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/ANALYSIS.md",
+      "size": 9869
+    },
+    {
+      "digest": "f3ddc9fd2bff9bbfa75e35ea841084e8a9330fb95de97414ae71d047d73e3c7b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/AUTOMATED_CURATION.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/AUTOMATED_CURATION.md",
+      "size": 10033
+    },
+    {
+      "digest": "17f2b53816d9ce06ec90cb05fc2e34d379c1b8499dfa41756bcf8d7fac59b0b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/LICENSE.txt",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/LICENSE.txt",
+      "size": 1065
+    },
+    {
+      "digest": "c9e2d07028d9a6e0cfdc313cdc0338e012fe5c23a1907f337f57011469f4c0e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/MOTION_CORRECTION.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/MOTION_CORRECTION.md",
+      "size": 8670
+    },
+    {
+      "digest": "99ecb6c53041e978f8d613e610063a314520129c1984ddf73fd9c62d15b0b072",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/PREPROCESSING.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/PREPROCESSING.md",
+      "size": 6696
+    },
+    {
+      "digest": "4a7d35ebddf63ba44fea91a7caaa8bc320d5093d2f450098155ea6d31da48189",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/QUALITY_METRICS.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/QUALITY_METRICS.md",
+      "size": 9454
+    },
+    {
+      "digest": "7825c2102a1c8a2f741925bfe74a3b866b93443bf383b4d3bb25c59dd991b0a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/SKILL.md",
+      "size": 11340
+    },
+    {
+      "digest": "a1d975f3b9418385d2ed1b1bf347805efbe59c9027783a2f927c3a2984ab924f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/SPIKE_SORTING.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/SPIKE_SORTING.md",
+      "size": 7918
+    },
+    {
+      "digest": "bc3baf3396454701ab364d9fd9d24fefceeabd9f86e9d5b1524b75de256b9a6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/assets/analysis_template.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/assets/analysis_template.py",
+      "size": 9014
+    },
+    {
+      "digest": "99643f7f091f84de858247342851664224fb1fbf860f29ea94b6ac5258dbd837",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/references/api_reference.md",
+      "size": 8175
+    },
+    {
+      "digest": "c509423f1af5ad1c29d937cebe264db55c74b28bc1b932ba5ac8daf43382b543",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/references/plotting_guide.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/references/plotting_guide.md",
+      "size": 10837
+    },
+    {
+      "digest": "459c2d7b25a36274d6129480fb881230fdc749de04ce9014e1eeaa103edbdc05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/references/standard_workflow.md",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/references/standard_workflow.md",
+      "size": 8646
+    },
+    {
+      "digest": "1f5fc68df09cfc11b4f42394a15f854b006548a84657ab75bb4897828515a0df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/compute_metrics.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/compute_metrics.py",
+      "size": 5226
+    },
+    {
+      "digest": "bb683fd4021faf00fb29784c85db38eb8156da8321ee91d937f6fa29b83dc33e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/explore_recording.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/explore_recording.py",
+      "size": 5529
+    },
+    {
+      "digest": "d16a94cfee7153c9baf7e7a4f87c178881258a62e3445f6beb790e2ea4f3632f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/export_to_phy.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/export_to_phy.py",
+      "size": 2477
+    },
+    {
+      "digest": "6c5ce1956415339e3002c17535520067d104230ed4284f71d5c5fc0de572af07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/neuropixels_pipeline.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/neuropixels_pipeline.py",
+      "size": 13286
+    },
+    {
+      "digest": "c223c01c7e9d57b8d93a3e6f0e6d4e2155e4f51b63de6a296131740ff4d8be07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/preprocess_recording.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/preprocess_recording.py",
+      "size": 4235
+    },
+    {
+      "digest": "b8fd612f4337e12a83afd8005dffab01df4dbd31887a446c68ecc29ff0a7e920",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neuropixels-analysis/skills/neuropixels-analysis/scripts/run_sorting.py",
+      "path": "cli-tool/components/skills/scientific/neuropixels-analysis/scripts/run_sorting.py",
+      "size": 2573
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d7eb85752470a21bc7dcb5b19a094351a7dfc4787a9c795542e596bd25562af3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/neuropixels-analysis",
+  "schema_version": 1
+}

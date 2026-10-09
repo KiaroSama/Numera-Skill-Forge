@@ -47,8 +47,41 @@ cargo run -p forge-cli -- --repository . doctor --json
 macOS/Linux use the same Cargo commands in their shell. Windows native usage does not require WSL.
 WSL is a separate Linux environment: select its own workspace and destinations.
 
-The initial registry contains **no active third-party sources**. Register only repositories you
-approve; public availability alone is not a redistribution license. See [Adding content](docs/source-format.md).
+## First skill collection
+
+The native Claude marketplace currently packages **65 reviewed skills** from
+[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
+plugin, with original prompts, scripts, companions and notices unchanged. This is a bounded licensed
+subset, not the entire upstream collection. See [licenses and exclusions](docs/source-licenses.md).
+
+```bash
+claude plugin marketplace add KiaroSama/Numera-Skill-Forge
+```
+
+```bash
+claude plugin install skill-creative-design-frontend-design@numera-skill-forge
+```
+
+Installing/enabling a skill is separate consent; some skills contain scripts or use external services.
+Forge never executes imported code to inspect, package or synchronize it.
+
+## Daily and local updates
+
+[Collection synchronization](docs/upstream-sync.md) runs daily at **03:37 UTC** and can be started
+manually in GitHub Actions. Safe reviewed prompt updates are rebuilt and pushed; script, license,
+file-structure and executable-mode changes require review. The local [run.ps1](run.ps1) launcher
+checks by default; `-Apply` updates accepted collection files, never installs extensions into a host.
+
+```powershell
+./run.ps1 -Check -Build
+```
+
+```powershell
+./run.ps1 -Apply
+```
+
+Register additional repositories only after approval; public availability alone is not a redistribution
+license. See [Adding content](docs/source-format.md).
 
 ## Easy additions
 

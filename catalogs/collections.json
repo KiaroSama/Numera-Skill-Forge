@@ -1,0 +1,525 @@
+{
+  "plugins": [
+    {
+      "id": "skill-ai-research-loki-mode",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/loki-mode",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-openai-docs",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/openai-docs",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-brand-guidelines-anthropic",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/brand-guidelines-anthropic",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-brand-guidelines-community",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/brand-guidelines-community",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-product-decision-agent",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/product-decision-agent",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-career-workorai",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/career/workorai",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-algorithmic-art",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/algorithmic-art",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-canvas-design",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/canvas-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-develop-web-game",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/develop-web-game",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-figma",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/figma",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-figma-implement-design",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/figma-implement-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-frontend-design",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/frontend-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-imagegen",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/imagegen",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-slack-gif-creator",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/slack-gif-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-theme-factory",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/theme-factory",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-database-postgres-schema-design",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/database/postgres-schema-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-design-to-code",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/design-to-code",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-artifacts-builder",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/artifacts-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-claude-api",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/claude-api",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-cloudflare-deploy",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/cloudflare-deploy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-jupyter-notebook",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/jupyter-notebook",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-mcp-builder",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/mcp-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-netlify-deploy",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/netlify-deploy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-playwright",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/playwright",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-render-deploy",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/render-deploy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-skill-creation-guide",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/skill-creation-guide",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-skill-creator",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/skill-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-vercel-deploy",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/vercel-deploy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-web-artifacts-builder",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/web-artifacts-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-webapp-testing",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/webapp-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-workspace-orchestration",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/workspace-orchestration",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-zapier-workflows",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/zapier-workflows",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-doc",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/doc",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-spreadsheet",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/spreadsheet",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-brand-guidelines",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/brand-guidelines",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-internal-comms",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/internal-comms",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-internal-comms-anthropic",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-internal-comms-community",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/internal-comms-community",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-slack-gif-creator",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/slack-gif-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-media-screenshot",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/media/screenshot",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-media-speech",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/media/speech",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-media-transcribe",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/media/transcribe",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-academy-guide",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/academy-guide",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-avoid-ai-writing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/avoid-ai-writing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-discernment-nudge",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/discernment-nudge",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-doc-chaser-lite",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/doc-chaser-lite",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-notebooklm",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/notebooklm",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-skill-creator",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/skill-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-think-tank",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/think-tank",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-scientific-markitdown",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/scientific/markitdown",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-scientific-neuropixels-analysis",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/scientific/neuropixels-analysis",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-security-best-practices",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/security-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-security-ownership-map",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/security-ownership-map",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-security-threat-model",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/security-threat-model",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-webapp-testing",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/webapp-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-utilities-web-artifacts-builder",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/web-artifacts-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-video-sora",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/video/sora",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-code-javascript",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-code-python",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-expression-syntax",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-mcp-tools-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-node-configuration",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-validation-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-n8n-n8n-workflow-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-yeet",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/yeet",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "74ca1f00db9649258def40e74f9f5fc5b791f5d9896be315aa92735eb4c2971c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/COMMON_PATTERNS.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/COMMON_PATTERNS.md",
+      "size": 19329
+    },
+    {
+      "digest": "a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/DATA_ACCESS.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/DATA_ACCESS.md",
+      "size": 15026
+    },
+    {
+      "digest": "8b66ae02734845ec02382f545d1d72fb673b26d78ceb0537fb212c11d4bc74f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/ERROR_PATTERNS.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/ERROR_PATTERNS.md",
+      "size": 13913
+    },
+    {
+      "digest": "5aa374a93cc9893c2ff2986bf5d125841f32f75152830c910b7061f0d84e957a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/README.md",
+      "size": 9524
+    },
+    {
+      "digest": "fa65b75a3605abbec6b4f1e038b526168bab1b3929a262156621be9c9348251d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/SKILL.md",
+      "size": 17971
+    },
+    {
+      "digest": "fb862e9734948f5eb320e7adfdca68fba3d535eb039c4159715519a245600f2c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-code-python/skills/n8n-code-python/STANDARD_LIBRARY.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python/STANDARD_LIBRARY.md",
+      "size": 18115
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3fe9e8b1a268558aabc4bf5b1116684546a69b19615daa3d94c0937602db4242",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+  "schema_version": 1
+}

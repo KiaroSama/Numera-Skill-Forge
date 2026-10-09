@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/skills/security-threat-model/LICENSE.txt",
+      "path": "cli-tool/components/skills/security/security-threat-model/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "a1e1f4b25478438828986c6c4eca6a2d3cc5c92923756f35e7add854c66be6f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/skills/security-threat-model/SKILL.md",
+      "path": "cli-tool/components/skills/security/security-threat-model/SKILL.md",
+      "size": 5576
+    },
+    {
+      "digest": "3319b59736312abceca614e341c0e59cae47263e3b58a22b2b5ddf1e5fc8c227",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/skills/security-threat-model/agents/openai.yaml",
+      "path": "cli-tool/components/skills/security/security-threat-model/agents/openai.yaml",
+      "size": 254
+    },
+    {
+      "digest": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/skills/security-threat-model/references/prompt-template.md",
+      "path": "cli-tool/components/skills/security/security-threat-model/references/prompt-template.md",
+      "size": 12642
+    },
+    {
+      "digest": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-threat-model/skills/security-threat-model/references/security-controls-and-assets.md",
+      "path": "cli-tool/components/skills/security/security-threat-model/references/security-controls-and-assets.md",
+      "size": 1680
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "519ef7a0e8f02c48874df55843a3c58f32d835527a6f168c55bd57baf5a7428b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/security-threat-model",
+  "schema_version": 1
+}

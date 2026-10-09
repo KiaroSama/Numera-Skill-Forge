@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "580a3cc17941897d3b570bcf27231393490cc0bef4e76cf055ac4738d8e7d61f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/skills/n8n-node-configuration/DEPENDENCIES.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration/DEPENDENCIES.md",
+      "size": 14582
+    },
+    {
+      "digest": "79eb300acb4122ca9584acdf55d9274fcbd920b1cafbc68c7b885b0d5f84e856",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/skills/n8n-node-configuration/OPERATION_PATTERNS.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration/OPERATION_PATTERNS.md",
+      "size": 15358
+    },
+    {
+      "digest": "b987d524580daf718942cc20084cf53d2143e68a8115094c11b77ff8dac603d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/skills/n8n-node-configuration/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration/README.md",
+      "size": 9800
+    },
+    {
+      "digest": "85ae6cfb1647ef954a51db5b74c31cfdd765812c9b6e4c05b77b6598ea7479a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration/skills/n8n-node-configuration/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration/SKILL.md",
+      "size": 17033
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3ecae0088a8dba6a8a1dcd84ef8bfa6ae3a1d6cb1ba49296b5e617427f4b720a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration",
+  "schema_version": 1
+}

@@ -3,3 +3,4 @@
 *.ico binary
 *.icns binary
 vendor/** -text
+packages/** -text

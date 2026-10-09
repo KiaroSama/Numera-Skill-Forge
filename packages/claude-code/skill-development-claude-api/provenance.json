@@ -1,0 +1,355 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/claude-api/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "617512252b92969fbbe71cb0bc5f18641e1b8ee00a799cd3276a0f28f7a2e017",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/SKILL.md",
+      "path": "cli-tool/components/skills/development/claude-api/SKILL.md",
+      "size": 33041
+    },
+    {
+      "digest": "c17ddeb20330f54d8fbf9af3e1225ab0370396b86d211cf71b1f8a5008c39e5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/csharp/claude-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/csharp/claude-api.md",
+      "size": 14390
+    },
+    {
+      "digest": "fa77288bc86b055868d8934d2b81a8fb4da783241bc7dd0c15a5b55e3d0570cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/curl/examples.md",
+      "path": "cli-tool/components/skills/development/claude-api/curl/examples.md",
+      "size": 6465
+    },
+    {
+      "digest": "e383f71c696d7ee55437cc743e657fe31483bca5e71a5d404ac7c65b045d5dba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/curl/managed-agents.md",
+      "path": "cli-tool/components/skills/development/claude-api/curl/managed-agents.md",
+      "size": 7379
+    },
+    {
+      "digest": "79730feb26fde385d351e269ff5dec022e9d2f88f1b94230c48b18db1b3e1a9b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/go/claude-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/go/claude-api.md",
+      "size": 13873
+    },
+    {
+      "digest": "127a472f2d97a34edd096cbaa864ce49912f6cef0477b892b819ea5467457a9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/go/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/go/managed-agents/README.md",
+      "size": 18478
+    },
+    {
+      "digest": "631e1014b2e5994c74994b6e5f9694c4e059375d1692eca233af49134fb613cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/java/claude-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/java/claude-api.md",
+      "size": 15095
+    },
+    {
+      "digest": "a58bf7306937bd17cc1d344043235d5004ef4524bf14a063027c7c395784efc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/java/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/java/managed-agents/README.md",
+      "size": 16585
+    },
+    {
+      "digest": "bfe37758d6ad0edaf0e3328347742e88990646cb11d8cf22e74dcbd9b82db020",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/php/claude-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/php/claude-api.md",
+      "size": 11161
+    },
+    {
+      "digest": "e9cf486cd1ecb738b34c3c720392e9d8448c7f520932875314a3395a4c781c87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/php/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/php/managed-agents/README.md",
+      "size": 13184
+    },
+    {
+      "digest": "f06fc8a83a16e28183f66733e08eb7e2633f6e31348fcfe384ae2389c185bab6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/agent-sdk/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/agent-sdk/README.md",
+      "size": 12672
+    },
+    {
+      "digest": "1a42261beea4f9dce4884931b311a88123b4b0981c7a303b10513c8796218303",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/agent-sdk/patterns.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/agent-sdk/patterns.md",
+      "size": 9197
+    },
+    {
+      "digest": "0791f8bcdd080d1aea992620a477006d5e722ebb5649f31841a8e6a9e6b51dd4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/claude-api/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/claude-api/README.md",
+      "size": 12163
+    },
+    {
+      "digest": "b7c22eade4ffbbb92cf1dca1760904d6bd35c1b26e3c2e512c8d5f0ab895c728",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/claude-api/batches.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/claude-api/batches.md",
+      "size": 5095
+    },
+    {
+      "digest": "76d5f216111559a386bb1257cef82d147a9182a3559e143d7b00004dbdc60469",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/claude-api/files-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/claude-api/files-api.md",
+      "size": 3994
+    },
+    {
+      "digest": "0293136bfee6cf09d9eca79c15f48aad3a3075bc0cab5c9d72f81582ec3d7232",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/claude-api/streaming.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/claude-api/streaming.md",
+      "size": 5233
+    },
+    {
+      "digest": "ea3ce9e218176fa78790cd37b8a6ff01d7f6b2bd3cb282bd5d2d0b91a44822c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/claude-api/tool-use.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/claude-api/tool-use.md",
+      "size": 16933
+    },
+    {
+      "digest": "008a5c11226dc071c110b84b75177540d9bb9a58ef15994b3a784d3db1722200",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/python/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/python/managed-agents/README.md",
+      "size": 9815
+    },
+    {
+      "digest": "91819394c0c6929a2612ea9ba28d3843d31b9938be6f6eba08ffe5169740d0c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/ruby/claude-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/ruby/claude-api.md",
+      "size": 2935
+    },
+    {
+      "digest": "0ecda024060a4d229a98843566144a7b8bca3ad665423f9b17989fc669f17946",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/ruby/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/ruby/managed-agents/README.md",
+      "size": 10175
+    },
+    {
+      "digest": "4801b81580e1251c0df809da9647b05b6e30513014f439f814caccfb7750e8a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/agent-design.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/agent-design.md",
+      "size": 8335
+    },
+    {
+      "digest": "fbfefc37fe4a89bc4af3ffc6bf204c4163297f115827a937e8ce2ad093ff0988",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/error-codes.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/error-codes.md",
+      "size": 7703
+    },
+    {
+      "digest": "377a6774ca00191e114aeff763bfc5c36871122452a5d9ba40e44a128e861096",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/live-sources.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/live-sources.md",
+      "size": 16632
+    },
+    {
+      "digest": "787fe7c4edf3fdddce3d6f5f4e08f690a4e1c9a5936020788aa2d73f29513100",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-api-reference.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-api-reference.md",
+      "size": 23782
+    },
+    {
+      "digest": "8fff1efb9c21f214a5597586b24e42c74ba680a4e90a98d6c291df1eaa880a64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-client-patterns.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-client-patterns.md",
+      "size": 9403
+    },
+    {
+      "digest": "c4c9bca6bb8f0ca4e9dfeb7802a63d394bf292a01dc72b3ba4dea141e9bf86bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-core.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-core.md",
+      "size": 13135
+    },
+    {
+      "digest": "7524862b02fc0c49c98ee46e800029491c5af2cac9abcd4369bbff322e512a1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-environments.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-environments.md",
+      "size": 10700
+    },
+    {
+      "digest": "925de73f0b239811fa220462ecd621a579f8fef3b24fa90bc0e1b354e537f154",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-events.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-events.md",
+      "size": 9663
+    },
+    {
+      "digest": "1c2825364115ccf9d0a779447336764ebbaaf875f79c2a064075ca9235d16c16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-memory.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-memory.md",
+      "size": 9583
+    },
+    {
+      "digest": "febbd902aeae3e7763cdb84df04d35d2b954c0c935f840dec36f9db5e1d36fae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-multiagent.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-multiagent.md",
+      "size": 6544
+    },
+    {
+      "digest": "3936f4af7922a160042e221c6c1caf079acf4d7b21b44c2be0cae693310afb39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-onboarding.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-onboarding.md",
+      "size": 8135
+    },
+    {
+      "digest": "bf195965dca27a07a996c66df16ccb62c745dd000039f1f364b8a4e75dd73b96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-outcomes.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-outcomes.md",
+      "size": 6140
+    },
+    {
+      "digest": "b2a92a7a156082592ec00ba5c9f6c8b2d753301744c8a4d7486bb1313b54e75e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-overview.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-overview.md",
+      "size": 9219
+    },
+    {
+      "digest": "ac586e9b199c2df2d30daba86980d1c21ebb0f61dd99b7cc2727596ca214af6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-tools.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-tools.md",
+      "size": 13496
+    },
+    {
+      "digest": "6fa05e6f8ae950e164d06990de1b3f69ddc7cbc744e404a32ffd7f556ac8f64e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/managed-agents-webhooks.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/managed-agents-webhooks.md",
+      "size": 5051
+    },
+    {
+      "digest": "769f3c4bf7debc03ca349e858d1e0652c28d51dbb956bd2d56c14eaa6a69acaa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/model-migration.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/model-migration.md",
+      "size": 65577
+    },
+    {
+      "digest": "0d08f60e064e104d537d66181e50c692343fbd3a4a19cd9946ff0bb557709dcc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/models.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/models.md",
+      "size": 7560
+    },
+    {
+      "digest": "1ed4b531b10dfb65b85e967045c7ed704dd36b2113a8c5b4f94d2ed0631891e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/prompt-caching.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/prompt-caching.md",
+      "size": 9783
+    },
+    {
+      "digest": "1f4f1c4e0a87d911139ebf01b4d5f97839df327e22abd0e8d0854acadeff77fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/shared/tool-use-concepts.md",
+      "path": "cli-tool/components/skills/development/claude-api/shared/tool-use-concepts.md",
+      "size": 16743
+    },
+    {
+      "digest": "8b887efb720def6c51303d169e79ae94b6d78f8bbf81c66791543c77329f39c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/agent-sdk/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/agent-sdk/README.md",
+      "size": 10834
+    },
+    {
+      "digest": "8a47275106399f7274ff5db2978a8ea7addb1ac5d81086abebd42a5a620c7619",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/agent-sdk/patterns.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/agent-sdk/patterns.md",
+      "size": 4711
+    },
+    {
+      "digest": "b6a7db2c213419a4bba7217642b51ecd4655a1b59d2aa29a36dd861ac1611bb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/claude-api/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/claude-api/README.md",
+      "size": 9920
+    },
+    {
+      "digest": "706af0ee8c62f45cc9696bbe7cc81a35f6df636c3a877215864b32c418a3e136",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/claude-api/batches.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/claude-api/batches.md",
+      "size": 2596
+    },
+    {
+      "digest": "8b43d5583490d5bf340e48acee0c4fb5fb43b7da00fe3c41c93e2048eab595fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/claude-api/files-api.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/claude-api/files-api.md",
+      "size": 2261
+    },
+    {
+      "digest": "92813bdc545b87599c04853cbd4a2f5204693f8cc07996be9b6570e2a662cad5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/claude-api/streaming.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/claude-api/streaming.md",
+      "size": 5596
+    },
+    {
+      "digest": "636e5ad9826aef67fea9e2aea86ae48cfa54532eedaa37171dc1f9d401469f11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/claude-api/tool-use.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/claude-api/tool-use.md",
+      "size": 15358
+    },
+    {
+      "digest": "45f7466eaf2c110969bd584a51f580245c088739d7b02c986db19a2874a000dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-claude-api/skills/claude-api/typescript/managed-agents/README.md",
+      "path": "cli-tool/components/skills/development/claude-api/typescript/managed-agents/README.md",
+      "size": 9384
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "b071805f1c23097f4ccf8c91c88f399aff074d498ac4abf15c0f84443d620252",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/claude-api",
+  "schema_version": 1
+}

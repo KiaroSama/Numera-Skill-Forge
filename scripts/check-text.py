@@ -12,6 +12,9 @@ for name in filter(None, paths):
     path = Path(name)
     if path.parts[0] in blocked or path.name in {"secrets.md", "explain-AI.md"}:
         raise SystemExit("Protected content was included in tracked output")
+    # Exact upstream payloads are byte-verified separately, including fonts/media and legacy text.
+    if path.parts[0] == "packages":
+        continue
     if path.suffix.lower() not in binary:
         (root / path).read_text(encoding="utf-8", errors="strict")
 print("Tracked text is UTF-8; publication exclusions passed")

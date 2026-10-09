@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/LICENSE.txt",
+      "path": "cli-tool/components/skills/document-processing/doc/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "dbc4d8980fb0c7fa2866efd1cb70fd6d6c68e574d26c6cdaac28f2c57d7c22d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/doc/SKILL.md",
+      "size": 3003
+    },
+    {
+      "digest": "b77d452b23dfa0bef7788728317254f07bddcd5f2be1d6678d5c3cf754b833ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/agents/openai.yaml",
+      "path": "cli-tool/components/skills/document-processing/doc/agents/openai.yaml",
+      "size": 271
+    },
+    {
+      "digest": "bd5415fbbfe72c66c1527411d61625731fdd2f75b25d1542510b6ddef699ebe0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/assets/doc-small.svg",
+      "path": "cli-tool/components/skills/document-processing/doc/assets/doc-small.svg",
+      "size": 1678
+    },
+    {
+      "digest": "7eadf1088e5062f681dba6596173a1df13bbfbcddd8a8a9bb78fd2071947dcf8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/assets/doc.png",
+      "path": "cli-tool/components/skills/document-processing/doc/assets/doc.png",
+      "size": 1211
+    },
+    {
+      "digest": "52b3c3158913ebcad2ada7b8193970b70453239e255054aa2d60c1683af08751",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-document-processing-doc/skills/doc/scripts/render_docx.py",
+      "path": "cli-tool/components/skills/document-processing/doc/scripts/render_docx.py",
+      "size": 9700
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "41ff63f632775db73f8889b70d7d593f0059c125a5dd82255177fe25f7ad2a14",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/document-processing/doc",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/LICENSE.txt",
+      "path": "cli-tool/components/skills/media/transcribe/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "f3e367d6de4ea36a9e7ef500580c77cd4043ed5aa6f3a678c1cccd797d67ab21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/SKILL.md",
+      "path": "cli-tool/components/skills/media/transcribe/SKILL.md",
+      "size": 2849
+    },
+    {
+      "digest": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/agents/openai.yaml",
+      "path": "cli-tool/components/skills/media/transcribe/agents/openai.yaml",
+      "size": 414
+    },
+    {
+      "digest": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/assets/transcribe-small.svg",
+      "path": "cli-tool/components/skills/media/transcribe/assets/transcribe-small.svg",
+      "size": 750
+    },
+    {
+      "digest": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/assets/transcribe.png",
+      "path": "cli-tool/components/skills/media/transcribe/assets/transcribe.png",
+      "size": 1288
+    },
+    {
+      "digest": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/references/api.md",
+      "path": "cli-tool/components/skills/media/transcribe/references/api.md",
+      "size": 457
+    },
+    {
+      "digest": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-transcribe/skills/transcribe/scripts/transcribe_diarize.py",
+      "path": "cli-tool/components/skills/media/transcribe/scripts/transcribe_diarize.py",
+      "size": 8684
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "c852da458d4172590a2f323d7718a7471b07252e8099464a2f2ce1b7165b1be6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/media/transcribe",
+  "schema_version": 1
+}

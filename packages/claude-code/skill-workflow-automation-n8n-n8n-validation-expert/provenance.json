@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "b540a4b9aa46b8990d9cc0611282df84ee0d6524f15a015d9fc0af9d402a43f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/skills/n8n-validation-expert/ERROR_CATALOG.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert/ERROR_CATALOG.md",
+      "size": 17237
+    },
+    {
+      "digest": "70cbba01dde27e4a5f5fb6b7c3efb5b9199c9700b0cf593578f01f0a035fb972",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/skills/n8n-validation-expert/FALSE_POSITIVES.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert/FALSE_POSITIVES.md",
+      "size": 14753
+    },
+    {
+      "digest": "a31a4f2d77e9910cc14c6931a9c7e67ffaf4c2097bce5b137f69503d8f4b96be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/skills/n8n-validation-expert/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert/README.md",
+      "size": 7956
+    },
+    {
+      "digest": "c81ab6e44d8b69cd7edf198014839d838a30bffb2706df5e41ce60bda3bc7209",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert/skills/n8n-validation-expert/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert/SKILL.md",
+      "size": 14656
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2a903fb04c46fd5d2ef4da61ff7564a914bf5198f0d5a9c8f07661556f323227",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert",
+  "schema_version": 1
+}

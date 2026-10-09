@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-brand-guidelines/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-brand-guidelines/skills/brand-guidelines/LICENSE.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/brand-guidelines/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-brand-guidelines/skills/brand-guidelines/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/brand-guidelines/SKILL.md",
+      "size": 2235
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "62b8d5ac4266c03180a2d37653020422624858a187b30a47bb893e3abbb42594",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/brand-guidelines",
+  "schema_version": 1
+}

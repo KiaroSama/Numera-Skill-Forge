@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-design-to-code/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "30e7f6be00930fa149d26d7435b9e1f89143c677fada481a215db606d43bb244",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-design-to-code/skills/design-to-code/LICENSE.txt",
+      "path": "cli-tool/components/skills/design-to-code/LICENSE.txt",
+      "size": 10880
+    },
+    {
+      "digest": "6c788e228329e24213181421fcb45d03dc2af8ccebeedab684bbf7545ef641cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-design-to-code/skills/design-to-code/SKILL.md",
+      "path": "cli-tool/components/skills/design-to-code/SKILL.md",
+      "size": 4976
+    },
+    {
+      "digest": "e48f436427fc2400e7d908c012ac12c074c90da27e555a9f4c7727c7a9de946c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-design-to-code/skills/design-to-code/scripts/coderio-skill.mjs",
+      "path": "cli-tool/components/skills/design-to-code/scripts/coderio-skill.mjs",
+      "size": 13059
+    },
+    {
+      "digest": "63675a902cf5da1b141e29e9ec20f0dc44cc1c7c22caa4da0299ca59bf4e7baa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-design-to-code/skills/design-to-code/scripts/package.json",
+      "path": "cli-tool/components/skills/design-to-code/scripts/package.json",
+      "size": 122
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "c391b53577b5e90e6ca948503f5cced7373a2e56cc9aaee2b8cdd6db068ae2b2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/design-to-code",
+  "schema_version": 1
+}

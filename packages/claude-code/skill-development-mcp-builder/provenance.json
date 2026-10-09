@@ -1,0 +1,89 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/mcp-builder/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/SKILL.md",
+      "path": "cli-tool/components/skills/development/mcp-builder/SKILL.md",
+      "size": 9092
+    },
+    {
+      "digest": "5b9374ad34e6ff036b3c6193fdfd1244e5fe877a509eb15029b7ce107739e1dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/reference/evaluation.md",
+      "path": "cli-tool/components/skills/development/mcp-builder/reference/evaluation.md",
+      "size": 21643
+    },
+    {
+      "digest": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/reference/mcp_best_practices.md",
+      "path": "cli-tool/components/skills/development/mcp-builder/reference/mcp_best_practices.md",
+      "size": 7330
+    },
+    {
+      "digest": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/reference/node_mcp_server.md",
+      "path": "cli-tool/components/skills/development/mcp-builder/reference/node_mcp_server.md",
+      "size": 28550
+    },
+    {
+      "digest": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/reference/python_mcp_server.md",
+      "path": "cli-tool/components/skills/development/mcp-builder/reference/python_mcp_server.md",
+      "size": 25099
+    },
+    {
+      "digest": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/scripts/connections.py",
+      "path": "cli-tool/components/skills/development/mcp-builder/scripts/connections.py",
+      "size": 4875
+    },
+    {
+      "digest": "2ad41a3ec3572803f07bbcbf856a4e781f6e967f228afd20e69ca81984183c6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/scripts/evaluation.py",
+      "path": "cli-tool/components/skills/development/mcp-builder/scripts/evaluation.py",
+      "size": 12543
+    },
+    {
+      "digest": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/scripts/example_evaluation.xml",
+      "path": "cli-tool/components/skills/development/mcp-builder/scripts/example_evaluation.xml",
+      "size": 1194
+    },
+    {
+      "digest": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-builder/skills/mcp-builder/scripts/requirements.txt",
+      "path": "cli-tool/components/skills/development/mcp-builder/scripts/requirements.txt",
+      "size": 29
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "1c2c23d212fa648bef5e3720d1cea3153bb4bc5b7e4cc4c1d3497197228ca964",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/mcp-builder",
+  "schema_version": 1
+}

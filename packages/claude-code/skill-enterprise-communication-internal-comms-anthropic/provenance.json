@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/LICENSE.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/LICENSE.txt",
+      "size": 11357
+    },
+    {
+      "digest": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/SKILL.md",
+      "size": 1511
+    },
+    {
+      "digest": "087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/examples/3p-updates.md",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/examples/3p-updates.md",
+      "size": 3274
+    },
+    {
+      "digest": "30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/examples/company-newsletter.md",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/examples/company-newsletter.md",
+      "size": 3295
+    },
+    {
+      "digest": "5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/examples/faq-answers.md",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/examples/faq-answers.md",
+      "size": 2366
+    },
+    {
+      "digest": "4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-internal-comms-anthropic/skills/internal-comms/examples/general-comms.md",
+      "path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/examples/general-comms.md",
+      "size": 602
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8607ffab363bd681512219dae0e4f030967b1c13772c3cecc877f75845c770b7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+  "schema_version": 1
+}

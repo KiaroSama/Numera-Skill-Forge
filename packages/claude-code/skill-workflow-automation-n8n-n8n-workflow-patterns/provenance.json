@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "740f79ed14c84085d1ab9c0a6f28b884b54f4f8876ebac8d7ec37533894ce945",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/README.md",
+      "size": 7004
+    },
+    {
+      "digest": "ce0840ef2c5f3f2cc2a09379ce383ae5390a147f64660aafcf8a65817f7e0c43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/SKILL.md",
+      "size": 11484
+    },
+    {
+      "digest": "44d01cee54f60c6d53420a7adc4f332ae35daad7dc749ecaf3bd684b97279c64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/ai_agent_workflow.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/ai_agent_workflow.md",
+      "size": 17512
+    },
+    {
+      "digest": "bce26745af0c0d59f8cb8e20a8835eaf3886e99b4ccac253445e6c072202f4ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/database_operations.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/database_operations.md",
+      "size": 16132
+    },
+    {
+      "digest": "d89908c0a1770df284c6c7399f31e51d762acd408d9d0c911c1df5d6d752ebeb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/http_api_integration.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/http_api_integration.md",
+      "size": 14672
+    },
+    {
+      "digest": "eadb6038043be2417d4ebd6e4031937e97c53f9ac37dc771bc3466ec79d15c58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/scheduled_tasks.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/scheduled_tasks.md",
+      "size": 15897
+    },
+    {
+      "digest": "03174d27d0e25884c3171de8dff99927932e64ed93a9520625a960800742770d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns/skills/n8n-workflow-patterns/webhook_processing.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns/webhook_processing.md",
+      "size": 11789
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d437e15df0850d82a50c87aac841f98700b4525c59434c1b71b475d34a16a6e0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+  "schema_version": 1
+}

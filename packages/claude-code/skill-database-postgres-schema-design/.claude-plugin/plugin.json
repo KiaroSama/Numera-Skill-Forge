@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/database/postgres-schema-design",
+  "license": "Apache-2.0",
+  "name": "skill-database-postgres-schema-design",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/LICENSE.txt",
+      "size": 11357
+    },
+    {
+      "digest": "b1ae6054a8f0859c8cb6ad4dbac1b8b0b82207125e649287de1e72e6dde0910f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/SKILL.md",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/SKILL.md",
+      "size": 17844
+    },
+    {
+      "digest": "d6027800b9d8c26589edba85b42901a41ac36d753b4e9cebc7f4cbb03cdcf0a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/references/output-patterns.md",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/references/output-patterns.md",
+      "size": 1813
+    },
+    {
+      "digest": "ef4846877d5dab47511a01a6cf31476ad64f5bc5945635459295794575338980",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/references/workflows.md",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/references/workflows.md",
+      "size": 818
+    },
+    {
+      "digest": "0bba250b94caa4cb2b28b15dad26fdcf371aeda4c9797b8120e55c2e33e0c73c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/scripts/init_skill.py",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/scripts/init_skill.py",
+      "size": 10863
+    },
+    {
+      "digest": "b31fbcb3e362d5c5308e99255ff8e83cde3a513e0636953964a648494ca10931",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/scripts/package_skill.py",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/scripts/package_skill.py",
+      "size": 3288
+    },
+    {
+      "digest": "381ab2d3d1fd5ec32371016413063eff99d0d48c415747085c61517e967dbb87",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-skill-creation-guide/skills/skill-creation-guide/scripts/quick_validate.py",
+      "path": "cli-tool/components/skills/development/skill-creation-guide/scripts/quick_validate.py",
+      "size": 3523
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "099074a7e15fe088f51cf37ff955a0dfa2db558b90cfec26bb62416642b625b8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/skill-creation-guide",
+  "schema_version": 1
+}

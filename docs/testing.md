@@ -20,3 +20,17 @@ PID subsequently inspected and already exited. That run is not final green verif
 exact-SHA CI evidence and native artifact launch evidence must be checked before completion.
 All real native harness load tests and cross-platform packaged GUI smoke paths remain unverified
 until explicitly recorded; a listed profile is static contract evidence only.
+
+## Skill collection contracts
+
+Collection fixtures exercise exact original companion scripts without execution, metadata modes,
+idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
+and user-edit refusal. The real approved source import independently matched2082payload blobs from65
+plugins against upstream Git SHA-1;80executable Git modes recorded. No source runtime tests were run.
+CI `scripts/verify-collections.py` verifies copied raw bytes, staged metadata, complete selected roots
+and native marketplace entries. This complements native `claude plugin validate`, not host load proof.
+
+`scripts/check-launchers.ps1` is an isolated first-party Git fixture: alternate CWD, launcher apply/
+verify, unrelated-change refusal, raw blob/mode staging and no-op. It never pushes, invokes imported
+scripts or installs extensions. CI owns the three-OS final pass; three-minute bound, no parallel shared
+fixture. Binary assets remain exact original bytes and are validated separately from UTF-8 project text.

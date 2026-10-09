@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/LICENSE.txt",
+      "path": "cli-tool/components/skills/media/screenshot/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "62df28b6d74fa8c86bb8f51a432d6686364edec39ae98441923bdce5351040ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/SKILL.md",
+      "path": "cli-tool/components/skills/media/screenshot/SKILL.md",
+      "size": 7769
+    },
+    {
+      "digest": "f29638eb930e27d44846474620b0d817b4b77fb5d09caf27db269463ae45cfa8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/agents/openai.yaml",
+      "path": "cli-tool/components/skills/media/screenshot/agents/openai.yaml",
+      "size": 273
+    },
+    {
+      "digest": "b0ff24097dfcd889504fab312a0e20d1d79dde0745268647a8cc2471b4baf794",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/assets/screenshot-small.svg",
+      "path": "cli-tool/components/skills/media/screenshot/assets/screenshot-small.svg",
+      "size": 1019
+    },
+    {
+      "digest": "4ff96a476f2a2ac4ca7b626f9d4b78a7aa8cce0219e0688c5f15355513b61b5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/assets/screenshot.png",
+      "path": "cli-tool/components/skills/media/screenshot/assets/screenshot.png",
+      "size": 860
+    },
+    {
+      "digest": "9aa750f1e9592519d6c18b966fd65c1d4108c25bd3471ce625dfafd784856d7f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/ensure_macos_permissions.sh",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/ensure_macos_permissions.sh",
+      "size": 1702
+    },
+    {
+      "digest": "0969cfef9c9890c82cae5ad75a6cd40fd56d33b28f27347642ef5e837f18b042",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/macos_display_info.swift",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/macos_display_info.swift",
+      "size": 482
+    },
+    {
+      "digest": "cf110651350e50d600268f0a1a892ac8d662505474b4455cdfde2ac5b5f4aca6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/macos_permissions.swift",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/macos_permissions.swift",
+      "size": 929
+    },
+    {
+      "digest": "c7faff7913d6072284b7ef1e5d26c524ab861ad32afc0c066f24ba95ae3f3597",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/macos_window_info.swift",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/macos_window_info.swift",
+      "size": 3595
+    },
+    {
+      "digest": "a31a2242e41fd1c5471651afbcced660f98fbc884f11e531218348f700a3f826",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/take_screenshot.ps1",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/take_screenshot.ps1",
+      "size": 4947
+    },
+    {
+      "digest": "56eeabe2dac5d23915b9a0fb57a07431fad2d310c5444f60f71f09299899232b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-screenshot/skills/screenshot/scripts/take_screenshot.py",
+      "path": "cli-tool/components/skills/media/screenshot/scripts/take_screenshot.py",
+      "size": 19659
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "9afa553f395463c034f936eeddeb8c8f9015603d9d35e75292c308081aec5737",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/media/screenshot",
+  "schema_version": 1
+}

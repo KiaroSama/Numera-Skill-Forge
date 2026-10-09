@@ -1,0 +1,103 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "3b4e638d8c475c27fb1a53af8ad30af4c24704629cf7f555b41293185ad16d9a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/SKILL.md",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/SKILL.md",
+      "size": 4169
+    },
+    {
+      "digest": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/agents/openai.yaml",
+      "size": 325
+    },
+    {
+      "digest": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/assets/experiment-template.ipynb",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/assets/experiment-template.ipynb",
+      "size": 2570
+    },
+    {
+      "digest": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/assets/jupyter-small.svg",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/assets/jupyter-small.svg",
+      "size": 1043
+    },
+    {
+      "digest": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/assets/jupyter.png",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/assets/jupyter.png",
+      "size": 2713
+    },
+    {
+      "digest": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/assets/tutorial-template.ipynb",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/assets/tutorial-template.ipynb",
+      "size": 2490
+    },
+    {
+      "digest": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/references/experiment-patterns.md",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/references/experiment-patterns.md",
+      "size": 699
+    },
+    {
+      "digest": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/references/notebook-structure.md",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/references/notebook-structure.md",
+      "size": 751
+    },
+    {
+      "digest": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/references/quality-checklist.md",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/references/quality-checklist.md",
+      "size": 572
+    },
+    {
+      "digest": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/references/tutorial-patterns.md",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/references/tutorial-patterns.md",
+      "size": 685
+    },
+    {
+      "digest": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-jupyter-notebook/skills/jupyter-notebook/scripts/new_notebook.py",
+      "path": "cli-tool/components/skills/development/jupyter-notebook/scripts/new_notebook.py",
+      "size": 4086
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "d4b40b834de71d358732783e2ccc21bd0b2986e3af25af74d10e60065a117f03",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/jupyter-notebook",
+  "schema_version": 1
+}

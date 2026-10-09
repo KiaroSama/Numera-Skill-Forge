@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/skills/web-artifacts-builder/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/web-artifacts-builder/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/skills/web-artifacts-builder/SKILL.md",
+      "path": "cli-tool/components/skills/development/web-artifacts-builder/SKILL.md",
+      "size": 3087
+    },
+    {
+      "digest": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/skills/web-artifacts-builder/scripts/bundle-artifact.sh",
+      "path": "cli-tool/components/skills/development/web-artifacts-builder/scripts/bundle-artifact.sh",
+      "size": 1517
+    },
+    {
+      "digest": "355e5dd4382aaaee91f01f1627eaeab30b2676ffa8d9b3ec328a1ae450ebccaa",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/skills/web-artifacts-builder/scripts/init-artifact.sh",
+      "path": "cli-tool/components/skills/development/web-artifacts-builder/scripts/init-artifact.sh",
+      "size": 9924
+    },
+    {
+      "digest": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-artifacts-builder/skills/web-artifacts-builder/scripts/shadcn-components.tar.gz",
+      "path": "cli-tool/components/skills/development/web-artifacts-builder/scripts/shadcn-components.tar.gz",
+      "size": 19967
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "520c4f86ccfe14d01d844978f95be340274b01267df06abfebe4cbc9204b9273",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/web-artifacts-builder",
+  "schema_version": 1
+}

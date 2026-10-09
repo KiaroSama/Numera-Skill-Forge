@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-brand-guidelines-community/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-brand-guidelines-community/skills/brand-guidelines/LICENSE.txt",
+      "path": "cli-tool/components/skills/business-marketing/brand-guidelines-community/LICENSE.txt",
+      "size": 11357
+    },
+    {
+      "digest": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-brand-guidelines-community/skills/brand-guidelines/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/brand-guidelines-community/SKILL.md",
+      "size": 2235
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "54462df0436656411eba8a40fdfd55d2f3664a540359bf5ef883a6619f81fa1c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/brand-guidelines-community",
+  "schema_version": 1
+}

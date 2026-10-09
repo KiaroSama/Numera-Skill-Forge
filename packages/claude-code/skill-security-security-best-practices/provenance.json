@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/LICENSE.txt",
+      "path": "cli-tool/components/skills/security/security-best-practices/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "93222336cbb0e6745f95ce8ca0e2095f7fcdc7fb062d8e4cf0ecb38fa01fe75b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/SKILL.md",
+      "size": 8627
+    },
+    {
+      "digest": "6e9c6f2edce448eb2b589f81ad6e3f722665021785513bcbfd0bf7b86b529171",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/agents/openai.yaml",
+      "path": "cli-tool/components/skills/security/security-best-practices/agents/openai.yaml",
+      "size": 237
+    },
+    {
+      "digest": "a73c47c34497b120672d48411fe51dc90d426a571801a0b3f649e2ce4ec658b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/golang-general-backend-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/golang-general-backend-security.md",
+      "size": 38659
+    },
+    {
+      "digest": "427835cbb5be7ba96172ea6ca9af80ddd4419c833e9ebf870996740c80d8406c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-express-web-server-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-express-web-server-security.md",
+      "size": 49357
+    },
+    {
+      "digest": "3a7bc7b3f6e7ff043db9dbaa8933894d7a19d987d0607e4ddae5d70184a63d63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-general-web-frontend-security.md",
+      "size": 38638
+    },
+    {
+      "digest": "bcbad2fa6c2a02709e47e889e70102c76886bf36bc798624d27db570eccf40da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-jquery-web-frontend-security.md",
+      "size": 33581
+    },
+    {
+      "digest": "71c773f7a97ce60c853adfa100b3d88b3b7bc4c6b8acaef1432ffabd923ee182",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-typescript-nextjs-web-server-security.md",
+      "size": 43423
+    },
+    {
+      "digest": "d3030c0f24bddb56b9bbb91bbec1ee49eb7778bce4d3e0297b2641b2fc6b0d9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-typescript-react-web-frontend-security.md",
+      "size": 41686
+    },
+    {
+      "digest": "77c6a747f9f17e3df03aad0fcb20d99ac7898001b81aef8b80908e45ac14a688",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/javascript-typescript-vue-web-frontend-security.md",
+      "size": 31445
+    },
+    {
+      "digest": "4fb69b5d45f10e588d1a8c35cdc5f59e18910f6b46a93e2d342d90f286f8dfd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/python-django-web-server-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/python-django-web-server-security.md",
+      "size": 38661
+    },
+    {
+      "digest": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/python-fastapi-web-server-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/python-fastapi-web-server-security.md",
+      "size": 44926
+    },
+    {
+      "digest": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-best-practices/skills/security-best-practices/references/python-flask-web-server-security.md",
+      "path": "cli-tool/components/skills/security/security-best-practices/references/python-flask-web-server-security.md",
+      "size": 31748
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "1121fe9bb83a020f5ec26de08acecc33bd1123e5e699a5511f907e1719c636ac",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/security-best-practices",
+  "schema_version": 1
+}

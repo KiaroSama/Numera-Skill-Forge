@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/think-tank",
+  "license": "MIT",
+  "name": "skill-productivity-think-tank",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

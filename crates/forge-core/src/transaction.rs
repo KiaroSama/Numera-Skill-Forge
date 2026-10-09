@@ -49,6 +49,10 @@ enum Payload {
 }
 #[derive(Serialize, Deserialize)]
 struct StoredChange {
+    #[serde(default)]
+    before_mode: Option<u32>,
+    #[serde(default)]
+    after_mode: Option<u32>,
     path: String,
     before: Option<Payload>,
     after: Option<Payload>,
@@ -118,6 +122,8 @@ fn load_payload(workspace: &Path, payload: &Option<Payload>) -> Result<Option<Ve
 }
 fn store_change(workspace: &Path, change: Change) -> Result<StoredChange> {
     Ok(StoredChange {
+        before_mode: None,
+        after_mode: None,
         path: change.path,
         before: store_payload(workspace, change.before)?,
         after: store_payload(workspace, change.after)?,
@@ -132,7 +138,7 @@ fn load_change(workspace: &Path, change: &StoredChange) -> Result<Change> {
 }
 
 pub fn apply(workspace: &Path, destination: &Path, changes: Vec<Change>) -> Result<String> {
-    apply_operation(workspace, destination, &operation_id(), changes, None)
+    apply_operation(workspace, destination, &operation_id(), changes, None, &[])
 }
 pub fn apply_with_receipt(
     workspace: &Path,
@@ -141,7 +147,22 @@ pub fn apply_with_receipt(
     changes: Vec<Change>,
     receipt: Change,
 ) -> Result<String> {
-    apply_operation(workspace, destination, id, changes, Some(receipt))
+    apply_operation(workspace, destination, id, changes, Some(receipt), &[])
+}
+pub fn apply_modes(
+    workspace: &Path,
+    destination: &Path,
+    changes: Vec<Change>,
+    modes: &[(String, Option<u32>, Option<u32>)],
+) -> Result<String> {
+    apply_operation(
+        workspace,
+        destination,
+        &operation_id(),
+        changes,
+        None,
+        modes,
+    )
 }
 fn apply_operation(
     workspace: &Path,
@@ -149,6 +170,7 @@ fn apply_operation(
     id: &str,
     changes: Vec<Change>,
     receipt: Option<Change>,
+    modes: &[(String, Option<u32>, Option<u32>)],
 ) -> Result<String> {
     validation::reject_link(destination)?;
     let path = journal_path(workspace, id)?;
@@ -198,6 +220,15 @@ fn apply_operation(
             .collect::<Result<_>>()?,
         receipt: receipt.map(|c| store_change(workspace, c)).transpose()?,
     };
+    for (name, before, after) in modes {
+        let change = journal
+            .changes
+            .iter_mut()
+            .find(|c| &c.path == name)
+            .ok_or_else(|| Error::new("mode", "Mode change requires journal payload"))?;
+        change.before_mode = *before;
+        change.after_mode = *after;
+    }
     // Reserve the longest state name before any destination changes are possible.
     journal.state = "recovery-required".into();
     if storage::encoded(&journal)?.len() as u64 > storage::MAX_FILE {
@@ -212,10 +243,10 @@ fn apply_operation(
     storage::write(&path, &journal)?;
     let outcome = (|| -> Result<()> {
         for change in &journal.changes {
-            set(destination, &load_change(workspace, change)?, true)?;
+            set_stored(workspace, destination, change, true)?;
         }
         if let Some(change) = &journal.receipt {
-            set(workspace, &load_change(workspace, change)?, true)?;
+            set_stored(workspace, workspace, change, true)?;
         }
         Ok(())
     })();
@@ -261,6 +292,51 @@ fn set(root: &Path, c: &Change, forward: bool) -> Result<()> {
             Ok(())
         }
     }
+}
+fn mode_matches(root: &Path, relative: &str, expected: Option<u32>) -> Result<bool> {
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        if let Some(mode) = expected {
+            let path = validation::contained(root, relative)?;
+            return Ok(!path.exists() || fs::metadata(path)?.permissions().mode() & 0o777 == mode);
+        }
+    }
+    let _ = (root, relative, expected);
+    Ok(true)
+}
+fn set_stored(workspace: &Path, root: &Path, stored: &StoredChange, forward: bool) -> Result<()> {
+    let c = load_change(workspace, stored)?;
+    let expected_mode = if forward {
+        stored.before_mode
+    } else {
+        stored.after_mode
+    };
+    if !mode_matches(root, &c.path, expected_mode)?
+        && !(!forward && mode_matches(root, &c.path, stored.before_mode)?)
+    {
+        return Err(Error::new(
+            "mode-conflict",
+            "Executable metadata changed concurrently",
+        ));
+    }
+    set(root, &c, forward)?;
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        let mode = if forward {
+            stored.after_mode
+        } else {
+            stored.before_mode
+        };
+        if let Some(mode) = mode {
+            let path = validation::contained(root, &c.path)?;
+            if path.exists() {
+                fs::set_permissions(path, fs::Permissions::from_mode(mode))?;
+            }
+        }
+    }
+    Ok(())
 }
 pub fn rollback(workspace: &Path, id: &str) -> Result<()> {
     let path = journal_path(workspace, id)?;
@@ -316,8 +392,9 @@ fn compensate(workspace: &Path, journal: &StoredJournal) -> Result<()> {
             .map(|c| (journal.destination.as_path(), c)),
     ) {
         let c = load_change(workspace, stored)?;
-        if current(root, &c.path)? != c.before {
-            set(root, &c, false)?;
+        if current(root, &c.path)? != c.before || !mode_matches(root, &c.path, stored.before_mode)?
+        {
+            set_stored(workspace, root, stored, false)?;
         }
     }
     Ok(())

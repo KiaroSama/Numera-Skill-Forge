@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/LICENSE.txt",
+      "path": "cli-tool/components/skills/creative-design/figma/LICENSE.txt",
+      "size": 11358
+    },
+    {
+      "digest": "4c84671256a1973075ad4288ea38013e09c906e911201927e885bb44b5fd1c43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/figma/SKILL.md",
+      "size": 3185
+    },
+    {
+      "digest": "4b732040f73a28c7ab36c1e3417f09fb6cc7558b6d258222c62e90d882104b0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/agents/openai.yaml",
+      "path": "cli-tool/components/skills/creative-design/figma/agents/openai.yaml",
+      "size": 460
+    },
+    {
+      "digest": "c933768c03dff033b55d8e3cdabd0ba63efa9d68bd0db346a454b4b7286a2564",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/assets/figma-small.svg",
+      "path": "cli-tool/components/skills/creative-design/figma/assets/figma-small.svg",
+      "size": 810
+    },
+    {
+      "digest": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/assets/figma.png",
+      "path": "cli-tool/components/skills/creative-design/figma/assets/figma.png",
+      "size": 1612
+    },
+    {
+      "digest": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/assets/icon.svg",
+      "path": "cli-tool/components/skills/creative-design/figma/assets/icon.svg",
+      "size": 964
+    },
+    {
+      "digest": "3b8bbd016e7cecfe01d096791582da8c9669c18675ec3f201d0d4088051711a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/references/figma-mcp-config.md",
+      "path": "cli-tool/components/skills/creative-design/figma/references/figma-mcp-config.md",
+      "size": 2471
+    },
+    {
+      "digest": "428add063f235ffe27fb4b8d092558794f25f7ad69893d5a88621d8174e9c8d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-figma/skills/figma/references/figma-tools-and-prompts.md",
+      "path": "cli-tool/components/skills/creative-design/figma/references/figma-tools-and-prompts.md",
+      "size": 2796
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "990a6dd4c4d6195f5a2e761a3d5ee24b431532023962434f9ff2c07358ea1dbb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/figma",
+  "schema_version": 1
+}

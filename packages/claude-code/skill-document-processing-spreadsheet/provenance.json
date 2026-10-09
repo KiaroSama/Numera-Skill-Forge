@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/LICENSE.txt",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "528e6d9a768ea5eddc845bf3a45a98c5ae22ac6ba05e4a3dec643bd5b5eb7522",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/SKILL.md",
+      "size": 5096
+    },
+    {
+      "digest": "356498c8144c8b657b5f032ae87b7d889a3eeaf13ed408fa2de43a2cc177a63a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/agents/openai.yaml",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/agents/openai.yaml",
+      "size": 349
+    },
+    {
+      "digest": "ce9fa495e1a24033cc78e31f397102a8a93d11fe172c3f1a8c1190a1cee21ae7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/assets/spreadsheet-small.svg",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/assets/spreadsheet-small.svg",
+      "size": 1482
+    },
+    {
+      "digest": "a5771930cd28ff46e6ed53aa8a08a25902ed71178d1cac642c178f659638d7aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/assets/spreadsheet.png",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/assets/spreadsheet.png",
+      "size": 3077
+    },
+    {
+      "digest": "7c291b6230c9809145c8f7f216fd2b7d099b16b89d3fae0ab4d5a3d990c05418",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/references/examples/openpyxl/create_basic_spreadsheet.py",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/references/examples/openpyxl/create_basic_spreadsheet.py",
+      "size": 1456
+    },
+    {
+      "digest": "fbfd41b9eca17f0f274f4ce7bd8ead6bc9292d764fe3bc325a1fca57dbe954ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/references/examples/openpyxl/create_spreadsheet_with_styling.py",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/references/examples/openpyxl/create_spreadsheet_with_styling.py",
+      "size": 3180
+    },
+    {
+      "digest": "cf2f24d90174d92bd9044e95035ab4cf2e34a5faa355a2fa1898e49088e9ad02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/references/examples/openpyxl/read_existing_spreadsheet.py",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/references/examples/openpyxl/read_existing_spreadsheet.py",
+      "size": 1622
+    },
+    {
+      "digest": "5427ca11beb2b408a5dede6af1fa868fa131ad2a435d40bb88e52c4a8de7bc67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-spreadsheet/skills/spreadsheet/references/examples/openpyxl/styling_spreadsheet.py",
+      "path": "cli-tool/components/skills/document-processing/spreadsheet/references/examples/openpyxl/styling_spreadsheet.py",
+      "size": 1998
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "5c1477c957a88407a50347e173e4e914bf4629a31d1cea7fc35f85648090c63d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/document-processing/spreadsheet",
+  "schema_version": 1
+}

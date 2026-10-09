@@ -1,0 +1,152 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/LICENSE.txt",
+      "path": "cli-tool/components/skills/media/speech/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "8a6dd457cfe155b80bee7dcb55bf858324fee9d1d0085eb1b8a561868bb3f86b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/SKILL.md",
+      "path": "cli-tool/components/skills/media/speech/SKILL.md",
+      "size": 8016
+    },
+    {
+      "digest": "1a152d9e7e66b86100db33b8e6ff3327955bf107bb9e77044a1ad6dfb10d6e18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/agents/openai.yaml",
+      "path": "cli-tool/components/skills/media/speech/agents/openai.yaml",
+      "size": 299
+    },
+    {
+      "digest": "b879fe9fc476f183e1c9bfd0e2883b8b2c28c708ca3d90f409bed051fe6a173e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/assets/speech-small.svg",
+      "path": "cli-tool/components/skills/media/speech/assets/speech-small.svg",
+      "size": 742
+    },
+    {
+      "digest": "b5abb383bba63a309f73a4da1060b50b6c92b1b5f974f44b8f609b3da10112f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/assets/speech.png",
+      "path": "cli-tool/components/skills/media/speech/assets/speech.png",
+      "size": 1234
+    },
+    {
+      "digest": "34cd91bc6a3ef65c8da8997e312d163babcdfc3241f9e359418b3f5a76f15b76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/accessibility.md",
+      "path": "cli-tool/components/skills/media/speech/references/accessibility.md",
+      "size": 696
+    },
+    {
+      "digest": "45ab0ac83758a0d90e2920e6abdf09ad40e4999b83385f2429a132e5c457b949",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/atlas-cloud.md",
+      "path": "cli-tool/components/skills/media/speech/references/atlas-cloud.md",
+      "size": 2453
+    },
+    {
+      "digest": "5c48d4cfd1eb90fbb5913fc395a93158f824e08e6f85a04fdbc5cfe45c0c99e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/audio-api.md",
+      "path": "cli-tool/components/skills/media/speech/references/audio-api.md",
+      "size": 1057
+    },
+    {
+      "digest": "0eac70dcde73ac642ef0b1760320e8a2a1b864fe281ce8a4f79df972477e04d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/cli.md",
+      "path": "cli-tool/components/skills/media/speech/references/cli.md",
+      "size": 4070
+    },
+    {
+      "digest": "c956a51d3e67246cfb43982aa8c82065350fcce4ef7b94bd89e599c575c94d9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/codex-network.md",
+      "path": "cli-tool/components/skills/media/speech/references/codex-network.md",
+      "size": 1148
+    },
+    {
+      "digest": "2aaf225b7cea9277fe5413eb0360a845de035c00ea0d6f30348b5ce7138803fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/ivr.md",
+      "path": "cli-tool/components/skills/media/speech/references/ivr.md",
+      "size": 708
+    },
+    {
+      "digest": "3e68829fe4a5a47c3d37cbe9a1ed95ff3cedf1b303ff02a10501e56ad5e7c74a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/narration.md",
+      "path": "cli-tool/components/skills/media/speech/references/narration.md",
+      "size": 671
+    },
+    {
+      "digest": "2adcb001813be04e56918eb0d34d9a45f9326aa0fb240526ae74a926522b6554",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/prompting.md",
+      "path": "cli-tool/components/skills/media/speech/references/prompting.md",
+      "size": 1553
+    },
+    {
+      "digest": "c14e1b1c526f2fe555ab2dc86c0e8aead33d38238d2bfcfbf9de0c18d28bde03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/sample-prompts.md",
+      "path": "cli-tool/components/skills/media/speech/references/sample-prompts.md",
+      "size": 991
+    },
+    {
+      "digest": "5da0a4c59bdadb47d1795f51a9708b515fbf2901f0ca808cc5c66d83a336986d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/voice-directions.md",
+      "path": "cli-tool/components/skills/media/speech/references/voice-directions.md",
+      "size": 2155
+    },
+    {
+      "digest": "a4bb96c31c8be6a62d35a103f9d7fc700b8004df2efd10595d00b63f0c096486",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/references/voiceover.md",
+      "path": "cli-tool/components/skills/media/speech/references/voiceover.md",
+      "size": 790
+    },
+    {
+      "digest": "3253f80ff1b71e0d1750ca6532facbccdcdbde89dde6a6741a00a8765937a1f8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/scripts/atlas_text_to_speech.py",
+      "path": "cli-tool/components/skills/media/speech/scripts/atlas_text_to_speech.py",
+      "size": 14154
+    },
+    {
+      "digest": "0000014efdf1194512c017ffa0d0574ae65881f6a1340b7ed822053b6e3d3c44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/scripts/text_to_speech.py",
+      "path": "cli-tool/components/skills/media/speech/scripts/text_to_speech.py",
+      "size": 15592
+    },
+    {
+      "digest": "8d3dd7016f51a497b99dad1a9e7a7f4e36a0cf361ddcdc30c857d38c6cf117c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-media-speech/skills/speech/tests/test_atlas_text_to_speech.py",
+      "path": "cli-tool/components/skills/media/speech/tests/test_atlas_text_to_speech.py",
+      "size": 6807
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "57137a11bb2c6a3e46a8a1bb3ac7a7cd52286edf1047309ea43bc382e9746cd4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/media/speech",
+  "schema_version": 1
+}

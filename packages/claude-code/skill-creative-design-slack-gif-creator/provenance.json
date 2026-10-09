@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/LICENSE.txt",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/SKILL.md",
+      "size": 7841
+    },
+    {
+      "digest": "60bc943449802541f0f0881a874faa7ef408aaaf0b758fde756664ada7740452",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/core/easing.py",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/core/easing.py",
+      "size": 6265
+    },
+    {
+      "digest": "a127ea8f2a58893ea10a5c7b5cab4e2010af6515adc538676eb0cc14f5a03985",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/core/frame_composer.py",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/core/frame_composer.py",
+      "size": 4548
+    },
+    {
+      "digest": "b6f50d738c491ee0438a2e86e897f71cdab9792494ba4605f140befb0bddbf89",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/core/gif_builder.py",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/core/gif_builder.py",
+      "size": 9847
+    },
+    {
+      "digest": "56bd19e3aae05f8387d78ec8185d6098b3dc909d1fa041211753da37212528a3",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/core/validators.py",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/core/validators.py",
+      "size": 3785
+    },
+    {
+      "digest": "edc7108a0c6b56183566c71ee96830f6dc791e3b41952112d9cb56b33a6bd757",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-slack-gif-creator/skills/slack-gif-creator/requirements.txt",
+      "path": "cli-tool/components/skills/creative-design/slack-gif-creator/requirements.txt",
+      "size": 66
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "257cbeb06986c2fe8f3b5a01d494a4592eeb360c644acdafc7ac220a01954ad4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/slack-gif-creator",
+  "schema_version": 1
+}

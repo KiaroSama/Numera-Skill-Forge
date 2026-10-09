@@ -110,6 +110,12 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
             })?;
             adapters::assess(&s.snapshot.components, field(&request, "target")?)
         }
+        "collection-sync" => crate::collections::sync(
+            root,
+            request["apply"].as_bool().unwrap_or(false),
+            request["offline"].as_bool().unwrap_or(false),
+        ),
+        "collection-verify" => crate::collections::verify(root),
         "sync" => sync::sync(
             root,
             request["apply"].as_bool().unwrap_or(false),

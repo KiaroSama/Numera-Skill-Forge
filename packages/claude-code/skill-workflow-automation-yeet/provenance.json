@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/skills/yeet/LICENSE.txt",
+      "path": "cli-tool/components/skills/workflow-automation/yeet/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "e0487a1959e5a6ab8943017879925025dd748f92da376b72065661bfa7463ca2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/skills/yeet/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/yeet/SKILL.md",
+      "size": 1710
+    },
+    {
+      "digest": "6f0a463b53232932ad70aec529e25fad9d54312de0bd29d64a38bb14a4e748de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/skills/yeet/agents/openai.yaml",
+      "path": "cli-tool/components/skills/workflow-automation/yeet/agents/openai.yaml",
+      "size": 273
+    },
+    {
+      "digest": "e4b365d5389b8772e9bad36ad7a37d8333436fa961bb98c8d77b8fbf4e9dbc3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/skills/yeet/assets/yeet-small.svg",
+      "path": "cli-tool/components/skills/workflow-automation/yeet/assets/yeet-small.svg",
+      "size": 967
+    },
+    {
+      "digest": "6b5448b6c5b3480ca7511f983fa81ced59e6b9c664332bc559ea0d323fc06ab8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-yeet/skills/yeet/assets/yeet.png",
+      "path": "cli-tool/components/skills/workflow-automation/yeet/assets/yeet.png",
+      "size": 1262
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "dff184dc6f9a73ff5afd0c8a03166d35b196aba7e2fff1d58f5da326beaf203b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/yeet",
+  "schema_version": 1
+}

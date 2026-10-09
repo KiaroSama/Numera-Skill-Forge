@@ -1,0 +1,166 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a36cd64c569dcc96ce1c63745f2b371bde906a2c03cdf89ccbf23e31a3239d8d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/.gitignore",
+      "path": "cli-tool/components/skills/productivity/notebooklm/.gitignore",
+      "size": 723
+    },
+    {
+      "digest": "2b1dbabbe732d011203debf38ed4af41bfb518d30c43bece928dfd45daa6e350",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/AUTHENTICATION.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/AUTHENTICATION.md",
+      "size": 5729
+    },
+    {
+      "digest": "04c7d84879cd07d7ac2012fb190ea3587bf91515e1af7b8a57ea00a11ddf03c2",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/CHANGELOG.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/CHANGELOG.md",
+      "size": 1774
+    },
+    {
+      "digest": "0ad77d6e05eea79c29fbadce21fb7ed7aad883acde73f4a2c5fef77c9536cd07",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/LICENSE",
+      "path": "cli-tool/components/skills/productivity/notebooklm/LICENSE",
+      "size": 1072
+    },
+    {
+      "digest": "1c009fc025e0bcff9fa9c0126644d60011f38f50a4f61dcfd9f74a4df050b450",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/README.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/README.md",
+      "size": 15901
+    },
+    {
+      "digest": "8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/SKILL.md",
+      "size": 9442
+    },
+    {
+      "digest": "c31d39e839c4326fd7a492d1d9ca076512ec81765addb5266ad1e4a35b15ad8b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/images/example_notebookchat.png",
+      "path": "cli-tool/components/skills/productivity/notebooklm/images/example_notebookchat.png",
+      "size": 137552
+    },
+    {
+      "digest": "bb4b57b7f39f213961be77fedf83fd5a8ebe30746a6d212e5c36ac1d64bb8eac",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/references/api_reference.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/references/api_reference.md",
+      "size": 7630
+    },
+    {
+      "digest": "b32709f82c66564ed5c1948f37f80a7d7b3f49a250e10ffb37e579733a4a0b45",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/references/troubleshooting.md",
+      "size": 8994
+    },
+    {
+      "digest": "be990a67326e1f1612e7a00cca6a6a2263593dd7a623a137194b87f55446a650",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/references/usage_patterns.md",
+      "path": "cli-tool/components/skills/productivity/notebooklm/references/usage_patterns.md",
+      "size": 9574
+    },
+    {
+      "digest": "001076a8c9bc206a8dc6556f5bcb5fcb1864494cca2bdf698160b001923a8aa1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/requirements.txt",
+      "path": "cli-tool/components/skills/productivity/notebooklm/requirements.txt",
+      "size": 325
+    },
+    {
+      "digest": "b8ccc9d7d23f336fb570f946bd015367a73cc27d5eef7f5fc2eb74f1503a9e46",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/__init__.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/__init__.py",
+      "size": 2627
+    },
+    {
+      "digest": "29ee6d8744783ef81bf09145ad64bfa1f7f7aff217b0de1ba21e0f4c80bda1b6",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/ask_question.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/ask_question.py",
+      "size": 8196
+    },
+    {
+      "digest": "2494af0da219bad907b097d26f663eb2557ee5f1db25b8a926d8945b1c1e9d30",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/auth_manager.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/auth_manager.py",
+      "size": 11544
+    },
+    {
+      "digest": "6c2de8e83be0e2843b27d502744978f45c563cb8334f109938ac557e27f78496",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/browser_session.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/browser_session.py",
+      "size": 8725
+    },
+    {
+      "digest": "98172e3e02e42348093ec6e9ddfa754ba3fa2603ad2d188fc9838ca27e44a39a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/browser_utils.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/browser_utils.py",
+      "size": 3525
+    },
+    {
+      "digest": "0a85a8d0164eb3ae7aa15356af814a28717cfc1000a43f0291a2a1946401d7e0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/cleanup_manager.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/cleanup_manager.py",
+      "size": 9777
+    },
+    {
+      "digest": "e614bb83a1b2fa230a9848b6480e6ff62fd3d7e37aee4349f40298e7e582b65b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/config.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/config.py",
+      "size": 1228
+    },
+    {
+      "digest": "759384d94eabab346e9c4da73ee968d68277498d8ec19d261554a63ec3ac0238",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/notebook_manager.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/notebook_manager.py",
+      "size": 13843
+    },
+    {
+      "digest": "7f81301b8dde236a5a15a01f4db9530e5cd90bd2bcc1d7b0eb13bc58da81d79f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/run.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/run.py",
+      "size": 2967
+    },
+    {
+      "digest": "895c9055577e8e0bad8801681ad9becd9ff6b6bb72107b6b359c1cf8512f0ac0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-notebooklm/skills/notebooklm/scripts/setup_environment.py",
+      "path": "cli-tool/components/skills/productivity/notebooklm/scripts/setup_environment.py",
+      "size": 7168
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "763376b2f3a7cc7afa9d91f6709a9e4a6eee5857882c5ae5739f5d2f11ffe987",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/notebooklm",
+  "schema_version": 1
+}

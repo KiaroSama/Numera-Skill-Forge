@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-discernment-nudge/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-discernment-nudge/skills/discernment-nudge/LICENSE.txt",
+      "path": "cli-tool/components/skills/productivity/discernment-nudge/LICENSE.txt",
+      "size": 11345
+    },
+    {
+      "digest": "bfe947815854cb6e48b1c0abda1b902fdbe7b7dfe56f2bf03b28c1a3728ad876",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-discernment-nudge/skills/discernment-nudge/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/discernment-nudge/SKILL.md",
+      "size": 10693
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "2fe2f1b151373fe0e6040d48a95976860c0fdadac118ddc4efabadb4726c3b76",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/discernment-nudge",
+  "schema_version": 1
+}

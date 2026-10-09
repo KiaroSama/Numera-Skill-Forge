@@ -9,6 +9,14 @@ pub fn git(args: &[String], timeout: u64) -> Result<Vec<u8>> {
     git_env(args, timeout, &[])
 }
 pub fn git_env(args: &[String], timeout: u64, environment: &[(&str, &str)]) -> Result<Vec<u8>> {
+    git_input(args, timeout, environment, None)
+}
+pub fn git_input(
+    args: &[String],
+    timeout: u64,
+    environment: &[(&str, &str)],
+    input: Option<Vec<u8>>,
+) -> Result<Vec<u8>> {
     let mut command = Command::new("git");
     for (key, value) in environment {
         command.env(key, value);
@@ -27,7 +35,11 @@ pub fn git_env(args: &[String], timeout: u64, environment: &[(&str, &str)]) -> R
     ]);
     command
         .args(args)
-        .stdin(Stdio::null())
+        .stdin(if input.is_some() {
+            Stdio::piped()
+        } else {
+            Stdio::null()
+        })
         .stdout(Stdio::piped())
         .stderr(Stdio::piped());
     command
@@ -48,6 +60,18 @@ pub fn git_env(args: &[String], timeout: u64, environment: &[(&str, &str)]) -> R
             "Git is required; install it and retry doctor",
         )
     })?;
+    let input_writer = if let Some(bytes) = input {
+        let mut stdin = child
+            .stdin
+            .take()
+            .ok_or_else(|| Error::new("process", "Missing input pipe"))?;
+        Some(std::thread::spawn(move || {
+            use std::io::Write;
+            stdin.write_all(&bytes)
+        }))
+    } else {
+        None
+    };
     let stdout = child
         .stdout
         .take()
@@ -83,6 +107,11 @@ pub fn git_env(args: &[String], timeout: u64, environment: &[(&str, &str)]) -> R
         }
         std::thread::sleep(Duration::from_millis(20));
     };
+    if let Some(writer) = input_writer {
+        writer
+            .join()
+            .map_err(|_| Error::new("process", "Input writer failed"))??;
+    }
     let output = out
         .join()
         .map_err(|_| Error::new("process", "Output reader failed"))??;

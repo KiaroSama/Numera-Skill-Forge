@@ -1,5 +1,6 @@
 pub mod adapters;
 pub mod build;
+pub mod collections;
 pub mod discovery;
 pub mod install;
 pub mod logging;

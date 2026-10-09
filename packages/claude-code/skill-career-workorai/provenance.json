@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cd835e50b2a7c565f4b46a5581a307ed09b0ee207a96571b5e612d2ff25ef6c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/LICENSE.txt",
+      "path": "cli-tool/components/skills/career/workorai/LICENSE.txt",
+      "size": 1039
+    },
+    {
+      "digest": "1e964c1b26cfce175265827542e2f2a7df968185bb1f825441ff4c10042adf83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/SKILL.md",
+      "path": "cli-tool/components/skills/career/workorai/SKILL.md",
+      "size": 9736
+    },
+    {
+      "digest": "70b33aac5981ed63455d7dbb6d4fa5ce97bbfa33d9aca35a192e37c46c144bf7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/auth-flow.md",
+      "path": "cli-tool/components/skills/career/workorai/references/auth-flow.md",
+      "size": 10490
+    },
+    {
+      "digest": "2e399ae40e8c166470733872ab6a120624b1073cc46bf695ec8bdceef053bb27",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/candidate-catalog.md",
+      "path": "cli-tool/components/skills/career/workorai/references/candidate-catalog.md",
+      "size": 12697
+    },
+    {
+      "digest": "ba19374002ad1cf7fb90aed17c87b87fbc44aa45b2db503c4441fd93107cff68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/candidate-recipes.md",
+      "path": "cli-tool/components/skills/career/workorai/references/candidate-recipes.md",
+      "size": 6779
+    },
+    {
+      "digest": "c926bb474c0d2534f7df156e1098e8c851b26fd0e06dee8893981dba6e2a3d25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/candidate-troubleshooting.md",
+      "path": "cli-tool/components/skills/career/workorai/references/candidate-troubleshooting.md",
+      "size": 6521
+    },
+    {
+      "digest": "bc0cef850cfbdae86ba300523d3239840710d446f96ba0a3b1db5b78e6a40845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/employer-catalog.md",
+      "path": "cli-tool/components/skills/career/workorai/references/employer-catalog.md",
+      "size": 20045
+    },
+    {
+      "digest": "a66860691f44986a8a97b761fb56818e05b4c17f3c02016988f06a56aadc868d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/employer-recipes.md",
+      "path": "cli-tool/components/skills/career/workorai/references/employer-recipes.md",
+      "size": 6249
+    },
+    {
+      "digest": "7c7b52865ed058101080bdff18fd952ace1edbafd265d35733182b5567d0e103",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/employer-troubleshooting.md",
+      "path": "cli-tool/components/skills/career/workorai/references/employer-troubleshooting.md",
+      "size": 6167
+    },
+    {
+      "digest": "af918c06a7d91f9183772eb05aa9d0534899223686e74f9c75930c3501453a13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/career/workorai/references/troubleshooting.md",
+      "size": 5203
+    },
+    {
+      "digest": "a86117a23403c8f0606365c6e728621616c7af866d7b65195e14645c14cf8c64",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-career-workorai/skills/workorai/scripts/credential-store.mjs",
+      "path": "cli-tool/components/skills/career/workorai/scripts/credential-store.mjs",
+      "size": 22996
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "51e67c9ffb2c07008de49c24c9fe73f999dff14f2c02b9c3a3a66e6a727e1622",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/workorai",
+  "schema_version": 1
+}

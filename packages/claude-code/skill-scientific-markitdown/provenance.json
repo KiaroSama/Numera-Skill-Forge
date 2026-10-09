@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e36c72915247eab675823a8a4a5506ba4c7f53bd4122cfb7852fcf571624c11a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/INSTALLATION_GUIDE.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/INSTALLATION_GUIDE.md",
+      "size": 6722
+    },
+    {
+      "digest": "40f011272724ef2ffe657ab17089cda9641050ce84d005ecdf9ff8f678b4c6d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/LICENSE.txt",
+      "path": "cli-tool/components/skills/scientific/markitdown/LICENSE.txt",
+      "size": 1075
+    },
+    {
+      "digest": "2ef86b555a3bc2a46f4f283551b041b6375ea72f78176377e067199e7261dc72",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/OPENROUTER_INTEGRATION.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/OPENROUTER_INTEGRATION.md",
+      "size": 9671
+    },
+    {
+      "digest": "824acd315d643f25c6584d6418fb704604e2ab3350eea77cb82956a3c0a0a5e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/QUICK_REFERENCE.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/QUICK_REFERENCE.md",
+      "size": 6823
+    },
+    {
+      "digest": "fd64cfc39d87cce338f6ba54eee31e9c7c5520af9c8504c3a2035b62dbce731a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/README.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/README.md",
+      "size": 5013
+    },
+    {
+      "digest": "ad3fd15b452f3ad0f7bcc382caf41ab6357b57c1ccbad887a55761b14bf77708",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/SKILL.md",
+      "size": 12643
+    },
+    {
+      "digest": "adc7cf2b7cb8d2a3884b1eae005be068fba5ea838b4a8b21a857f4903cf01d2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/SKILL_SUMMARY.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/SKILL_SUMMARY.md",
+      "size": 8765
+    },
+    {
+      "digest": "5858f13be9d18d43894215c30093cba0693f85550148ad18552ffad40930c84d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/assets/example_usage.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/assets/example_usage.md",
+      "size": 10378
+    },
+    {
+      "digest": "23fcbcb50e051c4a01a3b975d6ce8b4f4fd93e4eae005e8d642e72a9e2fc0785",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/references/api_reference.md",
+      "size": 8980
+    },
+    {
+      "digest": "8af4558784b7fa727d496e79efeecf46aa71c4d4aa3b5ca68dbd9f201abc09aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/references/file_formats.md",
+      "path": "cli-tool/components/skills/scientific/markitdown/references/file_formats.md",
+      "size": 8985
+    },
+    {
+      "digest": "3409effe9aae9611fd5249d2b4c09150a945ee1181d1519f59a4811cbf7ba0a3",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/scripts/batch_convert.py",
+      "path": "cli-tool/components/skills/scientific/markitdown/scripts/batch_convert.py",
+      "size": 6650
+    },
+    {
+      "digest": "7023e2f3e915bf2995d72886dd37bf6e4726c8e9a258a09b540ecc150c4e108c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/scripts/convert_literature.py",
+      "path": "cli-tool/components/skills/scientific/markitdown/scripts/convert_literature.py",
+      "size": 8915
+    },
+    {
+      "digest": "81d23983087d40b077401b42ee6105d794b324eef193ed8271eae64a02dbdf9c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-markitdown/skills/markitdown/scripts/convert_with_ai.py",
+      "path": "cli-tool/components/skills/scientific/markitdown/scripts/convert_with_ai.py",
+      "size": 7629
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e31a48de1da42a936fd2bf44da04bcd0eacdd75c9bf78f20fc760f14a2ef408c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/markitdown",
+  "schema_version": 1
+}

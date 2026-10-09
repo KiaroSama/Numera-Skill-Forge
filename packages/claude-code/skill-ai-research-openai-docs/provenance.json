@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/skills/openai-docs/LICENSE.txt",
+      "path": "cli-tool/components/skills/ai-research/openai-docs/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "cb18f79dcbae71c8a8a45c5c00f98e8d89cb163008a1ef2c79a271148bcdfc98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/skills/openai-docs/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/openai-docs/SKILL.md",
+      "size": 3461
+    },
+    {
+      "digest": "a2049be7cc970cc0148509e5a262793dab45e2eca56b31cac1723d6bb6e6a805",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/skills/openai-docs/agents/openai.yaml",
+      "path": "cli-tool/components/skills/ai-research/openai-docs/agents/openai.yaml",
+      "size": 504
+    },
+    {
+      "digest": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/skills/openai-docs/assets/openai-small.svg",
+      "path": "cli-tool/components/skills/ai-research/openai-docs/assets/openai-small.svg",
+      "size": 1091
+    },
+    {
+      "digest": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-openai-docs/skills/openai-docs/assets/openai.png",
+      "path": "cli-tool/components/skills/ai-research/openai-docs/assets/openai.png",
+      "size": 1429
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "f55f18d3152d3565acead1a485bbffdde0ef80185fb99739439fb197239319c0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/openai-docs",
+  "schema_version": 1
+}

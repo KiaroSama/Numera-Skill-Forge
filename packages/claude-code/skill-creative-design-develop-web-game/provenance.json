@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/LICENSE.txt",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "c562e5d36a3bcec9fb5d75095b8008244583b4824a37aefdfdd4adb1de5c86f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/SKILL.md",
+      "size": 9248
+    },
+    {
+      "digest": "0962a160095830d7c6d7c6983ed023ebce93855f51c3e9a58cbba0c3d9ce07dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/agents/openai.yaml",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/agents/openai.yaml",
+      "size": 299
+    },
+    {
+      "digest": "c384984085a0d12baadc39ee05c4b3ecf22c8f04fe0a5d8227b00675742c249e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/assets/game-small.svg",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/assets/game-small.svg",
+      "size": 2706
+    },
+    {
+      "digest": "08382df5010120e47f06e6c32e7e990bb8f3bc473c07f7191b7c11484272635d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/assets/game.png",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/assets/game.png",
+      "size": 2234
+    },
+    {
+      "digest": "7c6915472781be9cc704bb12952577bd66ae4c073d294459d564a8d45f98671c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/references/action_payloads.json",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/references/action_payloads.json",
+      "size": 141
+    },
+    {
+      "digest": "e95c3bcbdc0d15eb08fd3a6021283ec32f715b51f1e5847d3db20df526be5996",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-develop-web-game/skills/develop-web-game/scripts/web_game_playwright_client.js",
+      "path": "cli-tool/components/skills/creative-design/develop-web-game/scripts/web_game_playwright_client.js",
+      "size": 9963
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "516c39508436d1421d589006fd4063203930d257bdd973a9db805f0b96d807a4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/develop-web-game",
+  "schema_version": 1
+}

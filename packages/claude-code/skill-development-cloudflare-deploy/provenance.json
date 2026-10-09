@@ -1,0 +1,2203 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "8834e9fc97e5110b4f1c3cfba73d7fe520c2d3691f06336099549f37da2712f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/SKILL.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/SKILL.md",
+      "size": 7392
+    },
+    {
+      "digest": "6dbc46d5027859d1a0ecba153f192dceacc24e620961b6880d28a7ca6d82961a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/agents/openai.yaml",
+      "size": 331
+    },
+    {
+      "digest": "48f68d56ac6c83734e8aa64af35fa3f6a0613a9a2293158153db1402be104f17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/assets/cloudflare-small.svg",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/assets/cloudflare-small.svg",
+      "size": 1221
+    },
+    {
+      "digest": "ccef528d73dfe224cfb4817bcb7e15d63922421249d688031ff48c5eef2a2189",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/assets/cloudflare.png",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/assets/cloudflare.png",
+      "size": 1187
+    },
+    {
+      "digest": "fbe8e1611f991966dcde842d0281beb76e354e8196b19437ad8fdd672539f277",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/agents-sdk/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/agents-sdk/README.md",
+      "size": 2765
+    },
+    {
+      "digest": "38f9799af72977ac6c344de172dfcc1c55a7a343d8e450786bde4672a30afe97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/agents-sdk/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/agents-sdk/api.md",
+      "size": 5862
+    },
+    {
+      "digest": "85216db38cb5eb54889605ed89ca322a320bc3082c20da31a78a35c3dcc9f764",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/agents-sdk/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/agents-sdk/configuration.md",
+      "size": 3575
+    },
+    {
+      "digest": "01e857e317f073cf75909f4054bea3adebecb373799c5630fecd870c410a391b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/agents-sdk/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/agents-sdk/gotchas.md",
+      "size": 5108
+    },
+    {
+      "digest": "891353f30bba3a69c66cd43f4ac1a86884d8c6abc26420ddbc73e6cf65cafaac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/agents-sdk/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/agents-sdk/patterns.md",
+      "size": 5595
+    },
+    {
+      "digest": "3d1edf888ad79bf599c6b21b66e0ba68c0473c5a2c60be1bf2e5a21b68623089",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/README.md",
+      "size": 6308
+    },
+    {
+      "digest": "1135a774a42e059942ccb12d8ba514e6479d7f8f5f47400b4053f6da5984b532",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/configuration.md",
+      "size": 2954
+    },
+    {
+      "digest": "56f3539a61bae2fda7d8a98c81ed14e820caf733f27e6cce2fffeeaf7a6c1db5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/dynamic-routing.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/dynamic-routing.md",
+      "size": 1835
+    },
+    {
+      "digest": "efbc7d2d4464c1aab4881f059589439e2979b9967568878c32f7cb3e72cc6ccf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/features.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/features.md",
+      "size": 2726
+    },
+    {
+      "digest": "3633951a1ea8f419d85059dfb98f23e830805f728b516d7d87d1fa11ef9d9101",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/sdk-integration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/sdk-integration.md",
+      "size": 2684
+    },
+    {
+      "digest": "c79d02ce7b9e6cb361f1700eff6e12149fc74547aad3438501863d8cd02b2a79",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-gateway/troubleshooting.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-gateway/troubleshooting.md",
+      "size": 2420
+    },
+    {
+      "digest": "c8c484ab7723f38b649186e1c70f85a9b492c597cc513fe08876910b5406eff2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-search/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-search/README.md",
+      "size": 4521
+    },
+    {
+      "digest": "cff4ce1bee49988265f176fe5a0bdd69714a1b6e215a65662ddbf305f981d05f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-search/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-search/api.md",
+      "size": 2519
+    },
+    {
+      "digest": "59af92d0c3b196bea13ac72e18b42db528721f8971c7d335b27951b77aa4ddb0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-search/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-search/configuration.md",
+      "size": 1760
+    },
+    {
+      "digest": "e548c0f2cba170e81dd3e9e15b7cf430eabd7e73770ed29589b90dc20c3bf452",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-search/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-search/gotchas.md",
+      "size": 2135
+    },
+    {
+      "digest": "1215875bf8a9e6317d31019a84a124aa7ba7e85bac10b92bc445d0ef7383d619",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ai-search/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ai-search/patterns.md",
+      "size": 2008
+    },
+    {
+      "digest": "123cb825f034688e3603b5a5fb6b372bbd9d82cabaa047bf787631ecb2026702",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/analytics-engine/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/analytics-engine/README.md",
+      "size": 3195
+    },
+    {
+      "digest": "ae82c22e055e2edef7078286b7442763e19f70894b95fe310dd7c1709f9a572c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/analytics-engine/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/analytics-engine/api.md",
+      "size": 3161
+    },
+    {
+      "digest": "86112c2385fe4e44b4825f9962cfe3429e6681de9f051a50a1c70514f1b85131",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/analytics-engine/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/analytics-engine/configuration.md",
+      "size": 2361
+    },
+    {
+      "digest": "08d11a06bc1cc955bdf4ade8d1a523b0e78157434d559169c4bc2d36f886667b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/analytics-engine/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/analytics-engine/gotchas.md",
+      "size": 2018
+    },
+    {
+      "digest": "d294a7ee3ce2d58fbb8413eb6e58faf7af8f699cecc7480b955ceb31e87204b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/analytics-engine/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/analytics-engine/patterns.md",
+      "size": 2312
+    },
+    {
+      "digest": "a032c7160b70c9a200e982bc457acd746760c2960e25b7554dfb315da98f71dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api-shield/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api-shield/README.md",
+      "size": 1796
+    },
+    {
+      "digest": "2ac3f5be499c1047575dddae5fe10fd9ab93e153eec3bd3fae3e2add82275aaa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api-shield/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api-shield/api.md",
+      "size": 3900
+    },
+    {
+      "digest": "79acd0a84bdeca4f45ef92d3772e9f403d15266210205700a7fccc313a084418",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api-shield/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api-shield/configuration.md",
+      "size": 5020
+    },
+    {
+      "digest": "6941ecb164f0cd23432029e319cdfd7c999365eca6aa1a1df76b52bb59d565dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api-shield/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api-shield/gotchas.md",
+      "size": 4946
+    },
+    {
+      "digest": "66f0e9bc0d7440d76368f3863b8009cfe80de3a61e91c76727a249e2eb192574",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api-shield/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api-shield/patterns.md",
+      "size": 5844
+    },
+    {
+      "digest": "7e5a0b6c299554eb58914d25a0fe98e016229d1c664cc9703e170e89b696a0a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api/README.md",
+      "size": 2381
+    },
+    {
+      "digest": "847c33ce18c1a4ff210ce5db75db0694113fe5367bdba983b0e6f0d7dd2742b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api/api.md",
+      "size": 4308
+    },
+    {
+      "digest": "6ea23fb895605fd2a2380580f7cd21ab39c51dde470067ed191fd387f6337cb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api/configuration.md",
+      "size": 3748
+    },
+    {
+      "digest": "b721d8e28866f376ca8ac91d8f7f9fa35726f6378f83796baed13687f6eca6e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api/gotchas.md",
+      "size": 5390
+    },
+    {
+      "digest": "7ea6b294371bc04ffbf0a1fdc71a2e138f3303bfcdd85b91b1e29d0d53f80bc2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/api/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/api/patterns.md",
+      "size": 4639
+    },
+    {
+      "digest": "405ab3a8878c32c95e12fb1c769f6cf79a597def8898b5e291d347a04c3e9052",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/argo-smart-routing/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/argo-smart-routing/README.md",
+      "size": 4060
+    },
+    {
+      "digest": "8c3266518ed0f9f98aefd6702eaf7400c40b0de0f49cc4daa7ff6f763f7e7ede",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/argo-smart-routing/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/argo-smart-routing/api.md",
+      "size": 6579
+    },
+    {
+      "digest": "9cc0c9f4ce01828e0153baded0393f0569e9aceff2601c16aad71e12e2fa8a39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/argo-smart-routing/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/argo-smart-routing/configuration.md",
+      "size": 4457
+    },
+    {
+      "digest": "fc890c1e98c117ac8b6eb5ef39a62059732d9df2642700a8ad9fd2c877107fc7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/argo-smart-routing/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/argo-smart-routing/gotchas.md",
+      "size": 4327
+    },
+    {
+      "digest": "8f0e0d9abdc17971afc802c23a04bf8780365031e5c4241cf084b0ad97c3707e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/argo-smart-routing/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/argo-smart-routing/patterns.md",
+      "size": 3053
+    },
+    {
+      "digest": "5ba09af5a3ce0b8ea090f60b87a0660f56d6252e256a36eff86ec1dfcd8c69a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bindings/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bindings/README.md",
+      "size": 4042
+    },
+    {
+      "digest": "d0567127790ea92ebba3570785363d1752eab1c9570aeda5c7885e8c104677c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bindings/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bindings/api.md",
+      "size": 5199
+    },
+    {
+      "digest": "d52fdcaee45d9f7fa7279247e09d382f69b5fab60ba8257fdcf92d8b37e14b34",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bindings/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bindings/configuration.md",
+      "size": 4496
+    },
+    {
+      "digest": "f14c1ef1d9104df78642cda287ca6ba21e3ef954a6e71e33c7d4e47f75164c28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bindings/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bindings/gotchas.md",
+      "size": 6169
+    },
+    {
+      "digest": "189274aa2bdf605781b59b105c347c689d320a09fb62f9ed300d1f64e93281f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bindings/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bindings/patterns.md",
+      "size": 5058
+    },
+    {
+      "digest": "4d50475aa586fb08cadbc7067d55b7ef1a6e5556bad3587b23e35ae37d541967",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bot-management/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bot-management/README.md",
+      "size": 3762
+    },
+    {
+      "digest": "a00ceaea1f51f7536829b2f93323d0df5c8f6b7742bfbcf9fcbd489eb910c4e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bot-management/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bot-management/api.md",
+      "size": 5803
+    },
+    {
+      "digest": "361f709d6561c916b6082afa689ad3e69aa05f2cb4f9ed7bcbdfa62605b95c47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bot-management/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bot-management/configuration.md",
+      "size": 5744
+    },
+    {
+      "digest": "d26a1b2dee0b92e6e2f4046067e0ba3f9e14f0b548b1d06537232d265e4cbb56",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bot-management/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bot-management/gotchas.md",
+      "size": 5657
+    },
+    {
+      "digest": "daeb6aa87d2c1fe00e7d3ba3ebcb5e782725a6a3e22edde56c03527d1eb1ba63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/bot-management/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/bot-management/patterns.md",
+      "size": 4970
+    },
+    {
+      "digest": "a0c6e51afc6c19f2a892e3f144b9210f4fe067318ad2550e34ded538a9db9463",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/browser-rendering/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/browser-rendering/README.md",
+      "size": 3092
+    },
+    {
+      "digest": "0f346bfc469d1deb6077523b6ea20f071975c5223267415b2b9398cc6ab566ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/browser-rendering/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/browser-rendering/api.md",
+      "size": 2976
+    },
+    {
+      "digest": "db9206a7f14bf13d5f8ade9875927662796016c52b0221b54c3e08238890b952",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/browser-rendering/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/browser-rendering/configuration.md",
+      "size": 1802
+    },
+    {
+      "digest": "31c3e69294545b1f7f9aecc80c3809521efe3b8d4c36bbc47ba8a693a81460ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/browser-rendering/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/browser-rendering/gotchas.md",
+      "size": 2520
+    },
+    {
+      "digest": "ed518864d14d821619b23d0a6e4fe0b39b64c8da98ad17d3da07b4b42d35c161",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/browser-rendering/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/browser-rendering/patterns.md",
+      "size": 2647
+    },
+    {
+      "digest": "a29848e8c74b2a8055330461f2ffec6ccb14d5d61b97b8214195ee7787c70d20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/c3/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/c3/README.md",
+      "size": 3352
+    },
+    {
+      "digest": "1c5429d72d1f5d5dab6d21914f7eb8aded761a828b4190655a2d4a0be6b12592",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/c3/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/c3/api.md",
+      "size": 2286
+    },
+    {
+      "digest": "01e7f90dfbfce4d20a86a41b3ca882dab74d0b540ea07952da2f4ff1c6b6626c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/c3/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/c3/configuration.md",
+      "size": 1637
+    },
+    {
+      "digest": "4acfbc2572326cd0be2bdd76bc7c7fb629a68dabb7c98b3fc6bed234d13e72b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/c3/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/c3/gotchas.md",
+      "size": 2307
+    },
+    {
+      "digest": "592e533f9658678bfee0f5e7e65d9cfbf4a23ab4e47a3004543980643ce8826a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/c3/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/c3/patterns.md",
+      "size": 2203
+    },
+    {
+      "digest": "90f848f9b142ddbfd911eea882b46bd45b5062efeda6b22e5be3d526c6155144",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cache-reserve/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cache-reserve/README.md",
+      "size": 5609
+    },
+    {
+      "digest": "21b1448498e35b32fea54786ffa8dec6fff4ff597a3acfa10904ff459082207f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cache-reserve/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cache-reserve/api.md",
+      "size": 6018
+    },
+    {
+      "digest": "7a033bcbe69e1617d6df25d202c8ecf58fe40a1a06b91c7b71d9ac1964886869",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cache-reserve/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cache-reserve/configuration.md",
+      "size": 3660
+    },
+    {
+      "digest": "3642800cd57f39fa3841021057a0ab6fb8bbcd8270b45b4acf33d6f1345e0f92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cache-reserve/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cache-reserve/gotchas.md",
+      "size": 5797
+    },
+    {
+      "digest": "94b4739cfaa9aa8d805b5d820c5cfe2259ee9a108a574bf5fff8837655647dcb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cache-reserve/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cache-reserve/patterns.md",
+      "size": 6265
+    },
+    {
+      "digest": "84ac21e42da260e8a2a5cbf677b455a7a06e0585dcd56be49895c014a26ae998",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/containers/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/containers/README.md",
+      "size": 3531
+    },
+    {
+      "digest": "d79640924c80decc91ef17011f021fd21fdb8dc97fb2e8dd81f735a06ecb0a1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/containers/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/containers/api.md",
+      "size": 4310
+    },
+    {
+      "digest": "00af782c2e2ab7c95cd4491d0269eddc12efcc541ec67a5692ab0b50bc7c6cdd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/containers/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/containers/configuration.md",
+      "size": 5424
+    },
+    {
+      "digest": "5707e264b73f62b30624e3ae14646d5fb7dd889a463376f3123a5424f2dd66d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/containers/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/containers/gotchas.md",
+      "size": 4485
+    },
+    {
+      "digest": "129853373101f0a96b3e7ccfe6d840ac93cc089fcfeb8d551fca0af81c74a904",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/containers/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/containers/patterns.md",
+      "size": 4925
+    },
+    {
+      "digest": "97cd7899f085cb1f28b10c7508062a3a614bccfe2e78ea8457d654ff0cc1be4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cron-triggers/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cron-triggers/README.md",
+      "size": 2949
+    },
+    {
+      "digest": "2768dedd364f5424f5a5b4e6ab579f5d8b9de8c5d7fb32924cee73404450c64c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cron-triggers/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cron-triggers/api.md",
+      "size": 5866
+    },
+    {
+      "digest": "ef4548a7f8f80b1be2c41391a5aba2ce18ef0e02a96ec3b675bb84971dc383a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cron-triggers/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cron-triggers/configuration.md",
+      "size": 4250
+    },
+    {
+      "digest": "eb66b7b1186d07279cbf1a0b0a477898b32b04a5eca283aa9e8669ddca5e0bd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cron-triggers/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cron-triggers/gotchas.md",
+      "size": 6316
+    },
+    {
+      "digest": "99e9e973fee96b3a1c9ff3a896546cc8a498f9831cb168e1cf4e4b4ecff38102",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/cron-triggers/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/cron-triggers/patterns.md",
+      "size": 6980
+    },
+    {
+      "digest": "61b28faa4348cc80cd1296bc562fcba8205a131e73c9dc19a7da32e5c4b5f724",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/d1/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/d1/README.md",
+      "size": 4719
+    },
+    {
+      "digest": "ea957b3260a43c46ab7845303ed34065655b4367683bf502c53b334e5fa4c776",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/d1/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/d1/api.md",
+      "size": 6806
+    },
+    {
+      "digest": "06bc8baec2affc1d2cb12a0e2b3b3ea766527abd97c2ecf05460822f36feed2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/d1/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/d1/configuration.md",
+      "size": 5386
+    },
+    {
+      "digest": "1ffa594d0bdc7e02e64629c999f587119a5453a764bbf6ed69712ffc2c4c1f93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/d1/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/d1/gotchas.md",
+      "size": 4318
+    },
+    {
+      "digest": "2e548a1267c7efae89fbe77a3627d096b3d77a64af61d8e3f53d36d15d01e48b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/d1/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/d1/patterns.md",
+      "size": 7251
+    },
+    {
+      "digest": "63018c3c2d25ce26a0f1b80dd60bd2d3c5193a26bf96979ef624030ab766c4a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ddos/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ddos/README.md",
+      "size": 2054
+    },
+    {
+      "digest": "eba158f9cca3ce70a07e5050a5586e3c1acd60f69e22069d9d02c8c91ad60cf5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ddos/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ddos/api.md",
+      "size": 4170
+    },
+    {
+      "digest": "0d0fae2b22edba2d40fddbbcec3f0c63651a25a0115e708edfc8b4e4c584c925",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ddos/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ddos/configuration.md",
+      "size": 3005
+    },
+    {
+      "digest": "320f6d383fe22756ae19e3a79fb1c1a5d147d74a493b73eed6dd6644fb9fd1a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ddos/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ddos/gotchas.md",
+      "size": 3912
+    },
+    {
+      "digest": "546d722c64d8b1c14bc0a924b38eec24bcd3e639c25bbf424bb8cf73933ac306",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/ddos/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/ddos/patterns.md",
+      "size": 5680
+    },
+    {
+      "digest": "2dd7fa0efc7db9a4edb0935b77a48973fe79978b693d29385db0403f1792154a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/README.md",
+      "size": 2765
+    },
+    {
+      "digest": "d3a0957cca017ae837bcf891d34404a6faca40a9b4d9b4be26a3f6272c223622",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/api.md",
+      "size": 3571
+    },
+    {
+      "digest": "b2c7ef2f41948280df468b8d1ed618486fb865ec8bd985706721f9debe472945",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/configuration.md",
+      "size": 2235
+    },
+    {
+      "digest": "82c019a3e36341d3d9113b9b30f0d2e6692a59fdd903ed00dce2f7774e6e4f5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/gotchas.md",
+      "size": 5200
+    },
+    {
+      "digest": "a60c80f45d7b13b161a93b5c14771161cf95c4876224a699ba74816207de54ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/patterns.md",
+      "size": 5278
+    },
+    {
+      "digest": "035b05fed943b2322941d7bd713d4d0e3025f2e514a3ef00642fc53509133472",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/do-storage/testing.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/do-storage/testing.md",
+      "size": 4912
+    },
+    {
+      "digest": "eeaafe38e5f85b70d5d548735a62181e055121932f98625f7b12d8f364751f4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/durable-objects/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/durable-objects/README.md",
+      "size": 6609
+    },
+    {
+      "digest": "ada50c598680f4d1e50d3e0588a1a6c0f4875346e583e34b87956ededff12e22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/durable-objects/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/durable-objects/api.md",
+      "size": 6142
+    },
+    {
+      "digest": "30486904f250952df8f11b7899f3ebedc46b7f9bb1c28d4695a3bf8acfb87375",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/durable-objects/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/durable-objects/configuration.md",
+      "size": 4266
+    },
+    {
+      "digest": "b7156d2d5415f3670698d2ccae91877852fbebf7868b66412497907901bf1661",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/durable-objects/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/durable-objects/gotchas.md",
+      "size": 7318
+    },
+    {
+      "digest": "e3ad270b7beaad53f700b4b5f49202ec7d9ea5c95bd22f963f2dc7a9272142a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/durable-objects/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/durable-objects/patterns.md",
+      "size": 6691
+    },
+    {
+      "digest": "4e28709e319f3912008a2887f9f3d62bdaa98ad9e52cc5ae139b8d220e825479",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-routing/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-routing/README.md",
+      "size": 3431
+    },
+    {
+      "digest": "bb8355f4ef58ab1577982d1f6e399038538ec5f84e93071cd9f928b5a6832d36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-routing/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-routing/api.md",
+      "size": 5311
+    },
+    {
+      "digest": "a9a45e84286ffce8b67cd6a50e72a3a0f169f4414280fd94e5f33f9e9ac4ecd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-routing/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-routing/configuration.md",
+      "size": 3571
+    },
+    {
+      "digest": "8298b63f8e644b5b9de02cf61f031e403c5a363901ec2b470b936ea57f390ea7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-routing/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-routing/gotchas.md",
+      "size": 4106
+    },
+    {
+      "digest": "507bfca00d2b363d6168ec918fc75829bbf0145402aa3239916ba1bf7e92b6a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-routing/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-routing/patterns.md",
+      "size": 5480
+    },
+    {
+      "digest": "a0bc3bf064ca3c2352e92a16bf81fbdc30691b4afac6503e2b212ee2f336efe4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-workers/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-workers/README.md",
+      "size": 5368
+    },
+    {
+      "digest": "5e4b0e68fcf88e3332b15a8f6ef22cf706953d51b38456cd0346348543f06754",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-workers/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-workers/api.md",
+      "size": 6078
+    },
+    {
+      "digest": "984d84d6842f4adda147cb783537ffd51ac887c331a0de3c100374c63c06d33e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-workers/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-workers/configuration.md",
+      "size": 2719
+    },
+    {
+      "digest": "135434634be61d82d5567dc20e779e9a807693d9d83ba2a49184d62ec551cb76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-workers/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-workers/gotchas.md",
+      "size": 3041
+    },
+    {
+      "digest": "e8704f7beac19235631b246420c5ce730b054ccf899f43548366d70fe430737d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/email-workers/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/email-workers/patterns.md",
+      "size": 2785
+    },
+    {
+      "digest": "4d0e1a0e8366975d6ac0dcfd183e8b0a925f582c35917897aace568addff09f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/hyperdrive/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/hyperdrive/README.md",
+      "size": 2918
+    },
+    {
+      "digest": "7e7bb032dc6151ca8e3c30b278efa19d617362e9225f7a5f77a176585f10f7e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/hyperdrive/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/hyperdrive/api.md",
+      "size": 3875
+    },
+    {
+      "digest": "9c66135e7d5ed7a0e4f6b1395b71387b62aa22166d7eb26ab7d918b1fb5b5e57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/hyperdrive/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/hyperdrive/configuration.md",
+      "size": 3913
+    },
+    {
+      "digest": "c0001867d043c37581bc1a0d0ea556b649d7522e965ab2eedd431b1f3b0ca56e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/hyperdrive/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/hyperdrive/gotchas.md",
+      "size": 3926
+    },
+    {
+      "digest": "e3bcdfb9c42df3ca1a84f175d727e918b638f28759fb5bd38fd3bcfdd21594ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/hyperdrive/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/hyperdrive/patterns.md",
+      "size": 5980
+    },
+    {
+      "digest": "2df48cf4d8d5269c55a2c2e94ec331c576200db80cb33bdb3f08f104fee88676",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/images/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/images/README.md",
+      "size": 2900
+    },
+    {
+      "digest": "92c62bd77b133bf58287e93f12dced76725c0dc699b28ecad2acdae709ceea3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/images/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/images/api.md",
+      "size": 2574
+    },
+    {
+      "digest": "e4c66bfcbf49b9c0cef84d66c7f8b49ce4520c92190661d13c409eaa0825c8f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/images/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/images/configuration.md",
+      "size": 4126
+    },
+    {
+      "digest": "447ec285923c9ab4b29e56ec7ec0318f30a559c05c257d37b02f60e62971b9d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/images/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/images/gotchas.md",
+      "size": 2490
+    },
+    {
+      "digest": "b1cfebd7afdd7024e581e4a1002a304af0c00e630d4cd4623e97caae1c02fcd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/images/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/images/patterns.md",
+      "size": 3582
+    },
+    {
+      "digest": "c141ec2f48645a0f0884511baceee0265776075f3073aefbd199f3037b420681",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/kv/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/kv/README.md",
+      "size": 2883
+    },
+    {
+      "digest": "94a2fc711801bf91b2697d3690ca5b5f6c7732f22ec50965e1eb0eafed204ff4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/kv/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/kv/api.md",
+      "size": 4327
+    },
+    {
+      "digest": "59138344e7c23b43b360e0df44a23ee56253d013a4a1a9633c5b459b3d4ebac3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/kv/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/kv/configuration.md",
+      "size": 3083
+    },
+    {
+      "digest": "60f1e7577a90acd2e44c65602b25f1f7cbb2cc6321c2fc501bf623484cb1115b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/kv/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/kv/gotchas.md",
+      "size": 4455
+    },
+    {
+      "digest": "4fc5129467ba3e9820609512c3ce9ac0e2db5c125cae6c892c239ad273381754",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/kv/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/kv/patterns.md",
+      "size": 4740
+    },
+    {
+      "digest": "484f0edc585d46559ee0be2bc443da8c7e96d6cde31e2c18ea52a2ae6c73bb95",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/miniflare/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/miniflare/README.md",
+      "size": 2976
+    },
+    {
+      "digest": "468ea31044ec445b89fb54692335f26705ba10ee977f233afb075f340e8a77a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/miniflare/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/miniflare/api.md",
+      "size": 4606
+    },
+    {
+      "digest": "54dce11b0189897aae54406b09bfe4f9da89293daafc33898b80ccdc728494f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/miniflare/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/miniflare/configuration.md",
+      "size": 3525
+    },
+    {
+      "digest": "eb42fd5887eccd3b8100a4be7c1ba4209d8e0f169ea080252c4b46d38c745f63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/miniflare/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/miniflare/gotchas.md",
+      "size": 3724
+    },
+    {
+      "digest": "3cde456ae68df13ddc6987df3c45c2440409ab7e2574e5e58b2c1f037f902af0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/miniflare/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/miniflare/patterns.md",
+      "size": 4260
+    },
+    {
+      "digest": "00aa27f34cbe4277a1c79624a06bfe3ab8cf910e2c847eb5ba9c5206f1e12b3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/network-interconnect/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/network-interconnect/README.md",
+      "size": 3230
+    },
+    {
+      "digest": "a4785017781a4b469b1c3e5c94f520a50b89412092b65963dee44bcb6e00b868",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/network-interconnect/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/network-interconnect/api.md",
+      "size": 5626
+    },
+    {
+      "digest": "3edfa1d1642a0aed71121156acd7e4f76258b027b8f3758cbca68ab0ea5a1956",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/network-interconnect/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/network-interconnect/configuration.md",
+      "size": 4257
+    },
+    {
+      "digest": "8444d367d9389661e040061c009011263c429b52b72a27f2fb4ff82ad261b7be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/network-interconnect/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/network-interconnect/gotchas.md",
+      "size": 5554
+    },
+    {
+      "digest": "e696a628f29643cb7955ed5d0607875188d462dcdff8a2758d287302d6b0fa1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/network-interconnect/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/network-interconnect/patterns.md",
+      "size": 4041
+    },
+    {
+      "digest": "5b6085ff9ff70483e47af484f554ed6a0214886bfbb74add0a146d9454514635",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/observability/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/observability/README.md",
+      "size": 3887
+    },
+    {
+      "digest": "0dd66198a6832b3de90b32fabfae0e89b9ad98921181bfa5d77cb31da2c309c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/observability/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/observability/api.md",
+      "size": 3480
+    },
+    {
+      "digest": "8a1b85928d8f146b57d8ef4c9b60f3ccd052e32a32b58b698da28a2483027960",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/observability/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/observability/configuration.md",
+      "size": 3584
+    },
+    {
+      "digest": "569bd59b08317bd6aa85621e7974650e3602a0cc5cbcd0e98dd503d9e879fb9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/observability/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/observability/gotchas.md",
+      "size": 3755
+    },
+    {
+      "digest": "df66dce8d14a5887e183dbc1831c3914cdfc731a854f1a12f6833da4b6fc05c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/observability/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/observability/patterns.md",
+      "size": 2481
+    },
+    {
+      "digest": "19474e50d4c3c5fda0184f62df8302aef0ba8a09999fc3111d8cb979aa280fd7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages-functions/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages-functions/README.md",
+      "size": 3322
+    },
+    {
+      "digest": "edf4ea412a1372e46a704a3c0b7b60d208722b0dbda106d04bab41ab48dda1da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages-functions/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages-functions/api.md",
+      "size": 4677
+    },
+    {
+      "digest": "adaf79d53ca4d46ebc1be695314bb67aa42a11f412d9b61a48a765c828dd0d94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages-functions/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages-functions/configuration.md",
+      "size": 3002
+    },
+    {
+      "digest": "c623392e07ba0b90d90a7b30408081f792e5c74faa8fbb7cf799adc4fd4d16b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages-functions/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages-functions/gotchas.md",
+      "size": 3850
+    },
+    {
+      "digest": "35f462e5f5681bd317d66a62f7e297cd8395c406e9e52cdb05f8c5b17df6877c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages-functions/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages-functions/patterns.md",
+      "size": 4214
+    },
+    {
+      "digest": "0b79f0e3bd7dd929d03de09ac7c35e006547c99763399f01b64436749085afe8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages/README.md",
+      "size": 2834
+    },
+    {
+      "digest": "90989f928df3e394e9bc9587ac4eda172bf3735a338a0b1f6edba4d6af3a2652",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages/api.md",
+      "size": 5980
+    },
+    {
+      "digest": "98607a16fb561f374609bb638a5d05e94c55ebcad29cdec1058cd25800799b85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages/configuration.md",
+      "size": 5865
+    },
+    {
+      "digest": "5c66190d3a5aaa5864044431811afc31524dec856442504a2bd5caa0640c4af2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages/gotchas.md",
+      "size": 7998
+    },
+    {
+      "digest": "5a527102ede2c5b01543f356b0edf2574472251439c08b257ebefa4753eee957",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pages/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pages/patterns.md",
+      "size": 5992
+    },
+    {
+      "digest": "08dc858b6848abbe594e38be62965de409a7769b7f562d17806df9491de36313",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pipelines/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pipelines/README.md",
+      "size": 3400
+    },
+    {
+      "digest": "1e2d758985524a1e9335a20508909ee73b087e5352c586ab2ddd8daac5f5b665",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pipelines/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pipelines/api.md",
+      "size": 5109
+    },
+    {
+      "digest": "2b838aaa75b3e304b586799bf07f66d878e1e6ef4911c6f4c0252c597ef2fb14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pipelines/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pipelines/configuration.md",
+      "size": 2747
+    },
+    {
+      "digest": "c227e49aba59e449ea3f5bb8751bc5c623287ea35f898db2deb873808d326e69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pipelines/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pipelines/gotchas.md",
+      "size": 2427
+    },
+    {
+      "digest": "75d05267912d6023aa850316401992131c2ae5ee5dcceea2682328cd4bec71a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pipelines/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pipelines/patterns.md",
+      "size": 2080
+    },
+    {
+      "digest": "2803dd115110b5f4b8ac414fb78debbe06c3a653d57032aee2374f89eca4d2d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pulumi/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pulumi/README.md",
+      "size": 3231
+    },
+    {
+      "digest": "5e6459dbe3bcd802965fbc8467c54744671d5a9b3c600fececb2db314295797d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pulumi/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pulumi/api.md",
+      "size": 5761
+    },
+    {
+      "digest": "5c102d4eb4d16a1647b451af42599d6123f6f4f31e4390edd698ba6ad8154eb6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pulumi/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pulumi/configuration.md",
+      "size": 5657
+    },
+    {
+      "digest": "f78cb1104200a53a2bd7c7807189fc59b59f6296c83f998054db1509ed3148ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pulumi/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pulumi/gotchas.md",
+      "size": 6536
+    },
+    {
+      "digest": "975cd37cd6735d790624d042982a683f05f96dd6509f9da8ada7e78f8e645f2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/pulumi/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/pulumi/patterns.md",
+      "size": 6974
+    },
+    {
+      "digest": "faa1106897e0f1b89a0b87040e14955f7594a48ef966d3ee88ece436cbef9359",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/queues/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/queues/README.md",
+      "size": 3058
+    },
+    {
+      "digest": "ffe55706d2bcbb14f799d3254631c8b5e77a21534ce8831ddba7cbb325061e8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/queues/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/queues/api.md",
+      "size": 5563
+    },
+    {
+      "digest": "f8730e15875faf99ff444ca6dc198d96a0ebbb2adde14163c1455e754f24197b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/queues/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/queues/configuration.md",
+      "size": 3828
+    },
+    {
+      "digest": "a6adba9ddac675d2c4faa9c42d9aaba06e09a7802184aff22905d3ea135a92b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/queues/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/queues/gotchas.md",
+      "size": 7233
+    },
+    {
+      "digest": "4ce6cecea3ac1beeae91f5f3dca2fad88b4b65159abee4d56c12be8ec731c541",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/queues/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/queues/patterns.md",
+      "size": 5498
+    },
+    {
+      "digest": "e1c0c6bfbdba3cfd2e9ab4d051cc88f947d8656e89d8912b998bfd7fcb80b762",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-data-catalog/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-data-catalog/README.md",
+      "size": 7105
+    },
+    {
+      "digest": "d5389cca0a4151ba3d400bbb587bdf437cfd8f863f183469ad8457e2133dd46b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-data-catalog/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-data-catalog/api.md",
+      "size": 5991
+    },
+    {
+      "digest": "4b6f9ede6a838e6d9f3da9dd06e3a637180ad0ef7e2063eb543eca3ff934c319",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-data-catalog/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-data-catalog/configuration.md",
+      "size": 5297
+    },
+    {
+      "digest": "38cc280708c858e55991687da7a14f27e4f706195875d12cb788c91c0fa70223",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-data-catalog/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-data-catalog/gotchas.md",
+      "size": 6126
+    },
+    {
+      "digest": "2b3a790749b2a3a31fbbf90c457de9aa05b2cf31ef4428acc6f6e545f80a907a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-data-catalog/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-data-catalog/patterns.md",
+      "size": 5883
+    },
+    {
+      "digest": "2e131d74778370969ae905ccc904adee9e4d7ff8abfe7269ebee0a8beda90f36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-sql/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-sql/README.md",
+      "size": 5209
+    },
+    {
+      "digest": "1750e8f7b6ad5dbba86a05c186b6d8d67afd3674e75e4210c6500c4968c1cae1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-sql/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-sql/api.md",
+      "size": 4007
+    },
+    {
+      "digest": "c7f20114aad49340e78cf493404fecbe53a8c835b428f3c52900f37c82ba83da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-sql/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-sql/configuration.md",
+      "size": 3739
+    },
+    {
+      "digest": "9bc7ec882f2b04bdcf1c374b7e5ede67f47e7097b10d61c8b085aa4b35135efd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-sql/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-sql/gotchas.md",
+      "size": 6235
+    },
+    {
+      "digest": "bc836b21abaac340720968be103d607b9ee70e81c55505af02d849a8fd62a4c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2-sql/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2-sql/patterns.md",
+      "size": 6758
+    },
+    {
+      "digest": "e7d0e772e34c8fd6fb1d2aadb6a2c07a6d30d8e04ea50ce9a2b8c638836a8bf0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2/README.md",
+      "size": 2825
+    },
+    {
+      "digest": "d229e1d53595db452fb893ab5053d37781e782bd46f5ead3193599474abbba88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2/api.md",
+      "size": 5649
+    },
+    {
+      "digest": "c2e3bb6047af5ca71e4e539a3dedaf9c62b7d41d4ef7f41c298495e9e9380fd3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2/configuration.md",
+      "size": 3654
+    },
+    {
+      "digest": "c9068fb874e3ce0244e11e04c99383f9ca4e314a176e782e3e2cbc3dcef9a0f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2/gotchas.md",
+      "size": 5048
+    },
+    {
+      "digest": "fe0e4caa70e1f1a04d8559b56445b9db0cc51019d03a40a0ef996a1b5298698e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/r2/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/r2/patterns.md",
+      "size": 5844
+    },
+    {
+      "digest": "2c1a23b8c44198e95eabb9f8db96453db61d935f96292932e9a5d1feea31e98c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtime-sfu/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtime-sfu/README.md",
+      "size": 3078
+    },
+    {
+      "digest": "7c6c3d15d77976a87abcba5a8358c29c81e7dbeb15713cf5ccf71374e6017bfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtime-sfu/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtime-sfu/api.md",
+      "size": 3768
+    },
+    {
+      "digest": "6cee79842fdf8fc68b75951a8fa015cbd9276c7babe6e8753f654d3b112c3fb1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtime-sfu/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtime-sfu/configuration.md",
+      "size": 3509
+    },
+    {
+      "digest": "9717fbbf38ea4a8adc51631fd093eefacd6d6c7c30a961e54a5d404fa206b259",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtime-sfu/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtime-sfu/gotchas.md",
+      "size": 4902
+    },
+    {
+      "digest": "51a2b40afd609346a367dcf8a626e905dfe895b3309fcb53432290c3da93cf0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtime-sfu/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtime-sfu/patterns.md",
+      "size": 5403
+    },
+    {
+      "digest": "190ecae4bb2ed00795cec6b59df4b0b3045cbc07d09b818abe398c239e97d531",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtimekit/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtimekit/README.md",
+      "size": 4047
+    },
+    {
+      "digest": "37020e6102c6f4f080f430f3de20c83532930e59cdcaaee52752d1fe62190152",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtimekit/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtimekit/api.md",
+      "size": 8352
+    },
+    {
+      "digest": "4d4ccf99fa72d8923df1eb3910eade99021cb77c5d9b4aa95310a01aeade0aaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtimekit/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtimekit/configuration.md",
+      "size": 5192
+    },
+    {
+      "digest": "83cecda63bad4c55c4b375f0b83fd90bcdc9a15a257fc95809ab08fa4c102618",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtimekit/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtimekit/gotchas.md",
+      "size": 6883
+    },
+    {
+      "digest": "2e02421351f5a7ad19887c38ccae65f14c8118956c6763c029072847036ebcd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/realtimekit/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/realtimekit/patterns.md",
+      "size": 7660
+    },
+    {
+      "digest": "daef5eaf1d88b2980c8d6053134e991d6b762c8969b3100a3ee4c5c79f43fa26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/sandbox/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/sandbox/README.md",
+      "size": 3119
+    },
+    {
+      "digest": "816b4a3b589a0403ec22b11eef5f68d5fe571661744f844f76f966d4e6724c8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/sandbox/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/sandbox/api.md",
+      "size": 4972
+    },
+    {
+      "digest": "71a892941829a103444fa5dc591da2c6a16ff25c24ace1cdc30e190068922ea4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/sandbox/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/sandbox/configuration.md",
+      "size": 3415
+    },
+    {
+      "digest": "abca00f4f9b66ac7c34ed3ed6decf2b0cb5455e17b35d4316bee60446b4c52f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/sandbox/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/sandbox/gotchas.md",
+      "size": 5456
+    },
+    {
+      "digest": "85a3929971f06e5ebe3e8d93256fffd54231002ed5959dff0e78ca398f16de2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/sandbox/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/sandbox/patterns.md",
+      "size": 5236
+    },
+    {
+      "digest": "82c078e9d71d9bd28b2f23535f086e74bec7adad08e3cb6c289326a4a6e14550",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/secrets-store/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/secrets-store/README.md",
+      "size": 2215
+    },
+    {
+      "digest": "d6453c2646c9b2a7fa74b9a63a7a6aa0707ceb499a06705bdda367cfe3e8a1fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/secrets-store/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/secrets-store/api.md",
+      "size": 4358
+    },
+    {
+      "digest": "a7cb7ba5afedecbd005217d6155d85e2800b9f5029bc49f16f15498fc99f17ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/secrets-store/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/secrets-store/configuration.md",
+      "size": 3890
+    },
+    {
+      "digest": "572d2d0464d24d66c4720b52c57f6a3234335cfb2fd18308bba876b72229a296",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/secrets-store/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/secrets-store/gotchas.md",
+      "size": 3838
+    },
+    {
+      "digest": "60f60f7ef93d50208629a2e630d24f4758b1b995eab146395fc639844829058a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/secrets-store/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/secrets-store/patterns.md",
+      "size": 5660
+    },
+    {
+      "digest": "2a41285bae05a8772a6b52b292c28aa87bd4f65c6b984ba85e2733fec104567d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/smart-placement/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/smart-placement/README.md",
+      "size": 5024
+    },
+    {
+      "digest": "d3d8b440a7e362799d7b02dfc3ce348d7bbe51a760f4c6945f2d93bd82785774",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/smart-placement/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/smart-placement/api.md",
+      "size": 5559
+    },
+    {
+      "digest": "7d29937845c26f42ec568f4a98262bdbfe2e983c45e94c7c6376dda0ea67e856",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/smart-placement/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/smart-placement/configuration.md",
+      "size": 6119
+    },
+    {
+      "digest": "8e56c052e6b513b9ab565f0eaf0e7f84bca236dfc30bb77ec6715b70821a5b92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/smart-placement/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/smart-placement/gotchas.md",
+      "size": 5637
+    },
+    {
+      "digest": "693558fe87218c6ee1adca94ca3362eb9cce923e369559f7ff87dca1b9bc5047",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/smart-placement/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/smart-placement/patterns.md",
+      "size": 5784
+    },
+    {
+      "digest": "4f66291949e5fb2a66e49a98b392c2d18057ff36ba74906feae3aeef94f9701f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/snippets/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/snippets/README.md",
+      "size": 3132
+    },
+    {
+      "digest": "e76a59c5005ad537ea4ad83fab71365995717fb51938797a4dc29af324285755",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/snippets/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/snippets/api.md",
+      "size": 5133
+    },
+    {
+      "digest": "836c6765b1ca807f46f1a13ca0d8f383fc6f6c4f8fc857a366156cde96ff74ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/snippets/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/snippets/configuration.md",
+      "size": 6311
+    },
+    {
+      "digest": "301c7167f03075505498f1f6b5fe1c72a393065a8228f42c435fde9f1b694150",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/snippets/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/snippets/gotchas.md",
+      "size": 2220
+    },
+    {
+      "digest": "2b06454df89a837e16ae554769ad055e8de90d2c6bc19a81b4aeee0fc423029d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/snippets/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/snippets/patterns.md",
+      "size": 3346
+    },
+    {
+      "digest": "6dfd516d6e54696accbe6bb499f4e70686061abd0afa192897b32d7fd0c3f32e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/spectrum/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/spectrum/README.md",
+      "size": 2355
+    },
+    {
+      "digest": "bef098862434f4c8e253d718d3437091813e45c3bfaa5004e8e86d6ceb83beb2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/spectrum/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/spectrum/api.md",
+      "size": 4924
+    },
+    {
+      "digest": "2079f33dfe2ef2ed715927c95c2ba5389f5f426745597aef94e5885da5eec403",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/spectrum/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/spectrum/configuration.md",
+      "size": 4332
+    },
+    {
+      "digest": "cb07bb56c6c5e2b2f88380772cbaa25143d7f32cce69c8f5bbbb1e77d4fdd216",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/spectrum/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/spectrum/gotchas.md",
+      "size": 3739
+    },
+    {
+      "digest": "087e7d9a1a1a308eb13614332df217137296501cf57082077f05bb3a1f2bf7b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/spectrum/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/spectrum/patterns.md",
+      "size": 4778
+    },
+    {
+      "digest": "ef31f6ca300cb5fb1f111a626f6d92ef2b5b48a3ed97c2203874c33a2f38c0e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/static-assets/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/static-assets/README.md",
+      "size": 2197
+    },
+    {
+      "digest": "619acb0a8d9732395316fc0beeed11e1a10557e08c639338ac92473cea1c5701",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/static-assets/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/static-assets/api.md",
+      "size": 4451
+    },
+    {
+      "digest": "c35204c02177893d0b8c5b9bf2341d7814ed9d1e8e2ca3fc7c87d05603e9ec50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/static-assets/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/static-assets/configuration.md",
+      "size": 4826
+    },
+    {
+      "digest": "37b51d4f42e2a685934b7199dc62a0d8fd3d98c9dcf197ca5f5667aee01ea86d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/static-assets/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/static-assets/gotchas.md",
+      "size": 4127
+    },
+    {
+      "digest": "a9b508f7936d8edf7c63c65fb217d27f6aa555209a21e0a65eadf7a32d9ec9c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/static-assets/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/static-assets/patterns.md",
+      "size": 4895
+    },
+    {
+      "digest": "ead31da7979689bffda222b1b1c20903fb1aca03301b208eff0b3682a422b6ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/README.md",
+      "size": 3864
+    },
+    {
+      "digest": "7c384bb3ee0575f41bcc57cf1d7c6f37741e21de5d4ebb86ee4d1a05f6d671b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/api-live.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/api-live.md",
+      "size": 5174
+    },
+    {
+      "digest": "5440838fb2fb329fe815aecde94709a3d32be08c917491355709314ff7e3d8f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/api.md",
+      "size": 5260
+    },
+    {
+      "digest": "74c156e9c665e9d523bcd7c5d9a763339aba0356b1dc69d723ef6bab41a25328",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/configuration.md",
+      "size": 3222
+    },
+    {
+      "digest": "65ef0e0f81470833dea11179849d5bf78f695720286db5e5eebe7d8dcf77a1d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/gotchas.md",
+      "size": 4308
+    },
+    {
+      "digest": "1a18c1989fb525c15167126f98246afa27766e701c86150cb60409759a3e08f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/stream/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/stream/patterns.md",
+      "size": 6394
+    },
+    {
+      "digest": "22776dd6348b07d2c7132ee4a52715f49bc61c1bb50d0af81e49281e44bb9799",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tail-workers/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tail-workers/README.md",
+      "size": 3020
+    },
+    {
+      "digest": "d8349bfabdfac0d2cd8c911f2314c34ff1045b2a85b6d135cf4f4692940a94b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tail-workers/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tail-workers/api.md",
+      "size": 5132
+    },
+    {
+      "digest": "8efac4877ad572f631f78643712a9c1e151661d4efedd728ee23fe2877669845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tail-workers/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tail-workers/configuration.md",
+      "size": 3474
+    },
+    {
+      "digest": "4ba9dc553f71ed2422a03c4fe8022aef313761227b88551e07b21496f0c68ac7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tail-workers/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tail-workers/gotchas.md",
+      "size": 4595
+    },
+    {
+      "digest": "400bb20063049d802f9b9d97924810817234bba9a12d8fd5ff13e9f0913812e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tail-workers/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tail-workers/patterns.md",
+      "size": 4034
+    },
+    {
+      "digest": "a7070aaa31c8e229b2ebfca6fe66bcf6ead9cdf1ef6d7b494a556080253ec073",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/terraform/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/terraform/README.md",
+      "size": 3680
+    },
+    {
+      "digest": "5dc812c078d06454d801b0e126d50c48031c1a7b0ffef7ebf77a97cf7b41e768",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/terraform/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/terraform/api.md",
+      "size": 4020
+    },
+    {
+      "digest": "4d12cad256eaf2b021c1c19e7be29ef79e2d76183e387eefce2d4eb50b8d483e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/terraform/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/terraform/configuration.md",
+      "size": 7577
+    },
+    {
+      "digest": "ede039589518cceb96d40c12b7e22aaf0fbb1a5ec4d806af57940dfcaf9da672",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/terraform/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/terraform/gotchas.md",
+      "size": 5268
+    },
+    {
+      "digest": "1c5d35e79bdfbb2bfce92b095dbdb4fb08923b651a8f8e40e6e70e2956e6ffef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/terraform/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/terraform/patterns.md",
+      "size": 6640
+    },
+    {
+      "digest": "1cbeda06e54ae97dc5db42721579e9b455cc1a2eec61f4756b3d4de29dddf2a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/README.md",
+      "size": 3738
+    },
+    {
+      "digest": "698055870e668a0827b8bbb83d9016b093e22e4a95f4aabeaca7ef2e0d1e099f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/api.md",
+      "size": 4444
+    },
+    {
+      "digest": "41c67b8a19309f3d626f8ad94bc0d4748be63ad311c220c73f76faaabde461ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/configuration.md",
+      "size": 3698
+    },
+    {
+      "digest": "267e3fad1f1a328bec1786ce883f7d658ee328ee5e812c2a4ee61739b507c691",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/gotchas.md",
+      "size": 3933
+    },
+    {
+      "digest": "99f51bcb065fdd62df94aa116f11effde03d81c4299f369770492346add235ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/networking.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/networking.md",
+      "size": 3993
+    },
+    {
+      "digest": "696d5fe99640934a94b6facb6e3198d93dc38bfac3c3324fd817e47f620bc40d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/tunnel/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/tunnel/patterns.md",
+      "size": 3853
+    },
+    {
+      "digest": "9b1e36931f40b1faf3c8f24f89acb12c4f4223de0afc83e6b8de636f4730d542",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turn/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turn/README.md",
+      "size": 3693
+    },
+    {
+      "digest": "912ec9aa734843078db5ceb9c6732f3aa62778aa7ffb836b9798b46152f377ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turn/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turn/api.md",
+      "size": 5220
+    },
+    {
+      "digest": "8df0cf402a41dd2a8205b9fc94f868df48273ef9e85cf1ad690732ac1e2469b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turn/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turn/configuration.md",
+      "size": 4178
+    },
+    {
+      "digest": "7135e3e6e0351bf85fcfd5a914fd499979e7e15540d155810be5bc710e5841d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turn/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turn/gotchas.md",
+      "size": 7020
+    },
+    {
+      "digest": "de0a2e64a0fe6456028cbd0cd8f29195cc8d4da0e8935746357587d5937aa636",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turn/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turn/patterns.md",
+      "size": 6189
+    },
+    {
+      "digest": "137caa7c326b4f57fecaa6174179d140aae4e20770301ac9ee207fa0f5a2cffd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turnstile/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turnstile/README.md",
+      "size": 3539
+    },
+    {
+      "digest": "8d9123ce63066a64d40c7da10ae3251dad64710f8122f3c57f826985d1474d27",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turnstile/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turnstile/api.md",
+      "size": 6424
+    },
+    {
+      "digest": "eac60f420fa7122c275c40e6b7a9a55a672c42027d56d5e187432a1653f221b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turnstile/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turnstile/configuration.md",
+      "size": 6719
+    },
+    {
+      "digest": "3166f9a79a6512310b84a7958dc911906395fd10e3540af7698083ec8e5d8286",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turnstile/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turnstile/gotchas.md",
+      "size": 6276
+    },
+    {
+      "digest": "7d229cb935aaa187796a8667b4d9843c8585a7f90fa30ddc6999240960f12bd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/turnstile/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/turnstile/patterns.md",
+      "size": 4677
+    },
+    {
+      "digest": "badc6f6e66868e9eaf30e46babf9e5c060fe7e425ed62d29d17161677323b388",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/vectorize/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/vectorize/README.md",
+      "size": 4288
+    },
+    {
+      "digest": "c0aab15c2d7fc72b875b26e9a96a32bb2f899bd64ff3db33107208aacbf7347b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/vectorize/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/vectorize/api.md",
+      "size": 2375
+    },
+    {
+      "digest": "057eaef43f53e8bd71699ca17a3d296eb0c165ce1c1a304d71dea53ee9ab0908",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/vectorize/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/vectorize/configuration.md",
+      "size": 1986
+    },
+    {
+      "digest": "41368d07e71f80db6d649b07ed871b9ac463bcc8db8d53563e07d24634fd5633",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/vectorize/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/vectorize/gotchas.md",
+      "size": 2157
+    },
+    {
+      "digest": "dcc4227997e7a856444a701b9243a9a1c8d1cb38680429ac3047b761f85e71c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/vectorize/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/vectorize/patterns.md",
+      "size": 2514
+    },
+    {
+      "digest": "dfcf0ff026f351637a2c7e9321740a24a87a3a5ee9698712677c2914b5d22163",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/waf/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/waf/README.md",
+      "size": 3455
+    },
+    {
+      "digest": "d7f67e1a1ee4096edb8382fa04c610fc933593afb442cec3f2d5e76bf6a604fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/waf/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/waf/api.md",
+      "size": 5831
+    },
+    {
+      "digest": "e4fb36ebccdb73eb8be9513d316a7294ab62a6ce355b7e09498a77af91cdb095",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/waf/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/waf/configuration.md",
+      "size": 4765
+    },
+    {
+      "digest": "d002f5d683577b734b6a1d787b96d04bff5ac47d454e720219ff58a9d850f4cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/waf/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/waf/gotchas.md",
+      "size": 6290
+    },
+    {
+      "digest": "8fc5fab71800154d1128725274bcfe1a59b3e667c2c0f841a96f643e5da89ba1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/waf/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/waf/patterns.md",
+      "size": 5356
+    },
+    {
+      "digest": "bff5f576b9fc55ee7f3c448a7e5aff30e653bcc214d4040f476f392a69213218",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/web-analytics/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/web-analytics/README.md",
+      "size": 5236
+    },
+    {
+      "digest": "82a7c2312b3d8d9852d14547ef7771616f0da3cdecaa146afbf6272b77976017",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/web-analytics/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/web-analytics/configuration.md",
+      "size": 2003
+    },
+    {
+      "digest": "e81a0ac61dce03a4890b9950ba06662c16e4b9ddb4eecdff204221501cd8d6d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/web-analytics/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/web-analytics/gotchas.md",
+      "size": 1999
+    },
+    {
+      "digest": "a0dbfd1a658252e25d7ffa86180c691c6976265526b36ab14ce9e4b469d95cba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/web-analytics/integration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/web-analytics/integration.md",
+      "size": 1772
+    },
+    {
+      "digest": "6ccd1e334d260b968731f5f613ad28882bc199b72883e3254a52ded8d859f5a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/web-analytics/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/web-analytics/patterns.md",
+      "size": 2237
+    },
+    {
+      "digest": "daed9e582eff91b2c29dc77701c7c18a3d92fde0dc6883b2913df26094c0c597",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workerd/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workerd/README.md",
+      "size": 2789
+    },
+    {
+      "digest": "7a6652e76e27424b0ce0d7393e1a04595460290d44e5ca937e3b0090a3b61166",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workerd/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workerd/api.md",
+      "size": 4959
+    },
+    {
+      "digest": "656371e6aa55e315ea02e4304228f5c1151023f68af8058ad60984b90e00a9ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workerd/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workerd/configuration.md",
+      "size": 5263
+    },
+    {
+      "digest": "ed3107537e54d440445408131b89db5f81f869902bade11cda7978f31234f74a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workerd/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workerd/gotchas.md",
+      "size": 4781
+    },
+    {
+      "digest": "dc293c43c732adf6e3edfeaf72510904c7e8d097ca26c8b168748dd3d57e4408",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workerd/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workerd/patterns.md",
+      "size": 4938
+    },
+    {
+      "digest": "e1f1fae0a795cbf975d4751e36f28a2b9eb48ad9cd10a9edf48cc9211581c241",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-ai/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-ai/README.md",
+      "size": 6042
+    },
+    {
+      "digest": "2b6093736b90376cf9089726eddc580f77d9f719be5031a1552cd05a4f3e991c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-ai/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-ai/api.md",
+      "size": 2715
+    },
+    {
+      "digest": "acfe8100a30a006b2b35ba9f81897130402825b062a087984258fa597ea8fa1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-ai/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-ai/configuration.md",
+      "size": 1989
+    },
+    {
+      "digest": "10fe3b26750c2fc92ff6ccdefc1200352cdae88c573071cd7735d0a84ff925da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-ai/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-ai/gotchas.md",
+      "size": 2693
+    },
+    {
+      "digest": "1ebfd949690bd1e8150435c1bd1bf7b5cd3e6ab35eec5442f7af8bf39ea80198",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-ai/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-ai/patterns.md",
+      "size": 3063
+    },
+    {
+      "digest": "8c1b123a124f0da9da6ee5944723f6a1fdf39bf753c8bbf5aae23aeab4de6000",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-for-platforms/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-for-platforms/README.md",
+      "size": 3913
+    },
+    {
+      "digest": "6bc581bf87e21dd9764b88e7658b8cce841491943bd67b0ab8c37e1fcb2b9835",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-for-platforms/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-for-platforms/api.md",
+      "size": 5515
+    },
+    {
+      "digest": "21e9034f5b014589e05e98eb5fa368e1c4fe4f287215c4b8f38ce12b95fd588a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-for-platforms/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-for-platforms/configuration.md",
+      "size": 3892
+    },
+    {
+      "digest": "98904178ec81e30e0503ae512cedf76e0d8bdcc517009984b474a6008243e18f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-for-platforms/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-for-platforms/gotchas.md",
+      "size": 5440
+    },
+    {
+      "digest": "08ea9e56309bf663fca61a9bb6e5115d23758fcde7112d482944ac510ae43643",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-for-platforms/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-for-platforms/patterns.md",
+      "size": 5587
+    },
+    {
+      "digest": "5429f6fbb3300f1e190e8024ae8fd63f5e345ea22ecdaea4e405766351177496",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-playground/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-playground/README.md",
+      "size": 4016
+    },
+    {
+      "digest": "bf8f93589789b19c0834815dd498d09a0eaf526502d66691c4797b6c2906ad49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-playground/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-playground/api.md",
+      "size": 2224
+    },
+    {
+      "digest": "eee7eeb85e60ee4a2b9d91f445448dc93c3d2875a80b35888f93847e990d128f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-playground/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-playground/configuration.md",
+      "size": 4462
+    },
+    {
+      "digest": "85e262f98373f1631dcef3f44a57b6d9e30f8e930e013dc8667fa5993bb6dfae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-playground/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-playground/gotchas.md",
+      "size": 2019
+    },
+    {
+      "digest": "c95d27741ecccbad12386ff4fa9dae6c8ff21438bf83f3edfd177ec156a8da69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-playground/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-playground/patterns.md",
+      "size": 3303
+    },
+    {
+      "digest": "6bfab65387d76709296161a0206a1a943f773374c1fb8fa435853693b16902df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-vpc/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-vpc/README.md",
+      "size": 5484
+    },
+    {
+      "digest": "60bae66d5674a5e54a0077168adfbc5c44a9c87050149381b119941bb4c45f41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-vpc/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-vpc/api.md",
+      "size": 5321
+    },
+    {
+      "digest": "0a3f90caf7b17158687c6f4ce5a6e2f292c19255eb2bf766d7eec96de926104b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-vpc/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-vpc/configuration.md",
+      "size": 3898
+    },
+    {
+      "digest": "70e2d004800e75ccdbbdcc37623b97d9f5b4592183aae1421e21bad19e111d80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-vpc/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-vpc/gotchas.md",
+      "size": 4477
+    },
+    {
+      "digest": "87dc009bc45b057408dfbeaace374ff169295bba7d9d4d40fa973945848c9ecc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers-vpc/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers-vpc/patterns.md",
+      "size": 6011
+    },
+    {
+      "digest": "4e00df1c6d64cd393c909430769c183b7027b4fe1db0c2dbb31090987baff14c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/README.md",
+      "size": 3451
+    },
+    {
+      "digest": "96dafb63543f3a52a791ba56b0c3fb45efd7bef5b31331ce520cb999b8956c8d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/api.md",
+      "size": 5158
+    },
+    {
+      "digest": "76a1086028fbda8218306771af0c15c53774c40279c5a40a74057e6e9f2b10b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/configuration.md",
+      "size": 4355
+    },
+    {
+      "digest": "520538d460fa6a11360163e3ed0725d840946c776feb9e00bd0bafd9f1cff699",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/frameworks.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/frameworks.md",
+      "size": 4276
+    },
+    {
+      "digest": "f9430e9fe0462c5749fb6478f5d29eea18838d71bcb73366c9479ff865dc597f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/gotchas.md",
+      "size": 4751
+    },
+    {
+      "digest": "f408d6db9c13ef192511b506b7f83b15df1a0e736c9d10215fcc1c0c0b3ba439",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workers/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workers/patterns.md",
+      "size": 5447
+    },
+    {
+      "digest": "c0a6be8e49bc081474ad24ec4c1f6ec190c2e431c2d30869e0b5a047b4a25c3f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workflows/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workflows/README.md",
+      "size": 2429
+    },
+    {
+      "digest": "f9daa528ae883afcab07036e1b7c5e341b1b10d579fadaa782553243c41881ee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workflows/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workflows/api.md",
+      "size": 6423
+    },
+    {
+      "digest": "3701f2702b265c517668e24e2dd63417a277e7f601cb52623a9a4e1677553756",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workflows/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workflows/configuration.md",
+      "size": 3707
+    },
+    {
+      "digest": "21ddf3bdb1987bfbdfc1796e49643bf0f2ef247ccf01a78c03f77e5dc50d695d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workflows/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workflows/gotchas.md",
+      "size": 4649
+    },
+    {
+      "digest": "eca20d1dadcf97e7a415603793aec1dbb3a252eb5abf27a35e0b99e242ebe593",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/workflows/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/workflows/patterns.md",
+      "size": 6638
+    },
+    {
+      "digest": "a30d1890034e40e50a6f974a6dde4a8337293372aff91d4b79bbe4ecddc69e36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/README.md",
+      "size": 4668
+    },
+    {
+      "digest": "0872bc513368c167efbf8bc16024140963f44fd2cdc8777cd615b15831997d53",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/api.md",
+      "size": 4624
+    },
+    {
+      "digest": "71ca6291023a9897c376ea03600f7095bc38b3ad5360cffefb4c9bd93f338fdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/auth.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/auth.md",
+      "size": 2169
+    },
+    {
+      "digest": "a8e042ffe9e399167816920a58c8ce909b6cd784507615e3431729884e1334b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/configuration.md",
+      "size": 4722
+    },
+    {
+      "digest": "bb24bd86adaacf3f1f2e359e6e02ee72e1342e6156ffa3bb8b6d25aa28aba5c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/gotchas.md",
+      "size": 5868
+    },
+    {
+      "digest": "eef3fa927fea3594313d72c0107b6552e65c0a86ad0324558d73e579bbd74772",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/wrangler/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/wrangler/patterns.md",
+      "size": 4876
+    },
+    {
+      "digest": "eba1671fc4ba17fae19d1ff2d1b312d5042b5821e7a4dbc2f6367a4fa8bd5506",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/IMPLEMENTATION_SUMMARY.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/IMPLEMENTATION_SUMMARY.md",
+      "size": 3494
+    },
+    {
+      "digest": "929bee8e3efffad15b1a2ee2e20ff87b5d89cc724b4f450f07f6ef15caf4b2f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/README.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/README.md",
+      "size": 3909
+    },
+    {
+      "digest": "6b28a3e1525d46aad707b1bf4edd2739df9f48ae880f71a705448270b42f8b9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/api.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/api.md",
+      "size": 3197
+    },
+    {
+      "digest": "6f3666ac64d1b36b4a708b3dea9d3b1d9679b34c58a00e3ca8e254edd602418a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/configuration.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/configuration.md",
+      "size": 1811
+    },
+    {
+      "digest": "30378f48fde6e866780466228a3e698005a9ce23a24188c8ed520195b03eac3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/gotchas.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/gotchas.md",
+      "size": 2001
+    },
+    {
+      "digest": "2ea1d00fe81b1e881c00090fd18c96d8c78ebb41fcc55f540b68150320d90d17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloudflare-deploy/skills/cloudflare-deploy/references/zaraz/patterns.md",
+      "path": "cli-tool/components/skills/development/cloudflare-deploy/references/zaraz/patterns.md",
+      "size": 2133
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "cf2ca49954e345ebce74f0e6b3ffb8fa320e7edc8e40d0dd5ec0631ab158e004",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cloudflare-deploy",
+  "schema_version": 1
+}

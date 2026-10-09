@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "145e96adc1f078b13f49abfdc066af80d44a57c056f030aff01363f47f33ae9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/LICENSE",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/LICENSE",
+      "size": 1063
+    },
+    {
+      "digest": "f64850f90475bfd1c94e94f303b8a1c0aeb3748f6570f3968927c478fcddbd97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/SKILL.md",
+      "size": 5617
+    },
+    {
+      "digest": "fd3ce88c720cdeaaaa3c43b65c64b9402c65902c92645802da87c719b58ce103",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/references/methodology-basis.md",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/references/methodology-basis.md",
+      "size": 10457
+    },
+    {
+      "digest": "b8b0e920bf84a36ad3711fd08c239224213ea34f55b2534d91ff4a2261cf9b51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/references/product-playbooks.md",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/references/product-playbooks.md",
+      "size": 23923
+    },
+    {
+      "digest": "7cb6a3bf954b51a9d731693bdd617b9f3259536ad6f1ec6432dbe4b01cee4dbe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/references/reasoning-engine.md",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/references/reasoning-engine.md",
+      "size": 12357
+    },
+    {
+      "digest": "45795c143c30c9a65833b66e3adbaf55a2e1713372a899f7a684be26ed1472c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/references/response-examples.md",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/references/response-examples.md",
+      "size": 10911
+    },
+    {
+      "digest": "2210bd3df1dd38d9e0960929ff8549cf7ecd812facc8995e702907ce875ae2ac",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/scripts/quality_gate.py",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/scripts/quality_gate.py",
+      "size": 5512
+    },
+    {
+      "digest": "d2b178608f0dfc707fee13f30df47256c4839493e9c19bd084e39c6a7bf7383d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-business-marketing-product-decision-agent/skills/product-decision-agent/scripts/test_quality_gate.py",
+      "path": "cli-tool/components/skills/business-marketing/product-decision-agent/scripts/test_quality_gate.py",
+      "size": 3403
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ad84d7e7f4f0248eb20d9ecc69c739c67807d9c71992193933f9ce272a092acb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/product-decision-agent",
+  "schema_version": 1
+}

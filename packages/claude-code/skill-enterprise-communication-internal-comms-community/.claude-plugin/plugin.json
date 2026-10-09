@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/internal-comms-community",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-internal-comms-community",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

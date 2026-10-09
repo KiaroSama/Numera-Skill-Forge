@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/LICENSE.txt",
+      "path": "cli-tool/components/skills/creative-design/imagegen/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "1d7472f73fa37cdd0d5bd2e59d19cc26b923301f28fd0f99769aef01a295073d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/SKILL.md",
+      "size": 9931
+    },
+    {
+      "digest": "051b82cce281829f36caaeacb676af013d45c5429fd824ec0eac5dcee07352fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/agents/openai.yaml",
+      "path": "cli-tool/components/skills/creative-design/imagegen/agents/openai.yaml",
+      "size": 291
+    },
+    {
+      "digest": "cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/assets/imagegen-small.svg",
+      "path": "cli-tool/components/skills/creative-design/imagegen/assets/imagegen-small.svg",
+      "size": 2889
+    },
+    {
+      "digest": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/assets/imagegen.png",
+      "path": "cli-tool/components/skills/creative-design/imagegen/assets/imagegen.png",
+      "size": 1711
+    },
+    {
+      "digest": "c548d8897fb3df3c0a0d39b42cdd7a08247706696cbedda9f1b36cb7bbf60ab7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/references/cli.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/references/cli.md",
+      "size": 5288
+    },
+    {
+      "digest": "e0392ea43bdc6fa075ff8f842a999840e05ab025be3c217dc58791000efa5b18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/references/codex-network.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/references/codex-network.md",
+      "size": 1146
+    },
+    {
+      "digest": "a31b576864fb7ab43e3191e039a24a19cdd85d2804e44c38a822f2ed1f4f78c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/references/image-api.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/references/image-api.md",
+      "size": 1629
+    },
+    {
+      "digest": "80383de47c15b2e0b014b95099cc95663497cb2ab8b0eac88d867fa2b5b208db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/references/prompting.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/references/prompting.md",
+      "size": 5903
+    },
+    {
+      "digest": "be54f1ced28a7ac1d68670eb2d560d1491d7e0efe38972d9ba3309110f7d45e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/references/sample-prompts.md",
+      "path": "cli-tool/components/skills/creative-design/imagegen/references/sample-prompts.md",
+      "size": 14901
+    },
+    {
+      "digest": "f30607f1f5ee10d6d62f5fb2e28a128791e280ca7f369f9c98b1809bd2a4962a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-imagegen/skills/imagegen/scripts/image_gen.py",
+      "path": "cli-tool/components/skills/creative-design/imagegen/scripts/image_gen.py",
+      "size": 29949
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "edd62a332ab51bb5aa99a78bbecf9f7ec63ed40bef793b0bb56869297d13b4ea",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/imagegen",
+  "schema_version": 1
+}

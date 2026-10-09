@@ -32,3 +32,12 @@ runtime plugins remain distinct. Executable-mode Git companions are refused in t
 than copied with lost POSIX permissions; full mode-preserving native lifecycle remains unfinished.
 New journals store bounded digest metadata plus raw recovery blobs, and ownership receipt changes
 participate in the same logical operation. Rollback records its direction before compensation. Existing source licensing and last-known-good state are preserved.
+
+## Registered skill collections
+
+Collection services provide a separate source-to-many-plugins distribution boundary: explicit per-root
+license/revision registration, immutable batched Git blobs, unchanged payloads and mode-aware journals.
+Accepted state, plugin output and marketplace promotion share logical transactions. New runtime/
+license/structure changes are not inferred trust; reviewed prompt body changes alone may advance.
+CLI and launcher use the same service; scheduled publication stages only accepted output paths.
+This does not broaden existing native installation certification or execute upstream helpers.

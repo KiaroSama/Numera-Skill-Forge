@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/playwright/LICENSE.txt",
+      "size": 11552
+    },
+    {
+      "digest": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/NOTICE.txt",
+      "path": "cli-tool/components/skills/development/playwright/NOTICE.txt",
+      "size": 403
+    },
+    {
+      "digest": "f5004d91c451e242750e2a4a98378b6e87f51659913f3ffc9b7bdbfba1ca36f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/SKILL.md",
+      "path": "cli-tool/components/skills/development/playwright/SKILL.md",
+      "size": 3786
+    },
+    {
+      "digest": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/playwright/agents/openai.yaml",
+      "size": 313
+    },
+    {
+      "digest": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/assets/playwright-small.svg",
+      "path": "cli-tool/components/skills/development/playwright/assets/playwright-small.svg",
+      "size": 828
+    },
+    {
+      "digest": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/assets/playwright.png",
+      "path": "cli-tool/components/skills/development/playwright/assets/playwright.png",
+      "size": 1730
+    },
+    {
+      "digest": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/references/cli.md",
+      "path": "cli-tool/components/skills/development/playwright/references/cli.md",
+      "size": 1863
+    },
+    {
+      "digest": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/references/workflows.md",
+      "path": "cli-tool/components/skills/development/playwright/references/workflows.md",
+      "size": 1864
+    },
+    {
+      "digest": "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-playwright/skills/playwright/scripts/playwright_cli.sh",
+      "path": "cli-tool/components/skills/development/playwright/scripts/playwright_cli.sh",
+      "size": 526
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "a7522f2e326d44bf2d7e7f9468578a8b1412603c8ed5d5dd665410ec845c2989",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/playwright",
+  "schema_version": 1
+}

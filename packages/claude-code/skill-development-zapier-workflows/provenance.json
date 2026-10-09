@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-zapier-workflows/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e0e04465eeb48cd84fb7c503bd468a0f5862b2fbace3e7a11beeff6654ea932f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-zapier-workflows/skills/zapier-workflows/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/zapier-workflows/LICENSE.txt",
+      "size": 1092
+    },
+    {
+      "digest": "a5b6778a3517bdf384b621059c96498ff790ca4138da12ad094309a3ffd050ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-zapier-workflows/skills/zapier-workflows/SKILL.md",
+      "path": "cli-tool/components/skills/development/zapier-workflows/SKILL.md",
+      "size": 19552
+    },
+    {
+      "digest": "dc04ec2aa6fc41aeb0a3202d8a1f023cd15b4234b9d9d95873b1136297205ec6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-zapier-workflows/skills/zapier-workflows/references/mcp-patterns.md",
+      "path": "cli-tool/components/skills/development/zapier-workflows/references/mcp-patterns.md",
+      "size": 2174
+    },
+    {
+      "digest": "050ca219236a3bbeea7a265aea435b0385fa1460494f6236ac88deeb3a5caa1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-zapier-workflows/skills/zapier-workflows/references/zaps.md",
+      "path": "cli-tool/components/skills/development/zapier-workflows/references/zaps.md",
+      "size": 1660
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1d99b64f8e7148017f30a9d0fa49ef4aa354ec274d4ce10a6fc80cc540d84e3a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/zapier-workflows",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-workspace-orchestration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cde86c44a19a7ecb29da83d1f82b0f3c00a48aecafd37640c81d6928bf7d9b80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-workspace-orchestration/skills/workspace-orchestration/LICENSE",
+      "path": "cli-tool/components/skills/development/workspace-orchestration/LICENSE",
+      "size": 1062
+    },
+    {
+      "digest": "3c900a4fcb85f0195c509901d31c82c92a8d3dfaa42501d97418243e34e281e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-workspace-orchestration/skills/workspace-orchestration/SKILL.md",
+      "path": "cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+      "size": 3822
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2a301a3ef5b706f40be8eaf5d4f62928adb71a94dbc835bb84009ae2e4b1aebf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/workspace-orchestration",
+  "schema_version": 1
+}

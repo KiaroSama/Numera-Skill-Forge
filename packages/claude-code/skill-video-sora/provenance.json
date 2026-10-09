@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/LICENSE.txt",
+      "path": "cli-tool/components/skills/video/sora/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "20216ae75db0c29b9095686124292b774e2f6404fdaaef64be30c28a79ae57f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/SKILL.md",
+      "path": "cli-tool/components/skills/video/sora/SKILL.md",
+      "size": 8178
+    },
+    {
+      "digest": "5ee2165f93414e984273e48f3108934837783da5a7229f71c5da02a45fe5bf3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/agents/openai.yaml",
+      "path": "cli-tool/components/skills/video/sora/agents/openai.yaml",
+      "size": 296
+    },
+    {
+      "digest": "fecb5ef27b4b01028892a28a621c60d948595e9b38b542d47b5b97a3147d341d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/assets/sora-small.svg",
+      "path": "cli-tool/components/skills/video/sora/assets/sora-small.svg",
+      "size": 1784
+    },
+    {
+      "digest": "c0d8a1e9c9dce967f4aea9b6195b95aa1a8cd06bfd57b8da27542654a7b4ba43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/assets/sora.png",
+      "path": "cli-tool/components/skills/video/sora/assets/sora.png",
+      "size": 11731
+    },
+    {
+      "digest": "c7e827b1c03e01da7cc24c89f843a820b6151e250c67a51b06be75c42d186446",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/cinematic-shots.md",
+      "path": "cli-tool/components/skills/video/sora/references/cinematic-shots.md",
+      "size": 1655
+    },
+    {
+      "digest": "7be7b6dc2a2a1502b905cc9a036a65fcb1c7d97d8040faa0019bf4af7859aa15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/cli.md",
+      "path": "cli-tool/components/skills/video/sora/references/cli.md",
+      "size": 7917
+    },
+    {
+      "digest": "923fce6a135ea02b7119292418490ee4bf5764104fcb69aaabd89baa8fde57c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/codex-network.md",
+      "path": "cli-tool/components/skills/video/sora/references/codex-network.md",
+      "size": 1146
+    },
+    {
+      "digest": "ed4d3d9d160f3fe36a26e3921bfafcae4a3f608e695f6801697644994394d3c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/prompting.md",
+      "path": "cli-tool/components/skills/video/sora/references/prompting.md",
+      "size": 5636
+    },
+    {
+      "digest": "9a463fff010791a51f30a30969c7a9ee58c9942e377d2acbd100998e7f4792cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/sample-prompts.md",
+      "path": "cli-tool/components/skills/video/sora/references/sample-prompts.md",
+      "size": 3771
+    },
+    {
+      "digest": "bc79e56ee044ccf676add6b5e879ec984a9c138a796b28d7df71f217beb1d7f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/social-ads.md",
+      "path": "cli-tool/components/skills/video/sora/references/social-ads.md",
+      "size": 1464
+    },
+    {
+      "digest": "4d012cf7ebd564c7889655ae216f2dec24abef98669c1cad8c1c6ef6c530a29f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/video/sora/references/troubleshooting.md",
+      "size": 2816
+    },
+    {
+      "digest": "01a2e01f4d595e9e5b7de24dfe4943e227a3c59b1513215acfaee68912870587",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/references/video-api.md",
+      "path": "cli-tool/components/skills/video/sora/references/video-api.md",
+      "size": 1525
+    },
+    {
+      "digest": "1596ba5bc155cbdedc82882a7abb452aeac424918d038914680bdd7460af219b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-sora/skills/sora/scripts/sora.py",
+      "path": "cli-tool/components/skills/video/sora/scripts/sora.py",
+      "size": 32585
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "f55c8caea553d61bca56026308b93fc6e303e9a9cf6f0f6346235b76d94a8203",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/video/sora",
+  "schema_version": 1
+}

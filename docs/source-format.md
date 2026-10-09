@@ -1,7 +1,7 @@
 # Source and Package Registration
 
 New content for an existing supported profile is data, not engine code. The active initial registry
-is empty. Examples never become approved upstreams automatically.
+starts empty; the owner-approved davila7 collection is registered separately in `registry/collections.json`. Examples never become approved upstreams automatically.
 
 1. Register source with a unique lowercase ASCII ID, credential-free approved HTTPS URL or explicit
    `local:` absolute trusted Git repository path, selected roots and targets.
@@ -21,3 +21,11 @@ Registry schema v1: `schema_version`, ordered `sources`, `packages`. Source fiel
 Package fields: `id`, `name`, `source`, `components`, `dependencies`, `targets`, `optional_exclusions`.
 Unknown host APIs require a capability/adapter change and regression tests; adding more content to an
 existing valid profile does not. Unknown/missing licenses block redistribution pending review.
+
+## Exact skill collections
+
+`registry/collections.json` records explicitly reviewed skill roots, immutable initial revision and
+license path/digest. Each skill gets one plugin. `collection sync --apply` retains complete original
+files and executable modes; `collection verify` checks accepted payloads and native catalog without
+execution. Adding a reviewed collection or skill is registration data, not an engine edit.
+See [licensing](source-licenses.md) and [daily/local updates](upstream-sync.md).

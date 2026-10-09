@@ -1,0 +1,166 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/render-deploy/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "4be98928467d78e590414726893f0fa666a6605a1b16a7c4faa33fb8a742d022",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/SKILL.md",
+      "path": "cli-tool/components/skills/development/render-deploy/SKILL.md",
+      "size": 17597
+    },
+    {
+      "digest": "9d14eae8aad5f2e02112f1003e823df2da2b5b5df626fae4439f44349f59d291",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/agents/openai.yaml",
+      "size": 480
+    },
+    {
+      "digest": "3fd98d72fc490df5c2a57ee5ddb3997347d31ea72ac68035f6442e787a19e091",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/docker.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/docker.yaml",
+      "size": 1398
+    },
+    {
+      "digest": "fed7f5f2f59dc98cfc505533177d7b35dd3a993e6a93d0a6be1fae59a676af0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/go-api.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/go-api.yaml",
+      "size": 848
+    },
+    {
+      "digest": "0c3d482632b88c0e5f3dc620d32b06216b356205b1fd988f69b6fc69ee41d2d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/nextjs-postgres.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/nextjs-postgres.yaml",
+      "size": 870
+    },
+    {
+      "digest": "1785a380074f7439e983f0cd50381559fd804a76c56f8d2da7d988a30ac8b519",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/node-express.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/node-express.yaml",
+      "size": 619
+    },
+    {
+      "digest": "ce9e540e8cff7171557223044f61a83a058f0012831d07f99750cac70a4e236c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/python-django.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/python-django.yaml",
+      "size": 2538
+    },
+    {
+      "digest": "27cc74f766850724ac4a01bda8fb4a765a997522cdf5b93748e2e0c546193623",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/render-small.svg",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/render-small.svg",
+      "size": 553
+    },
+    {
+      "digest": "becffed2fbc78e10cf25fb7837299b30bed33764bdd1ba521d7b6bd4e9167693",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/render.png",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/render.png",
+      "size": 911
+    },
+    {
+      "digest": "d0a7df7c7a987049ec3609c28f1fdeef8e2e01f534c64372c6079746df286ac1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/assets/static-site.yaml",
+      "path": "cli-tool/components/skills/development/render-deploy/assets/static-site.yaml",
+      "size": 1352
+    },
+    {
+      "digest": "52cdb41c930c22ec5578c2e56cef33ffbba910ef6c72de57965908be7ec54139",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/blueprint-spec.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/blueprint-spec.md",
+      "size": 16013
+    },
+    {
+      "digest": "54c4fe84ae50a4b358f7c9048dfcd68f9eddd88ddfbe24c50b4be7949dc9f6a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/codebase-analysis.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/codebase-analysis.md",
+      "size": 2300
+    },
+    {
+      "digest": "f0bdee2c78db76066e797139b1ee1230cf277192e8fbe9c42d277e82bef2ec40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/configuration-guide.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/configuration-guide.md",
+      "size": 11735
+    },
+    {
+      "digest": "fa6aa90a707494fcc9438b65829ef4891b9ed03c1cf69d6323fbd997b1f6782a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/deployment-details.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/deployment-details.md",
+      "size": 5345
+    },
+    {
+      "digest": "3b148def3c12061582229599616b680f57972c86a8782e22a765cf261ec80adc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/direct-creation.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/direct-creation.md",
+      "size": 2786
+    },
+    {
+      "digest": "b5556cdd3ba832e8f33602cf207cd80872df9c89ed17fe92129a56903176675b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/error-patterns.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/error-patterns.md",
+      "size": 833
+    },
+    {
+      "digest": "bd1e3e24abe6c9eb63164ac8ada9b285ceaffbd1722f58bbc1d3d94af4c59911",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/post-deploy-checks.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/post-deploy-checks.md",
+      "size": 1025
+    },
+    {
+      "digest": "285b66f9fbb7b20195be80d3bc91bdfc82944c779debbffad85f08ba338b414f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/runtimes.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/runtimes.md",
+      "size": 9849
+    },
+    {
+      "digest": "459590bed5b5600f155f8a9d39c7ca3a32e307270e58d636b30e7b25e6ca4e64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/service-types.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/service-types.md",
+      "size": 11338
+    },
+    {
+      "digest": "f999b13fc56ff62ccf6eec593d0e4cee94e52dec27a815e40d68532bf558a4ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-render-deploy/skills/render-deploy/references/troubleshooting-basics.md",
+      "path": "cli-tool/components/skills/development/render-deploy/references/troubleshooting-basics.md",
+      "size": 1361
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "f6fd35916f64ddb608379f88bb40618a8bd774e804272222026b8edc48affb44",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/render-deploy",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-think-tank/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "723fc466cf494bd2ec66858786484a73d12df1c3e9eb35d31250d9b51b086548",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-think-tank/skills/think-tank/LICENSE.txt",
+      "path": "cli-tool/components/skills/productivity/think-tank/LICENSE.txt",
+      "size": 1062
+    },
+    {
+      "digest": "14607f0fe348233a8997d844024663cda7bafd60399b81cfdbf3015f8208ffb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-think-tank/skills/think-tank/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/think-tank/SKILL.md",
+      "size": 12030
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "61aa33b5dc5572bb017586d0da56919e0a2a3a5cbc06cd62fe5b20a933fe3e22",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/think-tank",
+  "schema_version": 1
+}

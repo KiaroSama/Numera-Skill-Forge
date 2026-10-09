@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/netlify-deploy/LICENSE.txt",
+      "size": 10776
+    },
+    {
+      "digest": "d5cb9afee230c101409c6f216ba4c89c5c39a03a8a54e551066ce3d28d54f361",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/SKILL.md",
+      "path": "cli-tool/components/skills/development/netlify-deploy/SKILL.md",
+      "size": 7026
+    },
+    {
+      "digest": "7d3acb1ee5376c98f3366401cd413200a4aab82af48bbe97382565dcdd04870f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/netlify-deploy/agents/openai.yaml",
+      "size": 318
+    },
+    {
+      "digest": "a2d9b9b5087c840247eb8e8360120ce9a20780c5470519b7703f49e920f780cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/assets/netlify-small.svg",
+      "path": "cli-tool/components/skills/development/netlify-deploy/assets/netlify-small.svg",
+      "size": 1291
+    },
+    {
+      "digest": "ffbeef6d0af29a9c52f84297630f57c2c8ae86c1771458b24ad19795c4811160",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/assets/netlify.png",
+      "path": "cli-tool/components/skills/development/netlify-deploy/assets/netlify.png",
+      "size": 933
+    },
+    {
+      "digest": "a24b08401b8c796e4a58933a71441b3341b61afc840d690d9127b27ab00cfe05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/references/cli-commands.md",
+      "path": "cli-tool/components/skills/development/netlify-deploy/references/cli-commands.md",
+      "size": 2652
+    },
+    {
+      "digest": "fdb8c3b96fe03099826e4207b4933df3ff97571415f5e283567979bdc86cdc85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/references/deployment-patterns.md",
+      "path": "cli-tool/components/skills/development/netlify-deploy/references/deployment-patterns.md",
+      "size": 6702
+    },
+    {
+      "digest": "436ea3c2e0ce04abb34895db993d91b8660423977d9c52a89f2dfa014cad0b9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-netlify-deploy/skills/netlify-deploy/references/netlify-toml.md",
+      "path": "cli-tool/components/skills/development/netlify-deploy/references/netlify-toml.md",
+      "size": 3972
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "98c1f2569a9a8c8181e996c77d927492b6e87dc74cebc9cf93d602ffa6cc7922",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/netlify-deploy",
+  "schema_version": 1
+}

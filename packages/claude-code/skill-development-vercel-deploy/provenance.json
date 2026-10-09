@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e0fad1e120e56b02bb8e65745ff5be6d3234368f2df9d0dd183183879e595fc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/LICENSE.txt",
+      "path": "cli-tool/components/skills/development/vercel-deploy/LICENSE.txt",
+      "size": 1063
+    },
+    {
+      "digest": "9939840cf3de81de617bb724d2c78436387acf66784b052c6def31d2e6605e4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/SKILL.md",
+      "path": "cli-tool/components/skills/development/vercel-deploy/SKILL.md",
+      "size": 2215
+    },
+    {
+      "digest": "5fdfff98a8cd084737f47231d65e7b8315e9036e12c8f2c90df7593f75abcf74",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/agents/openai.yaml",
+      "path": "cli-tool/components/skills/development/vercel-deploy/agents/openai.yaml",
+      "size": 306
+    },
+    {
+      "digest": "169e5fedb5898d756254c29e02873508eef714a8dd11638f283ca8e7c46096a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/assets/vercel-small.svg",
+      "path": "cli-tool/components/skills/development/vercel-deploy/assets/vercel-small.svg",
+      "size": 243
+    },
+    {
+      "digest": "ab37ffb06bdb1ab6d076c26329e8677d057ba95d66f7e2c710221345ff6e2043",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/assets/vercel.png",
+      "path": "cli-tool/components/skills/development/vercel-deploy/assets/vercel.png",
+      "size": 788
+    },
+    {
+      "digest": "91f16c6a298c8b70eff7b7722f860e54101be2f23cea75d2e26ec0778006f9b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deploy/skills/vercel-deploy/scripts/deploy.sh",
+      "path": "cli-tool/components/skills/development/vercel-deploy/scripts/deploy.sh",
+      "size": 8877
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8cb5f45fe62de4777639b51a297586c15781a8791ed1734abe4d43f660adcd8f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/vercel-deploy",
+  "schema_version": 1
+}

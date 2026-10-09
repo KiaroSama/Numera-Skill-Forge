@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "collections": [
+    {
+      "id": "davila7-templates",
+      "repository": "https://github.com/davila7/claude-code-templates",
+      "branch": "main",
+      "reviewed_revision": "a344359459263d73d8948651c789244093c02e4e",
+      "skills": [
+        {
+          "id": "skill-ai-research-loki-mode",
+          "root": "cli-tool/components/skills/ai-research/loki-mode",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/ai-research/loki-mode/LICENSE",
+          "license_digest": "c16bad71ee2a12334cbefdf45d1bae1cfbea5fa44b5a46d743de6d8b8b6e41c1"
+        },
+        {
+          "id": "skill-ai-research-openai-docs",
+          "root": "cli-tool/components/skills/ai-research/openai-docs",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/ai-research/openai-docs/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-business-marketing-brand-guidelines-anthropic",
+          "root": "cli-tool/components/skills/business-marketing/brand-guidelines-anthropic",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/business-marketing/brand-guidelines-anthropic/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-business-marketing-brand-guidelines-community",
+          "root": "cli-tool/components/skills/business-marketing/brand-guidelines-community",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/business-marketing/brand-guidelines-community/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-business-marketing-product-decision-agent",
+          "root": "cli-tool/components/skills/business-marketing/product-decision-agent",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/business-marketing/product-decision-agent/LICENSE",
+          "license_digest": "145e96adc1f078b13f49abfdc066af80d44a57c056f030aff01363f47f33ae9d"
+        },
+        {
+          "id": "skill-career-workorai",
+          "root": "cli-tool/components/skills/career/workorai",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/career/workorai/LICENSE.txt",
+          "license_digest": "cd835e50b2a7c565f4b46a5581a307ed09b0ee207a96571b5e612d2ff25ef6c1"
+        },
+        {
+          "id": "skill-creative-design-algorithmic-art",
+          "root": "cli-tool/components/skills/creative-design/algorithmic-art",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/algorithmic-art/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-creative-design-canvas-design",
+          "root": "cli-tool/components/skills/creative-design/canvas-design",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/canvas-design/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-creative-design-develop-web-game",
+          "root": "cli-tool/components/skills/creative-design/develop-web-game",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/develop-web-game/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-creative-design-figma",
+          "root": "cli-tool/components/skills/creative-design/figma",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/figma/LICENSE.txt",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "id": "skill-creative-design-figma-implement-design",
+          "root": "cli-tool/components/skills/creative-design/figma-implement-design",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/figma-implement-design/LICENSE.txt",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "id": "skill-creative-design-frontend-design",
+          "root": "cli-tool/components/skills/creative-design/frontend-design",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/frontend-design/LICENSE.txt",
+          "license_digest": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "id": "skill-creative-design-imagegen",
+          "root": "cli-tool/components/skills/creative-design/imagegen",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/imagegen/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-creative-design-slack-gif-creator",
+          "root": "cli-tool/components/skills/creative-design/slack-gif-creator",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/slack-gif-creator/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-creative-design-theme-factory",
+          "root": "cli-tool/components/skills/creative-design/theme-factory",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/creative-design/theme-factory/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-database-postgres-schema-design",
+          "root": "cli-tool/components/skills/database/postgres-schema-design",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/database/postgres-schema-design/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-design-to-code",
+          "root": "cli-tool/components/skills/design-to-code",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/design-to-code/LICENSE.txt",
+          "license_digest": "30e7f6be00930fa149d26d7435b9e1f89143c677fada481a215db606d43bb244"
+        },
+        {
+          "id": "skill-development-artifacts-builder",
+          "root": "cli-tool/components/skills/development/artifacts-builder",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/artifacts-builder/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-claude-api",
+          "root": "cli-tool/components/skills/development/claude-api",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/claude-api/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-cloudflare-deploy",
+          "root": "cli-tool/components/skills/development/cloudflare-deploy",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/cloudflare-deploy/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-development-jupyter-notebook",
+          "root": "cli-tool/components/skills/development/jupyter-notebook",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/jupyter-notebook/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-development-mcp-builder",
+          "root": "cli-tool/components/skills/development/mcp-builder",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/mcp-builder/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-netlify-deploy",
+          "root": "cli-tool/components/skills/development/netlify-deploy",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/netlify-deploy/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-development-playwright",
+          "root": "cli-tool/components/skills/development/playwright",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/playwright/LICENSE.txt",
+          "license_digest": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda"
+        },
+        {
+          "id": "skill-development-render-deploy",
+          "root": "cli-tool/components/skills/development/render-deploy",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/render-deploy/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-development-skill-creation-guide",
+          "root": "cli-tool/components/skills/development/skill-creation-guide",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/skill-creation-guide/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-development-skill-creator",
+          "root": "cli-tool/components/skills/development/skill-creator",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/skill-creator/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-vercel-deploy",
+          "root": "cli-tool/components/skills/development/vercel-deploy",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/development/vercel-deploy/LICENSE.txt",
+          "license_digest": "e0fad1e120e56b02bb8e65745ff5be6d3234368f2df9d0dd183183879e595fc1"
+        },
+        {
+          "id": "skill-development-web-artifacts-builder",
+          "root": "cli-tool/components/skills/development/web-artifacts-builder",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/web-artifacts-builder/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-webapp-testing",
+          "root": "cli-tool/components/skills/development/webapp-testing",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/development/webapp-testing/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-development-workspace-orchestration",
+          "root": "cli-tool/components/skills/development/workspace-orchestration",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/development/workspace-orchestration/LICENSE",
+          "license_digest": "cde86c44a19a7ecb29da83d1f82b0f3c00a48aecafd37640c81d6928bf7d9b80"
+        },
+        {
+          "id": "skill-development-zapier-workflows",
+          "root": "cli-tool/components/skills/development/zapier-workflows",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/development/zapier-workflows/LICENSE.txt",
+          "license_digest": "e0e04465eeb48cd84fb7c503bd468a0f5862b2fbace3e7a11beeff6654ea932f"
+        },
+        {
+          "id": "skill-document-processing-doc",
+          "root": "cli-tool/components/skills/document-processing/doc",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/document-processing/doc/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-document-processing-spreadsheet",
+          "root": "cli-tool/components/skills/document-processing/spreadsheet",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/document-processing/spreadsheet/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-enterprise-communication-brand-guidelines",
+          "root": "cli-tool/components/skills/enterprise-communication/brand-guidelines",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/enterprise-communication/brand-guidelines/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-enterprise-communication-internal-comms",
+          "root": "cli-tool/components/skills/enterprise-communication/internal-comms",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/enterprise-communication/internal-comms/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-enterprise-communication-internal-comms-anthropic",
+          "root": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/enterprise-communication/internal-comms-anthropic/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-enterprise-communication-internal-comms-community",
+          "root": "cli-tool/components/skills/enterprise-communication/internal-comms-community",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/enterprise-communication/internal-comms-community/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        },
+        {
+          "id": "skill-enterprise-communication-slack-gif-creator",
+          "root": "cli-tool/components/skills/enterprise-communication/slack-gif-creator",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/enterprise-communication/slack-gif-creator/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-media-screenshot",
+          "root": "cli-tool/components/skills/media/screenshot",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/media/screenshot/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-media-speech",
+          "root": "cli-tool/components/skills/media/speech",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/media/speech/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-media-transcribe",
+          "root": "cli-tool/components/skills/media/transcribe",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/media/transcribe/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-productivity-academy-guide",
+          "root": "cli-tool/components/skills/productivity/academy-guide",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/productivity/academy-guide/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-productivity-avoid-ai-writing",
+          "root": "cli-tool/components/skills/productivity/avoid-ai-writing",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/productivity/avoid-ai-writing/LICENSE.txt",
+          "license_digest": "4da9b9f0bb899269b6e79fb383b4c3f24ebcadf7352f970871bae3e215401589"
+        },
+        {
+          "id": "skill-productivity-discernment-nudge",
+          "root": "cli-tool/components/skills/productivity/discernment-nudge",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/productivity/discernment-nudge/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-productivity-doc-chaser-lite",
+          "root": "cli-tool/components/skills/productivity/doc-chaser-lite",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/productivity/doc-chaser-lite/LICENSE.txt",
+          "license_digest": "71aedf5bb5c5bf00fc611bf51e379f3445fdda5a0ec61996d5eb783934ed3478"
+        },
+        {
+          "id": "skill-productivity-notebooklm",
+          "root": "cli-tool/components/skills/productivity/notebooklm",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/productivity/notebooklm/LICENSE",
+          "license_digest": "0ad77d6e05eea79c29fbadce21fb7ed7aad883acde73f4a2c5fef77c9536cd07"
+        },
+        {
+          "id": "skill-productivity-skill-creator",
+          "root": "cli-tool/components/skills/productivity/skill-creator",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/productivity/skill-creator/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-productivity-think-tank",
+          "root": "cli-tool/components/skills/productivity/think-tank",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/productivity/think-tank/LICENSE.txt",
+          "license_digest": "723fc466cf494bd2ec66858786484a73d12df1c3e9eb35d31250d9b51b086548"
+        },
+        {
+          "id": "skill-scientific-markitdown",
+          "root": "cli-tool/components/skills/scientific/markitdown",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/scientific/markitdown/LICENSE.txt",
+          "license_digest": "40f011272724ef2ffe657ab17089cda9641050ce84d005ecdf9ff8f678b4c6d8"
+        },
+        {
+          "id": "skill-scientific-neuropixels-analysis",
+          "root": "cli-tool/components/skills/scientific/neuropixels-analysis",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/scientific/neuropixels-analysis/LICENSE.txt",
+          "license_digest": "17f2b53816d9ce06ec90cb05fc2e34d379c1b8499dfa41756bcf8d7fac59b0b0"
+        },
+        {
+          "id": "skill-security-security-best-practices",
+          "root": "cli-tool/components/skills/security/security-best-practices",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/security/security-best-practices/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-security-security-ownership-map",
+          "root": "cli-tool/components/skills/security/security-ownership-map",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/security/security-ownership-map/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-security-security-threat-model",
+          "root": "cli-tool/components/skills/security/security-threat-model",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/security/security-threat-model/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-security-webapp-testing",
+          "root": "cli-tool/components/skills/security/webapp-testing",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/security/webapp-testing/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-utilities-web-artifacts-builder",
+          "root": "cli-tool/components/skills/utilities/web-artifacts-builder",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/utilities/web-artifacts-builder/LICENSE.txt",
+          "license_digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "id": "skill-video-sora",
+          "root": "cli-tool/components/skills/video/sora",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/video/sora/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-code-javascript",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-code-python",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-expression-syntax",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-mcp-tools-expert",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-node-configuration",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-validation-expert",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-n8n-n8n-workflow-patterns",
+          "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+          "license": "MIT",
+          "license_path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+          "license_digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf"
+        },
+        {
+          "id": "skill-workflow-automation-yeet",
+          "root": "cli-tool/components/skills/workflow-automation/yeet",
+          "license": "Apache-2.0",
+          "license_path": "cli-tool/components/skills/workflow-automation/yeet/LICENSE.txt",
+          "license_digest": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        }
+      ]
+    }
+  ]
+}

@@ -18,3 +18,5 @@ logs/
 secrets.md
 .env*
 explain-AI.md
+
+packages/

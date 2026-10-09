@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "796b24704fab558b5c0af69ca101c730bbedfd8af642a221d69300f0ed7872cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/upstream-notices/cli-tool_components_skills_workflow-automation_n8n_LICENSE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/LICENSE.md",
+      "size": 1516
+    },
+    {
+      "digest": "07a39142a458910b237ab65031298b7db25e08c9cadd16ceedd08a9ba2cfa275",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/skills/n8n-mcp-tools-expert/README.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/README.md",
+      "size": 2763
+    },
+    {
+      "digest": "aa01dcb44e10c7f0237c9cbe63eb4b72db62978a2b2a9397f21b5f7acbb15bc8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/SEARCH_GUIDE.md",
+      "size": 5539
+    },
+    {
+      "digest": "533297eeb1273cefe2a11b88a6e0e2e4412723b4f2da6e1f35a618a6d371d1a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/skills/n8n-mcp-tools-expert/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/SKILL.md",
+      "size": 12754
+    },
+    {
+      "digest": "b5926af644e09dcf446ffcd56f471166a8c4f93ca6bc05ff58db1194008fd78f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/skills/n8n-mcp-tools-expert/VALIDATION_GUIDE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/VALIDATION_GUIDE.md",
+      "size": 8223
+    },
+    {
+      "digest": "876b84e2e2650c826cfecc9bc485df3759ea480c4d6cb3325d7963a44cb9f921",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert/skills/n8n-mcp-tools-expert/WORKFLOW_GUIDE.md",
+      "path": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert/WORKFLOW_GUIDE.md",
+      "size": 8560
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e63a70454cd0f4fee454f1cc91dcfb6f91a80960006b6f5e4e0ae9bfd1d94bd7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert",
+  "schema_version": 1
+}

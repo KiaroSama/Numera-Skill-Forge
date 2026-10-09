@@ -1,0 +1,398 @@
+{
+  "name": "numera-skill-forge",
+  "owner": {
+    "name": "KiaroSama"
+  },
+  "plugins": [
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/loki-mode",
+      "name": "skill-ai-research-loki-mode",
+      "source": "./packages/claude-code/skill-ai-research-loki-mode",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/openai-docs",
+      "name": "skill-ai-research-openai-docs",
+      "source": "./packages/claude-code/skill-ai-research-openai-docs",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/brand-guidelines-anthropic",
+      "name": "skill-business-marketing-brand-guidelines-anthropic",
+      "source": "./packages/claude-code/skill-business-marketing-brand-guidelines-anthropic",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/brand-guidelines-community",
+      "name": "skill-business-marketing-brand-guidelines-community",
+      "source": "./packages/claude-code/skill-business-marketing-brand-guidelines-community",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/product-decision-agent",
+      "name": "skill-business-marketing-product-decision-agent",
+      "source": "./packages/claude-code/skill-business-marketing-product-decision-agent",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/career/workorai",
+      "name": "skill-career-workorai",
+      "source": "./packages/claude-code/skill-career-workorai",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/algorithmic-art",
+      "name": "skill-creative-design-algorithmic-art",
+      "source": "./packages/claude-code/skill-creative-design-algorithmic-art",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/canvas-design",
+      "name": "skill-creative-design-canvas-design",
+      "source": "./packages/claude-code/skill-creative-design-canvas-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/develop-web-game",
+      "name": "skill-creative-design-develop-web-game",
+      "source": "./packages/claude-code/skill-creative-design-develop-web-game",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/figma",
+      "name": "skill-creative-design-figma",
+      "source": "./packages/claude-code/skill-creative-design-figma",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/figma-implement-design",
+      "name": "skill-creative-design-figma-implement-design",
+      "source": "./packages/claude-code/skill-creative-design-figma-implement-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/frontend-design",
+      "name": "skill-creative-design-frontend-design",
+      "source": "./packages/claude-code/skill-creative-design-frontend-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/imagegen",
+      "name": "skill-creative-design-imagegen",
+      "source": "./packages/claude-code/skill-creative-design-imagegen",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/slack-gif-creator",
+      "name": "skill-creative-design-slack-gif-creator",
+      "source": "./packages/claude-code/skill-creative-design-slack-gif-creator",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/theme-factory",
+      "name": "skill-creative-design-theme-factory",
+      "source": "./packages/claude-code/skill-creative-design-theme-factory",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/database/postgres-schema-design",
+      "name": "skill-database-postgres-schema-design",
+      "source": "./packages/claude-code/skill-database-postgres-schema-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/design-to-code",
+      "name": "skill-design-to-code",
+      "source": "./packages/claude-code/skill-design-to-code",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/artifacts-builder",
+      "name": "skill-development-artifacts-builder",
+      "source": "./packages/claude-code/skill-development-artifacts-builder",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/claude-api",
+      "name": "skill-development-claude-api",
+      "source": "./packages/claude-code/skill-development-claude-api",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/cloudflare-deploy",
+      "name": "skill-development-cloudflare-deploy",
+      "source": "./packages/claude-code/skill-development-cloudflare-deploy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/jupyter-notebook",
+      "name": "skill-development-jupyter-notebook",
+      "source": "./packages/claude-code/skill-development-jupyter-notebook",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/mcp-builder",
+      "name": "skill-development-mcp-builder",
+      "source": "./packages/claude-code/skill-development-mcp-builder",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/netlify-deploy",
+      "name": "skill-development-netlify-deploy",
+      "source": "./packages/claude-code/skill-development-netlify-deploy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/playwright",
+      "name": "skill-development-playwright",
+      "source": "./packages/claude-code/skill-development-playwright",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/render-deploy",
+      "name": "skill-development-render-deploy",
+      "source": "./packages/claude-code/skill-development-render-deploy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/skill-creation-guide",
+      "name": "skill-development-skill-creation-guide",
+      "source": "./packages/claude-code/skill-development-skill-creation-guide",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/skill-creator",
+      "name": "skill-development-skill-creator",
+      "source": "./packages/claude-code/skill-development-skill-creator",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/vercel-deploy",
+      "name": "skill-development-vercel-deploy",
+      "source": "./packages/claude-code/skill-development-vercel-deploy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/web-artifacts-builder",
+      "name": "skill-development-web-artifacts-builder",
+      "source": "./packages/claude-code/skill-development-web-artifacts-builder",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/webapp-testing",
+      "name": "skill-development-webapp-testing",
+      "source": "./packages/claude-code/skill-development-webapp-testing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/workspace-orchestration",
+      "name": "skill-development-workspace-orchestration",
+      "source": "./packages/claude-code/skill-development-workspace-orchestration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/zapier-workflows",
+      "name": "skill-development-zapier-workflows",
+      "source": "./packages/claude-code/skill-development-zapier-workflows",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/doc",
+      "name": "skill-document-processing-doc",
+      "source": "./packages/claude-code/skill-document-processing-doc",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/spreadsheet",
+      "name": "skill-document-processing-spreadsheet",
+      "source": "./packages/claude-code/skill-document-processing-spreadsheet",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/brand-guidelines",
+      "name": "skill-enterprise-communication-brand-guidelines",
+      "source": "./packages/claude-code/skill-enterprise-communication-brand-guidelines",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/internal-comms",
+      "name": "skill-enterprise-communication-internal-comms",
+      "source": "./packages/claude-code/skill-enterprise-communication-internal-comms",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+      "name": "skill-enterprise-communication-internal-comms-anthropic",
+      "source": "./packages/claude-code/skill-enterprise-communication-internal-comms-anthropic",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/internal-comms-community",
+      "name": "skill-enterprise-communication-internal-comms-community",
+      "source": "./packages/claude-code/skill-enterprise-communication-internal-comms-community",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/slack-gif-creator",
+      "name": "skill-enterprise-communication-slack-gif-creator",
+      "source": "./packages/claude-code/skill-enterprise-communication-slack-gif-creator",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/media/screenshot",
+      "name": "skill-media-screenshot",
+      "source": "./packages/claude-code/skill-media-screenshot",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/media/speech",
+      "name": "skill-media-speech",
+      "source": "./packages/claude-code/skill-media-speech",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/media/transcribe",
+      "name": "skill-media-transcribe",
+      "source": "./packages/claude-code/skill-media-transcribe",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/academy-guide",
+      "name": "skill-productivity-academy-guide",
+      "source": "./packages/claude-code/skill-productivity-academy-guide",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/avoid-ai-writing",
+      "name": "skill-productivity-avoid-ai-writing",
+      "source": "./packages/claude-code/skill-productivity-avoid-ai-writing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/discernment-nudge",
+      "name": "skill-productivity-discernment-nudge",
+      "source": "./packages/claude-code/skill-productivity-discernment-nudge",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/doc-chaser-lite",
+      "name": "skill-productivity-doc-chaser-lite",
+      "source": "./packages/claude-code/skill-productivity-doc-chaser-lite",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/notebooklm",
+      "name": "skill-productivity-notebooklm",
+      "source": "./packages/claude-code/skill-productivity-notebooklm",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/skill-creator",
+      "name": "skill-productivity-skill-creator",
+      "source": "./packages/claude-code/skill-productivity-skill-creator",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/think-tank",
+      "name": "skill-productivity-think-tank",
+      "source": "./packages/claude-code/skill-productivity-think-tank",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/scientific/markitdown",
+      "name": "skill-scientific-markitdown",
+      "source": "./packages/claude-code/skill-scientific-markitdown",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/scientific/neuropixels-analysis",
+      "name": "skill-scientific-neuropixels-analysis",
+      "source": "./packages/claude-code/skill-scientific-neuropixels-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/security-best-practices",
+      "name": "skill-security-security-best-practices",
+      "source": "./packages/claude-code/skill-security-security-best-practices",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/security-ownership-map",
+      "name": "skill-security-security-ownership-map",
+      "source": "./packages/claude-code/skill-security-security-ownership-map",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/security-threat-model",
+      "name": "skill-security-security-threat-model",
+      "source": "./packages/claude-code/skill-security-security-threat-model",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/webapp-testing",
+      "name": "skill-security-webapp-testing",
+      "source": "./packages/claude-code/skill-security-webapp-testing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/web-artifacts-builder",
+      "name": "skill-utilities-web-artifacts-builder",
+      "source": "./packages/claude-code/skill-utilities-web-artifacts-builder",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/video/sora",
+      "name": "skill-video-sora",
+      "source": "./packages/claude-code/skill-video-sora",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-code-javascript",
+      "name": "skill-workflow-automation-n8n-n8n-code-javascript",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-code-javascript",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+      "name": "skill-workflow-automation-n8n-n8n-code-python",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-code-python",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+      "name": "skill-workflow-automation-n8n-n8n-expression-syntax",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-expression-syntax",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-mcp-tools-expert",
+      "name": "skill-workflow-automation-n8n-n8n-mcp-tools-expert",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-mcp-tools-expert",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-node-configuration",
+      "name": "skill-workflow-automation-n8n-n8n-node-configuration",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-node-configuration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-validation-expert",
+      "name": "skill-workflow-automation-n8n-n8n-validation-expert",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-validation-expert",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+      "name": "skill-workflow-automation-n8n-n8n-workflow-patterns",
+      "source": "./packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/yeet",
+      "name": "skill-workflow-automation-yeet",
+      "source": "./packages/claude-code/skill-workflow-automation-yeet",
+      "version": "1.0.0"
+    }
+  ]
+}
