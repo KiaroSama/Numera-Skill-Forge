@@ -150,7 +150,7 @@ test('responsive light/dark presentation contains untrusted response text withou
   expect(await page.getByRole('region', { name: 'Sources', exact: true }).getByLabel('Service response JSON').locator('img').count()).toBe(0);
   await page.setViewportSize({ width: 375, height: 812 });
   for (const appearance of ['Light', 'Dark']) {
-    await page.getByLabel('Appearance', { exact: true }).selectOption({ label: appearance });
+    await page.getByRole('combobox', { name: /Appearance/ }).selectOption({ label: appearance });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     await expect(page.getByRole('button', { name: 'Discover candidate' })).toBeVisible();
   }

@@ -8,8 +8,9 @@ impl Workspace {
         let root = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
             .join("../../.ci-work/tests")
             .join(format!(
-                "case-{}-{}",
+                "case-{}-{}-{}",
                 std::process::id(),
+                std::thread::current().name().unwrap_or("test"),
                 chrono::Utc::now().timestamp_nanos_opt().unwrap()
             ));
         fs::create_dir_all(&root).unwrap();

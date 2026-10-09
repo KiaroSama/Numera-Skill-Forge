@@ -28,4 +28,7 @@ full configuration three-way merge/shared dependency ownership, stable-release s
 SSH/custom Git providers, job cancellation/attach, on-open apply-approved rebuild closure, PR
 publication and complete native OS/host release smoke certification require further implementation.
 Current explicit failures are not advertised as successful support. File-installed skills and native
-runtime plugins remain distinct. Existing source licensing and last-known-good state are preserved.
+runtime plugins remain distinct. Executable-mode Git companions are refused in this preview rather
+than copied with lost POSIX permissions; full mode-preserving native lifecycle remains unfinished.
+New journals store bounded digest metadata plus raw recovery blobs, and ownership receipt changes
+participate in the same logical operation. Rollback records its direction before compensation. Existing source licensing and last-known-good state are preserved.
