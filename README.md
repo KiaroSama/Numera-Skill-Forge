@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Numera Skill Forge official logo" width="240">
+  <img src="assets/logo-round.png" alt="Numera Skill Forge official logo" width="240">
 </p>
 
 <h1 align="center">Numera Skill Forge</h1>
