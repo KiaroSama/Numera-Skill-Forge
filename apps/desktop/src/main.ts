@@ -107,7 +107,7 @@ function options(id: string, result: Json, key: string): void {
 function rememberOptions(action: string, result: Json): void {
   if (action === 'source-list') options('source-ids', result, 'id');
   if (action === 'catalog') options('package-ids', result, 'id');
-  if (action === 'harnesses') options('target-profiles', result, 'profile');
+  if (action === 'harnesses') options('target-profiles', result, 'harness');
   if (action === 'installed') options('receipt-ids', result, 'id');
   if (action === 'history') options('operation-ids', result, 'id');
 }

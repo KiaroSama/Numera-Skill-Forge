@@ -40,7 +40,14 @@ pub fn encoded<T: Serialize>(value: &T) -> Result<Vec<u8>> {
     Ok(bytes)
 }
 pub fn write<T: Serialize>(path: &Path, value: &T) -> Result<()> {
-    atomic(path, &encoded(value)?)
+    let bytes = encoded(value)?;
+    if bytes.len() as u64 > MAX_FILE {
+        return Err(Error::new(
+            "size-limit",
+            "Serialized state exceeds the 16 MiB read limit",
+        ));
+    }
+    atomic(path, &bytes)
 }
 pub fn atomic(path: &Path, content: &[u8]) -> Result<()> {
     let parent = path

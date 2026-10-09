@@ -28,6 +28,24 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         )
     })?;
     let snapshot = &accepted.snapshot;
+    for selected in &package.components {
+        if !snapshot
+            .components
+            .iter()
+            .any(|component| &component.id == selected)
+        {
+            return Err(Error::new(
+                "component-selection",
+                "Package references a component absent from the accepted inventory",
+            ));
+        }
+    }
+    if snapshot.files.iter().any(|file| file.executable) {
+        return Err(Error::new(
+            "executable-metadata",
+            "Executable-mode companions require the native-preservation pipeline; this preview refuses mode-losing copies",
+        ));
+    }
     let components = snapshot
         .components
         .iter()
@@ -37,7 +55,8 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
     if components.is_empty() {
         return Err(Error::new("empty-package", "No selected components"));
     }
-    let report = adapters::assess(&components, target)?;
+    let mut report = adapters::assess(&components, target)?;
+    report["components"] = serde_json::to_value(&components)?;
     if report["supported"] != true {
         return Err(Error::new(
             "unsupported-required",
@@ -52,6 +71,18 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
     ))?);
     let key = format!("{target}/{id}");
     let prior = lock.builds.get(&key);
+    let existing = workspace.join("packages").join(target).join(id);
+    if existing.exists() && !storage::files(&existing)?.is_empty() {
+        match prior {
+            Some(identity) if tree_digest(&existing)? == identity.payload_digest => {}
+            _ => {
+                return Err(Error::new(
+                    "generated-conflict",
+                    "Generated package was modified or is not Forge-owned; rebuild preserves it and requires review",
+                ));
+            }
+        }
+    }
     let version = match prior {
         Some(prior) if prior.input_digest == input_digest => prior.version.clone(),
         Some(prior) => {

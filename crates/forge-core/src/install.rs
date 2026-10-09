@@ -44,6 +44,24 @@ pub fn install(
     dry: bool,
 ) -> Result<Value> {
     let package = build::package_root(root, id, target)?;
+    let report_path = package.join("compatibility.json");
+    if report_path.exists() {
+        let report: Value = storage::read(&report_path)?;
+        if report
+            .get("components")
+            .and_then(Value::as_array)
+            .is_some_and(|components| {
+                components
+                    .iter()
+                    .any(|component| component["kind"] != "skills" && component["kind"] != "assets")
+            })
+        {
+            return Err(Error::new(
+                "native-install-required",
+                "This package contains native runtime/configuration components; skill-only file installation would lose required behavior",
+            ));
+        }
+    }
     let skill_root = package.join("skills");
     if !skill_root.is_dir() {
         return Err(Error::new(
@@ -114,7 +132,7 @@ pub fn install(
             json!({"dry_run":true,"destination":destination,"files":owned.keys().collect::<Vec<_>>(),"changes":changes.len(),"delivery":"native skill installation, not runtime plugin enablement"}),
         );
     }
-    let operation = transaction::apply(root, destination, changes)?;
+    let operation = transaction::operation_id();
     let receipt = Receipt {
         id: receipt_id.clone(),
         package: id.into(),
@@ -124,7 +142,7 @@ pub fn install(
         enabled: true,
         operation,
     };
-    storage::write(&receipt_path(root, &receipt_id)?, &receipt)?;
+    commit_receipt(root, &receipt, changes)?;
     Ok(serde_json::to_value(receipt)?)
 }
 pub fn disable(root: &Path, id: &str) -> Result<Value> {
@@ -151,9 +169,9 @@ pub fn disable(root: &Path, id: &str) -> Result<Value> {
             after: None,
         });
     }
-    receipt.operation = transaction::apply(root, &receipt.destination, changes)?;
+    receipt.operation = transaction::operation_id();
     receipt.enabled = false;
-    storage::write(&receipt_path(root, id)?, &receipt)?;
+    commit_receipt(root, &receipt, changes)?;
     Ok(serde_json::to_value(receipt)?)
 }
 pub fn enable(root: &Path, id: &str) -> Result<Value> {
@@ -181,16 +199,62 @@ pub fn enable(root: &Path, id: &str) -> Result<Value> {
             after: Some(bytes),
         });
     }
-    receipt.operation = transaction::apply(root, &receipt.destination, changes)?;
+    receipt.operation = transaction::operation_id();
     receipt.enabled = true;
-    storage::write(&receipt_path(root, id)?, &receipt)?;
+    commit_receipt(root, &receipt, changes)?;
     Ok(serde_json::to_value(receipt)?)
 }
+fn commit_receipt(root: &Path, receipt: &Receipt, changes: Vec<Change>) -> Result<()> {
+    let path = receipt_path(root, &receipt.id)?;
+    let before = if path.exists() {
+        Some(storage::bytes(&path)?)
+    } else {
+        None
+    };
+    transaction::apply_with_receipt(
+        root,
+        &receipt.destination,
+        &receipt.operation,
+        changes,
+        Change {
+            path: format!(".forge-state/receipts/{}.json", receipt.id),
+            before,
+            after: Some(storage::encoded(receipt)?),
+        },
+    )?;
+    Ok(())
+}
 pub fn uninstall(root: &Path, id: &str) -> Result<Value> {
-    let receipt: Receipt = storage::read(&receipt_path(root, id)?)?;
+    let path = receipt_path(root, id)?;
+    let before = storage::bytes(&path)?;
+    let receipt: Receipt = serde_json::from_slice(&before)?;
+    let mut changes = vec![];
     if receipt.enabled {
-        disable(root, id)?;
+        for (path, digest) in &receipt.files {
+            let bytes = storage::bytes(&validation::contained(&receipt.destination, path)?)?;
+            if storage::digest(&bytes) != *digest {
+                return Err(Error::new(
+                    "conflict",
+                    "Owned file modified; uninstall refused",
+                ));
+            }
+            changes.push(Change {
+                path: path.clone(),
+                before: Some(bytes),
+                after: None,
+            });
+        }
     }
-    fs::remove_file(receipt_path(root, id)?)?;
-    Ok(json!({"uninstalled":id,"durable_data_preserved":true}))
+    let operation = transaction::apply_with_receipt(
+        root,
+        &receipt.destination,
+        &transaction::operation_id(),
+        changes,
+        Change {
+            path: format!(".forge-state/receipts/{id}.json"),
+            before: Some(before),
+            after: None,
+        },
+    )?;
+    Ok(json!({"uninstalled":id,"operation":operation,"durable_data_preserved":true}))
 }

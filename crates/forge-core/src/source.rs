@@ -120,6 +120,12 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             let path = std::str::from_utf8(&record[tab + 1..])
                 .map_err(|_| Error::new("encoding", "Non-Unicode paths are unsupported"))?;
             validation::relative_path(path)?;
+            if fields.first() == Some(&"100755") {
+                return Err(Error::new(
+                    "executable-metadata",
+                    "Executable Git modes require native-preserving import; preview refuses to lose their mode",
+                ));
+            }
             if fields.first() == Some(&"120000") || fields.first() == Some(&"160000") {
                 return Err(Error::new(
                     "dependency-review",
