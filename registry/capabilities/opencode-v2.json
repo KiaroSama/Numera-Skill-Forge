@@ -1,0 +1,17 @@
+{
+  "harness": "opencode-v2",
+  "surface": "cli",
+  "profile": "opencode-v2-2.0.24",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins"
+  ],
+  "documentation": "https://github.com/anomalyco/opencode/blob/v2.0.24/packages/core/src/config/plugin/source.ts",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "V2 local plugins must be directories; plugins plural and @opencode/plugin; preserve module package, never generate setup or execute it",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

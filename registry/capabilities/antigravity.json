@@ -1,0 +1,21 @@
+{
+  "harness": "antigravity",
+  "surface": "desktop",
+  "profile": "antigravity-docs-v1",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "agents",
+    "rules",
+    "hooks",
+    "mcps"
+  ],
+  "documentation": "https://antigravity.google/docs/plugins",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Root Antigravity manifest is not Agent Plugins; named hooks and MCP serverUrl remain native; schema endpoint unavailable; host version unknown",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

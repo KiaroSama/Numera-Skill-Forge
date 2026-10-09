@@ -1,0 +1,22 @@
+{
+  "harness": "cursor",
+  "surface": "desktop",
+  "profile": "cursor-docs-2026-10-09",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "rules",
+    "agents",
+    "commands",
+    "hooks",
+    "mcps"
+  ],
+  "documentation": "https://cursor.com/docs/reference/plugins",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Native Cursor identity required; component paths replace defaults; standard PLUGIN_ROOT/PLUGIN_DATA tokens not expanded; exact host version unknown",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

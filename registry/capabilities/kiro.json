@@ -1,0 +1,18 @@
+{
+  "harness": "kiro",
+  "surface": "desktop",
+  "profile": "kiro-agent-plugins-1.0.0",
+  "delivery": "portable-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "mcps"
+  ],
+  "documentation": "https://kiro.dev/docs/powers/create/",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Power skills/MCP subset only, not arbitrary executable runtime; managed import; exact installed power path unknown; assembler attribution is not source authorship",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

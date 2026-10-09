@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Numera Skill Forge",
+  "version": "0.1.0",
+  "identifier": "com.numera.skillforge",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [{
+      "label": "main",
+      "title": "Numera Skill Forge",
+      "width": 1280,
+      "height": 900,
+      "minWidth": 375,
+      "minHeight": 600,
+      "resizable": true
+    }],
+    "security": {
+      "capabilities": ["main-local"],
+      "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; img-src 'self'; style-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "shortDescription": "Reviewed extension distribution for coding harnesses",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"]
+  }
+}

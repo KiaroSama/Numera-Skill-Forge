@@ -1,0 +1,17 @@
+{
+  "harness": "openclaw",
+  "surface": "cli",
+  "profile": "openclaw-docs-2026-10-09",
+  "delivery": "portable-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins"
+  ],
+  "documentation": "https://docs.openclaw.ai/plugins/manifest",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Compatible skill bundle subset only; MCP/hook bundle subset unverified; native executable packages use openclaw-native; host version unknown",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

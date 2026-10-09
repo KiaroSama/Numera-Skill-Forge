@@ -1,0 +1,54 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  core:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      CARGO_BUILD_JOBS: 2
+      RUST_TEST_THREADS: 2
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d
+        with:
+          toolchain: 1.99.0
+          components: rustfmt, clippy
+      - run: cargo fmt --all -- --check
+      - run: cargo clippy --locked -p forge-core -p forge-cli --all-targets -- -D warnings
+      - run: cargo test --locked -p forge-core -p forge-cli -- --test-threads=2
+        timeout-minutes: 8
+      - run: cargo build --locked -p forge-cli --release
+      - run: python scripts/check-text.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: cli-${{ matrix.os }}
+          path: |
+            target/release/numera-forge
+            target/release/numera-forge.exe
+          if-no-files-found: error
+  desktop:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: 24
+      - run: npm ci --prefix apps/desktop --ignore-scripts
+      - run: npm --prefix apps/desktop run build
+      - run: npx --prefix apps/desktop playwright install --with-deps chromium
+      - run: npm --prefix apps/desktop run test:ui
+        timeout-minutes: 5

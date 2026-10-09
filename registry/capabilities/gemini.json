@@ -1,0 +1,22 @@
+{
+  "harness": "gemini",
+  "surface": "cli",
+  "profile": "gemini-0.63.0",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "commands",
+    "agents",
+    "hooks",
+    "rules",
+    "mcps"
+  ],
+  "documentation": "https://geminicli.com/docs/extensions/reference/",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Commands and policies must be TOML; agents preview; hooks fixed hooks/hooks.json; MCP merged into extension manifest without granting trust",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

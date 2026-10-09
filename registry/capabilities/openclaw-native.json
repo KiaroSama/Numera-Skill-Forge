@@ -1,0 +1,16 @@
+{
+  "harness": "openclaw-native",
+  "surface": "cli",
+  "profile": "openclaw-native-experimental",
+  "delivery": "native-plugin",
+  "kinds": [
+    "plugins",
+    "assets"
+  ],
+  "documentation": "https://docs.openclaw.ai/plugins/manifest",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Preserve openclaw.plugin.json plus package.json openclaw.extensions; entry files required; experimental host API version must be pinned; no runtime imports",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

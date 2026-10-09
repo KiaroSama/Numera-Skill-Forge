@@ -1,0 +1,16 @@
+{
+  "harness": "amp",
+  "surface": "cli",
+  "profile": "amp-docs-2026-10-06",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets"
+  ],
+  "documentation": "https://ampcode.com/docs/markdown/customize/skills",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Standalone skill contribution only; native module bundles use amp-native; host version and disposal/timeouts unknown",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

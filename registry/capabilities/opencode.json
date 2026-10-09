@@ -1,0 +1,16 @@
+{
+  "harness": "opencode",
+  "surface": "cli",
+  "profile": "opencode-1.18.35",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins"
+  ],
+  "documentation": "https://opencode.ai/docs/plugins/",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "V1 JS/TS plugins; plugin singular; no v2 conversion; explicit native identity required; no automatic dependency installs"
+  ]
+}

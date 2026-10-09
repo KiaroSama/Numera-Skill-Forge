@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Numera Skill Forge</title>
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace content</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Application navigation">
+      <a class="brand" href="#dashboard"><img src="/logo.png" alt="Numera" width="48" height="48" /><span>Numera<span class="brand-subtitle">Skill Forge</span></span></a>
+      <p class="nav-caption">WORKSPACE</p>
+      <nav aria-label="Workspace views">
+        <a href="#dashboard" data-view="dashboard">Dashboard</a>
+        <a href="#sources" data-view="sources">Sources</a>
+        <a href="#catalog" data-view="catalog">Catalog</a>
+        <a href="#installed" data-view="installed">Installed</a>
+        <a href="#updates" data-view="updates">Updates</a>
+        <a href="#harnesses" data-view="harnesses">Harnesses</a>
+        <a href="#history" data-view="history">History</a>
+        <a href="#logs" data-view="logs">Logs</a>
+        <a href="#settings" data-view="settings">Settings</a>
+      </nav>
+      <p class="sidebar-note">Review first.<br />Build with confidence.<br />Keep ownership intact.</p>
+      <span class="local-badge">Local workspace · No telemetry</span>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <form id="workspace-form" class="workspace-picker">
+          <label for="workspace-root">Workspace folder</label>
+          <div class="input-row"><input id="workspace-root" name="root" type="text" required placeholder="Absolute path to an existing workspace" autocomplete="off" spellcheck="false" aria-describedby="workspace-help" /><button type="submit">Open workspace</button></div>
+          <small id="workspace-help">Opening checks enabled sources sequentially, without applying updates.</small>
+        </form>
+        <label class="theme-control" for="theme">Appearance<select id="theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      </header>
+      <p id="bridge-state" class="bridge-state" role="status"></p>
+      <div id="notice" class="notice" role="status" aria-live="polite">Choose a workspace to begin. No sources are activated automatically.</div>
+      <main id="main" tabindex="-1">
+        <section id="dashboard" class="view" aria-labelledby="dashboard-title">
+          <div class="page-heading"><div><p class="eyebrow">YOUR DISTRIBUTION WORKSPACE</p><h1 id="dashboard-title" tabindex="-1">Dashboard</h1><p>One workspace. Reviewed sources. Reproducible packages.</p></div><button data-action="status">Refresh status</button></div>
+          <div class="intro-panel"><h2>Start with what you trust</h2><p>Register a source, inspect its immutable content, then approve the exact digest before building. Forge never executes source code during discovery.</p><div class="actions"><a class="button primary" href="#sources">Review sources</a><a class="button" href="#catalog">Create a package</a></div></div>
+          <div class="two-column"><article class="panel"><h2>Workspace validation</h2><p>Validate registration data without running a host or executable payload.</p><button data-action="validate">Validate registry</button></article><article class="panel"><h2>Environment diagnostics</h2><p>Check workspace and prerequisites. A static check is not a native host smoke test.</p><button data-action="doctor">Run doctor</button></article></div>
+          <div class="panel"><h2>Workspace response</h2><div class="result" data-result="dashboard"><p class="empty">Open a workspace to inspect its actual state.</p></div></div>
+        </section>
+        <section id="sources" class="view" hidden aria-labelledby="sources-title">
+          <div class="page-heading"><div><p class="eyebrow">PROVENANCE & TRUST</p><h1 id="sources-title" tabindex="-1">Sources</h1><p>Registration is not approval. Inspect every candidate before accepting it.</p></div><button data-action="source-list">Refresh sources</button></div>
+          <div class="two-column">
+            <form data-operation="source-add" class="panel"><h2>Register a source</h2><fieldset class="operation-fields"><label>Source ID<input name="id" required pattern="[a-z0-9]+(-[a-z0-9]+)*" placeholder="my-source" spellcheck="false" /></label><label>Repository<input name="repository" required placeholder="https://github.com/owner/repository.git" spellcheck="false" /></label><label>Selected roots<textarea name="roots" placeholder="skills/example"></textarea></label><small>One relative directory per line. Blank selects the repository root.</small><label>Target profiles<input name="targets" list="target-profiles" placeholder="Comma-separated profile IDs" /></label><label class="check"><input name="enabled" type="checkbox" />Include in sequential update checks</label><p class="form-error" role="alert"></p><button type="submit" class="primary">Register source</button></fieldset></form>
+            <div class="panel"><h2>Inspect & approve</h2><form data-operation="discover"><fieldset class="operation-fields"><label>Source to inspect<input name="source" required list="source-ids" spellcheck="false" /></label><label class="check"><input name="offline" type="checkbox" />Use cached content only</label><p class="form-error" role="alert"></p><button type="submit">Discover candidate</button></fieldset></form><hr /><form id="approval-form" data-operation="approve"><fieldset class="operation-fields"><label>Reviewed source<input name="source" required readonly /></label><label>Reviewed content digest<input name="digest" required readonly spellcheck="false" /></label><p class="hint">The digest is filled only by a real discovery response. Review files, components, license evidence and privileges below.</p><label class="check"><input name="reviewed" type="checkbox" required />I reviewed this source and exact digest</label><label class="check warning"><input name="allow_executable" type="checkbox" />Explicitly trust executable content in this digest</label><p class="hint">Unchecked by default. Approval does not run the payload or validate it in a native host.</p><p class="form-error" role="alert"></p><button type="submit" class="primary">Approve reviewed digest</button></fieldset></form></div>
+          </div>
+          <div class="panel"><h2>Source evidence</h2><div class="result" data-result="sources"><p class="empty">No source data loaded. Refresh the list or discover a registered source.</p></div></div>
+        </section>
+        <section id="catalog" class="view" hidden aria-labelledby="catalog-title">
+          <div class="page-heading"><div><p class="eyebrow">DATA-DRIVEN DISTRIBUTION</p><h1 id="catalog-title" tabindex="-1">Catalog</h1><p>Group reviewed components without changing the Forge engine.</p></div><button data-action="catalog">Refresh catalog</button></div>
+          <div class="two-column"><form data-operation="package-add" class="panel"><h2>Register a package</h2><fieldset class="operation-fields"><label>Package ID<input name="id" required pattern="[a-z0-9]+(-[a-z0-9]+)*" placeholder="my-package" /></label><label>Package name<input name="name" required /></label><label>Source ID<input name="source" required list="source-ids" /></label><label>Component IDs<textarea name="components" required placeholder="Exact IDs from the discovery response, one per line"></textarea></label><label>Target profiles<input name="targets" list="target-profiles" placeholder="Comma-separated profile IDs" /></label><details><summary>Dependencies & optional exclusions</summary><label>Dependency package IDs<input name="dependencies" placeholder="Comma-separated IDs" /></label><label>Explicit optional exclusions<textarea name="optional_exclusions" placeholder="One component ID per line"></textarea></label></details><p class="form-error" role="alert"></p><button type="submit" class="primary">Register package</button></fieldset></form>
+          <div class="panel"><h2>Assess before building</h2><form data-operation="build"><fieldset class="operation-fields"><label>Package to build<input name="package" required list="package-ids" /></label><label>Target profile<input name="target" required list="target-profiles" /></label><p class="hint">Compatibility reports disclose native, portable or configuration delivery and the actual verification level.</p><p class="form-error" role="alert"></p><div class="actions"><button type="submit" data-intent="compatibility">Check compatibility</button><button type="submit" class="primary">Build package</button></div></fieldset></form><hr /><h2>Install a built package</h2><p>Preview exact destination changes before applying them.</p><a class="button" href="#installed">Open installation</a></div></div>
+          <div class="panel"><h2>Catalog & build response</h2><div class="result" data-result="catalog"><p class="empty">No package data loaded. Refresh or register a package.</p></div></div>
+        </section>
+        <section id="installed" class="view" hidden aria-labelledby="installed-title">
+          <div class="page-heading"><div><p class="eyebrow">OWNERSHIP & RECOVERY</p><h1 id="installed-title" tabindex="-1">Installed</h1><p>Preview first. Receipts protect managed files and preserve user edits.</p></div><button data-action="installed">Refresh receipts</button></div>
+          <div class="two-column"><form id="install-form" data-operation="install" class="panel"><h2>Install a package</h2><fieldset class="operation-fields"><label>Package to install<input name="package" required list="package-ids" /></label><label>Installation target<input name="target" required list="target-profiles" /></label><label>Destination folder<input name="destination" required placeholder="Absolute path to an isolated project or approved home" spellcheck="false" /></label><p class="hint">Never point this at a real harness without reviewing the preview and giving explicit installation approval.</p><p class="form-error" role="alert"></p><button type="submit">Preview installation</button><label class="check"><input name="confirmed" type="checkbox" />I authorize the reviewed destination changes</label><button type="submit" data-intent="apply-install" class="primary" disabled>Apply installation</button><p id="install-gate" class="hint">A matching real dry-run response is required before applying.</p></fieldset></form>
+          <form data-operation="receipt" class="panel"><h2>Manage an ownership receipt</h2><fieldset class="operation-fields"><label>Receipt ID<input name="receipt" required list="receipt-ids" spellcheck="false" /></label><label>Lifecycle operation<select name="operation"><option value="disable">Disable</option><option value="enable">Enable</option><option value="uninstall">Uninstall</option></select></label><p class="hint">Existing user changes can cause a conflict. Forge must not silently overwrite them.</p><label class="check"><input name="confirmed" type="checkbox" required />I authorize this lifecycle change</label><p class="form-error" role="alert"></p><button type="submit" class="danger">Run receipt operation</button></fieldset></form></div>
+          <div class="panel"><h2>Ownership & installation response</h2><div class="result" data-result="installed"><p class="empty">No receipt data loaded. A preview never creates an installation receipt.</p></div></div>
+        </section>
+        <section id="updates" class="view" hidden aria-labelledby="updates-title">
+          <div class="page-heading"><div><p class="eyebrow">ONE ORDERED CHECK</p><h1 id="updates-title" tabindex="-1">Updates</h1><p>Checks keep accepted content intact. New risky digests require review.</p></div></div>
+          <form data-operation="sync" class="panel"><h2>Synchronize enabled sources</h2><fieldset class="operation-fields"><label class="check"><input name="offline" type="checkbox" />Offline — inspect cached snapshots only</label><label class="check"><input name="apply" type="checkbox" />Apply only updates already allowed by the source policy</label><p class="hint">Concurrency is one. Executable or license changes still require explicit source approval. This does not publish or install packages.</p><p class="form-error" role="alert"></p><button type="submit" class="primary">Run sequential sync</button></fieldset></form>
+          <div class="panel"><h2>Update results</h2><div class="result" data-result="updates"><p class="empty">Opening a workspace runs a check-only sync here.</p></div></div>
+        </section>
+        <section id="harnesses" class="view" hidden aria-labelledby="harnesses-title">
+          <div class="page-heading"><div><p class="eyebrow">HONEST CAPABILITY REPORTS</p><h1 id="harnesses-title" tabindex="-1">Harnesses</h1><p>A supported delivery route is not proof of a running native host.</p></div><button data-action="harnesses">Refresh profiles</button></div>
+          <form data-operation="compatibility" class="panel"><h2>Check a package against a profile</h2><fieldset class="operation-fields"><div class="two-column"><label>Package for compatibility<input name="package" required list="package-ids" /></label><label>Compatibility target<input name="target" required list="target-profiles" /></label></div><p class="form-error" role="alert"></p><button type="submit" class="primary">Assess compatibility</button></fieldset></form>
+          <div class="panel"><h2>Profiles & compatibility evidence</h2><div class="result" data-result="harnesses"><p class="empty">Refresh to inspect the service's actual capabilities and restrictions.</p></div></div>
+        </section>
+        <section id="history" class="view" hidden aria-labelledby="history-title">
+          <div class="page-heading"><div><p class="eyebrow">JOURNALLED OPERATIONS</p><h1 id="history-title" tabindex="-1">History</h1><p>Inspect recorded changes before selecting a rollback.</p></div><button data-action="history">Refresh history</button></div>
+          <form data-operation="rollback" class="panel"><h2>Rollback a recorded operation</h2><fieldset class="operation-fields"><label>Operation ID<input name="operation" required list="operation-ids" spellcheck="false" /></label><label class="check"><input name="confirmed" type="checkbox" required />I reviewed this operation and authorize rollback</label><p class="hint">Rollback must refuse conflicts with files changed since the operation.</p><p class="form-error" role="alert"></p><button type="submit" class="danger">Rollback operation</button></fieldset></form>
+          <div class="panel"><h2>Operation history</h2><div class="result" data-result="history"><p class="empty">No history loaded. Refresh to inspect real recorded operations.</p></div></div>
+        </section>
+        <section id="logs" class="view" hidden aria-labelledby="logs-title">
+          <div class="page-heading"><div><p class="eyebrow">LOCAL DIAGNOSTICS</p><h1 id="logs-title" tabindex="-1">Logs</h1><p>Run logs stay in the selected workspace. No automatic uploads.</p></div><button data-action="logs">Refresh log paths</button></div>
+          <article class="panel"><h2>Inspect diagnostics safely</h2><p>Logs are UTF-8 files with UTC timestamps, severity and component categories. The service lists their actual paths below. Open a listed file in your local editor; redact private data before sharing it.</p><p>No support bundle is uploaded from this interface.</p></article>
+          <div class="panel"><h2>Diagnostic file paths</h2><div class="result" data-result="logs"><p class="empty">Open a native workspace to create a real desktop run log.</p></div></div>
+        </section>
+        <section id="settings" class="view" hidden aria-labelledby="settings-title">
+          <div class="page-heading"><div><p class="eyebrow">SAFE DEFAULTS</p><h1 id="settings-title" tabindex="-1">Settings</h1><p>Inspect the backend policy. Appearance is the only local preference here.</p></div><button data-action="settings">Refresh settings</button></div>
+          <div class="two-column"><article class="panel"><h2>Effective workspace policy</h2><div class="result" data-result="settings"><p class="empty">Refresh for actual service settings. Unavailable settings are never simulated.</p></div></article><form data-operation="publish" class="panel"><h2>Publication preview</h2><fieldset class="operation-fields"><p>Publication is separate from synchronization and installation. This interface requests preview only; unavailable publication returns the backend diagnostic.</p><p class="form-error" role="alert"></p><button type="submit">Preview publication</button></fieldset></form></div>
+        </section>
+      </main>
+      <footer>Locally bundled interface · Actual service evidence only · Native host verification is reported separately</footer>
+    </div>
+  </div>
+  <datalist id="source-ids"></datalist><datalist id="package-ids"></datalist><datalist id="target-profiles"></datalist><datalist id="receipt-ids"></datalist><datalist id="operation-ids"></datalist>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "numera-skill-forge-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "tauri": "tauri",
+    "test:ui": "playwright test"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.12.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@tauri-apps/cli": "2.12.1",
+    "@types/node": "26.6.4",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "harness": "claude-code",
+  "surface": "cli",
+  "profile": "claude-code-2.1.295",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "agents",
+    "commands",
+    "hooks",
+    "mcps",
+    "lsp",
+    "output-styles",
+    "workflows",
+    "themes",
+    "settings"
+  ],
+  "documentation": "https://code.claude.com/docs/en/plugins-reference",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Native component identity required; hooks merge, skills add, other explicit paths replace defaults; no duplicate hook declaration",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

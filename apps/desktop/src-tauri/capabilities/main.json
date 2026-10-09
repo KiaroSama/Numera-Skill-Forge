@@ -1,0 +1,8 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-local",
+  "description": "Only the local main window may call the shared Forge dispatcher.",
+  "local": true,
+  "windows": ["main"],
+  "permissions": ["allow-dispatch"]
+}

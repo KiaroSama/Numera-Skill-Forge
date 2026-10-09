@@ -1,0 +1,17 @@
+{
+  "harness": "continue",
+  "surface": "cli",
+  "profile": "continue-source-5522c6f",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets",
+    "mcps"
+  ],
+  "documentation": "https://docs.continue.dev/customize/deep-dives/mcp",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Skills and project MCP JSON contributions only; native runtime plugin/hook lifecycle and IDE parity unverified",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

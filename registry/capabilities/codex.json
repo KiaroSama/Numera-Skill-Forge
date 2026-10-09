@@ -1,0 +1,19 @@
+{
+  "harness": "codex",
+  "surface": "cli",
+  "profile": "codex-0.162.0",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "hooks",
+    "mcps"
+  ],
+  "documentation": "https://developers.openai.com/codex/plugins/build/",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Compatibility manifest only; portable stable loader skips hooks/apps; agent-role packaging unsupported; desktop hook activation remains host-specific",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

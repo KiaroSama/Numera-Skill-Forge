@@ -1,0 +1,17 @@
+{
+  "harness": "windsurf",
+  "surface": "desktop-cascade",
+  "profile": "windsurf-docs-2026-10-09",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets",
+    "mcps"
+  ],
+  "documentation": "https://docs.windsurf.com/windsurf/cascade/skills",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Cascade only; Devin Local contract unknown; MCP is an uninstalled config contribution, not native plugin",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

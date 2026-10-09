@@ -1,0 +1,16 @@
+{
+  "harness": "kilo",
+  "surface": "desktop",
+  "profile": "kilo-docs-2026-10-09",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets"
+  ],
+  "documentation": "https://kilo.ai/docs/customize/skills",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Skill subset only; native plugin release/module/lifecycle unverified and docs/source schemas conflict",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

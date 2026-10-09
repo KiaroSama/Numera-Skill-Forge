@@ -1,0 +1,16 @@
+{
+  "harness": "amp-native",
+  "surface": "cli",
+  "profile": "amp-native-docs-2026-10-06",
+  "delivery": "native-config",
+  "kinds": [
+    "plugins",
+    "assets"
+  ],
+  "documentation": "https://ampcode.com/docs/markdown/customize/plugins",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Preserve default-function JS/TS module; directory index.ts/index.js required; registerSkill not synthesized; no session.end contract",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

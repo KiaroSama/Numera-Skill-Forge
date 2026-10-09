@@ -1,0 +1,16 @@
+{
+  "harness": "hermes-native",
+  "surface": "cli",
+  "profile": "hermes-native-0.21.6",
+  "delivery": "native-plugin",
+  "kinds": [
+    "plugins",
+    "assets"
+  ],
+  "documentation": "https://hermes-agent.nousresearch.com/docs/developer-guide/plugins/",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Preserve plugin.yaml and __init__.py; never synthesize register(ctx), import Python, install dependencies or run doctor",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

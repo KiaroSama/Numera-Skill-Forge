@@ -1,0 +1,14 @@
+[package]
+name = "numera-forge-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[build-dependencies]
+tauri-build = "2"
+
+[dependencies]
+tauri = "2.12.1"
+forge-core = { path = "../../../crates/forge-core" }
+serde_json.workspace = true

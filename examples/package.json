@@ -1,0 +1,9 @@
+{
+  "id": "hello-package",
+  "name": "Hello example",
+  "source": "hello-source",
+  "components": [],
+  "dependencies": [],
+  "targets": ["claude-code"],
+  "optional_exclusions": []
+}

@@ -1,0 +1,133 @@
+use crate::{
+    Error, Result,
+    model::{Lock, Package, Registry, Source},
+    storage, validation,
+};
+use std::{collections::BTreeSet, path::Path};
+
+pub fn load(root: &Path) -> Result<Registry> {
+    let path = root.join("registry/sources.json");
+    let registry = if path.exists() {
+        storage::read(&path)?
+    } else {
+        Registry::default()
+    };
+    validate(&registry)?;
+    Ok(registry)
+}
+pub fn save(root: &Path, registry: &Registry) -> Result<()> {
+    validate(registry)?;
+    storage::write(&root.join("registry/sources.json"), registry)
+}
+pub fn lock(root: &Path) -> Result<Lock> {
+    let p = root.join("forge.lock.json");
+    if p.exists() {
+        storage::read(&p)
+    } else {
+        Ok(Lock {
+            schema_version: 1,
+            ..Lock::default()
+        })
+    }
+}
+pub fn save_lock(root: &Path, lock: &Lock) -> Result<()> {
+    storage::write(&root.join("forge.lock.json"), lock)
+}
+pub fn validate(registry: &Registry) -> Result<()> {
+    if registry.schema_version != 1 {
+        return Err(Error::new(
+            "schema-version",
+            "Unsupported registry version; migration required",
+        ));
+    }
+    let mut ids = BTreeSet::new();
+    for source in &registry.sources {
+        validation::identifier(&source.id)?;
+        if !ids.insert(&source.id) {
+            return Err(Error::new("duplicate-id", "Source IDs must be unique"));
+        }
+        for p in source.roots.iter().chain(&source.excludes) {
+            validation::relative_path(p)?;
+        }
+        validate_repository(&source.repository)?;
+    }
+    let mut packages = BTreeSet::new();
+    for p in &registry.packages {
+        validation::identifier(&p.id)?;
+        if !packages.insert(&p.id) {
+            return Err(Error::new("duplicate-id", "Package IDs must be unique"));
+        }
+        if !ids.contains(&p.source) {
+            return Err(Error::new(
+                "missing-source",
+                "Package references an unregistered source",
+            ));
+        }
+    }
+    for p in &registry.packages {
+        closure(registry, &p.id, &mut BTreeSet::new(), &mut BTreeSet::new())?;
+    }
+    Ok(())
+}
+fn closure(
+    r: &Registry,
+    id: &str,
+    visiting: &mut BTreeSet<String>,
+    done: &mut BTreeSet<String>,
+) -> Result<()> {
+    if done.contains(id) {
+        return Ok(());
+    }
+    if !visiting.insert(id.to_owned()) {
+        return Err(Error::new("dependency-cycle", "Package dependency cycle"));
+    }
+    let p =
+        r.packages.iter().find(|p| p.id == id).ok_or_else(|| {
+            Error::new("missing-dependency", format!("Unregistered package {id}"))
+        })?;
+    for d in &p.dependencies {
+        closure(r, d, visiting, done)?;
+    }
+    visiting.remove(id);
+    done.insert(id.to_owned());
+    Ok(())
+}
+pub fn validate_repository(repository: &str) -> Result<()> {
+    if let Some(path) = repository.strip_prefix("local:") {
+        if !Path::new(path).is_absolute() {
+            return Err(Error::new(
+                "repository",
+                "Local sources require an explicit absolute path",
+            ));
+        }
+        return Ok(());
+    }
+    if !repository.starts_with("https://") || repository.contains(['@', '?', '#', '\r', '\n']) {
+        return Err(Error::new(
+            "repository",
+            "Use a credential-free HTTPS repository URL or an explicit local: source",
+        ));
+    }
+    let host = repository
+        .trim_start_matches("https://")
+        .split('/')
+        .next()
+        .unwrap_or("");
+    if !["github.com", "gitlab.com", "bitbucket.org", "codeberg.org"].contains(&host) {
+        return Err(Error::new(
+            "host-review",
+            "Repository host is not approved; use an reviewed provider policy",
+        ));
+    }
+    Ok(())
+}
+pub fn add_source(root: &Path, source: Source) -> Result<()> {
+    let mut r = load(root)?;
+    r.sources.push(source);
+    save(root, &r)
+}
+pub fn add_package(root: &Path, p: Package) -> Result<()> {
+    let mut r = load(root)?;
+    r.packages.push(p);
+    save(root, &r)
+}

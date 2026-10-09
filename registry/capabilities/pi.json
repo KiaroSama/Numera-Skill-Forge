@@ -1,0 +1,20 @@
+{
+  "harness": "pi",
+  "surface": "cli",
+  "profile": "pi-1.1.0",
+  "delivery": "native-plugin",
+  "kinds": [
+    "skills",
+    "assets",
+    "plugins",
+    "mods",
+    "prompts",
+    "themes"
+  ],
+  "documentation": "https://github.com/earendil-works/pi/blob/v1.1.0/packages/coding-agent/docs/packages.md",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Explicit pi resource paths; preserve extensions; host peer namespace @earendil-works; no dependency installs, globs or hook conversion",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}

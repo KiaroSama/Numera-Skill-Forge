@@ -1,0 +1,17 @@
+{
+  "harness": "cline",
+  "surface": "cli",
+  "profile": "cline-docs-2026-10-09",
+  "delivery": "native-config",
+  "kinds": [
+    "skills",
+    "assets",
+    "mcps"
+  ],
+  "documentation": "https://docs.cline.bot/mcp/configuring-mcp-servers",
+  "verification": "static-contract; real-host-not-tested",
+  "restrictions": [
+    "Skills/MCP config only; native runtime plugin packaging unverified; remote streamableHttp type preserved; IDE config destination user-selected",
+    "Native identity required; no universal conversion or runtime execution"
+  ]
+}
