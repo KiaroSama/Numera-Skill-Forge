@@ -84,7 +84,7 @@ function Add-LockedPath([string]$Path, [string]$Mode, [string]$Digest) {
     if ($exactPaths.ContainsKey($Path)) { throw 'Duplicate locked publication path.' }
     $file = Join-Path $root $Path
     if (-not (Test-Path -LiteralPath $file -PathType Leaf)) { throw 'A locked publication file is missing.' }
-    if ((Get-Item -LiteralPath $file).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Publication links are forbidden.' }
+    if ((Get-Item -LiteralPath $file -Force).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Publication links are forbidden.' }
     if ((Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash.ToLowerInvariant() -cne $Digest) { throw 'Locked publication bytes differ; refusing staging.' }
     $exactPaths.Add($Path, $Mode)
 }

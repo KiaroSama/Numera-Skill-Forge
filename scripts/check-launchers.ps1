@@ -29,6 +29,7 @@ try {
     $upstream = Join-Path $fixture '.ci-work/upstream'
     [IO.Directory]::CreateDirectory((Join-Path $upstream 'skills/demo/scripts')) | Out-Null
     [IO.File]::WriteAllText((Join-Path $upstream 'skills/demo/SKILL.md'), "---`nname: demo`ndescription: Fixture`n---`nOriginal.`n", $utf8)
+    [IO.File]::WriteAllText((Join-Path $upstream 'skills/demo/.gitignore'), "temporary/`n", $utf8)
     [IO.File]::WriteAllText((Join-Path $upstream 'skills/demo/LICENSE'), "MIT License`nPermission is hereby granted, free of charge`n", $utf8)
     [IO.File]::WriteAllText((Join-Path $upstream 'skills/demo/scripts/helper.sh'), "#!/bin/sh`necho never-run`n", $utf8)
     & git -C $upstream init -b main | Out-Null
