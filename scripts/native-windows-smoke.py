@@ -137,7 +137,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             process = subprocess.Popen([str(args.driver), "--port", str(driver_port), "--native-port", str(native_port),
                                         "--native-driver", str(args.native_driver)], cwd=run,
                                        stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
-                                       creationflags=subprocess.CREATE_NO_WINDOW)
+                                       creationflags=subprocess.DETACHED_PROCESS)
             checkpoint("driver-started")
             ready = time.monotonic() + 20
             while True:
