@@ -1,8 +1,5 @@
 """Win32 owner for a CI-only, never-switched desktop and kill-on-close process tree."""
 
-if __name__ == "__main__":
-    print("Native launch probe entered Python", flush=True)
-
 import argparse
 import ctypes as c
 import json
@@ -346,7 +343,7 @@ class Owner:
             environment = {**environment, "FORGE_NATIVE_DESKTOP": self.desktop_name}
             block = c.create_unicode_buffer("\0".join(f"{key}={value}" for key, value in sorted(environment.items(), key=lambda item: item[0].upper())) + "\0\0")
             line = c.create_unicode_buffer(subprocess.list2cmdline(command))
-            flags = 0x00000004 | 0x00000400 | 0x00000008  # SUSPENDED, UNICODE_ENVIRONMENT, DETACHED_PROCESS.
+            flags = 0x00000004 | 0x00000400 | 0x08000000  # SUSPENDED, UNICODE_ENVIRONMENT, NO_WINDOW.
             if elevated(token):
                 size = w.DWORD()
                 if not token_info(token, 19, c.byref(linked), c.sizeof(linked), c.byref(size)):
@@ -506,7 +503,8 @@ def launch_probe() -> None:
         allowed = {"SYSTEMROOT", "WINDIR", "SYSTEMDRIVE", "COMSPEC", "PATH", "GITHUB_ACTIONS", "RUNNER_ENVIRONMENT"}
         environment = {key: value for key, value in os.environ.items() if key.upper() in allowed}
         environment.update(PYTHONUTF8="1", PYTHONDONTWRITEBYTECODE="1", TEMP=str(work), TMP=str(work))
-        command = [sys.executable, "-I", "-S", str(Path(__file__).resolve()), "--worker", "--work", str(work)]
+        interpreter = Path(sys.executable).with_name("pythonw.exe").resolve(strict=True)
+        command = [str(interpreter), "-I", "-S", str(Path(__file__).resolve()), "--worker", "--work", str(work)]
         with Owner(command, environment, work) as owner:
             deadline = time.monotonic() + 15
             while (result := owner.poll()) is None:

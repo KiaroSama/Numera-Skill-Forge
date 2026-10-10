@@ -255,7 +255,8 @@ def main() -> None:
         environment["WEBVIEW2_BROWSER_EXECUTABLE_FOLDER"] = str(runtime)
         environment["WEBVIEW2_USER_DATA_FOLDER"] = str(run / "webview-profile")
         environment["TAURI_WEBVIEW_AUTOMATION"] = "true"
-        command = [sys.executable, str(Path(__file__).resolve()), "--worker", "--application", str(application),
+        interpreter = Path(sys.executable).with_name("pythonw.exe").resolve(strict=True)
+        command = [str(interpreter), str(Path(__file__).resolve()), "--worker", "--application", str(application),
                    "--driver", str(args.driver), "--native-driver", str(native_driver), "--work", str(run)]
         result = None
         with windows.Owner(command, environment, run) as owner:
