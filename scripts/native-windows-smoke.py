@@ -137,10 +137,9 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             startup = subprocess.STARTUPINFO()
             startup.dwFlags = subprocess.STARTF_USESHOWWINDOW
             startup.wShowWindow = 0
-            process = subprocess.Popen([str(args.driver), "--port", str(driver_port), "--native-port", str(native_port),
-                                        "--native-driver", str(args.native_driver)], cwd=run,
+            process = subprocess.Popen([str(args.native_driver), f"--port={driver_port}"], cwd=run,
                                        stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
-                                       startupinfo=startup, creationflags=subprocess.CREATE_NEW_CONSOLE)
+                                       startupinfo=startup, creationflags=subprocess.DETACHED_PROCESS)
             checkpoint("driver-started")
             ready = time.monotonic() + 20
             while True:
@@ -157,7 +156,8 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                 time.sleep(0.1)
             checkpoint("driver-ready")
             session = driver.call("POST", "/session", {"capabilities": {"alwaysMatch": {
-                "browserName": "wry", "tauri:options": {"application": str(args.application)}}}})
+                "browserName": "webview2", "ms:edgeChromium": True,
+                "ms:edgeOptions": {"binary": str(args.application)}}}})
             driver.session = session["sessionId"]
             checkpoint("native-session-created")
             driver.call("POST", f"/session/{driver.session}/timeouts", {"implicit": 0, "pageLoad": 30000, "script": 10000})
