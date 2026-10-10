@@ -230,6 +230,45 @@ def diagnose_launch_access(token: object, command: list[str], work: Path, deskto
                       "failed" if error else "allowed", error)
 
 
+def diagnose_thread_wait(thread_id: int) -> None:
+    """Read only the owned thread's first wait boundary; never enable debug privileges."""
+    class Lock(c.Structure):
+        _fields_ = [("name", w.WCHAR * 128), ("timeout", c.c_longlong), ("alertable", w.BOOL)]
+
+    class Thread(c.Structure):
+        _fields_ = [("pid", w.DWORD), ("tid", w.DWORD), ("wait", w.DWORD), ("switches", w.DWORD)]
+
+    class Detail(c.Union):
+        _fields_ = [("lock", Lock), ("thread", Thread)]
+
+    class Node(c.Structure):
+        _fields_ = [("kind", c.c_int), ("status", c.c_int), ("detail", Detail)]
+
+    open_session = api(A, "OpenThreadWaitChainSession", w.HANDLE, w.DWORD, c.c_void_p)
+    close_session = api(A, "CloseThreadWaitChainSession", None, w.HANDLE)
+    get_chain = api(A, "GetThreadWaitChain", w.BOOL, w.HANDLE, c.c_size_t, w.DWORD,
+                    w.DWORD, c.POINTER(w.DWORD), c.POINTER(Node), c.POINTER(w.BOOL))
+    session = open_session(0, None)
+    if not session:
+        logging.error("Wait-chain session unavailable error=%d", c.get_last_error())
+        return
+    try:
+        nodes, count, cycle = (Node * 16)(), w.DWORD(16), w.BOOL()
+        if not get_chain(session, 0, 0, thread_id, c.byref(count), nodes, c.byref(cycle)):
+            logging.error("Owned thread wait-chain unavailable error=%d", c.get_last_error())
+            return
+        logging.error("Owned thread wait-chain count=%d cycle=%s", count.value, bool(cycle.value))
+        for node in nodes[:min(count.value, 16)]:
+            if node.kind == 8:  # WctThreadType.
+                logging.error("Wait-chain thread pid=%d tid=%d status=%d wait=%d switches=%d",
+                              node.detail.thread.pid, node.detail.thread.tid, node.status,
+                              node.detail.thread.wait, node.detail.thread.switches)
+            else:
+                logging.error("Wait-chain object type=%d status=%d", node.kind, node.status)
+    finally:
+        close_session(session)
+
+
 def require_worker_isolation() -> None:
     """Refuse direct worker entry outside the owner's job or with an elevated token."""
     member, token = w.BOOL(), w.HANDLE()
@@ -366,6 +405,7 @@ class Owner:
 
         enum_windows(self.desktop, inspect, 0)
         logging.error("Startup timeout owned desktop windows=%d Job active=%d", amount, self.active())
+        diagnose_thread_wait(self.info.tid)
 
     def poll(self) -> int | None:
         state = wait_process(self.info.process, 0)
