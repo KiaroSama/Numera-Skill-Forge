@@ -264,7 +264,7 @@ class Owner:
             limits = ExtendedLimits()
             limits.basic.flags = 0x2000  # KILL_ON_JOB_CLOSE; never allow breakaway.
             checked(set_job(self.job, 9, c.byref(limits), c.sizeof(limits)), "SetInformationJobObject")
-            checked(open_token(current(), 0x008B, c.byref(token)), "OpenProcessToken(query/duplicate/assign/default)")
+            checked(open_token(current(), 0x018B, c.byref(token)), "OpenProcessToken(query/duplicate/assign/default/session)")
             startup = Startup()
             startup.cb = c.sizeof(startup)
             startup.desktop = self.desktop_name
