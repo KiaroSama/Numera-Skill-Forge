@@ -232,7 +232,7 @@ pub fn install_scoped(
         }
         prefix
     } else if !package.join("skills").is_dir() && !contributions.is_empty() {
-        String::new()
+        format!(".forge-packages/{id}")
     } else {
         skill_prefix(target, scope)?.into()
     };
