@@ -3,6 +3,7 @@
 import ctypes as c
 from ctypes import wintypes as w
 from pathlib import Path
+import logging
 import os
 import subprocess
 import time
@@ -16,6 +17,14 @@ class Startup(c.Structure):
                 ("show", w.WORD), ("reserved_size", w.WORD),
                 ("reserved_bytes", c.POINTER(c.c_byte)), ("stdin", w.HANDLE),
                 ("stdout", w.HANDLE), ("stderr", w.HANDLE)]
+
+
+class SidAttributes(c.Structure):
+    _fields_ = [("sid", c.c_void_p), ("attributes", w.DWORD)]
+
+
+class TokenGroups(c.Structure):
+    _fields_ = [("count", w.DWORD), ("groups", SidAttributes * 1)]
 
 
 class Process(c.Structure):
@@ -78,6 +87,15 @@ create_process = api(K, "CreateProcessW", w.BOOL, w.LPCWSTR, w.LPWSTR, c.c_void_
 create_with_token = api(A, "CreateProcessWithTokenW", w.BOOL, w.HANDLE, w.DWORD, w.LPCWSTR,
                         w.LPWSTR, w.DWORD, c.c_void_p, w.LPCWSTR, c.POINTER(Startup), c.POINTER(Process))
 process_in_job = api(K, "IsProcessInJob", w.BOOL, w.HANDLE, w.HANDLE, c.POINTER(w.BOOL))
+restrict_token = api(A, "CreateRestrictedToken", w.BOOL, w.HANDLE, w.DWORD, w.DWORD,
+                     c.c_void_p, w.DWORD, c.c_void_p, w.DWORD, c.c_void_p, c.POINTER(w.HANDLE))
+set_token = api(A, "SetTokenInformation", w.BOOL, w.HANDLE, c.c_int, c.c_void_p, w.DWORD)
+well_known_sid = api(A, "CreateWellKnownSid", w.BOOL, c.c_int, c.c_void_p, c.c_void_p, c.POINTER(w.DWORD))
+equal_sid = api(A, "EqualSid", w.BOOL, c.c_void_p, c.c_void_p)
+sid_count = api(A, "GetSidSubAuthorityCount", c.POINTER(c.c_byte), c.c_void_p)
+sid_part = api(A, "GetSidSubAuthority", c.POINTER(w.DWORD), c.c_void_p, w.DWORD)
+valid_sid = api(A, "IsValidSid", w.BOOL, c.c_void_p)
+sid_length = api(A, "GetLengthSid", w.DWORD, c.c_void_p)
 
 
 def checked(value: object, operation: str) -> object:
@@ -90,6 +108,62 @@ def elevated(token: object) -> bool:
     value, size = w.DWORD(), w.DWORD()
     checked(token_info(token, 20, c.byref(value), c.sizeof(value), c.byref(size)), "TokenElevation")
     return bool(value.value)
+
+
+def token_buffer(token: object, kind: int) -> object:
+    size = w.DWORD()
+    if token_info(token, kind, None, 0, c.byref(size)) or c.get_last_error() != 122:
+        raise OSError(c.get_last_error(), "Token information size query failed")
+    if not 0 < size.value <= 65536:
+        raise RuntimeError("Token information exceeded bounded buffer")
+    buffer = c.create_string_buffer(size.value)
+    checked(token_info(token, kind, buffer, size.value, c.byref(size)), "GetTokenInformation")
+    return buffer
+
+
+def sid(kind: int) -> object:
+    buffer, size = c.create_string_buffer(68), w.DWORD(68)
+    checked(well_known_sid(kind, None, buffer, c.byref(size)), "CreateWellKnownSid")
+    return buffer
+
+
+def require_standard_token(token: object) -> None:
+    """Check integrity separately: denying administrator SIDs alone does not lower IL."""
+    if elevated(token):
+        raise RuntimeError("WebView2 automation token is elevated")
+    integrity = token_buffer(token, 25)  # TokenIntegrityLevel.
+    label = SidAttributes.from_buffer(integrity)
+    checked(valid_sid(label.sid), "IsValidSid(integrity)")
+    count = sid_count(label.sid)[0]
+    if count <= 0 or sid_part(label.sid, count - 1)[0] > 8192:
+        raise RuntimeError("WebView2 automation token exceeds Medium integrity")
+    groups = token_buffer(token, 2)  # TokenGroups.
+    amount = w.DWORD.from_buffer(groups).value
+    offset = TokenGroups.groups.offset
+    if offset + amount * c.sizeof(SidAttributes) > c.sizeof(groups):
+        raise RuntimeError("Invalid token group buffer")
+    admin = sid(26)  # WinBuiltinAdministratorsSid.
+    for index in range(amount):
+        group = SidAttributes.from_buffer(groups, offset + index * c.sizeof(SidAttributes))
+        if equal_sid(group.sid, admin) and group.attributes & 4:  # SE_GROUP_ENABLED.
+            raise RuntimeError("WebView2 automation token retains enabled Administrators SID")
+
+
+def restricted_medium_token(token: object) -> object:
+    """Restrict only a new child token; never change caller privileges, UAC or accounts."""
+    restricted = w.HANDLE()
+    checked(restrict_token(token, 1 | 4, 0, None, 0, None, 0, None, c.byref(restricted)),
+            "CreateRestrictedToken(DISABLE_MAX_PRIVILEGE|LUA_TOKEN)")
+    try:
+        medium = sid(67)  # WinMediumLabelSid, S-1-16-8192.
+        label = SidAttributes(c.cast(medium, c.c_void_p), 0x20)  # SE_GROUP_INTEGRITY.
+        checked(set_token(restricted, 25, c.byref(label), c.sizeof(label) + sid_length(medium)),
+                "SetTokenInformation(child Medium integrity)")
+        require_standard_token(restricted)
+        return restricted
+    except BaseException:
+        checked(close(restricted), "CloseHandle(restricted token)")
+        raise
 
 
 def require_worker_isolation() -> None:
@@ -107,8 +181,7 @@ def require_worker_isolation() -> None:
         raise RuntimeError("Native worker is not on the owner's private desktop")
     checked(open_token(current(), 8, c.byref(token)), "OpenProcessToken")
     try:
-        if elevated(token):
-            raise RuntimeError("WebView2 automation requires an unelevated worker")
+        require_standard_token(token)
     finally:
         checked(close(token), "CloseHandle(token)")
 
@@ -123,14 +196,14 @@ class Owner:
         self.pid = 0
         self.started = time.monotonic()
         self.desktop_name = f"NumeraNative-{os.getpid()}-{time.monotonic_ns()}"
-        token, linked = w.HANDLE(), w.HANDLE()
+        token, linked, child_token = w.HANDLE(), w.HANDLE(), w.HANDLE()
         try:
             self.desktop = checked(create_desktop(self.desktop_name, None, None, 0, 0x01FF, None), "CreateDesktopW")
             self.job = checked(create_job(None, None), "CreateJobObjectW")
             limits = ExtendedLimits()
             limits.basic.flags = 0x2000  # KILL_ON_JOB_CLOSE; never allow breakaway.
             checked(set_job(self.job, 9, c.byref(limits), c.sizeof(limits)), "SetInformationJobObject")
-            checked(open_token(current(), 0x000A, c.byref(token)), "OpenProcessToken")
+            checked(open_token(current(), 0x008B, c.byref(token)), "OpenProcessToken(query/duplicate/assign/default)")
             startup = Startup()
             startup.cb = c.sizeof(startup)
             startup.desktop = self.desktop_name
@@ -142,17 +215,25 @@ class Owner:
             flags = 0x00000004 | 0x00000400 | 0x08000000  # SUSPENDED, UNICODE_ENVIRONMENT, NO_WINDOW.
             if elevated(token):
                 size = w.DWORD()
-                checked(token_info(token, 19, c.byref(linked), c.sizeof(linked), c.byref(size)), "TokenLinkedToken")
-                if elevated(linked):
-                    raise RuntimeError("Existing linked token is elevated; refusing WebView2 launch")
+                if not token_info(token, 19, c.byref(linked), c.sizeof(linked), c.byref(size)):
+                    error = c.get_last_error()
+                    if error != 1312:
+                        raise OSError(error, "TokenLinkedToken failed")
+                    linked = restricted_medium_token(token)
+                    logging.info("Missing linked token; restricted duplicate verified non-elevated/Medium-or-lower/no enabled Administrators SID")
+                require_standard_token(linked)
                 checked(create_with_token(linked, 0, command[0], line, flags, block, str(work),
                                           c.byref(startup), c.byref(self.info)), "CreateProcessWithTokenW(unelevated)")
             else:
+                require_standard_token(token)
                 checked(create_process(command[0], line, None, None, False, flags, block, str(work),
                                        c.byref(startup), c.byref(self.info)), "CreateProcessW")
             self.pid = self.info.pid
             checked(assign_job(self.job, self.info.process), "AssignProcessToJobObject(suspended)")
             self.assigned = True
+            checked(open_token(self.info.process, 8, c.byref(child_token)), "OpenProcessToken(suspended worker)")
+            require_standard_token(child_token)
+            logging.info("Suspended worker token verified non-elevated/Medium-or-lower/no enabled Administrators SID; Job assigned before resume")
             if resume(self.info.thread) == 0xFFFFFFFF:
                 raise OSError(c.get_last_error(), "ResumeThread failed")
         except BaseException:
@@ -160,7 +241,7 @@ class Owner:
             raise
         finally:
             try:
-                for handle in (linked, token):
+                for handle in (child_token, linked, token):
                     if handle.value:
                         checked(close(handle), "CloseHandle(token)")
             except OSError:
