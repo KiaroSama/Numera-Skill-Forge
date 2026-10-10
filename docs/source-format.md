@@ -19,6 +19,49 @@ Registry schema v1: `schema_version`, ordered `sources`, `packages`. Source fiel
 `enabled`, `reference` (strategy/default-branch, branch/commit/tag with value), `roots`, `excludes`,
 `targets`, `update`, `credential_reference`, preserved metadata. Sources default disabled/review.
 
+## Reviewed acquisition providers
+
+Built-in public HTTPS hosts are `github.com`, `gitlab.com`, `bitbucket.org` and `codeberg.org`.
+Other public HTTPS repositories require an explicit policy in the source record, reviewed by the
+operator (the marker is a decision record, not an automatic security certification).
+
+```json
+{
+  "id": "reviewed-source",
+  "repository": "https://forge.example.invalid/team/skills.git",
+  "metadata": {
+    "provider_policy": {"transport": "https", "host": "forge.example.invalid", "reviewed": true}
+  }
+}
+```
+
+The policy binds the exact lowercase DNS host and transport; unknown policy fields, wildcard hosts,
+userinfo, ports, URL-encoded syntax, traversal, query/fragment and control characters are rejected.
+HTTPS uses isolated empty credential/config home, no credential helpers, redirects or checkout;
+TLS verification stays enabled. Unsafe inherited Git/HTTP overrides return `provider-environment`.
+Cached repository configuration is checked before use; extra includes, alternate object stores or
+unreviewed settings return `cache-policy` without changing accepted snapshots. The existing process
+owner supplies deadlines, cancellation and pipe cleanup; upstream blobs/hooks are never executed.
+
+`credential_reference` is only a public key name matching `[A-Za-z][A-Za-z0-9_-]{0,63}`; no token,
+URL, file path or secret-store instruction belongs in the registry. Registration does not read its
+value. Online acquisition with a reference returns `credential-provider-unavailable`: an approved
+store/environment boundary capable of isolating secrets from argv, logs and inherited process
+settings is not integrated. No token is written to a temporary file and no user credential store is
+read by the new acquisition provider. Existing cached snapshots remain usable offline.
+
+Reviewed SSH registration uses `ssh://git@forge.example.invalid/team/skills.git` and the same exact
+policy with `transport: "ssh"`. Online acquisition returns `ssh-provider-unavailable`; it does not
+invoke SSH or read user SSH configuration/keys. A future provider must enforce approved identity
+selection, pinned host keys, strict host-key checking and noninteractive operation before support
+can be claimed. SCP shorthand and fallback to ambient SSH credentials are not supported.
+
+The existing GitHub `latest-stable-release` metadata lookup remains a separate `gh api` helper,
+with the CLI's ambient authentication/configuration behavior; it does not resolve source
+`credential_reference` or authenticate private clones. Custom-host release APIs are unsupported.
+Actual custom HTTPS/private/SSH acquisition has not been integration-tested without an approved
+endpoint and, for authenticated transports, the missing secure runtime boundary.
+
 Package fields: `id`, `name`, `source`, `components`, `dependencies`, `targets`, `optional_exclusions`.
 Unknown host APIs require a capability/adapter change and regression tests; adding more content to an
 existing valid profile does not. Unknown/missing licenses block redistribution pending review.

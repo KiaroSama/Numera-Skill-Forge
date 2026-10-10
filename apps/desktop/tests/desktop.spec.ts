@@ -9,7 +9,7 @@ import type { Page } from '@playwright/test';
 interface Captured { root: string; request: Record<string, unknown> }
 declare global {
   interface Window {
-    forgeTest: { requests: Captured[]; active: number; maxActive: number; fail: string };
+    forgeTest: { requests: Captured[]; active: number; maxActive: number; fail: string; holdSync: boolean; release: (() => void) | null };
   }
 }
 const digest = 'a'.repeat(64);
@@ -31,7 +31,7 @@ class ForgePage {
 }
 async function mockBridge(page: Page): Promise<void> {
   await page.addInitScript(() => {
-    window.forgeTest = { requests: [], active: 0, maxActive: 0, fail: '' };
+    window.forgeTest = { requests: [], active: 0, maxActive: 0, fail: '', holdSync: false, release: null };
     Object.defineProperty(window, 'isTauri', { value: true });
     Object.defineProperty(window, '__TAURI_INTERNALS__', { value: {
       invoke: async (command: string, args: Captured): Promise<unknown> => {
@@ -44,6 +44,9 @@ async function mockBridge(page: Page): Promise<void> {
           await Promise.resolve();
           const request = args.request['action'] === 'job-run' ? args.request['request'] as Record<string, unknown> : args.request;
           if (args.request['action'] === 'job-run') state.requests[state.requests.length - 1] = { root: args.root, request };
+          if (state.holdSync && request['action'] === 'sync') await new Promise<void>(resolve => { state.release = resolve; });
+          if (request['action'] === 'job-status') return { id: request['job'], status: 'running', steps: [{ kind: 'source', id: 'example', status: 'running' }] };
+          if (request['action'] === 'job-cancel') { state.release?.(); return { cancel_requested: true }; }
           if (state.fail === request['action']) throw new Error('ownership-conflict: Existing file was edited by the user');
           switch (request['action']) {
             case 'status': return { workspace: args.root, sources: 0, packages: 0, installed: 0 };
@@ -93,6 +96,44 @@ test('workspace open and reopen dispatch one ordered check-only sync', async ({ 
   await page.reload();
   await expect(page.getByRole('status').filter({ hasText: 'Workspace opened.' })).toBeVisible();
   expect((await forge.requests()).filter(row => row.request['action'] === 'sync')).toHaveLength(1);
+});
+
+test('active source progress inspection and cancellation stay usable while writes are busy', async ({ page }) => {
+  await mockBridge(page);
+  await page.goto('/');
+  const forge = new ForgePage(page);
+  await forge.open();
+  await forge.view('Updates');
+  await page.evaluate(() => { window.forgeTest.holdSync = true; });
+  await page.getByRole('button', { name: 'Run sequential sync' }).click();
+  await expect(page.getByRole('button', { name: 'Inspect active progress' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Run sequential sync' })).toBeDisabled();
+  await page.getByRole('button', { name: 'Inspect active progress' }).click();
+  await expect(page.getByRole('region', { name: 'Updates', exact: true }).getByLabel('Service response JSON')).toContainText('running');
+  await page.getByRole('button', { name: 'Cancel active operation' }).click();
+  await expect(page.getByRole('button', { name: 'Inspect active progress' })).toBeHidden();
+  const requests = await forge.requests();
+  expect(requests.filter(row => row.request['action'] === 'job-status')).toHaveLength(1);
+  expect(requests.filter(row => row.request['action'] === 'job-cancel')).toHaveLength(1);
+});
+
+test('workspace approved-only open policy is explicit and survives reopen', async ({ page }) => {
+  await mockBridge(page);
+  await page.goto('/');
+  const forge = new ForgePage(page);
+  await forge.open();
+  await forge.view('Settings');
+  await page.getByLabel('Apply policy-approved updates and rebuild on workspace open').check();
+  await page.reload();
+  await expect(page.getByRole('status').filter({ hasText: 'Workspace opened.' })).toBeVisible();
+  const requests = await forge.requests();
+  expect(requests.filter(row => row.request['action'] === 'sync').map(row => row.request['apply'])).toEqual([true]);
+  expect(requests.some(row => ['install', 'update', 'publish', 'approve'].includes(String(row.request['action'])))).toBe(false);
+  await forge.view('Settings');
+  await page.getByLabel('Apply policy-approved updates and rebuild on workspace open').uncheck();
+  await page.reload();
+  await expect(page.getByRole('status').filter({ hasText: 'Workspace opened.' })).toBeVisible();
+  expect((await forge.requests()).find(row => row.request['action'] === 'sync')?.request['apply']).toBe(false);
 });
 
 test('approval binds the discovered digest; executable trust is explicit and reset', async ({ page }) => {

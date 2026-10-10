@@ -134,6 +134,72 @@ fn expect(value: &Value, pointer: &str, expected: Option<&Value>) -> Result<()> 
     Ok(())
 }
 
+pub(crate) fn combine_owned(union: &mut OwnedConfig, other: &OwnedConfig) -> Result<()> {
+    for (pointer, field) in &other.fields {
+        check_owners(pointer, Some(&field.desired), &[union])?;
+        if let Some(previous) = union.fields.get(pointer)
+            && (previous.baseline != field.baseline
+                || previous.baseline_present != field.baseline_present)
+        {
+            return Err(Error::new(
+                "ownership-conflict",
+                "Shared configuration baselines disagree",
+            ));
+        }
+        union.fields.insert(pointer.clone(), field.clone());
+    }
+    union.created |= other.created;
+    for parent in &other.empty_parents {
+        if !union.empty_parents.contains(parent) {
+            union.empty_parents.push(parent.clone());
+        }
+    }
+    Ok(())
+}
+
+pub(crate) fn combine_desired(first: &Value, second: &Value) -> Result<Value> {
+    let mut union = select_fields(&OwnedConfig::default(), first)?;
+    let other = select_fields(&OwnedConfig::default(), second)?;
+    combine_owned(&mut union, &other)?;
+    let mut document = Value::Object(Map::new());
+    for (pointer, field) in union.fields {
+        set(
+            &mut document,
+            &keys(&pointer),
+            Some(&field.desired),
+            &[],
+            "",
+        )?;
+    }
+    Ok(document)
+}
+
+pub(crate) fn select_fields(union: &OwnedConfig, desired: &Value) -> Result<OwnedConfig> {
+    if !desired.is_object() || desired.as_object().is_some_and(Map::is_empty) {
+        return Err(Error::new(
+            "config-format",
+            "Native contribution must declare managed object fields",
+        ));
+    }
+    let mut values = BTreeMap::new();
+    flatten(desired, "", &mut values);
+    let mut selected = OwnedConfig {
+        fields: BTreeMap::new(),
+        ..union.clone()
+    };
+    for (pointer, desired) in values {
+        selected.fields.insert(
+            pointer.clone(),
+            union.fields.get(&pointer).cloned().unwrap_or(OwnedField {
+                desired,
+                baseline: Value::Null,
+                baseline_present: false,
+            }),
+        );
+    }
+    Ok(selected)
+}
+
 pub(crate) fn compatible(desired: &Value, others: &[&OwnedConfig]) -> Result<()> {
     let mut fields = BTreeMap::new();
     flatten(desired, "", &mut fields);

@@ -64,7 +64,7 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         "source-list" => Ok(serde_json::to_value(r.sources)?),
         "source-add" => {
             let source: Source = serde_json::from_value(
-                json!({"id":field(&request,"id")?,"repository":field(&request,"repository")?,"enabled":request["enabled"].as_bool().unwrap_or(false),"roots":request.get("roots").cloned().unwrap_or(json!([])),"targets":request.get("targets").cloned().unwrap_or(json!([])),"reference":request.get("reference").cloned().unwrap_or(json!({"strategy":"default-branch"}))}),
+                json!({"id":field(&request,"id")?,"repository":field(&request,"repository")?,"enabled":request["enabled"].as_bool().unwrap_or(false),"roots":request.get("roots").cloned().unwrap_or(json!([])),"targets":request.get("targets").cloned().unwrap_or(json!([])),"reference":request.get("reference").cloned().unwrap_or(json!({"strategy":"default-branch"})),"excludes":request.get("excludes").cloned().unwrap_or(json!([])),"update":request.get("update").cloned().unwrap_or(json!("review")),"metadata":request.get("metadata").cloned().unwrap_or(json!({})),"credential_reference":request.get("credential_reference").cloned().unwrap_or(Value::Null)}),
             )?;
             registry::add_source(root, source)?;
             Ok(json!({"registered":request["id"],"approval_required":true}))
@@ -242,27 +242,58 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         "update" => {
             let mut results = Vec::new();
             let mut partial = false;
-            for receipt in install::receipts(root)?
-                .into_iter()
-                .filter(|receipt| receipt.enabled)
-            {
+            let receipts = install::receipts(root)?;
+            for receipt in receipts.iter().filter(|receipt| {
+                receipt.enabled && crate::jobs::selected("receipt", &receipt.id, None)
+            }) {
+                crate::jobs::progress("receipt", &receipt.id, None, "pending")?;
+            }
+            let mut destinations: Vec<PathBuf> = Vec::new();
+            for receipt in receipts.iter().filter(|receipt| {
+                receipt.enabled && crate::jobs::selected("receipt", &receipt.id, None)
+            }) {
+                if !destinations
+                    .iter()
+                    .any(|destination| install::same_destination(destination, &receipt.destination))
+                {
+                    destinations.push(receipt.destination.clone());
+                }
+            }
+            for destination in destinations {
+                let group = receipts
+                    .iter()
+                    .filter(|receipt| {
+                        receipt.enabled
+                            && install::same_destination(&receipt.destination, &destination)
+                    })
+                    .collect::<Vec<_>>();
                 crate::jobs::checkpoint()?;
-                let ready = if r.packages.iter().any(|p| p.id == receipt.package) {
-                    build::build(root, &receipt.package, &receipt.target).map(|_| ())
-                } else {
-                    crate::collections::verify(root).map(|_| ())
-                };
-                match ready.and_then(|_| {
-                    install::install_scoped(
-                        root,
-                        &receipt.package,
-                        &receipt.target,
-                        &receipt.destination,
-                        receipt.scope,
-                        false,
-                    )
-                }) {
-                    Ok(value) => results.push(value),
+                for receipt in &group {
+                    crate::jobs::progress("receipt", &receipt.id, None, "running")?;
+                }
+                let outcome = (|| -> Result<Value> {
+                    let mut built = std::collections::BTreeSet::new();
+                    let mut verified_collection = false;
+                    for receipt in &group {
+                        if !built.insert((&receipt.package, &receipt.target)) {
+                            continue;
+                        }
+                        if r.packages.iter().any(|p| p.id == receipt.package) {
+                            build::build(root, &receipt.package, &receipt.target)?;
+                        } else if !verified_collection {
+                            crate::collections::verify(root)?;
+                            verified_collection = true;
+                        }
+                    }
+                    install::update_installed(root, &destination, false)
+                })();
+                match outcome {
+                    Ok(value) => {
+                        for receipt in &group {
+                            crate::jobs::progress("receipt", &receipt.id, None, "success")?;
+                        }
+                        results.push(value);
+                    }
                     Err(error)
                         if matches!(error.code, "recovery-required" | "cancelled" | "timeout") =>
                     {
@@ -270,7 +301,10 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
                     }
                     Err(error) => {
                         partial = true;
-                        results.push(json!({"receipt":receipt.id,"status":"failed","code":error.code,"message":crate::logging::redact(&error.message)}));
+                        for receipt in &group {
+                            crate::jobs::progress("receipt", &receipt.id, None, "failed")?;
+                        }
+                        results.push(json!({"destination":destination,"status":"failed","code":error.code,"message":crate::logging::redact(&error.message)}));
                     }
                 }
             }

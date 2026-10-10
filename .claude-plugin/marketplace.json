@@ -2747,6 +2747,12 @@
       "version": "1.0.0"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/sentry/code-review",
+      "name": "skill-sentry-code-review",
+      "source": "./packages/claude-code/skill-sentry-code-review",
+      "version": "1.0.0"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/utilities/browser-automation",
       "name": "skill-utilities-browser-automation",
       "source": "./packages/claude-code/skill-utilities-browser-automation",

@@ -75,6 +75,53 @@ fn persisted_job_errors_retry_and_owner_exit_are_not_false_success() {
     );
 }
 #[test]
+fn retry_only_failed_steps_preserves_completed_source_observation() {
+    let f = Fixture::new();
+    service::execute(&f.0, json!({"action":"source-add","id":"completed","repository":format!("local:{}", f.0.join("missing-completed").display()),"enabled":true})).unwrap();
+    service::execute(&f.0, json!({"action":"source-add","id":"failed","repository":format!("local:{}", f.0.join("missing-failed").display()),"enabled":true})).unwrap();
+    storage::write(&f.0.join(".forge-state/jobs/previous.json"), &json!({
+        "id":"previous","status":"partial","timeout":30,
+        "request":{"action":"sync","apply":false,"offline":true},
+        "steps":[{"kind":"source","id":"completed","status":"success"},{"kind":"source","id":"failed","status":"failed"}]
+    })).unwrap();
+    let retry = service::execute(&f.0, json!({"action":"job-retry","job":"previous"})).unwrap();
+    assert_eq!(retry["retry_of"], "previous");
+    assert_eq!(retry["result"]["sources"].as_array().unwrap().len(), 1);
+    assert_eq!(retry["result"]["sources"][0]["source"], "failed");
+    let stored = service::execute(&f.0, json!({"action":"job-status","job":retry["id"]})).unwrap();
+    assert_eq!(stored["steps"].as_array().unwrap().len(), 1);
+    assert_eq!(stored["steps"][0]["status"], "failed");
+    assert_eq!(stored["status"], "partial");
+    storage::write(
+        &f.0.join(".forge-state/jobs/review.json"),
+        &json!({
+            "id":"review","status":"partial","request":{"action":"sync"},
+            "steps":[{"kind":"source","id":"completed","status":"review-required"}]
+        }),
+    )
+    .unwrap();
+    assert_eq!(
+        service::execute(&f.0, json!({"action":"job-retry","job":"review"}))
+            .unwrap_err()
+            .code,
+        "job-review"
+    );
+    storage::write(
+        &f.0.join(".forge-state/jobs/cancelled.json"),
+        &json!({
+            "id":"cancelled","status":"cancelled","request":{"action":"sync","apply":true},
+            "steps":[{"kind":"source","id":"completed","status":"success"}]
+        }),
+    )
+    .unwrap();
+    assert_eq!(
+        service::execute(&f.0, json!({"action":"job-retry","job":"cancelled"}))
+            .unwrap_err()
+            .code,
+        "job-review"
+    );
+}
+#[test]
 fn support_bundle_omits_logs_by_default_and_retention_rejects_invalid_bounds() {
     let f = Fixture::new();
     storage::atomic(

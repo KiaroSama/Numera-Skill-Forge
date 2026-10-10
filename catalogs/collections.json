@@ -3657,6 +3657,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-sentry-code-review",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/sentry/code-review",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-utilities-browser-automation",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",

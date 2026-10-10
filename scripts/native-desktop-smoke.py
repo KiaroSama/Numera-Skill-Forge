@@ -204,7 +204,11 @@ def main():
             app_logs = list((workspace / ".forge-state/logs").glob("numera-forge-desktop_*.log"))
             assert len(app_logs) == 1, "Native IPC did not create a per-run desktop log"
             log_text = app_logs[0].read_text(encoding="utf-8")
-            assert "action=status" in log_text and "action=sync" in log_text, "Real native dispatch evidence missing"
+            assert "action=status" in log_text and "action=job-run" in log_text, "Real native dispatch evidence missing"
+            job_files = list((workspace / ".forge-state/jobs").glob("*.json"))
+            assert len(job_files) == 1, "Native open did not persist exactly one sequential sync job"
+            job = json.loads(job_files[0].read_text(encoding="utf-8"))
+            assert job["status"] == "success" and job["request"] == {"action": "sync", "apply": False, "offline": False}, "Native open job did not preserve check-only policy"
             driver.script("document.querySelector('#workspace-root').value = arguments[0]; document.querySelector('#workspace-form').requestSubmit(); return true;", str(isolated / "missing-workspace"))
             failure = driver.wait("const n=document.querySelector('#notice'); return n?.classList.contains('error') && n.textContent.includes('workspace:') && document.querySelector('#main').getAttribute('aria-busy') === 'false' ? n.textContent : null;")
             assert failure, "Invalid workspace was not rejected through native IPC"

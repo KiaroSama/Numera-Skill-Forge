@@ -23,6 +23,8 @@ const theme = element('#theme', HTMLSelectElement);
 const notice = element('#notice', HTMLDivElement);
 const bridgeState = element('#bridge-state', HTMLParagraphElement);
 const main = element('#main', HTMLElement);
+const openApply = element('#open-apply', HTMLInputElement);
+let inspectedJob = false;
 
 function preference(key: string): string {
   try { return localStorage.getItem(key) ?? ''; } catch { return ''; }
@@ -92,6 +94,7 @@ function updateControls(): void {
   apply.disabled = unavailable || installPreview !== installKey() || !checked(installForm, 'confirmed');
   const approve = element('#approval-form button', HTMLButtonElement);
   approve.disabled = unavailable || reviewed === undefined || !checked(approvalForm, 'reviewed');
+  openApply.disabled = unavailable;
   main.setAttribute('aria-busy', String(busy));
 }
 function options(id: string, result: Json, key: string): void {
@@ -112,6 +115,17 @@ function rememberOptions(action: string, result: Json): void {
   if (action === 'installed') options('receipt-ids', result, 'id');
   if (action === 'history') options('operation-ids', result, 'id');
 }
+function activateJob(job: string | undefined): void {
+  activeJob = job;
+  for (const id of ['cancel-job', 'inspect-job']) element(`#${id}`, HTMLButtonElement).hidden = job === undefined;
+}
+async function operation(request: Request): Promise<Json> {
+  const jobEnabled = ['sync', 'discover', 'build', 'collection-sync', 'update'].includes(request.action);
+  activateJob(jobEnabled ? `ui-${crypto.randomUUID()}` : undefined);
+  const response = await dispatch(workspace, activeJob ? { action: 'job-run', job: activeJob, timeout: 600, request } : request);
+  if ((jobEnabled || request.action === 'job-retry') && object(response) && (response['status'] === 'failed' || response['status'] === 'cancelled')) throw new Error(JSON.stringify(response['error']));
+  return jobEnabled && object(response) && 'result' in response ? response['result'] as Json : response;
+}
 async function run(request: Request, view: View, form?: HTMLFormElement): Promise<Json | undefined> {
   if (busy) return undefined;
   const errorField = form?.querySelector<HTMLElement>('.form-error');
@@ -120,12 +134,7 @@ async function run(request: Request, view: View, form?: HTMLFormElement): Promis
   updateControls();
   tell(`Running ${request.action}… The service owns validation and transaction safety.`);
   try {
-    const jobEnabled = ['sync', 'discover', 'build', 'collection-sync', 'update'].includes(request.action);
-    activeJob = jobEnabled ? `ui-${crypto.randomUUID()}` : undefined;
-    element('#cancel-job', HTMLButtonElement).hidden = activeJob === undefined;
-    const response = await dispatch(workspace, activeJob ? { action: 'job-run', job: activeJob, timeout: 600, request } : request);
-    if (object(response) && (response['status'] === 'failed' || response['status'] === 'cancelled')) throw new Error(JSON.stringify(response['error']));
-    const result = object(response) && 'result' in response ? response['result'] as Json : response;
+    const result = await operation(request);
     showResult(view, result);
     rememberOptions(request.action, result);
     tell(`${request.action}: ${resultStatus(result)}. Review the full response below.`);
@@ -140,8 +149,7 @@ async function run(request: Request, view: View, form?: HTMLFormElement): Promis
     tell(message, true);
     return undefined;
   } finally {
-    activeJob = undefined;
-    element('#cancel-job', HTMLButtonElement).hidden = true;
+    activateJob(undefined);
     busy = false;
     updateControls();
   }
@@ -150,9 +158,26 @@ element('#cancel-job', HTMLButtonElement).addEventListener('click', () => {
   if (!activeJob) return;
   void dispatch(workspace, { action: 'job-cancel', job: activeJob }).then(() => tell('Cancellation requested; waiting for a safe operation boundary.')).catch(error => tell(diagnostic(error), true));
 });
+element('#inspect-job', HTMLButtonElement).addEventListener('click', () => {
+  if (!activeJob || inspectedJob) return;
+  inspectedJob = true;
+  const button = element('#inspect-job', HTMLButtonElement);
+  button.disabled = true;
+  void dispatch(workspace, { action: 'job-status', job: activeJob })
+    .then(result => showResult('updates', result))
+    .catch(error => tell(diagnostic(error), true))
+    .finally(() => { inspectedJob = false; button.disabled = false; });
+});
+openApply.addEventListener('change', () => {
+  if (workspace && !busy) {
+    savePreference(`numera-open-apply:${workspace}`, String(openApply.checked));
+    element('#workspace-help', HTMLElement).textContent = openApply.checked ? 'Opening applies only policy-approved safe updates and rebuilds; never installs or publishes.' : 'Opening checks enabled sources sequentially, without applying updates.';
+  }
+});
 async function openWorkspace(root: string): Promise<void> {
   if (busy) return;
   workspace = root.trim();
+  openApply.checked = preference(`numera-open-apply:${workspace}`) === 'true';
   clearApproval();
   clearPreview();
   for (const result of document.querySelectorAll<HTMLElement>('[data-result]')) {
@@ -169,7 +194,8 @@ async function openWorkspace(root: string): Promise<void> {
     const status = await dispatch(workspace, { action: 'status' });
     showResult('dashboard', status);
     savePreference('numera-workspace', workspace);
-    const sync = await dispatch(workspace, { action: 'sync', apply: false, offline: false });
+    const sync = await operation({ action: 'sync', apply: openApply.checked, offline: false });
+    activateJob(undefined);
     showResult('updates', sync);
     for (const [action, view] of [['source-list', 'sources'], ['catalog', 'catalog'], ['harnesses', 'harnesses']] as const) {
       try {
@@ -183,10 +209,11 @@ async function openWorkspace(root: string): Promise<void> {
         element(`[data-result="${view}"]`, HTMLElement).replaceChildren(failure);
       }
     }
-    tell(`Workspace opened. Sequential check: ${resultStatus(sync)}. Review Updates for details.`);
+    tell(`Workspace opened. Sequential ${openApply.checked ? 'approved-only sync/rebuild' : 'check'}: ${resultStatus(sync)}. Review Updates for details.`);
   } catch (error: unknown) {
     tell(diagnostic(error), true);
   } finally {
+    activateJob(undefined);
     busy = false;
     updateControls();
   }
@@ -241,6 +268,11 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
         clearPreview();
         break;
       }
+      case 'update':
+        if (!checked(form, 'confirmed')) throw new Error('Authorize installed package changes before updating.');
+        clearPreview();
+        request = { action: operation };
+        break;
       case 'receipt':
         clearPreview();
         request = { action: text(form, 'operation'), receipt: text(form, 'receipt') };

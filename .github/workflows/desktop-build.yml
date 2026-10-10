@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-latest, ubuntu-24.04, macos-15]
+        os: [windows-latest, ubuntu-24.04, macos-15, macos-15-intel]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 40
     env:
@@ -42,6 +42,10 @@ jobs:
           name: native-smoke-diagnostics-${{ matrix.os }}
           path: .ci-work/native-smoke/*.log
           if-no-files-found: warn
+      - name: Record unsigned checksums and locked dependency provenance
+        shell: bash
+        run: python scripts/distribution-manifest.py --bundle target/release/bundle --runner '${{ matrix.os }}'
+        timeout-minutes: 2
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
           name: unsigned-desktop-${{ matrix.os }}

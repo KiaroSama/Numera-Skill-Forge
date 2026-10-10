@@ -40780,6 +40780,39 @@
         "packages/claude-code/skill-security-webapp-testing/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
       }
     },
+    "davila7-templates/skill-sentry-code-review": {
+      "collection": "davila7-templates",
+      "id": "skill-sentry-code-review",
+      "root": "cli-tool/components/skills/sentry/code-review",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "content_digest": "98a209d3f7be0317caec870737aeda5c69327ca21b7f723b387bee580a9631ea",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-sentry-code-review/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/sentry/code-review/SKILL.md",
+          "output_path": "packages/claude-code/skill-sentry-code-review/skills/code-review/SKILL.md",
+          "digest": "ec5fc8855cb4648b4f2c79b608f8c8824a2da6a683330524c4d6283e4a3954c4",
+          "mode": "100644",
+          "size": 2768
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-sentry-code-review/.claude-plugin/plugin.json": "83cfe31716d013e7cca5a2db0424918c7a2ca54e8df8626c233541139eb4b766",
+        "packages/claude-code/skill-sentry-code-review/provenance.json": "96bee5272a135494325117388701bbe9407593dca5f6d1ea9ab85a215e6320a2",
+        "packages/claude-code/skill-sentry-code-review/skills/code-review/SKILL.md": "ec5fc8855cb4648b4f2c79b608f8c8824a2da6a683330524c4d6283e4a3954c4",
+        "packages/claude-code/skill-sentry-code-review/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-sentry-code-review/upstream-notices/attribution.json": "e061af7215e3b70f935cf175a9150fd7695d68460e0c8abb5a698664bede671f",
+        "packages/claude-code/skill-sentry-code-review/upstream-notices/original-0.txt": "96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd"
+      }
+    },
     "davila7-templates/skill-utilities-browser-automation": {
       "collection": "davila7-templates",
       "id": "skill-utilities-browser-automation",

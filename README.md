@@ -49,7 +49,7 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **478 reviewed skills** from
+The native Claude marketplace currently packages **479 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
 plugin, with original prompts, scripts, companions and notices unchanged. This is a bounded licensed
 subset, not the entire upstream collection. See [licenses and exclusions](docs/source-licenses.md).
@@ -105,7 +105,10 @@ trust; `--yes` is not a trust bypass.
 Consumers do not need write access to this repository. Project installs require an explicit destination
 and support dry-run. Configuration/native-runtime installation routes are distinct from skill copies.
 Publication defaults to preview; local updates are not GitHub updates. No auto scheduler or daemon.
-Launcher reopening checks enabled sources sequentially, with failed sources retaining accepted state.
+Desktop reopening checks enabled sources sequentially, with failed sources retaining accepted state.
+Settings can explicitly opt into policy-approved safe updates and rebuilds on open; it never installs or
+publishes. Installed updates coordinate all enabled owners per destination and preserve user changes.
+Persisted per-step progress supports inspection/cancellation and failed-only retry.
 
 ## Documentation
 

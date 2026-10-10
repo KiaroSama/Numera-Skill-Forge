@@ -12,16 +12,20 @@ The root Forge GPL-3.0 license covers Forge, not a replacement license for these
 
 ## Published scope
 
-478 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
-4222 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
+479 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
+4224 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
 packaged separately where the aggregator omitted its original license. These current counts are local
 assembly evidence until the corresponding commit and CI are published. Per-file revision/hash/mode records are
 in [the accepted lock](../catalogs/collections.lock.json); installation choices are in
 [the marketplace](../.claude-plugin/marketplace.json). Presence is not runtime safety certification.
 Some skills call external services and require prerequisites/credentials when the user runs them.
 
+The Sentry code-review addition is a complete original one-file Apache-2.0 match; the original
+Functional Software, Inc. dba Sentry copyright/license is included separately from the unchanged skill.
+
 | Original skill root | License | Original license | Plugin |
 | --- | --- | --- | --- |
+| `sentry/code-review` | Apache-2.0 | [terms](https://github.com/getsentry/skills/blob/20886b3f82305f6769468a02f87780a139016730/LICENSE) | [skill-sentry-code-review](../packages/claude-code/skill-sentry-code-review) |
 | `ai-research/agent-evaluation` | Apache-2.0 | [terms](https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE) | [skill-ai-research-agent-evaluation](../packages/claude-code/skill-ai-research-agent-evaluation) |
 | `ai-research/agent-memory-systems` | Apache-2.0 | [terms](https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE) | [skill-ai-research-agent-memory-systems](../packages/claude-code/skill-ai-research-agent-memory-systems) |
 | `ai-research/agent-tool-builder` | Apache-2.0 | [terms](https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE) | [skill-ai-research-agent-tool-builder](../packages/claude-code/skill-ai-research-agent-tool-builder) |
@@ -526,7 +530,7 @@ collection. Directory qualifiers distinguish repeated activation names.
 
 ## Unresolved provenance: not a prohibition claim
 
-415 roots remain under provenance/terms review, including four mixed-license roots. Seven additional
+414 roots remain under provenance/terms review, including four mixed-license roots. Seven additional
 permissive-evidence roots are not packaged: four nonportable original activation names, one protected
 companion filename and two express MIT declarations needing complete legal-text attribution handling.
 One additional proprietary-declared root, [pdf-processing](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/document-processing/pdf-processing/SKILL.md), references absent terms and is excluded pending its actual grant.

@@ -5,7 +5,12 @@ use crate::{
 };
 use std::path::Path;
 
-pub fn resolve(source: &Source, _origin: &Path, offline: bool) -> Result<String> {
+pub fn resolve(
+    source: &Source,
+    _origin: &Path,
+    offline: bool,
+    transport: &super::providers::Transport,
+) -> Result<String> {
     match &source.reference {
         RefPolicy::DefaultBranch => {
             if source.repository.starts_with("local:") || offline {
@@ -17,7 +22,7 @@ pub fn resolve(source: &Source, _origin: &Path, offline: bool) -> Result<String>
                 source.repository.clone(),
                 "HEAD".into(),
             ];
-            let result = String::from_utf8(process::git(&args, 30)?)
+            let result = String::from_utf8(transport.git(&args, 30)?)
                 .map_err(|_| Error::new("encoding", "Invalid default branch response"))?;
             let branch = result
                 .lines()

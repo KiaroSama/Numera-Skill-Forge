@@ -392,6 +392,15 @@ fn main() {
         });
     match result {
         Ok(value) => {
+            let failed = matches!(
+                &cli.command,
+                Commands::Job {
+                    command: Jobs::Run { .. } | Jobs::Retry { .. }
+                }
+            ) && matches!(
+                value["status"].as_str(),
+                Some("failed" | "cancelled" | "interrupted")
+            );
             let partial = value["status"] == "partial";
             if let Some(log) = &log {
                 log.event(
@@ -410,6 +419,9 @@ fn main() {
                 );
             }
             drop(log);
+            if failed {
+                std::process::exit(3)
+            }
             if partial {
                 std::process::exit(2)
             }

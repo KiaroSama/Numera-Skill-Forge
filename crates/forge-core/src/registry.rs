@@ -67,7 +67,7 @@ pub fn validate(registry: &Registry) -> Result<()> {
         for p in source.roots.iter().chain(&source.excludes) {
             validation::relative_path(p)?;
         }
-        validate_repository(&source.repository)?;
+        crate::source::providers::validate(source)?;
     }
     let mut packages = BTreeSet::new();
     for p in &registry.packages {
@@ -111,33 +111,7 @@ fn closure(
     Ok(())
 }
 pub fn validate_repository(repository: &str) -> Result<()> {
-    if let Some(path) = repository.strip_prefix("local:") {
-        if !Path::new(path).is_absolute() {
-            return Err(Error::new(
-                "repository",
-                "Local sources require an explicit absolute path",
-            ));
-        }
-        return Ok(());
-    }
-    if !repository.starts_with("https://") || repository.contains(['@', '?', '#', '\r', '\n']) {
-        return Err(Error::new(
-            "repository",
-            "Use a credential-free HTTPS repository URL or an explicit local: source",
-        ));
-    }
-    let host = repository
-        .trim_start_matches("https://")
-        .split('/')
-        .next()
-        .unwrap_or("");
-    if !["github.com", "gitlab.com", "bitbucket.org", "codeberg.org"].contains(&host) {
-        return Err(Error::new(
-            "host-review",
-            "Repository host is not approved; use an reviewed provider policy",
-        ));
-    }
-    Ok(())
+    crate::source::providers::repository(repository, None)
 }
 pub fn add_source(root: &Path, source: Source) -> Result<()> {
     let mut r = load(root)?;

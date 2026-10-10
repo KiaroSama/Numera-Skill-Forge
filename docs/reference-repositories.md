@@ -2,7 +2,7 @@
 
 Public sources consulted for Numera Skill Forge. A link here is **not** approval to import,
 redistribute, install or execute that repository. Actual curated sources are registered and reviewed
-separately; the initial active registry is empty. Checked 2026-10-09.
+separately; the initial active registry is empty. Checked 2026-10-10.
 
 ## Standards and implementation foundations
 
@@ -11,6 +11,12 @@ separately; the initial active registry is empty. Checked 2026-10-09.
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Official desktop runtime, IPC/state/capability examples |
 | [tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs) | Tauri 2 platform and security documentation |
 | [rust-lang/rust](https://github.com/rust-lang/rust) | Rust language/runtime contracts |
+| [git/git](https://github.com/git/git) | Immutable acquisition, credentials and transaction semantics |
+| [openssh/openssh-portable](https://github.com/openssh/openssh-portable) | Strict SSH identity/host-key boundary requirements |
+| [actions/checkout](https://github.com/actions/checkout) | Inspected credential isolation reference, not copied |
+| [actions/runner-images](https://github.com/actions/runner-images) | Native hosted OS/architecture prerequisites |
+| [tauri-apps/tauri-action](https://github.com/tauri-apps/tauri-action) | Native Intel/ARM distribution workflow examples |
+| [MicrosoftDocs/azure-devops-docs](https://github.com/MicrosoftDocs/azure-devops-docs) | Git environment authentication documentation |
 
 ## Harness contracts and concrete manifests
 
@@ -45,6 +51,14 @@ license, test and CI review. Their presence does not advertise Forge support.
 | [OpenHands/extensions](https://github.com/OpenHands/extensions) | OpenHands example candidate |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Native contract follow-up |
 | [keleaishandain/skillcrate](https://github.com/keleaishandain/skillcrate) | Package-manager comparison; no code reused |
+
+## Collected skill provenance
+
+[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) is the approved
+collection payload source; [KiaroSama/Kiaro-Claude-Code-Templates](https://github.com/KiaroSama/Kiaro-Claude-Code-Templates)
+is a packaging reference only. The original-author repositories, immutable license links and accepted
+skill mappings are enumerated in [source licensing](source-licenses.md), including
+[getsentry/skills](https://github.com/getsentry/skills). Listing never grants runtime execution.
 
 ## Project and branding reference
 

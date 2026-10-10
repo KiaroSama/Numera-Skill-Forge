@@ -55,19 +55,48 @@ pub fn approve(root: &Path, id: &str, digest: &str, allow_executable: bool) -> R
     registry::save_lock(root, &lock)?;
     Ok(json!({"approved":id,"digest":digest}))
 }
+fn depends_on_source(registry: &crate::model::Registry, id: &str, source: &str) -> bool {
+    let mut pending = vec![id];
+    let mut seen = std::collections::BTreeSet::new();
+    while let Some(id) = pending.pop() {
+        if !seen.insert(id) {
+            continue;
+        }
+        if let Some(package) = registry.packages.iter().find(|p| p.id == id) {
+            if package.source == source {
+                return true;
+            }
+            pending.extend(package.dependencies.iter().map(String::as_str));
+        }
+    }
+    false
+}
 pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
     let registry = registry::load(root)?;
     let mut lock = registry::lock(root)?;
     let mut results = vec![];
     let mut partial = false;
-    for source in registry.sources.iter().filter(|s| s.enabled) {
+    for source in registry
+        .sources
+        .iter()
+        .filter(|s| s.enabled && crate::jobs::selected("source", &s.id, None))
+    {
+        crate::jobs::progress("source", &source.id, None, "pending")?;
+    }
+    for source in registry
+        .sources
+        .iter()
+        .filter(|s| s.enabled && crate::jobs::selected("source", &s.id, None))
+    {
         crate::jobs::checkpoint()?;
+        crate::jobs::progress("source", &source.id, None, "running")?;
         match source::candidate(root, source, offline) {
             Err(e) => {
                 if matches!(e.code, "cancelled" | "timeout" | "recovery-required") {
                     return Err(e);
                 }
                 partial = true;
+                crate::jobs::progress("source", &source.id, None, "failed")?;
                 results.push(json!({"source":source.id,"status":"failed","code":e.code,"message":e.message,"retained":lock.sources.contains_key(&source.id)}));
             }
             Ok((snapshot, _)) => {
@@ -89,6 +118,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     &json!({"revision":snapshot.revision}),
                 )?;
                 if unchanged {
+                    crate::jobs::progress("source", &source.id, None, "success")?;
                     results.push(json!({"source":source.id,"status":"unchanged","observed":snapshot.revision}));
                     continue;
                 }
@@ -112,9 +142,24 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                             executable_approved: false,
                         },
                     );
+                    for package in &registry.packages {
+                        for target in &package.targets {
+                            if depends_on_source(&registry, &package.id, &source.id) {
+                                crate::jobs::progress(
+                                    "build",
+                                    &package.id,
+                                    Some(target),
+                                    "pending",
+                                )?;
+                            }
+                        }
+                    }
+                    registry::save_lock(root, &lock)?;
+                    crate::jobs::progress("source", &source.id, None, "success")?;
                     results.push(json!({"source":source.id,"status":"accepted"}));
                 } else {
                     partial = true;
+                    crate::jobs::progress("source", &source.id, None, "review-required")?;
                     results.push(json!({"source":source.id,"status":"review-required","digest":snapshot.content_digest,"revision":snapshot.revision,"executable":executable}));
                 }
             }
@@ -125,22 +170,29 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
         registry::save_lock(root, &lock)?;
         for package in &registry.packages {
             for target in &package.targets {
-                let closure =
-                    crate::build_dependencies::resolve(&registry, &lock, &package.id, target)?;
-                if !closure.iter().any(|(dependency, _)| {
-                    results.iter().any(|row| {
-                        row["source"] == dependency.source && row["status"] == "accepted"
-                    })
-                }) {
+                let changed = results.iter().any(|row| {
+                    row["status"] == "accepted"
+                        && row["source"]
+                            .as_str()
+                            .is_some_and(|source| depends_on_source(&registry, &package.id, source))
+                });
+                if !changed
+                    && !(crate::jobs::retrying()
+                        && crate::jobs::selected("build", &package.id, Some(target)))
+                {
                     continue;
                 }
                 crate::jobs::checkpoint()?;
+                crate::jobs::progress("build", &package.id, Some(target), "running")?;
                 if let Err(error) = crate::build::build(root, &package.id, target) {
                     if matches!(error.code, "recovery-required" | "cancelled" | "timeout") {
                         return Err(error);
                     }
                     partial = true;
+                    crate::jobs::progress("build", &package.id, Some(target), "failed")?;
                     results.push(json!({"package":package.id,"target":target,"status":"build-failed","code":error.code}));
+                } else {
+                    crate::jobs::progress("build", &package.id, Some(target), "success")?;
                 }
             }
         }

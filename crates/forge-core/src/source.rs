@@ -1,13 +1,15 @@
 use crate::{
     Error, Result, discovery,
     model::{Snapshot, Source},
-    process, registry, storage, validation,
+    storage, validation,
 };
 use std::{
     fs,
     path::{Path, PathBuf},
 };
 
+#[path = "sources/providers.rs"]
+pub(crate) mod providers;
 #[path = "sources/refs.rs"]
 mod refs;
 
@@ -56,7 +58,7 @@ fn protected(path: &str) -> bool {
 }
 
 pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Snapshot, PathBuf)> {
-    registry::validate_repository(&source.repository)?;
+    providers::acquisition(source, offline)?;
     validation::identifier(&source.id)?;
     validation::reject_link(workspace)?;
     let state = workspace.join(".forge-state");
@@ -64,6 +66,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
         validation::reject_link(&state)?;
     }
     fs::create_dir_all(&state)?;
+    let transport = providers::Transport::new(&state, source)?;
     let cache = validation::contained(&state, &format!("snapshots/{}", source.id))?;
     fs::create_dir_all(&cache)?;
     let origin = if let Some(local) = source.repository.strip_prefix("local:") {
@@ -81,21 +84,29 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                 bare.parent()
                     .ok_or_else(|| Error::new("path", "Missing cache parent"))?,
             )?;
-            process::git(
+            transport.git(
                 &[
+                    "-C".into(),
+                    bare.parent()
+                        .ok_or_else(|| Error::new("path", "Missing cache parent"))?
+                        .to_string_lossy()
+                        .into_owned(),
                     "clone".into(),
                     "--bare".into(),
                     "--no-tags".into(),
                     "--depth=1".into(),
                     "--".into(),
                     source.repository.clone(),
-                    bare.to_string_lossy().into_owned(),
+                    bare.file_name()
+                        .ok_or_else(|| Error::new("path", "Missing cache name"))?
+                        .to_string_lossy()
+                        .into_owned(),
                 ],
                 120,
             )?;
         }
-        validation::reject_link(&bare)?;
-        let origin = String::from_utf8(process::git(
+        transport.verify_cache(&bare, &source.repository)?;
+        let origin = String::from_utf8(transport.git(
             &[
                 "--git-dir".into(),
                 bare.to_string_lossy().into_owned(),
@@ -113,7 +124,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             ));
         }
         if !offline {
-            process::git(
+            transport.git(
                 &[
                     "--git-dir".into(),
                     bare.to_string_lossy().into_owned(),
@@ -138,7 +149,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
     {
         storage::read::<String>(&default_ref)?
     } else {
-        refs::resolve(source, &origin, offline)?
+        refs::resolve(source, &origin, offline, &transport)?
     };
     if !offline && matches!(source.reference, crate::model::RefPolicy::DefaultBranch) {
         storage::write(&default_ref, &reference)?;
@@ -152,7 +163,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             "-e".into(),
             format!("{reference}^{{commit}}"),
         ]);
-        if process::git(&check, 30).is_err() {
+        if transport.git(&check, 30).is_err() {
             if offline {
                 return Err(Error::new("offline", "Pinned revision is not cached"));
             }
@@ -164,7 +175,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                 "origin".into(),
                 reference.clone(),
             ]);
-            process::git(&fetch, 120)?;
+            transport.git(&fetch, 120)?;
         }
     }
     if reference.starts_with('-') || reference.contains(['\r', '\n', '\0']) {
@@ -176,7 +187,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
         "--verify".into(),
         format!("{reference}^{{commit}}"),
     ]);
-    let revision = String::from_utf8(process::git(&args, 30)?)
+    let revision = String::from_utf8(transport.git(&args, 30)?)
         .map_err(|_| Error::new("encoding", "Invalid commit identity"))?
         .trim()
         .to_string();
@@ -211,7 +222,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             "--full-tree".into(),
             revision.clone(),
         ]);
-        let listing = process::git(&args, 30)?;
+        let listing = transport.git(&args, 30)?;
         let mut count = 0;
         let mut total = 0;
         for record in listing.split(|b| *b == 0).filter(|b| !b.is_empty()) {
@@ -255,7 +266,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                 .ok_or_else(|| Error::new("git-tree", "Missing blob identity"))?;
             let mut a = base.clone();
             a.extend(["cat-file".into(), "blob".into(), (*blob).into()]);
-            let bytes = process::git(&a, 30)?;
+            let bytes = transport.git(&a, 30)?;
             count += 1;
             total += bytes.len() as u64;
             if bytes.len() as u64 > storage::MAX_FILE

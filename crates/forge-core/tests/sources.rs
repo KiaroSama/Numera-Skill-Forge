@@ -144,5 +144,52 @@ fn approved_git_skill_build_is_deterministic_and_data_driven() {
         user_bytes
     );
     assert!(!selection.exists());
+    fs::write(
+        snapshot_path.join("skills/hello/SKILL.md"),
+        b"---\nname: hello\ndescription: Harmless hello skill\n---\nSay hello.\n",
+    )
+    .unwrap();
+    service::execute(&root, json!({"action":"discover","source":"local-demo"})).unwrap();
+    service::execute(&root, json!({"action":"source-add","id":"dependency-source","repository":format!("local:{}", upstream.display())})).unwrap();
+    service::execute(&root, json!({"action":"package-add","package":{"id":"dependency","name":"Dependency","source":"dependency-source","components":[],"targets":["claude-code"]}})).unwrap();
+    service::execute(&root, json!({"action":"package-add","package":{"id":"dependent","name":"Dependent","source":"local-demo","components":[],"dependencies":["dependency"],"targets":["claude-code"]}})).unwrap();
+    service::execute(&root, json!({"action":"source-policy","source":"local-demo","update":"approved-content-only","enabled":true})).unwrap();
+    fs::write(
+        upstream.join("skills/hello/SKILL.md"),
+        b"---\nname: hello\ndescription: Harmless hello skill\n---\nSay a friendly hello.\n",
+    )
+    .unwrap();
+    run(&["add", "skills/hello/SKILL.md"]);
+    run(&["commit", "-m", "safe prompt fixture"]);
+    let synced = service::execute(
+        &root,
+        json!({"action":"job-run","job":"safe-sync","request":{"action":"sync","apply":true}}),
+    )
+    .unwrap();
+    assert_eq!(synced["status"], "partial");
+    assert!(
+        synced["result"]["sources"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .any(|row| row["package"] == "dependent" && row["code"] == "approval-required")
+    );
+    assert_eq!(
+        fs::read(root.join("packages/claude-code/hello-package/skills/hello/SKILL.md")).unwrap(),
+        b"---\nname: hello\ndescription: Harmless hello skill\n---\nSay a friendly hello.\n"
+    );
+    let dependent = service::execute(
+        &root,
+        json!({"action":"discover","source":"dependency-source"}),
+    )
+    .unwrap();
+    service::execute(&root, json!({"action":"approve","source":"dependency-source","digest":dependent["content_digest"]})).unwrap();
+    let retry = service::execute(&root, json!({"action":"job-retry","job":"safe-sync"})).unwrap();
+    assert_eq!(retry["status"], "success");
+    assert!(retry["result"]["sources"].as_array().unwrap().is_empty());
+    assert!(
+        root.join("packages/claude-code/dependent/skills/hello/SKILL.md")
+            .exists()
+    );
     fs::remove_dir_all(root).unwrap();
 }

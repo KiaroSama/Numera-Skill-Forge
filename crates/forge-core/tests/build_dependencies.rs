@@ -113,6 +113,35 @@ fn closure_combines_sources_and_lock_rollback_restores_build_identity() {
     assert!(!built.join("skills/hello/SKILL.md").exists());
 }
 #[test]
+fn failed_build_retry_does_not_rediscover_successful_sources() {
+    let f = Fixture::new();
+    f.source("first", "hello", b"first", false);
+    f.source("second", "world", b"second", false);
+    f.package("dependency", "first", vec![]);
+    f.package("combined", "second", vec!["dependency".into()]);
+    let mut lock = registry::lock(&f.0).unwrap();
+    let dependency = lock.sources.remove("first").unwrap();
+    registry::save_lock(&f.0, &lock).unwrap();
+    storage::write(&f.0.join(".forge-state/jobs/partial.json"), &json!({
+        "id":"partial","status":"partial","timeout":30,
+        "request":{"action":"sync","apply":true,"offline":true},
+        "steps":[{"kind":"source","id":"second","status":"success"},{"kind":"build","id":"combined","target":"claude-code","status":"failed"}]
+    })).unwrap();
+    let failed = service::execute(&f.0, json!({"action":"job-retry","job":"partial"})).unwrap();
+    assert_eq!(failed["status"], "partial");
+    assert_eq!(failed["result"]["sources"][0]["code"], "approval-required");
+    lock.sources.insert("first".into(), dependency);
+    registry::save_lock(&f.0, &lock).unwrap();
+    let retried = service::execute(&f.0, json!({"action":"job-retry","job":failed["id"]})).unwrap();
+    assert_eq!(retried["status"], "success");
+    assert!(retried["result"]["sources"].as_array().unwrap().is_empty());
+    assert_eq!(retried["steps"][0]["status"], "success");
+    assert_eq!(
+        fs::read(f.0.join("packages/claude-code/combined/skills/hello/SKILL.md")).unwrap(),
+        b"first"
+    );
+}
+#[test]
 fn dependency_payload_collision_refuses_before_promotion() {
     let f = Fixture::new();
     f.source("first", "same", b"first", false);

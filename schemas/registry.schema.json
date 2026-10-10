@@ -25,8 +25,26 @@
           "properties": { "strategy": { "enum": ["default-branch", "branch", "commit", "tag", "latest-stable-release"] }, "value": { "type": "string" } },
           "allOf": [{ "if": { "properties": { "strategy": { "enum": ["branch", "commit", "tag"] } } }, "then": { "required": ["value"] } }]
         },
-        "metadata": { "type": "object" }, "credential_reference": { "type": ["string", "null"] }
+        "metadata": {
+          "type": "object",
+          "properties": { "provider_policy": { "$ref": "#/$defs/provider_policy" } }
+        },
+        "credential_reference": {
+          "type": ["string", "null"], "maxLength": 64,
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$",
+          "description": "Public credential key only. Online authenticated acquisition is blocked until a secure runtime provider is integrated."
+        }
       }
+    },
+    "provider_policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["transport", "host", "reviewed"],
+      "properties": {
+        "transport": { "enum": ["https", "ssh"] },
+        "host": { "type": "string", "maxLength": 253, "pattern": "^[a-z0-9.-]+$" },
+        "reviewed": { "const": true }
+      },
+      "description": "Explicit review of exact repository DNS host and transport; no wildcards. SSH registration is not acquisition support."
     },
     "package": {
       "type": "object", "required": ["id", "name", "source", "components"],

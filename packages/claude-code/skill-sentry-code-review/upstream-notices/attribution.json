@@ -1,0 +1,12 @@
+{
+  "attribution": "Copyright 2025 Functional Software, Inc. dba Sentry. Exact original code-review skill from getsentry/skills at20886b3f82305f6769468a02f87780a139016730, carried unchanged through davila7/claude-code-templates. Forge adds only packaging; no skill modifications or endorsement claimed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd.txt",
+      "source": "https://github.com/getsentry/skills/blob/20886b3f82305f6769468a02f87780a139016730/LICENSE"
+    }
+  ]
+}

@@ -7,7 +7,21 @@ use std::{
     time::{Duration, Instant},
 };
 
-thread_local! { static CONTEXT: RefCell<Option<(PathBuf, Instant)>> = const { RefCell::new(None) }; }
+#[derive(Clone, serde::Serialize, serde::Deserialize)]
+struct Step {
+    kind: String,
+    id: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    target: Option<String>,
+    status: String,
+}
+struct Active {
+    cancel: PathBuf,
+    deadline: Instant,
+    record: PathBuf,
+    selection: Option<Vec<Step>>,
+}
+thread_local! { static CONTEXT: RefCell<Option<Active>> = const { RefCell::new(None) }; }
 struct Context;
 impl Drop for Context {
     fn drop(&mut self) {
@@ -16,14 +30,14 @@ impl Drop for Context {
 }
 pub fn checkpoint() -> Result<()> {
     CONTEXT.with(|context| {
-        if let Some((cancel, deadline)) = &*context.borrow() {
-            if cancel.exists() {
+        if let Some(active) = &*context.borrow() {
+            if active.cancel.exists() {
                 return Err(Error::new(
                     "cancelled",
                     "Operation cancelled; committed transactions remain coherent",
                 ));
             }
-            if Instant::now() >= *deadline {
+            if Instant::now() >= active.deadline {
                 return Err(Error::new(
                     "timeout",
                     "Operation exceeded its requested deadline",
@@ -31,6 +45,59 @@ pub fn checkpoint() -> Result<()> {
             }
         }
         Ok(())
+    })
+}
+pub fn retrying() -> bool {
+    CONTEXT.with(|context| {
+        context
+            .borrow()
+            .as_ref()
+            .is_some_and(|active| active.selection.is_some())
+    })
+}
+pub fn selected(kind: &str, id: &str, target: Option<&str>) -> bool {
+    CONTEXT.with(|context| {
+        context
+            .borrow()
+            .as_ref()
+            .and_then(|active| active.selection.as_ref())
+            .is_none_or(|steps| {
+                steps.iter().any(|step| {
+                    step.kind == kind && step.id == id && step.target.as_deref() == target
+                })
+            })
+    })
+}
+pub fn progress(kind: &str, id: &str, target: Option<&str>, status: &str) -> Result<()> {
+    validation::identifier(id)?;
+    if let Some(target) = target {
+        validation::identifier(target)?;
+    }
+    CONTEXT.with(|context| {
+        let borrowed = context.borrow();
+        let Some(active) = borrowed.as_ref() else {
+            return Ok(());
+        };
+        let mut record: Value = storage::read(&active.record)?;
+        let steps = record["steps"]
+            .as_array_mut()
+            .ok_or_else(|| Error::new("job-record", "Job progress is invalid"))?;
+        let step = serde_json::to_value(Step {
+            kind: kind.into(),
+            id: id.into(),
+            target: target.map(str::to_owned),
+            status: status.into(),
+        })?;
+        if let Some(existing) = steps
+            .iter_mut()
+            .find(|row| row["kind"] == kind && row["id"] == id && row["target"].as_str() == target)
+        {
+            *existing = step;
+        } else {
+            steps.push(step);
+        }
+        record["updated_utc"] = json!(chrono::Utc::now().to_rfc3339());
+        storage::write(&active.record, &record)
     })
 }
 fn directory(root: &Path) -> Result<PathBuf> {
@@ -106,14 +173,62 @@ pub fn retry(root: &Path, id: &str) -> Result<Value> {
             "Only failed, cancelled, interrupted or partial jobs can be retried",
         ));
     }
-    run(
+    let selection = previous
+        .get("steps")
+        .map(|steps| -> Result<Vec<Step>> {
+            let steps: Vec<Step> = serde_json::from_value(steps.clone())?;
+            let mut retry = Vec::new();
+            for mut step in steps {
+                validation::identifier(&step.id)?;
+                if let Some(target) = &step.target {
+                    validation::identifier(target)?;
+                }
+                if !matches!(
+                    step.kind.as_str(),
+                    "source" | "build" | "receipt" | "collection"
+                ) {
+                    return Err(Error::new("job-record", "Unknown job progress kind"));
+                }
+                if matches!(step.status.as_str(), "failed" | "running" | "pending") {
+                    step.status = "pending".into();
+                    retry.push(step);
+                }
+            }
+            Ok(retry)
+        })
+        .transpose()?;
+    if selection.as_ref().is_some_and(Vec::is_empty)
+        && matches!(
+            previous["request"]["action"].as_str(),
+            Some("sync" | "update" | "collection-sync")
+        )
+    {
+        return Err(Error::new(
+            "job-review",
+            "No failed steps to retry; review-required content needs explicit approval",
+        ));
+    }
+    let selection = selection.filter(|steps| !steps.is_empty());
+    run_selected(
         root,
         previous["request"].clone(),
         previous["timeout"].as_u64().unwrap_or(120),
         None,
+        selection,
+        Some(id),
     )
 }
 pub fn run(root: &Path, request: Value, seconds: u64, requested_id: Option<&str>) -> Result<Value> {
+    run_selected(root, request, seconds, requested_id, None, None)
+}
+fn run_selected(
+    root: &Path,
+    request: Value,
+    seconds: u64,
+    requested_id: Option<&str>,
+    selection: Option<Vec<Step>>,
+    retry_of: Option<&str>,
+) -> Result<Value> {
     if !(1..=3600).contains(&seconds) {
         return Err(Error::new("timeout", "Job timeout must be1-3600seconds"));
     }
@@ -173,22 +288,42 @@ pub fn run(root: &Path, request: Value, seconds: u64, requested_id: Option<&str>
         return Err(Error::new("job-identity", "Job identity already exists"));
     }
     let cancel = validation::contained(&directory(root)?, &format!("{id}.cancel"))?;
+    if CONTEXT.with(|context| context.borrow().is_some()) {
+        return Err(Error::new("job-running", "Nested jobs are not supported"));
+    }
     CONTEXT.with(|context| {
-        *context.borrow_mut() = Some((cancel, Instant::now() + Duration::from_secs(seconds)))
+        *context.borrow_mut() = Some(Active {
+            cancel,
+            deadline: Instant::now() + Duration::from_secs(seconds),
+            record: path.clone(),
+            selection: selection.clone(),
+        });
     });
     let _context = Context;
-    let mut record = json!({"id":id,"request":request,"timeout":seconds,"started_utc":chrono::Utc::now().to_rfc3339(),"status":"running"});
-    storage::write(&path, &record)?;
+    let initial = json!({"id":id,"request":request,"timeout":seconds,"started_utc":chrono::Utc::now().to_rfc3339(),"status":"running","steps":selection.unwrap_or_default(),"retry_of":retry_of});
+    storage::write(&path, &initial)?;
     let result = crate::service::execute(root, request);
+    let mut record: Value = storage::read(&path)?;
     record["ended_utc"] = json!(chrono::Utc::now().to_rfc3339());
     match result {
         Ok(value) => {
-            record["status"] = json!(if value["status"] == "partial" {
+            let unfinished = record["steps"].as_array().is_some_and(|steps| {
+                steps.iter().any(|step| {
+                    matches!(
+                        step["status"].as_str(),
+                        Some("pending" | "running" | "failed")
+                    )
+                })
+            });
+            record["status"] = json!(if value["status"] == "partial" || unfinished {
                 "partial"
             } else {
                 "success"
             });
             record["result"] = value;
+            if unfinished && record["result"].is_object() {
+                record["result"]["status"] = json!("partial");
+            }
         }
         Err(error) => {
             record["status"] = json!(if error.code == "cancelled" {

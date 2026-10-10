@@ -25,10 +25,13 @@ until explicitly recorded; a listed profile is static contract evidence only.
 
 Collection fixtures exercise exact original companion scripts without execution, metadata modes,
 idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
-and user-edit refusal. The assembled reviewed source import independently matched4222payload blobs from478
+and user-edit refusal. The assembled reviewed source import independently matched4224payload blobs from479
 plugins against immutable upstream Git SHA-1 and mode records. No source runtime scripts were run.
 Additional public seams cover dependency closure/coherent lock rollback, scoped/shared installation,
-managed JSON baselines, job records/cancellation boundaries and local support privacy.
+managed JSON baselines, durable per-step job progress, failed-only retry (completed observations are
+not rerun; review-only work cannot bypass approval), cancellation boundaries and local support privacy.
+Headless UI cases cover check-only versus explicitly opted-in workspace reopening and progress/cancel
+controls while a source operation is busy. Mock IPC proves UI contracts only.
 CI `scripts/verify-collections.py` verifies copied raw bytes, staged metadata, complete selected roots
 and native marketplace entries. This complements native `claude plugin validate`, not host load proof.
 
@@ -41,7 +44,10 @@ fixture. Binary assets remain exact original bytes and are validated separately 
 including exact raw CRLF/modes, user staging preservation, remote/head advance refusal, deletion and
 no-op. This is real local Git publication, not proof of authenticated GitHub PR creation.
 
-The manual native workflow builds unsigned bundles on three OSes. Its Linux tier runs the original
+The manual native workflow builds four unsigned lanes: Windows x64, Linux x64, macOS ARM and
+macOS Intel. `scripts/distribution-manifest.py` records SHA-256 per bundle file, exact workflow commit,
+runner architecture and locked Cargo license inventory; missing signing remains explicitly unsigned.
+Manifest generation logs UTC UTF-8 under project-local diagnostics; those logs are not public bundles. Its Linux tier runs the original
 release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
 real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows/macOS
 GUI startup remains untested when no silent native session is available. A prepared smoke script is

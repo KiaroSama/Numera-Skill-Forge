@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-code-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ec5fc8855cb4648b4f2c79b608f8c8824a2da6a683330524c4d6283e4a3954c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-code-review/skills/code-review/SKILL.md",
+      "path": "cli-tool/components/skills/sentry/code-review/SKILL.md",
+      "size": 2768
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "98a209d3f7be0317caec870737aeda5c69327ca21b7f723b387bee580a9631ea",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/sentry/code-review",
+  "schema_version": 1
+}

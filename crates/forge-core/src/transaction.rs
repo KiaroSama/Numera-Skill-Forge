@@ -68,6 +68,13 @@ struct StoredJournal {
     changes: Vec<StoredChange>,
     #[serde(default)]
     receipt: Option<StoredChange>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    receipts: Vec<StoredChange>,
+}
+impl StoredJournal {
+    fn receipt_changes(&self) -> impl Iterator<Item = &StoredChange> {
+        self.receipt.iter().chain(self.receipts.iter())
+    }
 }
 
 pub fn operation_id() -> String {
@@ -141,7 +148,14 @@ fn load_change(workspace: &Path, change: &StoredChange) -> Result<Change> {
 }
 
 pub fn apply(workspace: &Path, destination: &Path, changes: Vec<Change>) -> Result<String> {
-    apply_operation(workspace, destination, &operation_id(), changes, None, &[])
+    apply_operation(
+        workspace,
+        destination,
+        &operation_id(),
+        changes,
+        vec![],
+        &[],
+    )
 }
 pub fn apply_with_receipt(
     workspace: &Path,
@@ -150,7 +164,7 @@ pub fn apply_with_receipt(
     changes: Vec<Change>,
     receipt: Change,
 ) -> Result<String> {
-    apply_operation(workspace, destination, id, changes, Some(receipt), &[])
+    apply_operation(workspace, destination, id, changes, vec![receipt], &[])
 }
 pub fn apply_modes(
     workspace: &Path,
@@ -163,7 +177,7 @@ pub fn apply_modes(
         destination,
         &operation_id(),
         changes,
-        None,
+        vec![],
         modes,
     )
 }
@@ -173,6 +187,16 @@ pub fn apply_with_receipt_modes(
     id: &str,
     changes: Vec<Change>,
     receipt: Change,
+    modes: &std::collections::BTreeMap<String, u32>,
+) -> Result<String> {
+    apply_with_receipts_modes(workspace, destination, id, changes, vec![receipt], modes)
+}
+pub fn apply_with_receipts_modes(
+    workspace: &Path,
+    destination: &Path,
+    id: &str,
+    changes: Vec<Change>,
+    receipts: Vec<Change>,
     modes: &std::collections::BTreeMap<String, u32>,
 ) -> Result<String> {
     let mapped = changes
@@ -195,14 +219,14 @@ pub fn apply_with_receipt_modes(
             Ok((change.path.clone(), before, after))
         })
         .collect::<Result<Vec<_>>>()?;
-    apply_operation(workspace, destination, id, changes, Some(receipt), &mapped)
+    apply_operation(workspace, destination, id, changes, receipts, &mapped)
 }
 fn apply_operation(
     workspace: &Path,
     destination: &Path,
     id: &str,
     changes: Vec<Change>,
-    receipt: Option<Change>,
+    receipts: Vec<Change>,
     modes: &[(String, Option<u32>, Option<u32>)],
 ) -> Result<String> {
     validation::reject_link(destination)?;
@@ -213,14 +237,14 @@ fn apply_operation(
             "Operation identity already exists",
         ));
     }
-    if changes.len() > storage::MAX_FILES {
+    if changes.len() + receipts.len() > storage::MAX_FILES {
         return Err(Error::new(
             "size-limit",
             "Journal has too many file changes",
         ));
     }
     let mut total = 0u64;
-    for c in changes.iter().chain(receipt.iter()) {
+    for c in changes.iter().chain(receipts.iter()) {
         for bytes in c.before.iter().chain(c.after.iter()) {
             if bytes.len() as u64 > storage::MAX_FILE {
                 return Err(Error::new(
@@ -263,7 +287,22 @@ fn apply_operation(
             ));
         }
     }
-    if let Some(c) = &receipt {
+    let mut receipt_paths = std::collections::BTreeSet::new();
+    for c in &receipts {
+        if !receipt_paths.insert(c.path.to_lowercase()) {
+            return Err(Error::new(
+                "transaction-path",
+                "Duplicate or case-colliding receipt paths",
+            ));
+        }
+        if crate::install::same_destination(workspace, destination)
+            && paths.contains(&c.path.to_ascii_lowercase())
+        {
+            return Err(Error::new(
+                "transaction-path",
+                "Receipt overlaps transaction payload",
+            ));
+        }
         compare(workspace, c, true)?;
     }
     let mut journal = StoredJournal {
@@ -274,8 +313,15 @@ fn apply_operation(
             .into_iter()
             .map(|c| store_change(workspace, c))
             .collect::<Result<_>>()?,
-        receipt: receipt.map(|c| store_change(workspace, c)).transpose()?,
+        receipt: None,
+        receipts: receipts
+            .into_iter()
+            .map(|c| store_change(workspace, c))
+            .collect::<Result<_>>()?,
     };
+    if journal.receipts.len() == 1 {
+        journal.receipt = journal.receipts.pop();
+    }
     for (name, before, after) in modes {
         let change = journal
             .changes
@@ -302,7 +348,7 @@ fn apply_operation(
         for change in &journal.changes {
             set_stored(workspace, destination, change, true)?;
         }
-        if let Some(change) = &journal.receipt {
+        for change in journal.receipt_changes() {
             set_stored(workspace, workspace, change, true)?;
         }
         Ok(())
@@ -418,32 +464,59 @@ pub fn rollback(workspace: &Path, id: &str) -> Result<()> {
             ));
         }
     }
-    if let Some(receipt) = &journal.receipt
-        && receipt.path.starts_with(".forge-state/receipts/")
-    {
-        let affected: Option<crate::install::Receipt> = load_payload(workspace, &receipt.after)?
-            .map(|bytes| serde_json::from_slice(&bytes))
-            .transpose()?;
-        if let Some(affected) = affected {
-            let others = crate::install::receipts(workspace)?;
-            if others.iter().any(|other| {
-                other.id != affected.id
-                    && other.enabled
-                    && other.destination == journal.destination
-                    && journal.changes.iter().any(|change| {
-                        other.files.contains_key(&change.path)
-                            || other.configs.contains_key(&change.path)
-                    })
-            }) {
-                return Err(Error::new(
-                    "shared-rollback",
-                    "Later enabled owners depend on this operation; use owned uninstall or rollback later owners first",
-                ));
+    let mut affected_ids = std::collections::BTreeSet::new();
+    for receipt in journal.receipt_changes() {
+        compare(workspace, &load_change(workspace, receipt)?, false)?;
+        if receipt.path.starts_with(".forge-state/receipts/") {
+            let affected: Option<crate::install::Receipt> =
+                load_payload(workspace, &receipt.after)?
+                    .or(load_payload(workspace, &receipt.before)?)
+                    .map(|bytes| serde_json::from_slice(&bytes))
+                    .transpose()?;
+            if let Some(affected) = affected {
+                affected_ids.insert(affected.id);
             }
         }
     }
-    if let Some(change) = &journal.receipt {
-        compare(workspace, &load_change(workspace, change)?, false)?;
+    if !affected_ids.is_empty() {
+        for other in crate::install::receipts(workspace)?.iter().filter(|other| {
+            !affected_ids.contains(&other.id)
+                && crate::install::same_destination(&other.destination, &journal.destination)
+        }) {
+            for stored in &journal.changes {
+                if !other.files.contains_key(&stored.path)
+                    && !other.configs.contains_key(&stored.path)
+                {
+                    continue;
+                }
+                let change = load_change(workspace, stored)?;
+                let mut conflict = other.enabled;
+                if let Some(bytes) = &change.before {
+                    if let Some(digest) = other.files.get(&stored.path) {
+                        conflict |= storage::digest(bytes) != *digest
+                            || other
+                                .modes
+                                .get(&stored.path)
+                                .zip(stored.before_mode.as_ref())
+                                .is_some_and(|(a, b)| a != b);
+                    }
+                    if let Some(config) = other.configs.get(&stored.path) {
+                        let document: serde_json::Value = serde_json::from_slice(bytes)?;
+                        conflict |= config.fields.iter().any(|(pointer, field)| {
+                            let value = document.pointer(pointer);
+                            value != Some(&field.desired)
+                                && value != field.baseline_present.then_some(&field.baseline)
+                        });
+                    }
+                }
+                if conflict {
+                    return Err(Error::new(
+                        "shared-rollback",
+                        "Later owners reserve this operation's payload; rollback later owners first",
+                    ));
+                }
+            }
+        }
     }
     // Record the direction before the first compensation so a crash resumes rollback.
     journal.state = "rolling-back".into();
@@ -454,7 +527,7 @@ pub fn rollback(workspace: &Path, id: &str) -> Result<()> {
 }
 fn compensate(workspace: &Path, journal: &StoredJournal) -> Result<()> {
     // Validate all entries before changing ownership or payloads; load one blob pair at a time.
-    for (root, stored) in journal.receipt.iter().map(|c| (workspace, c)).chain(
+    for (root, stored) in journal.receipt_changes().map(|c| (workspace, c)).chain(
         journal
             .changes
             .iter()
@@ -468,19 +541,16 @@ fn compensate(workspace: &Path, journal: &StoredJournal) -> Result<()> {
                 format!("User edit prevents recovery of {}", c.path),
             ));
         }
-        let mode = if bytes == c.after {
-            stored.after_mode
-        } else {
-            stored.before_mode
-        };
-        if !mode_matches(root, &c.path, mode)? {
+        let before_matches = bytes == c.before && mode_matches(root, &c.path, stored.before_mode)?;
+        let after_matches = bytes == c.after && mode_matches(root, &c.path, stored.after_mode)?;
+        if !before_matches && !after_matches {
             return Err(Error::new(
                 "mode-conflict",
                 "User permission changes prevent recovery before any compensation",
             ));
         }
     }
-    for (root, stored) in journal.receipt.iter().map(|c| (workspace, c)).chain(
+    for (root, stored) in journal.receipt_changes().map(|c| (workspace, c)).chain(
         journal
             .changes
             .iter()

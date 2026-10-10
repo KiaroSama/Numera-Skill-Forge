@@ -24,8 +24,13 @@ No HTTP management server, telemetry, AI subscription, daemon or GPU runtime is 
 ## Development preview limits
 
 This repository is not yet the entire requested finished product. Native runtime component coverage,
-generic SSH/custom Git providers, on-open apply-approved rebuild closure, coherent updates across
-multiple shared owners and complete native OS/host release smoke certification remain required.
+authenticated HTTPS/SSH acquisition and complete native OS/host release smoke certification remain
+required. Reviewed custom public HTTPS has explicit provider policy and isolated acquisition; private
+credential and SSH registrations fail closed until their secure runtime boundary exists. Coordinated
+same-destination owner updates use one recoverable payload/receipt journal and retain disabled-owner
+reservations; incompatible next bytes/modes/configuration refuse before mutation. Desktop opening is check-only by default;
+a per-workspace explicit opt-in requests policy-approved sync and dependency rebuild through the same
+bounded persisted-job service. Failed-step retry excludes completed work and cannot grant trust.
 Native JSON three-way merge, shared identical payload ownership, GitHub stable-release selection,
 persisted cancellable/retryable jobs and dependency-closed builds are implemented but their final
 integrated runtime matrix must be verified on the publication SHA.

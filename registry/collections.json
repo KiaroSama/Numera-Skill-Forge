@@ -8098,6 +8098,22 @@
           "reviewed_templates": {
             "cli-tool/components/skills/scientific/perplexity-search/assets/.env.example": "9fb7596fc3cb834d9f4115d4bd3626d1c951f437f80549520596877f4b3d3c2b"
           }
+        },
+        {
+          "id": "skill-sentry-code-review",
+          "root": "cli-tool/components/skills/sentry/code-review",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd",
+          "notices": [
+            {
+              "path": "registry/licenses/96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd.txt",
+              "digest": "96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd",
+              "source": "https://github.com/getsentry/skills/blob/20886b3f82305f6769468a02f87780a139016730/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Copyright 2025 Functional Software, Inc. dba Sentry. Exact original code-review skill from getsentry/skills at20886b3f82305f6769468a02f87780a139016730, carried unchanged through davila7/claude-code-templates. Forge adds only packaging; no skill modifications or endorsement claimed."
         }
       ]
     }
