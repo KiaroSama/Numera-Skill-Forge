@@ -51,8 +51,15 @@ Manifest generation logs UTC UTF-8 under project-local diagnostics; those logs a
 release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
 real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows now has
 an explicit hosted tier using an exact matching Microsoft driver, never-switched private desktop,
-linked unelevated token where needed and suspended child attached to a kill-on-close Job before resume.
-It asserts original-release DOM/IPC, persisted check-only job, invalid workspace, logs and owned cleanup.
+linked unelevated token where available, otherwise a separately restricted Medium-integrity child token
+when the hosted runner has no linked logon token. The suspended child is attached to a kill-on-close
+Job before resume; both candidate and actual child must be non-elevated, at Medium or lower integrity,
+and without an enabled Administrators SID. It asserts original-release DOM/IPC, persisted check-only
+job, invalid workspace, logs and owned cleanup. Launch failure records the actual Win32 error and
+read-only destination-token access probes for the executable, script, work directory, private desktop
+and window station; the probes neither change permissions nor start a fallback process. A 15-second
+first-party worker preflight exercises the same owner before native compilation; failure stops the
+Windows lane early and preserves launch diagnostics. This preflight is not GUI/IPC verification.
 Missing token, desktop, matching runtime or cleanup capability fails, never skips green. Record actual
 results per final SHA; a prepared smoke script is not a passing runtime result. macOS GUI startup
 remains untested without a supported isolated silent native WebDriver.

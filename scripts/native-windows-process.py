@@ -1,6 +1,8 @@
 """Win32 owner for a CI-only, never-switched desktop and kill-on-close process tree."""
 
+import argparse
 import ctypes as c
+import json
 from ctypes import wintypes as w
 from pathlib import Path
 import logging
@@ -166,6 +168,51 @@ def restricted_medium_token(token: object) -> object:
         raise
 
 
+def diagnose_launch_access(token: object, command: list[str], work: Path, desktop: str) -> None:
+    """Probe access without changing ACLs or executing a child; always revert the thread."""
+    impersonate = api(A, "ImpersonateLoggedOnUser", w.BOOL, w.HANDLE)
+    revert = api(A, "RevertToSelf", w.BOOL)
+    open_file = api(K, "CreateFileW", w.HANDLE, w.LPCWSTR, w.DWORD, w.DWORD,
+                    c.c_void_p, w.DWORD, w.DWORD, w.HANDLE)
+    open_desktop = api(U, "OpenDesktopW", w.HANDLE, w.LPCWSTR, w.DWORD, w.BOOL, w.DWORD)
+    station = api(U, "GetProcessWindowStation", w.HANDLE)
+    get_name = api(U, "GetUserObjectInformationW", w.BOOL, w.HANDLE, c.c_int,
+                   c.c_void_p, w.DWORD, c.POINTER(w.DWORD))
+    open_station = api(U, "OpenWindowStationW", w.HANDLE, w.LPCWSTR, w.BOOL, w.DWORD)
+    close_station = api(U, "CloseWindowStation", w.BOOL, w.HANDLE)
+    name, size = c.create_unicode_buffer(256), w.DWORD()
+    checked(get_name(station(), 2, name, c.sizeof(name), c.byref(size)), "Window station name")
+    if not impersonate(token):
+        logging.error("Launch access probe impersonation failed error=%d", c.get_last_error())
+        return
+    observations = []
+    try:
+        # Opening existing local objects only; no reads, writes, process or desktop switching.
+        for label, path, access, flags in [
+            ("worker-executable-read-execute", command[0], 0xA0000000, 0),
+            ("worker-script-read", command[1], 0x80000000, 0),
+            ("working-directory-read-traverse", str(work), 0xA0000000, 0x02000000),
+        ]:
+            handle = open_file(path, access, 7, None, 3, flags, None)
+            error = c.get_last_error() if handle == c.c_void_p(-1).value else 0
+            observations.append((label, access, error))
+            if not error:
+                checked(close(handle), "CloseHandle(access probe)")
+        for label, function, arguments, release in [
+            ("private-desktop-specific-all", open_desktop, (desktop, 0, False, 0x01FF), close_desktop),
+            ("window-station-read-create", open_station, (name.value, False, 0x000B), close_station),
+        ]:
+            handle = function(*arguments)
+            observations.append((label, arguments[-1], 0 if handle else c.get_last_error()))
+            if handle:
+                checked(release(handle), "Close user object(access probe)")
+    finally:
+        checked(revert(), "RevertToSelf(access probe)")
+    for label, access, error in observations:
+        logging.error("Launch access probe object=%s mask=%#x result=%s error=%d", label, access,
+                      "failed" if error else "allowed", error)
+
+
 def require_worker_isolation() -> None:
     """Refuse direct worker entry outside the owner's job or with an elevated token."""
     member, token = w.BOOL(), w.HANDLE()
@@ -222,8 +269,16 @@ class Owner:
                     linked = restricted_medium_token(token)
                     logging.info("Missing linked token; restricted duplicate verified non-elevated/Medium-or-lower/no enabled Administrators SID")
                 require_standard_token(linked)
-                checked(create_with_token(linked, 0, command[0], line, flags, block, str(work),
-                                          c.byref(startup), c.byref(self.info)), "CreateProcessWithTokenW(unelevated)")
+                if not create_with_token(linked, 0, command[0], line, flags, block, str(work),
+                                         c.byref(startup), c.byref(self.info)):
+                    error = c.get_last_error()
+                    logging.error("CreateProcessWithTokenW failed error=%d before child spawn", error)
+                    launch_error = OSError(error, "CreateProcessWithTokenW(unelevated) failed")
+                    try:
+                        diagnose_launch_access(linked, command, work, self.desktop_name)
+                    except BaseException as diagnostic_error:
+                        raise diagnostic_error from launch_error
+                    raise launch_error
             else:
                 require_standard_token(token)
                 checked(create_process(command[0], line, None, None, False, flags, block, str(work),
@@ -303,3 +358,54 @@ class Owner:
 
     def __exit__(self, kind: object, error: object, traceback: object) -> None:
         self.stop()
+
+
+def launch_probe() -> None:
+    """Exercise the real owner before expensive builds, without loading a GUI or driver."""
+    import sys
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--work", type=Path, required=True)
+    parser.add_argument("--worker", action="store_true")
+    args = parser.parse_args()
+    if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get("RUNNER_ENVIRONMENT") != "github-hosted":
+        raise RuntimeError("Launch probe requires ephemeral GitHub-hosted Windows CI")
+    root = Path(__file__).resolve().parent.parent
+    work = args.work.resolve()
+    if not work.is_relative_to(root / ".ci-work"):
+        raise RuntimeError("Launch probe work must be project-owned")
+    work.mkdir(parents=True, exist_ok=True)
+    stamp = time.strftime("%Y-%m-%d_%H-%M-%S_UTC", time.gmtime())
+    handler = logging.FileHandler(work / f"native-launch_{stamp}_{os.getpid()}.log", mode="x", encoding="utf-8")
+    handler.setFormatter(logging.Formatter("[%(asctime)s UTC] [%(levelname)s] [NATIVE-LAUNCH] %(message)s", "%Y-%m-%d %H:%M:%S"))
+    logging.Formatter.converter = time.gmtime
+    logging.getLogger().addHandler(handler)
+    logging.getLogger().setLevel(logging.INFO)
+    try:
+        if args.worker:
+            require_worker_isolation()
+            (work / "worker.json").write_text(json.dumps({"status": "isolated-worker-started"}), encoding="utf-8")
+            return
+        allowed = {"SYSTEMROOT", "WINDIR", "SYSTEMDRIVE", "COMSPEC", "PATH", "GITHUB_ACTIONS", "RUNNER_ENVIRONMENT"}
+        environment = {key: value for key, value in os.environ.items() if key.upper() in allowed}
+        environment.update(PYTHONUTF8="1", PYTHONDONTWRITEBYTECODE="1", TEMP=str(work), TMP=str(work))
+        command = [sys.executable, str(Path(__file__).resolve()), "--worker", "--work", str(work)]
+        with Owner(command, environment, work) as owner:
+            deadline = time.monotonic() + 15
+            while (result := owner.poll()) is None:
+                if time.monotonic() >= deadline:
+                    raise TimeoutError("Native launch probe exceeded 15s")
+                time.sleep(0.05)
+            if result != 0 or json.loads((work / "worker.json").read_text(encoding="utf-8")) != {"status": "isolated-worker-started"}:
+                raise RuntimeError(f"Native launch probe worker failed exit={result}")
+        logging.info("Isolated non-elevated worker executed; owned Job active=0 and desktop closed")
+    except BaseException:
+        logging.exception("Native launch probe failed")
+        raise
+    finally:
+        handler.close()
+        logging.getLogger().removeHandler(handler)
+
+
+if __name__ == "__main__":
+    launch_probe()

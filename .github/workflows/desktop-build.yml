@@ -15,6 +15,20 @@ jobs:
       CARGO_BUILD_JOBS: 2
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Verify isolated Windows worker launch before building
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          python scripts/native-windows-process.py --work .ci-work/native-launch-probe
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+        timeout-minutes: 1
+      - name: Preserve Windows launch boundary diagnostics
+        if: always() && runner.os == 'Windows'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: native-launch-diagnostics-${{ matrix.os }}
+          path: .ci-work/native-launch-probe/*.log
+          if-no-files-found: warn
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: 24
