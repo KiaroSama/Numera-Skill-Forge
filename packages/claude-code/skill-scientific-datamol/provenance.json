@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "521f036df70f213bb14e87af54b63b1f107661ec3f1db0cdaee8f03bfe1eb1f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/datamol/SKILL.md",
+      "size": 18790
+    },
+    {
+      "digest": "3735cad8894e1c8a592571d87230f8d39dea60d5e5d99383e7f556abffd4bea1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/conformers_module.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/conformers_module.md",
+      "size": 5022
+    },
+    {
+      "digest": "e86a137b465bc0f3d3cab8843694e0cbafd16e213498a2bd9dc2885e1872b681",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/core_api.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/core_api.md",
+      "size": 4242
+    },
+    {
+      "digest": "e15a98657fe5b83c64b0de65d26aec840393be987045a854d8c582cdbf6424db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/descriptors_viz.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/descriptors_viz.md",
+      "size": 7366
+    },
+    {
+      "digest": "9e9c9e2db781792f117fb72d1d819d71b7ab476ca2d5572e7732f5f59a28828b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/fragments_scaffolds.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/fragments_scaffolds.md",
+      "size": 5808
+    },
+    {
+      "digest": "ec98806ab88eea50f6a97bb43b1795c218f29b17d3390804ef8f5b70c18bc148",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/io_module.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/io_module.md",
+      "size": 4315
+    },
+    {
+      "digest": "f08fcfb0ff1b8205d898397f55e7646bd8abff855adff9824dbd627b212d8bfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datamol/skills/datamol/references/reactions_data.md",
+      "path": "cli-tool/components/skills/scientific/datamol/references/reactions_data.md",
+      "size": 6656
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eecb6756b652acbec607f18198f5803d5fd8181e9c1b2d042de47b24132151dd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/datamol",
+  "schema_version": 1
+}

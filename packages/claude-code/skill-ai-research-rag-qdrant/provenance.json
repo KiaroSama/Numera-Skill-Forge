@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-qdrant/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3a45489baf49c375883694ec78d6a9b283533a352e8d47cf630332faff83a231",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-qdrant/skills/qdrant-vector-search/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-qdrant/SKILL.md",
+      "size": 13451
+    },
+    {
+      "digest": "49f8216f976db69813901f32f4dc0b49240ec62a8336db5819eb0647d99eafa7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-qdrant/skills/qdrant-vector-search/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/rag-qdrant/references/advanced-usage.md",
+      "size": 14969
+    },
+    {
+      "digest": "07fbbe57fc0b11d8004e514bc482a32bf49a168315ededfd56cf941f7ee988f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-qdrant/skills/qdrant-vector-search/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/rag-qdrant/references/troubleshooting.md",
+      "size": 12682
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "553475291fb44c65b19ca47acd9517b491b3ccee8c4ff1d3e28dfd0acd6c4cc7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-qdrant",
+  "schema_version": 1
+}

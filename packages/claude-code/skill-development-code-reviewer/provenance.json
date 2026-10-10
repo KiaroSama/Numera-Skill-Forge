@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "777841d763d199f85c64e3fd38189443505db6e1443e0a7e8a52a5f228c43ab1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/SKILL.md",
+      "path": "cli-tool/components/skills/development/code-reviewer/SKILL.md",
+      "size": 4396
+    },
+    {
+      "digest": "1bf17d2f849cdd5da8c575e6f3dc0cbe4332ba22413b4e6a28700089b7f82cad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/references/code_review_checklist.md",
+      "path": "cli-tool/components/skills/development/code-reviewer/references/code_review_checklist.md",
+      "size": 1612
+    },
+    {
+      "digest": "8839577f036caa91df43d261934bdb52c8541af12443a58d143ba8ee82af604b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/references/coding_standards.md",
+      "path": "cli-tool/components/skills/development/code-reviewer/references/coding_standards.md",
+      "size": 1607
+    },
+    {
+      "digest": "19316ac13d6dca057b592cd5a5d3b92dd7038c90df3eb6bcbcabbbf07f4f29d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/references/common_antipatterns.md",
+      "path": "cli-tool/components/skills/development/code-reviewer/references/common_antipatterns.md",
+      "size": 1610
+    },
+    {
+      "digest": "e30ad44960267c22fd81808c0651ad851c40c0d3068898a2af9af75b80e7daf0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/scripts/code_quality_checker.py",
+      "path": "cli-tool/components/skills/development/code-reviewer/scripts/code_quality_checker.py",
+      "size": 3146
+    },
+    {
+      "digest": "7e407c54c06f575eb39814252dac3de8c041a352c65e88b240f0f4006e61ab44",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/scripts/pr_analyzer.py",
+      "path": "cli-tool/components/skills/development/code-reviewer/scripts/pr_analyzer.py",
+      "size": 3103
+    },
+    {
+      "digest": "d5fccaa3bba61487518a3646719572bf23ee4ebbb9082e0dabf49f4d63b03c77",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-code-reviewer/skills/code-reviewer/scripts/review_report_generator.py",
+      "path": "cli-tool/components/skills/development/code-reviewer/scripts/review_report_generator.py",
+      "size": 3161
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "176d86766573f335ef679b5174424151fb4f2ac72b713994a90bfa90a43782fa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/code-reviewer",
+  "schema_version": 1
+}

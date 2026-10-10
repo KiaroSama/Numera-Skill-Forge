@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ff93454cadefd7f8dbce72de67cea126e986a6eb87aadb027cfe4cfdf2e4e2d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/literature-review/SKILL.md",
+      "size": 21397
+    },
+    {
+      "digest": "e9db0f8e00f894fc55c474ca0355a86fd72eb9bb5456e1253e740d3c06e74208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/assets/review_template.md",
+      "path": "cli-tool/components/skills/scientific/literature-review/assets/review_template.md",
+      "size": 12982
+    },
+    {
+      "digest": "a62f97c9f1c50da0627033187da5632f9fec00679fc5e8c0e97b217210c0c79b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/references/citation_styles.md",
+      "path": "cli-tool/components/skills/scientific/literature-review/references/citation_styles.md",
+      "size": 6112
+    },
+    {
+      "digest": "f86122ebcf3a2e918c93497ad182421d9a20b277e90b25a51731ef8b4ae9aa8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/references/database_strategies.md",
+      "path": "cli-tool/components/skills/scientific/literature-review/references/database_strategies.md",
+      "size": 12651
+    },
+    {
+      "digest": "dd561948e30101cda0955762a38f463b4ac588b13082b5717b938c3c1d772da3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/scripts/generate_pdf.py",
+      "path": "cli-tool/components/skills/scientific/literature-review/scripts/generate_pdf.py",
+      "size": 5410
+    },
+    {
+      "digest": "4b572895633b765a0f0214ec455149dd6282c657f5659793213687003f3fa630",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/scripts/search_databases.py",
+      "path": "cli-tool/components/skills/scientific/literature-review/scripts/search_databases.py",
+      "size": 9036
+    },
+    {
+      "digest": "ab492d2670865cd3a632024121c7449bb7138dc1ca565fbd0c0e697635104d55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-literature-review/skills/literature-review/scripts/verify_citations.py",
+      "path": "cli-tool/components/skills/scientific/literature-review/scripts/verify_citations.py",
+      "size": 7050
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "275bd279476e769a5d214d486f36ad3f5f7e515c765b807e8bbb2d6811eee0ca",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/literature-review",
+  "schema_version": 1
+}

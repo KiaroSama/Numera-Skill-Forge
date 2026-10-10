@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-waf-cost-optimization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d96b4417b0cc3c6471799e3226502a506e1d6157502f428654518644d45e4632",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-waf-cost-optimization/skills/google-cloud-waf-cost-optimization/SKILL.md",
+      "path": "cli-tool/components/skills/development/google-cloud-waf-cost-optimization/SKILL.md",
+      "size": 6630
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "2efe2666ab15185d2d3b583edcf4227b8812c86918ebd1a4631ce39b3ea9026a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/google-cloud-waf-cost-optimization",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-whisper/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "acce14621ec8060db480fade27896a1fba0c99ba037c07684b876cc31027276c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-whisper/skills/whisper/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-whisper/SKILL.md",
+      "size": 7466
+    },
+    {
+      "digest": "2803cd39805b989c465f5b6c1c1d1a4c825510fb5469d5f96eae9eb775b51f37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-whisper/skills/whisper/references/languages.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-whisper/references/languages.md",
+      "size": 4786
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0431dcc4ae1769d6408b0d1d0286226873962b2c58708593687620172b23ab34",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-whisper",
+  "schema_version": 1
+}

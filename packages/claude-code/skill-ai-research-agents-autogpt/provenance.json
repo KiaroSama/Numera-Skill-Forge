@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-autogpt/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4b16c070da9966e3e71a8f5324d7b1b2d4ddd68a3df8b27305b1a19b841f62b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-autogpt/skills/autogpt-agents/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agents-autogpt/SKILL.md",
+      "size": 9304
+    },
+    {
+      "digest": "e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-autogpt/skills/autogpt-agents/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md",
+      "size": 13209
+    },
+    {
+      "digest": "af763d0e0c0a0120a8b2ab2534af34697b8d8183c907c271e6783bf5c6f61500",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-autogpt/skills/autogpt-agents/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/agents-autogpt/references/troubleshooting.md",
+      "size": 7689
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ef7deea8ec12597ed08fe72ac58f2423bee38062fd3a6a73fc7f8c665fc23ac9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agents-autogpt",
+  "schema_version": 1
+}

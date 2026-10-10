@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-fsdp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "414fcefc3d4fa5d6f763fb42206b79048bba24b01c7e6c8fd1f1122ca362e0eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-fsdp/skills/pytorch-fsdp/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp/SKILL.md",
+      "size": 160145
+    },
+    {
+      "digest": "5f370512e174f559cf21d5d52eee85b1de4f33db897025baff45dab7d76f72e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-fsdp/skills/pytorch-fsdp/references/index.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp/references/index.md",
+      "size": 96
+    },
+    {
+      "digest": "52c14786b7dfe8e1de0764815248ec08c0f6ea7ced8bdee6b5468012f8580be4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-fsdp/skills/pytorch-fsdp/references/other.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp/references/other.md",
+      "size": 337156
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d551a90b1778c0cde3e00c8aeec7bfab4a254b6638478f7bf3db7acffa277bcb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp",
+  "schema_version": 1
+}

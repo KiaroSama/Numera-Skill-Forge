@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-naming-analyzer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4340fcf7e673ee3723f30997e8c719322ed556d4614713e2b8f56ab06c8777d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-naming-analyzer/skills/naming-analyzer/README.md",
+      "path": "cli-tool/components/skills/productivity/naming-analyzer/README.md",
+      "size": 7401
+    },
+    {
+      "digest": "6c4ce79fd17a804a29f72d59bbc0379a7d4b0528b9605c781952cecbddd967b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-naming-analyzer/skills/naming-analyzer/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/naming-analyzer/SKILL.md",
+      "size": 9255
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "da4047fcead60e2f362fea4b0e17fd0f3f65be70bdea1ec36d14fac181df645b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/naming-analyzer",
+  "schema_version": 1
+}

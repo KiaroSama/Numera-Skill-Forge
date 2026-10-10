@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1823dbd92e64acb2077a8c0262e3fe7045d1563035187b8d0023575a71a967ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/SKILL.md",
+      "size": 15011
+    },
+    {
+      "digest": "2d90218da01076fab837c921dcf14659e5dd0f0b870836503199452b77748458",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/competing-risks.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/competing-risks.md",
+      "size": 11986
+    },
+    {
+      "digest": "d962d9d33400079e01c57678e0baa4cd3b6b588ac46d6dc057970c50c3280f1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/cox-models.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/cox-models.md",
+      "size": 5238
+    },
+    {
+      "digest": "4c886511acd43659a418418763360e9c60a6ab10c9f62c139feff4d5c5089351",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/data-handling.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/data-handling.md",
+      "size": 12094
+    },
+    {
+      "digest": "22aced1e60be7d501d84ab271494bbb635fa4ac06176b2690305fc89597bdb61",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/ensemble-models.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/ensemble-models.md",
+      "size": 9529
+    },
+    {
+      "digest": "25010e4ca2f7756fc2a4de5ba330b8fa7c862d8d934bc36835fb5ab27f8be403",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/evaluation-metrics.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/evaluation-metrics.md",
+      "size": 10850
+    },
+    {
+      "digest": "75b3f4f7c97a62696703a7e4d010c40586982df67c0b2457cc0dce3801555a5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-survival/skills/scikit-survival/references/svm-models.md",
+      "path": "cli-tool/components/skills/scientific/scikit-survival/references/svm-models.md",
+      "size": 11096
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "acd08aff12ce9c7ec29ae3f56734d97f867a8fc274b2f89a90a1f1097a26cb2b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scikit-survival",
+  "schema_version": 1
+}

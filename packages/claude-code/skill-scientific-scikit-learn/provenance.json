@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d3a430a730af3b366cbec1b4d3a4dcb3beb486b23696a21ed8c20f0ea0aa051e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/SKILL.md",
+      "size": 15461
+    },
+    {
+      "digest": "246f20f8ce58c645f772455fc2b656999742337881d117de4ae24a3666076853",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/model_evaluation.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/model_evaluation.md",
+      "size": 15454
+    },
+    {
+      "digest": "c856b5b21e03b1cf5e4094211a831b69f1ff1d8ecd7b0174ca3a28674aec0033",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/pipelines_and_composition.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/pipelines_and_composition.md",
+      "size": 14770
+    },
+    {
+      "digest": "b40925dbdc65b8de7f40f72643aba4de73b08ef9fa40e053d1090736ef65b18e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/preprocessing.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/preprocessing.md",
+      "size": 15603
+    },
+    {
+      "digest": "cfa5cc09711bd315f901b7dd91f543aead0bb9b5574a88a32cff584da46a2bdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/quick_reference.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/quick_reference.md",
+      "size": 11508
+    },
+    {
+      "digest": "1d8a04ee6fb9ad69d17960c2022d6072a1119b2fce6e130cfeabd0c3c4c9408e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/supervised_learning.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/supervised_learning.md",
+      "size": 11011
+    },
+    {
+      "digest": "760d8867f545c20feb4c479b49d661e865311d24a2e01da7179c33ae2fd68c09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/references/unsupervised_learning.md",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/references/unsupervised_learning.md",
+      "size": 14440
+    },
+    {
+      "digest": "1048e0d1c8cf0ffa845ad17cec90699231b26a306c868d9982f1fa65283891c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/scripts/classification_pipeline.py",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/scripts/classification_pipeline.py",
+      "size": 8044
+    },
+    {
+      "digest": "aec71c7f1abfbc218eaa7ce000a85a726bef4d7b777038179aa4b44e96ca4d78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-learn/skills/scikit-learn/scripts/clustering_analysis.py",
+      "path": "cli-tool/components/skills/scientific/scikit-learn/scripts/clustering_analysis.py",
+      "size": 11396
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2744e925de29f2bef65bf66599e00be12946139dcfa8388b2b84063bdba531b7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scikit-learn",
+  "schema_version": 1
+}

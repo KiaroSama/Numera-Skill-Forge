@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-moe-training/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f13f184fe031c84700d72c15dd90161a96f3b48ab6b50b250e6b86cfc4c87354",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-moe-training/skills/moe-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-moe-training/SKILL.md",
+      "size": 14968
+    },
+    {
+      "digest": "c4a5be6e55451032d1cd4d9d3dd09fa37c450e5505e989e9c1d628d60a1973d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-moe-training/skills/moe-training/references/architectures.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-moe-training/references/architectures.md",
+      "size": 14044
+    },
+    {
+      "digest": "f9e11d151e5b40b7d20bf410887f97da90c9a4d0172c9f0842b53a269c57199b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-moe-training/skills/moe-training/references/inference.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-moe-training/references/inference.md",
+      "size": 8239
+    },
+    {
+      "digest": "59454af99860a4addee660d73d73bcdbb05be3babaa50d95b9387604d0398203",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-moe-training/skills/moe-training/references/training.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-moe-training/references/training.md",
+      "size": 9707
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b48fb49c75b87094c58c0fbddae9af4148669e274f963a04137f15d3f13788c1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-moe-training",
+  "schema_version": 1
+}

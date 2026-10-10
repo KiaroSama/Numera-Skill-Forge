@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "59006c81d5a257005e9b1867d5e3dc0764cec492220ae92733a76ec295028104",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/SKILL.md",
+      "size": 5506
+    },
+    {
+      "digest": "771518e27d35c139bd38a9eb28f9856e5c650cf6f661f8dfc47a362cf575bb68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/references/data_modeling_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/references/data_modeling_patterns.md",
+      "size": 1422
+    },
+    {
+      "digest": "db3ec745c26e84b84ba6c7bc98ff20a15556a6e4ae91d82874980817750c086f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/references/data_pipeline_architecture.md",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/references/data_pipeline_architecture.md",
+      "size": 1430
+    },
+    {
+      "digest": "1ad10713d289ac0aaf78cb106f9ab893dddfc6be3fbd9f77c57e66ca89dbbec6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/references/dataops_best_practices.md",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/references/dataops_best_practices.md",
+      "size": 1422
+    },
+    {
+      "digest": "560ed41fe761e7b4ee88591d36dde825635f346bcccbb6c84a4a06c371047197",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/scripts/data_quality_validator.py",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/scripts/data_quality_validator.py",
+      "size": 2796
+    },
+    {
+      "digest": "baf86250a01b97f03f4d68d1320f98fa98fcc1fbeb7d7fe680046b2899f329fd",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/scripts/etl_performance_optimizer.py",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/scripts/etl_performance_optimizer.py",
+      "size": 2811
+    },
+    {
+      "digest": "be991dfabfefb9596e2d6ed96b3afabf911c1427e0cf40b54837a3bf47bfbdec",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-engineer/skills/senior-data-engineer/scripts/pipeline_orchestrator.py",
+      "path": "cli-tool/components/skills/development/senior-data-engineer/scripts/pipeline_orchestrator.py",
+      "size": 2793
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "88519db2d48155a8c7499d3d6b996a19adf2582c8fb72d257e810a2c629c9ab4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-data-engineer",
+  "schema_version": 1
+}

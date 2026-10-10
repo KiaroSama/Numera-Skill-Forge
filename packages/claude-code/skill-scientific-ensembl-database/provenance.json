@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ensembl-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "68ba4e39c9a7380eefd67324b30603bfd47bdf840475d00db719df86ebc19d57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ensembl-database/skills/ensembl-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/ensembl-database/SKILL.md",
+      "size": 8202
+    },
+    {
+      "digest": "e62bb68061dc43fec0814c8c265bc239a9008debcb5533f53a61263825bb5b90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ensembl-database/skills/ensembl-database/references/api_endpoints.md",
+      "path": "cli-tool/components/skills/scientific/ensembl-database/references/api_endpoints.md",
+      "size": 10046
+    },
+    {
+      "digest": "46863918915846d1e50917977dad1ff74260f7e37343900cf14e69afc7b9bbd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ensembl-database/skills/ensembl-database/scripts/ensembl_query.py",
+      "path": "cli-tool/components/skills/scientific/ensembl-database/scripts/ensembl_query.py",
+      "size": 13595
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ddf4bdcbe850b41767f6c56ab0cd86b24e0d545815764addd88f63b23db57f30",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/ensembl-database",
+  "schema_version": 1
+}

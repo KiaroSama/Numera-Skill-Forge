@@ -36,7 +36,7 @@ pub fn approve(root: &Path, id: &str, digest: &str, allow_executable: bool) -> R
         ));
     }
     let executable = snapshot.components.iter().any(|c| c.kind.executable())
-        || snapshot.files.iter().any(|f| f.executable);
+        || snapshot.files.iter().any(crate::model::runtime_payload);
     if executable && !allow_executable {
         return Err(Error::new(
             "trust-required",
@@ -61,8 +61,12 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
     let mut results = vec![];
     let mut partial = false;
     for source in registry.sources.iter().filter(|s| s.enabled) {
+        crate::jobs::checkpoint()?;
         match source::candidate(root, source, offline) {
             Err(e) => {
+                if matches!(e.code, "cancelled" | "timeout" | "recovery-required") {
+                    return Err(e);
+                }
                 partial = true;
                 results.push(json!({"source":source.id,"status":"failed","code":e.code,"message":e.message,"retained":lock.sources.contains_key(&source.id)}));
             }
@@ -88,19 +92,17 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     results.push(json!({"source":source.id,"status":"unchanged","observed":snapshot.revision}));
                     continue;
                 }
-                let executable = snapshot.files.iter().any(|f| f.executable)
+                let executable = snapshot.files.iter().any(crate::model::runtime_payload)
                     || snapshot.components.iter().any(|c| c.kind.executable());
                 let policy_allows = matches!(source.update, UpdatePolicy::ApprovedContentOnly)
                     && previous.is_some()
                     && !executable
-                    && previous.is_some_and(|p| {
-                        p.snapshot.license_digest == snapshot.license_digest
-                            && p.snapshot
-                                .components
-                                .iter()
-                                .map(|c| &c.id)
-                                .eq(snapshot.components.iter().map(|c| &c.id))
-                    });
+                    && match previous {
+                        Some(prior) => {
+                            crate::sync_policy::approved_content(root, &prior.snapshot, &snapshot)?
+                        }
+                        None => false,
+                    };
                 if apply && policy_allows {
                     lock.sources.insert(
                         source.id.clone(),
@@ -119,7 +121,29 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
         }
     }
     if apply {
+        crate::jobs::checkpoint()?;
         registry::save_lock(root, &lock)?;
+        for package in &registry.packages {
+            for target in &package.targets {
+                let closure =
+                    crate::build_dependencies::resolve(&registry, &lock, &package.id, target)?;
+                if !closure.iter().any(|(dependency, _)| {
+                    results.iter().any(|row| {
+                        row["source"] == dependency.source && row["status"] == "accepted"
+                    })
+                }) {
+                    continue;
+                }
+                crate::jobs::checkpoint()?;
+                if let Err(error) = crate::build::build(root, &package.id, target) {
+                    if matches!(error.code, "recovery-required" | "cancelled" | "timeout") {
+                        return Err(error);
+                    }
+                    partial = true;
+                    results.push(json!({"package":package.id,"target":target,"status":"build-failed","code":error.code}));
+                }
+            }
+        }
     }
     Ok(json!({"status":if partial{"partial"}else{"success"},"concurrency":1,"sources":results}))
 }

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-google-cloud-auth/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3dad4f7c82a09262a86980ed282fbca97448a6b056aea70018981705727cbb67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-google-cloud-auth/skills/google-cloud-auth/SKILL.md",
+      "path": "cli-tool/components/skills/security/google-cloud-auth/SKILL.md",
+      "size": 12089
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "a9aacaac15368b0a0c225280415dbb201ec0a4c4121bd161686a567356a01d27",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/google-cloud-auth",
+  "schema_version": 1
+}

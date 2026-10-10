@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "59c6829066912ad8db5a8ca0a95407a86c990a5638e348fb2c0a31d9dc118268",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-architect/SKILL.md",
+      "size": 4654
+    },
+    {
+      "digest": "7eafaeddf4e1ab422623683ae8eb835af4321b878a96f3ca3b9d4fd9a0f982ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/references/architecture_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-architect/references/architecture_patterns.md",
+      "size": 1618
+    },
+    {
+      "digest": "9815bcf71022acbcc2619d2c9c2894cf0d83ff798ed7d27a4c81241ceb387e5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/references/system_design_workflows.md",
+      "path": "cli-tool/components/skills/development/senior-architect/references/system_design_workflows.md",
+      "size": 1620
+    },
+    {
+      "digest": "c9a0274d29a7f1b5db13146b1dd62ed44a4bac9cc680d19cf9ed416ede8669db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/references/tech_decision_guide.md",
+      "path": "cli-tool/components/skills/development/senior-architect/references/tech_decision_guide.md",
+      "size": 1616
+    },
+    {
+      "digest": "16d48c6543db51c630b758c5897907811b1b1b30af8012de77132f276d2e3e6e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/scripts/architecture_diagram_generator.py",
+      "path": "cli-tool/components/skills/development/senior-architect/scripts/architecture_diagram_generator.py",
+      "size": 3199
+    },
+    {
+      "digest": "7ca90d81bccb129c7d9a7661691c33052e1085224d6199766c04b057dd88e1b1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/scripts/dependency_analyzer.py",
+      "path": "cli-tool/components/skills/development/senior-architect/scripts/dependency_analyzer.py",
+      "size": 3146
+    },
+    {
+      "digest": "888c16bf91e5b4199565be68bd8a4404581e7679a40b170b4a395f196bca306d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-architect/skills/senior-architect/scripts/project_architect.py",
+      "path": "cli-tool/components/skills/development/senior-architect/scripts/project_architect.py",
+      "size": 3136
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "db1de2232e4ae0a668db9624de7a817ccc2b800ff6ebb68c003f68a246cd33f2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-architect",
+  "schema_version": 1
+}

@@ -5,8 +5,46 @@ use std::collections::BTreeMap;
 pub fn validate_skill(skill: &Skill) -> Result<()> {
     validation::identifier(&skill.id)?;
     validation::relative_path(&skill.root)?;
-    validation::relative_path(&skill.license_path)?;
-    if !matches!(skill.license.as_str(), "MIT" | "Apache-2.0")
+    if !skill.license_path.is_empty() {
+        validation::relative_path(&skill.license_path)?;
+    }
+    if skill.license_path.is_empty() && skill.notices.is_empty() {
+        return Err(Error::new(
+            "license-review",
+            "Supply original license evidence",
+        ));
+    }
+    for (path, digest) in &skill.reviewed_templates {
+        validation::relative_path(path)?;
+        if !path.starts_with(&format!("{}/", skill.root))
+            || !path.ends_with("/.env.example")
+            || path
+                .rsplit_once('/')
+                .is_none_or(|(parent, _)| protected(parent))
+            || digest.len() != 64
+            || !digest.bytes().all(|b| b.is_ascii_hexdigit())
+        {
+            return Err(Error::new(
+                "protected-payload",
+                "Only exact reviewed public environment templates may be admitted",
+            ));
+        }
+    }
+    for notice in &skill.notices {
+        validation::relative_path(&notice.path)?;
+        if !notice.path.starts_with("registry/licenses/")
+            || notice.digest.len() != 64
+            || !notice.digest.bytes().all(|b| b.is_ascii_hexdigit())
+            || !notice.source.starts_with("https://github.com/")
+            || notice.source.contains(['@', '?', '#', '\r', '\n'])
+        {
+            return Err(Error::new(
+                "license-review",
+                "Invalid original notice identity",
+            ));
+        }
+    }
+    if !matches!(skill.license.as_str(), "MIT" | "Apache-2.0" | "CC-BY-4.0")
         || skill.license_digest.len() != 64
         || !skill.license_digest.bytes().all(|b| b.is_ascii_hexdigit())
     {
@@ -29,10 +67,44 @@ pub fn license(path: &str) -> bool {
     let name = path.rsplit('/').next().unwrap_or("").to_ascii_uppercase();
     name.starts_with("LICENSE") || name.starts_with("COPYING") || name.starts_with("NOTICE")
 }
-pub fn verify_license(skill: &Skill, payload: &BTreeMap<String, Vec<u8>>) -> Result<()> {
-    let bytes = payload
-        .get(&skill.license_path)
-        .ok_or_else(|| Error::new("license-review", "Missing reviewed license file"))?;
+pub fn verify_license(
+    root: &std::path::Path,
+    skill: &Skill,
+    payload: &BTreeMap<String, Vec<u8>>,
+) -> Result<()> {
+    for (path, digest) in &skill.reviewed_templates {
+        let bytes = payload.get(path).ok_or_else(|| {
+            Error::new("protected-payload", "Reviewed environment template missing")
+        })?;
+        if storage::digest(bytes) != *digest {
+            return Err(Error::new(
+                "protected-payload",
+                "Environment template changed; review placeholders before publication",
+            ));
+        }
+    }
+    let external;
+    let bytes = if skill.license_path.is_empty() {
+        let notice = skill
+            .notices
+            .first()
+            .ok_or_else(|| Error::new("license-review", "Missing original grant"))?;
+        external = storage::bytes(&validation::contained(root, &notice.path)?)?;
+        &external
+    } else {
+        payload
+            .get(&skill.license_path)
+            .ok_or_else(|| Error::new("license-review", "Missing reviewed license file"))?
+    };
+    for notice in &skill.notices {
+        let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
+        if storage::digest(&bytes) != notice.digest {
+            return Err(Error::new(
+                "license-review",
+                "Original notice differs from reviewed identity",
+            ));
+        }
+    }
     if storage::digest(bytes) != skill.license_digest {
         return Err(Error::new(
             "license-review",
@@ -42,8 +114,11 @@ pub fn verify_license(skill: &Skill, payload: &BTreeMap<String, Vec<u8>>) -> Res
     let text = String::from_utf8_lossy(bytes);
     let expected = if skill.license == "MIT" {
         text.contains("Permission is hereby granted")
+    } else if skill.license == "Apache-2.0" {
+        (text.contains("Apache License") && text.contains("Version 2.0"))
+            || (skill.license_path.is_empty() && text.contains("Apache") && text.contains("2.0"))
     } else {
-        text.contains("Apache License") && text.contains("Version 2.0")
+        text.contains("Attribution 4.0") || text.contains("CC BY 4.0") || text.contains("CC-BY-4.0")
     };
     if !expected {
         return Err(Error::new(

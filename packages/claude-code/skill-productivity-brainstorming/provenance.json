@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-brainstorming/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "206c63e80d38c57e6afc657296332b1d0ff75572435d75c079e7407b26762ecd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-brainstorming/skills/brainstorming/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/brainstorming/SKILL.md",
+      "size": 2505
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5cb2d1b1f80b7987f3a51cc9c389a4175ee880b959acc8a880284cdf534294f6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/brainstorming",
+  "schema_version": 1
+}

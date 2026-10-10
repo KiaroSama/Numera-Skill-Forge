@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "06a3680a9c1032020357391f2518db4b070b191e3a088eaf90e76a221f236e1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/SKILL.md",
+      "size": 16685
+    },
+    {
+      "digest": "06e1b8af1a37eb0cfa535835a65d6e3a85d126194f8c7543e6799065eae925a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/references/algorithms.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/references/algorithms.md",
+      "size": 6124
+    },
+    {
+      "digest": "67d8d2538e331aa1344f4b94a2b8b600c630efbfc80171ae741bb7e117f175c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/references/constraints_mcdm.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/references/constraints_mcdm.md",
+      "size": 10852
+    },
+    {
+      "digest": "aefd3a1906fcc81afea224cba9f0ea0a23b9a2f1b3604004a03edc082799b655",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/references/operators.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/references/operators.md",
+      "size": 8815
+    },
+    {
+      "digest": "9baf6ef8ee9c4c6d67b7de5a74662534020154054f1649a716e71a59826e7338",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/references/problems.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/references/problems.md",
+      "size": 7116
+    },
+    {
+      "digest": "b21636950d2f69eb10d4150c0c2e47e9a70ff9da792a707293b6c176122835b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/pymoo/references/visualization.md",
+      "size": 9229
+    },
+    {
+      "digest": "9b385850d6b05f28443a28cfb41d226cddc8296bad98436616ed62d7f5e935ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/scripts/custom_problem_example.py",
+      "path": "cli-tool/components/skills/scientific/pymoo/scripts/custom_problem_example.py",
+      "size": 4770
+    },
+    {
+      "digest": "7ff21a0661ca04e5668ccd76a7342231782b07e6f7e57b9258178bf57ce09506",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/scripts/decision_making_example.py",
+      "path": "cli-tool/components/skills/scientific/pymoo/scripts/decision_making_example.py",
+      "size": 4588
+    },
+    {
+      "digest": "e4bc47828e31d5d34f53ba082aad4d8cb5d0630d2cc6b88bd31d63b13ddda67c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/scripts/many_objective_example.py",
+      "path": "cli-tool/components/skills/scientific/pymoo/scripts/many_objective_example.py",
+      "size": 2103
+    },
+    {
+      "digest": "ba237064b8aac3aae49d8f40b8bd8ac78766ddcdd2d69c4e219b35837d186d92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/scripts/multi_objective_example.py",
+      "path": "cli-tool/components/skills/scientific/pymoo/scripts/multi_objective_example.py",
+      "size": 1731
+    },
+    {
+      "digest": "a69cecea739093a152370ab53b9d2d7491a584c0ed5bfb5a236d729472b0732f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymoo/skills/pymoo/scripts/single_objective_example.py",
+      "path": "cli-tool/components/skills/scientific/pymoo/scripts/single_objective_example.py",
+      "size": 1620
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1d7e480e6e1d2e6876d41b2d55ee71eab2826166ef2c43fe403dd7b6c6030bf3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pymoo",
+  "schema_version": 1
+}

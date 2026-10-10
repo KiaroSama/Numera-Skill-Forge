@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f07645e63074f1b0003a06bf4ff34ae1d9384fedecb471a583803e11b5d787ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/README.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/README.md",
+      "size": 2584
+    },
+    {
+      "digest": "d65cdb0087a704344efa2985a2ee8c698c1f6c8ca5bfe49fdea8ef6ee22f51d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/SKILL.md",
+      "size": 3511
+    },
+    {
+      "digest": "6f4a250510f90d9c2eb816b536e1c09270b464c9119f4cef4b81a82ee030e714",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/references/dashboards.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/references/dashboards.md",
+      "size": 6564
+    },
+    {
+      "digest": "cda2f010737079bba6ffd5d1ca4664170be493bd336bdd00478ce900482138aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/references/logs-commands.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/references/logs-commands.md",
+      "size": 3048
+    },
+    {
+      "digest": "e9a56f75dbef1b389a517565ce9e4d62e479e2002373a107da08678cf71a5fce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/references/metrics.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/references/metrics.md",
+      "size": 1383
+    },
+    {
+      "digest": "fa60d601d5e943fd6f4eac79a4ed800d01044708a701858ca2423f6b8ca80ad8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/references/query-syntax.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/references/query-syntax.md",
+      "size": 1374
+    },
+    {
+      "digest": "22acfb7b8d5590926a6b75abe33d7fe22f60f1e90511cf95ad3e84a49b88af6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-datadog-cli/skills/datadog-cli/references/workflows.md",
+      "path": "cli-tool/components/skills/ai-research/datadog-cli/references/workflows.md",
+      "size": 2781
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "863542d9e2b5052678cd51171abba2b88025c23d9a0031f044b26339a1ca6c22",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/datadog-cli",
+  "schema_version": 1
+}

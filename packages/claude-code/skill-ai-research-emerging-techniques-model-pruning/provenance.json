@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-pruning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "aca913d834bc1e3d39bbfb75d0658d5a1b9acabf6511744719c5bab91bf306a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-pruning/skills/model-pruning/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-pruning/SKILL.md",
+      "size": 13744
+    },
+    {
+      "digest": "e65c2c2c11090131e129acdc3a557c60c4435b87ca627930840a238207e76949",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-pruning/skills/model-pruning/references/wanda.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-pruning/references/wanda.md",
+      "size": 9492
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7ef2793eac5e2a5a9f005dea09c66d9ff4b7379954fd3d102b543685fb03f92b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-model-pruning",
+  "schema_version": 1
+}

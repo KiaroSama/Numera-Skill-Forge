@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-projects/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fdc2e475337ee9f696280405360dd81300665ef108da5de55150ad6e8eab3a9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-projects/skills/railway-projects/SKILL.md",
+      "path": "cli-tool/components/skills/railway/projects/SKILL.md",
+      "size": 3579
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7e51bcb78e4229c51a51d90b0fd81ba83fc4587063e458ddd47fc72d68957d00",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/railway/projects",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dispatching-parallel-agents/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c628917689ccc12ce9991615db6824d44c4fe71f8427cd959560aebe6a1a6476",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dispatching-parallel-agents/skills/dispatching-parallel-agents/SKILL.md",
+      "path": "cli-tool/components/skills/development/dispatching-parallel-agents/SKILL.md",
+      "size": 6104
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7599c77a424c091c59bae827dd8b20f8249a0f01601cfd3b8ee83e3a226dccf2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/dispatching-parallel-agents",
+  "schema_version": 1
+}

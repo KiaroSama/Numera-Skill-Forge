@@ -10,10 +10,13 @@ pub struct Writer {
 }
 impl Writer {
     pub fn acquire(root: &Path) -> Result<Self> {
-        let directory = root.join(".forge-state");
+        for ancestor in root.ancestors() {
+            validation::reject_link(ancestor)?;
+        }
+        let directory = validation::contained(root, ".forge-state")?;
         fs::create_dir_all(&directory)?;
         validation::reject_link(&directory)?;
-        let path = directory.join("writer.lock");
+        let path = validation::contained(&directory, "writer.lock")?;
         let file = fs::OpenOptions::new()
             .read(true)
             .write(true)
@@ -164,6 +167,36 @@ pub fn apply_modes(
         modes,
     )
 }
+pub fn apply_with_receipt_modes(
+    workspace: &Path,
+    destination: &Path,
+    id: &str,
+    changes: Vec<Change>,
+    receipt: Change,
+    modes: &std::collections::BTreeMap<String, u32>,
+) -> Result<String> {
+    let mapped = changes
+        .iter()
+        .map(|change| {
+            let mut before = None;
+            #[cfg(unix)]
+            {
+                use std::os::unix::fs::PermissionsExt;
+                let physical = validation::contained(destination, &change.path)?;
+                if physical.exists() {
+                    before = Some(fs::metadata(physical)?.permissions().mode() & 0o7777);
+                }
+            }
+            let _ = &mut before;
+            let after = change
+                .after
+                .as_ref()
+                .and_then(|_| modes.get(&change.path).copied().or(before));
+            Ok((change.path.clone(), before, after))
+        })
+        .collect::<Result<Vec<_>>>()?;
+    apply_operation(workspace, destination, id, changes, Some(receipt), &mapped)
+}
 fn apply_operation(
     workspace: &Path,
     destination: &Path,
@@ -204,8 +237,31 @@ fn apply_operation(
             "Journal exceeds the operation byte limit",
         ));
     }
+    let mut paths = std::collections::BTreeSet::new();
     for c in &changes {
+        if !paths.insert(c.path.to_ascii_lowercase()) {
+            return Err(Error::new(
+                "transaction-path",
+                "Duplicate or case-colliding journal payload paths",
+            ));
+        }
         compare(destination, c, true)?;
+    }
+    for (path, before, after) in modes {
+        if before.is_some_and(|mode| mode & !0o7777 != 0)
+            || after.is_some_and(|mode| mode & !0o777 != 0)
+        {
+            return Err(Error::new(
+                "mode",
+                "Unsupported transaction permission metadata",
+            ));
+        }
+        if !mode_matches(destination, path, *before)? {
+            return Err(Error::new(
+                "mode-conflict",
+                "Permissions changed before transaction preparation",
+            ));
+        }
     }
     if let Some(c) = &receipt {
         compare(workspace, c, true)?;
@@ -237,6 +293,7 @@ fn apply_operation(
             "Journal metadata exceeds the read limit",
         ));
     }
+    crate::jobs::checkpoint()?;
     journal.state = "prepared".into();
     storage::write(&path, &journal)?;
     journal.state = "applying".into();
@@ -299,7 +356,7 @@ fn mode_matches(root: &Path, relative: &str, expected: Option<u32>) -> Result<bo
         use std::os::unix::fs::PermissionsExt;
         if let Some(mode) = expected {
             let path = validation::contained(root, relative)?;
-            return Ok(!path.exists() || fs::metadata(path)?.permissions().mode() & 0o777 == mode);
+            return Ok(!path.exists() || fs::metadata(path)?.permissions().mode() & 0o7777 == mode);
         }
     }
     let _ = (root, relative, expected);
@@ -313,30 +370,28 @@ fn set_stored(workspace: &Path, root: &Path, stored: &StoredChange, forward: boo
         stored.after_mode
     };
     if !mode_matches(root, &c.path, expected_mode)?
-        && !(!forward && mode_matches(root, &c.path, stored.before_mode)?)
+        && !(!forward
+            && current(root, &c.path)? == c.before
+            && (c.before.is_none() || stored.before_mode.is_some())
+            && mode_matches(root, &c.path, stored.before_mode)?)
     {
         return Err(Error::new(
             "mode-conflict",
             "Executable metadata changed concurrently",
         ));
     }
-    set(root, &c, forward)?;
-    #[cfg(unix)]
-    {
-        use std::os::unix::fs::PermissionsExt;
-        let mode = if forward {
-            stored.after_mode
-        } else {
-            stored.before_mode
-        };
-        if let Some(mode) = mode {
-            let path = validation::contained(root, &c.path)?;
-            if path.exists() {
-                fs::set_permissions(path, fs::Permissions::from_mode(mode))?;
-            }
-        }
+    let mode = if forward {
+        stored.after_mode
+    } else {
+        stored.before_mode
+    };
+    let bytes = if forward { &c.after } else { &c.before };
+    if let Some(bytes) = bytes {
+        compare(root, &c, forward)?;
+        storage::atomic_mode(&validation::contained(root, &c.path)?, bytes, mode)
+    } else {
+        set(root, &c, forward)
     }
-    Ok(())
 }
 pub fn rollback(workspace: &Path, id: &str) -> Result<()> {
     let path = journal_path(workspace, id)?;
@@ -356,6 +411,36 @@ pub fn rollback(workspace: &Path, id: &str) -> Result<()> {
             &load_change(workspace, change)?,
             false,
         )?;
+        if !mode_matches(&journal.destination, &change.path, change.after_mode)? {
+            return Err(Error::new(
+                "mode-conflict",
+                "Owned permissions changed; rollback refused before mutation",
+            ));
+        }
+    }
+    if let Some(receipt) = &journal.receipt
+        && receipt.path.starts_with(".forge-state/receipts/")
+    {
+        let affected: Option<crate::install::Receipt> = load_payload(workspace, &receipt.after)?
+            .map(|bytes| serde_json::from_slice(&bytes))
+            .transpose()?;
+        if let Some(affected) = affected {
+            let others = crate::install::receipts(workspace)?;
+            if others.iter().any(|other| {
+                other.id != affected.id
+                    && other.enabled
+                    && other.destination == journal.destination
+                    && journal.changes.iter().any(|change| {
+                        other.files.contains_key(&change.path)
+                            || other.configs.contains_key(&change.path)
+                    })
+            }) {
+                return Err(Error::new(
+                    "shared-rollback",
+                    "Later enabled owners depend on this operation; use owned uninstall or rollback later owners first",
+                ));
+            }
+        }
     }
     if let Some(change) = &journal.receipt {
         compare(workspace, &load_change(workspace, change)?, false)?;
@@ -381,6 +466,17 @@ fn compensate(workspace: &Path, journal: &StoredJournal) -> Result<()> {
             return Err(Error::new(
                 "recovery-conflict",
                 format!("User edit prevents recovery of {}", c.path),
+            ));
+        }
+        let mode = if bytes == c.after {
+            stored.after_mode
+        } else {
+            stored.before_mode
+        };
+        if !mode_matches(root, &c.path, mode)? {
+            return Err(Error::new(
+                "mode-conflict",
+                "User permission changes prevent recovery before any compensation",
             ));
         }
     }

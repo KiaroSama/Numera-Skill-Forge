@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f0f8e6d4e56334d0850df669f3a01a9e6370edf16aeda840778a3e030d7410f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/README.md",
+      "path": "cli-tool/components/skills/scientific/research-lookup/README.md",
+      "size": 4076
+    },
+    {
+      "digest": "0ddc7e623dcb440913c142aeed9347a3544844473952f845ef6d3fe64c290ab0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/research-lookup/SKILL.md",
+      "size": 19869
+    },
+    {
+      "digest": "6e7c4d43276a1828a6e2a5c979eec14212bc1793e9ef47db7c84942043c885ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/examples.py",
+      "path": "cli-tool/components/skills/scientific/research-lookup/examples.py",
+      "size": 5672
+    },
+    {
+      "digest": "58f80309f77c8a6e0d47eb76c6880a631778dd2cb1b2809dd02773dbd27bdc36",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/lookup.py",
+      "path": "cli-tool/components/skills/scientific/research-lookup/lookup.py",
+      "size": 2561
+    },
+    {
+      "digest": "644165af4549fab8cc700d55d5d1fa961a58a483ce5ce9854d8536ccf0bf3992",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/research_lookup.py",
+      "path": "cli-tool/components/skills/scientific/research-lookup/research_lookup.py",
+      "size": 16567
+    },
+    {
+      "digest": "00b2bf910f970301fbfbc85bfb94e4840b0f3b91a815448662eda5a2af4d3d58",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-research-lookup/skills/research-lookup/scripts/research_lookup.py",
+      "path": "cli-tool/components/skills/scientific/research-lookup/scripts/research_lookup.py",
+      "size": 16530
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7be077f7fff7e144137fe9a5ca70e997c65fbb288a362b8333aefef3d70a459e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/research-lookup",
+  "schema_version": 1
+}

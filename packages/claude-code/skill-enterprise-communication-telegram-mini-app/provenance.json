@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-telegram-mini-app/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ff4e3b54b589f88b31888d89d240b92df159c87ac557f22eb1f481af6df8f1ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-telegram-mini-app/skills/telegram-mini-app/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/telegram-mini-app/SKILL.md",
+      "size": 6168
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "693ba7200af4c1e1627c3136dd79f23e3cc8933d36cf74e397b9cea175202b6e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/telegram-mini-app",
+  "schema_version": 1
+}

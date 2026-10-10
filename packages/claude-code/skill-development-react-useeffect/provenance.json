@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-useeffect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3243efe481279ec686abb42407a680949e1da78e400af1bb2ebd5a5ded536088",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-useeffect/skills/react-useeffect/README.md",
+      "path": "cli-tool/components/skills/development/react-useeffect/README.md",
+      "size": 10084
+    },
+    {
+      "digest": "f31e9925d6bb22e78b661152f857c7a28664b9fa97b803cd0fd0ef6afeb3111b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-useeffect/skills/react-useeffect/SKILL.md",
+      "path": "cli-tool/components/skills/development/react-useeffect/SKILL.md",
+      "size": 2351
+    },
+    {
+      "digest": "cbb4551edc9d860789c0c44b4298b86132334dff0010dac4aece71f9175df561",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-useeffect/skills/react-useeffect/alternatives.md",
+      "path": "cli-tool/components/skills/development/react-useeffect/alternatives.md",
+      "size": 5865
+    },
+    {
+      "digest": "69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-useeffect/skills/react-useeffect/anti-patterns.md",
+      "path": "cli-tool/components/skills/development/react-useeffect/anti-patterns.md",
+      "size": 6145
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1462fa8464a82a07a05655e68bb9317e585d0ffd2a429b613f2caca7276cefc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/react-useeffect",
+  "schema_version": 1
+}

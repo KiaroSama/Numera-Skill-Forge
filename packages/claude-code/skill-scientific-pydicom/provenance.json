@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5ee0e26c037b15015e4dcbe40613d890ff71a9e0d2b800002a801d8baa941d07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pydicom/SKILL.md",
+      "size": 13085
+    },
+    {
+      "digest": "47e0fc049e5f7822f3c50ce119cf41129bca5e7b1dd2cfab664ebdfb361aca29",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/references/common_tags.md",
+      "path": "cli-tool/components/skills/scientific/pydicom/references/common_tags.md",
+      "size": 10246
+    },
+    {
+      "digest": "a9b004771a1306a4c9686af1a87c0f431acf10e7a98836e013c2de935df04d06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/references/transfer_syntaxes.md",
+      "path": "cli-tool/components/skills/scientific/pydicom/references/transfer_syntaxes.md",
+      "size": 9627
+    },
+    {
+      "digest": "db15a3249d36f81815b1d2b0dca365e7005457b03825a9ff0e32856ce5a8222a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/scripts/anonymize_dicom.py",
+      "path": "cli-tool/components/skills/scientific/pydicom/scripts/anonymize_dicom.py",
+      "size": 5254
+    },
+    {
+      "digest": "653aa63c84a71d01151e62f8857d84eb925529272274481e151c1538b74fa0d2",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/scripts/dicom_to_image.py",
+      "path": "cli-tool/components/skills/scientific/pydicom/scripts/dicom_to_image.py",
+      "size": 6101
+    },
+    {
+      "digest": "78e22bb7863f61ab29b8a74e22a95012fd1ea020e83ea49a6e40f970958cfc55",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-pydicom/skills/pydicom/scripts/extract_metadata.py",
+      "path": "cli-tool/components/skills/scientific/pydicom/scripts/extract_metadata.py",
+      "size": 5686
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "38e9c7832af2582337eff4aa5c861a441bca6cad914f6235f645d58d318e224d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pydicom",
+  "schema_version": 1
+}

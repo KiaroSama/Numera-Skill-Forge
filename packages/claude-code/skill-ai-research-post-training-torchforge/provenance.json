@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-torchforge/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "809da22c47d5caadbcca9d3db7e82e227c174dbaa98f4a01cf2a678ffaffcbf0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-torchforge/skills/torchforge-rl-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-torchforge/SKILL.md",
+      "size": 10734
+    },
+    {
+      "digest": "ee770cb0e8c3a78f1182cbe432b146d2c68c70c057f1ff8a7ccb72496bca9078",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-torchforge/skills/torchforge-rl-training/references/api-reference.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-torchforge/references/api-reference.md",
+      "size": 8685
+    },
+    {
+      "digest": "b920cf91a912f192c14f4ab343780a6abf35932ea419481d7f373f380f379803",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-torchforge/skills/torchforge-rl-training/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-torchforge/references/troubleshooting.md",
+      "size": 6709
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b7db500de2c77f9262da222cd7d8cf0445dc56a7b0a903d2a8b2f039aaa0da36",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-torchforge",
+  "schema_version": 1
+}

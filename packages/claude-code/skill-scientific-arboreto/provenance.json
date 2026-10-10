@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5723a054405c0506581a0b27490b7316eb0c35312568373e95ac7779d368abf1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/skills/arboreto/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/arboreto/SKILL.md",
+      "size": 6857
+    },
+    {
+      "digest": "e029490e879674266736cf9ae678c3d8efd3891f7abeb7f1d8113c8c17373cde",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/skills/arboreto/references/algorithms.md",
+      "path": "cli-tool/components/skills/scientific/arboreto/references/algorithms.md",
+      "size": 4361
+    },
+    {
+      "digest": "8cb83dba68f086d9fd878f5d0bba8b870fde4b190c78dbbfc806b0af678a827d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/skills/arboreto/references/basic_inference.md",
+      "path": "cli-tool/components/skills/scientific/arboreto/references/basic_inference.md",
+      "size": 3811
+    },
+    {
+      "digest": "9ce12f1c0279dd783ce3ecf240bff0fc02e1e44a32471cc44d361b40a0d4c683",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/skills/arboreto/references/distributed_computing.md",
+      "path": "cli-tool/components/skills/scientific/arboreto/references/distributed_computing.md",
+      "size": 6734
+    },
+    {
+      "digest": "7a2afc94384a7db22120aafba2e2687067d60beaa059c1349084b3131f1b00a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-arboreto/skills/arboreto/scripts/basic_grn_inference.py",
+      "path": "cli-tool/components/skills/scientific/arboreto/scripts/basic_grn_inference.py",
+      "size": 2969
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8362ea64e5425bfd057e3bcb220ed72daf5f08ba6fcb285b34aec7fb2e58ec0c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/arboreto",
+  "schema_version": 1
+}

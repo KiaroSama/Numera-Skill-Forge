@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "35afd5f0638e8908c1a1093b212a6ec075f9f15c3b283729cf43813b44eb2a11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/plotly/SKILL.md",
+      "size": 7333
+    },
+    {
+      "digest": "608d843592e1a70b21a9918f378d3ae31859b41735534faf999bf4bf0a347287",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/reference/chart-types.md",
+      "path": "cli-tool/components/skills/scientific/plotly/reference/chart-types.md",
+      "size": 8763
+    },
+    {
+      "digest": "4f4f717c919c59f31574b145050ee8cea8b2f61e614f8b8c221efeef410c436c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/reference/export-interactivity.md",
+      "path": "cli-tool/components/skills/scientific/plotly/reference/export-interactivity.md",
+      "size": 9204
+    },
+    {
+      "digest": "3cb5cbe5dbb7721dd1d68c091eae4169066c1edac75848eaf1b2aa40b506c671",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/reference/graph-objects.md",
+      "path": "cli-tool/components/skills/scientific/plotly/reference/graph-objects.md",
+      "size": 5986
+    },
+    {
+      "digest": "2caf97f2926602ae70766c69a6002fbe1e3fa19b3e17adc3b6c5c1ac7f8876ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/reference/layouts-styling.md",
+      "path": "cli-tool/components/skills/scientific/plotly/reference/layouts-styling.md",
+      "size": 9128
+    },
+    {
+      "digest": "0f34b1a9dccf824b05092550c137089a1f06cd1e04d701d2cbd19ea6e1fe251f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-plotly/skills/plotly/reference/plotly-express.md",
+      "path": "cli-tool/components/skills/scientific/plotly/reference/plotly-express.md",
+      "size": 4893
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "30da594c0d39c5e7321cc915ca1782bb93c36cf5669cfb5fb6e12b4142ddb8c5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/plotly",
+  "schema_version": 1
+}

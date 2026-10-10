@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "190fd931b3351806bebae301efada493bcbc04fc262c85d0188ab30f746588e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/skills/regulatory-affairs-head/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/SKILL.md",
+      "size": 5308
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/skills/regulatory-affairs-head/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "e3b65624ccb289814e779816e8f161ecb65994c09b9934b55800ef29fb75c1e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/skills/regulatory-affairs-head/references/eu-mdr-submission-guide.md",
+      "path": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/references/eu-mdr-submission-guide.md",
+      "size": 3272
+    },
+    {
+      "digest": "92744a4da6cfad313d25c2bb706f456a7fc1407dd874c29ee039b670a6caf9b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/skills/regulatory-affairs-head/references/fda-submission-guide.md",
+      "path": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/references/fda-submission-guide.md",
+      "size": 3931
+    },
+    {
+      "digest": "f56e00b5670996f9f746f1f61d95871a380621ba24787b40ea27eb3ed315c1c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-regulatory-affairs-head/skills/regulatory-affairs-head/scripts/regulatory_tracker.py",
+      "path": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head/scripts/regulatory_tracker.py",
+      "size": 8223
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b06bc4419ae24130574bc3acdc5a375ff8904c844e0007bcfdec5eba94fe0cb8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/regulatory-affairs-head",
+  "schema_version": 1
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e7516626488791a2a3ad2037a018e81b1f5dc3369ddd9ba8fd0156d38e1cf2f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/simpy/SKILL.md",
+      "size": 12102
+    },
+    {
+      "digest": "ec53d2242372565fdbbe15c6d85ac65be79558bec589abda9f658851ea2856a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/references/events.md",
+      "path": "cli-tool/components/skills/scientific/simpy/references/events.md",
+      "size": 8579
+    },
+    {
+      "digest": "115230919df1c97b49a599720e025ac9f7514cf12613b2765e208ed708aad20a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/references/monitoring.md",
+      "path": "cli-tool/components/skills/scientific/simpy/references/monitoring.md",
+      "size": 12923
+    },
+    {
+      "digest": "07607eae087b6bd07b83acd76c23135a8376a52c01b06f02f2ebc4e8bd2bf5b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/references/process-interaction.md",
+      "path": "cli-tool/components/skills/scientific/simpy/references/process-interaction.md",
+      "size": 11525
+    },
+    {
+      "digest": "70c08f55ab65c5ff92d2b17023485b42be8a82b2a8139b6437263352b9fb3aa2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/references/real-time.md",
+      "path": "cli-tool/components/skills/scientific/simpy/references/real-time.md",
+      "size": 10728
+    },
+    {
+      "digest": "3f87b67d8db3bdf7101dfe31f952bf9688fdba3c1b86b5c3a8bec0bfdc5d0e1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/references/resources.md",
+      "path": "cli-tool/components/skills/scientific/simpy/references/resources.md",
+      "size": 7327
+    },
+    {
+      "digest": "664c2d8427a14f0a9db9e4f9cd3138e1d8f8a83702fa31e99115b6c2d8bd0210",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/scripts/basic_simulation_template.py",
+      "path": "cli-tool/components/skills/scientific/simpy/scripts/basic_simulation_template.py",
+      "size": 5558
+    },
+    {
+      "digest": "e069449c87109851e8fe0b6d9e899dfef8c37065e420a6d5f661765e58588b86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-simpy/skills/simpy/scripts/resource_monitor.py",
+      "path": "cli-tool/components/skills/scientific/simpy/scripts/resource_monitor.py",
+      "size": 11680
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ab6fd0358537ed2cdd173fd4fc878ccfb35edba94a78a859b93f294be01e2510",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/simpy",
+  "schema_version": 1
+}

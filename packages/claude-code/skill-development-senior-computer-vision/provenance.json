@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d09567decd928b5d70650a5ef8102fdb94083c68f436bef3b3221a4421fc5ee7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/SKILL.md",
+      "size": 5593
+    },
+    {
+      "digest": "06d91f53449b6ded240c91c315e5a39308528a1328eb988d9ddf4647f72aeacd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/references/computer_vision_architectures.md",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/references/computer_vision_architectures.md",
+      "size": 1447
+    },
+    {
+      "digest": "b88212dc363a41683a6f7976d3a97a3178b6d6e2d89934c3b9811e39cfff70eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/references/object_detection_optimization.md",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/references/object_detection_optimization.md",
+      "size": 1447
+    },
+    {
+      "digest": "c5262f30aea7c48900214fded2897d8959b6fc38cf569b66b84f5a0bb92531ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/references/production_vision_systems.md",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/references/production_vision_systems.md",
+      "size": 1439
+    },
+    {
+      "digest": "a788300d084d97618a989db03e737a3f99a3ade25dd35ff548a23ad51936994d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/scripts/dataset_pipeline_builder.py",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/scripts/dataset_pipeline_builder.py",
+      "size": 2817
+    },
+    {
+      "digest": "7f6666803f378ef9bc68b986e994d04cddc7c76e16f2f607e7e3357f8be2ff84",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/scripts/inference_optimizer.py",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/scripts/inference_optimizer.py",
+      "size": 2794
+    },
+    {
+      "digest": "d85cf61a09932a4b93e8dd0d81a9ebeebf0b019385f12c5debc2a8626b4e071f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-computer-vision/skills/senior-computer-vision/scripts/vision_model_trainer.py",
+      "path": "cli-tool/components/skills/development/senior-computer-vision/scripts/vision_model_trainer.py",
+      "size": 2797
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b20d2f0ec9565712ce96c8c253a91ae1c5e2cf7912ea298e5bd1a771b90f11c9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-computer-vision",
+  "schema_version": 1
+}

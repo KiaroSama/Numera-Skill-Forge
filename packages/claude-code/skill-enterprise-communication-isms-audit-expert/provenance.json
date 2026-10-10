@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-isms-audit-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b90165371ae267969a0925817f77b0b843d3772341a83588f18dbf17e30a601e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-isms-audit-expert/skills/isms-audit-expert/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/isms-audit-expert/SKILL.md",
+      "size": 12922
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-isms-audit-expert/skills/isms-audit-expert/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/isms-audit-expert/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "ac65a575d2d8783e4ad9f645e521ca8d6d5ab3687c6150adc003b5f19de02c3f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-isms-audit-expert/skills/isms-audit-expert/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/isms-audit-expert/references/api_reference.md",
+      "size": 968
+    },
+    {
+      "digest": "173ce7637227a250f131d5d179acdb2c286f538ee405a8cd4c21cf1f0b429b08",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-isms-audit-expert/skills/isms-audit-expert/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/isms-audit-expert/scripts/example.py",
+      "size": 593
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "969b53484a8da84f8d915ecd67ae442b0eba9f99d40e885ff64d66e94d6cb0a5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/isms-audit-expert",
+  "schema_version": 1
+}

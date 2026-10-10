@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-speculative-decoding/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d818b841ffe3e338569ab7caa0d54516f51c649e52fd1af2d5de5d0435b39f99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-speculative-decoding/skills/speculative-decoding/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-speculative-decoding/SKILL.md",
+      "size": 14072
+    },
+    {
+      "digest": "125deff2e37202dacffcdf9e38909a9632be02248abb752eebed254f5367769f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-speculative-decoding/skills/speculative-decoding/references/lookahead.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-speculative-decoding/references/lookahead.md",
+      "size": 8890
+    },
+    {
+      "digest": "36a2b30da8eab45fbf2c084e53fdf688edf18ebc885f9881107e112a91a3162c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-speculative-decoding/skills/speculative-decoding/references/medusa.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-speculative-decoding/references/medusa.md",
+      "size": 9851
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "20948c0b8a0b92fe9dd31d2eafce1d810cd424ade211d50c607b6eb979723eb3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-speculative-decoding",
+  "schema_version": 1
+}

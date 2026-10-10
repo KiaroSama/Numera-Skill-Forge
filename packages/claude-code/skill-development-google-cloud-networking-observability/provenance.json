@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b14c032eeb3d3147afcc9032547979715ea37c53527688f342e2ea46f42db2b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/SKILL.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/SKILL.md",
+      "size": 7191
+    },
+    {
+      "digest": "c937cef769e3e62768c5802b37f66a89aaef3d066af8d42d165e53b272fbf1a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/cloud-nat-analysis.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/cloud-nat-analysis.md",
+      "size": 2767
+    },
+    {
+      "digest": "41a2628a455561cfa64b03e29029f51856c6d67bdde43b2a0dfe726080657c2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/connectivity-tests.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/connectivity-tests.md",
+      "size": 1411
+    },
+    {
+      "digest": "72cebb257442a8bfa3c55271ffbd4d77ce3ee36bd82f305a05f7ab7b34392bb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/firewall-analysis.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/firewall-analysis.md",
+      "size": 3080
+    },
+    {
+      "digest": "ec867c3621ef4095c18ac859ee9f449ccaf0390d6a3a2df7a594e01fe1404a21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/mcp-usage.md",
+      "size": 2617
+    },
+    {
+      "digest": "d1a79a85724e2079b3073899945d1ea18f190e540ac3b7edd5202c767080f7aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/metrics-analysis.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/metrics-analysis.md",
+      "size": 3078
+    },
+    {
+      "digest": "730b6bdde408daeda4ec7a5d764d6a5895e0884b83ed9e105bdb004ba83fa549",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/threat-analysis.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/threat-analysis.md",
+      "size": 5787
+    },
+    {
+      "digest": "93d566f7dfd41370413decbf05dd2a29aa4e89d1aed1e3ba07f9534e4284cc14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-networking-observability/skills/google-cloud-networking-observability/references/vpc-flow-analysis.md",
+      "path": "cli-tool/components/skills/development/google-cloud-networking-observability/references/vpc-flow-analysis.md",
+      "size": 4904
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "a4fb06cc276d28b03b72cd2a7eb7ca0939f1c066196d270537ed5274e760e65c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/google-cloud-networking-observability",
+  "schema_version": 1
+}

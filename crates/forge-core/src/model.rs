@@ -30,6 +30,31 @@ pub enum Kind {
     Evaluations,
     Vendor,
 }
+pub fn runtime_payload(file: &Payload) -> bool {
+    let extension = file
+        .path
+        .rsplit('.')
+        .next()
+        .unwrap_or("")
+        .to_ascii_lowercase();
+    file.executable
+        || matches!(
+            extension.as_str(),
+            "sh" | "ps1"
+                | "exe"
+                | "dll"
+                | "cmd"
+                | "bat"
+                | "py"
+                | "js"
+                | "ts"
+                | "mjs"
+                | "cjs"
+                | "wasm"
+                | "so"
+                | "dylib"
+        )
+}
 impl Kind {
     pub fn executable(&self) -> bool {
         matches!(

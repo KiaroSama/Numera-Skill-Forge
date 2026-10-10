@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-demand-acquisition/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "846b7bf37fe36a88c2b2453024ca84c1b6380a88ce16e73e36b2519918df20d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-demand-acquisition/skills/marketing-demand-acquisition/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/marketing-demand-acquisition/SKILL.md",
+      "size": 33778
+    },
+    {
+      "digest": "bd27692afc8a86764647d8c01b76777e015238d4b63b3aeb1fc7b0b5e6b1e8df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-demand-acquisition/skills/marketing-demand-acquisition/scripts/calculate_cac.py",
+      "path": "cli-tool/components/skills/business-marketing/marketing-demand-acquisition/scripts/calculate_cac.py",
+      "size": 3028
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2623c04f2839ca5091ebe2c192bdad0aa8a653d8558d57f290f85cacb1e962bb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/marketing-demand-acquisition",
+  "schema_version": 1
+}

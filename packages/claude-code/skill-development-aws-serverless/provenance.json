@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-aws-serverless/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3deca503480d1be9e26c7104626d30f0c40deb342ca60d3b189b404b6bfe7235",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-aws-serverless/skills/aws-serverless/SKILL.md",
+      "path": "cli-tool/components/skills/development/aws-serverless/SKILL.md",
+      "size": 7870
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "75e9449caf61d5a0cdcdbafd42c2693cbac7fcdf076eb80cf61e509330c2c63b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/aws-serverless",
+  "schema_version": 1
+}

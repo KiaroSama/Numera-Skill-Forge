@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: Orchestra-Research/AI-Research-SKILLs; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/ai-research/optimization-flash-attention/SKILL.md https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/773a52944ba4747a18bd4ae9ade53fff041adcbc/10-optimization/flash-attention https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/LICENSE",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00",
+      "license": "MIT",
+      "path": "registry/licenses/80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00.txt",
+      "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ea243270b70eb986dedd3c974f7ea6de5d91d6348c7827b005d3e7cde9f1681d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineer/skills/prompt-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineer/SKILL.md",
+      "size": 2710
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "3041194e66d4b1e89e0469b92b6a0bc39dacb1b761262cca1cfd1579efd961e5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/prompt-engineer",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-ship-learn-next/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d2cea6bcfdebc0558353c56882cd670df410f510ec5aad111c164c178c2a86c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-ship-learn-next/skills/ship-learn-next/README.md",
+      "path": "cli-tool/components/skills/productivity/ship-learn-next/README.md",
+      "size": 6796
+    },
+    {
+      "digest": "503b2265e8d97ab8c52fe49c9ac5819653da31577e991e15c470c9a05cbd07f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-ship-learn-next/skills/ship-learn-next/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/ship-learn-next/SKILL.md",
+      "size": 9419
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2f8dfad29fd331dfcb7c2e390bd54f8baff1e7b1f3d170988b03e75f5a29182a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/ship-learn-next",
+  "schema_version": 1
+}

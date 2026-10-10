@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-requirements-clarity/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f7b3945afcb67169d6341edd44748f3193682bed631beb94db2cccd9e776dfde",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-requirements-clarity/skills/requirements-clarity/README.md",
+      "path": "cli-tool/components/skills/productivity/requirements-clarity/README.md",
+      "size": 9297
+    },
+    {
+      "digest": "c554f7779a6e8ba4f89c8f7b79738d2825aa39c64d2b5dcc36006534ef564924",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-requirements-clarity/skills/requirements-clarity/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/requirements-clarity/SKILL.md",
+      "size": 9314
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3322828eb336b49f109b2be18fe128682c98590576f4cbb6eead765bcff6934b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/requirements-clarity",
+  "schema_version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0f2f608e20cfab170dd1faac85b4719abd3fc05c9e7bf48940df5ab066e526b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scanpy/SKILL.md",
+      "size": 11109
+    },
+    {
+      "digest": "ac8b07692ba09f8378f492b594ccdc4bf88aee4c4c12342bd65e9a4a345509d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/assets/analysis_template.py",
+      "path": "cli-tool/components/skills/scientific/scanpy/assets/analysis_template.py",
+      "size": 9515
+    },
+    {
+      "digest": "179525ac93e1015d3b28cf68d99f9a2a54e7b6727a78327e17f8b097e56fc659",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/scanpy/references/api_reference.md",
+      "size": 7415
+    },
+    {
+      "digest": "5c866fd84c1bd070686aa0df19b7c695ff46483cdbdde68a9ae4c6a63faff31c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/references/plotting_guide.md",
+      "path": "cli-tool/components/skills/scientific/scanpy/references/plotting_guide.md",
+      "size": 9695
+    },
+    {
+      "digest": "4b211139849313b06c57d828de8512bdcd1113c3a1164294a75400e2cda821c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/references/standard_workflow.md",
+      "path": "cli-tool/components/skills/scientific/scanpy/references/standard_workflow.md",
+      "size": 5529
+    },
+    {
+      "digest": "e1a5b3f99420be28ffb2640ee597c49b0b98786d327f39a2acc5a8f81c10e5df",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-scanpy/skills/scanpy/scripts/qc_analysis.py",
+      "path": "cli-tool/components/skills/scientific/scanpy/scripts/qc_analysis.py",
+      "size": 6706
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b3319acaf180eea4397a1a5aadbe60eb2abe06df6be3d4f74fe752c6a7fd72e9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scanpy",
+  "schema_version": 1
+}

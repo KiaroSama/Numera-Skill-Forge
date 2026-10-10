@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-segment-cdp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "39eb6ef8d81adaa58587929d4875d94bd6ecd9c2ab0168d7f724d3820023521f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-segment-cdp/skills/segment-cdp/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/segment-cdp/SKILL.md",
+      "size": 1423
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "778396fab1137c67bf8601adb6b14a7c1d99605e836d32fd51cf3dd633b6a1d7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/segment-cdp",
+  "schema_version": 1
+}

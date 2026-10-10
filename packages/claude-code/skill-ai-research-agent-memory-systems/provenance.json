@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agent-memory-systems/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c45f6da6e83d7740b91c32e9ba5a7320bbdc4e5c973416af6371b53e599f1dc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agent-memory-systems/skills/agent-memory-systems/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agent-memory-systems/SKILL.md",
+      "size": 2317
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "e791c369cdf4b8365228d77ce286d61f4c22c2e82d679bfab7ee762cd1526cf8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agent-memory-systems",
+  "schema_version": 1
+}

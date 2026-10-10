@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "891b77bc09118393f9bd1235404ee3f0cf412f56e57dc4b454e2fbd8fd507bc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/skills/evaluating-llms-harness/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness/SKILL.md",
+      "size": 11895
+    },
+    {
+      "digest": "433372d84b8bbd6c28e5b971c1aae7c5d2d032aae9ff23dd7d7a47a51277dc78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/skills/evaluating-llms-harness/references/api-evaluation.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness/references/api-evaluation.md",
+      "size": 11114
+    },
+    {
+      "digest": "6f3e6daf78cee21453cebc1c4688ee126fbf0d4566782496dd5841dd669ae295",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/skills/evaluating-llms-harness/references/benchmark-guide.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness/references/benchmark-guide.md",
+      "size": 10769
+    },
+    {
+      "digest": "c6b5591c77c16570b43fa5f497405a65f35ef73d1702a3871cc0c8a257c76aeb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/skills/evaluating-llms-harness/references/custom-tasks.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness/references/custom-tasks.md",
+      "size": 13125
+    },
+    {
+      "digest": "3ddc4551f25ce0d3cb09f971f27191331fb65b5b4c882efd4a9bde7bdfb82353",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-lm-evaluation-harness/skills/evaluating-llms-harness/references/distributed-eval.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness/references/distributed-eval.md",
+      "size": 11426
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "063cd9eac8de65fa19e4305db54475f8c9b94c0c2aacdde5dd89bf6a72ce230a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness",
+  "schema_version": 1
+}

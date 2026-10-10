@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-lambda-labs/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9d1dc3fcb83bf0de14717e58c13f49989b2bc307b12febcf040ef9d28fedc0a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-lambda-labs/skills/lambda-labs-gpu-cloud/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
+      "size": 12153
+    },
+    {
+      "digest": "2b8207cce0675df7a1c074904aa49f389d9d543a4a473ed9061806d87dedcbe7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-lambda-labs/skills/lambda-labs-gpu-cloud/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/references/advanced-usage.md",
+      "size": 15100
+    },
+    {
+      "digest": "0225b965ea55d05cc8e6f71b6678010207b48573e5b2dd0d223c2cd1f30c57fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-lambda-labs/skills/lambda-labs-gpu-cloud/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/references/troubleshooting.md",
+      "size": 11683
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "779de6750b261bee1418cd295a7f7203c5d0ce20c2bbf38fed77895b62639ce6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs",
+  "schema_version": 1
+}

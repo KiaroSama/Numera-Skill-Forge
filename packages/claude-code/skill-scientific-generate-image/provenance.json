@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-generate-image/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9be05248d17333fe42d61c539b23f2db0072d1198c70b5546709d80d3fee1b7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-generate-image/skills/generate-image/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/generate-image/SKILL.md",
+      "size": 6847
+    },
+    {
+      "digest": "bdaaa937e0965919b1e272a1af36aff90d4a89ae9ece19984ab10b032b7618df",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-generate-image/skills/generate-image/scripts/generate_image.py",
+      "path": "cli-tool/components/skills/scientific/generate-image/scripts/generate_image.py",
+      "size": 8787
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "64848a99e60b741d3abd9b1837fc404683f350b165cfd00d446ca27ad75d15d3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/generate-image",
+  "schema_version": 1
+}

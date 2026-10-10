@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: google/skills; license: Apache-2.0. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Upstream adaptation (renaming/metadata/reference changes) predates this wrapper; see immutable source mapping. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/database/alloydb-basics/SKILL.md https://github.com/google/skills/tree/caeec93cc14812b7923bbe203ecd179f9aad4f3e/skills/cloud/alloydb-basics https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE https://github.com/davila7/claude-code-templates/commit/82b0fb33662145d7e8d27607c5066898872706c0",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+      "source": "https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE"
+    }
+  ]
+}

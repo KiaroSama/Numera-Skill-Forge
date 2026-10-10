@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-template-business/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1e8fb0c71822f4f80df9739ebaf791ea8a980c52aed58eaba5222cb920f3b85f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-template-business/skills/notion-template-business/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/notion-template-business/SKILL.md",
+      "size": 5443
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "bd677ee0dd2a4357ef950b040a52ffb1c7fc7c3f0c7b1dd78a83c55333eadf1d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/notion-template-business",
+  "schema_version": 1
+}

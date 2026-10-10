@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gcp-cloud-run/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "587cebee6bac6e310a89dcfab5f2f405f35745925a07ccf559093bedd058e642",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gcp-cloud-run/skills/gcp-cloud-run/SKILL.md",
+      "path": "cli-tool/components/skills/development/gcp-cloud-run/SKILL.md",
+      "size": 6941
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "fdfc4259e75cfe3c14ab221a6954a8880efe4ac506442dfe1f8f548e7bb19427",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/gcp-cloud-run",
+  "schema_version": 1
+}

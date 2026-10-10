@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-safety-alignment-nemo-guardrails/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d0d91892eaba80cf829ef6bb1b37f3b5fa8cc31ba1fa89d162ab380b90ca2762",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-safety-alignment-nemo-guardrails/skills/nemo-guardrails/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails/SKILL.md",
+      "size": 7642
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c0e8927f5ffac26fa6484b44de47b624a669ab7ab53113751a88a09350d02c40",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails",
+  "schema_version": 1
+}

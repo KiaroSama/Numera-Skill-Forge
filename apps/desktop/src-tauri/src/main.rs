@@ -49,6 +49,19 @@ async fn dispatch(
         "doctor",
         "settings",
         "publish",
+        "source-inspect",
+        "source-policy",
+        "package-inspect",
+        "collection-sync",
+        "collection-verify",
+        "support-bundle",
+        "log-retention",
+        "job-run",
+        "job-list",
+        "job-status",
+        "job-cancel",
+        "job-retry",
+        "update",
     ];
     if !actions.contains(&action) {
         return Err("action: Unknown desktop operation".into());

@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-stable-diffusion/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "816dce0d04b2e2ddc1510a5aaf3e545778f4c59f7329af689dc9941bbbebca37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-stable-diffusion/skills/stable-diffusion-image-generation/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-stable-diffusion/SKILL.md",
+      "size": 12989
+    },
+    {
+      "digest": "ff9c1b1621353af90926c66d39e4bbbd1e9469905cd5213ec06d2c971df567b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-stable-diffusion/skills/stable-diffusion-image-generation/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-stable-diffusion/references/advanced-usage.md",
+      "size": 17690
+    },
+    {
+      "digest": "6d42dc6feaa88f0761fac039664739ba1924cf4d4b8efebc38e4bd641b57c7c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-stable-diffusion/skills/stable-diffusion-image-generation/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-stable-diffusion/references/troubleshooting.md",
+      "size": 12401
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "129be744cb53cadbb8a13c443ee42cebbefa3cc668a7f312df68192db2081cb8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-stable-diffusion",
+  "schema_version": 1
+}

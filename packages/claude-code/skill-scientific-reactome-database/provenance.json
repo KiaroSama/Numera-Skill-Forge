@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-reactome-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b2ca7137cc4df80ee49d5a2d6a85d9ef69588a42057b087f433b3f819a8c294e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-reactome-database/skills/reactome-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/reactome-database/SKILL.md",
+      "size": 7779
+    },
+    {
+      "digest": "1c5616b235a6d787086a085dbe038a41fcd8449b7e122e2b1fbd22a6e431c9de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-reactome-database/skills/reactome-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/reactome-database/references/api_reference.md",
+      "size": 10507
+    },
+    {
+      "digest": "01d0da46f8969cba7eefef380329f8ee2b1a0e5a6ce7fb9dd9b9678b7e7bffe0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-reactome-database/skills/reactome-database/scripts/reactome_query.py",
+      "path": "cli-tool/components/skills/scientific/reactome-database/scripts/reactome_query.py",
+      "size": 9254
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "815dae93faaaef52d27c79cd099f8906bb3752199882a33dba5ee508813d50b8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/reactome-database",
+  "schema_version": 1
+}

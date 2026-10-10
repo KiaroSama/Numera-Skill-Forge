@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "67525c84783c26baacf3ba278e75aa84a7139e6df326a8f68706c1611a72b184",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/transformers/SKILL.md",
+      "size": 4956
+    },
+    {
+      "digest": "b7a47679366c07d0dac25f2624e60de9f5a6ce2439e030c3d58f4df761f0ec3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/references/generation.md",
+      "path": "cli-tool/components/skills/scientific/transformers/references/generation.md",
+      "size": 9340
+    },
+    {
+      "digest": "5ef9e576c2f02bec181a26a644510b7793bed71316047fe053ae459b987f8b1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/references/models.md",
+      "path": "cli-tool/components/skills/scientific/transformers/references/models.md",
+      "size": 8648
+    },
+    {
+      "digest": "a59bbc4b4a58b1e94dbcaa162a4141ab4187a70bb0c74f5d3fbedd7389c5fad6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/references/pipelines.md",
+      "path": "cli-tool/components/skills/scientific/transformers/references/pipelines.md",
+      "size": 8940
+    },
+    {
+      "digest": "cb33dfe12db114afaa0cb2cf66e7621bf3521fc4a01da945d825e70aee42ac1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/references/tokenizers.md",
+      "path": "cli-tool/components/skills/scientific/transformers/references/tokenizers.md",
+      "size": 9904
+    },
+    {
+      "digest": "1c83cd69221275f648dfdb376aad6ad294145b2d6d33154d65d52ac04135c5bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-transformers/skills/transformers/references/training.md",
+      "path": "cli-tool/components/skills/scientific/transformers/references/training.md",
+      "size": 10365
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5b0d76c02205d062cf6477477a58529ad34b5f49338cd1f0535a5cb9d74cd7ae",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/transformers",
+  "schema_version": 1
+}

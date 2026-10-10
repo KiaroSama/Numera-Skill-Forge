@@ -22,10 +22,26 @@ jobs:
         with:
           toolchain: 1.99.0
       - if: runner.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential libxdo-dev libssl-dev librsvg2-dev libayatana-appindicator3-dev patchelf
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential libxdo-dev libssl-dev librsvg2-dev libayatana-appindicator3-dev patchelf webkit2gtk-driver xvfb
+        timeout-minutes: 5
       - run: npm ci --prefix apps/desktop --ignore-scripts
       - run: npm --prefix apps/desktop run tauri -- build
         timeout-minutes: 30
+      - name: Install project-local native test driver
+        if: runner.os == 'Linux'
+        run: cargo install tauri-driver --version 2.1.0 --locked --root "$GITHUB_WORKSPACE/.ci-work/native-tools"
+        timeout-minutes: 10
+      - name: Verify actual native startup and service IPC
+        if: runner.os == 'Linux'
+        run: timeout --signal=TERM --kill-after=10s 150s xvfb-run --auto-servernum python3 scripts/native-desktop-smoke.py --application target/release/numera-forge-desktop --driver .ci-work/native-tools/bin/tauri-driver --work .ci-work/native-smoke
+        timeout-minutes: 3
+      - name: Preserve native smoke diagnostics
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: native-smoke-diagnostics-${{ matrix.os }}
+          path: .ci-work/native-smoke/*.log
+          if-no-files-found: warn
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
           name: unsigned-desktop-${{ matrix.os }}

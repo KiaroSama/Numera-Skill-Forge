@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d285531413cef3fafcf3025fe6cdb1d6e8fe54a62468c7f7f29522e869d5157f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/SKILL.md",
+      "size": 19573
+    },
+    {
+      "digest": "c15cb5ff2ac6793e826914c805ac606f2f904dd3d744adfcf06f914257954466",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/references/assumptions_and_diagnostics.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/references/assumptions_and_diagnostics.md",
+      "size": 11139
+    },
+    {
+      "digest": "a538cafb762ffdbe6b5b0a8597308585e0f9d03f3f79473eedd658c7b81df1ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/references/bayesian_statistics.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/references/bayesian_statistics.md",
+      "size": 17533
+    },
+    {
+      "digest": "54d23fa083a62143bdfc266a725d9be8e9b683e340aaa978eddb925f97051ca1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/references/effect_sizes_and_power.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/references/effect_sizes_and_power.md",
+      "size": 14989
+    },
+    {
+      "digest": "d08c185dc6f6073331a6f6679d6bb303630da1a9d92abcb6513f27e08c9fdb69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/references/reporting_standards.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/references/reporting_standards.md",
+      "size": 19504
+    },
+    {
+      "digest": "64f5d93f87d83431b767a24d6b32c0ed82f2cbd32b1bd07476b49b5ac6a858a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/references/test_selection_guide.md",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/references/test_selection_guide.md",
+      "size": 5077
+    },
+    {
+      "digest": "aee3166aff53f447b72e2dc9f1c04988fd18e67d51b6af0f166de7acafa91354",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statistical-analysis/skills/statistical-analysis/scripts/assumption_checks.py",
+      "path": "cli-tool/components/skills/scientific/statistical-analysis/scripts/assumption_checks.py",
+      "size": 15859
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d2ace42e03e93ad1b2bae06a975bd5189d393e8f8b9f015bbab331b0d54e7f04",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/statistical-analysis",
+  "schema_version": 1
+}

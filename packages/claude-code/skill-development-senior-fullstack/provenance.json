@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0c3156f38215b792e032abf5708b33b572448837346e5ec110a5c74522ed2c5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-fullstack/SKILL.md",
+      "size": 4495
+    },
+    {
+      "digest": "cef561637c3375ebb91ecaa9e82d6c847751b746ff99186f1248f8c99bc2f8a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/references/architecture_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-fullstack/references/architecture_patterns.md",
+      "size": 1618
+    },
+    {
+      "digest": "000c2a1f3d0e0269a32d4144a80c09bd7192a01995d70ec006c610ac399241d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/references/development_workflows.md",
+      "path": "cli-tool/components/skills/development/senior-fullstack/references/development_workflows.md",
+      "size": 1618
+    },
+    {
+      "digest": "6534f2fd38f6794eba17315c9e3dff5ea1d25b4d7193d2d80f93dbc8e2b2794f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/references/tech_stack_guide.md",
+      "path": "cli-tool/components/skills/development/senior-fullstack/references/tech_stack_guide.md",
+      "size": 1613
+    },
+    {
+      "digest": "936eef2d89bebbd63851ea443e7bac697097d8b06250dfe9e49ffdb5c5885eca",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/scripts/code_quality_analyzer.py",
+      "path": "cli-tool/components/skills/development/senior-fullstack/scripts/code_quality_analyzer.py",
+      "size": 3154
+    },
+    {
+      "digest": "4312f549f0277246d451bcc848da625af42385436de529d26e3b3dcfa0538439",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/scripts/fullstack_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-fullstack/scripts/fullstack_scaffolder.py",
+      "size": 3151
+    },
+    {
+      "digest": "9844377e81cd5953a7f036901e1b5ea1d0ba532b6e17a72e24681b8a91fc3092",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-fullstack/skills/senior-fullstack/scripts/project_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-fullstack/scripts/project_scaffolder.py",
+      "size": 3141
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bdbbe68d066054cb10225138ff70eff1f85fd6d12a6747cb2a2dc46a6d12fab8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-fullstack",
+  "schema_version": 1
+}

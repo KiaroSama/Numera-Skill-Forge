@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-tensorboard/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "717c4b05f88bbc888d54cc51fa390ae225d687b3b86fb616e36cc7fc26108020",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-tensorboard/skills/tensorboard/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-tensorboard/SKILL.md",
+      "size": 15276
+    },
+    {
+      "digest": "a647d47e9589eb7abbbcb494fc2c8f21c2b8cab1fee3a59e30cab4b81014cd4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-tensorboard/skills/tensorboard/references/integrations.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-tensorboard/references/integrations.md",
+      "size": 16205
+    },
+    {
+      "digest": "1471302d589c00c3bd9d0247008d732e4f446842692b2dc4587ec8278acd33d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-tensorboard/skills/tensorboard/references/profiling.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-tensorboard/references/profiling.md",
+      "size": 13337
+    },
+    {
+      "digest": "0e5ef61808dc0bb1d3820a0695aa86a4af6659f1ba2324204953b84dda6f3815",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-tensorboard/skills/tensorboard/references/visualization.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-tensorboard/references/visualization.md",
+      "size": 14897
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "97587995a183563d49bbfce59782924c7b31924da5fbc807771982ed28630e30",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mlops-tensorboard",
+  "schema_version": 1
+}

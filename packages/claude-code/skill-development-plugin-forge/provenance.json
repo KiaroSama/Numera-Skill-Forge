@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "12040dfcc9436e55e90180a6aff098fdd7d217c2755a8a2508118f8c87219a79",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/README.md",
+      "path": "cli-tool/components/skills/development/plugin-forge/README.md",
+      "size": 8779
+    },
+    {
+      "digest": "8179b93434f814607d2a028631e105fe46a3d7ba488c64fa70c8cb01cfc84104",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/SKILL.md",
+      "path": "cli-tool/components/skills/development/plugin-forge/SKILL.md",
+      "size": 5240
+    },
+    {
+      "digest": "5a9b0859b06d7a9ed28a4cf62b71b94b8d7970d5b96a11d602f76975a025d29c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/references/marketplace-schema.md",
+      "path": "cli-tool/components/skills/development/plugin-forge/references/marketplace-schema.md",
+      "size": 2464
+    },
+    {
+      "digest": "88bdce4368a29409c20500df5138cc88990989e47575382a494231a4a8e5f9a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/references/plugin-structure.md",
+      "path": "cli-tool/components/skills/development/plugin-forge/references/plugin-structure.md",
+      "size": 2784
+    },
+    {
+      "digest": "23851bc59bdc50fcf744493772e5e3d3e91cc0515d7530a8a0b27925a39854bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/references/workflows.md",
+      "path": "cli-tool/components/skills/development/plugin-forge/references/workflows.md",
+      "size": 3933
+    },
+    {
+      "digest": "124ef38638b26386f82aebec910882eed29a05284a5c4ffbca9b56a4ce5ce02e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/scripts/bump_version.py",
+      "path": "cli-tool/components/skills/development/plugin-forge/scripts/bump_version.py",
+      "size": 3354
+    },
+    {
+      "digest": "6785a38def719c5cf564902c5554042f3ee624553d4fd9d905d6699db8b48ed8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-plugin-forge/skills/plugin-forge/scripts/create_plugin.py",
+      "path": "cli-tool/components/skills/development/plugin-forge/scripts/create_plugin.py",
+      "size": 4637
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "46838d7152dc63edafad6ff1ec0eca95d06a0da3561c5d1b6375dc3b7ae90ea7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/plugin-forge",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-google-cloud-waf-security/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "097fd2a23819091bf6b667dfe6c1090436a6046d7992298fe7a1c8a27363ffce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-google-cloud-waf-security/skills/google-cloud-waf-security/SKILL.md",
+      "path": "cli-tool/components/skills/security/google-cloud-waf-security/SKILL.md",
+      "size": 14512
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "f4bcc8b391d33f6ca80baa1aa0e14da2e89d88739ecbaff5035b9eea0e2602fc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/google-cloud-waf-security",
+  "schema_version": 1
+}

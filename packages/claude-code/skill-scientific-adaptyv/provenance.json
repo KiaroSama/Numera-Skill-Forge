@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b6013c70b2cf3fcc6f2f9df94b4e613929574182f6b3ee4596b114ba2d09b2e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/skills/adaptyv/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/adaptyv/SKILL.md",
+      "size": 3689
+    },
+    {
+      "digest": "5de7d783fdecd472236ca6b02ebafa89e865535c6a575dbd9a4a4382addd523a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/skills/adaptyv/reference/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/adaptyv/reference/api_reference.md",
+      "size": 6665
+    },
+    {
+      "digest": "fc3a0532094abd08e835734c704d68bec25f54a53dbd87cc1041214b069b21c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/skills/adaptyv/reference/examples.md",
+      "path": "cli-tool/components/skills/scientific/adaptyv/reference/examples.md",
+      "size": 23091
+    },
+    {
+      "digest": "2895588154e31201a3a3c6f7cd95f4664441432af6766899c226554e130b801c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/skills/adaptyv/reference/experiments.md",
+      "path": "cli-tool/components/skills/scientific/adaptyv/reference/experiments.md",
+      "size": 9947
+    },
+    {
+      "digest": "9e3be81e6f69f26243af78f4e04bfdb71b5fd42ac7cb615c6f3e094bc9bd30a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-adaptyv/skills/adaptyv/reference/protein_optimization.md",
+      "path": "cli-tool/components/skills/scientific/adaptyv/reference/protein_optimization.md",
+      "size": 17861
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e479fe836f72459f62ec2f0190051f2a685761fb4354477aed90d9580458a580",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/adaptyv",
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-peer-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "417c51b39c800b3b9daa9a813485a701b031d399303fa85c7af29cd06d26c160",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-peer-review/skills/peer-review/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/peer-review/SKILL.md",
+      "size": 22818
+    },
+    {
+      "digest": "9015c3263a0f586aa74d976f3c0c5b31a78549879651d1ecdfdcf7b13065115b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-peer-review/skills/peer-review/references/common_issues.md",
+      "path": "cli-tool/components/skills/scientific/peer-review/references/common_issues.md",
+      "size": 19321
+    },
+    {
+      "digest": "ea29ba0a90d3e0735f4603c7c7918a8fba20fcd35b26c201cb7fd312de66b6ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-peer-review/skills/peer-review/references/reporting_standards.md",
+      "path": "cli-tool/components/skills/scientific/peer-review/references/reporting_standards.md",
+      "size": 10200
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "56122223963c72e5198348dcd120a6d95442fce6b4ef2b89aa45bcecd38d94af",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/peer-review",
+  "schema_version": 1
+}

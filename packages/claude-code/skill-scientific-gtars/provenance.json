@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "418b9dfa24e081cd6acbd1878e32fef07ab22fc13100c58c9d51f58f54ba66be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/gtars/SKILL.md",
+      "size": 7747
+    },
+    {
+      "digest": "0e4938c5c3de11dbc9183cd0031f42b9b5e131c8c2177af04fadf2a044cbf9b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/cli.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/cli.md",
+      "size": 5060
+    },
+    {
+      "digest": "8033ec3595543a01f8560575b1ff188fb767407462d2e974c345f633437356ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/coverage.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/coverage.md",
+      "size": 3995
+    },
+    {
+      "digest": "bf075caed5c8bbf8e3b5348eb7e3d49d12bd91a8780da9327f1809fc24102630",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/overlap.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/overlap.md",
+      "size": 3679
+    },
+    {
+      "digest": "262007a6805006e7304281075a3d07e4ead06ff8ea88b370196cc3a11052e2a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/python-api.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/python-api.md",
+      "size": 4222
+    },
+    {
+      "digest": "90ca2786d3e3741349ed6d996cc8a2d56a8b80e699fa17ee217edf2eb3760adc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/refget.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/refget.md",
+      "size": 3165
+    },
+    {
+      "digest": "59857435cccf49c0c3c5e50d918206eadb95ec2d3ee237180a70724e4bdd3a82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gtars/skills/gtars/references/tokenizers.md",
+      "path": "cli-tool/components/skills/scientific/gtars/references/tokenizers.md",
+      "size": 2444
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e69f3aab07db5646975d3282cd02978920b2a265e4a49b08bba048849209df05",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/gtars",
+  "schema_version": 1
+}

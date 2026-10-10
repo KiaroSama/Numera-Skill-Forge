@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/capa-officer",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-capa-officer",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

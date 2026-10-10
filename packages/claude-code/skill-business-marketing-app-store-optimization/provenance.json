@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "88163da94aff5fd03196f635f7e1640e14cf7be8e76fa3086473cbc41e03f18e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/HOW_TO_USE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/HOW_TO_USE.md",
+      "size": 10252
+    },
+    {
+      "digest": "4c3289588110cbb07049b15e05b22a3e3c251e62305be94e3952195c36d701d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/README.md",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/README.md",
+      "size": 14917
+    },
+    {
+      "digest": "246f6f1624fe8d2def37f29228e0601b9624e94dccde31f6c6def60f8d7486e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/SKILL.md",
+      "size": 16531
+    },
+    {
+      "digest": "bc65f41e0fe84170b02e83b4648d3d2dbb460e9588acb1e1bea4d7d9e63d1a95",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/ab_test_planner.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/ab_test_planner.py",
+      "size": 22857
+    },
+    {
+      "digest": "df2854642b889a55877f2420563a22a753dc157723a3c7fe40d3dfcfc16b7892",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/aso_scorer.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/aso_scorer.py",
+      "size": 18966
+    },
+    {
+      "digest": "df64cf5b9c863afabebca1461230039287c6075806895e21541f8471c10f47c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/competitor_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/competitor_analyzer.py",
+      "size": 21340
+    },
+    {
+      "digest": "59db04fda533c3f2e0e0aa6387afd5bdd09b8278234af22ef4b40c85dcf92c47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/expected_output.json",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/expected_output.json",
+      "size": 5492
+    },
+    {
+      "digest": "7d66b1043a859eecfe919649c82f693ac841a18361cffffc5a8faf92e2c432f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/keyword_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/keyword_analyzer.py",
+      "size": 13108
+    },
+    {
+      "digest": "4d820f097856c612b7f41bd02319f5003384af237318ad0139e0f62c723587a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/launch_checklist.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/launch_checklist.py",
+      "size": 28949
+    },
+    {
+      "digest": "1c6c26fc2c8c87867d02777bcd90753ed461319573df7961ccaf38bb2c29726b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/localization_helper.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/localization_helper.py",
+      "size": 22142
+    },
+    {
+      "digest": "e689b3521cad59b510b89e5e6d9536519286e521079f805fe016d7546d68702f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/metadata_optimizer.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/metadata_optimizer.py",
+      "size": 20824
+    },
+    {
+      "digest": "395f675845886fd88b28c94c445b7450e60522c1acf0e0cd26a7465cfef8560f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/review_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/review_analyzer.py",
+      "size": 25561
+    },
+    {
+      "digest": "e4abb74979b21e8707e0026b77d76bfa882416710a49d35b9985b7ca692de585",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-store-optimization/skills/app-store-optimization/sample_input.json",
+      "path": "cli-tool/components/skills/business-marketing/app-store-optimization/sample_input.json",
+      "size": 723
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7bdc50628356e732be78e5e889ea1c788d4ae2e9f5796a2d1cc3e4d72d33cc82",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/app-store-optimization",
+  "schema_version": 1
+}

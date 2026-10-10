@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "504c1ee82323d26fc07ba9ef5c954e08ba18f77340dd1c77c4bae97a23aa98c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/SKILL.md",
+      "size": 5544
+    },
+    {
+      "digest": "d9be670062819ea5162407dcec2239284b6596282a3dabaa0bd6dd5946bc35ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/references/agentic_system_design.md",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/references/agentic_system_design.md",
+      "size": 1422
+    },
+    {
+      "digest": "3b0b6558df4e97c68243a345b9e8da6752c83c936812919698c547ffb3c08cb7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/references/llm_evaluation_frameworks.md",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/references/llm_evaluation_frameworks.md",
+      "size": 1430
+    },
+    {
+      "digest": "e2236aef75787392ab608752d36a9b84e7f80e4264edf109f2860371aa2199df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/references/prompt_engineering_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/references/prompt_engineering_patterns.md",
+      "size": 1434
+    },
+    {
+      "digest": "50fe4d6a0ef27f791a77b437689db6901c305e08c5e1345db9604e4992197df4",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/scripts/agent_orchestrator.py",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/scripts/agent_orchestrator.py",
+      "size": 2780
+    },
+    {
+      "digest": "d26e6aff19b8a27cae928b71bc8d0be94efa363e7b69fa6144068aca49f05884",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/scripts/prompt_optimizer.py",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/scripts/prompt_optimizer.py",
+      "size": 2770
+    },
+    {
+      "digest": "0da40c2b0e85f04f38639ba26bd8f5082138c24c225616992abf07a79e01b4b7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-prompt-engineer/skills/senior-prompt-engineer/scripts/rag_evaluator.py",
+      "path": "cli-tool/components/skills/development/senior-prompt-engineer/scripts/rag_evaluator.py",
+      "size": 2755
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f9002bb81dce5b74ba69de06e9da138cfdfe2811c7598691a7304882d1547a6f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-prompt-engineer",
+  "schema_version": 1
+}

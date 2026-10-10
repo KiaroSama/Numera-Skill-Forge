@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-skypilot/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "de1be4556d8a8f7929003ca4b672e5fbb755588b1e95068973896b63d3034965",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-skypilot/skills/skypilot-multi-cloud-orchestration/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-skypilot/SKILL.md",
+      "size": 9641
+    },
+    {
+      "digest": "6d5712aba97cc6152ff753d83847f5711d6233f459cb87b4e1295b82f35a5d95",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-skypilot/skills/skypilot-multi-cloud-orchestration/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-skypilot/references/advanced-usage.md",
+      "size": 7469
+    },
+    {
+      "digest": "3f7aab77726105a4f636e5defde9c634d13e0e584fda820f5524f68c78c4e93b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-skypilot/skills/skypilot-multi-cloud-orchestration/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-skypilot/references/troubleshooting.md",
+      "size": 10493
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f3be49aa724b7b0d8a1b1ea6c204bf442a06c15c538fff76226e62a1d35f6efa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/infrastructure-skypilot",
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-angular/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fc22940cd60d47b7ac3c9289ccd7a5eab3c37a9c48e805570308852833546b88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-angular/skills/angular/README.md",
+      "path": "cli-tool/components/skills/development/angular/README.md",
+      "size": 1400
+    },
+    {
+      "digest": "cef5860c52630e8794d6f896091fa135eed91ca4250a5f8b4c3e52cf759983da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-angular/skills/angular/SKILL.md",
+      "path": "cli-tool/components/skills/development/angular/SKILL.md",
+      "size": 20148
+    },
+    {
+      "digest": "96d4071ebdbeb7d0b60acd7f4191ddc1382aad815e9e409e8daa32b0d0d3a0b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-angular/skills/angular/metadata.json",
+      "path": "cli-tool/components/skills/development/angular/metadata.json",
+      "size": 741
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9c14a0cc2ae755ea99b4e727f6cd3c3c898a4941864366fc4ad6decd4128b3f0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/angular",
+  "schema_version": 1
+}

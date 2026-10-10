@@ -22,7 +22,25 @@ pub fn save(root: &Path, registry: &Registry) -> Result<()> {
 pub fn lock(root: &Path) -> Result<Lock> {
     let p = root.join("forge.lock.json");
     if p.exists() {
-        storage::read(&p)
+        let lock: Lock = storage::read(&p)?;
+        if lock.schema_version != 1 {
+            return Err(Error::new(
+                "schema-version",
+                "Unsupported lock version; preserve state and migrate explicitly",
+            ));
+        }
+        for (id, accepted) in &lock.sources {
+            validation::identifier(id)?;
+            if accepted.snapshot.source != *id
+                || accepted.approved_digest != accepted.snapshot.content_digest
+            {
+                return Err(Error::new(
+                    "integrity",
+                    "Accepted snapshot identity differs from approval",
+                ));
+            }
+        }
+        Ok(lock)
     } else {
         Ok(Lock {
             schema_version: 1,

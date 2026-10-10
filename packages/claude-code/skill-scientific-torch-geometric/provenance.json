@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "af419f919c00587854dade6f8ed6fc818aa83f13979440ad640072b38ae6d8d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/SKILL.md",
+      "size": 20321
+    },
+    {
+      "digest": "f1491da895880081aa9e422ea4c4d188053c963bb2faeaf0de90587c5a64e9b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/references/datasets_reference.md",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/references/datasets_reference.md",
+      "size": 15940
+    },
+    {
+      "digest": "f8a262986e610b1ad9494c47beb551154bb3225e6b8c6032269d1c1c9c2146b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/references/layers_reference.md",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/references/layers_reference.md",
+      "size": 17121
+    },
+    {
+      "digest": "44b55a1e041238798a742c8e2c68e1c263b3c2a2e1ae6a9a2bb5df216b7e871d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/references/transforms_reference.md",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/references/transforms_reference.md",
+      "size": 17950
+    },
+    {
+      "digest": "e324660196dfbe237de62d8fd1de0d0c74a8cd7f4d9016ed43dbc004838f5eef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/scripts/benchmark_model.py",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/scripts/benchmark_model.py",
+      "size": 10028
+    },
+    {
+      "digest": "4d53f5496c30db6589a8f574944c214850e707a7ad3e67b76ea8b835d09c0d7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/scripts/create_gnn_template.py",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/scripts/create_gnn_template.py",
+      "size": 15342
+    },
+    {
+      "digest": "d9a1c8757addfaaecceeda413e791f0da862a8ec451e8ad862d2015785d99bd7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torch-geometric/skills/torch-geometric/scripts/visualize_graph.py",
+      "path": "cli-tool/components/skills/scientific/torch_geometric/scripts/visualize_graph.py",
+      "size": 10267
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "537824ab01bfc0d204525195fbfd29b231ba5ae8124422171f6ffc43436eb45a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/torch_geometric",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-sglang/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "05e664a43bb82df2363ef22ceba81a41394a2b819c3367b2413f661485085c8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-sglang/skills/sglang/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-sglang/SKILL.md",
+      "size": 11431
+    },
+    {
+      "digest": "e5400d1e6c79d3e95eed16f9d44c7d87595350a9f56a65869c64eec287ebd46e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-sglang/skills/sglang/references/deployment.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-sglang/references/deployment.md",
+      "size": 10020
+    },
+    {
+      "digest": "c47e5a9adfa0b7904373e15e9af5c26dbfc9d4967d0ea1d73d644b4b27e770ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-sglang/skills/sglang/references/radix-attention.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-sglang/references/radix-attention.md",
+      "size": 11005
+    },
+    {
+      "digest": "e5bade39d37dccc2cdd85da8c16bf46e924ba168292271c4b2007c8b472696f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-sglang/skills/sglang/references/structured-generation.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-sglang/references/structured-generation.md",
+      "size": 13468
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "94f972337c042890f951dca0ddbb63825282f7adbf5a8c91fbb109fa71f07db5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/inference-serving-sglang",
+  "schema_version": 1
+}

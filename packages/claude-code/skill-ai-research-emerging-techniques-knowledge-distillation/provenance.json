@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-knowledge-distillation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc27086dc02840cebef4db34db4b8406b37ff349d6e2a52848646c8daf24ff3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-knowledge-distillation/skills/knowledge-distillation/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation/SKILL.md",
+      "size": 13600
+    },
+    {
+      "digest": "662fb6517f13f805ead6a87aaa1c1326fa3cda639680f40fe6b80a31ea5c6e51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-knowledge-distillation/skills/knowledge-distillation/references/minillm.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation/references/minillm.md",
+      "size": 9117
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "14a95e818ddfd2337a488181e80359630107b4e72efde5b2aced09b435fd1f2c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-knowledge-distillation",
+  "schema_version": 1
+}

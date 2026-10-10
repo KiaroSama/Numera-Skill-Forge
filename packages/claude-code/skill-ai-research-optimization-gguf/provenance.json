@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gguf/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "11016e03b2b53c9a981f1ef7df96b078daf9bc929126ccf36377b86bb7025224",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gguf/skills/gguf-quantization/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gguf/SKILL.md",
+      "size": 10320
+    },
+    {
+      "digest": "ee7ed3b7c06b393b85109d5aa4816cf7d6e6fd2f0a8fdbb90db5eb03ad301f88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gguf/skills/gguf-quantization/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gguf/references/advanced-usage.md",
+      "size": 10887
+    },
+    {
+      "digest": "a83f9df40a6db7857b4b3ce3a982da7e939680ee89079170d4d258392804e09c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gguf/skills/gguf-quantization/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gguf/references/troubleshooting.md",
+      "size": 8904
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9e5e498762c2dd1c96bdca91160e47771ca753195ff060dbbf3cdaa3672f6be1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/optimization-gguf",
+  "schema_version": 1
+}

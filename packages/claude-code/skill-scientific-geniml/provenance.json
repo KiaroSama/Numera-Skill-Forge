@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "87aa6a1cc63da8b475a800ad417304eb8578c6a08ae50ee7454aa3737e959913",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/geniml/SKILL.md",
+      "size": 10020
+    },
+    {
+      "digest": "ad75d1f3a3b98d1313fcbf1731edab23fd18824555913885abf559c7a41d2a74",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/references/bedspace.md",
+      "path": "cli-tool/components/skills/scientific/geniml/references/bedspace.md",
+      "size": 3869
+    },
+    {
+      "digest": "f30a172c524800e75ae233375478fc56e8a66616d4ab9c9ea8947f924f35a04a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/references/consensus_peaks.md",
+      "path": "cli-tool/components/skills/scientific/geniml/references/consensus_peaks.md",
+      "size": 6337
+    },
+    {
+      "digest": "225b691d65d220df3f92979215eb659ec232152d110190a1a9887bc3929eba4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/references/region2vec.md",
+      "path": "cli-tool/components/skills/scientific/geniml/references/region2vec.md",
+      "size": 2859
+    },
+    {
+      "digest": "67dbcbfabca1dab3f7e033b3452be093f9e45b7d1d3bb6ff621a62758e8a63f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/references/scembed.md",
+      "path": "cli-tool/components/skills/scientific/geniml/references/scembed.md",
+      "size": 5268
+    },
+    {
+      "digest": "e64f7b02d850618b3e00d2ea6e31440c8a3243af86caf3f1cc9f64b24fe704f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geniml/skills/geniml/references/utilities.md",
+      "path": "cli-tool/components/skills/scientific/geniml/references/utilities.md",
+      "size": 8652
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fce81830fee9fa20abe0446557de2547a6ba642aea7d37fd9cdb6d4fbfbd08b6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/geniml",
+  "schema_version": 1
+}

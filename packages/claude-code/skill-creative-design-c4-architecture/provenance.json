@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e3fcab85719e96c9acf9eba3e5bdce6894b68b735ff1d64a6aa884d557539ee8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/skills/c4-architecture/README.md",
+      "path": "cli-tool/components/skills/creative-design/c4-architecture/README.md",
+      "size": 7072
+    },
+    {
+      "digest": "e27b4bac48f6da02183013f5ae8e35573774d96a3c5bf1ca24870a045135d1a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/skills/c4-architecture/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/c4-architecture/SKILL.md",
+      "size": 10575
+    },
+    {
+      "digest": "d7cfb170acbb2b8ff31b36d67715ca8d0ef8123e4da9dde18c04c9f618acb650",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/skills/c4-architecture/references/advanced-patterns.md",
+      "path": "cli-tool/components/skills/creative-design/c4-architecture/references/advanced-patterns.md",
+      "size": 18346
+    },
+    {
+      "digest": "8c9d1f3af34b4af66b395a7b731dbdeba912b08e5535c7cc471f7048b160b96c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/skills/c4-architecture/references/c4-syntax.md",
+      "path": "cli-tool/components/skills/creative-design/c4-architecture/references/c4-syntax.md",
+      "size": 14564
+    },
+    {
+      "digest": "608b39dd6ece1c2d4367fb06f3bd7d190332291e279391bfedb82f4749ced414",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-c4-architecture/skills/c4-architecture/references/common-mistakes.md",
+      "path": "cli-tool/components/skills/creative-design/c4-architecture/references/common-mistakes.md",
+      "size": 12441
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a5d723071571dd05e17a2fe47b126bc65a9f5504728748a4d989a3b618b599a4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/c4-architecture",
+  "schema_version": 1
+}

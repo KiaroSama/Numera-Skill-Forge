@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-inngest/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1676c94122b69c2ff5363c071de5675b96e3baa643c2daca8ab0bee326e80d4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-inngest/skills/inngest/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/inngest/SKILL.md",
+      "size": 1527
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "284565f206dd914f48bdee7eb65e46a1967e09a7c2daad6b9b97524b18b8bad7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/inngest",
+  "schema_version": 1
+}

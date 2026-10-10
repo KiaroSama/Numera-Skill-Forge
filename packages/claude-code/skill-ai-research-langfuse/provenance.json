@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-langfuse/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cd7c9c648933581f340123865135e908e3eb7ad895793520b4532b1064d552e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-langfuse/skills/langfuse/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/langfuse/SKILL.md",
+      "size": 5802
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "94179f28b8da81621b07457793210d522999f5a7a37b921d1f93eef0b72d8932",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/langfuse",
+  "schema_version": 1
+}

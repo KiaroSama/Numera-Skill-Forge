@@ -1,0 +1,138 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6725dfb5db229db70aacaa5c42de5c0b97c5c0d0056a8286fcb8672b9dbbc5f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/SKILL.md",
+      "size": 47235
+    },
+    {
+      "digest": "e4049409c316a50c73da7c87c2818a7a2d62878d0bcebef316abe95d86ab132c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/assets/beamer_template_conference.tex",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/assets/beamer_template_conference.tex",
+      "size": 9983
+    },
+    {
+      "digest": "ce44a4933a70a9267514eb1950bfd64b6c18299c7a96cf5955b78778ce9a7d3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/assets/beamer_template_defense.tex",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/assets/beamer_template_defense.tex",
+      "size": 26503
+    },
+    {
+      "digest": "94f19ea1919edb822c57c699e1611f87e00650caab7aee53edcf94d776ab5cf7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/assets/beamer_template_seminar.tex",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/assets/beamer_template_seminar.tex",
+      "size": 23247
+    },
+    {
+      "digest": "cc02bbaee20f194abee2c84b5a942efcad47c93ffa7fb55070c16715480c2d48",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/assets/powerpoint_design_guide.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/assets/powerpoint_design_guide.md",
+      "size": 18989
+    },
+    {
+      "digest": "0e85b73c1997000ed0c0efa0807536d3d9cf024bf043068d6564d44351e0ba83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/assets/timing_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/assets/timing_guidelines.md",
+      "size": 14723
+    },
+    {
+      "digest": "cb8a3c500ab9a3841c0e8559ad5894a4dad80fa3193589f28f5ca91e46d1c97b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/beamer_guide.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/beamer_guide.md",
+      "size": 19321
+    },
+    {
+      "digest": "c79d5d9552d2f132dd3be1beb230c5c0da4f3f27f1ac04f7f6e571204bbab9ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/data_visualization_slides.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/data_visualization_slides.md",
+      "size": 17863
+    },
+    {
+      "digest": "deafc171b8951a43c9a8ae081158cab72fdb8dc4abc1334257ad594f454665f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/presentation_structure.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/presentation_structure.md",
+      "size": 22220
+    },
+    {
+      "digest": "ee2d8f1b3ae0a849ee49e3e4d334c64ee3a1a79aee5ca28dbf43bbec822d98fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/slide_design_principles.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/slide_design_principles.md",
+      "size": 23878
+    },
+    {
+      "digest": "60f374e4e8d361e36a4c738c1e9e56b80470927e28f59e5c9f715343d7da6f6d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/talk_types_guide.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/talk_types_guide.md",
+      "size": 20146
+    },
+    {
+      "digest": "463c43391f781ce60236632d88238f15976255d20fb4f3dbad9c09138fe24a28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/references/visual_review_workflow.md",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/references/visual_review_workflow.md",
+      "size": 20170
+    },
+    {
+      "digest": "40091785042af0591d8de3c188cf07a6467b897fa6f0e9a1afa1f6da9aee8f61",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/scripts/generate_slide_image.py",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/scripts/generate_slide_image.py",
+      "size": 5309
+    },
+    {
+      "digest": "ea3483be27224e2e8d5338b3a34a5bf8a23624df2390f1a373ab25d881c4c5c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/scripts/generate_slide_image_ai.py",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/scripts/generate_slide_image_ai.py",
+      "size": 29060
+    },
+    {
+      "digest": "18f4b0326d92800313cea05bb3af153e9e7241ebe43dade30d0fbe418eac4f3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/scripts/pdf_to_images.py",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/scripts/pdf_to_images.py",
+      "size": 6644
+    },
+    {
+      "digest": "329a45ee889428f8918c2d110718eafc73ba7a338d4d8ee555c870ac86859079",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/scripts/slides_to_pdf.py",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/scripts/slides_to_pdf.py",
+      "size": 7423
+    },
+    {
+      "digest": "9e72a4e86c26bfe0954c5a2c1d0a2933a6d5d2976c34c768c4546d8fe3cc99e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-slides/skills/scientific-slides/scripts/validate_presentation.py",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/scripts/validate_presentation.py",
+      "size": 13115
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e8fdf0cd2255172eb206cee8abdd7c22ba2b3d02b9f54c825b3754a332160afc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-slides",
+  "schema_version": 1
+}

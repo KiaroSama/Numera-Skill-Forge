@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-sentence-transformers/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fca19457be4e78f0e3689284d4fbde649ddf9af0d3bba52d2ac1fb470a4c1bd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-sentence-transformers/skills/sentence-transformers/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-sentence-transformers/SKILL.md",
+      "size": 6327
+    },
+    {
+      "digest": "42c87086def085aed177b0758029b429c65e67cec0018e068f0f92c958836590",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-sentence-transformers/skills/sentence-transformers/references/models.md",
+      "path": "cli-tool/components/skills/ai-research/rag-sentence-transformers/references/models.md",
+      "size": 2925
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "87dad64fd34d516e32a8524feec708d78adc83ced287f0e6d6fa4971c5c50d60",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-sentence-transformers",
+  "schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6e69257341b9ee01b22a46905e93f6fe2339b9f8147c7f77da46be7b366b6556",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/skills/training-llms-megatron/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-megatron-core/SKILL.md",
+      "size": 9706
+    },
+    {
+      "digest": "24f4cc7b0f0127f5ca1242c5fb059483c918c10ae82d4e0c098a898c676e499c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/skills/training-llms-megatron/references/benchmarks.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-megatron-core/references/benchmarks.md",
+      "size": 7363
+    },
+    {
+      "digest": "dcd04fe7b1f544f100583dc5ea147600b6acb893062db2d45f69016325aa76ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/skills/training-llms-megatron/references/parallelism-guide.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-megatron-core/references/parallelism-guide.md",
+      "size": 9591
+    },
+    {
+      "digest": "e1b42188c15de2d2a1bb4300f4de8e9d06d2c6969dc52550c51bc87d3bd9e8f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/skills/training-llms-megatron/references/production-examples.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-megatron-core/references/production-examples.md",
+      "size": 10903
+    },
+    {
+      "digest": "03a441368247aece2fbe79129d1d6fd0a052d6765b4ac8ea0974daad428beff9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-megatron-core/skills/training-llms-megatron/references/training-recipes.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-megatron-core/references/training-recipes.md",
+      "size": 11588
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d7ace2481086ca831991cb95e001c86e8fc2bcde0caf2adedcdb58247a1985a2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-megatron-core",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-graphql/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "900fce3a40964535fb64a85fba12a98b2b57a5d8630ace4f753409875be3c338",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-graphql/skills/graphql/SKILL.md",
+      "path": "cli-tool/components/skills/development/graphql/SKILL.md",
+      "size": 2508
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "015f78df045184151f958d9004837bd62de4e3eb1049456ed277fa62185ce698",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/graphql",
+  "schema_version": 1
+}

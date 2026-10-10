@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-accessibility/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "df14b3a23e79b4c213cf3bd0a14662fb084f226a7d5099b37582b3235c8c4b53",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-accessibility/skills/accessibility/SKILL.md",
+      "path": "cli-tool/components/skills/development/accessibility/SKILL.md",
+      "size": 12388
+    },
+    {
+      "digest": "ee42f07104230ee5ea185f326b01fc13f9cf05ceacf0a72beccce9c6ee7f61a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-accessibility/skills/accessibility/references/WCAG.md",
+      "path": "cli-tool/components/skills/development/accessibility/references/WCAG.md",
+      "size": 7324
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1d68838eb083dc22c881e9712f6bff2f54922b30b230cf93831ccd2e6ba159fc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/accessibility",
+  "schema_version": 1
+}

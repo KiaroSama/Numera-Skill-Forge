@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-commit-work/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e4e42a7cec079c2b77bcee502f1264c8d2b975a9efb3f9d0970f525df1c364da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-commit-work/skills/commit-work/README.md",
+      "path": "cli-tool/components/skills/productivity/commit-work/README.md",
+      "size": 4921
+    },
+    {
+      "digest": "888588ea81b0b2c672e625ad9c49f6f3c69b4c2081962a9d7640a1ef24e105d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-commit-work/skills/commit-work/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/commit-work/SKILL.md",
+      "size": 2484
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3c2b3eb948355c85938ed3ace9162155d3ed17afc2465585568d961d97afdc06",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/commit-work",
+  "schema_version": 1
+}

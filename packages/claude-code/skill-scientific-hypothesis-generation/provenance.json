@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "61ef49924b9243dab034418eccbc6794298057ba515e32a1b99beb57855348a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/SKILL.md",
+      "size": 13191
+    },
+    {
+      "digest": "bb5ebc0f46afaf000ec0d8a91f2d3388cd2c4a836d5ad9997acef0d0a7298897",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/assets/FORMATTING_GUIDE.md",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/assets/FORMATTING_GUIDE.md",
+      "size": 19304
+    },
+    {
+      "digest": "423b9a41cf0e67860b5cdd73ac9b4264bdb1241d2896ee0bc1ccb7f710fdec4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/assets/hypothesis_generation.sty",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/assets/hypothesis_generation.sty",
+      "size": 7625
+    },
+    {
+      "digest": "7a50e244eb7f16898c65ea892b2d2c5784661a5a6e27950daa366e6891a4fb8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/assets/hypothesis_report_template.tex",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/assets/hypothesis_report_template.tex",
+      "size": 20148
+    },
+    {
+      "digest": "c625281acf21123be76d6d8f829737cdda0b71646762e4a6eab96d01ba1bded1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/references/experimental_design_patterns.md",
+      "size": 14208
+    },
+    {
+      "digest": "be9e67528305e4e6ad3731c97f804173e843cf235fcac16cb10f8a8b982de08f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "size": 8051
+    },
+    {
+      "digest": "f16b8888e1839cde4e2ef00c19f955fb1224b5a0c73731f3454464927e1e6c46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypothesis-generation/skills/hypothesis-generation/references/literature_search_strategies.md",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/references/literature_search_strategies.md",
+      "size": 16656
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9200a27e2b2db5d4cbd9b845201fa2e42f30496027e9139af4f1776c7e0ced88",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/hypothesis-generation",
+  "schema_version": 1
+}

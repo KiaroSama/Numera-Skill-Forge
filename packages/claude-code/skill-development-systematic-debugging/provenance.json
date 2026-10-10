@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b482ef9a918fbfc6c369729e8160633ddfa2332466dd362ee73f1527c239ef8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/CREATION-LOG.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/CREATION-LOG.md",
+      "size": 4268
+    },
+    {
+      "digest": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/SKILL.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/SKILL.md",
+      "size": 9884
+    },
+    {
+      "digest": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "path": "cli-tool/components/skills/development/systematic-debugging/condition-based-waiting-example.ts",
+      "size": 5054
+    },
+    {
+      "digest": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/condition-based-waiting.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/condition-based-waiting.md",
+      "size": 3516
+    },
+    {
+      "digest": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/defense-in-depth.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/defense-in-depth.md",
+      "size": 3650
+    },
+    {
+      "digest": "6462747eae9b175ac145b78bcfaeab755654a75e32637f08eb633f065a9e1d7c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/find-polluter.sh",
+      "path": "cli-tool/components/skills/development/systematic-debugging/find-polluter.sh",
+      "size": 1528
+    },
+    {
+      "digest": "a81bee9448794d261b4aca8487c595d11ff4bd4e10a5f96bca1117dd32527050",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/root-cause-tracing.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/root-cause-tracing.md",
+      "size": 5327
+    },
+    {
+      "digest": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/test-academic.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/test-academic.md",
+      "size": 653
+    },
+    {
+      "digest": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/test-pressure-1.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/test-pressure-1.md",
+      "size": 1900
+    },
+    {
+      "digest": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/test-pressure-2.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/test-pressure-2.md",
+      "size": 2283
+    },
+    {
+      "digest": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-systematic-debugging/skills/systematic-debugging/test-pressure-3.md",
+      "path": "cli-tool/components/skills/development/systematic-debugging/test-pressure-3.md",
+      "size": 2692
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cf5595471ff94f250e05c5c75cbe1b49b86305358aea10155d0fd87079544f3a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/systematic-debugging",
+  "schema_version": 1
+}

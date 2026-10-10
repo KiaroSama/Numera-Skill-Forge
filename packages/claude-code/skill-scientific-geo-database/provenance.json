@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geo-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "66b84f6546e0363b703d19842fd8e8bc734e4319431624daefdf015fdbe55433",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geo-database/skills/geo-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/geo-database/SKILL.md",
+      "size": 24472
+    },
+    {
+      "digest": "63c1dca7bee3d6c8de448735aa6817365f7619932acccde06291a5b25c919766",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geo-database/skills/geo-database/references/geo_reference.md",
+      "path": "cli-tool/components/skills/scientific/geo-database/references/geo_reference.md",
+      "size": 21102
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2ebdb76c3d9f3a6d6fc0275d4ceb937cf572db4bd3a59b1b65984dd6abf6e4fd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/geo-database",
+  "schema_version": 1
+}

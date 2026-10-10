@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-fda-consultant-specialist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "80bd2e8b5c24dcd91b4aaf29493a08b6c936bef35453da8741de70957d919ddc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-fda-consultant-specialist/skills/fda-consultant-specialist/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/SKILL.md",
+      "size": 11190
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-fda-consultant-specialist/skills/fda-consultant-specialist/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "0907c1602132bb814e6bc8a1891ac0a098b7356d92aa57f9a55fc22ac1e76d29",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-fda-consultant-specialist/skills/fda-consultant-specialist/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/references/api_reference.md",
+      "size": 976
+    },
+    {
+      "digest": "b1e1d054e4d1113458cb629d8754190d0de6c9b4973e54fa08d27eae89e3031e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-fda-consultant-specialist/skills/fda-consultant-specialist/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/fda-consultant-specialist/scripts/example.py",
+      "size": 609
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6338086e473e15c2922d42a6fb2befb9ef3d7a5b1be18c27238713a412ff3d9f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/fda-consultant-specialist",
+  "schema_version": 1
+}

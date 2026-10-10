@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-capa-officer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8ca9a40952ec57994ac3d971a5df542edc988b3d4a3a2567acda31152936a489",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-capa-officer/skills/capa-officer/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/capa-officer/SKILL.md",
+      "size": 8320
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-capa-officer/skills/capa-officer/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/capa-officer/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "fb6a39d4c42eb6b3f6136509f9d75a4411b144fdc971afaab392af8fb685a8e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-capa-officer/skills/capa-officer/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/capa-officer/references/api_reference.md",
+      "size": 963
+    },
+    {
+      "digest": "1fcab827c52728e9fc70ddd0d81ed918fcd97475db991a02a2ffa92b77f3619d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-capa-officer/skills/capa-officer/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/capa-officer/scripts/example.py",
+      "size": 583
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b3583982647031df4a7588fe980b66403360869ca76713b9281ec83cd4664c83",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/capa-officer",
+  "schema_version": 1
+}

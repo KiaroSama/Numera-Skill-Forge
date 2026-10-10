@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "349dc1cd7f0c6592fef974eded95b690f9d2f62686a5e7171a83128dc86fce5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/histolab/SKILL.md",
+      "size": 20222
+    },
+    {
+      "digest": "c58c264996dd7e993b1cd945c20681ebff266f6b5c13f08d72a625d32ee79979",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/references/filters_preprocessing.md",
+      "path": "cli-tool/components/skills/scientific/histolab/references/filters_preprocessing.md",
+      "size": 12700
+    },
+    {
+      "digest": "d883d0f81de79afc30065c2ecd59b61e8306be422374fe13f6f5f069a254e2dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/references/slide_management.md",
+      "path": "cli-tool/components/skills/scientific/histolab/references/slide_management.md",
+      "size": 4701
+    },
+    {
+      "digest": "b2d978234b4ee675e7400bf79786a39ce605683123e138c41a6ca990d5edd712",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/references/tile_extraction.md",
+      "path": "cli-tool/components/skills/scientific/histolab/references/tile_extraction.md",
+      "size": 11297
+    },
+    {
+      "digest": "b454bf69cab4aad7cb09fbce81578be8e46ef7f599621b0a5263ca329fbed2aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/references/tissue_masks.md",
+      "path": "cli-tool/components/skills/scientific/histolab/references/tissue_masks.md",
+      "size": 7232
+    },
+    {
+      "digest": "77b27b0dccd288c9d5426cc4bfcf94f067473924ed690e47e5d36b851bb8a8d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-histolab/skills/histolab/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/histolab/references/visualization.md",
+      "size": 13970
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d55b57ad21a4951f77d1ee1793961dae7cf4d60f1cede1407e4ad701df01c45f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/histolab",
+  "schema_version": 1
+}

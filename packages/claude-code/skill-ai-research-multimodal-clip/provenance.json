@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-clip/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9fcacf1c041d71ef1e61c7cac2bb7a2c42c3d19d6c2a0fc2e5f5a3c9641b7a3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-clip/skills/clip/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-clip/SKILL.md",
+      "size": 6884
+    },
+    {
+      "digest": "682fc313e63cefbe466ed0efdf48048946a3abb292e5f32cf4058fcf59692ae9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-clip/skills/clip/references/applications.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-clip/references/applications.md",
+      "size": 5360
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "88fcdbdb6268ff2aa173b4dc5322e58ed6fae3bee1888a6a2b11a555287c3619",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-clip",
+  "schema_version": 1
+}

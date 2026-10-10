@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "94f29acdfd8f5535665fb2b52e35de8944ebd1841fa14a319fd5cc238dfcd3f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/skills/feedback-mastery/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/feedback-mastery/README.md",
+      "size": 9924
+    },
+    {
+      "digest": "d0ee923acf5ef526daceb0002084ae9478c8ab4def4661d63df4bb153b57eb9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/skills/feedback-mastery/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/feedback-mastery/SKILL.md",
+      "size": 11541
+    },
+    {
+      "digest": "4529a25cfce5531e03338ab3fa035cd9b0d75bbfee58057d4e2cc654967805aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/skills/feedback-mastery/references/difficult-conversation-scripts.md",
+      "path": "cli-tool/components/skills/enterprise-communication/feedback-mastery/references/difficult-conversation-scripts.md",
+      "size": 10232
+    },
+    {
+      "digest": "7132a9f02232777eb29cc1b9b2676b7b16acbd31f4aa082cfc373bf71ccdf41a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/skills/feedback-mastery/references/expectation-alignment.md",
+      "path": "cli-tool/components/skills/enterprise-communication/feedback-mastery/references/expectation-alignment.md",
+      "size": 8398
+    },
+    {
+      "digest": "d61d4f658870ae68adb0361b8352b5c486c0c705573f36de27a688ffc13b8731",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-feedback-mastery/skills/feedback-mastery/references/feedback-sbi-model.md",
+      "path": "cli-tool/components/skills/enterprise-communication/feedback-mastery/references/feedback-sbi-model.md",
+      "size": 8623
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b5db74cf23482c37251ee34ae3b7a95271753d8ecb1d34a81e168f92ab534360",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/feedback-mastery",
+  "schema_version": 1
+}

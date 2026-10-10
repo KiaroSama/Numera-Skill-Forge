@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "70f40b01a184cfd5cd2177c9b91bf6305ccca5f7d3a79703c698d34417712586",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/anndata/SKILL.md",
+      "size": 10185
+    },
+    {
+      "digest": "14eb30f34ea679c663fa25b923d0e2a31b7a1b7c4f89e4b8bf4f9cc9ed10cb40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/references/best_practices.md",
+      "path": "cli-tool/components/skills/scientific/anndata/references/best_practices.md",
+      "size": 12106
+    },
+    {
+      "digest": "a45f38572f56708d785050a3bafec5d918185cba013c409d678f9fbff1f7c091",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/references/concatenation.md",
+      "path": "cli-tool/components/skills/scientific/anndata/references/concatenation.md",
+      "size": 10504
+    },
+    {
+      "digest": "41d00139454a6d5fa5f8071583d9074effd1af9ff6658034274398939ca7fb3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/references/data_structure.md",
+      "path": "cli-tool/components/skills/scientific/anndata/references/data_structure.md",
+      "size": 8744
+    },
+    {
+      "digest": "20885ec82a36d76ccfb415945b1530fb2da9567fda52718a5156ff7b12bcdee5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/references/io_operations.md",
+      "path": "cli-tool/components/skills/scientific/anndata/references/io_operations.md",
+      "size": 9456
+    },
+    {
+      "digest": "e68cfa0c287a9d5fc562e3901339236e56344c6b529c5fbc7028593077656ba4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-anndata/skills/anndata/references/manipulation.md",
+      "path": "cli-tool/components/skills/scientific/anndata/references/manipulation.md",
+      "size": 11866
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fa0c103845e6ce2844cfa8ca6beb389b915ba53458be21f75e7e69b15415e44d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/anndata",
+  "schema_version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "763ab8f05f076e61b0c586b450b9291b9a2407d8301862f116e7937a0386c94e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/sympy/SKILL.md",
+      "size": 13365
+    },
+    {
+      "digest": "212b3d0c3b67a45160135a4ff8d9ae89e0064cf1c68adf408a6c2af5c0d82bb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/references/advanced-topics.md",
+      "path": "cli-tool/components/skills/scientific/sympy/references/advanced-topics.md",
+      "size": 13132
+    },
+    {
+      "digest": "b6f5e8b820823f70878e0b4238b582215e6b6ae6f63830766e28977d58c86f94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/references/code-generation-printing.md",
+      "path": "cli-tool/components/skills/scientific/sympy/references/code-generation-printing.md",
+      "size": 12427
+    },
+    {
+      "digest": "faa6c94d699a241d0ccaeaf79319abc5095fc90b7746fd7a94568161336ae7ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/references/core-capabilities.md",
+      "path": "cli-tool/components/skills/scientific/sympy/references/core-capabilities.md",
+      "size": 7754
+    },
+    {
+      "digest": "f22d091d2a38957e0e820e859e172b2d535cc1eef4f98d32d4af02962bd9a73c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/references/matrices-linear-algebra.md",
+      "path": "cli-tool/components/skills/scientific/sympy/references/matrices-linear-algebra.md",
+      "size": 9639
+    },
+    {
+      "digest": "e5853aa09e9bddc37134afd7469bc86b952edcbd9dd6d8a6ef9c2c24a2e0fbf3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-sympy/skills/sympy/references/physics-mechanics.md",
+      "path": "cli-tool/components/skills/scientific/sympy/references/physics-mechanics.md",
+      "size": 12053
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "367a462899247f6de3cd420c66d39f862ad6f118c0b1bad5255748463ec521ed",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/sympy",
+  "schema_version": 1
+}

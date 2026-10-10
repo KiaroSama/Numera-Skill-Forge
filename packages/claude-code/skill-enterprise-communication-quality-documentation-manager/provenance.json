@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-documentation-manager/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "10abed5dd9535c3154940ae9c3f9e5b3c580186b5a9d73c8f53f36d0ae110b91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-documentation-manager/skills/quality-documentation-manager/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-documentation-manager/SKILL.md",
+      "size": 13421
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-documentation-manager/skills/quality-documentation-manager/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-documentation-manager/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "c8733d55922759ade0f3fd5eeeaef7091a61996f24ce9ed34ae9e2fe4fe98310",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-documentation-manager/skills/quality-documentation-manager/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-documentation-manager/references/api_reference.md",
+      "size": 980
+    },
+    {
+      "digest": "58ac0a92a6253c6fae6df5052038c1696ae61dcf14dcf1687d66423ceb6d9626",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-documentation-manager/skills/quality-documentation-manager/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-documentation-manager/scripts/example.py",
+      "size": 617
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5b41023fa50ecf3e9f504d16b6c566dd864381274c2f6b65a98157e934d4a83f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/quality-documentation-manager",
+  "schema_version": 1
+}

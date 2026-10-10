@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2614a6808c5a1024ee77f5bf26aa0f788f90ddd5b7399234e59e57781e77d8dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/SKILL.md",
+      "size": 13464
+    },
+    {
+      "digest": "eeb773e9add21d6cd37ee717dc3251e3951b89fbd5e474fadca8408b9f6cc564",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/references/environments.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/references/environments.md",
+      "size": 12489
+    },
+    {
+      "digest": "1ec4dbbf6923631d4e6002e7a82c9ed8fff08dc64eb75305e4a42577bbcd015e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/references/integration.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/references/integration.md",
+      "size": 15165
+    },
+    {
+      "digest": "fb898cbc18f6adf5d57d5338afe0e5b80ae7c669cee323228f5becdea04ee9fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/references/policies.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/references/policies.md",
+      "size": 19183
+    },
+    {
+      "digest": "06bba5c274ec8dba3812c0609225892122f840ba4159c810023158025cc34cba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/references/training.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/references/training.md",
+      "size": 8127
+    },
+    {
+      "digest": "8c163431de060ee64b91a70f1057b04ca2d0c089be8150b0868f1f9af3716f49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/references/vectorization.md",
+      "path": "cli-tool/components/skills/scientific/pufferlib/references/vectorization.md",
+      "size": 12962
+    },
+    {
+      "digest": "9f394e9c719e50926181ab603abfbc2d1d1a8747c7dd384d24836c0e4de8713e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/scripts/env_template.py",
+      "path": "cli-tool/components/skills/scientific/pufferlib/scripts/env_template.py",
+      "size": 10157
+    },
+    {
+      "digest": "e0dffda87ea42e890769205ea0eb71ab2d1892f5d3015a189196fc03b6729d9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pufferlib/skills/pufferlib/scripts/train_template.py",
+      "path": "cli-tool/components/skills/scientific/pufferlib/scripts/train_template.py",
+      "size": 8027
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fddbd38fd0e4a7c848b6ae809ca12ae46f1c3211fbe82e046b1c2b239c4a4e21",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pufferlib",
+  "schema_version": 1
+}

@@ -94,7 +94,7 @@ fn selection(tree: &[Blob], skill: &Skill) -> Result<Vec<Blob>> {
         .cloned()
         .collect::<Vec<_>>();
     for file in &selected {
-        if policy::protected(&file.path) {
+        if policy::protected(&file.path) && !skill.reviewed_templates.contains_key(&file.path) {
             return Err(Error::new(
                 "protected-payload",
                 "Skill contains excluded private/local content; no incomplete copy is published",
@@ -154,6 +154,7 @@ fn files(
         .collect()
 }
 fn package(
+    root: &Path,
     collection: &Collection,
     skill: &Skill,
     revision: &str,
@@ -167,6 +168,22 @@ fn package(
         outputs.insert(file.output_path.clone(), payload[&file.path].clone());
     }
     let prefix = format!("packages/claude-code/{}", skill.id);
+    for (index, notice) in skill.notices.iter().enumerate() {
+        let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
+        if storage::digest(&bytes) != notice.digest {
+            return Err(Error::new(
+                "license-review",
+                "Original notice changed during packaging",
+            ));
+        }
+        outputs.insert(
+            format!("{prefix}/upstream-notices/original-{index}.txt"),
+            bytes,
+        );
+    }
+    if !skill.notices.is_empty() {
+        outputs.insert(format!("{prefix}/upstream-notices/attribution.json"), storage::encoded(&json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}))?);
+    }
     outputs.insert(format!("{prefix}/.claude-plugin/plugin.json"),storage::encoded(&json!({"name":skill.id,"version":version,"description":format!("Unmodified upstream skill: {}",skill.root),"author":{"name":"Numera Skill Forge (package assembler)"},"repository":collection.repository,"license":skill.license}))?);
     outputs.insert(format!("{prefix}/provenance.json"),storage::encoded(&json!({"schema_version":1,"collection":collection.id,"repository":collection.repository,"root":skill.root,"revision":revision,"license":skill.license,"payload_digest":digest,"files":files,"execution":"not-performed"}))?);
     let generated = outputs
@@ -193,7 +210,7 @@ fn check_owned(root: &Path, accepted: &Accepted) -> Result<()> {
     if !dir.exists() {
         return Ok(());
     }
-    let actual = storage::files(&dir)?;
+    let actual = storage::payload_files(&dir)?;
     if actual.len() != accepted.generated.len() {
         return Err(Error::new(
             "generated-conflict",
@@ -298,9 +315,13 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
     let mut statuses = vec![];
     let mut partial = false;
     for collection in &registry.collections {
+        crate::jobs::checkpoint()?;
         let repository = match Repository::open(root, collection, offline) {
             Ok(repo) => repo,
             Err(e) => {
+                if matches!(e.code, "cancelled" | "timeout") {
+                    return Err(e);
+                }
                 partial = true;
                 statuses.push(json!({"collection":collection.id,"status":"failed","code":e.code}));
                 continue;
@@ -316,6 +337,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
         };
         let tree = repository.tree(&revision)?;
         for skill in &collection.skills {
+            crate::jobs::checkpoint()?;
             let key = format!("{}/{}", collection.id, skill.id);
             let prior = state.entries.get(&key).cloned();
             let outcome = (|| -> Result<&'static str> {
@@ -326,7 +348,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     repository.ensure_revision(&prior.revision, offline)?;
                     let old_selected = selection(&repository.tree(&prior.revision)?, skill)?;
                     let old_payload = repository.blobs(&old_selected)?;
-                    policy::verify_license(skill, &old_payload)?;
+                    policy::verify_license(root, skill, &old_payload)?;
                     let old_files = files(skill, &old_selected, &old_payload)?;
                     if old_files != prior.files {
                         return Err(Error::new(
@@ -335,6 +357,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                         ));
                     }
                     let (rebuilt, outputs) = package(
+                        root,
                         collection,
                         skill,
                         &prior.revision,
@@ -365,11 +388,32 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 };
                 let selected = selection(selected_tree, skill)?;
                 let candidate = repository.blobs(&selected)?;
-                policy::verify_license(skill, &candidate)?;
+                policy::verify_license(root, skill, &candidate)?;
                 let candidate_files = files(skill, &selected, &candidate)?;
                 let digest = storage::digest(&storage::encoded(&candidate_files)?);
                 if let Some(prior) = &prior {
                     check_owned(root, prior)?;
+                    if !skill.notices.is_empty() {
+                        for (index, notice) in skill.notices.iter().enumerate() {
+                            let path = format!(
+                                "packages/claude-code/{}/upstream-notices/original-{index}.txt",
+                                skill.id
+                            );
+                            if prior.generated.get(&path) != Some(&notice.digest) {
+                                return Ok("review-required");
+                            }
+                        }
+                        let attribution = storage::encoded(
+                            &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}),
+                        )?;
+                        let path = format!(
+                            "packages/claude-code/{}/upstream-notices/attribution.json",
+                            skill.id
+                        );
+                        if prior.generated.get(&path) != Some(&storage::digest(&attribution)) {
+                            return Ok("review-required");
+                        }
+                    }
                     if prior.content_digest == digest {
                         return Ok("unchanged");
                     }
@@ -395,6 +439,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     "1.0.0".into()
                 };
                 let (accepted, outputs) = package(
+                    root,
                     collection,
                     skill,
                     accepted_revision,
@@ -417,7 +462,7 @@ pub fn sync(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     statuses.push(json!({"collection":collection.id,"skill":skill.id,"status":status,"revision":revision}));
                 }
                 Err(e) => {
-                    if e.code == "recovery-required" {
+                    if matches!(e.code, "recovery-required" | "cancelled" | "timeout") {
                         return Err(e);
                     }
                     partial = true;
@@ -507,6 +552,79 @@ pub fn verify(root: &Path) -> Result<Value> {
                 "approval-stale",
                 "Collection registration differs from accepted state",
             ));
+        }
+        if !skill.license_path.is_empty()
+            && !accepted
+                .files
+                .iter()
+                .any(|file| file.path == skill.license_path && file.digest == skill.license_digest)
+        {
+            return Err(Error::new(
+                "approval-stale",
+                "Registered license differs from accepted evidence",
+            ));
+        }
+        for (index, notice) in skill.notices.iter().enumerate() {
+            let original = storage::bytes(&validation::contained(root, &notice.path)?)?;
+            let output = format!(
+                "packages/claude-code/{}/upstream-notices/original-{index}.txt",
+                skill.id
+            );
+            if storage::digest(&original) != notice.digest
+                || accepted.generated.get(&output) != Some(&notice.digest)
+            {
+                return Err(Error::new(
+                    "approval-stale",
+                    "Original notice registration differs from accepted package",
+                ));
+            }
+        }
+        let notice_prefix = format!(
+            "packages/claude-code/{}/upstream-notices/original-",
+            skill.id
+        );
+        if accepted
+            .generated
+            .keys()
+            .filter(|path| path.starts_with(&notice_prefix))
+            .count()
+            != skill.notices.len()
+        {
+            return Err(Error::new(
+                "approval-stale",
+                "Original notice count differs from acceptance",
+            ));
+        }
+        if !skill.notices.is_empty() {
+            if skill.license_path.is_empty() && skill.license_digest != skill.notices[0].digest {
+                return Err(Error::new(
+                    "approval-stale",
+                    "Original license approval differs",
+                ));
+            }
+            let attribution = storage::encoded(
+                &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}),
+            )?;
+            let path = format!(
+                "packages/claude-code/{}/upstream-notices/attribution.json",
+                skill.id
+            );
+            if accepted.generated.get(&path) != Some(&storage::digest(&attribution)) {
+                return Err(Error::new(
+                    "approval-stale",
+                    "Original attribution differs from acceptance",
+                ));
+            }
+        }
+        for file in &accepted.files {
+            if policy::protected(&file.path)
+                && skill.reviewed_templates.get(&file.path) != Some(&file.digest)
+            {
+                return Err(Error::new(
+                    "approval-stale",
+                    "Protected template approval withdrawn or changed",
+                ));
+            }
         }
         if accepted.files.iter().any(|f| {
             !accepted.generated.contains_key(&f.output_path)

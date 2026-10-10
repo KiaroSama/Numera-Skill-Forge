@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-langchain/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d47635059ac1a1a369ee6169f68f1d02e95ca201f2394a902fe66a30b1e35e65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-langchain/skills/langchain/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agents-langchain/SKILL.md",
+      "size": 12839
+    },
+    {
+      "digest": "724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-langchain/skills/langchain/references/agents.md",
+      "path": "cli-tool/components/skills/ai-research/agents-langchain/references/agents.md",
+      "size": 12661
+    },
+    {
+      "digest": "e98c59ee6d60bfe27d7971cc615d86b3bf56ceab7e82263145c367cb8b5d3157",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-langchain/skills/langchain/references/integration.md",
+      "path": "cli-tool/components/skills/ai-research/agents-langchain/references/integration.md",
+      "size": 11832
+    },
+    {
+      "digest": "4a4cb97d383fd23f4a4558ec5cf2885be1a74bf176c2ab708770fcaedf0b153c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-langchain/skills/langchain/references/rag.md",
+      "path": "cli-tool/components/skills/ai-research/agents-langchain/references/rag.md",
+      "size": 14490
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8157b4989054ee31d9ce6c44cd4b886800b08a3e55391042e2d5571f58a70096",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agents-langchain",
+  "schema_version": 1
+}

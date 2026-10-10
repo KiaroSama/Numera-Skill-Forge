@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-security/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d7e26f159d81a9e5ca9a7bc9ff3af116876068349d727b894c6b50020efbd7a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-security/SKILL.md",
+      "size": 4530
+    },
+    {
+      "digest": "d4d994d22c107903fe29c6f6bde732f92e7a5eb26eaa9b200f10a3d4ddbe4adb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/references/cryptography_implementation.md",
+      "path": "cli-tool/components/skills/development/senior-security/references/cryptography_implementation.md",
+      "size": 1622
+    },
+    {
+      "digest": "06aaca9578eb2b91664f0ef964c03621b80c47469260b2982764615aaacdc512",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/references/penetration_testing_guide.md",
+      "path": "cli-tool/components/skills/development/senior-security/references/penetration_testing_guide.md",
+      "size": 1620
+    },
+    {
+      "digest": "86619c5fb1ae5432b2d0be75b897144161f260afaa2ded33fae0988f5da50b1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/references/security_architecture_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-security/references/security_architecture_patterns.md",
+      "size": 1625
+    },
+    {
+      "digest": "8b2280d6ee02a852b9fe92dc400fae1787998c4ad1d1d3bfbb19d06c05f40b30",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/scripts/pentest_automator.py",
+      "path": "cli-tool/components/skills/development/senior-security/scripts/pentest_automator.py",
+      "size": 3135
+    },
+    {
+      "digest": "ce767c5773cbdd5d99601819061670839b521b6b9d13a4de6f10bd189caa2fe9",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/scripts/security_auditor.py",
+      "path": "cli-tool/components/skills/development/senior-security/scripts/security_auditor.py",
+      "size": 3130
+    },
+    {
+      "digest": "2a62f3043d9d402b15a5e749b3eecc657c0c390e8ddb8d36d9900f57c55ed2a5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-security/skills/senior-security/scripts/threat_modeler.py",
+      "path": "cli-tool/components/skills/development/senior-security/scripts/threat_modeler.py",
+      "size": 3120
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c1caeb9876bfd915e5722cba99f3ca2e9b06273beb3bcc9d050579b9aa98daa4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-security",
+  "schema_version": 1
+}

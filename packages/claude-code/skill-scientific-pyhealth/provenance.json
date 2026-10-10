@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "782127318c0c5f3581ae274f2ffa18a7ab229c3e218ec6da00fc639c631c8a9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/SKILL.md",
+      "size": 17590
+    },
+    {
+      "digest": "bc62c85cf819d49a1dce932d59b315ad78a0f6533c170773c1fc40f0a467a76e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/datasets.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/datasets.md",
+      "size": 5468
+    },
+    {
+      "digest": "64510b53d1970dbba830d9d496c729eae5c09977f482855b8ca6f573e32dc9ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/medical_coding.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/medical_coding.md",
+      "size": 8476
+    },
+    {
+      "digest": "d646b2e537e2441c58f6d74bf997718855f6c14ed862f76188873f54afee5668",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/models.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/models.md",
+      "size": 13776
+    },
+    {
+      "digest": "2ebb8e06352b8bfbf9a6ee944d143833cf90fbd52552316427c910acf821525e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/preprocessing.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/preprocessing.md",
+      "size": 14388
+    },
+    {
+      "digest": "b776d483b861ee014e237eedb97cb8870ea856760bcba57af18bed98050e3c46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/tasks.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/tasks.md",
+      "size": 11404
+    },
+    {
+      "digest": "c049d5af7848e9b3da457edcab4a10a427f2919f2bac62fd97259b9a376e64a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyhealth/skills/pyhealth/references/training_evaluation.md",
+      "path": "cli-tool/components/skills/scientific/pyhealth/references/training_evaluation.md",
+      "size": 16982
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "45fdc3a1ed4132d8fee7280d09cf8aa85e8df5d2bfe38d87d34c88099e185059",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pyhealth",
+  "schema_version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a78ffcddca5c0d2a674f0557e94df2ab6befc66280baaf6df1fdcc8db93e95f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/SKILL.md",
+      "size": 25298
+    },
+    {
+      "digest": "ffea28da930406ecb11bbeaebfc530dfac40b772827a7653f449cb3b0bb35309",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/assets/color_palettes.py",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/assets/color_palettes.py",
+      "size": 5754
+    },
+    {
+      "digest": "05b5cab4b5286cd812ff3ceba31845c08baa083d77382df05ec100383e4ff040",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/assets/nature.mplstyle",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/assets/nature.mplstyle",
+      "size": 1449
+    },
+    {
+      "digest": "a47167d633cd0695bc428a42ed4e790a69f90d0204ed560bae6902785ba2b823",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/assets/presentation.mplstyle",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/assets/presentation.mplstyle",
+      "size": 1309
+    },
+    {
+      "digest": "38244036fb563bdf50b6b15ac927ae62afa3a8f6acf03ec5c9b317adad9c5a14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/assets/publication.mplstyle",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/assets/publication.mplstyle",
+      "size": 1474
+    },
+    {
+      "digest": "4d9ec64478dee9fc8de43fbde9983a413520c436099b0c560b21eadec572270b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/references/color_palettes.md",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/references/color_palettes.md",
+      "size": 9861
+    },
+    {
+      "digest": "69157b820c78e9bca299ea6f7dcb49624ea778ec3ed619a98e82c3b60e6dc782",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/references/journal_requirements.md",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/references/journal_requirements.md",
+      "size": 9533
+    },
+    {
+      "digest": "d9195bb8c1b80f235495ac8a63e86fef0462e99cc2cc7d5d244818bfe5ee08cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/references/matplotlib_examples.md",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/references/matplotlib_examples.md",
+      "size": 18103
+    },
+    {
+      "digest": "c8430dfe7d374edc771c55a0d9c6e1f07ab803f16321d21941835e93944da2d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/references/publication_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/references/publication_guidelines.md",
+      "size": 8556
+    },
+    {
+      "digest": "542f604c2a4dc642c055b24ef26b9e9e808616a33fde0cd2154c975dc83318d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/scripts/figure_export.py",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/scripts/figure_export.py",
+      "size": 10904
+    },
+    {
+      "digest": "3a4163c6aaaf6792665cf890ab497a2b5070c0ed0adfa524fcaee5262a3f1792",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-visualization/skills/scientific-visualization/scripts/style_presets.py",
+      "path": "cli-tool/components/skills/scientific/scientific-visualization/scripts/style_presets.py",
+      "size": 12199
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ae5878c1cce51b5f4796e72644d74d60351733655091294fdc5c8dd1bb3a8162",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-visualization",
+  "schema_version": 1
+}

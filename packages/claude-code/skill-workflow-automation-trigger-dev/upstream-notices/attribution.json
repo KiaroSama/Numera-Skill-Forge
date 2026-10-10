@@ -1,0 +1,30 @@
+{
+  "attribution": "Original skill content: vibeforge1111/vibeship-spawner-skills, Apache-2.0; Markdown conversion: sickn33/antigravity-awesome-skills, MIT. Preserve source attribution and indicate conversion/adaptation; do not claim davila-only authorship. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/workflow-automation/trigger-dev/SKILL.md https://github.com/vibeforge1111/vibeship-spawner-skills/blob/70b2e1062fc6a38fce854226c27097a87732cb5f/integrations/trigger-dev/skill.yaml https://github.com/vibeforge1111/vibeship-spawner-skills/blob/70b2e1062fc6a38fce854226c27097a87732cb5f/package.json https://github.com/vibeforge1111/vibeship-spawner-skills/blob/70b2e1062fc6a38fce854226c27097a87732cb5f/README.md https://github.com/davila7/claude-code-templates/commit/1deb97c72161528f6b7d84bc5117ae4be2e42735 https://github.com/sickn33/antigravity-awesome-skills/blob/e053fd0eb7b2845adf2931506e5c69fa188f3ac7/skills/trigger-dev/SKILL.md",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+      "source": "https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE"
+    },
+    {
+      "digest": "8d5a9aca704626091993b3f9931dd65dc5ac92a2f0416c27e19529e2baeca696",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/8d5a9aca704626091993b3f9931dd65dc5ac92a2f0416c27e19529e2baeca696.txt",
+      "source": "https://github.com/vibeforge1111/vibeship-spawner-skills/blob/70b2e1062fc6a38fce854226c27097a87732cb5f/package.json"
+    },
+    {
+      "digest": "eb0e7c27b9158d3e2a5dcd148050e0ae1e7d4a5550803be639f35b7e0ff9586c",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/eb0e7c27b9158d3e2a5dcd148050e0ae1e7d4a5550803be639f35b7e0ff9586c.txt",
+      "source": "https://github.com/vibeforge1111/vibeship-spawner-skills/blob/70b2e1062fc6a38fce854226c27097a87732cb5f/README.md"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/e053fd0eb7b2845adf2931506e5c69fa188f3ac7/LICENSE"
+    }
+  ]
+}

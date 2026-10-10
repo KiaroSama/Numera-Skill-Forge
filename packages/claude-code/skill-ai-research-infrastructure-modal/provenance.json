@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-modal/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "219757503f84684534b3efe5616822ad17e6dc5c6cad127e6b46033a429d38ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-modal/skills/modal-serverless-gpu/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-modal/SKILL.md",
+      "size": 8555
+    },
+    {
+      "digest": "1e65ec0c842b7fb0bbda4a091ea19069d749992c4f95cd8bd966863a26addf0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-modal/skills/modal-serverless-gpu/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-modal/references/advanced-usage.md",
+      "size": 10903
+    },
+    {
+      "digest": "df2d4f66c8301c9ffc067d9170271b2d31c0dcd56bba5d83ea07882475110ccb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-infrastructure-modal/skills/modal-serverless-gpu/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-modal/references/troubleshooting.md",
+      "size": 10516
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "415c8f922337f3a16728c3bef3776d166ac3061b3ce7a9c26e16e0b19bf7c401",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/infrastructure-modal",
+  "schema_version": 1
+}

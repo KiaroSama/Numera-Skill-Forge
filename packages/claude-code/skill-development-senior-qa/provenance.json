@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-qa/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4453b4aa9bf923a911ee0c44249e74a95b91b5da7daee16c61652a8a7c8595ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-qa/SKILL.md",
+      "size": 4461
+    },
+    {
+      "digest": "35f7878ade02eb2c1f8fbf67b8cf7f27c4d66cf1093e4d483b5b2860c84e3f08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/references/qa_best_practices.md",
+      "path": "cli-tool/components/skills/development/senior-qa/references/qa_best_practices.md",
+      "size": 1600
+    },
+    {
+      "digest": "6b7c43ad88df0f55c4bda0efca2cbb202162a1cb1e5dfc0b11c8829e25625026",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/references/test_automation_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-qa/references/test_automation_patterns.md",
+      "size": 1607
+    },
+    {
+      "digest": "cea2d5eea69ebfcb7d7b102cfb3097884b2f17e5a4e49aed86ca0afa0aee785a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/references/testing_strategies.md",
+      "path": "cli-tool/components/skills/development/senior-qa/references/testing_strategies.md",
+      "size": 1601
+    },
+    {
+      "digest": "e08093a0b56879523910e11ede760e70cd08f651f121f6de17a638e2b1a3b01b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/scripts/coverage_analyzer.py",
+      "path": "cli-tool/components/skills/development/senior-qa/scripts/coverage_analyzer.py",
+      "size": 3129
+    },
+    {
+      "digest": "ba9c6f8e1f7483726666a0594f38ccc34e57216f4033de27e7c54cdbf96f32a9",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/scripts/e2e_test_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-qa/scripts/e2e_test_scaffolder.py",
+      "size": 3137
+    },
+    {
+      "digest": "68acd4bd28a5eaffcc41e9e0c81c30d4a7787c8c29ac1134e9d569427abe2a11",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-qa/skills/senior-qa/scripts/test_suite_generator.py",
+      "path": "cli-tool/components/skills/development/senior-qa/scripts/test_suite_generator.py",
+      "size": 3142
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1018657cf6dbafcac6adae27038a15f0bb0619cb3133dca0241d1f88a0371dfa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-qa",
+  "schema_version": 1
+}

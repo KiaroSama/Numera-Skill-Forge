@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4673558954e6ab0272a3c4d3b7b5bbe84561fb6889ef1d58906b0835b037a1cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/SKILL.md",
+      "size": 9306
+    },
+    {
+      "digest": "43409fcaadd5b6b3b2bdf307d204183c5c29b2e91e61b75a1039b9a1486982df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/advanced_features.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/advanced_features.md",
+      "size": 9011
+    },
+    {
+      "digest": "a2f971b5a24d489723d3aa36a40f6ce51058ea853f6f034615b9285dfebaadee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/installation.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/installation.md",
+      "size": 1204
+    },
+    {
+      "digest": "88ed758bd4986ea068024884ce3633764535ccfc84af5f7cdb6c3b61ef2a52f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/output_analysis.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/output_analysis.md",
+      "size": 6027
+    },
+    {
+      "digest": "41ae6976c8a950b7cd1a0e3cf8bce2f5c2120ed4cd4bcfb2b2d42899fc2cf701",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/parameters.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/parameters.md",
+      "size": 4936
+    },
+    {
+      "digest": "38adf5b402e878b8c929cdd94ef014320345140ff0939efb422afe24168e2daa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/simulation_workflow.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/simulation_workflow.md",
+      "size": 3862
+    },
+    {
+      "digest": "3abe711620b8c463e2916851985ebab1bfbbbacfa9f944e07b1e7d38c2887bb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fluidsim/skills/fluidsim/references/solvers.md",
+      "path": "cli-tool/components/skills/scientific/fluidsim/references/solvers.md",
+      "size": 2419
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d0e50b215892f45c5d2671c1db1f58f845a2c618c08e78697f9bc0e096cb009e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/fluidsim",
+  "schema_version": 1
+}

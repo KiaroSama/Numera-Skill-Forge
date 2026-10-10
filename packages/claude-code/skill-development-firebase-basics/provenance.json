@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "615c5bf2873504c1e747b5291520ea544b2381327232dc204e209b40d4e78b23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/SKILL.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/SKILL.md",
+      "size": 3398
+    },
+    {
+      "digest": "0b000a2161a3d6697ac5f05fdc7b7b5f867825cb68bb49ca0414339c6df258f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/additional-skills.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/additional-skills.md",
+      "size": 11785
+    },
+    {
+      "digest": "22be07b1343123c31552108ee3eb8fd047749e156d0360e8b1e8c6e6d866f368",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/cli-usage.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/cli-usage.md",
+      "size": 903
+    },
+    {
+      "digest": "ff8c4bbd23b7bb54f4add753440cfd779bc859301386002fdd64bf774aacbcc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/client-library-usage.md",
+      "size": 1735
+    },
+    {
+      "digest": "fe2a1964e16a97c6b3fafd0ca2b538bc8761f4a0413689972ec12a8988ceda0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/core-concepts.md",
+      "size": 2802
+    },
+    {
+      "digest": "a991b912488b16d23b01a4f6734e8efe98dd7ada8fd06d736d2513da9e70ae97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/iac-usage.md",
+      "size": 1327
+    },
+    {
+      "digest": "ab4ec92b880f012033841fa6040954c367ebd64dfd6428ccb07245665708fc5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/iam-security.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/iam-security.md",
+      "size": 3158
+    },
+    {
+      "digest": "d3a96dee1a7259d310c0ce74dd274f1423c957836c338cd5e94d84946868835a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase-basics/skills/firebase-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/development/firebase-basics/references/mcp-usage.md",
+      "size": 1741
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8ee9f6a89f44b268c96c44264bf10f8322cdf1f63c813464a20f29e854356741",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/firebase-basics",
+  "schema_version": 1
+}

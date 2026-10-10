@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-waf-reliability/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "613ea5c65f2e4f85b30d651aefc8dbafc70a605822483c699f09713f8a8f1dc8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-waf-reliability/skills/google-cloud-waf-reliability/SKILL.md",
+      "path": "cli-tool/components/skills/development/google-cloud-waf-reliability/SKILL.md",
+      "size": 7023
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "0d2959b3c2abf1dd3b92ceae23c363560bb49706c2a6768802781db104a2eb34",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/google-cloud-waf-reliability",
+  "schema_version": 1
+}

@@ -10,7 +10,8 @@ starts empty; the owner-approved davila7 collection is registered separately in 
 4. Explicitly approve the exact digest; executable content requires separate trust approval.
 5. Register an independently installable package, then build its target with accepted locked inputs.
 
-See [example package record](../examples/package.json). Components omitted/empty selects discovered
+See [example package record](../examples/package.json), [complete first-party fixture](../examples/complete-inventory/README.md)
+and [editor schema](../schemas/registry.schema.json). Components omitted/empty selects discovered
 components; required unsupported conversions fail instead of dropping material. Dependencies must
 reference existing packages and cannot form cycles.
 
@@ -25,7 +26,11 @@ existing valid profile does not. Unknown/missing licenses block redistribution p
 ## Exact skill collections
 
 `registry/collections.json` records explicitly reviewed skill roots, immutable initial revision and
-license path/digest. Each skill gets one plugin. `collection sync --apply` retains complete original
+license path/digest. Original grants omitted by the aggregator can be supplied as `notices` with
+tracked original legal-text path, exact digest and immutable source URL; adaptation attribution stays
+outside the unchanged skill payload. MIT, Apache-2.0 and CC-BY-4.0 remain distinct grants. Exact
+reviewed public environment templates use `reviewed_templates`; real secrets remain forbidden.
+See [collection schema](../schemas/collections.schema.json). Each skill gets one plugin. `collection sync --apply` retains complete original
 files and executable modes; `collection verify` checks accepted payloads and native catalog without
 execution. Adding a reviewed collection or skill is registration data, not an engine edit.
 See [licensing](source-licenses.md) and [daily/local updates](upstream-sync.md).

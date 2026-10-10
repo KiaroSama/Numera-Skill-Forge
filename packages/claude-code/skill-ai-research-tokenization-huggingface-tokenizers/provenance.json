@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d2ff3f9eed2cb8e15cb98e8e2398ca359325a32fd5d16ebfe0d115d7624583af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/skills/huggingface-tokenizers/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers/SKILL.md",
+      "size": 13674
+    },
+    {
+      "digest": "b26bb48dca45c57797e23ee8d3afa3c602ffbb243a47c0a9a171f3f6828a08ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/skills/huggingface-tokenizers/references/algorithms.md",
+      "path": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers/references/algorithms.md",
+      "size": 15182
+    },
+    {
+      "digest": "9e9c3f938424434da8e7b962ff536b2b3b4b585a0dabc5c9292a12c2a1682349",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/skills/huggingface-tokenizers/references/integration.md",
+      "path": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers/references/integration.md",
+      "size": 15389
+    },
+    {
+      "digest": "3fe8a70a27b1bf9aa52f6320a4da569c510fcf602e026cfc57a3f1518175cfc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/skills/huggingface-tokenizers/references/pipeline.md",
+      "path": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers/references/pipeline.md",
+      "size": 16746
+    },
+    {
+      "digest": "9732225aacd7dacd83063a1c206e8566793fe41c628fd32f827e3489246dfcfe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-tokenization-huggingface-tokenizers/skills/huggingface-tokenizers/references/training.md",
+      "path": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers/references/training.md",
+      "size": 14559
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "76f9be30686c3114bb14a54a0cd179505924d2a09673ffb1ce822f00aa3ef04d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers",
+  "schema_version": 1
+}

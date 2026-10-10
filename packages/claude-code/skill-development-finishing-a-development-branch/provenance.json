@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-finishing-a-development-branch/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-finishing-a-development-branch/skills/finishing-a-development-branch/SKILL.md",
+      "path": "cli-tool/components/skills/development/finishing-a-development-branch/SKILL.md",
+      "size": 4250
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b1534159917da7a9bbf6bb40998fb8bac3c2f640ba158ae9a7d3abcf7b7fd134",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/finishing-a-development-branch",
+  "schema_version": 1
+}

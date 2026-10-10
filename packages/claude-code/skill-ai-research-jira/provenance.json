@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-jira/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "af5b36c3ff3e413203cbafd8af45d96d2a69d52de7078027567802acbef13ff1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-jira/skills/jira/README.md",
+      "path": "cli-tool/components/skills/ai-research/jira/README.md",
+      "size": 8744
+    },
+    {
+      "digest": "80cd136d92343b002c2cb2e25c1aefe665c8c6b8241c46dfd66f39da3bb97430",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-jira/skills/jira/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/jira/SKILL.md",
+      "size": 6106
+    },
+    {
+      "digest": "a3c2087fac7a3aa0f42c857ca5d99b5adef6cbe4d29f03914dc03242f68c3414",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-jira/skills/jira/references/commands.md",
+      "path": "cli-tool/components/skills/ai-research/jira/references/commands.md",
+      "size": 4594
+    },
+    {
+      "digest": "670339d30b14e1568e7d99250bc07b5984a66b9f954b2ae111ed5a5889a0ec85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-jira/skills/jira/references/mcp.md",
+      "path": "cli-tool/components/skills/ai-research/jira/references/mcp.md",
+      "size": 11894
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9c87e61c866ef1b9353eedbdc1e073336accb6aca83ee4f037eedb6b17cd8a2d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/jira",
+  "schema_version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "25d79e95290fe27f6e7360dfb816fb0f0082b6c9c846e02d94402d93c3974673",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/qutip/SKILL.md",
+      "size": 9310
+    },
+    {
+      "digest": "afd329f6c754d8c287277db651e82fa7114d0c50824ce18f01e6fb0797bec2f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/references/advanced.md",
+      "path": "cli-tool/components/skills/scientific/qutip/references/advanced.md",
+      "size": 11628
+    },
+    {
+      "digest": "87172f2a375ca9caf9daa74f58fc046bab1d77db0baca7b6aba260fb822c20bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/references/analysis.md",
+      "path": "cli-tool/components/skills/scientific/qutip/references/analysis.md",
+      "size": 9387
+    },
+    {
+      "digest": "313e2781add21335cb0fc00f4bde2060a4510e0c08c9a1742aeb2ac53db59c96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/references/core_concepts.md",
+      "path": "cli-tool/components/skills/scientific/qutip/references/core_concepts.md",
+      "size": 5595
+    },
+    {
+      "digest": "7c5bca95cb69a61752cc30266c1b1a6f57992a4b63b40e66926d5bf1c8a2ac52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/references/time_evolution.md",
+      "path": "cli-tool/components/skills/scientific/qutip/references/time_evolution.md",
+      "size": 7866
+    },
+    {
+      "digest": "962c51c0a617be95700d251b51d140f03cc7e5d8bf1df9ee5e46580409b89564",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qutip/skills/qutip/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/qutip/references/visualization.md",
+      "size": 8288
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1d56ad47cfa6f634f622a3c779fa5a4546d2a2a368fa76fc40681e08f902cb3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/qutip",
+  "schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc51b27fe290a307e80eb78a6652a3c1939e37c32d4ca97829737daa4672a51b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/skills/latchbio-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/latchbio-integration/SKILL.md",
+      "size": 9759
+    },
+    {
+      "digest": "346db4b54170e2cf0a6e3e9b3f8b4d9cd3bddb6102484ec10fa4725c528310ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/skills/latchbio-integration/references/data-management.md",
+      "path": "cli-tool/components/skills/scientific/latchbio-integration/references/data-management.md",
+      "size": 9737
+    },
+    {
+      "digest": "cbeb68289db2543e0dcffa86a872680a7d93f58ddd9d4f50a626e29627892dc0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/skills/latchbio-integration/references/resource-configuration.md",
+      "path": "cli-tool/components/skills/scientific/latchbio-integration/references/resource-configuration.md",
+      "size": 9569
+    },
+    {
+      "digest": "e11f4cd6f8596eb0fab6069e3890a632c3128494055636d229d54bdf7aa83c56",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/skills/latchbio-integration/references/verified-workflows.md",
+      "path": "cli-tool/components/skills/scientific/latchbio-integration/references/verified-workflows.md",
+      "size": 10472
+    },
+    {
+      "digest": "c80050b90766e23c65798f2eb77e13a14f2ba95730d7f3ed49b76886e866aac1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latchbio-integration/skills/latchbio-integration/references/workflow-creation.md",
+      "path": "cli-tool/components/skills/scientific/latchbio-integration/references/workflow-creation.md",
+      "size": 6333
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6344abc6d302a0a30490cb6fbccf1bcbc03d24d6b42b79f09ca84ff1d742486e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/latchbio-integration",
+  "schema_version": 1
+}

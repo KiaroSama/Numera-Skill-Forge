@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "763aa7e3f64ae1ed775d1a755344a51f6dbdda7122b6ce691d2088f2ec0aa0cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/networkx/SKILL.md",
+      "size": 12642
+    },
+    {
+      "digest": "8e30d5c3d45ced8d03e1fd59bb9c3b1764b04b7ef17596cd1136aa4f047191f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/references/algorithms.md",
+      "path": "cli-tool/components/skills/scientific/networkx/references/algorithms.md",
+      "size": 9170
+    },
+    {
+      "digest": "b6fdae338201e178f0b56f9bc03f1c99b1a90172710dd62c3c5ea88f4477a815",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/references/generators.md",
+      "path": "cli-tool/components/skills/scientific/networkx/references/generators.md",
+      "size": 8228
+    },
+    {
+      "digest": "e0b719bbb96be896c58a3e3d91a94d3565981b142cf15cc99170b3b4716c4998",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/references/graph-basics.md",
+      "path": "cli-tool/components/skills/scientific/networkx/references/graph-basics.md",
+      "size": 6261
+    },
+    {
+      "digest": "9047312d0870330cec74060c2df4d4bef6f0b851043ec21383d686380f64434a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/references/io.md",
+      "path": "cli-tool/components/skills/scientific/networkx/references/io.md",
+      "size": 9395
+    },
+    {
+      "digest": "d958f940a114436feb7792f3af5ece2d5ce3fef10e5086077bcadfbda3a6b331",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-networkx/skills/networkx/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/networkx/references/visualization.md",
+      "size": 12388
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "49d7dae0d6c99b9684b1fb0acb8ddb69b1a985cca30d11b8cd093f8bdb35c14f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/networkx",
+  "schema_version": 1
+}

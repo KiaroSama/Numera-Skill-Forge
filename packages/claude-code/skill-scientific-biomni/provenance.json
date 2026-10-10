@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biomni/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4e04b64bf45c8e78d1e426beaeac8e732aa2bafb92561c6d1fc16b3095611a33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/biomni/SKILL.md",
+      "size": 9779
+    },
+    {
+      "digest": "aa38f8c6c00fe1f096c14b497aaa447e912610f627d158cf5492a48f24eabc44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/biomni/references/api_reference.md",
+      "size": 11422
+    },
+    {
+      "digest": "3d4f1dbd76188a4039cca2dd47278ec74bb8df21186b315dd1abbe96f28ffe4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/references/llm_providers.md",
+      "path": "cli-tool/components/skills/scientific/biomni/references/llm_providers.md",
+      "size": 11080
+    },
+    {
+      "digest": "fb56369af15d4257f03992882dcc7dd781776ba9d6b29b2b91e560dca0cd4f60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/references/use_cases.md",
+      "path": "cli-tool/components/skills/scientific/biomni/references/use_cases.md",
+      "size": 22619
+    },
+    {
+      "digest": "f08b897542e6f203ac2800db057d1bc686fc1251265b44eb585090c3f0a8d1ae",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/scripts/generate_report.py",
+      "path": "cli-tool/components/skills/scientific/biomni/scripts/generate_report.py",
+      "size": 10810
+    },
+    {
+      "digest": "cf8f49e8a3136a7ac3084ce22ffb63c596eba531d8e6abd9b1dbac927d1f9137",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-biomni/skills/biomni/scripts/setup_environment.py",
+      "path": "cli-tool/components/skills/scientific/biomni/scripts/setup_environment.py",
+      "size": 10542
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1c78930c2f0d9c3a3abc25f133a56cef0ecd1087e0d365638ab8a85bed27490c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/biomni",
+  "schema_version": 1
+}

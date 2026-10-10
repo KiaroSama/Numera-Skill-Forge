@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "eb9da6a1a81c492fb143cde0714f355ab042fcfe967b31bdb1fc78a5cb0e761f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/skills/openrlhf-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/SKILL.md",
+      "size": 8379
+    },
+    {
+      "digest": "422092fcee7e6343e78239e97f41fff34ca22990c9cc65d95343b9d861655342",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/skills/openrlhf-training/references/algorithm-comparison.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/references/algorithm-comparison.md",
+      "size": 9783
+    },
+    {
+      "digest": "2409844debc1f2c4a084f33b14e1fcb7ed0d652d65ef62e2bfce0739c34e0665",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/skills/openrlhf-training/references/custom-rewards.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/references/custom-rewards.md",
+      "size": 15865
+    },
+    {
+      "digest": "6e992f67a2392c297dfa57632319bbb6549b6df4f129f61e2811297f86ae3e48",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/skills/openrlhf-training/references/hybrid-engine.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/references/hybrid-engine.md",
+      "size": 7266
+    },
+    {
+      "digest": "0f051f0db1260d8df6d01371fa90de8fa00d9dae7cef407f03d5b39efc5653b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-openrlhf/skills/openrlhf-training/references/multi-node-training.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/references/multi-node-training.md",
+      "size": 11099
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7d806ecd3bb3dd236496a0a6934aa46c193f121d33c04ca9ae3ad72481ff7812",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-openrlhf",
+  "schema_version": 1
+}

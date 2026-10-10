@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "168031ec2138037b7a94e2d5e4143062fef49d3e72b5b1e9515de5967841e8a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/README.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/README.md",
+      "size": 9414
+    },
+    {
+      "digest": "6f1540295e328fc9571b4f835b0cd3d10ca0674a4e8dc1d6caaee33a043c69e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/SKILL.md",
+      "size": 36281
+    },
+    {
+      "digest": "3eede3902e1dbbc2198f0fb8527dd1f235745686a5108f69411333e5b09d568e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/assets/budget_justification_template.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/assets/budget_justification_template.md",
+      "size": 21866
+    },
+    {
+      "digest": "c8029605a4a47966576437fd74ea1774dbb82475dcf4502fdbc77d01bfff4376",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/assets/nih_specific_aims_template.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/assets/nih_specific_aims_template.md",
+      "size": 11120
+    },
+    {
+      "digest": "67ed5c02fa46ed7da187ee2896096b5ff04d2de16ef04d0d3847d8def97f7cec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/assets/nsf_project_summary_template.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/assets/nsf_project_summary_template.md",
+      "size": 5886
+    },
+    {
+      "digest": "86fc86796e85d49f2e1adadf93730a61a1c990c8529fd4d8e048dfddaf4c8a02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/broader_impacts.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/broader_impacts.md",
+      "size": 23284
+    },
+    {
+      "digest": "e64616d15080d2bf508cd4706eea2dbf6dbd42a9b3f61454e39ea6f25328555d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/darpa_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/darpa_guidelines.md",
+      "size": 20501
+    },
+    {
+      "digest": "802490bb6ca47ca993c68fa3f396754e34f916c88164a5706bb4f56862a2cee0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/doe_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/doe_guidelines.md",
+      "size": 19409
+    },
+    {
+      "digest": "1c65bd64cef950d07dd83b934f1f137e3f67f23cffb0c879c59d03caa4258f6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/nih_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/nih_guidelines.md",
+      "size": 30192
+    },
+    {
+      "digest": "f22f26eb9d210c98cf3f501db77ac4160f609e61eaf1bfeefbe4771a652e2c2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/nsf_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/nsf_guidelines.md",
+      "size": 21683
+    },
+    {
+      "digest": "aa378c771eaa3272144ef3e8f9822f1c1c557a4d8571202256602703db64b4d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-research-grants/skills/research-grants/references/specific_aims_guide.md",
+      "path": "cli-tool/components/skills/scientific/research-grants/references/specific_aims_guide.md",
+      "size": 21040
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2bfc962388908189313e21f3c913c98b049b69caba42a8d1fa1e8a24b793be0e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/research-grants",
+  "schema_version": 1
+}

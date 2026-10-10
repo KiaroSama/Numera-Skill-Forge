@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ac7f1d1f87d08d7f8713f07c1f6522268b814acea850f97bc986e00f8b461bc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/skills/unsloth/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/SKILL.md",
+      "size": 2307
+    },
+    {
+      "digest": "e0f799b2c5dea599a860ea50ae85eec3d89a2b9a5017511d426fb46c4a4806e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/skills/unsloth/references/index.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/references/index.md",
+      "size": 98
+    },
+    {
+      "digest": "1c05671e76bb26ab6a23a7c58c564cbdba9c3b1e6a95eaf0104f2baba1302248",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/skills/unsloth/references/llms-full.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/references/llms-full.md",
+      "size": 1077228
+    },
+    {
+      "digest": "5510ed5b3d3860a72013537e8ef98be7781f32f60369e26803cce597f0394e3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/skills/unsloth/references/llms-txt.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/references/llms-txt.md",
+      "size": 813092
+    },
+    {
+      "digest": "b3a2fdaa1627383cda4b21127bac475528febf5207987deca9f0d928947e8533",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-unsloth/skills/unsloth/references/llms.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/references/llms.md",
+      "size": 12507
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "43d40e3d40a746fe67b90d85c78275193fce08ea70623d63cfe76301404866a6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/fine-tuning-unsloth",
+  "schema_version": 1
+}

@@ -42,7 +42,8 @@ async function mockBridge(page: Page): Promise<void> {
         state.maxActive = Math.max(state.maxActive, state.active);
         try {
           await Promise.resolve();
-          const request = args.request;
+          const request = args.request['action'] === 'job-run' ? args.request['request'] as Record<string, unknown> : args.request;
+          if (args.request['action'] === 'job-run') state.requests[state.requests.length - 1] = { root: args.root, request };
           if (state.fail === request['action']) throw new Error('ownership-conflict: Existing file was edited by the user');
           switch (request['action']) {
             case 'status': return { workspace: args.root, sources: 0, packages: 0, installed: 0 };
@@ -128,6 +129,8 @@ test('installation requires a matching preview; edited destinations relock apply
   await page.getByRole('button', { name: 'Preview installation' }).click();
   await page.getByLabel('I authorize the reviewed destination changes').check();
   await expect(apply).toBeEnabled();
+  await page.getByLabel('Installation scope', { exact: true }).selectOption('user');
+  await expect(apply).toBeDisabled();
   await page.getByLabel('Destination folder', { exact: true }).fill('C:/different/destination');
   await expect(apply).toBeDisabled();
   await page.getByRole('button', { name: 'Preview installation' }).click();

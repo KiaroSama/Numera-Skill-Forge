@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a222ef2d24f435acadbc61d21744f0114f8fc4fcae7b029cab63e3e7dfcf713d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/SKILL.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/SKILL.md",
+      "size": 15584
+    },
+    {
+      "digest": "87a58f1c49b848f66fa6bf1e30882fe247232aa1bf76e90987abf5e8b031580e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/cli-usage.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/cli-usage.md",
+      "size": 2482
+    },
+    {
+      "digest": "521dd15cc8373d1f5fd158465c474dae170fdc40d777d6fd98dcce3ea7c6827c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/client-library-usage.md",
+      "size": 3456
+    },
+    {
+      "digest": "1836557508cc08ed5aa3597f8a07076d0b9487eccf998a4e3ee6bb8cb5d90e2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/core-concepts.md",
+      "size": 6679
+    },
+    {
+      "digest": "2550b1a5bac7b93709022682eb277d5673480cfc9527c56e02654444e7f0fd81",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/iac-usage.md",
+      "size": 2013
+    },
+    {
+      "digest": "af7d88cbbc90e5467c142501a8ff16a69d65d5e6a23ffddda6e64b86c849ae7b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/iam-security.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/iam-security.md",
+      "size": 3991
+    },
+    {
+      "digest": "66da67a87e8cc303714bc21161fc3af63ecdf3a47dc67847bd80f7ef55593a15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-run-basics/skills/cloud-run-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/development/cloud-run-basics/references/mcp-usage.md",
+      "size": 1900
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "5f5291de31e6b559de7c8ffbd286eb0620edf7b24b010993465f12518d627290",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cloud-run-basics",
+  "schema_version": 1
+}

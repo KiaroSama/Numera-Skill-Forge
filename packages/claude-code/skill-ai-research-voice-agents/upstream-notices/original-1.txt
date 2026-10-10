@@ -1,0 +1,30 @@
+{
+  "name": "vibeship-spawner-skills",
+  "version": "1.1.0",
+  "description": "CLI installer for VibeShip Spawner skills - 273+ specialist skills for AI-powered product building",
+  "keywords": [
+    "spawner",
+    "vibeship",
+    "skills",
+    "mcp",
+    "claude",
+    "ai",
+    "llm"
+  ],
+  "author": "VibeForge",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibeforge1111/vibeship-spawner-skills.git"
+  },
+  "homepage": "https://github.com/vibeforge1111/vibeship-spawner-skills#readme",
+  "bin": {
+    "vibeship-spawner-skills": "./cli/bin/cli.js"
+  },
+  "files": [
+    "cli/bin"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

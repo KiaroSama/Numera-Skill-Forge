@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "dec1a306f8de693dfff27b4cd52b19847c9484510f9ca274967906ef332da9fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/SKILL.md",
+      "size": 7234
+    },
+    {
+      "digest": "9f30d06432bc342e75f43baa23031479cefe5c4e5ffa829a2c4e8f7448597376",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/differential-expression.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/differential-expression.md",
+      "size": 14342
+    },
+    {
+      "digest": "3ef092b9f0878b5c74d4eb237772877acbdbf062c351ee4e496d1ab2c1646dfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/models-atac-seq.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/models-atac-seq.md",
+      "size": 9481
+    },
+    {
+      "digest": "898688380344ba42458aa4880fc2644bf6d4c493993350973dc0429c7c3b3ad8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/models-multimodal.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/models-multimodal.md",
+      "size": 10570
+    },
+    {
+      "digest": "850c30377da8d28afc32ed8885c8bb9e7d5cadb713774142c32127a9232404e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/models-scrna-seq.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/models-scrna-seq.md",
+      "size": 9837
+    },
+    {
+      "digest": "fa369a848c32a7174c11b1694716c00456a79fb5d4468bd65855f8e10c953681",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/models-spatial.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/models-spatial.md",
+      "size": 11260
+    },
+    {
+      "digest": "b0c441a69a2caef58fc7b8f9d1ea9ccce8add1080810f6e8c3584d79a9b77ace",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/models-specialized.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/models-specialized.md",
+      "size": 10404
+    },
+    {
+      "digest": "d0de6e6ed2d2a80c4ca8c06f3aa2a657094b1e6fc623ad82a67254d126c0ab81",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/theoretical-foundations.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/theoretical-foundations.md",
+      "size": 11723
+    },
+    {
+      "digest": "1963cb80e2dab13d353496624bca158b8e6b72ffd54516a5967d8c0fc4c4b892",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scvi-tools/skills/scvi-tools/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/scvi-tools/references/workflows.md",
+      "size": 12508
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b86425164828cd65854e89006c054a499a27075ffaf332e43d80b54f1f2523bf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scvi-tools",
+  "schema_version": 1
+}

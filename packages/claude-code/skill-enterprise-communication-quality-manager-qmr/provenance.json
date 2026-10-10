@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qmr/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b6c8c1fc675699e6444ed6fdc7d8bf86256fc0ce9f37c2b2a2a0f58338700646",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qmr/skills/quality-manager-qmr/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qmr/SKILL.md",
+      "size": 10002
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qmr/skills/quality-manager-qmr/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qmr/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "9863b7e8adf359eff3ee7f53d09187ed127aa3150063bdb85f49c1909abe983e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qmr/skills/quality-manager-qmr/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qmr/references/api_reference.md",
+      "size": 970
+    },
+    {
+      "digest": "f491b97ea5553d6d54da9c696719ae1b4e6339f7d6594f2182e889df4d52ed55",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qmr/skills/quality-manager-qmr/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qmr/scripts/example.py",
+      "size": 597
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a676728fb443818104876582b20bc16e1ffa068d95ea6053650811f19fad7eb1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/quality-manager-qmr",
+  "schema_version": 1
+}

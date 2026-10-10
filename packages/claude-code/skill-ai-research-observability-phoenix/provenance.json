@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-phoenix/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "111bd54f145ca57360f7e6f08f95202e937ac134e3dbf486a51cbaa008546e2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-phoenix/skills/phoenix-observability/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/observability-phoenix/SKILL.md",
+      "size": 11466
+    },
+    {
+      "digest": "d57d7687c912425a00103fb4837ef10da6a4d20f883648832728dbb4e26ca7bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-phoenix/skills/phoenix-observability/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/observability-phoenix/references/advanced-usage.md",
+      "size": 15277
+    },
+    {
+      "digest": "25ef129e3c0b49307b6d8d9fee0f0e40e131a299e5be338ca4bb27329c611245",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-phoenix/skills/phoenix-observability/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/observability-phoenix/references/troubleshooting.md",
+      "size": 10944
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7f7a6545f01c61f92c7f247b089005ab493eafc36b0e96fdd7e110dc877024fa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/observability-phoenix",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3bd1f0dda1d158b5d3bfb0a793e8fb294f492faedcf9a5e506c8612660dc970c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini/skills/gemini/README.md",
+      "path": "cli-tool/components/skills/ai-research/gemini/README.md",
+      "size": 11153
+    },
+    {
+      "digest": "bc9c52aafed25734bbfec03c007f4f85cda960a5874ba0f49a16be02ffc1aae9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini/skills/gemini/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/gemini/SKILL.md",
+      "size": 9843
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8a5303dd94db0dd291d62af12b067466d140f606e6b807e78fc0d6c1a6410177",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/gemini",
+  "schema_version": 1
+}

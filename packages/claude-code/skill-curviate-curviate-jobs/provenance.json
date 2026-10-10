@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-curviate-curviate-jobs/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1661ce844f9a5e8e52de0d8e6500ba0c604cb6348e107d482fa858e3ffb09c8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-curviate-curviate-jobs/skills/curviate-jobs/SKILL.md",
+      "path": "cli-tool/components/skills/curviate/curviate-jobs/SKILL.md",
+      "size": 10934
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "29cd392e4d4444711437d5f0c61468fbac8ec24db3541d84ba079d9417984ea8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/curviate/curviate-jobs",
+  "schema_version": 1
+}

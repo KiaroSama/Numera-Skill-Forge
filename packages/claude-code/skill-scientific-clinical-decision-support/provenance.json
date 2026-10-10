@@ -1,0 +1,159 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "217ce0755db19a6a3cca9571ec17e0ef6aeb759dc1010a0377b7495efd501a83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/README.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/README.md",
+      "size": 5021
+    },
+    {
+      "digest": "5cc0d9cc9952900625bbd1710f7afa7040f30c47149cf91aee9fb84e64b74fe4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/SKILL.md",
+      "size": 26205
+    },
+    {
+      "digest": "e242af744490d21788e4a54a0e9949a0984f4aeeeee30d262bbb1662ed87e529",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/biomarker_report_template.tex",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/biomarker_report_template.tex",
+      "size": 13326
+    },
+    {
+      "digest": "1f63cd5c7d46270a51663e2f83092874ae854dbbab29c86948b033989508f05b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/clinical_pathway_template.tex",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/clinical_pathway_template.tex",
+      "size": 8325
+    },
+    {
+      "digest": "cbaf9ac874e5539b0f3014813ef8bd6e20f60e2004d5c57f1794a66016fea553",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/cohort_analysis_template.tex",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/cohort_analysis_template.tex",
+      "size": 12601
+    },
+    {
+      "digest": "093cc07409904e7b53140e6ac63342c7650b392debc28d97e944f4a3fa816265",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/color_schemes.tex",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/color_schemes.tex",
+      "size": 7029
+    },
+    {
+      "digest": "55c16db7f75aa557c48f861800558914de4c8abdd39bcc439ddc6c6063e52b93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/example_gbm_cohort.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/example_gbm_cohort.md",
+      "size": 9316
+    },
+    {
+      "digest": "dbf49e98ffbaf6c6a24485df97922fbab9873983f495ea7a5302cf69aa4f38e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/recommendation_strength_guide.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/recommendation_strength_guide.md",
+      "size": 11322
+    },
+    {
+      "digest": "cb96221c9988fcbef9457fa3e6a92ec6f1854cb438adbc047f914f3702a23c17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/assets/treatment_recommendation_template.tex",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/assets/treatment_recommendation_template.tex",
+      "size": 18843
+    },
+    {
+      "digest": "bfdebe2728eaec4f65975e3ed9a6ee029df7119d0db79f766631fd3b0b06dc25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/biomarker_classification.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/biomarker_classification.md",
+      "size": 29270
+    },
+    {
+      "digest": "cba5880be41e4cf66a6ca470b976c47e4446986d7c35dc425bc97881adea8e07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/clinical_decision_algorithms.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/clinical_decision_algorithms.md",
+      "size": 21393
+    },
+    {
+      "digest": "55340bc51e39c0b2d20cfc5143cd1b9f91952b5c87650eeb213598ef5fe349d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/evidence_synthesis.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/evidence_synthesis.md",
+      "size": 33342
+    },
+    {
+      "digest": "d3d3f56cb598b549eac5f1a6825ba32344eaf7a0140740f45e6f05198a999738",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/outcome_analysis.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/outcome_analysis.md",
+      "size": 24628
+    },
+    {
+      "digest": "989f15347a52d285d36196682bed037b54ea2a97fe314d5dbabad4e3e86909bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/patient_cohort_analysis.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/patient_cohort_analysis.md",
+      "size": 16551
+    },
+    {
+      "digest": "19c403ec66334818fa3f01dc1f515af9d905ad6c9e16661aafef5a1815713625",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/references/treatment_recommendations.md",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/references/treatment_recommendations.md",
+      "size": 19647
+    },
+    {
+      "digest": "ea6099b09e270c4a91384cdfe6f91be3039f346926d90971cada7711c668e0b5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/scripts/biomarker_classifier.py",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/scripts/biomarker_classifier.py",
+      "size": 13315
+    },
+    {
+      "digest": "cc9fa644357e1bb29ff0cff7a5054298602f549ab4df8b3d0f7e64894f1d470a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/scripts/build_decision_tree.py",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/scripts/build_decision_tree.py",
+      "size": 15891
+    },
+    {
+      "digest": "aad38d5f7033c0ea10a3bddfc531d79233c5b1de8923824aee984bd879483573",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/scripts/create_cohort_tables.py",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/scripts/create_cohort_tables.py",
+      "size": 18023
+    },
+    {
+      "digest": "b3f3dc4c912e8d06addc3b2f450b6188ad78bce46f3c2cea513e4ca0be46974f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/scripts/generate_survival_analysis.py",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/scripts/generate_survival_analysis.py",
+      "size": 15258
+    },
+    {
+      "digest": "a2aa28c6afdd22ce36a32c0081b66c7119c6e5aa19d3a33ee9229f5d7668fcfe",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-decision-support/skills/clinical-decision-support/scripts/validate_cds_document.py",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/scripts/validate_cds_document.py",
+      "size": 12735
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "49e1ccd69ea020d3a2985832e0e8228fb1e80c2d1b1e75a33420cd2110b3b030",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/clinical-decision-support",
+  "schema_version": 1
+}

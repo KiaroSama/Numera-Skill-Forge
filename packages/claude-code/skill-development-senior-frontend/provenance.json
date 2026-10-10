@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "08e49de11a2623de9c841732922e1c63c76829ffd2b7133b0958d98089e0421b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-frontend/SKILL.md",
+      "size": 4480
+    },
+    {
+      "digest": "357f1efa3e39943b0a1682935ae8c9608da89e3ba670e51415e933d0726eb5ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/references/frontend_best_practices.md",
+      "path": "cli-tool/components/skills/development/senior-frontend/references/frontend_best_practices.md",
+      "size": 1618
+    },
+    {
+      "digest": "3921aa2bbf4357944a9c92cf2ddcac41ae2728ddd93be3b9dfd1e67a58b8cd2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/references/nextjs_optimization_guide.md",
+      "path": "cli-tool/components/skills/development/senior-frontend/references/nextjs_optimization_guide.md",
+      "size": 1620
+    },
+    {
+      "digest": "b4502f0b766845b546b943b9c8771cd45739f793edda3a6ed6a0b423b0879a87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/references/react_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-frontend/references/react_patterns.md",
+      "size": 1609
+    },
+    {
+      "digest": "d4c39edb6e2b12c27b40e5bf2c6cc88a52ef14a9e94a0d2d9604c097854cd0e0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/scripts/bundle_analyzer.py",
+      "path": "cli-tool/components/skills/development/senior-frontend/scripts/bundle_analyzer.py",
+      "size": 3125
+    },
+    {
+      "digest": "f0648d03a7eff5c7d8ffe5c5deae0e6ca04f002f4b5616961c0928ac9060ad5e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/scripts/component_generator.py",
+      "path": "cli-tool/components/skills/development/senior-frontend/scripts/component_generator.py",
+      "size": 3145
+    },
+    {
+      "digest": "a6f01bea5dc18f5d4eb6a803125c991f458597c1b6720259175846d68b629f4c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-frontend/skills/senior-frontend/scripts/frontend_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-frontend/scripts/frontend_scaffolder.py",
+      "size": 3145
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eb5d33c99a66b49bb4fd449ec1edbc3cc4ea4b1a5bea1afcd56679cca0026481",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-frontend",
+  "schema_version": 1
+}

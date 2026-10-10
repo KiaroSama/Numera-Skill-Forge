@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "87f844062ccf5146766576090db2eeaffe9d066f4f8761feb9744fa401f9c57a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/README.md",
+      "size": 9260
+    },
+    {
+      "digest": "99dd7bca21e44da203b20e5a28da08a8dd0dbb90b73bcf55e3d341a1b6d7205f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/SKILL.md",
+      "size": 7277
+    },
+    {
+      "digest": "7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/references/conversation-framework.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/references/conversation-framework.md",
+      "size": 9460
+    },
+    {
+      "digest": "3105a7c5af015c653a90de768379b0506936a3d3c887f3e1d491259048be0cbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/references/delivery-scripts.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/references/delivery-scripts.md",
+      "size": 8854
+    },
+    {
+      "digest": "ecac2f9ce228cd54c6bc3604260f707bd1b8380714d4ec1772ca9aa03203d609",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/references/emotional-regulation.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/references/emotional-regulation.md",
+      "size": 8812
+    },
+    {
+      "digest": "2ebe535c2fb58ddfa2c50a3550e168af46b4fc07908dadcd2ff555b1e0713988",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-difficult-workplace-conversations/skills/difficult-workplace-conversations/references/preparation-template.md",
+      "path": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations/references/preparation-template.md",
+      "size": 7357
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c16221eff7b60533e8779acf13a7a6109e7dcade28def3c8602f89917cddbddc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations",
+  "schema_version": 1
+}

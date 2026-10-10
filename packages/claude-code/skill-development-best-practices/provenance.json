@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f32182e2cd742818f6b3b86f40be319eeae9cb10e392e3e4a8e8f586bad4eccf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-best-practices/skills/best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/development/best-practices/SKILL.md",
+      "size": 12138
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "00cbc41ce8818247e0de71fd483b87420b1566febec68cd73bdde2b771b3153a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/best-practices",
+  "schema_version": 1
+}

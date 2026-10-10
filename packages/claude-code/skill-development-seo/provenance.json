@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-seo/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f3e546112a3168515486c533d13156a1d4dcd9402f3d116730cef573a20e2804",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-seo/skills/seo/SKILL.md",
+      "path": "cli-tool/components/skills/development/seo/SKILL.md",
+      "size": 11251
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7f1b558130a208d6924a2a96e1198edd1ffa82b1426420714c1449eb993f47a1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/seo",
+  "schema_version": 1
+}

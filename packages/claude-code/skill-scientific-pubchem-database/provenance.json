@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubchem-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5ae16d7d3fe5f17a50538a4253ec4fb827de2267aaa34c6471ff82ba2528e22d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubchem-database/skills/pubchem-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pubchem-database/SKILL.md",
+      "size": 16256
+    },
+    {
+      "digest": "dc9dea9c5f5f464fcae0ed75ea9ecb90493745a3595247c9fa501a5bf6163193",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubchem-database/skills/pubchem-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/pubchem-database/references/api_reference.md",
+      "size": 10731
+    },
+    {
+      "digest": "a5cf060d4884731d164a8ed1fb1c63b4c36481456a4940ad6716556b642fb8ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubchem-database/skills/pubchem-database/scripts/bioactivity_query.py",
+      "path": "cli-tool/components/skills/scientific/pubchem-database/scripts/bioactivity_query.py",
+      "size": 9845
+    },
+    {
+      "digest": "16af82faa526668c2297b49cff292f2c77fcfa41e4f1dd56338f85bea0e3e88c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubchem-database/skills/pubchem-database/scripts/compound_search.py",
+      "path": "cli-tool/components/skills/scientific/pubchem-database/scripts/compound_search.py",
+      "size": 8302
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ea46ed8775837bc7005ba06c3e01a83ec6c6e7b2704c48a91413d76aa128dcdb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pubchem-database",
+  "schema_version": 1
+}

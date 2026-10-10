@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7b998235e0e9cf6101a6292e19cc0b42b85f7cdc9494fcc21dfa23ebf3abdde9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/matplotlib/SKILL.md",
+      "size": 11119
+    },
+    {
+      "digest": "988c2afffa9488bce338720f7b16719ea9bee95fbe3d2d0128139eafc99a65a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/matplotlib/references/api_reference.md",
+      "size": 11233
+    },
+    {
+      "digest": "16fecf7bb99b830053cece408af4673feabd3f3e2696377c85909ffe14774868",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/references/common_issues.md",
+      "path": "cli-tool/components/skills/scientific/matplotlib/references/common_issues.md",
+      "size": 12836
+    },
+    {
+      "digest": "24501746fc5a6ae26a354cc14d9fed393e8efb96de64fe4bb9bf7a6fc4fb9f3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/references/plot_types.md",
+      "path": "cli-tool/components/skills/scientific/matplotlib/references/plot_types.md",
+      "size": 11839
+    },
+    {
+      "digest": "1b39f691ac6fc33e4584893c05d0126a954dead08b8850473e5b9a912eeff37a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/references/styling_guide.md",
+      "path": "cli-tool/components/skills/scientific/matplotlib/references/styling_guide.md",
+      "size": 13583
+    },
+    {
+      "digest": "670e4879a39ef9a06a0221b80a68fddea4ade9311245652283ce2045103d752b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/scripts/plot_template.py",
+      "path": "cli-tool/components/skills/scientific/matplotlib/scripts/plot_template.py",
+      "size": 12093
+    },
+    {
+      "digest": "cb3dacaffed417ddca5d5e9afa530ab2d9fb0f9ef761146efb07dbeb835f9500",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matplotlib/skills/matplotlib/scripts/style_configurator.py",
+      "path": "cli-tool/components/skills/scientific/matplotlib/scripts/style_configurator.py",
+      "size": 13179
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "58f86af0fef8228dbeba814395167a606b2ef5449c998863ac1eeab7da7f0e9b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/matplotlib",
+  "schema_version": 1
+}

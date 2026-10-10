@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypogenic/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6335c7af973bc34d0905f0556da3a8119dcf9870455fbf325d37ce62403a5bb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypogenic/skills/hypogenic/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/hypogenic/SKILL.md",
+      "size": 21629
+    },
+    {
+      "digest": "636281f08b27d360a6a2decf6b790a0c694ed10a9c8d15ede7cb4d4b34f8d22c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hypogenic/skills/hypogenic/references/config_template.yaml",
+      "path": "cli-tool/components/skills/scientific/hypogenic/references/config_template.yaml",
+      "size": 4113
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fcaca13d43ea67bb60bfc2eb6d4f4bbb26eb4fbe024f40f69dd730a6b5026149",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/hypogenic",
+  "schema_version": 1
+}

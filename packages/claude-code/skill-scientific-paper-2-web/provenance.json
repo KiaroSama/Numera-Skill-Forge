@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4addab27ba83e2f155c76ed46e6bf685127546548d46749eafc0dead88d800dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/SKILL.md",
+      "size": 16393
+    },
+    {
+      "digest": "6cfdc2328a7611907e134cbe265c23fe65ebe419c40ee12181a633d3b3c4894b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/references/installation.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/references/installation.md",
+      "size": 3644
+    },
+    {
+      "digest": "1d06074b7e5b4b080e08f48dbe5c72a98d13ef98dc87d686de08695b16bac2c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/references/paper2poster.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/references/paper2poster.md",
+      "size": 10207
+    },
+    {
+      "digest": "02a6782e4180e04785ce17b5d07779d62fc21d8ee2186bf9738c762f933d8eb2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/references/paper2video.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/references/paper2video.md",
+      "size": 9796
+    },
+    {
+      "digest": "9da1dc528e88f0c0f8c53ee8c76e580c290175336ef79d56aa8c3f7ada0fa82b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/references/paper2web.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/references/paper2web.md",
+      "size": 5388
+    },
+    {
+      "digest": "c5d6a992a7a2c134176d5648fefd1aed08477fc251dc587ba743204a5685edbd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-paper-2-web/skills/paper-2-web/references/usage_examples.md",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/references/usage_examples.md",
+      "size": 10633
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3ba1cefc710988253c24b5b5a780c84c051657630a0bee7f7ac44ed47263fbdc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/paper-2-web",
+  "schema_version": 1
+}

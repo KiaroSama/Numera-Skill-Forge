@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-alphafold-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9c9f982059f68ffbfe0b35c4e536f570bf701e0f99a4a835e4c1bb60d3009bd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-alphafold-database/skills/alphafold-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/alphafold-database/SKILL.md",
+      "size": 15806
+    },
+    {
+      "digest": "91ddf392342811ef1d97e55ea6236271a6cc00fd49f780b855a4fa72a921634f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-alphafold-database/skills/alphafold-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/alphafold-database/references/api_reference.md",
+      "size": 12557
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e1b0aabc461906956fbf0742a490aa6e43713bbb19614767a4df6df110267a59",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/alphafold-database",
+  "schema_version": 1
+}

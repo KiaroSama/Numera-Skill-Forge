@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-judge/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "dd45fb16a973cc2bcb4b4869fe0e19562a8e655488c3da56d38b709ebcb2051a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-judge/skills/skill-judge/README.md",
+      "path": "cli-tool/components/skills/productivity/skill-judge/README.md",
+      "size": 8755
+    },
+    {
+      "digest": "737ef3628f0e11353114c3bd05a1c9d0c448dbfec1ae85db839253cbe93198b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-judge/skills/skill-judge/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/skill-judge/SKILL.md",
+      "size": 31029
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "342c211e3001b4a787b2bc39f2780fdb72f73377b0ccfd382218ffd75d228c86",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/skill-judge",
+  "schema_version": 1
+}

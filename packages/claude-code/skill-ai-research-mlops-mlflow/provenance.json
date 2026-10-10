@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-mlflow/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "36d2581f7d8beb8b27f66bbef5c94df7e9604b917c3aa15e4183a48a2b1f3f96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-mlflow/skills/mlflow/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-mlflow/SKILL.md",
+      "size": 15599
+    },
+    {
+      "digest": "e3fbee780f5b8dddedadd53bbe3db490eb2611bea920ea52849e10262841539d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-mlflow/skills/mlflow/references/deployment.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-mlflow/references/deployment.md",
+      "size": 16695
+    },
+    {
+      "digest": "fdfdfb609e1fa3123c5948ecce3275eef8ce0b9437ca2e957bb22a6eb29372eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-mlflow/skills/mlflow/references/model-registry.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-mlflow/references/model-registry.md",
+      "size": 17475
+    },
+    {
+      "digest": "e2b63991f10bf208d8444791c62b0a83c049c37da0c5722e4124805dfb1ba405",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mlops-mlflow/skills/mlflow/references/tracking.md",
+      "path": "cli-tool/components/skills/ai-research/mlops-mlflow/references/tracking.md",
+      "size": 14970
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e21f88c2beff54d467f1abf40313483a4f2811bc15c020e9705d20eb82e0a005",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mlops-mlflow",
+  "schema_version": 1
+}

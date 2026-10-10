@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinvar-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "de761385bfdeb1674d7a7613d4d0eaf444ae3a47d897910e96760feceb0c1c7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinvar-database/skills/clinvar-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/clinvar-database/SKILL.md",
+      "size": 13227
+    },
+    {
+      "digest": "6bf32841592c17c4c3771873d4821553fed36274e69e7a293702048e0f3a12c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinvar-database/skills/clinvar-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/clinvar-database/references/api_reference.md",
+      "size": 6396
+    },
+    {
+      "digest": "5e678ed08ffec19e4dc6fead657ddbbfcaf04d38fee8e56900d3ff93c721476c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinvar-database/skills/clinvar-database/references/clinical_significance.md",
+      "path": "cli-tool/components/skills/scientific/clinvar-database/references/clinical_significance.md",
+      "size": 9371
+    },
+    {
+      "digest": "c8c79d773aa2e182fd2e89933e19fe4e44edb48530943017961fb87751b5a38b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinvar-database/skills/clinvar-database/references/data_formats.md",
+      "path": "cli-tool/components/skills/scientific/clinvar-database/references/data_formats.md",
+      "size": 10830
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "60bc594d9019029fc8995a7ef1ff998dacd5417c1372f4c20b651a13a3100efc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/clinvar-database",
+  "schema_version": 1
+}

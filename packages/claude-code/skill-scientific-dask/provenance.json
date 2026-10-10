@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c895b1311fa3a0974d10f50a3490e56f2ad2e45d73237631fe5afcfbdab0c749",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/dask/SKILL.md",
+      "size": 14086
+    },
+    {
+      "digest": "341f9a2dfdb20f6081c67f0e6a753561af71e94cb8749cfe7a594edc32ee41f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/arrays.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/arrays.md",
+      "size": 11649
+    },
+    {
+      "digest": "5ff94d547b99baa80fef1f9b645aeeb73ee3efbecc6bc85a3d36a97d5d6702c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/bags.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/bags.md",
+      "size": 10869
+    },
+    {
+      "digest": "8a7ed9cdc0b38a2754fae5af72c88fc15cdc8fe15afc517a5b2c50ede50680ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/best-practices.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/best-practices.md",
+      "size": 7317
+    },
+    {
+      "digest": "e80128e558b61d509b42fd0d2d6accf9f4a3bf27416870aaec32fb988e8f48d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/dataframes.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/dataframes.md",
+      "size": 8778
+    },
+    {
+      "digest": "6f4382ecb29466973c95b3ea7e58441566f0d566b41ef89ea89c6959e3a30e61",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/futures.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/futures.md",
+      "size": 12051
+    },
+    {
+      "digest": "b75d59e92f3e0df648e5c76c2081f8453d56f0d84f91833ec77fdbaac1613478",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dask/skills/dask/references/schedulers.md",
+      "path": "cli-tool/components/skills/scientific/dask/references/schedulers.md",
+      "size": 11313
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e67c9203b2c487ae43b20db412c4536b5282a4b554274e9d2b8169658f1e7fe1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/dask",
+  "schema_version": 1
+}

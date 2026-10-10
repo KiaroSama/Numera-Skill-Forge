@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-driven-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-driven-development/skills/test-driven-development/SKILL.md",
+      "path": "cli-tool/components/skills/development/test-driven-development/SKILL.md",
+      "size": 9867
+    },
+    {
+      "digest": "bde453bc258f06543987477c837939afaa774ea2acbd9f308d702fc452bc4283",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-driven-development/skills/test-driven-development/testing-anti-patterns.md",
+      "path": "cli-tool/components/skills/development/test-driven-development/testing-anti-patterns.md",
+      "size": 8251
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c4e875bb13129ac861a280214a743b34b0dc81c9fc2e711823f8848397cb5ec3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/test-driven-development",
+  "schema_version": 1
+}

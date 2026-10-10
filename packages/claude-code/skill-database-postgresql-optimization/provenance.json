@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-postgresql-optimization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5d8ca70e2156a4f49ec582ef9cc820fc3f1ab788324afa1bb88e0d322efdfe47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-postgresql-optimization/skills/postgresql-optimization/SKILL.md",
+      "path": "cli-tool/components/skills/database/postgresql-optimization/SKILL.md",
+      "size": 3803
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ccb9e1eafb9591d236e78f24f9ec2a04d0455b25361ed2afaee1017d5470ab19",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/postgresql-optimization",
+  "schema_version": 1
+}

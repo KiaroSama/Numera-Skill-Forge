@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubmed-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "31e21d54407f8c41a3efdff3bc081d30972082c44761ac82389b90208bbb4660",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubmed-database/skills/pubmed-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pubmed-database/SKILL.md",
+      "size": 15513
+    },
+    {
+      "digest": "a710319045bdc43eccfaae9c1aaf2e3189ec2734db21d6338c7425b64f913efa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubmed-database/skills/pubmed-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/pubmed-database/references/api_reference.md",
+      "size": 7934
+    },
+    {
+      "digest": "54c23051208f6db7208928eee27e61add5476cf8e9910ae395e41f6dafccfb69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubmed-database/skills/pubmed-database/references/common_queries.md",
+      "path": "cli-tool/components/skills/scientific/pubmed-database/references/common_queries.md",
+      "size": 10725
+    },
+    {
+      "digest": "862083de50bb2baa5aeeefced3fc83f928284cf81bdae384775cae014b506863",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pubmed-database/skills/pubmed-database/references/search_syntax.md",
+      "path": "cli-tool/components/skills/scientific/pubmed-database/references/search_syntax.md",
+      "size": 10272
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3ac81376bbc31e6d2d36eefdafaf374fd3be969792e3194afc1425bcef4dd721",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pubmed-database",
+  "schema_version": 1
+}

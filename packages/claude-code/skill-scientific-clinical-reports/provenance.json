@@ -1,0 +1,236 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "514cbe9ba3bec3dc040675109928aa80c972ec91c4e08fbc5c20d28b2bc32677",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/IMPLEMENTATION_SUMMARY.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/IMPLEMENTATION_SUMMARY.md",
+      "size": 18065
+    },
+    {
+      "digest": "f33fad89ffeea3d5d3924ddb9b3f51050b766442f887c9b5ed94edcc9f42ce2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/README.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/README.md",
+      "size": 8563
+    },
+    {
+      "digest": "6c45476f3092df3ffd51f942dec58aa28ff6015986df700d370a36dfacc572fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+      "size": 39640
+    },
+    {
+      "digest": "c2c244df14d4b6ab39f15eb080ce5b59c9974d7c6768727fdbfc28b96317c069",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/case_report_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/case_report_template.md",
+      "size": 9771
+    },
+    {
+      "digest": "5f09bdb0c65699cfa84d5225d52c1e5d2add2802fe03445dd8d530d9b0828ee8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/clinical_trial_csr_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/clinical_trial_csr_template.md",
+      "size": 9196
+    },
+    {
+      "digest": "44e787a97ddc5a98c320ea444a9f76ba7e33d88697b762e872b5704158828405",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/clinical_trial_sae_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/clinical_trial_sae_template.md",
+      "size": 10565
+    },
+    {
+      "digest": "9d34c6c6ee8de3fa325e8edbb7191cf3122e29228bfb63c67c60003a513907e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/consult_note_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/consult_note_template.md",
+      "size": 7345
+    },
+    {
+      "digest": "9acc43e334b27bdde1e178c28aa6e9b5035b8148c2a3a209c94cc42459971078",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/discharge_summary_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/discharge_summary_template.md",
+      "size": 11984
+    },
+    {
+      "digest": "021eec9170b943f517c5ef1c320a691a0523d8bd5d47bf7b3b1355f6a8a109c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/hipaa_compliance_checklist.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/hipaa_compliance_checklist.md",
+      "size": 11804
+    },
+    {
+      "digest": "1e9e2c0df3c14197bb8328a5f3dc569791db0385fbfa4c80b5fd15630327203c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/history_physical_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/history_physical_template.md",
+      "size": 9266
+    },
+    {
+      "digest": "6a45a4712c6f4aff116f238be991196b15300fd0900639c1f3cb7371f4431579",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/lab_report_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/lab_report_template.md",
+      "size": 8478
+    },
+    {
+      "digest": "cd0d8fe5bad739fe30ed4247c9b27f5eb6d6c67edc2690475d7057d370e9bd24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/pathology_report_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/pathology_report_template.md",
+      "size": 6646
+    },
+    {
+      "digest": "3cdc34063b9f27ec0b02129047d5b702eba3b7e5103f995fe97e0ec8cbcc3eda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/quality_checklist.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/quality_checklist.md",
+      "size": 9973
+    },
+    {
+      "digest": "85b017bd599a252fee79a990fc314fcea6d584e2e633ac8aa637701ac7d14edf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/radiology_report_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/radiology_report_template.md",
+      "size": 8009
+    },
+    {
+      "digest": "ac94aa8861d9f6cc09036ec929b42e21c1e6300547214a8fbc7dc117250c71e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/assets/soap_note_template.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/assets/soap_note_template.md",
+      "size": 7297
+    },
+    {
+      "digest": "19e101fa4e4fef1f8d6ba23652a5ff9bc2abe915944ebaf9d994398e61c8d5f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/case_report_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/case_report_guidelines.md",
+      "size": 18830
+    },
+    {
+      "digest": "2ecad92a7294908a197fd2dbe90a3f5dd1f76cb2f50f7e7a8adcdf7b47faa59b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/clinical_trial_reporting.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/clinical_trial_reporting.md",
+      "size": 20354
+    },
+    {
+      "digest": "3a14d46d0609e8d710e16331905da86260a50b31d00275dab5453747efe94b63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/data_presentation.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/data_presentation.md",
+      "size": 21068
+    },
+    {
+      "digest": "c7086a496895b4886a9959e95665e60209b89e73bf11c73d79d498e4f49abb9a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/diagnostic_reports_standards.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/diagnostic_reports_standards.md",
+      "size": 18384
+    },
+    {
+      "digest": "1e74a3c74e57fe6dc7a76a36ed8c5b431a1723f9652f6d6490ce183f2b4172df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/medical_terminology.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/medical_terminology.md",
+      "size": 15523
+    },
+    {
+      "digest": "bfff1db28befe5057af37357ac714207542c015322d4c70699edad031474ce35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/patient_documentation.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/patient_documentation.md",
+      "size": 21273
+    },
+    {
+      "digest": "06bb68f378ce217fbf5b477ea9deb99b5c87fbb5012d04f600e865dac25b3ece",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/peer_review_standards.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/peer_review_standards.md",
+      "size": 15481
+    },
+    {
+      "digest": "b50ab68ad030f5788fcfb87181135c5cdcd733a771276c68ef59673c3fa5f1cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/references/regulatory_compliance.md",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/references/regulatory_compliance.md",
+      "size": 17466
+    },
+    {
+      "digest": "0fd9fb348a15308446ffd5864af486438de966fab4ef7d2757097a1f5f0df82b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/check_deidentification.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/check_deidentification.py",
+      "size": 10710
+    },
+    {
+      "digest": "4445f1a631da0044d461970870e34d8f96d0980e9014807c9adf547fa088448e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/compliance_checker.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/compliance_checker.py",
+      "size": 2176
+    },
+    {
+      "digest": "120aaf4ec9aac4fe5b896ab212682fc59af04aa6008d2830017ec351b823b966",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/extract_clinical_data.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/extract_clinical_data.py",
+      "size": 2635
+    },
+    {
+      "digest": "324d9938ee5c38267d90c88b96e3e14a91e2349271a25d501a9f1a3b5ef83c23",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/format_adverse_events.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/format_adverse_events.py",
+      "size": 3049
+    },
+    {
+      "digest": "485b41265a62d89946b44e008230af4baf832f3c7e03847bce54c44312a0ecd0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/generate_report_template.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/generate_report_template.py",
+      "size": 4713
+    },
+    {
+      "digest": "6a1ad0f8e319f01392ec6d84e52cf2fbf4738b23fe9f5a39f933b64ed2699ce8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/terminology_validator.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/terminology_validator.py",
+      "size": 4140
+    },
+    {
+      "digest": "f9be5210765a55a064b8c4abc4ac19ec49a3641a92ab990866a3244aed60775c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/validate_case_report.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/validate_case_report.py",
+      "size": 11540
+    },
+    {
+      "digest": "8ec24c7196b3f2431bb2cf1ac223434f20480bdba4a563ab00b7b258fe093957",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinical-reports/skills/clinical-reports/scripts/validate_trial_report.py",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/scripts/validate_trial_report.py",
+      "size": 2871
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "581bccbf7a408a7642999c847ea87acb92e82ea3e39bcf83fad9fc18a8ad9866",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/clinical-reports",
+  "schema_version": 1
+}

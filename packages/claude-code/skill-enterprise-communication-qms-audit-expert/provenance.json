@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-qms-audit-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "977ab9e57bf7453d66a2dc7d06e59cba692991e5e222137a18c98e3b72716a66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-qms-audit-expert/skills/qms-audit-expert/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/qms-audit-expert/SKILL.md",
+      "size": 11064
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-qms-audit-expert/skills/qms-audit-expert/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/qms-audit-expert/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "770f7ca01c934bf4b5bd44c01d72b9980e2a42222a5318c6eba6f415e2c90617",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-qms-audit-expert/skills/qms-audit-expert/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/qms-audit-expert/references/api_reference.md",
+      "size": 967
+    },
+    {
+      "digest": "f2048a4269c73f76a67b55d6065c81e2e94f4c2025c15018e1cd90f3c2e83854",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-qms-audit-expert/skills/qms-audit-expert/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/qms-audit-expert/scripts/example.py",
+      "size": 591
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "42116add6553d0432899897d165292e391516b67c9b7d95825c92820cb7f5c17",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/qms-audit-expert",
+  "schema_version": 1
+}

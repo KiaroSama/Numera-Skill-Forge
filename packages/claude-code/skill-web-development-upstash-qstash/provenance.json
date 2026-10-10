@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-upstash-qstash/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7c9132a3e5e4c7eb0b9329ddbadc8f4ff02740149ca0c44054a126d675dc6bfe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-upstash-qstash/skills/upstash-qstash/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/upstash-qstash/SKILL.md",
+      "size": 2397
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "5c679bf506c08d8a3eaff7edd2828e0e699da67dcb4a6b63877fc3ff0ca3b004",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/upstash-qstash",
+  "schema_version": 1
+}

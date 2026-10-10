@@ -50,6 +50,9 @@ pub fn write<T: Serialize>(path: &Path, value: &T) -> Result<()> {
     atomic(path, &bytes)
 }
 pub fn atomic(path: &Path, content: &[u8]) -> Result<()> {
+    atomic_mode(path, content, None)
+}
+pub fn atomic_mode(path: &Path, content: &[u8], mode: Option<u32>) -> Result<()> {
     let parent = path
         .parent()
         .ok_or_else(|| Error::new("path", "Missing destination parent"))?;
@@ -70,6 +73,12 @@ pub fn atomic(path: &Path, content: &[u8]) -> Result<()> {
             .write(true)
             .open(&temp)?;
         f.write_all(content)?;
+        #[cfg(unix)]
+        if let Some(mode) = mode {
+            use std::os::unix::fs::PermissionsExt;
+            f.set_permissions(fs::Permissions::from_mode(mode))?;
+        }
+        let _ = mode;
         f.sync_all()?;
         drop(f);
         fs::rename(&temp, path)?;
@@ -85,7 +94,16 @@ pub fn files(root: &Path) -> Result<Vec<(String, PathBuf)>> {
     let mut results = vec![];
     let mut seen = BTreeSet::new();
     let mut total = 0;
-    walk(root, root, 0, &mut results, &mut seen, &mut total)?;
+    walk(root, root, 0, &mut results, &mut seen, &mut total, true)?;
+    results.sort_by(|a, b| a.0.cmp(&b.0));
+    Ok(results)
+}
+/// Walk an already accepted payload without workspace-only filtering.
+pub fn payload_files(root: &Path) -> Result<Vec<(String, PathBuf)>> {
+    let mut results = vec![];
+    let mut seen = BTreeSet::new();
+    let mut total = 0;
+    walk(root, root, 0, &mut results, &mut seen, &mut total, false)?;
     results.sort_by(|a, b| a.0.cmp(&b.0));
     Ok(results)
 }
@@ -96,6 +114,7 @@ fn walk(
     out: &mut Vec<(String, PathBuf)>,
     seen: &mut BTreeSet<String>,
     total: &mut u64,
+    filter_workspace: bool,
 ) -> Result<()> {
     if depth > 32 {
         return Err(Error::new("depth-limit", "Directory nesting exceeds 32"));
@@ -105,28 +124,29 @@ fn walk(
         let entry = entry?;
         let path = entry.path();
         let name = entry.file_name();
-        if [
-            ".git",
-            ".ai",
-            ".claude",
-            ".codex",
-            ".ignoreme",
-            "node_modules",
-            "target",
-            ".forge-state",
-            "secrets.md",
-            "explain-AI.md",
-        ]
-        .iter()
-        .any(|v| name == *v)
-            || name.to_string_lossy().starts_with(".env")
+        if filter_workspace
+            && ([
+                ".git",
+                ".ai",
+                ".claude",
+                ".codex",
+                ".ignoreme",
+                "node_modules",
+                "target",
+                ".forge-state",
+                "secrets.md",
+                "explain-AI.md",
+            ]
+            .iter()
+            .any(|v| name == *v)
+                || name.to_string_lossy().starts_with(".env"))
         {
             continue;
         }
         validation::reject_link(&path)?;
         let metadata = fs::symlink_metadata(&path)?;
         if metadata.is_dir() {
-            walk(root, &path, depth + 1, out, seen, total)?;
+            walk(root, &path, depth + 1, out, seen, total, filter_workspace)?;
         } else if metadata.is_file() {
             let relative = path
                 .strip_prefix(root)

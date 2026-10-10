@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "55fd5db8f42a9db57397e4c6b4471a04fabddc384a25b24dc099b7f161140696",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/README.md",
+      "path": "cli-tool/components/skills/development/react-dev/README.md",
+      "size": 13200
+    },
+    {
+      "digest": "ce738985cbff5079c560709e534b5c93bbdff9bbb638e7569654521de39db0e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/SKILL.md",
+      "path": "cli-tool/components/skills/development/react-dev/SKILL.md",
+      "size": 10288
+    },
+    {
+      "digest": "6d2f3bc573232b6ea8299bdd4ce308eff5dad7b26017bf0d14c4e251a9516f4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/examples/generic-components.md",
+      "path": "cli-tool/components/skills/development/react-dev/examples/generic-components.md",
+      "size": 12902
+    },
+    {
+      "digest": "971117f20ece87fc87f29de0b72ba4558c1ac63c2857b534efdcc4cb7362eb25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/examples/server-components.md",
+      "path": "cli-tool/components/skills/development/react-dev/examples/server-components.md",
+      "size": 13227
+    },
+    {
+      "digest": "a118e551a3f8200a2164f5ece96fc2c562c0aa179a4f529ceadb83ceea5f7107",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/references/event-handlers.md",
+      "path": "cli-tool/components/skills/development/react-dev/references/event-handlers.md",
+      "size": 14375
+    },
+    {
+      "digest": "f2780114634ef7b87099608f9f75c9e23c260c9a097c91f65854614d590e9899",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/references/hooks.md",
+      "path": "cli-tool/components/skills/development/react-dev/references/hooks.md",
+      "size": 10977
+    },
+    {
+      "digest": "385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/references/react-19-patterns.md",
+      "path": "cli-tool/components/skills/development/react-dev/references/react-19-patterns.md",
+      "size": 14078
+    },
+    {
+      "digest": "b554c7f679cc1b1b27a002b1e06a98c236f75a92198466fe398321fe8ddfe97f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/references/react-router.md",
+      "path": "cli-tool/components/skills/development/react-dev/references/react-router.md",
+      "size": 20074
+    },
+    {
+      "digest": "2982b9fd78a5454a9fa3fc63720bee44da517f8694cf954fe755f988759fba4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-dev/skills/react-dev/references/tanstack-router.md",
+      "path": "cli-tool/components/skills/development/react-dev/references/tanstack-router.md",
+      "size": 12253
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3c78c6d04c27eedd1e449bd780b0b215f82a4357f59752f60ad92f108ab4b15f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/react-dev",
+  "schema_version": 1
+}

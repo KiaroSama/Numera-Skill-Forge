@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-simpo/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2a74bd2378857c520066fbe84fc0c6c556d0fa0b8c4afde1eab1c0abfb51ed8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-simpo/skills/simpo-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-simpo/SKILL.md",
+      "size": 5916
+    },
+    {
+      "digest": "885d747d64d810b5b0173fd897d003a01633d34c079a399118966901c6f3a150",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-simpo/skills/simpo-training/references/datasets.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-simpo/references/datasets.md",
+      "size": 10889
+    },
+    {
+      "digest": "56f2ad2aa946254a5ade4a1ed980b29ccde4d96894fd8fa92287a7a355d56f3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-simpo/skills/simpo-training/references/hyperparameters.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-simpo/references/hyperparameters.md",
+      "size": 8502
+    },
+    {
+      "digest": "a197433caba8cd89b37c0732bdd06e4cf68d4029dbee2961aa80729fc35721f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-simpo/skills/simpo-training/references/loss-functions.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-simpo/references/loss-functions.md",
+      "size": 7067
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "969a713832dedbf8731c97bfca0577eeb07d853d063eba681b5f544555707053",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-simpo",
+  "schema_version": 1
+}

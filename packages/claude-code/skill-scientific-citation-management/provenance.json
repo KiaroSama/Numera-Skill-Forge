@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4fa98ecc2559e3e3f796cdaf32b73299e010b5162f3b84e805f1c19741a4eca6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/SKILL.md",
+      "size": 31362
+    },
+    {
+      "digest": "bf03cc646e6bc6aaba85d632b8e25b26c2830419892f3c17a7d844805d3a721e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/assets/bibtex_template.bib",
+      "path": "cli-tool/components/skills/scientific/citation-management/assets/bibtex_template.bib",
+      "size": 9201
+    },
+    {
+      "digest": "305ff79e25b2654f1a5dc2163c03e7ab14e6c9578b1ea0f2d30f97195578d2c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/assets/citation_checklist.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/assets/citation_checklist.md",
+      "size": 10348
+    },
+    {
+      "digest": "89fde5b4e04112ee62dcfe086780f000906681ec7b102c094c875c3656eaed6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/references/bibtex_formatting.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/references/bibtex_formatting.md",
+      "size": 19286
+    },
+    {
+      "digest": "37e61db867ac45d685d908422bb1c342ab4ec4ee46d4277f3d6ea7590e741951",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/references/citation_validation.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/references/citation_validation.md",
+      "size": 16075
+    },
+    {
+      "digest": "494df9be29bebca6aa4d64ebc442e945b1aa934a4e58e47ae5422069ee3f86d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/references/google_scholar_search.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/references/google_scholar_search.md",
+      "size": 17045
+    },
+    {
+      "digest": "aa8be4ac76c6e274ce5ef2f034c6578e0f263baf71f030a0f2eeb92fcd810b45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/references/metadata_extraction.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/references/metadata_extraction.md",
+      "size": 19182
+    },
+    {
+      "digest": "f25e7adf200fee05f83e3434e1a08b6ec25d1ee2563a19325b94e443ff7cde59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/references/pubmed_search.md",
+      "path": "cli-tool/components/skills/scientific/citation-management/references/pubmed_search.md",
+      "size": 17735
+    },
+    {
+      "digest": "45dbdbc365e63c65dc7e32945186122dd1cd7cb003ca5fbe103876952b4d9171",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/doi_to_bibtex.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/doi_to_bibtex.py",
+      "size": 6299
+    },
+    {
+      "digest": "85bd98dca384591518e043d070330749cb66418d5c261918c1e5d8bc59fd620c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/extract_metadata.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/extract_metadata.py",
+      "size": 20794
+    },
+    {
+      "digest": "98bf59c0a6d28596bc6663089c33111a21cb4f9b127785013e0c8117c6311b41",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/format_bibtex.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/format_bibtex.py",
+      "size": 11444
+    },
+    {
+      "digest": "4ba851118596e316c809c5a089542112aa48bfe4d105ec5841d7ba528316798b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/search_google_scholar.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/search_google_scholar.py",
+      "size": 8982
+    },
+    {
+      "digest": "5533733bc4edd0e203488a83c89c0200c4845f194e215fca0907220402eb6d97",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/search_pubmed.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/search_pubmed.py",
+      "size": 12832
+    },
+    {
+      "digest": "ed65df0fbc507517664287c8a27d40d48ca314835f91b1fac794914a8a5e4618",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-citation-management/skills/citation-management/scripts/validate_citations.py",
+      "path": "cli-tool/components/skills/scientific/citation-management/scripts/validate_citations.py",
+      "size": 17482
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "aeed26123ada19524966d1342d1056471ee7c941b3986a73d7e9d20944264edc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/citation-management",
+  "schema_version": 1
+}

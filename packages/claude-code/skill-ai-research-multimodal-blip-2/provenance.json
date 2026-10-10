@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-blip-2/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "38227abdcb742add1284ba117881e899c020b7ebb5c39b5202a97d60c3ad8d3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-blip-2/skills/blip-2-vision-language/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-blip-2/SKILL.md",
+      "size": 18616
+    },
+    {
+      "digest": "30b3c97fb721ab11d8906e0dae54a8037665e15ec69c96fb2f772661a815a543",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-blip-2/skills/blip-2-vision-language/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-blip-2/references/advanced-usage.md",
+      "size": 18889
+    },
+    {
+      "digest": "0f35f87010746047a721074adb40549a89d853c9b9a0dd9350edff31345d16d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-blip-2/skills/blip-2-vision-language/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-blip-2/references/troubleshooting.md",
+      "size": 11981
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "202306ab2da490764f00d9fb6d0db4655d6c0c2dbfa78a3b8ec05284408d3147",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-blip-2",
+  "schema_version": 1
+}

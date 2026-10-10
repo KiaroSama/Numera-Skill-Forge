@@ -24,12 +24,15 @@ No HTTP management server, telemetry, AI subscription, daemon or GPU runtime is 
 ## Development preview limits
 
 This repository is not yet the entire requested finished product. Native runtime component coverage,
-full configuration three-way merge/shared dependency ownership, stable-release selection, generic
-SSH/custom Git providers, job cancellation/attach, on-open apply-approved rebuild closure, PR
-publication and complete native OS/host release smoke certification require further implementation.
+generic SSH/custom Git providers, on-open apply-approved rebuild closure, coherent updates across
+multiple shared owners and complete native OS/host release smoke certification remain required.
+Native JSON three-way merge, shared identical payload ownership, GitHub stable-release selection,
+persisted cancellable/retryable jobs and dependency-closed builds are implemented but their final
+integrated runtime matrix must be verified on the publication SHA.
 Current explicit failures are not advertised as successful support. File-installed skills and native
-runtime plugins remain distinct. Executable-mode Git companions are refused in this preview rather
-than copied with lost POSIX permissions; full mode-preserving native lifecycle remains unfinished.
+runtime plugins remain distinct. Accepted executable Git modes are recorded through acquisition,
+build, installation and rollback; executable trust also recognizes runtime companions without a POSIX
+execute bit. Native host activation is not inferred from copying its files.
 New journals store bounded digest metadata plus raw recovery blobs, and ownership receipt changes
 participate in the same logical operation. Rollback records its direction before compensation. Existing source licensing and last-known-good state are preserved.
 

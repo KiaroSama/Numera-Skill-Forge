@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bed820ec0af0ab3f89e204c3236174bbe7c97aec7568b2f7e04455061637864b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/SKILL.md",
+      "size": 5506
+    },
+    {
+      "digest": "62173efa0435651241cd746a71cfa444767051843795dd5e1c3a6da79b60cb87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/references/llm_integration_guide.md",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/references/llm_integration_guide.md",
+      "size": 1421
+    },
+    {
+      "digest": "bcfcdfcd383f6867a87fb31e578b313dcf7a7bc2427b4c27fd82b7c59965a6e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/references/mlops_production_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/references/mlops_production_patterns.md",
+      "size": 1429
+    },
+    {
+      "digest": "226676be450d0d46abc19ef6510794c069dfdeeaaa1f7c2be87e3b2dd8b36114",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/references/rag_system_architecture.md",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/references/rag_system_architecture.md",
+      "size": 1425
+    },
+    {
+      "digest": "149446725afa9280d42531f9306528aacb235271b8aaabc59c6201d328ba6c56",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/scripts/ml_monitoring_suite.py",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/scripts/ml_monitoring_suite.py",
+      "size": 2782
+    },
+    {
+      "digest": "07a2d39de49d0c695f951510996205af95161d8def0ce26d70b660164539a734",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/scripts/model_deployment_pipeline.py",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/scripts/model_deployment_pipeline.py",
+      "size": 2812
+    },
+    {
+      "digest": "cdd6c6a1acdfa564fbff4bc7391fd4e8669f8c30657582918e5e8dfe50fcf6e2",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-ml-engineer/skills/senior-ml-engineer/scripts/rag_system_builder.py",
+      "path": "cli-tool/components/skills/development/senior-ml-engineer/scripts/rag_system_builder.py",
+      "size": 2777
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5b022b372a4417b3ca53120a32237f554cb3c970e29c50cf6c7356db279a984e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-ml-engineer",
+  "schema_version": 1
+}

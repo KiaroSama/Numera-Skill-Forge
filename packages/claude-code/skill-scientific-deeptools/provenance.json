@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "506aaa6c54113e3a759cb0a1ba9a9ea94f1e5e4faddd886fa0ebf4ae3669260f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/SKILL.md",
+      "size": 17924
+    },
+    {
+      "digest": "879ce94280160a8197871cbe64bfde41591cd716300b569e50151980ea807274",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/assets/quick_reference.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/assets/quick_reference.md",
+      "size": 1520
+    },
+    {
+      "digest": "2cbdbb62587f29c74ecbcd836bae3f3317ae5555e05b1ec65fc5c115e3d998f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/references/effective_genome_sizes.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/references/effective_genome_sizes.md",
+      "size": 3677
+    },
+    {
+      "digest": "8a5befb80aa8220287781b6580f218c08e5793b5ade26cab2d2da5e145e4af52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/references/normalization_methods.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/references/normalization_methods.md",
+      "size": 11082
+    },
+    {
+      "digest": "33246a399be6e13e9166fefec786e5c74b25d948b9ff50dc6a54cb2bbf699eda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/references/tools_reference.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/references/tools_reference.md",
+      "size": 18891
+    },
+    {
+      "digest": "e42d64904273f267f5b3e4ebc8424c439d6e92f47fc489bcffdffcbddeb6ca4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/deeptools/references/workflows.md",
+      "size": 10963
+    },
+    {
+      "digest": "63c96703778ea475c6567dc4d8a22ebf1bdfa07e8255bf256d36a8b64c555069",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/scripts/validate_files.py",
+      "path": "cli-tool/components/skills/scientific/deeptools/scripts/validate_files.py",
+      "size": 6039
+    },
+    {
+      "digest": "36a30773bc0e4a4b3abc28bb2500a66bab254f85fb82cca1582e6a3c78fab9f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deeptools/skills/deeptools/scripts/workflow_generator.py",
+      "path": "cli-tool/components/skills/scientific/deeptools/scripts/workflow_generator.py",
+      "size": 14130
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b5dad943ff4f99628ace9e641bf7dcde4010085dba6b32a4addbdb9d76142cd6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/deeptools",
+  "schema_version": 1
+}

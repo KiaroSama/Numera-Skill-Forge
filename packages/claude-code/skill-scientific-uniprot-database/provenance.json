@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "813eea4b47a6c80bd6801d6b340dd62bfeb2d12bbc7949e53351d2c2b7150ae9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/SKILL.md",
+      "size": 6731
+    },
+    {
+      "digest": "122726fd3affd5f0a0c6606013c660766dd6872b8aaf2be3cee98ca73279738f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/references/api_examples.md",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/references/api_examples.md",
+      "size": 10348
+    },
+    {
+      "digest": "74552c2d33a0ddebeb6d6246ba7970c43460a4db4a361108a92d88bb5892c288",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/references/api_fields.md",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/references/api_fields.md",
+      "size": 7729
+    },
+    {
+      "digest": "5dac32f7d67edcc14e9681452a4b83425563ffe89ed7bf80e1fb63c65a300e62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/references/id_mapping_databases.md",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/references/id_mapping_databases.md",
+      "size": 6682
+    },
+    {
+      "digest": "80f48f9f21ce1abd518be0c4669b09e4b91104b0419f49be3bdd1f9d271090ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/references/query_syntax.md",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/references/query_syntax.md",
+      "size": 6833
+    },
+    {
+      "digest": "6a4e3bb8170d22e246e2b083fa108d391c53f7f2a603792d04f9350320cf6a00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uniprot-database/skills/uniprot-database/scripts/uniprot_client.py",
+      "path": "cli-tool/components/skills/scientific/uniprot-database/scripts/uniprot_client.py",
+      "size": 9982
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "933aa8b6476fdf0e22e55b57eb2ff44aad2a197359b0ce02aac88477734d51fe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/uniprot-database",
+  "schema_version": 1
+}

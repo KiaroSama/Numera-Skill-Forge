@@ -28,8 +28,8 @@ styles, UI extensions, themes, services, providers, channels, onboarding contrac
 
 **Development preview, not a complete production release.** The current executable foundation
 registers and inspects licensed Git sources, explicitly approves content, deterministically builds
-skill packages, and performs receipt-based project skill installation/disable/enable/uninstall with
-conflict checks and journal recovery. Broader native component adapters and platform runtime
+dependency-closed packages, and performs receipt-based project/user installation, managed JSON
+configuration merging, disable/enable/uninstall and mode-preserving journal recovery. Broader native component adapters and platform runtime
 certification remain in progress. A listed harness is not a claim that every component works there.
 
 ## Quick start
@@ -49,7 +49,7 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **65 reviewed skills** from
+The native Claude marketplace currently packages **478 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
 plugin, with original prompts, scripts, companions and notices unchanged. This is a bounded licensed
 subset, not the entire upstream collection. See [licenses and exclusions](docs/source-licenses.md).
@@ -127,7 +127,8 @@ directory, named `numera-forge_YYYY-MM-DD_HH-mm-ss_UTC.log` with collision-safe 
 contain UTC timestamps, INFO/WARNING/ERROR/DEBUG and categories. DEBUG is opt-in with `NUMERA_DEBUG=1`.
 Commands/results go to stdout; diagnostics go to stderr/files. Credentials and raw upstream process
 output are not logged. Telemetry is disabled. Review/redact logs before sharing; automatic support
-bundles and configurable retention are not yet implemented.
+bundles are local-only (`support`, logs opt-in); `log-retention` previews by default and requires
+`--apply` to remove older logs while retaining the requested newest files.
 
 ## Donate
 

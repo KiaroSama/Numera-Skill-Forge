@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "274d5aa69544c8274506ae2c10a90bd603604895ce6591d472b266a5bf248da5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/SKILL.md",
+      "size": 9488
+    },
+    {
+      "digest": "5068ea8e5974575e051fdd8647b573d3aeb92a0bac44d613dd2d7fed60859346",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/references/algorithms.md",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/references/algorithms.md",
+      "size": 10038
+    },
+    {
+      "digest": "88aa51e6ae86a2ee980736453f70e5a9285b1b0c6d7b721fb724d5789975f6bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/references/callbacks.md",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/references/callbacks.md",
+      "size": 15631
+    },
+    {
+      "digest": "bfc69c7244f0e95027f56f4e2a73fa2c4afbdd6378110eff0c30b79ebfb06cf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/references/custom_environments.md",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/references/custom_environments.md",
+      "size": 13729
+    },
+    {
+      "digest": "0b2efb8b2b09fb2b1c3612a6f8ccfc5cdd62cb78b9600c413dc28d18d638962f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/references/vectorized_envs.md",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/references/vectorized_envs.md",
+      "size": 14789
+    },
+    {
+      "digest": "10d4d2f55fef72b091d65faa409746484fa8ef9472578c6f96de551f2b37512d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/scripts/custom_env_template.py",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/scripts/custom_env_template.py",
+      "size": 9350
+    },
+    {
+      "digest": "16024c0322e4c70b82dae620fa7481da08a1ea6e10fd36ec203c2c32fa0da464",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/scripts/evaluate_agent.py",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/scripts/evaluate_agent.py",
+      "size": 7335
+    },
+    {
+      "digest": "edcf8ffde633496650d96e468e50408859dc396fbe9b369f3e10ac98a4aeb164",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-stable-baselines3/skills/stable-baselines3/scripts/train_rl_agent.py",
+      "path": "cli-tool/components/skills/scientific/stable-baselines3/scripts/train_rl_agent.py",
+      "size": 5123
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "502f8be8bccce1dedabf5371a837009057c23950e5bb333e253f7aea4806cee2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/stable-baselines3",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-bigcode-evaluation-harness/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7c46e8eb3ca8d4f51769162d16d87a7dff5ec0c4609131fd3c62fcb463522874",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-bigcode-evaluation-harness/skills/evaluating-code-models/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness/SKILL.md",
+      "size": 11696
+    },
+    {
+      "digest": "50c5640497be1861dc69ef886f2e4f4684162c28d57ee928111f1c4c71e4be2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-bigcode-evaluation-harness/skills/evaluating-code-models/references/benchmarks.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness/references/benchmarks.md",
+      "size": 9168
+    },
+    {
+      "digest": "4f868c5c84d1889fbd6e3f09297ce439be70a9af6f8694bd274481ab09677272",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-bigcode-evaluation-harness/skills/evaluating-code-models/references/custom-tasks.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness/references/custom-tasks.md",
+      "size": 10378
+    },
+    {
+      "digest": "09832ab736fec29fc949101f81b806c0c6fc366124eada17967aac72ea5a63a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-bigcode-evaluation-harness/skills/evaluating-code-models/references/issues.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness/references/issues.md",
+      "size": 8085
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a12b7aa201c82baec2bb85ac92318caa2724a1010882cb18ca3e6485e7581fc3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness",
+  "schema_version": 1
+}

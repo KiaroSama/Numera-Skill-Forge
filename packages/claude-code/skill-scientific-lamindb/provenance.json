@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "885173892efda1f064c00b8970529718fd26557820dd7990a95c465529cf88cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/SKILL.md",
+      "size": 14300
+    },
+    {
+      "digest": "a372252f36351bbd11b24847ed3ba38ec895c5bb9285486e7c9998c25e1eae3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/annotation-validation.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/annotation-validation.md",
+      "size": 12276
+    },
+    {
+      "digest": "384be0d92887680260f79104a9a84e9653593654f68e4ac56dbae427d022ae5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/core-concepts.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/core-concepts.md",
+      "size": 9782
+    },
+    {
+      "digest": "8d9561fbc139ca35f5b54986c14a1a6f37b8318008ee4b69f3058fda4fc96c00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/data-management.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/data-management.md",
+      "size": 10709
+    },
+    {
+      "digest": "5c3db0b246ee8619105b3a3f611d924b1055af55eeecb424abc282f8b3b43d2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/integrations.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/integrations.md",
+      "size": 13489
+    },
+    {
+      "digest": "d83c8ddda444b2ba537f4c7b74e3110c263255ce21ff1576e01548ca24894f82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/ontologies.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/ontologies.md",
+      "size": 13535
+    },
+    {
+      "digest": "cc8c7fb82a3d50b062e58abc09c7b81b8b187eb23b39863e07799e1d0001e692",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-lamindb/skills/lamindb/references/setup-deployment.md",
+      "path": "cli-tool/components/skills/scientific/lamindb/references/setup-deployment.md",
+      "size": 14576
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2ebaef2350638e4a0b57b8681894d68ead06e55bedd2d96d1f4e5e2295088218",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/lamindb",
+  "schema_version": 1
+}

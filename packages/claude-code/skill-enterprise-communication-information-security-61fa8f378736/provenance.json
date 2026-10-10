@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-information-security-61fa8f378736/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d305d6176cd34c25eb60dd8c16b1d7ece4bb5548057b0bbd34afc032282a84ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-information-security-61fa8f378736/skills/information-security-manager-iso27001/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001/SKILL.md",
+      "size": 11953
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-information-security-61fa8f378736/skills/information-security-manager-iso27001/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "30135fd8ec9b43bee952858c5b5c02dfee21f209d3499bd939e73e6ebe5dfc4c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-information-security-61fa8f378736/skills/information-security-manager-iso27001/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001/references/api_reference.md",
+      "size": 988
+    },
+    {
+      "digest": "5d68cdaefe8da91178a059d775607844b54b5feb967379c1148afaa880686439",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-information-security-61fa8f378736/skills/information-security-manager-iso27001/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001/scripts/example.py",
+      "size": 633
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4e12a09de55024ca3203257eb9cf4e092e01753a29db06e4ad5108682c977f47",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001",
+  "schema_version": 1
+}

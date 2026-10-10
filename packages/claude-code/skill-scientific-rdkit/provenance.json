@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cf451fd778f2baaf2e7afe9415a08ce4ea2293e1bc7d6c196a8b985fcfaeef22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/rdkit/SKILL.md",
+      "size": 19899
+    },
+    {
+      "digest": "a786cd2ea7955a253eba04f376770013decde21d88806f3d22c0ff58c84a9cc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/rdkit/references/api_reference.md",
+      "size": 16789
+    },
+    {
+      "digest": "c89ea46820a29b21b0f44f833f0cc4712a133ea9989e9311f4ba201bd99c512a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/references/descriptors_reference.md",
+      "path": "cli-tool/components/skills/scientific/rdkit/references/descriptors_reference.md",
+      "size": 11779
+    },
+    {
+      "digest": "03760a7b75817ad49c97730cd89e535558b8c6a0a897142c873a3f1f94a45028",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/references/smarts_patterns.md",
+      "path": "cli-tool/components/skills/scientific/rdkit/references/smarts_patterns.md",
+      "size": 8143
+    },
+    {
+      "digest": "5d972db092b928f6f72a2499136f5631a4c039a333924b122dbd2895a8b4334e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/scripts/molecular_properties.py",
+      "path": "cli-tool/components/skills/scientific/rdkit/scripts/molecular_properties.py",
+      "size": 7361
+    },
+    {
+      "digest": "0abec11698a0c92161c2253d7e7f6dd3d2dccd4699bb07f2eabeedd455a215ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/scripts/similarity_search.py",
+      "path": "cli-tool/components/skills/scientific/rdkit/scripts/similarity_search.py",
+      "size": 9444
+    },
+    {
+      "digest": "a4a9b54faecd6ae93f4eec184fe1640c1e94185c13cf6013b81d4422d19a7ca9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-rdkit/skills/rdkit/scripts/substructure_filter.py",
+      "path": "cli-tool/components/skills/scientific/rdkit/scripts/substructure_filter.py",
+      "size": 12351
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8fa8272929b145afaafd9fa3789c56f0e61f779aa05e2cdc4c5bb7dfad69fd80",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/rdkit",
+  "schema_version": 1
+}

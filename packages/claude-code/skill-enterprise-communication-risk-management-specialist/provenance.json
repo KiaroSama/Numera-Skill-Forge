@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-risk-management-specialist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4a42c0576ce1678e9372d435b7bab2217fe1d279ef2838227d9c13f2e1547b7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-risk-management-specialist/skills/risk-management-specialist/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/risk-management-specialist/SKILL.md",
+      "size": 10260
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-risk-management-specialist/skills/risk-management-specialist/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/risk-management-specialist/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "29a73415420c295d1f05ee7511d94c4fee5f92733ce598025768a86ccd53bf45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-risk-management-specialist/skills/risk-management-specialist/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/risk-management-specialist/references/api_reference.md",
+      "size": 977
+    },
+    {
+      "digest": "3e9dbe5990007e1c3e4227ef798ad38c7fbfa3edce6a9544490b77fc78042c70",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-risk-management-specialist/skills/risk-management-specialist/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/risk-management-specialist/scripts/example.py",
+      "size": 611
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "995cfc0e38dffcacbab6af7a19f4dc2bd3ac04ed653f6f4f21e5684ac1e8a634",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/risk-management-specialist",
+  "schema_version": 1
+}

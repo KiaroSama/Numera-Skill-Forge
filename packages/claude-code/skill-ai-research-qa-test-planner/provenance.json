@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6341a9bb903930209a7a6f433710bcdca1c17b5e8210ad82b8ef6dd1e318228b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/README.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/README.md",
+      "size": 10887
+    },
+    {
+      "digest": "64adcbcf148712c6a67e9f05c5cee91b81e65da2f6ee458775c593fb0f5b657c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/SKILL.md",
+      "size": 18921
+    },
+    {
+      "digest": "f33e07f888a4057049415aec81a66bf5edf0dbba58f5d5fa9b8d0e8664e072d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/references/bug_report_templates.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/references/bug_report_templates.md",
+      "size": 8607
+    },
+    {
+      "digest": "e0253fb34cfa028659caec0f55122163c275ae78f5b0f1bce594c28f6fe9380a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/references/figma_validation.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/references/figma_validation.md",
+      "size": 7046
+    },
+    {
+      "digest": "e239509c9046f79b5fca86a09abb6c7c2ffbcd24d0851bcab52cdad408737319",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/references/regression_testing.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/references/regression_testing.md",
+      "size": 7273
+    },
+    {
+      "digest": "42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/references/test_case_templates.md",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/references/test_case_templates.md",
+      "size": 9220
+    },
+    {
+      "digest": "d77ceee80ba23cea4a5de7d3223110a45760bdd5c0677977fdd358117608d182",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/scripts/create_bug_report.sh",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/scripts/create_bug_report.sh",
+      "size": 5912
+    },
+    {
+      "digest": "7f86370c27277573a994e338b234b538809da75077d1a88f3eb893b92dff5543",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-ai-research-qa-test-planner/skills/qa-test-planner/scripts/generate_test_cases.sh",
+      "path": "cli-tool/components/skills/ai-research/qa-test-planner/scripts/generate_test_cases.sh",
+      "size": 6624
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e1df74485a5729d9da5500618634251b3be3ff213aff42dd9190fa67b239301a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/qa-test-planner",
+  "schema_version": 1
+}

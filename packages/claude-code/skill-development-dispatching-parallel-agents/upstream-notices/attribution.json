@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: obra/superpowers; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/dispatching-parallel-agents/SKILL.md https://github.com/obra/superpowers/blob/80643c26040437740d4a185ed5693d365ca3aeec/LICENSE https://github.com/obra/superpowers/tree/80643c26040437740d4a185ed5693d365ca3aeec/skills/dispatching-parallel-agents",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "license": "MIT",
+      "path": "registry/licenses/a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400.txt",
+      "source": "https://github.com/obra/superpowers/blob/80643c26040437740d4a185ed5693d365ca3aeec/LICENSE"
+    }
+  ]
+}

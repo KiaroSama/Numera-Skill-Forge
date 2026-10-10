@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-3d-web-experience/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1329eaa8a9d12f7a56a275960f95185d5cabc83f3261f1d6cacb87b250f15741",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-3d-web-experience/skills/3d-web-experience/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/3d-web-experience/SKILL.md",
+      "size": 5445
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "35629b7fa7c6d8fde965511b2682ba21bb5f75d5e413cfd98ce4482bd62bc2cd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/3d-web-experience",
+  "schema_version": 1
+}

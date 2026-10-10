@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2dcf838db6890a897795978b92c0851a67b69cec1f52dadeeab3dda4a5c88203",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pymc/SKILL.md",
+      "size": 15721
+    },
+    {
+      "digest": "261fb501c8e7895db7e5b85b1cdbeeaea5316322b3b8aff340a1e0a4e663f271",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/assets/hierarchical_model_template.py",
+      "path": "cli-tool/components/skills/scientific/pymc/assets/hierarchical_model_template.py",
+      "size": 11858
+    },
+    {
+      "digest": "598b75ab228c13800d66c50b1474df57a1a4893b9e774c6706c484b07bfdf785",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/assets/linear_regression_template.py",
+      "path": "cli-tool/components/skills/scientific/pymc/assets/linear_regression_template.py",
+      "size": 8118
+    },
+    {
+      "digest": "982ba2556963bc6b5f9445eed5bee2a253644f1a8fabe4a7e47d761c09eee041",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/references/distributions.md",
+      "path": "cli-tool/components/skills/scientific/pymc/references/distributions.md",
+      "size": 10834
+    },
+    {
+      "digest": "360521df7bb77c5423fffa6b83ebee169873a917207adc90071f363f52bf77df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/references/sampling_inference.md",
+      "path": "cli-tool/components/skills/scientific/pymc/references/sampling_inference.md",
+      "size": 10384
+    },
+    {
+      "digest": "44864a30111f698c8eb5dbd7b0da46a1985143ba2bdcd7297e9c400519c388cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/pymc/references/workflows.md",
+      "size": 14106
+    },
+    {
+      "digest": "b00b1cf2c8169977522b4391f3944d5a9032c44e27deb8af2a3a7785d9328345",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/scripts/model_comparison.py",
+      "path": "cli-tool/components/skills/scientific/pymc/scripts/model_comparison.py",
+      "size": 12411
+    },
+    {
+      "digest": "0e2820a98875421edf1c8bc0d833de452dbd68fb3e3e2c1b7cc8fa6cdeab43c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymc/skills/pymc-bayesian-modeling/scripts/model_diagnostics.py",
+      "path": "cli-tool/components/skills/scientific/pymc/scripts/model_diagnostics.py",
+      "size": 11113
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d4007d8f89f9746597ce7826a35d8e95bd84303a7680f3492ba18654c8de6b66",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pymc",
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KiaroSama/Numera-Skill-Forge/registry.schema.json",
+  "title": "Forge source and package registry",
+  "type": "object",
+  "required": ["schema_version", "sources", "packages"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "packages": { "type": "array", "items": { "$ref": "#/$defs/package" } }
+  },
+  "$defs": {
+    "id": { "type": "string", "maxLength": 64, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "strings": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object", "required": ["id", "repository"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "repository": { "type": "string" },
+        "enabled": { "type": "boolean", "default": false },
+        "roots": { "$ref": "#/$defs/strings" }, "excludes": { "$ref": "#/$defs/strings" },
+        "targets": { "$ref": "#/$defs/strings" },
+        "update": { "enum": ["review", "approved-content-only", "pinned"] },
+        "reference": {
+          "type": "object", "required": ["strategy"],
+          "properties": { "strategy": { "enum": ["default-branch", "branch", "commit", "tag", "latest-stable-release"] }, "value": { "type": "string" } },
+          "allOf": [{ "if": { "properties": { "strategy": { "enum": ["branch", "commit", "tag"] } } }, "then": { "required": ["value"] } }]
+        },
+        "metadata": { "type": "object" }, "credential_reference": { "type": ["string", "null"] }
+      }
+    },
+    "package": {
+      "type": "object", "required": ["id", "name", "source", "components"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "name": { "type": "string" }, "source": { "$ref": "#/$defs/id" },
+        "components": { "$ref": "#/$defs/strings" }, "dependencies": { "$ref": "#/$defs/strings" },
+        "targets": { "$ref": "#/$defs/strings" }, "optional_exclusions": { "$ref": "#/$defs/strings" }
+      }
+    }
+  }
+}

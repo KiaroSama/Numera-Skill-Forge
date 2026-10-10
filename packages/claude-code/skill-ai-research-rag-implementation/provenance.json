@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-implementation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ef888c8b742d79458a0f90814fa6392df3f6cbafbe103b1262503d1b0c568efe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-implementation/skills/rag-implementation/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-implementation/SKILL.md",
+      "size": 1881
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "47161683c259687b759357cf770ae9c2b64ca2b0ecd334cee094f131eff9786c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-implementation",
+  "schema_version": 1
+}

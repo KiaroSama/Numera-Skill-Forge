@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-gdpr-dsgvo-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9c37a7563adfe73e391e4d9fb1aadfe5f8388960cf2251af95bf74a4b277bc4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-gdpr-dsgvo-expert/skills/gdpr-dsgvo-expert/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert/SKILL.md",
+      "size": 12796
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-gdpr-dsgvo-expert/skills/gdpr-dsgvo-expert/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "221e39cf864f75a934b57621517a6e9eae3e45ec0619811ced06fa1b52279036",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-gdpr-dsgvo-expert/skills/gdpr-dsgvo-expert/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert/references/api_reference.md",
+      "size": 968
+    },
+    {
+      "digest": "97ccc4635c177af54168394d2943bb68b1243b72920ea5e9ce835cad68733569",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-gdpr-dsgvo-expert/skills/gdpr-dsgvo-expert/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert/scripts/example.py",
+      "size": 593
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2d0aabac9a958f90a1f0bacf516d59db03c284ccf283d32fcd924a517a05dc5e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/gdpr-dsgvo-expert",
+  "schema_version": 1
+}

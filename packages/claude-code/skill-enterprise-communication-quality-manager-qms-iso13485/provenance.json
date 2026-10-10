@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qms-iso13485/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "540489336fa7bd82d320bbbfd7747519c6ef889024a04e9504523ceb9427e97f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qms-iso13485/skills/quality-manager-qms-iso13485/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485/SKILL.md",
+      "size": 7587
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qms-iso13485/skills/quality-manager-qms-iso13485/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "a0cebe507e27e8f0b9dc564b9de7afa3eb20bc15cde66571166453219654ac56",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qms-iso13485/skills/quality-manager-qms-iso13485/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485/references/api_reference.md",
+      "size": 979
+    },
+    {
+      "digest": "64b58bf4048fb89eb37bcf223a90b0b98a4008d918b458321ce3363119214f81",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-quality-manager-qms-iso13485/skills/quality-manager-qms-iso13485/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485/scripts/example.py",
+      "size": 615
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ae8e4ac7585b2da1e119a657aab2ade8dfacb0d46649b289811aa352c74dfa2c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/quality-manager-qms-iso13485",
+  "schema_version": 1
+}

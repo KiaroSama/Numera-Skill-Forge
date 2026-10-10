@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-umap-learn/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7266a27f9edf5b76f43eecee714a7b4e6a4d14e1546f232d822a351f00a0121b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-umap-learn/skills/umap-learn/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/umap-learn/SKILL.md",
+      "size": 15324
+    },
+    {
+      "digest": "9b5bc62a2c959edf72ad6fbf761a540b713737b25739916402ecf91ca372e3e6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-umap-learn/skills/umap-learn/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/umap-learn/references/api_reference.md",
+      "size": 18966
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3b0557e3336cf9f620754d768a3b857f29fae8e94ec6072da0ce8e6b96ba6bda",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/umap-learn",
+  "schema_version": 1
+}

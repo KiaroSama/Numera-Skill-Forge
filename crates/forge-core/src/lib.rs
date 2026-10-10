@@ -1,17 +1,24 @@
 pub mod adapters;
 pub mod build;
+pub mod build_dependencies;
 pub mod collections;
+pub mod config_merge;
 pub mod discovery;
 pub mod install;
+pub mod jobs;
+pub mod lifecycle;
 pub mod logging;
 pub mod model;
 pub mod process;
+mod process_owner;
 pub mod publish;
 pub mod registry;
 pub mod service;
 pub mod source;
 pub mod storage;
+pub mod support;
 pub mod sync;
+mod sync_policy;
 pub mod transaction;
 pub mod validation;
 

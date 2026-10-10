@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gwas-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0d914b28f57068d694d86cdc168a9da1c8441fcaf42c3a1afb105ffb325afa46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gwas-database/skills/gwas-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/gwas-database/SKILL.md",
+      "size": 20028
+    },
+    {
+      "digest": "3651d22065d2ea173a6a7a998237ab291f71b7b89bad2ded6e60a1e8afad43cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gwas-database/skills/gwas-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/gwas-database/references/api_reference.md",
+      "size": 21221
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6d7c5f742f30d57edf1df9c5d16da8b9c5c633330601e8b784fd78e181259c5d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/gwas-database",
+  "schema_version": 1
+}

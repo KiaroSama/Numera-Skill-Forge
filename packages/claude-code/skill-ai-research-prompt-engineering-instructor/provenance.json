@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-instructor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7be950beb848b05aa4f41e61cfe27b162cad4a4d029d0abe13401aa743bab794",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-instructor/skills/instructor/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-instructor/SKILL.md",
+      "size": 16827
+    },
+    {
+      "digest": "77da5ba3ffc15c9acd01ecd9d35090e8cdda5df7990f840024ae50d291580ea8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-instructor/skills/instructor/references/examples.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-instructor/references/examples.md",
+      "size": 2320
+    },
+    {
+      "digest": "5482459ae8d27494b6848b9bbf4fac8c55f810bc7829ec29368ba15e5e67db6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-instructor/skills/instructor/references/providers.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-instructor/references/providers.md",
+      "size": 1329
+    },
+    {
+      "digest": "83039b93f697c72141e618210d9acdd9fa50654b22cc810b3eff23fddbd7dfe4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-instructor/skills/instructor/references/validation.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-instructor/references/validation.md",
+      "size": 15306
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "26e8bdb08ae4652cb5d7d8e025e3cd4935a3ece393f9fb62e3f20f709401865c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/prompt-engineering-instructor",
+  "schema_version": 1
+}

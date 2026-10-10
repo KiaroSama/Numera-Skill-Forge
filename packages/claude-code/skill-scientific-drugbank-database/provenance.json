@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "667448a81450b2e67d276eb92a414afce85ca5b9be2080d4cea4d3554a5309a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/SKILL.md",
+      "size": 9339
+    },
+    {
+      "digest": "08006fee851a23605fc483dcd0b57f8138957476f1492cd0d58061e7effea809",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/references/chemical-analysis.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/references/chemical-analysis.md",
+      "size": 19413
+    },
+    {
+      "digest": "71b2c5a97898b16eac06947ef1d6b324ee27f3314a8883121db5134f0c436be4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/references/data-access.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/references/data-access.md",
+      "size": 6062
+    },
+    {
+      "digest": "58d0d576314be0bfe7f7b7f756bde11f5c0dece44ef1f2e7f1eb51bb6c9650c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/references/drug-queries.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/references/drug-queries.md",
+      "size": 11772
+    },
+    {
+      "digest": "5f2a2974aafb05c044d854ca0cf1224c7cff04d71990a6833181cc96371c7ee2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/references/interactions.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/references/interactions.md",
+      "size": 13794
+    },
+    {
+      "digest": "1317f6ce93fdb604ed1716d81d147bab2c7f0978c1e9ae81b3fe4d0a8bf7e208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/references/targets-pathways.md",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/references/targets-pathways.md",
+      "size": 18253
+    },
+    {
+      "digest": "c7f4ef986d56725b4c78848b946488b289e616abef8e97234a927624a8156335",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-drugbank-database/skills/drugbank-database/scripts/drugbank_helper.py",
+      "path": "cli-tool/components/skills/scientific/drugbank-database/scripts/drugbank_helper.py",
+      "size": 11822
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a5f2cd8515b3c5b6838de9e0606ec007922c724deef711bdd0c64e9aa8ad5fd4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/drugbank-database",
+  "schema_version": 1
+}

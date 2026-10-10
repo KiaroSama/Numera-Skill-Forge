@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "512f4a14961ff227694472173f000a40a936fcdab61b85fe39bcd1ddb5f69596",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/skills/command-creator/README.md",
+      "path": "cli-tool/components/skills/development/command-creator/README.md",
+      "size": 15507
+    },
+    {
+      "digest": "250a46ebe34c22746c3f67f1f67be1627bcf9da3ccb470e080a6d33b551a4351",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/skills/command-creator/SKILL.md",
+      "path": "cli-tool/components/skills/development/command-creator/SKILL.md",
+      "size": 6966
+    },
+    {
+      "digest": "03b1b32e47b41aae71e3d910f76c128ab138e8d874a9b8987f73c7787a7fe863",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/skills/command-creator/references/best-practices.md",
+      "path": "cli-tool/components/skills/development/command-creator/references/best-practices.md",
+      "size": 13806
+    },
+    {
+      "digest": "3f55c54491d7f582f409660736d04bf8762132aa9cc32437c4ad4cb8f04904df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/skills/command-creator/references/examples.md",
+      "path": "cli-tool/components/skills/development/command-creator/references/examples.md",
+      "size": 15806
+    },
+    {
+      "digest": "b5fd82de388ad17e86f5c589e8a353cbcc85ff2c6a49fa6d2b2f8e55e1128d2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-creator/skills/command-creator/references/patterns.md",
+      "path": "cli-tool/components/skills/development/command-creator/references/patterns.md",
+      "size": 9002
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1b5b61dd18369867ca0cec431ae1d9d39a45c3998a103b23775ca3d8046c761",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/command-creator",
+  "schema_version": 1
+}

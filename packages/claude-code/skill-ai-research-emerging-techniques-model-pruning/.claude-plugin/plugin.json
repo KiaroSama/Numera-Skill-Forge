@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/emerging-techniques-model-pruning",
+  "license": "MIT",
+  "name": "skill-ai-research-emerging-techniques-model-pruning",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

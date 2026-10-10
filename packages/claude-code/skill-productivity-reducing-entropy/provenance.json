@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ddba4b1669d6442131a9bf6817e6e716d5909f5c212516331320a85f76f90573",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/README.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/README.md",
+      "size": 4692
+    },
+    {
+      "digest": "50958820599ab873eda7c8dca4949a01cb1026f845e6a09d3c448f2a7b95d1bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/SKILL.md",
+      "size": 2557
+    },
+    {
+      "digest": "76be7d9dc62f27767b0a507e4179898bd9a3611f3231a69a6801be60ddda098c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/adding-reference-mindsets.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/adding-reference-mindsets.md",
+      "size": 3427
+    },
+    {
+      "digest": "fdfa218c0fea9726fa6276b32c3407e1995a21d99f5f00c45f6e2200fdb6f213",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/references/data-over-abstractions.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/references/data-over-abstractions.md",
+      "size": 1894
+    },
+    {
+      "digest": "62694edb44965c50b7a88fc1f891ae38948b2acd1b872d25c2adc988f352ebe0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/references/design-is-taking-apart.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/references/design-is-taking-apart.md",
+      "size": 2265
+    },
+    {
+      "digest": "e00a5bb7d7f485417f72bc95a0c8629ce571bbf7a6353fe23809515e957b0832",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/references/expensive-to-add-later.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/references/expensive-to-add-later.md",
+      "size": 2497
+    },
+    {
+      "digest": "b7755a28fdd48e81efb33d257d524c951d33a7bcd4b4d187211d3327943a1da9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-reducing-entropy/skills/reducing-entropy/references/simplicity-vs-easy.md",
+      "path": "cli-tool/components/skills/productivity/reducing-entropy/references/simplicity-vs-easy.md",
+      "size": 1707
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b38927441ac17694de6297549a9e10a590840846eb0595b1befc583cb6181c74",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/reducing-entropy",
+  "schema_version": 1
+}

@@ -9,7 +9,7 @@ pub fn inspect(root: &Path, source: &str, revision: &str) -> Result<Snapshot> {
     let mut files = vec![];
     let mut components = vec![];
     let mut licenses = vec![];
-    let entries = storage::files(root)?;
+    let entries = storage::payload_files(root)?;
     for (path, physical) in entries {
         let bytes = storage::bytes(&physical)?;
         if bytes.starts_with(b"version https://git-lfs.github.com/spec/") {
@@ -25,7 +25,7 @@ pub fn inspect(root: &Path, source: &str, revision: &str) -> Result<Snapshot> {
             ));
         }
         let upper = path.to_ascii_uppercase();
-        if upper.contains("LICENSE") || upper.contains("COPYING") {
+        if upper.contains("LICENSE") || upper.contains("COPYING") || upper.contains("NOTICE") {
             licenses.extend_from_slice(&bytes);
         }
         #[cfg(unix)]
@@ -100,6 +100,17 @@ pub fn inspect(root: &Path, source: &str, revision: &str) -> Result<Snapshot> {
             }
         }
     }
+    let owning_roots = components
+        .iter()
+        .filter(|c| matches!(c.kind, Kind::Skills | Kind::Plugins))
+        .map(|c| (c.id.clone(), c.root.clone()))
+        .collect::<Vec<_>>();
+    components.retain(|component| {
+        !owning_roots.iter().any(|(id, root)| {
+            id != &component.id
+                && (root.is_empty() || component.root.starts_with(&format!("{root}/")))
+        })
+    });
     if licenses.is_empty() {
         return Err(Error::new(
             "license-review",

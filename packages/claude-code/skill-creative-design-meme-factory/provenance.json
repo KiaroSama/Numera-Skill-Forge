@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f15e2f7938aaf6f49bc81682f7abd483ef619f5e9419caec272992c6ff614a1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/skills/meme-factory/README.md",
+      "path": "cli-tool/components/skills/creative-design/meme-factory/README.md",
+      "size": 6710
+    },
+    {
+      "digest": "93244397e6ff47a2833a76b86d21a409b4d0aef076f2607edd65a63065777364",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/skills/meme-factory/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/meme-factory/SKILL.md",
+      "size": 7824
+    },
+    {
+      "digest": "989145b5dc1a6da365ab89e48b5fb901eeacefe60644d036a740b7ac1c24fd41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/skills/meme-factory/references/examples.md",
+      "path": "cli-tool/components/skills/creative-design/meme-factory/references/examples.md",
+      "size": 11044
+    },
+    {
+      "digest": "6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/skills/meme-factory/references/markdown-memes-guide.md",
+      "path": "cli-tool/components/skills/creative-design/meme-factory/references/markdown-memes-guide.md",
+      "size": 23970
+    },
+    {
+      "digest": "78bd31fc7a4da8fdb8443fc6b4e2a83c413f7bc276d20c3015e47eabf4218f8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-meme-factory/skills/meme-factory/scripts/meme_generator.py",
+      "path": "cli-tool/components/skills/creative-design/meme-factory/scripts/meme_generator.py",
+      "size": 8287
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "14eb07861be744c1bd48b57cc1bd10171470c14e14cab6d45ead4fa6f3bcfd3c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/meme-factory",
+  "schema_version": 1
+}

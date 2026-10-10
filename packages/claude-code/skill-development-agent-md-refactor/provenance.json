@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-md-refactor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7d869ba570d3649430ab8dbce3e24de9415679aa99028ab0afd05e12898e8477",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-md-refactor/skills/agent-md-refactor/README.md",
+      "path": "cli-tool/components/skills/development/agent-md-refactor/README.md",
+      "size": 7326
+    },
+    {
+      "digest": "f20e68b59875ba43cd2680519cf5e77f6c55b51330b927394291f8f11478c21e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-md-refactor/skills/agent-md-refactor/SKILL.md",
+      "path": "cli-tool/components/skills/development/agent-md-refactor/SKILL.md",
+      "size": 7473
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d081dee04a6dfe250c36821f6548b0237709228086b46bbca72504eeb5988f2e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/agent-md-refactor",
+  "schema_version": 1
+}

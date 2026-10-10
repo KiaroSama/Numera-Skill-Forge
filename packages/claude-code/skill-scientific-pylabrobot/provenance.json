@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4924597e9477d9d489709f431422cf84a7369ce8072b4821fa07bfc0a89459d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/SKILL.md",
+      "size": 8297
+    },
+    {
+      "digest": "b22c5107dcceb62d5e16b2b2cfb4d61bec1f2dcc4252cd56337b134b21ea9ee4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/analytical-equipment.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/analytical-equipment.md",
+      "size": 11935
+    },
+    {
+      "digest": "ae007727fd5b887c090632686fe3f2f53dd7c0493234736b4ceee6548617a5bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/hardware-backends.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/hardware-backends.md",
+      "size": 12944
+    },
+    {
+      "digest": "71a6f02e2871133318803f3d798d98a7f8b272dba75b6ae5f6a2f3f20bf4ac16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/liquid-handling.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/liquid-handling.md",
+      "size": 10206
+    },
+    {
+      "digest": "030aaa791eaccf2e998b7c01e74c573ca4b891ab0e19a1994cd82540e36980fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/material-handling.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/material-handling.md",
+      "size": 13997
+    },
+    {
+      "digest": "2d187c3f65c68acadb4d1ef443243a252ff94fd16877931dc8604415ecfea897",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/resources.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/resources.md",
+      "size": 12263
+    },
+    {
+      "digest": "bda040591f0b0c58889fe6bc4e0a50b54a10e1b9582563b25ae414d4a1c7da51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pylabrobot/skills/pylabrobot/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/pylabrobot/references/visualization.md",
+      "size": 13560
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d3469b9ba438044944bc1e4c5a9bc5067aa0cf0b2dd54c4b28dea3d679156e27",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pylabrobot",
+  "schema_version": 1
+}

@@ -1,0 +1,208 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bdae72829a182fc52c7f86efb4c1fab9b6419deb52a4e736e65e757e84507186",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/SKILL.md",
+      "path": "cli-tool/components/skills/development/gke-basics/SKILL.md",
+      "size": 4327
+    },
+    {
+      "digest": "ca5b0a70d4ccfaecea0f71001ada99ca04143b29c5fa2fb7e66bb1216fc93d84",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/assets/default-deny-netpol.yaml",
+      "path": "cli-tool/components/skills/development/gke-basics/assets/default-deny-netpol.yaml",
+      "size": 154
+    },
+    {
+      "digest": "fb4729c0fa8b1bf790de34fc24621e641e76dc451009926a7b5af9eda67e49ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/assets/golden-path-autopilot.yaml",
+      "path": "cli-tool/components/skills/development/gke-basics/assets/golden-path-autopilot.yaml",
+      "size": 3733
+    },
+    {
+      "digest": "f733a5bee46d4e5473db960867fb8057cfe67a40520737dc5a3b4d3740876a1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/assets/hpa-example.yaml",
+      "path": "cli-tool/components/skills/development/gke-basics/assets/hpa-example.yaml",
+      "size": 495
+    },
+    {
+      "digest": "cdebc46b58eef3764b97200670df10728b33d6c293fed6e3f7a202ea13c5929a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/assets/vpa-example.yaml",
+      "path": "cli-tool/components/skills/development/gke-basics/assets/vpa-example.yaml",
+      "size": 469
+    },
+    {
+      "digest": "d03d5429c8966a0e2e4121f2fbf6a480e997c033f56567609cb32e629b16abe5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/assets/workload-identity-pod.yaml",
+      "path": "cli-tool/components/skills/development/gke-basics/assets/workload-identity-pod.yaml",
+      "size": 793
+    },
+    {
+      "digest": "bcbdd6355b218d239d4fb0bcadaaccfccad9cc0c499c87eb0c44dc4a1eeabe02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/cli-reference.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/cli-reference.md",
+      "size": 10860
+    },
+    {
+      "digest": "f4d341ba706124b74168a116a683582ba676150f691d046a4841cca28103980d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/client-library-usage.md",
+      "size": 2341
+    },
+    {
+      "digest": "418684017a1d941d26d4c6922e967c41c2b7c16b8586a8934f04ee93750b2dc7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/core-concepts.md",
+      "size": 2879
+    },
+    {
+      "digest": "b6e96fa2ee4ce08ed59d29e05c9f006ed911b48ad80ceaf8f9378b5ba8e08d9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-app-onboarding.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-app-onboarding.md",
+      "size": 4355
+    },
+    {
+      "digest": "8c89bc9fb35bf5ca41ac3405da69da445d772775685c4fd9d485fc698647cb8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-backup-dr.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-backup-dr.md",
+      "size": 2464
+    },
+    {
+      "digest": "0cfd2e9693205a0b0029003d95a1e0cc1a2393117b4aa8c19d4be4b57d805ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-batch-hpc.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-batch-hpc.md",
+      "size": 4147
+    },
+    {
+      "digest": "044a2b49edaccd9fb362d3813f23591f15d30ef97cf85c51000771ebf5c7a546",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-cluster-creation.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-cluster-creation.md",
+      "size": 5078
+    },
+    {
+      "digest": "94ebe1d5a9dccc9d265cf8f109e99b8d8bab954395f0204ac98f36a5df39b897",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-compute-classes.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-compute-classes.md",
+      "size": 4577
+    },
+    {
+      "digest": "3f953362d51a7d8ef9c4736f41f18ded165aaa42d5650ed7c8ae0fc07f38aab5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-cost.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-cost.md",
+      "size": 5053
+    },
+    {
+      "digest": "03a15ae51339603c53933fb04605324130d7ca5345ac2e598121c613a43cd965",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-golden-path.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-golden-path.md",
+      "size": 4481
+    },
+    {
+      "digest": "9c34996e9570d337532ec6c95d5f9e7c5b2171661db266456a914382f2eb44b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-inference.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-inference.md",
+      "size": 5428
+    },
+    {
+      "digest": "280a2e0704998d10d2d99e5456c06432d027a8fe69c288eb914f79c34075ae8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-multitenancy.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-multitenancy.md",
+      "size": 4011
+    },
+    {
+      "digest": "7a7fd601e01768760e18804d03cbaf2e4596454732f3733fedd66e0c96360fc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-networking.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-networking.md",
+      "size": 5419
+    },
+    {
+      "digest": "6749708a01aa078031100ece72664e8a3603de0af04cae88875387ba3af5d265",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-observability.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-observability.md",
+      "size": 6525
+    },
+    {
+      "digest": "1913a2b47f524a768d9af1e65995ab8a106af595c808393ee50e28ca7edade87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-reliability.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-reliability.md",
+      "size": 5098
+    },
+    {
+      "digest": "78d219e83c38e2ccff7fd7ff27a2ef75d44b37ab95272676eeaad9b721f3c5cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-scaling.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-scaling.md",
+      "size": 5149
+    },
+    {
+      "digest": "771480df747eca27888906740e3cf334ac454651ee54af262680cc000f0612dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-security.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-security.md",
+      "size": 9662
+    },
+    {
+      "digest": "c61e94c3e758f6c21290013cc9b681b23544ba5e506b65da227dc7aaa7d45cac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-storage.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-storage.md",
+      "size": 4074
+    },
+    {
+      "digest": "e54ba5648024b5decaec58c05e49fbb78f82ccc9675b1da2b473ab82345c186c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/gke-upgrades.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/gke-upgrades.md",
+      "size": 5069
+    },
+    {
+      "digest": "636b533e4554de8518bcbb463f871e338c4f9a69926ad9b21cfc646e20cb526e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/iac-usage.md",
+      "size": 2134
+    },
+    {
+      "digest": "331c5f0852b34cfb6b9e1b9975af93060b79680f124317de56a902c60e2e417b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gke-basics/skills/gke-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/development/gke-basics/references/mcp-usage.md",
+      "size": 3051
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "59a08021a8417b946682348150feba43819313ab7b72db2c7769bdea924c2ca7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/gke-basics",
+  "schema_version": 1
+}

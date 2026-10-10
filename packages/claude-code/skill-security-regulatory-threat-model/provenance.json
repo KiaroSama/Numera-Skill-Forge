@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-regulatory-threat-model/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "534c9cbd539fef5235d528ee033ab682976184f92fb19ccaa7d0ef4a8140d0ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-regulatory-threat-model/skills/regulatory-threat-model/SKILL.md",
+      "path": "cli-tool/components/skills/security/regulatory-threat-model/SKILL.md",
+      "size": 25921
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "payload_digest": "359c6d3b411f50e8aef6db320d8881891fd91b53c817bfa186bb865ffa2cf7cf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/regulatory-threat-model",
+  "schema_version": 1
+}

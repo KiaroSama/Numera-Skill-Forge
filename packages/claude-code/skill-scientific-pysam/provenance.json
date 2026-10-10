@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fb020d09b420ee59eead6780e6ce81d1b2236194ccc3063088ca53f2b7ae7153",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/skills/pysam/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pysam/SKILL.md",
+      "size": 9934
+    },
+    {
+      "digest": "bab4192ee7c8cbad1618740f12d3fb15c88c696ec51872a91886283726bedd35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/skills/pysam/references/alignment_files.md",
+      "path": "cli-tool/components/skills/scientific/pysam/references/alignment_files.md",
+      "size": 8560
+    },
+    {
+      "digest": "4fbc6a314b37dfe88ce4e1d41df1179a3b088814bdf5c97b5dcec86a6d4a3825",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/skills/pysam/references/common_workflows.md",
+      "path": "cli-tool/components/skills/scientific/pysam/references/common_workflows.md",
+      "size": 15350
+    },
+    {
+      "digest": "ddab0b166821d488019743d1b72f8df9d1a838ee9462078c499a17d29fe3ad6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/skills/pysam/references/sequence_files.md",
+      "path": "cli-tool/components/skills/scientific/pysam/references/sequence_files.md",
+      "size": 11597
+    },
+    {
+      "digest": "09e5eb5d9c7b13fdc34467311fc2f6403087ddb3d4d1c81efbf1876ce3b8763c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pysam/skills/pysam/references/variant_files.md",
+      "path": "cli-tool/components/skills/scientific/pysam/references/variant_files.md",
+      "size": 9487
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f28711c166e368cf626d6c328f77c3d943fa18e943d08f62c69456b007b83b0f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pysam",
+  "schema_version": 1
+}

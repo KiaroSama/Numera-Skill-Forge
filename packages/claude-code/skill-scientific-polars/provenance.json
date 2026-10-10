@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9f97e29678ba91f90937a1abf3e11a2cc6ee30fdbe70adf1db97f7b216b10668",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/polars/SKILL.md",
+      "size": 9205
+    },
+    {
+      "digest": "024342131656706f53fb67c461b7693a33d67d0b215dbc53f2ebc07e53d78853",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/best_practices.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/best_practices.md",
+      "size": 14181
+    },
+    {
+      "digest": "770e68aeb8a62bcf5765bc1baf4f720c2684a78aa50405708d3943b6289cf909",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/core_concepts.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/core_concepts.md",
+      "size": 8348
+    },
+    {
+      "digest": "0a3d7dd798b17c511f1811e4a67760ae109aeaf0bfa78ea2976ee1b1653a1b98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/io_guide.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/io_guide.md",
+      "size": 11208
+    },
+    {
+      "digest": "dda2cbb5d3926e9e1a124b3091c175cbd5014a7b008847083d042a25a57d4445",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/operations.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/operations.md",
+      "size": 12080
+    },
+    {
+      "digest": "47e5643132ce366298102dd1b68740533f6812be406c4ccf1abf695b8cb2c5a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/pandas_migration.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/pandas_migration.md",
+      "size": 12353
+    },
+    {
+      "digest": "c3f6758fa5facae26526dd44623ac5f8028149797efc012ee42e8df006cb4dfa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-polars/skills/polars/references/transformations.md",
+      "path": "cli-tool/components/skills/scientific/polars/references/transformations.md",
+      "size": 11183
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5079bb12f96d08d735083e1445b80b635f89d633867243b716d950a4fa45a677",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/polars",
+  "schema_version": 1
+}

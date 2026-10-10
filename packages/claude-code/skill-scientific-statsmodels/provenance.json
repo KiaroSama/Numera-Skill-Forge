@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f487cabdffc4f913fcfdf87caefd57218ca2116d6b31d14a259d4f2fa07dd40d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/SKILL.md",
+      "size": 19465
+    },
+    {
+      "digest": "2509d706b2e954c34680df8e87957148eccbc4b75afe78d8a4d4c4cb378571ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/references/discrete_choice.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/references/discrete_choice.md",
+      "size": 17182
+    },
+    {
+      "digest": "3dc2690c504e51e30e881d9978dec9d6f1049f135e7a19081ae0534fc88116e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/references/glm.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/references/glm.md",
+      "size": 16581
+    },
+    {
+      "digest": "b260fcc1d604592a1b960249cd835d1cb67f510f054e0270a5939dceb33aafaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/references/linear_models.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/references/linear_models.md",
+      "size": 12966
+    },
+    {
+      "digest": "f4d8ec3c6b149af355ae3cb33f29bea1776b873867dcc035906753b2b47d5620",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/references/stats_diagnostics.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/references/stats_diagnostics.md",
+      "size": 20526
+    },
+    {
+      "digest": "9046111210d39cda57cb2af5f929ab8c68d9c6b4965b14e14431ca51cf90707d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-statsmodels/skills/statsmodels/references/time_series.md",
+      "path": "cli-tool/components/skills/scientific/statsmodels/references/time_series.md",
+      "size": 18934
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "29893ee8d46b36dd8be8f744cd96eb40af4c319e16cdcf67f0f85f002b726b86",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/statsmodels",
+  "schema_version": 1
+}

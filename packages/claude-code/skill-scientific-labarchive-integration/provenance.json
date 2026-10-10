@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b00cf8d94271015ef0ed4673465a3b8fde41f27c9e1e2c1046c18267293c5cfe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/SKILL.md",
+      "size": 9386
+    },
+    {
+      "digest": "9680fe9f2378f8f2e2b75fe3da9890df580c6254067028ca2e78f5fa6e55c304",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/references/api_reference.md",
+      "size": 9012
+    },
+    {
+      "digest": "9736d35612b4f89d0d6ef3b148de05e95befb48c2a5d59fe1e39fb0b431d6afb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/references/authentication_guide.md",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/references/authentication_guide.md",
+      "size": 10709
+    },
+    {
+      "digest": "6d7b514173089ef2e291de64c4441b8d1c9ec2a5b9e9a0eb1950842c3bf32717",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/references/integrations.md",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/references/integrations.md",
+      "size": 12645
+    },
+    {
+      "digest": "e15516532d740d65b01375c4b7b2eab1832697304a4f4ce9baf8b3c68c66e3e7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/scripts/entry_operations.py",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/scripts/entry_operations.py",
+      "size": 10576
+    },
+    {
+      "digest": "ae836f9c9732d5e1465acb56c110f2e45edbcd7dada2abb36d053825b492e5b7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/scripts/notebook_operations.py",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/scripts/notebook_operations.py",
+      "size": 8677
+    },
+    {
+      "digest": "0d0b486065f1aed4444c6e4fdaf6e6408dcc6a9592cd39aae423fe3c80b61c17",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-labarchive-integration/skills/labarchive-integration/scripts/setup_config.py",
+      "path": "cli-tool/components/skills/scientific/labarchive-integration/scripts/setup_config.py",
+      "size": 6412
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a266124e6c6566ff350b85f541db3ddc9bede9cc8ca09e0fb3c972578f5e44d7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/labarchive-integration",
+  "schema_version": 1
+}

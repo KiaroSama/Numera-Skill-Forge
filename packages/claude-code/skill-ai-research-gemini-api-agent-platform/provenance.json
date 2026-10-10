@@ -1,0 +1,89 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f6e5d8a05a0c1287c621e58674cf3fce941ab7dbd5e1a707493a877c406c0583",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/SKILL.md",
+      "size": 9815
+    },
+    {
+      "digest": "6d41419af1f8776184210fd672f423e49707c95e75d21b2b02290ece4553f2dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/advanced_features.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/advanced_features.md",
+      "size": 4493
+    },
+    {
+      "digest": "fe79ffcda3def1e99a286c2f9701456f5636c5eb0730d3855a7572315a10204d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/bounding_box.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/bounding_box.md",
+      "size": 1866
+    },
+    {
+      "digest": "4a3d3f754dbcd935a2f01d1bd33918c1d9bef3730115f4a744537c0506ee99fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/embeddings.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/embeddings.md",
+      "size": 3058
+    },
+    {
+      "digest": "be927fcc21ee3cdea68d5172cad957885ab09281ddea8f85eccc02ef3747560f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/live_api.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/live_api.md",
+      "size": 1064
+    },
+    {
+      "digest": "9243e5e204d0617451862a87cf00445bda9c6f25b586a85ce12f866e5cbe8158",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/media_generation.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/media_generation.md",
+      "size": 3003
+    },
+    {
+      "digest": "23552ffc4d4fe33f022583d3a08911b475c0ec79843648be590bdb469c4d9e38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/model_tuning.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/model_tuning.md",
+      "size": 934
+    },
+    {
+      "digest": "0d25d2de340316189a57af58b67de88c226d539409a8782b801053d5722213dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/safety.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/safety.md",
+      "size": 1878
+    },
+    {
+      "digest": "cc195f17ae30da5f7d73029d47a41ba3c5de3d81b8379b22dffa6d9e7b257ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/structured_and_tools.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/structured_and_tools.md",
+      "size": 3786
+    },
+    {
+      "digest": "d458c4eb36ac5360f5e1fee86e81f2ff0a2164df654da48b964d7df9bd90d08b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gemini-api-agent-platform/skills/gemini-api-agent-platform/references/text_and_multimodal.md",
+      "path": "cli-tool/components/skills/ai-research/gemini-api-agent-platform/references/text_and_multimodal.md",
+      "size": 2312
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "57cda7d09ff2c0a115b3190594c833b6bf7a87a0d327da47c6ad2c7a0c9e9b94",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/gemini-api-agent-platform",
+  "schema_version": 1
+}

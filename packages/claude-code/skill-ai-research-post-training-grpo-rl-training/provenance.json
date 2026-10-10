@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-grpo-rl-training/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e6c726197d8f97daf8af38489bc0e33f0cf7d224d7279276339e351908abdc8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-grpo-rl-training/skills/grpo-rl-training/README.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-grpo-rl-training/README.md",
+      "size": 3514
+    },
+    {
+      "digest": "c9b771c280840f12d0e98749250c35df4a83a21f95465c41e8ae13f0229ecb40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-grpo-rl-training/skills/grpo-rl-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-grpo-rl-training/SKILL.md",
+      "size": 17200
+    },
+    {
+      "digest": "aa2104ebb7bb38df0bd06752998cd9822e47126cf8515f57c1c19545da6364cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-grpo-rl-training/skills/grpo-rl-training/examples/reward_functions_library.py",
+      "path": "cli-tool/components/skills/ai-research/post-training-grpo-rl-training/examples/reward_functions_library.py",
+      "size": 11568
+    },
+    {
+      "digest": "95abe6a3f69bea79d52c1a36301c7600a1439eb805f442b1cda304812ebced02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-grpo-rl-training/skills/grpo-rl-training/templates/basic_grpo_training.py",
+      "path": "cli-tool/components/skills/ai-research/post-training-grpo-rl-training/templates/basic_grpo_training.py",
+      "size": 6122
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91335680b5003153da632e0cd2640dfd415d701323ab2b6be774ca2e0dbfb6f7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-grpo-rl-training",
+  "schema_version": 1
+}

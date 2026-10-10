@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-curviate-curviate-quickstart/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b660613e8eb17132c475ebc6a5d02877bf5e9019d9095c5a7818c575a09e89fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-curviate-curviate-quickstart/skills/curviate-quickstart/SKILL.md",
+      "path": "cli-tool/components/skills/curviate/curviate-quickstart/SKILL.md",
+      "size": 11432
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0cb493e4c9b3f86e7167ada7a3078bffcd30b3763e98b6f3a66715bbe342af59",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/curviate/curviate-quickstart",
+  "schema_version": 1
+}

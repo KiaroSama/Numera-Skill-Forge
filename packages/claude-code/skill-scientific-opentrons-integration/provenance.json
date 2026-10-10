@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f313ce4d467de28399ad2e35dc95a3105db76db7fe8171dea25e476ad1abdaa8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/skills/opentrons-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/opentrons-integration/SKILL.md",
+      "size": 14554
+    },
+    {
+      "digest": "b4162502b68085b97c8c1bbcbeff332c95bc1bb2fd53e049a00a11cf41718d86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/skills/opentrons-integration/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/opentrons-integration/references/api_reference.md",
+      "size": 13117
+    },
+    {
+      "digest": "686fa264c76047d1ad3d0dbed7db9d78039a5ab3ae42ade5528d83dc9874f890",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/skills/opentrons-integration/scripts/basic_protocol_template.py",
+      "path": "cli-tool/components/skills/scientific/opentrons-integration/scripts/basic_protocol_template.py",
+      "size": 1537
+    },
+    {
+      "digest": "fcff6cf747aaff92a16033b67e906b0a3b223b54012fe6b9424dbdb0ff74621e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/skills/opentrons-integration/scripts/pcr_setup_template.py",
+      "path": "cli-tool/components/skills/scientific/opentrons-integration/scripts/pcr_setup_template.py",
+      "size": 4538
+    },
+    {
+      "digest": "f646b62549474113b999fcafa93a6ac2e64735596ccdb798f8138573a739acf1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentrons-integration/skills/opentrons-integration/scripts/serial_dilution_template.py",
+      "path": "cli-tool/components/skills/scientific/opentrons-integration/scripts/serial_dilution_template.py",
+      "size": 3171
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "69d5c4d4957eda6f32d86dd9b3a252fbef6ddde2dc3580c5f9fdb00441f8ecb9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/opentrons-integration",
+  "schema_version": 1
+}

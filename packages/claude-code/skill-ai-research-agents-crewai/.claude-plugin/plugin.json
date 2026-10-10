@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/agents-crewai",
+  "license": "MIT",
+  "name": "skill-ai-research-agents-crewai",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

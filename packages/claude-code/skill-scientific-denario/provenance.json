@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b01a3a658ec892c727790e954e7df37d2b60cdf1ab3d100df5326a40c2c8af2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/skills/denario/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/denario/SKILL.md",
+      "size": 5933
+    },
+    {
+      "digest": "92a6b755d725ec6ec4f1e68fed813c62a818b102074e1d6c9641879331c37359",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/skills/denario/references/examples.md",
+      "path": "cli-tool/components/skills/scientific/denario/references/examples.md",
+      "size": 12754
+    },
+    {
+      "digest": "3a41b0ddca95c1af55e6aed7303a95c48706a87042dc8e9d54bc4073be1d74d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/skills/denario/references/installation.md",
+      "path": "cli-tool/components/skills/scientific/denario/references/installation.md",
+      "size": 3942
+    },
+    {
+      "digest": "cced6d61c4abe351955345d300e7fd5ae56efe25b8df6b3380d0d840edad35a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/skills/denario/references/llm_configuration.md",
+      "path": "cli-tool/components/skills/scientific/denario/references/llm_configuration.md",
+      "size": 6713
+    },
+    {
+      "digest": "5e0d02bebc5c4fb91c6df80d15a4bed3e62b8ef78afff08aec15a488e33eee10",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-denario/skills/denario/references/research_pipeline.md",
+      "path": "cli-tool/components/skills/scientific/denario/references/research_pipeline.md",
+      "size": 11884
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "43330cf0638a097195a1bff496da0fc4c530a49a3400532c972c30088a760c81",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/denario",
+  "schema_version": 1
+}

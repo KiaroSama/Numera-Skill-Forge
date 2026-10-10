@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: sickn33/antigravity-awesome-skills; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Original project authorship/submission evidence is linked; root grant applies to original contribution, not third-party exceptions. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/angular/SKILL.md https://github.com/davila7/claude-code-templates/commit/e72ce062de0f50bf0c222d50d346b5e310d962ba",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    }
+  ]
+}

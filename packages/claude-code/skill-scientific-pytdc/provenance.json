@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9bc0bd03250443607dda74638d8e1c71a41a675d33b6b71f9d4f07d2cf806ca2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pytdc/SKILL.md",
+      "size": 12639
+    },
+    {
+      "digest": "f0891a008e8e4b2080544c3dfab3002748a2b3cebdb6056e3005a3fd43291483",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/references/datasets.md",
+      "path": "cli-tool/components/skills/scientific/pytdc/references/datasets.md",
+      "size": 8792
+    },
+    {
+      "digest": "ad90a6f47f9af8e49af6d0063a5eee7af9a7ba92b48a63a8c03e302908a0ad7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/references/oracles.md",
+      "path": "cli-tool/components/skills/scientific/pytdc/references/oracles.md",
+      "size": 10051
+    },
+    {
+      "digest": "2432f3000dd364ed9de5662e3b706d4a1d1df9bf161ad65b3167231d4ad9b538",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/references/utilities.md",
+      "path": "cli-tool/components/skills/scientific/pytdc/references/utilities.md",
+      "size": 16045
+    },
+    {
+      "digest": "d059b589a9126930b16701214fed28aa1178a2a8bed0badb285467b30e09007f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/scripts/benchmark_evaluation.py",
+      "path": "cli-tool/components/skills/scientific/pytdc/scripts/benchmark_evaluation.py",
+      "size": 9238
+    },
+    {
+      "digest": "99555f9c180520b42b5760793714198b4dbbbb6d78612ea1af6d71fd9deef750",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/scripts/load_and_split_data.py",
+      "path": "cli-tool/components/skills/scientific/pytdc/scripts/load_and_split_data.py",
+      "size": 6350
+    },
+    {
+      "digest": "28bb26b35deca24306937c4653ccb6b489d96926e434a04fef729bea093a7d39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytdc/skills/pytdc/scripts/molecular_generation.py",
+      "path": "cli-tool/components/skills/scientific/pytdc/scripts/molecular_generation.py",
+      "size": 11335
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1507e30d830a7d9a5c7bb29d4ef4453d2fe344e681c112dc99f4fdc0dd0d008e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pytdc",
+  "schema_version": 1
+}

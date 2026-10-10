@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gget/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "aa1541e6449ac31691767bd935d9a0f11b2e17f6b8435d0af5bd37e6607a19e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/gget/SKILL.md",
+      "size": 25020
+    },
+    {
+      "digest": "d0122e55ca5a24e2242f1eb00740a0e782a545524ad5adb131f1ddff606fc341",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/references/database_info.md",
+      "path": "cli-tool/components/skills/scientific/gget/references/database_info.md",
+      "size": 10210
+    },
+    {
+      "digest": "8894ffa9a7d07930329d4fbd247588c1891426d2652542ce7fb5dd990e3405bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/references/module_reference.md",
+      "path": "cli-tool/components/skills/scientific/gget/references/module_reference.md",
+      "size": 17562
+    },
+    {
+      "digest": "b1b597fef2c8ac7e21285d4c7ef8f405619eb07dfd1e1244de581f0d0f8699af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/gget/references/workflows.md",
+      "size": 25756
+    },
+    {
+      "digest": "0efcc34152ced46b0dda46d01ac95439b4f3a30fa0a2c08944ed783d7828e2c7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/scripts/batch_sequence_analysis.py",
+      "path": "cli-tool/components/skills/scientific/gget/scripts/batch_sequence_analysis.py",
+      "size": 5978
+    },
+    {
+      "digest": "172578543891484aefa5aeb21c82d4f8de4757f214d956bfb88cfbbfb03ffcbf",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/scripts/enrichment_pipeline.py",
+      "path": "cli-tool/components/skills/scientific/gget/scripts/enrichment_pipeline.py",
+      "size": 7201
+    },
+    {
+      "digest": "050ede8a2bb17e45d9bc47e437152755e53f0d45eaa1a17ea26f3c879e476932",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-gget/skills/gget/scripts/gene_analysis.py",
+      "path": "cli-tool/components/skills/scientific/gget/scripts/gene_analysis.py",
+      "size": 5778
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "10754c5f5573e1abd72237db48fbe561ace75291c91d3daff6d296334be2783b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/gget",
+  "schema_version": 1
+}

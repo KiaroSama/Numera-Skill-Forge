@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-llama-cpp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d74caa45483f5b3c6bd6267e39b444627989ff90fdb84b6c2e7c3da4ddf143ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-llama-cpp/skills/llama-cpp/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-llama-cpp/SKILL.md",
+      "size": 5912
+    },
+    {
+      "digest": "4e89811c0827f5eb9deb9fc609cd441eb197fb0fa85e79dd8c1f272b14a669fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-llama-cpp/skills/llama-cpp/references/optimization.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-llama-cpp/references/optimization.md",
+      "size": 1659
+    },
+    {
+      "digest": "c7686a86893d4e0e052cc733b62ea1bc0e5dae8f1b174436cc293a46a486893d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-llama-cpp/skills/llama-cpp/references/quantization.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-llama-cpp/references/quantization.md",
+      "size": 4956
+    },
+    {
+      "digest": "181a84ae177f305205cc30d05305fc4237aa255f3fff29299362cb1e0cb6db64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-llama-cpp/skills/llama-cpp/references/server.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-llama-cpp/references/server.md",
+      "size": 2259
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8e6054b485ac957b4f2cddff86ed5e7a22f5179d3ec6adc3f694d270ba338a6c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/inference-serving-llama-cpp",
+  "schema_version": 1
+}

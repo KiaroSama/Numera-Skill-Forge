@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c48918ca4c3e639260a5e64d2da2c121393973257f324c6343996dbcdadd4d35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-firebase/skills/firebase/SKILL.md",
+      "path": "cli-tool/components/skills/development/firebase/SKILL.md",
+      "size": 1783
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "9c5324064e5b3ac0404e59c1898d628327cf6690b0116ca137f458e1229a0f63",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/firebase",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-telegram-bot-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "858672c20bedfaf071e8cc900c4a23ece8939872152bb310ebb1b2492b80c71a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-telegram-bot-builder/skills/telegram-bot-builder/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/telegram-bot-builder/SKILL.md",
+      "size": 6033
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "68c18e7d1ec0b28f95ffa13211c6c730c640fec2792d6e0d507090ffb45a2f08",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/telegram-bot-builder",
+  "schema_version": 1
+}

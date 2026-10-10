@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6b26ebaf34ad56043eb3fdbede864729f2c8c326276688265fcdfade68ad3da4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/SKILL.md",
+      "size": 28689
+    },
+    {
+      "digest": "a15c4ee95bca602482cc95ac60a20b830876aac95fc758f65c61f9fa946bc2c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/assets/FORMATTING_GUIDE.md",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/assets/FORMATTING_GUIDE.md",
+      "size": 10110
+    },
+    {
+      "digest": "c4f6ed9361261a7937f611c6533040c0c8e6aca1bac03150c8312c827278ebc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/assets/market_report_template.tex",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/assets/market_report_template.tex",
+      "size": 50218
+    },
+    {
+      "digest": "2ea9075ece5537be7a43fe8cc50a2c9782a107f653594bd3f51995162a38adff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/assets/market_research.sty",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/assets/market_research.sty",
+      "size": 15617
+    },
+    {
+      "digest": "ed19d12f1c6650272282b79e8afa7d36bc79e6d011c8d68e96dd9a0d890ec328",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/references/data_analysis_patterns.md",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/references/data_analysis_patterns.md",
+      "size": 17690
+    },
+    {
+      "digest": "9c676e4b9d5e25dd65bc9d8f714622c55357e6e9d2b8b1c7dfa744333e600da6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/references/report_structure_guide.md",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/references/report_structure_guide.md",
+      "size": 23572
+    },
+    {
+      "digest": "7e78bb69955177ec4d46fff9195c7f406f43f1ed7141bdafe8cf19a7f3987f87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/references/visual_generation_guide.md",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/references/visual_generation_guide.md",
+      "size": 37281
+    },
+    {
+      "digest": "6c259c5fe7980d568e1d2f0960cb1092c7cb43a644d35481993bc09ef733230f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-market-research-reports/skills/market-research-reports/scripts/generate_market_visuals.py",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/scripts/generate_market_visuals.py",
+      "size": 20423
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c298472c73915be8e22a93479d964b030d4eaf44c8a6a88999367b0e775bf43a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/market-research-reports",
+  "schema_version": 1
+}

@@ -29,6 +29,23 @@ enum Commands {
     Init,
     Doctor,
     Logs,
+    History,
+    Support {
+        #[arg(long)]
+        include_logs: bool,
+    },
+    LogRetention {
+        #[arg(long, default_value_t = 30)]
+        days: u64,
+        #[arg(long, default_value_t = 10)]
+        keep: usize,
+        #[arg(long)]
+        apply: bool,
+    },
+    Job {
+        #[command(subcommand)]
+        command: Jobs,
+    },
     Status,
     Source {
         #[command(subcommand)]
@@ -115,9 +132,41 @@ enum Commands {
     Publish {
         #[arg(long, default_value = "preview")]
         mode: String,
+        #[arg(long)]
+        expected_remote: Option<String>,
+        #[arg(long)]
+        expected_head: Option<String>,
+        #[arg(long)]
+        expected_remote_head: Option<String>,
+        #[arg(long)]
+        expected_account: Option<String>,
+        #[arg(long)]
+        publication_branch: Option<String>,
+        #[arg(long)]
+        author_name: Option<String>,
+        #[arg(long)]
+        author_email: Option<String>,
     },
     Request {
         file: PathBuf,
+    },
+}
+#[derive(Subcommand)]
+enum Jobs {
+    List,
+    Status {
+        job: String,
+    },
+    Cancel {
+        job: String,
+    },
+    Retry {
+        job: String,
+    },
+    Run {
+        file: PathBuf,
+        #[arg(long)]
+        id: Option<String>,
     },
 }
 #[derive(Subcommand)]
@@ -169,6 +218,22 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
         Commands::Init => json!({"action":"init"}),
         Commands::Doctor => json!({"action":"doctor"}),
         Commands::Logs => json!({"action":"logs"}),
+        Commands::History => json!({"action":"history"}),
+        Commands::Support { include_logs } => {
+            json!({"action":"support-bundle","include_logs":include_logs})
+        }
+        Commands::LogRetention { days, keep, apply } => {
+            json!({"action":"log-retention","days":days,"keep":keep,"apply":apply})
+        }
+        Commands::Job { command } => match command {
+            Jobs::List => json!({"action":"job-list"}),
+            Jobs::Status { job } => json!({"action":"job-status","job":job}),
+            Jobs::Cancel { job } => json!({"action":"job-cancel","job":job}),
+            Jobs::Retry { job } => json!({"action":"job-retry","job":job}),
+            Jobs::Run { file, id } => {
+                json!({"action":"job-run","request":forge_core::storage::read::<Value>(file)?,"job":id,"timeout":cli.timeout})
+            }
+        },
         Commands::Status => json!({"action":"status"}),
         Commands::Source { command } => match command {
             Sources::Add {
@@ -238,13 +303,7 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
             dry_run,
             scope,
         } => {
-            if scope != "project" {
-                return Err(forge_core::Error::new(
-                    "scope",
-                    "Only explicit project destinations are certified in this version",
-                ));
-            }
-            json!({"action":"install","package":package,"target":target,"destination":destination,"dry_run":dry_run})
+            json!({"action":"install","package":package,"target":target,"scope":scope,"destination":destination,"dry_run":dry_run})
         }
         Commands::Installed => json!({"action":"installed"}),
         Commands::Update { .. } => json!({"action":"update"}),
@@ -252,7 +311,18 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
         Commands::Enable { receipt } => json!({"action":"enable","receipt":receipt}),
         Commands::Uninstall { receipt } => json!({"action":"uninstall","receipt":receipt}),
         Commands::Rollback { operation } => json!({"action":"rollback","operation":operation}),
-        Commands::Publish { mode } => json!({"action":"publish","mode":mode}),
+        Commands::Publish {
+            mode,
+            expected_remote,
+            expected_head,
+            expected_remote_head,
+            expected_account,
+            publication_branch,
+            author_name,
+            author_email,
+        } => {
+            json!({"action":"publish","mode":mode,"expected_remote":expected_remote,"expected_head":expected_head,"expected_remote_head":expected_remote_head,"expected_account":expected_account,"publication_branch":publication_branch,"author_name":author_name,"author_email":author_email})
+        }
         Commands::Request { file } => forge_core::storage::read(file)?,
     })
 }
@@ -265,10 +335,61 @@ fn main() {
             std::process::exit(3)
         }
     };
-    let log = forge_core::logging::RunLog::start("numera-forge", &root)
+    let selected = (|| -> forge_core::Result<PathBuf> {
+        forge_core::validation::identifier(&cli.profile)?;
+        if cli.profile == "default" {
+            return Ok(root.clone());
+        }
+        for ancestor in root.ancestors() {
+            forge_core::validation::reject_link(ancestor)?;
+        }
+        let state = forge_core::validation::contained(&root, ".forge-state")?;
+        std::fs::create_dir_all(&state)?;
+        let directory = forge_core::validation::contained(&state, "profiles")?;
+        std::fs::create_dir_all(&directory)?;
+        let path = forge_core::validation::contained(&directory, &cli.profile)?;
+        std::fs::create_dir_all(&path)?;
+        Ok(path)
+    })();
+    let log_root = selected.as_ref().unwrap_or(&root);
+    let log = forge_core::logging::RunLog::start("numera-forge", log_root)
         .map_err(|e| eprintln!("WARNING logging: {}", e.code))
         .ok();
-    let result = request(&cli).and_then(|r| forge_core::service::execute(&root, r));
+    let result = request(&cli)
+        .and_then(|r| {
+            let selected = selected?;
+            if matches!(
+                r["action"].as_str(),
+                Some("sync" | "discover" | "build" | "collection-sync" | "update")
+            ) {
+                forge_core::jobs::run(&selected, r, cli.timeout, None)
+            } else {
+                forge_core::service::execute(&selected, r)
+            }
+        })
+        .and_then(|value| {
+            if matches!(&cli.command, Commands::Job { .. }) {
+                return Ok(value);
+            }
+            if matches!(value["status"].as_str(), Some("failed" | "cancelled")) {
+                Err(forge_core::Error::new(
+                    match value["error"]["code"].as_str() {
+                        Some("approval-required") => "approval-required",
+                        Some("trust-required") => "trust-required",
+                        Some("unsupported-required") => "unsupported-required",
+                        Some("publication-review") => "publication-review",
+                        Some("cancelled") => "cancelled",
+                        Some("timeout") => "timeout",
+                        _ => "job-failed",
+                    },
+                    forge_core::logging::redact(&value["error"].to_string()),
+                ))
+            } else if value.get("result").is_some() {
+                Ok(value["result"].clone())
+            } else {
+                Ok(value)
+            }
+        });
     match result {
         Ok(value) => {
             let partial = value["status"] == "partial";

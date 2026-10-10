@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-ray-train/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7f88c141557e3f0cc5b456571d1ae99bef4161a9c1765bc725847cfbd0fb1170",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-ray-train/skills/ray-train/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-ray-train/SKILL.md",
+      "size": 10696
+    },
+    {
+      "digest": "79b7f3cb8264ca2d8897b8e6e2e7bdb4d9207e2a2ea6e4b4d18d8fe073afd401",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-ray-train/skills/ray-train/references/multi-node.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-ray-train/references/multi-node.md",
+      "size": 13526
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "08538ca519b192c23346d6298535bca2379c931aaf73c7cc0e213654177662b6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-ray-train",
+  "schema_version": 1
+}

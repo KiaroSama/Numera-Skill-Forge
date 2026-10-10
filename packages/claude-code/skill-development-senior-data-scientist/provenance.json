@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1e6974ea60451055b3b11ff8b12d6bbb8ef90ab2bf973830718271c8ed53de06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/SKILL.md",
+      "size": 5630
+    },
+    {
+      "digest": "4bb669406f3a3e2482bfc775e328643bda472a334dea7cdcb41c1b0bb87b4673",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/references/experiment_design_frameworks.md",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/references/experiment_design_frameworks.md",
+      "size": 1435
+    },
+    {
+      "digest": "6657db3b24fc5fc721f4a29ce6be0ff0a6da1dae92aca67d56945ecc74858cd0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/references/feature_engineering_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/references/feature_engineering_patterns.md",
+      "size": 1435
+    },
+    {
+      "digest": "2ad183277b8e57a307085ca7265258d31a08761bc5d3f5844a33dbc79a40a48b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/references/statistical_methods_advanced.md",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/references/statistical_methods_advanced.md",
+      "size": 1435
+    },
+    {
+      "digest": "e086c9d66a67910d114c0831e16d6a658c712f11d5356b82f28687ba43de30fb",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/scripts/experiment_designer.py",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/scripts/experiment_designer.py",
+      "size": 2784
+    },
+    {
+      "digest": "706602f103fa3403196ceb0d110e91b56b039c0f21fc0302ebfc7856c1874168",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/scripts/feature_engineering_pipeline.py",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/scripts/feature_engineering_pipeline.py",
+      "size": 2827
+    },
+    {
+      "digest": "e7ce48ead1011fcf20f1cbed140061914ddc76b9ecf022101630bbec816fcc39",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-data-scientist/skills/senior-data-scientist/scripts/model_evaluation_suite.py",
+      "path": "cli-tool/components/skills/development/senior-data-scientist/scripts/model_evaluation_suite.py",
+      "size": 2797
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f5ba06d1ec8df3693bafd7e7fa986efbdd30b0f5b68a3dff863a442dbb8315b3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-data-scientist",
+  "schema_version": 1
+}

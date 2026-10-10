@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ena-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a212dd914e91d6691925875dbb2c86f7bd1345a886a4f139b379ad6875e9c894",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ena-database/skills/ena-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/ena-database/SKILL.md",
+      "size": 6977
+    },
+    {
+      "digest": "e3c86ba68b61d0682548cd0174ae5d7372cebb4247ec8eefcf8f50dec4a0d2c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-ena-database/skills/ena-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/ena-database/references/api_reference.md",
+      "size": 13339
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dc37ae54ad5801da2a57dbb1f22295bc88b8c91abedeb80445139a2624f4bbe6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/ena-database",
+  "schema_version": 1
+}

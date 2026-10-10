@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-daily-meeting-update/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9f8a757fbe1be03f101157c129a7375097648be8ae4ce178d3fe24b675208529",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-daily-meeting-update/skills/daily-meeting-update/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/daily-meeting-update/README.md",
+      "size": 7533
+    },
+    {
+      "digest": "153c2d8ddee3fd3b1c92143c829d9bf1e0456a70ded8258a2000807f85a09a05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-daily-meeting-update/skills/daily-meeting-update/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/daily-meeting-update/SKILL.md",
+      "size": 12589
+    },
+    {
+      "digest": "fa678a4188a2f66bc48fabf6c5bd5b01072a8d9493e41d1a227b222164e9ad54",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-daily-meeting-update/skills/daily-meeting-update/scripts/claude_digest.py",
+      "path": "cli-tool/components/skills/enterprise-communication/daily-meeting-update/scripts/claude_digest.py",
+      "size": 10692
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ddae793ada29fbfbc6d4eddaca017fdf1f3d4c2ba7b2e342ec31c2ebd9af00cd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/daily-meeting-update",
+  "schema_version": 1
+}

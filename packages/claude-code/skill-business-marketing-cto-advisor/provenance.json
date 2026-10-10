@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4d093a539810d06cd6b430ee5dfca3e9251551c153dba45a6e3041c41a992a17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/SKILL.md",
+      "size": 9483
+    },
+    {
+      "digest": "9cbc68b3dbe2f4bbe7b0fcef1d93b07fa3419a5762e4a0c8ae94aa34daa9f67b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/references/architecture_decision_records.md",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/references/architecture_decision_records.md",
+      "size": 8716
+    },
+    {
+      "digest": "f91562f6c0b29137092be44a1759c078298528d3598d7ce0222fc72a05706e68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/references/engineering_metrics.md",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/references/engineering_metrics.md",
+      "size": 12365
+    },
+    {
+      "digest": "0ae857e7046b50df528802037c9c417c6b5f1da3ce0879ca31528fda300a554a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/references/technology_evaluation_framework.md",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/references/technology_evaluation_framework.md",
+      "size": 9875
+    },
+    {
+      "digest": "765906669a15e6a48438aeeeb63961c0742d5895c3beb9353bd53256c5682df7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/scripts/team_scaling_calculator.py",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/scripts/team_scaling_calculator.py",
+      "size": 19950
+    },
+    {
+      "digest": "224f5f66489b3a93164e6e706f2dd9c2a72fe3b33164812f57f9f24788ee39e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-cto-advisor/skills/cto-advisor/scripts/tech_debt_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/cto-advisor/scripts/tech_debt_analyzer.py",
+      "size": 17297
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0a5011d093b3074201c0b8242301afdd0a225e3f988d9ba1d8de0a39f09a42fb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/cto-advisor",
+  "schema_version": 1
+}

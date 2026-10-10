@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-benchling-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "aabfcde7d808bc5a925f6f2e4faa8f9cf1326b52cf6f418dc380a16528309014",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-benchling-integration/skills/benchling-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/benchling-integration/SKILL.md",
+      "size": 12950
+    },
+    {
+      "digest": "0769441a461139d05f9d44a547c6fac3279599c98c8ec10b8a3d8f5c1306af87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-benchling-integration/skills/benchling-integration/references/api_endpoints.md",
+      "path": "cli-tool/components/skills/scientific/benchling-integration/references/api_endpoints.md",
+      "size": 14226
+    },
+    {
+      "digest": "48bafd2ea99d51f0b4263bcf5b7727e6a247c1aa19fa6b7f007d83231309912e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-benchling-integration/skills/benchling-integration/references/authentication.md",
+      "path": "cli-tool/components/skills/scientific/benchling-integration/references/authentication.md",
+      "size": 10124
+    },
+    {
+      "digest": "f788b5bb4900e4f3084486028e079a0d48adad7d49c17adb3ac7e237bc934934",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-benchling-integration/skills/benchling-integration/references/sdk_reference.md",
+      "path": "cli-tool/components/skills/scientific/benchling-integration/references/sdk_reference.md",
+      "size": 17624
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7b1c4d823d7f5f0ba1363af7114da2806858da74f1b08d37fe729e7f8f9438cc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/benchling-integration",
+  "schema_version": 1
+}

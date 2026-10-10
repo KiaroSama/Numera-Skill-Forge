@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cbd1ef77946fbf893236c89a3562a59cb96258a81e474b77a57758592be0731c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/README.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/README.md",
+      "size": 9219
+    },
+    {
+      "digest": "0b646f79b836b883dfc35a82d98d91118e8bf519ce08f3cae6e0ff10d9b758d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/SKILL.md",
+      "size": 7366
+    },
+    {
+      "digest": "5b816a153915de49ccae229a70103e724f68c3fc8b7a5b38f67a59f973af37bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/advanced-features.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/advanced-features.md",
+      "size": 10365
+    },
+    {
+      "digest": "28e73813c730721995aab4084b913459687a8065f28e2a5e8ef7a94cd8116fd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/c4-diagrams.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/c4-diagrams.md",
+      "size": 15266
+    },
+    {
+      "digest": "5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/class-diagrams.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/class-diagrams.md",
+      "size": 6915
+    },
+    {
+      "digest": "639ee58f4925e0721fc3a2c70fd083ec256fe861baa62a56d039c01315fc58ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/erd-diagrams.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/erd-diagrams.md",
+      "size": 12348
+    },
+    {
+      "digest": "73b599797659ced9211ab947e3d4aee4f3ef2bfb4c1aefcfd6537276d2a21f96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/flowcharts.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/flowcharts.md",
+      "size": 9844
+    },
+    {
+      "digest": "11900f082d21c7e3fc0addcd2bf50689a1c36a5af806207942a2f772cb5e2b3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mermaid-diagrams/skills/mermaid-diagrams/references/sequence-diagrams.md",
+      "path": "cli-tool/components/skills/creative-design/mermaid-diagrams/references/sequence-diagrams.md",
+      "size": 9213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b5b1ed2b43a7c1fc3c9751d25273aeecced5975b62d467ed2791107265df873a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/mermaid-diagrams",
+  "schema_version": 1
+}

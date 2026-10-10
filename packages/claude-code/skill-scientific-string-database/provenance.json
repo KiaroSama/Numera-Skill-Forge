@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-string-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "50a18df74c4947d90709b1ce46b1c5f0b020682b62cb57663f523a5ef7decb26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-string-database/skills/string-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/string-database/SKILL.md",
+      "size": 18168
+    },
+    {
+      "digest": "196e9adf1c9d443b3ddd0df7ddde32662cb6995f5c5edf70df885344bb9cdfc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-string-database/skills/string-database/references/string_reference.md",
+      "path": "cli-tool/components/skills/scientific/string-database/references/string_reference.md",
+      "size": 13697
+    },
+    {
+      "digest": "51e4d98aa11357037925f63afb5380bdf88a14ed6d08ca3293e93e65623869fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-string-database/skills/string-database/scripts/string_api.py",
+      "path": "cli-tool/components/skills/scientific/string-database/scripts/string_api.py",
+      "size": 11927
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "96ebd614385bd9bfc913bfc45510371e3e36f52b53ad7080e80a8b787387ec6a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/string-database",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-safety-alignment-constitutional-ai/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "186267074ebdae7d3f9a5c8fb1505536c31bbe7ffba5fd18a052f8258d2005c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-safety-alignment-constitutional-ai/skills/constitutional-ai/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai/SKILL.md",
+      "size": 8177
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91acd317ea768f04ad10e4b2691da8a0dcdcc6a01a9b4adc092ab27350d4b993",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai",
+  "schema_version": 1
+}

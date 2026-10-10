@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ux-researcher-designer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "91e8bcdfd205e3bd954632b7095f8b75ba4f96eef9191771c7e9f7ebaee15c07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ux-researcher-designer/skills/ux-researcher-designer/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/ux-researcher-designer/SKILL.md",
+      "size": 950
+    },
+    {
+      "digest": "8c04f7966b6bb6fb99531d060c72fd8078e778e0ae7a7dc642e9116cd9fcf831",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ux-researcher-designer/skills/ux-researcher-designer/scripts/persona_generator.py",
+      "path": "cli-tool/components/skills/creative-design/ux-researcher-designer/scripts/persona_generator.py",
+      "size": 20849
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d643bcb3de76d04eda0f212f4e797c3f5020db90b40e1d365d46e159f90724d1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/ux-researcher-designer",
+  "schema_version": 1
+}

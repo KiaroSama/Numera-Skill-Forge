@@ -25,8 +25,10 @@ until explicitly recorded; a listed profile is static contract evidence only.
 
 Collection fixtures exercise exact original companion scripts without execution, metadata modes,
 idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
-and user-edit refusal. The real approved source import independently matched2082payload blobs from65
-plugins against upstream Git SHA-1;80executable Git modes recorded. No source runtime tests were run.
+and user-edit refusal. The assembled reviewed source import independently matched4222payload blobs from478
+plugins against immutable upstream Git SHA-1 and mode records. No source runtime scripts were run.
+Additional public seams cover dependency closure/coherent lock rollback, scoped/shared installation,
+managed JSON baselines, job records/cancellation boundaries and local support privacy.
 CI `scripts/verify-collections.py` verifies copied raw bytes, staged metadata, complete selected roots
 and native marketplace entries. This complements native `claude plugin validate`, not host load proof.
 
@@ -34,3 +36,13 @@ and native marketplace entries. This complements native `claude plugin validate`
 verify, unrelated-change refusal, raw blob/mode staging and no-op. It never pushes, invokes imported
 scripts or installs extensions. CI owns the three-OS final pass; three-minute bound, no parallel shared
 fixture. Binary assets remain exact original bytes and are validated separately from UTF-8 project text.
+
+`tests/publication.rs` exercises changed-content commit/push against an owned local bare repository,
+including exact raw CRLF/modes, user staging preservation, remote/head advance refusal, deletion and
+no-op. This is real local Git publication, not proof of authenticated GitHub PR creation.
+
+The manual native workflow builds unsigned bundles on three OSes. Its Linux tier runs the original
+release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
+real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows/macOS
+GUI startup remains untested when no silent native session is available. A prepared smoke script is
+not a passing runtime result; read the exact workflow SHA and step outcome.

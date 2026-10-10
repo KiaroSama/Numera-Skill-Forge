@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "059da3f465478b06131f526f3de6e4dca1ffa42d8e478a8dc1c2410ea2838697",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/skills/datacommons-client/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/datacommons-client/SKILL.md",
+      "size": 7927
+    },
+    {
+      "digest": "c71d22558de688c15abb34d32d4cb7c5c591eed6487df7b77053a7cbbc7f150a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/skills/datacommons-client/references/getting_started.md",
+      "path": "cli-tool/components/skills/scientific/datacommons-client/references/getting_started.md",
+      "size": 10145
+    },
+    {
+      "digest": "85ca9a7d8824926328a71c22b5cddab0b3b3e93b673d11f5d80cd3929a8df378",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/skills/datacommons-client/references/node.md",
+      "path": "cli-tool/components/skills/scientific/datacommons-client/references/node.md",
+      "size": 6126
+    },
+    {
+      "digest": "949747c0486957bf3a117312c08befa3df01ecfac67ef22900778287658f83e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/skills/datacommons-client/references/observation.md",
+      "path": "cli-tool/components/skills/scientific/datacommons-client/references/observation.md",
+      "size": 5498
+    },
+    {
+      "digest": "7a634075d087aec720a311b433d75d106435cc140268ade4f8a3117ca8a6f739",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-datacommons-client/skills/datacommons-client/references/resolve.md",
+      "path": "cli-tool/components/skills/scientific/datacommons-client/references/resolve.md",
+      "size": 7204
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d5cb733bf0829958887f269bbce3dc9cdddd1f9fa63207b738065d2ebe07923b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/datacommons-client",
+  "schema_version": 1
+}

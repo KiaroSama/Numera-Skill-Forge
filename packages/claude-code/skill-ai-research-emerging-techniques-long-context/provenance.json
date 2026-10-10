@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-long-context/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6426eb21a38b8a314078292b8172d889b7f2b1a226901fcda78ac4d28a98a5e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-long-context/skills/long-context/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-long-context/SKILL.md",
+      "size": 15577
+    },
+    {
+      "digest": "ad0425e2b4f81269af847e98fcbab47c3577d47e356123f15d766612f611257c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-long-context/skills/long-context/references/extension_methods.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-long-context/references/extension_methods.md",
+      "size": 14537
+    },
+    {
+      "digest": "1923782b44d0f4fb457a2dd9226361854b2f01cfae0297e48009641a2f52c84d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-long-context/skills/long-context/references/fine_tuning.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-long-context/references/fine_tuning.md",
+      "size": 16431
+    },
+    {
+      "digest": "3262b97eb7b25de6e4a06f81eba934cdeb8338775a8386d1219f629e5aca02b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-long-context/skills/long-context/references/rope.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-long-context/references/rope.md",
+      "size": 12121
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "56f0efa071c1966fec9be11bef127efeb2c8f1f428aefea9ff3bdce3fedc842d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-long-context",
+  "schema_version": 1
+}

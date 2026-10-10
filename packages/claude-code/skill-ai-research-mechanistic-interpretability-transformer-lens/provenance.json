@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-transformer-lens/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9ac5a790a59f46e430a9015a1e8c52338666f3426e36085c4ef38665b10b4e24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-transformer-lens/skills/transformer-lens-interpretability/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens/SKILL.md",
+      "size": 12036
+    },
+    {
+      "digest": "ebdf1731226920bd3ba3fd8265e033a5e19af48651429023af9ab3ef346766b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-transformer-lens/skills/transformer-lens-interpretability/references/README.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens/references/README.md",
+      "size": 1643
+    },
+    {
+      "digest": "5a31038f94351c645f2816b569fd0b963f1f972a52d0f5d39e7118437ce585cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-transformer-lens/skills/transformer-lens-interpretability/references/api.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens/references/api.md",
+      "size": 8349
+    },
+    {
+      "digest": "c13d376cd9aaebfe6e946e9227d007ac07d69657b8a73d19b58af645f1b91019",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-transformer-lens/skills/transformer-lens-interpretability/references/tutorials.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens/references/tutorials.md",
+      "size": 10142
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4aaecb543b884ff6ccd94ed353bdb24a81fb39cfdce30c80a76acc3204c2a998",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens",
+  "schema_version": 1
+}

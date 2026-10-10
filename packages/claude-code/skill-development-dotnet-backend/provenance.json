@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dotnet-backend/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4d2c39335d42e3a3d10cf2aa48f1c47f31a8dc22c33dfd8fc3b32342db80ea5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dotnet-backend/skills/dotnet-backend/SKILL.md",
+      "path": "cli-tool/components/skills/development/dotnet-backend/SKILL.md",
+      "size": 7732
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4fa43ce4eba3c19f5fe73a142f4b1b5636323c2322c311d39e2aa648f81847df",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/dotnet-backend",
+  "schema_version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/opentrons-integration",
+  "license": "MIT",
+  "name": "skill-scientific-opentrons-integration",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

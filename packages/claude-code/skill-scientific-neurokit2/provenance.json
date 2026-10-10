@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "569dcfee9eaec969fbd22de369973b291101a0220520207d8034c7cb95f79e96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/SKILL.md",
+      "size": 11957
+    },
+    {
+      "digest": "26c87b28f9976660f156dc6b8a86dce121adc0888a55721355fede8475cc546b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/bio_module.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/bio_module.md",
+      "size": 13099
+    },
+    {
+      "digest": "03613cf013cb323d3ba5fe72e6f2618f83aa92c418b74766feee96c0132a7181",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/complexity.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/complexity.md",
+      "size": 17352
+    },
+    {
+      "digest": "6cc314ba0cb6b390b0f18879c2dce3137e89d4bdebdd9c8eee177502ac0ffb4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/ecg_cardiac.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/ecg_cardiac.md",
+      "size": 10810
+    },
+    {
+      "digest": "301a3b0ea9a0e9295137951b557388112c98370302b1068b213f03375707b614",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/eda.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/eda.md",
+      "size": 14733
+    },
+    {
+      "digest": "7a3a715a87ebc4a38bbfdf8e7a70f536dce8d0e101a7193f229acccdc194bf69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/eeg.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/eeg.md",
+      "size": 14306
+    },
+    {
+      "digest": "87dce7c7ecf74b8e8b707a8556fc39b5da7ff6325e61938948c12a27edc2809e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/emg.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/emg.md",
+      "size": 12390
+    },
+    {
+      "digest": "3d577244cf05091321d024fa3cb34cc713df8f19dab6d69307f37b7789fdcb70",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/eog.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/eog.md",
+      "size": 12271
+    },
+    {
+      "digest": "4c3e5a0154557f89f272389705a5db5feceead8b3720c65bc67e61478b956b80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/epochs_events.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/epochs_events.md",
+      "size": 14793
+    },
+    {
+      "digest": "4111e923087dd6aab806bb643261375064956a317645d74ac74b9d3e0fe29d0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/hrv.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/hrv.md",
+      "size": 15493
+    },
+    {
+      "digest": "7e92b13852bc084265d7ab54ef2af37c2f0afe4131eeb66ca5d298e8d2a43e63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/ppg.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/ppg.md",
+      "size": 11168
+    },
+    {
+      "digest": "4d5d42d94ab30cc3268ff8ef847becdfef16d6490462844a93cf4d8c862b2d39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/rsp.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/rsp.md",
+      "size": 13946
+    },
+    {
+      "digest": "be7baaa9b3b6f5676d93249f551b4ebd1217884748b621c352559a25b5c3753a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-neurokit2/skills/neurokit2/references/signal_processing.md",
+      "path": "cli-tool/components/skills/scientific/neurokit2/references/signal_processing.md",
+      "size": 16652
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "45a2954cabaa3a116b6a137ac09a8c0242f77f2ed431dd33f324e45659f16b9f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/neurokit2",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-core-web-vitals/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-core-web-vitals/skills/core-web-vitals/SKILL.md",
+      "path": "cli-tool/components/skills/development/core-web-vitals/SKILL.md",
+      "size": 11669
+    },
+    {
+      "digest": "4c5043ef7e1ae4058191a51fbfe5121668bd3677842a2ef563a45a9ca6685d92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-core-web-vitals/skills/core-web-vitals/references/LCP.md",
+      "path": "cli-tool/components/skills/development/core-web-vitals/references/LCP.md",
+      "size": 4431
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eff622eadf54e858843c7ff24b99e87151cfb0351f4b9e540287e902ae4cc21c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/core-web-vitals",
+  "schema_version": 1
+}

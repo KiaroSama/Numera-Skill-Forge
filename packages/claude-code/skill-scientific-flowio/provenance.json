@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-flowio/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3cdcf9b79f2e7c4e9015171e72379bd069fcdb85cdca5cb261de5396927ab859",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-flowio/skills/flowio/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/flowio/SKILL.md",
+      "size": 16702
+    },
+    {
+      "digest": "c4ade46347f2e81085ea8205bdea354a191d61acd297410892aeb823263c8ff2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-flowio/skills/flowio/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/flowio/references/api_reference.md",
+      "size": 10481
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a9a779eac4acacb06a84eb32cbd0f926021392f5a71608c5d7d0d2cdae6ac9b2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/flowio",
+  "schema_version": 1
+}

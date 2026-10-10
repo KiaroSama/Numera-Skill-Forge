@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4e5307346c12e169600d4f9294ffe1592db1e33ce27a4bd29aef3587f7e09460",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/astropy/SKILL.md",
+      "size": 11462
+    },
+    {
+      "digest": "1fa1b5a1591742e1bc95226c7483424fc3d161c5cb31b300adc52d1f80bb2041",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/coordinates.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/coordinates.md",
+      "size": 7111
+    },
+    {
+      "digest": "100c0ad197f95258384dc10cbf884ff03ef7f1fdae6603b2747d7b9b57b50a09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/cosmology.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/cosmology.md",
+      "size": 6482
+    },
+    {
+      "digest": "f1a50bc99417179a583b0786f2852080c49c31ea2c9c587b19bfe822f10500e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/fits.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/fits.md",
+      "size": 8670
+    },
+    {
+      "digest": "5ac8009a606d356eb6d46f8fe18f333e8ddec54b2d864f2e514d65b49e7f6c3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/tables.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/tables.md",
+      "size": 9385
+    },
+    {
+      "digest": "d49c60d47f6bb5f64c8f422140bad70db1859a8852cc70d5edce0f1c3eb743a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/time.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/time.md",
+      "size": 9083
+    },
+    {
+      "digest": "ec3d108772f9c0f2242ede6b8499f846d21d53bfc1c255fb3306bdf685139a8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/units.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/units.md",
+      "size": 3766
+    },
+    {
+      "digest": "6b75b190f165511b0f6905bba4499c5ac94486c5b55bf0905cb3f95ffa1b97dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-astropy/skills/astropy/references/wcs_and_other_modules.md",
+      "path": "cli-tool/components/skills/scientific/astropy/references/wcs_and_other_modules.md",
+      "size": 8515
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6dd94385f416704326e14f0fa06038a31d797ed1677b13b1cb58651ab0579c0c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/astropy",
+  "schema_version": 1
+}

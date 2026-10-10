@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biorxiv-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "db16a65fb8bab450f7a97d73be83f2c5110382c28c5648b5d15a3c902c71d308",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biorxiv-database/skills/biorxiv-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/biorxiv-database/SKILL.md",
+      "size": 12525
+    },
+    {
+      "digest": "6c3d1d5b538beb966a90035484dee297f40d37ec9c169504d19b334f1201609c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biorxiv-database/skills/biorxiv-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/biorxiv-database/references/api_reference.md",
+      "size": 6405
+    },
+    {
+      "digest": "e65c18a1ac821684e46fc916c2c5544ef62e623bedb3b8a4cbaa69a34dcf6a65",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-biorxiv-database/skills/biorxiv-database/scripts/biorxiv_search.py",
+      "path": "cli-tool/components/skills/scientific/biorxiv-database/scripts/biorxiv_search.py",
+      "size": 14831
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1dc730d4da1cf7ef22b3838af53801db447136496c97bf0d55414c36192f532",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/biorxiv-database",
+  "schema_version": 1
+}

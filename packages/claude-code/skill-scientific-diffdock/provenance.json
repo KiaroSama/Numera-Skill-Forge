@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0a256757c23fa28ce65b447778342587090e6a72b4f00f9992e701d4a7567fab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/diffdock/SKILL.md",
+      "size": 15426
+    },
+    {
+      "digest": "fa759ceb9e93d6be7c972bb0150987230e1bab1cc7ca215c7f3411b9b9f5aa15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/assets/batch_template.csv",
+      "path": "cli-tool/components/skills/scientific/diffdock/assets/batch_template.csv",
+      "size": 410
+    },
+    {
+      "digest": "0c27d34374312f56a76a5cbf372fa7e9823c568cfc0f898472c796ec8353128c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/assets/custom_inference_config.yaml",
+      "path": "cli-tool/components/skills/scientific/diffdock/assets/custom_inference_config.yaml",
+      "size": 2846
+    },
+    {
+      "digest": "143fc8b3ceb67f33d2fef44ae19feaefd7023ccd2fdab05f893cc3638921417e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/references/confidence_and_limitations.md",
+      "path": "cli-tool/components/skills/scientific/diffdock/references/confidence_and_limitations.md",
+      "size": 6900
+    },
+    {
+      "digest": "b987627f9acafe06128ec72fd69384113cdc348b5ca60143a4e5b93af7b5ac18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/references/parameters_reference.md",
+      "path": "cli-tool/components/skills/scientific/diffdock/references/parameters_reference.md",
+      "size": 5072
+    },
+    {
+      "digest": "5498fa9f7973ba6b4221096aa56e31bfc3bacbf0bcb3b0266396c7399b3e8269",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/references/workflows_examples.md",
+      "path": "cli-tool/components/skills/scientific/diffdock/references/workflows_examples.md",
+      "size": 10520
+    },
+    {
+      "digest": "3313b58c752bf2c453ae6e700984b588e037dc97f6b2d65f1ccb1a2e713f8c6f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/scripts/analyze_results.py",
+      "path": "cli-tool/components/skills/scientific/diffdock/scripts/analyze_results.py",
+      "size": 11036
+    },
+    {
+      "digest": "2229b0348ef019fb17982d251cd6dc94f6de4df84f562a18d63156a33ddbf7f4",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/scripts/prepare_batch_csv.py",
+      "path": "cli-tool/components/skills/scientific/diffdock/scripts/prepare_batch_csv.py",
+      "size": 8730
+    },
+    {
+      "digest": "a689fcaa8ee5d60589d9153a903ef06eecb48450d81548bc5b82b14631fedadc",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-diffdock/skills/diffdock/scripts/setup_check.py",
+      "path": "cli-tool/components/skills/scientific/diffdock/scripts/setup_check.py",
+      "size": 8016
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "73d3ef081fa96fb3bb509b98a0f8001f3cfd3cd6b40970f3fa824a144ead3d3d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/diffdock",
+  "schema_version": 1
+}

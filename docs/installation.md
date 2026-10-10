@@ -21,16 +21,27 @@ protections to run an unsigned application. No end-user Rust/Node requirement is
 ## CLI controls
 
 `--help`, `--version`, `--json`, `--repository`, `--offline`, `--non-interactive`.
-Preview limitations: profile and timeout flags currently do not change behavior; acquisition uses
-fixed bounded limits. Project scope uses an explicit absolute existing destination.
+`--profile` selects an isolated named workspace beneath the selected repository's local state.
+`--timeout` bounds job-enabled discovery/build/sync/update operations (1-3600 seconds); cancellation
+stops at safe checkpoints and never abandons an applying transaction. `job run <request.json>`
+accepts an explicit `--id`, so a second CLI can inspect/cancel that job. `job list/status/cancel/retry`
+retain durable terminal/error evidence. Project and user scopes require explicit existing destinations.
 
 Exit 0: success; 2: review-required/partial/unsupported capability; 3: invalid input/conflict/failure.
 JSON output contains only the operation result/error; diagnostics use stderr and per-run files.
 `request <file>` submits a structured shared-service request, never a shell command.
 
+Publication defaults to preview. Mutation requires exact `--expected-head`, public author name/email;
+remote modes additionally require `--expected-remote`, `--expected-remote-head` and
+`--expected-account`. Pull-request mode requires an explicit `chore/` publication branch. The
+publisher stages only intended distribution paths in an isolated index, preserves unrelated user
+staging, hashes raw bytes without upstream filters and never force-pushes. Real account/protection/
+CI requirements remain separate checks; a local fixture does not certify them.
+
 ## Safe lifecycle
 
 Run install with `--dry-run` first. Files already present without an unchanged ownership receipt
-cause a conflict, even if content appears identical. Disable removes only unchanged owned activation
+cause a conflict, even if content appears identical. Identical files already owned by another Forge
+receipt can be shared; uninstall/disable retains files still needed by an enabled owner. Disable removes only unchanged owned activation
 files; enable restores saved bytes only to unchanged absent destinations. Uninstall preserves durable
 local history/data. Rollback checks expected current bytes; user edits are never silently replaced.

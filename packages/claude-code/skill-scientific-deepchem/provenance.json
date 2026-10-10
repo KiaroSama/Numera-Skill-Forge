@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "50783bd07452775b1cf543d26877074aebde559697849a078c0e7916366aaae6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/deepchem/SKILL.md",
+      "size": 17516
+    },
+    {
+      "digest": "5591b8ab916cc985270d077a537a08b8ae025e0ebfc0ecae38a2be57cef4964c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/deepchem/references/api_reference.md",
+      "size": 11597
+    },
+    {
+      "digest": "15c1f96e49f5e9f1c060f2a2d57be4d96cca602c2a14b476a57b23c971054799",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/deepchem/references/workflows.md",
+      "size": 11800
+    },
+    {
+      "digest": "d38030a73729cec2c31e953a10c83c6c9a94cb044db66933f4b0379ec52abd04",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/scripts/graph_neural_network.py",
+      "path": "cli-tool/components/skills/scientific/deepchem/scripts/graph_neural_network.py",
+      "size": 9742
+    },
+    {
+      "digest": "aca46e6b16bf0a79eafc8c4aa93db83abb8f2e9b7372f5451455ccec631a9b6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/scripts/predict_solubility.py",
+      "path": "cli-tool/components/skills/scientific/deepchem/scripts/predict_solubility.py",
+      "size": 6546
+    },
+    {
+      "digest": "a87dfaa16ed5afb1c419a4ee6784ed781cc1f8338b50bbf05f1c25c1cbee8b02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-deepchem/skills/deepchem/scripts/transfer_learning.py",
+      "path": "cli-tool/components/skills/scientific/deepchem/scripts/transfer_learning.py",
+      "size": 11353
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "052707e35a8c52d67c29726edb63a456ab8e6f6668dcb6b0284911cf7ee9540c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/deepchem",
+  "schema_version": 1
+}

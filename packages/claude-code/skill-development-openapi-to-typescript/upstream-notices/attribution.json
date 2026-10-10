@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: softaworks/agent-toolkit; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/openapi-to-typescript/SKILL.md https://github.com/softaworks/agent-toolkit/blob/e6077cf7cd6852bdbe0d7623f2782138cc814e1b/LICENSE https://github.com/softaworks/agent-toolkit/blob/e6077cf7cd6852bdbe0d7623f2782138cc814e1b/skills/openapi-to-typescript/SKILL.md",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321",
+      "license": "MIT",
+      "path": "registry/licenses/4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321.txt",
+      "source": "https://github.com/softaworks/agent-toolkit/blob/e6077cf7cd6852bdbe0d7623f2782138cc814e1b/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-faiss/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "79a494b9212c73810d53527800c69f80acd6aa1907fca8c614c69583cac76e89",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-faiss/skills/faiss/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-faiss/SKILL.md",
+      "size": 5048
+    },
+    {
+      "digest": "aa6cb4267ad3a8bcc1d245e77c7312ced189d21b67b3d590d2e93b37e3ef3faf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-faiss/skills/faiss/references/index_types.md",
+      "path": "cli-tool/components/skills/ai-research/rag-faiss/references/index_types.md",
+      "size": 6181
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cb2f6363393c76200f7072b5e0363faae2793ad893c321c98515acf032b07638",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-faiss",
+  "schema_version": 1
+}

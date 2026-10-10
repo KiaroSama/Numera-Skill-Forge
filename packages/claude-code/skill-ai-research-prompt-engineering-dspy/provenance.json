@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-dspy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cd01cee93a2228c199c23e77047e4444b0a6eeddd12dcf14104ca2a5de3fa8e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-dspy/skills/dspy/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-dspy/SKILL.md",
+      "size": 15291
+    },
+    {
+      "digest": "a617b7ed15a81fc460eb8e98d19565ce843828554b926265bc8571721258d2d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-dspy/skills/dspy/references/examples.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-dspy/references/examples.md",
+      "size": 18983
+    },
+    {
+      "digest": "a2a1ba76f0b808c40d8d64be689954538ea00e1d53cd413e2a4951758b5aed6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-dspy/skills/dspy/references/modules.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-dspy/references/modules.md",
+      "size": 12363
+    },
+    {
+      "digest": "ddf19b520df9741b7f3b5e5c9993a1c381d282608b4e3b2b9359a6a0b8595a78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-dspy/skills/dspy/references/optimizers.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-dspy/references/optimizers.md",
+      "size": 14933
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0cd67e104d180bc876e60324387a8e1f646a40cd44e9f4a907e6702b3eea05d5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/prompt-engineering-dspy",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-twilio-communications/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "57aa14bdb61b6e1bec9e5f338857897f0b61400da7d1b5d0d2d34e21361c76f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-twilio-communications/skills/twilio-communications/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/twilio-communications/SKILL.md",
+      "size": 9006
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "48b3a10d5a2e18525944e41d1cba978852ba2292748cd0a0d7d62f4cab75c18a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/twilio-communications",
+  "schema_version": 1
+}

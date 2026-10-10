@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/content-creator",
+  "license": "MIT",
+  "name": "skill-business-marketing-content-creator",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "04739ca058a3c56f8eed4a49df66eb3074b79275aab862619aca8dcc5953838e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/SKILL.md",
+      "size": 5626
+    },
+    {
+      "digest": "fd2d6d75d5dedf4bfcf06aa59ad628fa961ba0081f235c3ed6a514a53c190c33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/data_structures.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/data_structures.md",
+      "size": 12390
+    },
+    {
+      "digest": "24ce086257168a0dbcce770aced06cd3c943771600556026327d393c650e6641",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/feature_detection.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/feature_detection.md",
+      "size": 10539
+    },
+    {
+      "digest": "bafed49c6dcf63778c63de39e331a937e7d6f6a0fac6aac489cd2b42f064d5a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/file_io.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/file_io.md",
+      "size": 7716
+    },
+    {
+      "digest": "f98d418be54c46cb5238c9c94ddd306e024183d957142f1d6c63338471dc5493",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/identification.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/identification.md",
+      "size": 11329
+    },
+    {
+      "digest": "41005cbe408fca3d8680ce3856609b2b9111a22047fa90b4b56d149e46e4e28b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/metabolomics.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/metabolomics.md",
+      "size": 13349
+    },
+    {
+      "digest": "5feeef75e2a8792bcf9d6c8128b831944d17c559b378140edd426f8eabd34bab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pyopenms/skills/pyopenms/references/signal_processing.md",
+      "path": "cli-tool/components/skills/scientific/pyopenms/references/signal_processing.md",
+      "size": 9335
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bafebe39e3639301e00b39f14949ca6b0a3f533d6fc5b668c1e21dc0993aa3f7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pyopenms",
+  "schema_version": 1
+}

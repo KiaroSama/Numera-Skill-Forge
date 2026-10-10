@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinicaltrials-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9f58c07183b3f267678a3aadccd3e696cd2ebff0eb511776482c3ecd90b4b58e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinicaltrials-database/skills/clinicaltrials-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/clinicaltrials-database/SKILL.md",
+      "size": 14931
+    },
+    {
+      "digest": "50a3a66c92d9b1855379aa8122c05865bde42d402dda0b2418b134961731e929",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinicaltrials-database/skills/clinicaltrials-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/clinicaltrials-database/references/api_reference.md",
+      "size": 10694
+    },
+    {
+      "digest": "32d478f864e529ef002ab8bba347823a413f05edb234fc8c3abad7824aa83603",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinicaltrials-database/skills/clinicaltrials-database/scripts/query_clinicaltrials.py",
+      "path": "cli-tool/components/skills/scientific/clinicaltrials-database/scripts/query_clinicaltrials.py",
+      "size": 6992
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "89e201bcac3bdfd6d57eb5cceb41872b50eca663508ce1b28d93cfb6ed2e6bae",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/clinicaltrials-database",
+  "schema_version": 1
+}

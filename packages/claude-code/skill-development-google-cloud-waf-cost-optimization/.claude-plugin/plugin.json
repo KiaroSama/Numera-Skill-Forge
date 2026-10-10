@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/google-cloud-waf-cost-optimization",
+  "license": "Apache-2.0",
+  "name": "skill-development-google-cloud-waf-cost-optimization",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-mamba/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "51ddf99c12a472a78c258bddf7e66e72cf45d9e04969f3300cc8d68aaaef9b0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-mamba/skills/mamba-architecture/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-mamba/SKILL.md",
+      "size": 7368
+    },
+    {
+      "digest": "09cf810fbcc2949e889f502c910bca97be094f0efde759294d40300591dd77ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-mamba/skills/mamba-architecture/references/architecture-details.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-mamba/references/architecture-details.md",
+      "size": 5456
+    },
+    {
+      "digest": "7f64a92015656c1ee318b23d11f8d3951a03c00be8dcf1614e01c6133f8a269f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-mamba/skills/mamba-architecture/references/benchmarks.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-mamba/references/benchmarks.md",
+      "size": 8120
+    },
+    {
+      "digest": "e382cfc6e0b6af4a04862001c983ea746b4ad327a1eec43b8b2955035b3b0fb0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-mamba/skills/mamba-architecture/references/training-guide.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-mamba/references/training-guide.md",
+      "size": 9012
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91ecd0fcacf45ac0048111f97818d7e1c249d413022d99486e8ec6f6c133b38d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/model-architecture-mamba",
+  "schema_version": 1
+}

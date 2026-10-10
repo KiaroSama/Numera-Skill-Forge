@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-ray-data/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bcc73b3341dca18c59cad092cb6dedb7ac0bf0bde80467a039921ac0c02256c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-ray-data/skills/ray-data/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-ray-data/SKILL.md",
+      "size": 7328
+    },
+    {
+      "digest": "d182e025b0396779442f16b6461c0bf140a337635051cfb8472698a18f4099ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-ray-data/skills/ray-data/references/integration.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-ray-data/references/integration.md",
+      "size": 1851
+    },
+    {
+      "digest": "afc01ade53bc95de6dec6de614b52c6f92eb4a0b141740d937b5dd1855de380d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-ray-data/skills/ray-data/references/transformations.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-ray-data/references/transformations.md",
+      "size": 1664
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "feb18cf89a153a59b1bdd46f0f95e21ed4b9ddd32cda2f46eb9677744ac93ff4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/data-processing-ray-data",
+  "schema_version": 1
+}

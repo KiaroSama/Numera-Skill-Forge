@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cobrapy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e928dc6a7eee390229daf7e66571cfcdd51e6e2d4b8ef1e7a6c791b7d83956e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cobrapy/skills/cobrapy/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/cobrapy/SKILL.md",
+      "size": 12385
+    },
+    {
+      "digest": "6fcbf805da1de0a6ddc83bf713c533e202934531ebbbb14b8bd5f5a1bb128992",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cobrapy/skills/cobrapy/references/api_quick_reference.md",
+      "path": "cli-tool/components/skills/scientific/cobrapy/references/api_quick_reference.md",
+      "size": 16036
+    },
+    {
+      "digest": "1a1f99bf55371ee968c1911683714444860db9792bfb33c322f554d4470bbdf9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cobrapy/skills/cobrapy/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/cobrapy/references/workflows.md",
+      "size": 21741
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "909b5023924305b37e1c87dacc8f83703e8eed97e7238b42dd1b054197112b6b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/cobrapy",
+  "schema_version": 1
+}

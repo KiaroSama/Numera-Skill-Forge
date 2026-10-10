@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-tensorrt-llm/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "13f8e09b3e05b2167919011dfa8a44e067c7e0563a1e7dc01c26752cf85da11f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-tensorrt-llm/skills/tensorrt-llm/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm/SKILL.md",
+      "size": 5039
+    },
+    {
+      "digest": "f5992df6c444d4300dd1b7cbe150e998806128c911eba3387f4aada84a01ecee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-tensorrt-llm/skills/tensorrt-llm/references/multi-gpu.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm/references/multi-gpu.md",
+      "size": 6699
+    },
+    {
+      "digest": "deb727998b471654231730faf2e4ad2ae82fea99e18ae991528a94bba57a83e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-tensorrt-llm/skills/tensorrt-llm/references/optimization.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm/references/optimization.md",
+      "size": 5613
+    },
+    {
+      "digest": "edab4ad7f7bda4938ff62ddb9d01f846829f42a4fb03b7fcd00eb48d5d3fc893",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-tensorrt-llm/skills/tensorrt-llm/references/serving.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm/references/serving.md",
+      "size": 9798
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b41d8bc4f038125f49f29790a6bc6f3f178bd89d5027450848460b3547923d62",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm",
+  "schema_version": 1
+}

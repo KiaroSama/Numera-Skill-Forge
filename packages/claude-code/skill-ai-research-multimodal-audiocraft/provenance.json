@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-audiocraft/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3f9efaebd7331bea86022a101329074c6eab8af2d33591e691c565fcba641a5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-audiocraft/skills/audiocraft-audio-generation/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-audiocraft/SKILL.md",
+      "size": 16308
+    },
+    {
+      "digest": "5efe98c6ebcd0107e48c809cadc0e48591f9c235ac47014f39a40772fc45116d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-audiocraft/skills/audiocraft-audio-generation/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-audiocraft/references/advanced-usage.md",
+      "size": 16953
+    },
+    {
+      "digest": "af0c56aca0902aca6f05350caab3750de608cf904a4e6bb9dd0967c664d8de0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-audiocraft/skills/audiocraft-audio-generation/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-audiocraft/references/troubleshooting.md",
+      "size": 11412
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9b0517121e11a486dc34f988f805c1e2efcaf77c5b30a5333416f2d8e74e907e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-audiocraft",
+  "schema_version": 1
+}

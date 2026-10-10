@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "13bd2e62ccb02c7a4e32dd5ec7130049ceb0d8bce26367d81411676b751e351e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/README.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/README.md",
+      "size": 18058
+    },
+    {
+      "digest": "6a52b8850ecb3c2c2b7c6070f75de6d38010dacbb0748289c9e87cf7c9c21dde",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/SKILL.md",
+      "size": 12148
+    },
+    {
+      "digest": "ec9e2f47c6cd91193403045dfbc1d2e5bf49bb0145754ab333f50ba36c46d6a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/references/external-review.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/references/external-review.md",
+      "size": 3417
+    },
+    {
+      "digest": "6c906a7d093b251c9862157bbcd9618667213fb5fc864e43ebe514f4b1218912",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/references/interview-protocol.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/references/interview-protocol.md",
+      "size": 1973
+    },
+    {
+      "digest": "d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/references/research-protocol.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/references/research-protocol.md",
+      "size": 6587
+    },
+    {
+      "digest": "63a2989408cf4af9651bc616a1c25696db6c875b9332909d5e275131fa1b8a74",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/references/section-index.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/references/section-index.md",
+      "size": 3247
+    },
+    {
+      "digest": "088267309761afe84401e16cd168485c3aa4633374c45b8e9a58ea2678f51aaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-gepetto/skills/gepetto/references/section-splitting.md",
+      "path": "cli-tool/components/skills/ai-research/gepetto/references/section-splitting.md",
+      "size": 4038
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "feb9d8e712cee6cfe12f37a81b25accc07400179dc60e18e39898a2bec49f082",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/gepetto",
+  "schema_version": 1
+}

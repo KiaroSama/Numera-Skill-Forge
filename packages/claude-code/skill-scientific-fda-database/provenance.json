@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4c3df4a8a16fb7975581d55137a937abda9e680f6a93de99a36ff8bf1f345a82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/SKILL.md",
+      "size": 14366
+    },
+    {
+      "digest": "fc52d2783a951e9a303663dca3d6fe0cfeeab37fc4e17098cf77e9ee5390486f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/animal_veterinary.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/animal_veterinary.md",
+      "size": 11799
+    },
+    {
+      "digest": "a8b5e213553df5bbfa4f79374a076b9e5619efe0d50110f403f592f9c9a7db50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/api_basics.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/api_basics.md",
+      "size": 15948
+    },
+    {
+      "digest": "952c5096f748a8d60243c5bccca299d140eb02e0ed5d2636bc6acaaba0acc671",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/devices.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/devices.md",
+      "size": 18934
+    },
+    {
+      "digest": "6e3e73f470f4a792e30eb4cd86bb55ea02baf959385ab334d2a70592615a66b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/drugs.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/drugs.md",
+      "size": 13903
+    },
+    {
+      "digest": "8590681fc9645d765106f84857f34dc1a1ba24bcc60dd953f16777dba871b85c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/foods.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/foods.md",
+      "size": 10789
+    },
+    {
+      "digest": "7f00f94c94b0d1951b00f04b68482d4ff72e0e03c5376f4d976dc6ba5e237d21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/references/other.md",
+      "path": "cli-tool/components/skills/scientific/fda-database/references/other.md",
+      "size": 13735
+    },
+    {
+      "digest": "d64e6bddc8178f2431b201486031d46a11820b05ff718e598793b1767dfbe645",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/scripts/fda_examples.py",
+      "path": "cli-tool/components/skills/scientific/fda-database/scripts/fda_examples.py",
+      "size": 10785
+    },
+    {
+      "digest": "6a3e3a7dcdaaf882a8d70f512124ea08882bc875eba836388e42532ed344e8db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-fda-database/skills/fda-database/scripts/fda_query.py",
+      "path": "cli-tool/components/skills/scientific/fda-database/scripts/fda_query.py",
+      "size": 15411
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "010ff632f298a03e5801ccb071d5e331cd55efa01f697e51d372ef7ff60ca4d2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/fda-database",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d38ea575bef8ee63fea7d1c408cd64ef5b5caa28fd8da3af64fc8c84fb500344",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/SKILL.md",
+      "size": 7045
+    },
+    {
+      "digest": "3e78919eef20638352689a2419b28ad7367bbd0f64686f438f3496625db6f48d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/crs-management.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/crs-management.md",
+      "size": 4835
+    },
+    {
+      "digest": "8bfd8fc74b34e79fd42f31daef06ca582a500469c711371a6eba04cd6f8f59dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/data-io.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/data-io.md",
+      "size": 3690
+    },
+    {
+      "digest": "9cd950173409b04e3c57b40b24e296646931de938ebcc86b8bf6806a97fcaab8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/data-structures.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/data-structures.md",
+      "size": 1638
+    },
+    {
+      "digest": "f9d55230cae612770de98fb873f32d004d06f4e24624541dc9513be229c176f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/geometric-operations.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/geometric-operations.md",
+      "size": 4183
+    },
+    {
+      "digest": "9e846073426fdb00da1f04465036e3c992b5fb3f556f2e264c8db56e1f9e4924",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/spatial-analysis.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/spatial-analysis.md",
+      "size": 4816
+    },
+    {
+      "digest": "b84ea68adec0fe229bb46973efc2747de69465f6bcc9ad835d526860bbfeddc4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-geopandas/skills/geopandas/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/geopandas/references/visualization.md",
+      "size": 5415
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "daad858e51ca8ad33cb146915285043aedb6c87a827b8200fab1b5b4ff088c82",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/geopandas",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ff4c86146f477bf81d29f35ba71c07194a3f182738ead00f74d4850938fb52d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/SKILL.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/SKILL.md",
+      "size": 2442
+    },
+    {
+      "digest": "84a934e66bc4954769c9ce7651b796985366e2fd53bfc2ac1528597b4bab5276",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/cli-usage.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/cli-usage.md",
+      "size": 1185
+    },
+    {
+      "digest": "c44f9a3d95cbb0972f2d091404ec187996c72a1d2beef4c2a01adb842113c905",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/client-library-usage.md",
+      "size": 5524
+    },
+    {
+      "digest": "05ab368f937212dea29e8b6d323ab31131bd46567f9b0d42e768e2115da0bb4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/core-concepts.md",
+      "size": 2151
+    },
+    {
+      "digest": "346b04c21e1141f925801dddea7bbb2ad470e2e1997c9b001e424887de83f397",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/iac-usage.md",
+      "size": 3278
+    },
+    {
+      "digest": "926a9004e58ca1284061c37eb7320065dc56fdcd60e16f14a040965be15d9208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/iam-security.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/iam-security.md",
+      "size": 4375
+    },
+    {
+      "digest": "8bb82b25a4c6dfa5862402cde4fbae7d9ef8fae5be15168174157689d2a50f1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-alloydb-basics/skills/alloydb-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/database/alloydb-basics/references/mcp-usage.md",
+      "size": 1371
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "af646cc1e27d3d9bcba3e17bf66b576b0287066ccd91322f02c3cc91e07d9ac2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/alloydb-basics",
+  "schema_version": 1
+}

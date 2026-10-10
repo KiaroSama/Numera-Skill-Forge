@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e4f3f73057c0e9e30a1e1f5f85074bae70da168836e710c4964f8a3f83789c57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/skills/opentargets-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/opentargets-database/SKILL.md",
+      "size": 14020
+    },
+    {
+      "digest": "fb859450dabeff87f8ea637e7771d56cabea1840180a0ad3b72c0514acee428b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/skills/opentargets-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/opentargets-database/references/api_reference.md",
+      "size": 6332
+    },
+    {
+      "digest": "5df757bbdb2e6adcda37863317d8929988dcda84f99c89f08f28a5ba4071c845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/skills/opentargets-database/references/evidence_types.md",
+      "path": "cli-tool/components/skills/scientific/opentargets-database/references/evidence_types.md",
+      "size": 8765
+    },
+    {
+      "digest": "21f1e0b9e9e650b45673dbd8bc72bdecf456d9ad87844032a69aded9b5b67d9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/skills/opentargets-database/references/target_annotations.md",
+      "path": "cli-tool/components/skills/scientific/opentargets-database/references/target_annotations.md",
+      "size": 10292
+    },
+    {
+      "digest": "701c0240665bcac6f836d2d8da72107cd4817fa0f53a2209a75dbcc15ae243a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-opentargets-database/skills/opentargets-database/scripts/query_opentargets.py",
+      "path": "cli-tool/components/skills/scientific/opentargets-database/scripts/query_opentargets.py",
+      "size": 10641
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "21cc688faac3d68994f2acd60a44fb8b75d21d912d095606779e11e2694c9505",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/opentargets-database",
+  "schema_version": 1
+}

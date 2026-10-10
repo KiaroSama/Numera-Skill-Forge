@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "93eb9554ed3d2569d4da9b1f4092bbbc7ac56d019d9fb70127a09203072a33b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/skills/brenda-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/brenda-database/SKILL.md",
+      "size": 22108
+    },
+    {
+      "digest": "d13581b618933107350d5199804ed1caf2df5c7dcfd0644fae9c101a2802410d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/skills/brenda-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/brenda-database/references/api_reference.md",
+      "size": 15857
+    },
+    {
+      "digest": "44a55a7552cb35fc39e57edf8c31baf791818a75e8fb495ed9f17c3ad2dbde8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/skills/brenda-database/scripts/brenda_queries.py",
+      "path": "cli-tool/components/skills/scientific/brenda-database/scripts/brenda_queries.py",
+      "size": 30872
+    },
+    {
+      "digest": "669cb52d2adb8630f35446fb4e6d469ccfa06a37c181a78f334a7eb0ebf1db2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/skills/brenda-database/scripts/brenda_visualization.py",
+      "path": "cli-tool/components/skills/scientific/brenda-database/scripts/brenda_visualization.py",
+      "size": 29361
+    },
+    {
+      "digest": "8726be9a7eb0be1d483ec521dd732418b64baf22294beb6adf1ef883d9522bbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-brenda-database/skills/brenda-database/scripts/enzyme_pathway_builder.py",
+      "path": "cli-tool/components/skills/scientific/brenda-database/scripts/enzyme_pathway_builder.py",
+      "size": 44863
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "943691c8cfc01513d5a753cf8dad86c6a0c36f22c3f9a0a8b3c6d236c6806cd8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/brenda-database",
+  "schema_version": 1
+}

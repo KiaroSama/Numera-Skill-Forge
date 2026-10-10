@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-backend-to-frontend-handoff-docs/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a8e716c049227b2dd92390b9c422dce2591bf7df2d753f53cbcdd72664d80e55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-backend-to-frontend-handoff-docs/skills/backend-to-frontend-handoff-docs/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs/README.md",
+      "size": 8861
+    },
+    {
+      "digest": "b77b4b7d6c65d00f2fb38adf37eb7115c37c90802226faa2b2a77a8a6ece9e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-backend-to-frontend-handoff-docs/skills/backend-to-frontend-handoff-docs/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs/SKILL.md",
+      "size": 5252
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c00c2ebdeb4c4194a3f37db64c73415b5bf2b7f012360b081a8b08fd5ef298f6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs",
+  "schema_version": 1
+}

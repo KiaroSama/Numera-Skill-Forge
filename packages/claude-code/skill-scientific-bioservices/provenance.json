@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b0692ca5755e4dfa31107781699a2194fa6e096ad13fbea9f2f281df6be3e0a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/bioservices/SKILL.md",
+      "size": 9852
+    },
+    {
+      "digest": "02fe1d022d767379e718f717c47d79c23dbfb2e5dd7c84e1abe678d6924b9ba5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/references/identifier_mapping.md",
+      "path": "cli-tool/components/skills/scientific/bioservices/references/identifier_mapping.md",
+      "size": 17551
+    },
+    {
+      "digest": "a39c40ef5209f3f2422c88d480af842d9f941c45ef9a2ca3dea0e6f4a5620d7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/references/services_reference.md",
+      "path": "cli-tool/components/skills/scientific/bioservices/references/services_reference.md",
+      "size": 12566
+    },
+    {
+      "digest": "81001fa5d0990b0ed6c60c421125ea324586e3467eaac77839acab6ec9809a07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/references/workflow_patterns.md",
+      "path": "cli-tool/components/skills/scientific/bioservices/references/workflow_patterns.md",
+      "size": 20126
+    },
+    {
+      "digest": "488b3b95a7b43e5cd97ebd8ccead0be81364efadde7b535bb387ccf28d9cfe4f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/scripts/batch_id_converter.py",
+      "path": "cli-tool/components/skills/scientific/bioservices/scripts/batch_id_converter.py",
+      "size": 10892
+    },
+    {
+      "digest": "ac5e55866454a33118bddb8b82c6670090101226ed21130412594de1b88956c1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/scripts/compound_cross_reference.py",
+      "path": "cli-tool/components/skills/scientific/bioservices/scripts/compound_cross_reference.py",
+      "size": 11289
+    },
+    {
+      "digest": "59ed88cbddc01a3c1fab7c1caf04349482c338b0b71d537bae189149a4e50b36",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/scripts/pathway_analysis.py",
+      "path": "cli-tool/components/skills/scientific/bioservices/scripts/pathway_analysis.py",
+      "size": 9547
+    },
+    {
+      "digest": "004f5f5ba3ea2ed1821846df4d33af43b7dbfb84db614dfc146bcdd92edfbe89",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-bioservices/skills/bioservices/scripts/protein_analysis_workflow.py",
+      "path": "cli-tool/components/skills/scientific/bioservices/scripts/protein_analysis_workflow.py",
+      "size": 12449
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "071c6dc92352e0606348130f18ad67c2df87d7273bf939f68f81acb402b2c7f8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/bioservices",
+  "schema_version": 1
+}

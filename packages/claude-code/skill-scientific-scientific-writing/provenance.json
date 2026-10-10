@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5a3e0eece58981384b763b6cdb68fe1744aa4549d239b46c40079b720edece31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/SKILL.md",
+      "size": 24267
+    },
+    {
+      "digest": "23e4e2d07858d8a73f8c4168fbc74436cfbee4b484a2fa38a6d3d72c09eeaaa9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/references/citation_styles.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/references/citation_styles.md",
+      "size": 23705
+    },
+    {
+      "digest": "fdbd4a65f624c0582fb9ee07ede8279e05955bcf1ac1eeaa7c03baf5288f30e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/references/figures_tables.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/references/figures_tables.md",
+      "size": 27883
+    },
+    {
+      "digest": "f68094c7adba333ff3d628cd99e335e4beea250e47e4cf3e0d476ed79978d410",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/references/imrad_structure.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/references/imrad_structure.md",
+      "size": 23921
+    },
+    {
+      "digest": "02a58157e8e7fe54e241fedb6bc7721c435c16399bdfad62200c1124c766f43c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/references/reporting_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/references/reporting_guidelines.md",
+      "size": 25012
+    },
+    {
+      "digest": "c786f9fe6f21b346fe3e43da20c4fa19206e93e5488ba9600d45a3b34b8c6c40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-writing/skills/scientific-writing/references/writing_principles.md",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/references/writing_principles.md",
+      "size": 27593
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a3df0a723595aecb83ad444fc59de416599ece6caa6b36812dfde8deb8bc3f70",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-writing",
+  "schema_version": 1
+}

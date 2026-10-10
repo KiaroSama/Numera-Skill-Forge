@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-autonomous-agents/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f279e8a3ba4b87cff09575c4a44ac3e5616825c7a1eda364ee20a6fe2a2a977c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-autonomous-agents/skills/autonomous-agents/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/autonomous-agents/SKILL.md",
+      "size": 2221
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "73f2b7681839a833500132d053545836d730b0c7185492edad3c6dfa32c230d0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/autonomous-agents",
+  "schema_version": 1
+}

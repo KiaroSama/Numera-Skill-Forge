@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-medchem/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8506da12a93c59eb18a177f975b75cb9066aea7709912e6d0ded7748837c9d08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-medchem/skills/medchem/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/medchem/SKILL.md",
+      "size": 10085
+    },
+    {
+      "digest": "5d20dfee7715d8ab27f2bee8597238c4bd594f2b41398b19103b4acc711abdb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-medchem/skills/medchem/references/api_guide.md",
+      "path": "cli-tool/components/skills/scientific/medchem/references/api_guide.md",
+      "size": 12344
+    },
+    {
+      "digest": "978d6bb33751233e56f532eee753e6e52554319c3f462337a3819980e8fc6d0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-medchem/skills/medchem/references/rules_catalog.md",
+      "path": "cli-tool/components/skills/scientific/medchem/references/rules_catalog.md",
+      "size": 12512
+    },
+    {
+      "digest": "cbb3f21860db3fcd57afffb4f09cfc3cacc2be5c31ef85842054d2fb2351d5dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-medchem/skills/medchem/scripts/filter_molecules.py",
+      "path": "cli-tool/components/skills/scientific/medchem/scripts/filter_molecules.py",
+      "size": 15696
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cd6ab6ba4763873fa48887b2189edf56a80e2846d37483e930ca8bcea772d04e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/medchem",
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: Curviate/curviate-plugin; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Upstream adaptation (renaming/metadata/reference changes) predates this wrapper; see immutable source mapping. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/curviate/curviate-quickstart/SKILL.md https://github.com/Curviate/curviate-plugin/blob/04961d2f9f66fddd1384e6b8ab461cfb0fbadfa2/LICENSE https://github.com/Curviate/curviate-plugin/blob/04961d2f9f66fddd1384e6b8ab461cfb0fbadfa2/curviate/skills/curviate-quickstart/SKILL.md https://github.com/davila7/claude-code-templates/commit/5f9f8c7de5a670e025bd32233d27777e406ecdf7",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "1ec15e01e3ac5586f88bf09b128c6af2417c50ffd5d5a6b40357cc5835bc7aa1",
+      "license": "MIT",
+      "path": "registry/licenses/1ec15e01e3ac5586f88bf09b128c6af2417c50ffd5d5a6b40357cc5835bc7aa1.txt",
+      "source": "https://github.com/Curviate/curviate-plugin/blob/04961d2f9f66fddd1384e6b8ab461cfb0fbadfa2/LICENSE"
+    }
+  ]
+}

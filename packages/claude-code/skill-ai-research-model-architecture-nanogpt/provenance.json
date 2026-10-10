@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-nanogpt/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8893d8dd5b7ba4ae3219497e26d33fc9565e6bbf0d6aa4d6c1c3ee05003468c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-nanogpt/skills/nanogpt/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-nanogpt/SKILL.md",
+      "size": 6752
+    },
+    {
+      "digest": "0a5bef9e725f8fdb0fe649688168562c69cd82deea279d289939df4a5aec23d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-nanogpt/skills/nanogpt/references/architecture.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-nanogpt/references/architecture.md",
+      "size": 11716
+    },
+    {
+      "digest": "316bcdacc6e8538b7315d8e079bd71a00815bec435fad39b42e85be1a5f3a0de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-nanogpt/skills/nanogpt/references/data.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-nanogpt/references/data.md",
+      "size": 11212
+    },
+    {
+      "digest": "82cba9bf57cb82a2120f637f839badc1c54920be5ca41a00fd22042c45665119",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-nanogpt/skills/nanogpt/references/training.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-nanogpt/references/training.md",
+      "size": 13551
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e128af5c7b24d9b23f455a4e5c993a63422f3e45a1716cb97622e0d26bc2bed8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/model-architecture-nanogpt",
+  "schema_version": 1
+}

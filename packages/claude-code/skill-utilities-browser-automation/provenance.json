@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-browser-automation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "86847cc7d882e48bba81ab55e8deab53c483feb135724b3ca15be8d36a28a9b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-browser-automation/skills/browser-automation/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/browser-automation/SKILL.md",
+      "size": 2286
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "3343dc446e9424b09297e1d8b2b031a07c735db90f80aed906ad6526c1cf3440",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/browser-automation",
+  "schema_version": 1
+}

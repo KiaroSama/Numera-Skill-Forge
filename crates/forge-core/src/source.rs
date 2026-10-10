@@ -1,6 +1,6 @@
 use crate::{
     Error, Result, discovery,
-    model::{RefPolicy, Snapshot, Source},
+    model::{Snapshot, Source},
     process, registry, storage, validation,
 };
 use std::{
@@ -8,16 +8,68 @@ use std::{
     path::{Path, PathBuf},
 };
 
+#[path = "sources/refs.rs"]
+mod refs;
+
+struct Staging(PathBuf);
+impl Drop for Staging {
+    fn drop(&mut self) {
+        if self.0.exists() {
+            let _ = fs::remove_dir_all(&self.0);
+        }
+    }
+}
+fn protected(path: &str) -> bool {
+    let parts = path
+        .split('/')
+        .map(str::to_ascii_lowercase)
+        .collect::<Vec<_>>();
+    parts.iter().any(|part| {
+        matches!(
+            part.as_str(),
+            ".git"
+                | ".ai"
+                | ".ignoreme"
+                | "secrets.md"
+                | "explain-ai.md"
+                | ".forge-state"
+                | ".specify"
+                | ".codebase-memory"
+                | "graphify-out"
+        ) || part.starts_with(".env")
+    }) || parts.windows(2).any(|pair| {
+        matches!(
+            pair[0].as_str(),
+            ".claude" | ".codex" | ".kiro" | ".cursor" | ".cline" | ".agents"
+        ) && matches!(
+            pair[1].as_str(),
+            "auth.json"
+                | "credentials.json"
+                | ".credentials.json"
+                | "settings.local.json"
+                | "sessions"
+                | "history.jsonl"
+                | "cache"
+                | "logs"
+        )
+    })
+}
+
 pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Snapshot, PathBuf)> {
     registry::validate_repository(&source.repository)?;
-    let cache = workspace.join(".forge-state/snapshots").join(&source.id);
+    validation::identifier(&source.id)?;
+    validation::reject_link(workspace)?;
+    let state = workspace.join(".forge-state");
+    if state.exists() {
+        validation::reject_link(&state)?;
+    }
+    fs::create_dir_all(&state)?;
+    let cache = validation::contained(&state, &format!("snapshots/{}", source.id))?;
     fs::create_dir_all(&cache)?;
     let origin = if let Some(local) = source.repository.strip_prefix("local:") {
         PathBuf::from(local)
     } else {
-        let bare = workspace
-            .join(".forge-state/git")
-            .join(format!("{}.git", source.id));
+        let bare = validation::contained(&state, &format!("git/{}.git", source.id))?;
         if !bare.exists() {
             if offline {
                 return Err(Error::new(
@@ -42,6 +94,24 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                 120,
             )?;
         }
+        validation::reject_link(&bare)?;
+        let origin = String::from_utf8(process::git(
+            &[
+                "--git-dir".into(),
+                bare.to_string_lossy().into_owned(),
+                "remote".into(),
+                "get-url".into(),
+                "origin".into(),
+            ],
+            30,
+        )?)
+        .map_err(|_| Error::new("encoding", "Repository origin is not UTF-8"))?;
+        if origin.trim() != source.repository {
+            return Err(Error::new(
+                "cache-origin",
+                "Cached repository origin differs from registered repository; retain accepted inputs and select a new source ID",
+            ));
+        }
         if !offline {
             process::git(
                 &[
@@ -61,18 +131,42 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
     };
     validation::reject_link(&origin)?;
     let base = vec!["-C".to_string(), origin.to_string_lossy().into_owned()];
-    let reference = match &source.reference {
-        RefPolicy::DefaultBranch => "HEAD".into(),
-        RefPolicy::Branch(s) => format!("refs/heads/{s}"),
-        RefPolicy::Commit(s) => s.clone(),
-        RefPolicy::Tag(s) => format!("refs/tags/{s}"),
-        RefPolicy::LatestStableRelease => {
-            return Err(Error::new(
-                "release-provider",
-                "Stable release selection requires an approved GitHub release provider; tags are not releases",
-            ));
-        }
+    let default_ref = cache.join("default-reference.json");
+    let reference = if offline
+        && matches!(source.reference, crate::model::RefPolicy::DefaultBranch)
+        && default_ref.exists()
+    {
+        storage::read::<String>(&default_ref)?
+    } else {
+        refs::resolve(source, &origin, offline)?
     };
+    if !offline && matches!(source.reference, crate::model::RefPolicy::DefaultBranch) {
+        storage::write(&default_ref, &reference)?;
+    }
+    if matches!(source.reference, crate::model::RefPolicy::Commit(_))
+        && !source.repository.starts_with("local:")
+    {
+        let mut check = base.clone();
+        check.extend([
+            "cat-file".into(),
+            "-e".into(),
+            format!("{reference}^{{commit}}"),
+        ]);
+        if process::git(&check, 30).is_err() {
+            if offline {
+                return Err(Error::new("offline", "Pinned revision is not cached"));
+            }
+            let mut fetch = base.clone();
+            fetch.extend([
+                "fetch".into(),
+                "--depth=1".into(),
+                "--no-tags".into(),
+                "origin".into(),
+                reference.clone(),
+            ]);
+            process::git(&fetch, 120)?;
+        }
+    }
     if reference.starts_with('-') || reference.contains(['\r', '\n', '\0']) {
         return Err(Error::new("ref", "Invalid Git reference"));
     }
@@ -90,15 +184,26 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
         return Err(Error::new("revision", "Expected immutable SHA-1 revision"));
     }
     let tree = cache.join(&revision);
-    if !tree.exists() {
-        let staging = cache.join(format!("stage-{}", std::process::id()));
-        if staging.exists() {
-            return Err(Error::new(
-                "staging-conflict",
-                "An interrupted snapshot exists; inspect recovery before retry",
-            ));
-        }
+    let selection = storage::digest(&storage::encoded(&(
+        &source.repository,
+        &source.roots,
+        &source.excludes,
+    ))?);
+    let selection_path = cache.join(format!("{revision}.selection.json"));
+    if tree.exists()
+        && selection_path.exists()
+        && storage::read::<String>(&selection_path)? != selection
+    {
+        return Err(Error::new(
+            "snapshot-selection",
+            "Cached snapshot selection changed or predates selection metadata; retain accepted snapshot and use a new source ID",
+        ));
+    }
+    let mut modes = std::collections::BTreeMap::new();
+    if !tree.exists() || !selection_path.exists() {
+        let staging = cache.join(format!("stage-{}", crate::transaction::operation_id()));
         fs::create_dir(&staging)?;
+        let _cleanup = Staging(staging.clone());
         let mut args = base.clone();
         args.extend([
             "ls-tree".into(),
@@ -119,18 +224,8 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             let fields = header.split_whitespace().collect::<Vec<_>>();
             let path = std::str::from_utf8(&record[tab + 1..])
                 .map_err(|_| Error::new("encoding", "Non-Unicode paths are unsupported"))?;
-            validation::relative_path(path)?;
-            if fields.first() == Some(&"100755") {
-                return Err(Error::new(
-                    "executable-metadata",
-                    "Executable Git modes require native-preserving import; preview refuses to lose their mode",
-                ));
-            }
-            if fields.first() == Some(&"120000") || fields.first() == Some(&"160000") {
-                return Err(Error::new(
-                    "dependency-review",
-                    "Symlinks/submodules require a separate import plan",
-                ));
+            if protected(path) {
+                continue;
             }
             let selected = source.roots.is_empty()
                 || source
@@ -138,7 +233,8 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                     .iter()
                     .any(|p| path == p || path.starts_with(&format!("{p}/")))
                 || path.to_ascii_uppercase().contains("LICENSE")
-                || path.to_ascii_uppercase().contains("COPYING");
+                || path.to_ascii_uppercase().contains("COPYING")
+                || path.to_ascii_uppercase().contains("NOTICE");
             if !selected
                 || source
                     .excludes
@@ -146,6 +242,13 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                     .any(|p| path == p || path.starts_with(&format!("{p}/")))
             {
                 continue;
+            }
+            validation::relative_path(path)?;
+            if fields.len() != 3 || !matches!(fields[0], "100644" | "100755") {
+                return Err(Error::new(
+                    "dependency-review",
+                    "Selected symlink/submodule requires pinned import review",
+                ));
             }
             let blob = fields
                 .get(2)
@@ -161,6 +264,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
             {
                 return Err(Error::new("size-limit", "Snapshot limit exceeded"));
             }
+            modes.insert(path.to_owned(), fields[0] == "100755");
             let target = validation::contained(&staging, path)?;
             storage::atomic(&target, &bytes)?;
             #[cfg(unix)]
@@ -169,8 +273,44 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
                 fs::set_permissions(&target, fs::Permissions::from_mode(0o755))?;
             }
         }
-        fs::rename(staging, &tree)?;
+        let _ = discovery::inspect(&staging, &source.id, &revision)?;
+        crate::jobs::checkpoint()?;
+        if tree.exists() {
+            let old = storage::payload_files(&tree)?;
+            let new = storage::payload_files(&staging)?
+                .into_iter()
+                .collect::<std::collections::BTreeMap<_, _>>();
+            let mut matches = old.len() == new.len();
+            for (path, physical) in old {
+                let Some(fresh) = new.get(&path) else {
+                    matches = false;
+                    break;
+                };
+                if storage::bytes(&physical)? != storage::bytes(fresh)? {
+                    matches = false;
+                    break;
+                }
+            }
+            if !matches {
+                return Err(Error::new(
+                    "snapshot-selection",
+                    "Legacy snapshot differs from immutable selected payload; accepted inputs retained, select a new source ID",
+                ));
+            }
+        } else {
+            fs::rename(&staging, &tree)?;
+        }
+        storage::write(&cache.join(format!("{revision}.modes.json")), &modes)?;
+        storage::write(&selection_path, &selection)?;
     }
-    let snapshot = discovery::inspect(&tree, &source.id, &revision)?;
+    if modes.is_empty() && cache.join(format!("{revision}.modes.json")).exists() {
+        modes = storage::read(&cache.join(format!("{revision}.modes.json")))?;
+    }
+    let mut snapshot = discovery::inspect(&tree, &source.id, &revision)?;
+    for file in &mut snapshot.files {
+        let mode = modes.get(&file.path).ok_or_else(|| Error::new("snapshot-modes", "Cached immutable mode evidence missing; preserve accepted state and rediscover using a new source identity"))?;
+        file.executable = *mode;
+    }
+    snapshot.content_digest = storage::digest(&storage::encoded(&snapshot.files)?);
     Ok((snapshot, tree))
 }

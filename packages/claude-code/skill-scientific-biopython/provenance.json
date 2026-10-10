@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "690d7fd9216a582266a23e5d30b0b72570a971daab8ffb706d27718feb7b0282",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/biopython/SKILL.md",
+      "size": 13743
+    },
+    {
+      "digest": "e6de6ab0eca11a583fd87d34a0fb8ad7e13aacdbf6841061b969a1bb733b6663",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/advanced.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/advanced.md",
+      "size": 14033
+    },
+    {
+      "digest": "9fbdfde513cbfa96d88cc538549c8c7d61fd519b0a2bf4cb9f89e96754d8e76a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/alignment.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/alignment.md",
+      "size": 8953
+    },
+    {
+      "digest": "a1a4caa11fef2befb1151b2a4f8f8de4874609fbcd9d103f698f0c8ce0876325",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/blast.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/blast.md",
+      "size": 12649
+    },
+    {
+      "digest": "70a4de04c8e30da623450034f73d85e86af730c14254093110f2e04307c73d59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/databases.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/databases.md",
+      "size": 11506
+    },
+    {
+      "digest": "236b08a63dcbbeea3757dee8eaf337576149aec0abfcf93ac188bc909858f9d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/phylogenetics.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/phylogenetics.md",
+      "size": 13835
+    },
+    {
+      "digest": "eb20a075f0ba4bfd3c805ebf489b4a789b54b86a6456a8c05f0516872b678f27",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/sequence_io.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/sequence_io.md",
+      "size": 7274
+    },
+    {
+      "digest": "873ebde4534bcef0cd47c185d03c1713a5e07690d9bcbece3c1aed06ee4a9079",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-biopython/skills/biopython/references/structure.md",
+      "path": "cli-tool/components/skills/scientific/biopython/references/structure.md",
+      "size": 12998
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1a98eea38ec873d26f6846fe8bae7418c663b006aed1fa6a31290c1a26f54c3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/biopython",
+  "schema_version": 1
+}

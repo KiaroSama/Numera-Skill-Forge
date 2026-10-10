@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-metrics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b82a280038dec824f720eaca47f1641fdc24547dd7ca6287cb57e2119c81aba3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-metrics/skills/railway-metrics/SKILL.md",
+      "path": "cli-tool/components/skills/railway/metrics/SKILL.md",
+      "size": 6021
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cb79c04db0816139516b94a04005b79f23478fdd6f9eeb8b7ee9b169325fd8a7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/railway/metrics",
+  "schema_version": 1
+}

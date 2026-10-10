@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ai-product/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1f0fbff109d1caaa3148f4fff7a2e65d6fd4ce3b53f756e4dced9bc5f27b80b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ai-product/skills/ai-product/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/ai-product/SKILL.md",
+      "size": 2170
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "5eadf00c679a21309855a901a6482c8b39d3a6aaa8ad3c2e7ba9fc0bd8ca98e7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/ai-product",
+  "schema_version": 1
+}

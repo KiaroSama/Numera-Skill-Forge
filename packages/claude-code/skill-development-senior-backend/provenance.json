@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-backend/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "de1c35674ab09c38b0895ab29eddfaf501ceff19ecf4db39617d7fb1cbf8762d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-backend/SKILL.md",
+      "size": 4541
+    },
+    {
+      "digest": "5bef532218c1a4f994eef546fd102d124d6052eef4f472ef490079d747d1ccc7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/references/api_design_patterns.md",
+      "path": "cli-tool/components/skills/development/senior-backend/references/api_design_patterns.md",
+      "size": 1612
+    },
+    {
+      "digest": "c565222bd5ce1452614e62f1af0dc3e1b17e140ff261e92238d626b5d821a454",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/references/backend_security_practices.md",
+      "path": "cli-tool/components/skills/development/senior-backend/references/backend_security_practices.md",
+      "size": 1619
+    },
+    {
+      "digest": "e399dfdcf755186f54c34bdb37efda089e359932abb543adac2d5c398252243a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/references/database_optimization_guide.md",
+      "path": "cli-tool/components/skills/development/senior-backend/references/database_optimization_guide.md",
+      "size": 1620
+    },
+    {
+      "digest": "dca9b04f0a8e643c720561e1549411064be77c3d85879e93edc5d49633a0f0cf",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/scripts/api_load_tester.py",
+      "path": "cli-tool/components/skills/development/senior-backend/scripts/api_load_tester.py",
+      "size": 3122
+    },
+    {
+      "digest": "34c43d83d0f6aacfdba2b82576b2613b398fb0b69c7aaa78c8815d3cd76c0681",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/scripts/api_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-backend/scripts/api_scaffolder.py",
+      "size": 3119
+    },
+    {
+      "digest": "37ee8a932c440abf9b400f9b9f5ba046068c64e1e4d268bea49dc80a6dd4ea0d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-backend/skills/senior-backend/scripts/database_migration_tool.py",
+      "path": "cli-tool/components/skills/development/senior-backend/scripts/database_migration_tool.py",
+      "size": 3162
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "08927126352e722147773b5145825ed76b7b216dea2945c5793c033beb78cb77",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-backend",
+  "schema_version": 1
+}

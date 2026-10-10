@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-hqq/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4feba64227f6db505044663cd5432bf9c0599c5c8984d94d3b2d1598711a1f80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-hqq/skills/hqq-quantization/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-hqq/SKILL.md",
+      "size": 11466
+    },
+    {
+      "digest": "69da7e0061315e1a4054c4aaa4131b9cdb045f7f3e5266a7336ddcd82daa5870",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-hqq/skills/hqq-quantization/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-hqq/references/advanced-usage.md",
+      "size": 14077
+    },
+    {
+      "digest": "a32a80d1d392eea56cd903ccdc0b256f96a38711f737cee5cc05f5cf980ee3c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-hqq/skills/hqq-quantization/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-hqq/references/troubleshooting.md",
+      "size": 11086
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "107efd0acd56b38affe74204b9a0d893825302d4e17c99c619cd6313e293f3dc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/optimization-hqq",
+  "schema_version": 1
+}

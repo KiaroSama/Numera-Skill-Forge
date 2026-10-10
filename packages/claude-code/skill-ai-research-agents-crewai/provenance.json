@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-crewai/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8760f968af1118e3dde5bc8443613be5ef7046a5639d26079d596fcf6d2483ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-crewai/skills/crewai-multi-agent/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agents-crewai/SKILL.md",
+      "size": 13469
+    },
+    {
+      "digest": "bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-crewai/skills/crewai-multi-agent/references/flows.md",
+      "path": "cli-tool/components/skills/ai-research/agents-crewai/references/flows.md",
+      "size": 9846
+    },
+    {
+      "digest": "fd62a6c2c1ba08fc921cab5dd519c476e38e43f16cbfbba32fd000386ed454f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-crewai/skills/crewai-multi-agent/references/tools.md",
+      "path": "cli-tool/components/skills/ai-research/agents-crewai/references/tools.md",
+      "size": 10283
+    },
+    {
+      "digest": "9c55aa955aebe83322bf50e92181ff266f2af9374affbda27dd34e8de79d6fe2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-crewai/skills/crewai-multi-agent/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/agents-crewai/references/troubleshooting.md",
+      "size": 8933
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ba71cccfd90d8da1f2b84fbc21251a4d3699f70280f69557598b2146fd7fe524",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agents-crewai",
+  "schema_version": 1
+}

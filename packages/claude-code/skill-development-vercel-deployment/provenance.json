@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deployment/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "334c40249c1783e3d0ea421cb8d4f46ed2c558e8dff9eecd6cc5863a1c680b40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-vercel-deployment/skills/vercel-deployment/SKILL.md",
+      "path": "cli-tool/components/skills/development/vercel-deployment/SKILL.md",
+      "size": 2144
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "27a0e6a08341de88219f5f842e44cf5e9ee040af74fd7d6bc16b52210a64b78d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/vercel-deployment",
+  "schema_version": 1
+}

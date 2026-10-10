@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-subagent-driven-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "724ff7f5edf539a7b5697daa120a5d0befa012660376724adaf9dd04ca6c305a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-subagent-driven-development/skills/subagent-driven-development/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/subagent-driven-development/SKILL.md",
+      "size": 9809
+    },
+    {
+      "digest": "11de35dba7990f9def49b90039f1f2d8e7f546ae42ca8e1105d308f09456803e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-subagent-driven-development/skills/subagent-driven-development/code-quality-reviewer-prompt.md",
+      "path": "cli-tool/components/skills/ai-research/subagent-driven-development/code-quality-reviewer-prompt.md",
+      "size": 630
+    },
+    {
+      "digest": "9740dc8e425f9e1d6dc34599e0ba82e93aad7fedbcbb27b0bd67a4fa0e15a85e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-subagent-driven-development/skills/subagent-driven-development/implementer-prompt.md",
+      "path": "cli-tool/components/skills/ai-research/subagent-driven-development/implementer-prompt.md",
+      "size": 2195
+    },
+    {
+      "digest": "631980e472eec5394de8b89b69d432e54fd3f7f523ecf9afa7eb4cda0c9b2baf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-subagent-driven-development/skills/subagent-driven-development/spec-reviewer-prompt.md",
+      "path": "cli-tool/components/skills/ai-research/subagent-driven-development/spec-reviewer-prompt.md",
+      "size": 1999
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "988b2b4ee0ab8df786e89f1037a85058a1bb95208d18f0804c223036b8f09911",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/subagent-driven-development",
+  "schema_version": 1
+}

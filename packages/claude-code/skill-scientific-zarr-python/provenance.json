@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-zarr-python/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "eeb0463cfef652131d5ae76255a34df6f35f0c3e5b224033b9b4ddfa9964083a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-zarr-python/skills/zarr-python/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/zarr-python/SKILL.md",
+      "size": 19986
+    },
+    {
+      "digest": "68d983ea5bacfd410ca3f2d1e0c4d464e555724d882467bff5313fd48dbd40b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-zarr-python/skills/zarr-python/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/zarr-python/references/api_reference.md",
+      "size": 12538
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "78b67cf0e690a9c2839afcecbafd63ae47bb23b3972fe997dbd1b916cf2d18a4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/zarr-python",
+  "schema_version": 1
+}

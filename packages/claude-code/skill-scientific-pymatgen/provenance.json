@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9df98fb3825ea55e4e4a510329b6e05871f59c49f7d5609ca18722c5cfbdcc02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/SKILL.md",
+      "size": 19973
+    },
+    {
+      "digest": "5029f48a4744ed15043cfa0e46340933187a2c65e56b3d0883cae8ef5868a3e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/references/analysis_modules.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/references/analysis_modules.md",
+      "size": 12945
+    },
+    {
+      "digest": "230c4a8be4467a7c712d95a0b4109af2b1427b9ea7cb191bc2ea78062d7143de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/references/core_classes.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/references/core_classes.md",
+      "size": 9445
+    },
+    {
+      "digest": "d31fab0646a5be2ceefadca786f079a6b0b62f93c502a668654548d8bae9c1d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/references/io_formats.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/references/io_formats.md",
+      "size": 10518
+    },
+    {
+      "digest": "9af1daa4bc88a0774b93d238fdf203d8cf86b817ac642166e55abd5248eb5fbc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/references/materials_project_api.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/references/materials_project_api.md",
+      "size": 12770
+    },
+    {
+      "digest": "7c7e4cc305c4c67cbcf8d56ba7bee08170ce5264e6bba964aa0b98de44001fb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/references/transformations_workflows.md",
+      "path": "cli-tool/components/skills/scientific/pymatgen/references/transformations_workflows.md",
+      "size": 16805
+    },
+    {
+      "digest": "be132bf108bb799d81f53e17280de05db286d85c80e1ff34efe1bb75640e947e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/scripts/phase_diagram_generator.py",
+      "path": "cli-tool/components/skills/scientific/pymatgen/scripts/phase_diagram_generator.py",
+      "size": 7353
+    },
+    {
+      "digest": "efd488516026e53108af8f96872c1c30928de92efca9e083c15d620575cec76f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/scripts/structure_analyzer.py",
+      "path": "cli-tool/components/skills/scientific/pymatgen/scripts/structure_analyzer.py",
+      "size": 8452
+    },
+    {
+      "digest": "a1ee392512f3e97fa014cbe2e3f290f5d049d0431e59f4dbbd80c2dce4293935",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pymatgen/skills/pymatgen/scripts/structure_converter.py",
+      "path": "cli-tool/components/skills/scientific/pymatgen/scripts/structure_converter.py",
+      "size": 5179
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1bea985af3d4d496463759b8172ce9e01a13d138845a7a83c4fb70eca24db16",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pymatgen",
+  "schema_version": 1
+}

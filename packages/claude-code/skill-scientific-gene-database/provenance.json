@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3a1c1cbac86961ee4cf539e6c7eb62328e90a4133084ba016a312c691e65b9cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/gene-database/SKILL.md",
+      "size": 6339
+    },
+    {
+      "digest": "4b228fcf0429a246a94028b6c173d3b2dce9713ac2e2e633d8318187d886226f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/gene-database/references/api_reference.md",
+      "size": 9121
+    },
+    {
+      "digest": "c148fa684c438c1525bcbb3ec61c30e4bb46e4429b6fb59f442c7c00bbcbe3cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/references/common_workflows.md",
+      "path": "cli-tool/components/skills/scientific/gene-database/references/common_workflows.md",
+      "size": 10395
+    },
+    {
+      "digest": "6978ad94927de83973c9b87e92805ad8e30fda2dd5890cb89d94c852e1328a38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/scripts/batch_gene_lookup.py",
+      "path": "cli-tool/components/skills/scientific/gene-database/scripts/batch_gene_lookup.py",
+      "size": 9109
+    },
+    {
+      "digest": "005b4058e9933a5ca914343170fcecbba375a029bacd633a7568b15dd2834937",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/scripts/fetch_gene_data.py",
+      "path": "cli-tool/components/skills/scientific/gene-database/scripts/fetch_gene_data.py",
+      "size": 8602
+    },
+    {
+      "digest": "41ce43399c562bf8d763cab8c00646681139a913c426ce7ae4fb2daec7866102",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-gene-database/skills/gene-database/scripts/query_gene.py",
+      "path": "cli-tool/components/skills/scientific/gene-database/scripts/query_gene.py",
+      "size": 7409
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9d9494aff1330973d9114062cb32ae1e108316244f9f7b9bf3214f4f127d6da8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/gene-database",
+  "schema_version": 1
+}

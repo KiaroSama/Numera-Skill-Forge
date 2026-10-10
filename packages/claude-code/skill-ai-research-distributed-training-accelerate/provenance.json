@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-accelerate/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e94cea7a174f395df02d935065fe05db8ecb637c52e443b6380c703963758d7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-accelerate/skills/huggingface-accelerate/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-accelerate/SKILL.md",
+      "size": 8340
+    },
+    {
+      "digest": "1b2f1cf5d70a155f7792cad12a466be4315b787fe21e01b36d32bf374693c020",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-accelerate/skills/huggingface-accelerate/references/custom-plugins.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-accelerate/references/custom-plugins.md",
+      "size": 11781
+    },
+    {
+      "digest": "69dedcc3c78c197defa86531412541b96a624090c0afd787a967cf865117273d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-accelerate/skills/huggingface-accelerate/references/megatron-integration.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-accelerate/references/megatron-integration.md",
+      "size": 11252
+    },
+    {
+      "digest": "559ea051c23773d3a7227610018429a0e12e49795949a6e9adfa91b305182a37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-accelerate/skills/huggingface-accelerate/references/performance.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-accelerate/references/performance.md",
+      "size": 12569
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "063f229b89c052c23ac81e68e318d99dcc932f0bd10752164f7f381b99b7a832",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-accelerate",
+  "schema_version": 1
+}

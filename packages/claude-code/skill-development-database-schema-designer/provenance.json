@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-schema-designer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a1b232ed89628067c6f1234bc7d1250b9049ed393fc698aa766836e2d58b4f54",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-schema-designer/skills/database-schema-designer/README.md",
+      "path": "cli-tool/components/skills/development/database-schema-designer/README.md",
+      "size": 7540
+    },
+    {
+      "digest": "e485710c0bd15e047e31aa70689bae05e8f70561f0672005c01a38447ba0781b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-schema-designer/skills/database-schema-designer/SKILL.md",
+      "path": "cli-tool/components/skills/development/database-schema-designer/SKILL.md",
+      "size": 17633
+    },
+    {
+      "digest": "41344b20e71a7156dee7c1b4324fad2f818b553ff6de1c163afd154c22bae006",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-schema-designer/skills/database-schema-designer/assets/templates/migration-template.sql",
+      "path": "cli-tool/components/skills/development/database-schema-designer/assets/templates/migration-template.sql",
+      "size": 1922
+    },
+    {
+      "digest": "91643f653cd70618c88051fdee0beb96f7ce9616a813e321d0342cee71f1320a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-schema-designer/skills/database-schema-designer/references/schema-design-checklist.md",
+      "path": "cli-tool/components/skills/development/database-schema-designer/references/schema-design-checklist.md",
+      "size": 3384
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e795c573759ce856cddb593b271b2a2cc294da63477834dce4ad6e21ae5ab2c5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/database-schema-designer",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-molfeat/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "45c0f99ae971b9760aafa8acc72771dcc787659b18703c35ae443750bf9cff85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-molfeat/skills/molfeat/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/molfeat/SKILL.md",
+      "size": 14743
+    },
+    {
+      "digest": "2fe2516c224f96d1205d91106530eb951d45f80adb3740e373c12df307f407fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-molfeat/skills/molfeat/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/molfeat/references/api_reference.md",
+      "size": 11502
+    },
+    {
+      "digest": "7ef3b446edb19278d6a855a353139a304c8dba52b224b04debd3e8d49b0a706a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-molfeat/skills/molfeat/references/available_featurizers.md",
+      "path": "cli-tool/components/skills/scientific/molfeat/references/available_featurizers.md",
+      "size": 10709
+    },
+    {
+      "digest": "77f19a24efb0ebc603c01416cf147896c38ba556044e316ba52e321b7fdcd72c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-molfeat/skills/molfeat/references/examples.md",
+      "path": "cli-tool/components/skills/scientific/molfeat/references/examples.md",
+      "size": 17709
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e4b8077b4da942d80a742d3187216124787abfe4362333fe6cc71c53ec523456",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/molfeat",
+  "schema_version": 1
+}

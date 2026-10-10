@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-nnsight/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f79dc9daf99c4ffbcb82072b4f162c296e4365dbb2fe6985e77be215ba0c814c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-nnsight/skills/nnsight-remote-interpretability/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight/SKILL.md",
+      "size": 13066
+    },
+    {
+      "digest": "8cc09397004cb4855704dd490ea1993dee5935aea52f0e02eb5b960c4da733b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-nnsight/skills/nnsight-remote-interpretability/references/README.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight/references/README.md",
+      "size": 1913
+    },
+    {
+      "digest": "750fe5a6b7092c839a0602d2d00c13cc9168fb0bdb73eb3279441cda7aef5b39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-nnsight/skills/nnsight-remote-interpretability/references/api.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight/references/api.md",
+      "size": 7160
+    },
+    {
+      "digest": "a46505bde75ab0c4703fdf6fd0248b4d02820d519f763a3324e44d29fca0333e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-nnsight/skills/nnsight-remote-interpretability/references/tutorials.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight/references/tutorials.md",
+      "size": 7970
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8d2d9c843b51ab62b807d7df178b1074d88824d57017d6da00864a0dfe455104",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mechanistic-interpretability-nnsight",
+  "schema_version": 1
+}

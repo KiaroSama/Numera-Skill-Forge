@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-dependabot-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c6403b55ed2c2be9498a713890ee111aa8f81bc71ce5f56bd99f9c1b3dfae9bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-dependabot-review/skills/dependabot-review/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/dependabot-review/SKILL.md",
+      "size": 3678
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "159e6c24f4f7b82d12ecdc9c3dff1f7ff3ad3604c137554661de8111474e5c51",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/dependabot-review",
+  "schema_version": 1
+}

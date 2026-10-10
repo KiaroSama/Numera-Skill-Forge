@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-audit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8d74ce70b597ce8d780a094dbc5ff66bbe95ccb814e86fc5dad9ba3c638b7d08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-security-audit/skills/security-audit/SKILL.md",
+      "path": "cli-tool/components/skills/security/security-audit/SKILL.md",
+      "size": 5195
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7970db3576218e545ec8bb601aa01746f65108fa0069bad59e4e4ba4ade2e059",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/security-audit",
+  "schema_version": 1
+}

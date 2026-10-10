@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-bio/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "27421106debc4805de3cc2804016fa8999ae2f1da6b746e862ef24775814c37b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-bio/skills/scikit-bio/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scikit-bio/SKILL.md",
+      "size": 14681
+    },
+    {
+      "digest": "b7a3c128d709bc2fd51e4429fc22484eeced3a643b4859ec3d7bf4d1d14b51a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scikit-bio/skills/scikit-bio/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/scikit-bio/references/api_reference.md",
+      "size": 18564
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "64cfa70f08730c353cb263706ffd31f6398237e1e663dad276c4ee69b635912e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scikit-bio",
+  "schema_version": 1
+}

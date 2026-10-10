@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cellxgene-census/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "eb3ab532d018ff7c1a7c85e32e841981be8dfe21a02441827455c8953ab10c05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cellxgene-census/skills/cellxgene-census/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/cellxgene-census/SKILL.md",
+      "size": 15264
+    },
+    {
+      "digest": "73cfc3614c687952af430a78791b833eead74a73ba289bdae7ff99148b2031fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cellxgene-census/skills/cellxgene-census/references/census_schema.md",
+      "path": "cli-tool/components/skills/scientific/cellxgene-census/references/census_schema.md",
+      "size": 5649
+    },
+    {
+      "digest": "83f7475ef923607c9c7c90ab9c68b62687abfcc7b85668fccdb6eae9287287be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cellxgene-census/skills/cellxgene-census/references/common_patterns.md",
+      "path": "cli-tool/components/skills/scientific/cellxgene-census/references/common_patterns.md",
+      "size": 9935
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7f4e2313e46915fc46300276e47d33871ff748e4d5ed2a482f395fea1bab1d75",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/cellxgene-census",
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: addyosmani/web-quality-skills; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/web-quality-audit/SKILL.md https://github.com/addyosmani/web-quality-skills/blob/6a231a73b79ff35bcee04dec85996415979aa928/LICENSE https://github.com/addyosmani/web-quality-skills/tree/6a231a73b79ff35bcee04dec85996415979aa928/skills/web-quality-audit",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "c122223ac43e86421958e18623979942c21b642951e2e3736dcb63eff13587c3",
+      "license": "MIT",
+      "path": "registry/licenses/c122223ac43e86421958e18623979942c21b642951e2e3736dcb63eff13587c3.txt",
+      "source": "https://github.com/addyosmani/web-quality-skills/blob/6a231a73b79ff35bcee04dec85996415979aa928/LICENSE"
+    }
+  ]
+}

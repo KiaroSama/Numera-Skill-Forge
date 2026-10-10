@@ -147,7 +147,7 @@ try {
     $binary = Join-Path $root "target/release/$binaryName"
     if (-not (Test-Path -LiteralPath $binary -PathType Leaf)) { $binary = Join-Path $root "target/debug/$binaryName" }
     if (-not (Test-Path -LiteralPath $binary -PathType Leaf)) { throw 'CLI binary not found. Rerun with -Build to explicitly build it, or obtain a release binary.' }
-    $arguments = @('--repository', $root, '--json', 'collection')
+    $arguments = @('--repository', $root, '--json', '--timeout', '600', 'collection')
     if ($Verify) { $arguments += 'verify' }
     else {
         $arguments += 'sync'

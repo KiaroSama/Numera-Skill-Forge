@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-perplexity/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e7650806be5b96e9c98c03bacbd4b8cc38de4a765bcf54f2b9232f59add028c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-perplexity/skills/perplexity/README.md",
+      "path": "cli-tool/components/skills/ai-research/perplexity/README.md",
+      "size": 6168
+    },
+    {
+      "digest": "e7c8c405d1ee8cec6e06efd5fe4ca9a2dccbf6318728fe3dacdb0cd2f9470b89",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-perplexity/skills/perplexity/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/perplexity/SKILL.md",
+      "size": 3900
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "21db8156192463aad484ad4405c07ba6a70f27abc30d693685ec1c200f244f7b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/perplexity",
+  "schema_version": 1
+}

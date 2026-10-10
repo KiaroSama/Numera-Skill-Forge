@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "87ef9bf0d2ecec7c63a7fcca92ef06b3d370bb551f9eaad5ee1b6069f74eedee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/README.md",
+      "size": 6609
+    },
+    {
+      "digest": "05ad4e12e2314cbc80b019eb21e0a8cf9250298839010c916827eae74af0d515",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/SKILL.md",
+      "size": 9008
+    },
+    {
+      "digest": "01c238a6a1776cb46f369017834a39a8484b47c37b40e870fa9bed3d8700b02c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/references/email-templates.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/references/email-templates.md",
+      "size": 5783
+    },
+    {
+      "digest": "dea1a1a50b999197c6f0c7e2c761304f8ccd04f78ceb7b430debd05c10effd4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/references/jargon-simplification.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/references/jargon-simplification.md",
+      "size": 8071
+    },
+    {
+      "digest": "6946adf5b22f57c69399a840c297404a07a9c703c34fc45ac6c2da3debe93ae4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/references/meeting-structures.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/references/meeting-structures.md",
+      "size": 8834
+    },
+    {
+      "digest": "b79cfc6bd81a78f61557444f93ba9069fa431296ec7474404897ae984b8e6627",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-professional-communication/skills/professional-communication/references/remote-async-communication.md",
+      "path": "cli-tool/components/skills/enterprise-communication/professional-communication/references/remote-async-communication.md",
+      "size": 8075
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "865cdc3e2286ca5d77c0888b490078a92cdc08f4c13b8f0be96e168686eb52ba",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/professional-communication",
+  "schema_version": 1
+}

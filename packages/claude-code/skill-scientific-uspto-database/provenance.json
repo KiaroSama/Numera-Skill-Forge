@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7e0048fb5808f34f3074764eef24f8e2dd92afd58a8ff5ca111a30329b340b32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/uspto-database/SKILL.md",
+      "size": 18497
+    },
+    {
+      "digest": "63e273ce28c06abf671957ceb19695766cfe22fdd554bf244cd4203d3e42c4a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/references/additional_apis.md",
+      "path": "cli-tool/components/skills/scientific/uspto-database/references/additional_apis.md",
+      "size": 9773
+    },
+    {
+      "digest": "a2237320c7ad016ddd49c602aa9841237afca32e28c80e13ed0939f4fec28e68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/references/patentsearch_api.md",
+      "path": "cli-tool/components/skills/scientific/uspto-database/references/patentsearch_api.md",
+      "size": 7435
+    },
+    {
+      "digest": "ee9b7d95bc058dbbfb00cd454eba7b363fe3be29870f0ae4fbc543e0acb7bd1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/references/peds_api.md",
+      "path": "cli-tool/components/skills/scientific/uspto-database/references/peds_api.md",
+      "size": 6546
+    },
+    {
+      "digest": "1777b67815614049dbfd5a32be18db173e8efda8c7afd9f070ab4fce41f52350",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/references/trademark_api.md",
+      "path": "cli-tool/components/skills/scientific/uspto-database/references/trademark_api.md",
+      "size": 9754
+    },
+    {
+      "digest": "821a917c3ceed5563dbbc10421c8a34e6261c6e3a9c65f8897f6d77a1152126b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/scripts/patent_search.py",
+      "path": "cli-tool/components/skills/scientific/uspto-database/scripts/patent_search.py",
+      "size": 9072
+    },
+    {
+      "digest": "c3dbef61fb2585fb474f58b433702ec593364ad082f47872e2fcd078b59c1a46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/scripts/peds_client.py",
+      "path": "cli-tool/components/skills/scientific/uspto-database/scripts/peds_client.py",
+      "size": 9602
+    },
+    {
+      "digest": "a8eb02cb5e374907019f2c2e350471a3f8b9dd3c7978617270a8e4ff5230cb86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-uspto-database/skills/uspto-database/scripts/trademark_client.py",
+      "path": "cli-tool/components/skills/scientific/uspto-database/scripts/trademark_client.py",
+      "size": 10564
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "efcc3ad763f7190ebd513470e5debaefaa39d3358800859347382ed5d6d4959c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/uspto-database",
+  "schema_version": 1
+}

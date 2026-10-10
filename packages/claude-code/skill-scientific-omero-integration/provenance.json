@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "94ae3e4c55ac87bb88d641eea11b8e28a7b635f0b3b21121ca5ce3251fa593fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/SKILL.md",
+      "size": 7987
+    },
+    {
+      "digest": "1b4d91b8b3f93c8187ae3f55366a1516bc23d12799a5dd592fdf090dfd463ec0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/advanced.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/advanced.md",
+      "size": 15013
+    },
+    {
+      "digest": "452f16488cffcccb8eac9cabecb0dc087330eecc7188a392c51b5885c5603bf8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/connection.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/connection.md",
+      "size": 8404
+    },
+    {
+      "digest": "4fa0d4ae26bb68397f858dbf23233b94c6001a0be23be68da03b8316f8f8c5e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/data_access.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/data_access.md",
+      "size": 13555
+    },
+    {
+      "digest": "a48cfd15b998b46ae8d7914bbd554f69d6d64bf46f1e907eeffe44f0911641d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/image_processing.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/image_processing.md",
+      "size": 15705
+    },
+    {
+      "digest": "36fdafcbf5cd9f21f323e24214cbd31add91d63ec96b8034605574f9a32df302",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/metadata.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/metadata.md",
+      "size": 17020
+    },
+    {
+      "digest": "79e1033d4935b81fd841384e184748724feafcf6b42c3678d34437549787d298",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/rois.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/rois.md",
+      "size": 16388
+    },
+    {
+      "digest": "5cace32817697eb23b218a533e365235e129c1225c405766f294cf26b87a7457",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/scripts.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/scripts.md",
+      "size": 17319
+    },
+    {
+      "digest": "408a4f24d9d512b4418d0c074cee78e64597d9931134e97c4066484b6f46e5ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-omero-integration/skills/omero-integration/references/tables.md",
+      "path": "cli-tool/components/skills/scientific/omero-integration/references/tables.md",
+      "size": 14835
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91112ebbe6bc38bef6b9b56886385611a945659c3be0b2a06971f609b07e9fd4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/omero-integration",
+  "schema_version": 1
+}

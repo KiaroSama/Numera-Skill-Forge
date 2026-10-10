@@ -21,6 +21,19 @@ pub struct Skill {
     pub license: String,
     pub license_path: String,
     pub license_digest: String,
+    #[serde(default)]
+    pub notices: Vec<Notice>,
+    #[serde(default)]
+    pub attribution: String,
+    #[serde(default)]
+    pub reviewed_templates: BTreeMap<String, String>,
+}
+#[derive(Serialize, Deserialize)]
+pub struct Notice {
+    pub path: String,
+    pub digest: String,
+    pub source: String,
+    pub license: String,
 }
 #[derive(Clone, Serialize, Deserialize, PartialEq, Eq)]
 pub struct File {

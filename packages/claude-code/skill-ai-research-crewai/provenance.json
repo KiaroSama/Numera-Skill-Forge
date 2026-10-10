@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-crewai/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8e3a079c85ef8ca8579e134ef8fbf79c5116caba27ff6ad03f363a452a99439e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-crewai/skills/crewai/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/crewai/SKILL.md",
+      "size": 6017
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8eb9006c66933955603671bd785c48aa2688029ba4145756fdc3c4d4cb565a28",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/crewai",
+  "schema_version": 1
+}

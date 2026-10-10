@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: railwayapp/railway-skills; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Upstream adaptation (renaming/metadata/reference changes) predates this wrapper; see immutable source mapping. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/railway/railway-docs/SKILL.md https://github.com/railwayapp/railway-skills/blob/3c0f0344f1f4b8f83be083acbc6a4cfdf17cbd90/LICENSE https://github.com/railwayapp/railway-skills/blob/3c0f0344f1f4b8f83be083acbc6a4cfdf17cbd90/plugins/railway/skills/railway-docs/SKILL.md https://github.com/davila7/claude-code-templates/commit/1c714b0e7be0cd40e943faf4de440879cb30be53",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "91a8803581f508c1ed19af5d31889b73b72a855f1fb143e13d4cc301ff252026",
+      "license": "MIT",
+      "path": "registry/licenses/91a8803581f508c1ed19af5d31889b73b72a855f1fb143e13d4cc301ff252026.txt",
+      "source": "https://github.com/railwayapp/railway-skills/blob/3c0f0344f1f4b8f83be083acbc6a4cfdf17cbd90/LICENSE"
+    }
+  ]
+}

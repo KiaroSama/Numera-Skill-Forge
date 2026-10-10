@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "sources": [{
+    "id": "inventory-example", "repository": "https://github.com/OWNER/FIRST-PARTY-REPOSITORY",
+    "enabled": false, "roots": ["skills", ".claude", "assets"],
+    "reference": { "strategy": "default-branch" }, "update": "review",
+    "metadata": { "example": "Replace with your own licensed Git fixture; no source is activated automatically" }
+  }],
+  "packages": [{
+    "id": "inventory-example", "name": "Complete first-party inventory example", "source": "inventory-example",
+    "components": [], "dependencies": [], "targets": ["claude-code"], "optional_exclusions": []
+  }]
+}

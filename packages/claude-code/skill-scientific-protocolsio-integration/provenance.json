@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a58c8840a6340424e3b3abb0a604ae2dd81a5a7057d701726fab7587c16e454c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/SKILL.md",
+      "size": 14841
+    },
+    {
+      "digest": "55af83378e4e427de8e3f2ac242c5063d15ac08957f8b719b646d33164179c62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/additional_features.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/additional_features.md",
+      "size": 10119
+    },
+    {
+      "digest": "227a44f0514f5fdfffa72eeb45eb6edb798a780810ce7f5c8cbf91ded6421215",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/authentication.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/authentication.md",
+      "size": 3374
+    },
+    {
+      "digest": "67885f9d635af994e02cd685d8a7435e0fd7f7ed6ebfb441272dd20d557962fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/discussions.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/discussions.md",
+      "size": 6915
+    },
+    {
+      "digest": "eb2a7170e8ca4944070a0282e434921f37fee4bef405296119d91c6cf16e8b31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/file_manager.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/file_manager.md",
+      "size": 11036
+    },
+    {
+      "digest": "ba32892bd66eb70066a455e63fd32187b9c01c97d142d40cae24a34fee396ced",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/protocols_api.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/protocols_api.md",
+      "size": 7937
+    },
+    {
+      "digest": "b3e4d3a9d31886274cbde594398d24ceb321565aa2f430d4c16d2a1d18ed3aba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-protocolsio-integration/skills/protocolsio-integration/references/workspaces.md",
+      "path": "cli-tool/components/skills/scientific/protocolsio-integration/references/workspaces.md",
+      "size": 8098
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ab40f4a707d7c9a15b6546824fcff4f040c99ac121decbcfd198b8e0b0386f31",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/protocolsio-integration",
+  "schema_version": 1
+}

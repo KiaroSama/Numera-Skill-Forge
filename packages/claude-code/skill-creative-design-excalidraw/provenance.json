@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-excalidraw/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a50a3cad4a7ef9bc09868e3893f38bafc2bf23e66e9a0a7c09cf2b170636acca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-excalidraw/skills/excalidraw/README.md",
+      "path": "cli-tool/components/skills/creative-design/excalidraw/README.md",
+      "size": 10326
+    },
+    {
+      "digest": "561c01a2b0c7587021e665645209bf316342ef370dee994a4be2a0b2c84e6d99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-excalidraw/skills/excalidraw/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/excalidraw/SKILL.md",
+      "size": 8071
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "157dac117f32388ed4923cc807e85c991cadf37a69e069e837b83de44849a98a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/excalidraw",
+  "schema_version": 1
+}

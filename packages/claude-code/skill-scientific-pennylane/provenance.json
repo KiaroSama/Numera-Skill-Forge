@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d0fce8b5c9b07371950f03384c15661513327c60edaee0a71f4e19429619846b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/SKILL.md",
+      "size": 7571
+    },
+    {
+      "digest": "88ff34b98199d58dbe2b5811413c6ea7af9615a6e3fb0de022263a5a909c2d32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/advanced_features.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/advanced_features.md",
+      "size": 14984
+    },
+    {
+      "digest": "81b1ae1734807f2b92799038ebd972bcf5470b4efc1f5c01a87015e87f33932e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/devices_backends.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/devices_backends.md",
+      "size": 13079
+    },
+    {
+      "digest": "0d7c06f81452da864692346fe9ab14c943e7979f482c126b1facb2ef97d6477b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/getting_started.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/getting_started.md",
+      "size": 5097
+    },
+    {
+      "digest": "1179badfb269563df6808d51f4de23e5dbb4a0389d09aa9c05346f7b7808d5cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/optimization.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/optimization.md",
+      "size": 16696
+    },
+    {
+      "digest": "a7a3a227d08ab2556c10781ee5b63475643edc1dbc5a4f6e214823cad335f77a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/quantum_chemistry.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/quantum_chemistry.md",
+      "size": 14438
+    },
+    {
+      "digest": "53c42e4ef1cf7f70be212a65d235a3ac950b12c401f1f00e1fe83516567603ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/quantum_circuits.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/quantum_circuits.md",
+      "size": 9395
+    },
+    {
+      "digest": "6a1991202319a536655d69feacd0260b2c7dc2fd47fedac79dfc7f6c0b68440d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pennylane/skills/pennylane/references/quantum_ml.md",
+      "path": "cli-tool/components/skills/scientific/pennylane/references/quantum_ml.md",
+      "size": 14532
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2da4a186fee65960cfa7192c0e7013b64a421ee7d38642a9c8bddf4e3e181062",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pennylane",
+  "schema_version": 1
+}

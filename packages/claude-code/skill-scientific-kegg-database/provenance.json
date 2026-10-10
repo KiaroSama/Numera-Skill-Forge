@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-kegg-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5bcd3bb5f4e84367483a3a128bb1ccd822eee9711dbfafc04b7e6873ee5fa986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-kegg-database/skills/kegg-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/kegg-database/SKILL.md",
+      "size": 11664
+    },
+    {
+      "digest": "6aa638ecd830a24d6234991e8083c3bbd9828af70681bbb813e62765011f3569",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-kegg-database/skills/kegg-database/references/kegg_reference.md",
+      "path": "cli-tool/components/skills/scientific/kegg-database/references/kegg_reference.md",
+      "size": 10749
+    },
+    {
+      "digest": "93d32fca4fbba5ebc375211d97fa23a6b6157c4b57dc008ef8715b4bd5a7c5f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-kegg-database/skills/kegg-database/scripts/kegg_api.py",
+      "path": "cli-tool/components/skills/scientific/kegg-database/scripts/kegg_api.py",
+      "size": 7697
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3c4fd91f4de00085c0ae519199599703095f1bc4f6852a736a5ace9f01b6c952",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/kegg-database",
+  "schema_version": 1
+}

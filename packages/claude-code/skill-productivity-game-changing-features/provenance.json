@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-game-changing-features/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6e3d24a2a16074e3980e2031c7663f796fe70d771294380a389f33c4bc0261f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-game-changing-features/skills/game-changing-features/README.md",
+      "path": "cli-tool/components/skills/productivity/game-changing-features/README.md",
+      "size": 8102
+    },
+    {
+      "digest": "b700ff1d5ba94ba688600f01e866caf1a122db7386cf38f3405bd04660ea9df4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-game-changing-features/skills/game-changing-features/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/game-changing-features/SKILL.md",
+      "size": 7905
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1386e98c831533bdf79eb4c0bbb6c210d78e9707fa7aa12b21ef2e1d4df44201",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/game-changing-features",
+  "schema_version": 1
+}

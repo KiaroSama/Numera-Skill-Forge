@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-llava/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e2c915ece2f3e50ea110320b7a364dd36361d3010e102e800416dfa3b4299745",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-llava/skills/llava/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-llava/SKILL.md",
+      "size": 7833
+    },
+    {
+      "digest": "6377ab1567ba7d2882bb079233c534fa8e3ff209f2c624f0fbc9db019bc53aa0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-llava/skills/llava/references/training.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-llava/references/training.md",
+      "size": 4738
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "72e2a62c5dc76e70b6678282a36d0afd41a1b8605327f17d1a52c8db4acd4fe9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-llava",
+  "schema_version": 1
+}

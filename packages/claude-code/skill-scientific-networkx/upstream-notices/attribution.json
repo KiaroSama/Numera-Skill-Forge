@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: K-Dense-AI/claude-scientific-skills; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/scientific/networkx/SKILL.md https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/LICENSE.md https://github.com/K-Dense-AI/claude-scientific-skills/tree/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/networkx",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "license": "MIT",
+      "path": "registry/licenses/09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1.txt",
+      "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/LICENSE.md"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4fa87e237adfb8a5d0eb18bc9f0e9469f4397325f2af49b9491b5568859e27bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/README.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/README.md",
+      "size": 11654
+    },
+    {
+      "digest": "8a01567022ae51d4cb26a4d36c359b5f1c278055ada8dc1e3568899c2636fdee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+      "size": 30293
+    },
+    {
+      "digest": "2caa29d36e3269e84b1fb7a74a39814c7b7c8747573c46023fe2243cfe4ae45e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/assets/baposter_template.tex",
+      "path": "cli-tool/components/skills/scientific/latex-posters/assets/baposter_template.tex",
+      "size": 7432
+    },
+    {
+      "digest": "dc4bf4f9c344238e523492345c5108076b69f582a30b9534123bd1f23893c382",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/assets/beamerposter_template.tex",
+      "path": "cli-tool/components/skills/scientific/latex-posters/assets/beamerposter_template.tex",
+      "size": 7652
+    },
+    {
+      "digest": "1f2d89a68410b197f8d656cc29c3b798a7de83328ebf4c9dc042df4d71e67275",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/assets/poster_quality_checklist.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/assets/poster_quality_checklist.md",
+      "size": 11172
+    },
+    {
+      "digest": "1f58c0ebe3281ed85fbc87f03632312028205a1bd585e35a7f4058515c58dda6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/assets/tikzposter_template.tex",
+      "path": "cli-tool/components/skills/scientific/latex-posters/assets/tikzposter_template.tex",
+      "size": 7887
+    },
+    {
+      "digest": "75a1be24675df874f17cbea891bcfd3fc16f17e29275dd3c62d79eb9a1e1f87b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/references/latex_poster_packages.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/references/latex_poster_packages.md",
+      "size": 17836
+    },
+    {
+      "digest": "2af1cbfa45878041de15459ccbac49f85f810d045ed5231a011bee5f54641b26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/references/poster_content_guide.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/references/poster_content_guide.md",
+      "size": 20361
+    },
+    {
+      "digest": "6c3618133764687a19f30f563805bbf13996f818ba267cfbd5bbc908b9f7102b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/references/poster_design_principles.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/references/poster_design_principles.md",
+      "size": 22916
+    },
+    {
+      "digest": "f674c0fe352321b9bc0eb2be09d95379714a6b77624689ba100da4898c4f20df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/references/poster_layout_design.md",
+      "path": "cli-tool/components/skills/scientific/latex-posters/references/poster_layout_design.md",
+      "size": 22327
+    },
+    {
+      "digest": "db1fcfcda80c0ae1be5ceb075ec9e7f00df6908aa1bc395c029f8dfcb97f43a9",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-latex-posters/skills/latex-posters/scripts/review_poster.sh",
+      "path": "cli-tool/components/skills/scientific/latex-posters/scripts/review_poster.sh",
+      "size": 7939
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0e19620b8efb930fb1f5e887fedbab118eea9f03d4a49221067d4ff3b431dacf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/latex-posters",
+  "schema_version": 1
+}

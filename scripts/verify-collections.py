@@ -36,8 +36,17 @@ for key, entry in entries.items():
         if sys.platform != "win32":
             assert bool((root / name).stat().st_mode & 0o111) == (file["mode"] == "100755"), name
         count += 1
-    evidence = next(file for file in entry["files"] if file["path"] == skill["license_path"])
-    assert evidence["digest"] == skill["license_digest"], "Reviewed license changed"
+    if skill["license_path"]:
+        evidence = next(file for file in entry["files"] if file["path"] == skill["license_path"])
+        assert evidence["digest"] == skill["license_digest"], "Reviewed license changed"
+    else:
+        assert skill.get("notices"), "Original grant missing"
+        assert skill["notices"][0]["digest"] == skill["license_digest"]
+    for index, notice in enumerate(skill.get("notices", [])):
+        original = root / notice["path"]
+        copied = root / prefix / f"upstream-notices/original-{index}.txt"
+        assert hashlib.sha256(original.read_bytes()).hexdigest() == notice["digest"]
+        assert copied.read_bytes() == original.read_bytes(), "Original notice changed during packaging"
     manifest = json.loads((root / prefix / ".claude-plugin/plugin.json").read_text(encoding="utf-8"))
     assert manifest["name"] == entry["id"] and manifest["version"] == entry["version"]
     assert manifest["license"] == entry["license"]

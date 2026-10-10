@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-scroll-experience/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9d820b99dd89f9f36cb84cf6a7225deebff36d6bc770df8c809fe9ce3f639815",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-scroll-experience/skills/scroll-experience/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/scroll-experience/SKILL.md",
+      "size": 6051
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "696d55cf9b37243e8dfdfc00a1814f9fadfff4bd0cc0beee5c088774cadea925",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/scroll-experience",
+  "schema_version": 1
+}

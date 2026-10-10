@@ -6,6 +6,7 @@ type View = typeof views[number];
 type Reviewed = { root: string; source: string; digest: string };
 let workspace = '';
 let busy = false;
+let activeJob: string | undefined;
 let reviewed: Reviewed | undefined;
 let installPreview: string | undefined;
 
@@ -80,7 +81,7 @@ function clearPreview(): void {
   updateControls();
 }
 function installKey(): string {
-  return JSON.stringify([workspace, text(installForm, 'package'), text(installForm, 'target'), text(installForm, 'destination')]);
+  return JSON.stringify([workspace, text(installForm, 'package'), text(installForm, 'target'), text(installForm, 'destination'), text(installForm, 'scope')]);
 }
 function updateControls(): void {
   const unavailable = !bridgeAvailable() || !workspace || busy;
@@ -119,7 +120,12 @@ async function run(request: Request, view: View, form?: HTMLFormElement): Promis
   updateControls();
   tell(`Running ${request.action}… The service owns validation and transaction safety.`);
   try {
-    const result = await dispatch(workspace, request);
+    const jobEnabled = ['sync', 'discover', 'build', 'collection-sync', 'update'].includes(request.action);
+    activeJob = jobEnabled ? `ui-${crypto.randomUUID()}` : undefined;
+    element('#cancel-job', HTMLButtonElement).hidden = activeJob === undefined;
+    const response = await dispatch(workspace, activeJob ? { action: 'job-run', job: activeJob, timeout: 600, request } : request);
+    if (object(response) && (response['status'] === 'failed' || response['status'] === 'cancelled')) throw new Error(JSON.stringify(response['error']));
+    const result = object(response) && 'result' in response ? response['result'] as Json : response;
     showResult(view, result);
     rememberOptions(request.action, result);
     tell(`${request.action}: ${resultStatus(result)}. Review the full response below.`);
@@ -134,10 +140,16 @@ async function run(request: Request, view: View, form?: HTMLFormElement): Promis
     tell(message, true);
     return undefined;
   } finally {
+    activeJob = undefined;
+    element('#cancel-job', HTMLButtonElement).hidden = true;
     busy = false;
     updateControls();
   }
 }
+element('#cancel-job', HTMLButtonElement).addEventListener('click', () => {
+  if (!activeJob) return;
+  void dispatch(workspace, { action: 'job-cancel', job: activeJob }).then(() => tell('Cancellation requested; waiting for a safe operation boundary.')).catch(error => tell(diagnostic(error), true));
+});
 async function openWorkspace(root: string): Promise<void> {
   if (busy) return;
   workspace = root.trim();
@@ -225,7 +237,7 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
       case 'install': {
         const apply = intent === 'apply-install';
         if (apply && (installPreview !== installKey() || !checked(form, 'confirmed'))) throw new Error('Preview these exact destination changes and authorize them before applying.');
-        request = { action: operation, package: text(form, 'package'), target: text(form, 'target'), destination: text(form, 'destination'), dry_run: !apply };
+        request = { action: operation, package: text(form, 'package'), target: text(form, 'target'), destination: text(form, 'destination'), scope: text(form, 'scope'), dry_run: !apply };
         clearPreview();
         break;
       }
@@ -233,6 +245,7 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
         clearPreview();
         request = { action: text(form, 'operation'), receipt: text(form, 'receipt') };
         break;
+      case 'collection-sync':
       case 'sync':
         clearApproval();
         clearPreview();
@@ -242,9 +255,25 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
         clearPreview();
         request = { action: operation, operation: text(form, 'operation') };
         break;
-      case 'publish':
-        request = { action: operation, mode: 'preview' };
+      case 'job':
+        request = { action: text(form, 'operation'), job: text(form, 'job') };
         break;
+      case 'support-bundle':
+        request = { action: operation, include_logs: checked(form, 'include_logs') };
+        break;
+      case 'log-retention':
+        request = { action: operation, days: Number(text(form, 'days')), keep: Number(text(form, 'keep')), apply: checked(form, 'apply') };
+        break;
+      case 'publish': {
+        const mode = text(form, 'mode');
+        if (mode !== 'preview' && !checked(form, 'confirmed')) throw new Error('Explicit repository and publication review is required before mutation.');
+        request = { action: operation, mode };
+        for (const field of ['expected_remote', 'expected_head', 'expected_remote_head', 'expected_account', 'publication_branch', 'author_name', 'author_email']) {
+          const value = text(form, field);
+          if (value) request[field] = value;
+        }
+        break;
+      }
       default: throw new Error('This form has no supported service operation.');
     }
     const result = await run(request, view, form);

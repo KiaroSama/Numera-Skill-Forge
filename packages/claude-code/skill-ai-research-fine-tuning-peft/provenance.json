@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-peft/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "acdb318f94624517c8cdb3c925c7a2e8b34c65e8ca02b301777c51eea9f0f73c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-peft/skills/peft-fine-tuning/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-peft/SKILL.md",
+      "size": 12210
+    },
+    {
+      "digest": "8663cf75afa2e1048832f680c8594b2709c0205603133ab5e81561697c847659",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-peft/skills/peft-fine-tuning/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-peft/references/advanced-usage.md",
+      "size": 12541
+    },
+    {
+      "digest": "06645be59b9ad0461e837fce5a1b0a7121b19a1353635c04fdf9df5a13578738",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-peft/skills/peft-fine-tuning/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-peft/references/troubleshooting.md",
+      "size": 10344
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9054ad365b3c9a9e570274dbd6f662aee89cdc2eb4aa733e672d21b2b7770181",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/fine-tuning-peft",
+  "schema_version": 1
+}

@@ -1,0 +1,89 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8c2221b797e650a933800cfa45282a70caca20aaa85cbcece6e16acf1020dc39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/SKILL.md",
+      "size": 144988
+    },
+    {
+      "digest": "94449a6e83e7d7242fe40b242df06295ec6b728ee309438afe2aeed247de06a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/08.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/08.md",
+      "size": 304
+    },
+    {
+      "digest": "2c63b40f3a68d0d66522fb2de08ae02d2e36e327dd10c93516d113882fe93de2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/09.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/09.md",
+      "size": 27523
+    },
+    {
+      "digest": "e42728566ec2640b8285115fcf87dd4a5b4f28d80e02d9b9a6175959e80cde19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/2020.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/2020.md",
+      "size": 35816
+    },
+    {
+      "digest": "5d58166d96fe1b56345b235d7247d010a2a2efdc80d85fbadde9da93ee8f3b61",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/2023.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/2023.md",
+      "size": 11787
+    },
+    {
+      "digest": "b7429b54d3ad386e273ec432560bdf5767567137b57ea5463755d250ce1d2708",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/assets.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/assets.md",
+      "size": 2491
+    },
+    {
+      "digest": "74eebffee87ea18b50777263b64489b2c6ccfb3ab4cc7b60c931d06169dce6d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/index.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/index.md",
+      "size": 402
+    },
+    {
+      "digest": "6f36699cc10518a12d568f512eab0f23aa263c78b51aecb5161bd8c619444a44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/mii.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/mii.md",
+      "size": 11036
+    },
+    {
+      "digest": "137c5ed8f37b09bcc9478581e59f36694ecaeb88c37002e47aa4f2c2c0fabcf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/other.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/other.md",
+      "size": 99667
+    },
+    {
+      "digest": "df587d7616746e301ca03eda5e68069ead99d3ec3c24b511a3f983c48187ed27",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-deepspeed/skills/deepspeed/references/tutorials.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-deepspeed/references/tutorials.md",
+      "size": 454412
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dfc0b3f898072e2f8ae9d44fff8a75624d58ae16032891071f87188811dd7524",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-deepspeed",
+  "schema_version": 1
+}

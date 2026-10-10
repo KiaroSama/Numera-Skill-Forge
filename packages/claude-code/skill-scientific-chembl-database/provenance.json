@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-chembl-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "09aa03797fdbfbe5dd50550cfeaf0dc169d475f34fdbfadaa39ec16d71438181",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-chembl-database/skills/chembl-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/chembl-database/SKILL.md",
+      "size": 10195
+    },
+    {
+      "digest": "f64146d10d30122142863fe0051336b45676f59b0d9bb8f42b68ffcec70a7fe8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-chembl-database/skills/chembl-database/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/chembl-database/references/api_reference.md",
+      "size": 6879
+    },
+    {
+      "digest": "f0ff74e7c3108727fe0a580ceb6572fefb1c289b4585142265560583ed0fd5f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-chembl-database/skills/chembl-database/scripts/example_queries.py",
+      "path": "cli-tool/components/skills/scientific/chembl-database/scripts/example_queries.py",
+      "size": 7160
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "08b2db506ecd54e3cf62b14e54ff922dce7f5ad67a33b758d5a34aac3efb3bc5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/chembl-database",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ea97eabf22434e39502610b5324cd9215dfb31c2aaba9d890f341dc56e82af26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/SKILL.md",
+      "size": 13950
+    },
+    {
+      "digest": "9fb7596fc3cb834d9f4115d4bd3626d1c951f437f80549520596877f4b3d3c2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/assets/.env.example",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/assets/.env.example",
+      "size": 506
+    },
+    {
+      "digest": "6460684e6d6eb9d3ee50b837c85494bafce35a56d6cc687d2185d0b7d2ee9237",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/references/model_comparison.md",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/references/model_comparison.md",
+      "size": 10378
+    },
+    {
+      "digest": "fc4baf4a7987b857ea6fa61f734a938f995ea7a87d12bd1aa51de7b23d12fa13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/references/openrouter_setup.md",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/references/openrouter_setup.md",
+      "size": 11522
+    },
+    {
+      "digest": "138cc4c440d92ec173aacc1c14da4d71412b39afac16fc57289dc812e61e7099",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/references/search_strategies.md",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/references/search_strategies.md",
+      "size": 10021
+    },
+    {
+      "digest": "83c574ba893d052494483fe78972830d27eff99f80ef192e7831903ceb78c7c8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/scripts/perplexity_search.py",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/scripts/perplexity_search.py",
+      "size": 8068
+    },
+    {
+      "digest": "b3f4e9033b2b5cc99bfbfe9b79069bf6ab0e19536002ad03ade2d372b3c4bb2e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-perplexity-search/skills/perplexity-search/scripts/setup_env.py",
+      "path": "cli-tool/components/skills/scientific/perplexity-search/scripts/setup_env.py",
+      "size": 4656
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d8543fde021ad5a4ddc13434280c36e7426594474acddae6535c3eb0a0959d33",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/perplexity-search",
+  "schema_version": 1
+}

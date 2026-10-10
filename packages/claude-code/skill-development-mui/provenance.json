@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b1fb3ae978963e435147553a0215dc756c14115f302a5f339e583dba062305c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/README.md",
+      "path": "cli-tool/components/skills/development/mui/README.md",
+      "size": 6306
+    },
+    {
+      "digest": "d1a9a06753be33dea0c76d339526217017ee6f78160145d5db666bd804efaaa4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/SKILL.md",
+      "path": "cli-tool/components/skills/development/mui/SKILL.md",
+      "size": 9772
+    },
+    {
+      "digest": "76a0145b915d2348bd8855f8480e7f68475a9938d280e09df60672bff32b740f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/resources/component-library.md",
+      "path": "cli-tool/components/skills/development/mui/resources/component-library.md",
+      "size": 11484
+    },
+    {
+      "digest": "ae6bcb6ac96d05dd56910f1557d4078f443ccd9670a49fc9c922faa9f549dd78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/resources/styling-guide.md",
+      "path": "cli-tool/components/skills/development/mui/resources/styling-guide.md",
+      "size": 5441
+    },
+    {
+      "digest": "1185e91ad80cf568efd430e5226728c0806148f7b8d5fb7373cc60cea5b752ee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/resources/theme-customization.md",
+      "path": "cli-tool/components/skills/development/mui/resources/theme-customization.md",
+      "size": 10358
+    },
+    {
+      "digest": "1192230f0cb55606ca99f9b252f4b03526ea06d679a77b8eaeabfefb757fad2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mui/skills/mui/skill-rules-fragment.json",
+      "path": "cli-tool/components/skills/development/mui/skill-rules-fragment.json",
+      "size": 1816
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1af3210bd0226e33e430e9844ce8cf80a856345c9e8290b6322c314a4380a541",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/mui",
+  "schema_version": 1
+}

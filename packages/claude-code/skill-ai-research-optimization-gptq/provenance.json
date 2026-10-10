@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gptq/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ce19de416afa03a0e6a764c9cb8b8ba9a0b94812b9de1ad5a0c2cb2932009f28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gptq/skills/gptq/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gptq/SKILL.md",
+      "size": 11593
+    },
+    {
+      "digest": "30b6aa7c9b83f8d12b575f1b6614e742c8739e4ac65b7fdbab8ac7ca987ce394",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gptq/skills/gptq/references/calibration.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gptq/references/calibration.md",
+      "size": 8164
+    },
+    {
+      "digest": "e5f04065bf696aeef066728447fb0d3daf487d01f2f6a8b08faa5a2f43453ae2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gptq/skills/gptq/references/integration.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gptq/references/integration.md",
+      "size": 2797
+    },
+    {
+      "digest": "c20b085b6feda47397eef85ea4a47dcf59062da26149741966bd2900805c6e59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-gptq/skills/gptq/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-gptq/references/troubleshooting.md",
+      "size": 1899
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "507176ec0a18031abd1256666196e5657fd19305eaca6e3e6235cc60a9ea6b0f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/optimization-gptq",
+  "schema_version": 1
+}

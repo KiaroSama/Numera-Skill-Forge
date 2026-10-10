@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-humanizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3ddb1450e1f81964c23ff14ffa5c400ec7a43e3eea406bcca2262e2f2ac9d4a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-humanizer/skills/humanizer/README.md",
+      "path": "cli-tool/components/skills/productivity/humanizer/README.md",
+      "size": 5406
+    },
+    {
+      "digest": "6688e4e292ab4f235e2a27f5193a7d048657c74b26ed6000398ee3371c9c3a4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-humanizer/skills/humanizer/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/humanizer/SKILL.md",
+      "size": 17858
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f7bd82da7ba13a0a7bed39839bc22c875593264eea40c3c5a97dce7b66a6938a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/humanizer",
+  "schema_version": 1
+}

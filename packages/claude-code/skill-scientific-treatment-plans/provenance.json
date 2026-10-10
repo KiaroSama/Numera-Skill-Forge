@@ -1,0 +1,166 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bb4a573d8285ed0d239557de99040ec07f1b24a3a1df513cd25d6bc4361c51cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/README.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/README.md",
+      "size": 16970
+    },
+    {
+      "digest": "a2d24523ab30d3bd38a345b3efe67f16f95005f9b1ab5868adf33a18ba4a5475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/SKILL.md",
+      "size": 52637
+    },
+    {
+      "digest": "d5e983954876e93dda29d70e7c0a39aa8376301cecbaf8b6d58a0eefc7901a55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/STYLING_QUICK_REFERENCE.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/STYLING_QUICK_REFERENCE.md",
+      "size": 3912
+    },
+    {
+      "digest": "2db9bfe39024becc29e7ca47716b11cfabd47c8867df6fa13df76a7fef1fe2d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/chronic_disease_management_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/chronic_disease_management_plan.tex",
+      "size": 29371
+    },
+    {
+      "digest": "b78b4e06a0f46cbc1ce452e09f02557a52e8b8f867007b89338a49ab3a6ba341",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/general_medical_treatment_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/general_medical_treatment_plan.tex",
+      "size": 23289
+    },
+    {
+      "digest": "565b4577c70b75da90817fe4ca6d61fdbc02c2b3782233994f03ee16d9329620",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/medical_treatment_plan.sty",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/medical_treatment_plan.sty",
+      "size": 5404
+    },
+    {
+      "digest": "f4eced1d8e4d47673dd3d1518f037c5f666a98f1a7d2fd524e68f84f8afa20ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/mental_health_treatment_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/mental_health_treatment_plan.tex",
+      "size": 34509
+    },
+    {
+      "digest": "55bab78e6b36b8afccfec6f3b7b0c1d5cf2a4ec8a9a0d4fb14150c35d5f39e9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/one_page_treatment_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/one_page_treatment_plan.tex",
+      "size": 5377
+    },
+    {
+      "digest": "11b213885847849a06c18d9b48ba31aacf8fbda8e73aa631f4d73a8e349520b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/pain_management_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/pain_management_plan.tex",
+      "size": 33326
+    },
+    {
+      "digest": "49482a6561811da2279654a8a4a097439bf007d5a70c9189f17fb3308a97c778",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/perioperative_care_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/perioperative_care_plan.tex",
+      "size": 30005
+    },
+    {
+      "digest": "1b2d5ee6663cf8b9a254a628b628e60a8993e3edb2f94b896546c7a5c7cb5c0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/quality_checklist.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/quality_checklist.md",
+      "size": 15081
+    },
+    {
+      "digest": "b9267bb5ebdb29d7dec06c9642d67d44dd23f3dd30a95df83adcdfd64243ac07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/assets/rehabilitation_treatment_plan.tex",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/assets/rehabilitation_treatment_plan.tex",
+      "size": 30462
+    },
+    {
+      "digest": "69b4790f9d31749d410f485baed52c37f11677e4451a0935085b702a2deda4b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/references/goal_setting_frameworks.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/references/goal_setting_frameworks.md",
+      "size": 16554
+    },
+    {
+      "digest": "5a8dffd2ee2625057d7f7ab194133e7055fb59cb07fdd3c44af0d20a591155b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/references/intervention_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/references/intervention_guidelines.md",
+      "size": 19024
+    },
+    {
+      "digest": "6fc30ac7f5023775caf85747c85e1c875028019acf85bd0f95b5d168f88a4bca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/references/regulatory_compliance.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/references/regulatory_compliance.md",
+      "size": 17565
+    },
+    {
+      "digest": "e4243be9bdcdd585c7d92303a3d3f338fa9164cea46ccef8d50de82a552abb28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/references/specialty_specific_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/references/specialty_specific_guidelines.md",
+      "size": 26678
+    },
+    {
+      "digest": "526050f709b677808f7007e2d3c7705f6f43e213abda8293b105371a57226e30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/references/treatment_plan_standards.md",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/references/treatment_plan_standards.md",
+      "size": 16643
+    },
+    {
+      "digest": "b034f7333976ca8bdde293f117c39dde0df79da660346f374e4f25a8c69c5c13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/scripts/check_completeness.py",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/scripts/check_completeness.py",
+      "size": 9919
+    },
+    {
+      "digest": "94c9dbfbb7708f0099cfad4272a3a4c6506014b3296611973283995ec34e2310",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/scripts/generate_template.py",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/scripts/generate_template.py",
+      "size": 7490
+    },
+    {
+      "digest": "bbb9594fb3f78b83b5b592693b3838d4bdc8344cdfdd8783d836c410e9cf1c4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/scripts/timeline_generator.py",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/scripts/timeline_generator.py",
+      "size": 12631
+    },
+    {
+      "digest": "448863d1a65307ab2ce02390b526d2296acc6af4a6dbc6d94b8ebf56a286c781",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-treatment-plans/skills/treatment-plans/scripts/validate_treatment_plan.py",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/scripts/validate_treatment_plan.py",
+      "size": 12392
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cbc277cde76589fff3bf3769bb6ab838b62424d194e2c792b207366a2a13745f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/treatment-plans",
+  "schema_version": 1
+}

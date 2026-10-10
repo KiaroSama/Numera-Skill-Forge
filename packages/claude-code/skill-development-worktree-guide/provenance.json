@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-worktree-guide/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "92f0443d1a786efc05cfd00012f48b1a631be1ece6edf53850f8380da9f1a1d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-worktree-guide/skills/worktree-guide/SKILL.md",
+      "path": "cli-tool/components/skills/development/worktree-guide/SKILL.md",
+      "size": 17500
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5e3886dbeb4d81aba8758f15e16e5fcf45d5b70a151fe22834617f5e7147c13d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/worktree-guide",
+  "schema_version": 1
+}

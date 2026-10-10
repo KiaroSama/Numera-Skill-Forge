@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ff731dfbd9c5976e5c9de627f5f26a3b5a9ae418f9918cff96e547cb0da02336",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/SKILL.md",
+      "size": 23501
+    },
+    {
+      "digest": "99f608c86075f1a1ab115a1cf4ecd54fe482266cb5e47761172894f21829f6cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/common_biases.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/common_biases.md",
+      "size": 11093
+    },
+    {
+      "digest": "e9e2f27ca88620b110f02d7b951e0da8c020d5525c3fc1e5519816227220e9fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "size": 13444
+    },
+    {
+      "digest": "d7756396f9efbf3af3cb485288e6f24759b3d064f7d56c2a6db39a4ef4e4784a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/experimental_design.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/experimental_design.md",
+      "size": 16068
+    },
+    {
+      "digest": "7911abe82bc05c8f513591e9b00572f21e5a631783cc00cd9dbf644b5eae28ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/logical_fallacies.md",
+      "size": 18014
+    },
+    {
+      "digest": "09e709bdc7919a2b21825175aff5e0f9c26117a02ec654bfdb347fc8fa7ad0b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/scientific_method.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/scientific_method.md",
+      "size": 6100
+    },
+    {
+      "digest": "c525ed590c36eef9dfca95c9c8bc2ab3e228e9247aa476a2c2ddcf07ffc62172",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-critical-thinking/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "size": 15726
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "29ac1b5026039cac1722cfa6f3a06132da9312803a91387c93eced2be171bfcc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-critical-thinking",
+  "schema_version": 1
+}

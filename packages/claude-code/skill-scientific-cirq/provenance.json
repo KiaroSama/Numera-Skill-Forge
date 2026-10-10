@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "705e49b1d1c885ebd35b009d00f5aaf5d65a36d2920695eac7f4b88f72905f9a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/cirq/SKILL.md",
+      "size": 10665
+    },
+    {
+      "digest": "14c6f9fd8a684b99748801e4219e631d8e9876b7f0ce051e944d337c908f7cba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/building.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/building.md",
+      "size": 5916
+    },
+    {
+      "digest": "90a490240dfcf75fa6b3a2d94dbd6ab83b869162f9dd1534eae7f9688cab4b9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/experiments.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/experiments.md",
+      "size": 15487
+    },
+    {
+      "digest": "6990c0c41396e8cf6fc36dd8047473ba6f017ea555f41c8ef040415e649c6c33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/hardware.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/hardware.md",
+      "size": 11519
+    },
+    {
+      "digest": "42000b3759736cb59a93358601eaffc56c6aeb8c99c2ca20133a70aebbfd4070",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/noise.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/noise.md",
+      "size": 13362
+    },
+    {
+      "digest": "97da601336e6f00678afcd2d7aef8af90ca4947e8cac7b112e8dae445e9c409f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/simulation.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/simulation.md",
+      "size": 8238
+    },
+    {
+      "digest": "f77c2709d45cb826e84d0447e3465779245c93c36ed4dbcc806d37ab168b0f89",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cirq/skills/cirq/references/transformation.md",
+      "path": "cli-tool/components/skills/scientific/cirq/references/transformation.md",
+      "size": 10141
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ccc8de20616598502744175720f618e8cd73898d2f828bfb6a49426af8b50ae6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/cirq",
+  "schema_version": 1
+}

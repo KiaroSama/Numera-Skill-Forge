@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "eee01eae6c25e53154a67175887beacea130556ded04c42da5e39c4e2c4bacd0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/SKILL.md",
+      "size": 6607
+    },
+    {
+      "digest": "dddba5ae2af7c9ea83c872e4d025e14b9cd12299ee9b1900d257a9a63e265e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/best_practices.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/best_practices.md",
+      "size": 16071
+    },
+    {
+      "digest": "aa2140e7b684dfe8e3f47752dc4d9b14220a8d4c126f3f38cbbc1b6698466395",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/callbacks.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/callbacks.md",
+      "size": 15540
+    },
+    {
+      "digest": "a94cb2aeb0ac6e04d07d05cd8a3f96bb64d0623cfb310dfcc6d2c255b03d86f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/data_module.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/data_module.md",
+      "size": 14497
+    },
+    {
+      "digest": "ccceed873c2498a31cb1ca46c6f58ac4f7177659e7a30fc77ae45d5a056bc540",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/distributed_training.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/distributed_training.md",
+      "size": 14213
+    },
+    {
+      "digest": "c247b19a5b14e5bc6a37b214c8711c6585b8a5367175792ceaa88ea4276252c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/lightning_module.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/lightning_module.md",
+      "size": 13728
+    },
+    {
+      "digest": "a0047d00da7f3dc76fba8c5f0d12be78990d8d55e93c945ed8253c2551496935",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/logging.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/logging.md",
+      "size": 14259
+    },
+    {
+      "digest": "d7761218deb392bfac4f373d4238c0595b5094115bd1645ae00bff0940b54887",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/references/trainer.md",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/references/trainer.md",
+      "size": 14784
+    },
+    {
+      "digest": "a2bf7df7ea87d341b6caa282d16a0970a123ed7b17c7bbcaaf6b6b3df77aec4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "size": 12985
+    },
+    {
+      "digest": "82d1601800fa17a80250b640b4df530ebd78bb852316bc75c6441b1d592c80cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/scripts/template_datamodule.py",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/scripts/template_datamodule.py",
+      "size": 9354
+    },
+    {
+      "digest": "0337c694bc33f2de5bd93af0221b78d0ffcad3841ca1f540b78eb3a309e9d1c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pytorch-lightning/skills/pytorch-lightning/scripts/template_lightning_module.py",
+      "path": "cli-tool/components/skills/scientific/pytorch-lightning/scripts/template_lightning_module.py",
+      "size": 5886
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "923bcecd82b2b3a3c5c8b6ade4020bbf422f603d68b3eeb15970d20320ee5f41",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pytorch-lightning",
+  "schema_version": 1
+}

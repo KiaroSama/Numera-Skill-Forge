@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "799724a472e9866e13e38a247ff41f2e917cdff94782a02bc9e6c537512b61e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/README.md",
+      "path": "cli-tool/components/skills/development/design-system-starter/README.md",
+      "size": 7652
+    },
+    {
+      "digest": "f5efbd8477895d0f995359a6236029e8ec26ad90f8040fbc3cf98cf4aa8d3170",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/SKILL.md",
+      "path": "cli-tool/components/skills/development/design-system-starter/SKILL.md",
+      "size": 14918
+    },
+    {
+      "digest": "09b98597350d5ecf8c926bcc157e7a21ada373cd08e4c8ba6f2ee7f92ec202b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/checklists/design-system-checklist.md",
+      "path": "cli-tool/components/skills/development/design-system-starter/checklists/design-system-checklist.md",
+      "size": 12943
+    },
+    {
+      "digest": "4d4ab9dc045996ffc35393505ab6ef21624a75198779f60d0ad0817debfa0195",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/references/component-examples.md",
+      "path": "cli-tool/components/skills/development/design-system-starter/references/component-examples.md",
+      "size": 13552
+    },
+    {
+      "digest": "ede51fa3f211f67d71e3eb63854d98d272defb5cdc5e41a4a6156eb95f4488d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/templates/component-template.tsx",
+      "path": "cli-tool/components/skills/development/design-system-starter/templates/component-template.tsx",
+      "size": 6722
+    },
+    {
+      "digest": "0dc7a036225e713e9afdee8b68e364cd852d857b8d8daf32cc839a50946a8dfc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-design-system-starter/skills/design-system-starter/templates/design-tokens-template.json",
+      "path": "cli-tool/components/skills/development/design-system-starter/templates/design-tokens-template.json",
+      "size": 17128
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cc8df8d7fb3aa57dfd45f2c6a030503a0805077ef07c8eb745c2572357332adf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/design-system-starter",
+  "schema_version": 1
+}

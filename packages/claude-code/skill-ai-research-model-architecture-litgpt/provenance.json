@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "523f0b786c915af20a7980857e174b838e4440afe851bd16917ef69f8042adb2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/skills/implementing-llms-litgpt/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-litgpt/SKILL.md",
+      "size": 11010
+    },
+    {
+      "digest": "82a300cde9db77031d7371edc9c689ad6399b5f0a5b5180e0ce3ac2830265014",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/skills/implementing-llms-litgpt/references/custom-models.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-litgpt/references/custom-models.md",
+      "size": 15655
+    },
+    {
+      "digest": "44a74c9bf640159e3e11bd885a21c65d96c6fbd7471da802979ba75fab8ec073",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/skills/implementing-llms-litgpt/references/distributed-training.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-litgpt/references/distributed-training.md",
+      "size": 11099
+    },
+    {
+      "digest": "9d8d6632fb43b0d4673ef19403a1672e0479415da46241fe24a956bcb6644a31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/skills/implementing-llms-litgpt/references/supported-models.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-litgpt/references/supported-models.md",
+      "size": 7935
+    },
+    {
+      "digest": "90bad095a8c3e87f221e45c66712b26bf096cf09b233db4c8340e540aacab25e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-litgpt/skills/implementing-llms-litgpt/references/training-recipes.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-litgpt/references/training-recipes.md",
+      "size": 10978
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7a3d28e7a39972459fa304e832d9ab6fac7d29438123b8ecf5d3b6cf0bb69674",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/model-architecture-litgpt",
+  "schema_version": 1
+}

@@ -17,9 +17,39 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         return Err(Error::new("workspace", "Workspace must exist"));
     }
     validation::reject_link(root)?;
+    let action = field(&request, "action")?;
+    match action {
+        "publish" => {
+            let mut options = request
+                .as_object()
+                .cloned()
+                .ok_or_else(|| Error::new("input", "Publication options must be an object"))?;
+            options.remove("action");
+            return crate::publish::publish_with_options(
+                root,
+                &serde_json::from_value(Value::Object(options))?,
+            );
+        }
+        "job-list" => return crate::jobs::list(root),
+        "job-status" => return crate::jobs::status(root, field(&request, "job")?),
+        "job-cancel" => return crate::jobs::cancel(root, field(&request, "job")?),
+        "job-retry" => return crate::jobs::retry(root, field(&request, "job")?),
+        "job-run" => {
+            return crate::jobs::run(
+                root,
+                request
+                    .get("request")
+                    .cloned()
+                    .ok_or_else(|| Error::new("input", "Supply job request"))?,
+                request["timeout"].as_u64().unwrap_or(120),
+                request["job"].as_str(),
+            );
+        }
+        _ => {}
+    }
+    crate::jobs::checkpoint()?;
     let _writer = transaction::Writer::acquire(root)?;
     transaction::recover(root)?;
-    let action = field(&request, "action")?;
     let r = registry::load(root)?;
     match action {
         "init" => {
@@ -99,16 +129,37 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         "harnesses" => Ok(serde_json::to_value(adapters::capabilities())?),
         "compatibility" => {
             let id = field(&request, "package")?;
-            let p = r
-                .packages
-                .iter()
-                .find(|p| p.id == id)
-                .ok_or_else(|| Error::new("package", "Unknown package"))?;
+            let target = field(&request, "target")?;
             let lock = registry::lock(root)?;
-            let s = lock.sources.get(&p.source).ok_or_else(|| {
-                Error::new("approval-required", "Source has no accepted snapshot")
-            })?;
-            adapters::assess(&s.snapshot.components, field(&request, "target")?)
+            let closure = crate::build_dependencies::resolve(&r, &lock, id, target)?;
+            for (package, accepted) in &closure {
+                if package.components.iter().any(|selected| {
+                    !accepted
+                        .snapshot
+                        .components
+                        .iter()
+                        .any(|component| &component.id == selected)
+                }) {
+                    return Err(Error::new(
+                        "component-selection",
+                        "Selected component is absent from accepted inventory",
+                    ));
+                }
+            }
+            let components = closure
+                .iter()
+                .flat_map(|(p, a)| {
+                    a.snapshot
+                        .components
+                        .iter()
+                        .filter(|c| {
+                            (p.components.is_empty() || p.components.contains(&c.id))
+                                && !(!c.required && p.optional_exclusions.contains(&c.id))
+                        })
+                        .cloned()
+                })
+                .collect::<Vec<_>>();
+            adapters::assess(&components, target)
         }
         "collection-sync" => crate::collections::sync(
             root,
@@ -138,11 +189,13 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
             if !destination.is_absolute() {
                 return Err(Error::new("destination", "Select an absolute destination"));
             }
-            install::install(
+            let scope = request.get("scope").cloned().unwrap_or(json!("project"));
+            install::install_scoped(
                 root,
                 field(&request, "package")?,
                 field(&request, "target")?,
                 &destination,
+                serde_json::from_value(scope)?,
                 request["dry_run"].as_bool().unwrap_or(true),
             )
         }
@@ -154,6 +207,19 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
             Ok(json!({"rolled_back":request["operation"]}))
         }
         "history" => list_json(&root.join(".forge-state/history")),
+        "support-bundle" => {
+            crate::support::bundle(root, request["include_logs"].as_bool().unwrap_or(false))
+        }
+        "log-retention" => crate::support::retention(
+            root,
+            request["days"].as_u64().unwrap_or(30),
+            request["keep"]
+                .as_u64()
+                .unwrap_or(10)
+                .try_into()
+                .map_err(|_| Error::new("retention", "Invalid retention count"))?,
+            request["apply"].as_bool().unwrap_or(false),
+        ),
         "logs" => {
             let p = root.join(".forge-state/logs");
             let mut entries = vec![];
@@ -173,16 +239,43 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
                 json!({"git":git.ok(),"workspace_writable":!fs::metadata(root)?.permissions().readonly(),"host_smoke_tests":"not-performed"}),
             )
         }
-        "publish" => crate::publish::publish(
-            root,
-            field(&request, "mode")?,
-            request["expected_remote"].as_str(),
-            request["author_email"].as_str(),
-        ),
-        "update" => Err(Error::new(
-            "update-review",
-            "Build and review target package first, then reinstall with its ownership receipt",
-        )),
+        "update" => {
+            let mut results = Vec::new();
+            let mut partial = false;
+            for receipt in install::receipts(root)?
+                .into_iter()
+                .filter(|receipt| receipt.enabled)
+            {
+                crate::jobs::checkpoint()?;
+                let ready = if r.packages.iter().any(|p| p.id == receipt.package) {
+                    build::build(root, &receipt.package, &receipt.target).map(|_| ())
+                } else {
+                    crate::collections::verify(root).map(|_| ())
+                };
+                match ready.and_then(|_| {
+                    install::install_scoped(
+                        root,
+                        &receipt.package,
+                        &receipt.target,
+                        &receipt.destination,
+                        receipt.scope,
+                        false,
+                    )
+                }) {
+                    Ok(value) => results.push(value),
+                    Err(error)
+                        if matches!(error.code, "recovery-required" | "cancelled" | "timeout") =>
+                    {
+                        return Err(error);
+                    }
+                    Err(error) => {
+                        partial = true;
+                        results.push(json!({"receipt":receipt.id,"status":"failed","code":error.code,"message":crate::logging::redact(&error.message)}));
+                    }
+                }
+            }
+            Ok(json!({"status":if partial {"partial"} else {"success"},"installed":results}))
+        }
         _ => Err(Error::new("action", "Unknown application operation")),
     }
 }

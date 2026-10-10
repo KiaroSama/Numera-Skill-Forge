@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-domain-name-brainstormer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ab1820d066c52693bbfc05fe193f68959898232e27e215936b839274bbc487bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-domain-name-brainstormer/skills/domain-name-brainstormer/README.md",
+      "path": "cli-tool/components/skills/utilities/domain-name-brainstormer/README.md",
+      "size": 4179
+    },
+    {
+      "digest": "495707739b354f81d1e28c6188dd55b97fdf5c64ae3e3c182ba6f092b2ab782b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-domain-name-brainstormer/skills/domain-name-brainstormer/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/domain-name-brainstormer/SKILL.md",
+      "size": 5696
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "71723925429decb182aa7948347e2806d7f0b2f2127737d3b8ce49f37930b62d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/domain-name-brainstormer",
+  "schema_version": 1
+}

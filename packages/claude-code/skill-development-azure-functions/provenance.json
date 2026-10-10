@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-azure-functions/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b88320d8dda0f108d7a96c754d9f5be899483fc01e92546e330130365653d0a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-azure-functions/skills/azure-functions/SKILL.md",
+      "path": "cli-tool/components/skills/development/azure-functions/SKILL.md",
+      "size": 1386
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "662dbbe41ec954308c19aa2223357907c79d95c22000f90ba5eac78d47a51829",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/azure-functions",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-devops/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "478aed6e0ef1a629cd1e7b8d3805935ab154a15ed83a9fd928c1114d16abcaad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-devops/SKILL.md",
+      "size": 4471
+    },
+    {
+      "digest": "1a9081fd856eaad7643ddbb1b704b1e7dcf66f0e531e42e8740b21dd09439ddc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/references/cicd_pipeline_guide.md",
+      "path": "cli-tool/components/skills/development/senior-devops/references/cicd_pipeline_guide.md",
+      "size": 1610
+    },
+    {
+      "digest": "63d164425e4d097a60d947f2fe515e4e8e60966cba97b418858a6ee5b144660f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/references/deployment_strategies.md",
+      "path": "cli-tool/components/skills/development/senior-devops/references/deployment_strategies.md",
+      "size": 1612
+    },
+    {
+      "digest": "82f85a94d900384b7f57b13d4519af5c6f4b47a0d2a53129f0b4452f11945374",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/references/infrastructure_as_code.md",
+      "path": "cli-tool/components/skills/development/senior-devops/references/infrastructure_as_code.md",
+      "size": 1613
+    },
+    {
+      "digest": "11644f32cacc37d6340c805f698e96f8b3692a79352c16f500f96ccc7dde30f9",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/scripts/deployment_manager.py",
+      "path": "cli-tool/components/skills/development/senior-devops/scripts/deployment_manager.py",
+      "size": 3138
+    },
+    {
+      "digest": "716dccacc6edd012e3295880138e28a573eba5185ed843f883f56866b50e387b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/scripts/pipeline_generator.py",
+      "path": "cli-tool/components/skills/development/senior-devops/scripts/pipeline_generator.py",
+      "size": 3138
+    },
+    {
+      "digest": "f5c3a34fa93cc91635a957163525cbb0324489451cb869225dccb38f927c6794",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-devops/skills/senior-devops/scripts/terraform_scaffolder.py",
+      "path": "cli-tool/components/skills/development/senior-devops/scripts/terraform_scaffolder.py",
+      "size": 3148
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3189d36140146be41382e489f81f7be002fa0b3b15b63479f4a2ce9a1a680d95",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-devops",
+  "schema_version": 1
+}

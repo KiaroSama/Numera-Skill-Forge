@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "de0143bdf73becd1bacd96b173fe9e3884e28b942e8091f85f088f759cc50265",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/README.md",
+      "path": "cli-tool/components/skills/creative-design/draw-io/README.md",
+      "size": 7854
+    },
+    {
+      "digest": "fb23a8baa3a3166cccdb92e306233d15979f42d21fd6e6fac7840932692ab87a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/draw-io/SKILL.md",
+      "size": 7609
+    },
+    {
+      "digest": "a7d251ed0db6729be3de43e6d5174d8907b958e7aef1092fe41c98caa7b152d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/references/aws-icons.md",
+      "path": "cli-tool/components/skills/creative-design/draw-io/references/aws-icons.md",
+      "size": 28597
+    },
+    {
+      "digest": "501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/references/layout-guidelines.md",
+      "path": "cli-tool/components/skills/creative-design/draw-io/references/layout-guidelines.md",
+      "size": 1515
+    },
+    {
+      "digest": "8c69a3210e99f1d98c9df1b01f419da89f4ecc92aefb9cc457244abc8e2b167c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/scripts/convert-drawio-to-png.sh",
+      "path": "cli-tool/components/skills/creative-design/draw-io/scripts/convert-drawio-to-png.sh",
+      "size": 638
+    },
+    {
+      "digest": "746cf657fbc33e36705ef4668096e04b574a0b950931a422038943c60c5d9e91",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-creative-design-draw-io/skills/draw-io/scripts/find_aws_icon.py",
+      "path": "cli-tool/components/skills/creative-design/draw-io/scripts/find_aws_icon.py",
+      "size": 2208
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7b957790cc538b157a37f5de5b81865b86f7ba407aae0e7f5506e0dd8f9b1c5f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/draw-io",
+  "schema_version": 1
+}

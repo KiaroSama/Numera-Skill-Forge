@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/post-training-slime",
+  "license": "MIT",
+  "name": "skill-ai-research-post-training-slime",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

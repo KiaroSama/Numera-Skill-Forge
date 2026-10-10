@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-onboarding/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8ee0f66cd40f982c273286fa27b10e077bd6f19c0b3decd09fd811e1d8cf54e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-onboarding/skills/google-cloud-onboarding/SKILL.md",
+      "path": "cli-tool/components/skills/development/google-cloud-onboarding/SKILL.md",
+      "size": 6092
+    },
+    {
+      "digest": "ea37ab6aec35250f5ffb04dd26cc6a7d4d841752292600a6308075420d73b1a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-google-cloud-onboarding/skills/google-cloud-onboarding/reference/google-cloud-setup.md",
+      "path": "cli-tool/components/skills/development/google-cloud-onboarding/reference/google-cloud-setup.md",
+      "size": 5649
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "f724d4b3a467684de9c7475898c3398e5e1d755c0af1d8077a55268b49025570",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/google-cloud-onboarding",
+  "schema_version": 1
+}

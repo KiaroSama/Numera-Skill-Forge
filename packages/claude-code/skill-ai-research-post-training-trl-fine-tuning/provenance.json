@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d68f78ad741627ce7dcdf2ce78c73c8cf31d23db7d89555e0bdd0cd35c413811",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/skills/fine-tuning-with-trl/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/SKILL.md",
+      "size": 11451
+    },
+    {
+      "digest": "c802f74f3f48fcde0e285f97eee90c0209740a953f257b462b6e952d982dc1e6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/skills/fine-tuning-with-trl/references/dpo-variants.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/references/dpo-variants.md",
+      "size": 4297
+    },
+    {
+      "digest": "35e0ad19a8e6a4bc2c1a87e1ab5e2bfe31fb74ba07b1f4b161a1c258e0c44958",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/skills/fine-tuning-with-trl/references/online-rl.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/references/online-rl.md",
+      "size": 1971
+    },
+    {
+      "digest": "782edd743d66dec5efd1e7ec48fa23ad857102117a569ddda836b856f56068e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/skills/fine-tuning-with-trl/references/reward-modeling.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/references/reward-modeling.md",
+      "size": 2597
+    },
+    {
+      "digest": "2e42b55d3327caeab7611f94976bcca315ee1b68a5bf9a4ac437099bb2ab9418",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-trl-fine-tuning/skills/fine-tuning-with-trl/references/sft-training.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning/references/sft-training.md",
+      "size": 3237
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "31598944d5e768e039699440d5fa866685e913d62c9fe8e553a2ae5c6a7ed09f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-trl-fine-tuning",
+  "schema_version": 1
+}

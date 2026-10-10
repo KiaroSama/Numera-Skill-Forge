@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-lightning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7788f93b6324f8d62d0d579a572164d303704b59fc7fefe12497afb75856c453",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-lightning/skills/pytorch-lightning/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning/SKILL.md",
+      "size": 9121
+    },
+    {
+      "digest": "2940b978bdec21b6f8da54c72d1858015e5ba290f9b05f1a659d67c25860e259",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-lightning/skills/pytorch-lightning/references/callbacks.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning/references/callbacks.md",
+      "size": 12031
+    },
+    {
+      "digest": "c7d183b74a48550541658ace014c6ef8fa15f2c625075369e4ad644ad950ecdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-lightning/skills/pytorch-lightning/references/distributed.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning/references/distributed.md",
+      "size": 10818
+    },
+    {
+      "digest": "fb733b9a324d4bb0c941c70b9bb01c59785d53a1827b48db5274520e1eb66e16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-distributed-training-pytorch-lightning/skills/pytorch-lightning/references/hyperparameter-tuning.md",
+      "path": "cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning/references/hyperparameter-tuning.md",
+      "size": 12517
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fcb118e917d1fc1e631960e14631fe42d42e9c3ea7ee3a502001369c24387e28",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning",
+  "schema_version": 1
+}

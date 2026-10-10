@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-devops/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c1cee2e5d85a28f2c316b6144c61ac197c4f239c0175cc20ef5df0f45d23362a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-devops/skills/cloud-devops/SKILL.md",
+      "path": "cli-tool/components/skills/development/cloud-devops/SKILL.md",
+      "size": 5454
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cb41b85928eaea4d34a344e0a04610f40d32183c9cdf144d22670ea1c659dfe4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cloud-devops",
+  "schema_version": 1
+}

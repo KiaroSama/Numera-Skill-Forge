@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-chroma/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "834733e201d4f7d6c20089c93d13c945d7a62b6581d55631546a5ad74b9ec164",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-chroma/skills/chroma/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-chroma/SKILL.md",
+      "size": 9165
+    },
+    {
+      "digest": "fe82af7e33a228d2d2f80c73b3e096937c3a49f873035d86d0e9e6ba6034f5fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-chroma/skills/chroma/references/integration.md",
+      "path": "cli-tool/components/skills/ai-research/rag-chroma/references/integration.md",
+      "size": 771
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "37fbbdcd4467cc8ee816122c28ae38c99cc8c84256c9369d32071a4a969bc36b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-chroma",
+  "schema_version": 1
+}

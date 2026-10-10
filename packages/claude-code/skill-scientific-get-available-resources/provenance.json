@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-get-available-resources/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "172f6796f138dfda90069b2122d6829ac6b456c6921271ee3ca8bfb5a3e657c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-get-available-resources/skills/get-available-resources/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/get-available-resources/SKILL.md",
+      "size": 9774
+    },
+    {
+      "digest": "ed8c3ee91ed4b0667a49816f41dd07bde7e03ef182211f315dd7c0fada685d74",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-get-available-resources/skills/get-available-resources/scripts/detect_resources.py",
+      "path": "cli-tool/components/skills/scientific/get-available-resources/scripts/detect_resources.py",
+      "size": 14081
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1d769f4adbee934c64e3a47ffc16fd59e381fe5d0ae27e0577a1acf84e8d549",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/get-available-resources",
+  "schema_version": 1
+}

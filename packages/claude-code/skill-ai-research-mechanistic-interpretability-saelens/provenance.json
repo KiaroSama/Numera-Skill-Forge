@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-saelens/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3af1fa0e513a96c953f4fbd28b1a6cd764fa9c27e512c6f0cfd2b80c2a1706ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-saelens/skills/sparse-autoencoder-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens/SKILL.md",
+      "size": 12754
+    },
+    {
+      "digest": "1ae9c3f499b5db57c344f05a654a8ab012d10dd59c059f55615e0ada28f349e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-saelens/skills/sparse-autoencoder-training/references/README.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens/references/README.md",
+      "size": 2155
+    },
+    {
+      "digest": "528edc8369d0c8b419b037eae65a4363d6f41f9671c7f7f739327700393a5a35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-saelens/skills/sparse-autoencoder-training/references/api.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens/references/api.md",
+      "size": 6968
+    },
+    {
+      "digest": "7b4c7a2ba9a11116886af33ea11cf3e279e3994a171e4632363114eaa46000fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-saelens/skills/sparse-autoencoder-training/references/tutorials.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens/references/tutorials.md",
+      "size": 9383
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "11763dde7da38e7c5af23e639b8515d8c254c4bc674fa1575c4761156889fd96",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mechanistic-interpretability-saelens",
+  "schema_version": 1
+}

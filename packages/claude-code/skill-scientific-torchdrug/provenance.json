@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b982652f0ed577e275ed33c591d9e134ec8459ba4f7c0f9fba35eda67536f085",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/SKILL.md",
+      "size": 13992
+    },
+    {
+      "digest": "0ed1537779378c71de3ab9c78911256d1f805004e19d943b5ab01dbe1897a704",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/core_concepts.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/core_concepts.md",
+      "size": 14394
+    },
+    {
+      "digest": "6851951da4a8c677571de49f36ad6eea466a738c402e06aed50e79bc2c2873b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/datasets.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/datasets.md",
+      "size": 10951
+    },
+    {
+      "digest": "2162d8494d8c58aafad24a790c2e31ddd680a7e00c16293057ba3216bc422afd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/knowledge_graphs.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/knowledge_graphs.md",
+      "size": 8480
+    },
+    {
+      "digest": "04cbeaf72676752868cc30c918433441068e436e25d6db9d77e2158c13b4ff82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/models_architectures.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/models_architectures.md",
+      "size": 13694
+    },
+    {
+      "digest": "fae52a6b2c7909f0a6f1e313629069dc1101c913381b50115df68153fa396706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/molecular_generation.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/molecular_generation.md",
+      "size": 10074
+    },
+    {
+      "digest": "1c4d6c9d1777ea967022672b9944e529b01bcb740344766cf3e47cb54425cf6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/molecular_property_prediction.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/molecular_property_prediction.md",
+      "size": 5667
+    },
+    {
+      "digest": "09988e58f569d96bf0114f7f932c214a945923c9fae9606eb590e2a36ed37f54",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/protein_modeling.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/protein_modeling.md",
+      "size": 7737
+    },
+    {
+      "digest": "46e491774214a40ab67a5af08919ab1d389ad2752308c548128b98dcb59ac6f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-torchdrug/skills/torchdrug/references/retrosynthesis.md",
+      "path": "cli-tool/components/skills/scientific/torchdrug/references/retrosynthesis.md",
+      "size": 11537
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ed0c28550bd72a3e1bd444341871fdbc3f3619e8684421ca4b9158d0e8bd563c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/torchdrug",
+  "schema_version": 1
+}

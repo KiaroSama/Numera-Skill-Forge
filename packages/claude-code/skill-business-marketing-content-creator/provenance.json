@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f7446716a74d72f9765c5236c8123837ac86fb1e0cb0fad707ce20b790f6c634",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/SKILL.md",
+      "size": 7458
+    },
+    {
+      "digest": "338d24a0dd5b41e9e5de98d8feda602000211abf09ce41c2b6f2493ceeb2951d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/assets/content_calendar_template.md",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/assets/content_calendar_template.md",
+      "size": 1610
+    },
+    {
+      "digest": "354630ae489a22f1593ecc20ade52e9227ccc7066dde93828b9c579f9755c7a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/references/brand_guidelines.md",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/references/brand_guidelines.md",
+      "size": 6102
+    },
+    {
+      "digest": "250fab301a5462c0b14aa70965d43614d8ac2ff5ce36f9813c0ac7d92fa4148a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/references/content_frameworks.md",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/references/content_frameworks.md",
+      "size": 10593
+    },
+    {
+      "digest": "c90dffb1b7c5c110f56d570d5ce61c7e14c04821d183406e7f0473e075a543b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/references/social_media_optimization.md",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/references/social_media_optimization.md",
+      "size": 9129
+    },
+    {
+      "digest": "ac1b43b9a76ca63f62005c123ba71d9c98e21a6562ebf9f7f8eae62f0a01b8b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/scripts/brand_voice_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/scripts/brand_voice_analyzer.py",
+      "size": 6692
+    },
+    {
+      "digest": "285e797a356ba8bb60631c0a123d249ef24468f368c00e3d585ea27f9b5aadc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-creator/skills/content-creator/scripts/seo_optimizer.py",
+      "path": "cli-tool/components/skills/business-marketing/content-creator/scripts/seo_optimizer.py",
+      "size": 15636
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9b90d0d74c27e3797b4d8c35319642b84519346a3aa7bd11d6ed5e056dbabc4f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/content-creator",
+  "schema_version": 1
+}

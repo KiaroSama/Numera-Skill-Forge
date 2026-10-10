@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7f0165ece82da0d7fa1284200e9544c46654e5dc30b768a5a1e0aa6ac16ad074",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/SKILL.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/SKILL.md",
+      "size": 3239
+    },
+    {
+      "digest": "7db6c24424697fd302b64f73e98c663c0d4e3003d0cef4f23c17956a5325fe60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/cli-usage.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/cli-usage.md",
+      "size": 1497
+    },
+    {
+      "digest": "729676dab8f4a2c6c9847848be5c5b4ed79d45aad38c6ae0ede886b61babe20c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/client-library-usage.md",
+      "size": 2931
+    },
+    {
+      "digest": "1780d8bc002a8c12f0f2a657c01b18d5525f9bfc73e7033ed12dddb00f3512ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/core-concepts.md",
+      "size": 2095
+    },
+    {
+      "digest": "5fbb1491b1cc91b2c5bd2248887180890ed96c36087df7bcf2e4f4a0c693450f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/iac-usage.md",
+      "size": 1260
+    },
+    {
+      "digest": "af1cd30d9e18ec8d876107446bafcd755b6ac9ded31229782400fb4d8afb6977",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/iam-security.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/iam-security.md",
+      "size": 3006
+    },
+    {
+      "digest": "9192763caf83df8bf4a5252e9251a31c51299f1a8577d5d8b4ccb1443ed045ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-cloud-sql-basics/skills/cloud-sql-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/database/cloud-sql-basics/references/mcp-usage.md",
+      "size": 2507
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "ac4020df030732aafe2cb49c8add08b3501aefeec1cef6184804d47b3b2ad7f4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/cloud-sql-basics",
+  "schema_version": 1
+}

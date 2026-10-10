@@ -21,36 +21,54 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         .find(|p| p.id == id)
         .ok_or_else(|| Error::new("package", "Unknown package"))?;
     let mut lock = registry::lock(workspace)?;
-    let accepted = lock.sources.get(&package.source).ok_or_else(|| {
-        Error::new(
-            "approval-required",
-            "Approve source snapshot before a locked build",
-        )
-    })?;
-    let snapshot = &accepted.snapshot;
-    for selected in &package.components {
-        if !snapshot
-            .components
-            .iter()
-            .any(|component| &component.id == selected)
+    let closure = crate::build_dependencies::resolve(&r, &lock, id, target)?;
+    let mut selected_components = Vec::new();
+    for (dependency, accepted) in &closure {
+        crate::jobs::checkpoint()?;
+        let snapshot = &accepted.snapshot;
+        for selected in &dependency.components {
+            if !snapshot
+                .components
+                .iter()
+                .any(|component| &component.id == selected)
+            {
+                return Err(Error::new(
+                    "component-selection",
+                    "Package references a component absent from the accepted inventory",
+                ));
+            }
+        }
+        if (snapshot.files.iter().any(crate::model::runtime_payload)
+            || snapshot.components.iter().any(|c| c.kind.executable()))
+            && !accepted.executable_approved
         {
             return Err(Error::new(
-                "component-selection",
-                "Package references a component absent from the accepted inventory",
+                "trust-required",
+                "Executable companions require explicit source approval",
             ));
         }
+        for component in snapshot
+            .components
+            .iter()
+            .filter(|c| dependency.components.is_empty() || dependency.components.contains(&c.id))
+        {
+            if !component.required && dependency.optional_exclusions.contains(&component.id) {
+                continue;
+            }
+            if !selected_components.iter().any(
+                |(_, _, existing): &(
+                    &crate::model::Package,
+                    &crate::model::Snapshot,
+                    crate::model::Component,
+                )| existing.id == component.id,
+            ) {
+                selected_components.push((*dependency, snapshot, component.clone()));
+            }
+        }
     }
-    if snapshot.files.iter().any(|file| file.executable) {
-        return Err(Error::new(
-            "executable-metadata",
-            "Executable-mode companions require the native-preservation pipeline; this preview refuses mode-losing copies",
-        ));
-    }
-    let components = snapshot
-        .components
+    let components = selected_components
         .iter()
-        .filter(|c| package.components.is_empty() || package.components.contains(&c.id))
-        .cloned()
+        .map(|(_, _, c)| c.clone())
         .collect::<Vec<_>>();
     if components.is_empty() {
         return Err(Error::new("empty-package", "No selected components"));
@@ -64,15 +82,48 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         ));
     }
     let input_digest = storage::digest(&storage::encoded(&(
-        package,
-        &snapshot.content_digest,
+        &closure
+            .iter()
+            .map(|(p, accepted)| (*p, &accepted.snapshot.content_digest))
+            .collect::<Vec<_>>(),
         target,
-        "adapter-v1",
+        "adapter-v2",
     ))?);
     let key = format!("{target}/{id}");
     let prior = lock.builds.get(&key);
+    #[cfg(unix)]
+    if prior.is_some()
+        && workspace
+            .join("packages")
+            .join(target)
+            .join(id)
+            .join("provenance.json")
+            .exists()
+    {
+        use std::os::unix::fs::PermissionsExt;
+        let prior_root = workspace.join("packages").join(target).join(id);
+        let provenance: Value = storage::read(&prior_root.join("provenance.json"))?;
+        if let Some(modes) = provenance["file_modes"].as_object() {
+            for (path, mode) in modes {
+                let expected = mode
+                    .as_u64()
+                    .ok_or_else(|| Error::new("integrity", "Invalid owned mode metadata"))?;
+                if fs::metadata(validation::contained(&prior_root, path)?)?
+                    .permissions()
+                    .mode() as u64
+                    & 0o777
+                    != expected
+                {
+                    return Err(Error::new(
+                        "generated-conflict",
+                        "Owned generated permissions changed; user changes preserved",
+                    ));
+                }
+            }
+        }
+    }
     let existing = workspace.join("packages").join(target).join(id);
-    if existing.exists() && !storage::files(&existing)?.is_empty() {
+    if existing.exists() && !storage::payload_files(&existing)?.is_empty() {
         match prior {
             Some(identity) if tree_digest(&existing)? == identity.payload_digest => {}
             _ => {
@@ -96,10 +147,6 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         }
         None => "0.1.0".into(),
     };
-    let cache = workspace
-        .join(".forge-state/snapshots")
-        .join(&package.source)
-        .join(&snapshot.revision);
     let stage = workspace
         .join(".forge-state/build")
         .join(format!("{}-{target}", id));
@@ -107,8 +154,13 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         fs::remove_dir_all(&stage)?;
     }
     fs::create_dir_all(&stage)?;
+    let mut file_modes = std::collections::BTreeMap::new();
     let mut written = std::collections::BTreeMap::new();
-    for c in &components {
+    for (dependency, snapshot, c) in &selected_components {
+        let cache = workspace
+            .join(".forge-state/snapshots")
+            .join(&dependency.source)
+            .join(&snapshot.revision);
         let destination = match adapters::component_path(target, c) {
             Ok(path) => path,
             Err(_) if !c.required && package.optional_exclusions.contains(&c.id) => continue,
@@ -132,8 +184,9 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
                 } else {
                     format!("{destination}/{relative}")
                 };
-                if let Some(prior) = written.insert(output.clone(), file.digest.clone()) {
-                    if prior != file.digest {
+                let mode = if file.executable { 0o755 } else { 0o644 };
+                if let Some(prior) = written.insert(output.clone(), (file.digest.clone(), mode)) {
+                    if prior != (file.digest.clone(), mode) {
                         return Err(Error::new(
                             "package-collision",
                             "Selected components write conflicting payloads",
@@ -148,30 +201,60 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
                         "Cached payload differs from accepted digest",
                     ));
                 }
-                storage::atomic(&validation::contained(&stage, &output)?, &bytes)?;
+                let physical = validation::contained(&stage, &output)?;
+                storage::atomic(&physical, &bytes)?;
+                #[cfg(unix)]
+                {
+                    use std::os::unix::fs::PermissionsExt;
+                    fs::set_permissions(&physical, fs::Permissions::from_mode(mode))?;
+                }
+                file_modes.insert(output, mode);
             }
         }
     }
-    for file in &snapshot.files {
-        if file.path.to_uppercase().contains("LICENSE")
-            || file.path.to_uppercase().contains("COPYING")
-        {
-            storage::atomic(
-                &validation::contained(&stage, &file.path)?,
-                &storage::bytes(&validation::contained(&cache, &file.path)?)?,
-            )?;
+    for (dependency, accepted) in &closure {
+        crate::jobs::checkpoint()?;
+        let snapshot = &accepted.snapshot;
+        let cache = workspace
+            .join(".forge-state/snapshots")
+            .join(&dependency.source)
+            .join(&snapshot.revision);
+        for file in &snapshot.files {
+            let upper = file.path.to_ascii_uppercase();
+            if upper.contains("LICENSE") || upper.contains("COPYING") || upper.contains("NOTICE") {
+                let output = format!("upstream-notices/{}/{}", dependency.source, file.path);
+                let bytes = storage::bytes(&validation::contained(&cache, &file.path)?)?;
+                if storage::digest(&bytes) != file.digest {
+                    return Err(Error::new("integrity", "Accepted notice digest differs"));
+                }
+                let mode = if file.executable { 0o755 } else { 0o644 };
+                if written
+                    .insert(output.clone(), (file.digest.clone(), mode))
+                    .is_some_and(|prior| prior != (file.digest.clone(), mode))
+                {
+                    return Err(Error::new(
+                        "package-collision",
+                        "Upstream notice overlaps selected payload",
+                    ));
+                }
+                storage::atomic(&validation::contained(&stage, &output)?, &bytes)?;
+                file_modes.insert(output, mode);
+            }
         }
     }
     adapters::render(&stage, id, &package.name, &version, target, &components)?;
     storage::write(
         &stage.join("provenance.json"),
-        &json!({"schema_version":1,"source":package.source,"revision":snapshot.revision,"digest":snapshot.content_digest,"license_digest":snapshot.license_digest,"transformation":"adapter-v1"}),
+        &json!({"schema_version":1,"source":package.source,"sources":closure.iter().map(|(p,a)| json!({"package":p.id,"source":p.source,"revision":a.snapshot.revision,"digest":a.snapshot.content_digest,"license_digest":a.snapshot.license_digest})).collect::<Vec<_>>(),"transformation":"adapter-v2","file_modes":file_modes}),
     )?;
     storage::write(&stage.join("compatibility.json"), &report)?;
     let destination = workspace.join("packages").join(target).join(id);
     fs::create_dir_all(&destination)?;
+    #[cfg(unix)]
+    let mut changes = diff_tree(&stage, &destination)?;
+    #[cfg(not(unix))]
     let changes = diff_tree(&stage, &destination)?;
-    let operation = transaction::apply(workspace, &destination, changes)?;
+
     let payload_digest = tree_digest(&stage)?;
     lock.builds.insert(
         key,
@@ -181,14 +264,54 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
             payload_digest: payload_digest.clone(),
         },
     );
-    registry::save_lock(workspace, &lock)?;
+    for (path, mode) in &file_modes {
+        let physical = validation::contained(&destination, path)?;
+        #[cfg(unix)]
+        {
+            use std::os::unix::fs::PermissionsExt;
+            if physical.exists()
+                && fs::metadata(&physical)?.permissions().mode() & 0o777 != *mode
+                && !changes.iter().any(|c| &c.path == path)
+            {
+                let bytes = storage::bytes(&physical)?;
+                changes.push(Change {
+                    path: path.clone(),
+                    before: Some(bytes.clone()),
+                    after: Some(bytes),
+                });
+            }
+        }
+        let _ = (physical, mode);
+    }
+    let mode_changes = file_modes
+        .iter()
+        .filter(|(path, _)| changes.iter().any(|c| &c.path == *path))
+        .map(|(path, mode)| (path.clone(), *mode))
+        .collect();
+    crate::jobs::checkpoint()?;
+    let operation = transaction::apply_with_receipt_modes(
+        workspace,
+        &destination,
+        &transaction::operation_id(),
+        changes,
+        Change {
+            path: "forge.lock.json".into(),
+            before: if workspace.join("forge.lock.json").exists() {
+                Some(storage::bytes(&workspace.join("forge.lock.json"))?)
+            } else {
+                None
+            },
+            after: Some(storage::encoded(&lock)?),
+        },
+        &mode_changes,
+    )?;
     fs::remove_dir_all(stage)?;
     Ok(
         json!({"package":id,"target":target,"version":version,"digest":payload_digest,"operation":operation,"path":destination}),
     )
 }
 pub fn tree_digest(root: &Path) -> Result<String> {
-    let entries = storage::files(root)?
+    let entries = storage::payload_files(root)?
         .into_iter()
         .map(|(p, f)| Ok((p, storage::digest(&storage::bytes(&f)?))))
         .collect::<Result<Vec<_>>>()?;
@@ -196,7 +319,7 @@ pub fn tree_digest(root: &Path) -> Result<String> {
 }
 pub fn diff_tree(source: &Path, destination: &Path) -> Result<Vec<Change>> {
     let mut changes = vec![];
-    let source_files = storage::files(source)?;
+    let source_files = storage::payload_files(source)?;
     for (path, physical) in &source_files {
         let target = validation::contained(destination, path)?;
         let before = if target.exists() {
@@ -213,7 +336,7 @@ pub fn diff_tree(source: &Path, destination: &Path) -> Result<Vec<Change>> {
             });
         }
     }
-    for (path, physical) in storage::files(destination)? {
+    for (path, physical) in storage::payload_files(destination)? {
         if !source_files.iter().any(|(p, _)| p == &path) {
             changes.push(Change {
                 path,

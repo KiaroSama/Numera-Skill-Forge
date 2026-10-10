@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-slime/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "117c8fd2d57d878e45c698f9f0485326ed4630aeaec761aa1222d7a36458cc07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-slime/skills/slime-rl-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-slime/SKILL.md",
+      "size": 11600
+    },
+    {
+      "digest": "4f078938e1c175abeea25d8495dd866d98bb17904b61c02ad7202f58f5277a66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-slime/skills/slime-rl-training/references/api-reference.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-slime/references/api-reference.md",
+      "size": 11907
+    },
+    {
+      "digest": "8ded52e21ebf3737b3366b249abf3c58c3437d485e1f285f26c37cde319ef132",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-slime/skills/slime-rl-training/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-slime/references/troubleshooting.md",
+      "size": 7221
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0a48652b37919fedb74d42aaf7f1ededc904461b89b21f0357add72791c80175",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-slime",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ui-design-system/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d2754b142e18ab5c51031fe6f1a4f807019b2e5346431a0c014baef22efd6aee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ui-design-system/skills/ui-design-system/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/ui-design-system/SKILL.md",
+      "size": 1060
+    },
+    {
+      "digest": "74f158f3ef6b7b0ba1d51f581e03724b7480798f9ec449139e20e585f3c87448",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-ui-design-system/skills/ui-design-system/scripts/design_token_generator.py",
+      "path": "cli-tool/components/skills/creative-design/ui-design-system/scripts/design_token_generator.py",
+      "size": 17679
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "164e35fc7f494d7fcc37d344a256c14ff4a4e32fd64e1b42a7c621e7ef7c3f64",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/ui-design-system",
+  "schema_version": 1
+}

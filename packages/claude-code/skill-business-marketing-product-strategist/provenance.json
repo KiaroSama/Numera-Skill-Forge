@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-strategist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2f3de3b4db64919a41ca3fb8abbcfced5a51030e8357910a44ceeea8a0992d8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-strategist/skills/product-strategist/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/product-strategist/SKILL.md",
+      "size": 994
+    },
+    {
+      "digest": "2663edf4605c34784cf77209b37a782c71cc7873ce0827855c60bfc9a1c5ff0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-strategist/skills/product-strategist/scripts/okr_cascade_generator.py",
+      "path": "cli-tool/components/skills/business-marketing/product-strategist/scripts/okr_cascade_generator.py",
+      "size": 19020
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5f8140b7c95f03844c755c4091643ba4aef223990ada0651dcb6fb03aac0e083",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/product-strategist",
+  "schema_version": 1
+}

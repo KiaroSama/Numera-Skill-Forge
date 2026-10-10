@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-rwkv/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "17fc974b3f3b67b1648c5cb93b3bdc557fbd64df8463d8fbc8f71bdf88575a7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-rwkv/skills/rwkv-architecture/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-rwkv/SKILL.md",
+      "size": 7099
+    },
+    {
+      "digest": "8d49b47e13d78771fb756b47eb6bca6c4aa9f85ffa5d4916eec5826356955487",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-rwkv/skills/rwkv-architecture/references/architecture-details.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-rwkv/references/architecture-details.md",
+      "size": 9304
+    },
+    {
+      "digest": "dffae18583757ebeefabdf58961577ecd9e8e43d601db942385ccb4e0295fa45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-rwkv/skills/rwkv-architecture/references/rwkv7.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-rwkv/references/rwkv7.md",
+      "size": 10428
+    },
+    {
+      "digest": "c4de4fed3a84e4b515485e6a3e0742e0645ac02c191dd1cd2a4fc2a2676e4a6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-model-architecture-rwkv/skills/rwkv-architecture/references/state-management.md",
+      "path": "cli-tool/components/skills/ai-research/model-architecture-rwkv/references/state-management.md",
+      "size": 9497
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "efe490912ca80ba857d459412f6b115d28ad23e82e9e31bf112e6812eb6ad578",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/model-architecture-rwkv",
+  "schema_version": 1
+}

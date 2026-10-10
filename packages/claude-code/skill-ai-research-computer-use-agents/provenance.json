@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-computer-use-agents/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9e2f640211b053e74332f1172cd9b96dde0ae53a8fa34f51467c0b298231a14e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-computer-use-agents/skills/computer-use-agents/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/computer-use-agents/SKILL.md",
+      "size": 9428
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "6da23b1d507a4d8d50d738de34018bfc32f9b4e1b7f3c40a83733dde0d69c677",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/computer-use-agents",
+  "schema_version": 1
+}

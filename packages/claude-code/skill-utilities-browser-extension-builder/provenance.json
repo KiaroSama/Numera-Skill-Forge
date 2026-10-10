@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-browser-extension-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7bc401a7f30741844b7c08b60b5f37aabb8b9e881880c254de951ca85ed7b733",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-browser-extension-builder/skills/browser-extension-builder/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/browser-extension-builder/SKILL.md",
+      "size": 5977
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "352f03c8a392b9d462522d27d6bb6022b38f4af66c46bfaf01436bf361cfcb69",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/browser-extension-builder",
+  "schema_version": 1
+}

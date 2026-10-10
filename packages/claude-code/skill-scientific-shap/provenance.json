@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fade1801bfeff92f58afaf828e711c7f40985b649bb23a6134b883d56f5811ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/skills/shap/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/shap/SKILL.md",
+      "size": 18350
+    },
+    {
+      "digest": "2c3ea2706977790aafa13024b876b75bc198886cf75c83cfb29518bf0d5f108f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/skills/shap/references/explainers.md",
+      "path": "cli-tool/components/skills/scientific/shap/references/explainers.md",
+      "size": 12907
+    },
+    {
+      "digest": "cb1a7392e4592f67a5a231ba33627342e4343876ce715e83eb0fa461ebd3f6ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/skills/shap/references/plots.md",
+      "path": "cli-tool/components/skills/scientific/shap/references/plots.md",
+      "size": 16552
+    },
+    {
+      "digest": "7afc74836fa44354799727f22fec89bd6b86b798d6b56bbf0f642c9f87cf1610",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/skills/shap/references/theory.md",
+      "path": "cli-tool/components/skills/scientific/shap/references/theory.md",
+      "size": 17030
+    },
+    {
+      "digest": "649baa278103cce7c54be74ce7e97ce82328deb64a5599f74bd0a11d6739e864",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-shap/skills/shap/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/shap/references/workflows.md",
+      "size": 19789
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9c13818b0a4249a83a8e3b89a9d4e17a74f3d3223c1b40ed511910701aad1a70",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/shap",
+  "schema_version": 1
+}

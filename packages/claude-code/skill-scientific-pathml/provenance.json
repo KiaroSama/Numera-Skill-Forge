@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c98b9d51c5a2f82afd1d32afffeb8f04e832ae494b12fb148223ed2e16555c80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pathml/SKILL.md",
+      "size": 7429
+    },
+    {
+      "digest": "5d2448b02237a5bf5e43da421fb3c9307615e36c4897f2a0405011a30fc11a9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/data_management.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/data_management.md",
+      "size": 19018
+    },
+    {
+      "digest": "dfeaecea07d0463b519cfdc736b9f2e0f920605c00c000f65b63a068bb07ca4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/graphs.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/graphs.md",
+      "size": 16726
+    },
+    {
+      "digest": "20f6fc744eb3d38689ba32d3d77b0043141bbe4781ad6f1b7c1ec1fc639d544c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/image_loading.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/image_loading.md",
+      "size": 12146
+    },
+    {
+      "digest": "e55735f03c653f48b8b20900ec43cf4df990fcad01b9cee1659ac4bc33690368",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/machine_learning.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/machine_learning.md",
+      "size": 19946
+    },
+    {
+      "digest": "c2f7d4ee0795f4f4ef3bde331cc1dcd20dc3644535adedd02e19ec01d13cbb51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/multiparametric.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/multiparametric.md",
+      "size": 18199
+    },
+    {
+      "digest": "d8827bffc6bb2c465c71909903ab8b1b6edc9fb04d02350817ab5d4d8782078e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pathml/skills/pathml/references/preprocessing.md",
+      "path": "cli-tool/components/skills/scientific/pathml/references/preprocessing.md",
+      "size": 18209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fea6ae381e41de63051d391a6e9e9f78bc9caf8cf2a174b1fac9c3b0bc450563",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pathml",
+  "schema_version": 1
+}

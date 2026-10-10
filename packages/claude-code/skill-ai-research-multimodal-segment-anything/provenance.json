@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-segment-anything/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6ac5c2f96cf7d0ae5f787164678701266930129aa06cc21818f20f77dacb6a71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-segment-anything/skills/segment-anything-model/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-segment-anything/SKILL.md",
+      "size": 13403
+    },
+    {
+      "digest": "73a46290ac6986333e5ef65b785afc7c9463d6835d8a67c5f74f418fa284fb39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-segment-anything/skills/segment-anything-model/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-segment-anything/references/advanced-usage.md",
+      "size": 15803
+    },
+    {
+      "digest": "cbab544d97ddc3813b4f74c805086579e7bd51547ccf9830dd44fa5936b07b4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-multimodal-segment-anything/skills/segment-anything-model/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/multimodal-segment-anything/references/troubleshooting.md",
+      "size": 11914
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eb0427af9ac2ab2439574fa295db4ace305f3c2901d6bfc49d13b1bc1485b3df",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/multimodal-segment-anything",
+  "schema_version": 1
+}

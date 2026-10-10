@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydeseq2/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "055b202f5a8cb8671f26652d37b16440ef02332790902a89e7ffc42da0642c15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydeseq2/skills/pydeseq2/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/pydeseq2/SKILL.md",
+      "size": 16105
+    },
+    {
+      "digest": "0af6421da2b7716b12f87c8270195831c910f2ebfddf1fcc9a487303c5676c8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydeseq2/skills/pydeseq2/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/pydeseq2/references/api_reference.md",
+      "size": 7162
+    },
+    {
+      "digest": "f588feda2400a1235192c7e8759e7aacf31ec7561842890648f5836f3fb80e19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydeseq2/skills/pydeseq2/references/workflow_guide.md",
+      "path": "cli-tool/components/skills/scientific/pydeseq2/references/workflow_guide.md",
+      "size": 13026
+    },
+    {
+      "digest": "3eb5734d90e80afe4218d8a6157b9589f187f046fd7273bcbf3f79f247104996",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-pydeseq2/skills/pydeseq2/scripts/run_deseq2_analysis.py",
+      "path": "cli-tool/components/skills/scientific/pydeseq2/scripts/run_deseq2_analysis.py",
+      "size": 11887
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "520432d6dfa311b4f70ff7b74a9c9149da50fc4d889db81f272fde5ea73455a8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/pydeseq2",
+  "schema_version": 1
+}

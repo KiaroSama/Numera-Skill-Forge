@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "31fe1b501aeeb56743bb421596801e163ea0821f62f4e8bc0d8d654e32bdbd50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/SKILL.md",
+      "size": 17819
+    },
+    {
+      "digest": "b6da773e389cc5bae20e6a457bec9b4120525f113d2f26a99363a48bde5c022e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/references/api_reference.md",
+      "size": 12736
+    },
+    {
+      "digest": "4bfa90027d4242e674f685043f25f8c31fd7f5b58a842ba1a4885769846e2f2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/references/visualization.md",
+      "size": 19529
+    },
+    {
+      "digest": "8b1a9bf40e4e10e4e846875593f096ace37bfd4d05cf0e56f4be13b05519fbf1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/references/workflows.md",
+      "size": 18933
+    },
+    {
+      "digest": "21b0854c158ede179ee7c249e6a64bc9fab1b6b2c5adbce86c61629a57b893fb",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/scripts/quick_visualize.py",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/scripts/quick_visualize.py",
+      "size": 7156
+    },
+    {
+      "digest": "65e07a1770b497a3ad6a9b5afe43232dae8be47079e2c84ccaa91f31ec1967a1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-etetoolkit/skills/etetoolkit/scripts/tree_operations.py",
+      "path": "cli-tool/components/skills/scientific/etetoolkit/scripts/tree_operations.py",
+      "size": 8235
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1661cefe34973d7576d3e16051e5d37a2f16e0b4c7396538679adc9698c349ee",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/etetoolkit",
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cosmic-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "adc99d02391f87e0ee4e80b88a22e6f4df821fc4babae9f6fc2042f798e9940a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cosmic-database/skills/cosmic-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/cosmic-database/SKILL.md",
+      "size": 9975
+    },
+    {
+      "digest": "eb461993a27627b743d4e98653a0afad11c888a64f7ea576f42e51d620f8516a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cosmic-database/skills/cosmic-database/references/cosmic_data_reference.md",
+      "path": "cli-tool/components/skills/scientific/cosmic-database/references/cosmic_data_reference.md",
+      "size": 6291
+    },
+    {
+      "digest": "d0ac418db9ae973f1cc9df9f0ccacdc9242165eeab9d9f7fafb19748b091dd82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-cosmic-database/skills/cosmic-database/scripts/download_cosmic.py",
+      "path": "cli-tool/components/skills/scientific/cosmic-database/scripts/download_cosmic.py",
+      "size": 7974
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2c0d41e88fc8453a572ef277a3dec479461008c77094eaea3c82bba4a5e510b1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/cosmic-database",
+  "schema_version": 1
+}

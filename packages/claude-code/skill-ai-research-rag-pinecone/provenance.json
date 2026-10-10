@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-pinecone/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "69b0566e8d749acdad2a805ed6980947e5458c96b41bd405e520f2006ff0e7fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-pinecone/skills/pinecone/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/rag-pinecone/SKILL.md",
+      "size": 7827
+    },
+    {
+      "digest": "20b7582d8d8a9fa73b2a7d8dfd76bade640bf0a8683de349224791c33e3855c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-rag-pinecone/skills/pinecone/references/deployment.md",
+      "path": "cli-tool/components/skills/ai-research/rag-pinecone/references/deployment.md",
+      "size": 3557
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d6da8b9f85395f77fec6357cf2aa6a063b46250fff6bf62db3dd37de2e80ad4b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/rag-pinecone",
+  "schema_version": 1
+}

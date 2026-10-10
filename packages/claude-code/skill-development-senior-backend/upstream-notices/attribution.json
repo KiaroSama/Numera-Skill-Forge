@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: alirezarezvani/claude-skills; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/senior-backend/SKILL.md https://github.com/alirezarezvani/claude-skills/blob/93e750a018c5d9220d234657b850650511b48945/LICENSE https://github.com/alirezarezvani/claude-skills/tree/93e750a018c5d9220d234657b850650511b48945/engineering-team/senior-backend",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+      "license": "MIT",
+      "path": "registry/licenses/a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151.txt",
+      "source": "https://github.com/alirezarezvani/claude-skills/blob/93e750a018c5d9220d234657b850650511b48945/LICENSE"
+    }
+  ]
+}

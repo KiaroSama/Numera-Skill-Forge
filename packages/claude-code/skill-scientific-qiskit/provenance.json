@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "dc7a2d17b1ed05895b3b1e4d2e3ef80f281630a5d5284334eeab66b4084894d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/SKILL.md",
+      "size": 8860
+    },
+    {
+      "digest": "06f48e2a63464b711d37851983ad1d050bcdc003cb8afe70c98c3ce1f01c7b3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/algorithms.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/algorithms.md",
+      "size": 14455
+    },
+    {
+      "digest": "e1336784fcdfc487e3ba4a07d1be22061938749e5975c49eae69a96742c6b1c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/backends.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/backends.md",
+      "size": 9551
+    },
+    {
+      "digest": "4708eed5c9ecef6055673c101ef1642e88062f9a987f8b71eafaefa3572d632d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/circuits.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/circuits.md",
+      "size": 3451
+    },
+    {
+      "digest": "02e8359f367dc5618ed7ea5287100e61336eef798e642aaf8074c794de588411",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/patterns.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/patterns.md",
+      "size": 13529
+    },
+    {
+      "digest": "6fea9e6ad7ea039e44b05400d48caf80e2b3110364fb6ee545108cc3d2a27c9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/primitives.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/primitives.md",
+      "size": 6055
+    },
+    {
+      "digest": "deeed00097127b28da39926a777f2b1945957969d2e02852f31efd00e398b897",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/setup.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/setup.md",
+      "size": 2041
+    },
+    {
+      "digest": "a30b3f6e66eea9a61716cdd339d4aec1a58437cf6d7fba6915b2b6963fd5eca5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/transpilation.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/transpilation.md",
+      "size": 7372
+    },
+    {
+      "digest": "612660942719fb14c9d91247ccf8b4ce5c7c980117ef7d8c4955aef053f72c54",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-qiskit/skills/qiskit/references/visualization.md",
+      "path": "cli-tool/components/skills/scientific/qiskit/references/visualization.md",
+      "size": 7893
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c68cd3b2d3a716c8b3493cbe8eedbb45c718a945824b14945a6e94ff55d3e656",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/qiskit",
+  "schema_version": 1
+}

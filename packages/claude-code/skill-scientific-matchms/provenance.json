@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "159851a4767d12348bc41aa3e26b1a843776c4e86818ac198a2cc84d5080c129",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/skills/matchms/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/matchms/SKILL.md",
+      "size": 6778
+    },
+    {
+      "digest": "822714316f0a3da3956d095c9efa39c98e0d86ed65a346c85c46873cf88cb67b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/skills/matchms/references/filtering.md",
+      "path": "cli-tool/components/skills/scientific/matchms/references/filtering.md",
+      "size": 10038
+    },
+    {
+      "digest": "25bc6d6e74f88f0e14824cce307fac75b662e95b3f2061541cf0b9571de2b8a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/skills/matchms/references/importing_exporting.md",
+      "path": "cli-tool/components/skills/scientific/matchms/references/importing_exporting.md",
+      "size": 10894
+    },
+    {
+      "digest": "1d37dd43f61c1868b3b284358d0339e5246d60669a93d8e37dc22cd28d28dc14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/skills/matchms/references/similarity.md",
+      "path": "cli-tool/components/skills/scientific/matchms/references/similarity.md",
+      "size": 12974
+    },
+    {
+      "digest": "d3c279c63370e94da95f6b5962abdae8e1a103837607c9586ac36548aa742005",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-matchms/skills/matchms/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/matchms/references/workflows.md",
+      "size": 22230
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9486a3509c93bd97a322ffb58a82eba1fb0839a4cfd22de579b282599377315c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/matchms",
+  "schema_version": 1
+}

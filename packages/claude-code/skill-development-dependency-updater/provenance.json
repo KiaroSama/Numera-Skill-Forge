@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dependency-updater/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1817de53b7a35fa1606241695ca40ce3251d5a772d9c34e22a0f8fd7796b8681",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dependency-updater/skills/dependency-updater/README.md",
+      "path": "cli-tool/components/skills/development/dependency-updater/README.md",
+      "size": 8367
+    },
+    {
+      "digest": "e3a63ca4bbf78d97d79d5a0dc30b7634974190479ee1e0d8a5280fce4001759f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-dependency-updater/skills/dependency-updater/SKILL.md",
+      "path": "cli-tool/components/skills/development/dependency-updater/SKILL.md",
+      "size": 11699
+    },
+    {
+      "digest": "80a2cba1a6ecd82c6c69fc58d3e2c0059c9fe7fe958b2e4a7b0836ef2fafae45",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-dependency-updater/skills/dependency-updater/scripts/check-tool.sh",
+      "path": "cli-tool/components/skills/development/dependency-updater/scripts/check-tool.sh",
+      "size": 520
+    },
+    {
+      "digest": "b2748f41ec77599cea1649285bcd8b7585441807b4d2c31ce35567c957f024fa",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-dependency-updater/skills/dependency-updater/scripts/run-taze.sh",
+      "path": "cli-tool/components/skills/development/dependency-updater/scripts/run-taze.sh",
+      "size": 638
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0796de5b056c40998e8d302c0fbc7483e440f9c99bdebe85f6ebadfab752144a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/dependency-updater",
+  "schema_version": 1
+}

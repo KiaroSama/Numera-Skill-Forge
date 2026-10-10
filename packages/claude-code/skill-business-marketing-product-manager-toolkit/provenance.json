@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-manager-toolkit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "51cae5e4162bdeae1c66b9b7e55f6e4a04334d7001fc706c86d88d92ddad7705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-manager-toolkit/skills/product-manager-toolkit/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/product-manager-toolkit/SKILL.md",
+      "size": 8924
+    },
+    {
+      "digest": "cd0d50ea82142ad801e2cd5a9c1a7ce88ce024259df7da15923b9d6bf2d3c85d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-manager-toolkit/skills/product-manager-toolkit/references/prd_templates.md",
+      "path": "cli-tool/components/skills/business-marketing/product-manager-toolkit/references/prd_templates.md",
+      "size": 7249
+    },
+    {
+      "digest": "eedd2a80d9f444c375cb3b7cebca5b25b2ffa83927661a6a3b981dac13c9e67e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-manager-toolkit/skills/product-manager-toolkit/scripts/customer_interview_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/product-manager-toolkit/scripts/customer_interview_analyzer.py",
+      "size": 17066
+    },
+    {
+      "digest": "9ceb1964ebb949f6aaa7afda9651cd8d4ea1502df2fe58ed9e8cceb080a3f043",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-product-manager-toolkit/skills/product-manager-toolkit/scripts/rice_prioritizer.py",
+      "path": "cli-tool/components/skills/business-marketing/product-manager-toolkit/scripts/rice_prioritizer.py",
+      "size": 11872
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5ff923c9fe02bdae05128525a38036852d8bbc48b4b7e7f7b565e578c12cc715",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/product-manager-toolkit",
+  "schema_version": 1
+}

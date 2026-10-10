@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f83e321ef05177b40a086c88d90390be14f67d3eac8039661d0d79a2c38069dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/venue-templates/SKILL.md",
+      "size": 20224
+    },
+    {
+      "digest": "7ed8bc346ef82cbd3868f5baacc161da9bdaafc869321f7e1ba5dd186400e6ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/grants/nih_specific_aims.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/grants/nih_specific_aims.tex",
+      "size": 9082
+    },
+    {
+      "digest": "03d0784c76e63daf1f2460543a37af236c9204533eb763fc1322a65939c4c817",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/grants/nsf_proposal_template.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/grants/nsf_proposal_template.tex",
+      "size": 13157
+    },
+    {
+      "digest": "f2b301d28a10987aa3ae1c4df5c559dabae8b39e8386fc4ac8443299967f094e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/journals/nature_article.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/journals/nature_article.tex",
+      "size": 6242
+    },
+    {
+      "digest": "eb5d5fc45a4b03c241aa54e6c76f882dae0c4c4e858555165adac778068bcc35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/journals/neurips_article.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/journals/neurips_article.tex",
+      "size": 8925
+    },
+    {
+      "digest": "6410f0ddc66ff8f631f128f42d29eff48ccffe524d7f347a0522a6e6e192b783",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/journals/plos_one.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/journals/plos_one.tex",
+      "size": 11713
+    },
+    {
+      "digest": "2991f0598320da79816cff19654452a25258180f2efc0d67c4bfe3b493fa57d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/assets/posters/beamerposter_academic.tex",
+      "path": "cli-tool/components/skills/scientific/venue-templates/assets/posters/beamerposter_academic.tex",
+      "size": 8495
+    },
+    {
+      "digest": "ef6517703dca1dad1a953bbf21450765addf6ff0c37ad4e8cbc7e7dc6f4efc13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/references/conferences_formatting.md",
+      "path": "cli-tool/components/skills/scientific/venue-templates/references/conferences_formatting.md",
+      "size": 17164
+    },
+    {
+      "digest": "1ee99a1d0a32d03f2209e1be363f0eb5e69c1b34f9cc510a0b0b996cc2dd60b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/references/grants_requirements.md",
+      "path": "cli-tool/components/skills/scientific/venue-templates/references/grants_requirements.md",
+      "size": 22873
+    },
+    {
+      "digest": "338466d7a286828edf98abf868ab99fe7a45762629ba77aa88a60d93e67b6783",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/references/journals_formatting.md",
+      "path": "cli-tool/components/skills/scientific/venue-templates/references/journals_formatting.md",
+      "size": 17649
+    },
+    {
+      "digest": "6a853d81fa68ce3e4ccc2b8bae7ab0fde697d352a2decf9af0fbf1e5dcc04015",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/references/posters_guidelines.md",
+      "path": "cli-tool/components/skills/scientific/venue-templates/references/posters_guidelines.md",
+      "size": 17113
+    },
+    {
+      "digest": "8a44c5dab3237b14b8cb7b9dc2d651f176ae95e5f053576b1bd4437f5336f82a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/scripts/customize_template.py",
+      "path": "cli-tool/components/skills/scientific/venue-templates/scripts/customize_template.py",
+      "size": 6875
+    },
+    {
+      "digest": "448d1dcd907e8a025997c7498db03bb5e889cb74fe8f7ade19feb6b10a4df20e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/scripts/query_template.py",
+      "path": "cli-tool/components/skills/scientific/venue-templates/scripts/query_template.py",
+      "size": 8959
+    },
+    {
+      "digest": "69c46c458e21a83b07ae4cca207791653eef95ef6ae521239051b74b855ce4f4",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-venue-templates/skills/venue-templates/scripts/validate_format.py",
+      "path": "cli-tool/components/skills/scientific/venue-templates/scripts/validate_format.py",
+      "size": 8766
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "85f3b296db85d944619caf08562a6dbf7047f2497e5f79d37348c14acf08861a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/venue-templates",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-llamaindex/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a603d319831beb1e46efd9299532b2462ee0d0cf01d7aa8928bd21763a3d9760",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-llamaindex/skills/llamaindex/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agents-llamaindex/SKILL.md",
+      "size": 14726
+    },
+    {
+      "digest": "755be6104ccb5acce5b61efe1753d6380a8fbeef136fa1381fa4325c6d6cb15a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-llamaindex/skills/llamaindex/references/agents.md",
+      "path": "cli-tool/components/skills/ai-research/agents-llamaindex/references/agents.md",
+      "size": 1958
+    },
+    {
+      "digest": "8ec7804e4e3b2c1aace849ee8ce1176ee51205b8e55507115fc16cb795db99d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-llamaindex/skills/llamaindex/references/data_connectors.md",
+      "path": "cli-tool/components/skills/ai-research/agents-llamaindex/references/data_connectors.md",
+      "size": 2307
+    },
+    {
+      "digest": "250298c4c3d7d9a7900d81080d4f5a2ba44747c9add5d9ae2768a85127af6c84",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agents-llamaindex/skills/llamaindex/references/query_engines.md",
+      "path": "cli-tool/components/skills/ai-research/agents-llamaindex/references/query_engines.md",
+      "size": 9905
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5fff8818aa0e155d9d3c325bbd4a57a875b9934ed8d0386dc7bcf0ff39fb9c46",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agents-llamaindex",
+  "schema_version": 1
+}

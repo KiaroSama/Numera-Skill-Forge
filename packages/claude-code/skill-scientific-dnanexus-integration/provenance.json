@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "83c276f7d071df5d403b6e6e4455c0f8ed367cdd992869059598f7443023ef5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/SKILL.md",
+      "size": 10550
+    },
+    {
+      "digest": "94f5db3d585d97fed30d96d8e9f008e18291ef9687897fc01a18e3d05b5efab5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/references/app-development.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/references/app-development.md",
+      "size": 5291
+    },
+    {
+      "digest": "98624a295cd5d13d40f7b3b4ab4df739a0da9e0e2b907781f67ddd0682777d76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/references/configuration.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/references/configuration.md",
+      "size": 13172
+    },
+    {
+      "digest": "bb4a7b6628d704688038fad23f53d4ef19511ef0dd44f8e83fa6843fa65b870f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/references/data-operations.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/references/data-operations.md",
+      "size": 8120
+    },
+    {
+      "digest": "bb8d00112970001bf80233cdee90c163ca436c2620dc1956ef3efbcb2894255a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/references/job-execution.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/references/job-execution.md",
+      "size": 8766
+    },
+    {
+      "digest": "bae649e0e57b0fc414e7d681186e98b2144de62b2666e86e8b88b698d63d31b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-dnanexus-integration/skills/dnanexus-integration/references/python-sdk.md",
+      "path": "cli-tool/components/skills/scientific/dnanexus-integration/references/python-sdk.md",
+      "size": 9776
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "93129f042794b1fd878b03f55f3dfaf46eaacb284d9df9870f08fe09544f5509",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/dnanexus-integration",
+  "schema_version": 1
+}

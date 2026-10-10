@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-brainstorming/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5fe7c597f62b17f895125f919109944ce4bcc7a55417265b1c4edd3d6dcf6b56",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-brainstorming/skills/scientific-brainstorming/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-brainstorming/SKILL.md",
+      "size": 7973
+    },
+    {
+      "digest": "454b88e568cc55cd0e3f409fc7b9c04606815a4084eefcf442c65890583465ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-brainstorming/skills/scientific-brainstorming/references/brainstorming_methods.md",
+      "path": "cli-tool/components/skills/scientific/scientific-brainstorming/references/brainstorming_methods.md",
+      "size": 12065
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cb532cb61ddf1929d67a65849abb93f56622b1d474877e2f267b72798bba4dbc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-brainstorming",
+  "schema_version": 1
+}

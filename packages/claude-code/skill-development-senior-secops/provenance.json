@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-secops/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ef4c19c2f4172ce22ee83755f41b7ca1765032f189667baed9e74b51c4aeac45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/SKILL.md",
+      "path": "cli-tool/components/skills/development/senior-secops/SKILL.md",
+      "size": 4522
+    },
+    {
+      "digest": "bbcefec84fd0d99c789d9a47b325ef8c382d5743d0e8b338f7397bba11259764",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/references/compliance_requirements.md",
+      "path": "cli-tool/components/skills/development/senior-secops/references/compliance_requirements.md",
+      "size": 1614
+    },
+    {
+      "digest": "47438a1a30931843d5f68a827342c3798bd21240bbf9b391c769d5f01caba7ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/references/security_standards.md",
+      "path": "cli-tool/components/skills/development/senior-secops/references/security_standards.md",
+      "size": 1609
+    },
+    {
+      "digest": "650ac3f505b7108bac1cb1074be3b30f41a14c1eda71b226fd4583af2bd191ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/references/vulnerability_management_guide.md",
+      "path": "cli-tool/components/skills/development/senior-secops/references/vulnerability_management_guide.md",
+      "size": 1621
+    },
+    {
+      "digest": "0faacf56d359a3bdcce24bcf66189584d156dd2744d56cd6d0b81a56ea4f6993",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/scripts/compliance_checker.py",
+      "path": "cli-tool/components/skills/development/senior-secops/scripts/compliance_checker.py",
+      "size": 3138
+    },
+    {
+      "digest": "ccdfe3ec22930d1f20ab043146367cfcaf3fd5b4d03e8050e4f64fc01d6ae36f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/scripts/security_scanner.py",
+      "path": "cli-tool/components/skills/development/senior-secops/scripts/security_scanner.py",
+      "size": 3128
+    },
+    {
+      "digest": "48ce05f39d78a0f1f4c1b1ea372514d68960349f0af06256216e92964c45ad98",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-senior-secops/skills/senior-secops/scripts/vulnerability_assessor.py",
+      "path": "cli-tool/components/skills/development/senior-secops/scripts/vulnerability_assessor.py",
+      "size": 3158
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "db69cf4fc6137e2d4ce4f860c684fc9a5141430b64b00ee837babb9c8e245096",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/senior-secops",
+  "schema_version": 1
+}

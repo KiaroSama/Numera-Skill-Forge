@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed exact skill collections",
+  "type": "object", "required": ["schema_version", "collections"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "collections": { "type": "array", "items": {
+      "type": "object", "required": ["id", "repository", "branch", "reviewed_revision", "skills"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "repository": { "type": "string" }, "branch": { "type": "string" },
+        "reviewed_revision": { "type": "string", "pattern": "^[a-fA-F0-9]{40}$" },
+        "skills": { "type": "array", "items": { "$ref": "#/$defs/skill" } }
+      }
+    } }
+  },
+  "$defs": {
+    "id": { "type": "string", "maxLength": 64, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "digest": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+    "skill": {
+      "type": "object", "required": ["id", "root", "license", "license_path", "license_digest"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "root": { "type": "string", "minLength": 1 },
+        "license": { "enum": ["MIT", "Apache-2.0", "CC-BY-4.0"] },
+        "license_path": { "type": "string" }, "license_digest": { "$ref": "#/$defs/digest" },
+        "attribution": { "type": "string" },
+        "reviewed_templates": { "type": "object", "additionalProperties": { "$ref": "#/$defs/digest" } },
+        "notices": { "type": "array", "items": {
+          "type": "object", "required": ["path", "digest", "source", "license"],
+          "properties": { "path": { "type": "string", "pattern": "^registry/licenses/" }, "digest": { "$ref": "#/$defs/digest" }, "source": { "type": "string", "pattern": "^https://github.com/" }, "license": { "type": "string" } }
+        } }
+      },
+      "allOf": [{ "if": { "properties": { "license_path": { "const": "" } } }, "then": { "required": ["notices"], "properties": { "notices": { "minItems": 1 } } } }]
+    }
+  }
+}

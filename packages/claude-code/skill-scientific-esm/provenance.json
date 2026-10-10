@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8eee2b4a7b1742586eff4946c9c87cc8a918d3f559d277a1a6a451a433d3fb2c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/skills/esm/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/esm/SKILL.md",
+      "size": 10499
+    },
+    {
+      "digest": "4560fc041627553239c9999984212e904e28efdb260a2e8f7761301178dc3ec7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/skills/esm/references/esm-c-api.md",
+      "path": "cli-tool/components/skills/scientific/esm/references/esm-c-api.md",
+      "size": 15715
+    },
+    {
+      "digest": "ddad21afa5d218a2f01d15ad1bd11fc2918c86aafe271113ed40dd152234f487",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/skills/esm/references/esm3-api.md",
+      "path": "cli-tool/components/skills/scientific/esm/references/esm3-api.md",
+      "size": 11852
+    },
+    {
+      "digest": "f5faad59554489be2d6058a362700bfb22960ef7d4e8db4280f039cf5a3fa2e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/skills/esm/references/forge-api.md",
+      "path": "cli-tool/components/skills/scientific/esm/references/forge-api.md",
+      "size": 17615
+    },
+    {
+      "digest": "4633ece829c70dd801d7959aac7b719ac79622bc5afb8b28381b5c98ee199546",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-esm/skills/esm/references/workflows.md",
+      "path": "cli-tool/components/skills/scientific/esm/references/workflows.md",
+      "size": 20667
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5352f329c2f2eb983792cc80403b5b79f4a8035ebf0f8cec5afec1c43db90ce8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/esm",
+  "schema_version": 1
+}

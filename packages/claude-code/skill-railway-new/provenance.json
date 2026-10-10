@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8d11a859f3e5c6664db2d61eaf71a2fe8e9e415cbe39568a571c1d6ea0b670fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/skills/railway-new/SKILL.md",
+      "path": "cli-tool/components/skills/railway/new/SKILL.md",
+      "size": 13231
+    },
+    {
+      "digest": "8a7b14789450cfa04b96621343c508482c2f413e3d9ab07255f46bb73dd6f633",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/skills/railway-new/references/environment-config.md",
+      "path": "cli-tool/components/skills/railway/new/references/environment-config.md",
+      "size": 5305
+    },
+    {
+      "digest": "15a3ddc504c606304f9028235d18a8dd532687ef8e4a647e3330cb35c6482b90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/skills/railway-new/references/monorepo.md",
+      "path": "cli-tool/components/skills/railway/new/references/monorepo.md",
+      "size": 5692
+    },
+    {
+      "digest": "071bee33859736c4817af20f5d3dfc7cab85043d6fa2e3fc4d67e83407127d60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/skills/railway-new/references/railpack.md",
+      "path": "cli-tool/components/skills/railway/new/references/railpack.md",
+      "size": 6069
+    },
+    {
+      "digest": "c3203c6f7f24e4271fd821a45297dd00bc902a1e41038fd1f3a200477e91ebc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-railway-new/skills/railway-new/references/variables.md",
+      "path": "cli-tool/components/skills/railway/new/references/variables.md",
+      "size": 4467
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "47d01e14c7805e3df059809085812481d7fa482529a6cc0cd660f81af4d49053",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/railway/new",
+  "schema_version": 1
+}

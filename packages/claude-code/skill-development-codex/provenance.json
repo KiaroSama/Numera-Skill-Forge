@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-codex/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "dea3ac7d1f889335536ae70e29ed27c30bb3cd30992169718f945cc137fb7eeb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-codex/skills/codex/README.md",
+      "path": "cli-tool/components/skills/development/codex/README.md",
+      "size": 2185
+    },
+    {
+      "digest": "78b3fcf4dfead4904fb25bed91e5560fe81adea806b1144186d544565be75e5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-codex/skills/codex/SKILL.md",
+      "path": "cli-tool/components/skills/development/codex/SKILL.md",
+      "size": 5185
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "93f0cc8d965d616b5a520e75679f289d3890acec52b74f583c21266a995a9ccf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/codex",
+  "schema_version": 1
+}

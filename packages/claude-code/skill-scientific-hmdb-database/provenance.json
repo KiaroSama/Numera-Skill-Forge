@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hmdb-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a1d802048c31e2feebf0ef43c1ebc1bd516637ebe68c1ea5297ae120504c6056",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hmdb-database/skills/hmdb-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/hmdb-database/SKILL.md",
+      "size": 7535
+    },
+    {
+      "digest": "6ffe48f6c7406ccad18e348d817d0b25fcfbf9aef67807928930aefdc49d9d28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-hmdb-database/skills/hmdb-database/references/hmdb_data_fields.md",
+      "path": "cli-tool/components/skills/scientific/hmdb-database/references/hmdb_data_fields.md",
+      "size": 8736
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d132c9a0c1ff1d2a17d22d0ec4929afbe2d416bed54185e8d2d2e5ceaec12a84",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/hmdb-database",
+  "schema_version": 1
+}

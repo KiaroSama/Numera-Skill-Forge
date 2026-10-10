@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-bitsandbytes/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0a68e96c760b0ba561437328211a8405b4db422e9bad92415219abf91f87f849",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-bitsandbytes/skills/quantizing-models-bitsandbytes/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-bitsandbytes/SKILL.md",
+      "size": 10126
+    },
+    {
+      "digest": "6bccb532de6a904785ca569144fb8648a1a705720bd894fac450dd5bea810567",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-bitsandbytes/skills/quantizing-models-bitsandbytes/references/memory-optimization.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-bitsandbytes/references/memory-optimization.md",
+      "size": 12642
+    },
+    {
+      "digest": "13636bc72fbf80bcfa9c4800df4310fd143899d457df0f9a24eedfd7a449ae24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-bitsandbytes/skills/quantizing-models-bitsandbytes/references/qlora-training.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-bitsandbytes/references/qlora-training.md",
+      "size": 12015
+    },
+    {
+      "digest": "5359ef0ca8e5837d390da62f972256d924b934c3552365c70fffe6d58104ac7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-bitsandbytes/skills/quantizing-models-bitsandbytes/references/quantization-formats.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-bitsandbytes/references/quantization-formats.md",
+      "size": 10258
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a2e3f80a3a6e435617db74fdaa3e3c90bd388afa2d74e2d2862d28ff3dc779f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/optimization-bitsandbytes",
+  "schema_version": 1
+}

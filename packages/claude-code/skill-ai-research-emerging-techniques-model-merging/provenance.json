@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-merging/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "39bcead42b697140ad198b7aa2eed7e6ea6fe1aae5fe6387eb2fcda8828f0aba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-merging/skills/model-merging/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-merging/SKILL.md",
+      "size": 12439
+    },
+    {
+      "digest": "367ee2d0fb1832dc3eb32de0e7f2f658bf5ad5c3d0c66d43e1cb509b78df246d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-merging/skills/model-merging/references/evaluation.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-merging/references/evaluation.md",
+      "size": 11705
+    },
+    {
+      "digest": "b03af94b7e5b9b04c354e7128282f028732af7fa817daf4bc19d960c4edac42d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-merging/skills/model-merging/references/examples.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-merging/references/examples.md",
+      "size": 8813
+    },
+    {
+      "digest": "c5d3e7bd7fc3c0c262347c92881c7d6f7260cb13df0a0f9815c6087bccf3656f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-emerging-techniques-model-merging/skills/model-merging/references/methods.md",
+      "path": "cli-tool/components/skills/ai-research/emerging-techniques-model-merging/references/methods.md",
+      "size": 9562
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1af5645f42fd8cda4f1ed23d0cc225a1692dde6171ec2af13a0c2e82ec0881b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/emerging-techniques-model-merging",
+  "schema_version": 1
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c113899d6a1c9db875940c53b37897071e4893870481226d23592ec108c13b04",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/SKILL.md",
+      "path": "cli-tool/components/skills/development/writing-skills/SKILL.md",
+      "size": 22341
+    },
+    {
+      "digest": "3e8b909316d7ff2084f04947e85d4fd1691c9ceb02105542139fe2e3a0e26c26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/anthropic-best-practices.md",
+      "path": "cli-tool/components/skills/development/writing-skills/anthropic-best-practices.md",
+      "size": 45825
+    },
+    {
+      "digest": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
+      "path": "cli-tool/components/skills/development/writing-skills/examples/CLAUDE_MD_TESTING.md",
+      "size": 5423
+    },
+    {
+      "digest": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/graphviz-conventions.dot",
+      "path": "cli-tool/components/skills/development/writing-skills/graphviz-conventions.dot",
+      "size": 5970
+    },
+    {
+      "digest": "c3c84f572a51dd8b6d4fc6e5cbdc2bc3b9e07ba381a45bdabfce7ad2894dd828",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/persuasion-principles.md",
+      "path": "cli-tool/components/skills/development/writing-skills/persuasion-principles.md",
+      "size": 5908
+    },
+    {
+      "digest": "ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/render-graphs.js",
+      "path": "cli-tool/components/skills/development/writing-skills/render-graphs.js",
+      "size": 4857
+    },
+    {
+      "digest": "75b5d0844036fadea3796fba8e60bd08e5ac76742b63e90e57b2b7e28a8438e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-writing-skills/skills/writing-skills/testing-skills-with-subagents.md",
+      "path": "cli-tool/components/skills/development/writing-skills/testing-skills-with-subagents.md",
+      "size": 12557
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "077645084ae02b6a1442045a25d33a12fc8c75cf6f2741b1df2c090e46f7aa06",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/writing-skills",
+  "schema_version": 1
+}

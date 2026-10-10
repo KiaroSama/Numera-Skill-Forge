@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6adfd1babfbfe2f85e0fcbde518f24a804ebe06afeb8682ce1df395284d6f5cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/SKILL.md",
+      "size": 2472
+    },
+    {
+      "digest": "c1fef3c82d902c455353dd873cba30bcdfba779b83b300ce2ac55718fae5a616",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/references/_images.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/references/_images.md",
+      "size": 307
+    },
+    {
+      "digest": "984d86809194921a64d5738affa3152f6f5e74198e83c39bf4c0807ef977c5f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/references/advanced.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/references/advanced.md",
+      "size": 47823
+    },
+    {
+      "digest": "ca959ff8b1dd7d4d09c5e6c247dd03d01759391f20fdeb12e03cff2a1f305cf6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/references/getting_started.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/references/getting_started.md",
+      "size": 16188
+    },
+    {
+      "digest": "d2b9a950f5721809d0bb6c46b35a2a7bf05b3d0b23f600163d4b2ac6ea0418c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/references/index.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/references/index.md",
+      "size": 262
+    },
+    {
+      "digest": "674714380dbc7bcab07a6972e4b8699fd85ac4321144537bc67c305df4fb47ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-llama-factory/skills/llama-factory/references/other.md",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory/references/other.md",
+      "size": 1166
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9538663dfd0122f90dcd1787834f9e17f198fdc23fe74f6ca2f28cd03d13df85",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/fine-tuning-llama-factory",
+  "schema_version": 1
+}

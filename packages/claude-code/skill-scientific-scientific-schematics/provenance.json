@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "41a1f23026df0683a7bc2e5cd19d02480962e95315131c2eb367081672cbb863",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/QUICK_REFERENCE.md",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/QUICK_REFERENCE.md",
+      "size": 4790
+    },
+    {
+      "digest": "c5f46f9ec3f29066086482ed7e26798e39ad4c2b2bc6cb6fa03c14d8c69cb2d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/README.md",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/README.md",
+      "size": 8686
+    },
+    {
+      "digest": "0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/SKILL.md",
+      "size": 23716
+    },
+    {
+      "digest": "e6502a1538edf947cef7819eccb39d0ffdb89e3e24832368f4f7f44d2c43c8e1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/example_usage.sh",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/example_usage.sh",
+      "size": 3052
+    },
+    {
+      "digest": "bbf13ced9b31bced86fbc2489aa014974ae052e64fa319a1638ecd05f6712e7f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/references/best_practices.md",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/references/best_practices.md",
+      "size": 15910
+    },
+    {
+      "digest": "3892cd32b245f6df56c9e911848f4a9bfa53b057dbdea45e53e5cac128a49d4c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/scripts/generate_schematic.py",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/scripts/generate_schematic.py",
+      "size": 5016
+    },
+    {
+      "digest": "8bd493770bb66b3cea5a9ffaa852d3021e5dfa6ab7286044856480745cfeb42d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/scripts/generate_schematic_ai.py",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/scripts/generate_schematic_ai.py",
+      "size": 33173
+    },
+    {
+      "digest": "fed31b403f1d46ffe9b0bbafba2e661adabbb03574bbbc16d83d01db48a80129",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scientific-schematics/skills/scientific-schematics/test_ai_generation.py",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/test_ai_generation.py",
+      "size": 7653
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "866bd1863746a16d2790133882a39a2e5e629947ab30ebb55870fb7df992122f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scientific-schematics",
+  "schema_version": 1
+}

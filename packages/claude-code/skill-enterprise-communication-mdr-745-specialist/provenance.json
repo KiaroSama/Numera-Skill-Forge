@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-mdr-745-specialist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f335e8753538a6fdc8273b0dedd5381d07fb2fcd69deca298ab08604a7cf6ae7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-mdr-745-specialist/skills/mdr-745-specialist/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/mdr-745-specialist/SKILL.md",
+      "size": 8778
+    },
+    {
+      "digest": "3410b1e7d80c9431ac98834d98da8214e0a658fef14d32b86a75ddf2bbe6e2d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-mdr-745-specialist/skills/mdr-745-specialist/assets/example_asset.txt",
+      "path": "cli-tool/components/skills/enterprise-communication/mdr-745-specialist/assets/example_asset.txt",
+      "size": 865
+    },
+    {
+      "digest": "f509a652307a40aec41af31a4b8c9790150a3f56f103f6813dd2f156522c60a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-mdr-745-specialist/skills/mdr-745-specialist/references/api_reference.md",
+      "path": "cli-tool/components/skills/enterprise-communication/mdr-745-specialist/references/api_reference.md",
+      "size": 969
+    },
+    {
+      "digest": "225ad7d42d11c88b592d9e9a8c6259117d9d7a37d459f96576fbbe26e230bc59",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-mdr-745-specialist/skills/mdr-745-specialist/scripts/example.py",
+      "path": "cli-tool/components/skills/enterprise-communication/mdr-745-specialist/scripts/example.py",
+      "size": 595
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "234032f29f5d8aa8d7cef63eef653d60b34f12e49074a09e3ca769958e3e5263",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/mdr-745-specialist",
+  "schema_version": 1
+}

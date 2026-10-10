@@ -1,0 +1,103 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c45c5d51959e174b984ce873735c586854a388036180798bee5adb0d97faf471",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/aeon/SKILL.md",
+      "size": 10515
+    },
+    {
+      "digest": "f7121dbcfff6ed13356a5540488272ef7fbd6cee4eeb139d33bb1b8214cf573b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/anomaly_detection.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/anomaly_detection.md",
+      "size": 4912
+    },
+    {
+      "digest": "5aea5ecf30840d0748077a9ac617ec460711ba70f8ef5df650a31f134b605067",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/classification.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/classification.md",
+      "size": 5377
+    },
+    {
+      "digest": "ab2635b7d55ae727bc027c0b0f21dc65167c35b0379acbd19396db82594c2832",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/clustering.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/clustering.md",
+      "size": 3744
+    },
+    {
+      "digest": "6e5f238279fab676e44f0638fef7e11d963d8dc174a21eb02b063a51de2bb453",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/datasets_benchmarking.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/datasets_benchmarking.md",
+      "size": 8871
+    },
+    {
+      "digest": "1b9a0371bad5babf386cf52405fc48b93097b05706a5c79ef6d216f94f502d04",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/distances.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/distances.md",
+      "size": 6409
+    },
+    {
+      "digest": "556c176695ab11e82c5c2e83445efcdfa4a18de042b562ad5c45987afbd097cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/forecasting.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/forecasting.md",
+      "size": 3879
+    },
+    {
+      "digest": "7702e9632a084d55b31fbd94a653e126fd2c27c7cb8a884911046c875d3771b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/networks.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/networks.md",
+      "size": 7849
+    },
+    {
+      "digest": "39ccf444ec621c1e4c89fe4ba56db5d5b7b3c55bce12cd4035fd6451f734c294",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/regression.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/regression.md",
+      "size": 3960
+    },
+    {
+      "digest": "7495a53b149750c2fc310a545c9f9b27523626f5d38689cde34ec9585450573a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/segmentation.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/segmentation.md",
+      "size": 4924
+    },
+    {
+      "digest": "9d803e450a82dd864f7f7b8859fe7dc2d210b14369d0ae2ab8b74922446741e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/similarity_search.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/similarity_search.md",
+      "size": 5242
+    },
+    {
+      "digest": "e7807df13949b036f30212d98b921ad6f31e0720d145ff3196f85a3584788da4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-aeon/skills/aeon/references/transformations.md",
+      "path": "cli-tool/components/skills/scientific/aeon/references/transformations.md",
+      "size": 7725
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a4b0fb6b4d22b36f61241e7731aa2f1307b4906e8882c3179fa7c0464d50686e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/aeon",
+  "schema_version": 1
+}

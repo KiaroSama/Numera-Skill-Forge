@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-nemo-curator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d8586e21ecd4df1a32371f8d86746f8fbd88358f5dc8957e5dd91a473d2ab484",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-nemo-curator/skills/nemo-curator/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-nemo-curator/SKILL.md",
+      "size": 9338
+    },
+    {
+      "digest": "ca5594ba9ee317726f7f5932d89f82b7be0b2db9744e41b935f541bd13f2fa0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-nemo-curator/skills/nemo-curator/references/deduplication.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-nemo-curator/references/deduplication.md",
+      "size": 2142
+    },
+    {
+      "digest": "d02c933f79b140c65e88a5af1567aa47a6cbf8eed522d8eae5ef977daf346f0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-data-processing-nemo-curator/skills/nemo-curator/references/filtering.md",
+      "path": "cli-tool/components/skills/ai-research/data-processing-nemo-curator/references/filtering.md",
+      "size": 2351
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e65a2c1ac71b09da0446ab4970f0f8ec79bf2484b7bba848e422e3789308a2a8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/data-processing-nemo-curator",
+  "schema_version": 1
+}

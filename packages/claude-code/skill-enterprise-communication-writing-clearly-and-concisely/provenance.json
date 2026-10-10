@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e0ac88c4c1c5b49a932509e8d01ed37473116a545a954f8637e539cf66a9e8e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/README.md",
+      "size": 5853
+    },
+    {
+      "digest": "c5f4ecc8bfa7984d0df70d30cea3bfeb824f7b24d31db111d5a1a9a959880575",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/SKILL.md",
+      "size": 3768
+    },
+    {
+      "digest": "248b18596fa18cf63605182688565d25d115c859f602068185f6014c26addbfe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/elements-of-style/01-introductory.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/elements-of-style/01-introductory.md",
+      "size": 303
+    },
+    {
+      "digest": "b1c9bd883237a3df8dffc07cdc7ffb271187c691599706c5a0b8a1a4b9b996a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/elements-of-style/02-elementary-rules-of-usage.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/elements-of-style/02-elementary-rules-of-usage.md",
+      "size": 12161
+    },
+    {
+      "digest": "3867f33512ff2f0e965386dbb558579aab43ca10f070bd48d732584b9b5119e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/elements-of-style/03-elementary-principles-of-composition.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/elements-of-style/03-elementary-principles-of-composition.md",
+      "size": 33622
+    },
+    {
+      "digest": "150feae0c201def056a96dd25fa5d23e015f53632b21f3bcd7b7266f8197c563",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/elements-of-style/04-a-few-matters-of-form.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/elements-of-style/04-a-few-matters-of-form.md",
+      "size": 4918
+    },
+    {
+      "digest": "60db286f5166b1b6f4d85a0cc39471b375fbd62d6057d3844533551fb09f2c2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/elements-of-style/05-words-and-expressions-commonly-misused.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/elements-of-style/05-words-and-expressions-commonly-misused.md",
+      "size": 22310
+    },
+    {
+      "digest": "06d135c200e1bbfdbe90f433dfbdffeb9c4ea07f028a9a880f4026622e5c10fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely/skills/writing-clearly-and-concisely/signs-of-ai-writing.md",
+      "path": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely/signs-of-ai-writing.md",
+      "size": 94774
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e03d7153e29834bfc410118795da90fd90f419168a684619ba23ab831060982a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely",
+  "schema_version": 1
+}

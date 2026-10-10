@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "97bc3483974c2b930acf3f46e21c865e1b27e92359e19bdb465515d9e86ff10f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/skills/nemo-evaluator-sdk/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator/SKILL.md",
+      "size": 12225
+    },
+    {
+      "digest": "b28d7df8c090c7ce6061b16b0e436640945e6cf7a84e2e0e6a06ba4d18845b0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/skills/nemo-evaluator-sdk/references/adapter-system.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator/references/adapter-system.md",
+      "size": 9468
+    },
+    {
+      "digest": "36e716ee8b988acf67d781940a8346ea4204591601714504a003e95dd674f45e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/skills/nemo-evaluator-sdk/references/configuration.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator/references/configuration.md",
+      "size": 9567
+    },
+    {
+      "digest": "f20a0d0006f5aba39328eaf528fe3e4cfb1a1d23143a6d0fe90f7c2d890620a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/skills/nemo-evaluator-sdk/references/custom-benchmarks.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator/references/custom-benchmarks.md",
+      "size": 7101
+    },
+    {
+      "digest": "9b4a6fd37c72bb0d983c2e01387a3e9584e7fe5af5f50d467cbe255a175aa03d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-evaluation-nemo-evaluator/skills/nemo-evaluator-sdk/references/execution-backends.md",
+      "path": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator/references/execution-backends.md",
+      "size": 9351
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8ed120c84e6cfe22cbe0a4e6911504a0f708cad7a772b7209de3a7a4099697e7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/evaluation-nemo-evaluator",
+  "schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "57eaf97e982fe758b6fd0ef2281b6961940e4a1c8258f303b0ce02d55d0636c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/skills/serving-llms-vllm/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-vllm/SKILL.md",
+      "size": 9026
+    },
+    {
+      "digest": "0f860d337adb1d0723d4070d8b3144517f111ad7f653606927bc67a7a019b1ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/skills/serving-llms-vllm/references/optimization.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-vllm/references/optimization.md",
+      "size": 5769
+    },
+    {
+      "digest": "5fb30ea9e8fbec4a7f3047f37d10c0900d10cd2df66555818ffd425a3b29b270",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/skills/serving-llms-vllm/references/quantization.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-vllm/references/quantization.md",
+      "size": 6746
+    },
+    {
+      "digest": "7db618ec40b865fe2efacf46c04c3d5dc233fc64a3c63d26451afb97b795113e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/skills/serving-llms-vllm/references/server-deployment.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-vllm/references/server-deployment.md",
+      "size": 5252
+    },
+    {
+      "digest": "307acd908e60674017bd2363726e6b9be19410062e3db0645290a69802976283",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-inference-serving-vllm/skills/serving-llms-vllm/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/inference-serving-vllm/references/troubleshooting.md",
+      "size": 9037
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f6dfa570ded88da21d6ff2addf0c127175a464617b9124b5e745486b1f14af80",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/inference-serving-vllm",
+  "schema_version": 1
+}

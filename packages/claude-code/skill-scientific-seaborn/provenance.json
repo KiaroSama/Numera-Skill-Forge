@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-seaborn/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c453eadd2add9df6dfc6b6594cc634aa25f19ea6a076a352785b165378337521",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-seaborn/skills/seaborn/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/seaborn/SKILL.md",
+      "size": 19377
+    },
+    {
+      "digest": "cf546517293907cc7fc762e68acde8321251fdc4d001838ca4121bc21dc3c026",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-seaborn/skills/seaborn/references/examples.md",
+      "path": "cli-tool/components/skills/scientific/seaborn/references/examples.md",
+      "size": 17624
+    },
+    {
+      "digest": "a0e312a68b6ecae2417d073f756824d9e51331df3c5f4765d9f1ac6c583a5564",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-seaborn/skills/seaborn/references/function_reference.md",
+      "path": "cli-tool/components/skills/scientific/seaborn/references/function_reference.md",
+      "size": 24615
+    },
+    {
+      "digest": "1e858870266a6dd73cfbb9793019d6a85023f6b008ecf09c940a06da76340535",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-seaborn/skills/seaborn/references/objects_interface.md",
+      "path": "cli-tool/components/skills/scientific/seaborn/references/objects_interface.md",
+      "size": 20801
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9561385abc739d4e0171420f4a2f2b35f9841795c0a48c8a8e9c4e2e08b569b1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/seaborn",
+  "schema_version": 1
+}

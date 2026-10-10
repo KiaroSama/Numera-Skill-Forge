@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-verl/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1167e2b2994c9b0780edc44d5bc3a3eef69dc816af08af8f28ef9c19163d1285",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-verl/skills/verl-rl-training/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-verl/SKILL.md",
+      "size": 10323
+    },
+    {
+      "digest": "727954fb3944142a7c5c3b7078cb203e0a47efb8c2ad373f7df11800e147fe5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-verl/skills/verl-rl-training/references/api-reference.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-verl/references/api-reference.md",
+      "size": 6941
+    },
+    {
+      "digest": "7cf3f25831ad686151485a753c18faebbf7fcbeb6b2d683156a4514e7d27131c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-post-training-verl/skills/verl-rl-training/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/post-training-verl/references/troubleshooting.md",
+      "size": 6792
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1943fed7064c142c904c336e7be6f071b955bdf4bc643aa0af631b8bc12a7f84",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/post-training-verl",
+  "schema_version": 1
+}

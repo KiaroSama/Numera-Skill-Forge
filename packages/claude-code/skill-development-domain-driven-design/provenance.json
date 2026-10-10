@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-domain-driven-design/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e041ea437753339dd2f9170e8f11ca4c6168a3c5f2dc7fca17020f4470a0a6d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-domain-driven-design/skills/domain-driven-design/SKILL.md",
+      "path": "cli-tool/components/skills/development/domain-driven-design/SKILL.md",
+      "size": 2491
+    },
+    {
+      "digest": "b33a3aeee94568619e77f9a42fc0a3b8dedab603a1baf647cebdad69c178f13c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-domain-driven-design/skills/domain-driven-design/references/ddd-deliverables.md",
+      "path": "cli-tool/components/skills/development/domain-driven-design/references/ddd-deliverables.md",
+      "size": 615
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e836fd876bca98dd47b342583d991834c85e51577249891ac93ae1b70a794a02",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/domain-driven-design",
+  "schema_version": 1
+}

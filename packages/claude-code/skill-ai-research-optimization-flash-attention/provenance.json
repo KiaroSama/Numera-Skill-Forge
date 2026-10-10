@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-flash-attention/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e0c1da83766332e0f3db4bcca954c3a70be399632758dcec2680aa82e236438d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-flash-attention/skills/optimizing-attention-flash/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-flash-attention/SKILL.md",
+      "size": 10201
+    },
+    {
+      "digest": "264ff3060af824c32f7a6e3c0e0208c38646c728b2292fb35ede923a38d60b6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-flash-attention/skills/optimizing-attention-flash/references/benchmarks.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-flash-attention/references/benchmarks.md",
+      "size": 7129
+    },
+    {
+      "digest": "89ebe8e20756ee218103a1144d4682e960a0faa07870c2588530bc8d26c441a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-optimization-flash-attention/skills/optimizing-attention-flash/references/transformers-integration.md",
+      "path": "cli-tool/components/skills/ai-research/optimization-flash-attention/references/transformers-integration.md",
+      "size": 7427
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "34982956d1e08b6915b1ae3d9f9559a2705a134301483b017271f180ab41983b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/optimization-flash-attention",
+  "schema_version": 1
+}

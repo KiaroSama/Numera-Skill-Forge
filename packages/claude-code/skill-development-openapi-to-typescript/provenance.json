@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-openapi-to-typescript/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e481f7e9e1bb37711ca0cf366099dd73e19f83fb926e0673c6415dc92a345b6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-openapi-to-typescript/skills/openapi-to-typescript/README.md",
+      "path": "cli-tool/components/skills/development/openapi-to-typescript/README.md",
+      "size": 8279
+    },
+    {
+      "digest": "a27383fcaea896bed2f1c017158055b7ef8a8e5f81797c61947eea770c622a39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-openapi-to-typescript/skills/openapi-to-typescript/SKILL.md",
+      "path": "cli-tool/components/skills/development/openapi-to-typescript/SKILL.md",
+      "size": 8004
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "755de8007fd0474f453529aade20c738c01386f0771ac8fc37f327bf62ffdbe1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/openapi-to-typescript",
+  "schema_version": 1
+}

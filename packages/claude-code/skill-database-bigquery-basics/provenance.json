@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3a7b33e164f858933248aa3282cf042bd484d1147bb38daa69ac14f60e2c8813",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/SKILL.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/SKILL.md",
+      "size": 4599
+    },
+    {
+      "digest": "1fb6eb4102b0240af0e95bd6f71ff7aea2b31a555e6e4b25636209ff8f1b3b6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/cli-usage.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/cli-usage.md",
+      "size": 2040
+    },
+    {
+      "digest": "80652e9632444878e84bf21de69b4d78daa04eb4788066ae7a91f5f6b151cfc8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/client-library-usage.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/client-library-usage.md",
+      "size": 2298
+    },
+    {
+      "digest": "ccb7991b5f0cfb850defa220536831b3e579516377788cd9b2a4067adc1f00c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/core-concepts.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/core-concepts.md",
+      "size": 3442
+    },
+    {
+      "digest": "4cc7cba990280a5f2438bb965fb4bd575ca5967289f72bfd19b7830eb44b0208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/iac-usage.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/iac-usage.md",
+      "size": 1777
+    },
+    {
+      "digest": "07682f907cc3edbcd782a4c5fbfc901f24cf9fd8485d980befb9239caea1481d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/iam-security.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/iam-security.md",
+      "size": 1987
+    },
+    {
+      "digest": "b9b7de9fa6187b10aae9a1d61ad31225b94f6eceb6853565369afd874090400e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-bigquery-basics/skills/bigquery-basics/references/mcp-usage.md",
+      "path": "cli-tool/components/skills/database/bigquery-basics/references/mcp-usage.md",
+      "size": 2351
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "eb1e9f582b79b383ff13901b88558a1c05eacf1f43dc0eb06e3829cc78d7c1d8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/bigquery-basics",
+  "schema_version": 1
+}

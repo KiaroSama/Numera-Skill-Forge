@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-pyvene/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cc26be84bdf23355f63cf103847a13618122157d17448be6ea16f94f3338f4d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-pyvene/skills/pyvene-interventions/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene/SKILL.md",
+      "size": 14144
+    },
+    {
+      "digest": "4b842fea60747f23a54986d9bbf20b13f38071f62ed24b93dce1227e2e35782b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-pyvene/skills/pyvene-interventions/references/README.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene/references/README.md",
+      "size": 2105
+    },
+    {
+      "digest": "e10295e644d9855c3954fcc51b80f1d42448b60bb56ef991961a1d11e44f1003",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-pyvene/skills/pyvene-interventions/references/api.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene/references/api.md",
+      "size": 7871
+    },
+    {
+      "digest": "04132b155e440f95acf08f1349651355ade3d2b0ad46d19370c59857bb38a5d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-mechanistic-interpretability-pyvene/skills/pyvene-interventions/references/tutorials.md",
+      "path": "cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene/references/tutorials.md",
+      "size": 10111
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c4d489d2dc64fad97ee917a818786b710d88d6f021b51e44270dc39dc72cb00e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/mechanistic-interpretability-pyvene",
+  "schema_version": 1
+}

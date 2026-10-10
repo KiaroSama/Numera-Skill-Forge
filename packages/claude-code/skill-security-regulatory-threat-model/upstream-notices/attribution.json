@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: Ansvar-Systems/regulatory-threat-model-skill; license: CC-BY-4.0. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Source references: https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/security/regulatory-threat-model/SKILL.md https://github.com/Ansvar-Systems/regulatory-threat-model-skill/blob/999a90bc6d792ddef917bdb80ee730fffd78d482/LICENSE https://github.com/Ansvar-Systems/regulatory-threat-model-skill/blob/999a90bc6d792ddef917bdb80ee730fffd78d482/SKILL.md",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "132ba585a64fa097b0077369e988d9c6ffb75b455d1eaaf032472526e7c45342",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/132ba585a64fa097b0077369e988d9c6ffb75b455d1eaaf032472526e7c45342.txt",
+      "source": "https://github.com/Ansvar-Systems/regulatory-threat-model-skill/blob/999a90bc6d792ddef917bdb80ee730fffd78d482/LICENSE"
+    }
+  ]
+}

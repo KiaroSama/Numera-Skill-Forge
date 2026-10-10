@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bced1d6fdcffd50b3073ceef5e0db38c42d32b8352ce23705c9a2679ff12c914",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/skills/openalex-database/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/openalex-database/SKILL.md",
+      "size": 12013
+    },
+    {
+      "digest": "27b67a7a54961f9f1538590b9d8a3da66af3403e97af9a3cd623cfbde42e9f7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/skills/openalex-database/references/api_guide.md",
+      "path": "cli-tool/components/skills/scientific/openalex-database/references/api_guide.md",
+      "size": 10185
+    },
+    {
+      "digest": "95e9c3ef2d7ad98ccf06e51879cd1875e8fa9ce96a66bda8fd64fe8f6d011c05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/skills/openalex-database/references/common_queries.md",
+      "path": "cli-tool/components/skills/scientific/openalex-database/references/common_queries.md",
+      "size": 9587
+    },
+    {
+      "digest": "0f6e8191c16e99517bd91b25899134280b4f5287e42ba8a926583a23dc2ccb36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/skills/openalex-database/scripts/openalex_client.py",
+      "path": "cli-tool/components/skills/scientific/openalex-database/scripts/openalex_client.py",
+      "size": 10148
+    },
+    {
+      "digest": "84c2d5f8b0305e039bfc07a170e19868b23e0abf05172fb131696f452c3160eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-openalex-database/skills/openalex-database/scripts/query_helpers.py",
+      "path": "cli-tool/components/skills/scientific/openalex-database/scripts/query_helpers.py",
+      "size": 8443
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5e10b798dc0863cf9769bca60e7b45c7a1cb143171733c17fe6a86bade9a5c71",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/openalex-database",
+  "schema_version": 1
+}

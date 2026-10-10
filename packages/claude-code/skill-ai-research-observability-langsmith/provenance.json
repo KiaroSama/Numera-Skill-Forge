@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-langsmith/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3611688a297b95bd8695cdaa9e9f12db4c7cda6c94a4ae82e55f99fa6cbf7f53",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-langsmith/skills/langsmith-observability/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/observability-langsmith/SKILL.md",
+      "size": 9693
+    },
+    {
+      "digest": "c27afa012b3daae35324f715fe860dfbe7e0034eeafccb0d39a7641a2fd72144",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-langsmith/skills/langsmith-observability/references/advanced-usage.md",
+      "path": "cli-tool/components/skills/ai-research/observability-langsmith/references/advanced-usage.md",
+      "size": 12006
+    },
+    {
+      "digest": "5e3f797c275c43509c81ad4f9252170286750e6b8158f35bad0f05a8aa75aa88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-observability-langsmith/skills/langsmith-observability/references/troubleshooting.md",
+      "path": "cli-tool/components/skills/ai-research/observability-langsmith/references/troubleshooting.md",
+      "size": 10983
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "808d6584c5a0e0706ad94dfb94f3e8d28106b6ef7c5daa409007e1c80c158c04",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/observability-langsmith",
+  "schema_version": 1
+}

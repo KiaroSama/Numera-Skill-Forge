@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9d3f78c6a91752bd2ebd434699b442a9c595e06ba42f117dbb8d8ac1b6e19cbc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/SKILL.md",
+      "size": 11220
+    },
+    {
+      "digest": "fe407f1f248734e2da1258d0caba735e5be6c9482c944aa1de1d64eadf2ed6f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/references/board_governance_investor_relations.md",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/references/board_governance_investor_relations.md",
+      "size": 11661
+    },
+    {
+      "digest": "54ff472908e42ea812d38b6d8ca97265cfd486fde50749ac39eb13c0c732e269",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/references/executive_decision_framework.md",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/references/executive_decision_framework.md",
+      "size": 11112
+    },
+    {
+      "digest": "7b2340d3cbf3e2e3112dd65537db7d4cc6b70dc3856e1ab884b6559eea1bdb63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/references/leadership_organizational_culture.md",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/references/leadership_organizational_culture.md",
+      "size": 14703
+    },
+    {
+      "digest": "8ba97794b75d0438f6d256ec935c2f8b35704f0b3db41e4e54e614318acd8267",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/scripts/financial_scenario_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/scripts/financial_scenario_analyzer.py",
+      "size": 17693
+    },
+    {
+      "digest": "db2ca449bb96f7f7bc748cb7086c16f1d62c9697d1f94fa941e954352e469c33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-ceo-advisor/skills/ceo-advisor/scripts/strategy_analyzer.py",
+      "path": "cli-tool/components/skills/business-marketing/ceo-advisor/scripts/strategy_analyzer.py",
+      "size": 23352
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "65f5d613afa974758f90dd913238f45938ccde55ea307459fe63bfebc30ff808",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/ceo-advisor",
+  "schema_version": 1
+}
