@@ -109,7 +109,7 @@ pub(crate) fn file_mode(path: &Path) -> Result<u32> {
     #[cfg(unix)]
     {
         use std::os::unix::fs::PermissionsExt;
-        return Ok(fs::metadata(path)?.permissions().mode() & 0o7777);
+        Ok(fs::metadata(path)?.permissions().mode() & 0o7777)
     }
     #[cfg(not(unix))]
     {
@@ -231,6 +231,8 @@ pub fn install_scoped(
             validation::identifier(name)?;
         }
         prefix
+    } else if !package.join("skills").is_dir() && !contributions.is_empty() {
+        String::new()
     } else {
         skill_prefix(target, scope)?.into()
     };

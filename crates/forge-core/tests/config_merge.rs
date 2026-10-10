@@ -106,6 +106,7 @@ fn raw_payload_to_managed_configuration_refuses_without_partial_journal() {
         .0
         .join("project/.amp/plugins/native/settings.json");
     let before = fs::read(&physical).unwrap();
+    fs::remove_dir_all(package.join("skills")).unwrap();
     storage::write(&package.join("compatibility.json"),&json!({"supported":true,"components":[{"kind":"settings","metadata":{"native_target":"amp-native","install_contribution":{"project_path":".amp/plugins/native/settings.json","payload_path":"settings.json"}}}]})).unwrap();
     assert_eq!(
         install::install(
