@@ -1,5 +1,8 @@
 """Win32 owner for a CI-only, never-switched desktop and kill-on-close process tree."""
 
+if __name__ == "__main__":
+    print("Native launch probe entered Python", flush=True)
+
 import argparse
 import ctypes as c
 import json
@@ -450,7 +453,7 @@ def launch_probe() -> None:
         allowed = {"SYSTEMROOT", "WINDIR", "SYSTEMDRIVE", "COMSPEC", "PATH", "GITHUB_ACTIONS", "RUNNER_ENVIRONMENT"}
         environment = {key: value for key, value in os.environ.items() if key.upper() in allowed}
         environment.update(PYTHONUTF8="1", PYTHONDONTWRITEBYTECODE="1", TEMP=str(work), TMP=str(work))
-        command = [sys.executable, str(Path(__file__).resolve()), "--worker", "--work", str(work)]
+        command = [sys.executable, "-I", "-S", str(Path(__file__).resolve()), "--worker", "--work", str(work)]
         with Owner(command, environment, work) as owner:
             deadline = time.monotonic() + 15
             while (result := owner.poll()) is None:
