@@ -341,6 +341,29 @@ class Owner:
                 self.stop()
                 raise
 
+    def diagnose_startup(self) -> None:
+        """Inspect only window captions on this owned desktop; never send UI messages."""
+        callback_type = c.WINFUNCTYPE(w.BOOL, w.HWND, w.LPARAM)
+        enum_windows = api(U, "EnumDesktopWindows", w.BOOL, w.HANDLE, callback_type, w.LPARAM)
+        window_pid = api(U, "GetWindowThreadProcessId", w.DWORD, w.HWND, c.POINTER(w.DWORD))
+        window_text = api(U, "GetWindowTextW", c.c_int, w.HWND, w.LPWSTR, c.c_int)
+        amount = 0
+
+        @callback_type
+        def inspect(handle: object, unused: int) -> bool:
+            nonlocal amount
+            amount += 1
+            pid, title = w.DWORD(), c.create_unicode_buffer(512)
+            window_pid(handle, c.byref(pid))
+            # GetWindowText does not send messages to windows in another process.
+            if pid.value != os.getpid():
+                window_text(handle, title, len(title))
+                logging.error("Owned desktop window pid=%d caption=%s", pid.value, title.value)
+            return amount < 32
+
+        enum_windows(self.desktop, inspect, 0)
+        logging.error("Startup timeout owned desktop windows=%d Job active=%d", amount, self.active())
+
     def poll(self) -> int | None:
         state = wait_process(self.info.process, 0)
         if state == 0x102:
@@ -432,6 +455,7 @@ def launch_probe() -> None:
             deadline = time.monotonic() + 15
             while (result := owner.poll()) is None:
                 if time.monotonic() >= deadline:
+                    owner.diagnose_startup()
                     raise TimeoutError("Native launch probe exceeded 15s")
                 time.sleep(0.05)
             if result != 0 or json.loads((work / "worker.json").read_text(encoding="utf-8")) != {"status": "isolated-worker-started"}:
