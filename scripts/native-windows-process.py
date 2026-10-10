@@ -151,6 +151,47 @@ def require_standard_token(token: object) -> None:
             raise RuntimeError("WebView2 automation token retains enabled Administrators SID")
 
 
+def ordinary_shell_token(owner: object) -> object | None:
+    """Use only an existing same-user/session ordinary shell token; never borrow another identity."""
+    shell = api(U, "GetShellWindow", w.HWND)
+    window_pid = api(U, "GetWindowThreadProcessId", w.DWORD, w.HWND, c.POINTER(w.DWORD))
+    open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
+    duplicate = api(A, "DuplicateTokenEx", w.BOOL, w.HANDLE, w.DWORD, c.c_void_p,
+                    c.c_int, c.c_int, c.POINTER(w.HANDLE))
+    pid, original, selected = w.DWORD(), w.HANDLE(), w.HANDLE()
+    window = shell()
+    if not window:
+        logging.info("No existing shell window; ordinary token unavailable")
+        return None
+    window_pid(window, c.byref(pid))
+    process = open_process(0x1000, False, pid.value)
+    if not process:
+        logging.info("Shell process token query unavailable error=%d", c.get_last_error())
+        return None
+    try:
+        checked(open_token(process, 0x000A, c.byref(original)), "OpenProcessToken(shell query/duplicate)")
+        owner_user, shell_user = token_buffer(owner, 1), token_buffer(original, 1)
+        owner_sid, shell_sid = SidAttributes.from_buffer(owner_user), SidAttributes.from_buffer(shell_user)
+        if not equal_sid(owner_sid.sid, shell_sid.sid):
+            raise RuntimeError("Existing shell belongs to another user; refusing token")
+        if w.DWORD.from_buffer(token_buffer(owner, 12)).value != w.DWORD.from_buffer(token_buffer(original, 12)).value:
+            raise RuntimeError("Existing shell belongs to another session; refusing token")
+        if elevated(original):
+            logging.info("Existing same-user shell is elevated; ordinary token unavailable")
+            return None
+        require_standard_token(original)
+        checked(duplicate(original, 0x018B, None, 2, 1, c.byref(selected)), "DuplicateTokenEx(ordinary shell)")
+        require_standard_token(selected)
+        logging.info("Selected existing same-user/session ordinary non-elevated shell token")
+        result, selected = selected, w.HANDLE()
+        return result
+    finally:
+        for handle in (selected, original):
+            if handle.value:
+                checked(close(handle), "CloseHandle(shell token)")
+        checked(close(process), "CloseHandle(shell process query)")
+
+
 def restricted_medium_token(token: object) -> object:
     """Restrict only a new child token; never change caller privileges, UAC or accounts."""
     restricted = w.HANDLE()
@@ -350,8 +391,10 @@ class Owner:
                     error = c.get_last_error()
                     if error != 1312:
                         raise OSError(error, "TokenLinkedToken failed")
-                    linked = restricted_medium_token(token)
-                    logging.info("Missing linked token; restricted duplicate verified non-elevated/Medium-or-lower/no enabled Administrators SID")
+                    linked = ordinary_shell_token(token)
+                    if linked is None:
+                        linked = restricted_medium_token(token)
+                        logging.info("Missing ordinary token; restricted duplicate verified non-elevated/Medium-or-lower/no enabled Administrators SID")
                 require_standard_token(linked)
                 if not create_with_token(linked, 0, command[0], line, flags, block, str(work),
                                          c.byref(startup), c.byref(self.info)):
