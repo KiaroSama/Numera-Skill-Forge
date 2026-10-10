@@ -63,8 +63,11 @@ Windows lane early and preserves launch diagnostics. This preflight is not GUI/I
 Missing token, desktop, matching runtime or cleanup capability fails, never skips green. Record actual
 results per final SHA; a prepared smoke script is not a passing runtime result. Windows uses the
 installed no-console `pythonw.exe` sibling for the worker and directly owns the matching Microsoft
-EdgeDriver process. The release is launched with native WebView2 capabilities; Linux retains the
-Tauri intermediary. Ordinary requests remain bounded to 10 seconds; cold Windows session creation
+EdgeDriver process. The worker directly launches the original release with captured startup output
+and a loopback-only debugging port, then attaches EdgeDriver through `debuggerAddress`; this preserves
+real native WebView2 DOM/IPC testing while exposing application exit codes. Linux retains the Tauri
+intermediary. A Windows-only manual diagnostic selection avoids repeating unrelated native builds;
+the default `all` selection still runs the complete four-platform final verification. Ordinary requests remain bounded to 10 seconds; cold Windows session creation
 has a separate 30-second ceiling inside the unchanged 120-second protocol deadline.
 
 The worker launch preflight now passes, but Windows GUI verification remains failed: the original

@@ -125,15 +125,16 @@ def worker(args: argparse.Namespace, run: Path) -> None:
         logging.info("Stage=%s", stage)
 
     checkpoint("private-desktop-unelevated-job-confirmed")
-    driver_port, native_port = linux.port(), linux.port()
-    while native_port == driver_port:
-        native_port = linux.port()
+    driver_port, debug_port = linux.port(), linux.port()
+    while debug_port == driver_port:
+        debug_port = linux.port()
     driver = linux.Driver(f"http://127.0.0.1:{driver_port}", time.monotonic() + 120)
     workspace = run / "workspace"
     workspace.mkdir()
-    process = None
+    process = application_process = None
     try:
-        with (run / "driver-output.log").open("w", encoding="utf-8") as output:
+        with (run / "driver-output.log").open("w", encoding="utf-8") as output, \
+                (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
             startup = subprocess.STARTUPINFO()
             startup.dwFlags = subprocess.STARTF_USESHOWWINDOW
             startup.wShowWindow = 0
@@ -155,9 +156,33 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                     raise TimeoutError("Windows native driver did not become ready")
                 time.sleep(0.1)
             checkpoint("driver-ready")
+            environment = {**os.environ,
+                           "WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS": f"--remote-debugging-port={debug_port}"}
+            application_process = subprocess.Popen([str(args.application)], cwd=run, env=environment,
+                                                    stdin=subprocess.DEVNULL, stdout=application_output,
+                                                    stderr=subprocess.STDOUT, creationflags=subprocess.CREATE_NO_WINDOW)
+            logging.info("Original application pid=%d started with captured diagnostics", application_process.pid)
+            checkpoint("original-application-started")
+            cdp = linux.Driver(f"http://127.0.0.1:{debug_port}", driver.deadline)
+            ready = time.monotonic() + 30
+            while True:
+                code = application_process.poll()
+                if code is not None:
+                    raise RuntimeError(f"Original application exited during startup code={code:#x}; see application-startup.log")
+                try:
+                    with cdp.http.open(cdp.address + "/json/version", timeout=1) as response:
+                        metadata = json.loads(response.read(65536).decode("utf-8"))
+                    if metadata.get("webSocketDebuggerUrl"):
+                        break
+                except (OSError, ValueError):
+                    pass
+                if time.monotonic() >= ready:
+                    raise TimeoutError("Original application did not expose its loopback debugging endpoint in 30s")
+                time.sleep(0.1)
+            checkpoint("original-webview-ready")
             session = driver.call("POST", "/session", {"capabilities": {"alwaysMatch": {
                 "browserName": "webview2", "ms:edgeChromium": True,
-                "ms:edgeOptions": {"binary": str(args.application)}}}}, request_timeout=30)
+                "ms:edgeOptions": {"debuggerAddress": f"127.0.0.1:{debug_port}"}}}}, request_timeout=30)
             driver.session = session["sessionId"]
             checkpoint("native-session-created")
             driver.call("POST", f"/session/{driver.session}/timeouts", {"implicit": 0, "pageLoad": 30000, "script": 10000})
@@ -196,13 +221,14 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                 driver.call("DELETE", f"/session/{driver.session}")
             except (OSError, linux.WebDriverError, ValueError, TimeoutError):
                 logging.warning("Session close failed; outer owner will terminate its Job Object")
-        if process:
-            process.terminate() if process.poll() is None else None
-            try:
-                process.wait(timeout=5)
-            except subprocess.TimeoutExpired:
-                process.kill()
-                process.wait(timeout=5)
+        for child in (application_process, process):
+            if child:
+                child.terminate() if child.poll() is None else None
+                try:
+                    child.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    child.kill()
+                    child.wait(timeout=5)
     checkpoint("contracts-complete")
 
 

@@ -1,6 +1,12 @@
 name: Native desktop build
 on:
   workflow_dispatch:
+    inputs:
+      platform:
+        description: Native platform (all for final verification; windows for focused diagnosis)
+        type: choice
+        default: all
+        options: [all, windows]
 permissions:
   contents: read
 jobs:
@@ -8,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-latest, ubuntu-24.04, macos-15, macos-15-intel]
+        os: ${{ fromJSON(inputs.platform == 'windows' && '["windows-latest"]' || '["windows-latest","ubuntu-24.04","macos-15","macos-15-intel"]') }}
     runs-on: ${{ matrix.os }}
     timeout-minutes: 40
     env:
