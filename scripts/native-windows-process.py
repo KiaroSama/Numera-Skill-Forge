@@ -186,7 +186,21 @@ def diagnose_launch_access(token: object, command: list[str], work: Path, deskto
         logging.error("Launch access probe impersonation failed error=%d", c.get_last_error())
         return
     observations = []
+    open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
+    duplicate_token = api(A, "DuplicateTokenEx", w.BOOL, w.HANDLE, w.DWORD, c.c_void_p,
+                          c.c_int, c.c_int, c.POINTER(w.HANDLE))
     try:
+        for label, access in [("caller-process-duplicate-handle", 0x40),
+                              ("caller-process-query-limited", 0x1000)]:
+            handle = open_process(access, False, os.getpid())
+            observations.append((label, access, 0 if handle else c.get_last_error()))
+            if handle:
+                checked(close(handle), "CloseHandle(caller access probe)")
+        duplicate = w.HANDLE()
+        result = duplicate_token(token, 0x000B, None, 2, 1, c.byref(duplicate))
+        observations.append(("candidate-token-duplicate-primary", 0x000B, 0 if result else c.get_last_error()))
+        if result:
+            checked(close(duplicate), "CloseHandle(duplicate access probe)")
         # Opening existing local objects only; no reads, writes, process or desktop switching.
         for label, path, access, flags in [
             ("worker-executable-read-execute", command[0], 0xA0000000, 0),

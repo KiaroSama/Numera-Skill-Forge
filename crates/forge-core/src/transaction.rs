@@ -29,6 +29,16 @@ impl Writer {
     }
 }
 
+impl Drop for Writer {
+    fn drop(&mut self) {
+        // Concurrent fork can retain the open-file description after our close on Unix.
+        // Release the lock explicitly at the end of the operation, not at the last close.
+        if let Err(error) = self._file.unlock() {
+            eprintln!("Forge writer lock release failed: {error}");
+        }
+    }
+}
+
 #[derive(Clone, Serialize, Deserialize)]
 pub struct Change {
     pub path: String,
