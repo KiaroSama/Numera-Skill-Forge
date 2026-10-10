@@ -43,7 +43,12 @@ class Driver:
             with self.http.open(request, timeout=min(request_timeout, remaining)) as response:
                 result = json.loads(response.read(1024 * 1024).decode("utf-8"))
         except urllib.error.HTTPError as error:
-            raise WebDriverError(f"Native WebDriver request failed with HTTP {error.code}") from error
+            try:
+                failure = json.loads(error.read(65536).decode("utf-8"))
+                detail = failure.get("value", {}).get("message", "")
+            except (ValueError, UnicodeError, AttributeError):
+                detail = "Unparseable driver error"
+            raise WebDriverError(f"Native WebDriver request failed with HTTP {error.code}: {detail[:3000]}") from error
         value = result.get("value")
         if isinstance(value, dict) and value.get("error"):
             raise WebDriverError(f"Native WebDriver error: {value['error']}")
