@@ -157,7 +157,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             checkpoint("driver-ready")
             session = driver.call("POST", "/session", {"capabilities": {"alwaysMatch": {
                 "browserName": "webview2", "ms:edgeChromium": True,
-                "ms:edgeOptions": {"binary": str(args.application)}}}})
+                "ms:edgeOptions": {"binary": str(args.application)}}}}, request_timeout=30)
             driver.session = session["sessionId"]
             checkpoint("native-session-created")
             driver.call("POST", f"/session/{driver.session}/timeouts", {"implicit": 0, "pageLoad": 30000, "script": 10000})

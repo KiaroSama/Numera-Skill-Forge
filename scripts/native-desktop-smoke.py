@@ -32,7 +32,7 @@ class Driver:
         self.session = None
         self.http = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
-    def call(self, method, path, payload=None):
+    def call(self, method, path, payload=None, request_timeout=10):
         remaining = self.deadline - time.monotonic()
         if remaining <= 0:
             raise TimeoutError("Native smoke exceeded its 120-second deadline")
@@ -40,7 +40,7 @@ class Driver:
         request = urllib.request.Request(self.address + path, data=data, method=method,
                                          headers={"Content-Type": "application/json; charset=utf-8"})
         try:
-            with self.http.open(request, timeout=min(10, remaining)) as response:
+            with self.http.open(request, timeout=min(request_timeout, remaining)) as response:
                 result = json.loads(response.read(1024 * 1024).decode("utf-8"))
         except urllib.error.HTTPError as error:
             raise WebDriverError(f"Native WebDriver request failed with HTTP {error.code}") from error
