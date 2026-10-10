@@ -258,6 +258,7 @@ class Owner:
         self.started = time.monotonic()
         self.desktop_name = f"NumeraNative-{os.getpid()}-{time.monotonic_ns()}"
         token, linked, child_token = w.HANDLE(), w.HANDLE(), w.HANDLE()
+        streams = []
         try:
             self.desktop = checked(create_desktop(self.desktop_name, None, None, 0, 0x01FF, None), "CreateDesktopW")
             self.job = checked(create_job(None, None), "CreateJobObjectW")
@@ -268,8 +269,18 @@ class Owner:
             startup = Startup()
             startup.cb = c.sizeof(startup)
             startup.desktop = self.desktop_name
-            startup.flags = 1  # STARTF_USESHOWWINDOW, SW_HIDE.
+            startup.flags = 1 | 0x100  # USESHOWWINDOW | USESTDHANDLES; never inherit CI console.
             startup.show = 0
+            import msvcrt
+
+            for attribute, path, mode in [("stdin", "NUL", "rb"),
+                                          ("stdout", work / "worker-stdout.log", "xb"),
+                                          ("stderr", work / "worker-stderr.log", "xb")]:
+                stream = open(path, mode)
+                streams.append(stream)
+                handle = msvcrt.get_osfhandle(stream.fileno())
+                os.set_handle_inheritable(handle, True)
+                setattr(startup, attribute, handle)
             environment = {**environment, "FORGE_NATIVE_DESKTOP": self.desktop_name}
             block = c.create_unicode_buffer("\0".join(f"{key}={value}" for key, value in sorted(environment.items(), key=lambda item: item[0].upper())) + "\0\0")
             line = c.create_unicode_buffer(subprocess.list2cmdline(command))
@@ -295,7 +306,7 @@ class Owner:
                     raise launch_error
             else:
                 require_standard_token(token)
-                checked(create_process(command[0], line, None, None, False, flags, block, str(work),
+                checked(create_process(command[0], line, None, None, True, flags, block, str(work),
                                        c.byref(startup), c.byref(self.info)), "CreateProcessW")
             self.pid = self.info.pid
             checked(assign_job(self.job, self.info.process), "AssignProcessToJobObject(suspended)")
@@ -303,13 +314,19 @@ class Owner:
             checked(open_token(self.info.process, 8, c.byref(child_token)), "OpenProcessToken(suspended worker)")
             require_standard_token(child_token)
             logging.info("Suspended worker token verified non-elevated/Medium-or-lower/no enabled Administrators SID; Job assigned before resume")
-            if resume(self.info.thread) == 0xFFFFFFFF:
+            suspended_count = resume(self.info.thread)
+            logging.info("Worker ResumeThread previous suspend count=%d", suspended_count)
+            if suspended_count == 0xFFFFFFFF:
                 raise OSError(c.get_last_error(), "ResumeThread failed")
+            if suspended_count != 1:
+                raise RuntimeError(f"Worker thread had unexpected suspend count {suspended_count}")
         except BaseException:
             self.stop()
             raise
         finally:
             try:
+                for stream in streams:
+                    stream.close()
                 for handle in (child_token, linked, token):
                     if handle.value:
                         checked(close(handle), "CloseHandle(token)")
