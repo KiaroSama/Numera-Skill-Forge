@@ -61,5 +61,15 @@ and window station; the probes neither change permissions nor start a fallback p
 first-party worker preflight exercises the same owner before native compilation; failure stops the
 Windows lane early and preserves launch diagnostics. This preflight is not GUI/IPC verification.
 Missing token, desktop, matching runtime or cleanup capability fails, never skips green. Record actual
-results per final SHA; a prepared smoke script is not a passing runtime result. macOS GUI startup
-remains untested without a supported isolated silent native WebDriver.
+results per final SHA; a prepared smoke script is not a passing runtime result. Windows uses the
+installed no-console `pythonw.exe` sibling for the worker and directly owns the matching Microsoft
+EdgeDriver process. The release is launched with native WebView2 capabilities; Linux retains the
+Tauri intermediary. Ordinary requests remain bounded to 10 seconds; cold Windows session creation
+has a separate 30-second ceiling inside the unchanged 120-second protocol deadline.
+
+The worker launch preflight now passes, but Windows GUI verification remains failed: the original
+application exits during WebView2 session creation, reporting a missing DevToolsActivePort file.
+Microsoft documents a [restricted-token WebView2 limitation](https://github.com/MicrosoftEdge/WebView2Feedback/issues/4850#issuecomment-2412609705),
+which is relevant evidence, not proof of this application's exact crash cause. No browser sandbox
+is disabled, no system policy is changed, and this failure is not converted to a passing skip.
+macOS GUI startup remains untested without a supported isolated silent native WebDriver.
