@@ -263,6 +263,19 @@ def diagnose_thread_wait(thread_id: int) -> None:
                 logging.error("Wait-chain thread pid=%d tid=%d status=%d wait=%d switches=%d",
                               node.detail.thread.pid, node.detail.thread.tid, node.status,
                               node.detail.thread.wait, node.detail.thread.switches)
+                open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
+                query_image = api(K, "QueryFullProcessImageNameW", w.BOOL, w.HANDLE, w.DWORD,
+                                  w.LPWSTR, c.POINTER(w.DWORD))
+                session_id = api(K, "ProcessIdToSessionId", w.BOOL, w.DWORD, c.POINTER(w.DWORD))
+                handle = open_process(0x1000, False, node.detail.thread.pid)
+                image, length, session = c.create_unicode_buffer(1024), w.DWORD(1024), w.DWORD()
+                session_id(node.detail.thread.pid, c.byref(session))
+                if handle:
+                    try:
+                        if query_image(handle, 0, image, c.byref(length)):
+                            logging.error("Wait endpoint image=%s session=%d", Path(image.value).name, session.value)
+                    finally:
+                        checked(close(handle), "CloseHandle(wait endpoint query)")
             else:
                 logging.error("Wait-chain object type=%d status=%d", node.kind, node.status)
     finally:
