@@ -59,11 +59,11 @@ def main() -> None:
         sha = os.environ.get("GITHUB_SHA")
         if not sha or len(sha) != 40 or any(c not in "0123456789abcdef" for c in sha):
             raise ValueError("Verified workflow commit identity is required")
-        # Read existing locked metadata only; this never installs or builds a package.
+        # Resolve the committed lock only; Cargo may download missing manifests but runs no builds.
         rust = subprocess.run(["rustc", "-vV"], cwd=root, stdin=subprocess.DEVNULL, capture_output=True,
                               timeout=10, check=True, creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0)
         host = next(line.removeprefix("host: ") for line in rust.stdout.decode("utf-8").splitlines() if line.startswith("host: "))
-        command = subprocess.run(["cargo", "metadata", "--locked", "--offline", "--filter-platform", host, "--format-version", "1"],
+        command = subprocess.run(["cargo", "metadata", "--locked", "--filter-platform", host, "--format-version", "1"],
                                  cwd=root, stdin=subprocess.DEVNULL, capture_output=True, timeout=30, check=True,
                                  creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0)
         cargo = json.loads(command.stdout.decode("utf-8"))

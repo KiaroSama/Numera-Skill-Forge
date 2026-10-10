@@ -25,7 +25,14 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential libxdo-dev libssl-dev librsvg2-dev libayatana-appindicator3-dev patchelf webkit2gtk-driver xvfb
         timeout-minutes: 5
       - run: npm ci --prefix apps/desktop --ignore-scripts
-      - run: npm --prefix apps/desktop run tauri -- build
+      - name: Build native unsigned bundle
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "macOS" ]]; then
+            npm --prefix apps/desktop run tauri -- build --bundles app
+          else
+            npm --prefix apps/desktop run tauri -- build
+          fi
         timeout-minutes: 30
       - name: Install project-local native test driver
         if: runner.os == 'Linux'

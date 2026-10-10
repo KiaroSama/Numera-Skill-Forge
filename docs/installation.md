@@ -20,6 +20,9 @@ protections to run an unsigned application. No end-user Rust/Node requirement is
 The manual native workflow also supplies `SHA256SUMS.txt` and `distribution-manifest.json` with exact
 commit, native runner architecture, package-file hashes and locked Cargo dependency license inventory.
 These are integrity/provenance records, not signatures or proof that every host runtime was exercised.
+macOS artifacts contain the native `.app` bundle for Intel or ARM; the manual workflow does not promise
+an unsigned DMG installer. Locked metadata resolution may download missing Cargo manifests, never
+runs dependency builds or changes the lockfile, and remains bounded.
 
 ## CLI controls
 
