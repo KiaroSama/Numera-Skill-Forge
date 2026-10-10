@@ -134,10 +134,13 @@ def worker(args: argparse.Namespace, run: Path) -> None:
     process = None
     try:
         with (run / "driver-output.log").open("w", encoding="utf-8") as output:
+            startup = subprocess.STARTUPINFO()
+            startup.dwFlags = subprocess.STARTF_USESHOWWINDOW
+            startup.wShowWindow = 0
             process = subprocess.Popen([str(args.driver), "--port", str(driver_port), "--native-port", str(native_port),
                                         "--native-driver", str(args.native_driver)], cwd=run,
                                        stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
-                                       creationflags=subprocess.DETACHED_PROCESS)
+                                       startupinfo=startup, creationflags=subprocess.CREATE_NEW_CONSOLE)
             checkpoint("driver-started")
             ready = time.monotonic() + 20
             while True:
