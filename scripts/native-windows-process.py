@@ -268,7 +268,14 @@ class Owner:
             checked(open_token(current(), 0x018B, c.byref(token)), "OpenProcessToken(query/duplicate/assign/default/session)")
             startup = Startup()
             startup.cb = c.sizeof(startup)
-            startup.desktop = self.desktop_name
+            station = api(U, "GetProcessWindowStation", w.HANDLE)
+            get_name = api(U, "GetUserObjectInformationW", w.BOOL, w.HANDLE, c.c_int,
+                           c.c_void_p, w.DWORD, c.POINTER(w.DWORD))
+            station_name, size = c.create_unicode_buffer(256), w.DWORD()
+            checked(get_name(station(), 2, station_name, c.sizeof(station_name), c.byref(size)),
+                    "GetUserObjectInformationW(window station)")
+            startup.desktop = f"{station_name.value}\\{self.desktop_name}"
+            logging.info("Worker destination window-station=%s private-desktop=%s", station_name.value, self.desktop_name)
             startup.flags = 1 | 0x100  # USESHOWWINDOW | USESTDHANDLES; never inherit CI console.
             startup.show = 0
             import msvcrt
