@@ -8,6 +8,8 @@ use std::{
     path::{Path, PathBuf},
 };
 
+#[path = "sources/authentication.rs"]
+mod authentication;
 #[path = "sources/providers.rs"]
 pub(crate) mod providers;
 #[path = "sources/refs.rs"]
@@ -66,7 +68,7 @@ pub fn candidate(workspace: &Path, source: &Source, offline: bool) -> Result<(Sn
         validation::reject_link(&state)?;
     }
     fs::create_dir_all(&state)?;
-    let transport = providers::Transport::new(&state, source)?;
+    let transport = providers::Transport::new(&state, source, offline)?;
     let cache = validation::contained(&state, &format!("snapshots/{}", source.id))?;
     fs::create_dir_all(&cache)?;
     let origin = if let Some(local) = source.repository.strip_prefix("local:") {

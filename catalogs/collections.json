@@ -1281,6 +1281,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-database-supabase-postgres-best-practices",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/database/supabase-postgres-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-design-to-code",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",

@@ -17,7 +17,42 @@ pub fn git_input(
     environment: &[(&str, &str)],
     input: Option<Vec<u8>>,
 ) -> Result<Vec<u8>> {
+    git_command(args, timeout, environment, input, false)
+}
+pub fn git_isolated(
+    args: &[String],
+    timeout: u64,
+    environment: &[(&str, &str)],
+) -> Result<Vec<u8>> {
+    git_command(args, timeout, environment, None, true)
+}
+fn git_command(
+    args: &[String],
+    timeout: u64,
+    environment: &[(&str, &str)],
+    input: Option<Vec<u8>>,
+    isolated: bool,
+) -> Result<Vec<u8>> {
     let mut command = Command::new("git");
+    if isolated {
+        command.env_clear();
+        for key in [
+            "PATH",
+            "PATHEXT",
+            "SYSTEMROOT",
+            "WINDIR",
+            "COMSPEC",
+            "TEMP",
+            "TMP",
+            "TMPDIR",
+            "LANG",
+            "LC_ALL",
+        ] {
+            if let Some(value) = std::env::var_os(key) {
+                command.env(key, value);
+            }
+        }
+    }
     for (key, value) in environment {
         command.env(key, value);
     }

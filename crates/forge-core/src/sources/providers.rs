@@ -6,7 +6,7 @@ use std::{
 };
 
 // Keep extended paths for filesystem validation; normalize only the Git execution boundary.
-fn external_path(value: &str) -> String {
+pub(super) fn external_path(value: &str) -> String {
     if cfg!(windows) {
         if let Some(path) = value.strip_prefix("\\\\?\\UNC\\") {
             return format!("\\\\{path}");
@@ -47,6 +47,7 @@ pub fn validate(source: &Source) -> Result<()> {
             ));
         }
     }
+    super::authentication::ssh(source)?;
     repository(&source.repository, source.metadata.get("provider_policy"))
 }
 
@@ -157,13 +158,11 @@ pub fn repository(repository: &str, policy: Option<&serde_json::Value>) -> Resul
 
 pub fn acquisition(source: &Source, offline: bool) -> Result<()> {
     validate(source)?;
-    if !offline && source.credential_reference.is_some() {
-        return Err(Error::new(
-            "credential-provider-unavailable",
-            "Authenticated acquisition is blocked: no approved store/environment process boundary is integrated; credential reference was not resolved",
-        ));
-    }
-    if !offline && source.repository.starts_with("ssh://") {
+    super::authentication::header(source, offline)?;
+    if !offline
+        && source.repository.starts_with("ssh://")
+        && super::authentication::ssh(source)?.is_none()
+    {
         return Err(Error::new(
             "ssh-provider-unavailable",
             "SSH acquisition is blocked: approved agent identity and pinned host-key isolation are unavailable; no user SSH credentials or config will be read",
@@ -175,6 +174,9 @@ pub fn acquisition(source: &Source, offline: bool) -> Result<()> {
 // The shared process owner is reused; this context carries only public isolation settings.
 pub struct Transport {
     home: Option<PathBuf>,
+    header: Option<String>,
+    ssh: Option<String>,
+    repository: String,
 }
 impl Drop for Transport {
     fn drop(&mut self) {
@@ -184,35 +186,31 @@ impl Drop for Transport {
     }
 }
 impl Transport {
-    pub fn new(state: &Path, source: &Source) -> Result<Self> {
+    pub fn new(state: &Path, source: &Source, offline: bool) -> Result<Self> {
         if source.repository.starts_with("local:") {
-            return Ok(Self { home: None });
+            return Ok(Self {
+                home: None,
+                header: None,
+                ssh: None,
+                repository: source.repository.clone(),
+            });
         }
-        // git_env cannot remove inherited variables. Refuse overrides before spawning Git.
-        for (name, _) in std::env::vars_os() {
-            let key = name.to_string_lossy().to_ascii_uppercase();
-            if (key.starts_with("GIT_")
-                && !matches!(
-                    key.as_str(),
-                    "GIT_TERMINAL_PROMPT" | "GIT_CONFIG_NOSYSTEM" | "GIT_CONFIG_GLOBAL"
-                ))
-                || matches!(
-                    key.as_str(),
-                    "HTTP_PROXY" | "HTTPS_PROXY" | "ALL_PROXY" | "CURL_HOME" | "SSLKEYLOGFILE"
-                )
-            {
-                return Err(Error::new(
-                    "provider-environment",
-                    "Inherited Git/HTTP override prevents isolated acquisition; launch with a clean transport environment",
-                ));
-            }
-        }
+        let header = super::authentication::header(source, offline)?;
         let home = state.join(format!(
             "provider-home-{}",
             crate::transaction::operation_id()
         ));
         fs::create_dir(&home)?;
-        Ok(Self { home: Some(home) })
+        let mut transport = Self {
+            home: Some(home.clone()),
+            header,
+            ssh: None,
+            repository: source.repository.clone(),
+        };
+        if !offline {
+            transport.ssh = super::authentication::command(source, &home)?;
+        }
+        Ok(transport)
     }
     pub fn git(&self, args: &[String], timeout: u64) -> Result<Vec<u8>> {
         let Some(home) = &self.home else {
@@ -247,6 +245,12 @@ impl Transport {
         ] {
             command.extend(["-c".into(), setting.into()]);
         }
+        if self.header.is_some() {
+            command.push(format!(
+                "--config-env=http.{}.extraHeader=FORGE_AUTH_HEADER",
+                self.repository
+            ));
+        }
         command.extend(args.iter().enumerate().map(|(index, value)| {
             if index > 0 && matches!(args[index - 1].as_str(), "-C" | "--git-dir" | "--file") {
                 external_path(value)
@@ -254,20 +258,29 @@ impl Transport {
                 value.clone()
             }
         }));
-        process::git_env(
-            &command,
-            timeout,
-            &[
-                ("HOME", &directory),
-                ("USERPROFILE", &directory),
-                ("XDG_CONFIG_HOME", &directory),
-                ("GIT_CEILING_DIRECTORIES", &ceiling),
-                ("GIT_ALLOW_PROTOCOL", "https"),
-                ("GIT_ASKPASS", ""),
-                ("SSH_ASKPASS", ""),
-                ("GIT_TRACE_REDACT", "1"),
-            ],
-        )
+        let mut environment = vec![
+            ("HOME", directory.as_str()),
+            ("USERPROFILE", directory.as_str()),
+            ("XDG_CONFIG_HOME", directory.as_str()),
+            ("GIT_CEILING_DIRECTORIES", ceiling.as_str()),
+            (
+                "GIT_ALLOW_PROTOCOL",
+                if self.ssh.is_some() { "ssh" } else { "https" },
+            ),
+            ("GIT_ASKPASS", ""),
+            ("SSH_ASKPASS", ""),
+            ("GIT_TRACE_REDACT", "1"),
+        ];
+        if let Some(header) = &self.header {
+            environment.push(("FORGE_AUTH_HEADER", header));
+        }
+        if let Some(ssh) = &self.ssh {
+            environment.extend([
+                ("GIT_SSH_COMMAND", ssh.as_str()),
+                ("GIT_SSH_VARIANT", "ssh"),
+            ]);
+        }
+        process::git_isolated(&command, timeout, &environment)
     }
     pub fn verify_cache(&self, bare: &Path, repository: &str) -> Result<()> {
         validation::reject_link(bare)?;

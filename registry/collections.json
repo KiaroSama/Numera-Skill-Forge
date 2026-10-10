@@ -8114,6 +8114,22 @@
             }
           ],
           "attribution": "Copyright 2025 Functional Software, Inc. dba Sentry. Exact original code-review skill from getsentry/skills at20886b3f82305f6769468a02f87780a139016730, carried unchanged through davila7/claude-code-templates. Forge adds only packaging; no skill modifications or endorsement claimed."
+        },
+        {
+          "id": "skill-database-supabase-postgres-best-practices",
+          "root": "cli-tool/components/skills/database/supabase-postgres-best-practices",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c",
+          "notices": [
+            {
+              "path": "registry/licenses/b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c.txt",
+              "digest": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c",
+              "source": "https://github.com/supabase/agent-skills/blob/dfd956df581f1715cd0b6d031700472c847d21b3/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Copyright (c) 2026 Supabase. Complete original MIT notice added by upstream in merged PR35. Exact historical Supabase skill payload retained via davila7/claude-code-templates; Forge modifies no original files and claims no endorsement."
         }
       ]
     }

@@ -25,7 +25,7 @@ until explicitly recorded; a listed profile is static contract evidence only.
 
 Collection fixtures exercise exact original companion scripts without execution, metadata modes,
 idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
-and user-edit refusal. The assembled reviewed source import independently matched4224payload blobs from479
+and user-edit refusal. The assembled reviewed source import independently matched4262payload blobs from480
 plugins against immutable upstream Git SHA-1 and mode records. No source runtime scripts were run.
 Additional public seams cover dependency closure/coherent lock rollback, scoped/shared installation,
 managed JSON baselines, durable per-step job progress, failed-only retry (completed observations are
@@ -49,6 +49,10 @@ macOS Intel. `scripts/distribution-manifest.py` records SHA-256 per bundle file,
 runner architecture and locked Cargo license inventory; missing signing remains explicitly unsigned.
 Manifest generation logs UTC UTF-8 under project-local diagnostics; those logs are not public bundles. Its Linux tier runs the original
 release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
-real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows/macOS
-GUI startup remains untested when no silent native session is available. A prepared smoke script is
-not a passing runtime result; read the exact workflow SHA and step outcome.
+real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows now has
+an explicit hosted tier using an exact matching Microsoft driver, never-switched private desktop,
+linked unelevated token where needed and suspended child attached to a kill-on-close Job before resume.
+It asserts original-release DOM/IPC, persisted check-only job, invalid workspace, logs and owned cleanup.
+Missing token, desktop, matching runtime or cleanup capability fails, never skips green. Record actual
+results per final SHA; a prepared smoke script is not a passing runtime result. macOS GUI startup
+remains untested without a supported isolated silent native WebDriver.

@@ -27,13 +27,22 @@
         },
         "metadata": {
           "type": "object",
-          "properties": { "provider_policy": { "$ref": "#/$defs/provider_policy" } }
+          "properties": { "provider_policy": { "$ref": "#/$defs/provider_policy" }, "ssh_authentication": { "$ref": "#/$defs/ssh_authentication" } }
         },
         "credential_reference": {
           "type": ["string", "null"], "maxLength": 64,
           "pattern": "^[A-Za-z][A-Za-z0-9_-]*$",
-          "description": "Public credential key only. Online authenticated acquisition is blocked until a secure runtime provider is integrated."
+          "description": "Explicit caller environment key containing Basic or Bearer authorization. The value stays off process arguments, configuration and logs; offline access needs no credential."
         }
+      }
+    },
+    "ssh_authentication": {
+      "type": "object", "additionalProperties": false,
+      "required": ["public_key_reference", "known_hosts_reference", "agent_reference"],
+      "properties": {
+        "public_key_reference": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$" },
+        "known_hosts_reference": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$" },
+        "agent_reference": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]{0,63}$" }
       }
     },
     "provider_policy": {

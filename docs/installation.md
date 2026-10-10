@@ -52,6 +52,16 @@ publisher stages only intended distribution paths in an isolated index, preserve
 staging, hashes raw bytes without upstream filters and never force-pushes. Real account/protection/
 CI requirements remain separate checks; a local fixture does not certify them.
 
+## Explicit source authentication
+
+Supply only public environment-key names in source registration. HTTPS `credential_reference` resolves
+an explicitly supplied Basic/Bearer authorization value into the isolated Git child, not command-line
+arguments, configuration files or logs. SSH requires explicit public-key, pinned-host and agent references;
+private keys and personal host configurations are not imported. See [source policies](source-format.md).
+Configure credentials through an approved local/deployment secret manager; never put real values in
+examples, shell history, public registration or support bundles. Private service connectivity still
+requires an authorized endpoint and runtime verification; input validation is not an end-to-end claim.
+
 ## Safe lifecycle
 
 Run install with `--dry-run` first. Files already present without an unchanged ownership receipt

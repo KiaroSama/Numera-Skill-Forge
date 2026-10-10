@@ -9,6 +9,6 @@ rust-version.workspace = true
 tauri-build = "2"
 
 [dependencies]
-tauri = "2.12.1"
+tauri = "2.12.3"
 forge-core = { path = "../../../crates/forge-core" }
 serde_json.workspace = true

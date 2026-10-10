@@ -1,0 +1,12 @@
+{
+  "attribution": "Copyright (c) 2026 Supabase. Complete original MIT notice added by upstream in merged PR35. Exact historical Supabase skill payload retained via davila7/claude-code-templates; Forge modifies no original files and claims no endorsement.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c",
+      "license": "MIT",
+      "path": "registry/licenses/b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c.txt",
+      "source": "https://github.com/supabase/agent-skills/blob/dfd956df581f1715cd0b6d031700472c847d21b3/LICENSE"
+    }
+  ]
+}

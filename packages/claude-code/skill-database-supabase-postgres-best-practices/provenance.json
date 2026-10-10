@@ -1,0 +1,278 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a5226ca435fe12cf69ef8343aeaa5a9f2ae40679986b09eacb247711471e8722",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/AGENTS.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/AGENTS.md",
+      "size": 44927
+    },
+    {
+      "digest": "7d3bee6daab57a0ca1944835e151a249ee83fe9d4336229f86bef97f82f5ddd3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/README.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/README.md",
+      "size": 3122
+    },
+    {
+      "digest": "7ecae0a1ba93a254e795212926c5e93ec4baba9c1809b6522561dd171b679176",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/SKILL.md",
+      "size": 1887
+    },
+    {
+      "digest": "e9d229d6d36f0cb4d4e105dd122155e363c38c6a4b8c5cfa1e51695d4e944199",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/metadata.json",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/metadata.json",
+      "size": 818
+    },
+    {
+      "digest": "6fbf4930e3d1ffc02ce110a2b92ab593d1268a93ae3547c335c4e756e8cfa10d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/_contributing.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/_contributing.md",
+      "size": 4147
+    },
+    {
+      "digest": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/_sections.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/_sections.md",
+      "size": 1682
+    },
+    {
+      "digest": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/_template.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/_template.md",
+      "size": 1040
+    },
+    {
+      "digest": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/advanced-full-text-search.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/advanced-full-text-search.md",
+      "size": 1468
+    },
+    {
+      "digest": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/advanced-jsonb-indexing.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/advanced-jsonb-indexing.md",
+      "size": 1444
+    },
+    {
+      "digest": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/conn-idle-timeout.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/conn-idle-timeout.md",
+      "size": 1282
+    },
+    {
+      "digest": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/conn-limits.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/conn-limits.md",
+      "size": 1325
+    },
+    {
+      "digest": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/conn-pooling.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/conn-pooling.md",
+      "size": 1382
+    },
+    {
+      "digest": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/conn-prepared-statements.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/conn-prepared-statements.md",
+      "size": 1529
+    },
+    {
+      "digest": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/data-batch-inserts.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/data-batch-inserts.md",
+      "size": 1287
+    },
+    {
+      "digest": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/data-n-plus-one.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/data-n-plus-one.md",
+      "size": 1361
+    },
+    {
+      "digest": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/data-pagination.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/data-pagination.md",
+      "size": 1358
+    },
+    {
+      "digest": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/data-upsert.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/data-upsert.md",
+      "size": 1390
+    },
+    {
+      "digest": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/lock-advisory.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/lock-advisory.md",
+      "size": 1531
+    },
+    {
+      "digest": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/lock-deadlock-prevention.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/lock-deadlock-prevention.md",
+      "size": 1855
+    },
+    {
+      "digest": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/lock-short-transactions.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/lock-short-transactions.md",
+      "size": 1350
+    },
+    {
+      "digest": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/lock-skip-locked.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/lock-skip-locked.md",
+      "size": 1353
+    },
+    {
+      "digest": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/monitor-explain-analyze.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/monitor-explain-analyze.md",
+      "size": 1441
+    },
+    {
+      "digest": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/monitor-pg-stat-statements.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/monitor-pg-stat-statements.md",
+      "size": 1418
+    },
+    {
+      "digest": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/monitor-vacuum-analyze.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/monitor-vacuum-analyze.md",
+      "size": 1506
+    },
+    {
+      "digest": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/query-composite-indexes.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/query-composite-indexes.md",
+      "size": 1454
+    },
+    {
+      "digest": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/query-covering-indexes.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/query-covering-indexes.md",
+      "size": 1287
+    },
+    {
+      "digest": "d46ccff68e3d6e1974da0189478cb5bfad64ce58dc12f051544a38af3cd3392f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/query-index-types.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/query-index-types.md",
+      "size": 1385
+    },
+    {
+      "digest": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/query-missing-indexes.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/query-missing-indexes.md",
+      "size": 1218
+    },
+    {
+      "digest": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/query-partial-indexes.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/query-partial-indexes.md",
+      "size": 1347
+    },
+    {
+      "digest": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/schema-data-types.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/schema-data-types.md",
+      "size": 1453
+    },
+    {
+      "digest": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/schema-foreign-key-indexes.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/schema-foreign-key-indexes.md",
+      "size": 1679
+    },
+    {
+      "digest": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/schema-lowercase-identifiers.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/schema-lowercase-identifiers.md",
+      "size": 1728
+    },
+    {
+      "digest": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/schema-partitioning.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/schema-partitioning.md",
+      "size": 1548
+    },
+    {
+      "digest": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/schema-primary-keys.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/schema-primary-keys.md",
+      "size": 1821
+    },
+    {
+      "digest": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/security-privileges.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/security-privileges.md",
+      "size": 1566
+    },
+    {
+      "digest": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/security-rls-basics.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/security-rls-basics.md",
+      "size": 1372
+    },
+    {
+      "digest": "ee62c6e34468df8673d625291c1fcd7fb87041f122325eba224fc492cfe01bb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-supabase-postgres-best-practices/skills/supabase-postgres-best-practices/rules/security-rls-performance.md",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/rules/security-rls-performance.md",
+      "size": 1493
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "58b6c0577fb0509d1ebbd670fb134853fc905a44d4747714f99440f5ed2e3184",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/supabase-postgres-best-practices",
+  "schema_version": 1
+}

@@ -965,6 +965,12 @@
       "version": "1.0.0"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/database/supabase-postgres-best-practices",
+      "name": "skill-database-supabase-postgres-best-practices",
+      "source": "./packages/claude-code/skill-database-supabase-postgres-best-practices",
+      "version": "1.0.0"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/design-to-code",
       "name": "skill-design-to-code",
       "source": "./packages/claude-code/skill-design-to-code",

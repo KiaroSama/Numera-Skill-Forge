@@ -24,9 +24,10 @@ No HTTP management server, telemetry, AI subscription, daemon or GPU runtime is 
 ## Development preview limits
 
 This repository is not yet the entire requested finished product. Native runtime component coverage,
-authenticated HTTPS/SSH acquisition and complete native OS/host release smoke certification remain
-required. Reviewed custom public HTTPS has explicit provider policy and isolated acquisition; private
-credential and SSH registrations fail closed until their secure runtime boundary exists. Coordinated
+actual private-host authentication and complete native OS/host release smoke certification remain
+required validation. Reviewed HTTPS acquisition supports explicit caller authorization environment
+references in an isolated child; SSH requires explicit public identity, agent and pinned host files.
+No ambient credential/SSH configuration is used. Missing required input fails closed. Coordinated
 same-destination owner updates use one recoverable payload/receipt journal and retain disabled-owner
 reservations; incompatible next bytes/modes/configuration refuse before mutation. Desktop opening is check-only by default;
 a per-workspace explicit opt-in requests policy-approved sync and dependency rebuild through the same

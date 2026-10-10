@@ -38,23 +38,32 @@ operator (the marker is a decision record, not an automatic security certificati
 The policy binds the exact lowercase DNS host and transport; unknown policy fields, wildcard hosts,
 userinfo, ports, URL-encoded syntax, traversal, query/fragment and control characters are rejected.
 HTTPS uses isolated empty credential/config home, no credential helpers, redirects or checkout;
-TLS verification stays enabled. Unsafe inherited Git/HTTP overrides return `provider-environment`.
+TLS verification stays enabled. Child transport starts with an allowlisted OS environment; inherited
+Git tracing, configuration injection, proxy and implicit authentication variables are not forwarded.
 Cached repository configuration is checked before use; extra includes, alternate object stores or
 unreviewed settings return `cache-policy` without changing accepted snapshots. The existing process
 owner supplies deadlines, cancellation and pipe cleanup; upstream blobs/hooks are never executed.
 
 `credential_reference` is only a public key name matching `[A-Za-z][A-Za-z0-9_-]{0,63}`; no token,
 URL, file path or secret-store instruction belongs in the registry. Registration does not read its
-value. Online acquisition with a reference returns `credential-provider-unavailable`: an approved
-store/environment boundary capable of isolating secrets from argv, logs and inherited process
-settings is not integrated. No token is written to a temporary file and no user credential store is
-read by the new acquisition provider. Existing cached snapshots remain usable offline.
+value. Online acquisition reads only that caller-provided environment key, containing `Basic <encoded>`
+or `Bearer <token>` authorization. The URL-scoped header goes into the isolated child environment via
+Git `--config-env`, never argv, repository config, temporary files or logs. Missing/malformed input
+returns `credential-missing`/`credential-format`. No ambient credential store/helper is consulted.
+Environment memory remains visible to the owning OS user/administrator; this is not a secret vault.
+Existing cached snapshots remain usable offline without resolving the key.
 
 Reviewed SSH registration uses `ssh://git@forge.example.invalid/team/skills.git` and the same exact
-policy with `transport: "ssh"`. Online acquisition returns `ssh-provider-unavailable`; it does not
-invoke SSH or read user SSH configuration/keys. A future provider must enforce approved identity
-selection, pinned host keys, strict host-key checking and noninteractive operation before support
-can be claimed. SCP shorthand and fallback to ambient SSH credentials are not supported.
+policy with `transport: "ssh"`. Supply `metadata.ssh_authentication` with public environment key
+references `public_key_reference`, `known_hosts_reference`, `agent_reference`. The first two resolve
+to explicit absolute, regular public-key/known-host files; the third to an absolute agent socket/pipe.
+Known hosts must contain only exact selected host entries, no wildcards or discovery. Forge copies
+public evidence into its temporary isolated context and invokes OpenSSH with an empty config,
+selected public identity, explicit agent, strict pinned host checking and noninteractive authentication.
+No private key, default host/config file, forwarded agent or interactive password is read. Missing
+policy refuses acquisition; SCP shorthand and ambient identity fallback remain unsupported.
+Real private-host/agent integration requires the operator's authorized accessible endpoint and keys;
+static policy validation alone is not proof that that endpoint was tested.
 
 The existing GitHub `latest-stable-release` metadata lookup remains a separate `gh api` helper,
 with the CLI's ambient authentication/configuration behavior; it does not resolve source
