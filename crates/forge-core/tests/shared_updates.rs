@@ -309,8 +309,23 @@ fn equivalent_destination_spelling_updates_one_coherent_group() {
     for id in ["first", "second"] {
         w.package(id, b"new", json!({"agent":"new"}), 0o644);
     }
+    storage::write(
+        &w.0.join("catalogs/collections.lock.json"),
+        &json!({"schema_version":1,"entries":{}}),
+    )
+    .unwrap();
+    storage::write(
+        &w.0.join("catalogs/collections.json"),
+        &json!({"schema_version":1,"plugins":[]}),
+    )
+    .unwrap();
+    storage::write(
+        &w.0.join(".claude-plugin/marketplace.json"),
+        &json!({"name":"numera-skill-forge","owner":{"name":"KiaroSama"},"plugins":[]}),
+    )
+    .unwrap();
     let response = forge_core::service::execute(&w.0, json!({"action":"update"})).unwrap();
-    assert_eq!(response["status"], "success");
+    assert_eq!(response["status"], "success", "{response}");
     assert_eq!(response["installed"].as_array().unwrap().len(), 1);
     assert_eq!(
         fs::read_dir(w.0.join(".forge-state/history"))

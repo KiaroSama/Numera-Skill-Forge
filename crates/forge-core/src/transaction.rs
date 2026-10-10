@@ -78,10 +78,12 @@ impl StoredJournal {
 }
 
 pub fn operation_id() -> String {
+    static SEQUENCE: std::sync::atomic::AtomicU64 = std::sync::atomic::AtomicU64::new(0);
     format!(
-        "op-{}-{}",
+        "op-{}-{}-{}",
         chrono::Utc::now().timestamp_nanos_opt().unwrap_or(0),
-        std::process::id()
+        std::process::id(),
+        SEQUENCE.fetch_add(1, std::sync::atomic::Ordering::Relaxed)
     )
 }
 fn journal_path(workspace: &Path, id: &str) -> Result<PathBuf> {
