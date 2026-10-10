@@ -268,12 +268,12 @@ def diagnose_thread_wait(thread_id: int) -> None:
                                   w.LPWSTR, c.POINTER(w.DWORD))
                 session_id = api(K, "ProcessIdToSessionId", w.BOOL, w.DWORD, c.POINTER(w.DWORD))
                 handle = open_process(0x1000, False, node.detail.thread.pid)
-                image, length, session = c.create_unicode_buffer(1024), w.DWORD(1024), w.DWORD()
-                session_id(node.detail.thread.pid, c.byref(session))
+                image, length, endpoint_session = c.create_unicode_buffer(1024), w.DWORD(1024), w.DWORD()
+                session_id(node.detail.thread.pid, c.byref(endpoint_session))
                 if handle:
                     try:
                         if query_image(handle, 0, image, c.byref(length)):
-                            logging.error("Wait endpoint image=%s session=%d", Path(image.value).name, session.value)
+                            logging.error("Wait endpoint image=%s session=%d", Path(image.value).name, endpoint_session.value)
                     finally:
                         checked(close(handle), "CloseHandle(wait endpoint query)")
             else:
@@ -346,7 +346,7 @@ class Owner:
             environment = {**environment, "FORGE_NATIVE_DESKTOP": self.desktop_name}
             block = c.create_unicode_buffer("\0".join(f"{key}={value}" for key, value in sorted(environment.items(), key=lambda item: item[0].upper())) + "\0\0")
             line = c.create_unicode_buffer(subprocess.list2cmdline(command))
-            flags = 0x00000004 | 0x00000400 | 0x08000000  # SUSPENDED, UNICODE_ENVIRONMENT, NO_WINDOW.
+            flags = 0x00000004 | 0x00000400 | 0x00000008  # SUSPENDED, UNICODE_ENVIRONMENT, DETACHED_PROCESS.
             if elevated(token):
                 size = w.DWORD()
                 if not token_info(token, 19, c.byref(linked), c.sizeof(linked), c.byref(size)):
