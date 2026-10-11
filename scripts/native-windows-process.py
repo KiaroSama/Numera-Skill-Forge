@@ -512,6 +512,16 @@ class Owner:
         ids = ProcessIds()
         checked(query_job(self.job, 3, c.byref(ids), c.sizeof(ids), None), "QueryInformationJobObject(process IDs)")
         selected = set(ids.pids[:min(ids.amount, 64)])
+        pid_filter = " or ".join(f"ProcessId={pid}" for pid in sorted(selected))
+        script = "$rows = Get-CimInstance Win32_Process -Filter '" + pid_filter + "'; @($rows | ForEach-Object { " \
+                 "[pscustomobject]@{pid=$_.ProcessId; image=$_.Name; debug=($_.CommandLine -match '--remote-debugging-port'); " \
+                 "renderer=($_.CommandLine -match '--type=renderer'); gpu=($_.CommandLine -match '--type=gpu-process'); " \
+                 "automation=($_.CommandLine -match '--enable-automation')} }) | ConvertTo-Json -Compress"
+        if selected:
+            observed = subprocess.run(["powershell.exe", "-NoLogo", "-NoProfile", "-NonInteractive", "-Command", script],
+                                      capture_output=True, text=True, encoding="utf-8", timeout=5, creationflags=0x08000000)
+            if observed.returncode == 0:
+                logging.info("Owned browser argument flags=%s", observed.stdout.strip())
         open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
         query_image = api(K, "QueryFullProcessImageNameW", w.BOOL, w.HANDLE, w.DWORD, w.LPWSTR, c.POINTER(w.DWORD))
         snapshot = api(K, "CreateToolhelp32Snapshot", w.HANDLE, w.DWORD, w.DWORD)
