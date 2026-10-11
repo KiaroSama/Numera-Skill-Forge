@@ -52,7 +52,11 @@ internal static class NativeUiSmoke
         var children = root.FindAll(TreeScope.Descendants, Condition.TrueCondition);
         if (children.Count > 2000) throw new InvalidOperationException("Native accessibility tree exceeded 2000 controls");
         foreach (AutomationElement child in children)
-            if (!child.Current.IsOffscreen) result.AppendLine(child.Current.Name);
+        {
+            result.AppendLine(child.Current.Name);
+            if (child.TryGetCurrentPattern(TextPattern.Pattern, out pattern))
+                result.Append(((TextPattern)pattern).DocumentRange.GetText(65536));
+        }
         return result.ToString();
     }
 
@@ -103,6 +107,7 @@ internal static class NativeUiSmoke
             Open(root, workspace);
             Wait(delegate { return Text(root).Contains("Workspace opened"); }, "Native workspace status/sync did not complete");
             string rendered = Text(root);
+            Event("Rendered status field evidence sources=" + rendered.Contains("sources") + " packages=" + rendered.Contains("packages") + " installed=" + rendered.Contains("installed"));
             if (!rendered.Contains("sources") || !rendered.Contains("packages") || !rendered.Contains("installed"))
                 throw new InvalidOperationException("Real workspace status response is missing from native UI");
             Event("Real workspace status displayed after native form invocation");
