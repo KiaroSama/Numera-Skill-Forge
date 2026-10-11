@@ -151,6 +151,14 @@ def require_standard_token(token: object) -> None:
             raise RuntimeError("WebView2 automation token retains enabled Administrators SID")
 
 
+def inherit_private_desktop() -> object:
+    """Open only the verified worker desktop as the single inheritable desktop handle."""
+    require_worker_isolation()
+    open_desktop = api(U, "OpenDesktopW", w.HANDLE, w.LPCWSTR, w.DWORD, w.BOOL, w.DWORD)
+    return checked(open_desktop(os.environ["FORGE_NATIVE_DESKTOP"], 0, True, 0x01FF),
+                   "OpenDesktopW(inheritable owned desktop)")
+
+
 def ordinary_shell_token(owner: object) -> object | None:
     """Use only an existing same-user/session ordinary shell token; never borrow another identity."""
     shell = api(U, "GetShellWindow", w.HWND)

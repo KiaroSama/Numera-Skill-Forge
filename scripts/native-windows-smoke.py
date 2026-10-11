@@ -132,6 +132,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
     workspace = run / "workspace"
     workspace.mkdir()
     process = application_process = None
+    inherited_desktop = windows.inherit_private_desktop()
     try:
         with (run / "driver-output.log").open("w", encoding="utf-8") as output, \
                 (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
@@ -140,7 +141,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             startup.wShowWindow = 0
             process = subprocess.Popen([str(args.native_driver), f"--port={driver_port}", "--verbose", f"--log-path={run / 'edge-session.log'}"], cwd=run,
                                        stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
-                                       startupinfo=startup, creationflags=subprocess.DETACHED_PROCESS)
+                                       startupinfo=startup, close_fds=False, creationflags=subprocess.DETACHED_PROCESS)
             checkpoint("driver-started")
             ready = time.monotonic() + 20
             while True:
@@ -212,6 +213,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                 except subprocess.TimeoutExpired:
                     child.kill()
                     child.wait(timeout=5)
+        windows.checked(windows.close_desktop(inherited_desktop), "CloseDesktop(inherited worker desktop)")
     checkpoint("contracts-complete")
 
 
