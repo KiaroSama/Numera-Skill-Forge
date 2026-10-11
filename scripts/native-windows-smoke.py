@@ -126,78 +126,34 @@ def worker(args: argparse.Namespace, run: Path) -> None:
         logging.info("Stage=%s", stage)
 
     checkpoint("private-desktop-unelevated-job-confirmed")
-    driver_port, debug_port = linux.port(), linux.port()
-    while debug_port == driver_port:
-        debug_port = linux.port()
-    driver = linux.Driver(f"http://127.0.0.1:{driver_port}", time.monotonic() + 120)
     workspace = run / "workspace"
     workspace.mkdir()
     process = application_process = None
     inherited_desktop = windows.inherit_private_desktop()
     try:
-        with (run / "driver-output.log").open("w", encoding="utf-8") as output, \
-                (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
-            startup = subprocess.STARTUPINFO()
-            startup.dwFlags = subprocess.STARTF_USESHOWWINDOW
-            startup.wShowWindow = 0
-            process = subprocess.Popen([str(args.native_driver), f"--port={driver_port}", "--verbose", f"--log-path={run / 'edge-session.log'}"], cwd=run,
-                                       stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
-                                       startupinfo=startup, close_fds=False, creationflags=subprocess.DETACHED_PROCESS)
-            checkpoint("driver-started")
-            ready = time.monotonic() + 20
-            while True:
-                if process.poll() is not None:
-                    raise RuntimeError("tauri-driver exited before readiness")
-                try:
-                    status = driver.call("GET", "/status")
-                    if isinstance(status, dict) and status.get("ready") is True:
-                        break
-                except (OSError, linux.WebDriverError):
-                    pass
-                if time.monotonic() >= ready:
-                    raise TimeoutError("Windows native driver did not become ready")
-                time.sleep(0.1)
-            checkpoint("driver-ready")
-            environment = {**os.environ,
-                           "WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS": f"--remote-debugging-port={debug_port} --enable-logging --log-file=\"{run / 'webview-startup.log'}\""}
-            application_process = subprocess.Popen([str(args.application)], cwd=run, env=environment,
+        with (run / "automation-output.log").open("x", encoding="utf-8") as output,                 (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
+            application_process = subprocess.Popen([str(args.application)], cwd=run,
                                                     stdin=subprocess.DEVNULL, stdout=application_output,
                                                     stderr=subprocess.STDOUT, close_fds=False,
                                                     creationflags=subprocess.CREATE_NO_WINDOW)
-            logging.info("Original application pid=%d started with captured diagnostics", application_process.pid)
             checkpoint("original-application-started")
-            cdp = linux.Driver(f"http://127.0.0.1:{debug_port}", driver.deadline)
-            ready = time.monotonic() + 30
-            while True:
-                code = application_process.poll()
-                if code is not None:
-                    raise RuntimeError(f"Original application exited during startup code={code:#x}; see application-startup.log")
-                try:
-                    with cdp.http.open(cdp.address + "/json/version", timeout=1) as response:
-                        metadata = json.loads(response.read(65536).decode("utf-8"))
-                    if metadata.get("webSocketDebuggerUrl"):
-                        break
-                except (OSError, ValueError):
-                    pass
-                if time.monotonic() >= ready:
-                    raise TimeoutError("Original application did not expose its loopback debugging endpoint in 30s")
+            process = subprocess.Popen([str(args.native_driver), str(application_process.pid), str(workspace), str(run)],
+                                       cwd=run, stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
+                                       close_fds=False, creationflags=subprocess.CREATE_NO_WINDOW)
+            checkpoint("native-accessibility-started")
+            deadline = time.monotonic() + 120
+            while (code := process.poll()) is None:
+                if application_process.poll() is not None:
+                    raise RuntimeError(f"Original application exited code={application_process.returncode}; see application-startup.log")
+                if time.monotonic() >= deadline:
+                    raise TimeoutError("Native accessibility contracts exceeded 120s")
                 time.sleep(0.1)
-            checkpoint("original-webview-ready")
-            session = driver.call("POST", "/session", {"capabilities": {"alwaysMatch": {
-                "browserName": "webview2", "ms:edgeChromium": True,
-                "ms:edgeOptions": {"debuggerAddress": f"127.0.0.1:{debug_port}"}}}}, request_timeout=30)
-            driver.session = session["sessionId"]
-            checkpoint("native-session-created")
-            driver.call("POST", f"/session/{driver.session}/timeouts", {"implicit": 0, "pageLoad": 30000, "script": 10000})
-            driver.wait("return document.querySelector('#bridge-state')?.textContent.includes('Native desktop bridge connected');")
-            checkpoint("real-release-dom-started")
-            driver.script("const field = document.querySelector('#workspace-root'); field.value = arguments[0]; document.querySelector('#workspace-form').requestSubmit(); return true;", str(workspace))
-            response = driver.wait("if(document.querySelector('#main')?.getAttribute('aria-busy') !== 'false') return null; const p = document.querySelector('[data-result=dashboard] pre'); return p ? JSON.parse(p.textContent) : null;")
-            if response["sources"] != 0 or response["packages"] != 0 or response["installed"] != 0 or Path(response["workspace"]).resolve() != workspace.resolve():
-                raise RuntimeError("Real native status did not report isolated empty workspace")
-            sync = driver.script("return JSON.parse(document.querySelector('[data-result=updates] pre').textContent);")
-            if sync["status"] != "success" or sync["sources"] != []:
-                raise RuntimeError("Real native sequential check failed")
+            if code != 0:
+                raise RuntimeError(f"Native accessibility helper failed exit={code}; see native-uia log")
+            result = json.loads((run / "uia-result.json").read_text(encoding="utf-8"))
+            if result != {"status": "success", "surface": "native-accessibility"}:
+                raise RuntimeError("Native helper did not confirm real UI contracts")
+            checkpoint("native-release-ui-and-failure-confirmed")
             logs = list((workspace / ".forge-state/logs").glob("numera-forge-desktop_*.log"))
             if len(logs) != 1:
                 raise RuntimeError("Native IPC did not create exactly one per-run desktop log")
@@ -212,24 +168,8 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             if job["status"] != "success" or job["request"] != {"action": "sync", "apply": False, "offline": False}:
                 raise RuntimeError("Native open did not preserve check-only policy")
             checkpoint("status-sync-job-log-confirmed")
-            driver.script("document.querySelector('#workspace-root').value = arguments[0]; document.querySelector('#workspace-form').requestSubmit(); return true;", str(run / "missing-workspace"))
-            driver.wait("const n=document.querySelector('#notice'); return n?.classList.contains('error') && n.textContent.includes('workspace:') && document.querySelector('#main').getAttribute('aria-busy') === 'false' ? n.textContent : null;")
-            if (run / "missing-workspace").exists():
-                raise RuntimeError("Invalid workspace was unexpectedly created")
-            checkpoint("invalid-workspace-rejected")
     finally:
-        # Only startup diagnostics from the isolated empty profile, never database/profile state.
-        for candidate in list((run / "tmp").glob("scoped_dir*/EBWebView/chrome_debug.log"))[:2]:
-            data = candidate.read_bytes()
-            if len(data) <= 262144:
-                (run / f"webview-startup-{candidate.parent.parent.name}.log").write_bytes(data)
-        if driver.session:
-            driver.deadline = time.monotonic() + 5
-            try:
-                driver.call("DELETE", f"/session/{driver.session}")
-            except (OSError, linux.WebDriverError, ValueError, TimeoutError):
-                logging.warning("Session close failed; outer owner will terminate its Job Object")
-        for child in (application_process, process):
+        for child in (process, application_process):
             if child:
                 child.terminate() if child.poll() is None else None
                 try:
@@ -280,7 +220,26 @@ def main() -> None:
         run.mkdir()
         tools = root / ".ci-work/native-tools"
         tools.mkdir(parents=True, exist_ok=True)
-        native_driver, runtime, version = edge_driver(tools)
+        runtime_candidates = []
+        for key in ("ProgramFiles(x86)", "ProgramFiles"):
+            base = os.environ.get(key)
+            if base:
+                runtime_candidates.extend((Path(base) / "Microsoft/EdgeWebView/Application").glob("*/msedgewebview2.exe"))
+        if not runtime_candidates:
+            raise RuntimeError("Hosted runner lacks WebView2 runtime")
+        runtime_executable = max(runtime_candidates, key=lambda path: tuple(map(int, file_version(path).split("."))))
+        runtime, version = runtime_executable.parent, file_version(runtime_executable)
+        native_driver = tools / "native-windows-uia.exe"
+        framework = Path(os.environ["WINDIR"]) / "Microsoft.NET/Framework64/v4.0.30319"
+        references = [framework / "WPF" / name for name in ("UIAutomationClient.dll", "UIAutomationTypes.dll", "WindowsBase.dll")]
+        command = [str(framework / "csc.exe"), "/nologo", "/target:winexe", f"/out:{native_driver}",
+                   *[f"/reference:{reference}" for reference in references], str(root / "scripts/native-windows-uia.cs")]
+        build = subprocess.run(command, cwd=root, capture_output=True, text=True, encoding="utf-8",
+                               timeout=30, creationflags=subprocess.CREATE_NO_WINDOW)
+        if build.returncode != 0:
+            logging.error("Native UI helper compilation failed: %s", build.stdout + build.stderr)
+            raise RuntimeError("Native UI helper compilation failed")
+        logging.info("Original WebView2 runtime=%s; native UI Automation helper compiled", version)
         allowed = {"SYSTEMROOT", "WINDIR", "SYSTEMDRIVE", "COMSPEC", "PATH", "PROGRAMFILES", "PROGRAMFILES(X86)",
                    "PROGRAMDATA", "GITHUB_ACTIONS", "RUNNER_ENVIRONMENT"}
         environment = {key: value for key, value in os.environ.items() if key.upper() in allowed}
