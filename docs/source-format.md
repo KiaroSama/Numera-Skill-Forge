@@ -69,7 +69,9 @@ The existing GitHub `latest-stable-release` metadata lookup remains a separate `
 with the CLI's ambient authentication/configuration behavior; it does not resolve source
 `credential_reference` or authenticate private clones. Custom-host release APIs are unsupported.
 Actual custom HTTPS/private/SSH acquisition has not been integration-tested without an approved
-endpoint and, for authenticated transports, the missing secure runtime boundary.
+reachable endpoint and explicitly supplied credentials/agent/pinned host evidence. The isolated
+transport and input contracts are implemented and tested; those local fixtures do not certify service
+connectivity.
 
 Package fields: `id`, `name`, `source`, `components`, `dependencies`, `targets`, `optional_exclusions`.
 Unknown host APIs require a capability/adapter change and regression tests; adding more content to an

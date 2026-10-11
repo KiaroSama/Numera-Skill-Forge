@@ -20,6 +20,9 @@ Codex stable portable loader hook/app limits, Cursor path variables, Antigravity
 OpenCode incompatible versions and managed-install restrictions are retained in capability records.
 A syntactically valid JSON manifest is not proof that a host discovered or loaded it.
 
-Installation currently supports project skill-file contributions only. A package containing native
-runtime/configuration components must use a documented native manager; Forge refuses a skill-only
-install that would lose required behavior. User/global and full runtime lifecycle are unfinished.
+Installation supports explicit project/user skill destinations, reviewed JSON configuration
+contributions with three-way merging, and documented native-directory routes for Amp and Antigravity.
+Owned files retain modes and shared references across update/disable/enable/uninstall/rollback.
+Other native runtime packages still require their documented manager; Forge refuses a skill-only
+install that would drop required behavior. Filesystem lifecycle tests do not certify host activation,
+account permissions or every runtime plugin manager.
