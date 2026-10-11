@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hosted-Windows-only original release DOM/IPC smoke, never on the input desktop."""
+"""Hosted-Windows original release accessibility/IPC smoke, never on the input desktop."""
 
 import argparse
 import ctypes
@@ -9,13 +9,10 @@ import json
 import logging
 import os
 from pathlib import Path
-import re
 import shutil
 import subprocess
 import sys
 import time
-import urllib.request
-import zipfile
 
 sys.dont_write_bytecode = True
 
@@ -51,72 +48,10 @@ def file_version(path: Path) -> str:
     return f"{fields[2] >> 16}.{fields[2] & 65535}.{fields[3] >> 16}.{fields[3] & 65535}"
 
 
-def edge_driver(tools: Path) -> tuple[Path, Path, str]:
-    """Download only the exact installed Edge version, with traversal/size checks."""
-    candidates = []
-    runtimes = []
-    for key in ("ProgramFiles(x86)", "ProgramFiles"):
-        root = os.environ.get(key)
-        if not root:
-            continue
-        base = Path(root) / "Microsoft"
-        edge = base / "Edge/Application/msedge.exe"
-        if edge.is_file():
-            candidates.append(edge)
-        runtimes.extend((base / "EdgeWebView/Application").glob("*/msedgewebview2.exe"))
-    if not candidates or not runtimes:
-        raise RuntimeError("Hosted runner lacks installed Microsoft Edge or WebView2 runtime")
-    edge_version = file_version(candidates[0])
-    if not re.fullmatch(r"\d+\.\d+\.\d+\.\d+", edge_version):
-        raise RuntimeError("Installed Edge version is not a four-part numeric version")
-    compatible = [path for path in runtimes if file_version(path).split(".")[:3] == edge_version.split(".")[:3]]
-    if not compatible:
-        raise RuntimeError(f"Installed Edge {edge_version} has no matching WebView2 runtime; refusing mismatched driver")
-    runtime = max(compatible, key=lambda path: tuple(map(int, file_version(path).split(".")))).parent
-    destination = tools / f"edge-{edge_version}"
-    destination.mkdir(parents=True, exist_ok=False)
-    archive = destination / "edgedriver_win64.zip"
-    url = f"https://msedgedriver.microsoft.com/{edge_version}/edgedriver_win64.zip"
-    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
-    with opener.open(url, timeout=30) as response, archive.open("xb") as output:
-        if response.url != url:
-            raise RuntimeError("Official EdgeDriver download redirected to an unexpected URL")
-        deadline, total = time.monotonic() + 60, 0
-        while True:
-            if time.monotonic() >= deadline:
-                raise TimeoutError("EdgeDriver download exceeded 60-second deadline")
-            chunk = response.read(65536)
-            if not chunk:
-                break
-            total += len(chunk)
-            if total > 32 * 1024 * 1024:
-                raise RuntimeError("EdgeDriver archive exceeded 32 MiB limit")
-            output.write(chunk)
-    driver = destination / "msedgedriver.exe"
-    with zipfile.ZipFile(archive) as bundle:
-        for entry in bundle.infolist():
-            relative = Path(entry.filename.replace("\\", "/"))
-            if relative.is_absolute() or ".." in relative.parts or ":" in entry.filename:
-                raise RuntimeError("EdgeDriver archive contains an unsafe path")
-            if entry.file_size > 64 * 1024 * 1024 or (entry.external_attr >> 16) & 0o170000 == 0o120000:
-                raise RuntimeError("EdgeDriver archive contains oversized or linked content")
-        entries = [entry for entry in bundle.infolist() if entry.filename == "msedgedriver.exe"]
-        if len(entries) != 1:
-            raise RuntimeError("Official EdgeDriver archive has no unique root executable")
-        with bundle.open(entries[0]) as source, driver.open("xb") as target:
-            shutil.copyfileobj(source, target)
-    archive.unlink()
-    if file_version(driver).split(".")[:3] != edge_version.split(".")[:3]:
-        raise RuntimeError("Downloaded EdgeDriver does not match installed Edge/WebView2")
-    logging.info("Matched installed Edge=%s WebView2=%s driver=%s", edge_version, runtime.name, file_version(driver))
-    return driver, runtime, edge_version
-
-
 def worker(args: argparse.Namespace, run: Path) -> None:
     """Run unchanged UI contracts inside the already-owned private desktop."""
     windows = load("native_windows_process", "native-windows-process.py")
     windows.require_worker_isolation()
-    linux = load("native_desktop_contracts", "native-desktop-smoke.py")
     progress = run / "progress.json"
 
     def checkpoint(stage: str) -> None:
@@ -131,7 +66,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
     process = application_process = None
     inherited_desktop = windows.inherit_private_desktop()
     try:
-        with (run / "automation-output.log").open("x", encoding="utf-8") as output,                 (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
+        with (run / "automation-output.log").open("x", encoding="utf-8") as output, \n                (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
             application_process = subprocess.Popen([str(args.application)], cwd=run,
                                                     stdin=subprocess.DEVNULL, stdout=application_output,
                                                     stderr=subprocess.STDOUT, close_fds=False,
@@ -184,7 +119,6 @@ def worker(args: argparse.Namespace, run: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--application", type=Path, required=True)
-    parser.add_argument("--driver", type=Path, required=True)
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--native-driver", type=Path)
     parser.add_argument("--worker", action="store_true")
@@ -194,7 +128,6 @@ def main() -> None:
     root = Path(__file__).resolve().parent.parent
     application = args.application.resolve(strict=True)
     args.application = application
-    args.driver = args.driver.resolve(strict=True)
     work = args.work.resolve()
     if not work.is_relative_to(root / ".ci-work") or not application.is_relative_to(root / "target/release"):
         raise RuntimeError("Native Windows binary/work paths must be project-owned release/CI paths")
@@ -251,10 +184,9 @@ def main() -> None:
             environment[key] = str(directory)
         environment["WEBVIEW2_BROWSER_EXECUTABLE_FOLDER"] = str(runtime)
         environment["WEBVIEW2_USER_DATA_FOLDER"] = str(run / "webview-profile")
-        environment["TAURI_WEBVIEW_AUTOMATION"] = "true"
         interpreter = Path(sys.executable).with_name("pythonw.exe").resolve(strict=True)
         command = [str(interpreter), str(Path(__file__).resolve()), "--worker", "--application", str(application),
-                   "--driver", str(args.driver), "--native-driver", str(native_driver), "--work", str(run)]
+                   "--native-driver", str(native_driver), "--work", str(run)]
         result = None
         with windows.Owner(command, environment, run) as owner:
             logging.info("Owned suspended worker pid=%d started=%s private-desktop=%s Edge=%s", owner.pid, owner.started, owner.desktop_name, version)
@@ -282,7 +214,13 @@ def main() -> None:
         for directory in ("workspace", "home", "config", "data", "tmp", "webview-profile"):
             path = run / directory
             if path.exists():
-                shutil.rmtree(path)
+                def cleanup_error(function: object, failed: str, error: BaseException) -> None:
+                    if isinstance(error, FileNotFoundError) and Path(failed) != path:
+                        return
+                    raise error
+                shutil.rmtree(path, onexc=cleanup_error)
+                if path.exists():
+                    raise RuntimeError("Owned native fixture cleanup did not remove its directory")
         print(json.dumps({"status": "success", "surface": "Windows native release/private desktop", "checks": ["startup", "real-service-ipc", "check-only-persisted-job", "invalid-workspace", "diagnostic-file", "owned-process-cleanup"]}))
     except BaseException:
         logging.exception("Windows native smoke failed or blocked")

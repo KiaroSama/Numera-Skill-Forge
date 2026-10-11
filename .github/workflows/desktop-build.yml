@@ -69,18 +69,11 @@ jobs:
           name: native-smoke-diagnostics-${{ matrix.os }}
           path: .ci-work/native-smoke/*.log
           if-no-files-found: warn
-      - name: Install project-local Windows native test driver
+      - name: Verify Windows release native UI and real service IPC on private desktop
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          cargo install tauri-driver --version 2.1.0 --locked --root "$env:GITHUB_WORKSPACE/.ci-work/native-tools"
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-        timeout-minutes: 10
-      - name: Verify Windows release DOM and real service IPC on private desktop
-        if: runner.os == 'Windows'
-        shell: pwsh
-        run: |
-          python scripts/native-windows-smoke.py --application target/release/numera-forge-desktop.exe --driver .ci-work/native-tools/bin/tauri-driver.exe --work .ci-work/native-windows-smoke
+          python scripts/native-windows-smoke.py --application target/release/numera-forge-desktop.exe --work .ci-work/native-windows-smoke
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
         timeout-minutes: 6
       - name: Preserve Windows native smoke diagnostics

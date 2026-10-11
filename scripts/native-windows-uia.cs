@@ -108,9 +108,21 @@ internal static class NativeUiSmoke
             Wait(delegate { return Text(root).Contains("Workspace opened"); }, "Native workspace status/sync did not complete");
             string rendered = Text(root);
             Event("Rendered status field evidence sources=" + rendered.Contains("sources") + " packages=" + rendered.Contains("packages") + " installed=" + rendered.Contains("installed"));
-            if (!rendered.Contains("sources") || !rendered.Contains("packages") || !rendered.Contains("installed"))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(rendered, "\\\"sources\\\"\\s*:\\s*0") ||
+                !System.Text.RegularExpressions.Regex.IsMatch(rendered, "\\\"packages\\\"\\s*:\\s*0") ||
+                !System.Text.RegularExpressions.Regex.IsMatch(rendered, "\\\"installed\\\"\\s*:\\s*0") ||
+                !rendered.Contains("workspace") || !rendered.Contains(workspace.Replace("\\", "\\\\")))
                 throw new InvalidOperationException("Real workspace status response is missing from native UI");
             Event("Real workspace status displayed after native form invocation");
+            AutomationElement updates = Find(root, "Updates", ControlType.Hyperlink);
+            if (updates == null) throw new InvalidOperationException("Updates navigation accessibility control missing");
+            ((InvokePattern)updates.GetCurrentPattern(InvokePattern.Pattern)).Invoke();
+            Wait(delegate { return Text(root).Contains("Update results"); }, "Native Updates view did not become available");
+            string updateText = Text(root);
+            if (!System.Text.RegularExpressions.Regex.IsMatch(updateText, "\\\"status\\\"\\s*:\\s*\\\"success\\\"") ||
+                !System.Text.RegularExpressions.Regex.IsMatch(updateText, "\\\"sources\\\"\\s*:\\s*\\[\\s*\\]"))
+                throw new InvalidOperationException("Real sequential sync response is missing from native Updates view");
+            Event("Real successful empty-source sync rendered in native Updates view");
             string missing = Path.Combine(run, "missing-workspace");
             Open(root, missing);
             Wait(delegate { return Text(root).Contains("workspace: Select an absolute path to an existing workspace folder"); },
