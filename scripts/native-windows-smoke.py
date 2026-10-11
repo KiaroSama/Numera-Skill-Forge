@@ -207,13 +207,26 @@ def main() -> None:
             if final.get("stage") != "contracts-complete":
                 raise RuntimeError("Worker exited without real native UI/IPC contract evidence")
         logging.info("Verified owned Job Object active processes=0; private desktop closed")
+        cleanup_deadline = time.monotonic() + 5
         for directory in ("workspace", "home", "config", "data", "tmp", "webview-profile"):
             path = run / directory
             if path.exists():
                 def cleanup_error(function: object, failed: str, error: BaseException) -> None:
-                    if isinstance(error, FileNotFoundError) and Path(failed) != path:
-                        return
-                    raise error
+                    if not Path(failed).is_relative_to(path):
+                        raise RuntimeError("Native fixture cleanup escaped its owned root") from error
+                    while True:
+                        if isinstance(error, FileNotFoundError) and Path(failed) != path:
+                            return
+                        if (getattr(error, "winerror", None) != 32 or function not in (os.unlink, os.rmdir)
+                                or time.monotonic() >= cleanup_deadline):
+                            raise error
+                        # A zero-process Job does not close unrelated temporary-file observers.
+                        time.sleep(min(0.05, max(0, cleanup_deadline - time.monotonic())))
+                        try:
+                            function(failed)
+                            return
+                        except OSError as current_error:
+                            error = current_error
                 shutil.rmtree(path, onexc=cleanup_error)
                 if path.exists():
                     raise RuntimeError("Owned native fixture cleanup did not remove its directory")

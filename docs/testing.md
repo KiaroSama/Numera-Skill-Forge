@@ -71,8 +71,10 @@ A single inherited private desktop handle keeps downstream native children off t
 A 15-second first-party launch preflight fails early before native compilation. The actual UI tier
 has a 120-second protocol/150-second owner/40-second progress ceiling, with bounded child cleanup
 and a verified zero-active-process Job before desktop closure. Disappearing descendant files during
-Python 3.12 profile cleanup are treated like Python 3.13 `rmtree`; other errors propagate and the
-fixture root must be absent. A Windows-only diagnostic selection avoids unrelated rebuilds; the
+Python 3.12 profile cleanup are treated like Python 3.13 `rmtree`. After zero owned processes,
+sharing-violation 32 alone may wait within one five-second fixture-cleanup deadline; access denial,
+other errors and exhausted waits propagate. No external process is terminated or permission changed,
+and every fixture root must be absent. A Windows-only diagnostic selection avoids unrelated rebuilds; the
 workflow's default `all` selection retains four-platform final verification. Missing native runtime,
 UI Automation, token, desktop or cleanup capabilities fail rather than skip green.
 
