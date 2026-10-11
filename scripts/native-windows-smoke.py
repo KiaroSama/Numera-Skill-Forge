@@ -138,7 +138,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
             startup = subprocess.STARTUPINFO()
             startup.dwFlags = subprocess.STARTF_USESHOWWINDOW
             startup.wShowWindow = 0
-            process = subprocess.Popen([str(args.native_driver), f"--port={driver_port}"], cwd=run,
+            process = subprocess.Popen([str(args.native_driver), f"--port={driver_port}", "--verbose", f"--log-path={run / 'edge-session.log'}"], cwd=run,
                                        stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT,
                                        startupinfo=startup, creationflags=subprocess.DETACHED_PROCESS)
             checkpoint("driver-started")
