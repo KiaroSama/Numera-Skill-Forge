@@ -184,8 +184,10 @@ def diagnose_owned_processes(windows: object, self) -> None:
                     start, end = c.addressof(buffer), c.addressof(buffer) + c.sizeof(buffer)
                     if command.length <= 32768 and start <= command.buffer <= end - command.length:
                         arguments = c.wstring_at(command.buffer, command.length // 2)
-                        logging.info("Owned argument flags pid=%d debug=%s automation=%s renderer=%s gpu=%s", pid,
-                                     "--remote-debugging-port" in arguments, "--enable-automation" in arguments,
+                        import re
+                        remote = re.search(r"--remote-debugging-port=(\d+)", arguments)
+                        logging.info("Owned argument flags pid=%d debug=%s port=%s automation=%s renderer=%s gpu=%s", pid,
+                                     remote is not None, remote.group(1) if remote else "none", "--enable-automation" in arguments,
                                      "--type=renderer" in arguments, "--type=gpu-process" in arguments)
         finally:
             if token.value:

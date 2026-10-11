@@ -159,7 +159,7 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                 time.sleep(0.1)
             checkpoint("driver-ready")
             environment = {**os.environ,
-                           "WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS": f"--remote-debugging-port={debug_port}"}
+                           "WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS": f"--remote-debugging-port={debug_port} --enable-logging --log-file=\"{run / 'webview-startup.log'}\""}
             application_process = subprocess.Popen([str(args.application)], cwd=run, env=environment,
                                                     stdin=subprocess.DEVNULL, stdout=application_output,
                                                     stderr=subprocess.STDOUT, close_fds=False,
