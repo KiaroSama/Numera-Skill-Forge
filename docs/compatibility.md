@@ -20,6 +20,24 @@ Codex stable portable loader hook/app limits, Cursor path variables, Antigravity
 OpenCode incompatible versions and managed-install restrictions are retained in capability records.
 A syntactically valid JSON manifest is not proof that a host discovered or loaded it.
 
+`scripts/verify-host-discovery.py` provides a bounded probe of already-installed Claude plugin
+validation and Gemini extension/skill metadata discovery using separate harmless first-party profiles.
+Positive and invalid/duplicate-name cases are distinct assertions. Claude's clean skill results are
+omitted from diagnostic `contents`; a malformed first-party skill and manifest independently prove
+actual traversal and rejection. This is metadata evidence, not a
+model invocation or executable plugin activation. Profiles, environment and temporary files are
+redirected; that alone is not an OS filesystem/network sandbox. It never invokes Claude details/eval,
+Hermes self-healing startup or a collected skill. Missing hosts are not automatically installed.
+On 2026-10-11, the installed Claude 2.1.295 positive/invalid-skill/invalid-manifest cases and Gemini
+0.62.0 skill discovery/duplicate-name refusal passed in a Windows Job-owned run (18.1 seconds,
+no leaked descendants, fixture removed). One Claude advisory and two Gemini security warnings for
+ignored scratch system settings were retained. This evidence does not certify other host versions.
+
+The direct Tauri driver supports Windows/Linux. A current macOS embedded WebDriver route exists
+upstream, but requires an app automation plugin, changed permissions and a rebuilt test app; none is
+installed here. Existing macOS bundles therefore retain build/hash evidence only, not original-release
+GUI/IPC certification.
+
 Installation supports explicit project/user skill destinations, reviewed JSON configuration
 contributions with three-way merging, and documented native-directory routes for Amp and Antigravity.
 Owned files retain modes and shared references across update/disable/enable/uninstall/rollback.

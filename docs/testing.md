@@ -2,7 +2,8 @@
 
 Core tests exercise public registration, deterministic build, portable paths, owned lifecycle and
 interrupted recovery. Fixtures are first-party harmless local Git repositories and isolated project
-folders; no credentials, paid API, upstream scripts or user harness state.
+folders; no user credentials, paid API, upstream scripts or user harness state. The hosted protocol
+tier generates ephemeral fixture credentials only, never accesses a user's private service.
 
 CI runs `cargo test --locked -p forge-core -p forge-cli -- --test-threads=2` on Windows/macOS/Linux,
 formatting and clippy. Desktop typecheck/build and headless UI contracts are a separate tier. Native
@@ -25,6 +26,26 @@ PID subsequently inspected and already exited. That run is not final green verif
 exact-SHA CI evidence and native artifact launch evidence must be checked before completion.
 All real native harness load tests and cross-platform packaged GUI smoke paths remain unverified
 until explicitly recorded; a listed profile is static contract evidence only.
+
+## Authenticated source protocol tier
+
+The hosted Linux CI tier runs `scripts/verify-source-transport.py` inside new private mount, network
+and PID namespaces. Only loopback is enabled. A temporary CA bundle is mounted privately for actual
+HTTPS certificate verification; production TLS defaults are unchanged. Git's real smart HTTP backend
+requires an explicit fixture authorization value, refuses redirects and never enables receive-pack.
+OpenSSH uses one owned temporary agent identity and pinned host key, forced upload-pack and no
+password/forwarding/user-rc path. The actual release CLI performs discovery, approval, build, safe
+update and offline/failed-update retention; unauthorized and mismatched-key cases must refuse.
+
+The tier has a 150-second internal/180-second outer wall ceiling, 20-second child idle limit, bounded
+output and owned process-group cleanup. An incomplete TLS handshake must time out before the HTTP
+handler and permit subsequent authenticated requests. Strict SSH key-path ownership is retained through
+a namespace-private root-home mount; the hosted checkout's ownership is never changed.
+Fixture credentials, certificates, agent socket and repositories
+are removed in finally; only sanitized UTC logs are uploaded. Missing isolation/prerequisites fail,
+not skip green. Synthetic first-party repository structure gives real protocol coverage, not evidence
+of access to an operator's private repository. Held license/compliance cases are excluded from the
+current task by the owner and never count as accepted payloads.
 
 ## Skill collection contracts
 

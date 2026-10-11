@@ -33,6 +33,26 @@ jobs:
       - run: cargo build --locked -p forge-cli --release
       - run: python scripts/check-text.py
       - run: python scripts/verify-collections.py
+      - name: Prepare hosted-only private transport prerequisites
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y openssh-server
+        timeout-minutes: 3
+      - name: Verify real isolated authenticated HTTPS and pinned-agent SSH acquisition
+        if: runner.os == 'Linux'
+        run: >-
+          sudo --preserve-env=GITHUB_ACTIONS,RUNNER_ENVIRONMENT
+          timeout --signal=TERM --kill-after=10s 180s
+          unshare --mount --net --pid --fork --mount-proc --kill-child
+          python3 -B scripts/verify-source-transport.py
+          --application target/release/numera-forge --work .ci-work/transport
+        timeout-minutes: 4
+      - name: Preserve sanitized private transport diagnostics
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: transport-diagnostics
+          path: .ci-work/transport/*.log
+          if-no-files-found: warn
       - name: Verify launcher and raw-mode publication contracts
         shell: pwsh
         timeout-minutes: 3

@@ -14,11 +14,15 @@ The root Forge GPL-3.0 license covers Forge, not a replacement license for these
 
 485 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
 4272 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
-packaged separately where the aggregator omitted its original license. These current counts are local
-assembly evidence until the corresponding commit and CI are published. Per-file revision/hash/mode records are
+packaged separately where the aggregator omitted its original license. These counts were verified by
+three-platform CI on published commit `9830d00`; the current technical change preserves them.
+Per-file revision/hash/mode records are
 in [the accepted lock](../catalogs/collections.lock.json); installation choices are in
 [the marketplace](../.claude-plugin/marketplace.json). Presence is not runtime safety certification.
 Some skills call external services and require prerequisites/credentials when the user runs them.
+The owner's current scope excludes skills whose permission or applicable publication compliance is
+not established. The held lists below remain evidence, not a queue blocking unrelated technical work;
+no grant is inferred and the 485 accepted packages remain unchanged.
 
 The Sentry code-review addition is a complete original one-file Apache-2.0 match; the original
 Functional Software, Inc. dba Sentry copyright/license is included separately from the unchanged skill.
