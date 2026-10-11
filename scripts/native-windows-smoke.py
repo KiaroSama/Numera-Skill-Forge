@@ -66,7 +66,8 @@ def worker(args: argparse.Namespace, run: Path) -> None:
     process = application_process = None
     inherited_desktop = windows.inherit_private_desktop()
     try:
-        with (run / "automation-output.log").open("x", encoding="utf-8") as output, \n                (run / "application-startup.log").open("x", encoding="utf-8") as application_output:
+        with ((run / "automation-output.log").open("x", encoding="utf-8") as output,
+              (run / "application-startup.log").open("x", encoding="utf-8") as application_output):
             application_process = subprocess.Popen([str(args.application)], cwd=run,
                                                     stdin=subprocess.DEVNULL, stdout=application_output,
                                                     stderr=subprocess.STDOUT, close_fds=False,
