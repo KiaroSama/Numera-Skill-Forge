@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6af133cff971e0577db79068ed4b9db617135e7e60dfa2cd623c60d49e3e9845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-graph-query/skills/graph-query/SKILL.md",
+      "path": "cli-tool/components/skills/ai-maestro/graph-query/SKILL.md",
+      "size": 2817
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "39e01c5fdc2b9e110b16befd5ec3d52222a555d85fd25b6497424d63882b31c6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-maestro/graph-query",
+  "schema_version": 1
+}

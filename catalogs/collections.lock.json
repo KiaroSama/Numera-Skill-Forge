@@ -1,6 +1,182 @@
 {
   "schema_version": 1,
   "entries": {
+    "davila7-templates/skill-ai-maestro-agent-management": {
+      "collection": "davila7-templates",
+      "id": "skill-ai-maestro-agent-management",
+      "root": "cli-tool/components/skills/ai-maestro/agent-management",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "36e81b30edb999060ad61ac0dbe5a4a8730d2b1bc70c6a1181f51829b1b0c408",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/ai-maestro/agent-management/SKILL.md",
+          "output_path": "packages/claude-code/skill-ai-maestro-agent-management/skills/agent-management/SKILL.md",
+          "digest": "d4d2e0304afa087fda045837e19603602fc44dc668c8911a73dc419057c8a0d2",
+          "mode": "100644",
+          "size": 3111
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-ai-maestro-agent-management/.claude-plugin/plugin.json": "a3e69c194c4986bc1a87a6483b703715bbf69b1f0bf2c6d92c26779b48358c76",
+        "packages/claude-code/skill-ai-maestro-agent-management/provenance.json": "7eab8d6b236153ce46a1d0cbfc78be101192f2acd3f3ca8b1a65e24a9f57a09b",
+        "packages/claude-code/skill-ai-maestro-agent-management/skills/agent-management/SKILL.md": "d4d2e0304afa087fda045837e19603602fc44dc668c8911a73dc419057c8a0d2",
+        "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/attribution.json": "0b4cac46cfe5122c606b781945f476673f715aa40df151f387ac5f38e4f4e8d8",
+        "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/original-0.txt": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+        "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/original-1.txt": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+        "packages/claude-code/skill-ai-maestro-agent-management/upstream-notices/original-2.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
+      }
+    },
+    "davila7-templates/skill-ai-maestro-docs-search": {
+      "collection": "davila7-templates",
+      "id": "skill-ai-maestro-docs-search",
+      "root": "cli-tool/components/skills/ai-maestro/docs-search",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "5a6179a09d37a5a3f7b5bf8d1ea6c2d6cb652baf3c2360d75c6ea7e1eecfb46d",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/ai-maestro/docs-search/SKILL.md",
+          "output_path": "packages/claude-code/skill-ai-maestro-docs-search/skills/docs-search/SKILL.md",
+          "digest": "1359a23cb12ba5b0eebcbbcf62dad14242aa1e4f1995d7b9588720bc8e12a8b8",
+          "mode": "100644",
+          "size": 2600
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-ai-maestro-docs-search/.claude-plugin/plugin.json": "cedc41e24858dc137d35621954cab2c7000c1421193d47fb28edbd1f5ce773ad",
+        "packages/claude-code/skill-ai-maestro-docs-search/provenance.json": "f904c478b07ef93fa5260b5c21dc66192b4ced05a378ef976f45a66bbfef9c29",
+        "packages/claude-code/skill-ai-maestro-docs-search/skills/docs-search/SKILL.md": "1359a23cb12ba5b0eebcbbcf62dad14242aa1e4f1995d7b9588720bc8e12a8b8",
+        "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/attribution.json": "0b4cac46cfe5122c606b781945f476673f715aa40df151f387ac5f38e4f4e8d8",
+        "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/original-0.txt": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+        "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/original-1.txt": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+        "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/original-2.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
+      }
+    },
+    "davila7-templates/skill-ai-maestro-graph-query": {
+      "collection": "davila7-templates",
+      "id": "skill-ai-maestro-graph-query",
+      "root": "cli-tool/components/skills/ai-maestro/graph-query",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "39e01c5fdc2b9e110b16befd5ec3d52222a555d85fd25b6497424d63882b31c6",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/ai-maestro/graph-query/SKILL.md",
+          "output_path": "packages/claude-code/skill-ai-maestro-graph-query/skills/graph-query/SKILL.md",
+          "digest": "6af133cff971e0577db79068ed4b9db617135e7e60dfa2cd623c60d49e3e9845",
+          "mode": "100644",
+          "size": 2817
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-ai-maestro-graph-query/.claude-plugin/plugin.json": "2f59696440c097427e22fca822e480ec146ed2ee6f07756b3e2ed67e8c1c892d",
+        "packages/claude-code/skill-ai-maestro-graph-query/provenance.json": "be1f5ab008bb8a350993f833f82fd9d25db0df448a4ca1e38b7c2a112765b9ed",
+        "packages/claude-code/skill-ai-maestro-graph-query/skills/graph-query/SKILL.md": "6af133cff971e0577db79068ed4b9db617135e7e60dfa2cd623c60d49e3e9845",
+        "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/attribution.json": "0b4cac46cfe5122c606b781945f476673f715aa40df151f387ac5f38e4f4e8d8",
+        "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/original-0.txt": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+        "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/original-1.txt": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+        "packages/claude-code/skill-ai-maestro-graph-query/upstream-notices/original-2.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
+      }
+    },
+    "davila7-templates/skill-ai-maestro-memory-search": {
+      "collection": "davila7-templates",
+      "id": "skill-ai-maestro-memory-search",
+      "root": "cli-tool/components/skills/ai-maestro/memory-search",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "a80aab5e9348b11f6258c98bd20cc342820a119179ea603c32e2453db73ac9cc",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/ai-maestro/memory-search/SKILL.md",
+          "output_path": "packages/claude-code/skill-ai-maestro-memory-search/skills/memory-search/SKILL.md",
+          "digest": "34d7aa676adefe8696c13fdf5e8b91c04d74f9060c916fb9e91f060c5abdbb2b",
+          "mode": "100644",
+          "size": 2632
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-ai-maestro-memory-search/.claude-plugin/plugin.json": "168fce85e8e3faa7cc43edb3d3e7bbc2c0312777a1defe20a847467af1561808",
+        "packages/claude-code/skill-ai-maestro-memory-search/provenance.json": "491bca794447402cb50183651a223cda22a673a26cdf764f75dae95cb2237397",
+        "packages/claude-code/skill-ai-maestro-memory-search/skills/memory-search/SKILL.md": "34d7aa676adefe8696c13fdf5e8b91c04d74f9060c916fb9e91f060c5abdbb2b",
+        "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/attribution.json": "0b4cac46cfe5122c606b781945f476673f715aa40df151f387ac5f38e4f4e8d8",
+        "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/original-0.txt": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+        "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/original-1.txt": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+        "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/original-2.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
+      }
+    },
+    "davila7-templates/skill-ai-maestro-planning": {
+      "collection": "davila7-templates",
+      "id": "skill-ai-maestro-planning",
+      "root": "cli-tool/components/skills/ai-maestro/planning",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "5c37069ae30af995ed42673dcf046d375379bb62953117dfa38e98471454c07d",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-ai-maestro-planning/upstream-notices/LICENSE",
+          "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "mode": "100644",
+          "size": 1075
+        },
+        {
+          "path": "cli-tool/components/skills/ai-maestro/planning/SKILL.md",
+          "output_path": "packages/claude-code/skill-ai-maestro-planning/skills/planning/SKILL.md",
+          "digest": "34a4a12808a054be8ee8fea1d1b252e73a1b11959b884a33f041439529020de3",
+          "mode": "100644",
+          "size": 2894
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-ai-maestro-planning/.claude-plugin/plugin.json": "ac00dfe9056a991535a2cb75b2214e5012051f0527ee6de5bdc2848214cc1c9f",
+        "packages/claude-code/skill-ai-maestro-planning/provenance.json": "d5aea6f699431abec93bdaaf166441e968d52525ce8452424918f80c0a62f4bf",
+        "packages/claude-code/skill-ai-maestro-planning/skills/planning/SKILL.md": "34a4a12808a054be8ee8fea1d1b252e73a1b11959b884a33f041439529020de3",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/LICENSE": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/attribution.json": "4fd88defc35987f8b26a7d585ae85d26e001d4d1035aa22b9aa350224f081a7d",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/original-0.txt": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/original-1.txt": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/original-2.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-ai-maestro-planning/upstream-notices/original-3.txt": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84"
+      }
+    },
     "davila7-templates/skill-ai-research-agent-evaluation": {
       "collection": "davila7-templates",
       "id": "skill-ai-research-agent-evaluation",

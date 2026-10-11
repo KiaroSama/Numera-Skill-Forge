@@ -1,0 +1,24 @@
+{
+  "attribution": "Original AI Maestro material: 23blocks-OS, MIT; concise adaptation submitted by its author through davila7/claude-code-templates PR373. Exact accepted aggregator bytes retained; Forge made no upstream adaptation. Requires the external AI Maestro platform and tools when invoked; no prerequisite installer or host activation was run by Forge.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+      "license": "MIT",
+      "path": "registry/licenses/b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02.txt",
+      "source": "https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE"
+    },
+    {
+      "digest": "bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d",
+      "license": "MIT",
+      "path": "registry/licenses/bac517c0e2e7286936e2b774e3bbf11b5bed539a709b6e0660c6141f124bc77d.txt",
+      "source": "https://github.com/23blocks-OS/ai-maestro/blob/98e5b4f4a9337efd12bee65a179ed84bb9514a29/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    }
+  ]
+}

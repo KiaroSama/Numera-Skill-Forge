@@ -9,6 +9,11 @@ formatting and clippy. Desktop typecheck/build and headless UI contracts are a s
 build success and browser UI tests are not proof of real-host loading or packaged GUI startup.
 
 Every suite is discovered by Cargo or the frontend runner, not a hand-maintained test file list.
+Historical-state fixtures under `crates/forge-core/tests/fixtures/state-compatibility` model the actual
+first-release v1 registry/lock/receipt and pre-progress job formats. Shared-service regressions require
+logical state and receipt identity preservation through current lifecycle, user-edit refusal, legacy
+job retry, and unsupported-version refusal without rewriting the selected file. These are harmless
+structural fixtures, not execution of an old binary or a claim of arbitrary-version migration.
 Commands/job timeouts and two-worker ceilings bound CI. Local light tests use the installed guarded
 runner with wall/idle bounds, fresh fingerprints and process-tree cleanup. Full final checks run
 once in CI on the pushed SHA, not duplicated locally.
@@ -25,8 +30,10 @@ until explicitly recorded; a listed profile is static contract evidence only.
 
 Collection fixtures exercise exact original companion scripts without execution, metadata modes,
 idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
-and user-edit refusal. The assembled reviewed source import independently matched4262payload blobs from480
-plugins against immutable upstream Git SHA-1 and mode records. No source runtime scripts were run.
+and user-edit refusal. The assembled reviewed source import matched 4272 original payload/notice files
+from 485 plugins against immutable upstream Git identities and modes. The five AI Maestro additions
+retain the author's concise submitted variants and complete original MIT notices. No source runtime
+scripts were run.
 Additional public seams cover dependency closure/coherent lock rollback, scoped/shared installation,
 managed JSON baselines, durable per-step job progress, failed-only retry (completed observations are
 not rerun; review-only work cannot bypass approval), cancellation boundaries and local support privacy.

@@ -5,6 +5,36 @@
   },
   "plugins": [
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/agent-management",
+      "name": "skill-ai-maestro-agent-management",
+      "source": "./packages/claude-code/skill-ai-maestro-agent-management",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/docs-search",
+      "name": "skill-ai-maestro-docs-search",
+      "source": "./packages/claude-code/skill-ai-maestro-docs-search",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/graph-query",
+      "name": "skill-ai-maestro-graph-query",
+      "source": "./packages/claude-code/skill-ai-maestro-graph-query",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/memory-search",
+      "name": "skill-ai-maestro-memory-search",
+      "source": "./packages/claude-code/skill-ai-maestro-memory-search",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/planning",
+      "name": "skill-ai-maestro-planning",
+      "source": "./packages/claude-code/skill-ai-maestro-planning",
+      "version": "1.0.0"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/agent-evaluation",
       "name": "skill-ai-research-agent-evaluation",
       "source": "./packages/claude-code/skill-ai-research-agent-evaluation",

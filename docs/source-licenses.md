@@ -1,7 +1,7 @@
 # Source licensing and published skills
 
 Authoritative source: [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates).
-Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-10.
+Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-11.
 The [Kiaro derivative](https://github.com/KiaroSama/Kiaro-Claude-Code-Templates) is a packaging reference,
 not the payload or licensing authority.
 
@@ -12,8 +12,8 @@ The root Forge GPL-3.0 license covers Forge, not a replacement license for these
 
 ## Published scope
 
-480 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
-4262 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
+485 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
+4272 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
 packaged separately where the aggregator omitted its original license. These current counts are local
 assembly evidence until the corresponding commit and CI are published. Per-file revision/hash/mode records are
 in [the accepted lock](../catalogs/collections.lock.json); installation choices are in
@@ -22,9 +22,18 @@ Some skills call external services and require prerequisites/credentials when th
 
 The Sentry code-review addition is a complete original one-file Apache-2.0 match; the original
 Functional Software, Inc. dba Sentry copyright/license is included separately from the unchanged skill.
+The five AI Maestro skills are the author's concise variants submitted in
+[PR373](https://github.com/davila7/claude-code-templates/pull/373), not copies of the longer current
+origin skills. Their original 23blocks and Juan Peláez MIT notices accompany unchanged davila payloads;
+planning also retains the earlier Ahmad Adi MIT notice and adaptation attribution.
 
 | Original skill root | License | Original license | Plugin |
 | --- | --- | --- | --- |
+| `ai-maestro/agent-management` | MIT | [terms](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE) | [skill-ai-maestro-agent-management](../packages/claude-code/skill-ai-maestro-agent-management) |
+| `ai-maestro/docs-search` | MIT | [terms](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE) | [skill-ai-maestro-docs-search](../packages/claude-code/skill-ai-maestro-docs-search) |
+| `ai-maestro/graph-query` | MIT | [terms](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE) | [skill-ai-maestro-graph-query](../packages/claude-code/skill-ai-maestro-graph-query) |
+| `ai-maestro/memory-search` | MIT | [terms](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE) | [skill-ai-maestro-memory-search](../packages/claude-code/skill-ai-maestro-memory-search) |
+| `ai-maestro/planning` | MIT | [terms](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE) | [skill-ai-maestro-planning](../packages/claude-code/skill-ai-maestro-planning) |
 | `database/supabase-postgres-best-practices` | MIT | [terms](https://github.com/supabase/agent-skills/blob/dfd956df581f1715cd0b6d031700472c847d21b3/LICENSE) | [skill-database-supabase-postgres-best-practices](../packages/claude-code/skill-database-supabase-postgres-best-practices) |
 | `sentry/code-review` | Apache-2.0 | [terms](https://github.com/getsentry/skills/blob/20886b3f82305f6769468a02f87780a139016730/LICENSE) | [skill-sentry-code-review](../packages/claude-code/skill-sentry-code-review) |
 | `ai-research/agent-evaluation` | Apache-2.0 | [terms](https://github.com/google/skills/blob/caeec93cc14812b7923bbe203ecd179f9aad4f3e/LICENSE) | [skill-ai-research-agent-evaluation](../packages/claude-code/skill-ai-research-agent-evaluation) |
@@ -531,7 +540,12 @@ collection. Directory qualifiers distinguish repeated activation names.
 
 ## Unresolved provenance: not a prohibition claim
 
-414 roots remain under provenance/terms review, including four mixed-license roots. Six additional
+409 roots remain under provenance/terms or publication-compliance review, including four
+mixed-license roots. The original Apache-2.0 grant for
+[ai-maestro/agent-messaging](https://github.com/agentmessaging/claude-plugin/blob/6dd0316a43aa6aeb9938932a6ed4ed77d4d04801/LICENSE)
+is verified, but its preexisting condensed payload lacks a prominent modified-file notice required by
+section 4(b). It stays excluded while exact-payload redistribution compliance is unresolved; this is
+not a claim of prohibition or unknown original rights. Six additional
 permissive-evidence roots are not packaged: four nonportable original activation names, one protected
 companion filename and one express MIT declaration needing complete legal-text attribution handling.
 The Supabase hold is resolved by the original author's complete MIT notice added in

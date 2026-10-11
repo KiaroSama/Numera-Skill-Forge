@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-docs-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1359a23cb12ba5b0eebcbbcf62dad14242aa1e4f1995d7b9588720bc8e12a8b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-docs-search/skills/docs-search/SKILL.md",
+      "path": "cli-tool/components/skills/ai-maestro/docs-search/SKILL.md",
+      "size": 2600
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5a6179a09d37a5a3f7b5bf8d1ea6c2d6cb652baf3c2360d75c6ea7e1eecfb46d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-maestro/docs-search",
+  "schema_version": 1
+}

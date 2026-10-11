@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-memory-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "34d7aa676adefe8696c13fdf5e8b91c04d74f9060c916fb9e91f060c5abdbb2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-memory-search/skills/memory-search/SKILL.md",
+      "path": "cli-tool/components/skills/ai-maestro/memory-search/SKILL.md",
+      "size": 2632
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a80aab5e9348b11f6258c98bd20cc342820a119179ea603c32e2453db73ac9cc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-maestro/memory-search",
+  "schema_version": 1
+}

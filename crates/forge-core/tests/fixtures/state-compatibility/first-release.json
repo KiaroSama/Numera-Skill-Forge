@@ -1,0 +1,61 @@
+{
+  "registry": {
+    "schema_version": 1,
+    "sources": [
+      {
+        "id": "legacy-source",
+        "repository": "https://github.com/example/first-release-fixture",
+        "enabled": false,
+        "reference": { "strategy": "default-branch" },
+        "roots": ["skills/legacy"],
+        "excludes": [],
+        "targets": ["claude-code"],
+        "update": "review",
+        "credential_reference": null,
+        "metadata": { "fixture_vendor": { "preserve": "original value" } }
+      }
+    ],
+    "packages": [
+      {
+        "id": "legacy",
+        "name": "First-release fixture",
+        "source": "legacy-source",
+        "components": ["legacy-source:skills/legacy"],
+        "dependencies": [],
+        "targets": ["claude-code"],
+        "optional_exclusions": []
+      }
+    ]
+  },
+  "lock": {
+    "schema_version": 1,
+    "sources": {},
+    "builds": {
+      "legacy:claude-code": {
+        "input_digest": "cfd9225ff3bc14cc1ba0ff19a1434e68ac2f47ebb38941c003840efa038483c4",
+        "version": "0.1.0",
+        "payload_digest": "66399534741ec58daccae674af4bb47941a6db9bb0a268e440de26fccb672af3"
+      }
+    }
+  },
+  "receipt": {
+    "id": "legacy-claude-code-first-release",
+    "package": "legacy",
+    "target": "claude-code",
+    "destination": "__OWNED_DESTINATION__",
+    "files": {
+      ".claude/skills/legacy/SKILL.md": "66399534741ec58daccae674af4bb47941a6db9bb0a268e440de26fccb672af3"
+    },
+    "enabled": true,
+    "operation": "first-release-install"
+  },
+  "job": {
+    "id": "first-release-job",
+    "request": { "action": "discover", "source": "missing-source", "offline": true },
+    "timeout": 30,
+    "started_utc": "2026-10-09T00:00:00Z",
+    "ended_utc": "2026-10-09T00:00:01Z",
+    "status": "failed",
+    "error": { "code": "source", "message": "Unknown source" }
+  }
+}

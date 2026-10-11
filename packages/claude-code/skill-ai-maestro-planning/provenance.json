@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-planning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "34a4a12808a054be8ee8fea1d1b252e73a1b11959b884a33f041439529020de3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-planning/skills/planning/SKILL.md",
+      "path": "cli-tool/components/skills/ai-maestro/planning/SKILL.md",
+      "size": 2894
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5c37069ae30af995ed42673dcf046d375379bb62953117dfa38e98471454c07d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-maestro/planning",
+  "schema_version": 1
+}

@@ -49,7 +49,7 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **480 reviewed skills** from
+The native Claude marketplace currently packages **485 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
 plugin, with original prompts, scripts, companions and notices unchanged. This is a bounded licensed
 subset, not the entire upstream collection. See [licenses and exclusions](docs/source-licenses.md).
