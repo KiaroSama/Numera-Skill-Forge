@@ -277,23 +277,9 @@ def require_worker_isolation() -> None:
             process = open_process(access, False, os.getpid())
             logging.info("Worker self-process access mask=%#x allowed=%s error=%d", access,
                          bool(process), 0 if process else c.get_last_error())
-            if process:
-                checked(close(process), "CloseHandle(worker self access)")
-        default = token_buffer(token, 6)
-        acl = c.c_void_p.from_buffer(default)
-        get_ace = api(A, "GetAce", w.BOOL, c.c_void_p, w.DWORD, c.POINTER(c.c_void_p))
-        if acl.value:
-            ace_count = c.c_ushort.from_address(acl.value + 4).value
-            # Retain the buffer backing TokenUser while comparing its SID.
-            user_buffer = token_buffer(token, 1)
-            user = SidAttributes.from_buffer(user_buffer)
-            user_allow = 0
-            for index in range(min(ace_count, 64)):
-                ace = c.c_void_p()
-                checked(get_ace(acl, index, c.byref(ace)), "GetAce(worker default DACL)")
-                if c.c_byte.from_address(ace.value).value == 0 and equal_sid(ace.value + 8, user.sid):
-                    user_allow |= w.DWORD.from_address(ace.value + 4).value
-            logging.info("Worker token default-DACL ACEs=%d user-allow-mask=%#x", ace_count, user_allow)
+            if not process:
+                raise OSError(c.get_last_error(), "Native worker cannot access its own process")
+            checked(close(process), "CloseHandle(worker self access)")
     finally:
         checked(close(token), "CloseHandle(token)")
 

@@ -49,30 +49,33 @@ macOS Intel. `scripts/distribution-manifest.py` records SHA-256 per bundle file,
 runner architecture and locked Cargo license inventory; missing signing remains explicitly unsigned.
 Manifest generation logs UTC UTF-8 under project-local diagnostics; those logs are not public bundles. Its Linux tier runs the original
 release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
-real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup. Windows now has
-an explicit hosted tier using an exact matching Microsoft driver, never-switched private desktop,
-linked unelevated token where available, otherwise a separately restricted Medium-integrity child token
-when the hosted runner has no linked logon token. The suspended child is attached to a kill-on-close
-Job before resume; both candidate and actual child must be non-elevated, at Medium or lower integrity,
-and without an enabled Administrators SID. It asserts original-release DOM/IPC, persisted check-only
-job, invalid workspace, logs and owned cleanup. Launch failure records the actual Win32 error and
-read-only destination-token access probes for the executable, script, work directory, private desktop
-and window station; the probes neither change permissions nor start a fallback process. A 15-second
-first-party worker preflight exercises the same owner before native compilation; failure stops the
-Windows lane early and preserves launch diagnostics. This preflight is not GUI/IPC verification.
-Missing token, desktop, matching runtime or cleanup capability fails, never skips green. Record actual
-results per final SHA; a prepared smoke script is not a passing runtime result. Windows uses the
-installed no-console `pythonw.exe` sibling for the worker and directly owns the matching Microsoft
-EdgeDriver process. The worker directly launches the original release with captured startup output
-and a loopback-only debugging port, then attaches EdgeDriver through `debuggerAddress`; this preserves
-real native WebView2 DOM/IPC testing while exposing application exit codes. Linux retains the Tauri
-intermediary. A Windows-only manual diagnostic selection avoids repeating unrelated native builds;
-the default `all` selection still runs the complete four-platform final verification. Ordinary requests remain bounded to 10 seconds; cold Windows session creation
-has a separate 30-second ceiling inside the unchanged 120-second protocol deadline.
+real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup.
 
-The worker launch preflight now passes, but Windows GUI verification remains failed: the original
-application exits during WebView2 session creation, reporting a missing DevToolsActivePort file.
-Microsoft documents a [restricted-token WebView2 limitation](https://github.com/MicrosoftEdge/WebView2Feedback/issues/4850#issuecomment-2412609705),
-which is relevant evidence, not proof of this application's exact crash cause. No browser sandbox
-is disabled, no system policy is changed, and this failure is not converted to a passing skip.
-macOS GUI startup remains untested without a supported isolated silent native WebDriver.
+Windows uses the original production release through the operating system's UI Automation provider,
+not a debug build, injected bridge, browser mock or enabled production debugger. An OS-provided C#
+compiler builds `scripts/native-windows-uia.cs` against existing UI Automation assemblies. Its
+ValuePattern/InvokePattern controls enter the workspace and navigate Updates; TextPattern reads the
+rendered response. Assertions require zero source/package/receipt counts, the exact workspace,
+successful empty-source sync, the real invalid-workspace error, one persisted check-only job and
+actual desktop dispatch logs. No focus, keyboard injection or user desktop switch is used.
+
+The `pythonw.exe` worker and all native children run on one never-switched private desktop inside a
+kill-on-close Job. Elevated hosted runners use a linked or same-user/session ordinary token when
+available, otherwise a LUA-filtered Medium token. Filtering removes administrator rights without
+stripping normal-user capabilities. Only the new child token's default DACL is normalized to retain
+its user's access to newly-created objects; existing entries remain intact. No elevated parent,
+filesystem, account, UAC or machine policy is modified. Candidate and actual suspended child must be
+non-elevated, at Medium or lower integrity, and without an enabled Administrators SID before resume.
+A single inherited private desktop handle keeps downstream native children off the input desktop.
+
+A 15-second first-party launch preflight fails early before native compilation. The actual UI tier
+has a 120-second protocol/150-second owner/40-second progress ceiling, with bounded child cleanup
+and a verified zero-active-process Job before desktop closure. Disappearing descendant files during
+Python 3.12 profile cleanup are treated like Python 3.13 `rmtree`; other errors propagate and the
+fixture root must be absent. A Windows-only diagnostic selection avoids unrelated rebuilds; the
+workflow's default `all` selection retains four-platform final verification. Missing native runtime,
+UI Automation, token, desktop or cleanup capabilities fail rather than skip green.
+
+Windows original-release native interactions and cleanup have passed in the hosted tier; correlate
+published results to their exact SHA before claiming final completion. Production devtools remain
+disabled. macOS GUI startup remains untested without a supported isolated silent native test provider.
