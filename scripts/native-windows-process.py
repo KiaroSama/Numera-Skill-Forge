@@ -194,9 +194,23 @@ def ordinary_shell_token(owner: object) -> object | None:
 
 def restricted_medium_token(token: object) -> object:
     """Restrict only a new child token; never change caller privileges, UAC or accounts."""
-    restricted = w.HANDLE()
-    checked(restrict_token(token, 1 | 4, 0, None, 0, None, 0, None, c.byref(restricted)),
-            "CreateRestrictedToken(DISABLE_MAX_PRIVILEGE|LUA_TOKEN)")
+    level, computed, restricted = w.HANDLE(), w.HANDLE(), w.HANDLE()
+    create_level = api(A, "SaferCreateLevel", w.BOOL, w.DWORD, w.DWORD, w.DWORD,
+                       c.POINTER(w.HANDLE), c.c_void_p)
+    compute = api(A, "SaferComputeTokenFromLevel", w.BOOL, w.HANDLE, w.HANDLE,
+                  c.POINTER(w.HANDLE), w.DWORD, c.c_void_p)
+    close_level = api(A, "SaferCloseLevel", w.BOOL, w.HANDLE)
+    duplicate = api(A, "DuplicateTokenEx", w.BOOL, w.HANDLE, w.DWORD, c.c_void_p,
+                    c.c_int, c.c_int, c.POINTER(w.HANDLE))
+    checked(create_level(2, 0x20000, 1, c.byref(level), None), "SaferCreateLevel(NORMALUSER)")
+    try:
+        # Normal-user reduction preserves OS policy; flags 0 never makes the token inert.
+        checked(compute(level, token, c.byref(computed), 0, None), "SaferComputeTokenFromLevel(NORMALUSER)")
+        checked(duplicate(computed, 0x018B, None, 2, 1, c.byref(restricted)), "DuplicateTokenEx(normal user)")
+    finally:
+        if computed.value:
+            checked(close(computed), "CloseHandle(normal-user token)")
+        checked(close_level(level), "SaferCloseLevel")
     try:
         medium = sid(67)  # WinMediumLabelSid, S-1-16-8192.
         label = SidAttributes(c.cast(medium, c.c_void_p), 0x20)  # SE_GROUP_INTEGRITY.
