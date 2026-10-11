@@ -439,6 +439,58 @@ class Owner:
                 self.stop()
                 raise
 
+    def diagnose_owned_processes(self) -> None:
+        """Read token and desktop boundaries only for processes recorded in this owned Job."""
+        class ProcessIds(c.Structure):
+            _fields_ = [("assigned", w.DWORD), ("amount", w.DWORD), ("pids", c.c_size_t * 64)]
+
+        class ThreadEntry(c.Structure):
+            _fields_ = [("size", w.DWORD), ("usage", w.DWORD), ("tid", w.DWORD),
+                        ("pid", w.DWORD), ("base", c.c_long), ("delta", c.c_long), ("flags", w.DWORD)]
+
+        ids = ProcessIds()
+        checked(query_job(self.job, 3, c.byref(ids), c.sizeof(ids), None), "QueryInformationJobObject(process IDs)")
+        selected = set(ids.pids[:min(ids.amount, 64)])
+        open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
+        query_image = api(K, "QueryFullProcessImageNameW", w.BOOL, w.HANDLE, w.DWORD, w.LPWSTR, c.POINTER(w.DWORD))
+        snapshot = api(K, "CreateToolhelp32Snapshot", w.HANDLE, w.DWORD, w.DWORD)
+        first = api(K, "Thread32First", w.BOOL, w.HANDLE, c.POINTER(ThreadEntry))
+        following = api(K, "Thread32Next", w.BOOL, w.HANDLE, c.POINTER(ThreadEntry))
+        desktop = api(U, "GetThreadDesktop", w.HANDLE, w.DWORD)
+        get_name = api(U, "GetUserObjectInformationW", w.BOOL, w.HANDLE, c.c_int, c.c_void_p, w.DWORD, c.POINTER(w.DWORD))
+        for pid in selected:
+            process = open_process(0x1000, False, pid)
+            if not process:
+                continue
+            token, image, length = w.HANDLE(), c.create_unicode_buffer(1024), w.DWORD(1024)
+            try:
+                if query_image(process, 0, image, c.byref(length)) and open_token(process, 8, c.byref(token)):
+                    label = SidAttributes.from_buffer(token_buffer(token, 25))
+                    count = sid_count(label.sid)[0]
+                    logging.info("Owned process pid=%d image=%s elevated=%s integrity=%d", pid,
+                                 Path(image.value).name, elevated(token), sid_part(label.sid, count - 1)[0])
+            finally:
+                if token.value:
+                    checked(close(token), "CloseHandle(owned query token)")
+                checked(close(process), "CloseHandle(owned query process)")
+        handle = snapshot(4, 0)
+        if handle == c.c_void_p(-1).value:
+            logging.warning("Owned thread snapshot unavailable error=%d", c.get_last_error())
+            return
+        try:
+            entry = ThreadEntry()
+            entry.size = c.sizeof(entry)
+            found, observed = first(handle, c.byref(entry)), set()
+            while found:
+                if entry.pid in selected and entry.pid not in observed:
+                    name, size = c.create_unicode_buffer(256), w.DWORD()
+                    if get_name(desktop(entry.tid), 2, name, c.sizeof(name), c.byref(size)):
+                        logging.info("Owned process pid=%d first-thread desktop=%s", entry.pid, name.value)
+                        observed.add(entry.pid)
+                found = following(handle, c.byref(entry))
+        finally:
+            checked(close(handle), "CloseHandle(owned thread snapshot)")
+
     def diagnose_startup(self) -> None:
         """Inspect only window captions on this owned desktop; never send UI messages."""
         callback_type = c.WINFUNCTYPE(w.BOOL, w.HWND, w.LPARAM)

@@ -274,16 +274,21 @@ def main() -> None:
         with windows.Owner(command, environment, run) as owner:
             logging.info("Owned suspended worker pid=%d started=%s private-desktop=%s Edge=%s", owner.pid, owner.started, owner.desktop_name, version)
             deadline, idle, prior = time.monotonic() + 150, time.monotonic() + 40, None
+            inspection = time.monotonic() + 2
             progress = run / "progress.json"
             while (result := owner.poll()) is None:
                 state = progress.read_text(encoding="utf-8") if progress.exists() else None
                 if state != prior:
                     logging.info("Worker progress=%s", state)
                     prior, idle = state, time.monotonic() + 40
+                if time.monotonic() >= inspection:
+                    owner.diagnose_owned_processes()
+                    inspection = time.monotonic() + 5
                 if time.monotonic() >= deadline or time.monotonic() >= idle:
                     raise TimeoutError("Windows native worker exceeded 150s wall or 40s progress deadline")
                 time.sleep(0.1)
             if result != 0:
+                owner.diagnose_owned_processes()
                 raise RuntimeError(f"Windows native worker failed with exit code {result}; see captured per-run logs")
             final = json.loads(progress.read_text(encoding="utf-8"))
             if final.get("stage") != "contracts-complete":
