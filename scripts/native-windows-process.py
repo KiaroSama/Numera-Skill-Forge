@@ -200,6 +200,36 @@ def ordinary_shell_token(owner: object) -> object | None:
         checked(close(process), "CloseHandle(shell process query)")
 
 
+def normalize_child_default_dacl(token: object) -> None:
+    """Grant the child user access to its own newly-created objects, preserving existing ACEs."""
+    class Trustee(c.Structure):
+        _fields_ = [("multiple", c.c_void_p), ("operation", c.c_int), ("form", c.c_int),
+                    ("kind", c.c_int), ("name", c.c_void_p)]
+
+    class Entry(c.Structure):
+        _fields_ = [("permissions", w.DWORD), ("mode", c.c_int), ("inherit", w.DWORD), ("trustee", Trustee)]
+
+    user = token_buffer(token, 1)
+    identity = SidAttributes.from_buffer(user)
+    checked(valid_sid(identity.sid), "IsValidSid(child user)")
+    old = token_buffer(token, 6)
+    acl = c.c_void_p.from_buffer(old)
+    if not acl.value:
+        raise RuntimeError("Child token has no bounded existing default DACL")
+    entry = Entry(0x10000000, 1, 0, Trustee(None, 0, 0, 1, identity.sid))  # GENERIC_ALL, GRANT_ACCESS, SID/user.
+    merge = api(A, "SetEntriesInAclW", w.DWORD, w.DWORD, c.POINTER(Entry), c.c_void_p, c.POINTER(c.c_void_p))
+    free = api(K, "LocalFree", c.c_void_p, c.c_void_p)
+    result = c.c_void_p()
+    error = merge(1, c.byref(entry), acl, c.byref(result))
+    if error:
+        raise OSError(error, "SetEntriesInAclW(child default DACL) failed")
+    try:
+        checked(set_token(token, 6, c.byref(result), c.sizeof(result)), "SetTokenInformation(child default DACL)")
+    finally:
+        if free(result):
+            raise OSError(c.get_last_error(), "LocalFree(child default DACL) failed")
+
+
 def restricted_medium_token(token: object) -> object:
     """Restrict only a new child token; never change caller privileges, UAC or accounts."""
     restricted = w.HANDLE()
@@ -212,6 +242,7 @@ def restricted_medium_token(token: object) -> object:
         checked(set_token(restricted, 25, c.byref(label), c.sizeof(label) + sid_length(medium)),
                 "SetTokenInformation(child Medium integrity)")
         require_standard_token(restricted)
+        normalize_child_default_dacl(restricted)
         return restricted
     except BaseException:
         checked(close(restricted), "CloseHandle(restricted token)")
