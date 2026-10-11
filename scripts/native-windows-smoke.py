@@ -23,6 +23,7 @@ sys.dont_write_bytecode = True
 def load(name: str, filename: str) -> object:
     spec = importlib.util.spec_from_file_location(name, Path(__file__).with_name(filename))
     module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
     spec.loader.exec_module(module)
     return module
 
@@ -307,13 +308,13 @@ def main() -> None:
                     logging.info("Worker progress=%s", state)
                     prior, idle = state, time.monotonic() + 40
                 if time.monotonic() >= inspection:
-                    owner.diagnose_owned_processes()
+                    windows.diagnostics.diagnose_owned_processes(windows, owner)
                     inspection = time.monotonic() + 5
                 if time.monotonic() >= deadline or time.monotonic() >= idle:
                     raise TimeoutError("Windows native worker exceeded 150s wall or 40s progress deadline")
                 time.sleep(0.1)
             if result != 0:
-                owner.diagnose_owned_processes()
+                windows.diagnostics.diagnose_owned_processes(windows, owner)
                 raise RuntimeError(f"Windows native worker failed with exit code {result}; see captured per-run logs")
             final = json.loads(progress.read_text(encoding="utf-8"))
             if final.get("stage") != "contracts-complete":
