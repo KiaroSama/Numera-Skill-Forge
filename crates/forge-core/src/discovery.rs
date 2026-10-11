@@ -160,34 +160,41 @@ fn detect(path: &str) -> Option<(Kind, String, String)> {
         };
         return Some((Kind::Plugins, root, name));
     }
-    let parent = parts
-        .get(parts.len().saturating_sub(2))
-        .copied()
-        .unwrap_or("");
-    let kind = match parent {
-        "agents" => Kind::Agents,
-        "commands" => Kind::Commands,
-        "rules" | "steering" => Kind::Rules,
-        "hooks" => Kind::Hooks,
-        "mods" => Kind::Mods,
-        "tools" => Kind::Tools,
-        "workflows" => Kind::Workflows,
-        "prompts" => Kind::Prompts,
-        "output-styles" => Kind::OutputStyles,
-        "themes" => Kind::Themes,
-        "monitors" | "services" => Kind::Services,
-        "providers" => Kind::Providers,
-        "channels" => Kind::Channels,
-        "keybindings" => Kind::Keybindings,
-        "locales" => Kind::Localization,
-        "evaluations" | "tests" => Kind::Evaluations,
-        _ => match name.as_str() {
+    let kind = category(path).map(|(kind, _)| kind).or_else(|| {
+        Some(match name.as_str() {
             ".mcp.json" | "mcp.json" | "mcp_config.json" => Kind::Mcps,
             "settings.json" => Kind::Settings,
             ".lsp.json" => Kind::Lsp,
             "AGENTS.md" => Kind::Rules,
             _ => return None,
-        },
-    };
+        })
+    })?;
     Some((kind, path.into(), name.trim_end_matches(".md").into()))
+}
+
+pub(crate) fn category(path: &str) -> Option<(Kind, &str)> {
+    for (end, _) in path.rmatch_indices('/') {
+        let folder = path[..end].rsplit('/').next()?;
+        let kind = match folder {
+            "agents" => Kind::Agents,
+            "commands" => Kind::Commands,
+            "rules" | "steering" => Kind::Rules,
+            "hooks" => Kind::Hooks,
+            "mods" => Kind::Mods,
+            "tools" => Kind::Tools,
+            "workflows" => Kind::Workflows,
+            "prompts" => Kind::Prompts,
+            "output-styles" => Kind::OutputStyles,
+            "themes" => Kind::Themes,
+            "monitors" | "services" => Kind::Services,
+            "providers" => Kind::Providers,
+            "channels" => Kind::Channels,
+            "keybindings" => Kind::Keybindings,
+            "locales" => Kind::Localization,
+            "evaluations" | "tests" => Kind::Evaluations,
+            _ => continue,
+        };
+        return Some((kind, &path[end + 1..]));
+    }
+    None
 }

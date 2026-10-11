@@ -1,5 +1,6 @@
 pub mod adapters;
 pub mod build;
+mod build_catalog;
 pub mod build_dependencies;
 pub mod collections;
 pub mod config_merge;

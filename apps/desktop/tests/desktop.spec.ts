@@ -51,7 +51,8 @@ async function mockBridge(page: Page): Promise<void> {
           switch (request['action']) {
             case 'status': return { workspace: args.root, sources: 0, packages: 0, installed: 0 };
             case 'sync': return { status: 'partial', concurrency: 1, sources: [{ source: 'example', status: 'review-required' }] };
-            case 'source-list': return [{ id: 'example' }];
+            case 'source-list': return [{ id: 'example', enabled: false, update: 'review' }];
+            case 'source-policy': return { updated: request['source'] };
             case 'catalog': return [{ id: 'sample' }];
             case 'harnesses': return [{ profile: 'claude', verification: 'static-only' }];
             case 'discover': return { source: request['source'], content_digest: 'a'.repeat(64), components: [], files: [], license_digest: 'b'.repeat(64) };
@@ -134,6 +135,35 @@ test('workspace approved-only open policy is explicit and survives reopen', asyn
   await page.reload();
   await expect(page.getByRole('status').filter({ hasText: 'Workspace opened.' })).toBeVisible();
   expect((await forge.requests()).find(row => row.request['action'] === 'sync')?.request['apply']).toBe(false);
+});
+
+test('source policy changes require explicit choices and errors never grant trust', async ({ page }) => {
+  await mockBridge(page);
+  await page.goto('/');
+  const forge = new ForgePage(page);
+  await forge.open();
+  await forge.view('Sources');
+  const policy = page.locator('#source-policy-form');
+  await policy.getByLabel('Source policy ID').fill('example');
+  await expect(policy.getByLabel('Update policy')).toHaveValue('review');
+  await expect(policy.getByLabel('Include this source in update checks')).not.toBeChecked();
+  await policy.getByLabel('Update policy').selectOption('approved-content-only');
+  await policy.getByLabel('Include this source in update checks').check();
+  await policy.getByRole('button', { name: 'Save source policy' }).click();
+  expect((await forge.requests()).filter(row => row.request['action'] === 'source-policy')).toHaveLength(0);
+  await policy.getByLabel('I authorize these source policy changes').check();
+  await policy.getByRole('button', { name: 'Save source policy' }).click();
+  await expect(page.getByRole('status').filter({ hasText: 'source-policy: Response received' })).toBeVisible();
+  expect((await forge.requests()).find(row => row.request['action'] === 'source-policy')?.request)
+    .toEqual({ action: 'source-policy', source: 'example', enabled: true, update: 'approved-content-only' });
+  await expect(policy.getByLabel('I authorize these source policy changes')).not.toBeChecked();
+  await policy.getByLabel('Update policy').selectOption('pinned');
+  await policy.getByLabel('I authorize these source policy changes').check();
+  await page.evaluate(() => { window.forgeTest.fail = 'source-policy'; });
+  await policy.getByRole('button', { name: 'Save source policy' }).click();
+  await expect(policy.getByRole('alert')).toContainText('ownership-conflict');
+  expect((await forge.requests()).filter(row => row.request['action'] === 'source-policy')).toHaveLength(2);
+  expect((await forge.requests()).some(row => ['approve', 'install', 'update', 'publish'].includes(String(row.request['action'])))).toBe(false);
 });
 
 test('approval binds the discovered digest; executable trust is explicit and reset', async ({ page }) => {

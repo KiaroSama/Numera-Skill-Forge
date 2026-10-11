@@ -214,6 +214,18 @@ def main():
             assert len(job_files) == 1, "Native open did not persist exactly one sequential sync job"
             job = json.loads(job_files[0].read_text(encoding="utf-8"))
             assert job["status"] == "success" and job["request"] == {"action": "sync", "apply": False, "offline": False}, "Native open job did not preserve check-only policy"
+            driver.script("location.hash='sources'; const form=document.querySelector('[data-operation=source-add]'); form.elements.namedItem('id').value='fixture'; form.elements.namedItem('repository').value=arguments[0]; form.requestSubmit(); return true;", f"local:{workspace}")
+            driver.wait("return document.querySelector('#main').getAttribute('aria-busy') === 'false' && document.querySelector('[data-result=sources] pre')?.textContent.includes('fixture');")
+            driver.script("const form=document.querySelector('#source-policy-form'); form.elements.namedItem('source').value='fixture'; form.elements.namedItem('update').value='approved-content-only'; form.elements.namedItem('enabled').checked=true; form.elements.namedItem('confirmed').checked=true; form.requestSubmit(); return true;")
+            driver.wait("return document.querySelector('#main').getAttribute('aria-busy') === 'false' && document.querySelector('[data-result=sources] pre')?.textContent.includes('updated');")
+            registration = json.loads((workspace / "registry/sources.json").read_text(encoding="utf-8"))
+            assert registration["sources"][0]["enabled"] is True and registration["sources"][0]["update"] == "approved-content-only", "Native policy form did not persist selected values"
+            assert not driver.script("return document.querySelector('#source-policy-form').elements.namedItem('confirmed').checked;"), "Native policy confirmation did not reset"
+            assert not (workspace / "forge.lock.json").exists(), "Policy save unexpectedly approved a source"
+            driver.script("const form=document.querySelector('#source-policy-form'); form.elements.namedItem('source').value='missing-source'; form.elements.namedItem('confirmed').checked=true; form.requestSubmit(); return true;")
+            driver.wait("return document.querySelector('#source-policy-form .form-error')?.textContent.includes('Unknown source') && document.querySelector('#main').getAttribute('aria-busy') === 'false';")
+            assert json.loads((workspace / "registry/sources.json").read_text(encoding="utf-8")) == registration, "Failed native policy save changed registration"
+            logging.info("Original native source-policy form persisted explicit choice, reset consent and refused unknown source without approval")
             driver.script("document.querySelector('#workspace-root').value = arguments[0]; document.querySelector('#workspace-form').requestSubmit(); return true;", str(isolated / "missing-workspace"))
             failure = driver.wait("const n=document.querySelector('#notice'); return n?.classList.contains('error') && n.textContent.includes('workspace:') && document.querySelector('#main').getAttribute('aria-busy') === 'false' ? n.textContent : null;")
             assert failure, "Invalid workspace was not rejected through native IPC"
@@ -240,7 +252,7 @@ def main():
                 shutil.rmtree(isolated)
         finally:
             logging.shutdown()
-    print(json.dumps({"status": "success", "surface": "Linux native release/Xvfb", "checks": ["startup", "real-service-ipc", "invalid-workspace", "diagnostic-file", "owned-process-cleanup"]}))
+    print(json.dumps({"status": "success", "surface": "Linux native release/Xvfb", "checks": ["startup", "real-service-ipc", "source-policy-form", "policy-refusal", "invalid-workspace", "diagnostic-file", "owned-process-cleanup"]}))
 
 
 if __name__ == "__main__":

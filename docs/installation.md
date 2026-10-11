@@ -36,6 +36,10 @@ retry selects failed/running/pending steps and does not repeat completed sources
 content is not automatically retried or approved. Legacy records without progress restart the original
 bounded request. Project and user scopes require explicit existing destinations.
 
+Desktop Sources provides explicit per-source update policy and enabled-state controls. Review the
+current values, authorize the selected changes, then save; the confirmation resets after success or
+any choice change. A failed save remains a diagnostic, not source/executable approval.
+
 Desktop Settings offers a per-workspace opt-in to apply policy-approved safe updates and rebuild on
 open. Check-only remains the default; no installation or publication runs on open. Active progress
 inspection and cancellation remain available while an operation runs. After reopen, Updates accepts a

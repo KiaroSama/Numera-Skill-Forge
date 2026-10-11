@@ -42,6 +42,20 @@ execute bit. Native host activation is not inferred from copying its files.
 New journals store bounded digest metadata plus raw recovery blobs, and ownership receipt changes
 participate in the same logical operation. Rollback records its direction before compensation. Existing source licensing and last-known-good state are preserved.
 
+## Generic build catalogs
+
+A generic build promotes its package, build identity, target catalog and portable catalog ownership
+record in one recoverable journal. `catalogs/builds/<target>.json` lists deterministic built package
+identities; `<target>.lock.json` binds the generated catalog bytes. Edits, removals and unowned existing
+outputs refuse rather than get replaced. The Claude-specific marketplace lives under
+`packages/claude-code/.claude-plugin/marketplace.json`, with paths relative to that directory's parent.
+It uses preserved native manifest names and versions, independently of Forge package IDs/build versions.
+Other targets receive the Forge catalog only, not an invented native marketplace format.
+
+The collection-owned repository-root marketplace stays separate and unchanged. Catalog ownership is
+public generated product metadata; it survives a fresh checkout, but rebuilding still needs the exact
+accepted source snapshot. Adapter transformation v3 preserves native category-relative directories.
+
 ## Registered skill collections
 
 Collection services provide a separate source-to-many-plugins distribution boundary: explicit per-root

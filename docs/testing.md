@@ -55,11 +55,18 @@ and user-edit refusal. The assembled reviewed source import matched 4272 origina
 from 485 plugins against immutable upstream Git identities and modes. The five AI Maestro additions
 retain the author's concise submitted variants and complete original MIT notices. No source runtime
 scripts were run.
+Generic build catalog regressions require deterministic sorted entries, preserved native names/optional
+versions, portable ownership across a fresh checkout, collection-catalog coexistence, edited/deleted/
+unowned output refusal and coherent package/lock/catalog rollback. These are packaging contracts, not
+native marketplace installation or model invocation.
 Additional public seams cover dependency closure/coherent lock rollback, scoped/shared installation,
 managed JSON baselines, durable per-step job progress, failed-only retry (completed observations are
 not rerun; review-only work cannot bypass approval), cancellation boundaries and local support privacy.
-Headless UI cases cover check-only versus explicitly opted-in workspace reopening and progress/cancel
-controls while a source operation is busy. Mock IPC proves UI contracts only.
+Headless UI cases cover check-only versus explicitly opted-in workspace reopening, explicit source
+policy/enabled choice and confirmation/refusal, and progress/cancel controls while a source operation
+is busy. Mock IPC proves UI contracts only. Recursive inventory/build fixtures require exact nested
+agent and Gemini command paths, separate same-basename siblings and unconverted owning-skill companions;
+no upstream code runs.
 CI `scripts/verify-collections.py` verifies copied raw bytes, staged metadata, complete selected roots
 and native marketplace entries. This complements native `claude plugin validate`, not host load proof.
 
@@ -77,7 +84,8 @@ macOS Intel. `scripts/distribution-manifest.py` records SHA-256 per bundle file,
 runner architecture and locked Cargo license inventory; missing signing remains explicitly unsigned.
 Manifest generation logs UTC UTF-8 under project-local diagnostics; those logs are not public bundles. Its Linux tier runs the original
 release through tauri-driver/WebKitWebDriver under Xvfb using `scripts/native-desktop-smoke.py`:
-real status/sync IPC, invalid workspace, diagnostic file and owned-process cleanup.
+real status/sync IPC, source-policy form persistence/consent reset and unknown-source refusal without
+approval, invalid workspace, diagnostic file and owned-process cleanup.
 
 Windows uses the original production release through the operating system's UI Automation provider,
 not a debug build, injected bridge, browser mock or enabled production debugger. An OS-provided C#

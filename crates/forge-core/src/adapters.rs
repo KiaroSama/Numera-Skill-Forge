@@ -150,7 +150,11 @@ pub fn component_path(target: &str, component: &Component) -> Result<String> {
                 "Native component file extension does not match the documented target contract",
             ));
         }
-        return Ok(format!("{directory}/{filename}"));
+        let relative = crate::discovery::category(&component.root)
+            .filter(|(kind, _)| kind == &component.kind)
+            .map(|(_, relative)| relative)
+            .unwrap_or(filename);
+        return Ok(format!("{directory}/{relative}"));
     }
     match component.kind {
         Kind::Hooks => Ok(if target == "antigravity" {

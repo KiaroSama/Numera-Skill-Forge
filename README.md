@@ -106,8 +106,10 @@ Consumers do not need write access to this repository. Project installs require 
 and support dry-run. Configuration/native-runtime installation routes are distinct from skill copies.
 Publication defaults to preview; local updates are not GitHub updates. No auto scheduler or daemon.
 Desktop reopening checks enabled sources sequentially, with failed sources retaining accepted state.
-Settings can explicitly opt into policy-approved safe updates and rebuilds on open; it never installs or
-publishes. Installed updates coordinate all enabled owners per destination and preserve user changes.
+Sources exposes explicit per-source update policy and enabled-state controls, with reviewed confirmation.
+Settings can separately opt into policy-approved safe updates and rebuilds on open; it never installs or
+publishes. Generic builds emit target catalogs and a separate Claude marketplace without changing the
+collection-owned repository marketplace; native manifest identities and user-edited outputs are preserved. Installed updates coordinate all enabled owners per destination and preserve user changes.
 Persisted per-step progress supports inspection/cancellation and failed-only retry.
 
 ## Documentation

@@ -18,6 +18,7 @@ function element<T extends Element>(selector: string, constructor: { new (...arg
 const rootInput = element('#workspace-root', HTMLInputElement);
 const workspaceForm = element('#workspace-form', HTMLFormElement);
 const approvalForm = element('#approval-form', HTMLFormElement);
+const sourcePolicyForm = element('#source-policy-form', HTMLFormElement);
 const installForm = element('#install-form', HTMLFormElement);
 const theme = element('#theme', HTMLSelectElement);
 const notice = element('#notice', HTMLDivElement);
@@ -180,6 +181,7 @@ async function openWorkspace(root: string): Promise<void> {
   openApply.checked = preference(`numera-open-apply:${workspace}`) === 'true';
   clearApproval();
   clearPreview();
+  sourcePolicyForm.reset();
   for (const result of document.querySelectorAll<HTMLElement>('[data-result]')) {
     const empty = document.createElement('p');
     empty.className = 'empty';
@@ -241,6 +243,10 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
       case 'source-add':
         clearApproval();
         request = { action: operation, id: text(form, 'id'), repository: text(form, 'repository'), roots: list(form, 'roots'), targets: list(form, 'targets'), enabled: checked(form, 'enabled') };
+        break;
+      case 'source-policy':
+        if (!checked(form, 'confirmed')) throw new Error('Authorize these source policy changes before saving.');
+        request = { action: operation, source: text(form, 'source'), enabled: checked(form, 'enabled'), update: text(form, 'update') };
         break;
       case 'discover':
         clearApproval();
@@ -319,6 +325,7 @@ async function submit(form: HTMLFormElement, submitter: HTMLElement | null): Pro
       } else tell('No matching content digest was returned. Approval remains locked; inspect the discovery diagnostic.', true);
     }
     if (request.action === 'approve') clearApproval();
+    if (request.action === 'source-policy') input(sourcePolicyForm, 'confirmed').checked = false;
     if (request.action === 'install' && request['dry_run'] === true && typeof request['destination'] === 'string' && previewAllowsApply(result, request['destination'])) {
       installPreview = installKey();
       element('#install-gate', HTMLParagraphElement).textContent = 'Preview received. Inspect the destination and files above, then explicitly authorize the changes.';
@@ -341,6 +348,9 @@ for (const form of document.querySelectorAll<HTMLFormElement>('form[data-operati
 installForm.addEventListener('input', event => {
   if (!(event.target instanceof HTMLInputElement) || event.target.name !== 'confirmed') clearPreview();
   else updateControls();
+});
+sourcePolicyForm.addEventListener('input', event => {
+  if (!(event.target instanceof HTMLInputElement) || event.target.name !== 'confirmed') input(sourcePolicyForm, 'confirmed').checked = false;
 });
 approvalForm.addEventListener('input', updateControls);
 window.addEventListener('hashchange', () => navigate(true));

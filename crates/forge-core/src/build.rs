@@ -11,6 +11,15 @@ use std::{
     path::{Path, PathBuf},
 };
 
+struct Staging(PathBuf);
+impl Drop for Staging {
+    fn drop(&mut self) {
+        if self.0.exists() {
+            let _ = fs::remove_dir_all(&self.0);
+        }
+    }
+}
+
 pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
     validation::identifier(id)?;
     validation::identifier(target)?;
@@ -87,7 +96,7 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
             .map(|(p, accepted)| (*p, &accepted.snapshot.content_digest))
             .collect::<Vec<_>>(),
         target,
-        "adapter-v2",
+        "adapter-v3",
     ))?);
     let key = format!("{target}/{id}");
     let prior = lock.builds.get(&key);
@@ -154,6 +163,7 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         fs::remove_dir_all(&stage)?;
     }
     fs::create_dir_all(&stage)?;
+    let _cleanup = Staging(stage.clone());
     let mut file_modes = std::collections::BTreeMap::new();
     let mut written = std::collections::BTreeMap::new();
     for (dependency, snapshot, c) in &selected_components {
@@ -245,7 +255,7 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
     adapters::render(&stage, id, &package.name, &version, target, &components)?;
     storage::write(
         &stage.join("provenance.json"),
-        &json!({"schema_version":1,"source":package.source,"sources":closure.iter().map(|(p,a)| json!({"package":p.id,"source":p.source,"revision":a.snapshot.revision,"digest":a.snapshot.content_digest,"license_digest":a.snapshot.license_digest})).collect::<Vec<_>>(),"transformation":"adapter-v2","file_modes":file_modes}),
+        &json!({"schema_version":1,"source":package.source,"sources":closure.iter().map(|(p,a)| json!({"package":p.id,"source":p.source,"revision":a.snapshot.revision,"digest":a.snapshot.content_digest,"license_digest":a.snapshot.license_digest})).collect::<Vec<_>>(),"transformation":"adapter-v3","file_modes":file_modes}),
     )?;
     storage::write(&stage.join("compatibility.json"), &report)?;
     let destination = workspace.join("packages").join(target).join(id);
@@ -289,25 +299,28 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
         .map(|(path, mode)| (path.clone(), *mode))
         .collect();
     crate::jobs::checkpoint()?;
-    let operation = transaction::apply_with_receipt_modes(
+    let (mut metadata, catalog_paths) =
+        crate::build_catalog::prepare(workspace, target, id, &stage, &lock)?;
+    metadata.push(Change {
+        path: "forge.lock.json".into(),
+        before: if workspace.join("forge.lock.json").exists() {
+            Some(storage::bytes(&workspace.join("forge.lock.json"))?)
+        } else {
+            None
+        },
+        after: Some(storage::encoded(&lock)?),
+    });
+    let operation = transaction::apply_with_receipts_modes(
         workspace,
         &destination,
         &transaction::operation_id(),
         changes,
-        Change {
-            path: "forge.lock.json".into(),
-            before: if workspace.join("forge.lock.json").exists() {
-                Some(storage::bytes(&workspace.join("forge.lock.json"))?)
-            } else {
-                None
-            },
-            after: Some(storage::encoded(&lock)?),
-        },
+        metadata,
         &mode_changes,
     )?;
     fs::remove_dir_all(stage)?;
     Ok(
-        json!({"package":id,"target":target,"version":version,"digest":payload_digest,"operation":operation,"path":destination}),
+        json!({"package":id,"target":target,"version":version,"digest":payload_digest,"operation":operation,"path":destination,"catalogs":catalog_paths}),
     )
 }
 pub fn tree_digest(root: &Path) -> Result<String> {

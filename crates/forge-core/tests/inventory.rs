@@ -1,4 +1,9 @@
-use forge_core::{discovery, model::Kind, storage, transaction};
+use forge_core::{
+    discovery,
+    model::{Accepted, Kind},
+    registry, service, storage, transaction,
+};
+use serde_json::json;
 use std::{fs, path::PathBuf};
 #[test]
 fn complete_native_roots_own_their_companions_without_duplicate_component_conversion() {
@@ -54,4 +59,125 @@ fn complete_native_roots_own_their_companions_without_duplicate_component_conver
     );
     assert!(snapshot.files.iter().any(|f| f.path.ends_with("tool.py")));
     fs::remove_dir_all(root).unwrap();
+}
+
+#[test]
+fn recursive_native_components_keep_namespaces_and_owned_companions() {
+    struct Fixture(PathBuf);
+    impl Drop for Fixture {
+        fn drop(&mut self) {
+            fs::remove_dir_all(&self.0).unwrap();
+        }
+    }
+    let fixture = Fixture(
+        PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .join("../../.ci-work/tests")
+            .join(transaction::operation_id()),
+    );
+    let revision = "a".repeat(40);
+    let cache = fixture
+        .0
+        .join(format!(".forge-state/snapshots/fixture/{revision}"));
+    let inputs = [
+        ("LICENSE", "First-party GPL fixture"),
+        (
+            ".claude/agents/team/reviewer.md",
+            "---\nname: reviewer\ndescription: team review\n---\nTeam\n",
+        ),
+        (
+            ".claude/agents/other/reviewer.md",
+            "---\nname: reviewer\ndescription: other review\n---\nOther\n",
+        ),
+        (
+            ".gemini/commands/git/commit.toml",
+            "prompt = \"Review Git changes\"\n",
+        ),
+        (
+            ".gemini/commands/docs/commit.toml",
+            "prompt = \"Review docs changes\"\n",
+        ),
+        (
+            "skills/owned/SKILL.md",
+            "---\nname: owned\ndescription: fixture\n---\nSkill\n",
+        ),
+        (
+            "skills/owned/commands/nested/companion.md",
+            "Companion, not a separate command\n",
+        ),
+    ];
+    for (path, text) in inputs {
+        storage::atomic(&cache.join(path), text.as_bytes()).unwrap();
+    }
+    let snapshot = discovery::inspect(&cache, "fixture", &revision).unwrap();
+    assert_eq!(snapshot.components.len(), 5);
+    assert_eq!(
+        snapshot
+            .components
+            .iter()
+            .filter(|c| c.kind == Kind::Agents)
+            .count(),
+        2
+    );
+    assert_eq!(
+        snapshot
+            .components
+            .iter()
+            .filter(|c| c.kind == Kind::Commands)
+            .count(),
+        2
+    );
+    registry::add_source(
+        &fixture.0,
+        serde_json::from_value(json!({
+            "id":"fixture", "repository":format!("local:{}",fixture.0.display())
+        }))
+        .unwrap(),
+    )
+    .unwrap();
+    let mut lock = registry::lock(&fixture.0).unwrap();
+    lock.sources.insert(
+        "fixture".into(),
+        Accepted {
+            approved_digest: snapshot.content_digest.clone(),
+            executable_approved: false,
+            snapshot: snapshot.clone(),
+        },
+    );
+    registry::save_lock(&fixture.0, &lock).unwrap();
+    for (id, target, prefix) in [
+        ("agents", "claude-code", ".claude/"),
+        ("commands", "gemini", ".gemini/"),
+    ] {
+        let components = snapshot
+            .components
+            .iter()
+            .filter(|c| c.root.starts_with(prefix) || c.kind == Kind::Skills)
+            .map(|c| c.id.clone())
+            .collect::<Vec<_>>();
+        registry::add_package(
+            &fixture.0,
+            serde_json::from_value(json!({
+                "id":id,"name":id,"source":"fixture","components":components,"targets":[target]
+            }))
+            .unwrap(),
+        )
+        .unwrap();
+        service::execute(
+            &fixture.0,
+            json!({"action":"build","package":id,"target":target}),
+        )
+        .unwrap();
+        let built = fixture.0.join(format!("packages/{target}/{id}"));
+        for (path, text) in inputs.iter().filter(|(path, _)| path.starts_with(prefix)) {
+            assert_eq!(
+                fs::read(built.join(path.strip_prefix(prefix).unwrap())).unwrap(),
+                text.as_bytes()
+            );
+        }
+        assert_eq!(
+            fs::read(built.join("skills/owned/commands/nested/companion.md")).unwrap(),
+            b"Companion, not a separate command\n"
+        );
+        assert!(!built.join("commands/nested/companion.md").exists());
+    }
 }

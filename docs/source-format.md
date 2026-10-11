@@ -19,6 +19,18 @@ Registry schema v1: `schema_version`, ordered `sources`, `packages`. Source fiel
 `enabled`, `reference` (strategy/default-branch, branch/commit/tag with value), `roots`, `excludes`,
 `targets`, `update`, `credential_reference`, preserved metadata. Sources default disabled/review.
 
+Standalone component categories are discovered recursively. Native category-relative directories are
+retained when packaging, so two agents with the same filename in different subfolders do not collide;
+Gemini nested TOML commands retain their namespace. A skill or complete native plugin still owns its
+companions; those are not converted into additional standalone components. A preserved nested path
+is not proof that every host automatically loads it; native identity and supported format gates remain.
+
+Desktop Sources exposes `review`, `approved-content-only` and `pinned` update policies plus enabled
+state. Inspect the current source response, select the intended values and explicitly authorize the
+save. Sources still start disabled/review. Saving policy never approves a candidate digest, grants
+executable trust, installs content or publishes. Safe-content acceptance retains executable/license/
+structure review gates, even when workspace-open apply is separately enabled.
+
 ## Reviewed acquisition providers
 
 Built-in public HTTPS hosts are `github.com`, `gitlab.com`, `bitbucket.org` and `codeberg.org`.
@@ -76,6 +88,16 @@ connectivity.
 Package fields: `id`, `name`, `source`, `components`, `dependencies`, `targets`, `optional_exclusions`.
 Unknown host APIs require a capability/adapter change and regression tests; adding more content to an
 existing valid profile does not. Unknown/missing licenses block redistribution pending review.
+
+## Built package catalogs
+
+Generic build responses include generated catalog paths. Every target gets `catalogs/builds/<target>.json`
+and a matching `.lock.json` ownership record. Claude builds additionally generate
+`packages/claude-code/.claude-plugin/marketplace.json`; its plugin sources are `./<package-id>` relative
+to `packages/claude-code`. Entry names/versions follow each real native manifest, not invented aliases.
+Keep those public ownership records with the outputs. Build/lock/catalog rollback is one operation;
+user edits and deleted owned catalog files require review. No automatic host registration is performed.
+The repository-root marketplace remains dedicated to exact skill collections below.
 
 ## Exact skill collections
 
