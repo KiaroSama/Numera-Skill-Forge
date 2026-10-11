@@ -191,6 +191,11 @@ def worker(args: argparse.Namespace, run: Path) -> None:
                 raise RuntimeError("Invalid workspace was unexpectedly created")
             checkpoint("invalid-workspace-rejected")
     finally:
+        # Only startup diagnostics from the isolated empty profile, never database/profile state.
+        for candidate in list((run / "tmp").glob("scoped_dir*/EBWebView/chrome_debug.log"))[:2]:
+            data = candidate.read_bytes()
+            if len(data) <= 262144:
+                (run / f"webview-startup-{candidate.parent.parent.name}.log").write_bytes(data)
         if driver.session:
             driver.deadline = time.monotonic() + 5
             try:
