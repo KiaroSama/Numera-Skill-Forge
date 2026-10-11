@@ -512,16 +512,12 @@ class Owner:
         ids = ProcessIds()
         checked(query_job(self.job, 3, c.byref(ids), c.sizeof(ids), None), "QueryInformationJobObject(process IDs)")
         selected = set(ids.pids[:min(ids.amount, 64)])
-        pid_filter = " or ".join(f"ProcessId={pid}" for pid in sorted(selected))
-        script = "$rows = Get-CimInstance Win32_Process -Filter '" + pid_filter + "'; @($rows | ForEach-Object { " \
-                 "[pscustomobject]@{pid=$_.ProcessId; image=$_.Name; debug=($_.CommandLine -match '--remote-debugging-port'); " \
-                 "renderer=($_.CommandLine -match '--type=renderer'); gpu=($_.CommandLine -match '--type=gpu-process'); " \
-                 "automation=($_.CommandLine -match '--enable-automation')} }) | ConvertTo-Json -Compress"
-        if selected:
-            observed = subprocess.run(["powershell.exe", "-NoLogo", "-NoProfile", "-NonInteractive", "-Command", script],
-                                      capture_output=True, text=True, encoding="utf-8", timeout=5, creationflags=0x08000000)
-            if observed.returncode == 0:
-                logging.info("Owned browser argument flags=%s", observed.stdout.strip())
+        class UnicodeString(c.Structure):
+            _fields_ = [("length", w.USHORT), ("maximum", w.USHORT), ("buffer", c.c_void_p)]
+
+        nt = c.WinDLL("ntdll", use_last_error=True)
+        query_command = api(nt, "NtQueryInformationProcess", c.c_long, w.HANDLE, c.c_int,
+                            c.c_void_p, w.ULONG, c.POINTER(w.ULONG))
         open_process = api(K, "OpenProcess", w.HANDLE, w.DWORD, w.BOOL, w.DWORD)
         query_image = api(K, "QueryFullProcessImageNameW", w.BOOL, w.HANDLE, w.DWORD, w.LPWSTR, c.POINTER(w.DWORD))
         snapshot = api(K, "CreateToolhelp32Snapshot", w.HANDLE, w.DWORD, w.DWORD)
@@ -540,6 +536,16 @@ class Owner:
                     count = sid_count(label.sid)[0]
                     logging.info("Owned process pid=%d image=%s elevated=%s integrity=%d", pid,
                                  Path(image.value).name, elevated(token), sid_part(label.sid, count - 1)[0])
+                    buffer, required = c.create_string_buffer(65536), w.ULONG()
+                    status = query_command(process, 60, buffer, c.sizeof(buffer), c.byref(required))
+                    if status >= 0:
+                        command = UnicodeString.from_buffer(buffer)
+                        start, end = c.addressof(buffer), c.addressof(buffer) + c.sizeof(buffer)
+                        if command.length <= 32768 and start <= command.buffer <= end - command.length:
+                            arguments = c.wstring_at(command.buffer, command.length // 2)
+                            logging.info("Owned argument flags pid=%d debug=%s automation=%s renderer=%s gpu=%s", pid,
+                                         "--remote-debugging-port" in arguments, "--enable-automation" in arguments,
+                                         "--type=renderer" in arguments, "--type=gpu-process" in arguments)
             finally:
                 if token.value:
                     checked(close(token), "CloseHandle(owned query token)")
