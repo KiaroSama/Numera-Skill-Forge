@@ -41,6 +41,8 @@ function text(element, name) {
 }
 function names(element) {
     var values = [text(element, 'AXTitle'), text(element, 'AXDescription'), text(element, 'AXHelp')];
+    if (values.some(function (value) { return value.length > 0; })) return values.filter(function (value) { return value.length > 0; });
+    if (['AXTextField', 'AXTextArea', 'AXCheckBox', 'AXPopUpButton', 'AXComboBox'].indexOf(text(element, 'AXRole')) < 0) return [];
     var label = attribute(element, 'AXTitleUIElement');
     if (label) {
         timeout(label);
