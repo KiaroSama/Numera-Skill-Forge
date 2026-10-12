@@ -93,7 +93,15 @@ function setValue(element, value) {
     var settable = Ref();
     requireValue($.AXUIElementIsAttributeSettable(element, $('AXValue'), settable) === 0 && Boolean(settable[0]), 'AXValue is not settable; no keyboard fallback');
     requireValue($.AXUIElementSetAttributeValue(element, $('AXValue'), $(value)) === 0, 'AXValue setter failed');
-    requireValue(scalar(attribute(element, 'AXValue')) === value, 'AXValue setter did not retain requested value');
+    // WebKit dispatches the mutation to its main thread; observe once, never replay the setter.
+    var until = Date.now() + 5000, actual = null;
+    while (Date.now() < until) {
+        actual = scalar(attribute(element, 'AXValue'));
+        if (actual === value) return;
+        $.NSThread.sleepForTimeInterval(Math.min(0.05, Math.max(0, (until - Date.now()) / 1000)));
+    }
+    throw new Error('AXValue readback deadline exceeded actual_type=' + (actual === null ? 'null' : typeof actual) +
+        ' actual_length=' + (typeof actual === 'string' ? actual.length : 'not-text') + ' expected_length=' + value.length);
 }
 function run(argv) {
     var environment = $.NSProcessInfo.processInfo.environment;
