@@ -85,6 +85,17 @@ jobs:
             .ci-work/native-windows-smoke/*.log
             .ci-work/native-windows-smoke/run-*/*.log
           if-no-files-found: warn
+      - name: Verify original macOS release through external Accessibility
+        if: runner.os == 'macOS'
+        run: python3 scripts/native-macos-smoke.py --application target/release/numera-forge-desktop --work .ci-work/native-macos-smoke
+        timeout-minutes: 3
+      - name: Preserve macOS native smoke diagnostics
+        if: always() && runner.os == 'macOS'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: native-smoke-diagnostics-${{ matrix.os }}
+          path: .ci-work/native-macos-smoke/*.log
+          if-no-files-found: warn
       - name: Record unsigned checksums and locked dependency provenance
         shell: bash
         run: python scripts/distribution-manifest.py --bundle target/release/bundle --runner '${{ matrix.os }}'

@@ -35,8 +35,20 @@ ignored scratch system settings were retained. This evidence does not certify ot
 
 The direct Tauri driver supports Windows/Linux. A current macOS embedded WebDriver route exists
 upstream, but requires an app automation plugin, changed permissions and a rebuilt test app; none is
-installed here. Existing macOS bundles therefore retain build/hash evidence only, not original-release
-GUI/IPC certification.
+installed here. Original macOS GUI acceptance instead uses an external Apple Accessibility client in
+hosted-only CI (`scripts/native-macos-smoke.py` and `scripts/native-macos-ax.js`). It drives the unchanged
+release through PID-scoped accessible controls, never an embedded server or injected app JavaScript.
+Existing Accessibility trust and actual controls must be observed; missing trust/session/control
+support fails without prompting or changing TCC. Implementation alone is not GUI/IPC certification.
+
+The advertised 23 profiles span 18 host brands. A non-model command callback, metadata discovery,
+activation and model-followed skill invocation are different claims. Installed Claude's `--init-only`
+can run Setup/SessionStart without a conversation, but earlier credential/policy/MCP initialization
+prevents treating it as inherently offline or credential-free. Gemini and Hermes regular startup
+also have side effects beyond metadata inspection. Hosts not resolved on PATH are installation-
+unverified, not proved absent, and are not installed automatically. Current acceptance explicitly
+excludes private-account tests and model calls; all-host activation remains unverified without each
+host's isolated supported runtime prerequisites.
 
 Installation supports explicit project/user skill destinations, reviewed JSON configuration
 contributions with three-way merging, and documented native-directory routes for Amp and Antigravity.

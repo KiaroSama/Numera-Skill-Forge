@@ -24,8 +24,9 @@ once in CI on the pushed SHA, not duplicated locally.
 Initial path test assertion passed, but its guarded run reported a transient child survivor; exact
 PID subsequently inspected and already exited. That run is not final green verification. Final
 exact-SHA CI evidence and native artifact launch evidence must be checked before completion.
-All real native harness load tests and cross-platform packaged GUI smoke paths remain unverified
-until explicitly recorded; a listed profile is static contract evidence only.
+Native host activation and GUI smoke claims require separately recorded exact-SHA evidence. Original
+Windows/Linux GUI paths have passed; macOS runtime and all-host activation are not implied by builds
+or listed static-contract profiles.
 
 ## Authenticated source protocol tier
 
@@ -116,4 +117,21 @@ UI Automation, token, desktop or cleanup capabilities fail rather than skip gree
 
 Windows original-release native interactions and cleanup have passed in the hosted tier; correlate
 published results to their exact SHA before claiming final completion. Production devtools remain
-disabled. macOS GUI startup remains untested without a supported isolated silent native test provider.
+disabled.
+
+macOS ARM/Intel lanes use an external Apple Accessibility client against the unchanged production
+release, not an embedded WebDriver test build. `native-macos-smoke.py` owns the app and existing
+`/usr/bin/osascript` client; `native-macos-ax.js` targets only that PID's windows. Hosted-only checks
+require existing nonprompting AX trust and real semantic control exposure; no TCC/permission writes,
+focus/global keystrokes, coordinate fallback, injected app JavaScript or paid driver. Actual UI status,
+check-only job, policy persistence/consent reset/refusal, invalid workspace and dispatch logs must
+agree. Missing prerequisites fail explicitly rather than skip green. The 120-second wall bound,
+10-second helper calls, one-second AX messaging timeout, bounded tree/output and PID/start-identity
+cleanup guard the scenario. Capture UTC UTF-8 diagnostics under the project work directory; upload
+only sanitized log files, never scratch configuration or private state. Correlate results with the
+exact workflow SHA and runner architecture before claiming macOS GUI success.
+
+Current acceptance excludes private-repository/account tests and model invocation by owner choice.
+Real authenticated first-party transport fixtures remain valid, but are not private-account evidence.
+All-host non-model activation needs each host's actual isolated supported entry point; metadata
+validation and model-facing skill invocation are not substitutes.
