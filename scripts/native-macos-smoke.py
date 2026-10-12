@@ -4,6 +4,7 @@
 import argparse
 import ctypes
 from datetime import datetime, timezone
+import errno
 import hashlib
 import json
 import logging
@@ -44,13 +45,14 @@ class Owner:
 
     def info(self, pid):
         info = BsdInfo()
-        size = self.lib.proc_pidinfo(pid, 3, 0, ctypes.byref(info), ctypes.sizeof(info))
+        ctypes.set_errno(0)
+        # Nonzero arg includes zombies, retaining their PID/start identity until reaped.
+        size = self.lib.proc_pidinfo(pid, 3, 1, ctypes.byref(info), ctypes.sizeof(info))
+        error = ctypes.get_errno()
         if size == 0:
-            try:
-                os.kill(pid, 0)
-            except ProcessLookupError:
+            if error == errno.ESRCH:
                 return None
-            raise RuntimeError(f"Cannot verify live process identity pid={pid}")
+            raise RuntimeError(f"Cannot verify process identity pid={pid} errno={error} expected={self.owned.get(pid)}")
         if size != ctypes.sizeof(info) or info.pid != pid:
             raise RuntimeError("Darwin process identity ABI did not match")
         return (info.start_sec, info.start_usec), info.ppid, info.pgid, info.status
@@ -256,19 +258,29 @@ class AX:
 
     def snapshot(self):
         result = self.call("snapshot")
+        if result == {"status": "not-ready", "ax_error": -25204, "attribute": "AXWindows"}:
+            return None
         require(isinstance(result.get("nodes"), list) and len(result["nodes"]) <= 2000, "AX snapshot schema invalid")
         return result["nodes"]
 
     def wait(self, predicate, description):
         until = min(self.owner.deadline, time.monotonic() + 30)
+        not_ready = False
         while time.monotonic() < until:
             nodes = self.snapshot()
-            result = predicate(nodes)
-            if result:
-                logging.info("Verified stage=%s", description)
-                return result
+            if nodes is None:
+                if not not_ready:
+                    logging.info("Waiting stage=%s pid=%s attribute=AXWindows ax_error=-25204", description, self.pid)
+                not_ready = True
+            else:
+                not_ready = False
+                result = predicate(nodes)
+                if result:
+                    logging.info("Verified stage=%s", description)
+                    return result
             time.sleep(min(0.1, max(0, until - time.monotonic())))  # Poll actual AX state under deadline.
-        raise TimeoutError(f"Original macOS AX state not reached: {description}")
+        detail = " attribute=AXWindows ax_error=-25204" if not_ready else ""
+        raise TimeoutError(f"Original macOS AX state not reached: {description} pid={self.pid}{detail}")
 
     @staticmethod
     def text(nodes):
@@ -297,6 +309,7 @@ class AX:
 
     def role(self, name, allowed):
         nodes = self.snapshot()
+        require(nodes is not None, "AXWindows messaging failed outside a read-only readiness wait")
         found = [node for node in nodes if name in node["names"] and node["role"] in allowed]
         require(len(found) == 1, f"Expected one semantic control named {name}; found={len(found)}")
         return found[0]["role"]

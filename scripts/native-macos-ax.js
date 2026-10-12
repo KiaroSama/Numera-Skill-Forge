@@ -24,7 +24,12 @@ function attribute(element, name) {
     var out = Ref();
     var error = $.AXUIElementCopyAttributeValue(element, $(name), out);
     if (error === -25205 || error === -25212) return null; // Unsupported attribute or no value.
-    requireValue(error === 0, 'AX attribute ' + name + ' failed code=' + error);
+    if (error !== 0) {
+        var failure = new Error('AX attribute ' + name + ' failed code=' + error);
+        failure.axCode = error;
+        failure.axAttribute = name;
+        throw failure;
+    }
     return out[0];
 }
 function timeout(element) {
@@ -100,7 +105,15 @@ function run(argv) {
     requireValue(argv.length >= 2 && /^\d+$/.test(argv[0]) && Number(argv[0]) > 0, 'Supply owned positive PID and operation');
     var application = $.AXUIElementCreateApplication(Number(argv[0]));
     timeout(application);
-    var nodes = tree(application), operation = argv[1];
+    var operation = argv[1], nodes;
+    try { nodes = tree(application); }
+    catch (error) {
+        // Only this read-side startup boundary is retryable; actions are never replayed.
+        if (operation === 'snapshot' && error.axCode === -25204 && error.axAttribute === 'AXWindows') {
+            return JSON.stringify({status: 'not-ready', ax_error: -25204, attribute: 'AXWindows'});
+        }
+        throw error;
+    }
     if (operation === 'snapshot') {
         return JSON.stringify({nodes: nodes.map(function (node) { return {parent: node.parent, role: node.role, names: node.names, value: node.value}; })});
     }
