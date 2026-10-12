@@ -123,7 +123,11 @@ macOS ARM/Intel lanes use an external Apple Accessibility client against the unc
 release, not an embedded WebDriver test build. `native-macos-smoke.py` owns the app and existing
 `/usr/bin/osascript` client; `native-macos-ax.js` targets only that PID's windows. Hosted-only checks
 require existing nonprompting AX trust and real semantic control exposure; no TCC/permission writes,
-focus/global keystrokes, coordinate fallback, injected app JavaScript or paid driver. Actual UI status,
+application activation/global keystrokes, coordinate fallback, injected app JavaScript or paid driver.
+Text controls enter editing mode through their own checked AXFocused attribute before a single value
+write; this targets only the owned control on the remote ephemeral runner, not the user's desktop.
+Invalid elements during read-only snapshots restart under the existing readiness deadline; actions
+are never replayed and persistent or unsupported errors remain failures. Actual UI status,
 check-only job, policy persistence/consent reset/refusal, invalid workspace and dispatch logs must
 agree. Missing prerequisites fail explicitly rather than skip green. The 120-second wall bound,
 10-second helper calls, one-second AX messaging timeout, bounded tree/output and PID/start-identity

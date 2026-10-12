@@ -90,6 +90,22 @@ function press(element) {
     requireValue($.AXUIElementPerformAction(element, $('AXPress')) === 0, 'AXPress failed');
 }
 function setValue(element, value) {
+    var role = text(element, 'AXRole');
+    if (role === 'AXTextField' || role === 'AXTextArea') {
+        var focused = scalar(attribute(element, 'AXFocused'));
+        if (focused !== true && focused !== 1) {
+            var focusSettable = Ref();
+            requireValue($.AXUIElementIsAttributeSettable(element, $('AXFocused'), focusSettable) === 0 && Boolean(focusSettable[0]), 'Owned text control cannot enter editing mode');
+            requireValue($.AXUIElementSetAttributeValue(element, $('AXFocused'), $(true)) === 0, 'Owned text control focus failed');
+            var focusDeadline = Date.now() + 2000;
+            while (Date.now() < focusDeadline) {
+                focused = scalar(attribute(element, 'AXFocused'));
+                if (focused === true || focused === 1) break;
+                $.NSThread.sleepForTimeInterval(Math.min(0.05, Math.max(0, (focusDeadline - Date.now()) / 1000)));
+            }
+            requireValue(focused === true || focused === 1, 'Owned text control editing readiness failed');
+        }
+    }
     var settable = Ref();
     requireValue($.AXUIElementIsAttributeSettable(element, $('AXValue'), settable) === 0 && Boolean(settable[0]), 'AXValue is not settable; no keyboard fallback');
     requireValue($.AXUIElementSetAttributeValue(element, $('AXValue'), $(value)) === 0, 'AXValue setter failed');
@@ -117,8 +133,8 @@ function run(argv) {
     try { nodes = tree(application); }
     catch (error) {
         // Only this read-side startup boundary is retryable; actions are never replayed.
-        if (operation === 'snapshot' && error.axCode === -25204 && error.axAttribute === 'AXWindows') {
-            return JSON.stringify({status: 'not-ready', ax_error: -25204, attribute: 'AXWindows'});
+        if (operation === 'snapshot' && ((error.axCode === -25204 && error.axAttribute === 'AXWindows') || error.axCode === -25202)) {
+            return JSON.stringify({status: 'not-ready', ax_error: error.axCode, attribute: error.axAttribute});
         }
         throw error;
     }

@@ -258,7 +258,12 @@ class AX:
 
     def snapshot(self):
         result = self.call("snapshot")
-        if result == {"status": "not-ready", "ax_error": -25204, "attribute": "AXWindows"}:
+        if result.get("status") == "not-ready":
+            require(result.get("ax_error") == -25202 or
+                    (result.get("ax_error") == -25204 and result.get("attribute") == "AXWindows"),
+                    "Unexpected AX readiness error")
+            require(isinstance(result.get("attribute"), str), "AX readiness attribute is missing")
+            self.readiness = (result["attribute"], result["ax_error"])
             return None
         require(isinstance(result.get("nodes"), list) and len(result["nodes"]) <= 2000, "AX snapshot schema invalid")
         return result["nodes"]
@@ -270,7 +275,7 @@ class AX:
             nodes = self.snapshot()
             if nodes is None:
                 if not not_ready:
-                    logging.info("Waiting stage=%s pid=%s attribute=AXWindows ax_error=-25204", description, self.pid)
+                    logging.info("Waiting stage=%s pid=%s attribute=%s ax_error=%s", description, self.pid, *self.readiness)
                 not_ready = True
             else:
                 not_ready = False
@@ -279,7 +284,7 @@ class AX:
                     logging.info("Verified stage=%s", description)
                     return result
             time.sleep(min(0.1, max(0, until - time.monotonic())))  # Poll actual AX state under deadline.
-        detail = " attribute=AXWindows ax_error=-25204" if not_ready else ""
+        detail = f" attribute={self.readiness[0]} ax_error={self.readiness[1]}" if not_ready else ""
         raise TimeoutError(f"Original macOS AX state not reached: {description} pid={self.pid}{detail}")
 
     @staticmethod
