@@ -81,7 +81,7 @@ async function packageIdentity(root, name, version) {
 }
 
 async function piProbe() {
-  const api = await packageIdentity("/opt/pi", "@earendil-works/pi-coding-agent", "1.1.0");
+  const api = await packageIdentity("/opt/pi", "@earendil-works/pi-coding-agent", "1.2.0");
   const { DefaultResourceLoader, createAgentSession, SessionManager, SettingsManager, ModelRuntime } = api;
   const root = join(scratch, "workspace", "pi");
   const skill = join(root, "forge-probe", "SKILL.md");
@@ -148,7 +148,7 @@ export default function(pi) {
   assert.equal(rejectedLoader.getExtensions().extensions.length, 0);
   assert.ok(rejectedLoader.getExtensions().errors.some((error) => error.path === missingPath));
   assert.ok(rejectedLoader.getExtensions().errors.some((error) => error.path === malformed && /factory function/.test(error.error)));
-  emit("pi-sdk-passed", { version: "1.1.0", callback: "native-command-dispatch", bodyDigest: digest(skillText),
+  emit("pi-sdk-passed", { version: "1.2.0", callback: "native-command-dispatch", bodyDigest: digest(skillText),
     negatives: ["handler-error", "unregistered-command-no-model", "missing-extension", "invalid-factory"], modelCalls: 0 });
 }
 

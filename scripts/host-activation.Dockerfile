@@ -4,7 +4,7 @@ FROM node:24.21.0-bookworm-slim@sha256:51b1100cc2a83d370c6a60952e3f2989c8a43159d
 WORKDIR /opt/pi
 COPY host-activation/pi/package.json host-activation/pi/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org \
-    && node -e 'const fs=require("node:fs"),p=JSON.parse(fs.readFileSync("node_modules/@earendil-works/pi-coding-agent/package.json","utf8"));if(p.name!=="@earendil-works/pi-coding-agent"||p.version!=="1.1.0")throw Error("Pi identity mismatch")'
+    && node -e 'const fs=require("node:fs"),p=JSON.parse(fs.readFileSync("node_modules/@earendil-works/pi-coding-agent/package.json","utf8"));if(p.name!=="@earendil-works/pi-coding-agent"||p.version!=="1.2.0")throw Error("Pi identity mismatch")'
 WORKDIR /opt/gemini
 COPY host-activation/gemini/package.json host-activation/gemini/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org \

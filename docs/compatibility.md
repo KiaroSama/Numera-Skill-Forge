@@ -50,7 +50,7 @@ unverified, not proved absent, and are not installed automatically. Current acce
 excludes private-account tests and model calls; all-host activation remains unverified without each
 host's isolated supported runtime prerequisites.
 
-The hosted Linux `verify-host-activation.py` tier installs pinned official Pi 1.1.0 and Gemini core
+The hosted Linux `verify-host-activation.py` tier installs pinned official Pi 1.2.0 and Gemini core
 0.63.0 packages into a disposable image, with install scripts disabled and no personal configuration.
 Runtime uses a non-root, network-none, read-only container with empty allowlisted environment and
 bounded writable scratch. Positive and negative controls exercise Pi's original SDK registered-command
