@@ -152,6 +152,13 @@ test('source policy changes require explicit choices and errors never grant trus
   await policy.getByRole('button', { name: 'Save source policy' }).click();
   expect((await forge.requests()).filter(row => row.request['action'] === 'source-policy')).toHaveLength(0);
   await policy.getByLabel('I authorize these source policy changes').check();
+  await policy.getByLabel('I authorize these source policy changes').dispatchEvent('input');
+  await expect(policy.getByLabel('I authorize these source policy changes')).toBeChecked();
+  await policy.getByLabel('Update policy').dispatchEvent('input');
+  await expect(policy.getByLabel('I authorize these source policy changes')).not.toBeChecked();
+  await policy.getByRole('button', { name: 'Save source policy' }).click();
+  expect((await forge.requests()).filter(row => row.request['action'] === 'source-policy')).toHaveLength(0);
+  await policy.getByLabel('I authorize these source policy changes').check();
   await policy.getByRole('button', { name: 'Save source policy' }).click();
   await expect(page.getByRole('status').filter({ hasText: 'source-policy: Response received' })).toBeVisible();
   expect((await forge.requests()).find(row => row.request['action'] === 'source-policy')?.request)

@@ -8,6 +8,7 @@ RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npm
 WORKDIR /opt/gemini
 COPY host-activation/gemini/package.json host-activation/gemini/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org \
+    && npm audit --ignore-scripts --registry=https://registry.npmjs.org \
     && node -e 'const fs=require("node:fs"),p=JSON.parse(fs.readFileSync("node_modules/@google/gemini-cli-core/package.json","utf8"));if(p.name!=="@google/gemini-cli-core"||p.version!=="0.63.0")throw Error("Gemini identity mismatch")'
 
 FROM node:24.21.0-bookworm-slim@sha256:51b1100cc2a83d370c6a60952e3f2989c8a43159d0e38586e090f3b3326efefd

@@ -8,6 +8,17 @@
   "overrides": {
     "shell-quote": "1.12.0",
     "simple-git": "4.0.2",
-    "@grpc/grpc-js": "1.14.6"
+    "@grpc/grpc-js": "1.14.6",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@opentelemetry/core": "2.12.0",
+    "@opentelemetry/propagator-jaeger": "2.12.0",
+    "ajv": "8.20.0",
+    "js-yaml": "4.3.2",
+    "picomatch": "4.0.7",
+    "puppeteer-core": "25.13.0",
+    "systeminformation": "5.33.15",
+    "undici": "8.11.2",
+    "uuid@<12": "11.1.1",
+    "uuid@>=12": "14.0.3"
   }
 }

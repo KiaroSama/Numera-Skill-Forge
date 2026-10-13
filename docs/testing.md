@@ -171,14 +171,27 @@ swap, 64 PIDs, 128 MiB scratch and five-second cleanup operations bound the tier
 one uniquely labelled container and verifies its absence in finally, including failure. Only sanitized
 UTC UTF-8 logs and the first-party result record are uploaded. Native API evidence is not all-host,
 normal CLI, collected-skill execution or model efficacy. Missing isolation or native dependencies fail;
-no patched/mocked host fallback or green skip. The final exact-SHA CI run supplies runtime evidence.
+no patched/mocked host fallback or green skip. Image setup runs a full npm audit on the Gemini lock;
+any finding fails before runtime acceptance. Compatible official dependency overrides remove known
+advisories, including the old archive dependency, without patching Gemini's source. YAML 4.x schema
+and legacy CommonJS UUID exports remain preserved. The final exact-SHA CI supplies runtime evidence.
+
+The original macOS helper observes the requested popup label after its sole menu selection, just as
+text setters observe their values. Readback is not proof that DOM events have drained. Bounded
+policy-ID/selection/enabled/consent snapshots precede Save; cleared consent fails closed, never gets
+silently rechecked. Timeout logs retain first-party UI notice/error text. These observations preserve
+the original required-consent, real IPC/persistence and failure assertions; no action replay or new
+permission is introduced.
 
 ## Historical configuration evidence
 
 Two genuine pre-update registration backups matched their current files byte-for-byte. Historical
 engine configuration and environment settings without an original backup remain nonrecoverable;
-a newly created baseline cannot prove their past preservation. The current four-file baseline was
-compared again on 2026-10-13 with four matching SHA-256 digests, solely as future-change evidence.
+a newly created baseline cannot prove their past preservation. The first four-file comparison on
+2026-10-13 matched all SHA-256 digests, solely as future-change evidence. A later comparison found
+concurrent changes in two registration files while the other two remained unchanged. The actor and
+origin of that change were not verified; current files, genuine backups and the earlier baseline were
+preserved without restoration. Final unchanged-configuration preservation is not claimed.
 No past configuration or test receipt was reconstructed. A stale observing-hook run must be recovered
 by an actual fresh execution of the same complete command and independently matched observation;
 a successful CI run or a different command does not repair that correlation. On 2026-10-13 the exact

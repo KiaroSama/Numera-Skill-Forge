@@ -57,10 +57,14 @@ bounded writable scratch. Positive and negative controls exercise Pi's original 
 dispatch and Gemini's original `ActivateSkillTool` body consumption. This is not full CLI startup,
 interactive consent or a model-issued invocation. Fixture implementation is not passing evidence;
 read the exact-SHA CI result before claiming these two API seams passed. The isolated Gemini fixture
-uses patched `shell-quote` and `simple-git` overrides, with checkpointing disabled. These overrides
-are not a certification of Gemini's full Git/checkpoint API or dependency safety. Other published
-transitive advisories, including an archive dependency without a verified patched release, remain
-explicit readiness limitations; no security gate is suppressed.
+uses reviewed dependency overrides, with checkpointing disabled. MCP stays on its patched 1.x API;
+Puppeteer's supported browser-package upgrade removes `extract-zip` from the fixture dependency graph.
+YAML remains on patched 4.x to preserve the native loader's schema, and older CommonJS UUID consumers
+use patched 11.x instead of an incompatible ESM-only replacement. Other advisory-bearing dependencies
+are patched without changing the original Gemini package. These overrides certify neither Gemini's
+full Git/checkpoint/telemetry/browser APIs nor universal dependency safety. The image build runs a
+full npm audit and fails on findings; original core activation and negative controls must still pass
+inside the unchanged isolated runtime. No security gate or assertion is suppressed.
 
 Other surfaces retain explicit qualifications: Claude/Amp need credential-free startup proof;
 Hermes/OpenCode/OpenHands/OpenClaw need independently qualified native entry points and dependency

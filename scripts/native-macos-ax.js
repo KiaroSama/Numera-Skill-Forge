@@ -111,7 +111,10 @@ function setValue(element, value) {
     var settable = Ref();
     requireValue($.AXUIElementIsAttributeSettable(element, $('AXValue'), settable) === 0 && Boolean(settable[0]), 'AXValue is not settable; no keyboard fallback');
     requireValue($.AXUIElementSetAttributeValue(element, $('AXValue'), $(value)) === 0, 'AXValue setter failed');
-    // WebKit dispatches the mutation to its main thread; observe once, never replay the setter.
+    observeValue(element, value);
+}
+function observeValue(element, value) {
+    // WebKit dispatches the mutation to its main thread; observe once, never replay the action.
     var until = Date.now() + 5000, actual = null;
     while (Date.now() < until) {
         actual = scalar(attribute(element, 'AXValue'));
@@ -165,6 +168,7 @@ function run(argv) {
         else {
             press(element);
             press(find(tree(application), 'AXMenuItem', argv[4]));
+            observeValue(element, argv[4]);
         }
     } else throw new Error('Unsupported AX operation');
     return JSON.stringify({status: 'performed', operation: operation});

@@ -289,6 +289,8 @@ class AX:
                        for node in nodes if node["role"] in ("AXTextField", "AXPopUpButton", "AXComboBox", "AXCheckBox", "AXButton")]
             logging.error("Timed-out owned first-party controls stage=%s controls=%s", description,
                           json.dumps(summary, ensure_ascii=True)[:12000])
+            logging.error("Timed-out first-party UI text stage=%s text=%s", description,
+                          json.dumps(self.text(nodes), ensure_ascii=True)[:12000])
         detail = f" attribute={self.readiness[0]} ax_error={self.readiness[1]}" if not_ready else ""
         raise TimeoutError(f"Original macOS AX state not reached: {description} pid={self.pid}{detail}")
 
@@ -333,6 +335,19 @@ class AX:
     def check(self, name, value):
         self.call("check", "AXCheckBox", name, str(value).lower())
 
+    def policy_state(self, stage):
+        nodes = self.snapshot()
+        require(nodes is not None, "Policy state unavailable outside a readiness wait")
+        fields = ("Source policy ID", "Update policy", "Include this source in update checks",
+                  "I authorize these source policy changes")
+        values = {}
+        for name in fields:
+            found = [node for node in nodes if name in node["names"]]
+            require(len(found) == 1, f"Policy control is ambiguous: {name}")
+            values[name] = found[0]["value"]
+        logging.info("Observed policy stage=%s values=%s", stage, json.dumps(values, ensure_ascii=True))
+        return values
+
     def open(self, workspace):
         self.set("Workspace folder", str(workspace))
         self.press("Open workspace")
@@ -364,8 +379,15 @@ def scenario(ax, workspace, run):
     ax.wait(lambda nodes: "source-add:" in AX.text(nodes), "source-registration")
     ax.set("Source policy ID", "fixture")
     ax.call("select", ax.role("Update policy", ("AXPopUpButton", "AXComboBox")), "Update policy", "Allow approved safe content only")
+    values = ax.policy_state("selection-acknowledged")
+    require(values["Source policy ID"] == "fixture" and values["Update policy"] == "Allow approved safe content only",
+            "Policy selection does not match the requested source and label")
     ax.check("Include this source in update checks", True)
+    values = ax.policy_state("source-enabled")
+    require(values["Include this source in update checks"] in (True, 1), "Policy source was not enabled")
     ax.check("I authorize these source policy changes", True)
+    values = ax.policy_state("before-save")
+    require(values["I authorize these source policy changes"] in (True, 1), "Policy consent cleared before Save")
     ax.press("Save source policy")
     ax.wait(lambda nodes: "source-policy:" in AX.text(nodes) and "updated" in AX.text(nodes), "policy-persisted")
     registration = bounded_text(workspace / "registry/sources.json").encode("utf-8")
