@@ -218,6 +218,9 @@ try {
   emit("success", { surface: "pi-sdk-command-and-gemini-core-skill", modelInvocation: false, fullCliCoverage: false });
 } catch (error) {
   // Never dump dependency stack traces or config/environment values to CI artifacts.
-  emit("failed", { phase: stage, kind: error instanceof Error ? error.name : "UnknownError" });
+  const message = error instanceof Error ? error.message.slice(0, 1000)
+    .replace(/(?:gh[pousr]_[A-Za-z0-9_]+|github_pat_[A-Za-z0-9_]+)/g, "[REDACTED]")
+    .replace(/(authorization|api[_-]?key|token|password)\s*[:=]\s*\S+/gi, "$1=[REDACTED]") : "Unknown failure";
+  emit("failed", { phase: stage, kind: error instanceof Error ? error.name : "UnknownError", message });
   process.exitCode = 1;
 }
