@@ -147,7 +147,7 @@ def verify(image_name: str, work: Path) -> None:
                   "--cap-drop=ALL", "--security-opt=no-new-privileges", "--pids-limit=64",
                   "--memory=1g", "--memory-swap=1g", "--cpus=2", "--user=1000:1000",
                   "--ulimit=nofile=256:256", "--ulimit=fsize=16777216:16777216",
-                  "--log-driver=local", "--log-opt=max-size=1m", "--log-opt=max-file=1",
+                  "--log-driver=local", "--log-opt=max-size=1m", "--log-opt=max-file=1", "--log-opt=compress=false",
                   "--tmpfs=/scratch:rw,nosuid,nodev,noexec,size=134217728,mode=1777", image_id]
         _, output, _ = owner.run(create)
         identifier = output.decode("ascii").strip()

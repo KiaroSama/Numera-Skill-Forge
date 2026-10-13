@@ -166,7 +166,8 @@ async function geminiProbe() {
     debugMode: false, telemetry: { enabled: false }, usageStatisticsEnabled: false,
     mcpEnabled: false, extensionsEnabled: false, extensionManagement: false, enableHooks: false,
     enableHooksUI: false, enableAgents: false, enableEventDrivenScheduler: false,
-    fileFiltering: { enableFileWatcher: false }, skillsSupport: true, noBrowser: true });
+    fileFiltering: { enableFileWatcher: false }, skillsSupport: true, noBrowser: true,
+    checkpointing: false });
   try {
     assert.equal(config.isInitialized(), false);
     const manager = config.getSkillManager();

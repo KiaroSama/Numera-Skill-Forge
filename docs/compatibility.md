@@ -56,7 +56,11 @@ Runtime uses a non-root, network-none, read-only container with empty allowliste
 bounded writable scratch. Positive and negative controls exercise Pi's original SDK registered-command
 dispatch and Gemini's original `ActivateSkillTool` body consumption. This is not full CLI startup,
 interactive consent or a model-issued invocation. Fixture implementation is not passing evidence;
-read the exact-SHA CI result before claiming these two API seams passed.
+read the exact-SHA CI result before claiming these two API seams passed. The isolated Gemini fixture
+uses patched `shell-quote` and `simple-git` overrides, with checkpointing disabled. These overrides
+are not a certification of Gemini's full Git/checkpoint API or dependency safety. Other published
+transitive advisories, including an archive dependency without a verified patched release, remain
+explicit readiness limitations; no security gate is suppressed.
 
 Other surfaces retain explicit qualifications: Claude/Amp need credential-free startup proof;
 Hermes/OpenCode/OpenHands/OpenClaw need independently qualified native entry points and dependency
