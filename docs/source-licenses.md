@@ -10,6 +10,27 @@ companions and local notices remain byte-identical; generated wrappers and prove
 No imported code was executed. Plugin assembler metadata never claims authorship of upstream skills.
 The root Forge GPL-3.0 license covers Forge, not a replacement license for these payloads.
 
+## Separate selected origins
+
+The additional collections are direct original-source packages, not derived from the davila collection.
+
+| Collection | Accepted original skill | Reviewed source | Grant |
+| --- | --- | --- | --- |
+| JCodesMore website cloner | `clone-website` (3 files) | [ee3f5a2](https://github.com/JCodesMore/ai-website-cloner-template/tree/ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb/.agents/skills/clone-website) | [MIT, JCodesMore 2025](https://github.com/JCodesMore/ai-website-cloner-template/blob/ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb/LICENSE) |
+| morluto REA | `reverse-engineer-anything` (7 files) | [fdd8f82](https://github.com/morluto/rea/tree/fdd8f826023c568937d237c2f97d855de283a9b8/.agents/skills/reverse-engineer-anything) | [MIT, morluto 2026](https://github.com/morluto/rea/blob/fdd8f826023c568937d237c2f97d855de283a9b8/LICENSE) |
+
+The two roots and both complete grants add 12 original files, bringing the combined accepted scope
+to 487 plugins and 4284 original payload/notice files. The earlier 485-plugin payload is unchanged.
+Each origin has its own registration, accepted revision and independently versioned plugin. Existing
+safe-content synchronization applies; runtime-sensitive text, executable, license, topology and
+metadata changes remain review-required. Original `@latest` instructions are not rewritten by Forge.
+
+Only the general REA skill is selected. Its repository-maintainer skills `rea-tool-design` and
+`rea-changelog-update` require the full REA development/release checkout and are explicitly excluded.
+Neither upstream application, third-party analysis engine, private assistant configuration nor the
+cloner's project-specific command bridge is bundled. Installing instructions does not install REA,
+register MCP, grant rights to third-party website assets or license commercial analysis tools.
+
 ## Published scope
 
 485 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes

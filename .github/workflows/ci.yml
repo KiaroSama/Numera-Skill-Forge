@@ -53,6 +53,29 @@ jobs:
           name: transport-diagnostics
           path: .ci-work/transport/*.log
           if-no-files-found: warn
+      - name: Build pinned official SDK acceptance image
+        if: runner.os == 'Linux'
+        run: >-
+          timeout --signal=TERM --kill-after=10s 300s
+          docker build --platform=linux/amd64 --progress=plain
+          --file scripts/host-activation.Dockerfile --tag forge-host-activation:ci scripts
+        timeout-minutes: 6
+      - name: Verify isolated original non-model callback and skill consumption
+        if: runner.os == 'Linux'
+        run: >-
+          timeout --signal=TERM --kill-after=10s 150s
+          python3 -I scripts/verify-host-activation.py
+          --image forge-host-activation:ci --work .ci-work/host-activation
+        timeout-minutes: 3
+      - name: Preserve sanitized host activation evidence
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: host-activation-diagnostics
+          path: |
+            .ci-work/host-activation/*.log
+            .ci-work/host-activation/result.json
+          if-no-files-found: warn
       - name: Verify launcher and raw-mode publication contracts
         shell: pwsh
         timeout-minutes: 3

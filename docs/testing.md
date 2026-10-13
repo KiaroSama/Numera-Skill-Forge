@@ -25,8 +25,8 @@ Initial path test assertion passed, but its guarded run reported a transient chi
 PID subsequently inspected and already exited. That run is not final green verification. Final
 exact-SHA CI evidence and native artifact launch evidence must be checked before completion.
 Native host activation and GUI smoke claims require separately recorded exact-SHA evidence. Original
-Windows/Linux GUI paths have passed; macOS runtime and all-host activation are not implied by builds
-or listed static-contract profiles.
+Windows/Linux/macOS ARM/macOS Intel GUI paths have passed in the native tier; all-host activation is
+not implied by builds or listed static-contract profiles.
 
 ## Authenticated source protocol tier
 
@@ -52,8 +52,12 @@ current task by the owner and never count as accepted payloads.
 
 Collection fixtures exercise exact original companion scripts without execution, metadata modes,
 idempotence, safe prompt updates versus script/license/topology review, clean-workspace reconstruction
-and user-edit refusal. The assembled reviewed source import matched 4272 original payload/notice files
-from 485 plugins against immutable upstream Git identities and modes. The five AI Maestro additions
+and user-edit refusal. The original davila collection matched 4272 original payload/notice files
+from 485 plugins against immutable upstream Git identities and modes. Two separately registered
+origins add the three-file `clone-website` and seven-file `reverse-engineer-anything` roots with both
+complete MIT notices, for 487 plugins and 4284 original files. A public-service regression exercises
+healthy-origin updates while a failed independent origin retains its accepted bytes and lock entry;
+repeating the operation must leave the healthy accepted version unchanged. The five AI Maestro additions
 retain the author's concise submitted variants and complete original MIT notices. No source runtime
 scripts were run.
 Generic build catalog regressions require deterministic sorted entries, preserved native names/optional
@@ -78,7 +82,15 @@ fixture. Binary assets remain exact original bytes and are validated separately 
 
 `tests/publication.rs` exercises changed-content commit/push against an owned local bare repository,
 including exact raw CRLF/modes, user staging preservation, remote/head advance refusal, deletion and
-no-op. This is real local Git publication, not proof of authenticated GitHub PR creation.
+no-op. Committed accepted-original instructional companions are distinguished from private files
+using the committed registry, lock, exact source/output mapping, digest-verified original skill name
+and actual committed blob bytes. Working-tree metadata cannot self-approve an added or edited private
+instruction file; secret/configuration boundaries remain absolute. Baseline blobs are read in bounded
+batches, not one Git process per collection. This is real local Git publication, not proof of
+authenticated GitHub PR creation. On 2026-10-13 the actual application publisher also created
+[the additional-collections PR](https://github.com/KiaroSama/Numera-Skill-Forge/pull/2) from meaningful
+reviewed package data, with independently verified repository/base/head identity and clean owned
+process cleanup. The integrated branch's exact-SHA CI, not PR creation alone, supplies final checks.
 
 The manual native workflow builds four unsigned lanes: Windows x64, Linux x64, macOS ARM and
 macOS Intel. `scripts/distribution-manifest.py` records SHA-256 per bundle file, exact workflow commit,
@@ -139,3 +151,38 @@ Current acceptance excludes private-repository/account tests and model invocatio
 Real authenticated first-party transport fixtures remain valid, but are not private-account evidence.
 All-host non-model activation needs each host's actual isolated supported entry point; metadata
 validation and model-facing skill invocation are not substitutes.
+
+## Isolated non-model host tier
+
+Hosted Linux builds `scripts/host-activation.Dockerfile` from the restricted `scripts/` context and
+pinned official Node/Pi/Gemini distributions. Installation is separate from acceptance. The runtime
+never pulls packages, receives a Docker socket, credentials or a personal HOME. The controller verifies
+image identity and container flags; the original API probe independently verifies empty allowlisted
+environment, denied network/runtime writes and actual cgroup/tmpfs limits before host imports.
+
+Pi uses its original resource loader and in-memory session to dispatch one registered command before
+model validation; exact nonce/body digest, handler error, unknown command and missing extension are
+load-bearing assertions. Gemini uses its actual Config/SkillManager/ActivateSkillTool without client
+initialization/authentication; exact instruction body and active state, malformed/unknown/empty and
+disappeared-skill cases must agree. Direct core execution does not test interactive confirmation.
+
+A 120-second owner wall ceiling, 20-second idle limit, 1 MiB output bound, two CPUs, 1 GiB memory/no
+swap, 64 PIDs, 128 MiB scratch and five-second cleanup operations bound the tier. The controller owns
+one uniquely labelled container and verifies its absence in finally, including failure. Only sanitized
+UTC UTF-8 logs and the first-party result record are uploaded. Native API evidence is not all-host,
+normal CLI, collected-skill execution or model efficacy. Missing isolation or native dependencies fail;
+no patched/mocked host fallback or green skip. The final exact-SHA CI run supplies runtime evidence.
+
+## Historical configuration evidence
+
+Two genuine pre-update registration backups matched their current files byte-for-byte. Historical
+engine configuration and environment settings without an original backup remain nonrecoverable;
+a newly created baseline cannot prove their past preservation. The current four-file baseline was
+compared again on 2026-10-13 with four matching SHA-256 digests, solely as future-change evidence.
+No past configuration or test receipt was reconstructed. A stale observing-hook run must be recovered
+by an actual fresh execution of the same complete command and independently matched observation;
+a successful CI run or a different command does not repair that correlation. On 2026-10-13 the exact
+previous graph command was rerun with an explicit shared run identity: it completed with exit 0 in
+4.8 seconds, no terminated/leaked descendants, and an independently paired observing-hook result.
+Historical receipts were preserved unchanged; the fresh run, not a rewritten past verdict, is the
+recovery evidence.

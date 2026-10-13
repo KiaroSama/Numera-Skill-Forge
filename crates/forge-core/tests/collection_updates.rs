@@ -114,6 +114,79 @@ fn clean_workspace_reconstructs_accepted_bytes_and_preserves_user_edits() {
     assert_eq!(fs::read(file).unwrap(), b"user edit");
 }
 
+#[test]
+fn separate_origins_keep_failed_content_while_healthy_collection_updates() {
+    let f = Fixture::new();
+    let second = f.root.join("second-upstream");
+    fs::create_dir_all(second.join("skills/demo")).unwrap();
+    for name in ["SKILL.md", "LICENSE"] {
+        fs::copy(
+            f.upstream.join("skills/demo").join(name),
+            second.join("skills/demo").join(name),
+        )
+        .unwrap();
+    }
+    let git = |args: &[&str]| {
+        let mut command = vec!["-C".into(), second.to_string_lossy().into_owned()];
+        command.extend(args.iter().map(|v| v.to_string()));
+        String::from_utf8(process::git(&command, 30).unwrap()).unwrap()
+    };
+    git(&["init", "-b", "main"]);
+    git(&["add", "."]);
+    git(&[
+        "-c",
+        "user.name=Fixture",
+        "-c",
+        "user.email=fixture@example.invalid",
+        "commit",
+        "-m",
+        "fixture",
+    ]);
+    let path = f.root.join("registry/collections.json");
+    let mut registry: Value = storage::read(&path).unwrap();
+    let mut collection = registry["collections"][0].clone();
+    collection["id"] = json!("second");
+    collection["repository"] = json!(format!("local:{}", second.display()));
+    collection["reviewed_revision"] = json!(git(&["rev-parse", "HEAD"]).trim());
+    collection["skills"][0]["id"] = json!("second-demo");
+    registry["collections"]
+        .as_array_mut()
+        .unwrap()
+        .push(collection);
+    storage::write(&path, &registry).unwrap();
+    assert_eq!(f.sync()["status"], "success");
+    let retained = f
+        .root
+        .join("packages/claude-code/second-demo/skills/demo/SKILL.md");
+    let original = fs::read(&retained).unwrap();
+    let before: Value = storage::read(&f.root.join("catalogs/collections.lock.json")).unwrap();
+    registry["collections"][1]["branch"] = json!("missing");
+    storage::write(&path, &registry).unwrap();
+    fs::write(
+        f.upstream.join("skills/demo/SKILL.md"),
+        b"---\nname: demo\ndescription: Fixture\n---\nImproved sentence.\n",
+    )
+    .unwrap();
+    f.commit();
+    let result = f.sync();
+    assert_eq!(result["status"], "partial");
+    assert_eq!(result["skills"][0]["status"], "updated");
+    assert_eq!(result["skills"][1]["status"], "failed");
+    assert_eq!(fs::read(&retained).unwrap(), original);
+    let after: Value = storage::read(&f.root.join("catalogs/collections.lock.json")).unwrap();
+    assert_eq!(
+        after["entries"]["second/second-demo"],
+        before["entries"]["second/second-demo"]
+    );
+    assert_eq!(after["entries"]["fixture/fixture-demo"]["version"], "1.0.1");
+    let lock = fs::read(f.root.join("catalogs/collections.lock.json")).unwrap();
+    assert_eq!(f.sync()["skills"][0]["status"], "unchanged");
+    assert_eq!(
+        fs::read(f.root.join("catalogs/collections.lock.json")).unwrap(),
+        lock
+    );
+}
+
 #[cfg(unix)]
 #[test]
 fn interrupted_promotion_stops_before_another_plugin_overwrites_recovery_state() {

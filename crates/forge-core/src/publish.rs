@@ -1,5 +1,6 @@
 mod git;
 use git::Git;
+mod accepted_documents;
 mod github;
 use crate::{Error, Result, storage, transaction, validation};
 use github::{pr, push, verify_remote};
@@ -159,11 +160,16 @@ fn files(root: &Path, git: &Git<'_>) -> Result<BTreeMap<String, Option<Vec<u8>>>
             paths.insert(path.into());
         }
     }
+    let documents = accepted_documents::baseline(git)?;
     let mut result = BTreeMap::new();
     let mut total = 0u64;
     for path in paths {
         validation::relative_path(&path)?;
-        if protected(&path) {
+        let mut parts: Vec<_> = path.split('/').collect();
+        let instructional = parts.pop().is_some_and(accepted_documents::instructional);
+        let accepted_document =
+            instructional && documents.contains_key(&path) && !protected(&parts.join("/"));
+        if protected(&path) && !accepted_document {
             return Err(Error::new(
                 "protected-publication",
                 "Protected local-only paths cannot be included in publication",
@@ -173,6 +179,12 @@ fn files(root: &Path, git: &Git<'_>) -> Result<BTreeMap<String, Option<Vec<u8>>>
         let bytes = if physical.exists() {
             let bytes = storage::bytes(&physical)?;
             content_check(&bytes)?;
+            if accepted_document && documents[&path] != storage::digest(&bytes) {
+                return Err(Error::new(
+                    "protected-publication",
+                    "Accepted public instructions changed; review outside publication",
+                ));
+            }
             total += bytes.len() as u64;
             Some(bytes)
         } else {
@@ -195,7 +207,7 @@ fn modes(
     let mut result = BTreeMap::new();
     let mut add = |path: String, value: u64| -> Result<()> {
         validation::relative_path(&path)?;
-        if !owned(&path) || protected(&path) || !payload.contains_key(&path) {
+        if !owned(&path) || !payload.contains_key(&path) {
             return Err(Error::new(
                 "publication-mode",
                 "Mode metadata points outside current publication payload",

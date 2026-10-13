@@ -1,0 +1,8 @@
+{
+  "name": "forge-gemini-activation-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google/gemini-cli-core": "0.63.0"
+  }
+}

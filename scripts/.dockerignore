@@ -1,0 +1,9 @@
+*
+!host-activation-probe.mjs
+!host-activation/
+!host-activation/pi/
+!host-activation/pi/package.json
+!host-activation/pi/package-lock.json
+!host-activation/gemini/
+!host-activation/gemini/package.json
+!host-activation/gemini/package-lock.json

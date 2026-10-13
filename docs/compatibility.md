@@ -50,6 +50,21 @@ unverified, not proved absent, and are not installed automatically. Current acce
 excludes private-account tests and model calls; all-host activation remains unverified without each
 host's isolated supported runtime prerequisites.
 
+The hosted Linux `verify-host-activation.py` tier installs pinned official Pi 1.1.0 and Gemini core
+0.63.0 packages into a disposable image, with install scripts disabled and no personal configuration.
+Runtime uses a non-root, network-none, read-only container with empty allowlisted environment and
+bounded writable scratch. Positive and negative controls exercise Pi's original SDK registered-command
+dispatch and Gemini's original `ActivateSkillTool` body consumption. This is not full CLI startup,
+interactive consent or a model-issued invocation. Fixture implementation is not passing evidence;
+read the exact-SHA CI result before claiming these two API seams passed.
+
+Other surfaces retain explicit qualifications: Claude/Amp need credential-free startup proof;
+Hermes/OpenCode/OpenHands/OpenClaw need independently qualified native entry points and dependency
+readiness; Codex/Copilot inventory does not prove activation. Cursor, Antigravity, VS Code, Kiro,
+Windsurf, Cline, Kilo and Continue desktop profiles require their original editor/session surface,
+not a substituted CLI. Missing account, GUI or model prerequisites remain unverified, not certified
+by the two SDK/core cases.
+
 Installation supports explicit project/user skill destinations, reviewed JSON configuration
 contributions with three-way merging, and documented native-directory routes for Amp and Antigravity.
 Owned files retain modes and shared references across update/disable/enable/uninstall/rollback.
