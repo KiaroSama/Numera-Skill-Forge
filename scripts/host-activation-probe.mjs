@@ -121,7 +121,9 @@ export default function(pi) {
   const { session } = await createAgentSession({ cwd: root, agentDir, resourceLoader: loader,
     modelRuntime: runtime, sessionManager: SessionManager.inMemory(root), settingsManager: settings, noTools: "all" });
   try {
-    assert.equal(session.model, undefined);
+    assert.equal(session.model.id, "unknown");
+    assert.equal(session.model.provider, "unknown");
+    assert.equal(runtime.hasConfiguredAuth(session.model.provider), false);
     assert.deepEqual(session.getActiveToolNames(), []);
     await session.bindExtensions({ mode: "print", onError: (error) => errors.push(error) });
     await assert.rejects(readFile(marker), (error) => error.code === "ENOENT");
@@ -132,8 +134,10 @@ export default function(pi) {
     assert.equal(errors.length, 1);
     assert.equal(errors[0].event, "command");
     assert.equal(errors[0].error, "Fixture nonce rejected");
-    await assert.rejects(session.prompt("/forge-unregistered"), /No model selected/);
-    assert.equal(session.model, undefined);
+    await assert.rejects(session.prompt("/forge-unregistered"), /No API key found for the selected model/);
+    assert.equal(session.model.id, "unknown");
+    assert.equal(session.model.provider, "unknown");
+    assert.equal(runtime.hasConfiguredAuth(session.model.provider), false);
     assert.deepEqual(JSON.parse(await readFile(marker, "utf8")), { nonce, digest: digest(skillText) });
   } finally {
     session.dispose();
