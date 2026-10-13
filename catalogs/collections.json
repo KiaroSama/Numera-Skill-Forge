@@ -3895,6 +3895,14 @@
       "root": ".agents/skills/reverse-engineer-anything",
       "source": "morluto-rea",
       "version": "1.0.0"
+    },
+    {
+      "id": "skill-newliver666-apk-reverse",
+      "license": "MIT",
+      "revision": "7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd",
+      "root": "skills/apk-reverse",
+      "source": "newliver666-apk-reverse",
+      "version": "1.0.0"
     }
   ],
   "schema_version": 1

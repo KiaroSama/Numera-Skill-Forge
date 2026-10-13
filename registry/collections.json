@@ -8308,6 +8308,21 @@
           "license_digest": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b"
         }
       ]
+    },
+    {
+      "id": "newliver666-apk-reverse",
+      "repository": "https://github.com/newliver666/apk-reverse",
+      "branch": "main",
+      "reviewed_revision": "7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd",
+      "skills": [
+        {
+          "id": "skill-newliver666-apk-reverse",
+          "root": "skills/apk-reverse",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "ed9f20bb2778d834ff8c66f7c61b345e7a88c25354845aed1555b445df188b1f"
+        }
+      ]
     }
   ]
 }

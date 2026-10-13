@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/apk-reverse",
+  "license": "MIT",
+  "name": "skill-newliver666-apk-reverse",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

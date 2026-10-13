@@ -67,13 +67,14 @@ Forge never executes imported code to inspect, package or synchronize it.
 
 ## Separate additional collections
 
-Two independent plugins bring the marketplace total to **487**; the existing 485-plugin collection
-above remains unchanged. Each retains the original skill, every in-root reference and its MIT notice.
+Three independent plugins bring the marketplace total to **488**; the existing 485-plugin collection
+above remains unchanged. Each retains the original skill, every in-root companion and its MIT notice.
 
 | Collection | Skill | Independent plugin |
 | --- | --- | --- |
 | [JCodesMore website cloner](https://github.com/JCodesMore/ai-website-cloner-template) | `clone-website` | `skill-jcodesmore-clone-website` |
 | [morluto REA](https://github.com/morluto/rea) | `reverse-engineer-anything` | `skill-morluto-reverse-engineer-anything` |
+| [newliver666 APK reverse](https://github.com/newliver666/apk-reverse) | `apk-reverse` | `skill-newliver666-apk-reverse` |
 
 ```bash
 claude plugin install skill-jcodesmore-clone-website@numera-skill-forge
@@ -86,8 +87,15 @@ claude plugin install skill-morluto-reverse-engineer-anything@numera-skill-forge
 These are instruction packages, not copies of the upstream applications. REA's skill does not
 register its MCP server, install analysis engines or include a commercial-tool license. Its external
 runtime/tool prerequisites remain separate. The two repository-specific REA maintainer skills are
-not included. Both selected collections use the same check/apply, accepted-revision and review-only
-update rules below; an upstream change requiring review retains the accepted version.
+not included. APK reverse retains its original references, scripts and evidence files; Python,
+Android SDK, ADB and Frida requirements depend on the selected analysis route and are not installed
+by Forge. Use only on owned or authorized samples. All three selected collections use the same
+check/apply, accepted-revision and review-only update rules below; a change requiring review retains
+the accepted version.
+
+```bash
+claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
+```
 
 ## Other hosts: native catalogs and standalone skills
 

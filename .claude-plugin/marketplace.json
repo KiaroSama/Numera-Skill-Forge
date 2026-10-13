@@ -2925,6 +2925,12 @@
       "name": "skill-morluto-reverse-engineer-anything",
       "source": "./packages/claude-code/skill-morluto-reverse-engineer-anything",
       "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/apk-reverse",
+      "name": "skill-newliver666-apk-reverse",
+      "source": "./packages/claude-code/skill-newliver666-apk-reverse",
+      "version": "1.0.0"
     }
   ]
 }

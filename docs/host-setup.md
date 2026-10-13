@@ -24,6 +24,11 @@ numera-forge catalog list --json
 Examples used below:
 - `skill-jcodesmore-clone-website`: original `clone-website`.
 - `skill-morluto-reverse-engineer-anything`: original `reverse-engineer-anything`.
+- `skill-newliver666-apk-reverse`: original `apk-reverse`; the same native catalog and standalone
+  commands apply when this ID is substituted. Its complete scripts/references remain unchanged.
+  Python 3.9+ and Android/ADB/Frida tools are conditional upstream prerequisites, not Forge installs.
+  Read the [original requirements and authorized-use scope](https://github.com/newliver666/apk-reverse#requirements)
+  before execution; packaging/discovery is not an APK analysis or device test.
 
 The REA analysis engines/MCP server and third-party commercial tools are not installed by this guide.
 Some other packages likewise require external tools or services; inspect their original instructions

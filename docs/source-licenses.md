@@ -563,6 +563,19 @@ collection. Directory qualifiers distinguish repeated activation names.
 | `scientific/document-skills/pptx` | [LICENSE.txt](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/scientific/document-skills/pptx/LICENSE.txt) |
 | `scientific/document-skills/xlsx` | [LICENSE.txt](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/scientific/document-skills/xlsx/LICENSE.txt) |
 
+## Independent original APK collection
+
+`skill-newliver666-apk-reverse` preserves the sole `skills/apk-reverse` root from
+[newliver666/apk-reverse](https://github.com/newliver666/apk-reverse/tree/7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd/skills/apk-reverse).
+The reviewed revision is `7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd`; the complete
+[original MIT notice](https://github.com/newliver666/apk-reverse/blob/7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd/LICENSE)
+is retained with its copyright. All 114 in-root skill/reference/script/evaluation/evidence files
+are original bytes, plus the root notice. Repository maintenance scripts, tests and assets are not
+selected. This addition changes no previously accepted package and uses the existing independent
+safe-update/review policy. No upstream script, tool installation or APK/device operation runs during
+acquisition, packaging or verification. Redistribution is not a runtime safety certification or
+authorization to test another party's application.
+
 ## Unresolved provenance: not a prohibition claim
 
 409 roots remain under provenance/terms or publication-compliance review, including four

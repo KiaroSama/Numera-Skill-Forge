@@ -45034,6 +45034,946 @@
         "packages/claude-code/skill-morluto-reverse-engineer-anything/.cursor-plugin/plugin.json": "e452336ef8b6d4da29348b6dae1886e26fb237a4a0a55deef1de2d4dba2daa3c",
         "packages/claude-code/skill-morluto-reverse-engineer-anything/plugin.json": "1a47bc30409b8f075396b2c392b22afc36d2e3d59eeb18a40399561c2177ccd7"
       }
+    },
+    "newliver666-apk-reverse/skill-newliver666-apk-reverse": {
+      "collection": "newliver666-apk-reverse",
+      "id": "skill-newliver666-apk-reverse",
+      "root": "skills/apk-reverse",
+      "revision": "7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "ffb156cd34a84bc4ae8bb3dbea4c2fa504ecc4932c8e4b2c55a047a0ca8ae6bc",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/upstream-notices/LICENSE",
+          "digest": "ed9f20bb2778d834ff8c66f7c61b345e7a88c25354845aed1555b445df188b1f",
+          "mode": "100644",
+          "size": 1081
+        },
+        {
+          "path": "skills/apk-reverse/SKILL.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/SKILL.md",
+          "digest": "0d6d4727fac35811fd94c4fa3bd2b3a4dff80906875e0676c7b188a77701cc05",
+          "mode": "100644",
+          "size": 47958
+        },
+        {
+          "path": "skills/apk-reverse/evals/evals.json",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evals/evals.json",
+          "digest": "6c407547886bc0e7b201103e45640faeae210c4977dd231670a0f7379337114d",
+          "mode": "100644",
+          "size": 6892
+        },
+        {
+          "path": "skills/apk-reverse/evidence/capability-matrix.json",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/capability-matrix.json",
+          "digest": "c30265b8efee85c2bd91511a3ffb2dec1384a4c055b597bc49b78d041629c034",
+          "mode": "100644",
+          "size": 35002
+        },
+        {
+          "path": "skills/apk-reverse/evidence/known-limitations.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/known-limitations.md",
+          "digest": "72f819d0a34fa052b6f34bb13ff9232c975233cc5c68cc2ec6a2d6e93079dcf9",
+          "mode": "100644",
+          "size": 9754
+        },
+        {
+          "path": "skills/apk-reverse/evidence/tested-tool-versions.json",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/tested-tool-versions.json",
+          "digest": "b0774191ed2da4e8a0128153d09a8afcd48a6773c40b2a37c9ef4fae0881d963",
+          "mode": "100644",
+          "size": 9728
+        },
+        {
+          "path": "skills/apk-reverse/references/account-gates.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/account-gates.md",
+          "digest": "98cc2540e77aa1e8249c767d36382ca8cb1b7779693e7ff51a6caff319158181",
+          "mode": "100644",
+          "size": 9523
+        },
+        {
+          "path": "skills/apk-reverse/references/ad-removal.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/ad-removal.md",
+          "digest": "a93246ef89d2670c645402df126f6adbaed4ddc5157ad63c089c1acaafb87799",
+          "mode": "100644",
+          "size": 14859
+        },
+        {
+          "path": "skills/apk-reverse/references/advanced-unpacking.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/advanced-unpacking.md",
+          "digest": "8b48ba652d5ef9207048bf09bc505af874484881dc1e3e7ba3947d22f6c962f4",
+          "mode": "100644",
+          "size": 41751
+        },
+        {
+          "path": "skills/apk-reverse/references/byte-level-patching.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/byte-level-patching.md",
+          "digest": "3f7c3bd2fa4b25767a6f564697d78370f790596397ffdff1395ea79ae666fca0",
+          "mode": "100644",
+          "size": 11819
+        },
+        {
+          "path": "skills/apk-reverse/references/code-virtualization-and-custom-linkers.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/code-virtualization-and-custom-linkers.md",
+          "digest": "06f25c7855d0968cc0a23c7fbc143d6fa311ae5e8dfa89dd9a5313ab872d8b64",
+          "mode": "100644",
+          "size": 11561
+        },
+        {
+          "path": "skills/apk-reverse/references/coverage-and-limits.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/coverage-and-limits.md",
+          "digest": "37e658f80da4d8c7e8519264fe5cc9d364055e12dcf8403b40be86f7a7d7bfe9",
+          "mode": "100644",
+          "size": 16840
+        },
+        {
+          "path": "skills/apk-reverse/references/coverage/route-inventory.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/coverage/route-inventory.md",
+          "digest": "1380999d4718599c9b4a5a4112ca2c3160e2da7a106573c77ac9f6f46964bb07",
+          "mode": "100644",
+          "size": 5950
+        },
+        {
+          "path": "skills/apk-reverse/references/dart-aot.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dart-aot.md",
+          "digest": "4557b4e3dafcb33f038d5fdf866375cfd1916bfd484a3f7fdef89ee683b27029",
+          "mode": "100644",
+          "size": 23754
+        },
+        {
+          "path": "skills/apk-reverse/references/desensitization-and-leak-scans.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/desensitization-and-leak-scans.md",
+          "digest": "edcfba6121d4bedc0f53fce3c5459a1f5dffae00b909662832d6f4c4456784b7",
+          "mode": "100644",
+          "size": 18021
+        },
+        {
+          "path": "skills/apk-reverse/references/detection-and-anti-analysis.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/detection-and-anti-analysis.md",
+          "digest": "7639eb93066e2a1a090b2ed7b6a2bfb5abb72ef06bc02d5467e4a358e14dda32",
+          "mode": "100644",
+          "size": 22701
+        },
+        {
+          "path": "skills/apk-reverse/references/dex-patching.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dex-patching.md",
+          "digest": "ebced793d8496c18f4276cc415a48c54d4f8575610f7b7f9faa83ed2a78cedd0",
+          "mode": "100644",
+          "size": 11476
+        },
+        {
+          "path": "skills/apk-reverse/references/dynamic-frida.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dynamic-frida.md",
+          "digest": "692339bfdf7185e9e7f337c7729cd918467acede2a681e2cb655ac99c45f87f0",
+          "mode": "100644",
+          "size": 27852
+        },
+        {
+          "path": "skills/apk-reverse/references/emulation-and-rpc.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/emulation-and-rpc.md",
+          "digest": "2f95756413338d973426db0bc51484d09d23ee8959c91c2489b108e9ad9c9917",
+          "mode": "100644",
+          "size": 22524
+        },
+        {
+          "path": "skills/apk-reverse/references/environment.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/environment.md",
+          "digest": "066e4a71d200fa77dc9f59978139ee66751ff96fedad1a4f2f768290617b9111",
+          "mode": "100644",
+          "size": 16738
+        },
+        {
+          "path": "skills/apk-reverse/references/evidence-summary.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/evidence-summary.md",
+          "digest": "51728694a627a1bcac19de42cc1447ddf29b4bfd8c8659f244ccda39ce4d0d64",
+          "mode": "100644",
+          "size": 14174
+        },
+        {
+          "path": "skills/apk-reverse/references/framework-runtimes.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/framework-runtimes.md",
+          "digest": "04cdf9c5d980a2daebd57639e13860f51b2d7309e51e2853cabf35e76879bc63",
+          "mode": "100644",
+          "size": 7170
+        },
+        {
+          "path": "skills/apk-reverse/references/handoff-boundaries.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/handoff-boundaries.md",
+          "digest": "00c6423474ff523c2b19ea54be54a00b94a84250d07b90bf1e930ff51ec80fc6",
+          "mode": "100644",
+          "size": 5753
+        },
+        {
+          "path": "skills/apk-reverse/references/java2c-and-jni-sinking.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/java2c-and-jni-sinking.md",
+          "digest": "93a552e0fc40ae4fed764dec70e2c61a8c060255591ad534554cba4b71d4e40b",
+          "mode": "100644",
+          "size": 12135
+        },
+        {
+          "path": "skills/apk-reverse/references/kernel-and-environment-hardening.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/kernel-and-environment-hardening.md",
+          "digest": "4a26e019d4263dce2d38854abe3f5cb95d495de24870a14cda60f23a7abc7ea4",
+          "mode": "100644",
+          "size": 23915
+        },
+        {
+          "path": "skills/apk-reverse/references/long-task-discipline.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/long-task-discipline.md",
+          "digest": "69f6e7691346095dcaed033e3b1efcc6425a2670e2e4fc4f1e3ebfb0f5c497fd",
+          "mode": "100644",
+          "size": 22226
+        },
+        {
+          "path": "skills/apk-reverse/references/lsposed-and-modules.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/lsposed-and-modules.md",
+          "digest": "c08e2ab27167ec29b768a30e945f669308e20f70f533bfa0b33a5cabaaca0971",
+          "mode": "100644",
+          "size": 23546
+        },
+        {
+          "path": "skills/apk-reverse/references/membership-and-limits.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/membership-and-limits.md",
+          "digest": "7ff3b755035911915b0d34ad0d329d1c46460512445c816dacae441ee5baf250",
+          "mode": "100644",
+          "size": 5441
+        },
+        {
+          "path": "skills/apk-reverse/references/native-and-so.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-and-so.md",
+          "digest": "bfb505d1eaf3f65318c470a7fcf36f064fd411c59dfecbeb25591d8c3de4c881",
+          "mode": "100644",
+          "size": 11194
+        },
+        {
+          "path": "skills/apk-reverse/references/native-dbi-and-deobfuscation.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-dbi-and-deobfuscation.md",
+          "digest": "e9ff567996cc3c915181f1453407a865fb734ee5586a27082247860f58f36af9",
+          "mode": "100644",
+          "size": 23719
+        },
+        {
+          "path": "skills/apk-reverse/references/native-tamper-and-suicide.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-tamper-and-suicide.md",
+          "digest": "bf11d2d600b235daeb4ab8c4144296fa5fa6cf16d3d37aea7011df5cc1b6e556",
+          "mode": "100644",
+          "size": 16551
+        },
+        {
+          "path": "skills/apk-reverse/references/on-device-tooling.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/on-device-tooling.md",
+          "digest": "7ef275001f3fa09a8a8946eeb18881c9ccfad9156d71f8409f9469b1241986f4",
+          "mode": "100644",
+          "size": 10030
+        },
+        {
+          "path": "skills/apk-reverse/references/packers.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/packers.md",
+          "digest": "7879d908d5db6954ac9fb68cbc129ce9939ae96d8a2e320ae71769e65b7b6cbd",
+          "mode": "100644",
+          "size": 8917
+        },
+        {
+          "path": "skills/apk-reverse/references/patch-audit.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/patch-audit.md",
+          "digest": "578053db400989347df6053eb1a603d88456ba6ec4acf0b401fcec2cd47c7566",
+          "mode": "100644",
+          "size": 8378
+        },
+        {
+          "path": "skills/apk-reverse/references/pitfalls.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/pitfalls.md",
+          "digest": "ff9672079dbdd2403c2ba32f7d1b6c2884ee52930c7d71882d13ae9d2907d7b2",
+          "mode": "100644",
+          "size": 63157
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/README.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/README.md",
+          "digest": "82d0560aa3b789eba7316334d5f2c3cccd38fa51115447e1cbc40cd94faf6984",
+          "mode": "100644",
+          "size": 6273
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/flutter-plus-shell-case-1.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/flutter-plus-shell-case-1.md",
+          "digest": "fff8f8956f7f7d4b82791c14cff5bd785f64e9365698482f9c93ecede33f51e8",
+          "mode": "100644",
+          "size": 7092
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/frida-spawn-hangs-zero-events-case-2.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/frida-spawn-hangs-zero-events-case-2.md",
+          "digest": "5aa28cfd116e0afc6174487d45d1c1c211947a6bb62fcb8d357727357fbd2df1",
+          "mode": "100644",
+          "size": 7326
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/l1-equal-length-patch-case-4.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/l1-equal-length-patch-case-4.md",
+          "digest": "ea030b086f1e15310595d2da878ea5b1fcaafe3f291780837dd1725d68a35150",
+          "mode": "100644",
+          "size": 8223
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/logd-broken-module-never-ran-case-3.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/logd-broken-module-never-ran-case-3.md",
+          "digest": "5d4e25f37db2a9ee02489f7943056a6307b4b8f10ae6d70484df3a2687555979",
+          "mode": "100644",
+          "size": 6665
+        },
+        {
+          "path": "skills/apk-reverse/references/precedents/manual-grep-finds-what-nobody-grepped-case-5.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/manual-grep-finds-what-nobody-grepped-case-5.md",
+          "digest": "d751ee40e88a6bdba54e2977a13b15f88bbe0de40ef1dc7e0e01fbf95d65850d",
+          "mode": "100644",
+          "size": 8607
+        },
+        {
+          "path": "skills/apk-reverse/references/protocol-reverse.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/protocol-reverse.md",
+          "digest": "f33ac0ccf86cef6fb8b22f82f7df495b48c81a7c0f5ca008e2273e87bd60538d",
+          "mode": "100644",
+          "size": 23585
+        },
+        {
+          "path": "skills/apk-reverse/references/rasc-and-droidsaw.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/rasc-and-droidsaw.md",
+          "digest": "9b595564d57736045f3d54885537006347c2bcc1a92c62b0d6eb43535521b6a1",
+          "mode": "100644",
+          "size": 9334
+        },
+        {
+          "path": "skills/apk-reverse/references/recon.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/recon.md",
+          "digest": "37c1c502fa832da6319e62c2e4e057a3d966eb3445528faf85f5959260bd3aa2",
+          "mode": "100644",
+          "size": 11942
+        },
+        {
+          "path": "skills/apk-reverse/references/repack-and-sign.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/repack-and-sign.md",
+          "digest": "84ea7eb05f3b42c9ed0d255b3c15a565473a4cea4c42a2304f1219e46381d67d",
+          "mode": "100644",
+          "size": 14391
+        },
+        {
+          "path": "skills/apk-reverse/references/routing.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/routing.md",
+          "digest": "a2b2b0c869b883f1a8d686a03d19b996612eabcd1962fe4591430ea1823f606b",
+          "mode": "100644",
+          "size": 33958
+        },
+        {
+          "path": "skills/apk-reverse/references/runtime-data.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/runtime-data.md",
+          "digest": "bf247e60879283fd1d0da8b9b34ce8d4eec870cd4c1907a07a710baa907b2ace",
+          "mode": "100644",
+          "size": 12319
+        },
+        {
+          "path": "skills/apk-reverse/references/server-api.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/server-api.md",
+          "digest": "1842c5962421d6ef4fed75f83ed1736034ce78bc5aa254e3dc9b59d972159735",
+          "mode": "100644",
+          "size": 5187
+        },
+        {
+          "path": "skills/apk-reverse/references/server-config-and-updates.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/server-config-and-updates.md",
+          "digest": "19818c34ba7c3e4c9f982c4eafff97427507c787b9028025fd8b7b848b32c2a4",
+          "mode": "100644",
+          "size": 7967
+        },
+        {
+          "path": "skills/apk-reverse/references/signature-derived-keys.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/signature-derived-keys.md",
+          "digest": "859c2c39cafe7f77c458468931c4ed9948723fb3a8e98c408606b648e1ffd19e",
+          "mode": "100644",
+          "size": 7425
+        },
+        {
+          "path": "skills/apk-reverse/references/split-apk.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/split-apk.md",
+          "digest": "828870b8ec0547707af26813821c7f236c4023d6b330e45954dcafeb4df34149",
+          "mode": "100644",
+          "size": 21081
+        },
+        {
+          "path": "skills/apk-reverse/references/third-party-builds.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/third-party-builds.md",
+          "digest": "28ae42ef1775178fc63454ee347b8124e9cc91716602ba5d463122fa6db51d2d",
+          "mode": "100644",
+          "size": 6929
+        },
+        {
+          "path": "skills/apk-reverse/references/tls-and-cert.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/tls-and-cert.md",
+          "digest": "8d5f662b704df985f53c418f3b5fd62361f39add9586f77cf9bba6529c35fda3",
+          "mode": "100644",
+          "size": 13225
+        },
+        {
+          "path": "skills/apk-reverse/references/toolchain.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/toolchain.md",
+          "digest": "5be007e34a4626b68464f1be15b735084615e8e33098251d8ace3fbb4fcc7b39",
+          "mode": "100644",
+          "size": 41781
+        },
+        {
+          "path": "skills/apk-reverse/references/updates-and-forced-upgrade.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/updates-and-forced-upgrade.md",
+          "digest": "5f117e5f54848a57eac4676cb5e437548bca80cb58cd723f914b0fce7bc58522",
+          "mode": "100644",
+          "size": 14354
+        },
+        {
+          "path": "skills/apk-reverse/references/verification.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/verification.md",
+          "digest": "228db84c50834910a30c0d53a23c46696feab718915d44390a9bdd6cc0940cfd",
+          "mode": "100644",
+          "size": 7907
+        },
+        {
+          "path": "skills/apk-reverse/references/vmp-differential-analysis.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/vmp-differential-analysis.md",
+          "digest": "f8f560727c672f6f432c48a263995a39905a988f6b0a0f56afb4307835f0baac",
+          "mode": "100644",
+          "size": 17962
+        },
+        {
+          "path": "skills/apk-reverse/scripts/anti_detect_probe.js",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/anti_detect_probe.js",
+          "digest": "4c8328a74e1fb470d242d33438434bd2bcebb606557425df85a59284647c88ad",
+          "mode": "100644",
+          "size": 14827
+        },
+        {
+          "path": "skills/apk-reverse/scripts/apk_diff.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/apk_diff.py",
+          "digest": "ae37529c7a82963da4e00e9bdd46617d29a609c9f0862399b47972c75e0ccc6e",
+          "mode": "100644",
+          "size": 5676
+        },
+        {
+          "path": "skills/apk-reverse/scripts/blob_decode.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/blob_decode.py",
+          "digest": "f0f6d39b87e881fc4f29cab07adecefcf847f07117f63700a4c248639f9064d4",
+          "mode": "100644",
+          "size": 11124
+        },
+        {
+          "path": "skills/apk-reverse/scripts/capabilities.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/capabilities.py",
+          "digest": "bef20c2ba8aec756959f16050c4342b7e51ba5e69754666a7a4c2185d0907b00",
+          "mode": "100644",
+          "size": 52315
+        },
+        {
+          "path": "skills/apk-reverse/scripts/coldstart.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/coldstart.py",
+          "digest": "9449ae420d63a8db186294d7758de1678046bb0329ce16931ea75243f569f052",
+          "mode": "100644",
+          "size": 12820
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dart_disasm.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_disasm.py",
+          "digest": "f619c370baa2bf982928d039d050d2576ec8b457b10cf992407da440baa2dfe7",
+          "mode": "100644",
+          "size": 8501
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dart_pool_strings.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_pool_strings.py",
+          "digest": "c1d72666ddc9be38b88b52a87a9f3473ef6ef9f769f6d0244bfc2bf3a93826f5",
+          "mode": "100644",
+          "size": 10923
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dart_pprefs.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_pprefs.py",
+          "digest": "c85915d85a4b39ee0f2e70074ec6030f417ccf56997d4b8f0ba0a31601c2b017",
+          "mode": "100644",
+          "size": 7814
+        },
+        {
+          "path": "skills/apk-reverse/scripts/datastore_inject.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/datastore_inject.py",
+          "digest": "45b9b5a21f50795c067bfdb4033b64b8f0464743b3cf1abeed6c65943278529f",
+          "mode": "100644",
+          "size": 13203
+        },
+        {
+          "path": "skills/apk-reverse/scripts/device_shell.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/device_shell.py",
+          "digest": "0fc03c98d08dcc8044bd720c214006459f2542d19cc9ffa26e7e3a6511296b38",
+          "mode": "100644",
+          "size": 13223
+        },
+        {
+          "path": "skills/apk-reverse/scripts/devsh.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/devsh.py",
+          "digest": "2a055555017c272c4422fd88ffd9a0260bd32a1be401730723215bb1f35749d0",
+          "mode": "100644",
+          "size": 4654
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_check_verifier.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_check_verifier.py",
+          "digest": "bc852bcd5cc977a40d9ad90bd7cf57fca9ffeb31de8ddfdeab3999d104c68455",
+          "mode": "100644",
+          "size": 7248
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_classdiff.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_classdiff.py",
+          "digest": "50b652b7c69f5372e5b8520b514cf5c7fedec8ce6125d126a03d266f8568b42b",
+          "mode": "100644",
+          "size": 4848
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_dump_validate.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_dump_validate.py",
+          "digest": "274acb9e86514e0856b9348df88c7e476c4f8369f2d1cba1893029647d505a29",
+          "mode": "100644",
+          "size": 19631
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_find_insn.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_find_insn.py",
+          "digest": "0b4b29f71a75de4adde53a693c2e1ae2118ecffe9f3171c857892962e87998b5",
+          "mode": "100644",
+          "size": 11389
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_mem_scan.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_mem_scan.py",
+          "digest": "e906d806e3831a1caca8e485c099497e8b4d71b1323f393c7e1b75463232ea6e",
+          "mode": "100644",
+          "size": 9974
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_patch_bytes.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_patch_bytes.py",
+          "digest": "66386df3c3fbf4675008c004b4604af1efc9b3ca6dc50d89efe11f6d10525717",
+          "mode": "100644",
+          "size": 17341
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_strings.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_strings.py",
+          "digest": "10d1e8cdc043a25b0e35145da8787ca2263506b9d723f74e645a19c13558d8ca",
+          "mode": "100644",
+          "size": 6350
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dex_strpatch.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_strpatch.py",
+          "digest": "a63b373047ddf33691f708162d7c75d423d72a838594fa120f3edda47134dbf1",
+          "mode": "100644",
+          "size": 5125
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dexpatch/PatchMethod.java",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/PatchMethod.java",
+          "digest": "142cc0b81fe4269030c12c0902581064949bf867e021fabe7d4f9fefdf1ac733",
+          "mode": "100644",
+          "size": 4732
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dexpatch/PatchMethodExample.java",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/PatchMethodExample.java",
+          "digest": "0668e03a42f717259232732680d4b9059bb53631baf451fcd7f941c4a1ba7fbe",
+          "mode": "100644",
+          "size": 10392
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dexpatch/README.md",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/README.md",
+          "digest": "24f91dfeccd3ac522ad50264e2a278d732a8241c2d26076c0d6284493743487c",
+          "mode": "100644",
+          "size": 3359
+        },
+        {
+          "path": "skills/apk-reverse/scripts/dexutil.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexutil.py",
+          "digest": "6d578966dc5c44f40d173263db32db697c9a18e6b5852f4df23efbd50675928a",
+          "mode": "100644",
+          "size": 32775
+        },
+        {
+          "path": "skills/apk-reverse/scripts/doctor.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/doctor.py",
+          "digest": "5138e6bc3a0791c4343b4395eb52ab0580a20be7f491ab8a0fb456343b6cebed",
+          "mode": "100644",
+          "size": 29273
+        },
+        {
+          "path": "skills/apk-reverse/scripts/elf_plt.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/elf_plt.py",
+          "digest": "a1c26d2ab7f480842503d14dc447449c626393aeb9c3313c3094a1548ad9591d",
+          "mode": "100644",
+          "size": 15615
+        },
+        {
+          "path": "skills/apk-reverse/scripts/find_refs.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/find_refs.py",
+          "digest": "8011820f78febcd7fa7b1e108d38028fe96d795bc4d196ae10651c204f48db61",
+          "mode": "100644",
+          "size": 10571
+        },
+        {
+          "path": "skills/apk-reverse/scripts/frida_probe.js",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/frida_probe.js",
+          "digest": "64ca0428e586f606ee25011fef4a88af0734ae0b910a0cebde0c4f311f2437f6",
+          "mode": "100644",
+          "size": 23663
+        },
+        {
+          "path": "skills/apk-reverse/scripts/frida_rpc_serve.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/frida_rpc_serve.py",
+          "digest": "2d59822b7c14b8cfb756563344627a955539677d1353db42bfcdb0d2009f9dfb",
+          "mode": "100644",
+          "size": 17593
+        },
+        {
+          "path": "skills/apk-reverse/scripts/grab_crash.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/grab_crash.py",
+          "digest": "d040ad9f01e21a4f91e36e436ca680201036b66ba26ae3fd53b0338c8a5fcd40",
+          "mode": "100644",
+          "size": 3691
+        },
+        {
+          "path": "skills/apk-reverse/scripts/hook_patch_only.js",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/hook_patch_only.js",
+          "digest": "9e0ca8631819a99d7292ce0526bd4fe176f67a02a420bfc8b18eb1a29e43da30",
+          "mode": "100644",
+          "size": 3034
+        },
+        {
+          "path": "skills/apk-reverse/scripts/install_test.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/install_test.py",
+          "digest": "4f92526327f36880e4e5b4e18caccf19918a42aa706c85f669557245c6c3f58d",
+          "mode": "100644",
+          "size": 4689
+        },
+        {
+          "path": "skills/apk-reverse/scripts/java2c_probe.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/java2c_probe.py",
+          "digest": "d1f7b89bd234c1f03c9cd727d0f8304e8363368d72912338ff08e002e559681d",
+          "mode": "100644",
+          "size": 44097
+        },
+        {
+          "path": "skills/apk-reverse/scripts/kernelsu_syscall_mask.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/kernelsu_syscall_mask.py",
+          "digest": "f59a9573baa7d80730ece4ef10f642e43dd326818c5e47e63d7d0c83637bd403",
+          "mode": "100644",
+          "size": 38381
+        },
+        {
+          "path": "skills/apk-reverse/scripts/lib_map.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/lib_map.py",
+          "digest": "6037331fac2ecd2cfdbc52926cc0bd47a4a2e16fc913cfa48631b05b411b0f5d",
+          "mode": "100644",
+          "size": 9397
+        },
+        {
+          "path": "skills/apk-reverse/scripts/lsposed_scaffold.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/lsposed_scaffold.py",
+          "digest": "eb40578368854ac56e91d07a1ad1a5e49eef8bcf9a6cc8a1c3491d9c46435b34",
+          "mode": "100644",
+          "size": 19225
+        },
+        {
+          "path": "skills/apk-reverse/scripts/mt_mcp_probe.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/mt_mcp_probe.py",
+          "digest": "ae8787039324122b3680709c6e5b463182bcd7b6d63e79b0f0087721069127e6",
+          "mode": "100644",
+          "size": 8681
+        },
+        {
+          "path": "skills/apk-reverse/scripts/native_crash.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/native_crash.py",
+          "digest": "496a2e000bca11df79c20c747d1bef6c67a5ed089bb4f9cb9a5fdefe1d6b7649",
+          "mode": "100644",
+          "size": 11867
+        },
+        {
+          "path": "skills/apk-reverse/scripts/patch_smali.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/patch_smali.py",
+          "digest": "1e38ae4a48d06e2c1771d240b51831b42e120bff071b3a08216f2145e38b6556",
+          "mode": "100644",
+          "size": 3993
+        },
+        {
+          "path": "skills/apk-reverse/scripts/preflight.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/preflight.py",
+          "digest": "366bc68c8cb1d0f917498a06231cfd186928a5bf4d594141072c09c3b16dcdc1",
+          "mode": "100644",
+          "size": 11849
+        },
+        {
+          "path": "skills/apk-reverse/scripts/probe_api.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/probe_api.py",
+          "digest": "fbc3b0a3f0a409e92fac9edfd9fc99f3958219da53f65ba4c18f7e78560eba4b",
+          "mode": "100644",
+          "size": 4464
+        },
+        {
+          "path": "skills/apk-reverse/scripts/protobuf_decode_raw.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/protobuf_decode_raw.py",
+          "digest": "2c9a4e88476538c1c459baabc7c8510da717769213d6ef1783cfc64b16e50fef",
+          "mode": "100644",
+          "size": 54332
+        },
+        {
+          "path": "skills/apk-reverse/scripts/rasc_build.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/rasc_build.py",
+          "digest": "8b520b1a12155e60cf5bd30f89f97d1648984ad87bc0eac07afe52ca6f4ca3d1",
+          "mode": "100644",
+          "size": 12989
+        },
+        {
+          "path": "skills/apk-reverse/scripts/repack.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/repack.py",
+          "digest": "1a3d0122625427fd9d2adc60a870c02006ee32ccbc6d7941839a5c2c82cf80f3",
+          "mode": "100644",
+          "size": 65891
+        },
+        {
+          "path": "skills/apk-reverse/scripts/rpc_template.js",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/rpc_template.js",
+          "digest": "10a420f565c77c08ccb39f45936af8acf25d7a28f12326d57720e64273cfc0a8",
+          "mode": "100644",
+          "size": 3197
+        },
+        {
+          "path": "skills/apk-reverse/scripts/run_probe.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/run_probe.py",
+          "digest": "40712e8cc9d367196111de161f1d6550c6d8eab76217c5b2bc2dad8135edf5d8",
+          "mode": "100644",
+          "size": 15265
+        },
+        {
+          "path": "skills/apk-reverse/scripts/scan_leaks.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/scan_leaks.py",
+          "digest": "da4ede5c9aafe17e8ac7a864a48da6c123df35cf1220c5bdb31820758a12bd6d",
+          "mode": "100644",
+          "size": 35182
+        },
+        {
+          "path": "skills/apk-reverse/scripts/sig_probe.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/sig_probe.py",
+          "digest": "46b4ddfe7193ec1204943742bfed59ab7d9fc50880b5b75f6936be4c104101db",
+          "mode": "100644",
+          "size": 10288
+        },
+        {
+          "path": "skills/apk-reverse/scripts/smali_cp.txt",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/smali_cp.txt",
+          "digest": "eaa849de4cb3e4333fbc8a6cd315db75f0e76c2c62ef9fdf39cc116251bacf16",
+          "mode": "100644",
+          "size": 309
+        },
+        {
+          "path": "skills/apk-reverse/scripts/smtool.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/smtool.py",
+          "digest": "f9e496695214facffa4d5a1b27d60cd70418f1e5f4b402f77e451b127a443221",
+          "mode": "100644",
+          "size": 3792
+        },
+        {
+          "path": "skills/apk-reverse/scripts/snap.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/snap.py",
+          "digest": "f1104d55de01b9e13e3c213f9993bebe95f64b64d9df11aa8e02a826aed1e937",
+          "mode": "100644",
+          "size": 8937
+        },
+        {
+          "path": "skills/apk-reverse/scripts/so_constpatch.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/so_constpatch.py",
+          "digest": "1b049ffaa4e7d7c90ee399c516db0c8bfeaf569742b593ae1eea845bc66a8c01",
+          "mode": "100644",
+          "size": 54809
+        },
+        {
+          "path": "skills/apk-reverse/scripts/spawn_patch_detach.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/spawn_patch_detach.py",
+          "digest": "f697a944c9ad5979c5073119e41b8d88ea61183bbd400639573254e75ebe5a93",
+          "mode": "100644",
+          "size": 10857
+        },
+        {
+          "path": "skills/apk-reverse/scripts/stalker_report.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/stalker_report.py",
+          "digest": "7f6f89cb1d73f1747ed6697e0a4d6a76e60e68339222c819b22ed3e4852e11d0",
+          "mode": "100644",
+          "size": 10007
+        },
+        {
+          "path": "skills/apk-reverse/scripts/stalker_trace.js",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/stalker_trace.js",
+          "digest": "4cf506302eb3015974d3dbbcc712d1d3eece5eb7d34a4d38b5d08b6397796fad",
+          "mode": "100644",
+          "size": 24349
+        },
+        {
+          "path": "skills/apk-reverse/scripts/svc_scan.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/svc_scan.py",
+          "digest": "328f1ce48dff5de12208af22f8094aa688342ea4e133ac2378081700fa48b1d2",
+          "mode": "100644",
+          "size": 21585
+        },
+        {
+          "path": "skills/apk-reverse/scripts/tls_check.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/tls_check.py",
+          "digest": "becaefbeca838387dd72fb528e4c6991517cfdbc0308ab1d79b7421da4fe7eb8",
+          "mode": "100644",
+          "size": 13002
+        },
+        {
+          "path": "skills/apk-reverse/scripts/usb_net_proxy.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/usb_net_proxy.py",
+          "digest": "dca9a5fba4780bb531036b2ec0f7ffb75dcb1540f9d64bd76c1e9b60715bcdf2",
+          "mode": "100644",
+          "size": 5516
+        },
+        {
+          "path": "skills/apk-reverse/scripts/vmp_diff_harness.py",
+          "output_path": "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/vmp_diff_harness.py",
+          "digest": "c125f87130cda9a09437caad69fdc81d411488194a2bf0378b60ef4257eb4af3",
+          "mode": "100644",
+          "size": 73793
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-newliver666-apk-reverse/.claude-plugin/plugin.json": "b964de347d6953ff280069c0307b9ff25853ad8cc5d57741b1946959d5fe9e1c",
+        "packages/claude-code/skill-newliver666-apk-reverse/provenance.json": "d2e3f16f9a46abe340a7b2d3dd751316a14a71fccf0df1dd00d3906d130a6bd6",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/SKILL.md": "0d6d4727fac35811fd94c4fa3bd2b3a4dff80906875e0676c7b188a77701cc05",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evals/evals.json": "6c407547886bc0e7b201103e45640faeae210c4977dd231670a0f7379337114d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/capability-matrix.json": "c30265b8efee85c2bd91511a3ffb2dec1384a4c055b597bc49b78d041629c034",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/known-limitations.md": "72f819d0a34fa052b6f34bb13ff9232c975233cc5c68cc2ec6a2d6e93079dcf9",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/evidence/tested-tool-versions.json": "b0774191ed2da4e8a0128153d09a8afcd48a6773c40b2a37c9ef4fae0881d963",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/account-gates.md": "98cc2540e77aa1e8249c767d36382ca8cb1b7779693e7ff51a6caff319158181",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/ad-removal.md": "a93246ef89d2670c645402df126f6adbaed4ddc5157ad63c089c1acaafb87799",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/advanced-unpacking.md": "8b48ba652d5ef9207048bf09bc505af874484881dc1e3e7ba3947d22f6c962f4",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/byte-level-patching.md": "3f7c3bd2fa4b25767a6f564697d78370f790596397ffdff1395ea79ae666fca0",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/code-virtualization-and-custom-linkers.md": "06f25c7855d0968cc0a23c7fbc143d6fa311ae5e8dfa89dd9a5313ab872d8b64",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/coverage-and-limits.md": "37e658f80da4d8c7e8519264fe5cc9d364055e12dcf8403b40be86f7a7d7bfe9",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/coverage/route-inventory.md": "1380999d4718599c9b4a5a4112ca2c3160e2da7a106573c77ac9f6f46964bb07",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dart-aot.md": "4557b4e3dafcb33f038d5fdf866375cfd1916bfd484a3f7fdef89ee683b27029",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/desensitization-and-leak-scans.md": "edcfba6121d4bedc0f53fce3c5459a1f5dffae00b909662832d6f4c4456784b7",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/detection-and-anti-analysis.md": "7639eb93066e2a1a090b2ed7b6a2bfb5abb72ef06bc02d5467e4a358e14dda32",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dex-patching.md": "ebced793d8496c18f4276cc415a48c54d4f8575610f7b7f9faa83ed2a78cedd0",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/dynamic-frida.md": "692339bfdf7185e9e7f337c7729cd918467acede2a681e2cb655ac99c45f87f0",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/emulation-and-rpc.md": "2f95756413338d973426db0bc51484d09d23ee8959c91c2489b108e9ad9c9917",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/environment.md": "066e4a71d200fa77dc9f59978139ee66751ff96fedad1a4f2f768290617b9111",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/evidence-summary.md": "51728694a627a1bcac19de42cc1447ddf29b4bfd8c8659f244ccda39ce4d0d64",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/framework-runtimes.md": "04cdf9c5d980a2daebd57639e13860f51b2d7309e51e2853cabf35e76879bc63",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/handoff-boundaries.md": "00c6423474ff523c2b19ea54be54a00b94a84250d07b90bf1e930ff51ec80fc6",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/java2c-and-jni-sinking.md": "93a552e0fc40ae4fed764dec70e2c61a8c060255591ad534554cba4b71d4e40b",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/kernel-and-environment-hardening.md": "4a26e019d4263dce2d38854abe3f5cb95d495de24870a14cda60f23a7abc7ea4",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/long-task-discipline.md": "69f6e7691346095dcaed033e3b1efcc6425a2670e2e4fc4f1e3ebfb0f5c497fd",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/lsposed-and-modules.md": "c08e2ab27167ec29b768a30e945f669308e20f70f533bfa0b33a5cabaaca0971",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/membership-and-limits.md": "7ff3b755035911915b0d34ad0d329d1c46460512445c816dacae441ee5baf250",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-and-so.md": "bfb505d1eaf3f65318c470a7fcf36f064fd411c59dfecbeb25591d8c3de4c881",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-dbi-and-deobfuscation.md": "e9ff567996cc3c915181f1453407a865fb734ee5586a27082247860f58f36af9",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/native-tamper-and-suicide.md": "bf11d2d600b235daeb4ab8c4144296fa5fa6cf16d3d37aea7011df5cc1b6e556",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/on-device-tooling.md": "7ef275001f3fa09a8a8946eeb18881c9ccfad9156d71f8409f9469b1241986f4",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/packers.md": "7879d908d5db6954ac9fb68cbc129ce9939ae96d8a2e320ae71769e65b7b6cbd",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/patch-audit.md": "578053db400989347df6053eb1a603d88456ba6ec4acf0b401fcec2cd47c7566",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/pitfalls.md": "ff9672079dbdd2403c2ba32f7d1b6c2884ee52930c7d71882d13ae9d2907d7b2",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/README.md": "82d0560aa3b789eba7316334d5f2c3cccd38fa51115447e1cbc40cd94faf6984",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/flutter-plus-shell-case-1.md": "fff8f8956f7f7d4b82791c14cff5bd785f64e9365698482f9c93ecede33f51e8",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/frida-spawn-hangs-zero-events-case-2.md": "5aa28cfd116e0afc6174487d45d1c1c211947a6bb62fcb8d357727357fbd2df1",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/l1-equal-length-patch-case-4.md": "ea030b086f1e15310595d2da878ea5b1fcaafe3f291780837dd1725d68a35150",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/logd-broken-module-never-ran-case-3.md": "5d4e25f37db2a9ee02489f7943056a6307b4b8f10ae6d70484df3a2687555979",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/precedents/manual-grep-finds-what-nobody-grepped-case-5.md": "d751ee40e88a6bdba54e2977a13b15f88bbe0de40ef1dc7e0e01fbf95d65850d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/protocol-reverse.md": "f33ac0ccf86cef6fb8b22f82f7df495b48c81a7c0f5ca008e2273e87bd60538d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/rasc-and-droidsaw.md": "9b595564d57736045f3d54885537006347c2bcc1a92c62b0d6eb43535521b6a1",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/recon.md": "37c1c502fa832da6319e62c2e4e057a3d966eb3445528faf85f5959260bd3aa2",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/repack-and-sign.md": "84ea7eb05f3b42c9ed0d255b3c15a565473a4cea4c42a2304f1219e46381d67d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/routing.md": "a2b2b0c869b883f1a8d686a03d19b996612eabcd1962fe4591430ea1823f606b",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/runtime-data.md": "bf247e60879283fd1d0da8b9b34ce8d4eec870cd4c1907a07a710baa907b2ace",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/server-api.md": "1842c5962421d6ef4fed75f83ed1736034ce78bc5aa254e3dc9b59d972159735",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/server-config-and-updates.md": "19818c34ba7c3e4c9f982c4eafff97427507c787b9028025fd8b7b848b32c2a4",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/signature-derived-keys.md": "859c2c39cafe7f77c458468931c4ed9948723fb3a8e98c408606b648e1ffd19e",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/split-apk.md": "828870b8ec0547707af26813821c7f236c4023d6b330e45954dcafeb4df34149",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/third-party-builds.md": "28ae42ef1775178fc63454ee347b8124e9cc91716602ba5d463122fa6db51d2d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/tls-and-cert.md": "8d5f662b704df985f53c418f3b5fd62361f39add9586f77cf9bba6529c35fda3",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/toolchain.md": "5be007e34a4626b68464f1be15b735084615e8e33098251d8ace3fbb4fcc7b39",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/updates-and-forced-upgrade.md": "5f117e5f54848a57eac4676cb5e437548bca80cb58cd723f914b0fce7bc58522",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/verification.md": "228db84c50834910a30c0d53a23c46696feab718915d44390a9bdd6cc0940cfd",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/references/vmp-differential-analysis.md": "f8f560727c672f6f432c48a263995a39905a988f6b0a0f56afb4307835f0baac",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/anti_detect_probe.js": "4c8328a74e1fb470d242d33438434bd2bcebb606557425df85a59284647c88ad",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/apk_diff.py": "ae37529c7a82963da4e00e9bdd46617d29a609c9f0862399b47972c75e0ccc6e",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/blob_decode.py": "f0f6d39b87e881fc4f29cab07adecefcf847f07117f63700a4c248639f9064d4",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/capabilities.py": "bef20c2ba8aec756959f16050c4342b7e51ba5e69754666a7a4c2185d0907b00",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/coldstart.py": "9449ae420d63a8db186294d7758de1678046bb0329ce16931ea75243f569f052",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_disasm.py": "f619c370baa2bf982928d039d050d2576ec8b457b10cf992407da440baa2dfe7",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_pool_strings.py": "c1d72666ddc9be38b88b52a87a9f3473ef6ef9f769f6d0244bfc2bf3a93826f5",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dart_pprefs.py": "c85915d85a4b39ee0f2e70074ec6030f417ccf56997d4b8f0ba0a31601c2b017",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/datastore_inject.py": "45b9b5a21f50795c067bfdb4033b64b8f0464743b3cf1abeed6c65943278529f",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/device_shell.py": "0fc03c98d08dcc8044bd720c214006459f2542d19cc9ffa26e7e3a6511296b38",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/devsh.py": "2a055555017c272c4422fd88ffd9a0260bd32a1be401730723215bb1f35749d0",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_check_verifier.py": "bc852bcd5cc977a40d9ad90bd7cf57fca9ffeb31de8ddfdeab3999d104c68455",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_classdiff.py": "50b652b7c69f5372e5b8520b514cf5c7fedec8ce6125d126a03d266f8568b42b",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_dump_validate.py": "274acb9e86514e0856b9348df88c7e476c4f8369f2d1cba1893029647d505a29",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_find_insn.py": "0b4b29f71a75de4adde53a693c2e1ae2118ecffe9f3171c857892962e87998b5",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_mem_scan.py": "e906d806e3831a1caca8e485c099497e8b4d71b1323f393c7e1b75463232ea6e",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_patch_bytes.py": "66386df3c3fbf4675008c004b4604af1efc9b3ca6dc50d89efe11f6d10525717",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_strings.py": "10d1e8cdc043a25b0e35145da8787ca2263506b9d723f74e645a19c13558d8ca",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dex_strpatch.py": "a63b373047ddf33691f708162d7c75d423d72a838594fa120f3edda47134dbf1",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/PatchMethod.java": "142cc0b81fe4269030c12c0902581064949bf867e021fabe7d4f9fefdf1ac733",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/PatchMethodExample.java": "0668e03a42f717259232732680d4b9059bb53631baf451fcd7f941c4a1ba7fbe",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexpatch/README.md": "24f91dfeccd3ac522ad50264e2a278d732a8241c2d26076c0d6284493743487c",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/dexutil.py": "6d578966dc5c44f40d173263db32db697c9a18e6b5852f4df23efbd50675928a",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/doctor.py": "5138e6bc3a0791c4343b4395eb52ab0580a20be7f491ab8a0fb456343b6cebed",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/elf_plt.py": "a1c26d2ab7f480842503d14dc447449c626393aeb9c3313c3094a1548ad9591d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/find_refs.py": "8011820f78febcd7fa7b1e108d38028fe96d795bc4d196ae10651c204f48db61",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/frida_probe.js": "64ca0428e586f606ee25011fef4a88af0734ae0b910a0cebde0c4f311f2437f6",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/frida_rpc_serve.py": "2d59822b7c14b8cfb756563344627a955539677d1353db42bfcdb0d2009f9dfb",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/grab_crash.py": "d040ad9f01e21a4f91e36e436ca680201036b66ba26ae3fd53b0338c8a5fcd40",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/hook_patch_only.js": "9e0ca8631819a99d7292ce0526bd4fe176f67a02a420bfc8b18eb1a29e43da30",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/install_test.py": "4f92526327f36880e4e5b4e18caccf19918a42aa706c85f669557245c6c3f58d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/java2c_probe.py": "d1f7b89bd234c1f03c9cd727d0f8304e8363368d72912338ff08e002e559681d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/kernelsu_syscall_mask.py": "f59a9573baa7d80730ece4ef10f642e43dd326818c5e47e63d7d0c83637bd403",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/lib_map.py": "6037331fac2ecd2cfdbc52926cc0bd47a4a2e16fc913cfa48631b05b411b0f5d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/lsposed_scaffold.py": "eb40578368854ac56e91d07a1ad1a5e49eef8bcf9a6cc8a1c3491d9c46435b34",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/mt_mcp_probe.py": "ae8787039324122b3680709c6e5b463182bcd7b6d63e79b0f0087721069127e6",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/native_crash.py": "496a2e000bca11df79c20c747d1bef6c67a5ed089bb4f9cb9a5fdefe1d6b7649",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/patch_smali.py": "1e38ae4a48d06e2c1771d240b51831b42e120bff071b3a08216f2145e38b6556",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/preflight.py": "366bc68c8cb1d0f917498a06231cfd186928a5bf4d594141072c09c3b16dcdc1",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/probe_api.py": "fbc3b0a3f0a409e92fac9edfd9fc99f3958219da53f65ba4c18f7e78560eba4b",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/protobuf_decode_raw.py": "2c9a4e88476538c1c459baabc7c8510da717769213d6ef1783cfc64b16e50fef",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/rasc_build.py": "8b520b1a12155e60cf5bd30f89f97d1648984ad87bc0eac07afe52ca6f4ca3d1",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/repack.py": "1a3d0122625427fd9d2adc60a870c02006ee32ccbc6d7941839a5c2c82cf80f3",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/rpc_template.js": "10a420f565c77c08ccb39f45936af8acf25d7a28f12326d57720e64273cfc0a8",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/run_probe.py": "40712e8cc9d367196111de161f1d6550c6d8eab76217c5b2bc2dad8135edf5d8",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/scan_leaks.py": "da4ede5c9aafe17e8ac7a864a48da6c123df35cf1220c5bdb31820758a12bd6d",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/sig_probe.py": "46b4ddfe7193ec1204943742bfed59ab7d9fc50880b5b75f6936be4c104101db",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/smali_cp.txt": "eaa849de4cb3e4333fbc8a6cd315db75f0e76c2c62ef9fdf39cc116251bacf16",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/smtool.py": "f9e496695214facffa4d5a1b27d60cd70418f1e5f4b402f77e451b127a443221",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/snap.py": "f1104d55de01b9e13e3c213f9993bebe95f64b64d9df11aa8e02a826aed1e937",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/so_constpatch.py": "1b049ffaa4e7d7c90ee399c516db0c8bfeaf569742b593ae1eea845bc66a8c01",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/spawn_patch_detach.py": "f697a944c9ad5979c5073119e41b8d88ea61183bbd400639573254e75ebe5a93",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/stalker_report.py": "7f6f89cb1d73f1747ed6697e0a4d6a76e60e68339222c819b22ed3e4852e11d0",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/stalker_trace.js": "4cf506302eb3015974d3dbbcc712d1d3eece5eb7d34a4d38b5d08b6397796fad",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/svc_scan.py": "328f1ce48dff5de12208af22f8094aa688342ea4e133ac2378081700fa48b1d2",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/tls_check.py": "becaefbeca838387dd72fb528e4c6991517cfdbc0308ab1d79b7421da4fe7eb8",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/usb_net_proxy.py": "dca9a5fba4780bb531036b2ec0f7ffb75dcb1540f9d64bd76c1e9b60715bcdf2",
+        "packages/claude-code/skill-newliver666-apk-reverse/skills/apk-reverse/scripts/vmp_diff_harness.py": "c125f87130cda9a09437caad69fdc81d411488194a2bf0378b60ef4257eb4af3",
+        "packages/claude-code/skill-newliver666-apk-reverse/upstream-notices/LICENSE": "ed9f20bb2778d834ff8c66f7c61b345e7a88c25354845aed1555b445df188b1f"
+      },
+      "delivery": {
+        "packages/claude-code/skill-newliver666-apk-reverse/.codex-plugin/plugin.json": "0bb78c66c63953da01674d2528ff6b9ed8d32194a4f75a7ffb3644361812aa74",
+        "packages/claude-code/skill-newliver666-apk-reverse/.cursor-plugin/plugin.json": "0bb78c66c63953da01674d2528ff6b9ed8d32194a4f75a7ffb3644361812aa74",
+        "packages/claude-code/skill-newliver666-apk-reverse/plugin.json": "c0f22cd8ddc9eab5f148f975d265ef5ffe1ae949d0307a3b6b0268faf392c810"
+      }
     }
   }
 }

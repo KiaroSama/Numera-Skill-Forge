@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/apk-reverse",
+  "license": "MIT",
+  "name": "skill-newliver666-apk-reverse",
+  "repository": "https://github.com/newliver666/apk-reverse",
+  "version": "1.0.0"
+}

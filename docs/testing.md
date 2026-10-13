@@ -69,7 +69,10 @@ idempotence, safe prompt updates versus script/license/topology review, clean-wo
 and user-edit refusal. The original davila collection matched 4272 original payload/notice files
 from 485 plugins against immutable upstream Git identities and modes. Two separately registered
 origins add the three-file `clone-website` and seven-file `reverse-engineer-anything` roots with both
-complete MIT notices, for 487 plugins and 4284 original files. A public-service regression exercises
+complete MIT notices, for 487 plugins and 4284 original files. The independently registered
+`apk-reverse` addition retains 114 in-root files plus its original MIT notice, bringing the inventory
+to 488 plugins and 4399 original files. Packaging and delivery tests do not run its Android analysis
+scripts or certify their runtime behavior. A public-service regression exercises
 healthy-origin updates while a failed independent origin retains its accepted bytes and lock entry;
 repeating the operation must leave the healthy accepted version unchanged. The five AI Maestro additions
 retain the author's concise submitted variants and complete original MIT notices. No source runtime

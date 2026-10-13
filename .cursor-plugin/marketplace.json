@@ -2438,6 +2438,11 @@
       "description": "Original upstream skill: .agents/skills/reverse-engineer-anything",
       "name": "skill-morluto-reverse-engineer-anything",
       "source": "packages/claude-code/skill-morluto-reverse-engineer-anything"
+    },
+    {
+      "description": "Original upstream skill: skills/apk-reverse",
+      "name": "skill-newliver666-apk-reverse",
+      "source": "packages/claude-code/skill-newliver666-apk-reverse"
     }
   ]
 }
