@@ -204,6 +204,7 @@ async function geminiProbe() {
 }
 
 try {
+  emit("isolation-start");
   await preflight();
   stage = "pi-sdk";
   emit("pi-sdk-start");

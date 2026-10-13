@@ -172,10 +172,16 @@ def verify(image_name: str, work: Path) -> None:
                                                      "stderr_digest": hashlib.sha256(stderr).hexdigest()}, indent=2),
                                              encoding="utf-8")
         if stderr:
-            logging.warning("Native dependencies emitted stderr bytes=%s digest=%s", len(stderr),
-                            hashlib.sha256(stderr).hexdigest())
+            diagnostic = stderr[:4096].decode("utf-8", errors="replace")
+            diagnostic = re.sub(r"\x1b\[[0-?]*[ -/]*[@-~]", "", diagnostic)
+            diagnostic = re.sub(r"https?://[^\s/@]+:[^\s/@]+@", "https://[REDACTED]@", diagnostic)
+            diagnostic = re.sub(r"/(?:home|Users)/[^\s]+", "[HOST_PATH]", diagnostic)
+            diagnostic = re.sub(r"(?:gh[pousr]_[A-Za-z0-9_]+|github_pat_[A-Za-z0-9_]+)", "[REDACTED]", diagnostic)
+            diagnostic = re.sub(r"(?i)(authorization|api[_-]?key|token|password)\s*[:=]\s*\S+", r"\1=[REDACTED]", diagnostic)
+            logging.warning("Isolated startup stderr bytes=%s digest=%s diagnostic=%s", len(stderr),
+                            hashlib.sha256(stderr).hexdigest(), diagnostic.replace("\n", "\\n"))
         assert code == 0, "Native probe failed; inspect phase in result.json"
-        expected = ["isolation-passed", "pi-sdk-start", "pi-sdk-passed", "gemini-core-start",
+        expected = ["isolation-start", "isolation-passed", "pi-sdk-start", "pi-sdk-passed", "gemini-core-start",
                     "gemini-core-passed", "success"]
         assert [record["stage"] for record in records] == expected
         assert records[-1]["modelInvocation"] is False and records[-1]["fullCliCoverage"] is False

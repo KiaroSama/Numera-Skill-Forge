@@ -284,6 +284,11 @@ class AX:
                     logging.info("Verified stage=%s", description)
                     return result
             time.sleep(min(0.1, max(0, until - time.monotonic())))  # Poll actual AX state under deadline.
+        if not not_ready and nodes is not None:
+            summary = [{"role": node["role"], "names": node["names"][:2], "value": node["value"]}
+                       for node in nodes if node["role"] in ("AXTextField", "AXPopUpButton", "AXComboBox", "AXCheckBox", "AXButton")]
+            logging.error("Timed-out owned first-party controls stage=%s controls=%s", description,
+                          json.dumps(summary, ensure_ascii=True)[:12000])
         detail = f" attribute={self.readiness[0]} ax_error={self.readiness[1]}" if not_ready else ""
         raise TimeoutError(f"Original macOS AX state not reached: {description} pid={self.pid}{detail}")
 
