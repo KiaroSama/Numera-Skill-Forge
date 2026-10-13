@@ -324,8 +324,13 @@ fn equivalent_destination_spelling_updates_one_coherent_group() {
         &json!({"name":"numera-skill-forge","owner":{"name":"KiaroSama"},"plugins":[]}),
     )
     .unwrap();
+    let verified =
+        forge_core::service::execute(&w.0, json!({"action":"collection-verify"})).unwrap();
+    assert_eq!(verified["verified"], true);
+    assert_eq!(verified["plugins"], 0);
     let response = forge_core::service::execute(&w.0, json!({"action":"update"})).unwrap();
     assert_eq!(response["status"], "success", "{response}");
+    assert!(!w.0.join(".cursor-plugin/marketplace.json").exists());
     assert_eq!(response["installed"].as_array().unwrap().len(), 1);
     assert_eq!(
         fs::read_dir(w.0.join(".forge-state/history"))

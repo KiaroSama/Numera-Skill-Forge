@@ -23,6 +23,9 @@ once in CI on the pushed SHA, not duplicated locally.
 
 `collection_updates.rs` covers native descriptor/catalog coherence, metadata-only legacy migration,
 no-op identity preservation, edited-wrapper refusal, safe updates and clean reconstruction.
+`shared_updates.rs` verifies that an empty legacy collection remains valid without a new Cursor
+catalog and that equivalent destination spellings still produce one coherent installed update.
+Nonempty fully migrated collections must still refuse a missing native catalog.
 `collection_delivery.rs` parametrizes the verified project/user skill destinations at the shared
 service seam, with preview/no-write, exact original/companion bytes, disable/enable, uninstall/edit
 refusal, rollback, duplicate-name conflict and accepted installed updates. Native-only profiles refuse.

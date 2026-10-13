@@ -516,7 +516,9 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
     for (path, _) in catalog_values(&state) {
         if id.is_none()
             && !root.join(&path).is_file()
-            && (path == MARKETPLACE || state.entries.values().all(|a| !a.delivery.is_empty()))
+            && (path == MARKETPLACE
+                || (!state.entries.is_empty()
+                    && state.entries.values().all(|a| !a.delivery.is_empty())))
         {
             return Err(Error::new(
                 "catalog",
