@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/core-web-vitals",
+  "license": "MIT",
+  "name": "skill-development-core-web-vitals",
+  "version": "1.0.0"
+}

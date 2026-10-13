@@ -65,6 +65,18 @@ pub fn update_installed(root: &Path, selected: &Path, dry: bool) -> Result<Value
         )?;
         candidate.receipt.id = owner.id.clone();
         candidate.receipt.operation = operation.clone();
+        let mut skill_owners = disabled.clone();
+        for prior in &candidates {
+            let prior: &planning::Candidate = prior;
+            let mut receipt = prior.receipt.clone();
+            receipt.files = prior
+                .files
+                .keys()
+                .map(|p| (p.clone(), String::new()))
+                .collect();
+            skill_owners.push(receipt);
+        }
+        planning::check_skill_owners(&candidate.receipt, candidate.files.keys(), &skill_owners)?;
         for (path, (bytes, mode)) in &candidate.files {
             total += bytes.len() as u64;
             if total > storage::MAX_TOTAL {

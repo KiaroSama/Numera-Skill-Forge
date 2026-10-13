@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/gke-basics",
+  "license": "Apache-2.0",
+  "name": "skill-development-gke-basics",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

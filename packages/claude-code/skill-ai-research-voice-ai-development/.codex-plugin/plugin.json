@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/voice-ai-development",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-voice-ai-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

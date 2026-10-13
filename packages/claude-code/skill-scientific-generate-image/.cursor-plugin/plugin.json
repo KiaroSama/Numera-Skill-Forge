@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/generate-image",
+  "license": "MIT",
+  "name": "skill-scientific-generate-image",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/zapier-workflows",
+  "license": "MIT",
+  "name": "skill-development-zapier-workflows",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

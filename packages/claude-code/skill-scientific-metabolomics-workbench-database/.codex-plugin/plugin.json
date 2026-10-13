@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/metabolomics-workbench-database",
+  "license": "MIT",
+  "name": "skill-scientific-metabolomics-workbench-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

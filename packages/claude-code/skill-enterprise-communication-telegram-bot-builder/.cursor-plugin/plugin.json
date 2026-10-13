@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/telegram-bot-builder",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-telegram-bot-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -10,7 +10,8 @@ blocked = {".ai", ".specify", "specs", ".claude", ".codex", ".ignoreme", "graphi
 binary = {".png", ".ico", ".icns", ".jpg", ".zip"}
 for name in filter(None, paths):
     path = Path(name)
-    if path.parts[0] in blocked or path.name in {"secrets.md", "explain-AI.md"}:
+    if (path.parts[0] in blocked or path.name in {"secrets.md", "explain-AI.md"}
+            or path.parts[0] == ".agents"):
         raise SystemExit("Protected content was included in tracked output")
     # Exact upstream payloads are byte-verified separately, including fonts/media and legacy text.
     if path.parts[0] == "packages":

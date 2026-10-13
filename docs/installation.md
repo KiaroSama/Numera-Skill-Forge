@@ -66,6 +66,14 @@ Configure credentials through an approved local/deployment secret manager; never
 examples, shell history, public registration or support bundles. Private service connectivity still
 requires an authorized endpoint and runtime verification; input validation is not an end-to-end claim.
 
+## Host-specific setup
+
+[Native catalogs and standalone skill installation](host-setup.md) covers every documented skill host,
+including Antigravity desktop, OpenCode v1/v2 and Hermes. Accepted collection IDs are available through
+catalog/inspect/build/compatibility and scoped installs using their shared original payload, without
+registering duplicate generic packages. Manager-installed native plugins and Forge-owned standalone
+receipts have different update/removal owners; the guide keeps them separate.
+
 ## Safe lifecycle
 
 Run install with `--dry-run` first. Files already present without an unchanged ownership receipt

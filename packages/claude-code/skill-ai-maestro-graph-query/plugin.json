@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-maestro/graph-query",
+  "license": "MIT",
+  "name": "skill-ai-maestro-graph-query",
+  "version": "1.0.0"
+}

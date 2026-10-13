@@ -19,6 +19,17 @@ Commands/job timeouts and two-worker ceilings bound CI. Local light tests use th
 runner with wall/idle bounds, fresh fingerprints and process-tree cleanup. Full final checks run
 once in CI on the pushed SHA, not duplicated locally.
 
+## Collection delivery contracts
+
+`collection_updates.rs` covers native descriptor/catalog coherence, metadata-only legacy migration,
+no-op identity preservation, edited-wrapper refusal, safe updates and clean reconstruction.
+`collection_delivery.rs` parametrizes the verified project/user skill destinations at the shared
+service seam, with preview/no-write, exact original/companion bytes, disable/enable, uninstall/edit
+refusal, rollback, duplicate-name conflict and accepted installed updates. Native-only profiles refuse.
+`verify-collections.py` independently verifies all original bytes/modes plus native descriptor/catalog
+membership; it never executes a collected companion. These checks do not certify every original host
+runtime or third-party skill tool. See [setup and evidence limits](host-setup.md).
+
 ## Evidence status
 
 Initial path test assertion passed, but its guarded run reported a transient child survivor; exact

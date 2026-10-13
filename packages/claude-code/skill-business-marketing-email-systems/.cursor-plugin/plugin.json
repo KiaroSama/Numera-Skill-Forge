@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/email-systems",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-email-systems",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

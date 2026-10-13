@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/omero-integration",
+  "license": "MIT",
+  "name": "skill-scientific-omero-integration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

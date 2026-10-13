@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-expression-syntax",
+  "license": "MIT",
+  "name": "skill-workflow-automation-n8n-n8n-expression-syntax",
+  "version": "1.0.0"
+}

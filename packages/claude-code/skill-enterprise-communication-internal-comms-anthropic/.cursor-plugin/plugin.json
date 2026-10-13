@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/internal-comms-anthropic",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-internal-comms-anthropic",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

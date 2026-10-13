@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/feedback-mastery",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-feedback-mastery",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

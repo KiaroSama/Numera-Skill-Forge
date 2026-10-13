@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/pymc",
+  "license": "MIT",
+  "name": "skill-scientific-pymc",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

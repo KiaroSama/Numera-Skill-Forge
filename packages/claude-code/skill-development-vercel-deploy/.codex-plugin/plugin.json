@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/vercel-deploy",
+  "license": "MIT",
+  "name": "skill-development-vercel-deploy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

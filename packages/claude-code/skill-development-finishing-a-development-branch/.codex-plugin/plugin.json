@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/finishing-a-development-branch",
+  "license": "MIT",
+  "name": "skill-development-finishing-a-development-branch",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

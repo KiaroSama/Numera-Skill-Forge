@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/web-security-testing",
+  "license": "MIT",
+  "name": "skill-security-web-security-testing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

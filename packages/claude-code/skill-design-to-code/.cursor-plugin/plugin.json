@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/design-to-code",
+  "license": "Apache-2.0",
+  "name": "skill-design-to-code",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

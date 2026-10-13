@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/chembl-database",
+  "license": "MIT",
+  "name": "skill-scientific-chembl-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

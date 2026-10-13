@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/arboreto",
+  "license": "MIT",
+  "name": "skill-scientific-arboreto",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

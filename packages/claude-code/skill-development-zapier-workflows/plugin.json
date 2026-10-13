@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/zapier-workflows",
+  "license": "MIT",
+  "name": "skill-development-zapier-workflows",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/inngest",
+  "license": "Apache-2.0",
+  "name": "skill-workflow-automation-inngest",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/gcp-cloud-run",
+  "license": "Apache-2.0",
+  "name": "skill-development-gcp-cloud-run",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

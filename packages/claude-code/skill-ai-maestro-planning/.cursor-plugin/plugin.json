@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-maestro/planning",
+  "license": "MIT",
+  "name": "skill-ai-maestro-planning",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

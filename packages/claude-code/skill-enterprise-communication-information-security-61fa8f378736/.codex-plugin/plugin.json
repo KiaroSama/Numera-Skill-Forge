@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-information-security-61fa8f378736",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

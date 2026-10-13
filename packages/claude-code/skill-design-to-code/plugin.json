@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/design-to-code",
+  "license": "Apache-2.0",
+  "name": "skill-design-to-code",
+  "version": "1.0.0"
+}

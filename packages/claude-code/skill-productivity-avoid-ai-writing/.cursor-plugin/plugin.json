@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/avoid-ai-writing",
+  "license": "MIT",
+  "name": "skill-productivity-avoid-ai-writing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

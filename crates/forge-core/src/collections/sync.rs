@@ -58,39 +58,63 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
             crate::jobs::checkpoint()?;
             crate::jobs::progress("collection", &skill.id, None, "running")?;
             let key = format!("{}/{}", collection.id, skill.id);
-            let prior = state.entries.get(&key).cloned();
+            let mut prior = state.entries.get(&key).cloned();
             let outcome = (|| -> Result<&'static str> {
-                if let Some(prior) = &prior
-                    && apply
-                    && !root.join("packages/claude-code").join(&prior.id).exists()
+                if apply
+                    && prior.as_ref().is_some_and(|a| a.delivery.is_empty())
+                    && root.join("packages/claude-code").join(&skill.id).exists()
                 {
-                    repository.ensure_revision(&prior.revision, offline)?;
-                    let old_selected = selection(&repository.tree(&prior.revision)?, skill)?;
+                    delivery::prepare(root, &mut state, &skill.id)?;
+                    prior = state.entries.get(&key).cloned();
+                }
+                if let Some(previous) = &prior
+                    && apply
+                    && !root
+                        .join("packages/claude-code")
+                        .join(&previous.id)
+                        .exists()
+                {
+                    let previous = previous.clone();
+                    repository.ensure_revision(&previous.revision, offline)?;
+                    let old_selected = selection(&repository.tree(&previous.revision)?, skill)?;
                     let old_payload = repository.blobs(&old_selected)?;
                     policy::verify_license(root, skill, &old_payload)?;
                     let old_files = files(skill, &old_selected, &old_payload)?;
-                    if old_files != prior.files {
+                    if old_files != previous.files {
                         return Err(Error::new(
                             "integrity",
                             "Accepted snapshot differs during reconstruction",
                         ));
                     }
-                    let (rebuilt, outputs) = package(
+                    let (mut rebuilt, mut outputs) = package(
                         root,
                         collection,
                         skill,
-                        &prior.revision,
-                        prior.version.clone(),
+                        &previous.revision,
+                        previous.version.clone(),
                         old_files,
                         &old_payload,
                     )?;
-                    if rebuilt.generated != prior.generated {
+                    if rebuilt.generated != previous.generated {
                         return Err(Error::new(
                             "integrity",
                             "Accepted plugin differs during reconstruction",
                         ));
                     }
-                    promote(root, &rebuilt, Some(prior), outputs, &state)?;
+                    let metadata = delivery::descriptors(&rebuilt)?;
+                    rebuilt.delivery = metadata
+                        .iter()
+                        .map(|(p, b)| (p.clone(), storage::digest(b)))
+                        .collect();
+                    outputs.extend(metadata);
+                    let mut restored = Lock {
+                        schema_version: 1,
+                        entries: state.entries.clone(),
+                    };
+                    restored.entries.insert(key.clone(), rebuilt.clone());
+                    promote(root, &rebuilt, Some(&previous), outputs, &restored)?;
+                    state = restored;
+                    prior = Some(rebuilt);
                 }
                 let initial_tree;
                 let accepted_revision = if prior.is_none() {
@@ -111,7 +135,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 let candidate_files = files(skill, &selected, &candidate)?;
                 let digest = storage::digest(&storage::encoded(&candidate_files)?);
                 if let Some(prior) = &prior {
-                    check_owned(root, prior)?;
+                    check_owned(root, state.entries.get(&key).unwrap_or(prior))?;
                     if !skill.notices.is_empty() {
                         for (index, notice) in skill.notices.iter().enumerate() {
                             let path = format!(
@@ -157,7 +181,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 } else {
                     "1.0.0".into()
                 };
-                let (accepted, outputs) = package(
+                let (mut accepted, mut outputs) = package(
                     root,
                     collection,
                     skill,
@@ -166,6 +190,12 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     candidate_files,
                     &candidate,
                 )?;
+                let metadata = delivery::descriptors(&accepted)?;
+                accepted.delivery = metadata
+                    .iter()
+                    .map(|(p, b)| (p.clone(), storage::digest(b)))
+                    .collect();
+                outputs.extend(metadata);
                 let mut next = Lock {
                     schema_version: 1,
                     entries: state.entries.clone(),

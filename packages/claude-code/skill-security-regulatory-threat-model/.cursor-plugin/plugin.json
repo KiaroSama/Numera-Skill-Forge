@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/regulatory-threat-model",
+  "license": "CC-BY-4.0",
+  "name": "skill-security-regulatory-threat-model",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

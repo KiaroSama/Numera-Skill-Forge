@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/biomni",
+  "license": "MIT",
+  "name": "skill-scientific-biomni",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

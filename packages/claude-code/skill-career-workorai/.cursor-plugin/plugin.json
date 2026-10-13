@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/workorai",
+  "license": "MIT",
+  "name": "skill-career-workorai",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/systematic-debugging",
+  "license": "MIT",
+  "name": "skill-development-systematic-debugging",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

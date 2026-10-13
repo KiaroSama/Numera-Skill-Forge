@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/shopify-apps",
+  "license": "Apache-2.0",
+  "name": "skill-web-development-shopify-apps",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

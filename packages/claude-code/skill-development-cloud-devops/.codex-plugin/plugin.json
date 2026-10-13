@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/cloud-devops",
+  "license": "MIT",
+  "name": "skill-development-cloud-devops",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

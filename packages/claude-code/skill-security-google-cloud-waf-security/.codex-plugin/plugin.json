@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/google-cloud-waf-security",
+  "license": "Apache-2.0",
+  "name": "skill-security-google-cloud-waf-security",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

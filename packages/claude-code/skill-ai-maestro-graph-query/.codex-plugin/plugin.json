@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-maestro/graph-query",
+  "license": "MIT",
+  "name": "skill-ai-maestro-graph-query",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

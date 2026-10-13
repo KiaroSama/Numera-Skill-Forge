@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/react-dev",
+  "license": "MIT",
+  "name": "skill-development-react-dev",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

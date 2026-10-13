@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/graphql",
+  "license": "Apache-2.0",
+  "name": "skill-development-graphql",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

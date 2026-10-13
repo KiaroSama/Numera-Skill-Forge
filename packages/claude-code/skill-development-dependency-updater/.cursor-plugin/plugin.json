@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/dependency-updater",
+  "license": "MIT",
+  "name": "skill-development-dependency-updater",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

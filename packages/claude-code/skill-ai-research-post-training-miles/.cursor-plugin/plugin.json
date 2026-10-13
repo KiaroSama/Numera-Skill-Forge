@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/post-training-miles",
+  "license": "MIT",
+  "name": "skill-ai-research-post-training-miles",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

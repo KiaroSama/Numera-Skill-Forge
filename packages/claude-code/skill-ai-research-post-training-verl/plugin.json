@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/post-training-verl",
+  "license": "MIT",
+  "name": "skill-ai-research-post-training-verl",
+  "version": "1.0.0"
+}

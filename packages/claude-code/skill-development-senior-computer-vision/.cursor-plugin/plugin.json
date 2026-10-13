@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/senior-computer-vision",
+  "license": "MIT",
+  "name": "skill-development-senior-computer-vision",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

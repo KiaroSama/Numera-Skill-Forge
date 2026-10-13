@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/pdb-database",
+  "license": "MIT",
+  "name": "skill-scientific-pdb-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

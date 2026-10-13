@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/mlops-mlflow",
+  "license": "MIT",
+  "name": "skill-ai-research-mlops-mlflow",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-code-python",
+  "license": "MIT",
+  "name": "skill-workflow-automation-n8n-n8n-code-python",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

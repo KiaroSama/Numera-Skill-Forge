@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/scvi-tools",
+  "license": "MIT",
+  "name": "skill-scientific-scvi-tools",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

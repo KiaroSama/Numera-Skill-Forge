@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/using-superpowers",
+  "license": "MIT",
+  "name": "skill-development-using-superpowers",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

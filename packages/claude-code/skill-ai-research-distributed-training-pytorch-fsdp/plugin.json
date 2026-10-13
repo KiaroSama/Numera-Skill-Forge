@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp",
+  "license": "MIT",
+  "name": "skill-ai-research-distributed-training-pytorch-fsdp",
+  "version": "1.0.0"
+}

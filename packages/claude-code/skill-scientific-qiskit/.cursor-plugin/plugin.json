@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/qiskit",
+  "license": "MIT",
+  "name": "skill-scientific-qiskit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/qa-test-planner",
+  "license": "MIT",
+  "name": "skill-ai-research-qa-test-planner",
+  "version": "1.0.0"
+}

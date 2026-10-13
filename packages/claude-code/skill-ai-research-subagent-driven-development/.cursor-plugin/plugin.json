@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/subagent-driven-development",
+  "license": "MIT",
+  "name": "skill-ai-research-subagent-driven-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

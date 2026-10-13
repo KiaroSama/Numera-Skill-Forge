@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/salesforce-development",
+  "license": "Apache-2.0",
+  "name": "skill-development-salesforce-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

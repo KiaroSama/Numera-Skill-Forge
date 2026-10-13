@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/bioservices",
+  "license": "MIT",
+  "name": "skill-scientific-bioservices",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

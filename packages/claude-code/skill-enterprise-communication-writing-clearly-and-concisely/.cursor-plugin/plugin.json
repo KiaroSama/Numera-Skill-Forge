@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/writing-clearly-and-concisely",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-writing-clearly-and-concisely",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/utilities/browser-automation",
+  "license": "Apache-2.0",
+  "name": "skill-utilities-browser-automation",
+  "version": "1.0.0"
+}

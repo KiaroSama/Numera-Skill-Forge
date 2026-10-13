@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/railway/templates",
+  "license": "MIT",
+  "name": "skill-railway-templates",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

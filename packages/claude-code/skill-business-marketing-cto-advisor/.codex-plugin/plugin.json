@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/cto-advisor",
+  "license": "MIT",
+  "name": "skill-business-marketing-cto-advisor",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

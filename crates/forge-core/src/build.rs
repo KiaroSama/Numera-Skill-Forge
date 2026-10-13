@@ -24,6 +24,9 @@ pub fn build(workspace: &Path, id: &str, target: &str) -> Result<Value> {
     validation::identifier(id)?;
     validation::identifier(target)?;
     let r = registry::load(workspace)?;
+    if crate::collection_skills::find(workspace, id)?.is_some() {
+        return crate::collections::build(workspace, id, target);
+    }
     let package = r
         .packages
         .iter()

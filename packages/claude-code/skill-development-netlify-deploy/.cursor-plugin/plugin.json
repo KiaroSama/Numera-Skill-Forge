@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/netlify-deploy",
+  "license": "Apache-2.0",
+  "name": "skill-development-netlify-deploy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

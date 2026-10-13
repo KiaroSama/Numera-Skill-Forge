@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/datacommons-client",
+  "license": "MIT",
+  "name": "skill-scientific-datacommons-client",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

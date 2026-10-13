@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/tokenization-huggingface-tokenizers",
+  "license": "MIT",
+  "name": "skill-ai-research-tokenization-huggingface-tokenizers",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/zinc-database",
+  "license": "MIT",
+  "name": "skill-scientific-zinc-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

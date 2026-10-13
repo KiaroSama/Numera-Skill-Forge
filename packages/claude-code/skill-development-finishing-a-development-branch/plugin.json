@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/finishing-a-development-branch",
+  "license": "MIT",
+  "name": "skill-development-finishing-a-development-branch",
+  "version": "1.0.0"
+}

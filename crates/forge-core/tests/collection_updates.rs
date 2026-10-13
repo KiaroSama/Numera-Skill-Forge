@@ -187,6 +187,158 @@ fn separate_origins_keep_failed_content_while_healthy_collection_updates() {
     );
 }
 
+#[test]
+fn native_delivery_preserves_original_acceptance_and_refuses_edited_metadata() {
+    let f = Fixture::new();
+    f.sync();
+    let package = f.root.join("packages/claude-code/fixture-demo");
+    let original = fs::read(package.join("skills/demo/SKILL.md")).unwrap();
+    for descriptor in [
+        ".codex-plugin/plugin.json",
+        ".cursor-plugin/plugin.json",
+        "plugin.json",
+    ] {
+        let manifest: Value = storage::read(&package.join(descriptor)).unwrap();
+        assert_eq!(manifest["name"], "fixture-demo");
+        assert_eq!(manifest["version"], "1.0.0");
+    }
+    for path in [
+        ".claude-plugin/marketplace.json",
+        ".cursor-plugin/marketplace.json",
+    ] {
+        let market: Value = storage::read(&f.root.join(path)).unwrap();
+        assert_eq!(market["plugins"][0]["name"], "fixture-demo");
+    }
+    let accepted = fs::read(f.root.join("catalogs/collections.lock.json")).unwrap();
+    assert_eq!(f.sync()["skills"][0]["status"], "unchanged");
+    assert_eq!(
+        fs::read(f.root.join("catalogs/collections.lock.json")).unwrap(),
+        accepted
+    );
+    assert_eq!(
+        fs::read(package.join("skills/demo/SKILL.md")).unwrap(),
+        original
+    );
+    fs::write(package.join(".cursor-plugin/plugin.json"), b"user edit").unwrap();
+    assert_eq!(f.sync()["skills"][0]["code"], "generated-conflict");
+    assert_eq!(
+        fs::read(package.join(".cursor-plugin/plugin.json")).unwrap(),
+        b"user edit"
+    );
+}
+
+#[test]
+fn legacy_metadata_migration_is_offline_and_does_not_revise_original_identity() {
+    let f = Fixture::new();
+    f.sync();
+    let path = f.root.join("catalogs/collections.lock.json");
+    let mut lock: Value = storage::read(&path).unwrap();
+    let entry = &mut lock["entries"]["fixture/fixture-demo"];
+    let delivery = entry.as_object_mut().unwrap().remove("delivery").unwrap();
+    for path in delivery.as_object().unwrap().keys() {
+        fs::remove_file(f.root.join(path)).unwrap();
+    }
+    storage::write(&path, &lock).unwrap();
+    let legacy = lock["entries"]["fixture/fixture-demo"].clone();
+    service::execute(
+        &f.root,
+        json!({"action":"build","package":"fixture-demo","target":"hermes"}),
+    )
+    .unwrap();
+    let migrated: Value = storage::read(&path).unwrap();
+    let mut original = migrated["entries"]["fixture/fixture-demo"].clone();
+    assert_eq!(
+        original
+            .as_object_mut()
+            .unwrap()
+            .remove("delivery")
+            .unwrap()
+            .as_object()
+            .unwrap()
+            .len(),
+        3
+    );
+    assert_eq!(original, legacy);
+    let bytes = fs::read(&path).unwrap();
+    service::execute(
+        &f.root,
+        json!({"action":"build","package":"fixture-demo","target":"hermes"}),
+    )
+    .unwrap();
+    assert_eq!(fs::read(&path).unwrap(), bytes);
+    fs::remove_file(f.root.join(".cursor-plugin/marketplace.json")).unwrap();
+    assert_eq!(
+        service::execute(&f.root, json!({"action":"collection-verify"}))
+            .unwrap_err()
+            .code,
+        "catalog"
+    );
+    service::execute(
+        &f.root,
+        json!({"action":"build","package":"fixture-demo","target":"codex"}),
+    )
+    .unwrap();
+    assert!(f.root.join(".cursor-plugin/marketplace.json").is_file());
+}
+
+#[test]
+fn stale_legacy_approval_refuses_metadata_writes_and_other_packages_stay_visible() {
+    let f = Fixture::new();
+    f.sync();
+    let path = f.root.join("catalogs/collections.lock.json");
+    let mut lock: Value = storage::read(&path).unwrap();
+    let delivery = lock["entries"]["fixture/fixture-demo"]
+        .as_object_mut()
+        .unwrap()
+        .remove("delivery")
+        .unwrap();
+    for path in delivery.as_object().unwrap().keys() {
+        fs::remove_file(f.root.join(path)).unwrap();
+    }
+    storage::write(&path, &lock).unwrap();
+    let registry_path = f.root.join("registry/collections.json");
+    let mut registry: Value = storage::read(&registry_path).unwrap();
+    registry["collections"][0]["skills"][0]["license"] = json!("Apache-2.0");
+    storage::write(&registry_path, &registry).unwrap();
+    let before = fs::read(&path).unwrap();
+    assert_eq!(
+        service::execute(
+            &f.root,
+            json!({"action":"build","package":"fixture-demo","target":"codex"})
+        )
+        .unwrap_err()
+        .code,
+        "approval-stale"
+    );
+    assert_eq!(fs::read(path).unwrap(), before);
+    assert!(
+        !f.root
+            .join("packages/claude-code/fixture-demo/plugin.json")
+            .exists()
+    );
+    fs::write(
+        f.root
+            .join("packages/claude-code/fixture-demo/skills/demo/SKILL.md"),
+        b"user edit",
+    )
+    .unwrap();
+    let catalog = service::execute(&f.root, json!({"action":"catalog"})).unwrap();
+    assert_eq!(catalog[0]["id"], "fixture-demo");
+    assert_eq!(catalog[0]["error"]["code"], "integrity");
+}
+
+#[cfg(unix)]
+#[test]
+fn package_parent_links_cannot_bypass_collection_ownership() {
+    use std::os::unix::fs::symlink;
+    let f = Fixture::new();
+    f.sync();
+    fs::rename(f.root.join("packages"), f.root.join("outside-packages")).unwrap();
+    symlink(f.root.join("outside-packages"), f.root.join("packages")).unwrap();
+    assert!(service::execute(&f.root, json!({"action":"collection-verify"})).is_err());
+    fs::remove_file(f.root.join("packages")).unwrap();
+}
+
 #[cfg(unix)]
 #[test]
 fn interrupted_promotion_stops_before_another_plugin_overwrites_recovery_state() {

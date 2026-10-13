@@ -56,6 +56,9 @@ try {
     & pwsh -NoLogo -NoProfile -NonInteractive -File (Join-Path $fixture 'scripts/publish-collections.ps1') -StageOnly
     if ($LASTEXITCODE -ne 0) { throw 'Exact publication staging failed' }
     $entry = (Get-Content (Join-Path $fixture 'catalogs/collections.lock.json') -Raw -Encoding utf8 | ConvertFrom-Json).entries.'fixture/fixture-demo'
+    foreach ($catalog in @('.claude-plugin/marketplace.json', '.cursor-plugin/marketplace.json')) {
+        if (-not (Git-Fixture @('ls-files','--',$catalog))) { throw 'Native catalog not staged' }
+    }
     foreach ($file in $entry.files) {
         $row = Git-Fixture @('ls-files','--stage','--',$file.output_path)
         if (($row -split ' ')[0] -ne $file.mode) { throw 'Staged executable mode lost' }

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/curviate/curviate-quickstart",
+  "license": "MIT",
+  "name": "skill-curviate-curviate-quickstart",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/hypogenic",
+  "license": "MIT",
+  "name": "skill-scientific-hypogenic",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/security-best-practices",
+  "license": "Apache-2.0",
+  "name": "skill-security-security-best-practices",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: .agents/skills/reverse-engineer-anything",
+  "license": "MIT",
+  "name": "skill-morluto-reverse-engineer-anything",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

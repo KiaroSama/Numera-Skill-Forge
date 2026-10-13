@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/geopandas",
+  "license": "MIT",
+  "name": "skill-scientific-geopandas",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

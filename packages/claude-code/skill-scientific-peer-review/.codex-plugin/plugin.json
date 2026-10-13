@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/peer-review",
+  "license": "MIT",
+  "name": "skill-scientific-peer-review",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

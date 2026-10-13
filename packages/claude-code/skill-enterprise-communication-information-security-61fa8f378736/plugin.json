@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/information-security-manager-iso27001",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-information-security-61fa8f378736",
+  "version": "1.0.0"
+}

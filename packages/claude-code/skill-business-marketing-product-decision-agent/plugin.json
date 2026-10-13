@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/product-decision-agent",
+  "license": "MIT",
+  "name": "skill-business-marketing-product-decision-agent",
+  "version": "1.0.0"
+}

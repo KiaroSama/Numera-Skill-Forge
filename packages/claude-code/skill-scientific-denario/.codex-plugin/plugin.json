@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/denario",
+  "license": "MIT",
+  "name": "skill-scientific-denario",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

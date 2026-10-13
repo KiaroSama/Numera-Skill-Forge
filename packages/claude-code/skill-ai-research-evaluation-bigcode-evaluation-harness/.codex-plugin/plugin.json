@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/evaluation-bigcode-evaluation-harness",
+  "license": "MIT",
+  "name": "skill-ai-research-evaluation-bigcode-evaluation-harness",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/ai-release-hunter",
+  "license": "MIT",
+  "name": "skill-ai-research-ai-release-hunter",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

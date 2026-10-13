@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/plugin-forge",
+  "license": "MIT",
+  "name": "skill-development-plugin-forge",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/pathml",
+  "license": "MIT",
+  "name": "skill-scientific-pathml",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

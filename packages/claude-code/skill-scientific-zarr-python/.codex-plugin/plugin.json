@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/zarr-python",
+  "license": "MIT",
+  "name": "skill-scientific-zarr-python",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

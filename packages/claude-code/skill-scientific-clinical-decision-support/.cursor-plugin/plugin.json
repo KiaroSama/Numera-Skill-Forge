@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/clinical-decision-support",
+  "license": "MIT",
+  "name": "skill-scientific-clinical-decision-support",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/file-uploads",
+  "license": "Apache-2.0",
+  "name": "skill-security-file-uploads",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

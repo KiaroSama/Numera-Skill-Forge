@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/reducing-entropy",
+  "license": "MIT",
+  "name": "skill-productivity-reducing-entropy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/content-creator",
+  "license": "MIT",
+  "name": "skill-business-marketing-content-creator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

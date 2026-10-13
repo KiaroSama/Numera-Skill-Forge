@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-maestro/memory-search",
+  "license": "MIT",
+  "name": "skill-ai-maestro-memory-search",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

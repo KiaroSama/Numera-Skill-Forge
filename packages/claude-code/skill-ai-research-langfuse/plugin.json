@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/langfuse",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-langfuse",
+  "version": "1.0.0"
+}

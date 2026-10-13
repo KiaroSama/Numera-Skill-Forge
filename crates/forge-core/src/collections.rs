@@ -11,8 +11,10 @@ use std::{
     path::Path,
 };
 mod acquire;
-mod model;
+mod delivery;
+pub(crate) mod model;
 mod policy;
+pub use delivery::build;
 mod sync;
 use acquire::{Blob, Repository};
 use model::{Accepted, Collection, File, Lock, Registry, Skill};
@@ -202,25 +204,41 @@ fn package(
             content_digest: digest,
             files,
             generated,
+            delivery: BTreeMap::new(),
         },
         outputs,
     ))
 }
 fn check_owned(root: &Path, accepted: &Accepted) -> Result<()> {
-    let dir = root.join("packages/claude-code").join(&accepted.id);
+    let dir = validation::contained(root, &format!("packages/claude-code/{}", accepted.id))?;
     if !dir.exists() {
         return Ok(());
     }
     let actual = storage::payload_files(&dir)?;
-    if actual.len() != accepted.generated.len() {
+    if actual.len() != accepted.generated.len() + accepted.delivery.len() {
         return Err(Error::new(
             "generated-conflict",
             "Generated plugin file set changed; user data preserved",
         ));
     }
-    for (path, digest) in &accepted.generated {
-        let file = validation::contained(root, path)?;
-        if !file.exists() || storage::digest(&storage::bytes(&file)?) != *digest {
+    for (path, digest) in accepted.generated.iter().chain(&accepted.delivery) {
+        if !path.starts_with(&format!("packages/claude-code/{}/", accepted.id))
+            || accepted.generated.contains_key(path) && accepted.delivery.contains_key(path)
+        {
+            return Err(Error::new(
+                "integrity",
+                "Ownership path escapes its collection package",
+            ));
+        }
+        let relative = path
+            .strip_prefix(&format!("packages/claude-code/{}/", accepted.id))
+            .ok_or_else(|| Error::new("integrity", "Invalid collection ownership path"))?;
+        let file = actual
+            .iter()
+            .find(|(p, _)| p == relative)
+            .map(|(_, physical)| physical)
+            .ok_or_else(|| Error::new("generated-conflict", "Owned package file is missing"))?;
+        if storage::digest(&storage::bytes(file)?) != *digest {
             return Err(Error::new(
                 "generated-conflict",
                 "Generated plugin differs from accepted bytes; user data preserved",
@@ -311,9 +329,9 @@ fn promote(
 }
 pub use sync::execute as sync;
 
-fn catalog_values(state: &Lock) -> [(String, Value); 2] {
+fn catalog_values(state: &Lock) -> Vec<(String, Value)> {
     let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":format!("Original upstream skill: {}",a.root)})).collect::<Vec<_>>();
-    [
+    vec![
         (
             MARKETPLACE.into(),
             json!({"name":"numera-skill-forge","owner":{"name":"KiaroSama"},"plugins":plugins}),
@@ -322,7 +340,7 @@ fn catalog_values(state: &Lock) -> [(String, Value); 2] {
             "catalogs/collections.json".into(),
             json!({"schema_version":1,"plugins":state.entries.values().map(|a|json!({"id":a.id,"source":a.collection,"root":a.root,"revision":a.revision,"version":a.version,"license":a.license})).collect::<Vec<_>>()}),
         ),
-    ]
+    ].into_iter().chain(delivery::catalogs(state)).collect()
 }
 fn check_catalog(root: &Path, state: &Lock) -> Result<()> {
     for (path, value) in catalog_values(state) {
@@ -360,9 +378,20 @@ fn catalog(root: &Path, state: &Lock) -> Result<()> {
     Ok(())
 }
 pub fn verify(root: &Path) -> Result<Value> {
+    verify_selected(root, None)
+}
+
+pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
     let registry = load(root)?;
     let state = lock(root)?;
-    for accepted in state.entries.values() {
+    if id.is_some_and(|id| !state.entries.values().any(|a| a.id == id)) {
+        return Err(Error::new("package", "Unknown accepted collection package"));
+    }
+    for accepted in state
+        .entries
+        .values()
+        .filter(|a| id.is_none_or(|id| a.id == id))
+    {
         validation::identifier(&accepted.id)?;
         if !root
             .join("packages/claude-code")
@@ -372,6 +401,18 @@ pub fn verify(root: &Path) -> Result<Value> {
             return Err(Error::new("integrity", "Accepted plugin is missing"));
         }
         check_owned(root, accepted)?;
+        if !accepted.delivery.is_empty() {
+            let expected = delivery::descriptors(accepted)?
+                .iter()
+                .map(|(p, b)| (p.clone(), storage::digest(b)))
+                .collect::<BTreeMap<_, _>>();
+            if accepted.delivery != expected {
+                return Err(Error::new(
+                    "integrity",
+                    "Native delivery metadata differs from contract",
+                ));
+            }
+        }
         let collection = registry
             .collections
             .iter()
@@ -472,6 +513,17 @@ pub fn verify(root: &Path) -> Result<Value> {
         }
     }
     check_catalog(root, &state)?;
+    for (path, _) in catalog_values(&state) {
+        if id.is_none()
+            && !root.join(&path).is_file()
+            && (path == MARKETPLACE || state.entries.values().all(|a| !a.delivery.is_empty()))
+        {
+            return Err(Error::new(
+                "catalog",
+                "Generated native catalog is missing; rebuild accepted delivery metadata",
+            ));
+        }
+    }
     let catalog: Value = storage::read(&root.join(MARKETPLACE))?;
     if catalog["plugins"].as_array().map(Vec::len) != Some(state.entries.len()) {
         return Err(Error::new(
@@ -479,5 +531,29 @@ pub fn verify(root: &Path) -> Result<Value> {
             "Marketplace differs from accepted plugin count",
         ));
     }
-    Ok(json!({"verified":true,"plugins":state.entries.len(),"execution":"not-performed"}))
+    let mut metadata_limits = vec![];
+    if id.is_none() {
+        for accepted in state.entries.values() {
+            let (name, description) = crate::collection_skills::metadata(root, accepted)?;
+            for target in [
+                "codex",
+                "opencode-v1",
+                "copilot",
+                "vscode",
+                "cline",
+                "kilo",
+                "kiro",
+            ] {
+                if let Err(error) =
+                    crate::collection_skills::assess_metadata(accepted, target, &name, &description)
+                {
+                    metadata_limits.push(json!({"package":accepted.id,"target":target,"code":error.code,"message":error.message}));
+                }
+            }
+        }
+    }
+    Ok(
+        json!({"verified":true,"plugins":state.entries.len(),"execution":"not-performed",
+        "metadata_limits":metadata_limits,"host_runtime":"not-verified"}),
+    )
 }

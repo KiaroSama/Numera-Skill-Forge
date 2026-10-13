@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/gene-database",
+  "license": "MIT",
+  "name": "skill-scientific-gene-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

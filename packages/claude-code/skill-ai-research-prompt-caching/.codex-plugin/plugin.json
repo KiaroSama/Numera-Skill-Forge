@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/prompt-caching",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-prompt-caching",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/marketing-strategy-pmm",
+  "license": "MIT",
+  "name": "skill-business-marketing-marketing-strategy-pmm",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/google-cloud-networking-observability",
+  "license": "Apache-2.0",
+  "name": "skill-development-google-cloud-networking-observability",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

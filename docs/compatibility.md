@@ -20,6 +20,15 @@ Codex stable portable loader hook/app limits, Cursor path variables, Antigravity
 OpenCode incompatible versions and managed-install restrictions are retained in capability records.
 A syntactically valid JSON manifest is not proof that a host discovered or loaded it.
 
+Accepted collection skills now share one verified original payload across standalone targets rather
+than requiring a nonexistent target-specific build. Native Claude/Codex/Cursor catalogs reference
+independent packages; portable descriptors serve documented local Agent Plugins imports. See
+[host setup](host-setup.md). Hermes project installs use `.hermes/skills`, VS Code user installs use
+`.copilot/skills`, and OpenHands/OpenClaw standalone routes are distinct from native runtime imports.
+Every original skill is selectable subject to native metadata limits and unchanged ownership.
+Different same-name collection packages cannot share a flat standalone destination; Forge refuses
+rather than silently shadowing one. Catalog/path fixtures are not all487 original-host invocation proof.
+
 `scripts/verify-host-discovery.py` provides a bounded probe of already-installed Claude plugin
 validation and Gemini extension/skill metadata discovery using separate harmless first-party profiles.
 Positive and invalid/duplicate-name cases are distinct assertions. Claude's clean skill results are

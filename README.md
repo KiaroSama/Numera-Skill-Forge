@@ -89,6 +89,15 @@ runtime/tool prerequisites remain separate. The two repository-specific REA main
 not included. Both selected collections use the same check/apply, accepted-revision and review-only
 update rules below; an upstream change requiring review retains the accepted version.
 
+## Other hosts: native catalogs and standalone skills
+
+The same original collection packages can be selected for Codex, Cursor, Antigravity desktop,
+OpenCode v1/v2, Hermes and the remaining documented skill hosts. Root native catalogs retain
+independent package identities; standalone delivery uses Forge's scoped ownership/lifecycle engine.
+Read the **[host-by-host installation and setup guide](docs/host-setup.md)** for exact paths,
+commands, trust/restart steps, updates/removal and duplicate-name/runtime limitations.
+No original skill is renamed, and native runtime-only profiles are not replaced by skill copies.
+
 ## Daily and local updates
 
 [Collection synchronization](docs/upstream-sync.md) runs daily at **03:37 UTC** and can be started

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/inference-serving-tensorrt-llm",
+  "license": "MIT",
+  "name": "skill-ai-research-inference-serving-tensorrt-llm",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

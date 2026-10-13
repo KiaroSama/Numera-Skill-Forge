@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/scientific-brainstorming",
+  "license": "MIT",
+  "name": "skill-scientific-scientific-brainstorming",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

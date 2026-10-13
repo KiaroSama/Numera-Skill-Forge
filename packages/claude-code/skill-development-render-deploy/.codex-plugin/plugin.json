@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/render-deploy",
+  "license": "Apache-2.0",
+  "name": "skill-development-render-deploy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

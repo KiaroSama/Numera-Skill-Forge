@@ -54,6 +54,8 @@ pub struct Accepted {
     pub content_digest: String,
     pub files: Vec<File>,
     pub generated: BTreeMap<String, String>,
+    #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
+    pub delivery: BTreeMap<String, String>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct Lock {

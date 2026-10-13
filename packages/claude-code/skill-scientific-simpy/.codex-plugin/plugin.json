@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/simpy",
+  "license": "MIT",
+  "name": "skill-scientific-simpy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

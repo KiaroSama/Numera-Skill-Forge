@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/inference-serving-sglang",
+  "license": "MIT",
+  "name": "skill-ai-research-inference-serving-sglang",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/command-creator",
+  "license": "MIT",
+  "name": "skill-development-command-creator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

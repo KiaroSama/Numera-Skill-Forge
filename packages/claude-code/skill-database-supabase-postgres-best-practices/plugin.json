@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/database/supabase-postgres-best-practices",
+  "license": "MIT",
+  "name": "skill-database-supabase-postgres-best-practices",
+  "version": "1.0.0"
+}

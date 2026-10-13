@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/discord-bot-architect",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-discord-bot-architect",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

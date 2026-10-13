@@ -21,10 +21,12 @@ for key, entry in entries.items():
     skill = registered[key]
     assert entry["root"] == skill["root"] and entry["license"] == skill["license"]
     prefix = f"packages/claude-code/{entry['id']}/"
-    expected = set(entry["generated"])
+    owned = entry["generated"] | entry.get("delivery", {})
+    assert not set(entry["generated"]) & set(entry.get("delivery", {})), "Ownership overlap"
+    expected = set(owned)
     actual = {str(path.relative_to(root)).replace("\\", "/") for path in (root / prefix).rglob("*") if path.is_file()}
     assert actual == expected, f"Unexpected plugin files: {entry['id']}"
-    for name, digest in entry["generated"].items():
+    for name, digest in owned.items():
         assert name.startswith(prefix) and ".." not in Path(name).parts
         assert not (root / name).is_symlink()
         assert hashlib.sha256((root / name).read_bytes()).hexdigest() == digest, name
@@ -53,4 +55,19 @@ for key, entry in entries.items():
     assert not any(field in manifest for field in ("hooks", "mcpServers", "lspServers", "workflows")), "Unapproved native runtime declaration"
     catalog_entry = next(plugin for plugin in market["plugins"] if plugin["name"] == entry["id"])
     assert catalog_entry["source"] == "./" + prefix.rstrip("/")
-print(f"Verified {len(entries)} plugins and {count} exact payload files/modes; upstream code not executed")
+    for descriptor in (".codex-plugin/plugin.json", ".cursor-plugin/plugin.json", "plugin.json"):
+        native = json.loads((root / prefix / descriptor).read_text(encoding="utf-8"))
+        assert native["name"] == entry["id"] and native["version"] == entry["version"]
+        assert native["license"] == entry["license"]
+        assert not any(field in native for field in ("hooks", "mcpServers", "lspServers", "workflows"))
+        if descriptor != "plugin.json":
+            assert native["skills"] == "./skills/"
+        assert prefix + descriptor in entry["delivery"]
+for path in (".claude-plugin/marketplace.json", ".cursor-plugin/marketplace.json"):
+    native = json.loads((root / path).read_text(encoding="utf-8"))
+    assert {p["name"] for p in native["plugins"]} == {e["id"] for e in entries.values()}
+    assert len(native["plugins"]) == len(entries)
+    for plugin in native["plugins"]:
+        expected = f"packages/claude-code/{plugin['name']}"
+        assert plugin["source"] == ("./" + expected if path.startswith(".claude-plugin") else expected)
+print(f"Verified {len(entries)} plugins and {count} exact payload files/modes plus native catalogs; upstream code not executed")

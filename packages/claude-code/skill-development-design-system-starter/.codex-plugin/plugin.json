@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/design-system-starter",
+  "license": "MIT",
+  "name": "skill-development-design-system-starter",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

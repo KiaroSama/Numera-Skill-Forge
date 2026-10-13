@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/slack-gif-creator",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-slack-gif-creator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

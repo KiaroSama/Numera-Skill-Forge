@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/neuropixels-analysis",
+  "license": "MIT",
+  "name": "skill-scientific-neuropixels-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

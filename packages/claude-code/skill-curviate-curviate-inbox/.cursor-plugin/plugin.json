@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/curviate/curviate-inbox",
+  "license": "MIT",
+  "name": "skill-curviate-curviate-inbox",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

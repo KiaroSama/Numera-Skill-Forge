@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/utilities/browser-extension-builder",
+  "license": "Apache-2.0",
+  "name": "skill-utilities-browser-extension-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/data-processing-nemo-curator",
+  "license": "MIT",
+  "name": "skill-ai-research-data-processing-nemo-curator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

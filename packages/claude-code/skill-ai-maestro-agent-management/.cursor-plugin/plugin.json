@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-maestro/agent-management",
+  "license": "MIT",
+  "name": "skill-ai-maestro-agent-management",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

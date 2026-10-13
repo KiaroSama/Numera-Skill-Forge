@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/azure-functions",
+  "license": "Apache-2.0",
+  "name": "skill-development-azure-functions",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

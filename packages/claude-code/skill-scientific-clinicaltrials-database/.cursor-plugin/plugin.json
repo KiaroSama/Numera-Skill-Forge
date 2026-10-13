@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/clinicaltrials-database",
+  "license": "MIT",
+  "name": "skill-scientific-clinicaltrials-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

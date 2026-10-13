@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/optimization-bitsandbytes",
+  "license": "MIT",
+  "name": "skill-ai-research-optimization-bitsandbytes",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/ux-researcher-designer",
+  "license": "MIT",
+  "name": "skill-creative-design-ux-researcher-designer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

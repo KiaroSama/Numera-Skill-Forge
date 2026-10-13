@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning",
+  "license": "MIT",
+  "name": "skill-ai-research-distributed-training-pytorch-lightning",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

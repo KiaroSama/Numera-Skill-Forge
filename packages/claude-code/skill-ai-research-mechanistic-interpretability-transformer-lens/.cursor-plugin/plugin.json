@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens",
+  "license": "MIT",
+  "name": "skill-ai-research-mechanistic-interpretability-transformer-lens",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

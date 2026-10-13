@@ -78,7 +78,10 @@ pub(super) fn object_id(value: &str) -> Result<()> {
 }
 fn owned(path: &str) -> bool {
     path == "forge.lock.json"
-        || path == ".claude-plugin/marketplace.json"
+        || matches!(
+            path,
+            ".claude-plugin/marketplace.json" | ".cursor-plugin/marketplace.json"
+        )
         || ["registry/", "packages/", "catalogs/"]
             .iter()
             .any(|p| path.starts_with(p))
@@ -155,7 +158,11 @@ fn files(root: &Path, git: &Git<'_>) -> Result<BTreeMap<String, Option<Vec<u8>>>
             }
         }
     }
-    for path in ["forge.lock.json", ".claude-plugin/marketplace.json"] {
+    for path in [
+        "forge.lock.json",
+        ".claude-plugin/marketplace.json",
+        ".cursor-plugin/marketplace.json",
+    ] {
         if root.join(path).exists() {
             paths.insert(path.into());
         }

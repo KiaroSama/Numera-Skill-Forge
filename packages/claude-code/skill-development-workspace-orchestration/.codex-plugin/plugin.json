@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/workspace-orchestration",
+  "license": "MIT",
+  "name": "skill-development-workspace-orchestration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

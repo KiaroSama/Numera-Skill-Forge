@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/twilio-communications",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-twilio-communications",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

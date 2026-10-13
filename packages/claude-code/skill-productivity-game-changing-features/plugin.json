@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/game-changing-features",
+  "license": "MIT",
+  "name": "skill-productivity-game-changing-features",
+  "version": "1.0.0"
+}

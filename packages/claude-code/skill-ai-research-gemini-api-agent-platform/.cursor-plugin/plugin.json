@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/gemini-api-agent-platform",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-gemini-api-agent-platform",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

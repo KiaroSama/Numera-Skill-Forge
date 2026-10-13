@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/test-driven-development",
+  "license": "MIT",
+  "name": "skill-development-test-driven-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

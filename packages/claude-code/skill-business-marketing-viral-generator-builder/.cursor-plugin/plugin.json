@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/viral-generator-builder",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-viral-generator-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

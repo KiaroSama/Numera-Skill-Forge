@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/yeet",
+  "license": "Apache-2.0",
+  "name": "skill-workflow-automation-yeet",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

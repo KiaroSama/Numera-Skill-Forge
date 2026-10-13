@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/database/cloud-sql-basics",
+  "license": "Apache-2.0",
+  "name": "skill-database-cloud-sql-basics",
+  "version": "1.0.0"
+}

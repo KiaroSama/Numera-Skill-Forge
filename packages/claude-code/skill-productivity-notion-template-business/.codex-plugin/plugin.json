@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/notion-template-business",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-notion-template-business",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

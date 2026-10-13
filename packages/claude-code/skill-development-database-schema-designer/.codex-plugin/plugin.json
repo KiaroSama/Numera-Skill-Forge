@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/database-schema-designer",
+  "license": "MIT",
+  "name": "skill-development-database-schema-designer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

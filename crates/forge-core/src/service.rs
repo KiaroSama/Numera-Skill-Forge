@@ -106,7 +106,15 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
             field(&request, "digest")?,
             request["allow_executable"].as_bool().unwrap_or(false),
         ),
-        "catalog" => Ok(serde_json::to_value(r.packages)?),
+        "catalog" => {
+            let mut packages = r
+                .packages
+                .iter()
+                .map(serde_json::to_value)
+                .collect::<std::result::Result<Vec<_>, _>>()?;
+            packages.extend(crate::collection_skills::catalog(root)?);
+            Ok(json!(packages))
+        }
         "package-add" => {
             let p: Package = serde_json::from_value(
                 request
@@ -119,6 +127,10 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         }
         "package-inspect" => {
             let id = field(&request, "package")?;
+            if let Some(accepted) = crate::collection_skills::find(root, id)? {
+                crate::collections::verify_selected(root, Some(id))?;
+                return Ok(serde_json::to_value(accepted)?);
+            }
             Ok(serde_json::to_value(
                 r.packages
                     .iter()
@@ -130,6 +142,10 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
         "compatibility" => {
             let id = field(&request, "package")?;
             let target = field(&request, "target")?;
+            if let Some(accepted) = crate::collection_skills::find(root, id)? {
+                crate::collections::verify_selected(root, Some(id))?;
+                return crate::collection_skills::assess(root, &accepted, target);
+            }
             let lock = registry::lock(root)?;
             let closure = crate::build_dependencies::resolve(&r, &lock, id, target)?;
             for (package, accepted) in &closure {

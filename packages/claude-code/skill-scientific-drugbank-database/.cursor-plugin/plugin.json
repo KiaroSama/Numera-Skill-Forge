@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/drugbank-database",
+  "license": "MIT",
+  "name": "skill-scientific-drugbank-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

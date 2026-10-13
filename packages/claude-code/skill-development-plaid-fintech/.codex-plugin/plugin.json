@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/plaid-fintech",
+  "license": "Apache-2.0",
+  "name": "skill-development-plaid-fintech",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

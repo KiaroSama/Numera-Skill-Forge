@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/algorithmic-art",
+  "license": "Apache-2.0",
+  "name": "skill-creative-design-algorithmic-art",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

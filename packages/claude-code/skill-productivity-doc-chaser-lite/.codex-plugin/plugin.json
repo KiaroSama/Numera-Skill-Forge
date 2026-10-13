@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/doc-chaser-lite",
+  "license": "MIT",
+  "name": "skill-productivity-doc-chaser-lite",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

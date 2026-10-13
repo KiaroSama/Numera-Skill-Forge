@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/openapi-to-typescript",
+  "license": "MIT",
+  "name": "skill-development-openapi-to-typescript",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

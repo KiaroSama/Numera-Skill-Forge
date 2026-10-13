@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/get-available-resources",
+  "license": "MIT",
+  "name": "skill-scientific-get-available-resources",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

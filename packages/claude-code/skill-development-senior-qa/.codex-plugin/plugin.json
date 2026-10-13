@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/senior-qa",
+  "license": "MIT",
+  "name": "skill-development-senior-qa",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

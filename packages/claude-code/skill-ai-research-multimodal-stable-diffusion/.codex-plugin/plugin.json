@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/multimodal-stable-diffusion",
+  "license": "MIT",
+  "name": "skill-ai-research-multimodal-stable-diffusion",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

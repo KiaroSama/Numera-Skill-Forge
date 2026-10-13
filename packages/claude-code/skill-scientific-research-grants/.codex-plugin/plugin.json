@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/research-grants",
+  "license": "MIT",
+  "name": "skill-scientific-research-grants",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

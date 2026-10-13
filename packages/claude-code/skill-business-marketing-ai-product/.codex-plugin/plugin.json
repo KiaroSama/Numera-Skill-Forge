@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/ai-product",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-ai-product",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

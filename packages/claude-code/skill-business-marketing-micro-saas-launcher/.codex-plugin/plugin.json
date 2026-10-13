@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/micro-saas-launcher",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-micro-saas-launcher",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

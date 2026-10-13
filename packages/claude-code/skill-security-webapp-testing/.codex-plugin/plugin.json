@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/webapp-testing",
+  "license": "Apache-2.0",
+  "name": "skill-security-webapp-testing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

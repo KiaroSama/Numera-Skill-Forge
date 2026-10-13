@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/clerk-auth",
+  "license": "Apache-2.0",
+  "name": "skill-development-clerk-auth",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

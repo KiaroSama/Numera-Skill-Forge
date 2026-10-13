@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/statistical-analysis",
+  "license": "MIT",
+  "name": "skill-scientific-statistical-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/autonomous-agents",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-autonomous-agents",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/security-threat-model",
+  "license": "Apache-2.0",
+  "name": "skill-security-security-threat-model",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/flowio",
+  "license": "MIT",
+  "name": "skill-scientific-flowio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

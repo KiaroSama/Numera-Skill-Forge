@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/multimodal-llava",
+  "license": "MIT",
+  "name": "skill-ai-research-multimodal-llava",
+  "version": "1.0.0"
+}

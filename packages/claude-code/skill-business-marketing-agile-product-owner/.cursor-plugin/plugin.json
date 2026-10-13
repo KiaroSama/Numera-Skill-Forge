@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/agile-product-owner",
+  "license": "MIT",
+  "name": "skill-business-marketing-agile-product-owner",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

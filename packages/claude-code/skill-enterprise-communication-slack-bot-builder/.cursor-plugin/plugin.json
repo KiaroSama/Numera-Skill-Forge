@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/slack-bot-builder",
+  "license": "Apache-2.0",
+  "name": "skill-enterprise-communication-slack-bot-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

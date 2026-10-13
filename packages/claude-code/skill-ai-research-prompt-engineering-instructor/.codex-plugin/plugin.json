@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/prompt-engineering-instructor",
+  "license": "MIT",
+  "name": "skill-ai-research-prompt-engineering-instructor",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/bullmq-specialist",
+  "license": "Apache-2.0",
+  "name": "skill-development-bullmq-specialist",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

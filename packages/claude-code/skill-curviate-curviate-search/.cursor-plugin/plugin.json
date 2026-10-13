@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/curviate/curviate-search",
+  "license": "MIT",
+  "name": "skill-curviate-curviate-search",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

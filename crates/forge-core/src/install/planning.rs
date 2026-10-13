@@ -19,7 +19,14 @@ pub(super) fn candidate(
     selected: &Path,
     scope: Scope,
 ) -> Result<Candidate> {
-    let package = build::package_root(root, id, target)?;
+    let collection = crate::collection_skills::find(root, id)?;
+    let package = if let Some(accepted) = &collection {
+        crate::collections::verify_selected(root, Some(id))?;
+        crate::collection_skills::assess(root, accepted, target)?;
+        root.join("packages/claude-code").join(id)
+    } else {
+        build::package_root(root, id, target)?
+    };
     if !package.is_dir() {
         return Err(Error::new(
             "build-required",
@@ -72,7 +79,9 @@ pub(super) fn candidate(
     } else {
         skill_prefix(target, scope)?.into()
     };
-    let delivery = if native {
+    let delivery = if collection.is_some() {
+        "accepted collection standalone skills; host enablement/trust separate"
+    } else if native {
         "native-directory; host loading/enablement not verified"
     } else {
         "native skill/configuration installation; not runtime plugin enablement"
@@ -136,7 +145,11 @@ pub(super) fn candidate(
         {
             continue;
         }
-        if !native && (path.starts_with(".claude-plugin/") || path.starts_with(".cursor-plugin/")) {
+        if !native
+            && (path.starts_with(".claude-plugin/")
+                || path.starts_with(".cursor-plugin/")
+                || path.starts_with(".codex-plugin/"))
+        {
             continue;
         }
         let relative = if native {
@@ -178,12 +191,44 @@ pub(super) fn candidate(
     })
 }
 
+pub(super) fn check_skill_owners<'a>(
+    receipt: &Receipt,
+    paths: impl Iterator<Item = &'a String>,
+    others: &[Receipt],
+) -> Result<()> {
+    for path in paths.filter(|p| p.ends_with("/SKILL.md")) {
+        let name = path.rsplit('/').nth(1).unwrap_or("");
+        if others.iter().any(|r| {
+            r.package != receipt.package
+                && (receipt.delivery.starts_with("accepted collection")
+                    || r.delivery.starts_with("accepted collection"))
+                && r.files
+                    .keys()
+                    .filter(|p| p.ends_with("/SKILL.md"))
+                    .any(|p| {
+                        p.rsplit('/')
+                            .nth(1)
+                            .is_some_and(|n| n.eq_ignore_ascii_case(name))
+                    })
+        }) {
+            return Err(Error::new(
+                "skill-name-conflict",
+                format!(
+                    "Another package reserves skill {name} at this destination; select another destination or uninstall it first"
+                ),
+            ));
+        }
+    }
+    Ok(())
+}
+
 pub(super) fn reconcile(
     candidate: Candidate,
     previous: Option<&Receipt>,
     others: &[Receipt],
 ) -> Result<(Receipt, Vec<Change>)> {
     let mut receipt = candidate.receipt;
+    check_skill_owners(&receipt, candidate.files.keys(), others)?;
     let contributions = candidate.contributions;
     let mut changes = vec![];
     for (relative, (after, mode)) in candidate.files {
@@ -325,11 +370,9 @@ fn skill_prefix(target: &str, scope: Scope) -> Result<&'static str> {
         "hermes" => Ok(".hermes/skills"),
         "antigravity" => Ok(".gemini/config/skills"),
         "opencode" | "opencode-v1" | "opencode-v2" => Ok(".config/opencode/skills"),
-        "copilot" => Ok(".copilot/skills"),
-        "vscode" => Err(Error::new(
-            "scope-contract",
-            "VS Code user skill location is not verified; select project scope",
-        )),
+        "copilot" | "vscode" => Ok(".copilot/skills"),
+        "openhands" => Ok(".agents/skills"),
+        "openclaw" => Ok(".openclaw/skills"),
         "amp" => Ok(".config/agents/skills"),
         "pi" => Ok(".pi/agent/skills"),
         "windsurf" => Ok(".config/devin/skills"),

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/dotnet-backend",
+  "license": "MIT",
+  "name": "skill-development-dotnet-backend",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

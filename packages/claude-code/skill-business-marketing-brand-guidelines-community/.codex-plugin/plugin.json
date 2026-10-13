@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/brand-guidelines-community",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-brand-guidelines-community",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

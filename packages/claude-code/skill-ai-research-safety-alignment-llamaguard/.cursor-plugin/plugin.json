@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/safety-alignment-llamaguard",
+  "license": "MIT",
+  "name": "skill-ai-research-safety-alignment-llamaguard",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

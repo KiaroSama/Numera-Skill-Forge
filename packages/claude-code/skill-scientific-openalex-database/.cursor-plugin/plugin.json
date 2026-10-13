@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/openalex-database",
+  "license": "MIT",
+  "name": "skill-scientific-openalex-database",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

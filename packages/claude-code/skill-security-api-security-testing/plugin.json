@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/api-security-testing",
+  "license": "MIT",
+  "name": "skill-security-api-security-testing",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/product-decision-agent",
+  "license": "MIT",
+  "name": "skill-business-marketing-product-decision-agent",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

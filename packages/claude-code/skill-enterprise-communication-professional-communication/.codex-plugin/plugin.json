@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/professional-communication",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-professional-communication",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

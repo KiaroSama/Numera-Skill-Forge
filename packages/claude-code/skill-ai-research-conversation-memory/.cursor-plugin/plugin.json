@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/conversation-memory",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-conversation-memory",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

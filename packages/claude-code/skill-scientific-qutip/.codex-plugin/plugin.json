@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/qutip",
+  "license": "MIT",
+  "name": "skill-scientific-qutip",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

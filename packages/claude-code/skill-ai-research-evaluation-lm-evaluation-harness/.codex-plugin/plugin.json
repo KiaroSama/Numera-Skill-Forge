@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/evaluation-lm-evaluation-harness",
+  "license": "MIT",
+  "name": "skill-ai-research-evaluation-lm-evaluation-harness",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

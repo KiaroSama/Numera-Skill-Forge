@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/emerging-techniques-moe-training",
+  "license": "MIT",
+  "name": "skill-ai-research-emerging-techniques-moe-training",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

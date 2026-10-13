@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/rdkit",
+  "license": "MIT",
+  "name": "skill-scientific-rdkit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

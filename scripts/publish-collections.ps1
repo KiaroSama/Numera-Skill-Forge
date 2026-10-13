@@ -21,7 +21,7 @@ $exitCode = 3
 $started = [DateTime]::UtcNow
 $oldEnvironment = @{}
 $exactPaths = [Collections.Generic.Dictionary[string, string]]::new([StringComparer]::Ordinal)
-$publicationPaths = @('packages/claude-code/', 'catalogs/collections.lock.json', '.claude-plugin/marketplace.json', 'catalogs/collections.json')
+$publicationPaths = @('packages/claude-code/', 'catalogs/collections.lock.json', '.claude-plugin/marketplace.json', 'catalogs/collections.json', '.cursor-plugin/marketplace.json')
 
 function Write-PublishLog([string]$Level, [string]$Message) {
     if ($log) {
@@ -122,8 +122,11 @@ try {
         foreach ($path in $entry.generated.Keys) {
             if (-not $exactPaths.ContainsKey($path)) { Add-LockedPath $path '100644' $entry.generated[$path] }
         }
+        if ($entry.ContainsKey('delivery')) {
+            foreach ($path in $entry.delivery.Keys) { Add-LockedPath $path '100644' $entry.delivery[$path] }
+        }
     }
-    foreach ($path in $publicationPaths[1..3]) {
+    foreach ($path in $publicationPaths[1..($publicationPaths.Count - 1)]) {
         if (-not (Test-Path -LiteralPath (Join-Path $root $path) -PathType Leaf)) { throw 'A generated catalog is missing.' }
         $exactPaths.Add($path, '100644')
     }

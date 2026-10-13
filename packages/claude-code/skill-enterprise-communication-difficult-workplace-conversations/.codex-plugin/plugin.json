@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/difficult-workplace-conversations",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-difficult-workplace-conversations",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

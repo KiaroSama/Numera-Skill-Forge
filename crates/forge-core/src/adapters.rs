@@ -209,7 +209,7 @@ pub fn install_prefix(target: &str) -> Result<&'static str> {
         "claude-code" => Ok(".claude/skills"),
         "codex" => Ok(".agents/skills"),
         "cursor" => Ok(".cursor/skills"),
-        "hermes" => Ok("skills"),
+        "hermes" => Ok(".hermes/skills"),
         "antigravity" => Ok(".agents/skills"),
         "opencode" | "opencode-v1" | "opencode-v2" => Ok(".opencode/skills"),
         "copilot" | "vscode" => Ok(".github/skills"),
@@ -221,12 +221,12 @@ pub fn install_prefix(target: &str) -> Result<&'static str> {
         "cline" => Ok(".cline/skills"),
         "kilo" => Ok(".kilo/skills"),
         "continue" => Ok(".continue/skills"),
-        "hermes-native" | "amp-native" | "openhands" | "openclaw" | "openclaw-native" => {
-            Err(Error::new(
-                "native-install-required",
-                "Use documented host plugin import; file installation is not certified",
-            ))
-        }
+        "openhands" => Ok(".agents/skills"),
+        "openclaw" => Ok("skills"),
+        "hermes-native" | "amp-native" | "openclaw-native" => Err(Error::new(
+            "native-install-required",
+            "Use documented host plugin import; file installation is not certified",
+        )),
         _ => Err(Error::new("target", "Unknown target")),
     }
 }

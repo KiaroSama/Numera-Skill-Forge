@@ -136,6 +136,18 @@ fn intended_publication_preserves_bytes_modes_index_and_remote_guards() {
     );
     fs::write(&lock_path, lock).unwrap();
     fs::remove_file(root.join(unaccepted)).unwrap();
+    fs::create_dir_all(root.join(".agents/plugins")).unwrap();
+    fs::create_dir_all(root.join(".cursor-plugin")).unwrap();
+    fs::write(
+        root.join(".agents/private-local.txt"),
+        b"private user marker",
+    )
+    .unwrap();
+    fs::write(
+        root.join(".cursor-plugin/marketplace.json"),
+        b"{\"name\":\"fixture\",\"plugins\":[]}\n",
+    )
+    .unwrap();
     fs::write(root.join("unrelated.txt"), b"staged user edit\n").unwrap();
     git(&root, &["add", "unrelated.txt"]);
     fs::write(root.join("unrelated.txt"), b"unstaged user edit\n").unwrap();
@@ -193,6 +205,18 @@ fn intended_publication_preserves_bytes_modes_index_and_remote_guards() {
     assert_eq!(
         git(&root, &["show", &format!("{commit}:unrelated.txt")]),
         b"original user bytes\n"
+    );
+    assert_eq!(
+        git(
+            &root,
+            &["show", &format!("{commit}:.cursor-plugin/marketplace.json")]
+        ),
+        b"{\"name\":\"fixture\",\"plugins\":[]}\n"
+    );
+    assert!(text(&root, &["ls-tree", commit, ".agents/private-local.txt"]).is_empty());
+    assert_eq!(
+        fs::read(root.join(".agents/private-local.txt")).unwrap(),
+        b"private user marker"
     );
     assert_eq!(git(&root, &["show", ":unrelated.txt"]), staged);
     assert_eq!(
