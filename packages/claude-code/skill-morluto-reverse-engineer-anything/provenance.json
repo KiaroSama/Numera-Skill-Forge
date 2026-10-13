@@ -1,0 +1,68 @@
+{
+  "collection": "morluto-rea",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e752a99fae516e10c1563354b4f8b4bc294c70ffb3490559c584c33b185b761a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/SKILL.md",
+      "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
+      "size": 17086
+    },
+    {
+      "digest": "412d9cb462d85b07f6fdbc2453dd741ca3da2c0dbba627867d5624df94afa74c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/android-applications.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/android-applications.md",
+      "size": 1992
+    },
+    {
+      "digest": "5c8797e9aa74290840a987b7fdd99707d54f391bba85e5d02a00ed0155606093",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+      "size": 8814
+    },
+    {
+      "digest": "97e7a2130c4c1047b077b6825b2e693dc93e4d69441f7a16fcbc8d59500da9d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/evidence-workflows.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/evidence-workflows.md",
+      "size": 4058
+    },
+    {
+      "digest": "b3e5e999833baac828addbb6b7a4ed859f0c68befd465812597bf19c27aa7a0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/javascript-applications.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/javascript-applications.md",
+      "size": 9949
+    },
+    {
+      "digest": "eb5ed101eea03024620799f99b60eab5877c8330fd6542005444ea557a042f0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+      "size": 13732
+    },
+    {
+      "digest": "b3eea94dd7d0c6474634de22ac3ccae317f42ba1ba2389d93535ee8dae7d94e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/runtime-observation.md",
+      "path": ".agents/skills/reverse-engineer-anything/references/runtime-observation.md",
+      "size": 1811
+    },
+    {
+      "digest": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1064
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9c6ad163991cf4ccadd2fe675060c4fb5c8cf85424256f4b40621251c1ddbdeb",
+  "repository": "https://github.com/morluto/rea",
+  "revision": "fdd8f826023c568937d237c2f97d855de283a9b8",
+  "root": ".agents/skills/reverse-engineer-anything",
+  "schema_version": 1
+}

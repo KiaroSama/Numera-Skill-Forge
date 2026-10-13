@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: .agents/skills/reverse-engineer-anything",
+  "license": "MIT",
+  "name": "skill-morluto-reverse-engineer-anything",
+  "repository": "https://github.com/morluto/rea",
+  "version": "1.0.0"
+}

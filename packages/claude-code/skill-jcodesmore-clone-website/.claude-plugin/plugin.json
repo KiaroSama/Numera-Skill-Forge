@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: .agents/skills/clone-website",
+  "license": "MIT",
+  "name": "skill-jcodesmore-clone-website",
+  "repository": "https://github.com/JCodesMore/ai-website-cloner-template",
+  "version": "1.0.0"
+}

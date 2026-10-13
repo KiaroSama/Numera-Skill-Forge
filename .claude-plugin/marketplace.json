@@ -2913,6 +2913,18 @@
       "name": "skill-workflow-automation-zapier-make-patterns",
       "source": "./packages/claude-code/skill-workflow-automation-zapier-make-patterns",
       "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: .agents/skills/clone-website",
+      "name": "skill-jcodesmore-clone-website",
+      "source": "./packages/claude-code/skill-jcodesmore-clone-website",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: .agents/skills/reverse-engineer-anything",
+      "name": "skill-morluto-reverse-engineer-anything",
+      "source": "./packages/claude-code/skill-morluto-reverse-engineer-anything",
+      "version": "1.0.0"
     }
   ]
 }

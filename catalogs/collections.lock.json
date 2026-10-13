@@ -42473,6 +42473,132 @@
         "packages/claude-code/skill-workflow-automation-zapier-make-patterns/upstream-notices/original-2.txt": "eb0e7c27b9158d3e2a5dcd148050e0ae1e7d4a5550803be639f35b7e0ff9586c",
         "packages/claude-code/skill-workflow-automation-zapier-make-patterns/upstream-notices/original-3.txt": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d"
       }
+    },
+    "jcodesmore-website-cloner/skill-jcodesmore-clone-website": {
+      "collection": "jcodesmore-website-cloner",
+      "id": "skill-jcodesmore-clone-website",
+      "root": ".agents/skills/clone-website",
+      "revision": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "be46cdc1e45615a98090ca13378e17b57767182f00a3ae662d2428881709739e",
+      "files": [
+        {
+          "path": ".agents/skills/clone-website/SKILL.md",
+          "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/SKILL.md",
+          "digest": "f5e326e2a51b5af7646ddd42f680797cc5ba7aaa6bdbb4e8b371ea3805287e4c",
+          "mode": "100644",
+          "size": 6762
+        },
+        {
+          "path": ".agents/skills/clone-website/references/framer-and-motion.md",
+          "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/framer-and-motion.md",
+          "digest": "8c84ee7a399d7751f995018a44305ca470cf915a50ba95a20efabbdd078f3e52",
+          "mode": "100644",
+          "size": 3186
+        },
+        {
+          "path": ".agents/skills/clone-website/references/inspection-guide.md",
+          "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/inspection-guide.md",
+          "digest": "cc86abb90f420019e5e111bab162718cc9a04592c0044687432d3b6dce2e8d4e",
+          "mode": "100644",
+          "size": 3014
+        },
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-jcodesmore-clone-website/upstream-notices/LICENSE",
+          "digest": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d",
+          "mode": "100644",
+          "size": 1067
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-jcodesmore-clone-website/.claude-plugin/plugin.json": "c323edb67a0d23cbd1d0a1ab49b169436761f285841cc8be54ee04309f5ecda9",
+        "packages/claude-code/skill-jcodesmore-clone-website/provenance.json": "e1baba2b43b3d352b104207919dd194a30c014c57fae107705772b4f21c18b4e",
+        "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/SKILL.md": "f5e326e2a51b5af7646ddd42f680797cc5ba7aaa6bdbb4e8b371ea3805287e4c",
+        "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/framer-and-motion.md": "8c84ee7a399d7751f995018a44305ca470cf915a50ba95a20efabbdd078f3e52",
+        "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/inspection-guide.md": "cc86abb90f420019e5e111bab162718cc9a04592c0044687432d3b6dce2e8d4e",
+        "packages/claude-code/skill-jcodesmore-clone-website/upstream-notices/LICENSE": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d"
+      }
+    },
+    "morluto-rea/skill-morluto-reverse-engineer-anything": {
+      "collection": "morluto-rea",
+      "id": "skill-morluto-reverse-engineer-anything",
+      "root": ".agents/skills/reverse-engineer-anything",
+      "revision": "fdd8f826023c568937d237c2f97d855de283a9b8",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "9c6ad163991cf4ccadd2fe675060c4fb5c8cf85424256f4b40621251c1ddbdeb",
+      "files": [
+        {
+          "path": ".agents/skills/reverse-engineer-anything/SKILL.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/SKILL.md",
+          "digest": "e752a99fae516e10c1563354b4f8b4bc294c70ffb3490559c584c33b185b761a",
+          "mode": "100644",
+          "size": 17086
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/android-applications.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/android-applications.md",
+          "digest": "412d9cb462d85b07f6fdbc2453dd741ca3da2c0dbba627867d5624df94afa74c",
+          "mode": "100644",
+          "size": 1992
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+          "digest": "5c8797e9aa74290840a987b7fdd99707d54f391bba85e5d02a00ed0155606093",
+          "mode": "100644",
+          "size": 8814
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/evidence-workflows.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/evidence-workflows.md",
+          "digest": "97e7a2130c4c1047b077b6825b2e693dc93e4d69441f7a16fcbc8d59500da9d8",
+          "mode": "100644",
+          "size": 4058
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/javascript-applications.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/javascript-applications.md",
+          "digest": "b3e5e999833baac828addbb6b7a4ed859f0c68befd465812597bf19c27aa7a0b",
+          "mode": "100644",
+          "size": 9949
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+          "digest": "eb5ed101eea03024620799f99b60eab5877c8330fd6542005444ea557a042f0b",
+          "mode": "100644",
+          "size": 13732
+        },
+        {
+          "path": ".agents/skills/reverse-engineer-anything/references/runtime-observation.md",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/runtime-observation.md",
+          "digest": "b3eea94dd7d0c6474634de22ac3ccae317f42ba1ba2389d93535ee8dae7d94e1",
+          "mode": "100644",
+          "size": 1811
+        },
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-morluto-reverse-engineer-anything/upstream-notices/LICENSE",
+          "digest": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b",
+          "mode": "100644",
+          "size": 1064
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/.claude-plugin/plugin.json": "c83101a0b6460b20a8f2ee5803a69912a0ffa79a9481c6619a773f297ef82687",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/provenance.json": "21fb91ece35e63a0aae01f406480e7c7dc3d897d6573aa4bb24f2b14d4b10dec",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/SKILL.md": "e752a99fae516e10c1563354b4f8b4bc294c70ffb3490559c584c33b185b761a",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/android-applications.md": "412d9cb462d85b07f6fdbc2453dd741ca3da2c0dbba627867d5624df94afa74c",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/connection-and-recovery.md": "5c8797e9aa74290840a987b7fdd99707d54f391bba85e5d02a00ed0155606093",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/evidence-workflows.md": "97e7a2130c4c1047b077b6825b2e693dc93e4d69441f7a16fcbc8d59500da9d8",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/javascript-applications.md": "b3e5e999833baac828addbb6b7a4ed859f0c68befd465812597bf19c27aa7a0b",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/native-and-artifacts.md": "eb5ed101eea03024620799f99b60eab5877c8330fd6542005444ea557a042f0b",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/skills/reverse-engineer-anything/references/runtime-observation.md": "b3eea94dd7d0c6474634de22ac3ccae317f42ba1ba2389d93535ee8dae7d94e1",
+        "packages/claude-code/skill-morluto-reverse-engineer-anything/upstream-notices/LICENSE": "798f9e4d18e49b30bf2f12696c8ced73dc4e1413da375a333d01281543a1ea8b"
+      }
     }
   }
 }

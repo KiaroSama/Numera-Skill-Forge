@@ -3879,6 +3879,22 @@
       "root": "cli-tool/components/skills/workflow-automation/zapier-make-patterns",
       "source": "davila7-templates",
       "version": "1.0.0"
+    },
+    {
+      "id": "skill-jcodesmore-clone-website",
+      "license": "MIT",
+      "revision": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+      "root": ".agents/skills/clone-website",
+      "source": "jcodesmore-website-cloner",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-morluto-reverse-engineer-anything",
+      "license": "MIT",
+      "revision": "fdd8f826023c568937d237c2f97d855de283a9b8",
+      "root": ".agents/skills/reverse-engineer-anything",
+      "source": "morluto-rea",
+      "version": "1.0.0"
     }
   ],
   "schema_version": 1

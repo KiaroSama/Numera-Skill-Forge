@@ -1,0 +1,40 @@
+{
+  "collection": "jcodesmore-website-cloner",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f5e326e2a51b5af7646ddd42f680797cc5ba7aaa6bdbb4e8b371ea3805287e4c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/SKILL.md",
+      "path": ".agents/skills/clone-website/SKILL.md",
+      "size": 6762
+    },
+    {
+      "digest": "8c84ee7a399d7751f995018a44305ca470cf915a50ba95a20efabbdd078f3e52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/framer-and-motion.md",
+      "path": ".agents/skills/clone-website/references/framer-and-motion.md",
+      "size": 3186
+    },
+    {
+      "digest": "cc86abb90f420019e5e111bab162718cc9a04592c0044687432d3b6dce2e8d4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-jcodesmore-clone-website/skills/clone-website/references/inspection-guide.md",
+      "path": ".agents/skills/clone-website/references/inspection-guide.md",
+      "size": 3014
+    },
+    {
+      "digest": "cfe9368816ead6d3b0a9e0d851dcab796885c72e7b479cff1c7939debea0826d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-jcodesmore-clone-website/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1067
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "be46cdc1e45615a98090ca13378e17b57767182f00a3ae662d2428881709739e",
+  "repository": "https://github.com/JCodesMore/ai-website-cloner-template",
+  "revision": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+  "root": ".agents/skills/clone-website",
+  "schema_version": 1
+}
