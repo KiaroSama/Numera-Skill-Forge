@@ -37,3 +37,12 @@ _Avoid_: Blanket owner trust
 
 **Receipt**: Ownership and resulting-content evidence for an installation operation.
 _Avoid_: Approval, snapshot
+
+**Declared input manifest**: Exact selected source paths, original modes, sizes and hashes bound to one revision.
+_Avoid_: Observed syscall read-set
+
+**Prepared runtime domain**: The full immutable image content supplying runtime and dependencies for controlled execution.
+_Avoid_: Source snapshot
+
+**Execution evidence**: A prospective record of one bounded job's identities, attempted commands, outcome and verified cleanup.
+_Avoid_: Historical admission, universal hermeticity

@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/forge-core", "crates/forge-cli", "apps/desktop/src-tauri"]
+members = ["crates/forge-core", "crates/forge-cli", "crates/forge-ci-input", "apps/desktop/src-tauri"]
 default-members = ["crates/forge-core", "crates/forge-cli"]
 resolver = "3"
 

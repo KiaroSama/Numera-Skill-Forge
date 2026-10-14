@@ -5,8 +5,12 @@ interrupted recovery. Fixtures are first-party harmless local Git repositories a
 folders; no user credentials, paid API, upstream scripts or user harness state. The hosted protocol
 tier generates ephemeral fixture credentials only, never accesses a user's private service.
 
-CI runs `cargo test --locked -p forge-core -p forge-cli -- --test-threads=2` on Windows/macOS/Linux,
-formatting and clippy. Desktop typecheck/build and headless UI contracts are a separate tier. Native
+CI runs Core/CLI tests on Windows/macOS/Linux, formatting and clippy. Linux runs the same Cargo
+selection locked/offline inside the [controlled input boundary](ci-input-contract.md), then exports
+the release CLI while its private tmpfs is still mounted. Frontend typecheck/Vite/headless UI run
+once in that same prepared image in a separate fresh controlled container, replacing the previous
+standalone desktop job. Windows/macOS Core tests retain their native runner paths. Producer unit and
+public-CLI tests run on all three platforms; actual Docker denial/cancellation/cleanup tests run on Linux. Native
 build success and browser UI tests are not proof of real-host loading or packaged GUI startup.
 
 Every suite is discovered by Cargo or the frontend runner, not a hand-maintained test file list.

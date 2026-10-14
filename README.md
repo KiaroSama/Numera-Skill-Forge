@@ -160,6 +160,7 @@ Persisted per-step progress supports inspection/cancellation and failed-only ret
 - [Source and package registration](docs/source-format.md)
 - [Compatibility](docs/compatibility.md)
 - [Verification](docs/testing.md)
+- [Controlled Linux CI inputs](docs/ci-input-contract.md) — prospective Core/CLI and frontend input enforcement, evidence, trust boundaries and limitations.
 
 ## Reference repositories
 
