@@ -9,10 +9,14 @@ producer="$root/target/release/forge-ci-input"
 "$producer" project --repository "$root" --revision "$source" --output "$work/projection"
 "$producer" verify --projection "$work/projection"
 # Provisioning is outside controlled execution; no entire checkout is a build context.
-timeout --signal=TERM --kill-after=10s 900s docker build \
+if ! timeout --signal=TERM --kill-after=10s 900s docker build --platform=linux/amd64 \
   --file "$root/scripts/ci-input.Dockerfile" --build-arg "SOURCE_REVISION=$source" \
   --build-arg "MANIFEST_DIGEST=$(sha256sum "$work/projection/manifest.json" | cut -d' ' -f1)" \
-  --iidfile "$work/image.id" "$work/projection" > "$work/preparation.log" 2>&1
+  --iidfile "$work/image.id" "$work/projection" > "$work/preparation.log" 2>&1; then
+  # The context contains public committed sources only, never host credentials.
+  tail -n 60 "$work/preparation.log" >&2
+  exit 1
+fi
 image="$(cat "$work/image.id")"
 cleanup_image() { docker image rm "$image" > "$work/image-cleanup.log" 2>&1; }
 trap cleanup_image EXIT

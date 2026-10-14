@@ -4,7 +4,7 @@ COPY input/ /input/
 RUN cargo vendor --locked /vendor > /cargo-config.toml && \
     cargo build --locked --release -p forge-ci-input
 
-FROM mcr.microsoft.com/playwright:v1.64.0-noble-amd64@sha256:c4687004ae03849be28f12a688799088a5a04a0ef5166523840e117ea800937c
+FROM mcr.microsoft.com/playwright:v1.64.0-noble@sha256:06a9939e57531807f8d5fd76ce44b53165ffb7d7501d87ab10e285c20b1e971f
 ARG SOURCE_REVISION
 ARG MANIFEST_DIGEST
 LABEL numera.forge.input.manifest=$MANIFEST_DIGEST
