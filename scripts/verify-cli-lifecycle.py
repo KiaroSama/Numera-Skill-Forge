@@ -1,0 +1,238 @@
+"""Real release CLI acceptance using original packages and inert Git update fixtures."""
+import argparse
+from datetime import datetime, timezone
+import hashlib
+import json
+import logging
+from pathlib import Path
+import shutil
+import signal
+import sys
+
+from source_transport_fixture import Processes
+
+
+SELECTED = [
+    ("davila7-templates", "skill-creative-design-frontend-design", "claude-code", ".claude/skills"),
+    ("jcodesmore-website-cloner", "skill-jcodesmore-clone-website", "hermes", ".hermes/skills"),
+    ("morluto-rea", "skill-morluto-reverse-engineer-anything", "opencode", ".opencode/skills"),
+    ("newliver666-apk-reverse", "skill-newliver666-apk-reverse", "cursor", ".cursor/skills"),
+    ("kdense-scientific-agent-skills", "skill-kdense-statistical-analysis", "claude-code", ".claude/skills"),
+]
+
+
+def write(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def subset(project, workspace):
+    registry = json.loads((project / "registry/collections.json").read_text(encoding="utf-8"))
+    lock = json.loads((project / "catalogs/collections.lock.json").read_text(encoding="utf-8"))
+    selected = {package for _, package, _, _ in SELECTED}
+    # The second same-name original is a real independent source, not a fake duplicate main file.
+    selected.add("skill-scientific-statistical-analysis")
+    entries = {k: e for k, e in lock["entries"].items() if e["id"] in selected}
+    # Use a guaranteed registered same-name alternative if the older collection has another ID.
+    if len(entries) == 5:
+        old = next(e for e in lock["entries"].values() if e["collection"] == "davila7-templates" and e["root"].endswith("/statistical-analysis"))
+        entries[f"{old['collection']}/{old['id']}"] = old
+    for entry in entries.values():
+        shutil.copytree(project / "packages/claude-code" / entry["id"], workspace / "packages/claude-code" / entry["id"])
+    collections = []
+    for collection in registry["collections"]:
+        skills = [s for s in collection["skills"] if s["id"] in {e["id"] for e in entries.values()}]
+        if skills:
+            collections.append(collection | {"skills": skills})
+    write(workspace / "registry/collections.json", {"schema_version": 1, "collections": collections})
+    write(workspace / "catalogs/collections.lock.json", {"schema_version": 1, "entries": entries})
+    for path in [".claude-plugin/marketplace.json", ".cursor-plugin/marketplace.json"]:
+        catalog = json.loads((project / path).read_text(encoding="utf-8"))
+        catalog["plugins"] = [p for p in catalog["plugins"] if p["name"] in {e["id"] for e in entries.values()}]
+        write(workspace / path, catalog)
+    for collection in collections:
+        for skill in collection["skills"]:
+            for notice in skill.get("notices", []):
+                target = workspace / notice["path"]
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(project / notice["path"], target)
+    return entries
+
+
+def verify(application, project, work):
+    fixture = work / "fixture"
+    fixture.mkdir()
+    home = fixture / "home"
+    home.mkdir()
+    owner = Processes(home, seconds=180)
+    record = {"schema": 1, "outcome": "failed", "original_execution": "not-performed", "packages": [], "checks": []}
+    previous = signal.signal(signal.SIGTERM, lambda *_: (_ for _ in ()).throw(TimeoutError("CLI fixture cancelled")))
+    try:
+        workspace = fixture / "original distribution"
+        workspace.mkdir()
+        entries = subset(project, workspace)
+
+        def cli(root, *args, error=None, offline=True):
+            argv = [str(application), "--repository", str(root), "--json", "--non-interactive", "--timeout", "20"]
+            if offline:
+                argv.append("--offline")
+            code, output, _ = owner.run(argv + list(args), expected=None, seconds=25)
+            if (code == 0) != (error is None):
+                logging.error("Unexpected CLI outcome command=%s exit=%d", args[0], code)
+                raise AssertionError("Actual CLI command status mismatch")
+            value = json.loads(output.decode("utf-8"))
+            if error is not None:
+                assert value["status"] == "error" and value["code"] == error
+            logging.info("CLI command=%s exit=%d output_digest=%s", args[0], code, hashlib.sha256(output).hexdigest())
+            return value
+
+        catalog = cli(project, "catalog", "list")
+        assert len(catalog) == len(json.loads((project / "catalogs/collections.lock.json").read_text(encoding="utf-8"))["entries"])
+        assert not any("error" in p for p in catalog)
+        record["checks"].append("full-catalog")
+        for collection, package, target, prefix in SELECTED:
+            entry = entries[f"{collection}/{package}"]
+            name = next(f["output_path"].split("/skills/", 1)[1].split("/")[0] for f in entry["files"] if f["path"] == entry["root"] + "/SKILL.md")
+            destination = fixture / (package + " consumer")
+            destination.mkdir()
+            unrelated = destination / "unrelated.txt"
+            unrelated.write_text("Keep consumer content\n", encoding="utf-8")
+            cli(workspace, "package", "inspect", package)
+            cli(workspace, "build", package, "--target", target, "--locked")
+            cli(workspace, "install", package, "--target", target, "--destination", str(destination), "--dry-run")
+            assert not (destination / prefix).exists()
+            cli(workspace, "install", package, "--target", "hermes-native", "--destination", str(destination), error="native-install-required")
+            assert not (destination / prefix).exists()
+            receipt = cli(workspace, "install", package, "--target", target, "--destination", str(destination))
+            receipt_id = receipt["id"]
+            installed = destination / prefix / name
+            for file in entry["files"]:
+                if file["path"].startswith(entry["root"] + "/"):
+                    copied = installed / file["path"][len(entry["root"]) + 1:]
+                    assert digest(copied) == file["digest"]
+                    assert bool(copied.stat().st_mode & 0o111) == (file["mode"] == "100755")
+            for path, expected in receipt["files"].items():
+                assert digest(destination / path) == expected
+            preview = cli(workspace, "install", package, "--target", target, "--destination", str(destination), "--dry-run")
+            assert preview["changes"] == 0
+            original = (installed / "SKILL.md").read_bytes()
+            cli(workspace, "disable", receipt_id)
+            assert not (installed / "SKILL.md").exists()
+            cli(workspace, "enable", receipt_id)
+            assert (installed / "SKILL.md").read_bytes() == original
+            (installed / "SKILL.md").write_text("Consumer edit\n", encoding="utf-8")
+            cli(workspace, "uninstall", receipt_id, error="conflict")
+            assert (installed / "SKILL.md").read_text(encoding="utf-8") == "Consumer edit\n"
+            (installed / "SKILL.md").write_bytes(original)
+            if package == "skill-kdense-statistical-analysis":
+                other = next(e for e in entries.values() if e["collection"] == "davila7-templates" and e["root"].endswith("/statistical-analysis"))
+                cli(workspace, "package", "inspect", other["id"])
+                cli(workspace, "build", other["id"], "--target", target, "--locked")
+                cli(workspace, "install", other["id"], "--target", target, "--destination", str(destination), error="skill-name-conflict")
+                assert (installed / "SKILL.md").read_bytes() == original
+                record["checks"].append("distinct-source-name-collision")
+            removed = cli(workspace, "uninstall", receipt_id)
+            assert not (installed / "SKILL.md").exists()
+            cli(workspace, "rollback", removed["operation"])
+            assert (installed / "SKILL.md").read_bytes() == original
+            cli(workspace, "uninstall", receipt_id)
+            assert not (installed / "SKILL.md").exists()
+            assert unrelated.read_text(encoding="utf-8") == "Keep consumer content\n"
+            record["packages"].append({"id": package, "target": target, "files": len(receipt["files"]), "lifecycle": "passed"})
+            print("Real CLI original lifecycle passed: " + package, flush=True)
+        updates(fixture, owner, cli, record)
+        record["outcome"] = "succeeded"
+    finally:
+        try:
+            owner.close()
+            record["owned_processes"] = len(owner.children)
+            shutil.rmtree(fixture)
+            record["fixture_removed"] = not fixture.exists()
+        except Exception:
+            record["outcome"] = "failed"
+            raise
+        finally:
+            signal.signal(signal.SIGTERM, previous)
+            write(work / "result.json", record)
+            logging.info("Cleanup children=%d fixture_removed=%s", len(owner.children), record.get("fixture_removed", False))
+
+
+def updates(fixture, owner, cli, record):
+    upstream = fixture / "update source"
+    (upstream / "skills/demo/scripts").mkdir(parents=True)
+    prompt = upstream / "skills/demo/SKILL.md"
+    prompt.write_text("---\nname: demo\ndescription: First-party actual CLI fixture\n---\nOriginal prompt.\n", encoding="utf-8")
+    script = upstream / "skills/demo/scripts/helper.py"
+    script.write_text("raise SystemExit('never executed')\n", encoding="utf-8")
+    license = upstream / "LICENSE"
+    license.write_text("MIT License\nPermission is hereby granted, free of charge\n", encoding="utf-8")
+
+    def git(*args):
+        return owner.run(["git", "-c", "core.hooksPath=", "-C", str(upstream), *args])[1].decode("utf-8").strip()
+
+    git("init", "-b", "main")
+    git("add", ".")
+    git("commit", "-m", "fixture")
+    workspace = fixture / "update workspace"
+    workspace.mkdir()
+    write(workspace / "registry/collections.json", {"schema_version": 1, "collections": [{"id": "fixture", "repository": "local:" + str(upstream), "branch": "main", "reviewed_revision": git("rev-parse", "HEAD"), "skills": [{"id": "fixture-demo", "root": "skills/demo", "license": "MIT", "license_path": "LICENSE", "license_digest": digest(license)}]}]})
+    assert cli(workspace, "collection", "sync", "--apply")["status"] == "success"
+    destination = fixture / "update consumer"
+    destination.mkdir()
+    receipt = cli(workspace, "install", "fixture-demo", "--target", "claude-code", "--destination", str(destination))
+    prompt.write_text(prompt.read_text(encoding="utf-8").replace("Original prompt.", "Reviewed prompt update."), encoding="utf-8")
+    git("add", "."); git("commit", "-m", "prompt")
+    assert cli(workspace, "collection", "sync", "--apply")["status"] == "success"
+    cli(workspace, "update", "--installed")
+    installed = destination / ".claude/skills/demo"
+    assert (installed / "SKILL.md").read_bytes() == prompt.read_bytes()
+    accepted = (workspace / "catalogs/collections.lock.json").read_bytes()
+    original_script = (installed / "scripts/helper.py").read_bytes()
+    repeated = cli(workspace, "collection", "sync", "--apply")
+    assert all(s["status"] == "unchanged" for s in repeated["skills"])
+    assert (workspace / "catalogs/collections.lock.json").read_bytes() == accepted
+    cli(workspace, "update", "--installed")
+    assert (installed / "SKILL.md").read_bytes() == prompt.read_bytes()
+    assert (installed / "scripts/helper.py").read_bytes() == original_script
+    script.write_text("raise SystemExit('changed, never executed')\n", encoding="utf-8")
+    git("add", "."); git("commit", "-m", "script")
+    held = cli(workspace, "collection", "sync", "--apply")
+    assert any(s["status"] == "review-required" for s in held["skills"])
+    assert (workspace / "catalogs/collections.lock.json").read_bytes() == accepted
+    cli(workspace, "update", "--installed")
+    assert (installed / "scripts/helper.py").read_bytes() == original_script
+    cli(workspace, "uninstall", receipt["id"])
+    assert not (installed / "SKILL.md").exists()
+    record["checks"].extend(["actual-git-safe-update", "installed-update", "script-review-retention", "offline-repeat"])
+
+
+def main():
+    if sys.platform != "linux":
+        raise RuntimeError("Owned practical CLI tier requires Linux")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--application", type=Path, required=True)
+    parser.add_argument("--work", type=Path, required=True)
+    args = parser.parse_args()
+    project = Path(__file__).resolve().parent.parent
+    work = args.work.resolve()
+    work.mkdir(parents=True, exist_ok=False)
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H-%M-%S")
+    handler = logging.FileHandler(work / f"verify-cli-lifecycle_{stamp}_UTC.log", encoding="utf-8")
+    formatter = logging.Formatter("[%(asctime)s UTC] [%(levelname)s] [CLI] %(message)s", "%Y-%m-%d %H:%M:%S")
+    formatter.converter = __import__("time").gmtime
+    handler.setFormatter(formatter)
+    logging.getLogger().addHandler(handler)
+    logging.getLogger().setLevel(logging.INFO)
+    try:
+        verify(args.application.resolve(), project, work)
+    finally:
+        handler.close()
+        logging.getLogger().removeHandler(handler)
+
+
+if __name__ == "__main__":
+    main()

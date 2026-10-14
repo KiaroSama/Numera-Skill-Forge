@@ -23,6 +23,23 @@ Commands/job timeouts and two-worker ceilings bound CI. Local light tests use th
 runner with wall/idle bounds, fresh fingerprints and process-tree cleanup. Full final checks run
 once in CI on the pushed SHA, not duplicated locally.
 
+## Actual release CLI tier
+
+On every Linux CI run, `scripts/verify-cli-lifecycle.py` executes the actual release binary from an
+unrelated working directory against fresh isolated consumers. Original packages from all five
+registered collections exercise catalog/build, preview/no-write, installation with complete
+companions/notices and original modes, repeat no-op, disable/enable, edited-file uninstall refusal,
+distinct-source same-name collision, unsupported native-only refusal, rollback and uninstall.
+An inert first-party Git repository additionally verifies prompt-only safe updates, installed receipt
+updates, executable-change review retention and offline repeat. No collected script is executed.
+
+The tier reuses the existing process-group owner: 180-second overall wall, 20-second child idle,
+25-second CLI calls, 4MiB captured output and one sequential worker. The workflow adds a 210-second
+outer timeout. Cleanup requires all owned children closed and the fresh fixture removed; failures
+propagate. Sanitized per-run UTF-8 UTC logs and JSON results are retained for seven days.
+This tests real Forge operations, not model invocation or the scientific behavior of imported skills.
+Native GUI tests remain in the separate four-platform workflow; browser IPC mocks do not replace them.
+
 ## Collection delivery contracts
 
 `collection_updates.rs` covers native descriptor/catalog coherence, metadata-only legacy migration,

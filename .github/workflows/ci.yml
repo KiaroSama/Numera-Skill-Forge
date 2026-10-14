@@ -57,6 +57,23 @@ jobs:
           if-no-files-found: error
       - run: python scripts/check-text.py
       - run: python scripts/verify-collections.py
+      - name: Verify real release CLI originals and safe update lifecycle
+        if: runner.os == 'Linux'
+        run: >-
+          timeout --signal=TERM --kill-after=10s 210s
+          python3 -B scripts/verify-cli-lifecycle.py
+          --application target/release/numera-forge --work .ci-work/cli-lifecycle
+        timeout-minutes: 4
+      - name: Preserve practical CLI evidence
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: cli-lifecycle-evidence
+          path: |
+            .ci-work/cli-lifecycle/*.log
+            .ci-work/cli-lifecycle/result.json
+          retention-days: 7
+          if-no-files-found: error
       - name: Prepare hosted-only private transport prerequisites
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y openssh-server
