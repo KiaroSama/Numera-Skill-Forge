@@ -388,13 +388,16 @@ fn execute_inner(image: &str, source: &str, mode: &str, output: &Path) -> Result
             let binary = output.join("numera-forge");
             let mut copy = docker();
             copy.args([
-                "cp",
-                &format!("{}:/scratch/target/release/numera-forge", container.id),
-            ])
-            .arg(&binary);
-            if owner::run(copy, 20, 10)?.code != 0 {
+                "exec",
+                &container.id,
+                "/bin/cat",
+                "/scratch/target/release/numera-forge",
+            ]);
+            let exported = owner::run(copy, 20, 10)?;
+            if exported.code != 0 || exported.stdout.is_empty() {
                 return Err("Verified CLI export failed".into());
             }
+            fs::write(&binary, &exported.stdout)?;
             let metadata = fs::symlink_metadata(&binary)?;
             if !metadata.is_file()
                 || metadata.file_type().is_symlink()
