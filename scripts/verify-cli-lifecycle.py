@@ -76,12 +76,12 @@ def verify(application, project, work):
         workspace.mkdir()
         entries = subset(project, workspace)
 
-        def cli(root, *args, error=None, offline=True):
+        def cli(root, *args, error=None, exit_code=0, offline=True):
             argv = [str(application), "--repository", str(root), "--json", "--non-interactive", "--timeout", "20"]
             if offline:
                 argv.append("--offline")
             code, output, _ = owner.run(argv + list(args), expected=None, seconds=25)
-            if (code == 0) != (error is None):
+            if code != (3 if error is not None else exit_code):
                 logging.error("Unexpected CLI outcome command=%s exit=%d", args[0], code)
                 raise AssertionError("Actual CLI command status mismatch")
             value = json.loads(output.decode("utf-8"))
@@ -200,8 +200,9 @@ def updates(fixture, owner, cli, record):
     assert (installed / "scripts/helper.py").read_bytes() == original_script
     script.write_text("raise SystemExit('changed, never executed')\n", encoding="utf-8")
     git("add", "."); git("commit", "-m", "script")
-    held = cli(workspace, "collection", "sync", "--apply")
-    assert any(s["status"] == "review-required" for s in held["skills"])
+    held = cli(workspace, "collection", "sync", "--apply", exit_code=2)
+    assert held["status"] == "partial"
+    assert len(held["skills"]) == 1 and held["skills"][0]["status"] == "review-required"
     assert (workspace / "catalogs/collections.lock.json").read_bytes() == accepted
     cli(workspace, "update", "--installed")
     assert (installed / "scripts/helper.py").read_bytes() == original_script
