@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/simpy",
+  "license": "MIT",
+  "name": "skill-kdense-simpy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

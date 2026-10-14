@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/SKILL.md",
+      "path": "skills/etetoolkit/SKILL.md",
+      "size": 13286
+    },
+    {
+      "digest": "162589999885f0a8cf9c1f58b5a732fc0f390960c51ff0d8ecdcdcf53d091e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/api_reference.md",
+      "path": "skills/etetoolkit/references/api_reference.md",
+      "size": 15124
+    },
+    {
+      "digest": "a15f52185e64ab3d4ff6b0addf77e99c3007241b9288d2d6bbc93b0eca517b1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/migration-ete3-to-ete4.md",
+      "path": "skills/etetoolkit/references/migration-ete3-to-ete4.md",
+      "size": 11848
+    },
+    {
+      "digest": "300fb2cf971d2fa384b68ea9a6cd45f4473d35c066f3fc159659acd3d1b3c4c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/review.md",
+      "path": "skills/etetoolkit/references/review.md",
+      "size": 5486
+    },
+    {
+      "digest": "f24319c3b20eb96875b9fe82803dc1e94ffc922618578fd646623744b4cc4b57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/taxonomy.md",
+      "path": "skills/etetoolkit/references/taxonomy.md",
+      "size": 10847
+    },
+    {
+      "digest": "5fb56a198d5b0cfda8698c5f67d946324ac32284de58f772b190eebdf7718884",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/visualization.md",
+      "path": "skills/etetoolkit/references/visualization.md",
+      "size": 13193
+    },
+    {
+      "digest": "181322aa607b43065328f84883bc72d2f33ed525ed4495114276b9ddbcd086a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/references/workflows.md",
+      "path": "skills/etetoolkit/references/workflows.md",
+      "size": 16169
+    },
+    {
+      "digest": "0a717a87b9e48f74fda6a1212cde2802bc73df43bc9b8463b49870cd82abda57",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/scripts/quick_visualize.py",
+      "path": "skills/etetoolkit/scripts/quick_visualize.py",
+      "size": 16791
+    },
+    {
+      "digest": "fc85104b201a51fc61365c37a97decb0ae9af7a033ade374b5dcb14b30015486",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-etetoolkit/skills/etetoolkit/scripts/tree_operations.py",
+      "path": "skills/etetoolkit/scripts/tree_operations.py",
+      "size": 16635
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0f51a73e23c15ab3f0e006d4c18d1adb6152c315b05652c1cb1d29564b7e7374",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/etetoolkit",
+  "schema_version": 1
+}

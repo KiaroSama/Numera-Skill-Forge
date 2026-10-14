@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/imaging-data-commons",
+  "license": "MIT",
+  "name": "skill-kdense-imaging-data-commons",
+  "version": "1.0.0"
+}

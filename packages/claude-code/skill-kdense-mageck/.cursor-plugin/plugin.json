@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/mageck",
+  "license": "MIT",
+  "name": "skill-kdense-mageck",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

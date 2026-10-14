@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "00f1246a7f59b6ec11ca119687ccc3ff384547f40d44f2140f557ac3ddd01b35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/SKILL.md",
+      "path": "skills/lamindb/SKILL.md",
+      "size": 8202
+    },
+    {
+      "digest": "a6b0a32ca06aaa560e9b225cc2c280258a0122ad8a9d312a1cac77f82710e813",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/annotation-validation.md",
+      "path": "skills/lamindb/references/annotation-validation.md",
+      "size": 6943
+    },
+    {
+      "digest": "8c7fcfbb000010bb0d2758e65397d7b3a78177b15c4500e93c1cb0017932ad7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/core-concepts.md",
+      "path": "skills/lamindb/references/core-concepts.md",
+      "size": 5121
+    },
+    {
+      "digest": "ffbffabd27df464458a58b32918e2331d98e49c12291293f8a81484f14e33e60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/data-management.md",
+      "path": "skills/lamindb/references/data-management.md",
+      "size": 4812
+    },
+    {
+      "digest": "438b8366afd333cc3629a7ac769af0fe0f5e19a8dfe2f7f6fe82d900af18f014",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/integrations.md",
+      "path": "skills/lamindb/references/integrations.md",
+      "size": 6618
+    },
+    {
+      "digest": "cc25dd4276232decd0facc7e84b8f3804a074d76fb4fed228ac6bc3c703ad1b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/ontologies.md",
+      "path": "skills/lamindb/references/ontologies.md",
+      "size": 5817
+    },
+    {
+      "digest": "87136f6a1af049a9d34de257efd12239b362d82e5dd482fde77abaa0fd050215",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/setup-deployment.md",
+      "path": "skills/lamindb/references/setup-deployment.md",
+      "size": 6379
+    },
+    {
+      "digest": "3f9aeb054b1e6559cc7d0ce4f17f2ba5928b45d66edbaab537747df95631d6dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lamindb/skills/lamindb/references/sources.md",
+      "path": "skills/lamindb/references/sources.md",
+      "size": 3090
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0bf973fd9e6f12ec91d1ef4ad8b66e839036d9e6971fb17daba4e16b2e2b04c0",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/lamindb",
+  "schema_version": 1
+}

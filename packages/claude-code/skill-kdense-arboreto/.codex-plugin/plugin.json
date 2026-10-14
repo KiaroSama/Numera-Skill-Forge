@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/arboreto",
+  "license": "MIT",
+  "name": "skill-kdense-arboreto",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

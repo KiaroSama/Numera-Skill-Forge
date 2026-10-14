@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b133d2a9ff99652b439e0a6f00f93bad49f388be207f7e0241837e001a964947",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/SKILL.md",
+      "path": "skills/alphagenome/SKILL.md",
+      "size": 17428
+    },
+    {
+      "digest": "f5758ec1925d6706f3df4548bfd1fc70c0892181c020f45212c336cba255d269",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/references/atlas.md",
+      "path": "skills/alphagenome/references/atlas.md",
+      "size": 17194
+    },
+    {
+      "digest": "3a4f86b6746f1a8239d7c175e4b40f382e95f4ec1b167ed59f4b43ca6e39ac0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/references/interpretation.md",
+      "path": "skills/alphagenome/references/interpretation.md",
+      "size": 8608
+    },
+    {
+      "digest": "081add87e6da4045adb6526d9bc92cbadc817588a7502edea5532d7a4d5d2dfc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/references/model-api.md",
+      "path": "skills/alphagenome/references/model-api.md",
+      "size": 14327
+    },
+    {
+      "digest": "46fc7074233e36c4cb341294480ce2481ced5f6cd06677847522499b3cd2e7f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/scripts/_common.py",
+      "path": "skills/alphagenome/scripts/_common.py",
+      "size": 19864
+    },
+    {
+      "digest": "2545ad4816fb996900bbf47268c085571a1e3091af45c32ddbf6ed428fe3b89c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/scripts/atlas_link.py",
+      "path": "skills/alphagenome/scripts/atlas_link.py",
+      "size": 7493
+    },
+    {
+      "digest": "7c19884f9dd7b7115916d56d036d152efded82432f57fcea3941e34a17bf6015",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/scripts/atlas_query.py",
+      "path": "skills/alphagenome/scripts/atlas_query.py",
+      "size": 24048
+    },
+    {
+      "digest": "aa2e199f7982180c672bea81db1d72ddc68c7b8c06ce3bdf4b13f63ed56ec5b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-alphagenome/skills/alphagenome/scripts/score_variants.py",
+      "path": "skills/alphagenome/scripts/score_variants.py",
+      "size": 11425
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "16e97b14e30706ea53c935c6c488a34fb8a0b087aa2a6fc56914cfcedc524b00",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/alphagenome",
+  "schema_version": 1
+}

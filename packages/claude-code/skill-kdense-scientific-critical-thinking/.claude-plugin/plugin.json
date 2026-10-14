@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/scientific-critical-thinking",
+  "license": "MIT",
+  "name": "skill-kdense-scientific-critical-thinking",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "version": "1.0.0"
+}

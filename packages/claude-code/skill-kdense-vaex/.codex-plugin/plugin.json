@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/vaex",
+  "license": "MIT",
+  "name": "skill-kdense-vaex",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

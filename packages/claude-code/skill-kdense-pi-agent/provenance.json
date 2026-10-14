@@ -1,0 +1,271 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "ef84742b6e491b3f65941dbb19fdd508b0aada3b87d95aa28b0f66a111f7c748",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/SKILL.md",
+      "path": "skills/pi-agent/SKILL.md",
+      "size": 8324
+    },
+    {
+      "digest": "7ac58a7738f26d7ce33fb42fd660379fce32104b5e95cdb345171d600bbaca70",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/compaction.md",
+      "path": "skills/pi-agent/references/compaction.md",
+      "size": 5821
+    },
+    {
+      "digest": "d261566835186d61df594d7d4fd59dfbb349e2d3bb815634d3f2aad45a27dc7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/containerization.md",
+      "path": "skills/pi-agent/references/containerization.md",
+      "size": 3859
+    },
+    {
+      "digest": "e48031662cc934a75cff9c3b48adb369a6068037cb58cf3c559dbd50c110c1a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/custom-provider.md",
+      "path": "skills/pi-agent/references/custom-provider.md",
+      "size": 9248
+    },
+    {
+      "digest": "3e99b4db0f8b30ad0fd76a5459e04b3a9e8245e0582cf6ef1b699b849c63b624",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/development.md",
+      "path": "skills/pi-agent/references/development.md",
+      "size": 1946
+    },
+    {
+      "digest": "631f6fdfdae76f26ee41458ab81b3d5f95953934eb08e16422abc4240eff7dd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/environment-variables.md",
+      "path": "skills/pi-agent/references/environment-variables.md",
+      "size": 4142
+    },
+    {
+      "digest": "a5b370e05af8da992a4baa7c7ca77d483d901efc1b84171e092aa805122d2475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/extensions.md",
+      "path": "skills/pi-agent/references/extensions.md",
+      "size": 20168
+    },
+    {
+      "digest": "37fbc8b2566c3099d73d060b515f2e4c5662c227a466c9da5b16ac5ab16b968f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/json.md",
+      "path": "skills/pi-agent/references/json.md",
+      "size": 3722
+    },
+    {
+      "digest": "8d2c47d23eb7cea102145205e3c6e0773b1585f7e0775a77892421a289bbbea2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/keybindings.md",
+      "path": "skills/pi-agent/references/keybindings.md",
+      "size": 5701
+    },
+    {
+      "digest": "c37f105f367497da56ee5e4d0a0dce02a4fce93236aee6ea5692c23a3e6083d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/llama-cpp.md",
+      "path": "skills/pi-agent/references/llama-cpp.md",
+      "size": 3510
+    },
+    {
+      "digest": "782a6e84d458c14e719a9316b6f13227372ff4ce200e00e6b0c537f6867965b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/mcp.md",
+      "path": "skills/pi-agent/references/mcp.md",
+      "size": 6020
+    },
+    {
+      "digest": "438587de0c813cc8d601b0c2d9e730a456ea71dbea2556fbc2733e9842dad19a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/models.md",
+      "path": "skills/pi-agent/references/models.md",
+      "size": 9627
+    },
+    {
+      "digest": "ed259f43fcc9b75d7873b33f8911c3ba0dbadfca2cd06aa3b508c796b61f6f03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/overview.md",
+      "path": "skills/pi-agent/references/overview.md",
+      "size": 2144
+    },
+    {
+      "digest": "c7e06e2618b3224f92643b1546d2b07d5568b2a151c12843a6f98c18ff540475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/packages.md",
+      "path": "skills/pi-agent/references/packages.md",
+      "size": 6384
+    },
+    {
+      "digest": "fd2c4e20b0c7fb96f426634973518bb81262b01f16f076bb293555c6ad934f5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/pi-interview.md",
+      "path": "skills/pi-agent/references/pi-interview.md",
+      "size": 8116
+    },
+    {
+      "digest": "874bb5607d7acee8a2703e8ee20f9af6e4bee1ccfd19b7677ba5faa59025b12e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/pi-mcp-adapter.md",
+      "path": "skills/pi-agent/references/pi-mcp-adapter.md",
+      "size": 24493
+    },
+    {
+      "digest": "36eb8fe6940616044b20adbe1e6ce8f257e06fae9cd178297911321e6d81ca2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/pi-subagents.md",
+      "path": "skills/pi-agent/references/pi-subagents.md",
+      "size": 45865
+    },
+    {
+      "digest": "b6dc619c0141297f562b26251031ee6df67ec1e0f84b601c52cddd228e49ec3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/pi-web-access.md",
+      "path": "skills/pi-agent/references/pi-web-access.md",
+      "size": 15347
+    },
+    {
+      "digest": "4259663cf22d5c044a9242fb2cf26df1d6157bac7337cf9521591408611f6ba1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/prompt-templates.md",
+      "path": "skills/pi-agent/references/prompt-templates.md",
+      "size": 1803
+    },
+    {
+      "digest": "9645608b17efb7c16d500a6a83d1ceb250c737787875621eee220fd0223d8bfd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/providers.md",
+      "path": "skills/pi-agent/references/providers.md",
+      "size": 9274
+    },
+    {
+      "digest": "f18ea931e35e8e889b24a8651be4f08de16b0aa8044f93695690d4e10772e912",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/quickstart.md",
+      "path": "skills/pi-agent/references/quickstart.md",
+      "size": 2718
+    },
+    {
+      "digest": "1cb69d6bbf0b8184b72d7f6a78b244d1d31e5dc9522c9c3ffa7c6568b16c985b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/rpc.md",
+      "path": "skills/pi-agent/references/rpc.md",
+      "size": 9577
+    },
+    {
+      "digest": "9b80c3ca328be08029f9b9249be7b6e807411a3ef9a454dc73f69943a1a943c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/sdk.md",
+      "path": "skills/pi-agent/references/sdk.md",
+      "size": 13364
+    },
+    {
+      "digest": "5a12198d48913ee81a06271d8296b60c21a4ba0da43a5f1f1296e6b6892ee723",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/security.md",
+      "path": "skills/pi-agent/references/security.md",
+      "size": 4776
+    },
+    {
+      "digest": "8ed1f3b40982bea7d714ab3ce03f35185a8ba55b3253e55d8afbdaf293e1ac7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/session-format.md",
+      "path": "skills/pi-agent/references/session-format.md",
+      "size": 6285
+    },
+    {
+      "digest": "65c9a2a79f2e30618e64c2c6894edddfc13fa48f2de8e6537ded792d717b238b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/sessions.md",
+      "path": "skills/pi-agent/references/sessions.md",
+      "size": 3054
+    },
+    {
+      "digest": "413952ed87fcaeb51457db1721ae6aadc839c9738af1f47273b09e5be28c29ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/settings.md",
+      "path": "skills/pi-agent/references/settings.md",
+      "size": 8561
+    },
+    {
+      "digest": "5ec5fc7f67c1b69170419026913dc9c4bcf2b73fe9448ff432fb639bcb4e79e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/shell-aliases.md",
+      "path": "skills/pi-agent/references/shell-aliases.md",
+      "size": 772
+    },
+    {
+      "digest": "5c94392849c0cf03322353e4f3347b8b6e11973ca3586bb1eb7460a6d82170a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/skills.md",
+      "path": "skills/pi-agent/references/skills.md",
+      "size": 4163
+    },
+    {
+      "digest": "496eddf9df124cf5f68b007a0c93088e4b2fcaddaa6b4d6ccdd6c5af58dcdf64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/terminal-setup.md",
+      "path": "skills/pi-agent/references/terminal-setup.md",
+      "size": 4454
+    },
+    {
+      "digest": "5989c47369025f9820e45ec8f5bc43b808ded4f3142708005ec2cacbd2c1b0de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/termux.md",
+      "path": "skills/pi-agent/references/termux.md",
+      "size": 1364
+    },
+    {
+      "digest": "9a59a80528a10cd5262734f2b426fb09e80049aa88dc12a4f2a5694326abaa4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/themes.md",
+      "path": "skills/pi-agent/references/themes.md",
+      "size": 2295
+    },
+    {
+      "digest": "bc36c74da86d8a68b78583c41755fbd1d385d47f765002a9062d9b0bf519815c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/tmux.md",
+      "path": "skills/pi-agent/references/tmux.md",
+      "size": 1783
+    },
+    {
+      "digest": "51498667c1489281bdd5187368f4dd460089bf79927943cb3aa75a19f066a106",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/tui.md",
+      "path": "skills/pi-agent/references/tui.md",
+      "size": 7878
+    },
+    {
+      "digest": "3b7f67b2c0593695c17d77a20cda5d11dd1fd881e6e900e4e76f7f4014cabd3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/usage.md",
+      "path": "skills/pi-agent/references/usage.md",
+      "size": 8815
+    },
+    {
+      "digest": "4c27f78dd1f27a96f59a7439d18c20a5c7a497179e4f2a703b2900562595e6d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pi-agent/skills/pi-agent/references/windows.md",
+      "path": "skills/pi-agent/references/windows.md",
+      "size": 1140
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "08241276d44f19745816aa9702b68b24f487e7d62d26d28b6f20f72503a6dcc9",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pi-agent",
+  "schema_version": 1
+}

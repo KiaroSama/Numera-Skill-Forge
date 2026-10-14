@@ -1,0 +1,187 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/SKILL.md",
+      "path": "skills/peer-review/SKILL.md",
+      "size": 13853
+    },
+    {
+      "digest": "e00b259742a0716661d8adba1e81fc7ca722cea32c3cfe5a5e29509844ed742b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/citation_references_template.csv",
+      "path": "skills/peer-review/assets/citation_references_template.csv",
+      "size": 196
+    },
+    {
+      "digest": "06e1215c998a978bdbbe30008040536902abe138e0f790b243ecaee1f21b7da7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/claim_evidence_matrix_template.csv",
+      "path": "skills/peer-review/assets/claim_evidence_matrix_template.csv",
+      "size": 745
+    },
+    {
+      "digest": "02709793bc1702fadc760e7089398eb28351b22885a08cbea6c85f135e931ee1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/reporting_checklist_template.csv",
+      "path": "skills/peer-review/assets/reporting_checklist_template.csv",
+      "size": 968
+    },
+    {
+      "digest": "cf95b9a4e1f54016c800e8b3ff02191e7bc60593e30c043231d47d91259250ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/reporting_guidelines.json",
+      "path": "skills/peer-review/assets/reporting_guidelines.json",
+      "size": 14452
+    },
+    {
+      "digest": "14d7e00cdc710b8235c80faa71f4c5712c1db1a0a2d734fd4fa9807bbc960438",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/review_intake_template.json",
+      "path": "skills/peer-review/assets/review_intake_template.json",
+      "size": 1290
+    },
+    {
+      "digest": "4e320c9a6238ac7ea2494a4c486e93d1eaf2c5239aab80fcd8eea70a6e359102",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/review_scaffold_template.md",
+      "path": "skills/peer-review/assets/review_scaffold_template.md",
+      "size": 3025
+    },
+    {
+      "digest": "9226c94f1066b8c8f9a2a65d6aea08a3471ec36e19f835908573690282a8e737",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/source_ledger.csv",
+      "path": "skills/peer-review/assets/source_ledger.csv",
+      "size": 13407
+    },
+    {
+      "digest": "071bfc0b1e1edb9d09c539b5c6e291e43e8d719cbe50cfdeac1044fe8f0b69a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/statistical_reproducibility_template.json",
+      "path": "skills/peer-review/assets/statistical_reproducibility_template.json",
+      "size": 7281
+    },
+    {
+      "digest": "bc0c19b9ad478c78c4b5111bcd913faca8046e0833815b1bd579a046f737df40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/assets/study_profile_template.json",
+      "path": "skills/peer-review/assets/study_profile_template.json",
+      "size": 197
+    },
+    {
+      "digest": "6a0979d6d64e07f769db8ee9ab82ad3190aebaca4294838f338f5c4b51b596f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/common_issues.md",
+      "path": "skills/peer-review/references/common_issues.md",
+      "size": 13999
+    },
+    {
+      "digest": "d61f27a471f9b42160ae303cb13df2b034085e037b5647cbc0bbf2de8435b1d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/ethical_review_practice.md",
+      "path": "skills/peer-review/references/ethical_review_practice.md",
+      "size": 12209
+    },
+    {
+      "digest": "19ececda52568269987be1dff81900471433353dee8bb8a28a06f3691cb051c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/reporting_standards.md",
+      "path": "skills/peer-review/references/reporting_standards.md",
+      "size": 15438
+    },
+    {
+      "digest": "3d24c7aa7d7b1d1a7df410307d95993b63dff79bf01c400a1c154df19fcf737d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/security_validation.md",
+      "path": "skills/peer-review/references/security_validation.md",
+      "size": 4166
+    },
+    {
+      "digest": "aab5c13d19525fc4626a4153a90ba63231324d609e16bbf569d874c974731bd6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/statistical_reproducibility.md",
+      "path": "skills/peer-review/references/statistical_reproducibility.md",
+      "size": 11755
+    },
+    {
+      "digest": "d765fa7a03712049174b2c288718a602c623fd2233b6fa451bbd6854eb0c46c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/references/tool_reference.md",
+      "path": "skills/peer-review/references/tool_reference.md",
+      "size": 9670
+    },
+    {
+      "digest": "78e751bd8024d4df69a6a7ab82497424d58da06d751f4cb97ba4fc75eb9044db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/_common.py",
+      "path": "skills/peer-review/scripts/_common.py",
+      "size": 13896
+    },
+    {
+      "digest": "9521d624dce092b93f36e3c4c7dd9cab151b24d2e623d0b299adbef239100e47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/audit_citations.py",
+      "path": "skills/peer-review/scripts/audit_citations.py",
+      "size": 7097
+    },
+    {
+      "digest": "8daf60d78a2758665b5c676d1d68e52c57c5c1988249fdbbaba62d31a49c495b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/audit_statistics_reproducibility.py",
+      "path": "skills/peer-review/scripts/audit_statistics_reproducibility.py",
+      "size": 10455
+    },
+    {
+      "digest": "3c2d6dc36e8e5fdd0313422d30da8c31a7ca808618818db376e348fe8d38fd2c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/generate_review_scaffold.py",
+      "path": "skills/peer-review/scripts/generate_review_scaffold.py",
+      "size": 2634
+    },
+    {
+      "digest": "623878c26ede3d74f2ddf0e0a15acbade40d10009c66ab334550b814b2361e75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/lint_review.py",
+      "path": "skills/peer-review/scripts/lint_review.py",
+      "size": 9085
+    },
+    {
+      "digest": "9ccbbdeca6df01f2f4e1c86b98db0e9ab0a43685c6726e1abfdb9bbaa2b92ae3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/select_reporting_guidelines.py",
+      "path": "skills/peer-review/scripts/select_reporting_guidelines.py",
+      "size": 13594
+    },
+    {
+      "digest": "93490b289f288ed686a8eb300bf40693e7caf148b5022b180077f0db22acbe2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/validate_claim_evidence.py",
+      "path": "skills/peer-review/scripts/validate_claim_evidence.py",
+      "size": 7083
+    },
+    {
+      "digest": "0ad9038d96a7867fa8268b70aff4f69ec1e2472b6399bbc04feb5c6fd842d5fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-peer-review/skills/peer-review/scripts/validate_review_intake.py",
+      "path": "skills/peer-review/scripts/validate_review_intake.py",
+      "size": 14486
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7cf8474359748a0b6c42d333c037d237dc2e5877838fe6a33e52865b3221a3a5",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/peer-review",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/usfiscaldata",
+  "license": "MIT",
+  "name": "skill-kdense-usfiscaldata",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

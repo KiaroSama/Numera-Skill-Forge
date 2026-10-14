@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/timesfm-forecasting",
+  "license": "MIT",
+  "name": "skill-kdense-timesfm-forecasting",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

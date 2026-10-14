@@ -27,6 +27,8 @@ pub struct Skill {
     pub attribution: String,
     #[serde(default)]
     pub reviewed_templates: BTreeMap<String, String>,
+    #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
+    pub reviewed_documents: BTreeMap<String, String>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct Notice {

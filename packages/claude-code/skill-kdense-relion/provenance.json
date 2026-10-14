@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relion/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3f80369ef73ccb8c20e2e49ad2b9bd71da3ffa4a819c035691ca4a5b26cb8399",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relion/skills/relion/SKILL.md",
+      "path": "skills/relion/SKILL.md",
+      "size": 8095
+    },
+    {
+      "digest": "0d69ce1609182c9a5ca2758294db26de3a93022a62a63b7b973c9e2afa958b77",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relion/skills/relion/references/acquisition-and-restarts.md",
+      "path": "skills/relion/references/acquisition-and-restarts.md",
+      "size": 6113
+    },
+    {
+      "digest": "777970158870b98a757a9e1896357d1e5d019a0b18f9939c08760f6fd85eb2be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relion/skills/relion/references/runtime-and-validation.md",
+      "path": "skills/relion/references/runtime-and-validation.md",
+      "size": 7103
+    },
+    {
+      "digest": "119270dd08e0afac7916657a9fd0532db4c0ae787819c14210f981afb9c85547",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relion/skills/relion/scripts/spa_workflow.py",
+      "path": "skills/relion/scripts/spa_workflow.py",
+      "size": 17110
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7978b5318b7247a8624cb9616e422c1f2cd4e7ee87cc3a5c87e37ac93d8bca67",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/relion",
+  "schema_version": 1
+}

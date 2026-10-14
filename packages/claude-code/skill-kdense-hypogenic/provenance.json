@@ -1,0 +1,145 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/SKILL.md",
+      "path": "skills/hypogenic/SKILL.md",
+      "size": 14348
+    },
+    {
+      "digest": "4fdf7409a5f33c9cbab66851e56e2e1a721b43b8aaeb10a7bd7683010eab8f31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/assets/dataset_manifest.example.json",
+      "path": "skills/hypogenic/assets/dataset_manifest.example.json",
+      "size": 874
+    },
+    {
+      "digest": "ed248d15d0064a22bfe817ffe1de8004d9d01786ea709b6271d61b7f65cb8442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/assets/result.example.json",
+      "path": "skills/hypogenic/assets/result.example.json",
+      "size": 448
+    },
+    {
+      "digest": "7fb154ab7b0f27bbd6056d1ee6f3d8b3d27619989fb9368c9c60562f2fc670b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/assets/run_config.example.json",
+      "path": "skills/hypogenic/assets/run_config.example.json",
+      "size": 1227
+    },
+    {
+      "digest": "aa0b4c0e73b6d3cf23ce1e52a1f97e8d938c0abef7d59abd653a41b9c42eb7b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/assets/task_config.example.yaml",
+      "path": "skills/hypogenic/assets/task_config.example.yaml",
+      "size": 1325
+    },
+    {
+      "digest": "1e7cd949ed12b30fb8a78021c00098212245e8468f4441b8dd061cf85ddf41e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/configuration.md",
+      "path": "skills/hypogenic/references/configuration.md",
+      "size": 5776
+    },
+    {
+      "digest": "83594cb77958c8d6a8ac9888bf0df5b066ccd2c6069ae4f56dcdb3b20f056c27",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/datasets.md",
+      "path": "skills/hypogenic/references/datasets.md",
+      "size": 6754
+    },
+    {
+      "digest": "bf6c6cd962b31a91010264867540a50dd0b0d7e39f698362fd01cd3431611173",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/evaluation.md",
+      "path": "skills/hypogenic/references/evaluation.md",
+      "size": 5455
+    },
+    {
+      "digest": "cb1017a77228b03996a3fad5bb532a9dcdad567c5bfe6fc00e44eb38a8d9cd49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/security.md",
+      "path": "skills/hypogenic/references/security.md",
+      "size": 7714
+    },
+    {
+      "digest": "0c749e60f3355e705d2f7f0da0d5aff8ae173f3e3a997ae888b284cffa555164",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/sources.md",
+      "path": "skills/hypogenic/references/sources.md",
+      "size": 8247
+    },
+    {
+      "digest": "1e5a7eee56cf7516b24f82586251f38e3554ca7c7c66ea5c41179c55357fa33f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/references/upstream.md",
+      "path": "skills/hypogenic/references/upstream.md",
+      "size": 13554
+    },
+    {
+      "digest": "1ed9e63a4d602a186d27f4aff40c1ab38e25ec8b971a4fa7731fdbae280eb2ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/__init__.py",
+      "path": "skills/hypogenic/scripts/__init__.py",
+      "size": 64
+    },
+    {
+      "digest": "ef44228e0df7e94b12b17ac618206234318a9ada310ac3fc4953325d722195b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/_common.py",
+      "path": "skills/hypogenic/scripts/_common.py",
+      "size": 45618
+    },
+    {
+      "digest": "ea75f16b3e4cc3d81b4700cfc18abbc0179d7fd0db57d1c9a37aca4d6b3a474d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/audit_dataset.py",
+      "path": "skills/hypogenic/scripts/audit_dataset.py",
+      "size": 13671
+    },
+    {
+      "digest": "eec40f9437eee0f318270ac6dc53c0eb051ad52dc6937cc9052d0e880f78ecf5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/evaluate_local.py",
+      "path": "skills/hypogenic/scripts/evaluate_local.py",
+      "size": 7925
+    },
+    {
+      "digest": "8440baa60fd5a3453f3dd5eb15f7ea082ce39d147c306514e2879cd099488449",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/inspect_outputs.py",
+      "path": "skills/hypogenic/scripts/inspect_outputs.py",
+      "size": 5771
+    },
+    {
+      "digest": "415528382cb6bb1d22647c5988f59c2392c2eb84121f6754cf179d116a6cc2c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/plan_run.py",
+      "path": "skills/hypogenic/scripts/plan_run.py",
+      "size": 8527
+    },
+    {
+      "digest": "de14d532ae5d814d4f2240f11f73afc5996f9e4b84240eceea34dc8dfb11084a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypogenic/skills/hypogenic/scripts/validate_config.py",
+      "path": "skills/hypogenic/scripts/validate_config.py",
+      "size": 5878
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a3e7fb23a91e34fcf9536f3b44655685a57299d4bc43b4f7156bd50b1e711428",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/hypogenic",
+  "schema_version": 1
+}

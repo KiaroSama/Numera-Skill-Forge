@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/SKILL.md",
+      "path": "skills/simpy/SKILL.md",
+      "size": 14395
+    },
+    {
+      "digest": "b4a755812b5d3e588ef21ef1f0c38b9aed487a9d0ff959a69735753fc7d394b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/cli-guide.md",
+      "path": "skills/simpy/references/cli-guide.md",
+      "size": 9534
+    },
+    {
+      "digest": "aa9995f0f5e374f2df19f12e73bde5abdeb5ed17a2a993cf61aa823151c67c02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/events.md",
+      "path": "skills/simpy/references/events.md",
+      "size": 7710
+    },
+    {
+      "digest": "44c8448e977311715f8ddd293cfb76df722c72b388892df6ad616261820ad983",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/monitoring.md",
+      "path": "skills/simpy/references/monitoring.md",
+      "size": 8960
+    },
+    {
+      "digest": "e50aa436664d48de65e7b51d1cf4f5b6dbf8d02559094c0c52fb18c782b772d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/process-interaction.md",
+      "path": "skills/simpy/references/process-interaction.md",
+      "size": 7719
+    },
+    {
+      "digest": "700aaba4f10e7dad87da05166daf127a905aff2c16a12ac5917536c789e53dd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/real-time.md",
+      "path": "skills/simpy/references/real-time.md",
+      "size": 5551
+    },
+    {
+      "digest": "5763a4756a2a50a70a2650a5406777cd4afc481db21ed6911293903adc262502",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/resources.md",
+      "path": "skills/simpy/references/resources.md",
+      "size": 8817
+    },
+    {
+      "digest": "e25164d41106c13bed7845d8167e38acbded4d2073b58dee5613d95bd50fb9cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/simulation-methodology.md",
+      "path": "skills/simpy/references/simulation-methodology.md",
+      "size": 11962
+    },
+    {
+      "digest": "a8b1a39038477a382588c02cf4763d276bc4032c84cb9d34952bac8e7f9d0a4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/references/sources.md",
+      "path": "skills/simpy/references/sources.md",
+      "size": 13046
+    },
+    {
+      "digest": "ccf17251d29de7b8d53029fc277218874f291fd6976c47486d1cb2113a735b60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/_common.py",
+      "path": "skills/simpy/scripts/_common.py",
+      "size": 15389
+    },
+    {
+      "digest": "010adb7db53981afd78e57b6df37b45a5ad6386ed4c0cede13d350177cb89712",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/basic_simulation_template.py",
+      "path": "skills/simpy/scripts/basic_simulation_template.py",
+      "size": 14482
+    },
+    {
+      "digest": "8d8de80d5c241c8c677754810ce293d667498e618493a75418b35247e5613f0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/bounded_queue_scenario.py",
+      "path": "skills/simpy/scripts/bounded_queue_scenario.py",
+      "size": 3609
+    },
+    {
+      "digest": "79de6801a69365ac8b0b4832c47e21f87b2aee875a42467b82bfaec3a7569e4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/event_trace_summary.py",
+      "path": "skills/simpy/scripts/event_trace_summary.py",
+      "size": 11178
+    },
+    {
+      "digest": "4160eb858779df62171d4dbbf459bb003666e1995791b401b253dce47b9c56da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/replication_runner.py",
+      "path": "skills/simpy/scripts/replication_runner.py",
+      "size": 6411
+    },
+    {
+      "digest": "04ce449920627cf343d423ca5d86b990a4e5b5a80e2b10f9403d4e3d5c42f904",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/resource_monitor.py",
+      "path": "skills/simpy/scripts/resource_monitor.py",
+      "size": 16673
+    },
+    {
+      "digest": "2482b5a7d8f389ed892d0e4edfcce13cbd4144e64490513194791f8d1f0e555e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-simpy/skills/simpy/scripts/validate_simulation_config.py",
+      "path": "skills/simpy/scripts/validate_simulation_config.py",
+      "size": 3679
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c85d80308720cbadfda144c3246df2b25edd632564d0b8b83120eab274621652",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/simpy",
+  "schema_version": 1
+}

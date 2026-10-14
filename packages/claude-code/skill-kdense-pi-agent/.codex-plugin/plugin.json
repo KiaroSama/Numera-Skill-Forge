@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pi-agent",
+  "license": "MIT",
+  "name": "skill-kdense-pi-agent",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

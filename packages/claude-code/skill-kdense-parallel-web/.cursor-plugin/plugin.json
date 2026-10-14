@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/parallel-web",
+  "license": "MIT",
+  "name": "skill-kdense-parallel-web",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

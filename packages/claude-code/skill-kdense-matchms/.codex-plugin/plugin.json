@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/matchms",
+  "license": "MIT",
+  "name": "skill-kdense-matchms",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

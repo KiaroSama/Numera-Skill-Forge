@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellprofiler/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b822ed64acb189d900f59ba69418e5e41261d539fd2fd847e402cded2fc1bb38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellprofiler/skills/cellprofiler/SKILL.md",
+      "path": "skills/cellprofiler/SKILL.md",
+      "size": 7707
+    },
+    {
+      "digest": "9e1564f79d5a54171aad28d366ef17b88f2003dfceded1055cac521743bdb568",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellprofiler/skills/cellprofiler/assets/nuclei.cppipe",
+      "path": "skills/cellprofiler/assets/nuclei.cppipe",
+      "size": 5663
+    },
+    {
+      "digest": "960863799dd94485ce6105271854db899d3b1fd309c2923d3a21076fc21384b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellprofiler/skills/cellprofiler/references/runtime-and-qc.md",
+      "path": "skills/cellprofiler/references/runtime-and-qc.md",
+      "size": 7703
+    },
+    {
+      "digest": "2578f242515eec87a3d78926e33d2f0763094a834e3733353a92878cc5a83037",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellprofiler/skills/cellprofiler/scripts/nuclei_assay.py",
+      "path": "skills/cellprofiler/scripts/nuclei_assay.py",
+      "size": 11283
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "77530cd0445c05f3b9f3e20921d4722d835d6cba95686a1c0f1bce778a5db1a7",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/cellprofiler",
+  "schema_version": 1
+}

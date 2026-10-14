@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/geniml",
+  "license": "MIT",
+  "name": "skill-kdense-geniml",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "version": "1.0.0"
+}

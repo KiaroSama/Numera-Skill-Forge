@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "10ee1a904565f5e9c9d432b3af136db42927d0811f07f646355600fec6633f8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/SKILL.md",
+      "path": "skills/relsa-severity-assessment/SKILL.md",
+      "size": 20981
+    },
+    {
+      "digest": "8becb57b62367de1cf03e287ae002f9a3361396b73c6d1385466738b4efff86e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/assets/example_cohort.csv",
+      "path": "skills/relsa-severity-assessment/assets/example_cohort.csv",
+      "size": 2166
+    },
+    {
+      "digest": "329605e6087025d4a256e211add766bdf00b2ca6c30d42ce03125fadb16aef4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/references/forecasting.md",
+      "path": "skills/relsa-severity-assessment/references/forecasting.md",
+      "size": 6756
+    },
+    {
+      "digest": "d1cd8963db2761e2b9555f466111b6752ea48564e4b4cb1976e00ae304c80b74",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/references/relsa-method.md",
+      "path": "skills/relsa-severity-assessment/references/relsa-method.md",
+      "size": 7532
+    },
+    {
+      "digest": "6dba2a68f3d32835b5a5ffd8ec5b1d4fc6e600c9dc94637eb07322ea4604eaaa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/references/thresholds-and-zones.md",
+      "path": "skills/relsa-severity-assessment/references/thresholds-and-zones.md",
+      "size": 4910
+    },
+    {
+      "digest": "78c14602ff937e16ac9e609f24d76c4bd0edf14295ea4df09cf0c9c7e1b3d513",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/scripts/_common.py",
+      "path": "skills/relsa-severity-assessment/scripts/_common.py",
+      "size": 14245
+    },
+    {
+      "digest": "a1c83e8779078a7abd51cca0dfd839d5fb806cf9a66a12c010b228690cbfe06a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/scripts/forecast_relsa.py",
+      "path": "skills/relsa-severity-assessment/scripts/forecast_relsa.py",
+      "size": 31831
+    },
+    {
+      "digest": "b58db3e1ff0168dbccce659ced2a2eed5cb741881864ac8a5c0cecf5d946d4d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/scripts/kde_thresholds.py",
+      "path": "skills/relsa-severity-assessment/scripts/kde_thresholds.py",
+      "size": 15546
+    },
+    {
+      "digest": "25729f9d53b4efd46f3f9930d33594284cb2c0ccdecf791ce2960fb04679bd1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-relsa-severity-assessment/skills/relsa-severity-assessment/scripts/relsa_score.py",
+      "path": "skills/relsa-severity-assessment/scripts/relsa_score.py",
+      "size": 22360
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "32eecd1eafdcaa8cb32595f54e25f44626a1bf3980988f7e30e57a062a411dba",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/relsa-severity-assessment",
+  "schema_version": 1
+}

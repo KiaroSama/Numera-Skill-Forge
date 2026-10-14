@@ -1,0 +1,117 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "afc275bbeb084553cd6507c4ffee848c46bef94dcd24c3b8a58d8b14d021ea09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/SKILL.md",
+      "path": "skills/pysam/SKILL.md",
+      "size": 13610
+    },
+    {
+      "digest": "f7577248277849f36dcfea68a6bf38b92113369cfddeecd46bb670ba1b358790",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/alignment_files.md",
+      "path": "skills/pysam/references/alignment_files.md",
+      "size": 13484
+    },
+    {
+      "digest": "019b24b516f5cd964d68d8782f7c364f5de3b71a864d56ca8806a6692905bc49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/api_reference.md",
+      "path": "skills/pysam/references/api_reference.md",
+      "size": 10441
+    },
+    {
+      "digest": "ed2247dc745fe635dd7818ec6103eeec269efe9503c0f20c4946ba0be6e670de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/common_workflows.md",
+      "path": "skills/pysam/references/common_workflows.md",
+      "size": 14151
+    },
+    {
+      "digest": "9cfcb78a05d6b9bb8a28f5464c6d0cc83625a99994c23a710d26b909dd2fe57d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/coordinates_and_indexing.md",
+      "path": "skills/pysam/references/coordinates_and_indexing.md",
+      "size": 9005
+    },
+    {
+      "digest": "f7a15b37e1b7ca3039ed5183ff13f6d5903d835baebf1d19a6a9c3bcc2e699ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/cram_and_performance.md",
+      "path": "skills/pysam/references/cram_and_performance.md",
+      "size": 9630
+    },
+    {
+      "digest": "9f258110e9e959aedaf0a1997deb790d5833c730a6c1dcc9b5a6d8ea86a8033a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/migration_to_0_24.md",
+      "path": "skills/pysam/references/migration_to_0_24.md",
+      "size": 5554
+    },
+    {
+      "digest": "2e1d901500e1c202e86f8e92d254d913aabb804505f75455ee19bdb63748f2a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/sequence_files.md",
+      "path": "skills/pysam/references/sequence_files.md",
+      "size": 9531
+    },
+    {
+      "digest": "75f4efa0870a3c5448f9e292cd8a876a27bc199fec4326bde464c6d3fc07d7ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/sources.md",
+      "path": "skills/pysam/references/sources.md",
+      "size": 7635
+    },
+    {
+      "digest": "7d961e738272ffb98c39c78e21886fe774139a99948f7f1a3cc2bc77384212d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/references/variant_files.md",
+      "path": "skills/pysam/references/variant_files.md",
+      "size": 11972
+    },
+    {
+      "digest": "6cb6084fd467bcd3a6048ffa6f2cb3865f87d62f01699e026cf43e13a75a314c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/scripts/alignment_qc.py",
+      "path": "skills/pysam/scripts/alignment_qc.py",
+      "size": 10852
+    },
+    {
+      "digest": "ef80dca3d48e5b713f49fdd87c52b58e933a9aad1e4bf0dfbf994f08e931b7ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/scripts/filter_alignments.py",
+      "path": "skills/pysam/scripts/filter_alignments.py",
+      "size": 12745
+    },
+    {
+      "digest": "1db21bbae44d00554076c8a326c78be0a19ba53ead7e2db191615d2f0c329546",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/scripts/inspect_hts.py",
+      "path": "skills/pysam/scripts/inspect_hts.py",
+      "size": 14518
+    },
+    {
+      "digest": "79bad44cd398e1dc227b920de26433284c75bfc9865441a413248a7b19861731",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pysam/skills/pysam/scripts/variant_summary.py",
+      "path": "skills/pysam/scripts/variant_summary.py",
+      "size": 11844
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ee8010ffb79f2c200c0fc5f76c8c4c91751cea4259b275f37cabf3562f9278c1",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pysam",
+  "schema_version": 1
+}

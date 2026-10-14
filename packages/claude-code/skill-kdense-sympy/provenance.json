@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/SKILL.md",
+      "path": "skills/sympy/SKILL.md",
+      "size": 13293
+    },
+    {
+      "digest": "cff0c044c5d7c7f65235f35a7c0fe19e41a42c27393c9aa7f38a31f00ed28e81",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/advanced-topics.md",
+      "path": "skills/sympy/references/advanced-topics.md",
+      "size": 14192
+    },
+    {
+      "digest": "6a547f4dfd6975762d61d7effd47c9613e16d345e2e1dab89549bfc465f7e404",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/code-generation-printing.md",
+      "path": "skills/sympy/references/code-generation-printing.md",
+      "size": 15244
+    },
+    {
+      "digest": "2c7d55c127ccd5d4d0792892025979c421573f2662c5cededb6cbcf80ee61888",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/core-capabilities.md",
+      "path": "skills/sympy/references/core-capabilities.md",
+      "size": 9601
+    },
+    {
+      "digest": "69fffa94caf62276112108bbeff5b7dd4281a5b40c07e44eea381f46f00a6011",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/core_capabilities.md",
+      "path": "skills/sympy/references/core_capabilities.md",
+      "size": 5239
+    },
+    {
+      "digest": "fd64e48e917cf0a71bb0d744e8cfee345a98284256a84fb55793fe4d9783272d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/matrices-linear-algebra.md",
+      "path": "skills/sympy/references/matrices-linear-algebra.md",
+      "size": 10493
+    },
+    {
+      "digest": "0d015cf60861aa5fe1598a76e08d612a758f0c0895bbd1ce1dcbfbc9d4bfaf8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/physics-mechanics.md",
+      "path": "skills/sympy/references/physics-mechanics.md",
+      "size": 15004
+    },
+    {
+      "digest": "03d4db2d0432cf7ec3a21b2746da7b96809aa7613d17c101d16460f5ec732ab1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-sympy/skills/sympy/references/review.md",
+      "path": "skills/sympy/references/review.md",
+      "size": 6041
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7ed3f1f0070bde8102013f46deccf70da35b62803df6a91a28a8cb8210f62372",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/sympy",
+  "schema_version": 1
+}

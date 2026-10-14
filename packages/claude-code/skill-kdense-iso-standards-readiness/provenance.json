@@ -1,0 +1,243 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "0ffd95e86924a698fcd0c806e51f24e2fc500847697d8ff99b255af817e15259",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/SKILL.md",
+      "path": "skills/iso-standards-readiness/SKILL.md",
+      "size": 18299
+    },
+    {
+      "digest": "4cbcd94068ff1bf8bf55c00ae32de2730a4c35be0c3f40110ff184a1d8286845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/capa-record-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/capa-record-template.json",
+      "size": 2979
+    },
+    {
+      "digest": "c279fc952f4a8e0887800c8202d0b1f2760736cbc9716ee2ed205e973cc3113c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/document-register-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/document-register-template.json",
+      "size": 2122
+    },
+    {
+      "digest": "6ce142f0b789a0e0b1b52c1c8cf65d250a717ac3adfb2b7104e024bfcbd1d884",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/evidence-manifest-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/evidence-manifest-template.json",
+      "size": 2018
+    },
+    {
+      "digest": "42e9e54efe82ba9b48cc0950dbde9596ee9165328be81b272a634111623a58db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/laboratory-scope-intake-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/laboratory-scope-intake-template.json",
+      "size": 3422
+    },
+    {
+      "digest": "d9d9ce38bf60c7c6bb6fc851f20be1d4157481ed2a35bae9395a2555ab499c6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/medical-laboratory-scope-intake-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/medical-laboratory-scope-intake-template.json",
+      "size": 3536
+    },
+    {
+      "digest": "ef153c0e2aebbd56bf287e95e95df180d7659009051a4a078bb4254a0e2c548a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/procedures/CAPA-procedure-template.md",
+      "path": "skills/iso-standards-readiness/assets/templates/procedures/CAPA-procedure-template.md",
+      "size": 6517
+    },
+    {
+      "digest": "ddc713c443b8ae220195e1171b9200e9264762cffe822f3cdb7aed80b6fc2a9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/procedures/document-control-procedure-template.md",
+      "path": "skills/iso-standards-readiness/assets/templates/procedures/document-control-procedure-template.md",
+      "size": 6934
+    },
+    {
+      "digest": "d8cfc008469fbf85a8d8333cef3ae2cd437ab5ab379b2dc86df67fcc069700d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/qmsr-transition-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/qmsr-transition-template.json",
+      "size": 9651
+    },
+    {
+      "digest": "4f5d08269ade8c68532a296be9ec41a830471965ad21abcb3884c1a2ab9c958a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/quality-manual-template.md",
+      "path": "skills/iso-standards-readiness/assets/templates/quality-manual-template.md",
+      "size": 9372
+    },
+    {
+      "digest": "7e23d8edc6efbcbe106b61227805296d4dee0c5204592016ff3d33a8cf82246f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/scope-intake-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/scope-intake-template.json",
+      "size": 2975
+    },
+    {
+      "digest": "384cad6425390a25cd2f346d097da5721d396d57fd08422523812ad4763ba6cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/supplier-controls-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/supplier-controls-template.json",
+      "size": 4323
+    },
+    {
+      "digest": "75a03fd3fdf94b4398f46880b69ee2a47606faa225ff611d1321631231f1acf0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/assets/templates/traceability-matrix-template.json",
+      "path": "skills/iso-standards-readiness/assets/templates/traceability-matrix-template.json",
+      "size": 4439
+    },
+    {
+      "digest": "281662f87c99c0aff8e7b8e56c426bde9c2724e843db5b84a7744b5e2981b055",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/assurance-lanes.md",
+      "path": "skills/iso-standards-readiness/references/assurance-lanes.md",
+      "size": 7285
+    },
+    {
+      "digest": "3302ded4dd0cfc04b2839fc4db29a7b3c048c38913ad32f363c309ac62916032",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/evidence-architecture.md",
+      "path": "skills/iso-standards-readiness/references/evidence-architecture.md",
+      "size": 13659
+    },
+    {
+      "digest": "3443211a87e2176faa36155d9ccb12cb2fbb9e6a97f3175ee2674aafc895ab03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/gap-analysis-checklist.md",
+      "path": "skills/iso-standards-readiness/references/gap-analysis-checklist.md",
+      "size": 19472
+    },
+    {
+      "digest": "bf1e654ed22798b9573e70966d5482507adaf2b02a0a30721a0e7a1e189a48bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/iso-13485.md",
+      "path": "skills/iso-standards-readiness/references/iso-13485.md",
+      "size": 12257
+    },
+    {
+      "digest": "db62d342a6c2fcfdbf90981ed02a7f1f642ffff46be3db552801eee4c0392cf9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/iso-14971.md",
+      "path": "skills/iso-standards-readiness/references/iso-14971.md",
+      "size": 9516
+    },
+    {
+      "digest": "39bffb320a0a26ab5beb2bbcecf322d10ad608680523410b4614a90b0274aa79",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/iso-15189.md",
+      "path": "skills/iso-standards-readiness/references/iso-15189.md",
+      "size": 12450
+    },
+    {
+      "digest": "38eceda5955ad668a6b688470f3529110cc548824fed8116903ed03f6f7a3025",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/iso-17025.md",
+      "path": "skills/iso-standards-readiness/references/iso-17025.md",
+      "size": 12286
+    },
+    {
+      "digest": "f60ffd4e0e31e824389a0b4978d9f009cf2027e8783961e8512759f07ad3ebd4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/quality-manual-guide.md",
+      "path": "skills/iso-standards-readiness/references/quality-manual-guide.md",
+      "size": 11587
+    },
+    {
+      "digest": "91cab78e7e9bb18feb0d8c2b646f9f813aa3a1cc6527339edb944844f89ec559",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/references/source-ledger.md",
+      "path": "skills/iso-standards-readiness/references/source-ledger.md",
+      "size": 21190
+    },
+    {
+      "digest": "b02f2c87be93d583e51ed8cfc3d5d64b2dfe1bb2a69fa62cf089b5cd787143fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/_catalog.py",
+      "path": "skills/iso-standards-readiness/scripts/_catalog.py",
+      "size": 7735
+    },
+    {
+      "digest": "fde546c636e3904cf8aae41a98d9187e5bbe5157aa9056eb3c5a9e2c07ecd6ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/_common.py",
+      "path": "skills/iso-standards-readiness/scripts/_common.py",
+      "size": 16800
+    },
+    {
+      "digest": "7db553daa1014f851f10a5a2cc6341d65deaa1336b92b7a8ca5b20850f2b857d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/audit_document_records.py",
+      "path": "skills/iso-standards-readiness/scripts/audit_document_records.py",
+      "size": 5518
+    },
+    {
+      "digest": "c4a61329328505d73a46dcafd0bafd93096c6736b18aa49e4804df47fbef2cb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/check_capa.py",
+      "path": "skills/iso-standards-readiness/scripts/check_capa.py",
+      "size": 8909
+    },
+    {
+      "digest": "8b13e6cda62150c9fa17cf193da4a6786f0f1ecd903d13b87048397c2574b055",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/check_qmsr_transition.py",
+      "path": "skills/iso-standards-readiness/scripts/check_qmsr_transition.py",
+      "size": 5660
+    },
+    {
+      "digest": "6fda41de53eb8d900d3365dfc47948f7e6fff6bbff966bfbaa97421857c023b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/check_supplier_controls.py",
+      "path": "skills/iso-standards-readiness/scripts/check_supplier_controls.py",
+      "size": 5746
+    },
+    {
+      "digest": "2749bed44d1953de01669fe0af197d3442e5c30071813ae443bd3ee2a25e06c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/check_traceability.py",
+      "path": "skills/iso-standards-readiness/scripts/check_traceability.py",
+      "size": 5646
+    },
+    {
+      "digest": "cc1b3be8766b922abde38c7d5db2b96482794e0c2a75bc8a7421da57c632aa58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/gap_analyzer.py",
+      "path": "skills/iso-standards-readiness/scripts/gap_analyzer.py",
+      "size": 5626
+    },
+    {
+      "digest": "af4a56d0fa81a93d7f3c46f33ade20ea7715b88a0b7a106312459c9975e85994",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/validate_evidence_manifest.py",
+      "path": "skills/iso-standards-readiness/scripts/validate_evidence_manifest.py",
+      "size": 8446
+    },
+    {
+      "digest": "d99495ba318126161f4faeb9d873f9ca9a4c49b57680392b1dfb2a14125a56ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-iso-standards-readiness/skills/iso-standards-readiness/scripts/validate_scope_intake.py",
+      "path": "skills/iso-standards-readiness/scripts/validate_scope_intake.py",
+      "size": 7268
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3cb708ff8e008921ee0db85357d54bf13a5c471248d04847b8558991bcd6c937",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/iso-standards-readiness",
+  "schema_version": 1
+}

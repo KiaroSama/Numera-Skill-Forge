@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/nextflow",
+  "license": "MIT",
+  "name": "skill-kdense-nextflow",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

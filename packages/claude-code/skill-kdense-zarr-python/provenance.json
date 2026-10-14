@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "1edaabfc3fc618d4c3a16bd70c589c039a3cb3a26683f02bca0ccc140d3c9c4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/SKILL.md",
+      "path": "skills/zarr-python/SKILL.md",
+      "size": 8954
+    },
+    {
+      "digest": "cae3f3d04560d7443694c2ddc6d8ec845932f66bdf8a4288cd1da6559eaf6b23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/api_reference.md",
+      "path": "skills/zarr-python/references/api_reference.md",
+      "size": 4931
+    },
+    {
+      "digest": "f35187bf6584171b800e5bdeae474e7c3680969c717fa77fbe8d76852d440843",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/chunking_and_compression.md",
+      "path": "skills/zarr-python/references/chunking_and_compression.md",
+      "size": 4732
+    },
+    {
+      "digest": "7eb3df9e64673cb8cc8cd991980e20138add108541d5fe3224710f01777ee62c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/integration.md",
+      "path": "skills/zarr-python/references/integration.md",
+      "size": 6382
+    },
+    {
+      "digest": "39e1887400b3f5f7d912293ded8d78fa33ab2a6de9bc765cb5da15d4223f72fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/performance_and_patterns.md",
+      "path": "skills/zarr-python/references/performance_and_patterns.md",
+      "size": 6580
+    },
+    {
+      "digest": "2760cdb7cc1d5b621655f92ffb090fc40c08320cfcf8454ec867696d43218a92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/review.md",
+      "path": "skills/zarr-python/references/review.md",
+      "size": 2528
+    },
+    {
+      "digest": "7bdb667451cef86a94a996b6331cec3cd7e4b421da833805cd6bdb4362750272",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/storage_backends.md",
+      "path": "skills/zarr-python/references/storage_backends.md",
+      "size": 5580
+    },
+    {
+      "digest": "b1016328d4a83b414fa12381201aa4fde7f2c4147b8774aafb2405b7fbbafc3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-zarr-python/skills/zarr-python/references/v3_migration.md",
+      "path": "skills/zarr-python/references/v3_migration.md",
+      "size": 3993
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "35ac3ea9b50c698e27d552922b9d14d66cf58602abc386f033bcde1731eb1ff4",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/zarr-python",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/statistical-power",
+  "license": "MIT",
+  "name": "skill-kdense-statistical-power",
+  "version": "1.0.0"
+}

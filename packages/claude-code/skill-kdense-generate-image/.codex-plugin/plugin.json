@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/generate-image",
+  "license": "MIT",
+  "name": "skill-kdense-generate-image",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

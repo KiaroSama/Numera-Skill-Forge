@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/depmap",
+  "license": "MIT",
+  "name": "skill-kdense-depmap",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

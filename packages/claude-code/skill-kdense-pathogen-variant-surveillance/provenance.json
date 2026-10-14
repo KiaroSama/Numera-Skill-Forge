@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "95510f890a47ab2e2275832fe60e725eca34e5318dcde88b0940d9362b3ab590",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/SKILL.md",
+      "path": "skills/pathogen-variant-surveillance/SKILL.md",
+      "size": 10817
+    },
+    {
+      "digest": "35eecae787f25da0566b7931f321b615aa3972f2d595ab467397e1f9d021126f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/references/lapis-api.md",
+      "path": "skills/pathogen-variant-surveillance/references/lapis-api.md",
+      "size": 10992
+    },
+    {
+      "digest": "a58932658c6e24db355219e8a44e54d9bb6c6f32a9ec6cef58d3f979cf6dadef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/references/lineage-nomenclature.md",
+      "path": "skills/pathogen-variant-surveillance/references/lineage-nomenclature.md",
+      "size": 5753
+    },
+    {
+      "digest": "f80fdd2f5535be667a2e243174c0ba8cbffeb7e90e3740c475522996c555429f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/references/surveillance-caveats.md",
+      "path": "skills/pathogen-variant-surveillance/references/surveillance-caveats.md",
+      "size": 6259
+    },
+    {
+      "digest": "d666a82327f6ed1b04ffc7aee2f53037d8204fa8052ac47e901368c2c9dd3687",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/scripts/lapis_client.py",
+      "path": "skills/pathogen-variant-surveillance/scripts/lapis_client.py",
+      "size": 30484
+    },
+    {
+      "digest": "8f73bc4d104d33ef7c294cdbdc3bfad7f776ed885df99d1323d734c090e65132",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/scripts/lineage_prevalence.py",
+      "path": "skills/pathogen-variant-surveillance/scripts/lineage_prevalence.py",
+      "size": 15201
+    },
+    {
+      "digest": "49b5ac946dd0b2d640eb510603ec198abe09e4390be91741a16d2ea0686f47dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/scripts/mutation_profile.py",
+      "path": "skills/pathogen-variant-surveillance/scripts/mutation_profile.py",
+      "size": 10616
+    },
+    {
+      "digest": "990407143d9acdb8093a2fbbf513b64e28767da04622b55fed250b3350d95239",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/scripts/reporting_lag.py",
+      "path": "skills/pathogen-variant-surveillance/scripts/reporting_lag.py",
+      "size": 8232
+    },
+    {
+      "digest": "c9a51087e405f09db849e70f9383773a1d53c6ced692d68cebdc90907c320bf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathogen-variant-surveillance/skills/pathogen-variant-surveillance/scripts/resolve_lineage.py",
+      "path": "skills/pathogen-variant-surveillance/scripts/resolve_lineage.py",
+      "size": 7599
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fb7800432bb6229199e01a52800a5bf7bf5a895f385c352e3e11638548408af2",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pathogen-variant-surveillance",
+  "schema_version": 1
+}

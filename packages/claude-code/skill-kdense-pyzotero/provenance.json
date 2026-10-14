@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "82dec36c7294674f33d9b6003e523d1dc4da33ed1c7427dc4e53731119fc5f74",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/SKILL.md",
+      "path": "skills/pyzotero/SKILL.md",
+      "size": 8023
+    },
+    {
+      "digest": "5a2a09a6adfad33d03f4a7e84eb16f955e4aba7fa8e29fbd81e4ee37a46bc21c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/authentication.md",
+      "path": "skills/pyzotero/references/authentication.md",
+      "size": 5247
+    },
+    {
+      "digest": "2d76df610085b177d660576a7c694f3b6fcd6dba50a2e22fd86e37ef52468f88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/cli.md",
+      "path": "skills/pyzotero/references/cli.md",
+      "size": 3833
+    },
+    {
+      "digest": "79950aba56a0efbd0358b3ce662bff5c67c8aa20ecda1a371e38ec5fd5b72b7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/collections.md",
+      "path": "skills/pyzotero/references/collections.md",
+      "size": 3938
+    },
+    {
+      "digest": "a87eda6c3fccd520a8120093fedfde0fa04aa757871c9430ba117d359bda48d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/error-handling.md",
+      "path": "skills/pyzotero/references/error-handling.md",
+      "size": 3995
+    },
+    {
+      "digest": "127bd01447fb2c70956f048dc87a065761603bff522be1c4eacae3638bf3bdaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/exports.md",
+      "path": "skills/pyzotero/references/exports.md",
+      "size": 4004
+    },
+    {
+      "digest": "ce3f3dc28d5455938698bd6553ba7a82ff28a86070cd4ec2a43a9a6969c29136",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/files-attachments.md",
+      "path": "skills/pyzotero/references/files-attachments.md",
+      "size": 4453
+    },
+    {
+      "digest": "b75d3f7dbb77a52b3688824fc6f80f17888130b54eea486d56d493c4ef676d2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/full-text.md",
+      "path": "skills/pyzotero/references/full-text.md",
+      "size": 2472
+    },
+    {
+      "digest": "c4a7e6e7f4dc784f156662ebd9d13919e060f4cf472f184451281193ba426032",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/mcp.md",
+      "path": "skills/pyzotero/references/mcp.md",
+      "size": 6294
+    },
+    {
+      "digest": "386cf1d84c3021143582ff557dd640e9cbcfcd4245e4fcc32ecdf0796ee80342",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/pagination.md",
+      "path": "skills/pyzotero/references/pagination.md",
+      "size": 2481
+    },
+    {
+      "digest": "4182ef44d6c4a83c2993658dfe30d23b9e7b1e5aadb32405ae514707e032e828",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/read-api.md",
+      "path": "skills/pyzotero/references/read-api.md",
+      "size": 4399
+    },
+    {
+      "digest": "8c891c84d023fa215920c61a385c3afc8363c5b7bc48e6b1294d84936f81329e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/saved-searches.md",
+      "path": "skills/pyzotero/references/saved-searches.md",
+      "size": 3713
+    },
+    {
+      "digest": "d75501f2278720f02b10f58d14d3fa347366b6144497ceea333a5fb6f6e35312",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/search-params.md",
+      "path": "skills/pyzotero/references/search-params.md",
+      "size": 3772
+    },
+    {
+      "digest": "31be953e7c8f9f3b93739d30fc4edbcf81ceb652f803a92e971a2ad74b49a20d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/tags.md",
+      "path": "skills/pyzotero/references/tags.md",
+      "size": 2674
+    },
+    {
+      "digest": "008ee377cf20425069169c896aaefe57a14583c82ca7625ca9d9fc1e8292a0d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyzotero/skills/pyzotero/references/write-api.md",
+      "path": "skills/pyzotero/references/write-api.md",
+      "size": 5699
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "88221cc0fec8b6565d703376da51a57a799a394d4027010a945893d4f112fbc4",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pyzotero",
+  "schema_version": 1
+}

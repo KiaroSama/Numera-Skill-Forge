@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "dc9aeeb18ef4b4832b9405c342ce40abbb09bc8162e35f2c659dd5814b07369a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/SKILL.md",
+      "path": "skills/openpiv/SKILL.md",
+      "size": 19066
+    },
+    {
+      "digest": "7adc06f74595c55dd7b4eb39b729722e8f984017a5da332141dbf0546aaf61cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/references/advanced_algorithms.md",
+      "path": "skills/openpiv/references/advanced_algorithms.md",
+      "size": 15191
+    },
+    {
+      "digest": "5970d09bdec018a3082147b88d1d7d013a6836b92581f07bc8a6933a20a31ad6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/scripts/__init__.py",
+      "path": "skills/openpiv/scripts/__init__.py",
+      "size": 29
+    },
+    {
+      "digest": "3661a3ab5102900f25454c8454ae0ed613c86ce51880e065682b234d2c5d1b19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/scripts/analyze.py",
+      "path": "skills/openpiv/scripts/analyze.py",
+      "size": 6268
+    },
+    {
+      "digest": "2bb4fe062d428d2e46e6c5f0e53a074e5625308408bc8ce355e44dc6add94e6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/scripts/run_example.py",
+      "path": "skills/openpiv/scripts/run_example.py",
+      "size": 2875
+    },
+    {
+      "digest": "5e246f535d5e6f8b083dcfa1a326b1a5e1d3173e7ff6438700ac2a3bf11f9a17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-openpiv/skills/openpiv/scripts/runner.py",
+      "path": "skills/openpiv/scripts/runner.py",
+      "size": 10306
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3fa974e62bbdd715b346f3aeffbafdbda822146fd4b8ab1db99df34a175c9bed",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/openpiv",
+  "schema_version": 1
+}

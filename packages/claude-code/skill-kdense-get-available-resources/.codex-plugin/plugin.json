@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/get-available-resources",
+  "license": "MIT",
+  "name": "skill-kdense-get-available-resources",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

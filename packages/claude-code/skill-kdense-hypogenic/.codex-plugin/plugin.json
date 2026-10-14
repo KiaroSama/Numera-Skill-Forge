@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/hypogenic",
+  "license": "MIT",
+  "name": "skill-kdense-hypogenic",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

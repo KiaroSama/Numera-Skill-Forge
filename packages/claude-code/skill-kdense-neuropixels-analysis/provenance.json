@@ -1,0 +1,152 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "65985e85e9ac2206c92291446f543505b2b568bf1d622448e162ae6255e154dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/SKILL.md",
+      "path": "skills/neuropixels-analysis/SKILL.md",
+      "size": 20153
+    },
+    {
+      "digest": "ca24aeed6706f0b6952163f01fab112ca7892f3971a65e8bbed831f917c64e7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/assets/analysis_template.py",
+      "path": "skills/neuropixels-analysis/assets/analysis_template.py",
+      "size": 9547
+    },
+    {
+      "digest": "1c224f1921f8e6055cd4e5ece8db594d9b9728a8449f28d3f2ff121f88e15d4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/AI_CURATION.md",
+      "path": "skills/neuropixels-analysis/references/AI_CURATION.md",
+      "size": 6507
+    },
+    {
+      "digest": "d1cf927d7eb3ce9873f79d37c6ebf553f10f4e8c16f54615ab2cab79778e289e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/ANALYSIS.md",
+      "path": "skills/neuropixels-analysis/references/ANALYSIS.md",
+      "size": 11384
+    },
+    {
+      "digest": "3dbc23c62b1c8817e44ab804ab63aa6a0c3086963189a68037b7fa58f41cafcf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/AUTOMATED_CURATION.md",
+      "path": "skills/neuropixels-analysis/references/AUTOMATED_CURATION.md",
+      "size": 6404
+    },
+    {
+      "digest": "e27a09f0ab654a3bcecfe71409eb3c6a9e1c1002fcffc3653f2d8f007c18d520",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/MOTION_CORRECTION.md",
+      "path": "skills/neuropixels-analysis/references/MOTION_CORRECTION.md",
+      "size": 4703
+    },
+    {
+      "digest": "3b9f221da2c67d1927320ebfa83e68cb4dc64b09759e7b1563a5de4251d87828",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/PREPROCESSING.md",
+      "path": "skills/neuropixels-analysis/references/PREPROCESSING.md",
+      "size": 4884
+    },
+    {
+      "digest": "586b3711d3fdff597f0236480746e16214c9272c0340d2632dd87fde8ea138c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/QUALITY_METRICS.md",
+      "path": "skills/neuropixels-analysis/references/QUALITY_METRICS.md",
+      "size": 6392
+    },
+    {
+      "digest": "fe6ca475d623de015a9a45c7097736e8e45be16e8614ef131625177a22c5255f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/SPIKE_SORTING.md",
+      "path": "skills/neuropixels-analysis/references/SPIKE_SORTING.md",
+      "size": 5960
+    },
+    {
+      "digest": "7a2a16a78b40275615187c3a875b3cea70a1e8c0a985f9867dfa4484a506ed07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/api_reference.md",
+      "path": "skills/neuropixels-analysis/references/api_reference.md",
+      "size": 8083
+    },
+    {
+      "digest": "ba0877bbe8c6406b9976524367f9d9eb4fba68d1b1b277c05cbec854f3cd4fe6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/plotting_guide.md",
+      "path": "skills/neuropixels-analysis/references/plotting_guide.md",
+      "size": 11974
+    },
+    {
+      "digest": "8196eec22f03cbf9a7126665a7bfcca7dc4bed598029115ccc24252221294e7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/references/standard_workflow.md",
+      "path": "skills/neuropixels-analysis/references/standard_workflow.md",
+      "size": 10184
+    },
+    {
+      "digest": "57911b40b9c66eb33e639bd0af0ab8f364786a3892e369f81b229617407d158e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/_common.py",
+      "path": "skills/neuropixels-analysis/scripts/_common.py",
+      "size": 2748
+    },
+    {
+      "digest": "cbd82c123c30089c8e58d183afd7d3f6c2e1dd12266e6827732fdcb3e29972f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/compute_metrics.py",
+      "path": "skills/neuropixels-analysis/scripts/compute_metrics.py",
+      "size": 5629
+    },
+    {
+      "digest": "08da6d00dfd39450e1108c907ae31e313a1e22fb5b593406b57c8a9d0fe09a7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/explore_recording.py",
+      "path": "skills/neuropixels-analysis/scripts/explore_recording.py",
+      "size": 5877
+    },
+    {
+      "digest": "2af490e43443a0473af4032c04b7ff5d860bfb45088ccb41c2430996ed0fa01c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/export_to_phy.py",
+      "path": "skills/neuropixels-analysis/scripts/export_to_phy.py",
+      "size": 2700
+    },
+    {
+      "digest": "43b26e8a8511daf2342bfebb511ec3461ab0de896e817cb8f8b60379a22cb36d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/neuropixels_pipeline.py",
+      "path": "skills/neuropixels-analysis/scripts/neuropixels_pipeline.py",
+      "size": 12849
+    },
+    {
+      "digest": "921262d2ce3fb3b73b2fd0e04aed198b996ae1669fb5063f06e3de52d76d1b40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/preprocess_recording.py",
+      "path": "skills/neuropixels-analysis/scripts/preprocess_recording.py",
+      "size": 4794
+    },
+    {
+      "digest": "dc9c4211949be273587b6d772747e6227f00feb2f4b7f3da5bee8519dbd067a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-neuropixels-analysis/skills/neuropixels-analysis/scripts/run_sorting.py",
+      "path": "skills/neuropixels-analysis/scripts/run_sorting.py",
+      "size": 2723
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b41672d378ffa320b602933095ff03661af72c5c9af2ff103326d03c1d23cd8b",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/neuropixels-analysis",
+  "schema_version": 1
+}

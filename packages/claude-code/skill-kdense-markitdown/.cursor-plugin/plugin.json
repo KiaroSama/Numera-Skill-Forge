@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/markitdown",
+  "license": "MIT",
+  "name": "skill-kdense-markitdown",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

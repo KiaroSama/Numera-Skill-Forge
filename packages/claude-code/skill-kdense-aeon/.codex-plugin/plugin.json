@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/aeon",
+  "license": "MIT",
+  "name": "skill-kdense-aeon",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

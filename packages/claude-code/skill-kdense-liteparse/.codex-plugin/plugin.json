@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/liteparse",
+  "license": "MIT",
+  "name": "skill-kdense-liteparse",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

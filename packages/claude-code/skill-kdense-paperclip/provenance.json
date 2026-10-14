@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "4f6fc05346aefdf5685b11d6d34fbe5b9782fc5156d69702c00dd8c71bf63473",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/SKILL.md",
+      "path": "skills/paperclip/SKILL.md",
+      "size": 12966
+    },
+    {
+      "digest": "a1cbbce454df57aea224185d7e5e1402bd4864f4c1d38438199e18044d73963b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/cli-reference.md",
+      "path": "skills/paperclip/references/cli-reference.md",
+      "size": 9567
+    },
+    {
+      "digest": "b0ce9c46d95402030183a159dced52cce289cc49c2205d36b0bbc9e3d6244d9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/installation.md",
+      "path": "skills/paperclip/references/installation.md",
+      "size": 7490
+    },
+    {
+      "digest": "f2ca2e32e802273d6fbb19f803842e81a4cfe6cff26f34d3f79e991a258f7c31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/map-reduce.md",
+      "path": "skills/paperclip/references/map-reduce.md",
+      "size": 7119
+    },
+    {
+      "digest": "5a87d7468e96ec5acb15efa8b15aa84bcb66c1207e5cb8a7c6d5cebda9dab258",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/python-sdk.md",
+      "path": "skills/paperclip/references/python-sdk.md",
+      "size": 15945
+    },
+    {
+      "digest": "b668989880b3e06a020c5d2103756f7e4d6a18a21b060305ab3930f43d33c2d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/repos-and-workspace.md",
+      "path": "skills/paperclip/references/repos-and-workspace.md",
+      "size": 8793
+    },
+    {
+      "digest": "2ae8353cb8050246cc4401b8c3095ae2457caa5c0393e3fb0a113d9367de509f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-paperclip/skills/paperclip/references/search-and-retrieval.md",
+      "path": "skills/paperclip/references/search-and-retrieval.md",
+      "size": 9345
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fda88bd3abf403af1d9d55d975dcb6df4d113f88b8616b2532eca8275bfd22c7",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/paperclip",
+  "schema_version": 1
+}

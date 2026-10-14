@@ -1,0 +1,152 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/SKILL.md",
+      "path": "skills/scholar-evaluation/SKILL.md",
+      "size": 12418
+    },
+    {
+      "digest": "8b77953138471a80b2f2a6d20ab5b5a2dc7670afa492a74d92975e9f86ec4ce0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/assets/evaluation_template.json",
+      "path": "skills/scholar-evaluation/assets/evaluation_template.json",
+      "size": 1344
+    },
+    {
+      "digest": "51512b9f307db9fb451c03f90be399e42d3216dcaecc22e67e037ceda3e5b0cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/assets/evidence_manifest_template.json",
+      "path": "skills/scholar-evaluation/assets/evidence_manifest_template.json",
+      "size": 1841
+    },
+    {
+      "digest": "de0897b2404f6fd32a0a9aa22406d7830f912f6ab39f3cac4dc34bdce5af8ac3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/assets/process_checklist_template.json",
+      "path": "skills/scholar-evaluation/assets/process_checklist_template.json",
+      "size": 2130
+    },
+    {
+      "digest": "0c518d16760d551a28ae474f65c79ded02b4a97b8121b0ef3d907201b65b1ba6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/assets/ratings_template.csv",
+      "path": "skills/scholar-evaluation/assets/ratings_template.csv",
+      "size": 1762
+    },
+    {
+      "digest": "ab428fcb3cef141c5d7eaa0a206b6c89087a1593af3d953ee2ff1efb31aa79f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/assets/rubric_template.json",
+      "path": "skills/scholar-evaluation/assets/rubric_template.json",
+      "size": 12217
+    },
+    {
+      "digest": "86028eb58c9fdf5a0bb34ffd37a3567c49bfafa7cb9e9ebecb3e88ddd5ecbac9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/references/evaluation_framework.md",
+      "path": "skills/scholar-evaluation/references/evaluation_framework.md",
+      "size": 10599
+    },
+    {
+      "digest": "762ce1f939680cc99e7f6f05964dbd1205c905e929a51adea8bb8c5809758ca8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/references/local_tooling.md",
+      "path": "skills/scholar-evaluation/references/local_tooling.md",
+      "size": 9341
+    },
+    {
+      "digest": "5730df99eb16deab151777d7bfb88253da3eb60e1d8184bb5ae39a1dd4e09406",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/references/responsible_assessment.md",
+      "path": "skills/scholar-evaluation/references/responsible_assessment.md",
+      "size": 9848
+    },
+    {
+      "digest": "093d3ff3cf7309db0a4262f77d5f3496120548dd75b169856a4a0a009ed60e22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/references/security_validation.md",
+      "path": "skills/scholar-evaluation/references/security_validation.md",
+      "size": 4294
+    },
+    {
+      "digest": "43c364cd3a2b1dbdb5845092d63396f7ee8ac384964ae447951cc5656937d4cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/references/source_ledger.md",
+      "path": "skills/scholar-evaluation/references/source_ledger.md",
+      "size": 14146
+    },
+    {
+      "digest": "5f90929c6cbe23c73f7b25d749be11d2fa0e6f3d6aea832bf1e313e2e450404c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/_common.py",
+      "path": "skills/scholar-evaluation/scripts/_common.py",
+      "size": 36406
+    },
+    {
+      "digest": "07a1cd73cca097edd15acebe65531d9254e6e9f316b4a30e1eca5fd252cb697b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/calculate_scores.py",
+      "path": "skills/scholar-evaluation/scripts/calculate_scores.py",
+      "size": 1885
+    },
+    {
+      "digest": "12c78b6d09f76a25a7f1530e1f719f6ccbeabe03d83cb63525a09358edc1da2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/check_process.py",
+      "path": "skills/scholar-evaluation/scripts/check_process.py",
+      "size": 8327
+    },
+    {
+      "digest": "609fe62d80638b368039cc0b2a0fb115d6a7c99e630ce0e54d117de80d4b4bb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/check_traceability.py",
+      "path": "skills/scholar-evaluation/scripts/check_traceability.py",
+      "size": 9118
+    },
+    {
+      "digest": "3a9470d2517ced5b25ae1ca732f59a26771cada09f3e5b2d06b4ba32cdbddb3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "path": "skills/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "size": 9657
+    },
+    {
+      "digest": "78dc8809873242b4fa8afeb44e6384cc50b5540098cf988e277cf7cbeb3a8e6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/summarize_agreement.py",
+      "path": "skills/scholar-evaluation/scripts/summarize_agreement.py",
+      "size": 11340
+    },
+    {
+      "digest": "843244f4728b93b07e1c7d51ca2f22e7a6d9215af0f83247afe181920e120821",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/validate_rubric.py",
+      "path": "skills/scholar-evaluation/scripts/validate_rubric.py",
+      "size": 1729
+    },
+    {
+      "digest": "06dba6b262e2ef2c120389f662e81aec87bbb9a1141ff54bb843608c03c37953",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scholar-evaluation/skills/scholar-evaluation/scripts/weight_sensitivity.py",
+      "path": "skills/scholar-evaluation/scripts/weight_sensitivity.py",
+      "size": 10270
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e2ca6efd16fb0941c033649aac13f5abec38c5d67f28ff1c494bb68ab7ffc3f9",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scholar-evaluation",
+  "schema_version": 1
+}

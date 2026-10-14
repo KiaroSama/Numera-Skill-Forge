@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/what-if-oracle",
+  "license": "MIT",
+  "name": "skill-kdense-what-if-oracle",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

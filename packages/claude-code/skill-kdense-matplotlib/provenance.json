@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "60b80aaa802e1a88db30729611789bf5ee92b3f2a7bb695502bac10dd255ee86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/SKILL.md",
+      "path": "skills/matplotlib/SKILL.md",
+      "size": 16615
+    },
+    {
+      "digest": "151dba633c9d92e5e3c446a927971f50893c1fee382e50d3780d01d0a33bdfdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/references/api_reference.md",
+      "path": "skills/matplotlib/references/api_reference.md",
+      "size": 11879
+    },
+    {
+      "digest": "f614b7716637d18623a035653ac37fc608ff5be4d08250f7fbf66ae496c59df2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/references/common_issues.md",
+      "path": "skills/matplotlib/references/common_issues.md",
+      "size": 15170
+    },
+    {
+      "digest": "149479715344beb5f9f0e5b4bf19f694e0db1ef1ea1282aa633185ab38c5d1bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/references/plot_types.md",
+      "path": "skills/matplotlib/references/plot_types.md",
+      "size": 14847
+    },
+    {
+      "digest": "a2b84789e227bcbf5dcc99b142e4a9e6a45e5c6cff2252e96f53d0f9627ff6fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/references/styling_guide.md",
+      "path": "skills/matplotlib/references/styling_guide.md",
+      "size": 16060
+    },
+    {
+      "digest": "88fe993c113b581cf7da41c6330a6528ba768afb3fdc2be8fa4e1681d7c1b943",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/scripts/plot_template.py",
+      "path": "skills/matplotlib/scripts/plot_template.py",
+      "size": 12680
+    },
+    {
+      "digest": "f6238b6de27046e3a094573714b3ecd8f856f1d4e2004f17cf4c87a0848a8993",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matplotlib/skills/matplotlib/scripts/style_configurator.py",
+      "path": "skills/matplotlib/scripts/style_configurator.py",
+      "size": 14208
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "80cd7ff0a323d002a763a83b2411ddeb85b5bef43ad018135624341dd0692f97",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/matplotlib",
+  "schema_version": 1
+}

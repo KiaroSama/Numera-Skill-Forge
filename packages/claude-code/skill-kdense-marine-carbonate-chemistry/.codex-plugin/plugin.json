@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/marine-carbonate-chemistry",
+  "license": "MIT",
+  "name": "skill-kdense-marine-carbonate-chemistry",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/esm",
+  "license": "MIT",
+  "name": "skill-kdense-esm",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/pkpd-modeling",
+  "license": "MIT",
+  "name": "skill-kdense-pkpd-modeling",
+  "version": "1.0.0"
+}

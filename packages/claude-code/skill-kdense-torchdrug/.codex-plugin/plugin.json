@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/torchdrug",
+  "license": "MIT",
+  "name": "skill-kdense-torchdrug",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cobrapy/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b11365507e183d8e153dd415df3a85a00f34b068bcf8edbad28c0580253564db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cobrapy/skills/cobrapy/SKILL.md",
+      "path": "skills/cobrapy/SKILL.md",
+      "size": 11690
+    },
+    {
+      "digest": "5cb2aae6ec45947e41e703fc25f2e0fc049001c3613c1da41b0c110b95e5c23c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cobrapy/skills/cobrapy/references/api_quick_reference.md",
+      "path": "skills/cobrapy/references/api_quick_reference.md",
+      "size": 16368
+    },
+    {
+      "digest": "7af68f9a4afd6cd14f2df92743e7b0226debf778dede50627be071093767fbc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cobrapy/skills/cobrapy/references/workflows.md",
+      "path": "skills/cobrapy/references/workflows.md",
+      "size": 16071
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c4c158949d1359875bf9540a23d62a543a66ad9fb76d13e7c5da948925c52990",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/cobrapy",
+  "schema_version": 1
+}

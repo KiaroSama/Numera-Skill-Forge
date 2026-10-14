@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "d3e9c67c3f08bfd7c6bb6c91d6ccc6621a72d2f47248965b4db4e1e296426b18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/SKILL.md",
+      "path": "skills/lab-hardware-cad/SKILL.md",
+      "size": 22830
+    },
+    {
+      "digest": "273e47fccfb69493fb67f1ae1ad79d6ed8310bf623597b1e504c1d47ba6dad5e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/assets/standards.json",
+      "path": "skills/lab-hardware-cad/assets/standards.json",
+      "size": 17240
+    },
+    {
+      "digest": "e2796e2db6f48ca97f79eece452397dde6c4f89d1f6156a6a34fb434e7ef593e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/behavior-rigs.md",
+      "path": "skills/lab-hardware-cad/references/behavior-rigs.md",
+      "size": 7769
+    },
+    {
+      "digest": "260da9e2e5e088d32246794809241c2966c33882bbf5f1bab8dad16d0299e8d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/build123d-patterns.md",
+      "path": "skills/lab-hardware-cad/references/build123d-patterns.md",
+      "size": 18231
+    },
+    {
+      "digest": "650fa63102e578c40304ff6d907fd3a1459d264320b0ce6e195a93c803aa69b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/fabrication-limits.md",
+      "path": "skills/lab-hardware-cad/references/fabrication-limits.md",
+      "size": 9255
+    },
+    {
+      "digest": "b4eba2275f51fdad96750b420863151c4b38d34ba387f86b2e4f50757381c26f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/labware-adapters.md",
+      "path": "skills/lab-hardware-cad/references/labware-adapters.md",
+      "size": 10867
+    },
+    {
+      "digest": "09d01a260cb9ff1cba3dfad2dd7dc2fd281c207e43628712a6a598fed2996973",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/microfluidics.md",
+      "path": "skills/lab-hardware-cad/references/microfluidics.md",
+      "size": 9715
+    },
+    {
+      "digest": "acbfc90e50516facf2d302f53eeaeab7c0d9e5dd9f870bafd85b7211f3033037",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/optomechanics.md",
+      "path": "skills/lab-hardware-cad/references/optomechanics.md",
+      "size": 7406
+    },
+    {
+      "digest": "2f246a8ed468f4d899618f4cf95452b235280af27bd8f5ceb7ec25e07497a567",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/references/validation.md",
+      "path": "skills/lab-hardware-cad/references/validation.md",
+      "size": 6825
+    },
+    {
+      "digest": "2d61d29d11908ebf4a05ee403c8fa8ead0c242c952f116065d6be73590ba211f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/scripts/_common.py",
+      "path": "skills/lab-hardware-cad/scripts/_common.py",
+      "size": 27809
+    },
+    {
+      "digest": "e7063701d728fcb4574bc8f0805197c6532ed53dc07552abbad36e860853ebbd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/scripts/check.py",
+      "path": "skills/lab-hardware-cad/scripts/check.py",
+      "size": 28526
+    },
+    {
+      "digest": "145410e14a8e7559c988b70775af4521dde38b905635380f29193f1a6f668481",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/scripts/gen.py",
+      "path": "skills/lab-hardware-cad/scripts/gen.py",
+      "size": 10733
+    },
+    {
+      "digest": "4d6887482d83df8f20093238597d5b8053294ab7e22de0cad24c5ae32e898e21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-lab-hardware-cad/skills/lab-hardware-cad/scripts/snapshot.py",
+      "path": "skills/lab-hardware-cad/scripts/snapshot.py",
+      "size": 10909
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f8e0909fc1eb85dac5f68fcf35ddc56bd26176d49e98f506fc8cd43a88c79961",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/lab-hardware-cad",
+  "schema_version": 1
+}

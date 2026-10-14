@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/iso-standards-readiness",
+  "license": "MIT",
+  "name": "skill-kdense-iso-standards-readiness",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

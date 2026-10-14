@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "f09f32bad2d0c54f4a422cb7bcca7703466e653544b2b6e77a7492e6f29ccf8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/SKILL.md",
+      "path": "skills/deeptools/SKILL.md",
+      "size": 18302
+    },
+    {
+      "digest": "0b03f9e870899668599fc5a0c5f1bed5296dff91f99d8c56007083fa5f5a07c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/assets/quick_reference.md",
+      "path": "skills/deeptools/assets/quick_reference.md",
+      "size": 2163
+    },
+    {
+      "digest": "4e68af06e4f8aeabff35c054167dc1b0b23978823d81fd7b289d53c6453caa2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/core_workflows.md",
+      "path": "skills/deeptools/references/core_workflows.md",
+      "size": 4732
+    },
+    {
+      "digest": "a31066809448d5b7d331a2c2ee7d03154bfb2de681fd5862090c55084837164e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/effective_genome_sizes.md",
+      "path": "skills/deeptools/references/effective_genome_sizes.md",
+      "size": 3609
+    },
+    {
+      "digest": "35803ccab1b5bbe87fb105e409c75bb62f55972525b9bd7ec8affed884ea8cde",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/normalization_methods.md",
+      "path": "skills/deeptools/references/normalization_methods.md",
+      "size": 7832
+    },
+    {
+      "digest": "97b7d596f0425502a18b884d4c52311b5c62813cb223607a00208895eb4e0183",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/review.md",
+      "path": "skills/deeptools/references/review.md",
+      "size": 6415
+    },
+    {
+      "digest": "10252f10461afddf8c8d3cf74655a6ae749aa382545cae51ddb2e1ee80a7cbde",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/tools_reference.md",
+      "path": "skills/deeptools/references/tools_reference.md",
+      "size": 24602
+    },
+    {
+      "digest": "503f2e6332a3a01af8c96321d1de3dc584b75d55437ea0fa60c0e72c5eae4939",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/references/workflows.md",
+      "path": "skills/deeptools/references/workflows.md",
+      "size": 12061
+    },
+    {
+      "digest": "2b1349d8565b08ee72fc938d3506991aeb7c181ffb4e7ded7d6177e765610d77",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/scripts/validate_files.py",
+      "path": "skills/deeptools/scripts/validate_files.py",
+      "size": 10003
+    },
+    {
+      "digest": "9a6dc2a493c5cb5af5ed5ddc97628972ef0096b461395138c9ff1e6d1ec6313c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deeptools/skills/deeptools/scripts/workflow_generator.py",
+      "path": "skills/deeptools/scripts/workflow_generator.py",
+      "size": 18162
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "00ff2defa013bdac964582db72d9cd1f0a27ee7b8cbebc08cec23583986f4613",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/deeptools",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/exa-search",
+  "license": "MIT",
+  "name": "skill-kdense-exa-search",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

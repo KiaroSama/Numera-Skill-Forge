@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "49da3c6f5c81359d48b7c0b4416a212e7106f777b4c7174b2b42ce0c02bd95f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/SKILL.md",
+      "path": "skills/esm/SKILL.md",
+      "size": 10740
+    },
+    {
+      "digest": "a2aad56b7801c393b8db4e0348dbdd121b7a43277a7f258237ae7b15e976c735",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/biohub-platform.md",
+      "path": "skills/esm/references/biohub-platform.md",
+      "size": 5389
+    },
+    {
+      "digest": "7d99506dc1fe931f1ad80dc6a07e80b5b5c8cd199b683c49da822606837e8444",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/esm-c-api.md",
+      "path": "skills/esm/references/esm-c-api.md",
+      "size": 6655
+    },
+    {
+      "digest": "e279f167ef136a8b16e27687086a108e9f5785eb0330edaef78e96b84b505edf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/esm3-api.md",
+      "path": "skills/esm/references/esm3-api.md",
+      "size": 6693
+    },
+    {
+      "digest": "5adf748a4b60b06fdb2236f2d473d2bd4d9ac4ab63d0bdf9e68e99cc7b7541ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/forge-api.md",
+      "path": "skills/esm/references/forge-api.md",
+      "size": 7029
+    },
+    {
+      "digest": "a8685316dc695ac878bcb5c6d27730d989b6e8fe0748350de71e1c8edc7a391b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/review.md",
+      "path": "skills/esm/references/review.md",
+      "size": 6057
+    },
+    {
+      "digest": "8dfd67723fc2ad01aba912bb3522bcaa7706b315ffaf554337d477625f38c41d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/references/workflows.md",
+      "path": "skills/esm/references/workflows.md",
+      "size": 7248
+    },
+    {
+      "digest": "3047f16e784730fd730010e98d0ce5b02643958f2224109df1fe1ba9606c0ada",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-esm/skills/esm/scripts/esm_embeddings.py",
+      "path": "skills/esm/scripts/esm_embeddings.py",
+      "size": 4740
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a8ea336e72c4d1a45a54de7fc70cff430a29fd09e4687e04619bd29acfb1454d",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/esm",
+  "schema_version": 1
+}

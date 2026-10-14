@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/open-notebook",
+  "license": "MIT",
+  "name": "skill-kdense-open-notebook",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

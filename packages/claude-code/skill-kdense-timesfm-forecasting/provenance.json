@@ -1,0 +1,166 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "6f785fe73b133e9af7720fa46cf9013645198950155624889ef611b7b0dc74b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/SKILL.md",
+      "path": "skills/timesfm-forecasting/SKILL.md",
+      "size": 9521
+    },
+    {
+      "digest": "b72da2b712f0615d6441cd7544886a0cac9265aec87d07d8249e8ac901fd8159",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/anomaly-detection/detect_anomalies.py",
+      "path": "skills/timesfm-forecasting/examples/anomaly-detection/detect_anomalies.py",
+      "size": 17923
+    },
+    {
+      "digest": "58a1a831a9f06ce63f8940fca87ec2c1557ad6251660ec957598db5138b83de2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/covariates-forecasting/demo_covariates.py",
+      "path": "skills/timesfm-forecasting/examples/covariates-forecasting/demo_covariates.py",
+      "size": 19081
+    },
+    {
+      "digest": "85d4dc8a83b6710bb0849b194340ae925df004ae14621a6369e9f0b68262a651",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/README.md",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/README.md",
+      "size": 1768
+    },
+    {
+      "digest": "68aedbe20bcdb6ae737a88f36e0152b115acd62955fe95735c0b0f19511738ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/generate_animation_data.py",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/generate_animation_data.py",
+      "size": 2665
+    },
+    {
+      "digest": "0e5d0d0cdc3c41e90ac442db307b534b933301bee635b2a0dd0fc14898c2c355",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/generate_gif.py",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/generate_gif.py",
+      "size": 7332
+    },
+    {
+      "digest": "f4f6004450e0808c9bda4187fc0ffbb1f997425c366389350b596376197983f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/generate_html.py",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/generate_html.py",
+      "size": 21918
+    },
+    {
+      "digest": "e4dca4db1f6f7d9f172d26d7232b0d967e93fef28389b4ae204a6278ca051aff",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/run_example.sh",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/run_example.sh",
+      "size": 435
+    },
+    {
+      "digest": "e365895dbe5c13f19caeac7eca029c79344e47ae65fc6d840f45a1af3edb2204",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/run_forecast.py",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/run_forecast.py",
+      "size": 2628
+    },
+    {
+      "digest": "3a32b67453575fe786983efb9cad4c491b69ee69903cd9d36b58eb04204161a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/temperature_anomaly.csv",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/temperature_anomaly.csv",
+      "size": 591
+    },
+    {
+      "digest": "fe718aff95b212d5a1472a8462d1806cb72041b6e852ab06710d0b8c617ab7f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/examples/global-temperature/visualize_forecast.py",
+      "path": "skills/timesfm-forecasting/examples/global-temperature/visualize_forecast.py",
+      "size": 3891
+    },
+    {
+      "digest": "e56d8921fa04b2312b49cf52ecd8814bbf4a9016a46ceab7f8aad3e6774d639e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/api_reference.md",
+      "path": "skills/timesfm-forecasting/references/api_reference.md",
+      "size": 6232
+    },
+    {
+      "digest": "3bb3910e541f5d81307e2f41b3d4f1f991c34af431d974dbeaacb99db8cdeb94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/data_preparation.md",
+      "path": "skills/timesfm-forecasting/references/data_preparation.md",
+      "size": 3489
+    },
+    {
+      "digest": "8f2a1c53328d59b7ed95351eaec556e4a0d907df2fed61de66890d671b042fd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/examples_and_validation.md",
+      "path": "skills/timesfm-forecasting/references/examples_and_validation.md",
+      "size": 3206
+    },
+    {
+      "digest": "3f261ac97ca9ec4b1c1ccf6f688010a2ee5603ee2eae80dfa33399f13d26a908",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/output_and_config.md",
+      "path": "skills/timesfm-forecasting/references/output_and_config.md",
+      "size": 2372
+    },
+    {
+      "digest": "59a622f82572937e055c2306298e0b4f67da5ba7df6f9825797ef86c87de61b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/performance_tuning.md",
+      "path": "skills/timesfm-forecasting/references/performance_tuning.md",
+      "size": 1759
+    },
+    {
+      "digest": "cd0d4612452062cc49c07594b79ab08a26c43ea9b68cd5ec60a6f698eb362d72",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/system_requirements.md",
+      "path": "skills/timesfm-forecasting/references/system_requirements.md",
+      "size": 3199
+    },
+    {
+      "digest": "9c43ae9428a6022195c4bed1ca6a9d6189f69360b10b68bb203fc40865f7fb00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/timesfm3.md",
+      "path": "skills/timesfm-forecasting/references/timesfm3.md",
+      "size": 4318
+    },
+    {
+      "digest": "fc702f51534461c7c1225287102366a1926cc2ee5e875205ddcfa875c615e5f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/references/workflows.md",
+      "path": "skills/timesfm-forecasting/references/workflows.md",
+      "size": 2803
+    },
+    {
+      "digest": "3fabbf00a3882bd73fd8a2c65e4c161386ea995e2dd322690f1e1f149a1fb590",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/scripts/check_system.py",
+      "path": "skills/timesfm-forecasting/scripts/check_system.py",
+      "size": 16858
+    },
+    {
+      "digest": "1f2969934ea6273a83fdc33fbf3e2e3e34b3fa416421977ea35c5ef669dd0b9b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-timesfm-forecasting/skills/timesfm-forecasting/scripts/forecast_csv.py",
+      "path": "skills/timesfm-forecasting/scripts/forecast_csv.py",
+      "size": 11263
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "62606d213f9ca1e0c6e370017be3ed7788100b2a7cdf8a0c6dc25734383aaaa2",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/timesfm-forecasting",
+  "schema_version": 1
+}

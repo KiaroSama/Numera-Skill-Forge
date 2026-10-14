@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "584d1c35d513f87616df9bcf7ddc8c48ab38cfbfad18d55c8481578d1c0d6f1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/SKILL.md",
+      "path": "skills/transformers/SKILL.md",
+      "size": 11232
+    },
+    {
+      "digest": "86249b51bcbae468ba36ced4685f09b20282986413733d547f6bdec248fd5d5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/generation.md",
+      "path": "skills/transformers/references/generation.md",
+      "size": 11339
+    },
+    {
+      "digest": "b9926cc003e3c625ec1dc47a7058fc4a16611ad89c8a9f0d0a714e83a97f79ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/models.md",
+      "path": "skills/transformers/references/models.md",
+      "size": 11279
+    },
+    {
+      "digest": "0319356fc1a14050072e5506ac0413921ac6a715b44fcebea3dbbbaf5dcdb2a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/pipelines.md",
+      "path": "skills/transformers/references/pipelines.md",
+      "size": 12074
+    },
+    {
+      "digest": "289bec219e4952e508a4ecd59dbacfd11b723471463fdcf03dc65d9eafc580cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/review.md",
+      "path": "skills/transformers/references/review.md",
+      "size": 8332
+    },
+    {
+      "digest": "a001db31cdcd78e596f9de9a0cbe1c758eb32d6e73d4b729ab6a7731d15c7434",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/tokenizers.md",
+      "path": "skills/transformers/references/tokenizers.md",
+      "size": 11273
+    },
+    {
+      "digest": "11388a58d8f2c8c22c85a871e787273251a8799647f814f6d96c77fb132a2666",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-transformers/skills/transformers/references/training.md",
+      "path": "skills/transformers/references/training.md",
+      "size": 15120
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2b51ce4fcaf9df290c02b6ca7f6bfa1380a0f78165a5858c2388e6fa982b1e79",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/transformers",
+  "schema_version": 1
+}

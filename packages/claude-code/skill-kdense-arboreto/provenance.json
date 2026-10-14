@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "38ff6f24b8fd4a86e2a57ae7bb7669fe4ce401f7375efcc82a6c004f4c51d344",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/skills/arboreto/SKILL.md",
+      "path": "skills/arboreto/SKILL.md",
+      "size": 10661
+    },
+    {
+      "digest": "4fe3e34ac04d1a01017c5beb0a36626785aa99910baafa13d08cc3d49a4a5f15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/skills/arboreto/references/algorithms.md",
+      "path": "skills/arboreto/references/algorithms.md",
+      "size": 4411
+    },
+    {
+      "digest": "9a52ced456c30eb8ff8d59f0d3e1faa4446f7298aa56f83adeeeee18b974b7eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/skills/arboreto/references/basic_inference.md",
+      "path": "skills/arboreto/references/basic_inference.md",
+      "size": 5264
+    },
+    {
+      "digest": "e2cc1724aeb569cf3725b25e576e61f1baf962bffa170282387aebd7753e8476",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/skills/arboreto/references/distributed_computing.md",
+      "path": "skills/arboreto/references/distributed_computing.md",
+      "size": 5019
+    },
+    {
+      "digest": "830a0e474a83d7f8fe5acd465d75b0ca5eed49858dd8cbedd34113222fea7944",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arboreto/skills/arboreto/scripts/basic_grn_inference.py",
+      "path": "skills/arboreto/scripts/basic_grn_inference.py",
+      "size": 5033
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d35f0429ce26e0403fccc6baf615995936cce9777562543606ff714dbe9ad3de",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/arboreto",
+  "schema_version": 1
+}

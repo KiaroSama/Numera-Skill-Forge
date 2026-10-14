@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/SKILL.md",
+      "path": "skills/seaborn/SKILL.md",
+      "size": 13464
+    },
+    {
+      "digest": "9ac123a232f3aca67a71e0d8132e2b9bd60ba0adcd8871e0368aea9dfc494577",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/examples.md",
+      "path": "skills/seaborn/references/examples.md",
+      "size": 22634
+    },
+    {
+      "digest": "0b667b9154898ce9d6096cd6bc7af72ca9e50f8f55a7dbcc4d0c03a3f05ff08a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/function_reference.md",
+      "path": "skills/seaborn/references/function_reference.md",
+      "size": 28833
+    },
+    {
+      "digest": "03831ff54cc1885934c9bb51223fded6f6ff282f23c56653b35641c8c073f27a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/grids_and_levels.md",
+      "path": "skills/seaborn/references/grids_and_levels.md",
+      "size": 2995
+    },
+    {
+      "digest": "c3ddb1b2f97d77d9c70c1f079c99b9355b3d8c18874912522032be14d653ea17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/objects_interface.md",
+      "path": "skills/seaborn/references/objects_interface.md",
+      "size": 11394
+    },
+    {
+      "digest": "d7b8767e1533c5753d2b8792bcc2edff21c28f116f6e05bb200a2b3b1a0799c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/palettes_and_theming.md",
+      "path": "skills/seaborn/references/palettes_and_theming.md",
+      "size": 3004
+    },
+    {
+      "digest": "65c6afdc6551f8ec240a8b3316f2f4739a4734b59267b9c3f486ad6428458cac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/patterns_and_troubleshooting.md",
+      "path": "skills/seaborn/references/patterns_and_troubleshooting.md",
+      "size": 5050
+    },
+    {
+      "digest": "9a3e88895a33a2d9329b365987491981a695226fb9ed97ccb91f334d28c56385",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-seaborn/skills/seaborn/references/plotting_functions.md",
+      "path": "skills/seaborn/references/plotting_functions.md",
+      "size": 6650
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "df6bc49e4523119d2e62734e94469c857633d8f543d9e39f46985442f3235e5d",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/seaborn",
+  "schema_version": 1
+}

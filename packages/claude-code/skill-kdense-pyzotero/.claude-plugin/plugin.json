@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/pyzotero",
+  "license": "MIT",
+  "name": "skill-kdense-pyzotero",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "version": "1.0.0"
+}

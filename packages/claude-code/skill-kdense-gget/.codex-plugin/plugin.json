@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/gget",
+  "license": "MIT",
+  "name": "skill-kdense-gget",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

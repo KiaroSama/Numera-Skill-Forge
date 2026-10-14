@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "cdb027004996d313d31b55f6b93306de45306a89b8a4a792e94c36cf2d1dea20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/SKILL.md",
+      "path": "skills/genomic-intelligence/SKILL.md",
+      "size": 24826
+    },
+    {
+      "digest": "4644e9986e698fd0706d02d2e3e41cb7591e3e62bed8c4c9021e625d0496903e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/references/api-and-auth.md",
+      "path": "skills/genomic-intelligence/references/api-and-auth.md",
+      "size": 8372
+    },
+    {
+      "digest": "eaecc14ec4abd21d4b715341c58b9324ad8d2e10df000c43935be78b13be3c6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/references/mcp.md",
+      "path": "skills/genomic-intelligence/references/mcp.md",
+      "size": 6018
+    },
+    {
+      "digest": "dfd1e491e566df6057a8fc0b8410223b17d806e30203e5c0127234641114f0a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/references/review.md",
+      "path": "skills/genomic-intelligence/references/review.md",
+      "size": 4223
+    },
+    {
+      "digest": "200d7f914c2a4b2cb39f0e27f359fbc6b2df46f36a775af6c0aaec66623b87f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/references/sequence-acquisition.md",
+      "path": "skills/genomic-intelligence/references/sequence-acquisition.md",
+      "size": 6252
+    },
+    {
+      "digest": "094dc336002abd1d8396c48ccafb1c11b4ba5a19e5612d4ab14ead4b1d19fe18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-intelligence/skills/genomic-intelligence/references/tasks.md",
+      "path": "skills/genomic-intelligence/references/tasks.md",
+      "size": 12924
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bb4fcd504ac7d8dac3bb5894073e44637824112fddd3bd0755670b96873a41d3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/genomic-intelligence",
+  "schema_version": 1
+}

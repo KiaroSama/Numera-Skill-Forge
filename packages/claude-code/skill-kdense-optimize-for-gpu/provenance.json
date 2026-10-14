@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e31bdb10b8ea66e5ec438583755999b66b9afab90f2583e1d500b8457ef28054",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/SKILL.md",
+      "path": "skills/optimize-for-gpu/SKILL.md",
+      "size": 13786
+    },
+    {
+      "digest": "55529fbb284e676c99410f16470945af360c79a3d0eafc627212c78bf633cd6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/code_transformation_patterns.md",
+      "path": "skills/optimize-for-gpu/references/code_transformation_patterns.md",
+      "size": 10031
+    },
+    {
+      "digest": "9632bd867bf09dcf46e9786ec41c5c99ff00298eb46ada9d164984c6f54ac119",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cucim.md",
+      "path": "skills/optimize-for-gpu/references/cucim.md",
+      "size": 21586
+    },
+    {
+      "digest": "3ba80e6a77afc7c52023ef69a2fe432c71b21ac7179e56e3bd64f0b0b0f90422",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cudf.md",
+      "path": "skills/optimize-for-gpu/references/cudf.md",
+      "size": 21181
+    },
+    {
+      "digest": "36cf83e6d537ca9906c4b4de0ed6b5ecf035c73b42bf879e39643f97796bdb38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cugraph.md",
+      "path": "skills/optimize-for-gpu/references/cugraph.md",
+      "size": 27992
+    },
+    {
+      "digest": "637082bb63320a3a306965c8f1f0b27b7ec59d12a96144b7b4aad2f504de34cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cuml.md",
+      "path": "skills/optimize-for-gpu/references/cuml.md",
+      "size": 25020
+    },
+    {
+      "digest": "d47335b6b423e0936eb0e31de8847042b3f92541bf4a33773acb457a8b3311b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cupy.md",
+      "path": "skills/optimize-for-gpu/references/cupy.md",
+      "size": 22116
+    },
+    {
+      "digest": "267d7f5b9ff0df691facf5c5c24ae269af009aaf215bf77f423547f69de9633c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cuspatial.md",
+      "path": "skills/optimize-for-gpu/references/cuspatial.md",
+      "size": 15460
+    },
+    {
+      "digest": "f0a518558336dc13032be0abb89c93d72b74be12e7cf7660b83b184a745e85d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cuvs.md",
+      "path": "skills/optimize-for-gpu/references/cuvs.md",
+      "size": 22782
+    },
+    {
+      "digest": "d0b135fa0218d8ed2a396e7755d9c7d95d489718eb5cdb2ecbb4bcd63feddfef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/cuxfilter.md",
+      "path": "skills/optimize-for-gpu/references/cuxfilter.md",
+      "size": 19257
+    },
+    {
+      "digest": "89eae8f717c6685d8c834d6699bbcb06cd6091c6d761576f2d2d7f8c011b7f2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/decision_framework.md",
+      "path": "skills/optimize-for-gpu/references/decision_framework.md",
+      "size": 16091
+    },
+    {
+      "digest": "389dd86573ba992449b9d2b59a4220778bfe7bd938f49ca55e871c136406ec71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/installation.md",
+      "path": "skills/optimize-for-gpu/references/installation.md",
+      "size": 5656
+    },
+    {
+      "digest": "62ebe035efd83846c3c6115f58418b75b86a744277755db49e5761d808aa1ec3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/kvikio.md",
+      "path": "skills/optimize-for-gpu/references/kvikio.md",
+      "size": 20575
+    },
+    {
+      "digest": "48c39401f0b4bf7179ca9b7d65d2b828a8a9c57533f06ff39ce0f735c6b89cb6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/numba.md",
+      "path": "skills/optimize-for-gpu/references/numba.md",
+      "size": 26944
+    },
+    {
+      "digest": "3d85e8dfb5b4f460bb0875ff2be2ce5cdad2011d203f5d599ebab45ab4d7c79e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/raft.md",
+      "path": "skills/optimize-for-gpu/references/raft.md",
+      "size": 12050
+    },
+    {
+      "digest": "fc310827045d5b5eeeceee53cccd96413cd2e8ee06ab2892b672b8d3d84e5072",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-optimize-for-gpu/skills/optimize-for-gpu/references/warp.md",
+      "path": "skills/optimize-for-gpu/references/warp.md",
+      "size": 20821
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0f60aaff7117bbad5b836e81ef7719ba7699f767a034f765c649be2b6b05a08e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/optimize-for-gpu",
+  "schema_version": 1
+}

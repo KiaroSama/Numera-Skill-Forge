@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "123b66d6701c7c0587d0a615a2394caee52e62745b3fd31176381ea64aaa794a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/skills/cellxgene-census/SKILL.md",
+      "path": "skills/cellxgene-census/SKILL.md",
+      "size": 13648
+    },
+    {
+      "digest": "231a947443ea6bd1f3b827951a4db2603a2dc203908f59bfeb24ca55a8f913a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/skills/cellxgene-census/references/api_access.md",
+      "path": "skills/cellxgene-census/references/api_access.md",
+      "size": 5917
+    },
+    {
+      "digest": "4ddd1a51d473f2402cef91cda2c94cd148837df0e56ce684614d3d0c845b5fb1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/skills/cellxgene-census/references/census_schema.md",
+      "path": "skills/cellxgene-census/references/census_schema.md",
+      "size": 9491
+    },
+    {
+      "digest": "0421a761bfccb08419ce14ffffcf3100618aeab84c3a1329cdc7fb136585525f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/skills/cellxgene-census/references/common_patterns.md",
+      "path": "skills/cellxgene-census/references/common_patterns.md",
+      "size": 15522
+    },
+    {
+      "digest": "28580f45bfeba8c2b1594006956cbd92c7c2c5211fa58fc667bb51bf81b4d455",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cellxgene-census/skills/cellxgene-census/references/core_workflow_patterns.md",
+      "path": "skills/cellxgene-census/references/core_workflow_patterns.md",
+      "size": 10990
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dbbcc9ded69b14c33d7a41191817c623237a1ca8121f58d3af252cc898cc123e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/cellxgene-census",
+  "schema_version": 1
+}

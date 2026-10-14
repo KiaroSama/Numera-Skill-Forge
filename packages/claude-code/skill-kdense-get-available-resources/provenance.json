@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "54044d598fce28fca2ce50e7895f44423b070493db2f9c96ff0445bee4d3689d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/SKILL.md",
+      "path": "skills/get-available-resources/SKILL.md",
+      "size": 11697
+    },
+    {
+      "digest": "cb31d9340e5c7da72aac1728448de61e90ff9c6022735ab90976457f6d4dbd7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/references/resource_semantics.md",
+      "path": "skills/get-available-resources/references/resource_semantics.md",
+      "size": 11198
+    },
+    {
+      "digest": "789dde9d5d1ce0225a5a205b0d300f4d9c7442bbe687ff26a7819d5349687fd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/references/snapshot_schema.md",
+      "path": "skills/get-available-resources/references/snapshot_schema.md",
+      "size": 6580
+    },
+    {
+      "digest": "4499cd3a7bbeb56ba1d00d9688450128b4eba541c8dc7683cc92a654632d1af7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/references/sources.md",
+      "path": "skills/get-available-resources/references/sources.md",
+      "size": 8350
+    },
+    {
+      "digest": "264d5ccb04790164d2c5ae53fa8b470704d2094fd17f687304ede14ba45aa1a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/scripts/_common.py",
+      "path": "skills/get-available-resources/scripts/_common.py",
+      "size": 6566
+    },
+    {
+      "digest": "0635a80fb128dbef7297b887ad4173f260193272e3b25ff43f14f9dad8f0f377",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/scripts/accelerator_diagnostics.py",
+      "path": "skills/get-available-resources/scripts/accelerator_diagnostics.py",
+      "size": 4643
+    },
+    {
+      "digest": "91eed1feaabe1f254c1d2a0775295ed95eea710b9d3e5127b6a13310f49c49d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/scripts/detect_resources.py",
+      "path": "skills/get-available-resources/scripts/detect_resources.py",
+      "size": 66122
+    },
+    {
+      "digest": "b89cfefe02422814b1b7df2942e1d4bafec24159c38b2765b869944bbe3a1a92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/scripts/plan_workload.py",
+      "path": "skills/get-available-resources/scripts/plan_workload.py",
+      "size": 11150
+    },
+    {
+      "digest": "596f7a214f5dd6f9f2a641c5ecf52cf9d851617460f2c8926318fcb5d40693f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-get-available-resources/skills/get-available-resources/scripts/snapshot_tools.py",
+      "path": "skills/get-available-resources/scripts/snapshot_tools.py",
+      "size": 17976
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "032a35afeb5f80788c62676756fa46909bcb04a8f00b8ea2a6868bac0fc51a84",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/get-available-resources",
+  "schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "aa9bb0aa10acefa52621acd9ba06604997ed2f3d20533359f47d4b24dfdc9494",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/skills/tamarind/SKILL.md",
+      "path": "skills/tamarind/SKILL.md",
+      "size": 13759
+    },
+    {
+      "digest": "79006c624fdd027952bc97785e7190acd0ef7df6f3586f7a11a458def4e1b4cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/skills/tamarind/references/api_reference.md",
+      "path": "skills/tamarind/references/api_reference.md",
+      "size": 12434
+    },
+    {
+      "digest": "a539a62824b1d2960cdc86e730ec362c1025c3ea7169d8a74400d12d55953c87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/skills/tamarind/references/examples.md",
+      "path": "skills/tamarind/references/examples.md",
+      "size": 5438
+    },
+    {
+      "digest": "6e624c5becaefa1feb528e0959a6422f4775dbeeb56f7af9249f5b0b17fd0511",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/skills/tamarind/references/tool_catalog.md",
+      "path": "skills/tamarind/references/tool_catalog.md",
+      "size": 3983
+    },
+    {
+      "digest": "4b7c809e30f1e5c4bdd2645e8a1fb8f233f58520edeef3a6dd8b4fab53d16095",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tamarind/skills/tamarind/references/workflows.md",
+      "path": "skills/tamarind/references/workflows.md",
+      "size": 11662
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e264344050397e721471be890a862b542f1aad3d507aa84787eb4763d6341a5e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/tamarind",
+  "schema_version": 1
+}

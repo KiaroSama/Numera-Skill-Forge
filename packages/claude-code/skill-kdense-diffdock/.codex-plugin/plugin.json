@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/diffdock",
+  "license": "MIT",
+  "name": "skill-kdense-diffdock",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

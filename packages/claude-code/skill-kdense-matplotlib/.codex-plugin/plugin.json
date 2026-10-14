@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/matplotlib",
+  "license": "MIT",
+  "name": "skill-kdense-matplotlib",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

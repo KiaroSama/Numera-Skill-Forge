@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowkit/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "47c4dcb907dc6ec15daa4bdf1855e9c96860ef1a558507bef0084d79c2d1c57c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowkit/skills/flowkit/SKILL.md",
+      "path": "skills/flowkit/SKILL.md",
+      "size": 8749
+    },
+    {
+      "digest": "d9a84ff2a42a3148c8e90e50a8b39fbfd8a30e52852edb98103f66cc21db80f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowkit/skills/flowkit/references/compensation-and-gating.md",
+      "path": "skills/flowkit/references/compensation-and-gating.md",
+      "size": 4878
+    },
+    {
+      "digest": "c864c2a5ff1c953e0374b6e44f162da59710c81edce50168547862d1fe034b7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowkit/skills/flowkit/references/workspaces-and-results.md",
+      "path": "skills/flowkit/references/workspaces-and-results.md",
+      "size": 6505
+    },
+    {
+      "digest": "b186ca0b7c17bda61471dace814bbb60af001a06f66dacb801fb21f1bbf689f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowkit/skills/flowkit/scripts/analyze_gates.py",
+      "path": "skills/flowkit/scripts/analyze_gates.py",
+      "size": 8777
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dded80a6b642fad07c5f2350cd581d6f2a28d9dda73aafa4510e5fb5547570ea",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/flowkit",
+  "schema_version": 1
+}

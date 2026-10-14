@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/geomaster",
+  "license": "MIT",
+  "name": "skill-kdense-geomaster",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "version": "1.0.0"
+}

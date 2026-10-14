@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "9e6c034bb4acbf0972fda18892d2feea907885ac5ad7194d220182d8810295a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/SKILL.md",
+      "path": "skills/statsmodels/SKILL.md",
+      "size": 12681
+    },
+    {
+      "digest": "30422e14c2e05bfc4a3da924086c8f067b6e4eb9c1c828ec7f25ab79ed16d54e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/discrete_choice.md",
+      "path": "skills/statsmodels/references/discrete_choice.md",
+      "size": 18733
+    },
+    {
+      "digest": "dca241c58df3b08c05aa4f0a96e4efd8ebb24ce37c57dd23402c236f86db57e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/glm.md",
+      "path": "skills/statsmodels/references/glm.md",
+      "size": 18448
+    },
+    {
+      "digest": "a14ce5ba795442bc8805f6d59e9a397efe9e6587b09b19dcaba40e88d3c4654c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/linear_models.md",
+      "path": "skills/statsmodels/references/linear_models.md",
+      "size": 14048
+    },
+    {
+      "digest": "5666665df87dccdb82ddae0d2ffcf13c7e681fee6b410ea279a8edf4688ad75a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/model_selection.md",
+      "path": "skills/statsmodels/references/model_selection.md",
+      "size": 3500
+    },
+    {
+      "digest": "7794c4a3d7c82e647f4705caa47614796f34cc07db9d11bc057dec2310e9787c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/modeling_capabilities.md",
+      "path": "skills/statsmodels/references/modeling_capabilities.md",
+      "size": 6244
+    },
+    {
+      "digest": "202c61810e3bb59a72f1736c6624899c8ad0c2eabffbf11eff98a987f13eaa2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/quick_start_guide.md",
+      "path": "skills/statsmodels/references/quick_start_guide.md",
+      "size": 4850
+    },
+    {
+      "digest": "38d49c7d705d250376c013be489bc5dad2b94b9373e1c7aaa0afe51980af29da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/review.md",
+      "path": "skills/statsmodels/references/review.md",
+      "size": 7035
+    },
+    {
+      "digest": "23fd23d9b415b9060151409220f03f203cc1775d517b51d978d5ffe8edad009e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/stats_diagnostics.md",
+      "path": "skills/statsmodels/references/stats_diagnostics.md",
+      "size": 24066
+    },
+    {
+      "digest": "29b97f1de7fedd5be582cd6e4168403978a5094f54211ccfc53b896f3bece04e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statsmodels/skills/statsmodels/references/time_series.md",
+      "path": "skills/statsmodels/references/time_series.md",
+      "size": 21839
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c1adf91f58eda06c21e57aa10fdb77ae39828520c5f7d7015fe193da753ab9c5",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/statsmodels",
+  "schema_version": 1
+}

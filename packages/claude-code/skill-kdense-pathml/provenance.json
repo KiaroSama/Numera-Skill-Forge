@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/SKILL.md",
+      "path": "skills/pathml/SKILL.md",
+      "size": 13103
+    },
+    {
+      "digest": "ffb0e9e16b13e17a4d0651edca57335bd9d4c085bc59ecb41f6807656b5cf5a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/data_management.md",
+      "path": "skills/pathml/references/data_management.md",
+      "size": 13560
+    },
+    {
+      "digest": "dbe86e21af1e97d0a43a84540cb28d5572ba3bf41ae1c0579982cb0ab2b21b66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/graphs.md",
+      "path": "skills/pathml/references/graphs.md",
+      "size": 11567
+    },
+    {
+      "digest": "20c6fb4f0d6fce55feb6821e20b48f4322c70e6e7bb939ae03d6794fd32bb6f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/image_loading.md",
+      "path": "skills/pathml/references/image_loading.md",
+      "size": 11591
+    },
+    {
+      "digest": "300dd2aab88bd976237d2bdb20f52b567097fccbb1a965ebee0128f66f71337d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/machine_learning.md",
+      "path": "skills/pathml/references/machine_learning.md",
+      "size": 14065
+    },
+    {
+      "digest": "54e45a60e2bd19412bbbc848eb28a2160fe7d074df77b571c76763c22279f9aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/multiparametric.md",
+      "path": "skills/pathml/references/multiparametric.md",
+      "size": 13935
+    },
+    {
+      "digest": "26887b2bed4e7486580c250b2c9114146134058fe80e67dcf7585a0ce2cbd15e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/references/preprocessing.md",
+      "path": "skills/pathml/references/preprocessing.md",
+      "size": 12260
+    },
+    {
+      "digest": "6c811608f2bcb66839f05dc3b9563691fc41c3468f503cf914b1ff59c46a2ae1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/_common.py",
+      "path": "skills/pathml/scripts/_common.py",
+      "size": 12692
+    },
+    {
+      "digest": "966c9cd9aee301ac047a1213c00cba617583c3415110601dd0b36d5b5423e7ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/image_qc.py",
+      "path": "skills/pathml/scripts/image_qc.py",
+      "size": 11238
+    },
+    {
+      "digest": "6e8667a22515a84d10b65de44a36b332ccc4eb5b038571144698cc40a2331d68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/plan_inference.py",
+      "path": "skills/pathml/scripts/plan_inference.py",
+      "size": 9721
+    },
+    {
+      "digest": "ffa2d20144e3af9e27799a8c4731c9983fd1530a94ca3f29acc616ade6e00ef0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/plan_pipeline.py",
+      "path": "skills/pathml/scripts/plan_pipeline.py",
+      "size": 11320
+    },
+    {
+      "digest": "a9476e11edde2725dae2e217cff2e1abf720bdf84edb07ce617e5a5f89778537",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/slide_manifest.py",
+      "path": "skills/pathml/scripts/slide_manifest.py",
+      "size": 14530
+    },
+    {
+      "digest": "0aaad70642e36f6c4eb5bc5328c87a401a7ec18030f15d63af23a97dda4d41ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathml/skills/pathml/scripts/validate_spatial_schema.py",
+      "path": "skills/pathml/scripts/validate_spatial_schema.py",
+      "size": 16809
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "29a59b05e7272d93da4ee20350945b33aaa803fb993891f740a05673ef791346",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pathml",
+  "schema_version": 1
+}

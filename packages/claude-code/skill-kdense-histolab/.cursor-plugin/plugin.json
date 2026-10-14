@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/histolab",
+  "license": "MIT",
+  "name": "skill-kdense-histolab",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

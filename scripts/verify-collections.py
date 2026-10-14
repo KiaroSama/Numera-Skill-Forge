@@ -44,6 +44,11 @@ for key, entry in entries.items():
     else:
         assert skill.get("notices"), "Original grant missing"
         assert skill["notices"][0]["digest"] == skill["license_digest"]
+    for name, digest in skill.get("reviewed_documents", {}).items():
+        assert skill["root"].startswith("skills/") and len(Path(skill["root"]).parts) == 2
+        assert name == skill["root"] + "/references/secrets.md"
+        evidence = next(file for file in entry["files"] if file["path"] == name)
+        assert evidence["digest"] == digest, "Reviewed public document changed"
     for index, notice in enumerate(skill.get("notices", [])):
         original = root / notice["path"]
         copied = root / prefix / f"upstream-notices/original-{index}.txt"

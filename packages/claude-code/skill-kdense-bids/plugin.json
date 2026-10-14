@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/bids",
+  "license": "MIT",
+  "name": "skill-kdense-bids",
+  "version": "1.0.0"
+}

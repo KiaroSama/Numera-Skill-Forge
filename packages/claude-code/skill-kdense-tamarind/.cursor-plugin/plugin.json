@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/tamarind",
+  "license": "MIT",
+  "name": "skill-kdense-tamarind",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

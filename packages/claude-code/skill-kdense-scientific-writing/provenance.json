@@ -1,0 +1,236 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/SKILL.md",
+      "path": "skills/scientific-writing/SKILL.md",
+      "size": 14897
+    },
+    {
+      "digest": "2bb69499426ed6727c1701bae752c2e902151cbf69963f8bcf25b9e54cc20724",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+      "path": "skills/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+      "size": 2713
+    },
+    {
+      "digest": "04a590ac47ed61dcc7cd88a26d51243cf178fe6ada99d4000ca225e1b5f6f20a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/authorship_template.json",
+      "path": "skills/scientific-writing/assets/authorship_template.json",
+      "size": 1239
+    },
+    {
+      "digest": "cfb7a9f44cd1e5ef47ccdb3e32ac0a25b72d30e51343faace9bf07c00e3a0659",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/claim_evidence_template.csv",
+      "path": "skills/scientific-writing/assets/claim_evidence_template.csv",
+      "size": 218
+    },
+    {
+      "digest": "2ea6f468ab6fab45c4db3616fbaddcc2ae706b3a26d6745b4cf74ddb53266872",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/consistency_manifest_template.json",
+      "path": "skills/scientific-writing/assets/consistency_manifest_template.json",
+      "size": 891
+    },
+    {
+      "digest": "914052ff25b44072a07dce2ae8171524b717894ad7d2103054356115b9dd6c22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/manuscript_manifest_template.json",
+      "path": "skills/scientific-writing/assets/manuscript_manifest_template.json",
+      "size": 1012
+    },
+    {
+      "digest": "55305ba311ff4e2459a31a99b3f1b9da44d79499332399a9216b5f92cb412ab2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/manuscript_scaffold.md",
+      "path": "skills/scientific-writing/assets/manuscript_scaffold.md",
+      "size": 1979
+    },
+    {
+      "digest": "886ca599622c1dfaedde7649ec47e973b4fbe6081cac6a6afaf24ace899d46a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/reporting_coverage_template.json",
+      "path": "skills/scientific-writing/assets/reporting_coverage_template.json",
+      "size": 189
+    },
+    {
+      "digest": "215f8c55bd40bda0569f2e81556030ff575319e25276b1e1ae70e2cc7475ddcd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/reporting_guidelines.json",
+      "path": "skills/scientific-writing/assets/reporting_guidelines.json",
+      "size": 16009
+    },
+    {
+      "digest": "fc6f65a8571b717691ac717f325825a608190f271e8b79650b711cc95f5b0a36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/assets/source_manifest_template.json",
+      "path": "skills/scientific-writing/assets/source_manifest_template.json",
+      "size": 599
+    },
+    {
+      "digest": "0200e3ad8eafaedec26bce2b9895cda81c6c9325790507509134373a0ca41fe2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/authorship_ai_confidentiality.md",
+      "path": "skills/scientific-writing/references/authorship_ai_confidentiality.md",
+      "size": 4919
+    },
+    {
+      "digest": "338c08d8fba6fbf7437aad4dd99db5bccf3f597fa6650c562fae0c7ca422e572",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/citation_styles.md",
+      "path": "skills/scientific-writing/references/citation_styles.md",
+      "size": 3945
+    },
+    {
+      "digest": "05b15a587277e37dbc6161532dce58c8ccf647e22f21861ebcbac22954453e75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/cli_reference.md",
+      "path": "skills/scientific-writing/references/cli_reference.md",
+      "size": 4101
+    },
+    {
+      "digest": "346c867d71e8cf1db6e3684a64714925a3966fcaeb1db853d7ddb07c6a6f607b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/evidence_workflow.md",
+      "path": "skills/scientific-writing/references/evidence_workflow.md",
+      "size": 5033
+    },
+    {
+      "digest": "212d10f3e7a01325d2518c4aab54a4fc04a67e4aa94e959cead199c425a0f4d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/figures_tables.md",
+      "path": "skills/scientific-writing/references/figures_tables.md",
+      "size": 3915
+    },
+    {
+      "digest": "8a1201f8e58a045736a5bc65a47f239c894be6946716e969c0b77aa90a7e8e39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/imrad_structure.md",
+      "path": "skills/scientific-writing/references/imrad_structure.md",
+      "size": 4512
+    },
+    {
+      "digest": "aefbd73c5a8a23be076b210a910f026ece748a73b4593cb99e885879bd61d2c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/journal_policies.md",
+      "path": "skills/scientific-writing/references/journal_policies.md",
+      "size": 3010
+    },
+    {
+      "digest": "c269fd256bda6a9389bfd5ffefa8eff8876b96d92f8391e8a01fa80910bb35d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/professional_report_formatting.md",
+      "path": "skills/scientific-writing/references/professional_report_formatting.md",
+      "size": 3230
+    },
+    {
+      "digest": "4a74d4613742bb26fe3d74596998b9e75ea8a2694a012222b6d9636e121a1f0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/reporting_guidelines.md",
+      "path": "skills/scientific-writing/references/reporting_guidelines.md",
+      "size": 4785
+    },
+    {
+      "digest": "f8f91010537acf4b78616d7410d23b85030f94d66e9d36db03d6e632ffb56100",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/research_integrity_open_science.md",
+      "path": "skills/scientific-writing/references/research_integrity_open_science.md",
+      "size": 4149
+    },
+    {
+      "digest": "1692a3bea432dfde6eb1e7ca7054d0dd8652b1bef6b97322ea3c30f0ff68d5b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/source_ledger.md",
+      "path": "skills/scientific-writing/references/source_ledger.md",
+      "size": 11473
+    },
+    {
+      "digest": "58d4b32f63446c0b082f163314fdcf0d41a50568ad392d34ba992e24fadae764",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/references/writing_principles.md",
+      "path": "skills/scientific-writing/references/writing_principles.md",
+      "size": 3904
+    },
+    {
+      "digest": "8cc192d82d219d1ec9720f8a8ab0c440fb35f2562fdeaeb7432a38d18e5e7b42",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/_common.py",
+      "path": "skills/scientific-writing/scripts/_common.py",
+      "size": 7977
+    },
+    {
+      "digest": "6074f51663e6863cf28168824a3f440b5acce9734c3c3f72590ba89c88a23c06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/audit_claims.py",
+      "path": "skills/scientific-writing/scripts/audit_claims.py",
+      "size": 10039
+    },
+    {
+      "digest": "5bd1f0dcbcccdac31e422b5a7b220d1ab1272a7eed906a62c0a5f2518e495d87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/check_consistency.py",
+      "path": "skills/scientific-writing/scripts/check_consistency.py",
+      "size": 14209
+    },
+    {
+      "digest": "a262d6e935e69ec1c1f25a36b8a12b6905b3f3dee0a11d94557d3f69857c5f07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/check_references.py",
+      "path": "skills/scientific-writing/scripts/check_references.py",
+      "size": 7075
+    },
+    {
+      "digest": "08ff45315c4dadd1c91104e3639b6bec7a6086c000830dc9d0b2b965895b3398",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/lint_manuscript.py",
+      "path": "skills/scientific-writing/scripts/lint_manuscript.py",
+      "size": 5881
+    },
+    {
+      "digest": "69e9a82c7d0608646872c0f4ad08b538f0c67175b48601d9d52ea527334ce4ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/scaffold_manuscript.py",
+      "path": "skills/scientific-writing/scripts/scaffold_manuscript.py",
+      "size": 4328
+    },
+    {
+      "digest": "d130036ab1df6486cb54431a168207af03a52c626459ba7471041b0ee5aab567",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/select_reporting_guidelines.py",
+      "path": "skills/scientific-writing/scripts/select_reporting_guidelines.py",
+      "size": 7580
+    },
+    {
+      "digest": "31572a61ff61fe58f0b3f4c5b0e0e44bd9de5b865772f563dd5413876c186788",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/validate_authorship.py",
+      "path": "skills/scientific-writing/scripts/validate_authorship.py",
+      "size": 11518
+    },
+    {
+      "digest": "6f87919db5aa5fb5ba929b6566c892a0d6881a9e46d8a9646186c6cac01e13d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-writing/skills/scientific-writing/scripts/validate_manifest.py",
+      "path": "skills/scientific-writing/scripts/validate_manifest.py",
+      "size": 14393
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7c2dfd9927bee8b6c34cff17c56f994c04a1b1f87559de26acb7c6a32d2259b7",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-writing",
+  "schema_version": 1
+}

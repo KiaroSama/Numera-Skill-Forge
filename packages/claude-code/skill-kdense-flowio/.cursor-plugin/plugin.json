@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/flowio",
+  "license": "MIT",
+  "name": "skill-kdense-flowio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

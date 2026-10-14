@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nmrglue/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nmrglue/skills/nmrglue/SKILL.md",
+      "path": "skills/nmrglue/SKILL.md",
+      "size": 8448
+    },
+    {
+      "digest": "127f6796efaf47a8349f1061c01f31202b34fe20fd4baba13d4f4dc8982feb1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nmrglue/skills/nmrglue/assets/processing.json",
+      "path": "skills/nmrglue/assets/processing.json",
+      "size": 364
+    },
+    {
+      "digest": "0d220724cff854d39aeabdab4fa20ae7b9c73f38fe7a1aa653082985e9fae736",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nmrglue/skills/nmrglue/references/acquisition-and-validation.md",
+      "path": "skills/nmrglue/references/acquisition-and-validation.md",
+      "size": 6157
+    },
+    {
+      "digest": "8268bd1b0b445c373e4d105faae6485dee1b41506d09cec9cd7ba8c307e6c81d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nmrglue/skills/nmrglue/scripts/process_1d.py",
+      "path": "skills/nmrglue/scripts/process_1d.py",
+      "size": 10787
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fa217abfac46864d5abbb48e7564a73258135fa7b8dce78ec5643566556b3d47",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/nmrglue",
+  "schema_version": 1
+}

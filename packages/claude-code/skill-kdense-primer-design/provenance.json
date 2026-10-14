@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/SKILL.md",
+      "path": "skills/primer-design/SKILL.md",
+      "size": 16361
+    },
+    {
+      "digest": "62f3a9a292b7c176425a4a4c4ee10b45acd7bc1217bea33d6fd492f0cbd7bf1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/assets/assay-report-template.md",
+      "path": "skills/primer-design/assets/assay-report-template.md",
+      "size": 2440
+    },
+    {
+      "digest": "a0d8982da90dba6608b40c10d48b4380eae5d815c36583a546b3eeef01dfd40c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/assets/demo-template.fasta",
+      "path": "skills/primer-design/assets/demo-template.fasta",
+      "size": 577
+    },
+    {
+      "digest": "eba6ae9ab645501a429aaa2178d31bb81f6b0890061a6bcc3ea684f6d71bfe0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/assets/qpcr-config.json",
+      "path": "skills/primer-design/assets/qpcr-config.json",
+      "size": 233
+    },
+    {
+      "digest": "869df4503af0601aab43e7c177486df03b249da308934ed4ccc656b611824bdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/assets/requirements.txt",
+      "path": "skills/primer-design/assets/requirements.txt",
+      "size": 18
+    },
+    {
+      "digest": "75057ee4eed7866f530ed342ae2fd8bdc8cf103447e8f618774d8d3ca22b27ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/references/design-workflows.md",
+      "path": "skills/primer-design/references/design-workflows.md",
+      "size": 10570
+    },
+    {
+      "digest": "de977bfb771a5fe8e56739cbdb86ba63d043d2bcd37cb9d96c64a43aa0dbaa5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/references/input-contract.md",
+      "path": "skills/primer-design/references/input-contract.md",
+      "size": 11910
+    },
+    {
+      "digest": "4f4eb4d76141732e447c959b76d69f1c6f30ad5d6a77fd67a8467959c60a3268",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/references/sources.md",
+      "path": "skills/primer-design/references/sources.md",
+      "size": 4552
+    },
+    {
+      "digest": "d081128b1764f40b4616a849701b3ece0f33bbd77e078f0fbeacdcd938139edc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/references/specificity.md",
+      "path": "skills/primer-design/references/specificity.md",
+      "size": 10559
+    },
+    {
+      "digest": "6f11bb0a6bffee3e2ba1058fc260567590b542e6e2de0bf7ea5aed03095015c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/references/thermodynamics.md",
+      "path": "skills/primer-design/references/thermodynamics.md",
+      "size": 7172
+    },
+    {
+      "digest": "35d1a9fa5f197e849ae65a69217fa2e337f715e2c6ae52d9fa1189e6a61e14eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/scripts/_common.py",
+      "path": "skills/primer-design/scripts/_common.py",
+      "size": 5626
+    },
+    {
+      "digest": "bb3bba39018038b5c39ef21047cf7504aee01bbb96f3c178b3725638dac6d142",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/scripts/_specificity.py",
+      "path": "skills/primer-design/scripts/_specificity.py",
+      "size": 20595
+    },
+    {
+      "digest": "901ffe9850638686828408018ba9984bd6d91aaf01f9c6dc978163d849925b49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/scripts/check_thermodynamics.py",
+      "path": "skills/primer-design/scripts/check_thermodynamics.py",
+      "size": 8742
+    },
+    {
+      "digest": "c09e7fe81f309d0ae2f3ce30721daf944fdfc976e23aa4ea98313a330f807c98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/scripts/design_primers.py",
+      "path": "skills/primer-design/scripts/design_primers.py",
+      "size": 15676
+    },
+    {
+      "digest": "3aff33dfd4d0cf6670005469ac29bec66de397b74a354dd092dccbc20900b85f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primer-design/skills/primer-design/scripts/screen_specificity.py",
+      "path": "skills/primer-design/scripts/screen_specificity.py",
+      "size": 11007
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0ce736d2e366069d14fbc08d36f25ef9dc8e6c22aac6bdeddc109ddb2b23e380",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/primer-design",
+  "schema_version": 1
+}

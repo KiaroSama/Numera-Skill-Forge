@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/SKILL.md",
+      "path": "skills/liteparse/SKILL.md",
+      "size": 12382
+    },
+    {
+      "digest": "2aa143daf3423f460a73c37d36441af782819d3aeae0bcf61023f8d340364973",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/references/api_reference.md",
+      "path": "skills/liteparse/references/api_reference.md",
+      "size": 8514
+    },
+    {
+      "digest": "12a2c9259fd057b7d981e8941a94f1331a78f38c42eae6bde6d8f1f8c4f75c5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/references/choosing_a_parser.md",
+      "path": "skills/liteparse/references/choosing_a_parser.md",
+      "size": 1878
+    },
+    {
+      "digest": "29ea20076e374045d6bbc2219f6c5c946cc322dc43e5c60fa6d9f83a1efce158",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/references/cli_reference.md",
+      "path": "skills/liteparse/references/cli_reference.md",
+      "size": 5164
+    },
+    {
+      "digest": "406cefd0f561e6a42ec6f7851333edae07f39367498e8b099e05b93140e3d667",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/references/ocr_and_formats.md",
+      "path": "skills/liteparse/references/ocr_and_formats.md",
+      "size": 6190
+    },
+    {
+      "digest": "69478a672bc8312322f6a10484be98029f7ced378b5863be3b12696f2732d97f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/references/output_formats.md",
+      "path": "skills/liteparse/references/output_formats.md",
+      "size": 4744
+    },
+    {
+      "digest": "e6250a342cd756eaf3da155cbfa3684f88cf8eedc476275e62466e299f726b93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-liteparse/skills/liteparse/scripts/batch_parse_dir.py",
+      "path": "skills/liteparse/scripts/batch_parse_dir.py",
+      "size": 5710
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dd5f7d229cec64c5c7e7636a1ddf20191ebb0dc2de4ad594106c46cea07adb54",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/liteparse",
+  "schema_version": 1
+}

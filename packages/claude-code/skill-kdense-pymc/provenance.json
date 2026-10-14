@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/SKILL.md",
+      "path": "skills/pymc/SKILL.md",
+      "size": 10736
+    },
+    {
+      "digest": "62c482d984830329cf8b6a112e37ef3189a05e243777670a800ca7136067d4fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/assets/hierarchical_model_template.py",
+      "path": "skills/pymc/assets/hierarchical_model_template.py",
+      "size": 5794
+    },
+    {
+      "digest": "0461fe20e6c5b51f811572f4a71ca9c87b2ea04d50f165788da7ab6eaa565794",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/assets/linear_regression_template.py",
+      "path": "skills/pymc/assets/linear_regression_template.py",
+      "size": 4740
+    },
+    {
+      "digest": "8c65dfa852e63b132cd7d9690b59ebddd1480b6965d355939d9c4e0816db3386",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/references/distributions.md",
+      "path": "skills/pymc/references/distributions.md",
+      "size": 14893
+    },
+    {
+      "digest": "7a6e83919e7e0d0985ff0df3e51e8c4c7810f48b80a0956288efaa0cf973783a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/references/model_patterns.md",
+      "path": "skills/pymc/references/model_patterns.md",
+      "size": 4627
+    },
+    {
+      "digest": "f55cec6f7c3e623a5039ae3893e59e7a1b93e923ad8d961bb5132f285f804212",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/references/sampling_inference.md",
+      "path": "skills/pymc/references/sampling_inference.md",
+      "size": 8044
+    },
+    {
+      "digest": "acf52b6bd774f9e189cd864c584c56e44b572caaab6b5b1d963aaee042ae7654",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/references/standard_workflow.md",
+      "path": "skills/pymc/references/standard_workflow.md",
+      "size": 4889
+    },
+    {
+      "digest": "02210930a621675676988ba92fce3f441f1e0e38b4e8721614273b137ab43323",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/references/workflows.md",
+      "path": "skills/pymc/references/workflows.md",
+      "size": 7753
+    },
+    {
+      "digest": "6d9f7e7abf53d1499e999d1d6308a2903729c31c30b0da447ce4c83b780841ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/scripts/model_comparison.py",
+      "path": "skills/pymc/scripts/model_comparison.py",
+      "size": 14760
+    },
+    {
+      "digest": "32fa8260161de387955345f51a0c3698943aa1eb8184d3176f4a1f4fafb6ebf1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymc/skills/pymc/scripts/model_diagnostics.py",
+      "path": "skills/pymc/scripts/model_diagnostics.py",
+      "size": 9199
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a48b9e0d866e57b6bd2e35cf5920870a143d0412f29c75ba657a3154ca648c68",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pymc",
+  "schema_version": 1
+}

@@ -1,0 +1,138 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "7c2cd278bd397f0f85f4fc790b236a61190cff8799c8ece8da923342f4dc0032",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/SKILL.md",
+      "path": "skills/analytical-method-validation/SKILL.md",
+      "size": 19873
+    },
+    {
+      "digest": "c157c47eb77e136b40904f6323988ccf662dad6b60811d330323b189c232fc5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/assets/validation-protocol-template.md",
+      "path": "skills/analytical-method-validation/assets/validation-protocol-template.md",
+      "size": 4247
+    },
+    {
+      "digest": "f0519fb2abd9d0315f0b6cba76527659ab500f9a311f268d66452f7798e574e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/assets/validation-report-template.md",
+      "path": "skills/analytical-method-validation/assets/validation-report-template.md",
+      "size": 4027
+    },
+    {
+      "digest": "f3bfe0e15892966b3c4db43c542b32af89455f755529f1f13a04c15421013230",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/compendial-and-clsi.md",
+      "path": "skills/analytical-method-validation/references/compendial-and-clsi.md",
+      "size": 7820
+    },
+    {
+      "digest": "ad7a9d07c6c66d68464ed759bd9a646df8db06fca2897478825e0de12d341945",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/framework-selection.md",
+      "path": "skills/analytical-method-validation/references/framework-selection.md",
+      "size": 5427
+    },
+    {
+      "digest": "695367208b8b4883879b364f57df9bc73f17cb98181a093d43880c0453764c4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/ich-m10-bioanalytical.md",
+      "path": "skills/analytical-method-validation/references/ich-m10-bioanalytical.md",
+      "size": 9001
+    },
+    {
+      "digest": "9871db11c76e1c74e191f28a44e3047a67663d487384188b4f0b228f886ad34b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/ich-q2r2.md",
+      "path": "skills/analytical-method-validation/references/ich-q2r2.md",
+      "size": 13759
+    },
+    {
+      "digest": "fd5605e03d4203df8caffa7ba3464147a65c3ee5f8a7056bdcc8a2d2beb2fca6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/source-ledger.md",
+      "path": "skills/analytical-method-validation/references/source-ledger.md",
+      "size": 7718
+    },
+    {
+      "digest": "0f8f33bc0c363e0fe7088ea718fe8928bd1bdd4afef1646f927cca317915d453",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/references/statistics.md",
+      "path": "skills/analytical-method-validation/references/statistics.md",
+      "size": 13379
+    },
+    {
+      "digest": "c597f14d44eceb997b7f12a5035e81669c3ad3ded1e487796f58d4392efef8ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/_catalog.py",
+      "path": "skills/analytical-method-validation/scripts/_catalog.py",
+      "size": 23851
+    },
+    {
+      "digest": "c801e568b409acf7a510069b3697e6a74bf372adcfa7dcfb27b442a670580b26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/_common.py",
+      "path": "skills/analytical-method-validation/scripts/_common.py",
+      "size": 34649
+    },
+    {
+      "digest": "1d24ee3f5a81d0bc40d30009f6ea7dab7422455eaf9adef6e4d0f5a1f5cd88a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/check_accuracy_precision.py",
+      "path": "skills/analytical-method-validation/scripts/check_accuracy_precision.py",
+      "size": 16422
+    },
+    {
+      "digest": "e754fc8407e5e6b003c96e25db577a1e88b6dcebc0c47f188e299cc13dfbc18c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/check_bioanalytical_run.py",
+      "path": "skills/analytical-method-validation/scripts/check_bioanalytical_run.py",
+      "size": 13832
+    },
+    {
+      "digest": "78178d76499005497f7b05a2a8ca6b948c151860ad34195e0f3701f0b2f4d402",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/check_detection_limits.py",
+      "path": "skills/analytical-method-validation/scripts/check_detection_limits.py",
+      "size": 14834
+    },
+    {
+      "digest": "fa732cb35a6652a5ffa08208271180d51160f73e89307883251da670f9aaac1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/check_response.py",
+      "path": "skills/analytical-method-validation/scripts/check_response.py",
+      "size": 10262
+    },
+    {
+      "digest": "d3f51cd0a31fbcc9e4259f791e1a9c515ba42f0d4090348962387cdf91f0fead",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/compare_methods.py",
+      "path": "skills/analytical-method-validation/scripts/compare_methods.py",
+      "size": 9346
+    },
+    {
+      "digest": "e2d95299d6a4e1eaf57de9e96dfd5dae82596e5f239b14b19e0e35cc0dcf01b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-analytical-method-validation/skills/analytical-method-validation/scripts/plan_validation.py",
+      "path": "skills/analytical-method-validation/scripts/plan_validation.py",
+      "size": 15478
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "19b8e417b4b6d2bcfc71bd23eb9d77c240bae764b2a70979dea8b6b2651fa439",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/analytical-method-validation",
+  "schema_version": 1
+}

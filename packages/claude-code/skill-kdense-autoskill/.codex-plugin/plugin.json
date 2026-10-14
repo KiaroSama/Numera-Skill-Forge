@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/autoskill",
+  "license": "MIT",
+  "name": "skill-kdense-autoskill",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

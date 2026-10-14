@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/paperclip",
+  "license": "MIT",
+  "name": "skill-kdense-paperclip",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/pytorch-lightning",
+  "license": "MIT",
+  "name": "skill-kdense-pytorch-lightning",
+  "version": "1.0.0"
+}

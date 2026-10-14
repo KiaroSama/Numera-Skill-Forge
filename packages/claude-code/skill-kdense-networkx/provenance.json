@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "981a213f33ddca21ec327ecee13e8ef8b85b7986274b84a10268ee73310df5be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/SKILL.md",
+      "path": "skills/networkx/SKILL.md",
+      "size": 16991
+    },
+    {
+      "digest": "f467eaffa255eca136a0fef8cf8ac23226e47d4df3f2c9281653eba46d2b0645",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/algorithms.md",
+      "path": "skills/networkx/references/algorithms.md",
+      "size": 13797
+    },
+    {
+      "digest": "5c6814bb105c0ffee48217e297263454c8e8a225bf1985e684136c481be99dda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/generators.md",
+      "path": "skills/networkx/references/generators.md",
+      "size": 9989
+    },
+    {
+      "digest": "629892ae1f8053fd5e64b31eacd7ac5c8996fa7b2c922f31af2232627de5d0cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/graph-basics.md",
+      "path": "skills/networkx/references/graph-basics.md",
+      "size": 7814
+    },
+    {
+      "digest": "e152047466e9152d89e9609b2c7bd5c9552e80ee7529f3a2e4be8c16c10ef4bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/io.md",
+      "path": "skills/networkx/references/io.md",
+      "size": 15267
+    },
+    {
+      "digest": "04ac479166624496c0f37d232482e6700308c9383d9bf1690198e33b2323b5fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/review.md",
+      "path": "skills/networkx/references/review.md",
+      "size": 6204
+    },
+    {
+      "digest": "e13c6d5a08d1744b03752010ba27cad347f524631cd06ae6cb15d7370a50779b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-networkx/skills/networkx/references/visualization.md",
+      "path": "skills/networkx/references/visualization.md",
+      "size": 14121
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac9c8a6b4877d0c2b81b38c4f5e5eff36d607a9f7bae01e5eaebb2923924b9aa",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/networkx",
+  "schema_version": 1
+}

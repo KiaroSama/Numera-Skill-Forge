@@ -601,3 +601,15 @@ skill roots also require review before entering the selected registry.
 Existing nested notices remain authoritative: canvas-design fonts retain their original SIL Open Font
 License text, for example. Binary companions are not text-encoding violations; their exact upstream
 hashes are verified. Publication does not install or execute skills in a user's coding harness.
+
+## Complete K-Dense scientific collection
+
+All177 `skills/<name>` roots from [reviewed a1043ef](https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills)
+are selected independently under `kdense-scientific-agent-skills`. The complete original
+[MIT grant, K-Dense Inc. 2025](https://github.com/K-Dense-AI/scientific-agent-skills/blob/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md)
+is included in every package. Embedded pacsomatic and mfapy MIT notices remain unchanged.
+This adds2202 original payload/notice records, for665 packages and6601 original files. Earlier488
+accepted packages remain unchanged. Root upstream maintainer scripts, tests and repository config
+are not included. No scientific script, backend, model or service was executed.
+Original educational references remain byte-identical after exact content review; this is not
+approval to supply real credentials, upload research data or run cloud workloads.

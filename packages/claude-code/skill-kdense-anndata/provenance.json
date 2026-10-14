@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a619c4088e1be6f6feaa5838c63ff8c4381fa21b4adee2a9276aa61464f3a034",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/SKILL.md",
+      "path": "skills/anndata/SKILL.md",
+      "size": 15751
+    },
+    {
+      "digest": "bdc271aeb64c884cc0ebe5b6bdfde09855ca76862bb374783a5e8d113ce63a3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/references/best_practices.md",
+      "path": "skills/anndata/references/best_practices.md",
+      "size": 15136
+    },
+    {
+      "digest": "0a34a1f21ed9577f521c6ef649ed5f15972ca1cc7e6b9906aeb00ec16b4b142c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/references/concatenation.md",
+      "path": "skills/anndata/references/concatenation.md",
+      "size": 12685
+    },
+    {
+      "digest": "5ee825849caf215f7810bfe00facdd9f1a00a099f346dafc149f7da024346b11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/references/data_structure.md",
+      "path": "skills/anndata/references/data_structure.md",
+      "size": 10514
+    },
+    {
+      "digest": "63bf1113076a0d74fe2ab1e02d84c2d32fb29489b7df5e74c981c62c31007af7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/references/io_operations.md",
+      "path": "skills/anndata/references/io_operations.md",
+      "size": 15405
+    },
+    {
+      "digest": "0c253c29e199bd75ad0ebf47741942aae23732f735f4c0990aaf6dccc5912258",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-anndata/skills/anndata/references/manipulation.md",
+      "path": "skills/anndata/references/manipulation.md",
+      "size": 14323
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "09df16a97bf719bea3e9835f5030381a62a8e8209f2bc9f9cf28bbbb0dcf57ed",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/anndata",
+  "schema_version": 1
+}

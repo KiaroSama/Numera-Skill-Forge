@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/treatment-plans",
+  "license": "MIT",
+  "name": "skill-kdense-treatment-plans",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

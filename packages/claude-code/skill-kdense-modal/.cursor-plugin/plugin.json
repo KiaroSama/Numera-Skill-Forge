@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/modal",
+  "license": "MIT",
+  "name": "skill-kdense-modal",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

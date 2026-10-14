@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pathml",
+  "license": "MIT",
+  "name": "skill-kdense-pathml",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/skills/tellurium/SKILL.md",
+      "path": "skills/tellurium/SKILL.md",
+      "size": 8100
+    },
+    {
+      "digest": "e5e7e30c107a945647bb016a62d00096f9a5f3bc5e2877f95e3638984c08ab53",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/skills/tellurium/assets/experiment.json",
+      "path": "skills/tellurium/assets/experiment.json",
+      "size": 195
+    },
+    {
+      "digest": "caac37179fc5465990c06ab1666b2b3b4457bd7f3e2011558ee085d7afff7dd6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/skills/tellurium/assets/first-order.ant",
+      "path": "skills/tellurium/assets/first-order.ant",
+      "size": 464
+    },
+    {
+      "digest": "08e9a95d1f39774dc9928a74ee9f0e6f177fa7f4894dce65d9352646b2ac5ae2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/skills/tellurium/references/experiments.md",
+      "path": "skills/tellurium/references/experiments.md",
+      "size": 7362
+    },
+    {
+      "digest": "4f48b80db653a98520be4bcd99bd0b5087373c3286aa22eaa4658cd846bedd62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tellurium/skills/tellurium/scripts/kinetic_experiment.py",
+      "path": "skills/tellurium/scripts/kinetic_experiment.py",
+      "size": 12598
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a94e96fa3360fa2a2c109af299d629acc24afe5ecfae4daef15326be7eb34546",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/tellurium",
+  "schema_version": 1
+}

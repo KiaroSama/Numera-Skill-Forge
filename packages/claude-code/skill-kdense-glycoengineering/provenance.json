@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b529bde5367cd84175f07db473361c9713a69af8f641cd740a10c0b660b32bc7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/skills/glycoengineering/SKILL.md",
+      "path": "skills/glycoengineering/SKILL.md",
+      "size": 11942
+    },
+    {
+      "digest": "331fa0228959f17488d658a2e048d9a3e4cf613f67f925d9d68b857de506976b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/skills/glycoengineering/references/glycan_databases.md",
+      "path": "skills/glycoengineering/references/glycan_databases.md",
+      "size": 8363
+    },
+    {
+      "digest": "9d1ed3ac48caaf3643a67d45011c5b585853f1bbbd841c98e8a208ae3d9a967a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/skills/glycoengineering/references/glycoshield.md",
+      "path": "skills/glycoengineering/references/glycoshield.md",
+      "size": 6510
+    },
+    {
+      "digest": "e47977c4b873aeac963fccd5856184b645eaa9d90dc703c4d846a823d5e5ca0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/skills/glycoengineering/scripts/glycoengineering_tools.py",
+      "path": "skills/glycoengineering/scripts/glycoengineering_tools.py",
+      "size": 4956
+    },
+    {
+      "digest": "f0478bbe3bf1566c51e0115d5fd6a11e41d84618464ce730d5ca32f2d6033e59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-glycoengineering/skills/glycoengineering/scripts/glytoucan_lookup.py",
+      "path": "skills/glycoengineering/scripts/glytoucan_lookup.py",
+      "size": 2657
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b9759665d25c77cb204a9ea2a1df769d9818ad475c0672e0a93384195b50d263",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/glycoengineering",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/cirq",
+  "license": "MIT",
+  "name": "skill-kdense-cirq",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

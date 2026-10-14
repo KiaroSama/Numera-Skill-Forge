@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/relsa-severity-assessment",
+  "license": "MIT",
+  "name": "skill-kdense-relsa-severity-assessment",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

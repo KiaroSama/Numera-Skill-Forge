@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-generate-image/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "42438be890c5ba875ddee1bbbf505e623433886a2b180f21b2012f72d038f92a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-generate-image/skills/generate-image/SKILL.md",
+      "path": "skills/generate-image/SKILL.md",
+      "size": 17865
+    },
+    {
+      "digest": "fcce8823d585de4274a6126dacd26c4591a3c4c07981c012c3c6354844bb3b23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-generate-image/skills/generate-image/references/models.md",
+      "path": "skills/generate-image/references/models.md",
+      "size": 15244
+    },
+    {
+      "digest": "977b40ddc398a6e62f13e61482237363251b5d4b17b9997e947e2ef87fb12a6a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-generate-image/skills/generate-image/scripts/generate_image.py",
+      "path": "skills/generate-image/scripts/generate_image.py",
+      "size": 32385
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3854a138ed9535bb3edff1ab53a78d7f20389d503a9f9e8f563732ab001bdc9f",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/generate-image",
+  "schema_version": 1
+}

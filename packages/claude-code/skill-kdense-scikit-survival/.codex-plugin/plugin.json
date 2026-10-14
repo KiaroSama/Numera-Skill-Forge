@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scikit-survival",
+  "license": "MIT",
+  "name": "skill-kdense-scikit-survival",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

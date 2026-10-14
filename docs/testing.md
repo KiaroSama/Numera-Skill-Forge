@@ -220,3 +220,12 @@ previous graph command was rerun with an explicit shared run identity: it comple
 4.8 seconds, no terminated/leaked descendants, and an independently paired observing-hook result.
 Historical receipts were preserved unchanged; the fresh run, not a rewritten past verdict, is the
 recovery evidence.
+
+## K-Dense collection verification
+
+The complete K-Dense source adds177 independent original packages and2202 payload/notice records;
+combined inventory is665 packages and6601 original files. The independent verifier checks Git
+membership/modes, exact accepted digests and native catalogs without importing scientific code.
+`collection_documents.rs` covers exact reviewed public reference admission, unchanged repeat,
+approval withdrawal/hash changes and forbidden root/parent paths. Original dependencies and
+scientific/clinical execution are not tested by packaging or distribution fixtures.

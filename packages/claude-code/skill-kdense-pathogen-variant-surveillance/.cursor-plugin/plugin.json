@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pathogen-variant-surveillance",
+  "license": "MIT",
+  "name": "skill-kdense-pathogen-variant-surveillance",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

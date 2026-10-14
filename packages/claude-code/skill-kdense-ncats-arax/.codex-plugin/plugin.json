@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/ncats-arax",
+  "license": "MIT",
+  "name": "skill-kdense-ncats-arax",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "7908ee374ed9bef310bd7071a175d97e0428cec184cce3e36db9fe3ae8e77c52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/SKILL.md",
+      "path": "skills/pennylane/SKILL.md",
+      "size": 7218
+    },
+    {
+      "digest": "bead74857b00611af4ddead8c885b2bbc506855765a7296a81fb4d5ea229949d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/advanced_features.md",
+      "path": "skills/pennylane/references/advanced_features.md",
+      "size": 7874
+    },
+    {
+      "digest": "9c281ad3666b2c431afeaeca04943a837e3a5eb811225e2bba956327a3297cc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/devices_backends.md",
+      "path": "skills/pennylane/references/devices_backends.md",
+      "size": 9093
+    },
+    {
+      "digest": "1826575ccbe7291f30d251383308775a4e54376ce0633e3e8300e817083f0f43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/getting_started.md",
+      "path": "skills/pennylane/references/getting_started.md",
+      "size": 4048
+    },
+    {
+      "digest": "d9311c73775f6922a06e9f097feae2dafb3dde77ee121e636dd0f80dee8054dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/optimization.md",
+      "path": "skills/pennylane/references/optimization.md",
+      "size": 6860
+    },
+    {
+      "digest": "69f573797f9c1c32e293e54a796e2ba2e9d3cbe6752e5f2fe777203d2448b894",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/quantum_chemistry.md",
+      "path": "skills/pennylane/references/quantum_chemistry.md",
+      "size": 7645
+    },
+    {
+      "digest": "c4e6e7b8cefcb8c09a871f206c9951e12e21b2e873447ac4f187424b8a998a93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/quantum_circuits.md",
+      "path": "skills/pennylane/references/quantum_circuits.md",
+      "size": 5064
+    },
+    {
+      "digest": "cd1b55544b305b6772e701083dda55d43145e22e77b61ba1c9f1b5b741374e6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pennylane/skills/pennylane/references/quantum_ml.md",
+      "path": "skills/pennylane/references/quantum_ml.md",
+      "size": 6647
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ee6bca80f9b0e9c8c753aede8fc77904da0b9450d8204016aaf5fc33f49c3e20",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pennylane",
+  "schema_version": 1
+}

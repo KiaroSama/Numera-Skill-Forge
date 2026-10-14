@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/polars-bio",
+  "license": "MIT",
+  "name": "skill-kdense-polars-bio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/hugging-science",
+  "license": "MIT",
+  "name": "skill-kdense-hugging-science",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

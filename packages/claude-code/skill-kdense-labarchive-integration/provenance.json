@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/SKILL.md",
+      "path": "skills/labarchive-integration/SKILL.md",
+      "size": 11741
+    },
+    {
+      "digest": "7aeaa4726aa7dbe0a8195ec09f09d0294813d48dff43a43bd09575a91f00d21c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/references/api_reference.md",
+      "path": "skills/labarchive-integration/references/api_reference.md",
+      "size": 13044
+    },
+    {
+      "digest": "d3973a022aa0979fd4da876b5bcd10875c925dce0a67123062bb4dba7a295c39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/references/authentication_guide.md",
+      "path": "skills/labarchive-integration/references/authentication_guide.md",
+      "size": 9604
+    },
+    {
+      "digest": "25214f7a5e7c33b92e08997876122c751e70133adfde468741fbc842b00ef3c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/references/integrations.md",
+      "path": "skills/labarchive-integration/references/integrations.md",
+      "size": 6912
+    },
+    {
+      "digest": "c1077feba4ac9057ce8bc17caf0eb2c716ccfbde66b7d26b36ffa947265650b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/references/sources.md",
+      "path": "skills/labarchive-integration/references/sources.md",
+      "size": 11297
+    },
+    {
+      "digest": "5bc0ebbe779d10b53198b420dff7a6f1d366cbc92ef5d1882601b8e93f9f2f5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/scripts/entry_operations.py",
+      "path": "skills/labarchive-integration/scripts/entry_operations.py",
+      "size": 13126
+    },
+    {
+      "digest": "b3c3c12202a844ffe221c0b426ef3e3b89a00c25adba62d7b4b9df48d1f40a57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/scripts/notebook_operations.py",
+      "path": "skills/labarchive-integration/scripts/notebook_operations.py",
+      "size": 15659
+    },
+    {
+      "digest": "56bed2ebc09f12457aa1b69e982d030994af45cc059fe03426fcdd38acf34143",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-labarchive-integration/skills/labarchive-integration/scripts/setup_config.py",
+      "path": "skills/labarchive-integration/scripts/setup_config.py",
+      "size": 8739
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7b061621fb6f5d330e8e0c48e9136a5d42e43f678115e9a24c3ed6532e116b67",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/labarchive-integration",
+  "schema_version": 1
+}

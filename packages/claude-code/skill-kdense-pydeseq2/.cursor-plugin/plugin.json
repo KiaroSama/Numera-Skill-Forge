@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pydeseq2",
+  "license": "MIT",
+  "name": "skill-kdense-pydeseq2",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

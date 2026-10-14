@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3a0d725456f37c650595a1bdf0cd104936acc5e2bf4146be6829d3fcd4ea6c59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/SKILL.md",
+      "path": "skills/datamol/SKILL.md",
+      "size": 10942
+    },
+    {
+      "digest": "9af2cc31acb77aa703ac4da839175da002043abd50a55cc7e3ccd83f24dfe3a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/conformers_module.md",
+      "path": "skills/datamol/references/conformers_module.md",
+      "size": 4568
+    },
+    {
+      "digest": "b79d8668c7baacc11c83b4cfb4dd46d4ffcbebfd8d2a7773b20549d0c4113772",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/core_api.md",
+      "path": "skills/datamol/references/core_api.md",
+      "size": 4843
+    },
+    {
+      "digest": "f322bf91b377620db2ff8842eb66bb25fc0bfd8627fd7fe6b196e048f62a061c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/core_workflows.md",
+      "path": "skills/datamol/references/core_workflows.md",
+      "size": 8996
+    },
+    {
+      "digest": "b728295888f173f19bc1155ca3d8595358e333b6cf8230437879cb4d070ef558",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/descriptors_viz.md",
+      "path": "skills/datamol/references/descriptors_viz.md",
+      "size": 4845
+    },
+    {
+      "digest": "b00ed48bb38ebf0a6135cfaa5aa6355c41184552ce8ee9e4426e440aed583bf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/fragments_scaffolds.md",
+      "path": "skills/datamol/references/fragments_scaffolds.md",
+      "size": 4272
+    },
+    {
+      "digest": "9351e472a952e6d8e372a5892f513c84e8c5097a53988c57326e0c80fa7ca317",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/io_module.md",
+      "path": "skills/datamol/references/io_module.md",
+      "size": 4559
+    },
+    {
+      "digest": "d17db50dee1225c4ad060a4f5274899c42a4e1adb47395fce20dd388e289e208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/reactions_data.md",
+      "path": "skills/datamol/references/reactions_data.md",
+      "size": 4423
+    },
+    {
+      "digest": "bc066f602ea4d0bda473ddf715e9a51f7a8cb4240cb69c99ba31e9b32ce0082c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/review.md",
+      "path": "skills/datamol/references/review.md",
+      "size": 3331
+    },
+    {
+      "digest": "bd84b971b4d60472fb0d5905c5fa5b6e2f8c11c092be5ee06de861b5206cfc51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datamol/skills/datamol/references/workflow_patterns.md",
+      "path": "skills/datamol/references/workflow_patterns.md",
+      "size": 5391
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d8cfb6eac0820716b06a153c26512281ebe41d54bca61ae87fdf34f9ddad7e9a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/datamol",
+  "schema_version": 1
+}

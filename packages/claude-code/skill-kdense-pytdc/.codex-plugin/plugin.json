@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pytdc",
+  "license": "MIT",
+  "name": "skill-kdense-pytdc",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

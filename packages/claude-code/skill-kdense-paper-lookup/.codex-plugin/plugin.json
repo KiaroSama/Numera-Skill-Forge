@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/paper-lookup",
+  "license": "MIT",
+  "name": "skill-kdense-paper-lookup",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

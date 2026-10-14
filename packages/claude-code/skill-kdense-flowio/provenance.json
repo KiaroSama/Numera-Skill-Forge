@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "24247696d4e9455f4b5509b7bee1856c251fa59181d80aa8de22d54ecd685b62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/SKILL.md",
+      "path": "skills/flowio/SKILL.md",
+      "size": 13532
+    },
+    {
+      "digest": "e61d75f551b1825c218733d1552519e91e4a94c6d58bcbcdc50fe939c98eedc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/references/api_reference.md",
+      "path": "skills/flowio/references/api_reference.md",
+      "size": 12539
+    },
+    {
+      "digest": "675163d49a9db4ea22cdf6b5a6112d1460f3ea35bc4c0df11bbfa68dbf06a237",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/references/fcs_semantics.md",
+      "path": "skills/flowio/references/fcs_semantics.md",
+      "size": 10587
+    },
+    {
+      "digest": "b5ca302464fd520c4edd7553802a40959df655ffa8c8458250bbfbbd738effe9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/references/sources.md",
+      "path": "skills/flowio/references/sources.md",
+      "size": 5884
+    },
+    {
+      "digest": "1cc67ccd1d88648f51f446adbbb1a29204a0c020e1fcf616ba6380e7537793af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/references/troubleshooting.md",
+      "path": "skills/flowio/references/troubleshooting.md",
+      "size": 11929
+    },
+    {
+      "digest": "f3961084592fdfd60d55eebeaa43328f91f0481bf243afd8d4798c86c4aaf7be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/references/workflows.md",
+      "path": "skills/flowio/references/workflows.md",
+      "size": 11817
+    },
+    {
+      "digest": "5f394678dbf95347d3d745dd02d3c6bb2a2188f90725eae776a7069dccfd0006",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-flowio/skills/flowio/scripts/inspect_fcs.py",
+      "path": "skills/flowio/scripts/inspect_fcs.py",
+      "size": 15097
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ffa346508baeea9587296768c739f23081ee588ae830ecea19f55282650c488a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/flowio",
+  "schema_version": 1
+}

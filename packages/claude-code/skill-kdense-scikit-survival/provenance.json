@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8f99860440f23312d9803d3ac65ae9eb65274597d59499f1021d59378adef2fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/SKILL.md",
+      "path": "skills/scikit-survival/SKILL.md",
+      "size": 16483
+    },
+    {
+      "digest": "7bb078c3c794a4b7c156f5e2747dbbdaf202c2292ac2eb441adac9f4fc5da7d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/competing-risks.md",
+      "path": "skills/scikit-survival/references/competing-risks.md",
+      "size": 10997
+    },
+    {
+      "digest": "eadbd9ed66fbc91adc8204c6470aa65b2eb3490fde4943af93b975dad7c8459e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/cox-models.md",
+      "path": "skills/scikit-survival/references/cox-models.md",
+      "size": 9123
+    },
+    {
+      "digest": "59e632901ac21fd22878bf7c710a1b768d19b6bea63d5bc2c27f60420a03b418",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/data-handling.md",
+      "path": "skills/scikit-survival/references/data-handling.md",
+      "size": 10195
+    },
+    {
+      "digest": "ea6091baf3a8d21e08376c57ec7cbec498b96d1911a790a4c2dbcea562ab6cfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/ensemble-models.md",
+      "path": "skills/scikit-survival/references/ensemble-models.md",
+      "size": 10880
+    },
+    {
+      "digest": "33a6c355f70e5fc03fe94cde0cd82ec9443ad8e34eb8a98009151153f2e284ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/evaluation-metrics.md",
+      "path": "skills/scikit-survival/references/evaluation-metrics.md",
+      "size": 15814
+    },
+    {
+      "digest": "b1a8e618ab6389374cd58789ce9c008e9b4806a350330edfa17be7b44eaaa92b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/references/svm-models.md",
+      "path": "skills/scikit-survival/references/svm-models.md",
+      "size": 9887
+    },
+    {
+      "digest": "254c9c4f7f9946693fe52f3dbd21314bd4ca45d1f058c51422b3ab6bbe795711",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/_common.py",
+      "path": "skills/scikit-survival/scripts/_common.py",
+      "size": 15742
+    },
+    {
+      "digest": "e4bd7b39cb487d996cbb11a502b5a01a3a4aa09912e8ddd2c7b79da9aea5ff5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/competing_risk_cif.py",
+      "path": "skills/scikit-survival/scripts/competing_risk_cif.py",
+      "size": 11938
+    },
+    {
+      "digest": "f4cca8bc65a6f96b0450059f0b564f2524e31f70ea9431bb1963518b1d1de386",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/evaluate_survival_metrics.py",
+      "path": "skills/scikit-survival/scripts/evaluate_survival_metrics.py",
+      "size": 12137
+    },
+    {
+      "digest": "ad7eb6c5a75c0d3c56e8b4dd85f4d63dcb5a42dd6e69784ea50a53875a23f7cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/model_report.py",
+      "path": "skills/scikit-survival/scripts/model_report.py",
+      "size": 11673
+    },
+    {
+      "digest": "77a3c472483198482c1a15bbff41068b71e05ac1aa89bfca24ed8411fc4c6cf1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/train_survival_model.py",
+      "path": "skills/scikit-survival/scripts/train_survival_model.py",
+      "size": 19519
+    },
+    {
+      "digest": "10534388dcf7f7b7560dd4354f61b0c7061b17a3716215dffb643c2364f34f51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-survival/skills/scikit-survival/scripts/validate_survival_csv.py",
+      "path": "skills/scikit-survival/scripts/validate_survival_csv.py",
+      "size": 5721
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "37bd595ba6add1c728f997a7d242c4c033e2b6702e467483bc1ab1471faf30cf",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scikit-survival",
+  "schema_version": 1
+}

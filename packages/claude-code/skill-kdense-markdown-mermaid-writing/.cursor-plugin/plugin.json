@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/markdown-mermaid-writing",
+  "license": "MIT",
+  "name": "skill-kdense-markdown-mermaid-writing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

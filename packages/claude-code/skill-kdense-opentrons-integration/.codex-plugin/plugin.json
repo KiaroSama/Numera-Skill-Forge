@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/opentrons-integration",
+  "license": "MIT",
+  "name": "skill-kdense-opentrons-integration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

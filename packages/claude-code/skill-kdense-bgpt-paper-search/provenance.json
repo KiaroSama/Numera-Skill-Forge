@@ -1,0 +1,26 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bgpt-paper-search/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3b7db6956c13ccf24df151f0905ae579ed58230708a4ba19e6d6fb3bf9d4d6b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bgpt-paper-search/skills/bgpt-paper-search/SKILL.md",
+      "path": "skills/bgpt-paper-search/SKILL.md",
+      "size": 7903
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "37f813b7d70191185fc7e5cd5818f87145499303768a2a680320b71cc13eba9c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/bgpt-paper-search",
+  "schema_version": 1
+}

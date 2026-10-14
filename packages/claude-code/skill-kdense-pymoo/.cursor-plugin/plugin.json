@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pymoo",
+  "license": "MIT",
+  "name": "skill-kdense-pymoo",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

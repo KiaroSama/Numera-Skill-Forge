@@ -1,0 +1,96 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "d8829e74e8a1d908f923cf0c0a850ecfdd9edcb004d2fa90ec32fb1ed0006ce8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/SKILL.md",
+      "path": "skills/pytorch-lightning/SKILL.md",
+      "size": 10262
+    },
+    {
+      "digest": "e99b13ebdd43b702b6e1fc9732a85ea2ee153c16377c7f216a3433a0cd81d325",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/best_practices.md",
+      "path": "skills/pytorch-lightning/references/best_practices.md",
+      "size": 5303
+    },
+    {
+      "digest": "84801cfe2ba309afc8b5a3a13a2a752ae9b0cd98617771fe29551dd7201e21a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/callbacks.md",
+      "path": "skills/pytorch-lightning/references/callbacks.md",
+      "size": 5543
+    },
+    {
+      "digest": "be42f4a16a8898257834cd893f61977a6f8270828e7cae1b67dbc23a01a15549",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/data_module.md",
+      "path": "skills/pytorch-lightning/references/data_module.md",
+      "size": 5430
+    },
+    {
+      "digest": "0a8b2b4a9975b170750db85c334288bd48b46fd06eb5c00589b17a187d9e4591",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/distributed_training.md",
+      "path": "skills/pytorch-lightning/references/distributed_training.md",
+      "size": 7548
+    },
+    {
+      "digest": "0e33e3f04f8c9e25a8c03b51ec8e3d9ad3b968b5789eb36341e2f3198535d35b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/lightning_module.md",
+      "path": "skills/pytorch-lightning/references/lightning_module.md",
+      "size": 5700
+    },
+    {
+      "digest": "624f90f1d0aaf7143de4ba90b855cb541065dbec1d8ac2ca3fb766a91e2d07d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/logging.md",
+      "path": "skills/pytorch-lightning/references/logging.md",
+      "size": 7934
+    },
+    {
+      "digest": "67eb14cbdd6ffd162264d5fa6c6ffecc63f55cfad75334f1bec90ed4c5b483f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/references/trainer.md",
+      "path": "skills/pytorch-lightning/references/trainer.md",
+      "size": 5785
+    },
+    {
+      "digest": "1b700c1dde892042252cee202fa8bcfd26b035e73eb4617362bfaa6f891126e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "path": "skills/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "size": 14481
+    },
+    {
+      "digest": "3febf10bab4bf537ea584c351181d092fcdbd1fb6914fd90bb5bd4cd80134ffe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/scripts/template_datamodule.py",
+      "path": "skills/pytorch-lightning/scripts/template_datamodule.py",
+      "size": 6882
+    },
+    {
+      "digest": "2053136d3bc5523661dbbfce64c4b4506415e679cc34edc60ba9242c8d3dfb71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytorch-lightning/skills/pytorch-lightning/scripts/template_lightning_module.py",
+      "path": "skills/pytorch-lightning/scripts/template_lightning_module.py",
+      "size": 6237
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91177c27ce2c31963629b90c27d51f70bf9817cb28b41a790f46e120db8a3d5c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pytorch-lightning",
+  "schema_version": 1
+}

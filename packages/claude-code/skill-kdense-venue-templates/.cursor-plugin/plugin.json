@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/venue-templates",
+  "license": "MIT",
+  "name": "skill-kdense-venue-templates",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

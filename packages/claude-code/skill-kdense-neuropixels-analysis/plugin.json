@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/neuropixels-analysis",
+  "license": "MIT",
+  "name": "skill-kdense-neuropixels-analysis",
+  "version": "1.0.0"
+}

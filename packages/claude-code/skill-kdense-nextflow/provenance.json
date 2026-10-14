@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/SKILL.md",
+      "path": "skills/nextflow/SKILL.md",
+      "size": 14939
+    },
+    {
+      "digest": "33eb19fe062ee61ac3158691f4f5ef04b440e6a2213e383534055ceaf0bd25de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/configuration.md",
+      "path": "skills/nextflow/references/configuration.md",
+      "size": 12974
+    },
+    {
+      "digest": "30d9d91854539e76624a5535770072f9f14fc6fc2a7d80e74b0cdca9dc5a125b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/containers.md",
+      "path": "skills/nextflow/references/containers.md",
+      "size": 5426
+    },
+    {
+      "digest": "37f34c046f8381c02bc14df57bfc7e5d3344d9c980cd33871fed941c4aade05c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/developing.md",
+      "path": "skills/nextflow/references/developing.md",
+      "size": 17038
+    },
+    {
+      "digest": "0a50f71afc1baa1494ab71a265044f40d5afcae7cddda223476c268e488b88c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/language.md",
+      "path": "skills/nextflow/references/language.md",
+      "size": 18642
+    },
+    {
+      "digest": "8fb3cad8d9c4912dd09fdeced3d455f242b32a7bf59fba17b7a7e52d967ad133",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/nf-core-tools.md",
+      "path": "skills/nextflow/references/nf-core-tools.md",
+      "size": 7002
+    },
+    {
+      "digest": "4051abf017bc4e058bfe631e1cbee6b79ed354ecfd96d3ab7843dc1c7aa19a01",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/running-pipelines.md",
+      "path": "skills/nextflow/references/running-pipelines.md",
+      "size": 8108
+    },
+    {
+      "digest": "0f209c70205105db021771b45c0740458294d1c39cf1b19ec3598664272601ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nextflow/skills/nextflow/references/testing.md",
+      "path": "skills/nextflow/references/testing.md",
+      "size": 9219
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f9125f4a6c7cc8f9b441b0cfae3d17547e0ff89eb66dd84bd5ef03a9ae761883",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/nextflow",
+  "schema_version": 1
+}

@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "caaafa079a4eaac6012717bcf705dec0417b5434f5dbd1af934a3a36ad375722",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/SKILL.md",
+      "path": "skills/uncertainty-and-units/SKILL.md",
+      "size": 21731
+    },
+    {
+      "digest": "7ab73bbd69acbd23fac74ae9f3ad570a6f1501c1a5fd22998cfcd01c725441ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/domain-conversions.md",
+      "path": "skills/uncertainty-and-units/references/domain-conversions.md",
+      "size": 10142
+    },
+    {
+      "digest": "def9b0ac9ff3d2912922d121062559b22ff3ec36aed94e183eef3338b4e0430f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/gum-methodology.md",
+      "path": "skills/uncertainty-and-units/references/gum-methodology.md",
+      "size": 11916
+    },
+    {
+      "digest": "9fbc1bc7b12267777a0359bf252e52415e6e1683cd8c4c3a6582ddca6cd51baa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/pint-recipes.md",
+      "path": "skills/uncertainty-and-units/references/pint-recipes.md",
+      "size": 9129
+    },
+    {
+      "digest": "b9ef8acbc0ff6948ec7dca027cd31b7d73d2157b18bcf0c8e92d60c0029e8131",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/plausibility-scales.md",
+      "path": "skills/uncertainty-and-units/references/plausibility-scales.md",
+      "size": 11834
+    },
+    {
+      "digest": "8d302b26e0792b866d3249955250e9132c09337639abb8cf36ac3f5cdaf4648e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/reporting-rules.md",
+      "path": "skills/uncertainty-and-units/references/reporting-rules.md",
+      "size": 7152
+    },
+    {
+      "digest": "59c605f037739927495f0323246168abf9cd2bae5511b1566bb13e775bf00868",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/review.md",
+      "path": "skills/uncertainty-and-units/references/review.md",
+      "size": 6939
+    },
+    {
+      "digest": "2125796d070c4b13ed007e6d8f498c69698a1ce4917ece4cdda32a887dd7c214",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/references/uncertainties-recipes.md",
+      "path": "skills/uncertainty-and-units/references/uncertainties-recipes.md",
+      "size": 8098
+    },
+    {
+      "digest": "9d6b9ecabf92759a5d9f017ae3174673f827328b76cde238d07089f2d99c9323",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/_common.py",
+      "path": "skills/uncertainty-and-units/scripts/_common.py",
+      "size": 23029
+    },
+    {
+      "digest": "2b891065c8b801f4a16b8dca2b73a6348c3ecf3fc88569936ded5e7f86a1e429",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/audit_units.py",
+      "path": "skills/uncertainty-and-units/scripts/audit_units.py",
+      "size": 21229
+    },
+    {
+      "digest": "f4c1bff54a483d08f794f205454ed03fa263008b26cee772bd04d417cc86384f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/check_plausibility.py",
+      "path": "skills/uncertainty-and-units/scripts/check_plausibility.py",
+      "size": 36733
+    },
+    {
+      "digest": "89a9a0aa40a8158d2a739270115778fc1415f1a3cb207a6f17be14278872473a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/convert_units.py",
+      "path": "skills/uncertainty-and-units/scripts/convert_units.py",
+      "size": 11963
+    },
+    {
+      "digest": "a839041c3f31a67cffda00e895bfed612cbc5748e83c41da83c17ff8f7b17302",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/format_result.py",
+      "path": "skills/uncertainty-and-units/scripts/format_result.py",
+      "size": 12001
+    },
+    {
+      "digest": "6c555f3fc7095ac340d11e8dd69f29f483f309b91af4b3489cd4c5ea468ceb86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/propagate_uncertainty.py",
+      "path": "skills/uncertainty-and-units/scripts/propagate_uncertainty.py",
+      "size": 28632
+    },
+    {
+      "digest": "162699fd5336fca43489757a1c63e81c89deb46aefb51ceb99a24682fde14b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-uncertainty-and-units/skills/uncertainty-and-units/scripts/uncertainty_budget.py",
+      "path": "skills/uncertainty-and-units/scripts/uncertainty_budget.py",
+      "size": 14044
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "11d28f672e8e893e9f991dbd9077db81fb07fccb4a150cb1c0cbb0a1955ce388",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/uncertainty-and-units",
+  "schema_version": 1
+}

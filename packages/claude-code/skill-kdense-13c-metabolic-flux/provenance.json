@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8318b1c785cc80bf095b8667a96061cd5f4b0b9c4e5fa77fd7f57fd8403f2c0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/SKILL.md",
+      "path": "skills/13c-metabolic-flux/SKILL.md",
+      "size": 12711
+    },
+    {
+      "digest": "4bcb97f2e4bfab43ca8e964183231fee197879f9d4b80d2ec8e05f92b8d95be4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/branch-fluxes.json",
+      "path": "skills/13c-metabolic-flux/assets/branch-fluxes.json",
+      "size": 69
+    },
+    {
+      "digest": "9098ff048fc576046bfa13e100325e4e57e569cc46a642a539cb52584b21a469",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/branch-identifiable.json",
+      "path": "skills/13c-metabolic-flux/assets/branch-identifiable.json",
+      "size": 823
+    },
+    {
+      "digest": "de2c4d4fe1cbb0f8b718a35a00ab17830a67e49a89ede1244aaaee8f7181c798",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/branch-model.json",
+      "path": "skills/13c-metabolic-flux/assets/branch-model.json",
+      "size": 2103
+    },
+    {
+      "digest": "b0e777e66033817612f0dc48527d70d7e0ccb7fa533a751db992dce0f5c65e5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/branch-unresolved.json",
+      "path": "skills/13c-metabolic-flux/assets/branch-unresolved.json",
+      "size": 978
+    },
+    {
+      "digest": "645e233ceb2f6faa4d43a4c66ecd8e54ed2b7fa6a765fb6497a109b615b2e5d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/mfapy-license.txt",
+      "path": "skills/13c-metabolic-flux/assets/mfapy-license.txt",
+      "size": 1069
+    },
+    {
+      "digest": "537d5d44296de5cce4f909775e2299a589abd914b93705367587e98588bfcede",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/requirements.txt",
+      "path": "skills/13c-metabolic-flux/assets/requirements.txt",
+      "size": 136
+    },
+    {
+      "digest": "b362821e6cf8c14b692c4c41facd7c8aa1af87e20f0290960f0eaaddc69b1cb8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/tca-fluxes.json",
+      "path": "skills/13c-metabolic-flux/assets/tca-fluxes.json",
+      "size": 114
+    },
+    {
+      "digest": "49d98503f37865655aff81564c7705ae6fe612553c3c465675fd32360eb4b39a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/tca-model.json",
+      "path": "skills/13c-metabolic-flux/assets/tca-model.json",
+      "size": 4215
+    },
+    {
+      "digest": "3b6887a77419a80a5f6f2574fc24e0a2daf480f2b13899481cd645269cebdd47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/tca-reference-mdv.json",
+      "path": "skills/13c-metabolic-flux/assets/tca-reference-mdv.json",
+      "size": 2468
+    },
+    {
+      "digest": "1ca97044dba0b66e30e2189356454e43f0a263cd65758dcdbfa8c047c68a585e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/assets/tca-tracer.json",
+      "path": "skills/13c-metabolic-flux/assets/tca-tracer.json",
+      "size": 570
+    },
+    {
+      "digest": "c060f550e700521dd1300e2ca790e3e9061bbfe54c8f0cad1ad34a99f29830dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/references/inference.md",
+      "path": "skills/13c-metabolic-flux/references/inference.md",
+      "size": 10088
+    },
+    {
+      "digest": "d724078414ff4d97c0335bbd6a6c52e12aeec0db56da23d12f90a47fd090031f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/references/input-contract.md",
+      "path": "skills/13c-metabolic-flux/references/input-contract.md",
+      "size": 8189
+    },
+    {
+      "digest": "6a7f4952d75364c62fec863268ed8e2c37088808e2fb0817c2f36c7d0703be9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/scripts/_mfa_fit.py",
+      "path": "skills/13c-metabolic-flux/scripts/_mfa_fit.py",
+      "size": 13635
+    },
+    {
+      "digest": "8be66dc18197e2173c059dd31bdce3033b6b4a64a703ddc495f51a7fb288b3ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/scripts/_mfa_model.py",
+      "path": "skills/13c-metabolic-flux/scripts/_mfa_model.py",
+      "size": 20941
+    },
+    {
+      "digest": "ddf96e627beb8580616ef7f434a24ce5dbe39bcc7f8c90e0f0d2cb1a99f1584f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-13c-metabolic-flux/skills/13c-metabolic-flux/scripts/mfa.py",
+      "path": "skills/13c-metabolic-flux/scripts/mfa.py",
+      "size": 4396
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "43baab1a8db3bd5795f25a1d33562921a2cf7926ba1cf1d68f1cd7e192559ce8",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/13c-metabolic-flux",
+  "schema_version": 1
+}

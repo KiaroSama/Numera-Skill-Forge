@@ -1,0 +1,117 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "942573e5b8099717487b45cf84798348fb2128516791dcafe2d76aa1bdfed117",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/SKILL.md",
+      "path": "skills/pymoo/SKILL.md",
+      "size": 14159
+    },
+    {
+      "digest": "c60fac31687128d0b12719a01c6a24ebe18966f3ade34b45714ffb8ae2c45020",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/algorithms.md",
+      "path": "skills/pymoo/references/algorithms.md",
+      "size": 9405
+    },
+    {
+      "digest": "ad257ccf535479d9b90126c5e5a631bc37beaaf7295b0605d81bdccfb44e169c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/constraints_mcdm.md",
+      "path": "skills/pymoo/references/constraints_mcdm.md",
+      "size": 9168
+    },
+    {
+      "digest": "652a89b856d92557dba427e677399328a617d4598f2b4303a844256189013912",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/lifecycle.md",
+      "path": "skills/pymoo/references/lifecycle.md",
+      "size": 5353
+    },
+    {
+      "digest": "6dca5b73eed994a8fdaa24be71c87299cd7d2422bdf930f24da0ebbe77357da7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/operators.md",
+      "path": "skills/pymoo/references/operators.md",
+      "size": 5031
+    },
+    {
+      "digest": "e805bbb21a5280e1a6b079617df1a40953ced7a0d11748b28c2dbff0d6623433",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/parallelization.md",
+      "path": "skills/pymoo/references/parallelization.md",
+      "size": 2696
+    },
+    {
+      "digest": "8047432597222b4c2bfa62d922ab12c40b56d57428745fe7a74ed22b5f829102",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/problems.md",
+      "path": "skills/pymoo/references/problems.md",
+      "size": 7813
+    },
+    {
+      "digest": "5a097ef9475a33ca8a0d37c07d98bcd93212cae72d4c7d725ed5d35d4b3fb908",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/quick_start_workflows.md",
+      "path": "skills/pymoo/references/quick_start_workflows.md",
+      "size": 7443
+    },
+    {
+      "digest": "1e799c45a7cf1fb01a7c86cf959c9561b82497921d45165326e5de66fbd2d5e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/references/visualization.md",
+      "path": "skills/pymoo/references/visualization.md",
+      "size": 4835
+    },
+    {
+      "digest": "d3e20ca36e019b6de5cda28fe8f0e05ad79abcd43821f4ae6171fd6db1212b3a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/scripts/custom_problem_example.py",
+      "path": "skills/pymoo/scripts/custom_problem_example.py",
+      "size": 5130
+    },
+    {
+      "digest": "95b03a494d9397be16d1c41fe09de825984d880a55b49ec4e0efc29e703c948a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/scripts/decision_making_example.py",
+      "path": "skills/pymoo/scripts/decision_making_example.py",
+      "size": 6148
+    },
+    {
+      "digest": "4f6053cb0c00c44c31ab91c72e82555936ef81bcc7c9f356b813f5def9ff426b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/scripts/many_objective_example.py",
+      "path": "skills/pymoo/scripts/many_objective_example.py",
+      "size": 2329
+    },
+    {
+      "digest": "57b9cb1a7084ab3fcbae81b41f0639af61c2b13f66f89028ab587895928709e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/scripts/multi_objective_example.py",
+      "path": "skills/pymoo/scripts/multi_objective_example.py",
+      "size": 1757
+    },
+    {
+      "digest": "324bf358fc7049c07149b9154f201016e22d9ebe8115886f7756686c55f27582",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymoo/skills/pymoo/scripts/single_objective_example.py",
+      "path": "skills/pymoo/scripts/single_objective_example.py",
+      "size": 1641
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b91b75d79ecc82549e89a5af09a940aa7a96383f04ad910124e01913b864fe5a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pymoo",
+  "schema_version": 1
+}

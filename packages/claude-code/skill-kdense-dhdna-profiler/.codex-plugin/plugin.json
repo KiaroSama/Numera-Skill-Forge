@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/dhdna-profiler",
+  "license": "MIT",
+  "name": "skill-kdense-dhdna-profiler",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

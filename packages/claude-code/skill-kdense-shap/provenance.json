@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "9c395662e608accd60acb62158f1d25299b12ec0e40f9f94b70a46ec527d52c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/SKILL.md",
+      "path": "skills/shap/SKILL.md",
+      "size": 16530
+    },
+    {
+      "digest": "fe586f1d7aac5c799437506c2353dc7c0b4916a09c10ea714b22db49aaa12f12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/data-maskers.md",
+      "path": "skills/shap/references/data-maskers.md",
+      "size": 11909
+    },
+    {
+      "digest": "d173b54e0ee1d5c5e627609967000926fd6036e8efba282534f68857d9cdefca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/explainers.md",
+      "path": "skills/shap/references/explainers.md",
+      "size": 17931
+    },
+    {
+      "digest": "81278c5d30634b1e2f16bf7b6b703b2b968bfa01636bd7eecae2201baa76e721",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/migration.md",
+      "path": "skills/shap/references/migration.md",
+      "size": 10054
+    },
+    {
+      "digest": "dd19dc010438ed9dca06bce06d3820d617c2fa5740bf0ac86706081ae2ade518",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/modalities.md",
+      "path": "skills/shap/references/modalities.md",
+      "size": 12580
+    },
+    {
+      "digest": "634067fd6d2c951ac4db35a182109f8313be501b6fcd04e0d99e7957f77d3ec2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/plots.md",
+      "path": "skills/shap/references/plots.md",
+      "size": 12534
+    },
+    {
+      "digest": "103d0f50131649c63d6c0895a723d28f5fc175cb5ef923adec0655adc7a136dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/theory.md",
+      "path": "skills/shap/references/theory.md",
+      "size": 12964
+    },
+    {
+      "digest": "92ddecfa7a40e30274b812f14abd0ae2e1ec9ab6f14d1a93e77cb15208e754f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/troubleshooting.md",
+      "path": "skills/shap/references/troubleshooting.md",
+      "size": 14593
+    },
+    {
+      "digest": "d227b27899216451daa89b145c6f9e0f4850efacba687d0db00a06921743132e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/references/workflows.md",
+      "path": "skills/shap/references/workflows.md",
+      "size": 19742
+    },
+    {
+      "digest": "06161aefd48914406f41ad8b26389853537235c5577a962a29fb4a246013214e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-shap/skills/shap/scripts/tabular_report.py",
+      "path": "skills/shap/scripts/tabular_report.py",
+      "size": 11316
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "28588b9d992d3e053def24070d243b2095de841e56248b58658da3f27b07d86d",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/shap",
+  "schema_version": 1
+}

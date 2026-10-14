@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/adaptyv",
+  "license": "MIT",
+  "name": "skill-kdense-adaptyv",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

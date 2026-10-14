@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pybamm/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "9d6f375f4d9def40072ea734f07e1a48c60a1cd906231cab1a4189a75499a1a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pybamm/skills/pybamm/SKILL.md",
+      "path": "skills/pybamm/SKILL.md",
+      "size": 7285
+    },
+    {
+      "digest": "f769f94f1a9f933d253b3a4a6f51dc661b8af49bf9df52cfdabd81ea185de80e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pybamm/skills/pybamm/assets/chen2020-protocol.json",
+      "path": "skills/pybamm/assets/chen2020-protocol.json",
+      "size": 340
+    },
+    {
+      "digest": "6345686a86a460103ed0ba29a06419497d8842cf85e6b3d94fe2ae9bda363d19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pybamm/skills/pybamm/references/protocol-and-comparison.md",
+      "path": "skills/pybamm/references/protocol-and-comparison.md",
+      "size": 8330
+    },
+    {
+      "digest": "96c9c774860a80f3fddda2fd94d90905e9254b766f191a79e843613ec4da7647",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pybamm/skills/pybamm/scripts/simulate_battery.py",
+      "path": "skills/pybamm/scripts/simulate_battery.py",
+      "size": 13242
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1a52663f57a0cb87af7b2f79b5653a7c4b37d7281b76ad98af29703d942d8e7e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pybamm",
+  "schema_version": 1
+}

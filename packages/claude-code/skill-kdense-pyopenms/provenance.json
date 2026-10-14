@@ -1,0 +1,187 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "020e7392adbb000aaab4968ae9a803ca4bd97818ca35e9eebd3abc222766a48f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/SKILL.md",
+      "path": "skills/pyopenms/SKILL.md",
+      "size": 12447
+    },
+    {
+      "digest": "898cf4948d54191a5d077acfad2f59ab56f0bcecb6a9adba9fe9a699cb88039b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/data_structures.md",
+      "path": "skills/pyopenms/references/data_structures.md",
+      "size": 5450
+    },
+    {
+      "digest": "80566fd1ca4f07773683cbdbcdd182986138a40a896c4441056357b614095bd0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/feature_detection.md",
+      "path": "skills/pyopenms/references/feature_detection.md",
+      "size": 6089
+    },
+    {
+      "digest": "8c96b33c68f594ce3f4d5a88dcb7e0a323acd77b6f445ad9bc7757c4f99fe877",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/file_io.md",
+      "path": "skills/pyopenms/references/file_io.md",
+      "size": 4030
+    },
+    {
+      "digest": "ae9f80bf5492162c11f7134dcd307a08fa88a6561ce50aa9630ae7e0e32a8e7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/identification.md",
+      "path": "skills/pyopenms/references/identification.md",
+      "size": 5532
+    },
+    {
+      "digest": "f5dba9fcc5fa0f69ab472b59719e050f5839cd2c7061e2240da5477ef2ae4cb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/metabolomics.md",
+      "path": "skills/pyopenms/references/metabolomics.md",
+      "size": 6179
+    },
+    {
+      "digest": "1e2581f7012b1dd4cc2b41207074692b30f15fa5ae894d2ff19e31176654608c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/references/signal_processing.md",
+      "path": "skills/pyopenms/references/signal_processing.md",
+      "size": 5800
+    },
+    {
+      "digest": "a19f12a4a00203c63dc7946e6194e0f2a407f3244e49c7690357e87b190b0dab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/_common.py",
+      "path": "skills/pyopenms/scripts/_common.py",
+      "size": 1033
+    },
+    {
+      "digest": "5bea121e79027b1b6b46ca90d58f98d24293fe90b54e35e5430c726d62a603a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/accurate_mass_search.py",
+      "path": "skills/pyopenms/scripts/accurate_mass_search.py",
+      "size": 3812
+    },
+    {
+      "digest": "94ce533b27f27aecdb4300ae994fe2f168d50726cb76aa36ad7f2a9649f3677a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/align_link_quantify.py",
+      "path": "skills/pyopenms/scripts/align_link_quantify.py",
+      "size": 6050
+    },
+    {
+      "digest": "783941b652c51d9f68e64b65fff9c4d186bc0ef0936f8cfa799663c0332eb731",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/consensus_to_matrix.py",
+      "path": "skills/pyopenms/scripts/consensus_to_matrix.py",
+      "size": 2775
+    },
+    {
+      "digest": "3947c6e4c2d0f0c31ad907f53ec764e1c215449e7f01562ca621879b8d096b40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/convert_format.py",
+      "path": "skills/pyopenms/scripts/convert_format.py",
+      "size": 3373
+    },
+    {
+      "digest": "23e6c1426baedf69a86e90ad2fe06698043a4506e748d1d71eef6e1f7abbbec7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/detect_adducts.py",
+      "path": "skills/pyopenms/scripts/detect_adducts.py",
+      "size": 3988
+    },
+    {
+      "digest": "56c397dd98013d2a2e53a0b19d1d50bd2089d6107ec1d239fc175e4e3d57da83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/detect_features_centroided.py",
+      "path": "skills/pyopenms/scripts/detect_features_centroided.py",
+      "size": 3349
+    },
+    {
+      "digest": "524781752633e14b5ba1653f9b3a1cd0447edb97dc5078580e77aa62880585e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/detect_features_metabo.py",
+      "path": "skills/pyopenms/scripts/detect_features_metabo.py",
+      "size": 4435
+    },
+    {
+      "digest": "f1bbcd43aa1706e41173e52c32ab6e3681b0c90c72f02a2461ac3046b9fe18c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/digest_protein.py",
+      "path": "skills/pyopenms/scripts/digest_protein.py",
+      "size": 3651
+    },
+    {
+      "digest": "ca9ec520fd6a945da474c872196cf349e7a855d0f0b0ecddf0e1463f82989c21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/export_gnps_sirius.py",
+      "path": "skills/pyopenms/scripts/export_gnps_sirius.py",
+      "size": 4349
+    },
+    {
+      "digest": "a333a15e7f3c835ffcb0002757db411bda26c475c6c33240f319493873e27735",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/extract_chromatograms.py",
+      "path": "skills/pyopenms/scripts/extract_chromatograms.py",
+      "size": 4035
+    },
+    {
+      "digest": "66c6825f789a7d41a87982c73ca75fde52a9a625f7183731c15bbf0f0bf72257",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/inspect_ms_data.py",
+      "path": "skills/pyopenms/scripts/inspect_ms_data.py",
+      "size": 5980
+    },
+    {
+      "digest": "2078089fa684afc70ac6f1e2dfdf252879ad5afcde07470fa030426a0df70260",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/mass_calculator.py",
+      "path": "skills/pyopenms/scripts/mass_calculator.py",
+      "size": 3609
+    },
+    {
+      "digest": "e0c7ed3d59cdbea6e8c10f054a68a1b55e8ba451d3b0d9c7a36af308ba30c36d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/plot_ms_data.py",
+      "path": "skills/pyopenms/scripts/plot_ms_data.py",
+      "size": 4026
+    },
+    {
+      "digest": "0f486a25b0ebbaf2321f42d18ae8c42c988e83084e36101a07153ad29c303d3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/process_identifications.py",
+      "path": "skills/pyopenms/scripts/process_identifications.py",
+      "size": 6552
+    },
+    {
+      "digest": "7e3a7c0ca548dddb5d9bc2c8b215fa51a15c3c7fe1b49fe751a56dcd01b67120",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/process_spectra.py",
+      "path": "skills/pyopenms/scripts/process_spectra.py",
+      "size": 4874
+    },
+    {
+      "digest": "d3a34bc68203d70a2add1de1fc7d2f8e9a4b580429ff7c7545a1ff710d3b9dbc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyopenms/skills/pyopenms/scripts/theoretical_spectrum.py",
+      "path": "skills/pyopenms/scripts/theoretical_spectrum.py",
+      "size": 3195
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "495a9fd5bb42100d9dd858e0d70554738fbe4505ee0fb03bd74dc169913969b0",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pyopenms",
+  "schema_version": 1
+}

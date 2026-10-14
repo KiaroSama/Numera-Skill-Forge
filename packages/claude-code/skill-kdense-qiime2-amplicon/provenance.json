@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiime2-amplicon/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiime2-amplicon/skills/qiime2-amplicon/SKILL.md",
+      "path": "skills/qiime2-amplicon/SKILL.md",
+      "size": 8648
+    },
+    {
+      "digest": "d364d7f4ae66d3481168f71ce677e188c6135db349d498744ebf387223cd9741",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiime2-amplicon/skills/qiime2-amplicon/references/runtime-and-interpretation.md",
+      "path": "skills/qiime2-amplicon/references/runtime-and-interpretation.md",
+      "size": 13632
+    },
+    {
+      "digest": "4f781d70594f8624af3ad71e3cdedc0f5cbcd285ed630a3277cae2fe8a94827a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiime2-amplicon/skills/qiime2-amplicon/scripts/amplicon_workflow.py",
+      "path": "skills/qiime2-amplicon/scripts/amplicon_workflow.py",
+      "size": 15621
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1ff78c1d5f2cac429b98599837838a347a20e32ade9829665f595138257c3259",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/qiime2-amplicon",
+  "schema_version": 1
+}

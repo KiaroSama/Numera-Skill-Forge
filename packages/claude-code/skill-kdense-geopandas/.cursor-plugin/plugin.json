@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/geopandas",
+  "license": "MIT",
+  "name": "skill-kdense-geopandas",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

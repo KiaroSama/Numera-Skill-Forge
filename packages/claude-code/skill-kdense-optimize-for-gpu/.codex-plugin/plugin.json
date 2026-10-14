@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/optimize-for-gpu",
+  "license": "MIT",
+  "name": "skill-kdense-optimize-for-gpu",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

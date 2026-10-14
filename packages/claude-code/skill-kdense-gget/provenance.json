@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/SKILL.md",
+      "path": "skills/gget/SKILL.md",
+      "size": 11253
+    },
+    {
+      "digest": "125d01874c0577e29b50ca9fb43bcf995ed0816662b11fb20941948cfbe58400",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/references/common_workflows.md",
+      "path": "skills/gget/references/common_workflows.md",
+      "size": 2570
+    },
+    {
+      "digest": "01ddea3b3b404dbaf3af96300d6f1ca506bc2a1fcee5604bb5bb679d5824e0b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/references/database_info.md",
+      "path": "skills/gget/references/database_info.md",
+      "size": 13641
+    },
+    {
+      "digest": "853ea6b9252d952908913e23d9b76b0b3af19eedde5b7617f72aa993b7cc2833",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/references/module_catalog.md",
+      "path": "skills/gget/references/module_catalog.md",
+      "size": 26673
+    },
+    {
+      "digest": "2c40d6bdab786e316a15eee7fbd82ebd90f4b2f34ff8aab1e5575f39ee3cf38d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/references/module_reference.md",
+      "path": "skills/gget/references/module_reference.md",
+      "size": 24332
+    },
+    {
+      "digest": "5e3909d8d58acbdde98b449e1649c21b8c28446fa39d11e2d8c88fada4259bd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/references/workflows.md",
+      "path": "skills/gget/references/workflows.md",
+      "size": 9807
+    },
+    {
+      "digest": "faccfffc861a5fd2b391933341e4f5c6dcaf98b71818c050d0b93412f4449100",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/scripts/batch_sequence_analysis.py",
+      "path": "skills/gget/scripts/batch_sequence_analysis.py",
+      "size": 6717
+    },
+    {
+      "digest": "9acb953ce9ae90c8b470135b382107fdd01ab35f1323ee877b4f8a3bd71dcbb3",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/scripts/enrichment_pipeline.py",
+      "path": "skills/gget/scripts/enrichment_pipeline.py",
+      "size": 7917
+    },
+    {
+      "digest": "b72b3371deee1298381811acd1166f5b2e25ff0e1423d1133c7f8f355cdcbfce",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-gget/skills/gget/scripts/gene_analysis.py",
+      "path": "skills/gget/scripts/gene_analysis.py",
+      "size": 7603
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "958940ae8372b4df1603bea95950ab66e92d84c2ded9d85ff176a0639a42db09",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/gget",
+  "schema_version": 1
+}

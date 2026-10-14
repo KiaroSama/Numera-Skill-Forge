@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/SKILL.md",
+      "path": "skills/bulk-rnaseq/SKILL.md",
+      "size": 16890
+    },
+    {
+      "digest": "1e2583f8a8906e6e7739f71ebe2486b4c2e0e89718bc7dfdf51875e6bab79d39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/references/counts-and-handoff.md",
+      "path": "skills/bulk-rnaseq/references/counts-and-handoff.md",
+      "size": 8483
+    },
+    {
+      "digest": "fd416ee212c785b6ab5e242000e651780ba9a268869b1c82624474b5a6e1c236",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/references/design-and-qc.md",
+      "path": "skills/bulk-rnaseq/references/design-and-qc.md",
+      "size": 6388
+    },
+    {
+      "digest": "02b53631e73c916889e34c80392d85687dd60c93bc143385071970dd6e83d9aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/references/upstream-manual.md",
+      "path": "skills/bulk-rnaseq/references/upstream-manual.md",
+      "size": 7119
+    },
+    {
+      "digest": "d4c4fc8e8e5d199175af51fa571605179811a92c1e8293687e81c95ebe44001f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/references/upstream-nfcore.md",
+      "path": "skills/bulk-rnaseq/references/upstream-nfcore.md",
+      "size": 7473
+    },
+    {
+      "digest": "6f6f5e58a3fe870197e24d24c74eb033eee16145d74517388f69961a658c80dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/scripts/_tabular.py",
+      "path": "skills/bulk-rnaseq/scripts/_tabular.py",
+      "size": 975
+    },
+    {
+      "digest": "76b79c1426ae4c90c143b6b8a04a04d72cfd1f2c90cfeab56a655820776eda84",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/scripts/build_counts_matrix.py",
+      "path": "skills/bulk-rnaseq/scripts/build_counts_matrix.py",
+      "size": 14423
+    },
+    {
+      "digest": "de46d3ea873b272fdb1aa8f54512d23ff5e1f0f147f9ccc3f6bbe0eb72ef5c4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bulk-rnaseq/skills/bulk-rnaseq/scripts/validate_samplesheet.py",
+      "path": "skills/bulk-rnaseq/scripts/validate_samplesheet.py",
+      "size": 10518
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5fde42bc7e70821b1510ffd00d867bd32bce441fc867eb56aa3bde304a86fbf0",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/bulk-rnaseq",
+  "schema_version": 1
+}

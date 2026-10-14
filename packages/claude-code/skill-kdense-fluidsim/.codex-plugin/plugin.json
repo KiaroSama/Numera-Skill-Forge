@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/fluidsim",
+  "license": "MIT",
+  "name": "skill-kdense-fluidsim",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

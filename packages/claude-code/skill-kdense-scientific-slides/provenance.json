@@ -1,0 +1,187 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b1d34b81d30789f561bd4ee3ddb373c9fb84bed25086794bebd842af46afbad6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/SKILL.md",
+      "path": "skills/scientific-slides/SKILL.md",
+      "size": 21522
+    },
+    {
+      "digest": "6baeb344277e60f0909b48421cd8d93f093e6733469b39426cdfcf38164cdafa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/assets/beamer_template_conference.tex",
+      "path": "skills/scientific-slides/assets/beamer_template_conference.tex",
+      "size": 10158
+    },
+    {
+      "digest": "03893eaf18e9e689fefd42bcb6ffc56413d229fe980c0bd67804422ba0077f45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/assets/beamer_template_defense.tex",
+      "path": "skills/scientific-slides/assets/beamer_template_defense.tex",
+      "size": 26686
+    },
+    {
+      "digest": "714a3c3d29b0227100d9ecac10383471c3fb1d11cb3450c691d3955f0ef46ee3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/assets/beamer_template_seminar.tex",
+      "path": "skills/scientific-slides/assets/beamer_template_seminar.tex",
+      "size": 23422
+    },
+    {
+      "digest": "afacd3ac9b33311a86ebf1398bc960279b1412a77a25c3ce5429ebbf3e50d94a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/assets/powerpoint_design_guide.md",
+      "path": "skills/scientific-slides/assets/powerpoint_design_guide.md",
+      "size": 22025
+    },
+    {
+      "digest": "39f4720e9d5a602d6c16af0985232fbc78d4e79598e7ed17a2bc076efc9cc195",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/assets/timing_guidelines.md",
+      "path": "skills/scientific-slides/assets/timing_guidelines.md",
+      "size": 13605
+    },
+    {
+      "digest": "a57ee14a34d7b8b6bb72d19bc0b0d4ccaa172731cfc5d8dbf30fbceeb30dcbcd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/beamer_guide.md",
+      "path": "skills/scientific-slides/references/beamer_guide.md",
+      "size": 20245
+    },
+    {
+      "digest": "1624aa65d42d52469a06727e6a68c5ba66cce311020f107659de7ca80654888b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/common_pitfalls.md",
+      "path": "skills/scientific-slides/references/common_pitfalls.md",
+      "size": 3335
+    },
+    {
+      "digest": "ff0b437dae2cc74b9290907ade331dc69cb1365071584ef2a854f5ade3a53408",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/data_visualization_slides.md",
+      "path": "skills/scientific-slides/references/data_visualization_slides.md",
+      "size": 18110
+    },
+    {
+      "digest": "8e79965dd65ca56a7e239920867b36be1b2f626cee9e65e99e4d6efaaa883004",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/presentation_structure.md",
+      "path": "skills/scientific-slides/references/presentation_structure.md",
+      "size": 22551
+    },
+    {
+      "digest": "5e52ebfcf4b0a423dc82451fd62ec5468e8c4b66599f14d5e57ec6ece9c00700",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/presentation_workflow.md",
+      "path": "skills/scientific-slides/references/presentation_workflow.md",
+      "size": 7586
+    },
+    {
+      "digest": "87341d37eac34509c88ba2a3e5e1a880915ac0576e74b12f0f6d2baa31f79f9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/prompt_writing.md",
+      "path": "skills/scientific-slides/references/prompt_writing.md",
+      "size": 2203
+    },
+    {
+      "digest": "cc20750df4fbb6f3e8068bc9ba355dfacfa943da5c5211223244da0b39e69761",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/script_reference.md",
+      "path": "skills/scientific-slides/references/script_reference.md",
+      "size": 8434
+    },
+    {
+      "digest": "1ad22713e87571cf65ac3176a84985774ad74e2a8be7e4c3396cb0877876f38b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/slide_capabilities.md",
+      "path": "skills/scientific-slides/references/slide_capabilities.md",
+      "size": 12419
+    },
+    {
+      "digest": "6b50148bc161c80272b16da445dfdb87f966a32ccd3a28ff94dedc940dd6fbff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/slide_design_principles.md",
+      "path": "skills/scientific-slides/references/slide_design_principles.md",
+      "size": 23986
+    },
+    {
+      "digest": "743274bc2664177f7a015c2531d07d516d1a7a6d6b6cb4a5ff527a3a99fac683",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/talk_types_guide.md",
+      "path": "skills/scientific-slides/references/talk_types_guide.md",
+      "size": 20477
+    },
+    {
+      "digest": "38138ef5f10b92f6d8965906438235bbb9ff08c8839545501a00bd6b799ab581",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/references/visual_review_workflow.md",
+      "path": "skills/scientific-slides/references/visual_review_workflow.md",
+      "size": 20368
+    },
+    {
+      "digest": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/generate_schematic.py",
+      "path": "skills/scientific-slides/scripts/generate_schematic.py",
+      "size": 7782
+    },
+    {
+      "digest": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/generate_schematic_ai.py",
+      "path": "skills/scientific-slides/scripts/generate_schematic_ai.py",
+      "size": 35684
+    },
+    {
+      "digest": "19fe23e762df171625b6d5fec9635759398709dd2434b36f95da4004ec45af00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/generate_slide_image.py",
+      "path": "skills/scientific-slides/scripts/generate_slide_image.py",
+      "size": 7898
+    },
+    {
+      "digest": "1ecd12ffe9529d13cc16747ff6c63f44340df0df439a35c1ac796c488e6a9fec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/generate_slide_image_ai.py",
+      "path": "skills/scientific-slides/scripts/generate_slide_image_ai.py",
+      "size": 33787
+    },
+    {
+      "digest": "06ada43a0b3ff5c5f6c89dfb214a451e99ec0f23532ccb7962376b3f3e5ba610",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/pdf_to_images.py",
+      "path": "skills/scientific-slides/scripts/pdf_to_images.py",
+      "size": 6921
+    },
+    {
+      "digest": "a816f9269c3d1889677b92daa92e819834aafdcf600b1535304f385e178b3fdf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/slides_to_pdf.py",
+      "path": "skills/scientific-slides/scripts/slides_to_pdf.py",
+      "size": 7551
+    },
+    {
+      "digest": "f4f8ebe14e2cc593edf60e5236bd31fcae1b686757c90cc4b18eb488cdf78646",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-slides/skills/scientific-slides/scripts/validate_presentation.py",
+      "path": "skills/scientific-slides/scripts/validate_presentation.py",
+      "size": 13628
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "33d7ad99b4b3fc88d9c267787376dc69c74499982d34dea0633ca537891ee848",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-slides",
+  "schema_version": 1
+}

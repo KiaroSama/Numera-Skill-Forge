@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-depmap/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "893eb02a2dc8a77e61260dfb74b2acdf6c85e08f33028329d73657a23d398586",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-depmap/skills/depmap/SKILL.md",
+      "path": "skills/depmap/SKILL.md",
+      "size": 13887
+    },
+    {
+      "digest": "4bf745e94ff70da89f8c3d67c3de625d2d06b24812012fe446fa9d9c2422cd96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-depmap/skills/depmap/references/dependency_analysis.md",
+      "path": "skills/depmap/references/dependency_analysis.md",
+      "size": 10165
+    },
+    {
+      "digest": "28604159f7c87d7e5a5002a0512af100a440d73f0fa5f2ba6794ccafce66ebfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-depmap/skills/depmap/scripts/depmap_data.py",
+      "path": "skills/depmap/scripts/depmap_data.py",
+      "size": 9237
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6756765c374d0d761e97a740856bc29989eb0903a7e35133b540f232986eb8a5",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/depmap",
+  "schema_version": 1
+}

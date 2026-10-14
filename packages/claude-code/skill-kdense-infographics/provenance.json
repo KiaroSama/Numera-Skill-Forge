@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "dcd4ac5b46ac7f88ce8bd4ddf3efc8aa99a3f4bc6cc9ce2067c7d469758f0a8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/SKILL.md",
+      "path": "skills/infographics/SKILL.md",
+      "size": 15328
+    },
+    {
+      "digest": "69046b6d3e2845859d0ecf4fd2f83366bf1d7f929ebb5800b32a5e7ae8c14efb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/references/color_palettes.md",
+      "path": "skills/infographics/references/color_palettes.md",
+      "size": 15030
+    },
+    {
+      "digest": "0dc8a21eac0a524eeac8c0d9e503949a19c922a37cbbb70350801e2e5e2c5f82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/references/design_principles.md",
+      "path": "skills/infographics/references/design_principles.md",
+      "size": 19483
+    },
+    {
+      "digest": "2321a37bc451e76903fe18f5b0b6969e0b36757ffedce5def634197a9b9d5f68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/references/infographic_type_catalog.md",
+      "path": "skills/infographics/references/infographic_type_catalog.md",
+      "size": 5323
+    },
+    {
+      "digest": "7e776a53dadfe2c8293abbb135756512bebfc66b72ad0aaa2076f96b2951e0b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/references/infographic_types.md",
+      "path": "skills/infographics/references/infographic_types.md",
+      "size": 29323
+    },
+    {
+      "digest": "31034254d9c849c3a1295aa11223d12c120288b4a7e825d915a411f726ff9f0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/references/iterative_refinement.md",
+      "path": "skills/infographics/references/iterative_refinement.md",
+      "size": 4118
+    },
+    {
+      "digest": "c70c52ee56921bf941edd17168cb90aa57373fa7c34ff7f8360fc8fa9df21b99",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/scripts/generate_infographic.py",
+      "path": "skills/infographics/scripts/generate_infographic.py",
+      "size": 12059
+    },
+    {
+      "digest": "edb5abe887af7cd24cc85f4440006a19f4dde5d1d9564cb22031e40712faa338",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-infographics/skills/infographics/scripts/generate_infographic_ai.py",
+      "path": "skills/infographics/scripts/generate_infographic_ai.py",
+      "size": 57066
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5766f2f1e5d06124e7923dfa915e9e6fd316e72360bb628722544fd128182c5b",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/infographics",
+  "schema_version": 1
+}

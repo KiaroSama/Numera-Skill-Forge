@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b617561b38a2e3ecc8f8cf3dd8bb0307ac1aaf4d67e6e0432b0c248bc4382245",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/SKILL.md",
+      "path": "skills/biopython/SKILL.md",
+      "size": 17223
+    },
+    {
+      "digest": "b023aa7df32c4c5f8db621929e23dde64ae0ef77169cbfdefdf479068c0001a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/advanced.md",
+      "path": "skills/biopython/references/advanced.md",
+      "size": 16115
+    },
+    {
+      "digest": "99668ee8cf0314f655149a8383f931d51ec039dea566a51219f7f37b02ef6bd4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/alignment.md",
+      "path": "skills/biopython/references/alignment.md",
+      "size": 9957
+    },
+    {
+      "digest": "487953c8120658887de77fe794cc07881b0a223f68e29b4575ec317995fa7151",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/blast.md",
+      "path": "skills/biopython/references/blast.md",
+      "size": 14077
+    },
+    {
+      "digest": "87dcee5bb51eff9959c313b6680aebf7ff064155599bbb03630325148809bb50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/databases.md",
+      "path": "skills/biopython/references/databases.md",
+      "size": 13802
+    },
+    {
+      "digest": "c0129d6636b7628a512f5338e2afc0101561377210467d17c47008115d851ac6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/phylogenetics.md",
+      "path": "skills/biopython/references/phylogenetics.md",
+      "size": 15174
+    },
+    {
+      "digest": "a44292d82f9ec99f1b232a835275e694275709b928e297ed9cc24ed1dbc2f139",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/review.md",
+      "path": "skills/biopython/references/review.md",
+      "size": 6322
+    },
+    {
+      "digest": "cb858b46c28873e5b681b54eba37cbf919dc9febe7d282ca3aeafafe3603c514",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/sequence_io.md",
+      "path": "skills/biopython/references/sequence_io.md",
+      "size": 8215
+    },
+    {
+      "digest": "c5805632d9bd56cc933374a932a3669444329b135ba275216492659d5420da2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-biopython/skills/biopython/references/structure.md",
+      "path": "skills/biopython/references/structure.md",
+      "size": 13432
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fe8a89ba351a20b8386f8d9b735928b46894eace18d476a43f8a357c72a7f2e7",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/biopython",
+  "schema_version": 1
+}

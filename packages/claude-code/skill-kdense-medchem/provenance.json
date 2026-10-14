@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-medchem/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "07e44d0dc965278ab8e4fe9a325e89198bccd7e3ee26c1c454e788e1f4df9c2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-medchem/skills/medchem/SKILL.md",
+      "path": "skills/medchem/SKILL.md",
+      "size": 15732
+    },
+    {
+      "digest": "acba89f01dfba48e3ef18edba2ee25859f8f98cc488d7c39eca9f71d32c23bd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-medchem/skills/medchem/references/api_guide.md",
+      "path": "skills/medchem/references/api_guide.md",
+      "size": 14042
+    },
+    {
+      "digest": "0a429dfe34cf877f9a581ffac6c584d2334038a8303c5d85f6be293ca709e9aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-medchem/skills/medchem/references/rules_catalog.md",
+      "path": "skills/medchem/references/rules_catalog.md",
+      "size": 11647
+    },
+    {
+      "digest": "bed43299e25f3f12acb8e30f506e2de57a71a24852b6b19f7c3560b8fe455d67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-medchem/skills/medchem/scripts/filter_molecules.py",
+      "path": "skills/medchem/scripts/filter_molecules.py",
+      "size": 13637
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2534596303ac342b3502376f702a9a0d17919e6296688d24ad1acaeb2e3527d1",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/medchem",
+  "schema_version": 1
+}

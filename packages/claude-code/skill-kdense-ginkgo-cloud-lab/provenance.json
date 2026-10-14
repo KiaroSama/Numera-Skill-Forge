@@ -1,0 +1,152 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b3675d3ad36070fd598642fd2b58c36d3cfd09a08eef3f52d77629856e2e845b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/SKILL.md",
+      "path": "skills/ginkgo-cloud-lab/SKILL.md",
+      "size": 11256
+    },
+    {
+      "digest": "27e33563c128db9572a60d2de0250afbe50a49111198198c7bcc62b230fc1e8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cell-free-protein-expression-hibit.md",
+      "path": "skills/ginkgo-cloud-lab/references/cell-free-protein-expression-hibit.md",
+      "size": 2497
+    },
+    {
+      "digest": "359c9b9808d2cd71cd82dcbe374ff119b1bdfc726764b800a2877e96910e93c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cell-free-protein-expression-optimization.md",
+      "path": "skills/ginkgo-cloud-lab/references/cell-free-protein-expression-optimization.md",
+      "size": 3026
+    },
+    {
+      "digest": "86118dd4d1646a401072549c655e3c37041a10d894f85ccde0da88382723657d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cell-free-protein-expression-validation.md",
+      "path": "skills/ginkgo-cloud-lab/references/cell-free-protein-expression-validation.md",
+      "size": 2331
+    },
+    {
+      "digest": "4dc1614008765cb6f1631ecf7d9152fc89caaa2d2bdd926a44d48dcc54d48f3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cfps-expression-purification-quantification.md",
+      "path": "skills/ginkgo-cloud-lab/references/cfps-expression-purification-quantification.md",
+      "size": 2895
+    },
+    {
+      "digest": "b11588597a40786b872f67ea93a6e0068509172c53c99d1ea42247208080cd26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cfps-strep-purification-thermal-shift.md",
+      "path": "skills/ginkgo-cloud-lab/references/cfps-strep-purification-thermal-shift.md",
+      "size": 3084
+    },
+    {
+      "digest": "a9be645bb2f5335d22b2e88b949e3d996a0292e87953f517831464fd3c121326",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/cfps-strep-tag-purification-a280.md",
+      "path": "skills/ginkgo-cloud-lab/references/cfps-strep-tag-purification-a280.md",
+      "size": 2458
+    },
+    {
+      "digest": "135c9d326afb41116264d429ecdc8289322cd273c6a7770776ff1899c84345cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/echo-ms-cfps-detection.md",
+      "path": "skills/ginkgo-cloud-lab/references/echo-ms-cfps-detection.md",
+      "size": 2245
+    },
+    {
+      "digest": "d73d5e797dc8a70f45247514f1c6b26f37d7a24839e87ef88f61ff868f3d5a8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/echo-ms-method-onboarding.md",
+      "path": "skills/ginkgo-cloud-lab/references/echo-ms-method-onboarding.md",
+      "size": 2820
+    },
+    {
+      "digest": "dc5a3b7547860cbd56e47b01bc708bae79a1ad24f7ee07c141a570c1c5db494e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/ecoli-expression-purification-quantification.md",
+      "path": "skills/ginkgo-cloud-lab/references/ecoli-expression-purification-quantification.md",
+      "size": 2676
+    },
+    {
+      "digest": "fc2c95d1cc06bde23649a5b04c83fb33ff7708fb53fd06e4d448a4e1114fdc6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/ecoli-minibinder-expression-histag-a280.md",
+      "path": "skills/ginkgo-cloud-lab/references/ecoli-minibinder-expression-histag-a280.md",
+      "size": 2777
+    },
+    {
+      "digest": "17826f7f39150869830da647d6d4d3f8677f6f4de439f231389b1567c80fbfe2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/ecoli-protein-expression-hibit.md",
+      "path": "skills/ginkgo-cloud-lab/references/ecoli-protein-expression-hibit.md",
+      "size": 2427
+    },
+    {
+      "digest": "488070c9a4efd3ac227cbafb6dce84f443f505ef80211882581810af8941ba05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/ecoli-protein-expression-histag-a280.md",
+      "path": "skills/ginkgo-cloud-lab/references/ecoli-protein-expression-histag-a280.md",
+      "size": 2414
+    },
+    {
+      "digest": "4271120ebc561aae89805ab528d554f78a0131245eff93139f27e0d576148e05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/fluorescent-pixel-art-generation.md",
+      "path": "skills/ginkgo-cloud-lab/references/fluorescent-pixel-art-generation.md",
+      "size": 3305
+    },
+    {
+      "digest": "8090f8981168de25f489912b842a103d08c88cd14fdbdef9158f9b097cd7c288",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/ivt-rna-synthesis-qpcr.md",
+      "path": "skills/ginkgo-cloud-lab/references/ivt-rna-synthesis-qpcr.md",
+      "size": 2829
+    },
+    {
+      "digest": "59c1c3fdd85aa0a991b296749eeee74610d7a2b3544e35382ad0d4c0f1b029b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/minibinder-strep-tag-a280.md",
+      "path": "skills/ginkgo-cloud-lab/references/minibinder-strep-tag-a280.md",
+      "size": 2229
+    },
+    {
+      "digest": "bf37a1088e996625079da968373c1f4707d77aa9508a88ff4a72aa72b18b05ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/pichia-protein-expression-labchip.md",
+      "path": "skills/ginkgo-cloud-lab/references/pichia-protein-expression-labchip.md",
+      "size": 2490
+    },
+    {
+      "digest": "34e701fd5c279240e6b00d059579305afa758fc51584112b8133914291806d52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/plate-reader-assay-onboarding.md",
+      "path": "skills/ginkgo-cloud-lab/references/plate-reader-assay-onboarding.md",
+      "size": 1377
+    },
+    {
+      "digest": "d14223aaf1e92f10333baec2356c43d02843493206e696999818288fc0e5453c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ginkgo-cloud-lab/skills/ginkgo-cloud-lab/references/spr-target-onboarding.md",
+      "path": "skills/ginkgo-cloud-lab/references/spr-target-onboarding.md",
+      "size": 2883
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "67e374cccf503979d01643cfffdfe08eb714ae25260a058e9ce3839ba122445c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/ginkgo-cloud-lab",
+  "schema_version": 1
+}

@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "031975c6abaabd8237c18b6472886f4a718c509da70fc6ebca06455f8a002fa7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/SKILL.md",
+      "path": "skills/pufferlib/SKILL.md",
+      "size": 15640
+    },
+    {
+      "digest": "0defeddfae85e5517d3f25d03fc43be22455cc5c13379efea7c2f5769d58667e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/environments.md",
+      "path": "skills/pufferlib/references/environments.md",
+      "size": 10933
+    },
+    {
+      "digest": "1baf88eafdb12b8d43dde7dfdc9690bf9a28ff6483f5303695a2307166620d02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/integration.md",
+      "path": "skills/pufferlib/references/integration.md",
+      "size": 9592
+    },
+    {
+      "digest": "48222d65c5814bda828f274122b60896b49ba515f171277b8b208076560376d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/native-5.md",
+      "path": "skills/pufferlib/references/native-5.md",
+      "size": 8307
+    },
+    {
+      "digest": "88a2a468b647656d23306ee2cc885643d210b041b920078e84e4ef237ea3d68b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/policies.md",
+      "path": "skills/pufferlib/references/policies.md",
+      "size": 7415
+    },
+    {
+      "digest": "b59e378ff3e592d553336dcff61bb9b7b988dc59407287f53e1336bd33db91f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/training.md",
+      "path": "skills/pufferlib/references/training.md",
+      "size": 13332
+    },
+    {
+      "digest": "8e10c7b1ef60cd52fdb7f00b7672fb477451c962602e09948e5a456adf1f2c38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/references/vectorization.md",
+      "path": "skills/pufferlib/references/vectorization.md",
+      "size": 8899
+    },
+    {
+      "digest": "5e2a587bf7e4f8fb11154872238594d6ba21805716d7f3b974675ebe54e52bfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/__init__.py",
+      "path": "skills/pufferlib/scripts/__init__.py",
+      "size": 62
+    },
+    {
+      "digest": "8f3f610237c6035f4fcb379ec16198f9e2a93c7770ba93e9d222530e5512f85f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/_common.py",
+      "path": "skills/pufferlib/scripts/_common.py",
+      "size": 6668
+    },
+    {
+      "digest": "4601b83d9493dd4fd1c21b84afb2bd17fcedb0674d2bf526e62e770a59b16d6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/benchmark_vectorization.py",
+      "path": "skills/pufferlib/scripts/benchmark_vectorization.py",
+      "size": 8332
+    },
+    {
+      "digest": "2308a4f0076f6e5cba7a1a8328fa8764ba2f21828c252d0bd0bb0689321abade",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/env_contract_validator.py",
+      "path": "skills/pufferlib/scripts/env_contract_validator.py",
+      "size": 6892
+    },
+    {
+      "digest": "058f479e510d8f02d8bbba517c96d7a9f8fe6dfc5e32f01f333b22651204df70",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/env_template.py",
+      "path": "skills/pufferlib/scripts/env_template.py",
+      "size": 7251
+    },
+    {
+      "digest": "df2ae60bcff0f885b8dbdb03998ed6bfbf6105bd5bb2e2d56cb19bb125ab1c59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/inspect_checkpoint.py",
+      "path": "skills/pufferlib/scripts/inspect_checkpoint.py",
+      "size": 7032
+    },
+    {
+      "digest": "d89d5c448db6ee48e728b74c76f5326f0e156fa163a936061913b464e7bf470c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/repro_plan.py",
+      "path": "skills/pufferlib/scripts/repro_plan.py",
+      "size": 6038
+    },
+    {
+      "digest": "cdb2c3d31836aba7497c85f0e5864b3fbb935ec99db5a7096106fdf7c56b20bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/train_template.py",
+      "path": "skills/pufferlib/scripts/train_template.py",
+      "size": 10623
+    },
+    {
+      "digest": "6ede920afb89b4ce3d29c6a8f9fda503049e58a9ae7f1fc9d11a964bec9231d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pufferlib/skills/pufferlib/scripts/validate_plan.py",
+      "path": "skills/pufferlib/scripts/validate_plan.py",
+      "size": 18879
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "260fd5534617f25bad8dc1eeef2e0bd0d6807c8c2a35cb77cfb22d7f2916d380",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pufferlib",
+  "schema_version": 1
+}

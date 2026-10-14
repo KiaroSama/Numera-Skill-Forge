@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "03538274e00aad262d159ca5ebed55fe6519d605171569feff44afeb781088fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/SKILL.md",
+      "path": "skills/torchdrug/SKILL.md",
+      "size": 12210
+    },
+    {
+      "digest": "717b98e9cb474b99b6afeb59eacddde96a99ffcec9b85ee6a1ee0d4be1dddf19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/core_concepts.md",
+      "path": "skills/torchdrug/references/core_concepts.md",
+      "size": 7524
+    },
+    {
+      "digest": "e9e99e7fdec54700804832c2d0f60a4391a9cbaa01efaab6efe5d30dbd7ff189",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/datasets.md",
+      "path": "skills/torchdrug/references/datasets.md",
+      "size": 9144
+    },
+    {
+      "digest": "b612d4034cd7e8ec8680993f11128df29cd3294c08915b50129c4a65779b82fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/knowledge_graphs.md",
+      "path": "skills/torchdrug/references/knowledge_graphs.md",
+      "size": 5921
+    },
+    {
+      "digest": "5e5cdc50729e2ae4ab17e8f66eb4bb953f474e2b5e5ea1b9682ac765ed3f6adb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/models_architectures.md",
+      "path": "skills/torchdrug/references/models_architectures.md",
+      "size": 5714
+    },
+    {
+      "digest": "1ff3b721c18fa00336842de9d12efe233e0151b6a0eee45b75269d60b6cee00f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/molecular_generation.md",
+      "path": "skills/torchdrug/references/molecular_generation.md",
+      "size": 6340
+    },
+    {
+      "digest": "554fe03c4ca9b715dee8465bbe1a926ae22add1a90ebc7c75bbb6ba30f50ef08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/molecular_property_prediction.md",
+      "path": "skills/torchdrug/references/molecular_property_prediction.md",
+      "size": 7497
+    },
+    {
+      "digest": "a692fc181a088f0133aa3465525a2d84871db8e69ac0b37c5fd784d15a1d9719",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/protein_modeling.md",
+      "path": "skills/torchdrug/references/protein_modeling.md",
+      "size": 8369
+    },
+    {
+      "digest": "3fce683d22e5f7664e87708289045808ef71d8c0e62983f5c7411578d4feed26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/retrosynthesis.md",
+      "path": "skills/torchdrug/references/retrosynthesis.md",
+      "size": 7590
+    },
+    {
+      "digest": "c0296fef4087759bf2044da2b98345894a7c5c00c82b658951b7b2ce6786764f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torchdrug/skills/torchdrug/references/review.md",
+      "path": "skills/torchdrug/references/review.md",
+      "size": 7261
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "22cf5dd81b7eea0f92439064c0f7eeb32a664e38b96e7804ccc7f102f4adecbe",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/torchdrug",
+  "schema_version": 1
+}

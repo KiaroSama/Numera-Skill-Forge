@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/SKILL.md",
+      "path": "skills/pathway-enrichment/SKILL.md",
+      "size": 16726
+    },
+    {
+      "digest": "bd9dc1b2df10a2eb8794bdbe2ade248b8987ddf200a8e90b19235af8f20fd414",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/references/databases-and-gene-sets.md",
+      "path": "skills/pathway-enrichment/references/databases-and-gene-sets.md",
+      "size": 9025
+    },
+    {
+      "digest": "0305a6c545c2aa5e1ac655d8a39f99e437f02a29f5f23f9786e5cf3ab98959fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/references/gseapy.md",
+      "path": "skills/pathway-enrichment/references/gseapy.md",
+      "size": 9856
+    },
+    {
+      "digest": "d1356ee0f94c4e64191c7436c641c01592e323be1e55f4c037957b7b833d4f73",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/references/interpretation.md",
+      "path": "skills/pathway-enrichment/references/interpretation.md",
+      "size": 7511
+    },
+    {
+      "digest": "911a352451ec52066f044f8eac671ad8aa6a4e8b09d455918bea790b26d882bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/references/verified-api.md",
+      "path": "skills/pathway-enrichment/references/verified-api.md",
+      "size": 8265
+    },
+    {
+      "digest": "973a06c03e9d1df49423ca0744f7c5be5185ec9decc7de8ccbb72d0f2ac6bc06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pathway-enrichment/skills/pathway-enrichment/scripts/run_enrichment.py",
+      "path": "skills/pathway-enrichment/scripts/run_enrichment.py",
+      "size": 13605
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5a9cea788d24e7997c9bc77eb59c529b5f5ad29839a2a792c5d3a30684b6ea9c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pathway-enrichment",
+  "schema_version": 1
+}

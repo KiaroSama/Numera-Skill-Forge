@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scientific-writing",
+  "license": "MIT",
+  "name": "skill-kdense-scientific-writing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

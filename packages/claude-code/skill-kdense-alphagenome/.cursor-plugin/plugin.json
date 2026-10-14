@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/alphagenome",
+  "license": "MIT",
+  "name": "skill-kdense-alphagenome",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

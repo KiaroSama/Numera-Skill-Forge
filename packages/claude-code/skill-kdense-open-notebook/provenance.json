@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "39f3bb01946218b53c02e3aedde025e6f8b786307e5ba0c4698c5aed02f9fdd6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/SKILL.md",
+      "path": "skills/open-notebook/SKILL.md",
+      "size": 11357
+    },
+    {
+      "digest": "fc4412ed1fd332aa7a145d38f695a5fc472c2fb7ac853e72920ee5802ad8ce71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/references/api_reference.md",
+      "path": "skills/open-notebook/references/api_reference.md",
+      "size": 19312
+    },
+    {
+      "digest": "11fa25e90605dd1644be25bc4894ff271e60b7b2fa7e352d84e03cabc6563f5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/references/architecture.md",
+      "path": "skills/open-notebook/references/architecture.md",
+      "size": 5046
+    },
+    {
+      "digest": "712e0c3a94b331c7a8e9c96bf6a9786e0493b59e0b20396c9bce528a9c3909c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/references/configuration.md",
+      "path": "skills/open-notebook/references/configuration.md",
+      "size": 9439
+    },
+    {
+      "digest": "ee4790482f9d12a19170609033bc217c7c575088670559a8d0e224157c8486f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/references/examples.md",
+      "path": "skills/open-notebook/references/examples.md",
+      "size": 8426
+    },
+    {
+      "digest": "490bf90903022ecfa618bd80684bf35b88fd66b8c3bd1d2aae921f5fcdbbc702",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/scripts/_common.py",
+      "path": "skills/open-notebook/scripts/_common.py",
+      "size": 1536
+    },
+    {
+      "digest": "e51c8718c866d353f7f8f133a38acc3947a95ef116b5914e17d636c9607a4bc2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/scripts/chat_interaction.py",
+      "path": "skills/open-notebook/scripts/chat_interaction.py",
+      "size": 3596
+    },
+    {
+      "digest": "b36fae39f077aeb79cdb86e0a1a7b70ec1140ee2cd5e1b23917fe267f92ed6ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/scripts/notebook_management.py",
+      "path": "skills/open-notebook/scripts/notebook_management.py",
+      "size": 2691
+    },
+    {
+      "digest": "d51943cd35847040a5b9689c9a4d297b6a08536afeca8c1cef3f436dd41832fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-open-notebook/skills/open-notebook/scripts/source_ingestion.py",
+      "path": "skills/open-notebook/scripts/source_ingestion.py",
+      "size": 6148
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c68692874fd816dffb44f4285b7047e866a1973cfb06cfe9341b01550d887b72",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/open-notebook",
+  "schema_version": 1
+}

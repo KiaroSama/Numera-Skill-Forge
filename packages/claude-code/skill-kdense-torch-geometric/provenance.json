@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/SKILL.md",
+      "path": "skills/torch-geometric/SKILL.md",
+      "size": 22474
+    },
+    {
+      "digest": "f15cc9bcefd152de2911e773e1870a54deab26cd7e61511ba32b9c798f6e88a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/custom_datasets.md",
+      "path": "skills/torch-geometric/references/custom_datasets.md",
+      "size": 10735
+    },
+    {
+      "digest": "a0034a96a592dd3d4f56341b19ed3c0153e40065a56d23d42c241cb779396510",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/explainability.md",
+      "path": "skills/torch-geometric/references/explainability.md",
+      "size": 8799
+    },
+    {
+      "digest": "1d955ed7d1b98df468e7009dd0c1ada550fed50af02cd101052b83dd1d26af9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/heterogeneous.md",
+      "path": "skills/torch-geometric/references/heterogeneous.md",
+      "size": 9334
+    },
+    {
+      "digest": "2e8ae7873868915416061fa7fbe32d0db3337e568490cc833738af24414f29ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/link_prediction.md",
+      "path": "skills/torch-geometric/references/link_prediction.md",
+      "size": 10826
+    },
+    {
+      "digest": "623248481516df52e603820303a3fd115a43eb0278ccd99c253f1e891001493e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/message_passing.md",
+      "path": "skills/torch-geometric/references/message_passing.md",
+      "size": 5114
+    },
+    {
+      "digest": "caeecac05a54d87f30276b15a6a196a82736c00bf4ba5682ac940d17bb962bad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/review.md",
+      "path": "skills/torch-geometric/references/review.md",
+      "size": 7134
+    },
+    {
+      "digest": "69680934b72104c20108e7747027a151451528b6a0ebc3102e60471a868c6213",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-torch-geometric/skills/torch-geometric/references/scaling.md",
+      "path": "skills/torch-geometric/references/scaling.md",
+      "size": 11340
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eb7b4117008d3e9f47ab38d83582453a227f7dd99eafaa841835adfe85285fee",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/torch-geometric",
+  "schema_version": 1
+}

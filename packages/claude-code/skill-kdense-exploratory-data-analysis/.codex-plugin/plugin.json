@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/exploratory-data-analysis",
+  "license": "MIT",
+  "name": "skill-kdense-exploratory-data-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

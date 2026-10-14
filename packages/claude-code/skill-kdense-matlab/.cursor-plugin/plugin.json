@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/matlab",
+  "license": "MIT",
+  "name": "skill-kdense-matlab",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

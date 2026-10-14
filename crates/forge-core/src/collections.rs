@@ -97,7 +97,10 @@ fn selection(tree: &[Blob], skill: &Skill) -> Result<Vec<Blob>> {
         .cloned()
         .collect::<Vec<_>>();
     for file in &selected {
-        if policy::protected(&file.path) && !skill.reviewed_templates.contains_key(&file.path) {
+        if policy::protected(&file.path)
+            && !skill.reviewed_templates.contains_key(&file.path)
+            && !skill.reviewed_documents.contains_key(&file.path)
+        {
             return Err(Error::new(
                 "protected-payload",
                 "Skill contains excluded private/local content; no incomplete copy is published",
@@ -495,6 +498,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
         for file in &accepted.files {
             if policy::protected(&file.path)
                 && skill.reviewed_templates.get(&file.path) != Some(&file.digest)
+                && skill.reviewed_documents.get(&file.path) != Some(&file.digest)
             {
                 return Err(Error::new(
                     "approval-stale",

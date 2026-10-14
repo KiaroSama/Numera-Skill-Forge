@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cantera/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "1dcb22bba51475a69dc93bbefa7d2581f3dfdb6a03a6fc55f8637e398f733a51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cantera/skills/cantera/SKILL.md",
+      "path": "skills/cantera/SKILL.md",
+      "size": 8626
+    },
+    {
+      "digest": "f26f46596235763c25efc27f6879e43d388a6fc1e58c284117b93d83cf3ca90e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cantera/skills/cantera/assets/hydrogen-ignition.json",
+      "path": "skills/cantera/assets/hydrogen-ignition.json",
+      "size": 416
+    },
+    {
+      "digest": "57919a187c1f48d23c2fe5906ce0cf69b026ed7acf92823cf615d3d529f94d4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cantera/skills/cantera/references/interpretation.md",
+      "path": "skills/cantera/references/interpretation.md",
+      "size": 3273
+    },
+    {
+      "digest": "a9e8d25fec9c2159e08b85db7f146955cbe7053e7d18171e27da4b399fa7f51b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cantera/skills/cantera/scripts/ignition_delay.py",
+      "path": "skills/cantera/scripts/ignition_delay.py",
+      "size": 10719
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3f4df524c6ccbd785e7e14d54ff8893de9206e6f833b3a1ce2e09e40aae0c086",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/cantera",
+  "schema_version": 1
+}

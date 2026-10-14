@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e1ae63105ccc2e4da7c40e8a2f40d031dd8f2a77270be626df780f0c39eb0b1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/SKILL.md",
+      "path": "skills/bids/SKILL.md",
+      "size": 14844
+    },
+    {
+      "digest": "04d0fd0741758b10a8bba21d0ac0db85235174c4eca1b11c2478ba59c297e7ee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/beps.yml",
+      "path": "skills/bids/references/beps.yml",
+      "size": 25374
+    },
+    {
+      "digest": "3e3daba2bfcdc226578424f93f68d3bca3a1c58147efcb7be0e7da5a4cc42e85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/bids_schema.json",
+      "path": "skills/bids/references/bids_schema.json",
+      "size": 825724
+    },
+    {
+      "digest": "5b9d9b6864670e40b5b9a49bc9dfca7f64ff4fc18bc4a82cccc06a9bc85961cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/bids_specification.md",
+      "path": "skills/bids/references/bids_specification.md",
+      "size": 9250
+    },
+    {
+      "digest": "d5e16e0228ee8e3990b42d2c5daf5abfac4b15ee2438513f4892f38cfd794bc2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/conversion_tools.md",
+      "path": "skills/bids/references/conversion_tools.md",
+      "size": 20459
+    },
+    {
+      "digest": "0cb4595606b5eb7ee30e3c1a90ebe02d6745a80ac6f5422cf3ea8923e23cf070",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/core_workflows.md",
+      "path": "skills/bids/references/core_workflows.md",
+      "size": 20435
+    },
+    {
+      "digest": "095c2ab392aba982948a320cd9e23c251fd49d4f87995bee01577ea95f167123",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/references/metadata_fields.md",
+      "path": "skills/bids/references/metadata_fields.md",
+      "size": 11643
+    },
+    {
+      "digest": "b2c013a4be6c7c9671dc167885471091f79d5c2be0d86b99203142da21f0806b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bids/skills/bids/scripts/update_schema.py",
+      "path": "skills/bids/scripts/update_schema.py",
+      "size": 4048
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "26b454d60f0c66acc53dbdac17d9d0f29c250b14fbad80771c1d84cc95a87b93",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/bids",
+  "schema_version": 1
+}

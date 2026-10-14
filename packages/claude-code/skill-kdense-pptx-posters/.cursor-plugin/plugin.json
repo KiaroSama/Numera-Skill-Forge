@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pptx-posters",
+  "license": "MIT",
+  "name": "skill-kdense-pptx-posters",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

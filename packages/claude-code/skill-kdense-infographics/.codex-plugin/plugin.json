@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/infographics",
+  "license": "MIT",
+  "name": "skill-kdense-infographics",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

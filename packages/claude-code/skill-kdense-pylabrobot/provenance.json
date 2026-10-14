@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b2aab8871006d84e53621fc0f4886d0fd0c671007d112569e444e0a56a564d76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/SKILL.md",
+      "path": "skills/pylabrobot/SKILL.md",
+      "size": 11895
+    },
+    {
+      "digest": "ba9d2a52b5e5eb76b1e0ae88b30c6a16e89b22fd0b9b6019d90f09640b16ec17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/assets/protocol-manifest.schema.json",
+      "path": "skills/pylabrobot/assets/protocol-manifest.schema.json",
+      "size": 8070
+    },
+    {
+      "digest": "64f8ae4292d5843aa95fe0e9bcf13913eb4cc0cf551cfb3a3d7d759753f25c03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/analytical-equipment.md",
+      "path": "skills/pylabrobot/references/analytical-equipment.md",
+      "size": 7501
+    },
+    {
+      "digest": "72dbc55c38bb15ec196fef7cd5d609a0d25899208829d5dd533839ab72ca1227",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/hardware-backends.md",
+      "path": "skills/pylabrobot/references/hardware-backends.md",
+      "size": 7662
+    },
+    {
+      "digest": "8e804c5f533213e46e09b13e87f33532f305e43bc28aa525aecf4eaba4fdbf67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/liquid-handling.md",
+      "path": "skills/pylabrobot/references/liquid-handling.md",
+      "size": 8896
+    },
+    {
+      "digest": "7b62fc0874982c94c77e2e5a2dabf8c22201eec1bb1098ec539456cbc0900d5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/material-handling.md",
+      "path": "skills/pylabrobot/references/material-handling.md",
+      "size": 8588
+    },
+    {
+      "digest": "f694f2fe5f778cfbc94da7034a6a119d7e0dde676315c514ede8e3c4b28a5bab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/resources.md",
+      "path": "skills/pylabrobot/references/resources.md",
+      "size": 9339
+    },
+    {
+      "digest": "1b99979ebe35c23840d80e3f347b75b8e5200034c342431d904e52184d68b10c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/review.md",
+      "path": "skills/pylabrobot/references/review.md",
+      "size": 6406
+    },
+    {
+      "digest": "35411f5dba90978ef896270fd6f82f03dbb65810abc9a6fbeee61bf5787b7cb7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/references/visualization.md",
+      "path": "skills/pylabrobot/references/visualization.md",
+      "size": 6611
+    },
+    {
+      "digest": "d1a981fe4edf160c2ed51409244c623b0bb6d73b1ffc9b50e6b729303c640cca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/__init__.py",
+      "path": "skills/pylabrobot/scripts/__init__.py",
+      "size": 72
+    },
+    {
+      "digest": "48cce3a8ea9ee313e657ca1fd63176448ef6f0e30bdb73472c494d4c0c5c23ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/_common.py",
+      "path": "skills/pylabrobot/scripts/_common.py",
+      "size": 27774
+    },
+    {
+      "digest": "0e219941e7013cb1a812966ec730a29f17037be819c19a08d4ab3342a5b0b74b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/check_deck_geometry.py",
+      "path": "skills/pylabrobot/scripts/check_deck_geometry.py",
+      "size": 1301
+    },
+    {
+      "digest": "071e42a404830476134331af47bc0d103882c2d5a5f2773b8b220bdd7efa6092",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/generate_simulation_plan.py",
+      "path": "skills/pylabrobot/scripts/generate_simulation_plan.py",
+      "size": 4793
+    },
+    {
+      "digest": "e082a60332e96d91324aafed1fe729513bfbece7eff6b62a436dfe9fc2bf2d71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/inspect_backends.py",
+      "path": "skills/pylabrobot/scripts/inspect_backends.py",
+      "size": 7482
+    },
+    {
+      "digest": "92a059726a5707506c2bd68877e7bf3fc36a61201f4de4f8e0d8ad66963fd0ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/plan_transfers.py",
+      "path": "skills/pylabrobot/scripts/plan_transfers.py",
+      "size": 1556
+    },
+    {
+      "digest": "6fe09732a1fc75fa5ee534a2e79abd8724bd149c4ef3a698c0960c093762ca1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pylabrobot/skills/pylabrobot/scripts/validate_manifest.py",
+      "path": "skills/pylabrobot/scripts/validate_manifest.py",
+      "size": 1391
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8c0c44db190626801ef0f45880dac6c36fb00f6fd8431cdd1b309b7547e6cf83",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pylabrobot",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/umap-learn",
+  "license": "MIT",
+  "name": "skill-kdense-umap-learn",
+  "version": "1.0.0"
+}

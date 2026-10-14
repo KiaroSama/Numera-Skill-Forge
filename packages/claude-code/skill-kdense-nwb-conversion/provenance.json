@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e2381f17db5e2b20354186a8a3c85b466afcf534cc1ae6181e87654ba5ed5fc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/skills/nwb-conversion/SKILL.md",
+      "path": "skills/nwb-conversion/SKILL.md",
+      "size": 7581
+    },
+    {
+      "digest": "efe7d85508eec5fe49fba5bfc5c0c6785ffe1fe2588e7b55bb2838016992c9d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/skills/nwb-conversion/assets/session-template.json",
+      "path": "skills/nwb-conversion/assets/session-template.json",
+      "size": 1340
+    },
+    {
+      "digest": "9677db406ecfd6bff0c77db55bc7db41648fab87dd58f55e25ccddc5d3eb4074",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/skills/nwb-conversion/references/input-contract.md",
+      "path": "skills/nwb-conversion/references/input-contract.md",
+      "size": 4842
+    },
+    {
+      "digest": "41bd3978155c6558069d56c42d706dddd81a3f6097121ca2291fc3997b28f47c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/skills/nwb-conversion/references/upstream-review.md",
+      "path": "skills/nwb-conversion/references/upstream-review.md",
+      "size": 4023
+    },
+    {
+      "digest": "8de66511b2adb49bd02e1a9a2a6c1953626a09452275b306bbf2bf8bf24453e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-nwb-conversion/skills/nwb-conversion/scripts/convert_session.py",
+      "path": "skills/nwb-conversion/scripts/convert_session.py",
+      "size": 16098
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4a3067d384a00558aba8beb4b1bcc1f9653abd6c6219b67dcfcad58ad4d96aa3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/nwb-conversion",
+  "schema_version": 1
+}

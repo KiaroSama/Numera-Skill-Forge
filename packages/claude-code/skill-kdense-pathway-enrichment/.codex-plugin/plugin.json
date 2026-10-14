@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pathway-enrichment",
+  "license": "MIT",
+  "name": "skill-kdense-pathway-enrichment",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

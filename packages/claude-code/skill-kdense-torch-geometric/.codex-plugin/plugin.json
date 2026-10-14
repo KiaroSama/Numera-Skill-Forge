@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/torch-geometric",
+  "license": "MIT",
+  "name": "skill-kdense-torch-geometric",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

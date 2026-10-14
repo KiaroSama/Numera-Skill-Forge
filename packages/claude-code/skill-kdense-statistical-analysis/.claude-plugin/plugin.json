@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/statistical-analysis",
+  "license": "MIT",
+  "name": "skill-kdense-statistical-analysis",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "version": "1.0.0"
+}

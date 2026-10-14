@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/uncertainty-and-units",
+  "license": "MIT",
+  "name": "skill-kdense-uncertainty-and-units",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

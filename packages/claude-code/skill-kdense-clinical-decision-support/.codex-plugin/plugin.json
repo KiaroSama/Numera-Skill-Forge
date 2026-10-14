@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/clinical-decision-support",
+  "license": "MIT",
+  "name": "skill-kdense-clinical-decision-support",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

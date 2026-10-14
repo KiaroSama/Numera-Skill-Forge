@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/13c-metabolic-flux",
+  "license": "MIT",
+  "name": "skill-kdense-13c-metabolic-flux",
+  "version": "1.0.0"
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/SKILL.md",
+      "path": "skills/waypoint-bio/SKILL.md",
+      "size": 16666
+    },
+    {
+      "digest": "bb6f673ea630f2254258a7a7ce9130529b98c7307e1e3296fd5e30682f639d18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/references/cli-reference.md",
+      "path": "skills/waypoint-bio/references/cli-reference.md",
+      "size": 10874
+    },
+    {
+      "digest": "b6fe09ffd0c650894fb794ee2dbd9104d7b24a7f9dc384a69c3bfbc3f10d3d47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/references/compass-benchmark.md",
+      "path": "skills/waypoint-bio/references/compass-benchmark.md",
+      "size": 8107
+    },
+    {
+      "digest": "af09e87aec1f5269ee40611bceedfcaf86c4135088eff11409d864b414f5e80b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/references/data-preparation.md",
+      "path": "skills/waypoint-bio/references/data-preparation.md",
+      "size": 11155
+    },
+    {
+      "digest": "d057e7508b90fb00d0fea7c8d0a882f536e78c4f47c6181848f131fc28338cff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/references/python-api.md",
+      "path": "skills/waypoint-bio/references/python-api.md",
+      "size": 10681
+    },
+    {
+      "digest": "0886fd5b03d73588fa486d127b01b59370898bbc83406c4103640e333ee7e331",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/references/upstream-review.md",
+      "path": "skills/waypoint-bio/references/upstream-review.md",
+      "size": 5434
+    },
+    {
+      "digest": "e51ffcc65199c9e48d441f48d56c49b88a4c0af2593e34d8d973691787665875",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/scripts/profiler_to_waypoint.py",
+      "path": "skills/waypoint-bio/scripts/profiler_to_waypoint.py",
+      "size": 18410
+    },
+    {
+      "digest": "6c4f0aca02eeb6363008f527345f2b7e718edd5367f32ca9a5386239eae3fb22",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-waypoint-bio/skills/waypoint-bio/scripts/vocab_coverage.py",
+      "path": "skills/waypoint-bio/scripts/vocab_coverage.py",
+      "size": 9657
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d0f1f60c0bc8ef867ccc09c5a7a457d5bf4dc618a792cc313359033b553fc371",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/waypoint-bio",
+  "schema_version": 1
+}

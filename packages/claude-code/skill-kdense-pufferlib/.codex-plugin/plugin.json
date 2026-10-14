@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pufferlib",
+  "license": "MIT",
+  "name": "skill-kdense-pufferlib",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

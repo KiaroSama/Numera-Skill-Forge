@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/seaborn",
+  "license": "MIT",
+  "name": "skill-kdense-seaborn",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,103 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e1d25cbe0ba5f849299e9e02bd339773bb41529dcece5a6ee68bb080855b97a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/SKILL.md",
+      "path": "skills/aeon/SKILL.md",
+      "size": 14898
+    },
+    {
+      "digest": "3ed8bde3b5d6d019fca2ea6e0ab1dd861a50cf5669deb9b4cbd185d0e21fe2fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/anomaly_detection.md",
+      "path": "skills/aeon/references/anomaly_detection.md",
+      "size": 5805
+    },
+    {
+      "digest": "86d7c93615f8545f1f36055a83ff885ebf56018c3a12aba96fa05dbd057e2b0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/classification.md",
+      "path": "skills/aeon/references/classification.md",
+      "size": 5584
+    },
+    {
+      "digest": "a230dfb23d422d0b8049a33e2dbe63bb961caa0280fa03af36539868de57c550",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/clustering.md",
+      "path": "skills/aeon/references/clustering.md",
+      "size": 4458
+    },
+    {
+      "digest": "940899664713b7aeccc70d478db85677102d65ad036c0714e63a0a65db138936",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/datasets_benchmarking.md",
+      "path": "skills/aeon/references/datasets_benchmarking.md",
+      "size": 9826
+    },
+    {
+      "digest": "094c4c83e372ba1fb8a54c8d21091093214170607e20963b6a4e01643f343746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/distances.md",
+      "path": "skills/aeon/references/distances.md",
+      "size": 6994
+    },
+    {
+      "digest": "101b9408a2fc96d3e079144823ea4b2fac87ac30dba38f974c73d2b0a3dd6f98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/forecasting.md",
+      "path": "skills/aeon/references/forecasting.md",
+      "size": 4547
+    },
+    {
+      "digest": "e81dabf878d315b246ebc045e41e9d3507cd0d346e2bfffcebc8a42ac4af32b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/networks.md",
+      "path": "skills/aeon/references/networks.md",
+      "size": 9130
+    },
+    {
+      "digest": "bd2d1b2bfd6189fddb0f878f5cf9477a55b8c9787a273c9a7f652c4d000f4d3a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/regression.md",
+      "path": "skills/aeon/references/regression.md",
+      "size": 4044
+    },
+    {
+      "digest": "4fbb3b7547d9782038da36e74d82e113fc270ebeed93f8537d66396c6f3a0acf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/segmentation.md",
+      "path": "skills/aeon/references/segmentation.md",
+      "size": 6411
+    },
+    {
+      "digest": "2fa8e05e2839a8302ee0c46f673454bd325bf3f86ddfc11da401fcf29f60c1d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/similarity_search.md",
+      "path": "skills/aeon/references/similarity_search.md",
+      "size": 4917
+    },
+    {
+      "digest": "a8989df3b45abed8f7d6485fcda13ec461dfa47864e4b946ac82b747e2463d1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-aeon/skills/aeon/references/transformations.md",
+      "path": "skills/aeon/references/transformations.md",
+      "size": 8434
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "57ebf19b5e9035f8b6fff818dd1303bcaea405609f772c1afbb7ce6a37243018",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/aeon",
+  "schema_version": 1
+}

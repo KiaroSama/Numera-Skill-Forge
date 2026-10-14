@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/hypothesis-generation",
+  "license": "MIT",
+  "name": "skill-kdense-hypothesis-generation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

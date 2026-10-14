@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "bd75c6ca96dbf29c56c1735066bbb7e2898a19701a8e5cd674bd46b27451b64c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/LICENSE",
+      "path": "skills/pacsomatic/LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "5425319387beb29684ae5148cba33bd3a6c4306651ba574d47c76a8dc390d45d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/SKILL.md",
+      "path": "skills/pacsomatic/SKILL.md",
+      "size": 6477
+    },
+    {
+      "digest": "c8a88b938fee1f4ddae7c01ee49426fb1c168b71e22dddc2bb85b96bfe1bd3c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/config.yaml",
+      "path": "skills/pacsomatic/config.yaml",
+      "size": 1060
+    },
+    {
+      "digest": "e57f8d5b5fb87102ca06889edbf39da6375794aac540d3b2d8c35f8b1d7e8b4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/references/agent-playbook.md",
+      "path": "skills/pacsomatic/references/agent-playbook.md",
+      "size": 2045
+    },
+    {
+      "digest": "6a8e29b8b1337834d438ee9db1c21da06274c3f5205ba57d02d4e7e1775c8b5e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/references/config-and-output.md",
+      "path": "skills/pacsomatic/references/config-and-output.md",
+      "size": 5984
+    },
+    {
+      "digest": "1e274439b7ee61ad15a81e72bd60549fd1c416bd6cca9d7442b3a79907b9bca5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/references/pacsomatic_guide.md",
+      "path": "skills/pacsomatic/references/pacsomatic_guide.md",
+      "size": 5340
+    },
+    {
+      "digest": "853ad31703bf8a71183ae461909c874441a73ef0a165105d29e82bbfee60ee6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pacsomatic/skills/pacsomatic/scripts/run_pacsomatic.py",
+      "path": "skills/pacsomatic/scripts/run_pacsomatic.py",
+      "size": 36728
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d129869fdca341850c355a0ff3eec5b03bf1d1bb253e2cbf93bb3095700dce05",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pacsomatic",
+  "schema_version": 1
+}

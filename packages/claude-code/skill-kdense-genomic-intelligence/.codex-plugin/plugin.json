@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/genomic-intelligence",
+  "license": "MIT",
+  "name": "skill-kdense-genomic-intelligence",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

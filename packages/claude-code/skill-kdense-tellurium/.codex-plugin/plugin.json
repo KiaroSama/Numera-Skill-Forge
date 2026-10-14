@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/tellurium",
+  "license": "MIT",
+  "name": "skill-kdense-tellurium",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/statsmodels",
+  "license": "MIT",
+  "name": "skill-kdense-statsmodels",
+  "version": "1.0.0"
+}

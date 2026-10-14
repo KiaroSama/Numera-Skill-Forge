@@ -1,0 +1,173 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/SKILL.md",
+      "path": "skills/citation-management/SKILL.md",
+      "size": 16630
+    },
+    {
+      "digest": "08e21647fa68cad1aa1658264798c7d24775ba89bfbd2723ea6bfe4b562e2be1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/assets/bibtex_template.bib",
+      "path": "skills/citation-management/assets/bibtex_template.bib",
+      "size": 9305
+    },
+    {
+      "digest": "ce7317f2983f8b7fd02949aad726ebd6188319c7e57c929fffe689d5ae18ce36",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/assets/citation_checklist.md",
+      "path": "skills/citation-management/assets/citation_checklist.md",
+      "size": 10434
+    },
+    {
+      "digest": "3e82a14f77133a215831d2627b65c93199589782f6907fc42af3c75f2ab3c5a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/api_contracts.md",
+      "path": "skills/citation-management/references/api_contracts.md",
+      "size": 6712
+    },
+    {
+      "digest": "df90d19c8f639590a6a430a889160b478dce61f4a5c0a5a36df5ab1be749b6b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/best_practices.md",
+      "path": "skills/citation-management/references/best_practices.md",
+      "size": 2723
+    },
+    {
+      "digest": "6337a8d2b87de96bf0f72c076feb0fc5d61ed9c342d9c8f19b3633efbfec6fed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/bibtex_formatting.md",
+      "path": "skills/citation-management/references/bibtex_formatting.md",
+      "size": 19394
+    },
+    {
+      "digest": "f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/citation_validation.md",
+      "path": "skills/citation-management/references/citation_validation.md",
+      "size": 18996
+    },
+    {
+      "digest": "19e8b52c43f5822163c79904236016616dc4515d21a01d29073d968c9251af8d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/core_workflow.md",
+      "path": "skills/citation-management/references/core_workflow.md",
+      "size": 20986
+    },
+    {
+      "digest": "01c0a15e08e8115e10a07623f63565d119812fd2bb68c669eac413db2f9cd482",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/example_workflows.md",
+      "path": "skills/citation-management/references/example_workflows.md",
+      "size": 3382
+    },
+    {
+      "digest": "5b705ec8d6276ef83b819b737ed10bd991815ccb413de27e046b7bfdf4da8399",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/google_scholar_search.md",
+      "path": "skills/citation-management/references/google_scholar_search.md",
+      "size": 17993
+    },
+    {
+      "digest": "68c27886aff0d4efbf3a6f7e0a318dedd706d4cfd0f55dd859466de36ed78d46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/metadata_extraction.md",
+      "path": "skills/citation-management/references/metadata_extraction.md",
+      "size": 21419
+    },
+    {
+      "digest": "fab82cda700a0dfc6dccc9465c9cc60b9df68cb58d0bec9abe7b2d8748a49cd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/pubmed_search.md",
+      "path": "skills/citation-management/references/pubmed_search.md",
+      "size": 19233
+    },
+    {
+      "digest": "bd23683cb3a7edb932fc5a13bb9215969a834a778a8765eea82553bf1b8b3417",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/script_reference.md",
+      "path": "skills/citation-management/references/script_reference.md",
+      "size": 7536
+    },
+    {
+      "digest": "776c0dd1cbaf0432004ae80273640ff324b570401c569413c674829436385c85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/references/search_strategies.md",
+      "path": "skills/citation-management/references/search_strategies.md",
+      "size": 2727
+    },
+    {
+      "digest": "87540160163671b972c2fccb4d0a42db3cca2603c664d26d5da3ca5dbc7dfdd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/_common.py",
+      "path": "skills/citation-management/scripts/_common.py",
+      "size": 10912
+    },
+    {
+      "digest": "1b7d1ab2e8bf9bcf5a7d49bf45496e0f8b7d8e0d0cda8efd8fce4e527082dc4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/doi_to_bibtex.py",
+      "path": "skills/citation-management/scripts/doi_to_bibtex.py",
+      "size": 6783
+    },
+    {
+      "digest": "bebc7835b5e659cdeee0087980e881635894330bac5eda4ce01f490fd41df781",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/extract_metadata.py",
+      "path": "skills/citation-management/scripts/extract_metadata.py",
+      "size": 29650
+    },
+    {
+      "digest": "cc74fdc4d5819df8db3999e59f96469cebfb353ecf406a49a5a0fc60896707cb",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/format_bibtex.py",
+      "path": "skills/citation-management/scripts/format_bibtex.py",
+      "size": 11075
+    },
+    {
+      "digest": "05cfd67aea6475029d017f1b4ff68e7ba727e1fa9b52f1e614c80287940b4985",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/search_google_scholar.py",
+      "path": "skills/citation-management/scripts/search_google_scholar.py",
+      "size": 8746
+    },
+    {
+      "digest": "538b2f086625fd1e9a2cb2fe8bd46ee852d888f17d2d1e889b8f50592594f693",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/search_openalex.py",
+      "path": "skills/citation-management/scripts/search_openalex.py",
+      "size": 12055
+    },
+    {
+      "digest": "4543b74bf773747bae47a2bbb18acf2a4a050071119d88d1711db6049d157116",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/search_pubmed.py",
+      "path": "skills/citation-management/scripts/search_pubmed.py",
+      "size": 14912
+    },
+    {
+      "digest": "a08e8e0774287e9aca2bd87c3a66cd3dfc751018eafb6cdee37987e3f416d2b5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-citation-management/skills/citation-management/scripts/validate_citations.py",
+      "path": "skills/citation-management/scripts/validate_citations.py",
+      "size": 28361
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2c4a914018accc37901079906bc9c82eb0cfca662574940add68dc12b035b021",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/citation-management",
+  "schema_version": 1
+}

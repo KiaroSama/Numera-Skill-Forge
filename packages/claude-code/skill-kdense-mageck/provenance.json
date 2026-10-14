@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-mageck/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "562d7e2cb2febef14ab722bc29cd33983b523da287fb02b64eadf18702d4a9d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-mageck/skills/mageck/SKILL.md",
+      "path": "skills/mageck/SKILL.md",
+      "size": 8610
+    },
+    {
+      "digest": "d032d5ea5e02a54522c335e2f0537c9e3fed5ab872e7be6050c4ec116ba3a690",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-mageck/skills/mageck/references/design.md",
+      "path": "skills/mageck/references/design.md",
+      "size": 2996
+    },
+    {
+      "digest": "b282ee7d96811deca4960897d4872a73bcb68ceeb07e88d2c858014baaf27b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-mageck/skills/mageck/references/runtime.md",
+      "path": "skills/mageck/references/runtime.md",
+      "size": 3518
+    },
+    {
+      "digest": "30aae75f86b1bc485584d479f9041ae7f2b500a350cf4320f9fb873e8f3f01ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-mageck/skills/mageck/scripts/screen_analysis.py",
+      "path": "skills/mageck/scripts/screen_analysis.py",
+      "size": 14068
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "027d3b2e8f502b69929c30c31917bfa986f221de2ced788552be3bd3b2b25d8e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/mageck",
+  "schema_version": 1
+}

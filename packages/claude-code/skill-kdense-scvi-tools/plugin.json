@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/scvi-tools",
+  "license": "MIT",
+  "name": "skill-kdense-scvi-tools",
+  "version": "1.0.0"
+}

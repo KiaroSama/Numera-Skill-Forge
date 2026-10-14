@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/bgpt-paper-search",
+  "license": "MIT",
+  "name": "skill-kdense-bgpt-paper-search",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/zarr-python",
+  "license": "MIT",
+  "name": "skill-kdense-zarr-python",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

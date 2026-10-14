@@ -1,0 +1,145 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/SKILL.md",
+      "path": "skills/scientific-visualization/SKILL.md",
+      "size": 15478
+    },
+    {
+      "digest": "98ee4aa4b9bbb010996d55144ea6bf45a0ab294009b9bb0ef6d9c5ec9fed5154",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/assets/color_palettes.py",
+      "path": "skills/scientific-visualization/assets/color_palettes.py",
+      "size": 6756
+    },
+    {
+      "digest": "f37a361cdda8846da0794fd879cc8173402094f110239d57e0227fdd8299a4f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/assets/nature.mplstyle",
+      "path": "skills/scientific-visualization/assets/nature.mplstyle",
+      "size": 1624
+    },
+    {
+      "digest": "d0e5a768e5965aa3893b12c0f7decd4c3b09502044391a840ebdee37dfea44da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/assets/presentation.mplstyle",
+      "path": "skills/scientific-visualization/assets/presentation.mplstyle",
+      "size": 1465
+    },
+    {
+      "digest": "eba3001f346649a9e41d9ac1d56101abbae10aefecdad3be9530f4c9cd9269b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/assets/publication.mplstyle",
+      "path": "skills/scientific-visualization/assets/publication.mplstyle",
+      "size": 1822
+    },
+    {
+      "digest": "1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/assets/publisher_profiles.json",
+      "path": "skills/scientific-visualization/assets/publisher_profiles.json",
+      "size": 10870
+    },
+    {
+      "digest": "c9b6a596dd1dd1e08050fdcbb304a0268ee515bce2120a9bbd3fba31cd7fa119",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/references/color_palettes.md",
+      "path": "skills/scientific-visualization/references/color_palettes.md",
+      "size": 9094
+    },
+    {
+      "digest": "f7c4b6660eb70f7c5778d13908409e1dc690f00e3dfc8314f430feb89781740c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/references/journal_requirements.md",
+      "path": "skills/scientific-visualization/references/journal_requirements.md",
+      "size": 11200
+    },
+    {
+      "digest": "74fd5977ce57b09b476285309559bbcbe3b1748943b719844b28a6b61378c041",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/references/matplotlib_examples.md",
+      "path": "skills/scientific-visualization/references/matplotlib_examples.md",
+      "size": 12165
+    },
+    {
+      "digest": "5f70c6b22dbb5e0fae18b0f1197b8794896bf7afc059874bcf7afbd5aa86bbe5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/references/publication_guidelines.md",
+      "path": "skills/scientific-visualization/references/publication_guidelines.md",
+      "size": 12853
+    },
+    {
+      "digest": "3ff34759c0fed3baf33286a8005fd81f0c3466a554c8b0d45f43ad30b1e5b505",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/references/sources.md",
+      "path": "skills/scientific-visualization/references/sources.md",
+      "size": 10697
+    },
+    {
+      "digest": "e4eea2c2e5f5d8cfa544c6bed152cdb88a3d7c7952df99bcd74b45077fd6f707",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/_common.py",
+      "path": "skills/scientific-visualization/scripts/_common.py",
+      "size": 4618
+    },
+    {
+      "digest": "c20962bf4c624b9939c80bd16815fc0a18fe2be285f0654a6a53704c663add0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/export_plan.py",
+      "path": "skills/scientific-visualization/scripts/export_plan.py",
+      "size": 19682
+    },
+    {
+      "digest": "fe9c77878da61297ce55224b67282d128631deb628d930aa1929c9eb7330bf79",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/figure_export.py",
+      "path": "skills/scientific-visualization/scripts/figure_export.py",
+      "size": 23652
+    },
+    {
+      "digest": "45f79cefd99b8e5dabcbfd1a29b7346363f383411cc43540bf9f73e67fed634e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/image_metadata.py",
+      "path": "skills/scientific-visualization/scripts/image_metadata.py",
+      "size": 26596
+    },
+    {
+      "digest": "3a90b3c9a4a39dde6a341dc3de7b99cd2bca4773c66564fc90cdc2706a5a8165",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/palette_audit.py",
+      "path": "skills/scientific-visualization/scripts/palette_audit.py",
+      "size": 11654
+    },
+    {
+      "digest": "8413cfae7f2cbc4a5dd9d4301d74b051fd8eb0c7a4b3375ae59e1da91db3a985",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/style_presets.py",
+      "path": "skills/scientific-visualization/scripts/style_presets.py",
+      "size": 16173
+    },
+    {
+      "digest": "ca14e714dc2fb32541ff80292db97b3acbac074a65c4f2fb290f38354f880ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-visualization/skills/scientific-visualization/scripts/style_preview.py",
+      "path": "skills/scientific-visualization/scripts/style_preview.py",
+      "size": 7762
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cc321c60cc6349b79162f3d777e18642d46c5a505f0a50d33a5efb61ad874ec8",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-visualization",
+  "schema_version": 1
+}

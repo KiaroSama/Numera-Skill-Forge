@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/neurokit2",
+  "license": "MIT",
+  "name": "skill-kdense-neurokit2",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

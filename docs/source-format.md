@@ -110,3 +110,14 @@ See [collection schema](../schemas/collections.schema.json). Each skill gets one
 files and executable modes; `collection verify` checks accepted payloads and native catalog without
 execution. Adding a reviewed collection or skill is registration data, not an engine edit.
 See [licensing](source-licenses.md) and [daily/local updates](upstream-sync.md).
+
+## Reviewed original reference documents
+
+Collection registrations may include an optional `reviewed_documents` map from one exact source
+reference path to its SHA-256 digest after explicit content review. Only a canonical
+`skills/<name>/references/secrets.md` educational document under an unprotected skill root qualifies;
+root confidential registries, protected parent directories and credential-bearing content remain
+excluded. This is not a filename-wide allowlist. Changed bytes, missing content or withdrawn approval
+refuse verification/publication of that candidate; last-known-good accepted content remains.
+The field defaults empty and is omitted when empty, preserving existing registration metadata.
+Original `.env.example` template review remains a separate unchanged contract.

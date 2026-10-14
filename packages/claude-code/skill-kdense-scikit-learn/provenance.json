@@ -1,0 +1,96 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/SKILL.md",
+      "path": "skills/scikit-learn/SKILL.md",
+      "size": 13255
+    },
+    {
+      "digest": "dfe19c80358acb5f418a21cea4de3b7e83733481441f3c76d0a2ead4420261de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/common_workflows.md",
+      "path": "skills/scikit-learn/references/common_workflows.md",
+      "size": 3723
+    },
+    {
+      "digest": "c869d9c207fcfc345207d397021a289f3820492ddf0fcd0b3a56a336bd0e1453",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/core_capabilities.md",
+      "path": "skills/scikit-learn/references/core_capabilities.md",
+      "size": 5113
+    },
+    {
+      "digest": "e6f581c0ce2abffaac2f0bafc1a7bfbe86ec18f8969c6e9b91cc732a12a5fea5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/model_evaluation.md",
+      "path": "skills/scikit-learn/references/model_evaluation.md",
+      "size": 19482
+    },
+    {
+      "digest": "a1810cd67dc9141d962fa1972e11b06be6bd437213e10a563e5ec4256fb274a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/pipelines_and_composition.md",
+      "path": "skills/scikit-learn/references/pipelines_and_composition.md",
+      "size": 15892
+    },
+    {
+      "digest": "098506f0ca83e57d0c7cccd166164d025552ad7310b79d1010f5ff34e1cc4818",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/preprocessing.md",
+      "path": "skills/scikit-learn/references/preprocessing.md",
+      "size": 18359
+    },
+    {
+      "digest": "5401b75fdaa10bf393b024f3c559631011c7be233d2313da37a3f27d7389659a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/quick_reference.md",
+      "path": "skills/scikit-learn/references/quick_reference.md",
+      "size": 12448
+    },
+    {
+      "digest": "d4e5911d175c3a349dd42e33c984b05cdafce230f264b6774996d0eeef36608a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/supervised_learning.md",
+      "path": "skills/scikit-learn/references/supervised_learning.md",
+      "size": 12101
+    },
+    {
+      "digest": "cb476ef499fe35ee2c0416fdc31abad42384ac0110f6d3932901e99b039ae1b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/references/unsupervised_learning.md",
+      "path": "skills/scikit-learn/references/unsupervised_learning.md",
+      "size": 16752
+    },
+    {
+      "digest": "46abbb2b11095147cc31314405910b211c313d142f2480599f8508d47e5809f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/scripts/classification_pipeline.py",
+      "path": "skills/scikit-learn/scripts/classification_pipeline.py",
+      "size": 10293
+    },
+    {
+      "digest": "5d1f962a70e049907a39a75cd7a130000a5d3e3de5a4fa4889d07f007c052a17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scikit-learn/skills/scikit-learn/scripts/clustering_analysis.py",
+      "path": "skills/scikit-learn/scripts/clustering_analysis.py",
+      "size": 11681
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c43b5212a978d1841616ff17fe65fc847e163ca28b2b230b44e49f22b6e664aa",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scikit-learn",
+  "schema_version": 1
+}

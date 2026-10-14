@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/qiime2-amplicon",
+  "license": "MIT",
+  "name": "skill-kdense-qiime2-amplicon",
+  "version": "1.0.0"
+}

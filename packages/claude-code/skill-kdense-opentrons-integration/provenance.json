@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3600fece96f89e7cedc23d13e48ce7eb25a90698d7ae3d8bae65035d89f392ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/SKILL.md",
+      "path": "skills/opentrons-integration/SKILL.md",
+      "size": 15207
+    },
+    {
+      "digest": "b9eb6f69448aac21280873001f7d1987025788f73bb094e8d146fa2e84fb717a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/api_reference.md",
+      "path": "skills/opentrons-integration/references/api_reference.md",
+      "size": 12935
+    },
+    {
+      "digest": "43ecc24ca569f1d838187fe2b429afa5efa8385a0dcdf4efd147f87033ef6390",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/liquid_handling.md",
+      "path": "skills/opentrons-integration/references/liquid_handling.md",
+      "size": 13245
+    },
+    {
+      "digest": "e86cb298aa962abfe837ef15d91ff28854814a57b8d56d3eefbee810a0038df0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/migration-api-2-19-to-2-29.md",
+      "path": "skills/opentrons-integration/references/migration-api-2-19-to-2-29.md",
+      "size": 8711
+    },
+    {
+      "digest": "1f591afa878fc53690c30de9a74ad0193b785b46b6160c92c8d22404bdf39c47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/modules_and_deck.md",
+      "path": "skills/opentrons-integration/references/modules_and_deck.md",
+      "size": 12156
+    },
+    {
+      "digest": "c4df26ea1df2f6262b5cccab1aba48582cc87c16c8ac7c5462678f2c40aaca7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/protocol_authoring.md",
+      "path": "skills/opentrons-integration/references/protocol_authoring.md",
+      "size": 11685
+    },
+    {
+      "digest": "473c62c41d48f3dd05b23ab74b151828f30c1cb02b33d8dd7953feee62af60d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/sources.md",
+      "path": "skills/opentrons-integration/references/sources.md",
+      "size": 9295
+    },
+    {
+      "digest": "fd10cf66e300b9f75dd0114e9224aeb211a6672ae057fa0c82654482933e5eb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/references/validation_and_operations.md",
+      "path": "skills/opentrons-integration/references/validation_and_operations.md",
+      "size": 10398
+    },
+    {
+      "digest": "3662419994f7633377dbcfb12b7c99093ad80159b398a8cd805b44aa0b7dded0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/requirements-flex.txt",
+      "path": "skills/opentrons-integration/requirements-flex.txt",
+      "size": 18
+    },
+    {
+      "digest": "95b907a29f0a2307bafb7849429e2e551fd484b846a43681d909c397e1e5d95d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/requirements-ot2.txt",
+      "path": "skills/opentrons-integration/requirements-ot2.txt",
+      "size": 17
+    },
+    {
+      "digest": "2a88d00fdbccbcc35c1a17c6dc72bbf56321e308abc0c915759ea41fea0f9284",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/absorbance_reader_template.py",
+      "path": "skills/opentrons-integration/scripts/absorbance_reader_template.py",
+      "size": 2329
+    },
+    {
+      "digest": "f95d2488c28180f3427d426bb7a8b0de80661070328813f2a3dc7af8c44ff5ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/basic_protocol_template.py",
+      "path": "skills/opentrons-integration/scripts/basic_protocol_template.py",
+      "size": 1851
+    },
+    {
+      "digest": "9514eb6d4ab0a737cea93a8a0c0b8990c1a9d8fcd7d1f9f8ef250a35d65a126f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/ot2_basic_protocol_template.py",
+      "path": "skills/opentrons-integration/scripts/ot2_basic_protocol_template.py",
+      "size": 1706
+    },
+    {
+      "digest": "bd1a6a55cf687a11baea88381b6be028391105917d7c5aa299abe3bf42c645bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/pcr_setup_template.py",
+      "path": "skills/opentrons-integration/scripts/pcr_setup_template.py",
+      "size": 4774
+    },
+    {
+      "digest": "0deec847b4f355400a5ed149f42f85bed703932486ee71ee12d18419fd860ae7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/runtime_parameters_template.py",
+      "path": "skills/opentrons-integration/scripts/runtime_parameters_template.py",
+      "size": 3295
+    },
+    {
+      "digest": "b86d6a752f3d33f44a7b3b508d6729fa8234774554a037abd9d9fd0737d22586",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-opentrons-integration/skills/opentrons-integration/scripts/serial_dilution_template.py",
+      "path": "skills/opentrons-integration/scripts/serial_dilution_template.py",
+      "size": 3420
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9553d5fe5c93a794a3093ce54ee4d918856205912f242938dee0c0229139c9e3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/opentrons-integration",
+  "schema_version": 1
+}

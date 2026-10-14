@@ -67,7 +67,7 @@ Forge never executes imported code to inspect, package or synchronize it.
 
 ## Separate additional collections
 
-Three independent plugins bring the marketplace total to **488**; the existing 485-plugin collection
+Three independent plugins bring the initial marketplace total to **488**; the existing 485-plugin collection
 above remains unchanged. Each retains the original skill, every in-root companion and its MIT notice.
 
 | Collection | Skill | Independent plugin |
@@ -96,6 +96,24 @@ the accepted version.
 ```bash
 claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 ```
+
+## Complete K-Dense scientific collection
+
+All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+are included as independent packages, bringing the marketplace to **665 packages**. Original names,
+complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
+packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
+[the catalog](catalogs/collections.json) for the complete list.
+
+```bash
+claude plugin install skill-kdense-statistical-analysis@numera-skill-forge
+```
+
+Use the same [host setup and lifecycle commands](docs/host-setup.md) for every supported host.
+This collection has its own source/update identity. Scientific dependencies, cloud services, API
+credentials, datasets and GPU tools are not installed or executed by Forge. Packages with matching
+original names from different sources remain distinct; a conflicting standalone installation refuses
+rather than overwriting the other source. Packaging is not scientific or clinical validation.
 
 ## Other hosts: native catalogs and standalone skills
 

@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/SKILL.md",
+      "path": "skills/statistical-power/SKILL.md",
+      "size": 17834
+    },
+    {
+      "digest": "c303aa5b5103077304254f48309169609a3b0537748c68e0df4abd33cb9d4384",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/references/closed_form_recipes.md",
+      "path": "skills/statistical-power/references/closed_form_recipes.md",
+      "size": 11159
+    },
+    {
+      "digest": "b2e3c9578dce59222797ea55e9bc2c3883764adfdfdc0eed3793fb4d71fbf0a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/references/effect_sizes.md",
+      "path": "skills/statistical-power/references/effect_sizes.md",
+      "size": 6110
+    },
+    {
+      "digest": "963fd56791e6db1bffb94efda7c9bef9c3195e3dec3e2a9918d17f3536ec150f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/references/simulation_based_power.md",
+      "path": "skills/statistical-power/references/simulation_based_power.md",
+      "size": 10163
+    },
+    {
+      "digest": "9124b7c657ccbfe8b41c777bd9e17ae076641939e4ae93b4ba17f2de18284b7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/scripts/power.py",
+      "path": "skills/statistical-power/scripts/power.py",
+      "size": 19966
+    },
+    {
+      "digest": "bfbe75908ca071528b7b02aa1ed53949a7291f928f30634abe29b3ce23c564f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-power/skills/statistical-power/scripts/simulate_power.py",
+      "path": "skills/statistical-power/scripts/simulate_power.py",
+      "size": 13193
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0f250d2f2b8a9c6744de9b69e235d8184c8321c0eb86cb7213dad6fdd2d0fec2",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/statistical-power",
+  "schema_version": 1
+}

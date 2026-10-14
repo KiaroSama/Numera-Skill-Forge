@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/SKILL.md",
+      "path": "skills/vaex/SKILL.md",
+      "size": 7722
+    },
+    {
+      "digest": "4703eee22f1b2fa6635560f162c1f4c0b3c1ff30dc7dcbb38bbee0ccca419fd4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/core_dataframes.md",
+      "path": "skills/vaex/references/core_dataframes.md",
+      "size": 4707
+    },
+    {
+      "digest": "d9d8167532d9859a54098964cce1fa9cb062789cf9e333b4a34a1fc8a8b345a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/data_processing.md",
+      "path": "skills/vaex/references/data_processing.md",
+      "size": 7287
+    },
+    {
+      "digest": "675e9c2bda6fa87214d47e4e7888faaa51dbc173c30cdce667417b91d8bdca88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/io_operations.md",
+      "path": "skills/vaex/references/io_operations.md",
+      "size": 7742
+    },
+    {
+      "digest": "949bc57da3339971f1c5d3f161075c40f2f84279697f0e4344de802378760955",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/machine_learning.md",
+      "path": "skills/vaex/references/machine_learning.md",
+      "size": 10023
+    },
+    {
+      "digest": "e5bec7956026b38471c48c1d546f666a151e6bff176d8330bee5a0374aeed65e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/performance.md",
+      "path": "skills/vaex/references/performance.md",
+      "size": 5191
+    },
+    {
+      "digest": "0fcbb7428daa8652c2e7229086e7674e74971ef07974efd07f72c84047b54e17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/review.md",
+      "path": "skills/vaex/references/review.md",
+      "size": 4620
+    },
+    {
+      "digest": "c04a5655f3262cf789c9d38579bab3282099d686acefe33e88cbacc1c1b8d458",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-vaex/skills/vaex/references/visualization.md",
+      "path": "skills/vaex/references/visualization.md",
+      "size": 5087
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7f89b7b39b6962d1fb01a5289b6025bc03a43f129cbe69d2e65f69961f918f9f",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/vaex",
+  "schema_version": 1
+}

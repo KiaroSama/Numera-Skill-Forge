@@ -1,0 +1,215 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "fc58aed600d0fe9de911176cb0f2a43e8df6bbae8c2260be6f8abade133a2837",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/SKILL.md",
+      "path": "skills/pkpd-modeling/SKILL.md",
+      "size": 17574
+    },
+    {
+      "digest": "1777b648b3acb5dea8812b5e6e54fa7261ac59d531c45647e83e2022920f5fa2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/assets/nca-reporting-checklist.md",
+      "path": "skills/pkpd-modeling/assets/nca-reporting-checklist.md",
+      "size": 3572
+    },
+    {
+      "digest": "818b72fb306b9ccd511480be3aa51ec8b74466ae8e17f39912ca001cf3859c88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/assets/popk-analysis-plan.md",
+      "path": "skills/pkpd-modeling/assets/popk-analysis-plan.md",
+      "size": 5140
+    },
+    {
+      "digest": "d5d1ed437fe4d6c806b17640777725834bdcf68eb1fb8f5c278df70771aaf411",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/antimicrobial-and-tdm.md",
+      "path": "skills/pkpd-modeling/references/antimicrobial-and-tdm.md",
+      "size": 3177
+    },
+    {
+      "digest": "8c5f17ea97e3c60ab90f0c832fac4bbf2495c2be9c8fc6f6c63cfa98a6ddb320",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/bioequivalence.md",
+      "path": "skills/pkpd-modeling/references/bioequivalence.md",
+      "size": 3293
+    },
+    {
+      "digest": "186b07e11132cf028e2c132cc8141cabfaab50f95eb40acc0dc867a73acf96bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/dataset-standards.md",
+      "path": "skills/pkpd-modeling/references/dataset-standards.md",
+      "size": 3328
+    },
+    {
+      "digest": "7ba492eac23455a18eb9e13f017068cbf873245bd0c6cc6db2ee7fca123f782d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/ddi-and-qt.md",
+      "path": "skills/pkpd-modeling/references/ddi-and-qt.md",
+      "size": 3054
+    },
+    {
+      "digest": "4344d0dc6dc1c86df37195ade9e55013936740581ee2cdd47ba2657a87b2c7cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/nca-conventions.md",
+      "path": "skills/pkpd-modeling/references/nca-conventions.md",
+      "size": 3326
+    },
+    {
+      "digest": "b2fbe935e236cbcac03fd42fcc818aed31cb1b7400049be22e020714fc2091ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/pbpk.md",
+      "path": "skills/pkpd-modeling/references/pbpk.md",
+      "size": 3542
+    },
+    {
+      "digest": "c86dae45a411caecf328017a00c0275f7c5db0f7b534bf4b501213bb66aedcb0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/pd-and-exposure-response.md",
+      "path": "skills/pkpd-modeling/references/pd-and-exposure-response.md",
+      "size": 3293
+    },
+    {
+      "digest": "50bb41419ecace56a2f86c24af7f7b4b093b11fada20298073808d0b39dd239c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/population-pk.md",
+      "path": "skills/pkpd-modeling/references/population-pk.md",
+      "size": 3613
+    },
+    {
+      "digest": "148897e9be984a95e54e04ec524f1cc5de583cfe44b1ab109db4dbc98c3b6df9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/regulatory-guidance.md",
+      "path": "skills/pkpd-modeling/references/regulatory-guidance.md",
+      "size": 3821
+    },
+    {
+      "digest": "a9274de6fc560d57fc6123e8eff3e3ecf4b008cceaaaa7e77a228b4f557d99ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/software-ecosystem.md",
+      "path": "skills/pkpd-modeling/references/software-ecosystem.md",
+      "size": 3964
+    },
+    {
+      "digest": "e0cfcccf0bbc011ace1c563f6f2f04ad08430baa20f6ee0c1fff3268b48f2db7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/source-ledger.md",
+      "path": "skills/pkpd-modeling/references/source-ledger.md",
+      "size": 4325
+    },
+    {
+      "digest": "4f13904dd4942b39184d78047d27625b44f20de9466c318f48fa0df2420b720b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/special-populations.md",
+      "path": "skills/pkpd-modeling/references/special-populations.md",
+      "size": 3123
+    },
+    {
+      "digest": "02c58b3e155cdd547cfa472bb3189b68b0b6ccb4c1554308106a8c395247b3ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/structural-models.md",
+      "path": "skills/pkpd-modeling/references/structural-models.md",
+      "size": 4305
+    },
+    {
+      "digest": "bd4241e64522f54b62ed4a50e4af7c4d69192d0ace4fe3c9af5d8e798127c915",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/references/tmdd-and-biologics.md",
+      "path": "skills/pkpd-modeling/references/tmdd-and-biologics.md",
+      "size": 3392
+    },
+    {
+      "digest": "4afa7f0b5043d81e5fd6bcdcd8124b526b893b57cc78fada80593aa287ad4081",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/_common.py",
+      "path": "skills/pkpd-modeling/scripts/_common.py",
+      "size": 11971
+    },
+    {
+      "digest": "4c4239811dc7ca5e20ca0e5cfaca46fa33a5cb6fb8a7853bafd534d573858a66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/_models.py",
+      "path": "skills/pkpd-modeling/scripts/_models.py",
+      "size": 27973
+    },
+    {
+      "digest": "6370bb60c71fd9411d6e8ce220fc0ab2a4e770b838c8e660f6a6ef0b6f59adbd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/allometry_and_fih.py",
+      "path": "skills/pkpd-modeling/scripts/allometry_and_fih.py",
+      "size": 16823
+    },
+    {
+      "digest": "d5090621efb01faccd60e5bd20895f90fa6591abefa2309b6e26996a6e97e85d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/bioequivalence.py",
+      "path": "skills/pkpd-modeling/scripts/bioequivalence.py",
+      "size": 18062
+    },
+    {
+      "digest": "21113e33185cd1ba5dc612eceddb89e704122f5f5a794663ed7dad0b146fa1fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/check_popk_dataset.py",
+      "path": "skills/pkpd-modeling/scripts/check_popk_dataset.py",
+      "size": 18138
+    },
+    {
+      "digest": "015fe3cfc3fcb6a4fa7527b9c922ef30f81b54579aba0bb8d452eb7ea649a3b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/ddi_static.py",
+      "path": "skills/pkpd-modeling/scripts/ddi_static.py",
+      "size": 18886
+    },
+    {
+      "digest": "9f1473cfaa8b0e60e519562fb2faec026529869592850f37badde40ee59a48c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/exposure_response.py",
+      "path": "skills/pkpd-modeling/scripts/exposure_response.py",
+      "size": 16294
+    },
+    {
+      "digest": "954e02a29dd03217652b6fb351aba0f6c9d5a9c6cf4d13d52c7094c4ca9ad812",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/fit_compartmental.py",
+      "path": "skills/pkpd-modeling/scripts/fit_compartmental.py",
+      "size": 22593
+    },
+    {
+      "digest": "1e28fe000a4e3f9492ef93430c93b0d05a611be9ee810e1cbcfb0ffe4669b4af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/nca.py",
+      "path": "skills/pkpd-modeling/scripts/nca.py",
+      "size": 24915
+    },
+    {
+      "digest": "145d8eebfea3ad569b2fa18878e13d616ddef88dcd3ebfaeb34f9265e0921fca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/simulate_regimen.py",
+      "path": "skills/pkpd-modeling/scripts/simulate_regimen.py",
+      "size": 17629
+    },
+    {
+      "digest": "c17cfc052bd3bbec01536290fca580c00ebc8f36d6a0f55ac51c55b5cb7e9716",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pkpd-modeling/skills/pkpd-modeling/scripts/tdm_bayes.py",
+      "path": "skills/pkpd-modeling/scripts/tdm_bayes.py",
+      "size": 13300
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9e5b5ebf1c390107b5af6ba787355187d9010baa6c3efab2cf6cd9b7e2eac7d4",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pkpd-modeling",
+  "schema_version": 1
+}

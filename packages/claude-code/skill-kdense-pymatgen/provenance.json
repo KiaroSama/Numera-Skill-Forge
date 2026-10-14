@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "4a106d7682cd9881765700d534cb419458ba407935a59168547da1ae6ea4b6b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/SKILL.md",
+      "path": "skills/pymatgen/SKILL.md",
+      "size": 18295
+    },
+    {
+      "digest": "80f2b10954eb382326f29b42e2c0ba36ecffcb7b7f7aa7baac41787417e98619",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/references/analysis_modules.md",
+      "path": "skills/pymatgen/references/analysis_modules.md",
+      "size": 11688
+    },
+    {
+      "digest": "855b72c5860def49bda192d93b114a411493d639772bf7b4b75965ed9c6d994a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/references/core_classes.md",
+      "path": "skills/pymatgen/references/core_classes.md",
+      "size": 9717
+    },
+    {
+      "digest": "86a02f2c65b2bd9007b9b51a67694610cb468517a0e213b42e51c3e6ed2a310f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/references/io_formats.md",
+      "path": "skills/pymatgen/references/io_formats.md",
+      "size": 12033
+    },
+    {
+      "digest": "dd1940b0ffb25d59f49aa2c7ff2167be5542c46025b6af599425b9ff5a7300d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/references/materials_project_api.md",
+      "path": "skills/pymatgen/references/materials_project_api.md",
+      "size": 17959
+    },
+    {
+      "digest": "2ba11b7b1f61de4af89ca216abf12b8c28ee7fa4659623914730bb9733991628",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/references/transformations_workflows.md",
+      "path": "skills/pymatgen/references/transformations_workflows.md",
+      "size": 13175
+    },
+    {
+      "digest": "8eaa46482ecd54861730808aa628b515eae633eb5414835e600917505fc98772",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/_common.py",
+      "path": "skills/pymatgen/scripts/_common.py",
+      "size": 13462
+    },
+    {
+      "digest": "20e64dcd2e65996312bd17a487e0eebfb8e87fc814f938cc030a972f64d6118c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/artifact_manifest.py",
+      "path": "skills/pymatgen/scripts/artifact_manifest.py",
+      "size": 5659
+    },
+    {
+      "digest": "cc008c188a2e864a4498df0b90acab4c02f2270e58cc5659dd2129c21f5766c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/composition_structure_validator.py",
+      "path": "skills/pymatgen/scripts/composition_structure_validator.py",
+      "size": 11577
+    },
+    {
+      "digest": "bbaa88773984f1cc2ae170720ff18142e7d4a5114a98c83b1da905e9803605f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/io_conversion_plan.py",
+      "path": "skills/pymatgen/scripts/io_conversion_plan.py",
+      "size": 6970
+    },
+    {
+      "digest": "7b9fc0e0ec04d63b2349d6c336bb5e390f5ab481ea669a2f43efc7f0d6d1f704",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/mp_query.py",
+      "path": "skills/pymatgen/scripts/mp_query.py",
+      "size": 15165
+    },
+    {
+      "digest": "2deeae612bae443c643078ddecea37000aeb88b6982a39522985d93436c38208",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/phase_diagram_generator.py",
+      "path": "skills/pymatgen/scripts/phase_diagram_generator.py",
+      "size": 14758
+    },
+    {
+      "digest": "1f1bccf254b80edb28f9b2925dccc72327e948d41c1fb3adef6a5e72288413b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/structure_analyzer.py",
+      "path": "skills/pymatgen/scripts/structure_analyzer.py",
+      "size": 11107
+    },
+    {
+      "digest": "eead5fd4e7c18a050c226f9ecdcc8ae97fa570d9e0269421f1142013deaf92d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/structure_converter.py",
+      "path": "skills/pymatgen/scripts/structure_converter.py",
+      "size": 7990
+    },
+    {
+      "digest": "21a384d299e20b7e98281c8623da02a4a8e82604275c8c83454f87163652da15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pymatgen/skills/pymatgen/scripts/symmetry_sensitivity_report.py",
+      "path": "skills/pymatgen/scripts/symmetry_sensitivity_report.py",
+      "size": 7659
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9063adc3041323c92be42ca67db6224f1645ee20db5cee68b758eccf4caa4c4a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pymatgen",
+  "schema_version": 1
+}

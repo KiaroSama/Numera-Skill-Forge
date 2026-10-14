@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3ca7ea8075bbe8008389660cc4a5769d66ac9ec638f3f61a955a5d7b20aeba85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/SKILL.md",
+      "path": "skills/research-grants/SKILL.md",
+      "size": 17328
+    },
+    {
+      "digest": "a65ce61ac86ff3971f64d735854f8b9b53af93d3c0614e7c391d908c8b28ff45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/assets/budget_justification_template.md",
+      "path": "skills/research-grants/assets/budget_justification_template.md",
+      "size": 7414
+    },
+    {
+      "digest": "f960b6410bf6c4a8ebfcb23d069ccdaae5692c38b61d55662ce21a06eaa49696",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/assets/nih_specific_aims_template.md",
+      "path": "skills/research-grants/assets/nih_specific_aims_template.md",
+      "size": 3118
+    },
+    {
+      "digest": "a8c5c638df67fa54f8bb8ab8c4d92bc9a10c471afcbf73e15b6e173c33d8c788",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/assets/nsf_project_summary_template.md",
+      "path": "skills/research-grants/assets/nsf_project_summary_template.md",
+      "size": 2571
+    },
+    {
+      "digest": "c1dc961d3ea576cd4d06e76a47d1a4236b7e9d77bf90a612302125938db9bc5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/README.md",
+      "path": "skills/research-grants/references/README.md",
+      "size": 2493
+    },
+    {
+      "digest": "de888b798004a3c0174d8dfd99626c8654a9ca53f78e2dcd4d2e242bed9873e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/broader_impacts.md",
+      "path": "skills/research-grants/references/broader_impacts.md",
+      "size": 24394
+    },
+    {
+      "digest": "73b5915fa8fb905949233d3e2cdc118525ac9b448cb0fb05407ee3d7ecf44cdb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/core_components.md",
+      "path": "skills/research-grants/references/core_components.md",
+      "size": 16469
+    },
+    {
+      "digest": "f7bc5c2d0b461275599a157a074a90b71169415ebdeea3417549952b09598fc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/darpa_guidelines.md",
+      "path": "skills/research-grants/references/darpa_guidelines.md",
+      "size": 7145
+    },
+    {
+      "digest": "79e4afebf7fb71dabfc661144913d0d6af9583072e52b8405a67f2932b5ac5d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/doe_guidelines.md",
+      "path": "skills/research-grants/references/doe_guidelines.md",
+      "size": 7713
+    },
+    {
+      "digest": "ff3f8dda0a2f77743401b44caff6c4f94471fb0348e2d4abf4f7b86e8874f285",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/nih_guidelines.md",
+      "path": "skills/research-grants/references/nih_guidelines.md",
+      "size": 13591
+    },
+    {
+      "digest": "78fe17b0e5798767e6ff9074f28d6b8d154dbe256b9d36dcbdaa78fbd6b73f24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/nsf_guidelines.md",
+      "path": "skills/research-grants/references/nsf_guidelines.md",
+      "size": 7963
+    },
+    {
+      "digest": "852b3bdcd990a17b9164680b4bf344f0800e551d4126310531f7c1d2be7f6c35",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/nstc_guidelines.md",
+      "path": "skills/research-grants/references/nstc_guidelines.md",
+      "size": 7660
+    },
+    {
+      "digest": "267d3c8688407620c3cf633a0b4e18730c4d65b5380531796d1e8b4a4da9db1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/proposal_types_and_resubmission.md",
+      "path": "skills/research-grants/references/proposal_types_and_resubmission.md",
+      "size": 3252
+    },
+    {
+      "digest": "e6d6b9822ee6cb744eff39a79a7502c3ce6668c76ae49a5f652793421e81a458",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/review_criteria.md",
+      "path": "skills/research-grants/references/review_criteria.md",
+      "size": 2858
+    },
+    {
+      "digest": "f0bb4f76ceac2db418cdc556869cab16d9bccbc2ad0568894fd5a086a6e796a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/specific_aims_guide.md",
+      "path": "skills/research-grants/references/specific_aims_guide.md",
+      "size": 21099
+    },
+    {
+      "digest": "718b079d8f93df8ce4bd44767b3d794ddde7ebe5901a9957caf7b2ace9c5bda8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-research-grants/skills/research-grants/references/writing_principles.md",
+      "path": "skills/research-grants/references/writing_principles.md",
+      "size": 3590
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fa7cfb41e3aa18b297c373b0d2dd1b3d78320da77d41793d3fffdcd046e99903",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/research-grants",
+  "schema_version": 1
+}

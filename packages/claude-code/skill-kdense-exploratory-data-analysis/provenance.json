@@ -1,0 +1,166 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/SKILL.md",
+      "path": "skills/exploratory-data-analysis/SKILL.md",
+      "size": 14722
+    },
+    {
+      "digest": "c6cd0644dbefeb64c77e84935509f52a92d45256daf2cd4be84012e99e4d7d44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/assets/report_template.md",
+      "path": "skills/exploratory-data-analysis/assets/report_template.md",
+      "size": 7873
+    },
+    {
+      "digest": "b3594673cbe22e29fd5bc2681c1b53d4f8b02b48ff17fc9ffaf5a09d1d885be3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "path": "skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "size": 8977
+    },
+    {
+      "digest": "3ff937541ebf0396d4c2304016cebc42d405110300df7379f59c40953fc8ed41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "path": "skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "size": 8732
+    },
+    {
+      "digest": "42bcf3389bbd78e426dd41139208517f3f78bdc17e068a1eb3a984d2f2487320",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/general_scientific_formats.md",
+      "path": "skills/exploratory-data-analysis/references/general_scientific_formats.md",
+      "size": 12276
+    },
+    {
+      "digest": "c96bb7291ded320a106800c1132191683aa3028f2240c5fcf954079f1a26c382",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "path": "skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "size": 9305
+    },
+    {
+      "digest": "66d9493fe14c717f5e8e60500e8fa7bfe1f619084e23b643a767f0952a35efd7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "path": "skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "size": 9821
+    },
+    {
+      "digest": "102a68c212ef5447815c889cf06668f3cb5bd8644f018354d6e98d1a15101a0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+      "path": "skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+      "size": 9555
+    },
+    {
+      "digest": "87539288ce5d4caf24fc9fca14e5d70c41730c9d4285106ac4db0c4b5cefd60c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/__init__.py",
+      "path": "skills/exploratory-data-analysis/scripts/__init__.py",
+      "size": 69
+    },
+    {
+      "digest": "93fd42bcc6940db0a6cad364dab42a52f0867e782f7e93c9b27c4185249edc06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/_capabilities.py",
+      "path": "skills/exploratory-data-analysis/scripts/_capabilities.py",
+      "size": 20714
+    },
+    {
+      "digest": "f363af255cc78ea63864e0da9f679f57a9e71efd36b6813332f3d2c419b30d51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/_common.py",
+      "path": "skills/exploratory-data-analysis/scripts/_common.py",
+      "size": 14293
+    },
+    {
+      "digest": "8cb23c8552339acc926f4dc84e1ec032c79152515098e1fd97f2326b84b4ead9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/_structured.py",
+      "path": "skills/exploratory-data-analysis/scripts/_structured.py",
+      "size": 14683
+    },
+    {
+      "digest": "5d1db825890dd035c30e51ac1c11aee56e1e1dca6ffd238ee87ae7d51d8df2f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/_tabular.py",
+      "path": "skills/exploratory-data-analysis/scripts/_tabular.py",
+      "size": 32782
+    },
+    {
+      "digest": "1e52e1db668ebce919751a75b53ad959c36749e4b1695f59d8ac2d6c8eda4abf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/capability_manifest.py",
+      "path": "skills/exploratory-data-analysis/scripts/capability_manifest.py",
+      "size": 5433
+    },
+    {
+      "digest": "ca6e9f3dd59cfb382b1ff0874e709933c136ec942085a0437d4000bbf7f1f3c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "path": "skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "size": 3304
+    },
+    {
+      "digest": "6532b28ad3f28dd9f58acecb54361c8271d2755584a54ecb0be34da74d1e5d20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "path": "skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "size": 10547
+    },
+    {
+      "digest": "79c21b35d01376929ff0edf26a3bb25923b9e75458c586e0f5721cec356fe639",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/image_inspector.py",
+      "path": "skills/exploratory-data-analysis/scripts/image_inspector.py",
+      "size": 7931
+    },
+    {
+      "digest": "28458714e80ee31db636c0265ba21e1623ba27816d31e236fdc9b873a5b78ffc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "path": "skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "size": 3904
+    },
+    {
+      "digest": "4d745592384bfceb0ec7384eecfc5e8ba49ebfa4ec55be75a99ce7c7e102f60b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/report_scaffold.py",
+      "path": "skills/exploratory-data-analysis/scripts/report_scaffold.py",
+      "size": 4247
+    },
+    {
+      "digest": "11ca2fa3a0d660192631b9b562f362b0fd120c9e54639bfb049c600c6920be28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "path": "skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "size": 8621
+    },
+    {
+      "digest": "78cd139292c18e31d17de882762948db7b51fdc3278546f994270a287d0149db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exploratory-data-analysis/skills/exploratory-data-analysis/scripts/tabular_profile.py",
+      "path": "skills/exploratory-data-analysis/scripts/tabular_profile.py",
+      "size": 3077
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6e0cc0396936f023853c77c8e5e892392623285d5d9a9593c93b5797d4c61491",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/exploratory-data-analysis",
+  "schema_version": 1
+}

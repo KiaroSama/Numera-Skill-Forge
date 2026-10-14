@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/fictiv",
+  "license": "MIT",
+  "name": "skill-kdense-fictiv",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

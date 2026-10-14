@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/stable-baselines3",
+  "license": "MIT",
+  "name": "skill-kdense-stable-baselines3",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e15d761ef88013c98fd5b19cc144aba7336e20dbadf340db17bd1ba2227d1d69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/SKILL.md",
+      "path": "skills/scientific-schematics/SKILL.md",
+      "size": 20304
+    },
+    {
+      "digest": "a991e1f2219feaffea93360c39cb5a7102c7cd8985c0c7aafc68fa617d3b8581",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/references/best_practices.md",
+      "path": "skills/scientific-schematics/references/best_practices.md",
+      "size": 20486
+    },
+    {
+      "digest": "f151ecba3c786b55f6f4b505ddca01957deabbc8f5dc9dcd0d3e27e766c3da75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/references/iterative_refinement.md",
+      "path": "skills/scientific-schematics/references/iterative_refinement.md",
+      "size": 15304
+    },
+    {
+      "digest": "921e4c2332f83cafa75491be4bb92dd863c86cd9118ef0e04028a7eb74a9ae0b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/scripts/example_usage.sh",
+      "path": "skills/scientific-schematics/scripts/example_usage.sh",
+      "size": 3548
+    },
+    {
+      "digest": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/scripts/generate_schematic.py",
+      "path": "skills/scientific-schematics/scripts/generate_schematic.py",
+      "size": 7782
+    },
+    {
+      "digest": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-schematics/skills/scientific-schematics/scripts/generate_schematic_ai.py",
+      "path": "skills/scientific-schematics/scripts/generate_schematic_ai.py",
+      "size": 35684
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b35fdbcf9ebe0671d7966ac1ecec0c5ebbc2508542deae5d9ca36ba4f2698c42",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-schematics",
+  "schema_version": 1
+}

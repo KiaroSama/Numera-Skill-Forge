@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/anndata",
+  "license": "MIT",
+  "name": "skill-kdense-anndata",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

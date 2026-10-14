@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c75e73ba447bbf9530f6d3df4ba6224185f3c7728460b37938c8626dab664ad2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/SKILL.md",
+      "path": "skills/omero-integration/SKILL.md",
+      "size": 11142
+    },
+    {
+      "digest": "e80234a7a024cda5460c677efa682875f5a2e9b931554201df513495aa93b860",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/advanced.md",
+      "path": "skills/omero-integration/references/advanced.md",
+      "size": 10671
+    },
+    {
+      "digest": "743ecb32b5d332ac21c8de2f3f52ec85511791c874dcfaa501d43a9b2aa34be5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/connection.md",
+      "path": "skills/omero-integration/references/connection.md",
+      "size": 10925
+    },
+    {
+      "digest": "17ffd87d6361eaa2fc8fe65d01af3d4b8e587e74dfdb5191bfbbef67c04053ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/data_access.md",
+      "path": "skills/omero-integration/references/data_access.md",
+      "size": 10116
+    },
+    {
+      "digest": "75719aa560e7559bc4897461f6879076148b5653ddbf470082a6e7fdfe6864ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/image_processing.md",
+      "path": "skills/omero-integration/references/image_processing.md",
+      "size": 7908
+    },
+    {
+      "digest": "ca57a9c25c2818296591a0f24de1394b935f5d4dd824474a8f36d1ebaae95db7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/metadata.md",
+      "path": "skills/omero-integration/references/metadata.md",
+      "size": 9364
+    },
+    {
+      "digest": "3e29ab68ae28465ab2c335fff7c34c50d9f5fb34dc46daab9186d32eaf4cb281",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/rois.md",
+      "path": "skills/omero-integration/references/rois.md",
+      "size": 9064
+    },
+    {
+      "digest": "66d37a8b7fb4bc3ee0a3728c5d92c99901338ed810bb590ac1869bc11114d51e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/scripts.md",
+      "path": "skills/omero-integration/references/scripts.md",
+      "size": 8886
+    },
+    {
+      "digest": "6dbcfd6c72a9769aa69687ba48941ae37eec82accb426a17f4bdc026dd37ee77",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/sources.md",
+      "path": "skills/omero-integration/references/sources.md",
+      "size": 11116
+    },
+    {
+      "digest": "50fc3d7b7c5c7b961f55ab4223b22ab89bebaf884e6f07d7beec1fb2fde4d21c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/references/tables.md",
+      "path": "skills/omero-integration/references/tables.md",
+      "size": 8839
+    },
+    {
+      "digest": "a8762fd30db387ac437eaeec973b5be9ca218eab09c0c27fb4630c5ac254d174",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/scripts/export_image_metadata.py",
+      "path": "skills/omero-integration/scripts/export_image_metadata.py",
+      "size": 17522
+    },
+    {
+      "digest": "7f8986ecee7e8933b1f422b26bf19c494447d594708ec927eb1248fb7143f7b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/scripts/inventory.py",
+      "path": "skills/omero-integration/scripts/inventory.py",
+      "size": 8364
+    },
+    {
+      "digest": "88e820f8d50426d409f2bd143c7f5f5f9a3d7d4aa72c28fc57aa3b1ba12cef05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/scripts/omero_common.py",
+      "path": "skills/omero-integration/scripts/omero_common.py",
+      "size": 14502
+    },
+    {
+      "digest": "6bbd7fa17e6716bd22fbf0852f1b59561f9735da182c5f01c588eb8aee867f16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/scripts/plan_transfer.py",
+      "path": "skills/omero-integration/scripts/plan_transfer.py",
+      "size": 12286
+    },
+    {
+      "digest": "6aa84d202401a684cb2dd12acf7104a76a75fa362be0c8a838c5e551333e54f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-omero-integration/skills/omero-integration/scripts/validate_config.py",
+      "path": "skills/omero-integration/scripts/validate_config.py",
+      "size": 4146
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "596fc3f1664bbe48924880b56d1bbff8aa033a4250d522d305289a06dab528b4",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/omero-integration",
+  "schema_version": 1
+}

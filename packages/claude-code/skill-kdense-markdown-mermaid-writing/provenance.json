@@ -1,0 +1,285 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/SKILL.md",
+      "path": "skills/markdown-mermaid-writing/SKILL.md",
+      "size": 16691
+    },
+    {
+      "digest": "af5844d2f8b2972d96ad85218b479367b1fa99cd718bd23be6027266079ec7de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/assets/examples/example-research-report.md",
+      "path": "skills/markdown-mermaid-writing/assets/examples/example-research-report.md",
+      "size": 3509
+    },
+    {
+      "digest": "03b96222d08fffb254a1828f301af4ce8ebe099c9bc380ab21ad59888e0d3d51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/current-rendering.md",
+      "path": "skills/markdown-mermaid-writing/references/current-rendering.md",
+      "size": 7744
+    },
+    {
+      "digest": "b246d31c1b99d41a795d7df1c451b77f8bd1cf584561471bc3cd8874b3199376",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/architecture.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/architecture.md",
+      "size": 5092
+    },
+    {
+      "digest": "02b2a095b4c8c6845c1fd9d3a3ca917113746517dcd224107f6c9c6bede8221c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/block.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/block.md",
+      "size": 5138
+    },
+    {
+      "digest": "2f815d518f8715fa2968566c88edd146f760f33db3299704ff15614ec50df2d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/c4.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/c4.md",
+      "size": 6815
+    },
+    {
+      "digest": "496286c007ab15dc5e875ff7e30ca2a2e6b69d8cf46bce4330a3e92eb9810c8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/class.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/class.md",
+      "size": 8840
+    },
+    {
+      "digest": "1eddefc2e1e2717ac813b3488a1355fa9585b496c5d7bc9606121924c73b3c73",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/complex_examples.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/complex_examples.md",
+      "size": 17248
+    },
+    {
+      "digest": "2086906f3c002837c5508205a81acc93cc2cc6166cea96d62f3836153a71f76e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/er.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/er.md",
+      "size": 8237
+    },
+    {
+      "digest": "be90231d635aea2645fefd86c108a3a0f819e74929e30afe5b670702265e368e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/flowchart.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/flowchart.md",
+      "size": 7203
+    },
+    {
+      "digest": "c05da4e62a02f4ae4d01995a0de4272cc04f7609408d9ecc08345b1ff6e65914",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/gantt.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/gantt.md",
+      "size": 6101
+    },
+    {
+      "digest": "5992286cc0ac0b16020ef71fccb074eeb9b5c70d874fc08ef1b07672f550645e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/git_graph.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/git_graph.md",
+      "size": 2294
+    },
+    {
+      "digest": "acd582211a09ba799445a0d1fc7fb710149cd46ea71e4f17509ffce7733f142f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/kanban.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/kanban.md",
+      "size": 4047
+    },
+    {
+      "digest": "79bbffa9faff776f832a77d7fbe29530b3f3aa45c60e08176e621c39c824dcee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/mindmap.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/mindmap.md",
+      "size": 2516
+    },
+    {
+      "digest": "6d17b2b9dcb24d78538b3d14d06a53c51a06d5b7b81a191c1c923d85f90f07d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/packet.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/packet.md",
+      "size": 2485
+    },
+    {
+      "digest": "5c23d5928eea6cfaf3d6cdd7fc0306403abf8a1d5394dfea2d5f64bc30bc5f99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/pie.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/pie.md",
+      "size": 1961
+    },
+    {
+      "digest": "14977d2d10cd6255afad2f9e6db92f21ece23cf50b0595928877a84125e340c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/quadrant.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/quadrant.md",
+      "size": 2702
+    },
+    {
+      "digest": "37bd437a3b99782b3a2adb5cbc7a9d888e99508f25539fbad53aa2ca12a9f03d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/radar.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/radar.md",
+      "size": 2851
+    },
+    {
+      "digest": "37da70b91532bf1c71925b75c1fe5424cb1637726765f285c7ee059231916941",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/requirement.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/requirement.md",
+      "size": 3121
+    },
+    {
+      "digest": "28446f926580846fe9dffd8fc19d08d69aab010793520b2b41045a5e0d5e57e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/sankey.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/sankey.md",
+      "size": 2691
+    },
+    {
+      "digest": "7eb7c9d4822de94a8c2e0fce23cd3c98a4eabfd72969ac1db5b774ba981ac1b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/sequence.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/sequence.md",
+      "size": 6052
+    },
+    {
+      "digest": "6f4932b9e0f8b52eb1e364e54ce79d5051facf0706b8832d2fa1ec61b1c3d4dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/state.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/state.md",
+      "size": 5822
+    },
+    {
+      "digest": "54989d17d5636c8cb4a32cd256f58857d63a78928d2b06a7bc204cd4bdbaca6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/timeline.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/timeline.md",
+      "size": 4583
+    },
+    {
+      "digest": "2a52475aa915d9173ec506c8b71500ea8e6ebea48663c742c2a9b0d0b8c2e56d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/treemap.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/treemap.md",
+      "size": 2652
+    },
+    {
+      "digest": "3e04d3e557732cd90f841e142f43bdb70d255bc9c7b9d148a609014aca56ca0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/user_journey.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/user_journey.md",
+      "size": 5302
+    },
+    {
+      "digest": "642910cf5949017f15dfe8ecf46564e0697427072f66eebbcb33d8c0a35232c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/xy_chart.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/xy_chart.md",
+      "size": 2655
+    },
+    {
+      "digest": "319efbe76fd336bc4049f20a3139e51f3d4df6be2fcea421b85e4ca8c7e6441a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/diagrams/zenuml.md",
+      "path": "skills/markdown-mermaid-writing/references/diagrams/zenuml.md",
+      "size": 2568
+    },
+    {
+      "digest": "ecc85928c8ebcb4bbfd46556bb37269061e6f58504dfe3ffbaf29b7788d64248",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/markdown_style_guide.md",
+      "path": "skills/markdown-mermaid-writing/references/markdown_style_guide.md",
+      "size": 33195
+    },
+    {
+      "digest": "083ce0070bf3d8b4e64d9b946ab6eaec908168f0a3bb77926d720a4f767feaef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/references/mermaid_style_guide.md",
+      "path": "skills/markdown-mermaid-writing/references/mermaid_style_guide.md",
+      "size": 27258
+    },
+    {
+      "digest": "da314705b15a2c4bb9fb6150222f9db5e8229da275481c4acfc9e8c7a0afdbbc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/decision_record.md",
+      "path": "skills/markdown-mermaid-writing/templates/decision_record.md",
+      "size": 7323
+    },
+    {
+      "digest": "1363b28cc6edd59f68ca81efe6e8723ad43008283acad23dcda45fa0e8c30848",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/how_to_guide.md",
+      "path": "skills/markdown-mermaid-writing/templates/how_to_guide.md",
+      "size": 7295
+    },
+    {
+      "digest": "3ec84341c5a923f1dc9066e1c346533c7021602a6a8b17252d51dd4f40d0d1ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/issue.md",
+      "path": "skills/markdown-mermaid-writing/templates/issue.md",
+      "size": 11915
+    },
+    {
+      "digest": "213df6f39e2ef3e253b98fe6c3688322bb78e88f0f89d9cdbd23933774bc21e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/kanban.md",
+      "path": "skills/markdown-mermaid-writing/templates/kanban.md",
+      "size": 10826
+    },
+    {
+      "digest": "13494ab83e242fd4cb9fb3110d87a4f8aadcc8a4f520cb16acca4d8fdb8875cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/presentation.md",
+      "path": "skills/markdown-mermaid-writing/templates/presentation.md",
+      "size": 8303
+    },
+    {
+      "digest": "58da34425cabac1b859e8f43916bad215232e60ecefe031a959b729c1549f9df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/project_documentation.md",
+      "path": "skills/markdown-mermaid-writing/templates/project_documentation.md",
+      "size": 11795
+    },
+    {
+      "digest": "18828f680999f39bdb6f7ae7c175af507dbe945363f16962ddd019958751c499",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/pull_request.md",
+      "path": "skills/markdown-mermaid-writing/templates/pull_request.md",
+      "size": 12131
+    },
+    {
+      "digest": "c795783bfde5fa07ccb29159ff5129d5ea0888d827cfa50548a9101e8c177c29",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/research_paper.md",
+      "path": "skills/markdown-mermaid-writing/templates/research_paper.md",
+      "size": 10361
+    },
+    {
+      "digest": "2cdf785affe8831d2fa1cb6e87cf33afbb5c3cb056575aa5ecb2b8b6bfbe3152",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markdown-mermaid-writing/skills/markdown-mermaid-writing/templates/status_report.md",
+      "path": "skills/markdown-mermaid-writing/templates/status_report.md",
+      "size": 7336
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a1f6ccc22ef1fe988d678968e51c16b7e56dfe022b8b478ec398df02a83bd896",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/markdown-mermaid-writing",
+  "schema_version": 1
+}

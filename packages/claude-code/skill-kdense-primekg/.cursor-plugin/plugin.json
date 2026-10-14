@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/primekg",
+  "license": "MIT",
+  "name": "skill-kdense-primekg",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c3586bcfa1e8d89a2abb23d74496d41e68daec5e7a8af6cefb9080a0ed469161",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/SKILL.md",
+      "path": "skills/gtars/SKILL.md",
+      "size": 15071
+    },
+    {
+      "digest": "283fe599ead858f9e6c8e43bf7083cd545d55865fd0b9f1d3287d6fb10f8ed08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/cli.md",
+      "path": "skills/gtars/references/cli.md",
+      "size": 12282
+    },
+    {
+      "digest": "11eb4671cee717b1768c3efef1fd4eee1978d8ecc0506f195e99bc6408045a96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/coverage.md",
+      "path": "skills/gtars/references/coverage.md",
+      "size": 7877
+    },
+    {
+      "digest": "be3f6af18d554f5a6fcbf1d073825aa4d3fd132c1bfa7fdf347a9e78a595cb54",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/overlap.md",
+      "path": "skills/gtars/references/overlap.md",
+      "size": 7890
+    },
+    {
+      "digest": "0a546b43334e8667f1be1c349b3fe262002725d031678924b2394b6a9094038d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/python-api.md",
+      "path": "skills/gtars/references/python-api.md",
+      "size": 10245
+    },
+    {
+      "digest": "b9cbb899ba9de6379136ef30e3c4bcdb8ca6d94f65b6c27ea6444aa800fd268c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/refget.md",
+      "path": "skills/gtars/references/refget.md",
+      "size": 14540
+    },
+    {
+      "digest": "52391fac7bcee48d64cb9458893c8c0797a3a8eac511f0b0860be770cbf87b1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/references/tokenizers.md",
+      "path": "skills/gtars/references/tokenizers.md",
+      "size": 8946
+    },
+    {
+      "digest": "ad3f0f0e13877aa22ac08ee94dca3c1a353a0c43b9a6e516a653698881e6970d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/__init__.py",
+      "path": "skills/gtars/scripts/__init__.py",
+      "size": 57
+    },
+    {
+      "digest": "d6972b81f9897407741be59714aa2f3c69736095008f78b83896bac2c5f7172f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/_common.py",
+      "path": "skills/gtars/scripts/_common.py",
+      "size": 15694
+    },
+    {
+      "digest": "fb05c91bd3c2fddf238ddaf44342e9117251c476404c5bd8412d793d63714603",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/artifact_inspector.py",
+      "path": "skills/gtars/scripts/artifact_inspector.py",
+      "size": 10849
+    },
+    {
+      "digest": "1ab6f216a7a3047a8b0612990e7485dfe147c96a14d7c54153bde0f7ee47e791",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/bed_validator.py",
+      "path": "skills/gtars/scripts/bed_validator.py",
+      "size": 5432
+    },
+    {
+      "digest": "021d6eb1fe29e42d84e0b9d40f3fc101789ebaa020bc3788564132801957c9fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/coverage_preflight.py",
+      "path": "skills/gtars/scripts/coverage_preflight.py",
+      "size": 8482
+    },
+    {
+      "digest": "b7d3fce77d3f199098fed08f4daf45151f2634bfb9d0b128a84c4defa64d1e8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/execution_plan.py",
+      "path": "skills/gtars/scripts/execution_plan.py",
+      "size": 13027
+    },
+    {
+      "digest": "c804bfa7796c6b8a39a73928a9dde274df6073ccce4d7c2aab7f57725d3dd299",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/refget_digest_plan.py",
+      "path": "skills/gtars/scripts/refget_digest_plan.py",
+      "size": 10925
+    },
+    {
+      "digest": "87dec07c6d2e0daec5568e953da78beea1170e21521a041122bc71db7f522c05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-gtars/skills/gtars/scripts/tokenizer_manifest.py",
+      "path": "skills/gtars/scripts/tokenizer_manifest.py",
+      "size": 8560
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "909797e149205f0101231435805e6ea17e3c7a13953c751c0d4d2a0adc9a62ca",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/gtars",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/ontology-term-resolution",
+  "license": "MIT",
+  "name": "skill-kdense-ontology-term-resolution",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

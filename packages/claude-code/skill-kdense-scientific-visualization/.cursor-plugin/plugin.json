@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scientific-visualization",
+  "license": "MIT",
+  "name": "skill-kdense-scientific-visualization",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

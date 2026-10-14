@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/rowan",
+  "license": "MIT",
+  "name": "skill-kdense-rowan",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

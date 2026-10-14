@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/market-research-reports",
+  "license": "MIT",
+  "name": "skill-kdense-market-research-reports",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

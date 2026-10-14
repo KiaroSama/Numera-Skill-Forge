@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/bgpt-paper-search",
+  "license": "MIT",
+  "name": "skill-kdense-bgpt-paper-search",
+  "version": "1.0.0"
+}

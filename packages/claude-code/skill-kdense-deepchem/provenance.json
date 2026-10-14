@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "2965735ee473cf70d63c6170f1c8867bd533539809d4535c162acacc07d0b17d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/SKILL.md",
+      "path": "skills/deepchem/SKILL.md",
+      "size": 8967
+    },
+    {
+      "digest": "486d7070eba75919fb501389fff0df8394e10fcc27296d96ef6ab89fa24d1611",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/references/api_reference.md",
+      "path": "skills/deepchem/references/api_reference.md",
+      "size": 8458
+    },
+    {
+      "digest": "e9e808dd57b55c8d326f94ed2f7feddec0463f97d5f59f71fb5711daf312f555",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/references/core_capabilities.md",
+      "path": "skills/deepchem/references/core_capabilities.md",
+      "size": 3692
+    },
+    {
+      "digest": "0934d78d899d47a6180b2f351d8843308d641fa3c0b13b264f87369c59baa845",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/references/review.md",
+      "path": "skills/deepchem/references/review.md",
+      "size": 5325
+    },
+    {
+      "digest": "3a072edc8b262ecf000ac665f6f59fa5354c26d71949433a07f43746889074c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/references/typical_workflows.md",
+      "path": "skills/deepchem/references/typical_workflows.md",
+      "size": 3171
+    },
+    {
+      "digest": "327707341e5e4e18dfa6aee1e7860935c30ef56ba77653e07b01683dd3259c4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/references/workflows.md",
+      "path": "skills/deepchem/references/workflows.md",
+      "size": 7206
+    },
+    {
+      "digest": "61fb1c4ac183953eb08b163296e809295a7242349ada274f1db254efb7b43ac1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/scripts/_common.py",
+      "path": "skills/deepchem/scripts/_common.py",
+      "size": 6474
+    },
+    {
+      "digest": "2f3be84ad1ded9a3cd2d55257f9ab31e77f2df4ca623186b5def07a43076694a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/scripts/graph_neural_network.py",
+      "path": "skills/deepchem/scripts/graph_neural_network.py",
+      "size": 9569
+    },
+    {
+      "digest": "df8364ba832f7fe04cc401ef4fe3413714683fabdf7c8cf5f530a02c16b10c4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/scripts/predict_solubility.py",
+      "path": "skills/deepchem/scripts/predict_solubility.py",
+      "size": 6945
+    },
+    {
+      "digest": "7d1d866b6320f19177cd90ae9edde15e711d838cbfb23479afd9766551f52aee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepchem/skills/deepchem/scripts/transfer_learning.py",
+      "path": "skills/deepchem/scripts/transfer_learning.py",
+      "size": 11161
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b493915724443a66d9609d40c9465ca64a9059dd3cc8fe20cd85dab2779c89ef",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/deepchem",
+  "schema_version": 1
+}

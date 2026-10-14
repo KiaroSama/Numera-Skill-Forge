@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b22633470d40ddaf31451fbbf811941fc89c3174c404ca359f25378691267e73",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/SKILL.md",
+      "path": "skills/scvi-tools/SKILL.md",
+      "size": 10233
+    },
+    {
+      "digest": "9dc04bb8ff13d54e3eb0ae8c040346b9d7b0f39d60d378573c01f9e8b38c0022",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/differential-expression.md",
+      "path": "skills/scvi-tools/references/differential-expression.md",
+      "size": 7095
+    },
+    {
+      "digest": "ce60d208321a6a5a8d88a3b487b7bc675a8f4d77e1a35cb9b5bfa176d0aa066f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/models-atac-seq.md",
+      "path": "skills/scvi-tools/references/models-atac-seq.md",
+      "size": 5741
+    },
+    {
+      "digest": "a7a7a49311f06c9bef9bc88376ea4c28fe82512bf472e68abba44767f9868a16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/models-multimodal.md",
+      "path": "skills/scvi-tools/references/models-multimodal.md",
+      "size": 8476
+    },
+    {
+      "digest": "9c266357e7c96eeeaa4a69ca231081f8223f719d31fe2d28b30c8f27af022120",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/models-scrna-seq.md",
+      "path": "skills/scvi-tools/references/models-scrna-seq.md",
+      "size": 7931
+    },
+    {
+      "digest": "b89125cb6b1ba2ffeeef6d7581fc4b3ac20b589a98336b5edba55e0a8c293bdc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/models-spatial.md",
+      "path": "skills/scvi-tools/references/models-spatial.md",
+      "size": 9087
+    },
+    {
+      "digest": "ccfb14775e32cecfadbbe40af3ea401bbfefbe9dcfb18f91fd47aadcf41238e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/models-specialized.md",
+      "path": "skills/scvi-tools/references/models-specialized.md",
+      "size": 6509
+    },
+    {
+      "digest": "db2fd946f940cbdc5656dbc3a451b180c8fb02ac11e135a9e8db15df990e8106",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/theoretical-foundations.md",
+      "path": "skills/scvi-tools/references/theoretical-foundations.md",
+      "size": 5240
+    },
+    {
+      "digest": "9fe7442e11db73fd0f65f421a12e6b11fd0a848953aea4ec4f21c00b697d51b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvi-tools/skills/scvi-tools/references/workflows.md",
+      "path": "skills/scvi-tools/references/workflows.md",
+      "size": 9300
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b856c1da17e51fea215167d0b4fa6b1238feae012c1c0514e84fb414221801f4",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scvi-tools",
+  "schema_version": 1
+}

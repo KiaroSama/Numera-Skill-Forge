@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/qiskit",
+  "license": "MIT",
+  "name": "skill-kdense-qiskit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

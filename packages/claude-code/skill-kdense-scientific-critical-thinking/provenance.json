@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/SKILL.md",
+      "path": "skills/scientific-critical-thinking/SKILL.md",
+      "size": 13146
+    },
+    {
+      "digest": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/common_biases.md",
+      "path": "skills/scientific-critical-thinking/references/common_biases.md",
+      "size": 12368
+    },
+    {
+      "digest": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/core_capabilities.md",
+      "path": "skills/scientific-critical-thinking/references/core_capabilities.md",
+      "size": 16975
+    },
+    {
+      "digest": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "path": "skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "size": 17435
+    },
+    {
+      "digest": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/experimental_design.md",
+      "path": "skills/scientific-critical-thinking/references/experimental_design.md",
+      "size": 18227
+    },
+    {
+      "digest": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "path": "skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "size": 18659
+    },
+    {
+      "digest": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/review_sources.md",
+      "path": "skills/scientific-critical-thinking/references/review_sources.md",
+      "size": 7557
+    },
+    {
+      "digest": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/scientific_method.md",
+      "path": "skills/scientific-critical-thinking/references/scientific_method.md",
+      "size": 7641
+    },
+    {
+      "digest": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-critical-thinking/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "size": 21151
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ada2bdf1fb9e11303a1f14c1d192d5f6d1cd8f767164c04a36744c6ce9261596",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-critical-thinking",
+  "schema_version": 1
+}

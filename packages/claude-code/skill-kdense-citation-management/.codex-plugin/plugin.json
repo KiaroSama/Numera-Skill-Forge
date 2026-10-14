@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/citation-management",
+  "license": "MIT",
+  "name": "skill-kdense-citation-management",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

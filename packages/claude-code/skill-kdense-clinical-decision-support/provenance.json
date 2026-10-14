@@ -1,0 +1,215 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "05645e4bc5c73a613ddaeba5bea616739cc0cd71c789c869d97cdfcd8994e072",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/SKILL.md",
+      "path": "skills/clinical-decision-support/SKILL.md",
+      "size": 14182
+    },
+    {
+      "digest": "6553f12593aa45a466f7b265e63b870c9254019edf5bc550acf332f19b34bfda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/aggregate_cohort_table_template.json",
+      "path": "skills/clinical-decision-support/assets/aggregate_cohort_table_template.json",
+      "size": 3140
+    },
+    {
+      "digest": "6dc41f4bc46ee061376dffb91b1993f591552781c6e8ebac7c180d8da2bf7694",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/aggregate_model_evaluation_template.json",
+      "path": "skills/clinical-decision-support/assets/aggregate_model_evaluation_template.json",
+      "size": 3677
+    },
+    {
+      "digest": "d6e8e27f3ad9533921324975b7220acc2399e45bc81ba84a885a3b35ea6b0370",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/artifact_intended_use_template.json",
+      "path": "skills/clinical-decision-support/assets/artifact_intended_use_template.json",
+      "size": 3319
+    },
+    {
+      "digest": "b4f2d048ccd5f0fc9c297bfff6fcce9ab4ce2b8da05fbb13c3760d3acce33fd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/decision_logic_traceability_template.json",
+      "path": "skills/clinical-decision-support/assets/decision_logic_traceability_template.json",
+      "size": 4368
+    },
+    {
+      "digest": "ec6f187a1f06aaede11af9bb78c096a583e43c1743f81188dbaee5613b7484e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/deidentification_checklist_template.json",
+      "path": "skills/clinical-decision-support/assets/deidentification_checklist_template.json",
+      "size": 6156
+    },
+    {
+      "digest": "e4ac5d656b2468ba13052ca6d79bd8a52b721ffed9474511189c53093758092c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/evidence_profile_template.json",
+      "path": "skills/clinical-decision-support/assets/evidence_profile_template.json",
+      "size": 4485
+    },
+    {
+      "digest": "f32b477d68c6e7c69a7111fc6f8d9c94d3d06f0d389da93d57c36e9224a639ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/assets/survival_analysis_plan_template.json",
+      "path": "skills/clinical-decision-support/assets/survival_analysis_plan_template.json",
+      "size": 7281
+    },
+    {
+      "digest": "fba2cc5117315a749ea041ed5895a27a56f79d1f12c8309a01935628c039fc10",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/README.md",
+      "path": "skills/clinical-decision-support/references/README.md",
+      "size": 3262
+    },
+    {
+      "digest": "f0d2f2ca2792f100a665eefede926da115cd40ac6c534ade2f90bf5b7f341bf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/cohort_evaluation.md",
+      "path": "skills/clinical-decision-support/references/cohort_evaluation.md",
+      "size": 5662
+    },
+    {
+      "digest": "8bcbe9702fd1e5d5dbfa7b495b16cb289e72309053885e2f6e1f7477d31e638f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/decision_logic_traceability.md",
+      "path": "skills/clinical-decision-support/references/decision_logic_traceability.md",
+      "size": 3350
+    },
+    {
+      "digest": "fb9f2b1075094df3a69eb2784e1864ce164520a0714dc6d137abc6680f3e942f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/evidence_profiles.md",
+      "path": "skills/clinical-decision-support/references/evidence_profiles.md",
+      "size": 5800
+    },
+    {
+      "digest": "9b39c945013e89906161ba76e534e52da6bcf427a51ebc56ab71570508c23b07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/model_biomarker_evaluation.md",
+      "path": "skills/clinical-decision-support/references/model_biomarker_evaluation.md",
+      "size": 6556
+    },
+    {
+      "digest": "cf2d93ea964eed0ed5ebf976f8505dd990fa189562ea44050eaf35e4cb6e2854",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/privacy_and_disclosure.md",
+      "path": "skills/clinical-decision-support/references/privacy_and_disclosure.md",
+      "size": 4763
+    },
+    {
+      "digest": "b1dd4a4f42da440842d815070ac8876082cddb702d63f1384c003b0602bebfc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/regulatory_and_governance.md",
+      "path": "skills/clinical-decision-support/references/regulatory_and_governance.md",
+      "size": 7707
+    },
+    {
+      "digest": "31292eaa2cf412f25965964f244d29c39735c4695b5782fce5b5c694714f6846",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/safety_and_scope.md",
+      "path": "skills/clinical-decision-support/references/safety_and_scope.md",
+      "size": 4634
+    },
+    {
+      "digest": "31cd17095299be0677fc2e2d56c7f71b25f7a67e1b3671405eb925b702336a7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/security_validation.md",
+      "path": "skills/clinical-decision-support/references/security_validation.md",
+      "size": 3583
+    },
+    {
+      "digest": "de4b938888708e3f299289580d15ab74c5e1cf7b5033e3f878138817713600d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/sources.md",
+      "path": "skills/clinical-decision-support/references/sources.md",
+      "size": 13370
+    },
+    {
+      "digest": "beecc2ee95d89a09eb75e1a5df401f91dceac9b6eb6b32666c60736b5d2e2016",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/study_reporting.md",
+      "path": "skills/clinical-decision-support/references/study_reporting.md",
+      "size": 7541
+    },
+    {
+      "digest": "3835c1a6542e9c8a4a61c1d896befdda48679f3c34ea28d245b2130d298b1328",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/references/survival_analysis.md",
+      "path": "skills/clinical-decision-support/references/survival_analysis.md",
+      "size": 5726
+    },
+    {
+      "digest": "e9a01187dbac2d2f054344fda30842aa4eed55b9a1cf6be12446fca8f9fd8033",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/_common.py",
+      "path": "skills/clinical-decision-support/scripts/_common.py",
+      "size": 7737
+    },
+    {
+      "digest": "e32a7204af02444213a86cca5b04c678ab1a1465570aa73fb939571b750ecd4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/cohort_table_generator.py",
+      "path": "skills/clinical-decision-support/scripts/cohort_table_generator.py",
+      "size": 11791
+    },
+    {
+      "digest": "ce3d7007a826197af67729836f3f90d5eb9c9937aa817d00e1771e13d908c611",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/decision_logic_traceability.py",
+      "path": "skills/clinical-decision-support/scripts/decision_logic_traceability.py",
+      "size": 11149
+    },
+    {
+      "digest": "4e55ed478e05b8c2544c99bced0e40b311e780d803f71650f62591ad63664e31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/deidentification_checklist.py",
+      "path": "skills/clinical-decision-support/scripts/deidentification_checklist.py",
+      "size": 10034
+    },
+    {
+      "digest": "da48576a38d6e8593df147a5833306e1ac662f0c29ca8979a6c274e3e6ada910",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/evidence_profile_check.py",
+      "path": "skills/clinical-decision-support/scripts/evidence_profile_check.py",
+      "size": 10849
+    },
+    {
+      "digest": "1f3cfd2d638a45872d33dd8e35a9b02592b901d0b04a4de2c4c33cab6de9f4eb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/model_biomarker_evaluation.py",
+      "path": "skills/clinical-decision-support/scripts/model_biomarker_evaluation.py",
+      "size": 14401
+    },
+    {
+      "digest": "b2b9ef29f9cfbff282bb6127335a14a786b8cd259521d0dac807db5742725180",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/survival_plan_validator.py",
+      "path": "skills/clinical-decision-support/scripts/survival_plan_validator.py",
+      "size": 11200
+    },
+    {
+      "digest": "6fd622ba8db316e202d26aad3183804449e1bf5e5e3eccb528633475d5afdb83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-decision-support/skills/clinical-decision-support/scripts/validate_cds_artifact.py",
+      "path": "skills/clinical-decision-support/scripts/validate_cds_artifact.py",
+      "size": 10076
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8d688fbdaf7a19bffb9a635b138ae543509f84f93f677d602b68c74db7a8998d",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/clinical-decision-support",
+  "schema_version": 1
+}

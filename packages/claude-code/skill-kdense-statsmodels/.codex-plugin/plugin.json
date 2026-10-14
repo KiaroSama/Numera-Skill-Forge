@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/statsmodels",
+  "license": "MIT",
+  "name": "skill-kdense-statsmodels",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

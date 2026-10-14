@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-phylogenetics/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "eef2354a8fe6c51c2ad8a506e512326553bda52c731952598adef677ae2d67d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-phylogenetics/skills/phylogenetics/SKILL.md",
+      "path": "skills/phylogenetics/SKILL.md",
+      "size": 9393
+    },
+    {
+      "digest": "a7631d76a61fbb425b0e9c9a51c26419730e985f0e88e7fbc485f70fd1eaa61e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-phylogenetics/skills/phylogenetics/references/iqtree_inference.md",
+      "path": "skills/phylogenetics/references/iqtree_inference.md",
+      "size": 7330
+    },
+    {
+      "digest": "78d120ad163eed7bf7f1fd936942dd4bd650ca52fbad0e2e61f5cdbcbf0f53fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-phylogenetics/skills/phylogenetics/scripts/phylogenetic_analysis.py",
+      "path": "skills/phylogenetics/scripts/phylogenetic_analysis.py",
+      "size": 12971
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6161266c56950137c63a9c4d5d9c48aef19ebec15f1bebea4c9e2582f99c4275",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/phylogenetics",
+  "schema_version": 1
+}

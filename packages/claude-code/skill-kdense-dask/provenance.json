@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "3b563a98f4cb42858bb1cc49832a3fa1ff9483d929af57ebe629473538e5a041",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/SKILL.md",
+      "path": "skills/dask/SKILL.md",
+      "size": 17483
+    },
+    {
+      "digest": "9505d826de392bd9ac35a00bb082e275156cd746a251fac36bdb987a11a6fcda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/arrays.md",
+      "path": "skills/dask/references/arrays.md",
+      "size": 13837
+    },
+    {
+      "digest": "4668a74485ae2087eb1d6b4bc732641d1e8ee666fba5661243e6a68767d4c17f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/bags.md",
+      "path": "skills/dask/references/bags.md",
+      "size": 11697
+    },
+    {
+      "digest": "0d475a1d3ceb341c2bf87b8022fa08e0e3e59fbc516ad00a0c63288ddde597af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/best-practices.md",
+      "path": "skills/dask/references/best-practices.md",
+      "size": 8097
+    },
+    {
+      "digest": "fce72d6db5d694c88110781079b2cabed613422f60523a9c4eae19b2d44797d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/dataframes.md",
+      "path": "skills/dask/references/dataframes.md",
+      "size": 10501
+    },
+    {
+      "digest": "6f31c828d7794da2db877fe1f5efe6c8fda11197f1328f66693792bf06368e12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/futures.md",
+      "path": "skills/dask/references/futures.md",
+      "size": 13415
+    },
+    {
+      "digest": "599658e990675a39e6f3c0eff7198ecc8565e17a0894f1882850f088597d01ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/review.md",
+      "path": "skills/dask/references/review.md",
+      "size": 8655
+    },
+    {
+      "digest": "ad95a4a2700a74ef8b0cb331f9f622c5dea86987805de8b3316eeba31e839740",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dask/skills/dask/references/schedulers.md",
+      "path": "skills/dask/references/schedulers.md",
+      "size": 13200
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5119f945865d80e562a7579ae8906b891347d142643c20db6d3c7c36f4818105",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/dask",
+  "schema_version": 1
+}

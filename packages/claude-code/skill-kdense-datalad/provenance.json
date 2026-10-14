@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datalad/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datalad/skills/datalad/SKILL.md",
+      "path": "skills/datalad/SKILL.md",
+      "size": 17431
+    },
+    {
+      "digest": "f419bd39ca536562238d7404f0eaa4836c444d38df0cf7121befe936d529b1c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datalad/skills/datalad/references/data-access.md",
+      "path": "skills/datalad/references/data-access.md",
+      "size": 9714
+    },
+    {
+      "digest": "d9e56071463c5c118800ff5a800dd58ae5de38d04fc465c119ae0c690fc1c542",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datalad/skills/datalad/references/provenance.md",
+      "path": "skills/datalad/references/provenance.md",
+      "size": 14087
+    },
+    {
+      "digest": "a5efdceeea8086549917e9e2b3bc526c8c7ec9f1e31a8a438c5e8ba9dd18d6cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-datalad/skills/datalad/references/publishing.md",
+      "path": "skills/datalad/references/publishing.md",
+      "size": 11174
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3d7f32d1efc5ee066701ed9c1b4ddb6ee9be799f9f4025c66a6ee377a6ac1294",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/datalad",
+  "schema_version": 1
+}

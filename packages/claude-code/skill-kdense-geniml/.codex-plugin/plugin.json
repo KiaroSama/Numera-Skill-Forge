@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/geniml",
+  "license": "MIT",
+  "name": "skill-kdense-geniml",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

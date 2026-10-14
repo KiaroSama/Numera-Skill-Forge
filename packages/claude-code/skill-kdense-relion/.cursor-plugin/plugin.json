@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/relion",
+  "license": "MIT",
+  "name": "skill-kdense-relion",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

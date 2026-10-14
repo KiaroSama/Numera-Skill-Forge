@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "5da5d0a39db4ea5f429ffc40772bbce87e26f778fac363c42873ca6bb84fecd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/SKILL.md",
+      "path": "skills/modal/SKILL.md",
+      "size": 18015
+    },
+    {
+      "digest": "9dbdcb1c9321865ada7b8077de23c1da1788f68bd16188b563ee41c226a9d3a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/api_reference.md",
+      "path": "skills/modal/references/api_reference.md",
+      "size": 8692
+    },
+    {
+      "digest": "a0f3624e5f9825cc25d44e7290fe49b96ef4c7d65691fc8fa72a78624fc56b98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/examples.md",
+      "path": "skills/modal/references/examples.md",
+      "size": 10551
+    },
+    {
+      "digest": "66ebc05e9562c8815f21ddd4b567c20e5b895e656aaa30adeacca4f8a576b780",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/functions.md",
+      "path": "skills/modal/references/functions.md",
+      "size": 8513
+    },
+    {
+      "digest": "a07f00dd0f549a7f704f5a9730aa111c923a837156ba352636acd44c2215ff2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/getting-started.md",
+      "path": "skills/modal/references/getting-started.md",
+      "size": 4784
+    },
+    {
+      "digest": "1ea927b676a4cddd3b7c7376298f2b2d1755aad8f6870715d9140c0f43ff6f8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/gpu.md",
+      "path": "skills/modal/references/gpu.md",
+      "size": 6668
+    },
+    {
+      "digest": "66f559dbd19ec68c7d287975f5c3a9799d5ee2be0c61b9342e925e2188b2dab9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/images.md",
+      "path": "skills/modal/references/images.md",
+      "size": 7427
+    },
+    {
+      "digest": "bdc346f9dbdb415580743d2fb8ea9cea92dc0eb7626e12579fccfcc5c53eac1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/resources.md",
+      "path": "skills/modal/references/resources.md",
+      "size": 3237
+    },
+    {
+      "digest": "a3542f76b1519f7a8ac64bc1ca2b10607c46b636006b5747d671586728438cab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/scaling.md",
+      "path": "skills/modal/references/scaling.md",
+      "size": 6605
+    },
+    {
+      "digest": "ef94216caf2508c141ab4150cee7fc220d053ae5a5ed0e2c7759111f2ce3cfe4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/scheduled-jobs.md",
+      "path": "skills/modal/references/scheduled-jobs.md",
+      "size": 4430
+    },
+    {
+      "digest": "5eb31de31b1ad8efd9508bf525dbf732fcc2ff109c1b5b202b211e4fa672cfbb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/secrets.md",
+      "path": "skills/modal/references/secrets.md",
+      "size": 3945
+    },
+    {
+      "digest": "290936b7ac55839db2b340edc76981eb1debe0a16fa56c75ebd8e34cb08d06da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/volumes.md",
+      "path": "skills/modal/references/volumes.md",
+      "size": 6956
+    },
+    {
+      "digest": "772c33c7322c4487afbf58b5a82f54b110e4d81b4d92371782ce0a49ead15166",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-modal/skills/modal/references/web-endpoints.md",
+      "path": "skills/modal/references/web-endpoints.md",
+      "size": 8373
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b62ce2c10c2a828f318390b9f9d7c2051c96a0152d27a27149bc41ba88f61cbd",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/modal",
+  "schema_version": 1
+}

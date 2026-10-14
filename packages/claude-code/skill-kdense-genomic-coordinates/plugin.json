@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/genomic-coordinates",
+  "license": "MIT",
+  "name": "skill-kdense-genomic-coordinates",
+  "version": "1.0.0"
+}

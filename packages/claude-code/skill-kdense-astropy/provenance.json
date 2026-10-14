@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "2f9d43ae65766a9715112e3b56cb83fb9c12e4e8b6356c0c4c22131c6cfa536f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/SKILL.md",
+      "path": "skills/astropy/SKILL.md",
+      "size": 17045
+    },
+    {
+      "digest": "2773d6f4086c287436a4b5a4100fd74a951a1688b09cd307bd2afc2945cc27fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/coordinates.md",
+      "path": "skills/astropy/references/coordinates.md",
+      "size": 9079
+    },
+    {
+      "digest": "71b7e19b9861147480f5a62a34e692d4caf90cfd0ab4bd1fcca765a9cbb6001f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/cosmology.md",
+      "path": "skills/astropy/references/cosmology.md",
+      "size": 8508
+    },
+    {
+      "digest": "27ee0335641eadc71a62551d7d58d0cb2b5b651b4b4dbbfca42a40f78be4e836",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/fits.md",
+      "path": "skills/astropy/references/fits.md",
+      "size": 10814
+    },
+    {
+      "digest": "d508fe2c8f2969a3aecfd615088b06159b2f653c4b378f1e7bfc83d76db75986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/review.md",
+      "path": "skills/astropy/references/review.md",
+      "size": 8199
+    },
+    {
+      "digest": "b2cc2a568ca4b0d514346d1db5b2e8d704fbd181cb56dc1b1edae86fb9c06dae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/tables.md",
+      "path": "skills/astropy/references/tables.md",
+      "size": 10839
+    },
+    {
+      "digest": "4741498365348fd65fda0ff8ddcb57572cd3e5e7d5ff96f965f6567667b8b987",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/time.md",
+      "path": "skills/astropy/references/time.md",
+      "size": 11061
+    },
+    {
+      "digest": "1df6212fab813f85dd6788551f474a68103ee694051d89194cfe8a09e90a88b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/units.md",
+      "path": "skills/astropy/references/units.md",
+      "size": 4550
+    },
+    {
+      "digest": "5201dfc5450a4648a3c550cf58444f209bcff9b082ece4354e3dbf9becb13cc8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-astropy/skills/astropy/references/wcs_and_other_modules.md",
+      "path": "skills/astropy/references/wcs_and_other_modules.md",
+      "size": 11001
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1a92a22b97761cdc1470a390e64cb5c42921ac8c4fcca199143f5178dbdc10d",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/astropy",
+  "schema_version": 1
+}

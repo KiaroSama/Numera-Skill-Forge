@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tiledbvcf/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "38e55a6962e14637e82f60be8e53e6d87c78f1a7874b9f832f442a038942f7d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tiledbvcf/skills/tiledbvcf/SKILL.md",
+      "path": "skills/tiledbvcf/SKILL.md",
+      "size": 13900
+    },
+    {
+      "digest": "a721c33ca3895e407563a55abc8423883f608bfbe186a516215e1790104ba6e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-tiledbvcf/skills/tiledbvcf/references/verification.md",
+      "path": "skills/tiledbvcf/references/verification.md",
+      "size": 6119
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "918deb3ef005f6e5fec3a55faf63facbf81ada95ab2b771545079128cc3399da",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/tiledbvcf",
+  "schema_version": 1
+}

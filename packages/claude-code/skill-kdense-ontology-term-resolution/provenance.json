@@ -1,0 +1,103 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "db310515a230a47023169be207f654458789377c98b30fa593ee420738e4eefb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/SKILL.md",
+      "path": "skills/ontology-term-resolution/SKILL.md",
+      "size": 14593
+    },
+    {
+      "digest": "1f5d3aa7027fc4d144c838d17645f2665a54793ead7d59ef7f10aa7fd369573a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/references/companion-apis.md",
+      "path": "skills/ontology-term-resolution/references/companion-apis.md",
+      "size": 9592
+    },
+    {
+      "digest": "3f5a7fa7eafb4b0bd40cebfe53df6886705ae788454f378f3f22e1238d67bd69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/references/curation-rules.md",
+      "path": "skills/ontology-term-resolution/references/curation-rules.md",
+      "size": 6081
+    },
+    {
+      "digest": "5587c100ac32e5c0889c1f1940987002619c7b1f48a26f61337d4228b75d3260",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/references/ols4-api.md",
+      "path": "skills/ontology-term-resolution/references/ols4-api.md",
+      "size": 7673
+    },
+    {
+      "digest": "87db030511c7ffbde8e049e1219bd98113fa3d87d95bd454aedec097c0e8125c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/references/ontology-registry.md",
+      "path": "skills/ontology-term-resolution/references/ontology-registry.md",
+      "size": 6285
+    },
+    {
+      "digest": "37f9be001d3472a72d0a338e84635f575b442b325170854daaaa36597491d8dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/id_client.py",
+      "path": "skills/ontology-term-resolution/scripts/id_client.py",
+      "size": 11810
+    },
+    {
+      "digest": "be91630513617fe271b2173e208ca7669474b6a764da34284af91b2692275893",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/lookup_prefix.py",
+      "path": "skills/ontology-term-resolution/scripts/lookup_prefix.py",
+      "size": 6435
+    },
+    {
+      "digest": "db3b73918c2df8509b15caf7d9e308c569eeb3499557656347e64be701eff361",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/map_terms.py",
+      "path": "skills/ontology-term-resolution/scripts/map_terms.py",
+      "size": 7521
+    },
+    {
+      "digest": "95c5d02dc17580c62f02afbd4e5c5756007a9c57769ef19d838581da04d7fc5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/ols_client.py",
+      "path": "skills/ontology-term-resolution/scripts/ols_client.py",
+      "size": 15838
+    },
+    {
+      "digest": "84e39155511dd6f8101260de27e5164d38747bd81701be2ba42e8b95c6ac191d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/resolve_terms.py",
+      "path": "skills/ontology-term-resolution/scripts/resolve_terms.py",
+      "size": 8516
+    },
+    {
+      "digest": "34374eac5dcbe6b56061bc7f2929e6457e8728fbb85827c5811d09e9a4d641dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/validate_terms.py",
+      "path": "skills/ontology-term-resolution/scripts/validate_terms.py",
+      "size": 10969
+    },
+    {
+      "digest": "647dfd7f92554370fa5e2d8ac5c4964a2dd567020bf151cccfacf69052d03f11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ontology-term-resolution/skills/ontology-term-resolution/scripts/zooma_client.py",
+      "path": "skills/ontology-term-resolution/scripts/zooma_client.py",
+      "size": 5369
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "605fd942a36ac8d5c1e13f4fc28c738600f2fa25964f5ad846e7a00b42a729c0",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/ontology-term-resolution",
+  "schema_version": 1
+}

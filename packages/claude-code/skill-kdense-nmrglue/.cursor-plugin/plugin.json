@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/nmrglue",
+  "license": "MIT",
+  "name": "skill-kdense-nmrglue",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

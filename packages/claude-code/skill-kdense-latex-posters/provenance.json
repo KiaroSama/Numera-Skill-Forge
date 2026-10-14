@@ -1,0 +1,138 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/SKILL.md",
+      "path": "skills/latex-posters/SKILL.md",
+      "size": 10624
+    },
+    {
+      "digest": "05d52aa0bcc7d704525a3c09edb72c478f3ed5de29e1d8d751c046aa69649045",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/assets/baposter_template.tex",
+      "path": "skills/latex-posters/assets/baposter_template.tex",
+      "size": 8030
+    },
+    {
+      "digest": "79df337979df21b20c6852ada7860a6fe186d7189550bfe831db9a27513c0dbb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/assets/beamerposter_template.tex",
+      "path": "skills/latex-posters/assets/beamerposter_template.tex",
+      "size": 8280
+    },
+    {
+      "digest": "1d6fb4875798aa349180e07919e0dd2ad8b8cb8357a0fb5106e9914bdd0ea4db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/assets/poster_quality_checklist.md",
+      "path": "skills/latex-posters/assets/poster_quality_checklist.md",
+      "size": 11606
+    },
+    {
+      "digest": "39ef6e3dc99240481e56a439d23d438f84a264b53933d5b8d3c713d5bf918d04",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/assets/tikzposter_template.tex",
+      "path": "skills/latex-posters/assets/tikzposter_template.tex",
+      "size": 8396
+    },
+    {
+      "digest": "c468139388159d4333d1118504d46df1518c6f9ae5051309f7207e24aa4d44ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/README.md",
+      "path": "skills/latex-posters/references/README.md",
+      "size": 3026
+    },
+    {
+      "digest": "a8090976bc9d195fac6e4ed115e64ab28a6a8c93412d5cd3185e5a73a5dc1d5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/ai_graphics_for_posters.md",
+      "path": "skills/latex-posters/references/ai_graphics_for_posters.md",
+      "size": 6613
+    },
+    {
+      "digest": "2fdeabd760c2e56ee26be771a373cb5809655831a5a82d60010bbe3a22993fc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/compilation_and_quality_control.md",
+      "path": "skills/latex-posters/references/compilation_and_quality_control.md",
+      "size": 8283
+    },
+    {
+      "digest": "d120828344c56093a5c71fe91d821c38e3768dcfd9e149c5412c6ff0af71eda6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/latex_poster_packages.md",
+      "path": "skills/latex-posters/references/latex_poster_packages.md",
+      "size": 19908
+    },
+    {
+      "digest": "beef5f9e5d931d43ebf41233e42413f07bf2bb235b19cc952e52e23227595ee1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/latex_poster_reference.md",
+      "path": "skills/latex-posters/references/latex_poster_reference.md",
+      "size": 7693
+    },
+    {
+      "digest": "047f27c34c6a31673ce96dd0a08ca0ac8934ee7d4374da4b244782690e96d224",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/poster_content_guide.md",
+      "path": "skills/latex-posters/references/poster_content_guide.md",
+      "size": 21156
+    },
+    {
+      "digest": "53a1e16ddf7eb3f1e9e5cb47af02327b3ed21986334f8c7f7a3bb612da0324ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/poster_design_principles.md",
+      "path": "skills/latex-posters/references/poster_design_principles.md",
+      "size": 22881
+    },
+    {
+      "digest": "c7ef85b5620ea58cdf985bca99313a41a2cb762437209dad6333e0dd15fe018e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/poster_layout_design.md",
+      "path": "skills/latex-posters/references/poster_layout_design.md",
+      "size": 22863
+    },
+    {
+      "digest": "b465767303ddcd4d2e720dd82722bcafbb6d4948e9b614307cd3608b23e3f593",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/references/poster_patterns_and_presentation.md",
+      "path": "skills/latex-posters/references/poster_patterns_and_presentation.md",
+      "size": 2998
+    },
+    {
+      "digest": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/scripts/generate_schematic.py",
+      "path": "skills/latex-posters/scripts/generate_schematic.py",
+      "size": 7782
+    },
+    {
+      "digest": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/scripts/generate_schematic_ai.py",
+      "path": "skills/latex-posters/scripts/generate_schematic_ai.py",
+      "size": 35684
+    },
+    {
+      "digest": "4bb2956a7920c58c5bdd9a20c3bd402c7b72432a7dbfeebe4d82f78250234bff",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-latex-posters/skills/latex-posters/scripts/review_poster.sh",
+      "path": "skills/latex-posters/scripts/review_poster.sh",
+      "size": 6481
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a66b2d22a1951ea0a09d2358e05658bfb394b3b51cfebd87388c36c29ab61f85",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/latex-posters",
+  "schema_version": 1
+}

@@ -1,0 +1,201 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "4a59f87933a1e9ed49eac603719af1b0c606dd99050fe59ffa1c1bf807900cb8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/SKILL.md",
+      "path": "skills/scanpy/SKILL.md",
+      "size": 20277
+    },
+    {
+      "digest": "c66689f25eeb96c688fd4d66dcd8c78dad22e1f964efed36de1f1ab51f16137e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/assets/analysis_template.py",
+      "path": "skills/scanpy/assets/analysis_template.py",
+      "size": 10239
+    },
+    {
+      "digest": "57252f2224f1ff8cf1e43661bc8a2fabec36bd5d65f996945599fd010c8edf7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/assets/celltype_mapping.json",
+      "path": "skills/scanpy/assets/celltype_mapping.json",
+      "size": 184
+    },
+    {
+      "digest": "96b2cf9b5f56d3b1a110eba1ea585fa624618b6648378ce55d5d82c621e8d286",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/assets/gene_signatures.json",
+      "path": "skills/scanpy/assets/gene_signatures.json",
+      "size": 355
+    },
+    {
+      "digest": "c4cb974ad55afbb3befac85fedb7b2b4daf8799a9ce37c590d4e43ac8b675ee4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/assets/pipeline_config.json",
+      "path": "skills/scanpy/assets/pipeline_config.json",
+      "size": 380
+    },
+    {
+      "digest": "4ec79d994dfb121b2b79559b3d1b07696ca4cbbfd40b8d2d8ad926176e82f187",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/analysis_workflow.md",
+      "path": "skills/scanpy/references/analysis_workflow.md",
+      "size": 7788
+    },
+    {
+      "digest": "62cd2efbf21c47b86e52ca25e5b77fd505956d0982c85eb9693c7f94cdf8b759",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/api_reference.md",
+      "path": "skills/scanpy/references/api_reference.md",
+      "size": 9315
+    },
+    {
+      "digest": "6e6de91dce872b00a383ba4a8ba4a87d6f39d53b182857c1defd3a3375c2fd2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/plotting_guide.md",
+      "path": "skills/scanpy/references/plotting_guide.md",
+      "size": 10745
+    },
+    {
+      "digest": "8ec8ed4257e18a66fe258da573fb7be9c4261366536edc9ec1298e8271aa79c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/r_interop.md",
+      "path": "skills/scanpy/references/r_interop.md",
+      "size": 12080
+    },
+    {
+      "digest": "b7164b502c37779e4c16e41bdbabb8c780da11fa11366c752fc5c889b0b4b7f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/standard_workflow.md",
+      "path": "skills/scanpy/references/standard_workflow.md",
+      "size": 7128
+    },
+    {
+      "digest": "d8cf1606bd21f4772f09b3666f1349e265de3e5c0e8fbea881cbaea18e8b9b28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/references/upstream-review.md",
+      "path": "skills/scanpy/references/upstream-review.md",
+      "size": 8473
+    },
+    {
+      "digest": "048948933c9fa6831520a512bce6e0a221e31352b6a1b2091d838e9460942e9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/_common.py",
+      "path": "skills/scanpy/scripts/_common.py",
+      "size": 10225
+    },
+    {
+      "digest": "c6f438cdf97db25b493abf072f51cbe9679313966fd9110bdfc9442ec2d79181",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/annotate.py",
+      "path": "skills/scanpy/scripts/annotate.py",
+      "size": 3740
+    },
+    {
+      "digest": "598178094764aa082894b433d2c9196d45432f3b1bb3928a221519fc5f4cbb45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/batch_correct.py",
+      "path": "skills/scanpy/scripts/batch_correct.py",
+      "size": 3133
+    },
+    {
+      "digest": "4b3e8d97351b22452d9898d14bda28759fc35bb885c85c7a99bca0e88b028c7f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/cluster.py",
+      "path": "skills/scanpy/scripts/cluster.py",
+      "size": 2523
+    },
+    {
+      "digest": "05e4ced7479b99ed2d98154da1b7c35f822f95ddf1ff25a27b4b6c821f2b9647",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/convert.py",
+      "path": "skills/scanpy/scripts/convert.py",
+      "size": 1514
+    },
+    {
+      "digest": "892650b8935fad0d664fad6fe5766468687cf08d7bc231d48f7a40f2635ddfd3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/find_markers.py",
+      "path": "skills/scanpy/scripts/find_markers.py",
+      "size": 4427
+    },
+    {
+      "digest": "587cd7331064126721b814984acf3a15b7cd8e4ed6c4179063b967fbcc965a99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/inspect_data.py",
+      "path": "skills/scanpy/scripts/inspect_data.py",
+      "size": 3151
+    },
+    {
+      "digest": "afa4163d2eda3e1ae4db2998891d3716e0baf671286260a63dc9d23c0ce38ba8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/plot.py",
+      "path": "skills/scanpy/scripts/plot.py",
+      "size": 3667
+    },
+    {
+      "digest": "513dd9009dd3fe8a300c7d1d7d8a25f3769333945131b8dd50f49184b54ed60c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/preprocess.py",
+      "path": "skills/scanpy/scripts/preprocess.py",
+      "size": 3559
+    },
+    {
+      "digest": "2050b357a55a00eb91c9f80970465fdf464e601d2350ddaf774bed5d572b6da6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/pseudobulk.py",
+      "path": "skills/scanpy/scripts/pseudobulk.py",
+      "size": 4751
+    },
+    {
+      "digest": "a4ba9a873839c39934c6255708bd5d0542087f54fdb5bc3a295a2b4d8197c104",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/qc_analysis.py",
+      "path": "skills/scanpy/scripts/qc_analysis.py",
+      "size": 5192
+    },
+    {
+      "digest": "03d8170077c88f90ba28f86d05002ae7009ee1f61d37e4bb06ce50c4550f907a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/reduce_dimensions.py",
+      "path": "skills/scanpy/scripts/reduce_dimensions.py",
+      "size": 2816
+    },
+    {
+      "digest": "380209ebe35bddb3e70eaa1f94dd245494e86013619a736688fb81156cde2733",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/run_pipeline.py",
+      "path": "skills/scanpy/scripts/run_pipeline.py",
+      "size": 9676
+    },
+    {
+      "digest": "c18c02410b3797450da4e2d001bf21a216ab0fdef70eeadc6dfb2e8460302b29",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/score_genes.py",
+      "path": "skills/scanpy/scripts/score_genes.py",
+      "size": 3995
+    },
+    {
+      "digest": "e245e03f887efc0b662fc7ac623d4cb0929d873eb2e471cc29c09bfe5955e79e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scanpy/skills/scanpy/scripts/subset.py",
+      "path": "skills/scanpy/scripts/subset.py",
+      "size": 2629
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "61fd1fa60fe4c387c174bdf94f6a865439234872d2fa8577b0a8383f3599fe54",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scanpy",
+  "schema_version": 1
+}

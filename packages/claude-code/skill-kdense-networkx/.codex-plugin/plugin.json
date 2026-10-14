@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/networkx",
+  "license": "MIT",
+  "name": "skill-kdense-networkx",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

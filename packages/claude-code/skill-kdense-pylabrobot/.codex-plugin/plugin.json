@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pylabrobot",
+  "license": "MIT",
+  "name": "skill-kdense-pylabrobot",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

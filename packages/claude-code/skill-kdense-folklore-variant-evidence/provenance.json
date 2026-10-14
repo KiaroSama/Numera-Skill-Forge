@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-folklore-variant-evidence/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "134b5ea684815b99c56fadf92a1cb42d37eaca4245515278e404b8876b7acfe0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-folklore-variant-evidence/skills/folklore-variant-evidence/SKILL.md",
+      "path": "skills/folklore-variant-evidence/SKILL.md",
+      "size": 13542
+    },
+    {
+      "digest": "ccc2a4ccd7ea57887575ee8c10fa8ae26e676791cdddf6ebd848872a81229a8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-folklore-variant-evidence/skills/folklore-variant-evidence/references/mcp-contract.md",
+      "path": "skills/folklore-variant-evidence/references/mcp-contract.md",
+      "size": 11040
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b3fe28b75a29725126795cbaf552aaacf3b9108874a3c19c23f92acffb9857e3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/folklore-variant-evidence",
+  "schema_version": 1
+}

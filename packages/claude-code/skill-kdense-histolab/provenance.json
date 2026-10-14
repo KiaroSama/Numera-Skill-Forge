@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/SKILL.md",
+      "path": "skills/histolab/SKILL.md",
+      "size": 8788
+    },
+    {
+      "digest": "4fe619353f18b777bdf06802c47d6dfcd986dc0c2c9897110b343e77b378b61c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/core_capabilities.md",
+      "path": "skills/histolab/references/core_capabilities.md",
+      "size": 1824
+    },
+    {
+      "digest": "69a8a29ad4a3a7f7cef339829d2537128a01bc8b0d38a7e86bed17de067a78c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/filters_preprocessing.md",
+      "path": "skills/histolab/references/filters_preprocessing.md",
+      "size": 7632
+    },
+    {
+      "digest": "ca00855c4d5f07ea4800d846c2f0e7479b8500e8e6e355c81e527ac5e736ed9b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/slide_management.md",
+      "path": "skills/histolab/references/slide_management.md",
+      "size": 6169
+    },
+    {
+      "digest": "2ccc97eb7e41aa5c2cf2f3c2e6de37b82279bc653df707d411fc4569159df656",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/tile_extraction.md",
+      "path": "skills/histolab/references/tile_extraction.md",
+      "size": 7726
+    },
+    {
+      "digest": "86e6ae5bc9b0016da8d67cd09dfc03e0ef73de28da103976aca586494ad4081b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/tissue_masks.md",
+      "path": "skills/histolab/references/tissue_masks.md",
+      "size": 5815
+    },
+    {
+      "digest": "2cea51e844087bc215aa5c78de6317d19425ca8265cdd5929416a0c01f0f4660",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/typical_workflows.md",
+      "path": "skills/histolab/references/typical_workflows.md",
+      "size": 4756
+    },
+    {
+      "digest": "b5d07ffb9e88ab2d78536072800653da8f1167bf11afe6dc5bacec074e7168bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-histolab/skills/histolab/references/visualization.md",
+      "path": "skills/histolab/references/visualization.md",
+      "size": 6598
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3f37265a7f1a67c053687f07040be548dd63df50dbdcc0d0c0c9139ca0f7ffe3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/histolab",
+  "schema_version": 1
+}

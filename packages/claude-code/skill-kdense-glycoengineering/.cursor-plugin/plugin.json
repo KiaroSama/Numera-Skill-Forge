@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/glycoengineering",
+  "license": "MIT",
+  "name": "skill-kdense-glycoengineering",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-marine-carbonate-chemistry/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "03e58c7f9d7df75a323a6a8cf29ec18ae524cc308e5002c27fb5c65e1230f174",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-marine-carbonate-chemistry/skills/marine-carbonate-chemistry/SKILL.md",
+      "path": "skills/marine-carbonate-chemistry/SKILL.md",
+      "size": 9548
+    },
+    {
+      "digest": "82ba976bf836d3d5e2cdad9a9c0caa088c48634619a56da3725fe9afd03890f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-marine-carbonate-chemistry/skills/marine-carbonate-chemistry/references/chemistry-decisions.md",
+      "path": "skills/marine-carbonate-chemistry/references/chemistry-decisions.md",
+      "size": 6520
+    },
+    {
+      "digest": "fc4e89c16225f7fbf01299294fd0afb95f82ff3366a7d6eeee2ae4b86c9412c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-marine-carbonate-chemistry/skills/marine-carbonate-chemistry/references/input-and-results.md",
+      "path": "skills/marine-carbonate-chemistry/references/input-and-results.md",
+      "size": 4827
+    },
+    {
+      "digest": "4071c07d17d932778833fca03153fc852003b22249a0da5a3a5b398e8a957c76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-marine-carbonate-chemistry/skills/marine-carbonate-chemistry/scripts/solve_carbonate.py",
+      "path": "skills/marine-carbonate-chemistry/scripts/solve_carbonate.py",
+      "size": 12190
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "51b5a36680203abefe76262be715a872ff9178bebfb533fc8667b4355d086521",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/marine-carbonate-chemistry",
+  "schema_version": 1
+}

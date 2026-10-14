@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/ginkgo-cloud-lab",
+  "license": "MIT",
+  "name": "skill-kdense-ginkgo-cloud-lab",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

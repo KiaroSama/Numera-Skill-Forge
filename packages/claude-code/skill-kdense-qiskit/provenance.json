@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "538e5db262e7c237cff2bac191480f81688b8679167740af7405fcda1340511e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/SKILL.md",
+      "path": "skills/qiskit/SKILL.md",
+      "size": 13267
+    },
+    {
+      "digest": "acec675bb12f312b0b67c1340d8c22433c636921eb71eaaaec7ae5d5c6b12f6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/algorithms.md",
+      "path": "skills/qiskit/references/algorithms.md",
+      "size": 11197
+    },
+    {
+      "digest": "4ee9f8f1d131771e2c9cf4ca8de285f3f09de804fd34221b45b56ee113e79f26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/backends.md",
+      "path": "skills/qiskit/references/backends.md",
+      "size": 12325
+    },
+    {
+      "digest": "718928b7b035896eb1935f1d413d0283a635d9f67246adf48fdb4a10ba515e3f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/circuits.md",
+      "path": "skills/qiskit/references/circuits.md",
+      "size": 9888
+    },
+    {
+      "digest": "21f03b720febf8c14d3e1d47587d2a94ee614d65c3258eb52aa933b8c353a932",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/migration.md",
+      "path": "skills/qiskit/references/migration.md",
+      "size": 11264
+    },
+    {
+      "digest": "855a5b9e8e3f1bcfdee62bf4c65aa4ddd4e5761ae13cfee007d3cc1f07036741",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/patterns.md",
+      "path": "skills/qiskit/references/patterns.md",
+      "size": 9592
+    },
+    {
+      "digest": "157b593170ebd017a16811f29f15e85980adfaa9bd403735a68b89082501cf6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/primitives.md",
+      "path": "skills/qiskit/references/primitives.md",
+      "size": 14331
+    },
+    {
+      "digest": "95837d16a98732e27f4830cbb87049adaf02b89ba35cfaffde8d572512ebed34",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/setup.md",
+      "path": "skills/qiskit/references/setup.md",
+      "size": 8736
+    },
+    {
+      "digest": "798158b51cbd3d92120b4885d855fa08db229cfc25559e66f4091d4fc77430d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/sources.md",
+      "path": "skills/qiskit/references/sources.md",
+      "size": 15202
+    },
+    {
+      "digest": "c822562f67492dff3cf94e66d6bb4850c00e49ef04cb6dd1a2f01ca16dbdd98a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/testing.md",
+      "path": "skills/qiskit/references/testing.md",
+      "size": 11055
+    },
+    {
+      "digest": "7293f678d169ea4a1e82b40c35d1d4eadf48b27b40879bca25691e3804996793",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/transpilation.md",
+      "path": "skills/qiskit/references/transpilation.md",
+      "size": 11171
+    },
+    {
+      "digest": "552b453d819816a3fd787f30ae7bc6e11556195136556fe75417ebfa7c0db8ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/references/visualization.md",
+      "path": "skills/qiskit/references/visualization.md",
+      "size": 8346
+    },
+    {
+      "digest": "ccb435d02760d6a6a304f4d6556e0c4abcd5dd6f26527d3813426f3a85dd03ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/scripts/check_environment.py",
+      "path": "skills/qiskit/scripts/check_environment.py",
+      "size": 7930
+    },
+    {
+      "digest": "0a128fea865e8a199388bee0e29d73923aded34d7ee9f153d145fc34fa07233e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/scripts/inspect_runtime.py",
+      "path": "skills/qiskit/scripts/inspect_runtime.py",
+      "size": 6425
+    },
+    {
+      "digest": "61ef52d46597ef21c47d7228b8dfcb53a4e5ab0cdbc16ff5c433012d17dfa765",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qiskit/skills/qiskit/scripts/run_local_primitives.py",
+      "path": "skills/qiskit/scripts/run_local_primitives.py",
+      "size": 5622
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "998e005f715e442da88fbf4148c284e1d50f45b0d8440a59519200a35acd3f48",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/qiskit",
+  "schema_version": 1
+}

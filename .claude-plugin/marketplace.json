@@ -2921,6 +2921,1068 @@
       "version": "1.0.0"
     },
     {
+      "description": "Original upstream skill: skills/13c-metabolic-flux",
+      "name": "skill-kdense-13c-metabolic-flux",
+      "source": "./packages/claude-code/skill-kdense-13c-metabolic-flux",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/adaptyv",
+      "name": "skill-kdense-adaptyv",
+      "source": "./packages/claude-code/skill-kdense-adaptyv",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/aeon",
+      "name": "skill-kdense-aeon",
+      "source": "./packages/claude-code/skill-kdense-aeon",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/alphagenome",
+      "name": "skill-kdense-alphagenome",
+      "source": "./packages/claude-code/skill-kdense-alphagenome",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/analytical-method-validation",
+      "name": "skill-kdense-analytical-method-validation",
+      "source": "./packages/claude-code/skill-kdense-analytical-method-validation",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/anndata",
+      "name": "skill-kdense-anndata",
+      "source": "./packages/claude-code/skill-kdense-anndata",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/arbor",
+      "name": "skill-kdense-arbor",
+      "source": "./packages/claude-code/skill-kdense-arbor",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/arboreto",
+      "name": "skill-kdense-arboreto",
+      "source": "./packages/claude-code/skill-kdense-arboreto",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/astropy",
+      "name": "skill-kdense-astropy",
+      "source": "./packages/claude-code/skill-kdense-astropy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/autoskill",
+      "name": "skill-kdense-autoskill",
+      "source": "./packages/claude-code/skill-kdense-autoskill",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/benchling-integration",
+      "name": "skill-kdense-benchling-integration",
+      "source": "./packages/claude-code/skill-kdense-benchling-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/bgpt-paper-search",
+      "name": "skill-kdense-bgpt-paper-search",
+      "source": "./packages/claude-code/skill-kdense-bgpt-paper-search",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/bids",
+      "name": "skill-kdense-bids",
+      "source": "./packages/claude-code/skill-kdense-bids",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/biopython",
+      "name": "skill-kdense-biopython",
+      "source": "./packages/claude-code/skill-kdense-biopython",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/bioservices",
+      "name": "skill-kdense-bioservices",
+      "source": "./packages/claude-code/skill-kdense-bioservices",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/bulk-rnaseq",
+      "name": "skill-kdense-bulk-rnaseq",
+      "source": "./packages/claude-code/skill-kdense-bulk-rnaseq",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cantera",
+      "name": "skill-kdense-cantera",
+      "source": "./packages/claude-code/skill-kdense-cantera",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cellprofiler",
+      "name": "skill-kdense-cellprofiler",
+      "source": "./packages/claude-code/skill-kdense-cellprofiler",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cellxgene-census",
+      "name": "skill-kdense-cellxgene-census",
+      "source": "./packages/claude-code/skill-kdense-cellxgene-census",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cirq",
+      "name": "skill-kdense-cirq",
+      "source": "./packages/claude-code/skill-kdense-cirq",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/citation-management",
+      "name": "skill-kdense-citation-management",
+      "source": "./packages/claude-code/skill-kdense-citation-management",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/clinical-decision-support",
+      "name": "skill-kdense-clinical-decision-support",
+      "source": "./packages/claude-code/skill-kdense-clinical-decision-support",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/clinical-reports",
+      "name": "skill-kdense-clinical-reports",
+      "source": "./packages/claude-code/skill-kdense-clinical-reports",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cobrapy",
+      "name": "skill-kdense-cobrapy",
+      "source": "./packages/claude-code/skill-kdense-cobrapy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/consciousness-council",
+      "name": "skill-kdense-consciousness-council",
+      "source": "./packages/claude-code/skill-kdense-consciousness-council",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/dask",
+      "name": "skill-kdense-dask",
+      "source": "./packages/claude-code/skill-kdense-dask",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/database-lookup",
+      "name": "skill-kdense-database-lookup",
+      "source": "./packages/claude-code/skill-kdense-database-lookup",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/datalad",
+      "name": "skill-kdense-datalad",
+      "source": "./packages/claude-code/skill-kdense-datalad",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/datamol",
+      "name": "skill-kdense-datamol",
+      "source": "./packages/claude-code/skill-kdense-datamol",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/deepchem",
+      "name": "skill-kdense-deepchem",
+      "source": "./packages/claude-code/skill-kdense-deepchem",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/deepspot-m",
+      "name": "skill-kdense-deepspot-m",
+      "source": "./packages/claude-code/skill-kdense-deepspot-m",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/deeptools",
+      "name": "skill-kdense-deeptools",
+      "source": "./packages/claude-code/skill-kdense-deeptools",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/depmap",
+      "name": "skill-kdense-depmap",
+      "source": "./packages/claude-code/skill-kdense-depmap",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/dhdna-profiler",
+      "name": "skill-kdense-dhdna-profiler",
+      "source": "./packages/claude-code/skill-kdense-dhdna-profiler",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/diffdock",
+      "name": "skill-kdense-diffdock",
+      "source": "./packages/claude-code/skill-kdense-diffdock",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/dnanexus-integration",
+      "name": "skill-kdense-dnanexus-integration",
+      "source": "./packages/claude-code/skill-kdense-dnanexus-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/esm",
+      "name": "skill-kdense-esm",
+      "source": "./packages/claude-code/skill-kdense-esm",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/etetoolkit",
+      "name": "skill-kdense-etetoolkit",
+      "source": "./packages/claude-code/skill-kdense-etetoolkit",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/exa-search",
+      "name": "skill-kdense-exa-search",
+      "source": "./packages/claude-code/skill-kdense-exa-search",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/experimental-design",
+      "name": "skill-kdense-experimental-design",
+      "source": "./packages/claude-code/skill-kdense-experimental-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/exploratory-data-analysis",
+      "name": "skill-kdense-exploratory-data-analysis",
+      "source": "./packages/claude-code/skill-kdense-exploratory-data-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/fictiv",
+      "name": "skill-kdense-fictiv",
+      "source": "./packages/claude-code/skill-kdense-fictiv",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/flowio",
+      "name": "skill-kdense-flowio",
+      "source": "./packages/claude-code/skill-kdense-flowio",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/flowkit",
+      "name": "skill-kdense-flowkit",
+      "source": "./packages/claude-code/skill-kdense-flowkit",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/fluidsim",
+      "name": "skill-kdense-fluidsim",
+      "source": "./packages/claude-code/skill-kdense-fluidsim",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/folklore-variant-evidence",
+      "name": "skill-kdense-folklore-variant-evidence",
+      "source": "./packages/claude-code/skill-kdense-folklore-variant-evidence",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/generate-image",
+      "name": "skill-kdense-generate-image",
+      "source": "./packages/claude-code/skill-kdense-generate-image",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/geniml",
+      "name": "skill-kdense-geniml",
+      "source": "./packages/claude-code/skill-kdense-geniml",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/genomic-coordinates",
+      "name": "skill-kdense-genomic-coordinates",
+      "source": "./packages/claude-code/skill-kdense-genomic-coordinates",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/genomic-intelligence",
+      "name": "skill-kdense-genomic-intelligence",
+      "source": "./packages/claude-code/skill-kdense-genomic-intelligence",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/geomaster",
+      "name": "skill-kdense-geomaster",
+      "source": "./packages/claude-code/skill-kdense-geomaster",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/geopandas",
+      "name": "skill-kdense-geopandas",
+      "source": "./packages/claude-code/skill-kdense-geopandas",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/get-available-resources",
+      "name": "skill-kdense-get-available-resources",
+      "source": "./packages/claude-code/skill-kdense-get-available-resources",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/gget",
+      "name": "skill-kdense-gget",
+      "source": "./packages/claude-code/skill-kdense-gget",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/ginkgo-cloud-lab",
+      "name": "skill-kdense-ginkgo-cloud-lab",
+      "source": "./packages/claude-code/skill-kdense-ginkgo-cloud-lab",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/glycoengineering",
+      "name": "skill-kdense-glycoengineering",
+      "source": "./packages/claude-code/skill-kdense-glycoengineering",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/gtars",
+      "name": "skill-kdense-gtars",
+      "source": "./packages/claude-code/skill-kdense-gtars",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/histolab",
+      "name": "skill-kdense-histolab",
+      "source": "./packages/claude-code/skill-kdense-histolab",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/hugging-science",
+      "name": "skill-kdense-hugging-science",
+      "source": "./packages/claude-code/skill-kdense-hugging-science",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/hypogenic",
+      "name": "skill-kdense-hypogenic",
+      "source": "./packages/claude-code/skill-kdense-hypogenic",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/hypothesis-generation",
+      "name": "skill-kdense-hypothesis-generation",
+      "source": "./packages/claude-code/skill-kdense-hypothesis-generation",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/imaging-data-commons",
+      "name": "skill-kdense-imaging-data-commons",
+      "source": "./packages/claude-code/skill-kdense-imaging-data-commons",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/infographics",
+      "name": "skill-kdense-infographics",
+      "source": "./packages/claude-code/skill-kdense-infographics",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/iso-standards-readiness",
+      "name": "skill-kdense-iso-standards-readiness",
+      "source": "./packages/claude-code/skill-kdense-iso-standards-readiness",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/lab-hardware-cad",
+      "name": "skill-kdense-lab-hardware-cad",
+      "source": "./packages/claude-code/skill-kdense-lab-hardware-cad",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/labarchive-integration",
+      "name": "skill-kdense-labarchive-integration",
+      "source": "./packages/claude-code/skill-kdense-labarchive-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/lamindb",
+      "name": "skill-kdense-lamindb",
+      "source": "./packages/claude-code/skill-kdense-lamindb",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/latchbio-integration",
+      "name": "skill-kdense-latchbio-integration",
+      "source": "./packages/claude-code/skill-kdense-latchbio-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/latex-posters",
+      "name": "skill-kdense-latex-posters",
+      "source": "./packages/claude-code/skill-kdense-latex-posters",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/liteparse",
+      "name": "skill-kdense-liteparse",
+      "source": "./packages/claude-code/skill-kdense-liteparse",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/literature-review",
+      "name": "skill-kdense-literature-review",
+      "source": "./packages/claude-code/skill-kdense-literature-review",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/mageck",
+      "name": "skill-kdense-mageck",
+      "source": "./packages/claude-code/skill-kdense-mageck",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/marine-carbonate-chemistry",
+      "name": "skill-kdense-marine-carbonate-chemistry",
+      "source": "./packages/claude-code/skill-kdense-marine-carbonate-chemistry",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/markdown-mermaid-writing",
+      "name": "skill-kdense-markdown-mermaid-writing",
+      "source": "./packages/claude-code/skill-kdense-markdown-mermaid-writing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/market-research-reports",
+      "name": "skill-kdense-market-research-reports",
+      "source": "./packages/claude-code/skill-kdense-market-research-reports",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/markitdown",
+      "name": "skill-kdense-markitdown",
+      "source": "./packages/claude-code/skill-kdense-markitdown",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/matchms",
+      "name": "skill-kdense-matchms",
+      "source": "./packages/claude-code/skill-kdense-matchms",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/matlab",
+      "name": "skill-kdense-matlab",
+      "source": "./packages/claude-code/skill-kdense-matlab",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/matplotlib",
+      "name": "skill-kdense-matplotlib",
+      "source": "./packages/claude-code/skill-kdense-matplotlib",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/medchem",
+      "name": "skill-kdense-medchem",
+      "source": "./packages/claude-code/skill-kdense-medchem",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/modal",
+      "name": "skill-kdense-modal",
+      "source": "./packages/claude-code/skill-kdense-modal",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/molecular-dynamics",
+      "name": "skill-kdense-molecular-dynamics",
+      "source": "./packages/claude-code/skill-kdense-molecular-dynamics",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/molfeat",
+      "name": "skill-kdense-molfeat",
+      "source": "./packages/claude-code/skill-kdense-molfeat",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/ncats-arax",
+      "name": "skill-kdense-ncats-arax",
+      "source": "./packages/claude-code/skill-kdense-ncats-arax",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/networkx",
+      "name": "skill-kdense-networkx",
+      "source": "./packages/claude-code/skill-kdense-networkx",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/neurokit2",
+      "name": "skill-kdense-neurokit2",
+      "source": "./packages/claude-code/skill-kdense-neurokit2",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/neuropixels-analysis",
+      "name": "skill-kdense-neuropixels-analysis",
+      "source": "./packages/claude-code/skill-kdense-neuropixels-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/nextflow",
+      "name": "skill-kdense-nextflow",
+      "source": "./packages/claude-code/skill-kdense-nextflow",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/nmrglue",
+      "name": "skill-kdense-nmrglue",
+      "source": "./packages/claude-code/skill-kdense-nmrglue",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/nwb-conversion",
+      "name": "skill-kdense-nwb-conversion",
+      "source": "./packages/claude-code/skill-kdense-nwb-conversion",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/omero-integration",
+      "name": "skill-kdense-omero-integration",
+      "source": "./packages/claude-code/skill-kdense-omero-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/onekgpd",
+      "name": "skill-kdense-onekgpd",
+      "source": "./packages/claude-code/skill-kdense-onekgpd",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/ontology-term-resolution",
+      "name": "skill-kdense-ontology-term-resolution",
+      "source": "./packages/claude-code/skill-kdense-ontology-term-resolution",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/open-notebook",
+      "name": "skill-kdense-open-notebook",
+      "source": "./packages/claude-code/skill-kdense-open-notebook",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/openpiv",
+      "name": "skill-kdense-openpiv",
+      "source": "./packages/claude-code/skill-kdense-openpiv",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/opentrons-integration",
+      "name": "skill-kdense-opentrons-integration",
+      "source": "./packages/claude-code/skill-kdense-opentrons-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/optimize-for-gpu",
+      "name": "skill-kdense-optimize-for-gpu",
+      "source": "./packages/claude-code/skill-kdense-optimize-for-gpu",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pacsomatic",
+      "name": "skill-kdense-pacsomatic",
+      "source": "./packages/claude-code/skill-kdense-pacsomatic",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/paper-lookup",
+      "name": "skill-kdense-paper-lookup",
+      "source": "./packages/claude-code/skill-kdense-paper-lookup",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/paperclip",
+      "name": "skill-kdense-paperclip",
+      "source": "./packages/claude-code/skill-kdense-paperclip",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/paperzilla",
+      "name": "skill-kdense-paperzilla",
+      "source": "./packages/claude-code/skill-kdense-paperzilla",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/parallel-web",
+      "name": "skill-kdense-parallel-web",
+      "source": "./packages/claude-code/skill-kdense-parallel-web",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pathml",
+      "name": "skill-kdense-pathml",
+      "source": "./packages/claude-code/skill-kdense-pathml",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pathogen-variant-surveillance",
+      "name": "skill-kdense-pathogen-variant-surveillance",
+      "source": "./packages/claude-code/skill-kdense-pathogen-variant-surveillance",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pathway-enrichment",
+      "name": "skill-kdense-pathway-enrichment",
+      "source": "./packages/claude-code/skill-kdense-pathway-enrichment",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/peer-review",
+      "name": "skill-kdense-peer-review",
+      "source": "./packages/claude-code/skill-kdense-peer-review",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pennylane",
+      "name": "skill-kdense-pennylane",
+      "source": "./packages/claude-code/skill-kdense-pennylane",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/phylogenetics",
+      "name": "skill-kdense-phylogenetics",
+      "source": "./packages/claude-code/skill-kdense-phylogenetics",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pi-agent",
+      "name": "skill-kdense-pi-agent",
+      "source": "./packages/claude-code/skill-kdense-pi-agent",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pkpd-modeling",
+      "name": "skill-kdense-pkpd-modeling",
+      "source": "./packages/claude-code/skill-kdense-pkpd-modeling",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/polars",
+      "name": "skill-kdense-polars",
+      "source": "./packages/claude-code/skill-kdense-polars",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/polars-bio",
+      "name": "skill-kdense-polars-bio",
+      "source": "./packages/claude-code/skill-kdense-polars-bio",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pptx-posters",
+      "name": "skill-kdense-pptx-posters",
+      "source": "./packages/claude-code/skill-kdense-pptx-posters",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/primekg",
+      "name": "skill-kdense-primekg",
+      "source": "./packages/claude-code/skill-kdense-primekg",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/primer-design",
+      "name": "skill-kdense-primer-design",
+      "source": "./packages/claude-code/skill-kdense-primer-design",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/protocolsio-integration",
+      "name": "skill-kdense-protocolsio-integration",
+      "source": "./packages/claude-code/skill-kdense-protocolsio-integration",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pufferlib",
+      "name": "skill-kdense-pufferlib",
+      "source": "./packages/claude-code/skill-kdense-pufferlib",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pybamm",
+      "name": "skill-kdense-pybamm",
+      "source": "./packages/claude-code/skill-kdense-pybamm",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pycalphad",
+      "name": "skill-kdense-pycalphad",
+      "source": "./packages/claude-code/skill-kdense-pycalphad",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pydeseq2",
+      "name": "skill-kdense-pydeseq2",
+      "source": "./packages/claude-code/skill-kdense-pydeseq2",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pydicom",
+      "name": "skill-kdense-pydicom",
+      "source": "./packages/claude-code/skill-kdense-pydicom",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pyhealth",
+      "name": "skill-kdense-pyhealth",
+      "source": "./packages/claude-code/skill-kdense-pyhealth",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pylabrobot",
+      "name": "skill-kdense-pylabrobot",
+      "source": "./packages/claude-code/skill-kdense-pylabrobot",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pymatgen",
+      "name": "skill-kdense-pymatgen",
+      "source": "./packages/claude-code/skill-kdense-pymatgen",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pymc",
+      "name": "skill-kdense-pymc",
+      "source": "./packages/claude-code/skill-kdense-pymc",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pymoo",
+      "name": "skill-kdense-pymoo",
+      "source": "./packages/claude-code/skill-kdense-pymoo",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pyopenms",
+      "name": "skill-kdense-pyopenms",
+      "source": "./packages/claude-code/skill-kdense-pyopenms",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pysam",
+      "name": "skill-kdense-pysam",
+      "source": "./packages/claude-code/skill-kdense-pysam",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pytdc",
+      "name": "skill-kdense-pytdc",
+      "source": "./packages/claude-code/skill-kdense-pytdc",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pytorch-lightning",
+      "name": "skill-kdense-pytorch-lightning",
+      "source": "./packages/claude-code/skill-kdense-pytorch-lightning",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/pyzotero",
+      "name": "skill-kdense-pyzotero",
+      "source": "./packages/claude-code/skill-kdense-pyzotero",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/qiime2-amplicon",
+      "name": "skill-kdense-qiime2-amplicon",
+      "source": "./packages/claude-code/skill-kdense-qiime2-amplicon",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/qiskit",
+      "name": "skill-kdense-qiskit",
+      "source": "./packages/claude-code/skill-kdense-qiskit",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/qutip",
+      "name": "skill-kdense-qutip",
+      "source": "./packages/claude-code/skill-kdense-qutip",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/rdkit",
+      "name": "skill-kdense-rdkit",
+      "source": "./packages/claude-code/skill-kdense-rdkit",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/relion",
+      "name": "skill-kdense-relion",
+      "source": "./packages/claude-code/skill-kdense-relion",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/relsa-severity-assessment",
+      "name": "skill-kdense-relsa-severity-assessment",
+      "source": "./packages/claude-code/skill-kdense-relsa-severity-assessment",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/research-grants",
+      "name": "skill-kdense-research-grants",
+      "source": "./packages/claude-code/skill-kdense-research-grants",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/research-lookup",
+      "name": "skill-kdense-research-lookup",
+      "source": "./packages/claude-code/skill-kdense-research-lookup",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/rowan",
+      "name": "skill-kdense-rowan",
+      "source": "./packages/claude-code/skill-kdense-rowan",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scanpy",
+      "name": "skill-kdense-scanpy",
+      "source": "./packages/claude-code/skill-kdense-scanpy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scholar-evaluation",
+      "name": "skill-kdense-scholar-evaluation",
+      "source": "./packages/claude-code/skill-kdense-scholar-evaluation",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-brainstorming",
+      "name": "skill-kdense-scientific-brainstorming",
+      "source": "./packages/claude-code/skill-kdense-scientific-brainstorming",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-critical-thinking",
+      "name": "skill-kdense-scientific-critical-thinking",
+      "source": "./packages/claude-code/skill-kdense-scientific-critical-thinking",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-schematics",
+      "name": "skill-kdense-scientific-schematics",
+      "source": "./packages/claude-code/skill-kdense-scientific-schematics",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-slides",
+      "name": "skill-kdense-scientific-slides",
+      "source": "./packages/claude-code/skill-kdense-scientific-slides",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-visualization",
+      "name": "skill-kdense-scientific-visualization",
+      "source": "./packages/claude-code/skill-kdense-scientific-visualization",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scientific-writing",
+      "name": "skill-kdense-scientific-writing",
+      "source": "./packages/claude-code/skill-kdense-scientific-writing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scikit-bio",
+      "name": "skill-kdense-scikit-bio",
+      "source": "./packages/claude-code/skill-kdense-scikit-bio",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scikit-learn",
+      "name": "skill-kdense-scikit-learn",
+      "source": "./packages/claude-code/skill-kdense-scikit-learn",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scikit-survival",
+      "name": "skill-kdense-scikit-survival",
+      "source": "./packages/claude-code/skill-kdense-scikit-survival",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scvelo",
+      "name": "skill-kdense-scvelo",
+      "source": "./packages/claude-code/skill-kdense-scvelo",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/scvi-tools",
+      "name": "skill-kdense-scvi-tools",
+      "source": "./packages/claude-code/skill-kdense-scvi-tools",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/seaborn",
+      "name": "skill-kdense-seaborn",
+      "source": "./packages/claude-code/skill-kdense-seaborn",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/shap",
+      "name": "skill-kdense-shap",
+      "source": "./packages/claude-code/skill-kdense-shap",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/simpy",
+      "name": "skill-kdense-simpy",
+      "source": "./packages/claude-code/skill-kdense-simpy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/stable-baselines3",
+      "name": "skill-kdense-stable-baselines3",
+      "source": "./packages/claude-code/skill-kdense-stable-baselines3",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/statistical-analysis",
+      "name": "skill-kdense-statistical-analysis",
+      "source": "./packages/claude-code/skill-kdense-statistical-analysis",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/statistical-power",
+      "name": "skill-kdense-statistical-power",
+      "source": "./packages/claude-code/skill-kdense-statistical-power",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/statsmodels",
+      "name": "skill-kdense-statsmodels",
+      "source": "./packages/claude-code/skill-kdense-statsmodels",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/sympy",
+      "name": "skill-kdense-sympy",
+      "source": "./packages/claude-code/skill-kdense-sympy",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/tamarind",
+      "name": "skill-kdense-tamarind",
+      "source": "./packages/claude-code/skill-kdense-tamarind",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/tellurium",
+      "name": "skill-kdense-tellurium",
+      "source": "./packages/claude-code/skill-kdense-tellurium",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/tiledbvcf",
+      "name": "skill-kdense-tiledbvcf",
+      "source": "./packages/claude-code/skill-kdense-tiledbvcf",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/timesfm-forecasting",
+      "name": "skill-kdense-timesfm-forecasting",
+      "source": "./packages/claude-code/skill-kdense-timesfm-forecasting",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/torch-geometric",
+      "name": "skill-kdense-torch-geometric",
+      "source": "./packages/claude-code/skill-kdense-torch-geometric",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/torchdrug",
+      "name": "skill-kdense-torchdrug",
+      "source": "./packages/claude-code/skill-kdense-torchdrug",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/transformers",
+      "name": "skill-kdense-transformers",
+      "source": "./packages/claude-code/skill-kdense-transformers",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/treatment-plans",
+      "name": "skill-kdense-treatment-plans",
+      "source": "./packages/claude-code/skill-kdense-treatment-plans",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/umap-learn",
+      "name": "skill-kdense-umap-learn",
+      "source": "./packages/claude-code/skill-kdense-umap-learn",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/uncertainty-and-units",
+      "name": "skill-kdense-uncertainty-and-units",
+      "source": "./packages/claude-code/skill-kdense-uncertainty-and-units",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/usfiscaldata",
+      "name": "skill-kdense-usfiscaldata",
+      "source": "./packages/claude-code/skill-kdense-usfiscaldata",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/vaex",
+      "name": "skill-kdense-vaex",
+      "source": "./packages/claude-code/skill-kdense-vaex",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/venue-templates",
+      "name": "skill-kdense-venue-templates",
+      "source": "./packages/claude-code/skill-kdense-venue-templates",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/waypoint-bio",
+      "name": "skill-kdense-waypoint-bio",
+      "source": "./packages/claude-code/skill-kdense-waypoint-bio",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/what-if-oracle",
+      "name": "skill-kdense-what-if-oracle",
+      "source": "./packages/claude-code/skill-kdense-what-if-oracle",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/zarr-python",
+      "name": "skill-kdense-zarr-python",
+      "source": "./packages/claude-code/skill-kdense-zarr-python",
+      "version": "1.0.0"
+    },
+    {
       "description": "Original upstream skill: .agents/skills/reverse-engineer-anything",
       "name": "skill-morluto-reverse-engineer-anything",
       "source": "./packages/claude-code/skill-morluto-reverse-engineer-anything",

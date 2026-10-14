@@ -1,0 +1,96 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8c165c18ceaddc9367dd74f65fd60e42c1c3de9d180828ae1ff09a001af42339",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/SKILL.md",
+      "path": "skills/markitdown/SKILL.md",
+      "size": 12202
+    },
+    {
+      "digest": "79936dc3cc52c3954a1326e995edd43d97d1b03d3bb4d867ca861fe1a31a3f4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/api_reference.md",
+      "path": "skills/markitdown/references/api_reference.md",
+      "size": 11907
+    },
+    {
+      "digest": "b6699e835f96e3a6e97d12a1a66871a68c38cbcadf9bf0e28f694d4edfadc319",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/cloud_and_ocr.md",
+      "path": "skills/markitdown/references/cloud_and_ocr.md",
+      "size": 14148
+    },
+    {
+      "digest": "58cc49fa63cff5ea8fd73fc7915a43d2ab822c3b338976758a933919cf0acf7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/file_formats.md",
+      "path": "skills/markitdown/references/file_formats.md",
+      "size": 11736
+    },
+    {
+      "digest": "98a97fd541b1abe8edb694d8c6af73797664251d9a89c731a54ef7d216ca8e39",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/mcp_and_plugins.md",
+      "path": "skills/markitdown/references/mcp_and_plugins.md",
+      "size": 7267
+    },
+    {
+      "digest": "b2966652252d265165809f37d14db136f03ae8469dd604760a08d02f85d11de8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/migration.md",
+      "path": "skills/markitdown/references/migration.md",
+      "size": 9252
+    },
+    {
+      "digest": "42d01ddb6fdf601647b605b485353c8080c2d22fc45429ceb6cc302636a9fd0b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/security.md",
+      "path": "skills/markitdown/references/security.md",
+      "size": 10459
+    },
+    {
+      "digest": "06f81ea6888626acd667af314f7faa2ee45fd29c7d371049bd3ca9a876e934b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/references/workflows.md",
+      "path": "skills/markitdown/references/workflows.md",
+      "size": 8230
+    },
+    {
+      "digest": "13e64df33ae0c66ebf1ca71e1650de98a4bc4491d429be9067991f1fb7aa9f4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/scripts/batch_convert.py",
+      "path": "skills/markitdown/scripts/batch_convert.py",
+      "size": 10522
+    },
+    {
+      "digest": "6c28a9b005a252bcfbab4e1a637129f7be30f9f154bb7bb5adb67cf5361b0aed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/scripts/convert_literature.py",
+      "path": "skills/markitdown/scripts/convert_literature.py",
+      "size": 12069
+    },
+    {
+      "digest": "4b5443c518a7d4f73bc23f0394fe3232581bcfd467f230b6c866212e20e199ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-markitdown/skills/markitdown/scripts/inspect_installation.py",
+      "path": "skills/markitdown/scripts/inspect_installation.py",
+      "size": 4889
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "adca99573a8d5cbe445fc788f119aea94d7c6ec3cbadb0aa122fd3a35aab435c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/markitdown",
+  "schema_version": 1
+}

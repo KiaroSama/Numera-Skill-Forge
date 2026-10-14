@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-umap-learn/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-umap-learn/skills/umap-learn/SKILL.md",
+      "path": "skills/umap-learn/SKILL.md",
+      "size": 21534
+    },
+    {
+      "digest": "7713fd3ed704af27890942df5d1e29f3e304636dd8b9b5767d13a6cf911323f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-umap-learn/skills/umap-learn/references/api_reference.md",
+      "path": "skills/umap-learn/references/api_reference.md",
+      "size": 28544
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "51dbc2a3891830b7be1372f8674f7ce886266558e5e3f8b688a1e87c8b0f3de9",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/umap-learn",
+  "schema_version": 1
+}

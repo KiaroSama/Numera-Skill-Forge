@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/latchbio-integration",
+  "license": "MIT",
+  "name": "skill-kdense-latchbio-integration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

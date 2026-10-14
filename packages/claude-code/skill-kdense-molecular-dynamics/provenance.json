@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-molecular-dynamics/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "1efb31165ec1477b37c31394ba04b5fb280d44db8907afdf2a956e48487f1136",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-molecular-dynamics/skills/molecular-dynamics/SKILL.md",
+      "path": "skills/molecular-dynamics/SKILL.md",
+      "size": 18971
+    },
+    {
+      "digest": "cdeb94230969b89a3e046de3edf964469ef5b23c695c8aed58045876fabbcccf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-molecular-dynamics/skills/molecular-dynamics/references/mdanalysis_analysis.md",
+      "path": "skills/molecular-dynamics/references/mdanalysis_analysis.md",
+      "size": 9393
+    },
+    {
+      "digest": "4fd12453719685cfc406544fb2bbd573225019a407403ad250f90ca37e56e615",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-molecular-dynamics/skills/molecular-dynamics/references/system_preparation.md",
+      "path": "skills/molecular-dynamics/references/system_preparation.md",
+      "size": 4889
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "50f97d2770bf7857aa5357522de1cc0a1b3a68cfcc551b80620febfa68dfcd8f",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/molecular-dynamics",
+  "schema_version": 1
+}

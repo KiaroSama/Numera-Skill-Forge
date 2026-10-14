@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/geomaster",
+  "license": "MIT",
+  "name": "skill-kdense-geomaster",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

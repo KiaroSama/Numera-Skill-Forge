@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/consciousness-council",
+  "license": "MIT",
+  "name": "skill-kdense-consciousness-council",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

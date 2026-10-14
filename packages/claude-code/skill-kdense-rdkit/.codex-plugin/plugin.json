@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/rdkit",
+  "license": "MIT",
+  "name": "skill-kdense-rdkit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

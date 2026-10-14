@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/primer-design",
+  "license": "MIT",
+  "name": "skill-kdense-primer-design",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

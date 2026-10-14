@@ -1,0 +1,96 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b7df3f50c1c618a47a81e994b2863ddd8adf695e795aa495c3a8fef5e78a0493",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/SKILL.md",
+      "path": "skills/pytdc/SKILL.md",
+      "size": 14674
+    },
+    {
+      "digest": "a056e9e0cd4ce0d29f21f66c01bd76e6dc9f0ffcd0dcfebcea9756d84cdbda9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/references/datasets.md",
+      "path": "skills/pytdc/references/datasets.md",
+      "size": 10263
+    },
+    {
+      "digest": "bb2dfa8f0a3924d86317873a0b6f4b23560bffb60226d11816d3bf9b611035f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/references/oracles.md",
+      "path": "skills/pytdc/references/oracles.md",
+      "size": 10103
+    },
+    {
+      "digest": "452714c37a4b65da76f50d3749934f67106093910149572c0aea8fb4b9b0a21f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/references/sources.md",
+      "path": "skills/pytdc/references/sources.md",
+      "size": 14244
+    },
+    {
+      "digest": "cc3c0ab067029e7dff37c5480b483092387993555567aa3b0fe1b7df88f6c95f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/references/utilities.md",
+      "path": "skills/pytdc/references/utilities.md",
+      "size": 14239
+    },
+    {
+      "digest": "5400062833084d7dfbe6fa603901d2d931689c1d2ad587c9ae67052f50b98791",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/_common.py",
+      "path": "skills/pytdc/scripts/_common.py",
+      "size": 7346
+    },
+    {
+      "digest": "821c3f05b0752ecc93852251c2e72d6e5e066c7d14fb1e9975d0d41cc5ed667c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/benchmark_evaluation.py",
+      "path": "skills/pytdc/scripts/benchmark_evaluation.py",
+      "size": 13327
+    },
+    {
+      "digest": "8525adb221fe0a5cdf87475f10db1317bc74015ee5719e34de0a2c2b92523db9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/cache_audit.py",
+      "path": "skills/pytdc/scripts/cache_audit.py",
+      "size": 4596
+    },
+    {
+      "digest": "e761eb71b2c7c131db661920e252d88ef72402004e3445055487a344dace1e0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/discover_metadata.py",
+      "path": "skills/pytdc/scripts/discover_metadata.py",
+      "size": 5066
+    },
+    {
+      "digest": "dff84d0a97fa83e809e0033c440c3574452feeeed18daffd6604f0952503873e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/load_and_split_data.py",
+      "path": "skills/pytdc/scripts/load_and_split_data.py",
+      "size": 13849
+    },
+    {
+      "digest": "128701240a4f5d5258cf6ab12d6ac96166353551f6fb914c060da3eee4f2bbd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pytdc/skills/pytdc/scripts/molecular_generation.py",
+      "path": "skills/pytdc/scripts/molecular_generation.py",
+      "size": 14254
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e81cccab4e3185f517a8977e759d3e652adb268fb8c7209280bb1c3cb94505d0",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pytdc",
+  "schema_version": 1
+}

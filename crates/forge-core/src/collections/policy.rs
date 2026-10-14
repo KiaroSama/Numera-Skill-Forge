@@ -30,6 +30,23 @@ pub fn validate_skill(skill: &Skill) -> Result<()> {
             ));
         }
     }
+    for (path, digest) in &skill.reviewed_documents {
+        validation::relative_path(path)?;
+        if !skill.root.starts_with("skills/")
+            || skill.root.split('/').count() != 2
+            || path != &format!("{}/references/secrets.md", skill.root)
+            || protected(&skill.root)
+            || digest.len() != 64
+            || !digest
+                .bytes()
+                .all(|b| b.is_ascii_digit() || (b'a'..=b'f').contains(&b))
+        {
+            return Err(Error::new(
+                "protected-payload",
+                "Only exact reviewed public reference documents may be admitted",
+            ));
+        }
+    }
     for notice in &skill.notices {
         validation::relative_path(&notice.path)?;
         if !notice.path.starts_with("registry/licenses/")
@@ -80,6 +97,17 @@ pub fn verify_license(
             return Err(Error::new(
                 "protected-payload",
                 "Environment template changed; review placeholders before publication",
+            ));
+        }
+    }
+    for (path, digest) in &skill.reviewed_documents {
+        if payload
+            .get(path)
+            .is_none_or(|bytes| storage::digest(bytes) != *digest)
+        {
+            return Err(Error::new(
+                "protected-payload",
+                "Reviewed public document missing or changed",
             ));
         }
     }

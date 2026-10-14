@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/molecular-dynamics",
+  "license": "MIT",
+  "name": "skill-kdense-molecular-dynamics",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

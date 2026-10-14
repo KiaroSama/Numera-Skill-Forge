@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/statistical-power",
+  "license": "MIT",
+  "name": "skill-kdense-statistical-power",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

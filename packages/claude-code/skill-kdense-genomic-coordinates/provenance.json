@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "da3eee43dfee06ee632388ddda0c38bb0bc57ec33420cbf26b14ce86be3c28a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/SKILL.md",
+      "path": "skills/genomic-coordinates/SKILL.md",
+      "size": 12764
+    },
+    {
+      "digest": "d51bd8ab5156055f94c9e9bae02cd65fd1dd4e289c7c39dc9b445367f56de79d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/references/format-conventions.md",
+      "path": "skills/genomic-coordinates/references/format-conventions.md",
+      "size": 12325
+    },
+    {
+      "digest": "4c114bbb18b2c01b99f89ddd7b792a69090d39473d45df1cdff054ef6773be43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/references/reference-builds.md",
+      "path": "skills/genomic-coordinates/references/reference-builds.md",
+      "size": 7993
+    },
+    {
+      "digest": "5a4d68fa2bce75c945b933cf980ddb1c91f6279dfded64afa4e1f700173836ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/references/transcript-coordinates.md",
+      "path": "skills/genomic-coordinates/references/transcript-coordinates.md",
+      "size": 8385
+    },
+    {
+      "digest": "98656413c9f412a3c0749b6f2309762318593d3d670e6a1f39b90259998fa34a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/references/variant-representation.md",
+      "path": "skills/genomic-coordinates/references/variant-representation.md",
+      "size": 8103
+    },
+    {
+      "digest": "a777f11f9377c3db892af41012ad2fe12b33bae45f031ec1accae02fe4c24fc5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/scripts/_common.py",
+      "path": "skills/genomic-coordinates/scripts/_common.py",
+      "size": 14742
+    },
+    {
+      "digest": "fe28ca2f17546e4c11c9578d24fdb02db12cc2f9719a41d36e0358b9c1b3278a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/scripts/audit_intervals.py",
+      "path": "skills/genomic-coordinates/scripts/audit_intervals.py",
+      "size": 21201
+    },
+    {
+      "digest": "5f224c4d3e44281c8bb51c8a5bd2a921f2dab2c1714d5f5d11361a9f2d4cbb32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/scripts/check_contigs.py",
+      "path": "skills/genomic-coordinates/scripts/check_contigs.py",
+      "size": 17205
+    },
+    {
+      "digest": "190019868cd9ee2dc139ee838ae926ba2cd68dafc5f32b729769776d4201c6d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/scripts/convert_coords.py",
+      "path": "skills/genomic-coordinates/scripts/convert_coords.py",
+      "size": 7609
+    },
+    {
+      "digest": "c3652412549726b45bf954710ccf18b319c135092ef94768ecba20abfd9cd590",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-genomic-coordinates/skills/genomic-coordinates/scripts/normalize_variant.py",
+      "path": "skills/genomic-coordinates/scripts/normalize_variant.py",
+      "size": 11307
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8840b301730429cdc45ef6aa4d2719f2116658c438740a4cb6c32c48369d3e9f",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/genomic-coordinates",
+  "schema_version": 1
+}

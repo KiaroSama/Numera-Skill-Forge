@@ -1,0 +1,166 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/SKILL.md",
+      "path": "skills/pptx-posters/SKILL.md",
+      "size": 12459
+    },
+    {
+      "digest": "49a5cfa05452a2f0705564403bc2a5112715c9930d6e2bc7ccd5f6a739719a94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/assets/generation_dependencies.json",
+      "path": "skills/pptx-posters/assets/generation_dependencies.json",
+      "size": 70
+    },
+    {
+      "digest": "89a90c38b843132c303844d311a525eade912a746e800ff933513f31b6e17930",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/assets/poster_manifest_template.json",
+      "path": "skills/pptx-posters/assets/poster_manifest_template.json",
+      "size": 4494
+    },
+    {
+      "digest": "80652cf483e62b806fe93a72a62350532f9b60b4bdcb91f0f5cfb5b55f9b90e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/assets/poster_quality_checklist.md",
+      "path": "skills/pptx-posters/assets/poster_quality_checklist.md",
+      "size": 8710
+    },
+    {
+      "digest": "e0cfd7cff23044eac88778250b405d90c82b52877eda8ad6ac3b33edb5d2d16c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/manifest_spec.md",
+      "path": "skills/pptx-posters/references/manifest_spec.md",
+      "size": 9406
+    },
+    {
+      "digest": "dea961f67f1da228da3deb873770f61780789108183450d84f93078d40884a63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/poster_content_guide.md",
+      "path": "skills/pptx-posters/references/poster_content_guide.md",
+      "size": 7789
+    },
+    {
+      "digest": "7fac4022b656ad9dc529a7a9fc192b88818db7217798941fbb1a4ca3beb6ed4c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/poster_design_principles.md",
+      "path": "skills/pptx-posters/references/poster_design_principles.md",
+      "size": 10566
+    },
+    {
+      "digest": "1de74eb36dad66918b625861406f0d939d6c50a2c03035f1e6c53481412310de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/poster_layout_design.md",
+      "path": "skills/pptx-posters/references/poster_layout_design.md",
+      "size": 8607
+    },
+    {
+      "digest": "a349556e4be4db69153a3ca6a00a1cd8212b218e5d38b0861929cb2be9fd2fed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/pptx_security.md",
+      "path": "skills/pptx-posters/references/pptx_security.md",
+      "size": 8913
+    },
+    {
+      "digest": "7816362599697b0e01d4b01861711d6a212d1d09d358282c272d856f12632f00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/security_validation.md",
+      "path": "skills/pptx-posters/references/security_validation.md",
+      "size": 4429
+    },
+    {
+      "digest": "95f151df546050a949b5364d145227da0030bfb97abcb40b41a4a17ca1658deb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/references/source_ledger.md",
+      "path": "skills/pptx-posters/references/source_ledger.md",
+      "size": 14826
+    },
+    {
+      "digest": "9e3ccb3dd3ad34802a3b79f0c5b12d7c82f32fa7513bf3a7d340707f3ed0846c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/_common.py",
+      "path": "skills/pptx-posters/scripts/_common.py",
+      "size": 13542
+    },
+    {
+      "digest": "14188676f811c23cadaecf85ec9fc2c27f21b22ba9bd35a82480ad9f4253940c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/_manifest.py",
+      "path": "skills/pptx-posters/scripts/_manifest.py",
+      "size": 46762
+    },
+    {
+      "digest": "7c350c4aa56db63ae2789c499ad8b48a037a0847d4d0408adfe99a0054ad0394",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/_pptx.py",
+      "path": "skills/pptx-posters/scripts/_pptx.py",
+      "size": 54581
+    },
+    {
+      "digest": "d49588b8c9658abe3e621b2ddbbf9fd7253e3b2f0e01185eb145a1c8d23d9d5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/check_layout.py",
+      "path": "skills/pptx-posters/scripts/check_layout.py",
+      "size": 5952
+    },
+    {
+      "digest": "f9bfc91cfc9c95461acb6c7ade5c4cf60fa76ebf2e2cdd818ed4b9a13ced6b32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/check_palette.py",
+      "path": "skills/pptx-posters/scripts/check_palette.py",
+      "size": 4856
+    },
+    {
+      "digest": "b8ce6011c1a17191b62f73e2563e2b2d65f85d74a91c9b62650fa43b0f42b34c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/generate_poster.py",
+      "path": "skills/pptx-posters/scripts/generate_poster.py",
+      "size": 15401
+    },
+    {
+      "digest": "76b504075af984436db03b7d093cc80a373c3388c993cda7c4a2be4668aebafc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/inspect_pptx.py",
+      "path": "skills/pptx-posters/scripts/inspect_pptx.py",
+      "size": 1254
+    },
+    {
+      "digest": "07c6df85ca9f05510224c4e976b344d46a218d1843d9f31196adae31d975ed82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/inventory_images.py",
+      "path": "skills/pptx-posters/scripts/inventory_images.py",
+      "size": 9603
+    },
+    {
+      "digest": "e428f3b29b584898508cf1571a5515155c603b5b3d5276be5c92de23a1237e86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/plan_export.py",
+      "path": "skills/pptx-posters/scripts/plan_export.py",
+      "size": 9265
+    },
+    {
+      "digest": "e888bc04fca0e326091e6be509fa31d9b5097127aaf42bb045aa337320237c33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pptx-posters/skills/pptx-posters/scripts/validate_manifest.py",
+      "path": "skills/pptx-posters/scripts/validate_manifest.py",
+      "size": 1646
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fe05b60fe0978692508a811994dac1e82c389dbdc5717bf351cf0e858efc38d8",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pptx-posters",
+  "schema_version": 1
+}

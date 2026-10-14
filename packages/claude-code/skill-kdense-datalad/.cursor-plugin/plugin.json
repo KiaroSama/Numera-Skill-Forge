@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/datalad",
+  "license": "MIT",
+  "name": "skill-kdense-datalad",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

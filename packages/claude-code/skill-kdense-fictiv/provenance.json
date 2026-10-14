@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c4f9b182d2f4664fe4b729832fff7fe98112b6823eaea3601633fa17112a6164",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/SKILL.md",
+      "path": "skills/fictiv/SKILL.md",
+      "size": 14260
+    },
+    {
+      "digest": "69f462ebbf84ec5bc205a158ed91cda5ff6ff0129317bca98d500e13a048a9c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/capabilities.md",
+      "path": "skills/fictiv/references/capabilities.md",
+      "size": 19680
+    },
+    {
+      "digest": "242c076418329b02786ce6b1a567e77f9a5183a1d1d12819df85fac439a13628",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/checkout-and-payment.md",
+      "path": "skills/fictiv/references/checkout-and-payment.md",
+      "size": 10564
+    },
+    {
+      "digest": "386e17539da0c1e0479867aa8f274a6c168bec714927a52d36dbe33a7f0aa9ad",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/orders-library-teams.md",
+      "path": "skills/fictiv/references/orders-library-teams.md",
+      "size": 11257
+    },
+    {
+      "digest": "4fd413dc217c36871b7abc69c22e04777ebb52dc1701fd85ed9b456d45620a5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/quoting.md",
+      "path": "skills/fictiv/references/quoting.md",
+      "size": 17477
+    },
+    {
+      "digest": "4788f35cb58db41ec87789470d2fa3a85f8cc897be32ee3f253531bc08d5b7a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/troubleshooting.md",
+      "path": "skills/fictiv/references/troubleshooting.md",
+      "size": 13041
+    },
+    {
+      "digest": "8ed1d6783c9b553abbfe11237138f80f042ad37a756b108499cd972e4dfe955e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/references/ui-map.md",
+      "path": "skills/fictiv/references/ui-map.md",
+      "size": 19199
+    },
+    {
+      "digest": "8b36969d8b7532ceb392763e7762f8d00ca77a10545ed57a9f7ee50cc8887f4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/scripts/check_cad_file.py",
+      "path": "skills/fictiv/scripts/check_cad_file.py",
+      "size": 13322
+    },
+    {
+      "digest": "8b340c0847b0f9c4169fe90ce1e8566211a8deef41b38007a3a379aaac31835f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/scripts/list_dropdown_options.js",
+      "path": "skills/fictiv/scripts/list_dropdown_options.js",
+      "size": 2078
+    },
+    {
+      "digest": "6d09d22760ae6b48ff70f3b196c94188c539eb1347c8b5d017447445b65ad56c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-fictiv/skills/fictiv/scripts/quote_state.js",
+      "path": "skills/fictiv/scripts/quote_state.js",
+      "size": 8836
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "891d30b9dcac7df4a836ce1f84467629266614fd9ae89a2bf7b463dabf9aeabb",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/fictiv",
+  "schema_version": 1
+}

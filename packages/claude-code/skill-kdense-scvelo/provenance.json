@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvelo/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c43258bccdbaa5772fd1aeac8d12d6107dd9c9b19c6a3a81fde7d421c0d2609e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvelo/skills/scvelo/SKILL.md",
+      "path": "skills/scvelo/SKILL.md",
+      "size": 12486
+    },
+    {
+      "digest": "1a519d24393f83941ce6d22162f27c938091abf637a455c8d396c08f0e15fc90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvelo/skills/scvelo/references/velocity_models.md",
+      "path": "skills/scvelo/references/velocity_models.md",
+      "size": 9438
+    },
+    {
+      "digest": "8b091713730e4132086e748ba9334f6c356ac59e799057c497a5c7762bb9fa11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scvelo/skills/scvelo/scripts/rna_velocity_workflow.py",
+      "path": "skills/scvelo/scripts/rna_velocity_workflow.py",
+      "size": 13207
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cf5488c7f7eb795f884fcbc8ff743f50a91e7db7a369a80c653d88c662962e97",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scvelo",
+  "schema_version": 1
+}

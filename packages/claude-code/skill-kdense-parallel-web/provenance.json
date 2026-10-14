@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "04b4873674998c4fb47de017397e753d69049609135efed43a82572b9002f52c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/SKILL.md",
+      "path": "skills/parallel-web/SKILL.md",
+      "size": 8880
+    },
+    {
+      "digest": "decfe941d2aeec6666046070234943760de0cbbe2d258929d3fea981da85f3ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/api-contracts.md",
+      "path": "skills/parallel-web/references/api-contracts.md",
+      "size": 7725
+    },
+    {
+      "digest": "32602c6f9805dd17d1e611eff6282c385dad7cb6b56dfb2b99c2021cad669405",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/data-enrichment.md",
+      "path": "skills/parallel-web/references/data-enrichment.md",
+      "size": 4358
+    },
+    {
+      "digest": "9f135149e9ed11a24ef53e294c96fddf1060985c2fb9a478b0b0ecf1cea1ae0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/deep-research.md",
+      "path": "skills/parallel-web/references/deep-research.md",
+      "size": 3939
+    },
+    {
+      "digest": "c9ad18160bd5396879fd0e8d077a5fb75148482bbd7803b50bd596e587831312",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/findall.md",
+      "path": "skills/parallel-web/references/findall.md",
+      "size": 3094
+    },
+    {
+      "digest": "9a1b93744be7d293bff4f5ceb6b0e168b97541e961ab385b7be93b1304233914",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/monitor.md",
+      "path": "skills/parallel-web/references/monitor.md",
+      "size": 4039
+    },
+    {
+      "digest": "07cc1b4187977b2563ae17e25eca28a33c071892b2c70d61a4e7d8f13bafa123",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/web-extract.md",
+      "path": "skills/parallel-web/references/web-extract.md",
+      "size": 2995
+    },
+    {
+      "digest": "e90582c976f200382f0dc9d6dda8f94da833270b752fd7fc036920443cd6f1a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-parallel-web/skills/parallel-web/references/web-search.md",
+      "path": "skills/parallel-web/references/web-search.md",
+      "size": 5191
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "92ac3c551001cf33611ca19b90036a5f227cc19a2665d99b17ae75691727d2f7",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/parallel-web",
+  "schema_version": 1
+}

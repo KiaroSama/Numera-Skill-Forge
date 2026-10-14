@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/gtars",
+  "license": "MIT",
+  "name": "skill-kdense-gtars",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

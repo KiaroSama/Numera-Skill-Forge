@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pkpd-modeling",
+  "license": "MIT",
+  "name": "skill-kdense-pkpd-modeling",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

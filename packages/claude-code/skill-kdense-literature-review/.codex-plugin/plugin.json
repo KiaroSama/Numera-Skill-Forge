@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/literature-review",
+  "license": "MIT",
+  "name": "skill-kdense-literature-review",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

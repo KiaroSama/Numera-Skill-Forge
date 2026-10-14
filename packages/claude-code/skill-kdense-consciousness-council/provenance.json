@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-consciousness-council/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "84b5eb07e5459cc110d7d6f63be48a7a01d374ec618da8e293a88b1d037c0c8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-consciousness-council/skills/consciousness-council/SKILL.md",
+      "path": "skills/consciousness-council/SKILL.md",
+      "size": 13932
+    },
+    {
+      "digest": "052f4a047b4256f771dd97e04df41c8aca26e70e619573202ad688b98874ffdc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-consciousness-council/skills/consciousness-council/references/advanced-configurations.md",
+      "path": "skills/consciousness-council/references/advanced-configurations.md",
+      "size": 6611
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a6a7db1cb7caae8d7c2f5a8acdf39f818553c255727f8797e42c2b8d0b040a4a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/consciousness-council",
+  "schema_version": 1
+}

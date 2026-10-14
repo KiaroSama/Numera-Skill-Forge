@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scanpy",
+  "license": "MIT",
+  "name": "skill-kdense-scanpy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

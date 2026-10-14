@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b9dbf93b5d8dbaa3de4541449b828cd6199625c54956e8598f7552eefc30116f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/SKILL.md",
+      "path": "skills/polars-bio/SKILL.md",
+      "size": 12878
+    },
+    {
+      "digest": "0b9a50bc7a9377240e9e65413302f3b42f9f783dcf7540c66d3120b60d41f212",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/bioframe_migration.md",
+      "path": "skills/polars-bio/references/bioframe_migration.md",
+      "size": 4887
+    },
+    {
+      "digest": "f6c8cca032067556d13a8fd07f65405a220c0e1e61e1b1fdfc0f4971507f8306",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/configuration.md",
+      "path": "skills/polars-bio/references/configuration.md",
+      "size": 4405
+    },
+    {
+      "digest": "72dbb6c5b90ca77984bf5f746591a760aad3f684f4f204da3dc8d1470012893a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/file_io.md",
+      "path": "skills/polars-bio/references/file_io.md",
+      "size": 11758
+    },
+    {
+      "digest": "31651d77bfb17ff89eaf7526e5edc372580465be1adef25f07b097330a7159c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/interval_operations.md",
+      "path": "skills/polars-bio/references/interval_operations.md",
+      "size": 7369
+    },
+    {
+      "digest": "b616dd3aaddb41d198763d854188fabf8a931ae14c183ab93bfeab28990daf5e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/pileup_operations.md",
+      "path": "skills/polars-bio/references/pileup_operations.md",
+      "size": 6008
+    },
+    {
+      "digest": "34933a5084ecc188753fc5cd437f4fd587f4df02d4d57850112b950e491ed362",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-polars-bio/skills/polars-bio/references/sql_processing.md",
+      "path": "skills/polars-bio/references/sql_processing.md",
+      "size": 5714
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ea05b9a38c9a9feee8fee3461551b779951ac6e6fc03fd698a2579a6f6e05654",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/polars-bio",
+  "schema_version": 1
+}

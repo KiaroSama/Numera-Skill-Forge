@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/medchem",
+  "license": "MIT",
+  "name": "skill-kdense-medchem",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/deeptools",
+  "license": "MIT",
+  "name": "skill-kdense-deeptools",
+  "version": "1.0.0"
+}

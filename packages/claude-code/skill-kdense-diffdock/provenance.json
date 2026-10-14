@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/SKILL.md",
+      "path": "skills/diffdock/SKILL.md",
+      "size": 11830
+    },
+    {
+      "digest": "fa759ceb9e93d6be7c972bb0150987230e1bab1cc7ca215c7f3411b9b9f5aa15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/assets/batch_template.csv",
+      "path": "skills/diffdock/assets/batch_template.csv",
+      "size": 410
+    },
+    {
+      "digest": "2fc8591df8808d025468483f00743c66dc8bad341b70a02b092e2e93df57e67d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/assets/custom_inference_config.yaml",
+      "path": "skills/diffdock/assets/custom_inference_config.yaml",
+      "size": 1147
+    },
+    {
+      "digest": "766668ff5c653e42f44de6d8409cc12a68e9dc5f1bb7bfc4e47a02902a2a4d58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/references/confidence_and_limitations.md",
+      "path": "skills/diffdock/references/confidence_and_limitations.md",
+      "size": 4884
+    },
+    {
+      "digest": "c7e5cc0c71f89f5620de973f967095eb76119d4716400d776bf4e11d155e4906",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/references/parameters_reference.md",
+      "path": "skills/diffdock/references/parameters_reference.md",
+      "size": 5371
+    },
+    {
+      "digest": "dcc1444c0090fcca35b4563897a505b506ac93e2168c311e1ce226e5e041b322",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/references/workflows_examples.md",
+      "path": "skills/diffdock/references/workflows_examples.md",
+      "size": 4963
+    },
+    {
+      "digest": "c19179691697c87fae5dee610dbf83b0c7cee93ac2a3340274786af0c67ecfe5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/scripts/analyze_results.py",
+      "path": "skills/diffdock/scripts/analyze_results.py",
+      "size": 12403
+    },
+    {
+      "digest": "237c8b851c0967905c9af14c8abc0190ea929924f827d53afc0a44170890a5f7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/scripts/prepare_batch_csv.py",
+      "path": "skills/diffdock/scripts/prepare_batch_csv.py",
+      "size": 10886
+    },
+    {
+      "digest": "f3b8207c947516020fce95dd109f987cd901aa623b71a9a22cc83c802ab0becc",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-diffdock/skills/diffdock/scripts/setup_check.py",
+      "path": "skills/diffdock/scripts/setup_check.py",
+      "size": 8940
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "471de199fb33591b4325117fbc84449f5eec74452c1ecf77c5b4f43c5907328a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/diffdock",
+  "schema_version": 1
+}

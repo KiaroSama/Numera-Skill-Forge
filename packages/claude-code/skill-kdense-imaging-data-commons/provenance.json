@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8dd250a80dc6959fcebc9cbae8049b25a83be31647c597f17a9e674c4f2e3685",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/SKILL.md",
+      "path": "skills/imaging-data-commons/SKILL.md",
+      "size": 31452
+    },
+    {
+      "digest": "4c3edbdbab3adcc75e7415699ea0ee0ff0430224c0623975d0a94ff1e14024b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/bigquery_guide.md",
+      "path": "skills/imaging-data-commons/references/bigquery_guide.md",
+      "size": 36297
+    },
+    {
+      "digest": "8f5ddfa8112674a745427c07d51fb622d29907406cf6ee560d5b447e701e3653",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/cli_guide.md",
+      "path": "skills/imaging-data-commons/references/cli_guide.md",
+      "size": 9536
+    },
+    {
+      "digest": "461b4d9eabe7e8661717853ae68b7638fefa4a1aa5bf9d7d08b88e18201a35e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/clinical_data_guide.md",
+      "path": "skills/imaging-data-commons/references/clinical_data_guide.md",
+      "size": 12409
+    },
+    {
+      "digest": "823632061e993f09fb2a354be52143d688aad8e30f469d9f5e9a866b2a4a7ad2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/cloud_storage_guide.md",
+      "path": "skills/imaging-data-commons/references/cloud_storage_guide.md",
+      "size": 14585
+    },
+    {
+      "digest": "153dd626fafca6477a9d78c24c431b4aec4c8bbc5143c0fce802bcc281b12b10",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/dicomweb_guide.md",
+      "path": "skills/imaging-data-commons/references/dicomweb_guide.md",
+      "size": 16504
+    },
+    {
+      "digest": "8e4479fe6adca9487f08b180ffd619ffcf89255dd15dadfecd05ba69c33cc19b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/digital_pathology_guide.md",
+      "path": "skills/imaging-data-commons/references/digital_pathology_guide.md",
+      "size": 15665
+    },
+    {
+      "digest": "96f5584feec8e4eb281c4b6683124c1a09b7fa4edb9e80561f2b6a3d0dd95243",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/index_tables_guide.md",
+      "path": "skills/imaging-data-commons/references/index_tables_guide.md",
+      "size": 12382
+    },
+    {
+      "digest": "fb3c03ded7186b85a1bc5316f5926db7fe9fcd850c822f707ff86dc65d474fe8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/licensing_and_citation.md",
+      "path": "skills/imaging-data-commons/references/licensing_and_citation.md",
+      "size": 10267
+    },
+    {
+      "digest": "073986e7c37bbc8f5ba8799371db52a0b8224f5f9c02a58080649a960afc8314",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/mcp_guide.md",
+      "path": "skills/imaging-data-commons/references/mcp_guide.md",
+      "size": 9634
+    },
+    {
+      "digest": "e696dc3cc8563309b167a2525c414bb62b0f90b7e370fc8bac8d31e285fd6b8d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/parquet_access_guide.md",
+      "path": "skills/imaging-data-commons/references/parquet_access_guide.md",
+      "size": 10027
+    },
+    {
+      "digest": "bb504309ba04bc884ff5c7efd030e7c4304663d98504c3e491b21695c9a25f25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/rest_api_guide.md",
+      "path": "skills/imaging-data-commons/references/rest_api_guide.md",
+      "size": 34128
+    },
+    {
+      "digest": "badd93398f8372f0bda26039f7c8cf419bf27e7abc2ea6e4ff7ee6f2151540b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/sql_patterns.md",
+      "path": "skills/imaging-data-commons/references/sql_patterns.md",
+      "size": 17297
+    },
+    {
+      "digest": "57099725731469ef458f06658f1426555a9a70e933f1e73965169764e517e60d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/references/use_cases.md",
+      "path": "skills/imaging-data-commons/references/use_cases.md",
+      "size": 8724
+    },
+    {
+      "digest": "3bf30b9b9d70508f5b41029e8b4fb71b5b1539f8350e587e8318e0939ea3c1a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-imaging-data-commons/skills/imaging-data-commons/scripts/check_version.py",
+      "path": "skills/imaging-data-commons/scripts/check_version.py",
+      "size": 5680
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fbf7b05613c66bf3d76cd491d2e4be555cdda69285ce9dc31bc3420dc735612e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/imaging-data-commons",
+  "schema_version": 1
+}

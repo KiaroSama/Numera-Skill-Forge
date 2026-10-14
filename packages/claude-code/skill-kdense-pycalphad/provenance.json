@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/skills/pycalphad/SKILL.md",
+      "path": "skills/pycalphad/SKILL.md",
+      "size": 8194
+    },
+    {
+      "digest": "b44ad449b3946ae6becdf20bcde0e3c5e76146cc63b385f2e88a5f80f155ddf9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/skills/pycalphad/assets/equilibrium.json",
+      "path": "skills/pycalphad/assets/equilibrium.json",
+      "size": 443
+    },
+    {
+      "digest": "b8e45e1b89fff906f538ec5c60a57ed4e66b67cceab7eae092cab0dae0ea14a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/skills/pycalphad/assets/ideal-cu-ni.tdb",
+      "path": "skills/pycalphad/assets/ideal-cu-ni.tdb",
+      "size": 702
+    },
+    {
+      "digest": "05554407db7383be95728fb3f9af0149b1991e14caf72aa52087aa5bb933fac8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/skills/pycalphad/references/model-and-validation.md",
+      "path": "skills/pycalphad/references/model-and-validation.md",
+      "size": 10048
+    },
+    {
+      "digest": "f69618d7831c35a02c287ace6ea2a26d3868a785af5b97974c7271da63031885",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pycalphad/skills/pycalphad/scripts/equilibrate.py",
+      "path": "skills/pycalphad/scripts/equilibrate.py",
+      "size": 11112
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ca49fd3875077e140f6b1d499fdf57daf8001bf005c3053168c9c4440699c32b",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pycalphad",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/onekgpd",
+  "license": "MIT",
+  "name": "skill-kdense-onekgpd",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

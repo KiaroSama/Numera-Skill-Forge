@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pyhealth",
+  "license": "MIT",
+  "name": "skill-kdense-pyhealth",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

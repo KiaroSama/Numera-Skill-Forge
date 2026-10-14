@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pytorch-lightning",
+  "license": "MIT",
+  "name": "skill-kdense-pytorch-lightning",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

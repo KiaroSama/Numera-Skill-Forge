@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pydicom",
+  "license": "MIT",
+  "name": "skill-kdense-pydicom",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

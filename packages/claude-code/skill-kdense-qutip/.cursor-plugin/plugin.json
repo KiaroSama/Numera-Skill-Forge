@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/qutip",
+  "license": "MIT",
+  "name": "skill-kdense-qutip",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

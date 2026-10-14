@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primekg/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "b20698944fa51b287a13e7dc22ac033b83836b73614a21cff725ad7d6d807226",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primekg/skills/primekg/SKILL.md",
+      "path": "skills/primekg/SKILL.md",
+      "size": 9659
+    },
+    {
+      "digest": "f6cacb8285f0fc3ff04e56b8f7fb64da384bb3ae660604623186d856dd35c72e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primekg/skills/primekg/references/data-contract.md",
+      "path": "skills/primekg/references/data-contract.md",
+      "size": 7665
+    },
+    {
+      "digest": "20d80d19440ca3beb3cf2939f226b7d40dbc430fd2bf44e5fb21b3f868d49815",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-primekg/skills/primekg/scripts/query_primekg.py",
+      "path": "skills/primekg/scripts/query_primekg.py",
+      "size": 9804
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8e2f02386de79717346007dd2c219dc80efee8efa47c980548a5c1c050429ea3",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/primekg",
+  "schema_version": 1
+}

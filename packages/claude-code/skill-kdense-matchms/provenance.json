@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "1bde0e20f69f99dfa44800b9e908b0f90aa1256cfdb1d88a36ed0b8064c447ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/SKILL.md",
+      "path": "skills/matchms/SKILL.md",
+      "size": 12821
+    },
+    {
+      "digest": "4a327d00e01e7c328cdf91d7d6946da2801a963ddc1925ede7704daa328f6f38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/filtering.md",
+      "path": "skills/matchms/references/filtering.md",
+      "size": 12206
+    },
+    {
+      "digest": "e5e47079b69fa634cbb6ef2577632f0f33f02ed22831c5111aa83d138a8f5c46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/importing_exporting.md",
+      "path": "skills/matchms/references/importing_exporting.md",
+      "size": 10834
+    },
+    {
+      "digest": "3ea36ad24b3ed974f3b7dedab54110ff6217073de4e19751721f2c082856b6ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/migration.md",
+      "path": "skills/matchms/references/migration.md",
+      "size": 8557
+    },
+    {
+      "digest": "87977b3c6864f6389959c8b86bf817d5edbf70c50a4f0dbca43db5a0a865c825",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/similarity.md",
+      "path": "skills/matchms/references/similarity.md",
+      "size": 14080
+    },
+    {
+      "digest": "e04c65fe7cddb83e5048a4fe0cd760ac55138ac040120a2b6452a6725fee466a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/sources.md",
+      "path": "skills/matchms/references/sources.md",
+      "size": 9854
+    },
+    {
+      "digest": "c58e570c35c0395f45fdc418640acc64ee9200de59cc11b9b29c6d9c76f6835c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/references/workflows.md",
+      "path": "skills/matchms/references/workflows.md",
+      "size": 14273
+    },
+    {
+      "digest": "b48c1a0cb08df70e7007eb6af390ec0a3f6c3a33d64283a3602675b1094e8d2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matchms/skills/matchms/scripts/library_search.py",
+      "path": "skills/matchms/scripts/library_search.py",
+      "size": 21090
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f30676a1f555c20f3c4325a1a93610bb6c58f3e00479cd1120906800f7dd3211",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/matchms",
+  "schema_version": 1
+}

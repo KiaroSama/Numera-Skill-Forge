@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/cantera",
+  "license": "MIT",
+  "name": "skill-kdense-cantera",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "cff6c7e67d7f1925f008e11f5d0428f08391c35f4294d2c4c70350667b2decb2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/SKILL.md",
+      "path": "skills/hugging-science/SKILL.md",
+      "size": 11816
+    },
+    {
+      "digest": "3b2e42fb7af90e92554aa88eade9afc1b4190312b342bec4915dc876d49f1836",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/flagship-resources.md",
+      "path": "skills/hugging-science/references/flagship-resources.md",
+      "size": 6108
+    },
+    {
+      "digest": "e4383907e1d880be44c508984d9b378606f2f8689afa804c2f6b7bd959c3133d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/review.md",
+      "path": "skills/hugging-science/references/review.md",
+      "size": 5927
+    },
+    {
+      "digest": "c6375179c67acecba4db95a4cb69f6eac20dd5a61ab3faf4f2ecc3d373d9c3b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/topics-and-slugs.md",
+      "path": "skills/hugging-science/references/topics-and-slugs.md",
+      "size": 4588
+    },
+    {
+      "digest": "4046c5f6329c765e53cb79b0f248ecf88aaa3ff6516af983dd0bfd2fc84122d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/using-datasets.md",
+      "path": "skills/hugging-science/references/using-datasets.md",
+      "size": 5195
+    },
+    {
+      "digest": "8bbfcc3cd37bce24e047a2110a41af434720d423eb9f17edda246af522b1746a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/using-models.md",
+      "path": "skills/hugging-science/references/using-models.md",
+      "size": 6851
+    },
+    {
+      "digest": "f2dfdea6f7b219f662793ecfb1ad4712687074227fda3872dda3e6f6c1ada3ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/references/using-spaces.md",
+      "path": "skills/hugging-science/references/using-spaces.md",
+      "size": 5286
+    },
+    {
+      "digest": "da01cdc6d8b2d1684c134430ac687bd906a3d5e86d5568af847d9b49813b7273",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-hugging-science/skills/hugging-science/scripts/fetch_catalog.py",
+      "path": "skills/hugging-science/scripts/fetch_catalog.py",
+      "size": 14260
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6324945db56a901064fec405eeb225ad9d9efb3e01affd17ba6e7ccc3f142137",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/hugging-science",
+  "schema_version": 1
+}

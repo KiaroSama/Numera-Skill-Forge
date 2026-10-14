@@ -1,0 +1,201 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/SKILL.md",
+      "path": "skills/market-research-reports/SKILL.md",
+      "size": 15349
+    },
+    {
+      "digest": "1cdf272eefe81ae679ce6f02ba3bb9036cd97283680dd55293abbf3f9f659e82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/FORMATTING_GUIDE.md",
+      "path": "skills/market-research-reports/assets/FORMATTING_GUIDE.md",
+      "size": 5906
+    },
+    {
+      "digest": "ff8daf6e418713a51a1a13c6ccff88e3f5716b2cc098b9a4c4385653bb731348",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/claims_ledger_template.csv",
+      "path": "skills/market-research-reports/assets/claims_ledger_template.csv",
+      "size": 957
+    },
+    {
+      "digest": "721fbe2dee19ab4e611ae10899cb0492773b74a7a8e32fb0e9eaef9cfd56a690",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/competitor_feature_matrix_template.csv",
+      "path": "skills/market-research-reports/assets/competitor_feature_matrix_template.csv",
+      "size": 683
+    },
+    {
+      "digest": "8bd009d185eb415640f14ffc1a0dc3a123a724390a729b6f4a3979db6c9329f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/consistency_check_template.csv",
+      "path": "skills/market-research-reports/assets/consistency_check_template.csv",
+      "size": 432
+    },
+    {
+      "digest": "f29a38e188c01cca6e52ce860424fe08905460e5505f1ac89528357e18fdf0b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/forecast_sensitivity_template.json",
+      "path": "skills/market-research-reports/assets/forecast_sensitivity_template.json",
+      "size": 1807
+    },
+    {
+      "digest": "bcc98b71a10ef726c364142512fc6f95af9496d8a8e87f39c09295ce4691a9cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/market_report_template.tex",
+      "path": "skills/market-research-reports/assets/market_report_template.tex",
+      "size": 10045
+    },
+    {
+      "digest": "ce12c00746086c1385676cd863baf0802f3c1d923ad7f2312e96bfbf42ce6518",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/market_research.sty",
+      "path": "skills/market-research-reports/assets/market_research.sty",
+      "size": 6501
+    },
+    {
+      "digest": "58722edb120d11273e3b121a8a1d2fa122c33c21d242c3efae7d6094e8f25817",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/market_sizing_scenarios_template.json",
+      "path": "skills/market-research-reports/assets/market_sizing_scenarios_template.json",
+      "size": 3177
+    },
+    {
+      "digest": "6d06ce899066bce3ea14e0a6bfc8b352d0d43591f9ca3672bd54c42e12ad1ca4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/report_manifest_template.json",
+      "path": "skills/market-research-reports/assets/report_manifest_template.json",
+      "size": 882
+    },
+    {
+      "digest": "a2e10d3ab743a6e879b43efb47c3069104d45f68898b1ab71ac2ca1f161f8ad7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/assets/source_ledger_template.csv",
+      "path": "skills/market-research-reports/assets/source_ledger_template.csv",
+      "size": 1353
+    },
+    {
+      "digest": "af33ed9575d0c44e47a220b8234be904b47f2741a7f3276c521d32f6d2bcf399",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/data_analysis_patterns.md",
+      "path": "skills/market-research-reports/references/data_analysis_patterns.md",
+      "size": 10025
+    },
+    {
+      "digest": "180631d70e9602c995f4e001ed9305d928d10441a6dc396df924a88f7c03d2a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/evidence_model.md",
+      "path": "skills/market-research-reports/references/evidence_model.md",
+      "size": 6139
+    },
+    {
+      "digest": "e0e8321f18b8bc497041c1f2c4ba3d09414118d06f6d8f84719c9389a887920d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/methods_and_ethics.md",
+      "path": "skills/market-research-reports/references/methods_and_ethics.md",
+      "size": 8087
+    },
+    {
+      "digest": "f14ab8c055011b731d838288d4dd9c8dc2c2d81b51e9f448ae4a27cbebd03499",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/official_data_sources.md",
+      "path": "skills/market-research-reports/references/official_data_sources.md",
+      "size": 10797
+    },
+    {
+      "digest": "0b8d3dd6821b9cafa35f6a9739e31e46f965ba4994077a205f1bfa7c8fd9417d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/report_structure_guide.md",
+      "path": "skills/market-research-reports/references/report_structure_guide.md",
+      "size": 8630
+    },
+    {
+      "digest": "96ef07f4797181016efa4775c767e69cb06800917fc4bc1e25b66340bcad6f01",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/sources.md",
+      "path": "skills/market-research-reports/references/sources.md",
+      "size": 10716
+    },
+    {
+      "digest": "45315257e787ae313fa263984e5ec923811568306e6f08fc9fbf5ee5ac9c9b31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/references/visual_generation_guide.md",
+      "path": "skills/market-research-reports/references/visual_generation_guide.md",
+      "size": 5237
+    },
+    {
+      "digest": "ec1f8424e6f9bc147e8c0e17228cd277512678ba811c94388c19be004e6970ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/_common.py",
+      "path": "skills/market-research-reports/scripts/_common.py",
+      "size": 11213
+    },
+    {
+      "digest": "4a6a8f254838aaefe6d14bf38e0bdb2b03bafb9e1ca93afec873527bf0c2b054",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/audit_claim_citations.py",
+      "path": "skills/market-research-reports/scripts/audit_claim_citations.py",
+      "size": 11051
+    },
+    {
+      "digest": "aa6daa9b80707099572cdf513d519fa15836c0bd6c72ba7123d83282b4949c0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/calculate_market_sizing.py",
+      "path": "skills/market-research-reports/scripts/calculate_market_sizing.py",
+      "size": 13738
+    },
+    {
+      "digest": "e7ae86dc78556d3570b920d6187a5dc3b483382c5f48f2bcfac6db4630fc6bf6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/check_unit_consistency.py",
+      "path": "skills/market-research-reports/scripts/check_unit_consistency.py",
+      "size": 7118
+    },
+    {
+      "digest": "a8580d913613fb4432329d8cf49b92072e168420db3b23a35ce64ee0274b00f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/forecast_sensitivity.py",
+      "path": "skills/market-research-reports/scripts/forecast_sensitivity.py",
+      "size": 11102
+    },
+    {
+      "digest": "5711c19340316cf2ba26ace356ebaa13525fa74c13963fba4c9ccd014953e95d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/generate_report_scaffold.py",
+      "path": "skills/market-research-reports/scripts/generate_report_scaffold.py",
+      "size": 15284
+    },
+    {
+      "digest": "ff5359654e66a6a291aa62deb54322ccc8082311c8a3a15fec2e9c6b6bbb440a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/validate_competitor_matrix.py",
+      "path": "skills/market-research-reports/scripts/validate_competitor_matrix.py",
+      "size": 7807
+    },
+    {
+      "digest": "c1176271a8a9d3b41363f187dbec55a60c481e39bba8356e4ecde30ec32cc3d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-market-research-reports/skills/market-research-reports/scripts/validate_evidence_ledger.py",
+      "path": "skills/market-research-reports/scripts/validate_evidence_ledger.py",
+      "size": 9202
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "224916b513d668275907cfde15ab12ac94a5017fa817351861d81a65a7be8197",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/market-research-reports",
+  "schema_version": 1
+}

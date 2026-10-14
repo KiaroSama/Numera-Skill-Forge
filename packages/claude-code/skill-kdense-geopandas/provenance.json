@@ -1,0 +1,117 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/SKILL.md",
+      "path": "skills/geopandas/SKILL.md",
+      "size": 15374
+    },
+    {
+      "digest": "39c0f83941fa8d781e7a5f2d78f6525ef7f154d5a41659fd64e312a9ca05852b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/crs-management.md",
+      "path": "skills/geopandas/references/crs-management.md",
+      "size": 9281
+    },
+    {
+      "digest": "62a6c42142aa28ebc75b948a4ca1425ac475dcc135c71b4a20705c9b75dde409",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/data-io.md",
+      "path": "skills/geopandas/references/data-io.md",
+      "size": 13955
+    },
+    {
+      "digest": "6468ee20c71fbdfac409c4cf33f61c6e07cc0ff31e0d92e2eb193c39610637ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/data-structures.md",
+      "path": "skills/geopandas/references/data-structures.md",
+      "size": 7611
+    },
+    {
+      "digest": "a335fa87508b20a110c4e0905459a18abdd9267b19bec6daf327864ca071d732",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/geometric-operations.md",
+      "path": "skills/geopandas/references/geometric-operations.md",
+      "size": 10041
+    },
+    {
+      "digest": "9f29ca1cd7c818baf887684bda5b1c6433a8feb0a8afff0cd6c911821cb15765",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/spatial-analysis.md",
+      "path": "skills/geopandas/references/spatial-analysis.md",
+      "size": 10060
+    },
+    {
+      "digest": "a6d20e0370e71fd6994c4381743ecbf5fd19edd0087e140cdddc6096fb9b209e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/references/visualization.md",
+      "path": "skills/geopandas/references/visualization.md",
+      "size": 9793
+    },
+    {
+      "digest": "6cf6999f0dff04f65d9ba5387c43262ba9210f6a32769a786dfe346a9e76bdcd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/_common.py",
+      "path": "skills/geopandas/scripts/_common.py",
+      "size": 22036
+    },
+    {
+      "digest": "bc31f67674903f87625b9c88e699097bdeab5fdd919111fc31bae516d0328589",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/crs_reprojection_plan.py",
+      "path": "skills/geopandas/scripts/crs_reprojection_plan.py",
+      "size": 8118
+    },
+    {
+      "digest": "f2f9de1616c846be48e30812abf3d3c02f29302ee007f162f1cc4dd913e9bc22",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/export_plan.py",
+      "path": "skills/geopandas/scripts/export_plan.py",
+      "size": 11149
+    },
+    {
+      "digest": "d1727489a97f8b5941fecb9e7612da727416f4bc3c91a6bc5a8b86052e62f798",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/geometry_validity_report.py",
+      "path": "skills/geopandas/scripts/geometry_validity_report.py",
+      "size": 7436
+    },
+    {
+      "digest": "b53830e89bae6c359d237895d8836df29f11b0220facb97eda444d0d98b89079",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/sensitive_coordinates_checklist.py",
+      "path": "skills/geopandas/scripts/sensitive_coordinates_checklist.py",
+      "size": 8980
+    },
+    {
+      "digest": "a3828a96b5d4861e2fcea642687e4e7408b6e58631d3198c499b8f8272374661",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/spatial_join_audit.py",
+      "path": "skills/geopandas/scripts/spatial_join_audit.py",
+      "size": 13254
+    },
+    {
+      "digest": "5b69d0c0f1e99cb9c7c663e4286f703c797b0d150711e1e4c293f6082767483f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-geopandas/skills/geopandas/scripts/vector_inventory.py",
+      "path": "skills/geopandas/scripts/vector_inventory.py",
+      "size": 4488
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c9d4794f2de2a020fd2505887afd1fb6844480d6f419ed43071ad31ecebbfb15",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/geopandas",
+  "schema_version": 1
+}

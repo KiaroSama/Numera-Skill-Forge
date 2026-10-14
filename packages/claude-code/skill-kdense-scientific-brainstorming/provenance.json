@@ -1,0 +1,89 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/SKILL.md",
+      "path": "skills/scientific-brainstorming/SKILL.md",
+      "size": 14658
+    },
+    {
+      "digest": "2c3749f38c4a9ba0f310b04679b870cbf603d923aa30b82dd92720a7d2977632",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/references/brainstorming_methods.md",
+      "path": "skills/scientific-brainstorming/references/brainstorming_methods.md",
+      "size": 12505
+    },
+    {
+      "digest": "bfb2acc43472f4649b10f2c3db02180fa9c86636f375f82d8bc36b28075a5ccc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/references/facilitation_workflows.md",
+      "path": "skills/scientific-brainstorming/references/facilitation_workflows.md",
+      "size": 10016
+    },
+    {
+      "digest": "5a5fcb319cdcc151a9acd17e0e501d270e55f7a9fb6a829c87c43af5b5705d14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/references/idea_evaluation.md",
+      "path": "skills/scientific-brainstorming/references/idea_evaluation.md",
+      "size": 12165
+    },
+    {
+      "digest": "d5b61b2555b72914d1e2cfb6e84496ce80fc2d24a3001c9eefa04cca336b9830",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/references/responsible_ai.md",
+      "path": "skills/scientific-brainstorming/references/responsible_ai.md",
+      "size": 10584
+    },
+    {
+      "digest": "ab4ab107ea4f94b21ce85aec6e63d3701e56a546c4840ccfd8dab5f2cdd52210",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/references/sources.md",
+      "path": "skills/scientific-brainstorming/references/sources.md",
+      "size": 17660
+    },
+    {
+      "digest": "271bc1a013d83dc1bab41dc3fd3d70bae3d6f7549db70c678debfc50251efe19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/scripts/_common.py",
+      "path": "skills/scientific-brainstorming/scripts/_common.py",
+      "size": 9933
+    },
+    {
+      "digest": "ed38f33a7b35045217fe40b6b57ebb370c584891392899b74f4e4530e72f2215",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/scripts/evaluate_matrix.py",
+      "path": "skills/scientific-brainstorming/scripts/evaluate_matrix.py",
+      "size": 20137
+    },
+    {
+      "digest": "0af7b297a8f92f1c7456b7e14c717a017315b4a71b603ca5402434dee98db5ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/scripts/session_scaffold.py",
+      "path": "skills/scientific-brainstorming/scripts/session_scaffold.py",
+      "size": 7930
+    },
+    {
+      "digest": "765e57854efe9e28b4965d23b073eb67ffdc8cc0c7ac0b47d9240e4cc8ea1bd5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-scientific-brainstorming/skills/scientific-brainstorming/scripts/validate_register.py",
+      "path": "skills/scientific-brainstorming/scripts/validate_register.py",
+      "size": 20872
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6d1e6329f50872de15468000827768430b09180ed647bfbe52d25faeb1a29459",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/scientific-brainstorming",
+  "schema_version": 1
+}

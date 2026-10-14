@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/etetoolkit",
+  "license": "MIT",
+  "name": "skill-kdense-etetoolkit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

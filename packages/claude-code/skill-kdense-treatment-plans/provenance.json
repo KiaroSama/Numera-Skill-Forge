@@ -1,0 +1,180 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "ebb509854e12d016475ee6d45834a2a72c16815d1b9d940a9d156e7f024cbed6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/SKILL.md",
+      "path": "skills/treatment-plans/SKILL.md",
+      "size": 12581
+    },
+    {
+      "digest": "92db1a36de0a23492ad5b14d23c019ac4867527d60ec7e7df8f10c927eaf06ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/clinician_authored_intervention_template.json",
+      "path": "skills/treatment-plans/assets/clinician_authored_intervention_template.json",
+      "size": 408
+    },
+    {
+      "digest": "a06e4be9a492a81b1617543bbdc22fc64a34d4279c87d65dde6bd291c3805bab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/goals_monitoring_checkpoint_template.json",
+      "path": "skills/treatment-plans/assets/goals_monitoring_checkpoint_template.json",
+      "size": 446
+    },
+    {
+      "digest": "3ed4923cfc1e10d728b0ed93e303ad515af694d22a4283d36f71b93ab792e565",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/informed_preference_shared_decision_template.json",
+      "path": "skills/treatment-plans/assets/informed_preference_shared_decision_template.json",
+      "size": 408
+    },
+    {
+      "digest": "e06eb4d26e5228002029e3e7644eba4d77a2345001d2d74e0edf6b4a8b662e11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/intended_use_handoff_template.json",
+      "path": "skills/treatment-plans/assets/intended_use_handoff_template.json",
+      "size": 2968
+    },
+    {
+      "digest": "9949b031a887071c60d3348ef1b5041a912c8e1733d36bb4d99be8be77885ceb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/source_fact_manifest_template.json",
+      "path": "skills/treatment-plans/assets/source_fact_manifest_template.json",
+      "size": 381
+    },
+    {
+      "digest": "1bc4edbed0c3fa620ed2f0a26e5adf2b07b1e441712556a2aac73af677438635",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/assets/transition_reconciliation_template.json",
+      "path": "skills/treatment-plans/assets/transition_reconciliation_template.json",
+      "size": 880
+    },
+    {
+      "digest": "5fa07dd1839b8a3f3ff4421004333c96ae76a676bdd01c92f51e1710a1242648",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/README.md",
+      "path": "skills/treatment-plans/references/README.md",
+      "size": 1424
+    },
+    {
+      "digest": "08e7e74ef99fcc06c5e14a6a5499e0a6faebbe101c16fe36767eb2fa29ecd82e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/documentation_workflow.md",
+      "path": "skills/treatment-plans/references/documentation_workflow.md",
+      "size": 7699
+    },
+    {
+      "digest": "0c71ad4e534a55f6a82f56aecadd45f413d76f14b55e45acbcf6a2bbfac4fb26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/privacy_governance.md",
+      "path": "skills/treatment-plans/references/privacy_governance.md",
+      "size": 6665
+    },
+    {
+      "digest": "3e65768fc2f53ba1d941a6d56d719616f5747d4cf0c1cc7bc1a1ffaef360ee6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/safety_scope.md",
+      "path": "skills/treatment-plans/references/safety_scope.md",
+      "size": 5465
+    },
+    {
+      "digest": "6b87ff0e72b9ad34fb4325362aa44ab5116d36b8f8a7d0f09f7d9cccf82fae03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/security_validation.md",
+      "path": "skills/treatment-plans/references/security_validation.md",
+      "size": 5752
+    },
+    {
+      "digest": "0bdb96f3ca3c16a5675743cce0656edd5ecc838e5885ea84b35b7f3a28b98469",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/shared_decision_handoff.md",
+      "path": "skills/treatment-plans/references/shared_decision_handoff.md",
+      "size": 5630
+    },
+    {
+      "digest": "8806a0403845fe4ee6a781436bdc6a542bd1fd2ae931984f5d47795f6dcf6dcb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/source_boundaries.md",
+      "path": "skills/treatment-plans/references/source_boundaries.md",
+      "size": 6508
+    },
+    {
+      "digest": "7463a22273fac5a983d858bc2d3935bf4b154102c92c4e12b965c5e5e3682647",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/references/source_ledger.md",
+      "path": "skills/treatment-plans/references/source_ledger.md",
+      "size": 8912
+    },
+    {
+      "digest": "241bf35908e647dc58ff7f8f2cba428894f7e8d0803315c465b3264b0d2d056a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/_common.py",
+      "path": "skills/treatment-plans/scripts/_common.py",
+      "size": 41037
+    },
+    {
+      "digest": "0472fc4bb2ce53d658304a4796a21a8395ff9db88bac85fead1be5d406329a28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/check_completeness.py",
+      "path": "skills/treatment-plans/scripts/check_completeness.py",
+      "size": 18589
+    },
+    {
+      "digest": "4081d37bf0f93655893dd719e8b295616ab8494bd5aeaeb63b735543d5e6c654",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/check_consistency.py",
+      "path": "skills/treatment-plans/scripts/check_consistency.py",
+      "size": 12614
+    },
+    {
+      "digest": "8be3abd98ce67e0f20f5a0d57391563e458a28982a760ed4f1e2f9f14c08f850",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/generate_template.py",
+      "path": "skills/treatment-plans/scripts/generate_template.py",
+      "size": 3833
+    },
+    {
+      "digest": "ba357af0af81888aa44c4d93ac3da82a893ba2cc86aa5a20228e0805910641de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/privacy_process_check.py",
+      "path": "skills/treatment-plans/scripts/privacy_process_check.py",
+      "size": 6583
+    },
+    {
+      "digest": "01b9171b581b11bc6a4e9d6ba3c2a4f4d354c4e788833060b60cd58c9d5e9853",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/timeline_generator.py",
+      "path": "skills/treatment-plans/scripts/timeline_generator.py",
+      "size": 8615
+    },
+    {
+      "digest": "e904ae63454a3f29179f9a4e99118aa3dfd0d34d5fde830dfc1593d6b501b06a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/validate_traceability.py",
+      "path": "skills/treatment-plans/scripts/validate_traceability.py",
+      "size": 4596
+    },
+    {
+      "digest": "956d0e384a424b48b4ce68342487e264e28d0fb46b20f940443264f347fd75b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-treatment-plans/skills/treatment-plans/scripts/validate_treatment_plan.py",
+      "path": "skills/treatment-plans/scripts/validate_treatment_plan.py",
+      "size": 2602
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9e456f0f7481f933060b4ed73b198888cf19ba3a8d4ceb393709a28909129614",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/treatment-plans",
+  "schema_version": 1
+}

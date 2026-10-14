@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "9edc884f0fe216d510417d565ae74cc61608824b52eeb53ed0cdea3dcda5bda3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/SKILL.md",
+      "path": "skills/bioservices/SKILL.md",
+      "size": 11946
+    },
+    {
+      "digest": "934ad3a80c2397b5373eb2ffa751ac2e49909e1f1c75c2056da9a0e5f3fbdb96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/references/identifier_mapping.md",
+      "path": "skills/bioservices/references/identifier_mapping.md",
+      "size": 6581
+    },
+    {
+      "digest": "2d1df028ed478f8a3cff3ae0541f1e77e354d1283f2a475f1ef43c49aaf26599",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/references/services_reference.md",
+      "path": "skills/bioservices/references/services_reference.md",
+      "size": 15662
+    },
+    {
+      "digest": "2fef51925a070f46580045a6066073c255e55c66f4630aab7a7eaffc1dad8f8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/references/workflow_patterns.md",
+      "path": "skills/bioservices/references/workflow_patterns.md",
+      "size": 8131
+    },
+    {
+      "digest": "1ad67f3a083ba39f95eb72b5e3bbc2d46a642a8ce7997d953059c86f3c98d869",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/scripts/batch_id_converter.py",
+      "path": "skills/bioservices/scripts/batch_id_converter.py",
+      "size": 11599
+    },
+    {
+      "digest": "0425079cb5d26570ddb1fd17bd9cd689e357aeddc8a14a36984cd5bcf3d2507e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/scripts/compound_cross_reference.py",
+      "path": "skills/bioservices/scripts/compound_cross_reference.py",
+      "size": 14175
+    },
+    {
+      "digest": "2c8e32efa43c6a2423a9779a7a0ddcecd227cee7773e604b9447363a387a3489",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/scripts/pathway_analysis.py",
+      "path": "skills/bioservices/scripts/pathway_analysis.py",
+      "size": 10002
+    },
+    {
+      "digest": "dd2033b47701f70a44e9470bd2cbce2190858b27bd7345339ce13f1f1ecab6d1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-bioservices/skills/bioservices/scripts/protein_analysis_workflow.py",
+      "path": "skills/bioservices/scripts/protein_analysis_workflow.py",
+      "size": 13299
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "66d870748828d8d83332b7135bd22e7f797c94222f8d4bf665ebc85a4d16a373",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/bioservices",
+  "schema_version": 1
+}

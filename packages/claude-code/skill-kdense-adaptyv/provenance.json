@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-adaptyv/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "5de115067c118609dc096f9d582c687fdf331150e3f21c54eedb2ade24d12846",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-adaptyv/skills/adaptyv/SKILL.md",
+      "path": "skills/adaptyv/SKILL.md",
+      "size": 13479
+    },
+    {
+      "digest": "d613b0f33425ac4a2703c47c58773525cf5e850c0fde04f7d6eb0a7bddc3bdf3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-adaptyv/skills/adaptyv/references/api-endpoints.md",
+      "path": "skills/adaptyv/references/api-endpoints.md",
+      "size": 20548
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "634f91ab39a4fabdd557a786816e83c7eb135085f2e2d30994ca37e6f71803d8",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/adaptyv",
+  "schema_version": 1
+}

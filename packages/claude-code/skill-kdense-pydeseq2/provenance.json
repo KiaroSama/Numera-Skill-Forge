@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "f06a9f5ece540c05bd8a8208bb3970d000b13cb1032abc9488cfbfe6106cd843",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/SKILL.md",
+      "path": "skills/pydeseq2/SKILL.md",
+      "size": 10507
+    },
+    {
+      "digest": "de25b02590029166c9e22d845f6b194ddbc1f66ef8dfd4a99bffa54186e61894",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/references/analysis_patterns.md",
+      "path": "skills/pydeseq2/references/analysis_patterns.md",
+      "size": 5188
+    },
+    {
+      "digest": "8f60f7302417b8c094e3e716c1435aea4ebff556c3e90fe389dc0f5bb8509f75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/references/api_reference.md",
+      "path": "skills/pydeseq2/references/api_reference.md",
+      "size": 8990
+    },
+    {
+      "digest": "af01451d1ed181f7d0194e28a0ece6ee16bdc5896f463f9b245eff8b47fd2a78",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/references/core_workflow_steps.md",
+      "path": "skills/pydeseq2/references/core_workflow_steps.md",
+      "size": 3493
+    },
+    {
+      "digest": "abcb6571119c4aa1611e959a8d780f76b0036b6da0f90277e2cba66ab7cd83c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/references/workflow_guide.md",
+      "path": "skills/pydeseq2/references/workflow_guide.md",
+      "size": 9179
+    },
+    {
+      "digest": "d99ee5d170fdeea2f80ab3282a9a5fff6e4bf7c3f784af5a4cc4211b1ab2b622",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydeseq2/skills/pydeseq2/scripts/run_deseq2_analysis.py",
+      "path": "skills/pydeseq2/scripts/run_deseq2_analysis.py",
+      "size": 17909
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9c2d12eef648c315a700fdfa1acddf82f71f3f5cabdc54f2f3881457fc9f8875",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pydeseq2",
+  "schema_version": 1
+}

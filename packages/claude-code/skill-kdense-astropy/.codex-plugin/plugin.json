@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/astropy",
+  "license": "MIT",
+  "name": "skill-kdense-astropy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

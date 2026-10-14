@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scvelo",
+  "license": "MIT",
+  "name": "skill-kdense-scvelo",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

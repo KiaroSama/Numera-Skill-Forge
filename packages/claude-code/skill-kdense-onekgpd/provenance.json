@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "6a7c0a90c42e899e818de866e843cf60d5434422fa69b910a7db9a06f25240e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/SKILL.md",
+      "path": "skills/onekgpd/SKILL.md",
+      "size": 22564
+    },
+    {
+      "digest": "51bce468b9c339e658305376ae338eac7912ac4b8ab31982f9ca640502b49e26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/assets/kgpe.json",
+      "path": "skills/onekgpd/assets/kgpe.json",
+      "size": 1037258
+    },
+    {
+      "digest": "be522e766f3be9c43edb3b1ab7f5a95898655278b3cb2acd93ac51d51756140e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/references/annotation_vocabularies.md",
+      "path": "skills/onekgpd/references/annotation_vocabularies.md",
+      "size": 4777
+    },
+    {
+      "digest": "d366798dca52a588fc990b2ab256024c1ce1a174f99f499474c538524fac26b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/references/onekgpd_commands.md",
+      "path": "skills/onekgpd/references/onekgpd_commands.md",
+      "size": 18164
+    },
+    {
+      "digest": "0f64544eed720953dbce6fb4c391d81aa4c16a62b8a360a639848717361119ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/scripts/onekgpd_api.py",
+      "path": "skills/onekgpd/scripts/onekgpd_api.py",
+      "size": 32584
+    },
+    {
+      "digest": "177360630b7e8238da40a6c94ad56ca049aec1fe804780a577c3f1ae6ff98cb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-onekgpd/skills/onekgpd/scripts/onekgpd_meta.py",
+      "path": "skills/onekgpd/scripts/onekgpd_meta.py",
+      "size": 19389
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "89bb241e7034f48ec3edc71139eb2adb9e69cb014f208292b15f26548425918c",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/onekgpd",
+  "schema_version": 1
+}

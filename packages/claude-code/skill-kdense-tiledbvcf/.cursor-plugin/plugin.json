@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/tiledbvcf",
+  "license": "MIT",
+  "name": "skill-kdense-tiledbvcf",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

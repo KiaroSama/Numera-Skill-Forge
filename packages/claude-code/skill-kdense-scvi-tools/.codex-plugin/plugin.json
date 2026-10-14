@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/scvi-tools",
+  "license": "MIT",
+  "name": "skill-kdense-scvi-tools",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

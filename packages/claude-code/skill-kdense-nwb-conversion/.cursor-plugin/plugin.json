@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/nwb-conversion",
+  "license": "MIT",
+  "name": "skill-kdense-nwb-conversion",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "aae219831d92984eb6584831f77509cb8650a3986e8c42474aaa4d118ce080a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/SKILL.md",
+      "path": "skills/arbor/SKILL.md",
+      "size": 17075
+    },
+    {
+      "digest": "dd9d477f57b0d64d6d7f722af53c2083cb0b30f8032162400203135b0bd701c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/references/arbor-upstream.md",
+      "path": "skills/arbor/references/arbor-upstream.md",
+      "size": 5860
+    },
+    {
+      "digest": "eb84693b720cf6755cdf588975b41f225c472ddbad0be4428e823be590c5dc4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/references/executor-brief.md",
+      "path": "skills/arbor/references/executor-brief.md",
+      "size": 3224
+    },
+    {
+      "digest": "9cc02ce21b7ae3ef3ae49fd1f3542a608c0700e1b2dcaa01ea6ed443f10d3f92",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/references/htr-methodology.md",
+      "path": "skills/arbor/references/htr-methodology.md",
+      "size": 11061
+    },
+    {
+      "digest": "9075875e03c82dba2c6a7357476c8f096312e896975c09755f1259fddd2c711a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/references/report-template.md",
+      "path": "skills/arbor/references/report-template.md",
+      "size": 1816
+    },
+    {
+      "digest": "100045de01ba20c5fa60785701444a000f57499b6dbe2715cabef6d76d6b8c1d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-arbor/skills/arbor/scripts/tree.py",
+      "path": "skills/arbor/scripts/tree.py",
+      "size": 24457
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f04dc8139785bb8d7f42b7adde9fa490925c32d68749fe4c4721ad124fa9cabf",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/arbor",
+  "schema_version": 1
+}

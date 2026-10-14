@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/SKILL.md",
+      "path": "skills/statistical-analysis/SKILL.md",
+      "size": 23585
+    },
+    {
+      "digest": "6e1ebc110c092845b93e5c6d28f38c8a990780105ba1865f0bd47c007620b073",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/references/assumptions_and_diagnostics.md",
+      "path": "skills/statistical-analysis/references/assumptions_and_diagnostics.md",
+      "size": 14654
+    },
+    {
+      "digest": "34d62e1b20dd82a11497be40e07c93e4fdb555d56e4944e200f881c1b7629cbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/references/bayesian_statistics.md",
+      "path": "skills/statistical-analysis/references/bayesian_statistics.md",
+      "size": 14557
+    },
+    {
+      "digest": "5e1321c9058b2931a1bd2a753c7a8f4295f58274412d62e99a34eabd478e42b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/references/effect_sizes_and_power.md",
+      "path": "skills/statistical-analysis/references/effect_sizes_and_power.md",
+      "size": 20907
+    },
+    {
+      "digest": "0a30a1bec63231c94c9c285977acaa4218c50a34c8385857d18f62c61ac817b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/references/reporting_standards.md",
+      "path": "skills/statistical-analysis/references/reporting_standards.md",
+      "size": 21469
+    },
+    {
+      "digest": "e72e00b6ebe9450e5e84849503db223c4908a8d9a68c3b87cf0ab8ec3254fe83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/references/test_selection_guide.md",
+      "path": "skills/statistical-analysis/references/test_selection_guide.md",
+      "size": 6950
+    },
+    {
+      "digest": "3e37a4e04407b5f040f103962ed0e73935d114d3892ee45b5a06a1da42c10341",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-statistical-analysis/skills/statistical-analysis/scripts/assumption_checks.py",
+      "path": "skills/statistical-analysis/scripts/assumption_checks.py",
+      "size": 18387
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bdf3e4cd6bb583b4002f4f8794a6e79899a3a97ab29a013a1386021f498c3ec1",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/statistical-analysis",
+  "schema_version": 1
+}

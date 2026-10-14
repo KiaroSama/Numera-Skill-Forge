@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/qiime2-amplicon",
+  "license": "MIT",
+  "name": "skill-kdense-qiime2-amplicon",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

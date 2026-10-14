@@ -30,6 +30,13 @@ Examples used below:
   Read the [original requirements and authorized-use scope](https://github.com/newliver666/apk-reverse#requirements)
   before execution; packaging/discovery is not an APK analysis or device test.
 
+K-Dense packages use `skill-kdense-<original-name>` for all177 original skills, for example
+`skill-kdense-statistical-analysis`. Substitute that package ID in the native or standalone
+commands below. This is an independent collection; updates retain existing content-review gates.
+Original scientific dependencies/services remain optional external prerequisites. Same-name skills
+from other sources are not renamed or overwritten; use separate standalone destinations or the
+host's supported plugin namespaces. A metadata limit on a particular host remains an explicit refusal.
+
 The REA analysis engines/MCP server and third-party commercial tools are not installed by this guide.
 Some other packages likewise require external tools or services; inspect their original instructions
 before enabling them. Public availability is not blanket execution authorization.

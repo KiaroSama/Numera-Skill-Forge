@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "115b5418f7c42748918eed922b78010c795920b276063b8b759802eb0172d5de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/SKILL.md",
+      "path": "skills/benchling-integration/SKILL.md",
+      "size": 8533
+    },
+    {
+      "digest": "3e36448c905777440689a54cc8667fe58fd40553deb39e5466af90d214a73d20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/references/api_endpoints.md",
+      "path": "skills/benchling-integration/references/api_endpoints.md",
+      "size": 13946
+    },
+    {
+      "digest": "3cadedf79a54997708f838e0342463b2e53457d80cd566e1b8d83fa875c9ed5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/references/authentication.md",
+      "path": "skills/benchling-integration/references/authentication.md",
+      "size": 6425
+    },
+    {
+      "digest": "f1e886764a21a46f6d22fce0b13efc8728f56a97303e8126151d87ab2be432f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/references/core_capabilities.md",
+      "path": "skills/benchling-integration/references/core_capabilities.md",
+      "size": 5073
+    },
+    {
+      "digest": "6cf423ddd027f90909b336d178b1c35db4f79fdda9b373d0b827cfd7fd8c4e6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/references/eventbridge.md",
+      "path": "skills/benchling-integration/references/eventbridge.md",
+      "size": 10098
+    },
+    {
+      "digest": "32bef847f715376d97e47fe2938402c6b2c9f7d4d626ee1d9dae6f206b1da56e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-benchling-integration/skills/benchling-integration/references/sdk_reference.md",
+      "path": "skills/benchling-integration/references/sdk_reference.md",
+      "size": 12366
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "abb446431584d71ebe37383ae65bc189adcee01ae309cbc6ff3a86459ad78b43",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/benchling-integration",
+  "schema_version": 1
+}

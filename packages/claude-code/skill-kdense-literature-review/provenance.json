@@ -1,0 +1,103 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/SKILL.md",
+      "path": "skills/literature-review/SKILL.md",
+      "size": 12869
+    },
+    {
+      "digest": "08671516976d01a7004f8ae7c944a50c253877504720c15d5fa24eed90889819",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/assets/review_template.md",
+      "path": "skills/literature-review/assets/review_template.md",
+      "size": 13769
+    },
+    {
+      "digest": "2a50e43b18c2fff781e04406deb66186ba8f91ed28af32004aba63c63dcc1789",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/references/citation_styles.md",
+      "path": "skills/literature-review/references/citation_styles.md",
+      "size": 7627
+    },
+    {
+      "digest": "4d63f1087c98efeec7c7bf622bed6e0456a9c7c3defe584995917f2de6f2c601",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/references/core_workflow.md",
+      "path": "skills/literature-review/references/core_workflow.md",
+      "size": 11876
+    },
+    {
+      "digest": "24b56cd88128a9016520ed6b5e2abb79e19dc9b86cbf064927e9056aa1504f48",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/references/database_strategies.md",
+      "path": "skills/literature-review/references/database_strategies.md",
+      "size": 10431
+    },
+    {
+      "digest": "86336c42f78ff282430a6cdd2282a99562cc9d5e46b62e70a33bd839f9ab726a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/references/example_workflow.md",
+      "path": "skills/literature-review/references/example_workflow.md",
+      "size": 3078
+    },
+    {
+      "digest": "f33d671351989ee86066b9a21bdbf630a1f60001ada92fda4c942006d37b74fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/references/search_and_citation.md",
+      "path": "skills/literature-review/references/search_and_citation.md",
+      "size": 4685
+    },
+    {
+      "digest": "0ba1b16b196b64d4966e5f055a289f0c17e3579a84254abe47ff63be95b4f136",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/scripts/generate_pdf.py",
+      "path": "skills/literature-review/scripts/generate_pdf.py",
+      "size": 4990
+    },
+    {
+      "digest": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/scripts/generate_schematic.py",
+      "path": "skills/literature-review/scripts/generate_schematic.py",
+      "size": 7782
+    },
+    {
+      "digest": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/scripts/generate_schematic_ai.py",
+      "path": "skills/literature-review/scripts/generate_schematic_ai.py",
+      "size": 35684
+    },
+    {
+      "digest": "76f47fd18ca28df4985ffc6d30d5ad659e67c8058bb3de8f385c2443752f4eaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/scripts/search_databases.py",
+      "path": "skills/literature-review/scripts/search_databases.py",
+      "size": 8769
+    },
+    {
+      "digest": "4c8e8377718ddd47e9cd7cef706935b04910af5d13bfd920970dcf41d4ef3706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-literature-review/skills/literature-review/scripts/verify_citations.py",
+      "path": "skills/literature-review/scripts/verify_citations.py",
+      "size": 9960
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1a1ab7d34fb026e6cf68fbe63fc50e956142db49ad32f2e740a6c20ec858842",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/literature-review",
+  "schema_version": 1
+}

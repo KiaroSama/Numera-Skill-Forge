@@ -1,0 +1,271 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "0d7c821b7857a4a761805e1a8263920a37f181658f77f1397755df0e14125022",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/SKILL.md",
+      "path": "skills/clinical-reports/SKILL.md",
+      "size": 15881
+    },
+    {
+      "digest": "d28e793502d20756858b86304cd664ea932f922fc2ce15e73d3fd38eea5d05a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/adverse_event_aggregate_input_template.csv",
+      "path": "skills/clinical-reports/assets/adverse_event_aggregate_input_template.csv",
+      "size": 120
+    },
+    {
+      "digest": "b08c7084fb66a80033bd114fc7bd87e0853156f5e8a2eb02357c71654d26567c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/case_report_template.json",
+      "path": "skills/clinical-reports/assets/case_report_template.json",
+      "size": 2178
+    },
+    {
+      "digest": "f025ada53650588f8cd66bb87b8b260805246ed66f599b64bcb262532d232be4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/clinical_trial_csr_template.json",
+      "path": "skills/clinical-reports/assets/clinical_trial_csr_template.json",
+      "size": 2713
+    },
+    {
+      "digest": "2342c7e489124ba9c6110946d62903919b0120b1b0d677db920cb2dae324f0e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/clinical_trial_results_template.json",
+      "path": "skills/clinical-reports/assets/clinical_trial_results_template.json",
+      "size": 3873
+    },
+    {
+      "digest": "6403eff51668ff4274b5c1e337fc0e64ba0488ac276efda51c4cd28b420b7726",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/clinical_trial_safety_aggregate_template.json",
+      "path": "skills/clinical-reports/assets/clinical_trial_safety_aggregate_template.json",
+      "size": 1481
+    },
+    {
+      "digest": "30bf445c794ee38d5a85d61f2290c7a546ceb504f151f15d58a273f2e33777c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/consistency_manifest_template.json",
+      "path": "skills/clinical-reports/assets/consistency_manifest_template.json",
+      "size": 531
+    },
+    {
+      "digest": "1d0223a18469528c6435665a91a4657dad2683fc78c4080d8d3ed99ced0a34cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/deidentification_process_checklist.json",
+      "path": "skills/clinical-reports/assets/deidentification_process_checklist.json",
+      "size": 2130
+    },
+    {
+      "digest": "824772a0aaa82b5121ea1831ef8d30363385ee58dbaae2d941acbfd69a09588d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/lab_report_template.json",
+      "path": "skills/clinical-reports/assets/lab_report_template.json",
+      "size": 1700
+    },
+    {
+      "digest": "d60cb27468ff92ae781ea43b32c15d0d9b6e827007a2809ac00d1c7a1bb30453",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/pathology_report_template.json",
+      "path": "skills/clinical-reports/assets/pathology_report_template.json",
+      "size": 1751
+    },
+    {
+      "digest": "922c54f9537dc75f7a9135f50b3122c8d3ed04d1a040ca5ddcd5545992b99f85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/provenance_manifest_template.json",
+      "path": "skills/clinical-reports/assets/provenance_manifest_template.json",
+      "size": 560
+    },
+    {
+      "digest": "d62be830245346550ce10e7e4a4e5c12d7fcb0e3aa5a21d262ebcfa490340527",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/quality_review_checklist.json",
+      "path": "skills/clinical-reports/assets/quality_review_checklist.json",
+      "size": 1691
+    },
+    {
+      "digest": "34f018e29022fe5bf486a6b3bc1de71eadd04e6e7342e15fb6b76c7d7856cf0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/radiology_report_template.json",
+      "path": "skills/clinical-reports/assets/radiology_report_template.json",
+      "size": 1585
+    },
+    {
+      "digest": "bc9bace965fb886bd7e2a4077b5aa0f5b0902adf9983404371c595a1dbbd0ec2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/research_summary_template.json",
+      "path": "skills/clinical-reports/assets/research_summary_template.json",
+      "size": 1606
+    },
+    {
+      "digest": "d626a49f96216842516a9a41f94576a4dc77b7fcc350374904e298d01f2766e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/terminology_manifest_template.json",
+      "path": "skills/clinical-reports/assets/terminology_manifest_template.json",
+      "size": 426
+    },
+    {
+      "digest": "01a43c4b5ef47b39f1ac669b0acfd0a4a440a689b9f8569c68247c0d2a4413d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/assets/trial_protocol_reporting_checklist.json",
+      "path": "skills/clinical-reports/assets/trial_protocol_reporting_checklist.json",
+      "size": 4261
+    },
+    {
+      "digest": "2cd68e02b437680226eefc9679bc7c2c597dee62308dfbfd50a697b471953780",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/README.md",
+      "path": "skills/clinical-reports/references/README.md",
+      "size": 2302
+    },
+    {
+      "digest": "dbd1c6fb510370fba97fe44f7fa59ce2f5ddb2aef0c43c374b4ac7a2ca4e6426",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/case_report_guidelines.md",
+      "path": "skills/clinical-reports/references/case_report_guidelines.md",
+      "size": 3413
+    },
+    {
+      "digest": "f63628f7ef58df8cd6fedabdca8a79c61e7d19b73e28c356f4eeb3a05e32dfd2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/clinical_trial_reporting.md",
+      "path": "skills/clinical-reports/references/clinical_trial_reporting.md",
+      "size": 5457
+    },
+    {
+      "digest": "618c96d9b66f9cd08c75eaf45f5276742d3359f4fbc205837772ae7554f9db50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/data_presentation.md",
+      "path": "skills/clinical-reports/references/data_presentation.md",
+      "size": 4173
+    },
+    {
+      "digest": "914f5378765151ea19bf50774b41145c58c8007e6cb760ecf67b07fd9bc37890",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/diagnostic_reports_standards.md",
+      "path": "skills/clinical-reports/references/diagnostic_reports_standards.md",
+      "size": 4379
+    },
+    {
+      "digest": "180cb8b73456469e71f3a226b33473fc4457f971a71c8f61701bfe15be167dfd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/medical_terminology.md",
+      "path": "skills/clinical-reports/references/medical_terminology.md",
+      "size": 4273
+    },
+    {
+      "digest": "4a9550d7ecdf4816d81ba739af390c0d7825fdfae5cea54a05e3f208426e69db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/privacy_and_deidentification.md",
+      "path": "skills/clinical-reports/references/privacy_and_deidentification.md",
+      "size": 4917
+    },
+    {
+      "digest": "6c1a07e178e7961fcc95554790f61e7fead5eb42d2dfd103fe6fcfc089899ebf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/professional_review.md",
+      "path": "skills/clinical-reports/references/professional_review.md",
+      "size": 4280
+    },
+    {
+      "digest": "1f18e45b18217b16b868b37c630f7e8e705a991dad83b9b3b16712f2ecc54e63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/report_type_routing.md",
+      "path": "skills/clinical-reports/references/report_type_routing.md",
+      "size": 4494
+    },
+    {
+      "digest": "f0673893fc7e2582024b15b1c679922f77f8151b3755b5baf1858bda0bb9adab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/safety_reporting.md",
+      "path": "skills/clinical-reports/references/safety_reporting.md",
+      "size": 6971
+    },
+    {
+      "digest": "c5762414cad788333283f78409cb94bf62e044fca54393f1a746fc1b1277d1c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/references/sources.md",
+      "path": "skills/clinical-reports/references/sources.md",
+      "size": 11026
+    },
+    {
+      "digest": "6c652a6e24325d3a20f35dddd206c26dfebbef2bfc4f9d81964472143098e3e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/_common.py",
+      "path": "skills/clinical-reports/scripts/_common.py",
+      "size": 9679
+    },
+    {
+      "digest": "6f08dc71b53262ce4ec0a9c194a6cb54e69f520434f28f201a97208c33980420",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/check_deidentification.py",
+      "path": "skills/clinical-reports/scripts/check_deidentification.py",
+      "size": 10978
+    },
+    {
+      "digest": "95a70413800378946da045e6809263c2162dc9837fb109a6b02539009284e785",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/consistency_checker.py",
+      "path": "skills/clinical-reports/scripts/consistency_checker.py",
+      "size": 13697
+    },
+    {
+      "digest": "9e58981bb7eb825fb3d48071bf8873dbdcf7188a17771299ae5091a681b4c269",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/format_adverse_events.py",
+      "path": "skills/clinical-reports/scripts/format_adverse_events.py",
+      "size": 16369
+    },
+    {
+      "digest": "38adad4eeddd8651629f0c25e384e6e159d81dc251dc88e62f6f89e565eac9e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/generate_report_template.py",
+      "path": "skills/clinical-reports/scripts/generate_report_template.py",
+      "size": 4005
+    },
+    {
+      "digest": "776d3a980ee1932876cac1b56617d2b03c87cc2c565b556378c4e5bc3ffd9750",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/provenance_validator.py",
+      "path": "skills/clinical-reports/scripts/provenance_validator.py",
+      "size": 9399
+    },
+    {
+      "digest": "478bbea121d515d516301befad461a8a2f59889ae2efda7bf67c97ddeef57c16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/terminology_validator.py",
+      "path": "skills/clinical-reports/scripts/terminology_validator.py",
+      "size": 10286
+    },
+    {
+      "digest": "4e96fdb597e656a6d90cd306ad57b19eaf981bf909a082a421ab5482cdb3b988",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/validate_case_report.py",
+      "path": "skills/clinical-reports/scripts/validate_case_report.py",
+      "size": 9643
+    },
+    {
+      "digest": "5b0c7eb5e610e2b122a534944aff698d600c5b1ceac52f7a43ed45a425890644",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-clinical-reports/skills/clinical-reports/scripts/validate_trial_report.py",
+      "path": "skills/clinical-reports/scripts/validate_trial_report.py",
+      "size": 20351
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "56325d27f1326037f8df954ff28d18fe0a1373d3316ae44a87ec84975b2049ad",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/clinical-reports",
+  "schema_version": 1
+}

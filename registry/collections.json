@@ -8323,6 +8323,1256 @@
           "license_digest": "ed9f20bb2778d834ff8c66f7c61b345e7a88c25354845aed1555b445df188b1f"
         }
       ]
+    },
+    {
+      "id": "kdense-scientific-agent-skills",
+      "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "reviewed_revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "skills": [
+        {
+          "id": "skill-kdense-13c-metabolic-flux",
+          "root": "skills/13c-metabolic-flux",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-adaptyv",
+          "root": "skills/adaptyv",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-aeon",
+          "root": "skills/aeon",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-alphagenome",
+          "root": "skills/alphagenome",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-analytical-method-validation",
+          "root": "skills/analytical-method-validation",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-anndata",
+          "root": "skills/anndata",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-arbor",
+          "root": "skills/arbor",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-arboreto",
+          "root": "skills/arboreto",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-astropy",
+          "root": "skills/astropy",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-autoskill",
+          "root": "skills/autoskill",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-benchling-integration",
+          "root": "skills/benchling-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-bgpt-paper-search",
+          "root": "skills/bgpt-paper-search",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-bids",
+          "root": "skills/bids",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-biopython",
+          "root": "skills/biopython",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-bioservices",
+          "root": "skills/bioservices",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-bulk-rnaseq",
+          "root": "skills/bulk-rnaseq",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-cantera",
+          "root": "skills/cantera",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-cellprofiler",
+          "root": "skills/cellprofiler",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-cellxgene-census",
+          "root": "skills/cellxgene-census",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-cirq",
+          "root": "skills/cirq",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-citation-management",
+          "root": "skills/citation-management",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-clinical-decision-support",
+          "root": "skills/clinical-decision-support",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-clinical-reports",
+          "root": "skills/clinical-reports",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-cobrapy",
+          "root": "skills/cobrapy",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-consciousness-council",
+          "root": "skills/consciousness-council",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-dask",
+          "root": "skills/dask",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-database-lookup",
+          "root": "skills/database-lookup",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-datalad",
+          "root": "skills/datalad",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-datamol",
+          "root": "skills/datamol",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-deepchem",
+          "root": "skills/deepchem",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-deepspot-m",
+          "root": "skills/deepspot-m",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-deeptools",
+          "root": "skills/deeptools",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-depmap",
+          "root": "skills/depmap",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-dhdna-profiler",
+          "root": "skills/dhdna-profiler",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-diffdock",
+          "root": "skills/diffdock",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-dnanexus-integration",
+          "root": "skills/dnanexus-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-esm",
+          "root": "skills/esm",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-etetoolkit",
+          "root": "skills/etetoolkit",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-exa-search",
+          "root": "skills/exa-search",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-experimental-design",
+          "root": "skills/experimental-design",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-exploratory-data-analysis",
+          "root": "skills/exploratory-data-analysis",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-fictiv",
+          "root": "skills/fictiv",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-flowio",
+          "root": "skills/flowio",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-flowkit",
+          "root": "skills/flowkit",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-fluidsim",
+          "root": "skills/fluidsim",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-folklore-variant-evidence",
+          "root": "skills/folklore-variant-evidence",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-generate-image",
+          "root": "skills/generate-image",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-geniml",
+          "root": "skills/geniml",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-genomic-coordinates",
+          "root": "skills/genomic-coordinates",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-genomic-intelligence",
+          "root": "skills/genomic-intelligence",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-geomaster",
+          "root": "skills/geomaster",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-geopandas",
+          "root": "skills/geopandas",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-get-available-resources",
+          "root": "skills/get-available-resources",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-gget",
+          "root": "skills/gget",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-ginkgo-cloud-lab",
+          "root": "skills/ginkgo-cloud-lab",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-glycoengineering",
+          "root": "skills/glycoengineering",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-gtars",
+          "root": "skills/gtars",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-histolab",
+          "root": "skills/histolab",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-hugging-science",
+          "root": "skills/hugging-science",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-hypogenic",
+          "root": "skills/hypogenic",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-hypothesis-generation",
+          "root": "skills/hypothesis-generation",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-imaging-data-commons",
+          "root": "skills/imaging-data-commons",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-infographics",
+          "root": "skills/infographics",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-iso-standards-readiness",
+          "root": "skills/iso-standards-readiness",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-lab-hardware-cad",
+          "root": "skills/lab-hardware-cad",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-labarchive-integration",
+          "root": "skills/labarchive-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-lamindb",
+          "root": "skills/lamindb",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-latchbio-integration",
+          "root": "skills/latchbio-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-latex-posters",
+          "root": "skills/latex-posters",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-liteparse",
+          "root": "skills/liteparse",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-literature-review",
+          "root": "skills/literature-review",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-mageck",
+          "root": "skills/mageck",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-marine-carbonate-chemistry",
+          "root": "skills/marine-carbonate-chemistry",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-markdown-mermaid-writing",
+          "root": "skills/markdown-mermaid-writing",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-market-research-reports",
+          "root": "skills/market-research-reports",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-markitdown",
+          "root": "skills/markitdown",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-matchms",
+          "root": "skills/matchms",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-matlab",
+          "root": "skills/matlab",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-matplotlib",
+          "root": "skills/matplotlib",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-medchem",
+          "root": "skills/medchem",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-modal",
+          "root": "skills/modal",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+          "reviewed_documents": {
+            "skills/modal/references/secrets.md": "5eb31de31b1ad8efd9508bf525dbf732fcc2ff109c1b5b202b211e4fa672cfbb"
+          }
+        },
+        {
+          "id": "skill-kdense-molecular-dynamics",
+          "root": "skills/molecular-dynamics",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-molfeat",
+          "root": "skills/molfeat",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-ncats-arax",
+          "root": "skills/ncats-arax",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-networkx",
+          "root": "skills/networkx",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-neurokit2",
+          "root": "skills/neurokit2",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-neuropixels-analysis",
+          "root": "skills/neuropixels-analysis",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-nextflow",
+          "root": "skills/nextflow",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-nmrglue",
+          "root": "skills/nmrglue",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-nwb-conversion",
+          "root": "skills/nwb-conversion",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-omero-integration",
+          "root": "skills/omero-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-onekgpd",
+          "root": "skills/onekgpd",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-ontology-term-resolution",
+          "root": "skills/ontology-term-resolution",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-open-notebook",
+          "root": "skills/open-notebook",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-openpiv",
+          "root": "skills/openpiv",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-opentrons-integration",
+          "root": "skills/opentrons-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-optimize-for-gpu",
+          "root": "skills/optimize-for-gpu",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pacsomatic",
+          "root": "skills/pacsomatic",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-paper-lookup",
+          "root": "skills/paper-lookup",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-paperclip",
+          "root": "skills/paperclip",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-paperzilla",
+          "root": "skills/paperzilla",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-parallel-web",
+          "root": "skills/parallel-web",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pathml",
+          "root": "skills/pathml",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pathogen-variant-surveillance",
+          "root": "skills/pathogen-variant-surveillance",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pathway-enrichment",
+          "root": "skills/pathway-enrichment",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-peer-review",
+          "root": "skills/peer-review",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pennylane",
+          "root": "skills/pennylane",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-phylogenetics",
+          "root": "skills/phylogenetics",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pi-agent",
+          "root": "skills/pi-agent",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pkpd-modeling",
+          "root": "skills/pkpd-modeling",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-polars",
+          "root": "skills/polars",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-polars-bio",
+          "root": "skills/polars-bio",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pptx-posters",
+          "root": "skills/pptx-posters",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-primekg",
+          "root": "skills/primekg",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-primer-design",
+          "root": "skills/primer-design",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-protocolsio-integration",
+          "root": "skills/protocolsio-integration",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pufferlib",
+          "root": "skills/pufferlib",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pybamm",
+          "root": "skills/pybamm",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pycalphad",
+          "root": "skills/pycalphad",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pydeseq2",
+          "root": "skills/pydeseq2",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pydicom",
+          "root": "skills/pydicom",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pyhealth",
+          "root": "skills/pyhealth",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pylabrobot",
+          "root": "skills/pylabrobot",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pymatgen",
+          "root": "skills/pymatgen",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pymc",
+          "root": "skills/pymc",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pymoo",
+          "root": "skills/pymoo",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pyopenms",
+          "root": "skills/pyopenms",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pysam",
+          "root": "skills/pysam",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pytdc",
+          "root": "skills/pytdc",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pytorch-lightning",
+          "root": "skills/pytorch-lightning",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-pyzotero",
+          "root": "skills/pyzotero",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-qiime2-amplicon",
+          "root": "skills/qiime2-amplicon",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-qiskit",
+          "root": "skills/qiskit",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-qutip",
+          "root": "skills/qutip",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-rdkit",
+          "root": "skills/rdkit",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-relion",
+          "root": "skills/relion",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-relsa-severity-assessment",
+          "root": "skills/relsa-severity-assessment",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-research-grants",
+          "root": "skills/research-grants",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-research-lookup",
+          "root": "skills/research-lookup",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-rowan",
+          "root": "skills/rowan",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scanpy",
+          "root": "skills/scanpy",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scholar-evaluation",
+          "root": "skills/scholar-evaluation",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-brainstorming",
+          "root": "skills/scientific-brainstorming",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-critical-thinking",
+          "root": "skills/scientific-critical-thinking",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-schematics",
+          "root": "skills/scientific-schematics",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-slides",
+          "root": "skills/scientific-slides",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-visualization",
+          "root": "skills/scientific-visualization",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scientific-writing",
+          "root": "skills/scientific-writing",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scikit-bio",
+          "root": "skills/scikit-bio",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scikit-learn",
+          "root": "skills/scikit-learn",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scikit-survival",
+          "root": "skills/scikit-survival",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scvelo",
+          "root": "skills/scvelo",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-scvi-tools",
+          "root": "skills/scvi-tools",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-seaborn",
+          "root": "skills/seaborn",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-shap",
+          "root": "skills/shap",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-simpy",
+          "root": "skills/simpy",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-stable-baselines3",
+          "root": "skills/stable-baselines3",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-statistical-analysis",
+          "root": "skills/statistical-analysis",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-statistical-power",
+          "root": "skills/statistical-power",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-statsmodels",
+          "root": "skills/statsmodels",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-sympy",
+          "root": "skills/sympy",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-tamarind",
+          "root": "skills/tamarind",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-tellurium",
+          "root": "skills/tellurium",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-tiledbvcf",
+          "root": "skills/tiledbvcf",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-timesfm-forecasting",
+          "root": "skills/timesfm-forecasting",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-torch-geometric",
+          "root": "skills/torch-geometric",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-torchdrug",
+          "root": "skills/torchdrug",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-transformers",
+          "root": "skills/transformers",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-treatment-plans",
+          "root": "skills/treatment-plans",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-umap-learn",
+          "root": "skills/umap-learn",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-uncertainty-and-units",
+          "root": "skills/uncertainty-and-units",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-usfiscaldata",
+          "root": "skills/usfiscaldata",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-vaex",
+          "root": "skills/vaex",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-venue-templates",
+          "root": "skills/venue-templates",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-waypoint-bio",
+          "root": "skills/waypoint-bio",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-what-if-oracle",
+          "root": "skills/what-if-oracle",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        },
+        {
+          "id": "skill-kdense-zarr-python",
+          "root": "skills/zarr-python",
+          "license": "MIT",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+        }
+      ]
     }
   ]
 }

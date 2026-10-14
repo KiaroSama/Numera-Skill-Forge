@@ -1,0 +1,33 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dhdna-profiler/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "55cbc0e142ec3e6e6427c601391aeb38b8de6a83897082f46154f5c8273ccf50",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dhdna-profiler/skills/dhdna-profiler/SKILL.md",
+      "path": "skills/dhdna-profiler/SKILL.md",
+      "size": 11374
+    },
+    {
+      "digest": "b9cec781d2899e31092ef3cb6533922063a415a80d853a5da62e1406a6b46b3a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dhdna-profiler/skills/dhdna-profiler/references/advanced-profiling.md",
+      "path": "skills/dhdna-profiler/references/advanced-profiling.md",
+      "size": 4412
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "da8553332836efcf4e16f1d5e625b5b22c9fa476f9d32fa370fb98f77878cd65",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/dhdna-profiler",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/deeptools",
+  "license": "MIT",
+  "name": "skill-kdense-deeptools",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,208 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/SKILL.md",
+      "path": "skills/hypothesis-generation/SKILL.md",
+      "size": 16622
+    },
+    {
+      "digest": "1ec5cc4ada96e05041c67865bcdfd3bb0a4f7cc92f24ca1ce7a826028a41d3de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/evidence_ledger_template.csv",
+      "path": "skills/hypothesis-generation/assets/evidence_ledger_template.csv",
+      "size": 581
+    },
+    {
+      "digest": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/falsification_controls_template.json",
+      "path": "skills/hypothesis-generation/assets/falsification_controls_template.json",
+      "size": 5880
+    },
+    {
+      "digest": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/hypothesis_record_template.json",
+      "path": "skills/hypothesis-generation/assets/hypothesis_record_template.json",
+      "size": 13768
+    },
+    {
+      "digest": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/operationalization_template.json",
+      "path": "skills/hypothesis-generation/assets/operationalization_template.json",
+      "size": 2208
+    },
+    {
+      "digest": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+      "path": "skills/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+      "size": 1638
+    },
+    {
+      "digest": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/preregistration_scaffold_template.md",
+      "path": "skills/hypothesis-generation/assets/preregistration_scaffold_template.md",
+      "size": 5102
+    },
+    {
+      "digest": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/search_boundary_template.json",
+      "path": "skills/hypothesis-generation/assets/search_boundary_template.json",
+      "size": 1114
+    },
+    {
+      "digest": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/assets/source_ledger.csv",
+      "path": "skills/hypothesis-generation/assets/source_ledger.csv",
+      "size": 15163
+    },
+    {
+      "digest": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/causal_inference_and_claims.md",
+      "path": "skills/hypothesis-generation/references/causal_inference_and_claims.md",
+      "size": 7993
+    },
+    {
+      "digest": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "path": "skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "size": 7341
+    },
+    {
+      "digest": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+      "path": "skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+      "size": 10507
+    },
+    {
+      "digest": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "path": "skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "size": 9765
+    },
+    {
+      "digest": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "path": "skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "size": 8035
+    },
+    {
+      "digest": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/literature_search_strategies.md",
+      "path": "skills/hypothesis-generation/references/literature_search_strategies.md",
+      "size": 8046
+    },
+    {
+      "digest": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/preregistration_and_open_science.md",
+      "path": "skills/hypothesis-generation/references/preregistration_and_open_science.md",
+      "size": 7751
+    },
+    {
+      "digest": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/security_validation.md",
+      "path": "skills/hypothesis-generation/references/security_validation.md",
+      "size": 4199
+    },
+    {
+      "digest": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/source_ledger.md",
+      "path": "skills/hypothesis-generation/references/source_ledger.md",
+      "size": 10009
+    },
+    {
+      "digest": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/references/tool_reference.md",
+      "path": "skills/hypothesis-generation/references/tool_reference.md",
+      "size": 8397
+    },
+    {
+      "digest": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/_common.py",
+      "path": "skills/hypothesis-generation/scripts/_common.py",
+      "size": 15316
+    },
+    {
+      "digest": "18fc0a947fec34ea573eb824f540ce6ccb351aed5e08fc80ae476c2150aef2bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/audit_evidence_ledger.py",
+      "path": "skills/hypothesis-generation/scripts/audit_evidence_ledger.py",
+      "size": 12069
+    },
+    {
+      "digest": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/check_falsification_controls.py",
+      "path": "skills/hypothesis-generation/scripts/check_falsification_controls.py",
+      "size": 16477
+    },
+    {
+      "digest": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/check_operationalization.py",
+      "path": "skills/hypothesis-generation/scripts/check_operationalization.py",
+      "size": 8086
+    },
+    {
+      "digest": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+      "path": "skills/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+      "size": 14287
+    },
+    {
+      "digest": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/lint_causal_claims.py",
+      "path": "skills/hypothesis-generation/scripts/lint_causal_claims.py",
+      "size": 6809
+    },
+    {
+      "digest": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+      "path": "skills/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+      "size": 38955
+    },
+    {
+      "digest": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-hypothesis-generation/skills/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "path": "skills/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "size": 9815
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "389688ac498ec33bddd183854a7d5dd2a9ceccc0e269197e1a6f5b91355d1019",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/hypothesis-generation",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/waypoint-bio",
+  "license": "MIT",
+  "name": "skill-kdense-waypoint-bio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

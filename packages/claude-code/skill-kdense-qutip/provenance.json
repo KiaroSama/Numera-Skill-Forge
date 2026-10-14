@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "6b93a95eb586147b2f1639f7e669dece3182ab4ddd70b1200291073cfd533902",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/SKILL.md",
+      "path": "skills/qutip/SKILL.md",
+      "size": 14760
+    },
+    {
+      "digest": "6bae64070a4fd32fede375195cb683e0bce83742bad1cc3f897c1af0a7f01aff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/references/advanced.md",
+      "path": "skills/qutip/references/advanced.md",
+      "size": 15766
+    },
+    {
+      "digest": "201b508d50710335baa003eb68dadf7f3fe4df33917f09eb1548ed72be1f08a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/references/analysis.md",
+      "path": "skills/qutip/references/analysis.md",
+      "size": 10738
+    },
+    {
+      "digest": "3bc5c10f7b45faed6b00c048d623b4b1f6e35e9bd9dc99d3613c4cba0ee8005b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/references/core_concepts.md",
+      "path": "skills/qutip/references/core_concepts.md",
+      "size": 8483
+    },
+    {
+      "digest": "c0fa5ea2761199d717263f35da99594c2d957efacfa188123d0c58296d43ab6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/references/time_evolution.md",
+      "path": "skills/qutip/references/time_evolution.md",
+      "size": 13786
+    },
+    {
+      "digest": "67d2574601532432d9b408c02ff68960e2ccce113a1d444efe6a31058e524216",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/references/visualization.md",
+      "path": "skills/qutip/references/visualization.md",
+      "size": 8997
+    },
+    {
+      "digest": "b640dffc8b93b85a4c2517c20d6c56e978d2aac51d7b51f4b32dc6e3453cf15f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/_common.py",
+      "path": "skills/qutip/scripts/_common.py",
+      "size": 12072
+    },
+    {
+      "digest": "d341087e7d208b77e4b1ae180edf50401f0d11b1612a3e3598d5c51231cc8364",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/convergence_sweep.py",
+      "path": "skills/qutip/scripts/convergence_sweep.py",
+      "size": 12418
+    },
+    {
+      "digest": "a3bb7107d245a6d62a1801b32113a2c9049f5d18a6f0412857d7fed1c67af150",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/qobj_model_validator.py",
+      "path": "skills/qutip/scripts/qobj_model_validator.py",
+      "size": 10979
+    },
+    {
+      "digest": "bba4e5758def41038a5ceb7ff8e8847504412b4396d7ceed2a96551b647759cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/result_audit.py",
+      "path": "skills/qutip/scripts/result_audit.py",
+      "size": 12463
+    },
+    {
+      "digest": "cb13608330d321c904e1d0945d5a7fb655ab5c26aa7cb54979dd9f3b108db81f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/solver_config_planner.py",
+      "path": "skills/qutip/scripts/solver_config_planner.py",
+      "size": 11165
+    },
+    {
+      "digest": "9fbc4016d1e636a49133d5a8ab585e70aef791a5390ef1e8e644ea9d9cd57cac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/steady_state_spectrum_planner.py",
+      "path": "skills/qutip/scripts/steady_state_spectrum_planner.py",
+      "size": 7981
+    },
+    {
+      "digest": "3e6419783c29146b95f5efbc60960f14c1d98dc63ab81b8f44ce34a0ece99f03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-qutip/skills/qutip/scripts/two_level_simulation.py",
+      "path": "skills/qutip/scripts/two_level_simulation.py",
+      "size": 13224
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9eb72a33f0cb2121c08503fc93045683460bd2a9a2ab79712bdd0983a4dabbaa",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/qutip",
+  "schema_version": 1
+}

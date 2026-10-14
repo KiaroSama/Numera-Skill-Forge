@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/imaging-data-commons",
+  "license": "MIT",
+  "name": "skill-kdense-imaging-data-commons",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

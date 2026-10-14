@@ -1,0 +1,54 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "8cdedf5648783a209593ff91024f43bd8d8e066b03f0a72a6cf36d90e1650204",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/skills/exa-search/SKILL.md",
+      "path": "skills/exa-search/SKILL.md",
+      "size": 6370
+    },
+    {
+      "digest": "76a640173685c54e59390de78d3201ec8004868e883ffe38ca919b38f6ab73e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/skills/exa-search/references/web-extract.md",
+      "path": "skills/exa-search/references/web-extract.md",
+      "size": 3441
+    },
+    {
+      "digest": "bec3632bb485083223a9868bcb4b04a6374fca3627c9c8e642d9de3356036acb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/skills/exa-search/references/web-search.md",
+      "path": "skills/exa-search/references/web-search.md",
+      "size": 6646
+    },
+    {
+      "digest": "1fad25a9a501944c07ed95a8df06bbf6c0e71819522738362a2337ee5ac0611b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/skills/exa-search/scripts/exa_extract.py",
+      "path": "skills/exa-search/scripts/exa_extract.py",
+      "size": 4524
+    },
+    {
+      "digest": "0775f747cedd26abf165e008482523dc8edde652ac6d2e27410c05c244e8789e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-exa-search/skills/exa-search/scripts/exa_search.py",
+      "path": "skills/exa-search/scripts/exa_search.py",
+      "size": 6577
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c018cae1a79e1747ae1b023541ba3a3aa890f8b68ffe690c570457b33854e5dd",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/exa-search",
+  "schema_version": 1
+}

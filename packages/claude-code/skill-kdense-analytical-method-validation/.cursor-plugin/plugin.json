@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/analytical-method-validation",
+  "license": "MIT",
+  "name": "skill-kdense-analytical-method-validation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

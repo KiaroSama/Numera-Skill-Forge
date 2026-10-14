@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pybamm",
+  "license": "MIT",
+  "name": "skill-kdense-pybamm",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

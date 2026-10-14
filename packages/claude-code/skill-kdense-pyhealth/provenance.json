@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "ec4de54618b71a4f8cfeb086d131c610127784a6839d842a67b3c1e87b66e161",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/SKILL.md",
+      "path": "skills/pyhealth/SKILL.md",
+      "size": 8227
+    },
+    {
+      "digest": "c355fa4eb7f421370d43e01b655697fbb769aa60237fb8bf4a9ae120c16daaca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/assets/starter_pipeline.py",
+      "path": "skills/pyhealth/assets/starter_pipeline.py",
+      "size": 3870
+    },
+    {
+      "digest": "009e3a36e26a9845cefedf74f013efb23e6e31efae408a59b02b49c34f2e0549",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/datasets.md",
+      "path": "skills/pyhealth/references/datasets.md",
+      "size": 5343
+    },
+    {
+      "digest": "d2f16cd19a087619810c0dc3fb9c1ce635b5c67a0bb01ec16811d0097b61b225",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/examples.md",
+      "path": "skills/pyhealth/references/examples.md",
+      "size": 7099
+    },
+    {
+      "digest": "f07c89c78ff3cc003348b5c50375b45d89bdec28eaa0f9c0fc43a0dac0681be7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/installation.md",
+      "path": "skills/pyhealth/references/installation.md",
+      "size": 4524
+    },
+    {
+      "digest": "2e3d3d98e21206e94dd924ce896c3c683a581c03d115a8bbc4c41c7e09d34387",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/medcode.md",
+      "path": "skills/pyhealth/references/medcode.md",
+      "size": 3645
+    },
+    {
+      "digest": "303822a66f67071105de616d51c5734a03400a5c38889b091f660cc40d29f2a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/models.md",
+      "path": "skills/pyhealth/references/models.md",
+      "size": 5888
+    },
+    {
+      "digest": "5848475335ca255fb2308f0bdcf816191506fb15016b07a47e267ca71734b6fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pyhealth/skills/pyhealth/references/tasks.md",
+      "path": "skills/pyhealth/references/tasks.md",
+      "size": 6610
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "32e30747459c1aea3ca36fa87cb9ed29ee44a2dbdf47cbd8f526e7675c5bf1e9",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pyhealth",
+  "schema_version": 1
+}

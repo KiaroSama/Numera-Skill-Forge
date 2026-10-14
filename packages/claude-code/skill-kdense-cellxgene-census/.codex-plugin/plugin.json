@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/cellxgene-census",
+  "license": "MIT",
+  "name": "skill-kdense-cellxgene-census",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

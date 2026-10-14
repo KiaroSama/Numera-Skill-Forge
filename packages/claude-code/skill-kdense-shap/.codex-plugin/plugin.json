@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/shap",
+  "license": "MIT",
+  "name": "skill-kdense-shap",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,82 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "7cdcb756489ae8e94a73df1eebfb9abef554e912af6559ebd28dffa021ab63d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/SKILL.md",
+      "path": "skills/usfiscaldata/SKILL.md",
+      "size": 9626
+    },
+    {
+      "digest": "6f3d80a2d49dc28d41908274fb96efcc63242d0dcff6a5b369a4e9ec9a69d256",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/api-basics.md",
+      "path": "skills/usfiscaldata/references/api-basics.md",
+      "size": 3953
+    },
+    {
+      "digest": "4822640d01a464cba36ca344c112fe7ab00786085a86d5bb798c6e7e95f6f858",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/datasets-debt.md",
+      "path": "skills/usfiscaldata/references/datasets-debt.md",
+      "size": 7109
+    },
+    {
+      "digest": "64b10a2ee66781d6832dfb697a3d4b43d686d3f8ad74ddea46dc4659176bb8ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/datasets-fiscal.md",
+      "path": "skills/usfiscaldata/references/datasets-fiscal.md",
+      "size": 9620
+    },
+    {
+      "digest": "51504b8d7c6fa9d2481ca24446cb45a6216d291e93e4cc9ac6761cff25bec743",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/datasets-interest-rates.md",
+      "path": "skills/usfiscaldata/references/datasets-interest-rates.md",
+      "size": 7024
+    },
+    {
+      "digest": "96286113846f6d9cc64f76ba94c8a1fe79be60df63f613812cb0620bfe094bd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/datasets-securities.md",
+      "path": "skills/usfiscaldata/references/datasets-securities.md",
+      "size": 10148
+    },
+    {
+      "digest": "57cce4b3f3bc81431f0a8b6826b495953a4210199a86af09fd7edcf2a39413d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/examples.md",
+      "path": "skills/usfiscaldata/references/examples.md",
+      "size": 9702
+    },
+    {
+      "digest": "93b230c3d944fab0629e12709265d0b52f3b1afebf061928ae6d1b7183dc8a2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/parameters.md",
+      "path": "skills/usfiscaldata/references/parameters.md",
+      "size": 6692
+    },
+    {
+      "digest": "a8993a9b8d154ddd39801cae05b2e052366ea37bfafce4793a75b67fa1fb0ac1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-usfiscaldata/skills/usfiscaldata/references/response-format.md",
+      "path": "skills/usfiscaldata/references/response-format.md",
+      "size": 6093
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "84c89f98dcc50e191c8aa13b5d3bc78bbb050055591e9f785489a4eaa0cb653a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/usfiscaldata",
+  "schema_version": 1
+}

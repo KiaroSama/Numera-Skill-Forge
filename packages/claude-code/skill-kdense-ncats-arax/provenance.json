@@ -1,0 +1,47 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ncats-arax/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "f15f9f9a149a942ab1eaed0115879afa399249e261d7118a6d19e3da834ba74c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ncats-arax/skills/ncats-arax/SKILL.md",
+      "path": "skills/ncats-arax/SKILL.md",
+      "size": 9136
+    },
+    {
+      "digest": "232a1fdf71eb2c4003df645955dbe6ddf25f28dc6736c21eee60b356f7fb843c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ncats-arax/skills/ncats-arax/references/output-schema.md",
+      "path": "skills/ncats-arax/references/output-schema.md",
+      "size": 8388
+    },
+    {
+      "digest": "d71e099626584a0e35520373c15ddb962713b7cf4ad05062fe068f0d6658a8b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ncats-arax/skills/ncats-arax/references/query-contract.md",
+      "path": "skills/ncats-arax/references/query-contract.md",
+      "size": 7924
+    },
+    {
+      "digest": "575249824725c92a0c3f644910b2556734cde667cde39aa2f1e3baee255e5e18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-ncats-arax/skills/ncats-arax/scripts/arax_client.py",
+      "path": "skills/ncats-arax/scripts/arax_client.py",
+      "size": 85619
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91154d6639ef4af0a3197f8e858eb26cc1f4659c59ac41e226f3caecfed1948b",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/ncats-arax",
+  "schema_version": 1
+}

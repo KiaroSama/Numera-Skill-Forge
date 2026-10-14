@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/13c-metabolic-flux",
+  "license": "MIT",
+  "name": "skill-kdense-13c-metabolic-flux",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

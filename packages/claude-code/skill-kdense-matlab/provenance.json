@@ -1,0 +1,159 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "91afa6ec0f0b3797f51da62b79d44d00a32fcdf3690b9505e5987982a8e6d0e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/SKILL.md",
+      "path": "skills/matlab/SKILL.md",
+      "size": 16551
+    },
+    {
+      "digest": "3de6b01b3d463f5d170f19e3fd87d56477bbf65a64f98a7d237f40397026c225",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/assets/project_manifest_template.json",
+      "path": "skills/matlab/assets/project_manifest_template.json",
+      "size": 723
+    },
+    {
+      "digest": "38ece6da5c000727cbe04b8a7412a99c140699e72393dc2f93d7394b1c6c03ed",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/assets/python_compatibility_r2026a.json",
+      "path": "skills/matlab/assets/python_compatibility_r2026a.json",
+      "size": 786
+    },
+    {
+      "digest": "7f0ad44a30e7d502d92642fa1617e73fc8fb0e252a4de94dd529453f5eac287e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/assets/reproducibility_manifest_template.json",
+      "path": "skills/matlab/assets/reproducibility_manifest_template.json",
+      "size": 787
+    },
+    {
+      "digest": "bd1dc1deb4b717bd6dc079653faf63a84c49d4239adff36ddc2910ef7b4d5f88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/data-import-export.md",
+      "path": "skills/matlab/references/data-import-export.md",
+      "size": 9763
+    },
+    {
+      "digest": "5172a95879d65c04631e6f4eb0a619c70c01ddfb76639e3b72311f08aa953019",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/executing-scripts.md",
+      "path": "skills/matlab/references/executing-scripts.md",
+      "size": 10420
+    },
+    {
+      "digest": "0ea6b945ee31fcdc09168430c9aae28c00ee63b79a12800a70a7aabfd3799c33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/graphics-visualization.md",
+      "path": "skills/matlab/references/graphics-visualization.md",
+      "size": 7480
+    },
+    {
+      "digest": "04bb40d7dd604fe4fb24dea9686fc93bea658ab36abb24bfaca1c5a599b7b5d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/mathematics.md",
+      "path": "skills/matlab/references/mathematics.md",
+      "size": 8572
+    },
+    {
+      "digest": "54a6b56ea63093c01793c0b21c95e9d75316aca1bd476cd90d4b6573f1d5d3c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/matrices-arrays.md",
+      "path": "skills/matlab/references/matrices-arrays.md",
+      "size": 8485
+    },
+    {
+      "digest": "d18734d6e33065e7e18805ce95ecca40844a5723b6e618aa65fc973bad587bef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/octave-compatibility.md",
+      "path": "skills/matlab/references/octave-compatibility.md",
+      "size": 8523
+    },
+    {
+      "digest": "51b4df60afee7fd581d3e1b710ab577cc0ae5750ad244b4d09f1db632a0f85b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/programming.md",
+      "path": "skills/matlab/references/programming.md",
+      "size": 10891
+    },
+    {
+      "digest": "558fe145f4a38b4fdfe775b007def8643517aba8bb013ae73f9d972122ba5d5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/references/python-integration.md",
+      "path": "skills/matlab/references/python-integration.md",
+      "size": 10958
+    },
+    {
+      "digest": "efeb57fc631f5fa4bb8235821769858589999c7483fffa14408d1c0a7207ac5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/_common.py",
+      "path": "skills/matlab/scripts/_common.py",
+      "size": 8798
+    },
+    {
+      "digest": "cbbe38eff9e4e6ce2695db478d6de45df3736b04c6ba74618434cf853539947f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/generate_function_scaffold.py",
+      "path": "skills/matlab/scripts/generate_function_scaffold.py",
+      "size": 4955
+    },
+    {
+      "digest": "7eef24b9dff17c2072e41c513f5e3c330246f24ea9d069e430a3cd70f4feefa0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/inventory_mat_file.py",
+      "path": "skills/matlab/scripts/inventory_mat_file.py",
+      "size": 12537
+    },
+    {
+      "digest": "2c7ca14933f223f08620d76ad5fa3df834d4c986c267dc444d8dca2fbdf1b739",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/plan_batch_command.py",
+      "path": "skills/matlab/scripts/plan_batch_command.py",
+      "size": 9866
+    },
+    {
+      "digest": "8da20d413fceae86f8f90db1b0925858aead825ce3aafc35bb2baeb7cece1da6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/plan_python_compatibility.py",
+      "path": "skills/matlab/scripts/plan_python_compatibility.py",
+      "size": 6566
+    },
+    {
+      "digest": "2784ffe6acee2a90f554cba73bb1578b2e8408935a34749353e5bd2ceac3bde8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/reproducibility_report.py",
+      "path": "skills/matlab/scripts/reproducibility_report.py",
+      "size": 7966
+    },
+    {
+      "digest": "88b02dbf934db710d22a787b1fb45a0c0009dc6874dd379f5100fa0672f7b92b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/scan_m_code.py",
+      "path": "skills/matlab/scripts/scan_m_code.py",
+      "size": 13951
+    },
+    {
+      "digest": "21cdead6d2c246e345f7fc702a202600787557f0f8da37ebd072998d6cd122f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-matlab/skills/matlab/scripts/validate_project_manifest.py",
+      "path": "skills/matlab/scripts/validate_project_manifest.py",
+      "size": 12255
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "441c0554babdfc6072829b77b4f9d14c97dfa612678664d5699afda0d09d108a",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/matlab",
+  "schema_version": 1
+}

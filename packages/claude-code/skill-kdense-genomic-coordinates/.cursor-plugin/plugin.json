@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/genomic-coordinates",
+  "license": "MIT",
+  "name": "skill-kdense-genomic-coordinates",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

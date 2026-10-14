@@ -1,0 +1,131 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "6f4ff2992c4e2558837e2e09c39ed2bba140658755b22d046aab810ea2c90ca0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/.gitignore",
+      "path": "skills/autoskill/.gitignore",
+      "size": 34
+    },
+    {
+      "digest": "d7fc7db094649f5cd1ee6349110d78197166011e929aecd2d468e251b0542ecc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/SKILL.md",
+      "path": "skills/autoskill/SKILL.md",
+      "size": 16912
+    },
+    {
+      "digest": "3c3a726ea464df52472964dfc1e67a1adcc08f6e0e5ec60facdd681cbceb3276",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/config.yaml",
+      "path": "skills/autoskill/config.yaml",
+      "size": 2172
+    },
+    {
+      "digest": "7740d32a16705b888c03e14dce9dd69630b5e2601504a75de624a0a4fd549b75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/references/api-contracts.md",
+      "path": "skills/autoskill/references/api-contracts.md",
+      "size": 7579
+    },
+    {
+      "digest": "29c2dc05ec8de7f3b36cb79a79b50b49a66772be3f2ad0bf3d97f6e524bd2bb1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/references/https-proxy.md",
+      "path": "skills/autoskill/references/https-proxy.md",
+      "size": 2222
+    },
+    {
+      "digest": "3c1b911ff3bbfd55601655b1dbe3a080e04050880a51dde5f194598d6507ffd6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/references/screenpipe-config.yaml",
+      "path": "skills/autoskill/references/screenpipe-config.yaml",
+      "size": 1410
+    },
+    {
+      "digest": "324c7fec82fcffa73f61f2646e9b47b3500b1788abd22dbc48e99247baa23e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/autoskill.py",
+      "path": "skills/autoskill/scripts/autoskill.py",
+      "size": 1158
+    },
+    {
+      "digest": "5f54c149da71150f36d81a34eb92295e555c861fb4c0d98275445ecbb9ee614f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/backends.py",
+      "path": "skills/autoskill/scripts/backends.py",
+      "size": 5268
+    },
+    {
+      "digest": "64197a28649734e72ab3f2430afe092595f2214bbc0b4087aac415f2fe2b8024",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/cluster.py",
+      "path": "skills/autoskill/scripts/cluster.py",
+      "size": 1723
+    },
+    {
+      "digest": "4aa139e548860d44aec7abac43863c723667612455a7316a8ce0eba3938fda5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/doctor.py",
+      "path": "skills/autoskill/scripts/doctor.py",
+      "size": 4602
+    },
+    {
+      "digest": "899c813f58ded81c44a71e37482be8ad0702efd8f816c4dfb762e19fc42bbe1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/fetch_window.py",
+      "path": "skills/autoskill/scripts/fetch_window.py",
+      "size": 2863
+    },
+    {
+      "digest": "d28f5f4aabb70d9a8068c978d352014cfe6fa27762885e87d553cbf8f762bdeb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/match_skills.py",
+      "path": "skills/autoskill/scripts/match_skills.py",
+      "size": 1274
+    },
+    {
+      "digest": "aa975bfbdc7c64c1989445627382bd4f7dfd79ab289d75d2997de67ad8ce7ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/promote.py",
+      "path": "skills/autoskill/scripts/promote.py",
+      "size": 1559
+    },
+    {
+      "digest": "825febf3dc143c371c1d95cd959d27b5204070d887f77246553b9713f2cca854",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/redact.py",
+      "path": "skills/autoskill/scripts/redact.py",
+      "size": 1647
+    },
+    {
+      "digest": "a1864b8a79f16bd693eb93301effccb52abadb0527c8c7dadc449001529e8f45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/run.py",
+      "path": "skills/autoskill/scripts/run.py",
+      "size": 7579
+    },
+    {
+      "digest": "c11c422aad20b9d7fde98152432a4ab7c3ca977fdb85883c4059271710655e6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-autoskill/skills/autoskill/scripts/synthesize.py",
+      "path": "skills/autoskill/scripts/synthesize.py",
+      "size": 2785
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a82494674883ea722cb9ffbef0a41b4c2435a9eafc7d085f29a8755dc28fd1a9",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/autoskill",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pyzotero",
+  "license": "MIT",
+  "name": "skill-kdense-pyzotero",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/lamindb",
+  "license": "MIT",
+  "name": "skill-kdense-lamindb",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

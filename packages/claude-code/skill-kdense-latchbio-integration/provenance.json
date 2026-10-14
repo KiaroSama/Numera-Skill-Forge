@@ -1,0 +1,96 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "0f01df45ed4aecb81d672a5576820aee37c32864b4fe84bb4d049471a14d3e5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/SKILL.md",
+      "path": "skills/latchbio-integration/SKILL.md",
+      "size": 10008
+    },
+    {
+      "digest": "ebf84cc2c89efde3197931ecd03fe5df0cdee32f2e2bbb1adac3a353ba9ce7c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/data-management.md",
+      "path": "skills/latchbio-integration/references/data-management.md",
+      "size": 8001
+    },
+    {
+      "digest": "cdac8dbc81d4c741c80f644c6680ce07e4ecec10531b968e4bc6c169c3a60100",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/latch-mcp.md",
+      "path": "skills/latchbio-integration/references/latch-mcp.md",
+      "size": 4705
+    },
+    {
+      "digest": "57a414b365f7748b363d290cf87c14a1ad705440c732bec84c1039052fed20aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/nextflow-snakemake.md",
+      "path": "skills/latchbio-integration/references/nextflow-snakemake.md",
+      "size": 8564
+    },
+    {
+      "digest": "0f50e19345e0d783b7abca1915a79f7955314ee8b798f4581a4554326a342a47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/operations-and-debugging.md",
+      "path": "skills/latchbio-integration/references/operations-and-debugging.md",
+      "size": 10438
+    },
+    {
+      "digest": "aba14f42f224f81108a654b42d5d4a9ad63148d99bdacd80a6668056d1c3e1ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/registry.md",
+      "path": "skills/latchbio-integration/references/registry.md",
+      "size": 7667
+    },
+    {
+      "digest": "c6d1c5d4638cb108e289a222e7a09f1586c71fde886b27c66ddca37b45ceeab5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/resource-configuration.md",
+      "path": "skills/latchbio-integration/references/resource-configuration.md",
+      "size": 7908
+    },
+    {
+      "digest": "6e2289e697bfe5ad2f9da45f99190dba5e1a7b30cc402dc0cf23ef9601774c96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/ui-and-automation.md",
+      "path": "skills/latchbio-integration/references/ui-and-automation.md",
+      "size": 9926
+    },
+    {
+      "digest": "0d9859f8a33889d3b9f7d55dd445f0037e926068f1718894f0f084d8a85f77a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/verified-workflows.md",
+      "path": "skills/latchbio-integration/references/verified-workflows.md",
+      "size": 6631
+    },
+    {
+      "digest": "4be31ac20fa562c082a89db56ce6c23aac5a51bf694c7059b161eea9888ed2ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/references/workflow-creation.md",
+      "path": "skills/latchbio-integration/references/workflow-creation.md",
+      "size": 9249
+    },
+    {
+      "digest": "b81764ac0efb6d6302e3c50b22a0ca06fe45a6b11fd6c102d0e3f60ec674496c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-latchbio-integration/skills/latchbio-integration/scripts/inspect_latch_sdk.py",
+      "path": "skills/latchbio-integration/scripts/inspect_latch_sdk.py",
+      "size": 9208
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "da15745cab31b8de4a02849061552bdd4c07abbf76d791d4294cb7bb7732ab62",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/latchbio-integration",
+  "schema_version": 1
+}

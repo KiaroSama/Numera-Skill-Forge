@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/umap-learn",
+  "license": "MIT",
+  "name": "skill-kdense-umap-learn",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

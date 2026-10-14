@@ -1,0 +1,75 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "6ab4c57fd133d21013ac0a8cfdbb2235dcc461d6fc82445693ea475c3d5d6bc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/SKILL.md",
+      "path": "skills/cirq/SKILL.md",
+      "size": 13874
+    },
+    {
+      "digest": "74171648fe77d9e917f0ce8883575439b0a8bcd4f35e59996e4dd176c1c521e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/building.md",
+      "path": "skills/cirq/references/building.md",
+      "size": 7231
+    },
+    {
+      "digest": "c5f90d9de156ea93c32eff191b1bb526bf282c7ec6cc53e723bc722778b0e538",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/experiments.md",
+      "path": "skills/cirq/references/experiments.md",
+      "size": 10275
+    },
+    {
+      "digest": "34a05865707bedaa1b63e14b052f190d1a1d57ea588db2d0698487bec7bc66b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/hardware.md",
+      "path": "skills/cirq/references/hardware.md",
+      "size": 12974
+    },
+    {
+      "digest": "3ac62117f56980e3741d76c204dd44893b1ae5c524de0b593486a827d166a4d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/noise.md",
+      "path": "skills/cirq/references/noise.md",
+      "size": 10583
+    },
+    {
+      "digest": "a8822f8f8afd52d1b4b661c5b66f38f1f1fcd74b49812b1890424165286b46d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/review.md",
+      "path": "skills/cirq/references/review.md",
+      "size": 5979
+    },
+    {
+      "digest": "70a3ab8f6fc192f2f883e26a27d9248b60a04eae30a852527aebe9040eed7ef8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/simulation.md",
+      "path": "skills/cirq/references/simulation.md",
+      "size": 7504
+    },
+    {
+      "digest": "6255d29e6f7c8d62f3e9027004b94e9eb490b1c9cc44f06e8c0a7f4f54b5605f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-cirq/skills/cirq/references/transformation.md",
+      "path": "skills/cirq/references/transformation.md",
+      "size": 6239
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1001f6b6db7d6292059e34fc4ab8c82290edf030b851c2491e1709d083de5266",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/cirq",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/pennylane",
+  "license": "MIT",
+  "name": "skill-kdense-pennylane",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

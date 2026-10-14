@@ -1,0 +1,124 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "4439249ba8cd35a8507463f8be84db511abc23daa00be3f892c47d847d2aeda5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/SKILL.md",
+      "path": "skills/protocolsio-integration/SKILL.md",
+      "size": 13519
+    },
+    {
+      "digest": "ce4b4a13bbbab7e96f2e8048afd2d55fef916b6ed70156d4f3b9962f01b360c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/assets/protocol-snapshot.schema.json",
+      "path": "skills/protocolsio-integration/assets/protocol-snapshot.schema.json",
+      "size": 4295
+    },
+    {
+      "digest": "0555eadb168f027af951c23149f3e7f478172438f5ca0fc12b1fe968161177e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/additional_features.md",
+      "path": "skills/protocolsio-integration/references/additional_features.md",
+      "size": 10015
+    },
+    {
+      "digest": "266835e7ed8453500b25e10bf1a174234babf4be3b47a3f856b0809d2caba46f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/authentication.md",
+      "path": "skills/protocolsio-integration/references/authentication.md",
+      "size": 6564
+    },
+    {
+      "digest": "0d56b48fa7a537680ffbfe23658cbc7cf92594ceb9a61b747d425736d0985a3e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/discussions.md",
+      "path": "skills/protocolsio-integration/references/discussions.md",
+      "size": 6562
+    },
+    {
+      "digest": "d35a37ee35f1ba62a76c34d0cef100556f3ef70ab91a21ff9a7f1ffc7f2c0231",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/file_manager.md",
+      "path": "skills/protocolsio-integration/references/file_manager.md",
+      "size": 10457
+    },
+    {
+      "digest": "e354f4cf23b2d933b9bd211d233c5cab6d084fe8af176e4f8e5c1d8ec1268792",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/protocols_api.md",
+      "path": "skills/protocolsio-integration/references/protocols_api.md",
+      "size": 11571
+    },
+    {
+      "digest": "b0667735e5e389f918281727f9c52f89dd8be89a753c0ecbdb01997d5521c2bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/references/workspaces.md",
+      "path": "skills/protocolsio-integration/references/workspaces.md",
+      "size": 8266
+    },
+    {
+      "digest": "9a90481692132a90b81854de4e6380dee81e7769b5adb57ffde2cd9cb36abcf2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/__init__.py",
+      "path": "skills/protocolsio-integration/scripts/__init__.py",
+      "size": 76
+    },
+    {
+      "digest": "16198664bfec4862e1044e5c9132084ceb7703e3f8b5236ac6942451fb80b9c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/_common.py",
+      "path": "skills/protocolsio-integration/scripts/_common.py",
+      "size": 20285
+    },
+    {
+      "digest": "90bb406939f562223c91306738a1abf57c06a2d3933272a77a881f53ec696d41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/pagination_helper.py",
+      "path": "skills/protocolsio-integration/scripts/pagination_helper.py",
+      "size": 7665
+    },
+    {
+      "digest": "d95cbfd6aff26da5337f0d4a3b10e6a7293dce87f164269e5c5127e927659601",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/plan_write_request.py",
+      "path": "skills/protocolsio-integration/scripts/plan_write_request.py",
+      "size": 23559
+    },
+    {
+      "digest": "f31f6531e9974bdcd35886f76d0996bad109f123d520a59100072cc4ac57fb25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/protocols_read.py",
+      "path": "skills/protocolsio-integration/scripts/protocols_read.py",
+      "size": 15937
+    },
+    {
+      "digest": "fb3e49f7bda0f38889f79fc198232e19d3dda8bea3ea843670d508d1202eef95",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/validate_auth_config.py",
+      "path": "skills/protocolsio-integration/scripts/validate_auth_config.py",
+      "size": 3529
+    },
+    {
+      "digest": "817837d3c3a55013487e5fdee84dc49cc8fbf8486e15cfa08010e39133e63ca6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-protocolsio-integration/skills/protocolsio-integration/scripts/validate_protocol_json.py",
+      "path": "skills/protocolsio-integration/scripts/validate_protocol_json.py",
+      "size": 12380
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e0ea92f3626cfb1861a45e2c77de37bfbe148d54e41419acf4b3e807c6359bb5",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/protocolsio-integration",
+  "schema_version": 1
+}

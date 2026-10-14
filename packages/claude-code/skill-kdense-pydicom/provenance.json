@@ -1,0 +1,110 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e42c35688a3dc7e0faaf1d1e88c8883eabc60ad291d348bfe5aee89a64c95b01",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/SKILL.md",
+      "path": "skills/pydicom/SKILL.md",
+      "size": 19041
+    },
+    {
+      "digest": "2b86d28e957afff7aa8d9525737219e7708e68ee44e31a2cf10b1f5ed8e17f15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/references/common_tags.md",
+      "path": "skills/pydicom/references/common_tags.md",
+      "size": 13364
+    },
+    {
+      "digest": "3377e2f070e442b36f01e14be6cbda64dbfddb6e61cb8d9ae03aaf775d3186c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/references/transfer_syntaxes.md",
+      "path": "skills/pydicom/references/transfer_syntaxes.md",
+      "size": 15166
+    },
+    {
+      "digest": "fecf71e36c1caf5edc7470964188e93742dc8e4d69a977e04df910382898a96d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/__init__.py",
+      "path": "skills/pydicom/scripts/__init__.py",
+      "size": 60
+    },
+    {
+      "digest": "58d1f8379afdef3b1e746d0a2ecb826b4c5e6126730e62fcf66a65f469a6a6bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/_common.py",
+      "path": "skills/pydicom/scripts/_common.py",
+      "size": 29812
+    },
+    {
+      "digest": "d4591456fab314b180eaee01d961dd50a65ef8a00428246650a650db0cb73b38",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/anonymize_dicom.py",
+      "path": "skills/pydicom/scripts/anonymize_dicom.py",
+      "size": 26110
+    },
+    {
+      "digest": "20fed508c9bd4bd502eda9e0e506de55a833a7b0b1ebd95105a039195429e79a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/deidentification_audit.py",
+      "path": "skills/pydicom/scripts/deidentification_audit.py",
+      "size": 13090
+    },
+    {
+      "digest": "dc087b39070fe975e48a454b43f2e243c0a0cfcd60890d05117fef0e2b2dbc79",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/dicom_inventory.py",
+      "path": "skills/pydicom/scripts/dicom_inventory.py",
+      "size": 13774
+    },
+    {
+      "digest": "ca717623e48a7f613482d7d78e2e314b3305a03633855569a0d2f58129ffd198",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/dicom_to_image.py",
+      "path": "skills/pydicom/scripts/dicom_to_image.py",
+      "size": 16946
+    },
+    {
+      "digest": "823479be9a052c06894b66570b0165f846daf3d08c8211856ef7c8ae632ce336",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/extract_metadata.py",
+      "path": "skills/pydicom/scripts/extract_metadata.py",
+      "size": 11846
+    },
+    {
+      "digest": "e5d708da90ad1b8df52ea18b0e1116f202a22f5d01f20c772da31c2576d0da6c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/pixel_frame_planner.py",
+      "path": "skills/pydicom/scripts/pixel_frame_planner.py",
+      "size": 10659
+    },
+    {
+      "digest": "952e06fc095a02846013e3c270accf4e340453a2ae0665743688629acb58202a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/transfer_syntax_inspector.py",
+      "path": "skills/pydicom/scripts/transfer_syntax_inspector.py",
+      "size": 7881
+    },
+    {
+      "digest": "262cfe53ed911b6d41985455819653b1d3c799f08c95df49c31682616f44bbc1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-kdense-pydicom/skills/pydicom/scripts/uid_mapping_validator.py",
+      "path": "skills/pydicom/scripts/uid_mapping_validator.py",
+      "size": 8681
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "be6db8e0bfc044b318d008f579377b135f84a018890a120ee30bcdb865e8d10b",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/pydicom",
+  "schema_version": 1
+}

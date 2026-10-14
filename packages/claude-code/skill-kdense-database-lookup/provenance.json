@@ -1,0 +1,600 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "ead247f623212ca1560486d863a2d0a8c0555d8d20b975d55053eeb4ed043d37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/SKILL.md",
+      "path": "skills/database-lookup/SKILL.md",
+      "size": 27582
+    },
+    {
+      "digest": "f00236e01cc49c837104a0becab4c9583bf826c0d352c1f026363448954a4c25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/addgene.md",
+      "path": "skills/database-lookup/references/addgene.md",
+      "size": 1778
+    },
+    {
+      "digest": "887217bb9a0174a64b0d2b84475fa961e9d9c2c48dfac1e0bc7b6c0bb958b5bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/alphafold.md",
+      "path": "skills/database-lookup/references/alphafold.md",
+      "size": 3002
+    },
+    {
+      "digest": "d7f38702848cff7239fa1c00271dc4fff445f4eda88774ad65724468d1497f97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/alphavantage.md",
+      "path": "skills/database-lookup/references/alphavantage.md",
+      "size": 8121
+    },
+    {
+      "digest": "2ceb06d34c26bb679de7d8645b754e1da0e9461de2a595006971877a9b06b757",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/bea.md",
+      "path": "skills/database-lookup/references/bea.md",
+      "size": 14614
+    },
+    {
+      "digest": "390dabcc89dd9750bedca0b9d8d2edefc984157202b83a5e8b39138d3e26873f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/bindingdb.md",
+      "path": "skills/database-lookup/references/bindingdb.md",
+      "size": 2997
+    },
+    {
+      "digest": "887c72e6858db7ab113c37dcd93378ba422e7e6a195f27c466f50e45c611bf0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/biogrid.md",
+      "path": "skills/database-lookup/references/biogrid.md",
+      "size": 3885
+    },
+    {
+      "digest": "711e31c51e600970a31815fd3b224d61501bb12705496c498de3379868612620",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/bls.md",
+      "path": "skills/database-lookup/references/bls.md",
+      "size": 9284
+    },
+    {
+      "digest": "4cb904eadbe76a2a392b5826e4eec46d9e59c4c61acddf0322059d94ca07af0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/brenda.md",
+      "path": "skills/database-lookup/references/brenda.md",
+      "size": 2921
+    },
+    {
+      "digest": "d57ec6a08a5538e38bb1b73bc1eea855b14b87bf0babdf62730a312298f6c85b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/cbioportal.md",
+      "path": "skills/database-lookup/references/cbioportal.md",
+      "size": 7588
+    },
+    {
+      "digest": "ceaeae4a0c35cf87ba20de4b7405b867bb105dc7f6f82ab80685d0b1af437ff1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/census.md",
+      "path": "skills/database-lookup/references/census.md",
+      "size": 9195
+    },
+    {
+      "digest": "657014c7416c6418c911fd710c10c02221edf17fba08f22e54dd9619ab614a43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/chebi.md",
+      "path": "skills/database-lookup/references/chebi.md",
+      "size": 3596
+    },
+    {
+      "digest": "8b48ee10535d4df944c0a1c5bede8efe8c6a96ee39744191e7d4827ab8fcd25c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/chembl.md",
+      "path": "skills/database-lookup/references/chembl.md",
+      "size": 2715
+    },
+    {
+      "digest": "aaa72ade4740edee237cb10371fc07e0b662145f45b03f95410f16a9e93c02e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/clinicaltrials.md",
+      "path": "skills/database-lookup/references/clinicaltrials.md",
+      "size": 3434
+    },
+    {
+      "digest": "563c95c97fbad8f5cbc4b9ff1783e32439a916beb0d579cb73215accdb8ef0a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/clinpgx.md",
+      "path": "skills/database-lookup/references/clinpgx.md",
+      "size": 1530
+    },
+    {
+      "digest": "5c051b539f8df9f292cdb63f627e19d754388e627c0d891d4b0293be30d30a3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/clinvar.md",
+      "path": "skills/database-lookup/references/clinvar.md",
+      "size": 4232
+    },
+    {
+      "digest": "45569fbad65309ddff67bba27f2b7f231bc6e10d715e6ccd60ae8263fb509ed1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/cod.md",
+      "path": "skills/database-lookup/references/cod.md",
+      "size": 3097
+    },
+    {
+      "digest": "06639396334327201880e26a52647c41675411c56bd6a89c22bd2bdd527a6100",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/cosmic.md",
+      "path": "skills/database-lookup/references/cosmic.md",
+      "size": 1368
+    },
+    {
+      "digest": "2a4ed938cc7b2611e272a655699a0a98105b926eeb00cb68d41c9aafd306088e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/dailymed.md",
+      "path": "skills/database-lookup/references/dailymed.md",
+      "size": 1805
+    },
+    {
+      "digest": "02fb77429b15d8e599f05ab5ee7de4988b8d04d815285112f2dc182e86e18d6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/database_selection_guide.md",
+      "path": "skills/database-lookup/references/database_selection_guide.md",
+      "size": 10276
+    },
+    {
+      "digest": "4e080cd83e5a9fedbf8c0b1c2be71c2d4cd0cbc333810834a8c24d574138e258",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/datacommons.md",
+      "path": "skills/database-lookup/references/datacommons.md",
+      "size": 7145
+    },
+    {
+      "digest": "bdee23c89aca51a6a0e33593da3059ffca314f29e399891713cf57583d86da8d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/dbsnp.md",
+      "path": "skills/database-lookup/references/dbsnp.md",
+      "size": 3533
+    },
+    {
+      "digest": "0c3fda50de43234d4e213cc7c572c6edbb58b47fc5abe2458fe1a4eca7ddad4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/disgenet.md",
+      "path": "skills/database-lookup/references/disgenet.md",
+      "size": 1403
+    },
+    {
+      "digest": "5f874bda7098c244e65b69a08894f25ced01c548ae116a49f6388ff7d465b841",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/drugbank.md",
+      "path": "skills/database-lookup/references/drugbank.md",
+      "size": 1364
+    },
+    {
+      "digest": "8452e47f271c9f0b6ec7f346af2c72ab296dfaa1e13a83310e1170e3f48bd372",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ecb.md",
+      "path": "skills/database-lookup/references/ecb.md",
+      "size": 5318
+    },
+    {
+      "digest": "3d07236a2b91bed128afbab61cfb60e397e79ec17fb659359ea86029e61cb185",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/emdb.md",
+      "path": "skills/database-lookup/references/emdb.md",
+      "size": 1089
+    },
+    {
+      "digest": "7ab747fbcf9be9e4f22caf88c7a6912d3e676382baf80c3bb5d699e572d18729",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ena.md",
+      "path": "skills/database-lookup/references/ena.md",
+      "size": 10127
+    },
+    {
+      "digest": "e11c15b74cb30f3b6222ed7bb398967027ebcaa3ca5e789e3a4022cfdc658735",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/encode.md",
+      "path": "skills/database-lookup/references/encode.md",
+      "size": 1801
+    },
+    {
+      "digest": "80d118b56d9e250f69570e651d60961ddddc8ada3a117bad94c38b66d8a9a935",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ensembl.md",
+      "path": "skills/database-lookup/references/ensembl.md",
+      "size": 14337
+    },
+    {
+      "digest": "d5bbac5283f1caae1d6ab7013787f8abeabf85c354e1a2caf58d286e7bb882fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/epa.md",
+      "path": "skills/database-lookup/references/epa.md",
+      "size": 1902
+    },
+    {
+      "digest": "46b125c99fb756ce62655e6a6d5d5562d0694b329844c7089ce6612daf8c9dfb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/eurostat.md",
+      "path": "skills/database-lookup/references/eurostat.md",
+      "size": 7489
+    },
+    {
+      "digest": "b42a94499aadea58802a6116731244d84941ba9ffca698eac31bead5ceb38331",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/fda.md",
+      "path": "skills/database-lookup/references/fda.md",
+      "size": 2147
+    },
+    {
+      "digest": "a8b47c7925eba9cc268106a1a8bb54f2fdf849ffbda6fa2dd00f0f561473d11e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/federal-reserve.md",
+      "path": "skills/database-lookup/references/federal-reserve.md",
+      "size": 6881
+    },
+    {
+      "digest": "cabb0f8c96da6dd5cc53c11861ea179477800896260c9753f490079962542f96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/fred.md",
+      "path": "skills/database-lookup/references/fred.md",
+      "size": 10170
+    },
+    {
+      "digest": "59cdfdf414893ee82d1a51f390fe96ca3713da780e96dd2c6a3cdb354afe63a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/gene-ontology.md",
+      "path": "skills/database-lookup/references/gene-ontology.md",
+      "size": 4509
+    },
+    {
+      "digest": "43fcec5baddb616903e2811bbc49fe5c5f24fda6e491498e98d775c6671015b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/geo.md",
+      "path": "skills/database-lookup/references/geo.md",
+      "size": 3869
+    },
+    {
+      "digest": "bf319407d088b321295211aaff377db8f21d60dae0f75bd9311f2e2e65e3ed20",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/gnomad.md",
+      "path": "skills/database-lookup/references/gnomad.md",
+      "size": 3574
+    },
+    {
+      "digest": "ff4b57debc74a39f2e879e81a43d18193714bb75dc855d1dd9a5bb12dd09593b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/gtex.md",
+      "path": "skills/database-lookup/references/gtex.md",
+      "size": 4164
+    },
+    {
+      "digest": "93d34d7047bfbcde62de6458814d83608a7dc99a4e0599fc32322f923cebc333",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/gwas-catalog.md",
+      "path": "skills/database-lookup/references/gwas-catalog.md",
+      "size": 1644
+    },
+    {
+      "digest": "4a8afd752e835065feab3b21989f27dde56172af7fa0b79acdac7eb7536750e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/hca.md",
+      "path": "skills/database-lookup/references/hca.md",
+      "size": 1390
+    },
+    {
+      "digest": "74f281daf81f4e544b62a0a9177242816ede3de45b8b6c58ba509a2cd8642a75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/hpo.md",
+      "path": "skills/database-lookup/references/hpo.md",
+      "size": 1230
+    },
+    {
+      "digest": "e93b1038d79249e58aa22ea60e1c954edd32db8b8ace7aa76a14a9b88a9a11f3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/human-protein-atlas.md",
+      "path": "skills/database-lookup/references/human-protein-atlas.md",
+      "size": 1226
+    },
+    {
+      "digest": "18304f87ac9c9f11d399040be52290bc2287c583bff43348bf875a50cd6ba0f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/interpro.md",
+      "path": "skills/database-lookup/references/interpro.md",
+      "size": 3496
+    },
+    {
+      "digest": "53d0f4111fb7ca547062bbde4fe2f4ebc418e0088da0e401733287018a4cd837",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/jaspar.md",
+      "path": "skills/database-lookup/references/jaspar.md",
+      "size": 1475
+    },
+    {
+      "digest": "10af18380cd77b3651854519a60f2a28e4dec53172e8db658b7681d4cbabd99f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/kegg.md",
+      "path": "skills/database-lookup/references/kegg.md",
+      "size": 2592
+    },
+    {
+      "digest": "ddbc6b02bd394782b824c9f084b9079bf79168dc99bd1085163778c5e91de8cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/lincs-l1000.md",
+      "path": "skills/database-lookup/references/lincs-l1000.md",
+      "size": 2191
+    },
+    {
+      "digest": "0c54129b9294a9464623faa362b91bf32a73bfcdbe5b514802f3e0acd12c2d12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/materials-project.md",
+      "path": "skills/database-lookup/references/materials-project.md",
+      "size": 4897
+    },
+    {
+      "digest": "c5d33c855da6f96c23a923703bfea13818650ce6c7755ee7e4ed6eac788c943e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/metabolomics-workbench.md",
+      "path": "skills/database-lookup/references/metabolomics-workbench.md",
+      "size": 3929
+    },
+    {
+      "digest": "dedd349124dba2f685ab9e041e624e61ea93e3672181c2a7c7c9b3e986e75660",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/monarch.md",
+      "path": "skills/database-lookup/references/monarch.md",
+      "size": 1515
+    },
+    {
+      "digest": "4d63c40019bc259ab6eb72cbf5ab23c14b6cb9a992ee3a18c6a7f07554ef6e21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/mousemine.md",
+      "path": "skills/database-lookup/references/mousemine.md",
+      "size": 1569
+    },
+    {
+      "digest": "4bcb1c829fdb89ad5af864135c84aa40667cbeb8271d80999c1518c223600cb0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/myvariant.md",
+      "path": "skills/database-lookup/references/myvariant.md",
+      "size": 1344
+    },
+    {
+      "digest": "9be3b02563289e9cf4351d5f4f185d022fe6e5de76450a8e1b477545c5721ffe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/nasa-exoplanet-archive.md",
+      "path": "skills/database-lookup/references/nasa-exoplanet-archive.md",
+      "size": 4394
+    },
+    {
+      "digest": "bd7719904299fd8bd93a87804e1eb281388b57e7d64c984d3f7728c7c2c7c2a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/nasa.md",
+      "path": "skills/database-lookup/references/nasa.md",
+      "size": 3112
+    },
+    {
+      "digest": "c1d32a4eddb24e20129467adafc177366327c9e48ee5a67b78515b07c36370c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ncbi-gene.md",
+      "path": "skills/database-lookup/references/ncbi-gene.md",
+      "size": 1700
+    },
+    {
+      "digest": "7b5489a99bddb357567a6287cb7630413db9e298378397e4d16f3ae0bdb8733a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ncbi-protein.md",
+      "path": "skills/database-lookup/references/ncbi-protein.md",
+      "size": 3298
+    },
+    {
+      "digest": "f9508cebfb72825c9752fe96ef72e52d057a7ea46dd64fe8fb3aab435f85f266",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ncbi-taxonomy.md",
+      "path": "skills/database-lookup/references/ncbi-taxonomy.md",
+      "size": 3738
+    },
+    {
+      "digest": "8587c7dbb384718b4bc0e769b2279e355ad6acc0273bb2dedf7619feb9e67738",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/nist.md",
+      "path": "skills/database-lookup/references/nist.md",
+      "size": 3683
+    },
+    {
+      "digest": "54c296b7bacd0b3b0321a8889428534e6b56c9ceac126914c09016d8f09b2dcc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/noaa.md",
+      "path": "skills/database-lookup/references/noaa.md",
+      "size": 6909
+    },
+    {
+      "digest": "ea5d3063474fec788ed4fa6d0f2e1d972d843ae34ee6538456386a57c36e161a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/omim.md",
+      "path": "skills/database-lookup/references/omim.md",
+      "size": 3515
+    },
+    {
+      "digest": "e72ab37f5cd87a748c91bc9ccecde2627329523c85f6d024a9093611b3eafc52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/opentargets.md",
+      "path": "skills/database-lookup/references/opentargets.md",
+      "size": 7176
+    },
+    {
+      "digest": "89caa890cd45dcc1b500cdc6bd927a2aac846c4bb6af3109bca51e5a0191a531",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/openweathermap.md",
+      "path": "skills/database-lookup/references/openweathermap.md",
+      "size": 8357
+    },
+    {
+      "digest": "38eaeeff4ca768c9545450233ac3942b5cf389b9347f9541cdd0267036cd30fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/pdb.md",
+      "path": "skills/database-lookup/references/pdb.md",
+      "size": 3245
+    },
+    {
+      "digest": "cff5062cd99d22d928732383c6142408be83c95d2d166e9d265866352b94ce4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/pride.md",
+      "path": "skills/database-lookup/references/pride.md",
+      "size": 1442
+    },
+    {
+      "digest": "93225212346b327623446874090cb458c954f5820cba66a4163e5e8eb6d75524",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/pubchem.md",
+      "path": "skills/database-lookup/references/pubchem.md",
+      "size": 3491
+    },
+    {
+      "digest": "b567b7e4b17f5d91c6b09476fcbd06d2c772538805c45655f00309bae84d4de6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/quickgo.md",
+      "path": "skills/database-lookup/references/quickgo.md",
+      "size": 1539
+    },
+    {
+      "digest": "c91bc6c1464005d405c5d5320d9e7527ac7c9fcd0ef8497a9e8e988e24c70424",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/reactome.md",
+      "path": "skills/database-lookup/references/reactome.md",
+      "size": 2964
+    },
+    {
+      "digest": "933970cc4586ec2d6d342ccda90c7378d085129b94f8654605b6bca43a9c5883",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/regulomedb.md",
+      "path": "skills/database-lookup/references/regulomedb.md",
+      "size": 2096
+    },
+    {
+      "digest": "a268604e226309c291aa7c981a99219edde25346d69645ad9d8acc3cbabbaaf2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/retrieval-contract.md",
+      "path": "skills/database-lookup/references/retrieval-contract.md",
+      "size": 7414
+    },
+    {
+      "digest": "1dce8be4c7ac7b3f79e59988da7cef6358176a2619bd09d56ad00ffd89ddb443",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/rummageo.md",
+      "path": "skills/database-lookup/references/rummageo.md",
+      "size": 1365
+    },
+    {
+      "digest": "b6c1dc13446aaad2ebd5cd6a894a69b979da4a93b047d8a48bd507a33ee2a75f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/sdss.md",
+      "path": "skills/database-lookup/references/sdss.md",
+      "size": 4458
+    },
+    {
+      "digest": "282e045e9675e309a6c720045fd10475da3b9759459d876b3a8ba10beab457e6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/sec-edgar.md",
+      "path": "skills/database-lookup/references/sec-edgar.md",
+      "size": 8511
+    },
+    {
+      "digest": "d14a765a17f1de3299cdb68e5ed64a38b5790fe7529cde19b1534f78fd34ed25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/simbad.md",
+      "path": "skills/database-lookup/references/simbad.md",
+      "size": 12628
+    },
+    {
+      "digest": "f70d0b4ce1d0a2b2ce01fdbd358929ffbc99eb77256d18ae3d215d190a5fc452",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/sra.md",
+      "path": "skills/database-lookup/references/sra.md",
+      "size": 4584
+    },
+    {
+      "digest": "8d39fe9d9fb46bf7ce6830703603f07777ea21770e83f883bc98cba5ab20f699",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/string.md",
+      "path": "skills/database-lookup/references/string.md",
+      "size": 7905
+    },
+    {
+      "digest": "91f8be4bf809b9f3ac87641980fd33b6ec5f76ddf17b32e9c2f5c5b9f090d70b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/tcga-gdc.md",
+      "path": "skills/database-lookup/references/tcga-gdc.md",
+      "size": 1998
+    },
+    {
+      "digest": "a1b4c3a4d18d1f5a55135585384c4e51705722a7b04c1e1ba151b954f01dd7f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/treasury.md",
+      "path": "skills/database-lookup/references/treasury.md",
+      "size": 7335
+    },
+    {
+      "digest": "8be92a6a4978a12e56c412b94195f44128837ae66528779859dd994aa57f4781",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/ucsc-genome.md",
+      "path": "skills/database-lookup/references/ucsc-genome.md",
+      "size": 3401
+    },
+    {
+      "digest": "8e625f9f6e3becd9dde739d8937b306feafd29482af2c359b579915ea560f2de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/uniprot.md",
+      "path": "skills/database-lookup/references/uniprot.md",
+      "size": 7275
+    },
+    {
+      "digest": "343bb71e510f43b54a444f486b97f1e47e957aed4f35b81fa588c3e3247bbd30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/usgs.md",
+      "path": "skills/database-lookup/references/usgs.md",
+      "size": 10134
+    },
+    {
+      "digest": "858002e1a231ae0eae30c48b7dec00d97b80fe7e08c9305dfbec0805434c19b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/uspto.md",
+      "path": "skills/database-lookup/references/uspto.md",
+      "size": 4746
+    },
+    {
+      "digest": "9260f58512a9de4f3647207c759451931ffbd4e15415afa39b0bfdedbdb12d4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/who.md",
+      "path": "skills/database-lookup/references/who.md",
+      "size": 8890
+    },
+    {
+      "digest": "673144b300cdbef6fc0a6bb995df3182f13230dd5dd83264db593c13b3e4f0c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/worldbank.md",
+      "path": "skills/database-lookup/references/worldbank.md",
+      "size": 7131
+    },
+    {
+      "digest": "7aa76cb2cd7f2cdae05c73faf95be0445f86c404259e4efabb352ed179e97274",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-database-lookup/skills/database-lookup/references/zinc.md",
+      "path": "skills/database-lookup/references/zinc.md",
+      "size": 5836
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4c89791d2a14bf09b934606242502dc9330d58edfed1c254c880902fd5b8a986",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/database-lookup",
+  "schema_version": 1
+}

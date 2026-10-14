@@ -1,0 +1,68 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/SKILL.md",
+      "path": "skills/experimental-design/SKILL.md",
+      "size": 16328
+    },
+    {
+      "digest": "1f36f14160bc9895773a2922402869202866410c9130f2b32c5a54e5f5a6e71b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/references/design_types.md",
+      "path": "skills/experimental-design/references/design_types.md",
+      "size": 7972
+    },
+    {
+      "digest": "a59fa2279c439c096a66955b4923ad68c00d6046570665e6f6d36e807fa1de63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/references/factorial_and_doe.md",
+      "path": "skills/experimental-design/references/factorial_and_doe.md",
+      "size": 9069
+    },
+    {
+      "digest": "fabcfae913397fb8c3018b959b67ddf8fe47322b40cbf4155d898fa11738e9ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/references/randomization_and_blocking.md",
+      "path": "skills/experimental-design/references/randomization_and_blocking.md",
+      "size": 7831
+    },
+    {
+      "digest": "83085e2cde0942de23670d3aabb30768fb576a6aa99c2e4ac6f7790b00977051",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/references/sequential_and_adaptive.md",
+      "path": "skills/experimental-design/references/sequential_and_adaptive.md",
+      "size": 6530
+    },
+    {
+      "digest": "916996b5e6a5dbb9a408aa1e755a95800af70231e46d12c8c5efddb9e3e30683",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/scripts/doe_designs.py",
+      "path": "skills/experimental-design/scripts/doe_designs.py",
+      "size": 9575
+    },
+    {
+      "digest": "c7c2eab469618a4b27548058b924ec3f4aafaf635d3797af920b9058e700bce4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-experimental-design/skills/experimental-design/scripts/randomization.py",
+      "path": "skills/experimental-design/scripts/randomization.py",
+      "size": 9592
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9ee472aa5735229a78af14ef4c88f55a5955478427fe5b0ca6d1221ea321c588",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/experimental-design",
+  "schema_version": 1
+}

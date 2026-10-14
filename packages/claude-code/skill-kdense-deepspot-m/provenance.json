@@ -1,0 +1,40 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepspot-m/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "a917434c523e136ddc1ce45b54acbef8c28398dd293314f72faa278431e67418",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepspot-m/skills/deepspot-m/SKILL.md",
+      "path": "skills/deepspot-m/SKILL.md",
+      "size": 9939
+    },
+    {
+      "digest": "2b0276f106e381ec6ac76a705935c54a31b50e6a882e379033e66a5c76b7fe4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepspot-m/skills/deepspot-m/references/api.md",
+      "path": "skills/deepspot-m/references/api.md",
+      "size": 7245
+    },
+    {
+      "digest": "cafe149c1b03f712676257898e87986aa14eca557c3950877de44caa66176db0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-deepspot-m/skills/deepspot-m/references/whole_slide.md",
+      "path": "skills/deepspot-m/references/whole_slide.md",
+      "size": 11012
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c4afa3b3af6f02c4ad46bd61f5b3fc81bbbe2f110b3c4e5cf43c0b135268b78e",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/deepspot-m",
+  "schema_version": 1
+}

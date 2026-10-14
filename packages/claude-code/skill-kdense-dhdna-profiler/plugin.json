@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/dhdna-profiler",
+  "license": "MIT",
+  "name": "skill-kdense-dhdna-profiler",
+  "version": "1.0.0"
+}

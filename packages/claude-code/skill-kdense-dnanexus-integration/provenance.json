@@ -1,0 +1,103 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "e8fcca26f5558e04256a2253c002cc8c8c024c06614fbd7d6e0161e53c5aa519",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/SKILL.md",
+      "path": "skills/dnanexus-integration/SKILL.md",
+      "size": 12327
+    },
+    {
+      "digest": "4bdd1a0bb35278c34478ff159b1dea299ff760e7646b272d2b1a266939a30f99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/app-development.md",
+      "path": "skills/dnanexus-integration/references/app-development.md",
+      "size": 9839
+    },
+    {
+      "digest": "cc9453abdac64ad4f2cacde973f06a9fb7e1d880c784b19612b46d30ebd7c76a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/authentication.md",
+      "path": "skills/dnanexus-integration/references/authentication.md",
+      "size": 8615
+    },
+    {
+      "digest": "ed7203b818942cf69af96e01d9f9a288a16820d704fed9d3ee4e3dc10f8fdc25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/configuration.md",
+      "path": "skills/dnanexus-integration/references/configuration.md",
+      "size": 12988
+    },
+    {
+      "digest": "cf538de82cc8436a77aae47bf9ed28d3b0ddde3f1d21411e8d8527c36125ab31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/data-operations.md",
+      "path": "skills/dnanexus-integration/references/data-operations.md",
+      "size": 13816
+    },
+    {
+      "digest": "a2a2693fb2517ae55f513e82202e2b7032792e360cc4328079a16919cf50bc09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/job-execution.md",
+      "path": "skills/dnanexus-integration/references/job-execution.md",
+      "size": 12860
+    },
+    {
+      "digest": "20762390c0d73db2adc804f6089681c6f93f3156685a45dba84f896a8096b047",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/operations-and-troubleshooting.md",
+      "path": "skills/dnanexus-integration/references/operations-and-troubleshooting.md",
+      "size": 14249
+    },
+    {
+      "digest": "43fd283b519359355c8953603c938653e929982526389889c3cf2570f2b5fc04",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/python-sdk.md",
+      "path": "skills/dnanexus-integration/references/python-sdk.md",
+      "size": 13082
+    },
+    {
+      "digest": "6161ccef18c116fba2eab609f5817babaad3662ae52fbdf1f02f4ff610d29600",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/sources.md",
+      "path": "skills/dnanexus-integration/references/sources.md",
+      "size": 12693
+    },
+    {
+      "digest": "fca6c38717ac97e9cbd211f6436c69e04eb720a5629d3fb61786482acb10d287",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/references/workflow-languages.md",
+      "path": "skills/dnanexus-integration/references/workflow-languages.md",
+      "size": 9438
+    },
+    {
+      "digest": "c9955ffa2dcb2a792a6aa8a2c2f64c227cf1925aabf48cd96cda7d8190780e2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/scripts/inspect_dxpy.py",
+      "path": "skills/dnanexus-integration/scripts/inspect_dxpy.py",
+      "size": 10347
+    },
+    {
+      "digest": "3cdcd5d0adf2c9c34183625b9697510c2a19e42d4bb873d7a892aab54176423e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-dnanexus-integration/skills/dnanexus-integration/scripts/validate_dxapp.py",
+      "path": "skills/dnanexus-integration/scripts/validate_dxapp.py",
+      "size": 27748
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d2efcc9179c492ae78d0496f4bc5ee29f20e770b515762ce3b30a7cac32945dc",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/dnanexus-integration",
+  "schema_version": 1
+}

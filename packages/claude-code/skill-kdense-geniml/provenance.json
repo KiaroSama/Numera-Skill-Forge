@@ -1,0 +1,117 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "7fb9ad57657b2fda7dbc3f234af5dab47915953c6678fbc066c9086c83eadd21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/SKILL.md",
+      "path": "skills/geniml/SKILL.md",
+      "size": 16157
+    },
+    {
+      "digest": "eced6b5290722e3d7505f5e35bba9be0606b1ad6458977cb736c2c6a46f952e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/references/bedspace.md",
+      "path": "skills/geniml/references/bedspace.md",
+      "size": 10271
+    },
+    {
+      "digest": "ec5ef91b2ebc3b46319494ed32e044c684b8eee909e0219850d01c2d8f09611d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/references/consensus_peaks.md",
+      "path": "skills/geniml/references/consensus_peaks.md",
+      "size": 11293
+    },
+    {
+      "digest": "a66e1cc632d9e224d7f6d153965241ce2dd83a73481f9c721e5cc07b992dfe67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/references/region2vec.md",
+      "path": "skills/geniml/references/region2vec.md",
+      "size": 11759
+    },
+    {
+      "digest": "f6c2204dfbb94a4cc99483194c206aa9cac2d5a51a767702ac1d91f53748f1e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/references/scembed.md",
+      "path": "skills/geniml/references/scembed.md",
+      "size": 13394
+    },
+    {
+      "digest": "8c5a72718ee0365fe591fdc06fa00902e78e8bba61efdcc6116e4a65bd801b96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/references/utilities.md",
+      "path": "skills/geniml/references/utilities.md",
+      "size": 18636
+    },
+    {
+      "digest": "7bf3af913d4e1ac2707799e67f39fcc384945ffdeb8c8eca6aad7282179a2fc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/__init__.py",
+      "path": "skills/geniml/scripts/__init__.py",
+      "size": 58
+    },
+    {
+      "digest": "5a804555830b5150e61e3b49fa3f27f35a219eb325c63495d90ee1bfdfdc5716",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/_common.py",
+      "path": "skills/geniml/scripts/_common.py",
+      "size": 13707
+    },
+    {
+      "digest": "cc5769dcab0faa3958d0cacd8feb5ec4f413591f58df4d3dc5c3ee6b9ff7f2b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/bed_validator.py",
+      "path": "skills/geniml/scripts/bed_validator.py",
+      "size": 11186
+    },
+    {
+      "digest": "c39bda5fed2a977d0b79aac1daed5489bea2756b028add861d3055c28f80eef8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/consensus_plan.py",
+      "path": "skills/geniml/scripts/consensus_plan.py",
+      "size": 14245
+    },
+    {
+      "digest": "c21b1c6031f077acbac5a65c36e4b1ae443b9683b7fd65517a7ea22b4ba83e55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/corpus_auditor.py",
+      "path": "skills/geniml/scripts/corpus_auditor.py",
+      "size": 10637
+    },
+    {
+      "digest": "98c8049438242d21ce642bd8525e4f615b85553e1afc430d52f5947f6f19489e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/embedding_plan.py",
+      "path": "skills/geniml/scripts/embedding_plan.py",
+      "size": 17293
+    },
+    {
+      "digest": "960c58660e13baa0bb902270a2f2c1f744278d6e40eef627c46b2232c26a7a32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/model_artifact_inspector.py",
+      "path": "skills/geniml/scripts/model_artifact_inspector.py",
+      "size": 12762
+    },
+    {
+      "digest": "5ec2298f12d9008c8aeadc069e195e6b9673807c8ccffec5f3da719799ac5298",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-geniml/skills/geniml/scripts/tokenizer_compatibility.py",
+      "path": "skills/geniml/scripts/tokenizer_compatibility.py",
+      "size": 10984
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91c200d0c1edc9128b5e8cfab190b2027bb5a92fb85e6001bf233a38b1c828cb",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/geniml",
+  "schema_version": 1
+}

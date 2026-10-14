@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/experimental-design",
+  "license": "MIT",
+  "name": "skill-kdense-experimental-design",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "kdense-scientific-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "d631f00ae0f9325aa58912bb571b7eb43bc42c553498e4c97f4d65a1683c8599",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/SKILL.md",
+      "path": "skills/rowan/SKILL.md",
+      "size": 17335
+    },
+    {
+      "digest": "17509f5c4f9de6830297ac6d7a58e1f6eaa0eee5cf55e3c21f8db7f4bed720a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/references/access_and_pricing.md",
+      "path": "skills/rowan/references/access_and_pricing.md",
+      "size": 1595
+    },
+    {
+      "digest": "23db22ce9b76acd18b1fae33137f42ad9f8a85729ea3f5d2ac608cc37a82bd4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/references/batch_and_webhooks.md",
+      "path": "skills/rowan/references/batch_and_webhooks.md",
+      "size": 8804
+    },
+    {
+      "digest": "5e83a545e024878216aec81e5a7a875be2268c51ce4386a5900fed53d5343995",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/references/end_to_end_example.md",
+      "path": "skills/rowan/references/end_to_end_example.md",
+      "size": 4886
+    },
+    {
+      "digest": "8b1840d7ce5652014bac3e78c31a3fd77117f46a5aaf208c031afe11fa52759c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/references/troubleshooting.md",
+      "path": "skills/rowan/references/troubleshooting.md",
+      "size": 5516
+    },
+    {
+      "digest": "eb3c5ccbefa809dcaaabfcf17531087243dc2634fc4f9f1ba5a9f862d95e8f40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-kdense-rowan/skills/rowan/references/workflow_catalog.md",
+      "path": "skills/rowan/references/workflow_catalog.md",
+      "size": 14541
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d74e7f3f9723aa2a3bd0ca06dd40dc3dee8cad4f09e8a6f012604c5d81c1c2ed",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "root": "skills/rowan",
+  "schema_version": 1
+}
