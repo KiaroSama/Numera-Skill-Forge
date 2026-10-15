@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-deslop/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2b106d2147e8aa353e0d5feb429ca4e20b5bc700719acc677bf5482e53e785fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-deslop/skills/deslop/SKILL.md",
+      "path": "cli-tool/components/skills/sentry/deslop/SKILL.md",
+      "size": 1000
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "be69c7061b20f2bcb54812eeeefc213d196c9940d013727ccb0585863884d361",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/sentry/deslop",
+  "schema_version": 1
+}

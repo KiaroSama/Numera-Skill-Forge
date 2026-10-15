@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bash-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6cefe6c36cecc4dee371363744c345e8bb522b8bbda8c635ea9e35e9675290e6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bash-pro/skills/bash-pro/SKILL.md",
+      "path": "cli-tool/components/skills/development/bash-pro/SKILL.md",
+      "size": 18370
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d40132958dc5821669c2d967c82c7dddd1f7eebacd1220b6fb534a3a9c6ea6d6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/bash-pro",
+  "schema_version": 1
+}

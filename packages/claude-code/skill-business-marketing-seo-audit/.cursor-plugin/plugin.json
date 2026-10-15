@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/seo-audit",
+  "license": "MIT",
+  "name": "skill-business-marketing-seo-audit",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

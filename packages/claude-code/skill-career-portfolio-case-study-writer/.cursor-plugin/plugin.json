@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/portfolio-case-study-writer",
+  "license": "MIT",
+  "name": "skill-career-portfolio-case-study-writer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

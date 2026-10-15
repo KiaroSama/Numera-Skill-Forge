@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f31d95e041d06f018620fc697f25a32ea115b4ec577d9f448f714eeeb606363d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/2d-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/2d-games/SKILL.md",
+      "size": 2190
+    },
+    {
+      "digest": "141bf1ca6af96066cffa91b2b37417b9d1cffec4fcc2a6ef1333ee976121f7dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/3d-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/3d-games/SKILL.md",
+      "size": 2563
+    },
+    {
+      "digest": "994e2de3a8fd7dcd5caa8f08ddcb663d0d27cf161ddd5f74f88a441c0905189d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/SKILL.md",
+      "size": 4682
+    },
+    {
+      "digest": "ab7029cb91c498c6469137f7b8b1575fdc7a97db3cc338c5cd2f0edc2ac2888a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/game-art/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/game-art/SKILL.md",
+      "size": 5049
+    },
+    {
+      "digest": "5cfa7e0a750c202ce81dde7aef8ebbd6e9954ece42ce47ed1619163d217a48c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/game-audio/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/game-audio/SKILL.md",
+      "size": 5361
+    },
+    {
+      "digest": "93c4179046820a685506d81b066cbceeaa91b197cdb89ab7da1e04cac9062657",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/game-design/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/game-design/SKILL.md",
+      "size": 2645
+    },
+    {
+      "digest": "43db8fb50830a99fb14ace08cb29cc60cd7f51a240c5ae73dbe5b31da704f24f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/mobile-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/mobile-games/SKILL.md",
+      "size": 2282
+    },
+    {
+      "digest": "79ee8d6f2e04a993b6cdf5eb251590051427cc4e09aa3a7f67f1ab8e61e205f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/multiplayer/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/multiplayer/SKILL.md",
+      "size": 2813
+    },
+    {
+      "digest": "739b244b02659ec53ca719bbdf8ac2684dbeeafc5d5ddac124ffa6407f10f5df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/pc-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/pc-games/SKILL.md",
+      "size": 2973
+    },
+    {
+      "digest": "59ddbdecc4fa17e74c4747f5f02bd69edb8bffcd1cdc2866dd6a053e19bc139e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/vr-ar/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/vr-ar/SKILL.md",
+      "size": 2379
+    },
+    {
+      "digest": "1213dbf108ac6a56c7c2cb67e81705b10cf0b9d136fa775ad161273bfe452a90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development/skills/game-development/web-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/web-games/SKILL.md",
+      "size": 3073
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7929929fabc0ce2f4972af945e41e4d0d557764162b969f11a954d6d5383c083",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/game-development",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-programmatic-seo/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f54fd1731b67cf7d3b0e2f418790c589a56c7076913df13c63c7bdd3a6bd72df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-programmatic-seo/skills/programmatic-seo/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/programmatic-seo/SKILL.md",
+      "size": 16478
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "28a56fd153895471d0ff6a7f7dbbd13ff79fcd685da17b13c7bbedf68b1f4df6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/programmatic-seo",
+  "schema_version": 1
+}

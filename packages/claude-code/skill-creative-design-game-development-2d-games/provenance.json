@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-2d-games/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f31d95e041d06f018620fc697f25a32ea115b4ec577d9f448f714eeeb606363d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-2d-games/skills/2d-games/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/2d-games/SKILL.md",
+      "size": 2190
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7783c72c521bcbf851f8aae51b7de55c2957e45338e133cfdb6aa42dc3da0cc4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/game-development/2d-games",
+  "schema_version": 1
+}

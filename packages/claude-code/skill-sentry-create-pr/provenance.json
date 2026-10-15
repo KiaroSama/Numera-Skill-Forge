@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-create-pr/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "016fe48fde481f70fd7b18072d8744876f84068482460968b9d2ea2b82b51b9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-create-pr/skills/create-pr/SKILL.md",
+      "path": "cli-tool/components/skills/sentry/create-pr/SKILL.md",
+      "size": 3855
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "e20a9e85fb914b0139f4e87d7d07f05bd0313b630e5d40acc999818bf2e7b6a8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/sentry/create-pr",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/bash-pro",
+  "license": "MIT",
+  "name": "skill-development-bash-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

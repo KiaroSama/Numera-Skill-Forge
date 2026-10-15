@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ec74cda5e1954572e4282c3aaa9c1c32ec743cef83c53f8aef622c00dc8f0682",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/SKILL.md",
+      "size": 15455
+    },
+    {
+      "digest": "ed7e218bdd40a6d6614974acf4d54772bc6384536d747ac7e4f378870388b0d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/decision-trees.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/decision-trees.md",
+      "size": 16320
+    },
+    {
+      "digest": "b46b4c0d122de115ed85a8ea814c898cebecb6338f58008b8ce23f28d136dcb2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-backend.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-backend.md",
+      "size": 14686
+    },
+    {
+      "digest": "9e6e302b1a03179811cbe15b8cba70eca5c6dbd42396d9efbc331d704c9b86b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-color-system.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-color-system.md",
+      "size": 10211
+    },
+    {
+      "digest": "647fed510688212d3025c3f1ab06aae44dc5c19d245521de400d2575699e8008",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-debugging.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-debugging.md",
+      "size": 4250
+    },
+    {
+      "digest": "0f0f8aa1e4b081c61de164572c46ccee716904ca1a4483e3bd0d2ed7996b074a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-design-thinking.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-design-thinking.md",
+      "size": 17227
+    },
+    {
+      "digest": "1d9aefcd45146bc39aa4ac12b27e89343cc1f206ea2dafa41269e72433930711",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-navigation.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-navigation.md",
+      "size": 11855
+    },
+    {
+      "digest": "1acdf49acba81035b6e11870b5e2b80e2b585178f6b524065c6937fb42da7059",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-performance.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-performance.md",
+      "size": 19305
+    },
+    {
+      "digest": "a940bd0c2d5204f83b1b8e2214e938e2a4b0e68e72e7b63b175c33d7bb8bdd12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-testing.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-testing.md",
+      "size": 11027
+    },
+    {
+      "digest": "40253bb17ed0bdacef06c0f0f27233ba03274aa1587f0c96215025aaefc0316a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/mobile-typography.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/mobile-typography.md",
+      "size": 10717
+    },
+    {
+      "digest": "672a828fa4cd2d85dfe6aba379c1f65bffd4d9abf484da58e2d39b6abf0b16ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/platform-android.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/platform-android.md",
+      "size": 19541
+    },
+    {
+      "digest": "3843ee18984f68ab5fa022976f2015429788baff5f8af0dd56d6298792e09396",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/platform-ios.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/platform-ios.md",
+      "size": 17127
+    },
+    {
+      "digest": "7d9f7b6813c8decb159462259ce09a6bc91ecfc602971c20ca3919981ac9efe6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/scripts/mobile_audit.py",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/scripts/mobile_audit.py",
+      "size": 35976
+    },
+    {
+      "digest": "ec131aea1ce39b8d46d1c491ee4839510979d2f60ee7698e2ad1aed2c48b6146",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-mobile-design/skills/mobile-design/touch-psychology.md",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/touch-psychology.md",
+      "size": 16848
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6b756264e28fe69dffaa88e7e1904f8f80c66700edc878ebf9c968eb0dc475f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/mobile-design",
+  "schema_version": 1
+}

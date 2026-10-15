@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/resume-version-manager",
+  "license": "MIT",
+  "name": "skill-career-resume-version-manager",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

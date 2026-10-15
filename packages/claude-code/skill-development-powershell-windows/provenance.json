@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-powershell-windows/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e902ee8d16b3fe50d8c53d7612fbfce4c97526ec4d069e7738e14bc9ae3acacb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-powershell-windows/skills/powershell-windows/SKILL.md",
+      "path": "cli-tool/components/skills/development/powershell-windows/SKILL.md",
+      "size": 3500
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2074128d84a5290ad86eb432fefc0d67b0cf71f1943c2af717caf91693a58e36",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/powershell-windows",
+  "schema_version": 1
+}

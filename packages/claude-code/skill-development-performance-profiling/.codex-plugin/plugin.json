@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/performance-profiling",
+  "license": "MIT",
+  "name": "skill-development-performance-profiling",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

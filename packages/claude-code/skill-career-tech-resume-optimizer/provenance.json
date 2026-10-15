@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-tech-resume-optimizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "937d5f6b01f37a4de62a63e52af3432f239607adc073ba1918bdd0b907bbe6b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-tech-resume-optimizer/skills/tech-resume-optimizer/SKILL.md",
+      "path": "cli-tool/components/skills/career/tech-resume-optimizer/SKILL.md",
+      "size": 10695
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e3ccf8ae53085ce82318b6b332ffa2b0c2e77a634d01831ee018dcce50de6ce4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/tech-resume-optimizer",
+  "schema_version": 1
+}

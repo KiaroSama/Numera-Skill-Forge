@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-find-bugs/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "edad456696ade7d64c855594e55b9064689a6ce354e667dc2a64e83362a56a8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sentry-find-bugs/skills/find-bugs/SKILL.md",
+      "path": "cli-tool/components/skills/sentry/find-bugs/SKILL.md",
+      "size": 2767
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "69ebaf74fd108df28c9e7ffb0724a5be2326f86823598e18abdd6118c38c0557",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/sentry/find-bugs",
+  "schema_version": 1
+}

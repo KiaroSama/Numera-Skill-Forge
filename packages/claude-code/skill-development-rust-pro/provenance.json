@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-rust-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "150a360242b4d1f986921b51799976b3ca8e7940b0728579684dc2bce834f004",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-rust-pro/skills/rust-pro/SKILL.md",
+      "path": "cli-tool/components/skills/development/rust-pro/SKILL.md",
+      "size": 7435
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ae182eaa0aa037a16414cd6aff879b87e0b5a9c16bc02c89c7de08fb1c947972",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/rust-pro",
+  "schema_version": 1
+}

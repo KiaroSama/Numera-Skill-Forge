@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-game-audio/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5cfa7e0a750c202ce81dde7aef8ebbd6e9954ece42ce47ed1619163d217a48c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-game-audio/skills/game-audio/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/game-audio/SKILL.md",
+      "size": 5361
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "69f7f8811493d3b03cab44fbdc89c79d2963ce0f77a711cd234164ba55ba32a2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/game-development/game-audio",
+  "schema_version": 1
+}

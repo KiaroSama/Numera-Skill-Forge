@@ -16,12 +16,15 @@ reviewed = {}
 for collection in registry["collections"]:
     for skill in collection["skills"]:
         for source, digest in skill.get("reviewed_documents", {}).items():
-            if (not skill["root"].startswith("skills/") or len(Path(skill["root"]).parts) != 2
-                    or source != skill["root"] + "/references/secrets.md"
-                    or any(p in blocked for p in Path(source).parts[:-1])):
+            canonical = ((skill["root"].startswith("skills/") and len(Path(skill["root"]).parts) == 2)
+                         or (skill["root"].startswith("cli-tool/components/skills/") and len(Path(skill["root"]).parts) == 5))
+            if (not canonical or source != skill["root"] + "/references/secrets.md"
+                    or any(p.lower() in blocked for p in Path(source).parts[:-1])):
                 raise SystemExit("Invalid reviewed public document path")
             entry = lock["entries"][collection["id"] + "/" + skill["id"]]
-            output = f"packages/claude-code/{skill['id']}/{source}"
+            entrypoint = next(f for f in entry["files"] if f["path"] == skill["root"] + "/SKILL.md")
+            name = Path(entrypoint["output_path"]).parent.name
+            output = f"packages/claude-code/{skill['id']}/skills/{name}/references/secrets.md"
             if not any(f["path"] == source and f["output_path"] == output and f["digest"] == digest
                        for f in entry["files"]):
                 raise SystemExit("Reviewed document differs from accepted identity")

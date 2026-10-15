@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/offer-comparison-analyzer",
+  "license": "MIT",
+  "name": "skill-career-offer-comparison-analyzer",
+  "version": "1.0.0"
+}

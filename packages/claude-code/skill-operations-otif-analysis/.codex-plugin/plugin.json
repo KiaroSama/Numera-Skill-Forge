@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/operations/otif-analysis",
+  "license": "MIT",
+  "name": "skill-operations-otif-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

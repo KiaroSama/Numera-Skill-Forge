@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-optimizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "af0e7b524d302956a630f85dd35b245cdf9f3b28c4546ea3dd7ec91d9c6382d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-optimizer/skills/seo-optimizer/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/seo-optimizer/SKILL.md",
+      "size": 11687,
+      "source_digest": "af636bb8931c81e62fe59143c9643d1e67aefe43aafc521626e79eb7da2acc5b"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a01abd7cfc86edbd709c6db69e1fd3f149fb96db2b3fe1e69f8008e53cb3c8a8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/seo-optimizer",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-backend-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "23b9ef6b7cfc98d96c449ad9ade23b2e6939a3938c557c0f3daff1723d2a0770",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-backend-patterns/skills/backend-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/cc-skill-backend-patterns/SKILL.md",
+      "size": 13206
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "758525b5902678e955b0a225973bfb4439792afd3743d6e5f4b676779ab3d6d7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cc-skill-backend-patterns",
+  "schema_version": 1
+}

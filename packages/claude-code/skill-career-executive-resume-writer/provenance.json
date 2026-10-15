@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-executive-resume-writer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "69dad2d35bd9da1a44c89b05b98824f30287786054c60e763ae82471d076ce91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-executive-resume-writer/skills/executive-resume-writer/SKILL.md",
+      "path": "cli-tool/components/skills/career/executive-resume-writer/SKILL.md",
+      "size": 9359
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1dfb3d701ebe09a0e235770b20988d45063c8d1079d612e27f779b859c3f0a0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/executive-resume-writer",
+  "schema_version": 1
+}

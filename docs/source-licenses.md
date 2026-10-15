@@ -33,7 +33,13 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-485 roots have reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
+The current collection contains **601 davila packages**, plus 180 packages from the other four
+registered sources, for **781 total**. The original 665 accepted identities are unchanged; the renewed
+116 additions include 380 payload/notice records, bringing that record count to 6981. Four entry
+records explicitly distinguish original and name-adapted output hashes. Original legal notices and
+new name-adaptation provenance are additional owned package files, not extra source-root counts.
+
+The previous 485-root baseline had reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
 4272 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
 packaged separately where the aggregator omitted its original license. These counts were verified by
 three-platform CI on published commit `9830d00`; the current technical change preserves them.
@@ -578,18 +584,21 @@ authorization to test another party's application.
 
 ## Unresolved provenance: not a prohibition claim
 
-409 roots remain under provenance/terms or publication-compliance review, including four
-mixed-license roots. The original Apache-2.0 grant for
+299 roots remain unpromoted after renewed provenance/terms, companion and publication-compliance
+triage, including four mixed-license roots. The renewed review admitted 110 evidence-complete roots;
+this is not a claim that all 409 received complete legal audits. The accepted additions and original
+grants are listed below. The original Apache-2.0 grant for
 [ai-maestro/agent-messaging](https://github.com/agentmessaging/claude-plugin/blob/6dd0316a43aa6aeb9938932a6ed4ed77d4d04801/LICENSE)
 is verified, but its preexisting condensed payload lacks a prominent modified-file notice required by
 section 4(b). It stays excluded while exact-payload redistribution compliance is unresolved; this is
-not a claim of prohibition or unknown original rights. Six additional
-permissive-evidence roots are not packaged: four nonportable original activation names, one protected
-companion filename and one express MIT declaration needing complete legal-text attribution handling.
+not a claim of prohibition or unknown original rights. The six earlier packaging holds are resolved:
+four explicitly approved name-only adaptations preserve their original entries and exact change
+provenance; the older Modal public instructional reference has separate exact-path/hash approval;
+Vercel's original MIT declaration and the complete applicable adaptation notice are retained together.
 The Supabase hold is resolved by the original author's complete MIT notice added in
 [merged PR35](https://github.com/supabase/agent-skills/pull/35); the complete older payload is unchanged.
-The four name holds cannot silently switch from skills to native commands; that is a different host
-surface even when an unchanged source mapping is technically possible.
+The four adapted packages remain skills, not silently converted native commands. Only their
+frontmatter name and matching output directory change; original bodies and companions remain exact.
 One additional proprietary-declared root, [pdf-processing](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/document-processing/pdf-processing/SKILL.md), references absent terms and is excluded pending its actual grant.
 
 The 13 restrictive texts listed above plus this missing-terms declaration are distinct from uncertainty.
@@ -613,3 +622,10 @@ accepted packages remain unchanged. Root upstream maintainer scripts, tests and 
 are not included. No scientific script, backend, model or service was executed.
 Original educational references remain byte-identical after exact content review; this is not
 approval to supply real credentials, upload research data or run cloud workloads.
+
+## Renewed additions
+
+See the [116 reviewed additions and their immutable original grants](reviewed-additions.md).
+All 110 newly resolved provenance candidates and six former packaging holds retain complete
+selected payloads and required notices. The remaining 299 are unresolved or technically qualified,
+not declared prohibited. Packaging approval never executes their scripts or installs host hooks.

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-competitor-alternatives/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "50d9b99ac71d7b4bbdf168d5c28abef566a97da6f1decb2951e3d4d2574c41f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-competitor-alternatives/skills/competitor-alternatives/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/competitor-alternatives/SKILL.md",
+      "size": 19612
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5abff77622c1ce548eb6dc41e9514a42cde1c7212967d0c4b21f1148d5407f6f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/competitor-alternatives",
+  "schema_version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/resume-section-builder",
+  "license": "MIT",
+  "name": "skill-career-resume-section-builder",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/enterprise-communication/data-privacy-compliance",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-data-privacy-compliance",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

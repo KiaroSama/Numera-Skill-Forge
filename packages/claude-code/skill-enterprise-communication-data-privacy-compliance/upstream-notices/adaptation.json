@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "data-privacy-compliance",
+    "source_digest": "296ba56e91988a457e4706fcd1e2cd6c2d37f2c98d17d88a37d0c522f675e7ec",
+    "source_name": "Data Privacy Compliance"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "8dcc659db76ec99d605242530736a435606a5eeb43faf78e56cecdb3feb36bba",
+  "schema_version": 1
+}

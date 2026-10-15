@@ -1,0 +1,103 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d8c2cbe8a0966e95a52d4c9641368b64c402cef4e9e4924978b7cd633423fcbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/api-patterns/SKILL.md",
+      "size": 2435
+    },
+    {
+      "digest": "ac7b7677e862c7b6f1a622425ac398807890272a3dcb31f528993f6411abccc2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/api-style.md",
+      "path": "cli-tool/components/skills/development/api-patterns/api-style.md",
+      "size": 1155
+    },
+    {
+      "digest": "d35ba351bf05454ad097522b80fb19368b47f66ff4ab0e76a0d69e303c2b72f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/auth.md",
+      "path": "cli-tool/components/skills/development/api-patterns/auth.md",
+      "size": 576
+    },
+    {
+      "digest": "aa1d0262be74814e7d72d5dd2a4acf074235e8ca33c0dff0ec986adfd962a124",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/documentation.md",
+      "path": "cli-tool/components/skills/development/api-patterns/documentation.md",
+      "size": 549
+    },
+    {
+      "digest": "f7f49e84697c8993d9cdc66b3ada56f71b01d2221107cfe70bbf291628136b8c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/graphql.md",
+      "path": "cli-tool/components/skills/development/api-patterns/graphql.md",
+      "size": 977
+    },
+    {
+      "digest": "f1538d288ce362012241a6085beb3b5ff06d11f754b5867bf0adb7b62afd0657",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/rate-limiting.md",
+      "path": "cli-tool/components/skills/development/api-patterns/rate-limiting.md",
+      "size": 726
+    },
+    {
+      "digest": "37bc83dfd2c4365ea9f50e531149c22e6ecdafd9d0b66c2170528b2d88a8cfa6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/response.md",
+      "path": "cli-tool/components/skills/development/api-patterns/response.md",
+      "size": 921
+    },
+    {
+      "digest": "20bbf589c4f583b482f4610f41d25669af7224e989427353f18092e11d59970f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/rest.md",
+      "path": "cli-tool/components/skills/development/api-patterns/rest.md",
+      "size": 1280
+    },
+    {
+      "digest": "0c633f13a560ba75556e434eb87adbd37d4c1b98ff6eb9b9ca36a2df5b192852",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/scripts/api_validator.py",
+      "path": "cli-tool/components/skills/development/api-patterns/scripts/api_validator.py",
+      "size": 7593
+    },
+    {
+      "digest": "e5cbe598d1b44356362325d5f55ee703efdbf8908a92cbd91a9c989d1ec1f9de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/security-testing.md",
+      "path": "cli-tool/components/skills/development/api-patterns/security-testing.md",
+      "size": 2892
+    },
+    {
+      "digest": "722dde150b45392b9517a2053e53958619cb8fc0c2047c8ef09be4bcb5e9095d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/trpc.md",
+      "path": "cli-tool/components/skills/development/api-patterns/trpc.md",
+      "size": 801
+    },
+    {
+      "digest": "58abb2fc534e687bb54a4a191188f2698ec9ed3e4e12ba269d93cc03ed8d1ee6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-patterns/skills/api-patterns/versioning.md",
+      "path": "cli-tool/components/skills/development/api-patterns/versioning.md",
+      "size": 651
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a3529fc53ebd93e62965d8f96006fe6c6fa3a3772c29f6af5c79b8d6193f4b99",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/api-patterns",
+  "schema_version": 1
+}

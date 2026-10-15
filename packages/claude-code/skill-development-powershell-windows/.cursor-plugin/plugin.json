@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/powershell-windows",
+  "license": "MIT",
+  "name": "skill-development-powershell-windows",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-tdd-workflow/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b8fceb81c0967e5beadb7a89e80bc6b199c5c203fb34de50514ba9742d530157",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-tdd-workflow/skills/tdd-workflow/SKILL.md",
+      "path": "cli-tool/components/skills/development/tdd-workflow/SKILL.md",
+      "size": 2813
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ab3cf27aae9353ab9655ebaee35c8318fe0c7cedccec7354810ad1cf9922b349",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/tdd-workflow",
+  "schema_version": 1
+}

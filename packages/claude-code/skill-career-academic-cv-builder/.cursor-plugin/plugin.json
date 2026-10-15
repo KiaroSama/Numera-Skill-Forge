@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/academic-cv-builder",
+  "license": "MIT",
+  "name": "skill-career-academic-cv-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

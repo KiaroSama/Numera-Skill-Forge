@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/pricing-strategy",
+  "license": "MIT",
+  "name": "skill-business-marketing-pricing-strategy",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

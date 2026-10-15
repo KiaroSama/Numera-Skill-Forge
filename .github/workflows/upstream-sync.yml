@@ -1,7 +1,5 @@
 name: Synchronize collections
 on:
-  schedule:
-    - cron: '37 3 * * *'
   workflow_dispatch:
 permissions:
   contents: read

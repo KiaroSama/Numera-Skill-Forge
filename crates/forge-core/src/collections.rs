@@ -11,6 +11,7 @@ use std::{
     path::Path,
 };
 mod acquire;
+mod adaptation;
 mod delivery;
 pub(crate) mod model;
 mod policy;
@@ -115,12 +116,14 @@ fn files(
     payload: &BTreeMap<String, Vec<u8>>,
 ) -> Result<Vec<File>> {
     let entry = format!("{}/SKILL.md", skill.root);
-    let text = std::str::from_utf8(
+    let emitted = adaptation::entry(
+        skill,
         payload
             .get(&entry)
             .ok_or_else(|| Error::new("skill-entrypoint", "Selected root has no SKILL.md"))?,
-    )
-    .map_err(|_| Error::new("encoding", "SKILL.md is not UTF-8"))?;
+    )?;
+    let text = std::str::from_utf8(&emitted)
+        .map_err(|_| Error::new("encoding", "SKILL.md is not UTF-8"))?;
     let front = text
         .strip_prefix("---\n")
         .and_then(|s| s.split_once("\n---"))
@@ -149,12 +152,15 @@ fn files(
             let bytes = payload
                 .get(&blob.path)
                 .ok_or_else(|| Error::new("integrity", "Missing source blob"))?;
+            let emitted = adaptation::payload(skill, &blob.path, bytes)?;
             Ok(File {
                 path: blob.path.clone(),
                 output_path: output,
-                digest: storage::digest(bytes),
+                digest: storage::digest(&emitted),
                 mode: blob.mode.clone(),
-                size: bytes.len() as u64,
+                size: emitted.len() as u64,
+                source_digest: (blob.path == entry && skill.reviewed_name.is_some())
+                    .then(|| storage::digest(bytes)),
             })
         })
         .collect()
@@ -171,8 +177,15 @@ fn package(
     let digest = storage::digest(&storage::encoded(&files)?);
     let mut outputs = BTreeMap::new();
     for file in &files {
-        outputs.insert(file.output_path.clone(), payload[&file.path].clone());
+        outputs.insert(
+            file.output_path.clone(),
+            adaptation::payload(skill, &file.path, &payload[&file.path])?,
+        );
     }
+    outputs.extend(adaptation::outputs(
+        skill,
+        &payload[&format!("{}/SKILL.md", skill.root)],
+    )?);
     let prefix = format!("packages/claude-code/{}", skill.id);
     for (index, notice) in skill.notices.iter().enumerate() {
         let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
@@ -188,9 +201,9 @@ fn package(
         );
     }
     if !skill.notices.is_empty() {
-        outputs.insert(format!("{prefix}/upstream-notices/attribution.json"), storage::encoded(&json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}))?);
+        outputs.insert(format!("{prefix}/upstream-notices/attribution.json"), storage::encoded(&json!({"sources":skill.notices,"attribution":skill.attribution,"payload":adaptation::payload_claim(skill)}))?);
     }
-    outputs.insert(format!("{prefix}/.claude-plugin/plugin.json"),storage::encoded(&json!({"name":skill.id,"version":version,"description":format!("Unmodified upstream skill: {}",skill.root),"author":{"name":"Numera Skill Forge (package assembler)"},"repository":collection.repository,"license":skill.license}))?);
+    outputs.insert(format!("{prefix}/.claude-plugin/plugin.json"),storage::encoded(&json!({"name":skill.id,"version":version,"description":adaptation::description(skill),"author":{"name":"Numera Skill Forge (package assembler)"},"repository":collection.repository,"license":skill.license}))?);
     outputs.insert(format!("{prefix}/provenance.json"),storage::encoded(&json!({"schema_version":1,"collection":collection.id,"repository":collection.repository,"root":skill.root,"revision":revision,"license":skill.license,"payload_digest":digest,"files":files,"execution":"not-performed"}))?);
     let generated = outputs
         .iter()
@@ -482,7 +495,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
                 ));
             }
             let attribution = storage::encoded(
-                &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}),
+                &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":adaptation::payload_claim(skill)}),
             )?;
             let path = format!(
                 "packages/claude-code/{}/upstream-notices/attribution.json",
@@ -495,6 +508,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
                 ));
             }
         }
+        adaptation::verify(root, skill, accepted)?;
         for file in &accepted.files {
             if policy::protected(&file.path)
                 && skill.reviewed_templates.get(&file.path) != Some(&file.digest)

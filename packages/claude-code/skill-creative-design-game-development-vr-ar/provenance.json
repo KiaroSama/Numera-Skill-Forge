@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-vr-ar/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "59ddbdecc4fa17e74c4747f5f02bd69edb8bffcd1cdc2866dd6a053e19bc139e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-vr-ar/skills/vr-ar/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/vr-ar/SKILL.md",
+      "size": 2379
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fff5a50e5209492cfd519b078eecaee8c9fd866c718a8ea3c3109063a167decd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/game-development/vr-ar",
+  "schema_version": 1
+}

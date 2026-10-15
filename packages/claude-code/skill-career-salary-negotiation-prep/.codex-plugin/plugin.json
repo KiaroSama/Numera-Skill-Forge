@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/salary-negotiation-prep",
+  "license": "MIT",
+  "name": "skill-career-salary-negotiation-prep",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

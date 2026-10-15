@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-offer-comparison-analyzer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9b4d1a9cefda12c2f23e0cf7c72a495dc1d326918d7c215ba8d779d8f72c8612",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-offer-comparison-analyzer/skills/offer-comparison-analyzer/SKILL.md",
+      "path": "cli-tool/components/skills/career/offer-comparison-analyzer/SKILL.md",
+      "size": 9451
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a12d59c88d1bef334538b7291ac28250822b28f8749690596a23488942126db9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/offer-comparison-analyzer",
+  "schema_version": 1
+}

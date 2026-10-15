@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/cover-letter-generator",
+  "license": "MIT",
+  "name": "skill-career-cover-letter-generator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

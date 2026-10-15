@@ -136,6 +136,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 let digest = storage::digest(&storage::encoded(&candidate_files)?);
                 if let Some(prior) = &prior {
                     check_owned(root, state.entries.get(&key).unwrap_or(prior))?;
+                    adaptation::verify(root, skill, prior)?;
                     if !skill.notices.is_empty() {
                         for (index, notice) in skill.notices.iter().enumerate() {
                             let path = format!(
@@ -147,7 +148,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                             }
                         }
                         let attribution = storage::encoded(
-                            &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":"Exact aggregator payload; upstream adaptations were not made by Forge"}),
+                            &json!({"sources":skill.notices,"attribution":skill.attribution,"payload":adaptation::payload_claim(skill)}),
                         )?;
                         let path = format!(
                             "packages/claude-code/{}/upstream-notices/attribution.json",

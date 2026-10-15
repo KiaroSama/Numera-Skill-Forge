@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-job-description-analyzer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cea1f8412d32b8756f1b8c990fac09015d11867b8ec2e6a3249e0d65072e18e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-job-description-analyzer/skills/job-description-analyzer/SKILL.md",
+      "path": "cli-tool/components/skills/career/job-description-analyzer/SKILL.md",
+      "size": 14538
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0aa906392cc5204fb00d82aa81b2babc32ef048de4a918191d61314f150f2d3a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/job-description-analyzer",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-safety-stock-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6de4a44d67fbb8cd2c62af4d47d9390720fc0ffd9da7c03125d1ad99c0c8e6ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-safety-stock-review/skills/safety-stock-review/SKILL.md",
+      "path": "cli-tool/components/skills/operations/safety-stock-review/SKILL.md",
+      "size": 3476
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4c5b752d6473dc78ab31111bb49e9a06bf02c4c73309a0a5246aca3174db605a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/operations/safety-stock-review",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b10579e408d1a03dca9f23c62648c8b669e8a18a9f119a48860b9aa44f397b81",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-patterns/skills/react-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/react-patterns/SKILL.md",
+      "size": 3796
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "10abbcad8b67165ecbb47ec569631fa90e74d2fb78f930ab24c6f382eaa6495e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/react-patterns",
+  "schema_version": 1
+}

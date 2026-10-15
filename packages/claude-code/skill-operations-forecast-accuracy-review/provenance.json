@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-forecast-accuracy-review/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ab741597ba94675af7b81356bb608ea2091b3661b93289a66e69604c34c46031",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-forecast-accuracy-review/skills/forecast-accuracy-review/SKILL.md",
+      "path": "cli-tool/components/skills/operations/forecast-accuracy-review/SKILL.md",
+      "size": 3535
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a37da81fb617927ebbc911da9497999794bc7ca4db3c242db668c627926ee1bb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/operations/forecast-accuracy-review",
+  "schema_version": 1
+}

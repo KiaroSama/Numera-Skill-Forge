@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-python-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b295d6221117d189efe741abf680924aedb836c80bc6990f85137f6975fd734e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-python-patterns/skills/python-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/python-patterns/SKILL.md",
+      "size": 9476
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7d9ba7493e91aea087af27c62da602b443c10f446bcef9368409309b726650f2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/python-patterns",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-ideas/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-ideas/skills/marketing-ideas/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/marketing-ideas/SKILL.md",
+      "size": 24473
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7216a33c51b7d74d05e33a98f8abfb444da685df3ca71de81e909b459cce990b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/marketing-ideas",
+  "schema_version": 1
+}

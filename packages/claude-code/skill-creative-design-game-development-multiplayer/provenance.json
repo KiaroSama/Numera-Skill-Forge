@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-multiplayer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "79ee8d6f2e04a993b6cdf5eb251590051427cc4e09aa3a7f67f1ab8e61e205f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-game-development-multiplayer/skills/multiplayer/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/game-development/multiplayer/SKILL.md",
+      "size": 2813
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a9181aeceb80ec25d890423a9397beb7defe14b188b039f06dd2e0cdb73e3bd0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/game-development/multiplayer",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/javascript-pro",
+  "license": "MIT",
+  "name": "skill-development-javascript-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

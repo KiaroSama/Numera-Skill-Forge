@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-abc-xyz-segmentation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3481082fd871e8d6957ef53227bb6d6069e17f209cfc01ee34fb8d3f3d0484d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-abc-xyz-segmentation/skills/abc-xyz-segmentation/SKILL.md",
+      "path": "cli-tool/components/skills/operations/abc-xyz-segmentation/SKILL.md",
+      "size": 3492
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "66f29e115988ac87900f590b9cae64321154b88c574d157e5af1149e80306cc4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/operations/abc-xyz-segmentation",
+  "schema_version": 1
+}

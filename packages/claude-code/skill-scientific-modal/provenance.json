@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2b3918692d5a5be0a7dc03985c26fdded21e088d8f82566bec915e83f536d1e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/modal/SKILL.md",
+      "size": 10565
+    },
+    {
+      "digest": "cfde63131bdf4a46bccd5a623e9e7fd52e3f852c21842b016c85ae6dee76f263",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/api_reference.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/api_reference.md",
+      "size": 956
+    },
+    {
+      "digest": "f714346e2ec8f396435cfb38908179a6ca506d69cb80ee134ca8e58b974679c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/examples.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/examples.md",
+      "size": 9782
+    },
+    {
+      "digest": "744ec056eb9bee1278815357cf7ae881631d62512e1e13de6dc001039ef2401d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/functions.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/functions.md",
+      "size": 4457
+    },
+    {
+      "digest": "5def976716dffa732990438cbe6f3fba0333d6c505dd1377fd0b759dc3a122bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/getting-started.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/getting-started.md",
+      "size": 1984
+    },
+    {
+      "digest": "12c866f9fbd8c0ca5ebf2c52b1526c2ef01c269fad9eb20fe826f54e9c216046",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/gpu.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/gpu.md",
+      "size": 3551
+    },
+    {
+      "digest": "3b454afd61001d4db641850ff96395ec94426c78a8faa5a3a227fa3da5cb5667",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/images.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/images.md",
+      "size": 5414
+    },
+    {
+      "digest": "eeb8922013b3b4434f47d93bcdc87a5776bef3bdbce2cac91a85b7ff23e93b6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/resources.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/resources.md",
+      "size": 2681
+    },
+    {
+      "digest": "e756d757876e6f6eddc970d12eaf203f8ebd9774f2a1f5a4a55115f8ed019683",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/scaling.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/scaling.md",
+      "size": 5354
+    },
+    {
+      "digest": "9be2c4e1a84aa1d66dfa066eebcd5bd60845f3cbefdb9569943166c4fdb739d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/scheduled-jobs.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/scheduled-jobs.md",
+      "size": 6032
+    },
+    {
+      "digest": "4d7b0a9f9623294e3408b67f0af6055e577ee02a70ba07d80a63deb1fea1ec52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/secrets.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/secrets.md",
+      "size": 3922
+    },
+    {
+      "digest": "41af79fcfd229d7d77588b342640deb186cab98a1df12bc869b02f633d801179",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/volumes.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/volumes.md",
+      "size": 6081
+    },
+    {
+      "digest": "6f28073198120d0e038fb9e3910b4ff81dd622d79bf3aecfb61e530faeefb7d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-modal/skills/modal/references/web-endpoints.md",
+      "path": "cli-tool/components/skills/scientific/modal/references/web-endpoints.md",
+      "size": 6928
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d8d9861adedfbeb0f6cc71b42153e91cee29c4cd3d699c1d65deb7269ca88330",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/modal",
+  "schema_version": 1
+}

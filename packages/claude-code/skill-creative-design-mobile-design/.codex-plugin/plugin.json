@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/mobile-design",
+  "license": "MIT",
+  "name": "skill-creative-design-mobile-design",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

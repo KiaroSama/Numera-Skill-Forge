@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/ab-test-setup",
+  "license": "MIT",
+  "name": "skill-business-marketing-ab-test-setup",
+  "version": "1.0.0"
+}

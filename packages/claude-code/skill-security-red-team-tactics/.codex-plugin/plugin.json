@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/red-team-tactics",
+  "license": "MIT",
+  "name": "skill-security-red-team-tactics",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

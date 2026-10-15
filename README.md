@@ -49,10 +49,12 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **485 reviewed skills** from
+The native Claude marketplace currently packages **601 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
-plugin, with original prompts, scripts, companions and notices unchanged. This is a bounded licensed
-subset, not the entire upstream collection. See [licenses and exclusions](docs/source-licenses.md).
+plugin. Original prompts, scripts, companions and notices are preserved; four explicitly reviewed
+entries normalize only their frontmatter name and matching directory, retaining the original entry
+and exact change provenance. This is a bounded licensed subset, not the entire upstream collection.
+See [licenses, additions and exclusions](docs/source-licenses.md).
 
 ```bash
 claude plugin marketplace add KiaroSama/Numera-Skill-Forge
@@ -100,7 +102,8 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 ## Complete K-Dense scientific collection
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-are included as independent packages, bringing the marketplace to **665 packages**. Original names,
+are included as independent packages. Together with the reviewed additions, the marketplace now
+contains **781 packages**. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.
@@ -122,12 +125,13 @@ OpenCode v1/v2, Hermes and the remaining documented skill hosts. Root native cat
 independent package identities; standalone delivery uses Forge's scoped ownership/lifecycle engine.
 Read the **[host-by-host installation and setup guide](docs/host-setup.md)** for exact paths,
 commands, trust/restart steps, updates/removal and duplicate-name/runtime limitations.
-No original skill is renamed, and native runtime-only profiles are not replaced by skill copies.
+Only the four explicitly approved name-only adaptations differ from original activation names;
+native runtime-only profiles are not replaced by skill copies.
 
-## Daily and local updates
+## Manual and local updates
 
-[Collection synchronization](docs/upstream-sync.md) runs daily at **03:37 UTC** and can be started
-manually in GitHub Actions. Safe reviewed prompt updates are rebuilt and pushed; script, license,
+[Collection synchronization](docs/upstream-sync.md) starts manually in GitHub Actions; no schedule,
+push or pull request starts verification automatically. Safe reviewed prompt updates are rebuilt and pushed; script, license,
 file-structure and executable-mode changes require review. The local [run.ps1](run.ps1) launcher
 checks by default; `-Apply` updates accepted collection files, never installs extensions into a host.
 

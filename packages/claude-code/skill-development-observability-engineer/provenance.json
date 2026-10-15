@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-observability-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "aa5a6ea823c14a79ee53b36141d60d61f24fcd786218ffe841b4ab6e0a2353b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-observability-engineer/skills/observability-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/development/observability-engineer/SKILL.md",
+      "size": 12982
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4a5d74dab62250ae9d46b37d50776e2e58dd4368065250ed9ba168497f4feaa0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/observability-engineer",
+  "schema_version": 1
+}

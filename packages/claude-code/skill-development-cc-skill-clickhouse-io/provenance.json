@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-clickhouse-io/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "069d0887e4636adddd5f6c8ceff438da70aef469b07e577fea07562b20da617a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-clickhouse-io/skills/clickhouse-io/SKILL.md",
+      "path": "cli-tool/components/skills/development/cc-skill-clickhouse-io/SKILL.md",
+      "size": 10003
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d66c238d2c8d7d69e593205997eb51a3402f7b1dfafe1c63fbb7690e0610a0e3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cc-skill-clickhouse-io",
+  "schema_version": 1
+}

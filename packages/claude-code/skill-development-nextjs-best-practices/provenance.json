@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nextjs-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "50bf04377ef5686f02884153c4115168ef2ec21b481bdac732c27389e4f3d3ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nextjs-best-practices/skills/nextjs-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/development/nextjs-best-practices/SKILL.md",
+      "size": 3740
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0a18db4bda7ad56a24cb844786c568a91f45228ca71a95b69e291dc10bf7e3d2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/nextjs-best-practices",
+  "schema_version": 1
+}

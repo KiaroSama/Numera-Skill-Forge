@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/operations/root-cause-pareto",
+  "license": "MIT",
+  "name": "skill-operations-root-cause-pareto",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

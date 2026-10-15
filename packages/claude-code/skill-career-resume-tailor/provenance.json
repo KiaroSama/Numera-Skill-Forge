@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-tailor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "26699a009ece27af462d9689e311bb118a6ea79f674f539a30a606c252d88c4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-tailor/skills/resume-tailor/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-tailor/SKILL.md",
+      "size": 9479
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "aae93d9225c181435b65f2aa2efd98d356d7b28e8e4b806018a3c70b9f822c7d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-tailor",
+  "schema_version": 1
+}

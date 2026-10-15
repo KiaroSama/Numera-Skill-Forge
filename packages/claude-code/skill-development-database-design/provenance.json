@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "efb8ec6b79641214f751a886ce75cfdb36f78b4b296473ab3f090081470fad28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/SKILL.md",
+      "path": "cli-tool/components/skills/development/database-design/SKILL.md",
+      "size": 1527
+    },
+    {
+      "digest": "3655cdd3a38a9ca1ae8408be8057ea628b08bf9ab22460b1bc571228dd2ba6c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/database-selection.md",
+      "path": "cli-tool/components/skills/development/database-design/database-selection.md",
+      "size": 1137
+    },
+    {
+      "digest": "eec8ce01e7c1c8ec2aed7a96d260a52b12d90c2996288e32814a8d9cf29cc22a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/indexing.md",
+      "path": "cli-tool/components/skills/development/database-design/indexing.md",
+      "size": 892
+    },
+    {
+      "digest": "b5b9e518f18264cdd946f4914d73c2355065ba712cb61db01ba59bacb95423a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/migrations.md",
+      "path": "cli-tool/components/skills/development/database-design/migrations.md",
+      "size": 1107
+    },
+    {
+      "digest": "10a6f484fdae9973957030d8ef47bad4ffba9f7709e9c824883a97f92925a722",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/optimization.md",
+      "path": "cli-tool/components/skills/development/database-design/optimization.md",
+      "size": 902
+    },
+    {
+      "digest": "11ece2e816949e26a7019b84004e240a9f9ab0b38c4f454bd522dd251c5dac97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/orm-selection.md",
+      "path": "cli-tool/components/skills/development/database-design/orm-selection.md",
+      "size": 771
+    },
+    {
+      "digest": "0a83addd1e9963e3d958eb00474d7dc72881c4290a97bac03bf09553607e3f6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/schema-design.md",
+      "path": "cli-tool/components/skills/development/database-design/schema-design.md",
+      "size": 1470
+    },
+    {
+      "digest": "30002411da4b6b82471d7e33ac3906daec72e69fab0fd29dd8c201b6a5777748",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-database-design/skills/database-design/scripts/schema_validator.py",
+      "path": "cli-tool/components/skills/development/database-design/scripts/schema_validator.py",
+      "size": 5375
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "db5e0e4b1e4beb380c3c9850c5426b5e437e5ba6fe8177f31861d0cf8c2bc610",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/database-design",
+  "schema_version": 1
+}

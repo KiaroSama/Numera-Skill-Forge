@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-component-performance/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0867ddb956fe855e0c5ae4253deca18fbe361d4bf02acaef2ef2556cee768118",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-component-performance/skills/react-component-performance/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/react-component-performance/SKILL.md",
+      "size": 4763
+    },
+    {
+      "digest": "0ca8b1dec24d486a237cf5b5d7909e0a0c3386f56c1a8d184b52a29496478ffc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-component-performance/skills/react-component-performance/agents/openai.yaml",
+      "path": "cli-tool/components/skills/web-development/react-component-performance/agents/openai.yaml",
+      "size": 238
+    },
+    {
+      "digest": "5d1cef41aefaaa18c1be616080ce5489027a6123d76d5821b6c5ef43edcb7dc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-component-performance/skills/react-component-performance/references/examples.md",
+      "path": "cli-tool/components/skills/web-development/react-component-performance/references/examples.md",
+      "size": 2381
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1869dd75bbc1aeb75e02138423f28f01327b4ecc35a5db8094be109625bb15e2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/react-component-performance",
+  "schema_version": 1
+}

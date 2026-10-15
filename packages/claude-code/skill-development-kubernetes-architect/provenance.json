@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-kubernetes-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "86a3af4e273c5122e9e05d6e979f856f5645e8e64030f236fbdd989ed5a6e3e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-kubernetes-architect/skills/kubernetes-architect/SKILL.md",
+      "path": "cli-tool/components/skills/development/kubernetes-architect/SKILL.md",
+      "size": 9902
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b284c2768e49efc716d532c39905b466798397b01de44f93ca3f59fbefd32675",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/kubernetes-architect",
+  "schema_version": 1
+}

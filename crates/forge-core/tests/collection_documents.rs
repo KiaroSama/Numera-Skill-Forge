@@ -9,17 +9,24 @@ impl Drop for Fixture {
 }
 #[test]
 fn exact_public_reference_approval_preserves_private_boundaries() {
+    for skill_root in ["skills/demo", "cli-tool/components/skills/scientific/demo"] {
+        public_reference_case(skill_root);
+    }
+}
+
+fn public_reference_case(skill_root: &str) {
+    let document_path = format!("{skill_root}/references/secrets.md");
     let f = Fixture(
         PathBuf::from(env!("CARGO_MANIFEST_DIR"))
             .join("../../.ci-work/tests")
             .join(transaction::operation_id()),
     );
     let upstream = f.0.join("upstream");
-    fs::create_dir_all(upstream.join("skills/demo/references")).unwrap();
+    fs::create_dir_all(upstream.join(format!("{skill_root}/references"))).unwrap();
     let document = b"# Public secret API guide\nUse API_KEY=placeholder only.\n";
-    fs::write(upstream.join("skills/demo/references/secrets.md"), document).unwrap();
+    fs::write(upstream.join(&document_path), document).unwrap();
     fs::write(
-        upstream.join("skills/demo/SKILL.md"),
+        upstream.join(format!("{skill_root}/SKILL.md")),
         b"---\nname: demo\ndescription: original\n---\nPrompt\n",
     )
     .unwrap();
@@ -41,7 +48,7 @@ fn exact_public_reference_approval_preserves_private_boundaries() {
         "-m",
         "fixture",
     ]);
-    let mut registration = json!({"schema_version":1,"collections":[{"id":"fixture","repository":format!("local:{}",upstream.display()),"branch":"main","reviewed_revision":git(&["rev-parse","HEAD"]).trim(),"skills":[{"id":"fixture-demo","root":"skills/demo","license":"MIT","license_path":"LICENSE","license_digest":storage::digest(license),"reviewed_documents":{"skills/demo/references/secrets.md":storage::digest(document)}}]}]});
+    let mut registration = json!({"schema_version":1,"collections":[{"id":"fixture","repository":format!("local:{}",upstream.display()),"branch":"main","reviewed_revision":git(&["rev-parse","HEAD"]).trim(),"skills":[{"id":"fixture-demo","root":skill_root,"license":"MIT","license_path":"LICENSE","license_digest":storage::digest(license),"reviewed_documents":{document_path.clone():storage::digest(document)}}]}]});
     storage::write(&f.0.join("registry/collections.json"), &registration).unwrap();
     let result = service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
     assert_eq!(result["status"], "success", "{result}");
@@ -56,10 +63,7 @@ fn exact_public_reference_approval_preserves_private_boundaries() {
         accepted
     );
     let original = registration.clone();
-    for bad in [
-        json!({}),
-        json!({"skills/demo/references/secrets.md":"0".repeat(64)}),
-    ] {
+    for bad in [json!({}), json!({document_path.clone():"0".repeat(64)})] {
         registration["collections"][0]["skills"][0]["reviewed_documents"] = bad;
         storage::write(&f.0.join("registry/collections.json"), &registration).unwrap();
         assert_eq!(
@@ -88,11 +92,7 @@ fn exact_public_reference_approval_preserves_private_boundaries() {
         );
     }
     storage::write(&f.0.join("registry/collections.json"), &original).unwrap();
-    fs::write(
-        upstream.join("skills/demo/references/secrets.md"),
-        b"changed public guide",
-    )
-    .unwrap();
+    fs::write(upstream.join(&document_path), b"changed public guide").unwrap();
     git(&["add", "."]);
     git(&[
         "-c",

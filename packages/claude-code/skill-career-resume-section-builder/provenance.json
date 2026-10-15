@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-section-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d487e95463390aae4ac84de3fc92aa45b22b9a89b6cfc4feb9cde0624ff72d25",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-section-builder/skills/resume-section-builder/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-section-builder/SKILL.md",
+      "size": 9661
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dbad3f4f208b5b026ff99812fcfee6a734d87f16d4afcf1ca319c5031a0fc4d3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-section-builder",
+  "schema_version": 1
+}

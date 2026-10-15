@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/tech-resume-optimizer",
+  "license": "MIT",
+  "name": "skill-career-tech-resume-optimizer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

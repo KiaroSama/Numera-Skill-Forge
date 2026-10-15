@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-schema-markup/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b43f80e20747a21f7b459d22d605858cf1d3586fd99388ec2941115e0e043fd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-schema-markup/skills/schema-markup/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/schema-markup/SKILL.md",
+      "size": 13192
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "344d72f8b92c862474f5db1cd7fc0cecc44fa0c75c75786ccad88220b672356b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/schema-markup",
+  "schema_version": 1
+}

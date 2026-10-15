@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-otif-analysis/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8dd7d356e4927bf5ecb874de3f24ec89cb0addbe3fd407204a7ec22a144547b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-otif-analysis/skills/otif-analysis/SKILL.md",
+      "path": "cli-tool/components/skills/operations/otif-analysis/SKILL.md",
+      "size": 3896
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "58749b6939a70fcd876feb670592e4dc94e7a80b38ec659851c12bec0eeb1b1f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/operations/otif-analysis",
+  "schema_version": 1
+}

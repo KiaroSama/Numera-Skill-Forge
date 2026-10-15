@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-quantifier/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "176ad6b35009ac4e529e04309bb6c0d40e4e300229457f54da61c28b193e20f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-quantifier/skills/resume-quantifier/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-quantifier/SKILL.md",
+      "size": 8564
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "88d74da446971b3ac1922966c70dfe3e851062886896c0caa51af5fbfacd8792",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-quantifier",
+  "schema_version": 1
+}

@@ -246,3 +246,15 @@ membership/modes, exact accepted digests and native catalogs without importing s
 `collection_documents.rs` covers exact reviewed public reference admission, unchanged repeat,
 approval withdrawal/hash changes and forbidden root/parent paths. Original dependencies and
 scientific/clinical execution are not tested by packaging or distribution fixtures.
+
+## Reviewed additions and name adaptation
+
+The actual CLI tier now includes the approved SEO name-adapted package. `collection_adaptation.rs`
+checks the literal emitted entry, retained source, companion, notice coexistence, unchanged repeat,
+approval withdrawal/name/hash drift and upstream entry-change refusal at the public service seam.
+The independent verifier checks emitted hashes against the exact original-entry transformation.
+Public-document tests cover both canonical source-root families without allowing root/private files.
+All verification workflows start manually; dependency review requires explicit base/head refs.
+The 116 reviewed additions bring the inventory to 781 packages and 6981 payload/notice records;
+prior 665 accepted identities remain unchanged. Four entry digests intentionally describe reviewed
+name-only output, with their original digests recorded separately. No collected script is executed.

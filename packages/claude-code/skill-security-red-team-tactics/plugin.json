@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/red-team-tactics",
+  "license": "MIT",
+  "name": "skill-security-red-team-tactics",
+  "version": "1.0.0"
+}

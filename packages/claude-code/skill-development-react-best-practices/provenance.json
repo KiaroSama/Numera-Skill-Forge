@@ -1,0 +1,376 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9288e276adf1a8e907721874d5c1ca7ea62d57ca81750d5ac9d0d87f4e1c52f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/AGENTS.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/AGENTS.md",
+      "size": 60535
+    },
+    {
+      "digest": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/README.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/README.md",
+      "size": 3360
+    },
+    {
+      "digest": "6378620591a6c9e3008653f1e5ccdbf1fdbddedd2ebd943ba951eff8482b1103",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/SKILL.md",
+      "size": 5257
+    },
+    {
+      "digest": "a7d0263491b8f3b2a3439d07d1dfd3f28b74ddbb309ee28392d3ecc5bf411602",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/metadata.json",
+      "path": "cli-tool/components/skills/development/react-best-practices/metadata.json",
+      "size": 921
+    },
+    {
+      "digest": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/_sections.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/_sections.md",
+      "size": 1554
+    },
+    {
+      "digest": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/_template.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/_template.md",
+      "size": 631
+    },
+    {
+      "digest": "86e7c6f5df102a71a2bdbb4b5125a4ddbe1ffe889a95dae86acefadc2af35706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/advanced-event-handler-refs.md",
+      "size": 1478
+    },
+    {
+      "digest": "0b7d925c96c5f063095e627a37f13b2b2cfff22d8c126be6232edcea509fa062",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/advanced-use-latest.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/advanced-use-latest.md",
+      "size": 1191
+    },
+    {
+      "digest": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/async-api-routes.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/async-api-routes.md",
+      "size": 1125
+    },
+    {
+      "digest": "9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/async-defer-await.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/async-defer-await.md",
+      "size": 2028
+    },
+    {
+      "digest": "bfd348ab519f168447ffdbde7b70f40ecb99115c3cdae9292182ec8e28e1ab63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/async-dependencies.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/async-dependencies.md",
+      "size": 942
+    },
+    {
+      "digest": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/async-parallel.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/async-parallel.md",
+      "size": 654
+    },
+    {
+      "digest": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/async-suspense-boundaries.md",
+      "size": 2510
+    },
+    {
+      "digest": "9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/bundle-barrel-imports.md",
+      "size": 2370
+    },
+    {
+      "digest": "081062850fa0cecb4c2e65a69971b48bf84ada6d26fb09404b98cb596fabaf90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/bundle-conditional.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/bundle-conditional.md",
+      "size": 866
+    },
+    {
+      "digest": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/bundle-defer-third-party.md",
+      "size": 920
+    },
+    {
+      "digest": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/bundle-dynamic-imports.md",
+      "size": 791
+    },
+    {
+      "digest": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/bundle-preload.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/bundle-preload.md",
+      "size": 1149
+    },
+    {
+      "digest": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/client-event-listeners.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/client-event-listeners.md",
+      "size": 1969
+    },
+    {
+      "digest": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/client-swr-dedup.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/client-swr-dedup.md",
+      "size": 1159
+    },
+    {
+      "digest": "b2dc21bef3b5dedef3323cff55cb3394d9e10e497de20a49e45b9f6904bb8649",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-batch-dom-css.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-batch-dom-css.md",
+      "size": 1902
+    },
+    {
+      "digest": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-function-results.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-cache-function-results.md",
+      "size": 1949
+    },
+    {
+      "digest": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-property-access.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-cache-property-access.md",
+      "size": 532
+    },
+    {
+      "digest": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-storage.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-cache-storage.md",
+      "size": 1651
+    },
+    {
+      "digest": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-combine-iterations.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-combine-iterations.md",
+      "size": 753
+    },
+    {
+      "digest": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-early-exit.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-early-exit.md",
+      "size": 1133
+    },
+    {
+      "digest": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-hoist-regexp.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-hoist-regexp.md",
+      "size": 1028
+    },
+    {
+      "digest": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-index-maps.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-index-maps.md",
+      "size": 837
+    },
+    {
+      "digest": "1a50e03cdacda77a4ecb8d280165fce115feda9f70d39becb159384da26a002a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-length-check-first.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-length-check-first.md",
+      "size": 1752
+    },
+    {
+      "digest": "d51fed76afdf565bb3c372d47c7d4c65ec07cba7663cc5e630b59e115442fb65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-min-max-loop.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-min-max-loop.md",
+      "size": 2105
+    },
+    {
+      "digest": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-set-map-lookups.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-set-map-lookups.md",
+      "size": 532
+    },
+    {
+      "digest": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/js-tosorted-immutable.md",
+      "size": 1782
+    },
+    {
+      "digest": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-activity.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-activity.md",
+      "size": 564
+    },
+    {
+      "digest": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "size": 1185
+    },
+    {
+      "digest": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-conditional-render.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-conditional-render.md",
+      "size": 980
+    },
+    {
+      "digest": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-content-visibility.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-content-visibility.md",
+      "size": 815
+    },
+    {
+      "digest": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-hoist-jsx.md",
+      "size": 1039
+    },
+    {
+      "digest": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "size": 2308
+    },
+    {
+      "digest": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rendering-svg-precision.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rendering-svg-precision.md",
+      "size": 588
+    },
+    {
+      "digest": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-defer-reads.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-defer-reads.md",
+      "size": 973
+    },
+    {
+      "digest": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-dependencies.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-dependencies.md",
+      "size": 824
+    },
+    {
+      "digest": "011c9d3e655f6e91408e818d47213625c1938008f2c68a42cbd72d2873438d99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-derived-state.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-derived-state.md",
+      "size": 724
+    },
+    {
+      "digest": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-functional-setstate.md",
+      "size": 2968
+    },
+    {
+      "digest": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-lazy-state-init.md",
+      "size": 2016
+    },
+    {
+      "digest": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-memo.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-memo.md",
+      "size": 1148
+    },
+    {
+      "digest": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/rerender-transitions.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/rerender-transitions.md",
+      "size": 1055
+    },
+    {
+      "digest": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/server-after-nonblocking.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/server-after-nonblocking.md",
+      "size": 2012
+    },
+    {
+      "digest": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-lru.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/server-cache-lru.md",
+      "size": 1353
+    },
+    {
+      "digest": "c85380a2449dc9635e9bbf27e6a07821e9da864e344bf79f989b9df9b6170107",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-react.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/server-cache-react.md",
+      "size": 681
+    },
+    {
+      "digest": "3e3bb090981a1609cc86761b595ad97daea09ccc5f1a8748518e57aabcc9468a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/server-parallel-fetching.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/server-parallel-fetching.md",
+      "size": 1515
+    },
+    {
+      "digest": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-react-best-practices/skills/vercel-react-best-practices/rules/server-serialization.md",
+      "path": "cli-tool/components/skills/development/react-best-practices/rules/server-serialization.md",
+      "size": 996
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "970345e5778c770277e7e5dee3101fd6ac4b7329c3058f8e52eaa08bc376744d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/react-best-practices",
+  "schema_version": 1
+}

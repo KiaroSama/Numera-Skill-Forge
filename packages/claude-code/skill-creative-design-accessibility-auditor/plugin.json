@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/creative-design/accessibility-auditor",
+  "license": "MIT",
+  "name": "skill-creative-design-accessibility-auditor",
+  "version": "1.0.0"
+}

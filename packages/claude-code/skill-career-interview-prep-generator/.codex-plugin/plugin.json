@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/interview-prep-generator",
+  "license": "MIT",
+  "name": "skill-career-interview-prep-generator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

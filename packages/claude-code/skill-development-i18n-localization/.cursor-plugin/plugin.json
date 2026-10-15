@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/i18n-localization",
+  "license": "MIT",
+  "name": "skill-development-i18n-localization",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

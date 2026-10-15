@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-academic-cv-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "88f88f4b50bf6564b18563780966dbc8d2f8ff7e597892e898c979256008f291",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-academic-cv-builder/skills/academic-cv-builder/SKILL.md",
+      "path": "cli-tool/components/skills/career/academic-cv-builder/SKILL.md",
+      "size": 9784
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ec4eb5a8b59a2378fedf13873889c01f2aa76ee1847eecd9a295484b525422b1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/academic-cv-builder",
+  "schema_version": 1
+}

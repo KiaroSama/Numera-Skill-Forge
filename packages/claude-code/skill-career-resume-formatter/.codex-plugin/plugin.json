@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/resume-formatter",
+  "license": "MIT",
+  "name": "skill-career-resume-formatter",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

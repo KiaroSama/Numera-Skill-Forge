@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/paywall-upgrade-cro",
+  "license": "MIT",
+  "name": "skill-business-marketing-paywall-upgrade-cro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -24,6 +24,16 @@
         "license_path": { "type": "string" }, "license_digest": { "$ref": "#/$defs/digest" },
         "attribution": { "type": "string" },
         "reviewed_templates": { "type": "object", "additionalProperties": { "$ref": "#/$defs/digest" } },
+        "reviewed_documents": { "type": "object", "additionalProperties": { "$ref": "#/$defs/digest" } },
+        "reviewed_name": {
+          "type": "object", "required": ["source_name", "name", "source_digest"],
+          "properties": {
+            "source_name": { "type": "string", "minLength": 1 },
+            "name": { "$ref": "#/$defs/id" },
+            "source_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+          },
+          "additionalProperties": false
+        },
         "notices": { "type": "array", "items": {
           "type": "object", "required": ["path", "digest", "source", "license"],
           "properties": { "path": { "type": "string", "pattern": "^registry/licenses/" }, "digest": { "$ref": "#/$defs/digest" }, "source": { "type": "string", "pattern": "^https://github.com/" }, "license": { "type": "string" } }

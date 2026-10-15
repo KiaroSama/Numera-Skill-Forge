@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-project-guidelines-example/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "677b5ea6d81592a52fd3c59664ee3ff141112baa6e16de37534868b13d09632f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-project-guidelines-example/skills/cc-skill-project-guidelines-example/SKILL.md",
+      "path": "cli-tool/components/skills/development/cc-skill-project-guidelines-example/SKILL.md",
+      "size": 9797
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5359897af428b45b4fbcf095b71d8c3f01ef0ce54e55c5952a97694d7947dae4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cc-skill-project-guidelines-example",
+  "schema_version": 1
+}

@@ -109,15 +109,29 @@ reviewed public environment templates use `reviewed_templates`; real secrets rem
 See [collection schema](../schemas/collections.schema.json). Each skill gets one plugin. `collection sync --apply` retains complete original
 files and executable modes; `collection verify` checks accepted payloads and native catalog without
 execution. Adding a reviewed collection or skill is registration data, not an engine edit.
-See [licensing](source-licenses.md) and [daily/local updates](upstream-sync.md).
+See [licensing](source-licenses.md) and [manual/local updates](upstream-sync.md).
 
 ## Reviewed original reference documents
 
 Collection registrations may include an optional `reviewed_documents` map from one exact source
 reference path to its SHA-256 digest after explicit content review. Only a canonical
-`skills/<name>/references/secrets.md` educational document under an unprotected skill root qualifies;
+`skills/<name>/references/secrets.md` or
+`cli-tool/components/skills/<category>/<name>/references/secrets.md` educational document under an
+unprotected skill root qualifies;
 root confidential registries, protected parent directories and credential-bearing content remain
 excluded. This is not a filename-wide allowlist. Changed bytes, missing content or withdrawn approval
 refuse verification/publication of that candidate; last-known-good accepted content remains.
 The field defaults empty and is omitted when empty, preserving existing registration metadata.
 Original `.env.example` template review remains a separate unchanged contract.
+
+## Reviewed name-only adaptations
+
+An optional `reviewed_name` object records `source_name`, portable `name`, and the complete original
+entry `source_digest`. This is explicit review, not automatic name cleanup. Forge replaces exactly
+one original frontmatter name line and uses the matching output directory, preserving every other
+entry byte and companion. The unchanged original entry is retained in `upstream-notices/source-entry.md`;
+`adaptation.json` records the approval and emitted digest. Accepted file `digest`/`size` describe emitted
+bytes; optional `source_digest` identifies the original entry. Absent fields are omitted, leaving older
+accepted entries unchanged. Changed original entry/hash/name or withdrawn approval requires review;
+verification checks the literal transformation, source notice and ownership. Four approved adaptations
+currently use this path; no global rename or runtime permission is implied.

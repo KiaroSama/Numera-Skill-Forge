@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/app-builder/templates",
+  "license": "MIT",
+  "name": "skill-business-marketing-app-builder-templates",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

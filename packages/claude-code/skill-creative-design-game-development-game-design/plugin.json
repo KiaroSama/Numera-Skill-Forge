@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/game-development/game-design",
+  "license": "MIT",
+  "name": "skill-creative-design-game-development-game-design",
+  "version": "1.0.0"
+}

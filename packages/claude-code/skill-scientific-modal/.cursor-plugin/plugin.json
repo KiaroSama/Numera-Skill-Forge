@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/scientific/modal",
+  "license": "MIT",
+  "name": "skill-scientific-modal",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

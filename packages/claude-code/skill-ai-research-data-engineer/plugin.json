@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/data-engineer",
+  "license": "MIT",
+  "name": "skill-ai-research-data-engineer",
+  "version": "1.0.0"
+}

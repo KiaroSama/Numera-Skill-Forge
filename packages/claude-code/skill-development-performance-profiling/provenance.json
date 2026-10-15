@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-performance-profiling/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5e58efdd8fd951cf89910c65317b7b7bcc5bf8fde9317e32f4a751fa208d8ff2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-performance-profiling/skills/performance-profiling/SKILL.md",
+      "path": "cli-tool/components/skills/development/performance-profiling/SKILL.md",
+      "size": 3101
+    },
+    {
+      "digest": "7e3928f1ac24e472fd9b0bc390f223379d8ce3e3d9ff6136e557ac4bdad7f52c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-performance-profiling/skills/performance-profiling/scripts/lighthouse_audit.py",
+      "path": "cli-tool/components/skills/development/performance-profiling/scripts/lighthouse_audit.py",
+      "size": 2657
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0fc20a4497fbfc22e2b3f2f849eb284e2493538bbe4ce6b5654f1e0c8bb623f6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/performance-profiling",
+  "schema_version": 1
+}

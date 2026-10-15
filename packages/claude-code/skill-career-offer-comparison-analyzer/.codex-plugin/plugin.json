@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/offer-comparison-analyzer",
+  "license": "MIT",
+  "name": "skill-career-offer-comparison-analyzer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-copywriting/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-copywriting/skills/copywriting/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/copywriting/SKILL.md",
+      "size": 13114
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0163e98e538b369ea9edacd0c2b7e115542cdafef1de32c471c97ebe6300f923",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/copywriting",
+  "schema_version": 1
+}

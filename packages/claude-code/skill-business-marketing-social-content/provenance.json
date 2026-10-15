@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-social-content/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9c40b9ceda9094b3ce256d62ca8a33e8f82f323cff357da294e14262ed429b69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-social-content/skills/social-content/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/social-content/SKILL.md",
+      "size": 21040
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ea08859e5a572f852152784fa88719b5a2e34e1e4b2c95b2d019a200a56c22db",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/social-content",
+  "schema_version": 1
+}

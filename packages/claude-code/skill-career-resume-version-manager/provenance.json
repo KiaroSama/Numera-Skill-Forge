@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-version-manager/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "882146bd6cbb9ea3716207114ee30a9ad13ae190f3afb3f728efe19950e8fc0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-version-manager/skills/resume-version-manager/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-version-manager/SKILL.md",
+      "size": 8576
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "626c750c828771cb0822437494b9bd06e1eee1d06f5965055ce84d1999a71c48",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-version-manager",
+  "schema_version": 1
+}

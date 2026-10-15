@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/creative-portfolio-resume",
+  "license": "MIT",
+  "name": "skill-career-creative-portfolio-resume",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/backend-architect",
+  "license": "MIT",
+  "name": "skill-development-backend-architect",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

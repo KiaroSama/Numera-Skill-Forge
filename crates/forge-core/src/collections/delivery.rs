@@ -4,11 +4,19 @@ pub(crate) const CURSOR_CATALOG: &str = ".cursor-plugin/marketplace.json";
 
 pub(super) fn descriptors(a: &Accepted) -> Result<BTreeMap<String, Vec<u8>>> {
     let prefix = format!("packages/claude-code/{}", a.id);
+    let description = if a.files.iter().any(|f| f.source_digest.is_some()) {
+        format!(
+            "Upstream skill with reviewed name-only adaptation: {}",
+            a.root
+        )
+    } else {
+        format!("Unmodified upstream skill: {}", a.root)
+    };
     let native = json!({"name":a.id,"version":a.version,
-        "description":format!("Unmodified upstream skill: {}",a.root),
+        "description":description,
         "license":a.license,"skills":"./skills/"});
     let portable = json!({"$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-        "name":a.id,"version":a.version,"description":format!("Unmodified upstream skill: {}",a.root),
+        "name":a.id,"version":a.version,"description":description,
         "license":a.license});
     [
         (

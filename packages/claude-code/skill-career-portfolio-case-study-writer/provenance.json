@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-portfolio-case-study-writer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "74bb35f0df8872feef2b72f57fd51de88a309f75734fcf826f0f90c3a80636f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-portfolio-case-study-writer/skills/portfolio-case-study-writer/SKILL.md",
+      "path": "cli-tool/components/skills/career/portfolio-case-study-writer/SKILL.md",
+      "size": 9134
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c73da7b6ee3e507aad4484e342ffb77d7f71b9331e4b82781c475fbf4200960d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/portfolio-case-study-writer",
+  "schema_version": 1
+}

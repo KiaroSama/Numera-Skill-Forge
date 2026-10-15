@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-reference-list-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f62af2417d623ccde2ef2b97dec6941c05b43efbf5938b8d35e63533383fd129",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-reference-list-builder/skills/reference-list-builder/SKILL.md",
+      "path": "cli-tool/components/skills/career/reference-list-builder/SKILL.md",
+      "size": 8494
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4d64c14cacafa1d7a50e1efeab34c352b0bc07d0eaa0dce4f5ec4747fef9849b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/reference-list-builder",
+  "schema_version": 1
+}

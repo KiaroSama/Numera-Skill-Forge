@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-geo-fundamentals/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2ee830fe680802316c549dbeb31cc0c4e49569c25ab338e7812500d097a5924b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-geo-fundamentals/skills/geo-fundamentals/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/geo-fundamentals/SKILL.md",
+      "size": 3445
+    },
+    {
+      "digest": "512cf855e5ab3441e2db4578a3c3a51baf3c34461a1735d02dfb079a73fb2522",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-geo-fundamentals/skills/geo-fundamentals/scripts/geo_checker.py",
+      "path": "cli-tool/components/skills/utilities/geo-fundamentals/scripts/geo_checker.py",
+      "size": 9750
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac9e88fb076d125eb8d4fda55d3dd69a3c51f2fa79ada59debff9810803882fe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/geo-fundamentals",
+  "schema_version": 1
+}

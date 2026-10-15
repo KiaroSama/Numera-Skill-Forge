@@ -13,7 +13,7 @@ from source_transport_fixture import Processes
 
 
 SELECTED = [
-    ("davila7-templates", "skill-creative-design-frontend-design", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-business-marketing-seo-optimizer", "claude-code", ".claude/skills"),
     ("jcodesmore-website-cloner", "skill-jcodesmore-clone-website", "hermes", ".hermes/skills"),
     ("morluto-rea", "skill-morluto-reverse-engineer-anything", "opencode", ".opencode/skills"),
     ("newliver666-apk-reverse", "skill-newliver666-apk-reverse", "cursor", ".cursor/skills"),

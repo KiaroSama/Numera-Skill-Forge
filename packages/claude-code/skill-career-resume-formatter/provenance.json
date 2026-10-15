@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-formatter/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7e99f6e158028235537d232a59fdfaae857e23fb53103c74c448570069d8d493",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-formatter/skills/resume-formatter/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-formatter/SKILL.md",
+      "size": 8636
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "76f2cd8ac9c48930aa7062f54dfde218a7d2ffd218fb0e22009948354c8ad1bc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-formatter",
+  "schema_version": 1
+}

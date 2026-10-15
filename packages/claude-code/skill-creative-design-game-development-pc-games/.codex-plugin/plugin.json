@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/game-development/pc-games",
+  "license": "MIT",
+  "name": "skill-creative-design-game-development-pc-games",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

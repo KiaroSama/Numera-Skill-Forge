@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-interview-prep-generator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6272bdda6bb1bd74158cb13c2aaa817d9c99857f0028ec265191d3071e131959",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-interview-prep-generator/skills/interview-prep-generator/SKILL.md",
+      "path": "cli-tool/components/skills/career/interview-prep-generator/SKILL.md",
+      "size": 12192
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fc694345411eb5440744d202b4f6f3bf594e54336646f40617852b49008d9733",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/interview-prep-generator",
+  "schema_version": 1
+}

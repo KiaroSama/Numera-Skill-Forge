@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/referral-program",
+  "license": "MIT",
+  "name": "skill-business-marketing-referral-program",
+  "version": "1.0.0"
+}

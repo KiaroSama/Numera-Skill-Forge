@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "api-integration-specialist",
+    "source_digest": "b6ae66805cf63e1bd7eabee6acdaf32ecfdb43c94596656ad52a68a6da526062",
+    "source_name": "API Integration Specialist"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "f68458304e084c185956f7d82ef23fbc5f0d86904eeb2c5fb64edf32fc230984",
+  "schema_version": 1
+}

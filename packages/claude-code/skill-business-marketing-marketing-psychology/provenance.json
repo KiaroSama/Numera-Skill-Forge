@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-psychology/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-marketing-psychology/skills/marketing-psychology/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/marketing-psychology/SKILL.md",
+      "size": 21332
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "529313bd6e08823a4207f9d3a5d2ae4458749bee1b7af9abab35342e8ee2b40e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/marketing-psychology",
+  "schema_version": 1
+}

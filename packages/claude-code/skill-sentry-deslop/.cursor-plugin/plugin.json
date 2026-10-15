@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/sentry/deslop",
+  "license": "Apache-2.0",
+  "name": "skill-sentry-deslop",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

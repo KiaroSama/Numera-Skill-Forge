@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-audit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "746cc57c51afc93da2d2f4f06e1270b3a4360ef8b3b49d1e416bf2c0c49bb454",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-audit/skills/seo-audit/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/seo-audit/SKILL.md",
+      "size": 8453
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8e361538d1ef5f645b8301ecdd759fe5a56b9c3c2ee7eb996a4dcfcac501ceb2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/seo-audit",
+  "schema_version": 1
+}

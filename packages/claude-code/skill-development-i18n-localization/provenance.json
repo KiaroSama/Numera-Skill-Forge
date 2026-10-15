@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-i18n-localization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1509cf8dc323307ffec7288f185414226862a400c3ef2617c62fdd77ee4cb8f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-i18n-localization/skills/i18n-localization/SKILL.md",
+      "path": "cli-tool/components/skills/development/i18n-localization/SKILL.md",
+      "size": 3121
+    },
+    {
+      "digest": "a90946f9ffee5fc83b1dbdbd001616eceb299101bf255efaec4601cecf210379",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-i18n-localization/skills/i18n-localization/scripts/i18n_checker.py",
+      "path": "cli-tool/components/skills/development/i18n-localization/scripts/i18n_checker.py",
+      "size": 7714
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d7811e713752ad4ba66c4bdd8a309f7b32e5a6748fd61b9d0f8e379e10ef5c48",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/i18n-localization",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/database/sql-pro",
+  "license": "MIT",
+  "name": "skill-database-sql-pro",
+  "version": "1.0.0"
+}

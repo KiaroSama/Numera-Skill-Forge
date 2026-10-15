@@ -1,0 +1,12 @@
+{
+  "attribution": "Original content/source: davila7/claude-code-templates; license: MIT. Exact davila payload retained; wrapper and accompanying provenance/license notices are generated separately. Original project authorship/submission evidence is linked; root grant applies to original contribution, not third-party exceptions. Forge changes only the frontmatter name and matching directory; original entry preserved separately.",
+  "payload": "Reviewed frontmatter name and directory normalized by Forge; original entry retained separately, body and companions unchanged",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    }
+  ]
+}

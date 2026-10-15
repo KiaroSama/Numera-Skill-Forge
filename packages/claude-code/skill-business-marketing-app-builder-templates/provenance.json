@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b4887369cad061e7e59e9198593ffe3e93dd455dfe0cb93cb4e63ad37ccfa054",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/SKILL.md",
+      "size": 1585
+    },
+    {
+      "digest": "b603190c6f2d0a453d8fb9156532fd314722e0404635453858a278bc50bd6428",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/astro-static/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/astro-static/TEMPLATE.md",
+      "size": 1706
+    },
+    {
+      "digest": "dc8701558732953a5834255066a89bfc0036dd778d5a44d3a39f3066036fe8c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/chrome-extension/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/chrome-extension/TEMPLATE.md",
+      "size": 1966
+    },
+    {
+      "digest": "89c0e5940c9fc79e664981d2826f9d5b2c4855a343d6b179ed0087032d3a323d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/cli-tool/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/cli-tool/TEMPLATE.md",
+      "size": 1762
+    },
+    {
+      "digest": "b495860b7ab3a38d0541729933178cc49b7f05d08d02ac06541cb1b3eacbb7ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/electron-desktop/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/electron-desktop/TEMPLATE.md",
+      "size": 1823
+    },
+    {
+      "digest": "e06f166902ccca2943775faac0198c77cc52eca50ec7dde41aa90d9e16ee0990",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/express-api/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/express-api/TEMPLATE.md",
+      "size": 1759
+    },
+    {
+      "digest": "2b518b263daa7bc0090e5ccc387b1c55977367527e69e672332be4cd98049c1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/flutter-app/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/flutter-app/TEMPLATE.md",
+      "size": 1855
+    },
+    {
+      "digest": "b0bd06e7e2eb80e6f52bd99a87ba45778943036bc33dcab2955e12994c4fe9bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/monorepo-turborepo/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/monorepo-turborepo/TEMPLATE.md",
+      "size": 1880
+    },
+    {
+      "digest": "ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/nextjs-fullstack/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/nextjs-fullstack/TEMPLATE.md",
+      "size": 1620
+    },
+    {
+      "digest": "27f5ae71129e1286e875c8f0257c16b931bbb4e34409e363521418161f185816",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/nextjs-saas/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/nextjs-saas/TEMPLATE.md",
+      "size": 2266
+    },
+    {
+      "digest": "8e9e9437629d9cbc1cfcdf9a64825e4cda782939e75e55bbbe42dc7f0968fa6d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/nextjs-static/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/nextjs-static/TEMPLATE.md",
+      "size": 2044
+    },
+    {
+      "digest": "5b265e4c64d31429e3e64e436fd4eb5a140e6a8918f67926dd3169a7ca197c46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/nuxt-app/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/nuxt-app/TEMPLATE.md",
+      "size": 2137
+    },
+    {
+      "digest": "5324b3fb4b0b1eee0363e5b452ff51de8fc03650ad58d568428a8f22283d8ba7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/python-fastapi/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/python-fastapi/TEMPLATE.md",
+      "size": 1785
+    },
+    {
+      "digest": "1de9b35c7155becd8390605896b1f2fc16550ab82d1778bfdeafbec47cc48dcc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-app-builder-templates/skills/templates/react-native-app/TEMPLATE.md",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/templates/react-native-app/TEMPLATE.md",
+      "size": 1939
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6a3674d723981612e6916366541baa51ddc5fcf3fe542be42e7eac6d4aa611ed",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/app-builder/templates",
+  "schema_version": 1
+}

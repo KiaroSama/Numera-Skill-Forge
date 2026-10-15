@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-tailwind-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bc64b47c56a44183441f3c908457dd4dcaaf1dfe4dc2c508b83f56ecdb017667",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-tailwind-patterns/skills/tailwind-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/tailwind-patterns/SKILL.md",
+      "size": 6757
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "70aeb6f0fcdc5a4cf28c7d6b0bac06fb6d56a47d9d13cbe19e8a7e1927368248",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/tailwind-patterns",
+  "schema_version": 1
+}

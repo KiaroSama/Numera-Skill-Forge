@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/career-changer-translator",
+  "license": "MIT",
+  "name": "skill-career-career-changer-translator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -5,6 +5,9 @@ use std::collections::BTreeMap;
 pub fn validate_skill(skill: &Skill) -> Result<()> {
     validation::identifier(&skill.id)?;
     validation::relative_path(&skill.root)?;
+    if let Some(approval) = &skill.reviewed_name {
+        super::adaptation::validate(approval)?;
+    }
     if !skill.license_path.is_empty() {
         validation::relative_path(&skill.license_path)?;
     }
@@ -32,8 +35,10 @@ pub fn validate_skill(skill: &Skill) -> Result<()> {
     }
     for (path, digest) in &skill.reviewed_documents {
         validation::relative_path(path)?;
-        if !skill.root.starts_with("skills/")
-            || skill.root.split('/').count() != 2
+        let canonical = (skill.root.starts_with("skills/") && skill.root.split('/').count() == 2)
+            || (skill.root.starts_with("cli-tool/components/skills/")
+                && skill.root.split('/').count() == 5);
+        if !canonical
             || path != &format!("{}/references/secrets.md", skill.root)
             || protected(&skill.root)
             || digest.len() != 64

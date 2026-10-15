@@ -1,0 +1,165 @@
+use super::model::{Accepted, ReviewedName, Skill};
+use crate::{Error, Result, storage, validation};
+use serde_json::json;
+use std::{collections::BTreeMap, path::Path};
+
+pub fn validate(approval: &ReviewedName) -> Result<()> {
+    validation::identifier(&approval.name)?;
+    if approval.name.len() > 64
+        || !approval
+            .name
+            .bytes()
+            .all(|b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'-')
+        || approval.name.starts_with('-')
+        || approval.name.ends_with('-')
+        || approval.name.contains("--")
+        || approval.source_name.is_empty()
+        || approval.source_name == approval.name
+        || approval.source_name.contains(['\n', '\r', '\0'])
+        || approval.source_digest.len() != 64
+        || !approval
+            .source_digest
+            .bytes()
+            .all(|b| b.is_ascii_digit() || (b'a'..=b'f').contains(&b))
+    {
+        return Err(Error::new(
+            "adaptation-review",
+            "Invalid reviewed name identity",
+        ));
+    }
+    Ok(())
+}
+
+pub fn entry(skill: &Skill, original: &[u8]) -> Result<Vec<u8>> {
+    let Some(approval) = &skill.reviewed_name else {
+        return Ok(original.to_vec());
+    };
+    validate(approval)?;
+    if storage::digest(original) != approval.source_digest {
+        return Err(Error::new(
+            "adaptation-review",
+            "Original entry changed; name adaptation requires review",
+        ));
+    }
+    let text = std::str::from_utf8(original)
+        .map_err(|_| Error::new("encoding", "Original skill is not UTF-8"))?;
+    let front = text
+        .strip_prefix("---\n")
+        .and_then(|s| s.split_once("\n---"))
+        .ok_or_else(|| Error::new("adaptation-review", "Original frontmatter is missing"))?
+        .0;
+    let source = format!("name: {}", approval.source_name);
+    if front
+        .lines()
+        .filter(|line| line.starts_with("name:"))
+        .count()
+        != 1
+        || !front.lines().any(|line| line == source)
+    {
+        return Err(Error::new(
+            "adaptation-review",
+            "Reviewed original name line differs",
+        ));
+    }
+    let mut start = 4;
+    for line in front.split_inclusive('\n') {
+        if line.trim_end_matches('\n') == source {
+            break;
+        }
+        start += line.len();
+    }
+    let mut result = Vec::new();
+    result.extend_from_slice(&original[..start]);
+    result.extend_from_slice(format!("name: {}", approval.name).as_bytes());
+    result.extend_from_slice(&original[start + source.len()..]);
+    Ok(result)
+}
+
+pub fn payload(skill: &Skill, path: &str, original: &[u8]) -> Result<Vec<u8>> {
+    if path == format!("{}/SKILL.md", skill.root) {
+        entry(skill, original)
+    } else {
+        Ok(original.to_vec())
+    }
+}
+
+pub fn outputs(skill: &Skill, original: &[u8]) -> Result<BTreeMap<String, Vec<u8>>> {
+    let mut values = BTreeMap::new();
+    if let Some(approval) = &skill.reviewed_name {
+        let emitted = entry(skill, original)?;
+        let prefix = format!("packages/claude-code/{}/upstream-notices", skill.id);
+        values.insert(format!("{prefix}/source-entry.md"), original.to_vec());
+        values.insert(format!("{prefix}/adaptation.json"), storage::encoded(&json!({
+            "schema_version":1,"change":"Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+            "approval":approval,"output_digest":storage::digest(&emitted)
+        }))?);
+    }
+    Ok(values)
+}
+
+pub fn payload_claim(skill: &Skill) -> &'static str {
+    if skill.reviewed_name.is_some() {
+        "Reviewed frontmatter name and directory normalized by Forge; original entry retained separately, body and companions unchanged"
+    } else {
+        "Exact aggregator payload; upstream adaptations were not made by Forge"
+    }
+}
+
+pub fn description(skill: &Skill) -> String {
+    if skill.reviewed_name.is_some() {
+        format!(
+            "Upstream skill with reviewed name-only adaptation: {}",
+            skill.root
+        )
+    } else {
+        format!("Unmodified upstream skill: {}", skill.root)
+    }
+}
+
+pub fn verify(root: &Path, skill: &Skill, accepted: &Accepted) -> Result<()> {
+    let prefix = format!("packages/claude-code/{}/upstream-notices", skill.id);
+    let original_path = format!("{prefix}/source-entry.md");
+    let metadata_path = format!("{prefix}/adaptation.json");
+    let adapted = accepted
+        .files
+        .iter()
+        .filter(|f| f.source_digest.is_some())
+        .collect::<Vec<_>>();
+    let stale = || {
+        Error::new(
+            "approval-stale",
+            "Reviewed name differs from accepted source and emitted bytes",
+        )
+    };
+    if skill.reviewed_name.is_none() {
+        if !adapted.is_empty()
+            || accepted.generated.contains_key(&original_path)
+            || accepted.generated.contains_key(&metadata_path)
+        {
+            return Err(stale());
+        }
+        return Ok(());
+    }
+    let approval = skill.reviewed_name.as_ref().ok_or_else(stale)?;
+    let original = storage::bytes(&validation::contained(root, &original_path)?)?;
+    let emitted = entry(skill, &original).map_err(|_| stale())?;
+    if adapted.len() != 1
+        || adapted[0].path != format!("{}/SKILL.md", skill.root)
+        || adapted[0].source_digest.as_ref() != Some(&approval.source_digest)
+        || adapted[0].output_path
+            != format!(
+                "packages/claude-code/{}/skills/{}/SKILL.md",
+                skill.id, approval.name
+            )
+        || adapted[0].digest != storage::digest(&emitted)
+        || adapted[0].size != emitted.len() as u64
+    {
+        return Err(stale());
+    }
+    for (path, bytes) in outputs(skill, &original).map_err(|_| stale())? {
+        if accepted.generated.get(&path) != Some(&storage::digest(&bytes)) {
+            return Err(stale());
+        }
+    }
+    Ok(())
+}

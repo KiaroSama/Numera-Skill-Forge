@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: wshobson/agents at ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/application-performance/agents/observability-engineer.md. Selected davila payload retained byte-for-byte. Original and intermediary terms apply to their respective material; no blanket relicensing. Any intermediary frontmatter, metadata or instruction additions are upstream adaptations, not Forge changes. Creator attribution, source links, license links and modification history are retained in this notice bundle. No endorsement or runtime execution is implied.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "license": "MIT",
+      "path": "registry/licenses/f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746.txt",
+      "source": "https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/observability-engineer",
+  "license": "MIT",
+  "name": "skill-development-observability-engineer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

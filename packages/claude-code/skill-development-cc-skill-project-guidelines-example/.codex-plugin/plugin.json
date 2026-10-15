@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/cc-skill-project-guidelines-example",
+  "license": "MIT",
+  "name": "skill-development-cc-skill-project-guidelines-example",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-linkedin-profile-optimizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fd55f8965cc91e726beb4235aee2d5bce0b213b2d55b1a9ec3755e1b0b42881c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-linkedin-profile-optimizer/skills/linkedin-profile-optimizer/SKILL.md",
+      "path": "cli-tool/components/skills/career/linkedin-profile-optimizer/SKILL.md",
+      "size": 10284
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d6da28d643b67551d0e9034dfb36c48818a4b69daf865c8234ec3f3fa5d52bd6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/linkedin-profile-optimizer",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/api-integration-specialist",
+  "license": "MIT",
+  "name": "skill-development-api-integration-specialist",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

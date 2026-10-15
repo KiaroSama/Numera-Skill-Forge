@@ -38,6 +38,25 @@ for key, entry in entries.items():
         if sys.platform != "win32":
             assert bool((root / name).stat().st_mode & 0o111) == (file["mode"] == "100755"), name
         count += 1
+    adapted = [f for f in entry["files"] if f.get("source_digest")]
+    approval = skill.get("reviewed_name")
+    if approval:
+        original = (root / prefix / "upstream-notices/source-entry.md").read_bytes()
+        assert hashlib.sha256(original).hexdigest() == approval["source_digest"]
+        text = original.decode("utf-8")
+        front = text.removeprefix("---\n").split("\n---", 1)[0]
+        line = "name: " + approval["source_name"]
+        assert [s for s in front.splitlines() if s.startswith("name:")] == [line]
+        offset = 4 + sum(len(s.encode("utf-8")) for s in front.splitlines(keepends=True)[:front.splitlines().index(line)])
+        expected = original[:offset] + ("name: " + approval["name"]).encode("utf-8") + original[offset + len(line.encode("utf-8")):]
+        assert len(adapted) == 1 and adapted[0]["path"] == skill["root"] + "/SKILL.md"
+        assert adapted[0]["source_digest"] == approval["source_digest"]
+        assert adapted[0]["output_path"] == prefix + "skills/" + approval["name"] + "/SKILL.md"
+        assert (root / adapted[0]["output_path"]).read_bytes() == expected
+        change = json.loads((root / prefix / "upstream-notices/adaptation.json").read_text(encoding="utf-8"))
+        assert change["approval"] == approval and change["output_digest"] == hashlib.sha256(expected).hexdigest()
+    else:
+        assert not adapted, "Unapproved name adaptation"
     if skill["license_path"]:
         evidence = next(file for file in entry["files"] if file["path"] == skill["license_path"])
         assert evidence["digest"] == skill["license_digest"], "Reviewed license changed"
@@ -45,7 +64,8 @@ for key, entry in entries.items():
         assert skill.get("notices"), "Original grant missing"
         assert skill["notices"][0]["digest"] == skill["license_digest"]
     for name, digest in skill.get("reviewed_documents", {}).items():
-        assert skill["root"].startswith("skills/") and len(Path(skill["root"]).parts) == 2
+        assert ((skill["root"].startswith("skills/") and len(Path(skill["root"]).parts) == 2)
+                or (skill["root"].startswith("cli-tool/components/skills/") and len(Path(skill["root"]).parts) == 5))
         assert name == skill["root"] + "/references/secrets.md"
         evidence = next(file for file in entry["files"] if file["path"] == name)
         assert evidence["digest"] == digest, "Reviewed public document changed"

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-weekly-ops-report/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b4d957458f2b78e689fd17ea04fd6769ef2b32726248e6bd8c5a20f86af9c358",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-operations-weekly-ops-report/skills/weekly-ops-report/SKILL.md",
+      "path": "cli-tool/components/skills/operations/weekly-ops-report/SKILL.md",
+      "size": 3445
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6779340ffa9e14ea45be5c372934a6f65ac0b1a623aefe5d02b444d0b0f9b19a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/operations/weekly-ops-report",
+  "schema_version": 1
+}

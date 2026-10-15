@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/cc-skill-security-review",
+  "license": "MIT",
+  "name": "skill-development-cc-skill-security-review",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

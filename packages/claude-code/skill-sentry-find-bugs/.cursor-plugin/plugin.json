@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/sentry/find-bugs",
+  "license": "Apache-2.0",
+  "name": "skill-sentry-find-bugs",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

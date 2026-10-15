@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/tailwind-patterns",
+  "license": "MIT",
+  "name": "skill-creative-design-tailwind-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

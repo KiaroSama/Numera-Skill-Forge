@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/nodejs-best-practices",
+  "license": "MIT",
+  "name": "skill-development-nodejs-best-practices",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

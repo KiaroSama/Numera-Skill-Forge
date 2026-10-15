@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-sql-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5cde51d40102b1f846704b9d1d6d8e062a987b1a3b2d455858862cf53c4cae82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-sql-pro/skills/sql-pro/SKILL.md",
+      "path": "cli-tool/components/skills/database/sql-pro/SKILL.md",
+      "size": 7764
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0ee8e8a9f5ee7b457f1b6102bc93edc2f223d73e87dbbbc86aa12ddea401e4b8",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/sql-pro",
+  "schema_version": 1
+}

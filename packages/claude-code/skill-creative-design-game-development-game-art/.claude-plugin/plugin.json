@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/game-development/game-art",
+  "license": "MIT",
+  "name": "skill-creative-design-game-development-game-art",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-launch-strategy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-launch-strategy/skills/launch-strategy/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/launch-strategy/SKILL.md",
+      "size": 12221
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "619ae56ea1b1abe45d31aec95ec61e18c149c83ea16e3aa698cd67dfc87d59dd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/launch-strategy",
+  "schema_version": 1
+}

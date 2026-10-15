@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-golang-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a22883bf1757553637502ca81602b9e955ddb876f874fd374a5bc4381fd4aee9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-golang-pro/skills/golang-pro/SKILL.md",
+      "path": "cli-tool/components/skills/development/golang-pro/SKILL.md",
+      "size": 7421
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7a8f5984c818e572d0e2a61ba4a750b9c421931624134b8ce9224b9c93d5d36d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/golang-pro",
+  "schema_version": 1
+}

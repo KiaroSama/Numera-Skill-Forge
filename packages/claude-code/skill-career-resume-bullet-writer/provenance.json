@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-bullet-writer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a770b72e3599f6e1fe8eb56facb33973a1447cfbc1b40d899e270c0bb4e16488",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-career-resume-bullet-writer/skills/resume-bullet-writer/SKILL.md",
+      "path": "cli-tool/components/skills/career/resume-bullet-writer/SKILL.md",
+      "size": 14426
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "36d8d91f348469906bc8b35a90f14e957cdd593a8ec7dd2388a961571482522e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/career/resume-bullet-writer",
+  "schema_version": 1
+}

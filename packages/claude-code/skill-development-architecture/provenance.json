@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "43c45f6db39195213b5cb938db3aefd447f31374a7d7a42ffc5eaddab7e8452d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/SKILL.md",
+      "path": "cli-tool/components/skills/development/architecture/SKILL.md",
+      "size": 1759
+    },
+    {
+      "digest": "0698e38a37669c36c819bac70c51213bb955e99125ca96b690c840c317595a17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/context-discovery.md",
+      "path": "cli-tool/components/skills/development/architecture/context-discovery.md",
+      "size": 1591
+    },
+    {
+      "digest": "5bdd281a7409189049af4c55fbf8c8f562c250cd3e34cd60741be113110843a5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/examples.md",
+      "path": "cli-tool/components/skills/development/architecture/examples.md",
+      "size": 2430
+    },
+    {
+      "digest": "6bdc74d7900a0574057d7c03b79afa3bf35b9efc4bc719cf6e198575373b879d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/pattern-selection.md",
+      "path": "cli-tool/components/skills/development/architecture/pattern-selection.md",
+      "size": 2638
+    },
+    {
+      "digest": "264d0c372a6b5d2a7bba506a4dd4d74855f69298d4dabf1ae046d51f2f49bd9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/patterns-reference.md",
+      "path": "cli-tool/components/skills/development/architecture/patterns-reference.md",
+      "size": 2307
+    },
+    {
+      "digest": "14a0ceb22e88af2d39b24f06a9095312aa04bc72e8980f244bf2b42f8260abaa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture/skills/architecture/trade-off-analysis.md",
+      "path": "cli-tool/components/skills/development/architecture/trade-off-analysis.md",
+      "size": 1579
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "26309bc7d02bf3c09fdb4e0ba50e63d053da75d5795966f1b1ee5fc86f1e2c7b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/architecture",
+  "schema_version": 1
+}

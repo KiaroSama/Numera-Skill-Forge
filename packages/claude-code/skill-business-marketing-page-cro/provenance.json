@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-page-cro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ea4ac2ac8400f1853ae386785f63a0a9c445e1c08c981a9f6b734bc7c810cfc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-page-cro/skills/page-cro/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/page-cro/SKILL.md",
+      "size": 10723
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a36ebba50adf24c60bfdeffac350c029dac31fe3f9dd5b5db73576a9cfc804a5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/page-cro",
+  "schema_version": 1
+}

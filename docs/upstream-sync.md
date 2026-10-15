@@ -1,7 +1,8 @@
 # Collection synchronization and publication
 
-Use the shared Rust pipeline; the launcher and daily workflow never run imported skill scripts,
-install host extensions, or rewrite original upstream prompts. Each accepted skill is a separate
+Use the shared Rust pipeline; the launcher and manually started workflow never run imported skill
+scripts or install host extensions. Only an explicitly registered, source-hash-bound name adaptation
+may alter the frontmatter name; original bodies and companions remain unchanged. Each accepted skill is a separate
 Claude Code plugin with its complete licensed companions and recorded Git modes.
 
 ## Local commands
@@ -39,8 +40,9 @@ output for failed or review-required entries. The launcher preserves the CLI exi
 Only unchanged-structure, non-executing prompt-content changes may advance automatically. License,
 NOTICE, file topology, executable mode, scripts, binary content, runtime/frontmatter or privilege
 changes require a new review. Existing accepted output remains available while review is pending.
-Source registration in `registry/collections.json` is reviewed manually, never staged by the daily
-publication helper. Acquisition reads Git blobs; upstream build scripts and lifecycle hooks are not
+Source registration in `registry/collections.json` is reviewed manually, never staged by the
+publication helper. Reviewed name adaptations also pin the complete original entry digest; entry
+changes require renewed review rather than silently rewriting new upstream content. Acquisition reads Git blobs; upstream build scripts and lifecycle hooks are not
 executed. New source approval and host installation are separate actions.
 
 Public outputs are limited to:
@@ -50,11 +52,11 @@ Public outputs are limited to:
 - `catalogs/collections.json`: generated collection summary.
 - `.claude-plugin/marketplace.json`: native marketplace listing.
 
-## Daily GitHub Action
+## Manual GitHub Action
 
-`.github/workflows/upstream-sync.yml` runs daily at **03:37 UTC** and supports manual dispatch on
-the default branch. GitHub schedules are best-effort: runs can be delayed or dropped. Concurrent
-collection runs queue instead of canceling a publisher mid-write.
+`.github/workflows/upstream-sync.yml` uses only manual dispatch on the default branch. CI and
+dependency review also use manual initiating triggers; pushes and pull requests do not start tests.
+Concurrent collection runs queue instead of canceling a publisher mid-write.
 
 A read-only build job compiles the trusted Forge CLI with two Cargo workers and transfers only that
 binary in a one-day artifact. A separate writer job runs sync/apply, validates the resulting

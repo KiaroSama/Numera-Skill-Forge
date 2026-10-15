@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/react-component-performance",
+  "license": "MIT",
+  "name": "skill-web-development-react-component-performance",
+  "version": "1.0.0"
+}

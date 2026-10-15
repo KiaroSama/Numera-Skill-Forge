@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/operations/abc-xyz-segmentation",
+  "license": "MIT",
+  "name": "skill-operations-abc-xyz-segmentation",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

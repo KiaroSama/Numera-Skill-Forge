@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-pricing-strategy/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-pricing-strategy/skills/pricing-strategy/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/pricing-strategy/SKILL.md",
+      "size": 22239
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2905d9e321b320808782ff44d4883e35c76515da85420efe5d20195a825950fe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/pricing-strategy",
+  "schema_version": 1
+}

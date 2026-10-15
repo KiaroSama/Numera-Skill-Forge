@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "accessibility-auditor",
+    "source_digest": "400a9a2aa92ca67c0a098e18cfa3e142db6e5d84ac9781646cd6fbf7a95a013e",
+    "source_name": "Accessibility Auditor"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "ed95f4d35a934619f4086957776134fdef60f4393c8ea744aa0f6ec4054e47f4",
+  "schema_version": 1
+}

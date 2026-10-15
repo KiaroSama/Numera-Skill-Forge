@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/career/creative-portfolio-resume",
+  "license": "MIT",
+  "name": "skill-career-creative-portfolio-resume",
+  "version": "1.0.0"
+}

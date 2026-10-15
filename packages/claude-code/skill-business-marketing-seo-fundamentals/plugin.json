@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/seo-fundamentals",
+  "license": "MIT",
+  "name": "skill-business-marketing-seo-fundamentals",
+  "version": "1.0.0"
+}

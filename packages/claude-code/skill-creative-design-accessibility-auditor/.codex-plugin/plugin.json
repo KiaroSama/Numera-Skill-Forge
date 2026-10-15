@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/creative-design/accessibility-auditor",
+  "license": "MIT",
+  "name": "skill-creative-design-accessibility-auditor",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

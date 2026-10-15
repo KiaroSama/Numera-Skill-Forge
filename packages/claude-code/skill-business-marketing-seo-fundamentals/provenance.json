@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-fundamentals/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "eb5f2f9fe15f290323c464f362ea258dc40ebd9f72991e611beb2e7f5f8db2d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-fundamentals/skills/seo-fundamentals/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/seo-fundamentals/SKILL.md",
+      "size": 2787
+    },
+    {
+      "digest": "58354b1653f8151d8a4dd7c7d93112756160597d830ce4ba4cfd6ab45f42880e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seo-fundamentals/skills/seo-fundamentals/scripts/seo_checker.py",
+      "path": "cli-tool/components/skills/business-marketing/seo-fundamentals/scripts/seo_checker.py",
+      "size": 6584
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "868a614acc2c78f57bf36915b5fbd98d652da2e360917d6ba72ec1cb73a28e8d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/seo-fundamentals",
+  "schema_version": 1
+}
