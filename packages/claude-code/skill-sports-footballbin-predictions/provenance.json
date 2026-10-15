@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sports-footballbin-predictions/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cf2149d5778b301ad97127bcef5a522d3e4672e49231212be240390273fcbe4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-sports-footballbin-predictions/skills/footballbin-predictions/SKILL.md",
+      "path": "cli-tool/components/skills/sports/footballbin-predictions/SKILL.md",
+      "size": 2537
+    },
+    {
+      "digest": "dbce90fe1bac8e567da040e8ed52b54c57082f077cd802c6b8d0edb2f6529909",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-sports-footballbin-predictions/skills/footballbin-predictions/scripts/footballbin.sh",
+      "path": "cli-tool/components/skills/sports/footballbin-predictions/scripts/footballbin.sh",
+      "size": 4272
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "89d60f5e590836fe05b2489445275db59a152e3d29fb36e202d71b2818a27b1b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/sports/footballbin-predictions",
+  "schema_version": 1
+}

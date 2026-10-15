@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/async-python-patterns",
+  "license": "MIT",
+  "name": "skill-development-async-python-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

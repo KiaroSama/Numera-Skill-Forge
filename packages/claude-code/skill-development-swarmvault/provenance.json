@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2e0e60d1a852749f2fe11c5871c0b9290609bdd4830b2700bfb3675b692d34e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/README.md",
+      "path": "cli-tool/components/skills/development/swarmvault/README.md",
+      "size": 13893
+    },
+    {
+      "digest": "b2445b485540a36649f3eb207717e77d4925a4125ec15c2da757a02407030437",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/SKILL.md",
+      "path": "cli-tool/components/skills/development/swarmvault/SKILL.md",
+      "size": 11190
+    },
+    {
+      "digest": "ff6e4de22f0ea8bca84396928e2b2ba443eb0a0175f29bfcd80352a1998fb926",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/TROUBLESHOOTING.md",
+      "path": "cli-tool/components/skills/development/swarmvault/TROUBLESHOOTING.md",
+      "size": 3042
+    },
+    {
+      "digest": "aab23283797cf67b8952045d7d6224f2963ce0f5e4ad587d0345c10b6486bcf9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/examples/quickstart.md",
+      "path": "cli-tool/components/skills/development/swarmvault/examples/quickstart.md",
+      "size": 1468
+    },
+    {
+      "digest": "5ff42a53805f8dcd01a90214bd752a067e7a0537b83f2c6de4ec9034cd9fcab0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/examples/repo-workflow.md",
+      "path": "cli-tool/components/skills/development/swarmvault/examples/repo-workflow.md",
+      "size": 1270
+    },
+    {
+      "digest": "39472a66c5f646529e4f21fb6eeb4455976619f3f68a19f09f331f9325d0f720",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/examples/research-workflow.md",
+      "path": "cli-tool/components/skills/development/swarmvault/examples/research-workflow.md",
+      "size": 1464
+    },
+    {
+      "digest": "ba75eedd3f28be52bbf5cf0a6ba16fb41fab852338e1903f46585844fe050e1e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/references/artifacts.md",
+      "path": "cli-tool/components/skills/development/swarmvault/references/artifacts.md",
+      "size": 2402
+    },
+    {
+      "digest": "fb0b3b7b281dadefdc5da508102f8b493f9a781f6d19ebb5633913501b4bec0d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/references/commands.md",
+      "path": "cli-tool/components/skills/development/swarmvault/references/commands.md",
+      "size": 2461
+    },
+    {
+      "digest": "713a81ea7a944f2403ed4bcf2025ec86662305b2d7663027c49956ffa2aeadc1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swarmvault/skills/swarmvault/validation/smoke-prompts.md",
+      "path": "cli-tool/components/skills/development/swarmvault/validation/smoke-prompts.md",
+      "size": 2933
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "29f04f08b13ad460b2d6a698f6f9de6c1a74920385a337d5914d31ee473ee7d7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/swarmvault",
+  "schema_version": 1
+}

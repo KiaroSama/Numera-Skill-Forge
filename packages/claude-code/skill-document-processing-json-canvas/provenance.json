@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-json-canvas/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "10673ba00ef89a9bd329d0f5df5297fa4efc045adb47e221b3db4edc113f07a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-json-canvas/skills/json-canvas/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/json-canvas/SKILL.md",
+      "size": 14001
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cbff57f401b49b8fbd34a4261bfb35ef205d892a5fdf4863666c8c9a3ef97b3a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/document-processing/json-canvas",
+  "schema_version": 1
+}

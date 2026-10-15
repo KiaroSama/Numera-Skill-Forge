@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/architecture-decision-records",
+  "license": "MIT",
+  "name": "skill-development-architecture-decision-records",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-data/bright-data-mcp",
+  "license": "MIT",
+  "name": "skill-web-data-bright-data-mcp",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

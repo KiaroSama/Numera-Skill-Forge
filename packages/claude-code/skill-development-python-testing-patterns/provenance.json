@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-python-testing-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "72a31d9b4a2daf849f9b17532654e3f41a7abea19699fc6711add114bd2ea36c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-python-testing-patterns/skills/python-testing-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/python-testing-patterns/SKILL.md",
+      "size": 1413
+    },
+    {
+      "digest": "885f14af72736e2145e61326b8e743cbe9f7e96e617ab2b5d1306be378964f3f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-python-testing-patterns/skills/python-testing-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/python-testing-patterns/resources/implementation-playbook.md",
+      "size": 21557
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "844803841886892ffc4559cb23885261f1f3d0d31493493f9980015e2ccd240c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/python-testing-patterns",
+  "schema_version": 1
+}

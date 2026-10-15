@@ -10,6 +10,11 @@
       "source": "packages/claude-code/skill-ai-maestro-agent-management"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/agent-messaging",
+      "name": "skill-ai-maestro-agent-messaging",
+      "source": "packages/claude-code/skill-ai-maestro-agent-messaging"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/docs-search",
       "name": "skill-ai-maestro-docs-search",
       "source": "packages/claude-code/skill-ai-maestro-docs-search"
@@ -33,6 +38,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/agent-evaluation",
       "name": "skill-ai-research-agent-evaluation",
       "source": "packages/claude-code/skill-ai-research-agent-evaluation"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/agent-memory-mcp",
+      "name": "skill-ai-research-agent-memory-mcp",
+      "source": "packages/claude-code/skill-ai-research-agent-memory-mcp"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/agent-memory-systems",
@@ -75,6 +85,11 @@
       "source": "packages/claude-code/skill-ai-research-ai-release-hunter"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/autonomous-agent-patterns",
+      "name": "skill-ai-research-autonomous-agent-patterns",
+      "source": "packages/claude-code/skill-ai-research-autonomous-agent-patterns"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/autonomous-agents",
       "name": "skill-ai-research-autonomous-agents",
       "source": "packages/claude-code/skill-ai-research-autonomous-agents"
@@ -93,6 +108,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/context-window-management",
       "name": "skill-ai-research-context-window-management",
       "source": "packages/claude-code/skill-ai-research-context-window-management"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/context7-auto-research",
+      "name": "skill-ai-research-context7-auto-research",
+      "source": "packages/claude-code/skill-ai-research-context7-auto-research"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/conversation-memory",
@@ -128,6 +148,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/datadog-cli",
       "name": "skill-ai-research-datadog-cli",
       "source": "packages/claude-code/skill-ai-research-datadog-cli"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/deep-research-notebooklm",
+      "name": "skill-ai-research-deep-research-notebooklm",
+      "source": "packages/claude-code/skill-ai-research-deep-research-notebooklm"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/dispatching-parallel-agents",
@@ -290,6 +315,16 @@
       "source": "packages/claude-code/skill-ai-research-langgraph"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/llm-app-patterns",
+      "name": "skill-ai-research-llm-app-patterns",
+      "source": "packages/claude-code/skill-ai-research-llm-app-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/llm-ops",
+      "name": "skill-ai-research-llm-ops",
+      "source": "packages/claude-code/skill-ai-research-llm-ops"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/loki-mode",
       "name": "skill-ai-research-loki-mode",
       "source": "packages/claude-code/skill-ai-research-loki-mode"
@@ -435,6 +470,11 @@
       "source": "packages/claude-code/skill-ai-research-optimization-hqq"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/parallel-agents",
+      "name": "skill-ai-research-parallel-agents",
+      "source": "packages/claude-code/skill-ai-research-parallel-agents"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/perplexity",
       "name": "skill-ai-research-perplexity",
       "source": "packages/claude-code/skill-ai-research-perplexity"
@@ -510,6 +550,21 @@
       "source": "packages/claude-code/skill-ai-research-prompt-engineering-outlines"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/prompt-engineering-patterns",
+      "name": "skill-ai-research-prompt-engineering-patterns",
+      "source": "packages/claude-code/skill-ai-research-prompt-engineering-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/prompt-library",
+      "name": "skill-ai-research-prompt-library",
+      "source": "packages/claude-code/skill-ai-research-prompt-library"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/pydantic-ai",
+      "name": "skill-ai-research-pydantic-ai",
+      "source": "packages/claude-code/skill-ai-research-pydantic-ai"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/qa-test-planner",
       "name": "skill-ai-research-qa-test-planner",
       "source": "packages/claude-code/skill-ai-research-qa-test-planner"
@@ -548,6 +603,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/rag-sentence-transformers",
       "name": "skill-ai-research-rag-sentence-transformers",
       "source": "packages/claude-code/skill-ai-research-rag-sentence-transformers"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/research-engineer",
+      "name": "skill-ai-research-research-engineer",
+      "source": "packages/claude-code/skill-ai-research-research-engineer"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/safety-alignment-constitutional-ai",
@@ -645,6 +705,11 @@
       "source": "packages/claude-code/skill-business-marketing-ceo-advisor"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/competitive-ads-extractor",
+      "name": "skill-business-marketing-competitive-ads-extractor",
+      "source": "packages/claude-code/skill-business-marketing-competitive-ads-extractor"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/competitor-alternatives",
       "name": "skill-business-marketing-competitor-alternatives",
       "source": "packages/claude-code/skill-business-marketing-competitor-alternatives"
@@ -653,6 +718,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/content-creator",
       "name": "skill-business-marketing-content-creator",
       "source": "packages/claude-code/skill-business-marketing-content-creator"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/content-research-writer",
+      "name": "skill-business-marketing-content-research-writer",
+      "source": "packages/claude-code/skill-business-marketing-content-research-writer"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/copy-editing",
@@ -693,6 +763,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/launch-strategy",
       "name": "skill-business-marketing-launch-strategy",
       "source": "packages/claude-code/skill-business-marketing-launch-strategy"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/lead-research-assistant",
+      "name": "skill-business-marketing-lead-research-assistant",
+      "source": "packages/claude-code/skill-business-marketing-lead-research-assistant"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/marketing-demand-acquisition",
@@ -808,6 +883,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/viral-generator-builder",
       "name": "skill-business-marketing-viral-generator-builder",
       "source": "packages/claude-code/skill-business-marketing-viral-generator-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/x-twitter-scraper",
+      "name": "skill-business-marketing-x-twitter-scraper",
+      "source": "packages/claude-code/skill-business-marketing-x-twitter-scraper"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/career/academic-cv-builder",
@@ -945,6 +1025,11 @@
       "source": "packages/claude-code/skill-creative-design-develop-web-game"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/diagrammer",
+      "name": "skill-creative-design-diagrammer",
+      "source": "packages/claude-code/skill-creative-design-diagrammer"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/draw-io",
       "name": "skill-creative-design-draw-io",
       "source": "packages/claude-code/skill-creative-design-draw-io"
@@ -1035,6 +1120,16 @@
       "source": "packages/claude-code/skill-creative-design-interactive-portfolio"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/luma-imagegen",
+      "name": "skill-creative-design-luma-imagegen",
+      "source": "packages/claude-code/skill-creative-design-luma-imagegen"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/marp-slide",
+      "name": "skill-creative-design-marp-slide",
+      "source": "packages/claude-code/skill-creative-design-marp-slide"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/meme-factory",
       "name": "skill-creative-design-meme-factory",
       "source": "packages/claude-code/skill-creative-design-meme-factory"
@@ -1048,6 +1143,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/mobile-design",
       "name": "skill-creative-design-mobile-design",
       "source": "packages/claude-code/skill-creative-design-mobile-design"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/patentfig",
+      "name": "skill-creative-design-patentfig",
+      "source": "packages/claude-code/skill-creative-design-patentfig"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/premium-web-design",
+      "name": "skill-creative-design-premium-web-design",
+      "source": "packages/claude-code/skill-creative-design-premium-web-design"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/scroll-experience",
@@ -1078,6 +1183,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/ux-researcher-designer",
       "name": "skill-creative-design-ux-researcher-designer",
       "source": "packages/claude-code/skill-creative-design-ux-researcher-designer"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/web-design-guidelines",
+      "name": "skill-creative-design-web-design-guidelines",
+      "source": "packages/claude-code/skill-creative-design-web-design-guidelines"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/curviate/curviate",
@@ -1145,9 +1255,19 @@
       "source": "packages/claude-code/skill-database-database-architect"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/database/neon-instagres",
+      "name": "skill-database-neon-instagres",
+      "source": "packages/claude-code/skill-database-neon-instagres"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/database/postgres-schema-design",
       "name": "skill-database-postgres-schema-design",
       "source": "packages/claude-code/skill-database-postgres-schema-design"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/database/postgresql",
+      "name": "skill-database-postgresql",
+      "source": "packages/claude-code/skill-database-postgresql"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/database/postgresql-optimization",
@@ -1180,6 +1300,11 @@
       "source": "packages/claude-code/skill-development-agent-md-refactor"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/agirails-agent-payments",
+      "name": "skill-development-agirails-agent-payments",
+      "source": "packages/claude-code/skill-development-agirails-agent-payments"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/algolia-search",
       "name": "skill-development-algolia-search",
       "source": "packages/claude-code/skill-development-algolia-search"
@@ -1188,6 +1313,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/angular",
       "name": "skill-development-angular",
       "source": "packages/claude-code/skill-development-angular"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/api-design-principles",
+      "name": "skill-development-api-design-principles",
+      "source": "packages/claude-code/skill-development-api-design-principles"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/api-documentation-generator",
+      "name": "skill-development-api-documentation-generator",
+      "source": "packages/claude-code/skill-development-api-documentation-generator"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/api-integration-specialist",
@@ -1205,9 +1340,39 @@
       "source": "packages/claude-code/skill-development-architecture"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/architecture-decision-records",
+      "name": "skill-development-architecture-decision-records",
+      "source": "packages/claude-code/skill-development-architecture-decision-records"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/architecture-patterns",
+      "name": "skill-development-architecture-patterns",
+      "source": "packages/claude-code/skill-development-architecture-patterns"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/artifacts-builder",
       "name": "skill-development-artifacts-builder",
       "source": "packages/claude-code/skill-development-artifacts-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/async-python-patterns",
+      "name": "skill-development-async-python-patterns",
+      "source": "packages/claude-code/skill-development-async-python-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/avalonia-layout-zafiro",
+      "name": "skill-development-avalonia-layout-zafiro",
+      "source": "packages/claude-code/skill-development-avalonia-layout-zafiro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/avalonia-viewmodels-zafiro",
+      "name": "skill-development-avalonia-viewmodels-zafiro",
+      "source": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/avalonia-zafiro-development",
+      "name": "skill-development-avalonia-zafiro-development",
+      "source": "packages/claude-code/skill-development-avalonia-zafiro-development"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/aws-serverless",
@@ -1225,6 +1390,11 @@
       "source": "packages/claude-code/skill-development-backend-architect"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/backend-dev-guidelines",
+      "name": "skill-development-backend-dev-guidelines",
+      "source": "packages/claude-code/skill-development-backend-dev-guidelines"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/bash-linux",
       "name": "skill-development-bash-linux",
       "source": "packages/claude-code/skill-development-bash-linux"
@@ -1240,14 +1410,29 @@
       "source": "packages/claude-code/skill-development-best-practices"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/bleu",
+      "name": "skill-development-bleu",
+      "source": "packages/claude-code/skill-development-bleu"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/brainstorming",
       "name": "skill-development-brainstorming",
       "source": "packages/claude-code/skill-development-brainstorming"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/brightdata-local-search",
+      "name": "skill-development-brightdata-local-search",
+      "source": "packages/claude-code/skill-development-brightdata-local-search"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/bullmq-specialist",
       "name": "skill-development-bullmq-specialist",
       "source": "packages/claude-code/skill-development-bullmq-specialist"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/bun-development",
+      "name": "skill-development-bun-development",
+      "source": "packages/claude-code/skill-development-bun-development"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/cc-skill-backend-patterns",
@@ -1265,6 +1450,11 @@
       "source": "packages/claude-code/skill-development-cc-skill-coding-standards"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/cc-skill-continuous-learning",
+      "name": "skill-development-cc-skill-continuous-learning",
+      "source": "packages/claude-code/skill-development-cc-skill-continuous-learning"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/cc-skill-frontend-patterns",
       "name": "skill-development-cc-skill-frontend-patterns",
       "source": "packages/claude-code/skill-development-cc-skill-frontend-patterns"
@@ -1280,9 +1470,24 @@
       "source": "packages/claude-code/skill-development-cc-skill-security-review"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/cc-skill-strategic-compact",
+      "name": "skill-development-cc-skill-strategic-compact",
+      "source": "packages/claude-code/skill-development-cc-skill-strategic-compact"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/changelog-generator",
+      "name": "skill-development-changelog-generator",
+      "source": "packages/claude-code/skill-development-changelog-generator"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/claude-api",
       "name": "skill-development-claude-api",
       "source": "packages/claude-code/skill-development-claude-api"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/clean-code",
+      "name": "skill-development-clean-code",
+      "source": "packages/claude-code/skill-development-clean-code"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/clerk-auth",
@@ -1305,6 +1510,16 @@
       "source": "packages/claude-code/skill-development-cloudflare-deploy"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/cocoindex",
+      "name": "skill-development-cocoindex",
+      "source": "packages/claude-code/skill-development-cocoindex"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/code-review-checklist",
+      "name": "skill-development-code-review-checklist",
+      "source": "packages/claude-code/skill-development-code-review-checklist"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/code-reviewer",
       "name": "skill-development-code-reviewer",
       "source": "packages/claude-code/skill-development-code-reviewer"
@@ -1315,14 +1530,39 @@
       "source": "packages/claude-code/skill-development-codex"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/codex-review",
+      "name": "skill-development-codex-review",
+      "source": "packages/claude-code/skill-development-codex-review"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/command-creator",
       "name": "skill-development-command-creator",
       "source": "packages/claude-code/skill-development-command-creator"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/context-architecture",
+      "name": "skill-development-context-architecture",
+      "source": "packages/claude-code/skill-development-context-architecture"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/convex",
+      "name": "skill-development-convex",
+      "source": "packages/claude-code/skill-development-convex"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/core-components",
+      "name": "skill-development-core-components",
+      "source": "packages/claude-code/skill-development-core-components"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/core-web-vitals",
       "name": "skill-development-core-web-vitals",
       "source": "packages/claude-code/skill-development-core-web-vitals"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/cpp-pro",
+      "name": "skill-development-cpp-pro",
+      "source": "packages/claude-code/skill-development-cpp-pro"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/database-design",
@@ -1350,9 +1590,19 @@
       "source": "packages/claude-code/skill-development-design-system-starter"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/developer-growth-analysis",
+      "name": "skill-development-developer-growth-analysis",
+      "source": "packages/claude-code/skill-development-developer-growth-analysis"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/dispatching-parallel-agents",
       "name": "skill-development-dispatching-parallel-agents",
       "source": "packages/claude-code/skill-development-dispatching-parallel-agents"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/docker-expert",
+      "name": "skill-development-docker-expert",
+      "source": "packages/claude-code/skill-development-docker-expert"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/domain-driven-design",
@@ -1365,9 +1615,29 @@
       "source": "packages/claude-code/skill-development-dotnet-backend"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/e2e-testing-patterns",
+      "name": "skill-development-e2e-testing-patterns",
+      "source": "packages/claude-code/skill-development-e2e-testing-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/environment-setup-guide",
+      "name": "skill-development-environment-setup-guide",
+      "source": "packages/claude-code/skill-development-environment-setup-guide"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/event-sourcing-architect",
+      "name": "skill-development-event-sourcing-architect",
+      "source": "packages/claude-code/skill-development-event-sourcing-architect"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/executing-plans",
       "name": "skill-development-executing-plans",
       "source": "packages/claude-code/skill-development-executing-plans"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/feature-design-assistant",
+      "name": "skill-development-feature-design-assistant",
+      "source": "packages/claude-code/skill-development-feature-design-assistant"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/finishing-a-development-branch",
@@ -1385,9 +1655,24 @@
       "source": "packages/claude-code/skill-development-firebase-basics"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/frontend-dev-guidelines",
+      "name": "skill-development-frontend-dev-guidelines",
+      "source": "packages/claude-code/skill-development-frontend-dev-guidelines"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/gcp-cloud-run",
       "name": "skill-development-gcp-cloud-run",
       "source": "packages/claude-code/skill-development-gcp-cloud-run"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/github-actions-creator",
+      "name": "skill-development-github-actions-creator",
+      "source": "packages/claude-code/skill-development-github-actions-creator"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/github-workflow-automation",
+      "name": "skill-development-github-workflow-automation",
+      "source": "packages/claude-code/skill-development-github-workflow-automation"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/gke-basics",
@@ -1425,6 +1710,11 @@
       "source": "packages/claude-code/skill-development-graphql"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/helm-chart-scaffolding",
+      "name": "skill-development-helm-chart-scaffolding",
+      "source": "packages/claude-code/skill-development-helm-chart-scaffolding"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/hubspot-integration",
       "name": "skill-development-hubspot-integration",
       "source": "packages/claude-code/skill-development-hubspot-integration"
@@ -1435,9 +1725,19 @@
       "source": "packages/claude-code/skill-development-i18n-localization"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/javascript-mastery",
+      "name": "skill-development-javascript-mastery",
+      "source": "packages/claude-code/skill-development-javascript-mastery"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/javascript-pro",
       "name": "skill-development-javascript-pro",
       "source": "packages/claude-code/skill-development-javascript-pro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/javascript-testing-patterns",
+      "name": "skill-development-javascript-testing-patterns",
+      "source": "packages/claude-code/skill-development-javascript-testing-patterns"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/jupyter-notebook",
@@ -1445,14 +1745,49 @@
       "source": "packages/claude-code/skill-development-jupyter-notebook"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/k6-load-testing",
+      "name": "skill-development-k6-load-testing",
+      "source": "packages/claude-code/skill-development-k6-load-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/kotlin-coroutines-expert",
+      "name": "skill-development-kotlin-coroutines-expert",
+      "source": "packages/claude-code/skill-development-kotlin-coroutines-expert"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/kubernetes-architect",
       "name": "skill-development-kubernetes-architect",
       "source": "packages/claude-code/skill-development-kubernetes-architect"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/laravel-expert",
+      "name": "skill-development-laravel-expert",
+      "source": "packages/claude-code/skill-development-laravel-expert"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/lint-and-validate",
+      "name": "skill-development-lint-and-validate",
+      "source": "packages/claude-code/skill-development-lint-and-validate"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/mcp-builder",
       "name": "skill-development-mcp-builder",
       "source": "packages/claude-code/skill-development-mcp-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/mermaid-diagram-specialist",
+      "name": "skill-development-mermaid-diagram-specialist",
+      "source": "packages/claude-code/skill-development-mermaid-diagram-specialist"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/microservices-patterns",
+      "name": "skill-development-microservices-patterns",
+      "source": "packages/claude-code/skill-development-microservices-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/moodle-external-api-development",
+      "name": "skill-development-moodle-external-api-development",
+      "source": "packages/claude-code/skill-development-moodle-external-api-development"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/mui",
@@ -1463,6 +1798,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/neon-postgres",
       "name": "skill-development-neon-postgres",
       "source": "packages/claude-code/skill-development-neon-postgres"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/nestjs-expert",
+      "name": "skill-development-nestjs-expert",
+      "source": "packages/claude-code/skill-development-nestjs-expert"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/netlify-deploy",
@@ -1480,9 +1820,19 @@
       "source": "packages/claude-code/skill-development-nextjs-supabase-auth"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/nodejs-backend-patterns",
+      "name": "skill-development-nodejs-backend-patterns",
+      "source": "packages/claude-code/skill-development-nodejs-backend-patterns"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/nodejs-best-practices",
       "name": "skill-development-nodejs-best-practices",
       "source": "packages/claude-code/skill-development-nodejs-best-practices"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/nosql-expert",
+      "name": "skill-development-nosql-expert",
+      "source": "packages/claude-code/skill-development-nosql-expert"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/observability-engineer",
@@ -1515,14 +1865,34 @@
       "source": "packages/claude-code/skill-development-playwright"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/playwright-e2e-builder",
+      "name": "skill-development-playwright-e2e-builder",
+      "source": "packages/claude-code/skill-development-playwright-e2e-builder"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/plugin-forge",
       "name": "skill-development-plugin-forge",
       "source": "packages/claude-code/skill-development-plugin-forge"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/postgres-best-practices",
+      "name": "skill-development-postgres-best-practices",
+      "source": "packages/claude-code/skill-development-postgres-best-practices"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/powershell-windows",
       "name": "skill-development-powershell-windows",
       "source": "packages/claude-code/skill-development-powershell-windows"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/production-code-audit",
+      "name": "skill-development-production-code-audit",
+      "source": "packages/claude-code/skill-development-production-code-audit"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/pudu-task-telemetry",
+      "name": "skill-development-pudu-task-telemetry",
+      "source": "packages/claude-code/skill-development-pudu-task-telemetry"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/python-patterns",
@@ -1533,6 +1903,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/python-pro",
       "name": "skill-development-python-pro",
       "source": "packages/claude-code/skill-development-python-pro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/python-testing-patterns",
+      "name": "skill-development-python-testing-patterns",
+      "source": "packages/claude-code/skill-development-python-testing-patterns"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/react-best-practices",
@@ -1550,9 +1925,19 @@
       "source": "packages/claude-code/skill-development-react-patterns"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/react-ui-patterns",
+      "name": "skill-development-react-ui-patterns",
+      "source": "packages/claude-code/skill-development-react-ui-patterns"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/react-useeffect",
       "name": "skill-development-react-useeffect",
       "source": "packages/claude-code/skill-development-react-useeffect"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/receiving-code-review",
+      "name": "skill-development-receiving-code-review",
+      "source": "packages/claude-code/skill-development-receiving-code-review"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/render-deploy",
@@ -1565,14 +1950,29 @@
       "source": "packages/claude-code/skill-development-requesting-code-review"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/rust-cli-builder",
+      "name": "skill-development-rust-cli-builder",
+      "source": "packages/claude-code/skill-development-rust-cli-builder"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/rust-pro",
       "name": "skill-development-rust-pro",
       "source": "packages/claude-code/skill-development-rust-pro"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/saas-multi-tenant",
+      "name": "skill-development-saas-multi-tenant",
+      "source": "packages/claude-code/skill-development-saas-multi-tenant"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/salesforce-development",
       "name": "skill-development-salesforce-development",
       "source": "packages/claude-code/skill-development-salesforce-development"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/screenshot-feature-extractor",
+      "name": "skill-development-screenshot-feature-extractor",
+      "source": "packages/claude-code/skill-development-screenshot-feature-extractor"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/senior-architect",
@@ -1670,9 +2070,19 @@
       "source": "packages/claude-code/skill-development-subagent-driven-development"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/swarmvault",
+      "name": "skill-development-swarmvault",
+      "source": "packages/claude-code/skill-development-swarmvault"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/systematic-debugging",
       "name": "skill-development-systematic-debugging",
       "source": "packages/claude-code/skill-development-systematic-debugging"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/task-execution-engine",
+      "name": "skill-development-task-execution-engine",
+      "source": "packages/claude-code/skill-development-task-execution-engine"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/tdd-workflow",
@@ -1685,14 +2095,34 @@
       "source": "packages/claude-code/skill-development-terraform-specialist"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/test-detect",
+      "name": "skill-development-test-detect",
+      "source": "packages/claude-code/skill-development-test-detect"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/test-driven-development",
       "name": "skill-development-test-driven-development",
       "source": "packages/claude-code/skill-development-test-driven-development"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/testing-patterns",
+      "name": "skill-development-testing-patterns",
+      "source": "packages/claude-code/skill-development-testing-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/typescript-expert",
+      "name": "skill-development-typescript-expert",
+      "source": "packages/claude-code/skill-development-typescript-expert"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/typescript-pro",
       "name": "skill-development-typescript-pro",
       "source": "packages/claude-code/skill-development-typescript-pro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/using-git-worktrees",
+      "name": "skill-development-using-git-worktrees",
+      "source": "packages/claude-code/skill-development-using-git-worktrees"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/using-superpowers",
@@ -1723,6 +2153,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/web-quality-audit",
       "name": "skill-development-web-quality-audit",
       "source": "packages/claude-code/skill-development-web-quality-audit"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/web-to-markdown",
+      "name": "skill-development-web-to-markdown",
+      "source": "packages/claude-code/skill-development-web-to-markdown"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/webapp-testing",
@@ -1765,9 +2200,34 @@
       "source": "packages/claude-code/skill-document-processing-documentation-templates"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/json-canvas",
+      "name": "skill-document-processing-json-canvas",
+      "source": "packages/claude-code/skill-document-processing-json-canvas"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/obsidian-bases",
+      "name": "skill-document-processing-obsidian-bases",
+      "source": "packages/claude-code/skill-document-processing-obsidian-bases"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/obsidian-markdown",
+      "name": "skill-document-processing-obsidian-markdown",
+      "source": "packages/claude-code/skill-document-processing-obsidian-markdown"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/pdf-fill-studio",
+      "name": "skill-document-processing-pdf-fill-studio",
+      "source": "packages/claude-code/skill-document-processing-pdf-fill-studio"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/document-processing/spreadsheet",
       "name": "skill-document-processing-spreadsheet",
       "source": "packages/claude-code/skill-document-processing-spreadsheet"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/doordash/doordash-order-playbooks",
+      "name": "skill-doordash-doordash-order-playbooks",
+      "source": "packages/claude-code/skill-doordash-doordash-order-playbooks"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs",
@@ -1890,6 +2350,11 @@
       "source": "packages/claude-code/skill-enterprise-communication-risk-management-specialist"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/session-handoff",
+      "name": "skill-enterprise-communication-session-handoff",
+      "source": "packages/claude-code/skill-enterprise-communication-session-handoff"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/slack-bot-builder",
       "name": "skill-enterprise-communication-slack-bot-builder",
       "source": "packages/claude-code/skill-enterprise-communication-slack-bot-builder"
@@ -1920,6 +2385,36 @@
       "source": "packages/claude-code/skill-enterprise-communication-writing-clearly-and-concisely"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/git/commit-smart",
+      "name": "skill-git-commit-smart",
+      "source": "packages/claude-code/skill-git-commit-smart"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/git/git-context-controller",
+      "name": "skill-git-git-context-controller",
+      "source": "packages/claude-code/skill-git-git-context-controller"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/git/star-history-chart",
+      "name": "skill-git-star-history-chart",
+      "source": "packages/claude-code/skill-git-star-history-chart"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/gmod-addon-maker",
+      "name": "skill-gmod-addon-maker",
+      "source": "packages/claude-code/skill-gmod-addon-maker"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/marketing/x-twitter-scraper",
+      "name": "skill-marketing-x-twitter-scraper",
+      "source": "packages/claude-code/skill-marketing-x-twitter-scraper"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/media/image-enhancer",
+      "name": "skill-media-image-enhancer",
+      "source": "packages/claude-code/skill-media-image-enhancer"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/media/screenshot",
       "name": "skill-media-screenshot",
       "source": "packages/claude-code/skill-media-screenshot"
@@ -1933,6 +2428,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/media/transcribe",
       "name": "skill-media-transcribe",
       "source": "packages/claude-code/skill-media-transcribe"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/media/video-downloader",
+      "name": "skill-media-video-downloader",
+      "source": "packages/claude-code/skill-media-video-downloader"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/open-banking-io/open-banking-io",
+      "name": "skill-open-banking-io-open-banking-io",
+      "source": "packages/claude-code/skill-open-banking-io-open-banking-io"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/operations/abc-xyz-segmentation",
@@ -1970,6 +2475,11 @@
       "source": "packages/claude-code/skill-productivity-academy-guide"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/address-github-comments",
+      "name": "skill-productivity-address-github-comments",
+      "source": "packages/claude-code/skill-productivity-address-github-comments"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/avoid-ai-writing",
       "name": "skill-productivity-avoid-ai-writing",
       "source": "packages/claude-code/skill-productivity-avoid-ai-writing"
@@ -1980,9 +2490,39 @@
       "source": "packages/claude-code/skill-productivity-brainstorming"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/claude-code-sessions",
+      "name": "skill-productivity-claude-code-sessions",
+      "source": "packages/claude-code/skill-productivity-claude-code-sessions"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/code-review-excellence",
+      "name": "skill-productivity-code-review-excellence",
+      "source": "packages/claude-code/skill-productivity-code-review-excellence"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/commit-work",
       "name": "skill-productivity-commit-work",
       "source": "packages/claude-code/skill-productivity-commit-work"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/concise-planning",
+      "name": "skill-productivity-concise-planning",
+      "source": "packages/claude-code/skill-productivity-concise-planning"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/deadline-prep",
+      "name": "skill-productivity-deadline-prep",
+      "source": "packages/claude-code/skill-productivity-deadline-prep"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/debugging-strategies",
+      "name": "skill-productivity-debugging-strategies",
+      "source": "packages/claude-code/skill-productivity-debugging-strategies"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/devil",
+      "name": "skill-productivity-devil",
+      "source": "packages/claude-code/skill-productivity-devil"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/discernment-nudge",
@@ -2010,6 +2550,26 @@
       "source": "packages/claude-code/skill-productivity-humanizer"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/invoice-organizer",
+      "name": "skill-productivity-invoice-organizer",
+      "source": "packages/claude-code/skill-productivity-invoice-organizer"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/linear",
+      "name": "skill-productivity-linear",
+      "source": "packages/claude-code/skill-productivity-linear"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/mac-storage-cleaner",
+      "name": "skill-productivity-mac-storage-cleaner",
+      "source": "packages/claude-code/skill-productivity-mac-storage-cleaner"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/meeting-insights-analyzer",
+      "name": "skill-productivity-meeting-insights-analyzer",
+      "source": "packages/claude-code/skill-productivity-meeting-insights-analyzer"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/naming-analyzer",
       "name": "skill-productivity-naming-analyzer",
       "source": "packages/claude-code/skill-productivity-naming-analyzer"
@@ -2025,9 +2585,34 @@
       "source": "packages/claude-code/skill-productivity-notion-template-business"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
+      "name": "skill-productivity-obsidian-clipper-template-creator",
+      "source": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/performance-optimizer",
+      "name": "skill-productivity-performance-optimizer",
+      "source": "packages/claude-code/skill-productivity-performance-optimizer"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/personal-tool-builder",
       "name": "skill-productivity-personal-tool-builder",
       "source": "packages/claude-code/skill-productivity-personal-tool-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/plan-writing",
+      "name": "skill-productivity-plan-writing",
+      "source": "packages/claude-code/skill-productivity-plan-writing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/planning-with-files",
+      "name": "skill-productivity-planning-with-files",
+      "source": "packages/claude-code/skill-productivity-planning-with-files"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/raffle-winner-picker",
+      "name": "skill-productivity-raffle-winner-picker",
+      "source": "packages/claude-code/skill-productivity-raffle-winner-picker"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/reducing-entropy",
@@ -2048,6 +2633,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/productivity/skill-creator",
       "name": "skill-productivity-skill-creator",
       "source": "packages/claude-code/skill-productivity-skill-creator"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/skill-developer",
+      "name": "skill-productivity-skill-developer",
+      "source": "packages/claude-code/skill-productivity-skill-developer"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/skill-judge",
@@ -2645,6 +3235,11 @@
       "source": "packages/claude-code/skill-scientific-scanpy"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/scientific/scholar-evaluation",
+      "name": "skill-scientific-scholar-evaluation",
+      "source": "packages/claude-code/skill-scientific-scholar-evaluation"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/scientific/scientific-brainstorming",
       "name": "skill-scientific-scientific-brainstorming",
       "source": "packages/claude-code/skill-scientific-scientific-brainstorming"
@@ -2790,6 +3385,11 @@
       "source": "packages/claude-code/skill-scientific-zinc-database"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/api-security-best-practices",
+      "name": "skill-security-api-security-best-practices",
+      "source": "packages/claude-code/skill-security-api-security-best-practices"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/api-security-testing",
       "name": "skill-security-api-security-testing",
       "source": "packages/claude-code/skill-security-api-security-testing"
@@ -2830,6 +3430,16 @@
       "source": "packages/claude-code/skill-security-regulatory-threat-model"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/sast-configuration",
+      "name": "skill-security-sast-configuration",
+      "source": "packages/claude-code/skill-security-sast-configuration"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/secrets-management",
+      "name": "skill-security-secrets-management",
+      "source": "packages/claude-code/skill-security-secrets-management"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/security-audit",
       "name": "skill-security-security-audit",
       "source": "packages/claude-code/skill-security-security-audit"
@@ -2848,6 +3458,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/security/security-threat-model",
       "name": "skill-security-security-threat-model",
       "source": "packages/claude-code/skill-security-security-threat-model"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/supply-chain-guard",
+      "name": "skill-security-supply-chain-guard",
+      "source": "packages/claude-code/skill-security-supply-chain-guard"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/threat-modeling-expert",
+      "name": "skill-security-threat-modeling-expert",
+      "source": "packages/claude-code/skill-security-threat-modeling-expert"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/security/vulnerability-scanner",
@@ -2895,6 +3515,11 @@
       "source": "packages/claude-code/skill-sentry-iterate-pr"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/sports/footballbin-predictions",
+      "name": "skill-sports-footballbin-predictions",
+      "source": "packages/claude-code/skill-sports-footballbin-predictions"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/utilities/browser-automation",
       "name": "skill-utilities-browser-automation",
       "source": "packages/claude-code/skill-utilities-browser-automation"
@@ -2903,6 +3528,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/utilities/browser-extension-builder",
       "name": "skill-utilities-browser-extension-builder",
       "source": "packages/claude-code/skill-utilities-browser-extension-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/busybox-on-windows",
+      "name": "skill-utilities-busybox-on-windows",
+      "source": "packages/claude-code/skill-utilities-busybox-on-windows"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/cf-crawl",
+      "name": "skill-utilities-cf-crawl",
+      "source": "packages/claude-code/skill-utilities-cf-crawl"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/utilities/domain-name-brainstormer",
@@ -2915,9 +3550,29 @@
       "source": "packages/claude-code/skill-utilities-geo-fundamentals"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/playwright-skill",
+      "name": "skill-utilities-playwright-skill",
+      "source": "packages/claude-code/skill-utilities-playwright-skill"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/using-superpowers",
+      "name": "skill-utilities-using-superpowers",
+      "source": "packages/claude-code/skill-utilities-using-superpowers"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/utilities/web-artifacts-builder",
       "name": "skill-utilities-web-artifacts-builder",
       "source": "packages/claude-code/skill-utilities-web-artifacts-builder"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/video/manim",
+      "name": "skill-video-manim",
+      "source": "packages/claude-code/skill-video-manim"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/video/motion-canvas",
+      "name": "skill-video-motion-canvas",
+      "source": "packages/claude-code/skill-video-motion-canvas"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/video/sora",
@@ -2925,9 +3580,119 @@
       "source": "packages/claude-code/skill-video-sora"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/bright-data-best-practices",
+      "name": "skill-web-data-bright-data-best-practices",
+      "source": "packages/claude-code/skill-web-data-bright-data-best-practices"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/bright-data-mcp",
+      "name": "skill-web-data-bright-data-mcp",
+      "source": "packages/claude-code/skill-web-data-bright-data-mcp"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/data-feeds",
+      "name": "skill-web-data-data-feeds",
+      "source": "packages/claude-code/skill-web-data-data-feeds"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/design-mirror",
+      "name": "skill-web-data-design-mirror",
+      "source": "packages/claude-code/skill-web-data-design-mirror"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/pricewin-travel-search",
+      "name": "skill-web-data-pricewin-travel-search",
+      "source": "packages/claude-code/skill-web-data-pricewin-travel-search"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/scrape",
+      "name": "skill-web-data-scrape",
+      "source": "packages/claude-code/skill-web-data-scrape"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-data/search",
+      "name": "skill-web-data-search",
+      "source": "packages/claude-code/skill-web-data-search"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/astro",
+      "name": "skill-web-development-astro",
+      "source": "packages/claude-code/skill-web-development-astro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/building-blog",
+      "name": "skill-web-development-building-blog",
+      "source": "packages/claude-code/skill-web-development-building-blog"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/chrome-extension-developer",
+      "name": "skill-web-development-chrome-extension-developer",
+      "source": "packages/claude-code/skill-web-development-chrome-extension-developer"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/drizzle-orm-expert",
+      "name": "skill-web-development-drizzle-orm-expert",
+      "source": "packages/claude-code/skill-web-development-drizzle-orm-expert"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/electron-development",
+      "name": "skill-web-development-electron-development",
+      "source": "packages/claude-code/skill-web-development-electron-development"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/exa-search",
+      "name": "skill-web-development-exa-search",
+      "source": "packages/claude-code/skill-web-development-exa-search"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/expo-deployment",
+      "name": "skill-web-development-expo-deployment",
+      "source": "packages/claude-code/skill-web-development-expo-deployment"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/fastapi-endpoint",
+      "name": "skill-web-development-fastapi-endpoint",
+      "source": "packages/claude-code/skill-web-development-fastapi-endpoint"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/firecrawl-scraper",
+      "name": "skill-web-development-firecrawl-scraper",
+      "source": "packages/claude-code/skill-web-development-firecrawl-scraper"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/hono",
+      "name": "skill-web-development-hono",
+      "source": "packages/claude-code/skill-web-development-hono"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/nextjs-app-router-patterns",
+      "name": "skill-web-development-nextjs-app-router-patterns",
+      "source": "packages/claude-code/skill-web-development-nextjs-app-router-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/progressive-web-app",
+      "name": "skill-web-development-progressive-web-app",
+      "source": "packages/claude-code/skill-web-development-progressive-web-app"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/react-best-practices",
+      "name": "skill-web-development-react-best-practices",
+      "source": "packages/claude-code/skill-web-development-react-best-practices"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/web-development/react-component-performance",
       "name": "skill-web-development-react-component-performance",
       "source": "packages/claude-code/skill-web-development-react-component-performance"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/react-native-architecture",
+      "name": "skill-web-development-react-native-architecture",
+      "source": "packages/claude-code/skill-web-development-react-native-architecture"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/roier-seo",
+      "name": "skill-web-development-roier-seo",
+      "source": "packages/claude-code/skill-web-development-roier-seo"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/web-development/segment-cdp",
@@ -2935,9 +3700,34 @@
       "source": "packages/claude-code/skill-web-development-segment-cdp"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/shadcn",
+      "name": "skill-web-development-shadcn",
+      "source": "packages/claude-code/skill-web-development-shadcn"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/web-development/shopify-apps",
       "name": "skill-web-development-shopify-apps",
       "source": "packages/claude-code/skill-web-development-shopify-apps"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/sveltekit",
+      "name": "skill-web-development-sveltekit",
+      "source": "packages/claude-code/skill-web-development-sveltekit"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/tailwind-design-system",
+      "name": "skill-web-development-tailwind-design-system",
+      "source": "packages/claude-code/skill-web-development-tailwind-design-system"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/tanstack-query-expert",
+      "name": "skill-web-development-tanstack-query-expert",
+      "source": "packages/claude-code/skill-web-development-tanstack-query-expert"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/tavily-web",
+      "name": "skill-web-development-tavily-web",
+      "source": "packages/claude-code/skill-web-development-tavily-web"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/web-development/upstash-qstash",
@@ -2945,9 +3735,29 @@
       "source": "packages/claude-code/skill-web-development-upstash-qstash"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/web-performance-optimization",
+      "name": "skill-web-development-web-performance-optimization",
+      "source": "packages/claude-code/skill-web-development-web-performance-optimization"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/web-development/zod-validation-expert",
+      "name": "skill-web-development-zod-validation-expert",
+      "source": "packages/claude-code/skill-web-development-zod-validation-expert"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/dependabot-review",
       "name": "skill-workflow-automation-dependabot-review",
       "source": "packages/claude-code/skill-workflow-automation-dependabot-review"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/github-workflow-automation",
+      "name": "skill-workflow-automation-github-workflow-automation",
+      "source": "packages/claude-code/skill-workflow-automation-github-workflow-automation"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/gitops-workflow",
+      "name": "skill-workflow-automation-gitops-workflow",
+      "source": "packages/claude-code/skill-workflow-automation-gitops-workflow"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/inngest",
@@ -2988,6 +3798,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
       "name": "skill-workflow-automation-n8n-n8n-workflow-patterns",
       "source": "packages/claude-code/skill-workflow-automation-n8n-n8n-workflow-patterns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/planning-with-files",
+      "name": "skill-workflow-automation-planning-with-files",
+      "source": "packages/claude-code/skill-workflow-automation-planning-with-files"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/rote",
+      "name": "skill-workflow-automation-rote",
+      "source": "packages/claude-code/skill-workflow-automation-rote"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/workflow-automation/trigger-dev",

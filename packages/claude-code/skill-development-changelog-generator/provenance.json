@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-changelog-generator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0fdde1fc7ed062a82fd7ba98057f5d471c5d1905bfe2ddc4eeb213450cb00c18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-changelog-generator/skills/changelog-generator/SKILL.md",
+      "path": "cli-tool/components/skills/development/changelog-generator/SKILL.md",
+      "size": 3096
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8a7f43989b1a4d6e074c6c00928eb77aa9c1d2a0222623b9f62968cf255b2731",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/changelog-generator",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/cc-skill-continuous-learning",
+  "license": "MIT",
+  "name": "skill-development-cc-skill-continuous-learning",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

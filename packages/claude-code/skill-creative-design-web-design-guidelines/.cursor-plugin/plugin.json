@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/web-design-guidelines",
+  "license": "MIT",
+  "name": "skill-creative-design-web-design-guidelines",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

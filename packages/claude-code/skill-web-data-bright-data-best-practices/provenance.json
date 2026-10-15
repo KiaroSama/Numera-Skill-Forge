@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8a17f1fef728742f6eaefe7b0e2c1742ed45dd18d45bebd0ba5ca58376055b19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/skills/bright-data-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-best-practices/SKILL.md",
+      "size": 13098
+    },
+    {
+      "digest": "b6d1a3f17d0674f8c65c612d0363501ed36bb8317b1cfb9f7330f8210ccfb022",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/skills/bright-data-best-practices/references/browser-api.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-best-practices/references/browser-api.md",
+      "size": 17732
+    },
+    {
+      "digest": "844acd432034ccfa91042f040bd4def306ef57cf03774ef1b1c660f785e84ab5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/skills/bright-data-best-practices/references/serp-api.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-best-practices/references/serp-api.md",
+      "size": 13848
+    },
+    {
+      "digest": "cd3b0d749f9b250cd6f2c4b15f8a29407cec25608d7cff1c3d2503f885b7e0d5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/skills/bright-data-best-practices/references/web-scraper-api.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-best-practices/references/web-scraper-api.md",
+      "size": 11092
+    },
+    {
+      "digest": "4a833474c48be5bfe75ee0b0cf40120914f53aea7270ef655cad9f3555afab02",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-best-practices/skills/bright-data-best-practices/references/web-unlocker.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-best-practices/references/web-unlocker.md",
+      "size": 12523
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac79aa1af79b12ddeb807cfdec5e7c95cfe075c56ff697bae0eaac46096f846e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/bright-data-best-practices",
+  "schema_version": 1
+}

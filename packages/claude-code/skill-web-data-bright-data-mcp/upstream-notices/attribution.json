@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: brightdata/skills at b4673e46ab71ff9c00c9d37bb4548c12acb983dd/skills/bright-data-mcp. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Complete exact Bright Data original root.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "a202147d4171ab6588ab5aef1ac91be30afd06461739e5e2950c2fde22162cda",
+      "license": "MIT",
+      "path": "registry/licenses/a202147d4171ab6588ab5aef1ac91be30afd06461739e5e2950c2fde22162cda.txt",
+      "source": "https://github.com/brightdata/skills/blob/b4673e46ab71ff9c00c9d37bb4548c12acb983dd/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-exa-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f0c92431730fa895b9f540a5aabaf174bfdcbecd3e07915ca0747e5bba66524b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-exa-search/skills/exa-search/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/exa-search/SKILL.md",
+      "size": 929
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f25995c29664b0e67c26596b73e3db48e9677f1040c3a0b8cffb5798af605edf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/exa-search",
+  "schema_version": 1
+}

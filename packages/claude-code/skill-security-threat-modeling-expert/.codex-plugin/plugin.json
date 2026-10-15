@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/threat-modeling-expert",
+  "license": "MIT",
+  "name": "skill-security-threat-modeling-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,110 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e4f8bcc3ef9cd1ea22b1cee5dd6ce0261a4d095887756ad239dd1235d0335c16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/SKILL.md",
+      "size": 16269
+    },
+    {
+      "digest": "35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/agents/openai.yml",
+      "path": "cli-tool/components/skills/web-development/shadcn/agents/openai.yml",
+      "size": 238
+    },
+    {
+      "digest": "0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/assets/shadcn-small.png",
+      "path": "cli-tool/components/skills/web-development/shadcn/assets/shadcn-small.png",
+      "size": 1049
+    },
+    {
+      "digest": "7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/assets/shadcn.png",
+      "path": "cli-tool/components/skills/web-development/shadcn/assets/shadcn.png",
+      "size": 3852
+    },
+    {
+      "digest": "851ab7c603ae4bafb7d8b617b5b20203bf8113ccb4ff7eb0f9953ebd7f8839be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/cli.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/cli.md",
+      "size": 14974
+    },
+    {
+      "digest": "12e4d5fd4ae05ec4cef759035d3a70fec474d857298fe0a0effa8880112f8a54",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/customization.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/customization.md",
+      "size": 5969
+    },
+    {
+      "digest": "97ebb931d690578ee64e445d84f406be2a8799812d38d3cb1bb216e68291eb2b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/evals/evals.json",
+      "path": "cli-tool/components/skills/web-development/shadcn/evals/evals.json",
+      "size": 3118
+    },
+    {
+      "digest": "f391dc7acbe609dd3fe04b1ae5cd2005ded6b6d51a238201ea41d7d16a6da26a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/mcp.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/mcp.md",
+      "size": 2385
+    },
+    {
+      "digest": "2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/rules/base-vs-radix.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/rules/base-vs-radix.md",
+      "size": 6954
+    },
+    {
+      "digest": "de068e5aa5351dd8e4af7bfb7a6333302445c15527eaeee521d8591e95e7d709",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/rules/composition.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/rules/composition.md",
+      "size": 4268
+    },
+    {
+      "digest": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/rules/forms.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/rules/forms.md",
+      "size": 4857
+    },
+    {
+      "digest": "d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/rules/icons.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/rules/icons.md",
+      "size": 1958
+    },
+    {
+      "digest": "4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shadcn/skills/shadcn/rules/styling.md",
+      "path": "cli-tool/components/skills/web-development/shadcn/rules/styling.md",
+      "size": 3795
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cf2da30abd43ef6ddba353b4581e17a5efc96b921472b63f834affbaacd84bf9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/shadcn",
+  "schema_version": 1
+}

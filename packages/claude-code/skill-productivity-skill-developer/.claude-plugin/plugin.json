@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/skill-developer",
+  "license": "MIT",
+  "name": "skill-productivity-skill-developer",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

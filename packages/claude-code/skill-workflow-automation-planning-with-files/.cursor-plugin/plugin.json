@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/planning-with-files",
+  "license": "MIT",
+  "name": "skill-workflow-automation-planning-with-files",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

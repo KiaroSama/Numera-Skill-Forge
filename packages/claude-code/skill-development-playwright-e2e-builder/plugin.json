@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/playwright-e2e-builder",
+  "license": "MIT",
+  "name": "skill-development-playwright-e2e-builder",
+  "version": "1.0.0"
+}

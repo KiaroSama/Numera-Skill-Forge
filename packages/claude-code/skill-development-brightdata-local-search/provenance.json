@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-brightdata-local-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "862bcb51f83778382e03125029f16d59fec121df311d107cef1b5829dd2113b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-brightdata-local-search/skills/brightdata-local-search/SKILL.md",
+      "path": "cli-tool/components/skills/development/brightdata-local-search/SKILL.md",
+      "size": 4902
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6208656351306c40b3d1fa9a0a5df6295c7050abd40d2634d0334f700629ca94",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/brightdata-local-search",
+  "schema_version": 1
+}

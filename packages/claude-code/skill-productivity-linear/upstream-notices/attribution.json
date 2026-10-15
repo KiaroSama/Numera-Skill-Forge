@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.experimental/linear. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd.txt",
+      "source": "https://github.com/openai/skills/blob/dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.experimental/linear/LICENSE.txt"
+    },
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+      "source": "https://github.com/apache/.github/blob/66951150d5f712b03655139a4383a08b9b0cb2c6/LICENSE"
+    }
+  ]
+}

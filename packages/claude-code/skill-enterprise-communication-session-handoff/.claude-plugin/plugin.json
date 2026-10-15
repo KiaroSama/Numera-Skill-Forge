@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/session-handoff",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-session-handoff",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

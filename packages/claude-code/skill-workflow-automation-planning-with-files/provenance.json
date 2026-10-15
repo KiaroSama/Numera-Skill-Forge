@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-planning-with-files/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0b3ba3c6d148704019fdc91474bb501ae993763843dd06c7a0c3daf8fcc208d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-planning-with-files/skills/planning-with-files/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/planning-with-files/SKILL.md",
+      "size": 3876
+    },
+    {
+      "digest": "c71999f2838c8355092c360998253b461e9f7a334805414a0b0a1d604a2308b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-planning-with-files/skills/planning-with-files/examples.md",
+      "path": "cli-tool/components/skills/workflow-automation/planning-with-files/examples.md",
+      "size": 4426
+    },
+    {
+      "digest": "05782b588f994505bcbeb1cfaa837ce0bc48437fbc1242db5d7f4d1b164f31aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-planning-with-files/skills/planning-with-files/reference.md",
+      "path": "cli-tool/components/skills/workflow-automation/planning-with-files/reference.md",
+      "size": 3478
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4b07c84484c143934afdec9c27e4f5cf54a76e2f240c8b17ea488c38f584174c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/planning-with-files",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/kotlin-coroutines-expert",
+  "license": "MIT",
+  "name": "skill-development-kotlin-coroutines-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

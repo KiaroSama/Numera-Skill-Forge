@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-order-playbooks/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4673bfb0713d793e7ceb5fde18ea9b31775608d504d9b6802173ce6b4bd73e28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-order-playbooks/skills/doordash-order-playbooks/SKILL.md",
+      "path": "cli-tool/components/skills/doordash/doordash-order-playbooks/SKILL.md",
+      "size": 6314
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4f9ba0e295f131803f75aa70334e82cf4f750993a090e97234929f41c38ce4b9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/doordash/doordash-order-playbooks",
+  "schema_version": 1
+}

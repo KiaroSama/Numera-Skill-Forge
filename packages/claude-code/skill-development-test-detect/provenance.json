@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-detect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6611c3d6acf8843511bb27a4be9fe22c6f8aee550b7b1e5b650c0af8cac67cc0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-detect/skills/test-detect/SKILL.md",
+      "path": "cli-tool/components/skills/development/test-detect/SKILL.md",
+      "size": 3955
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1748be05e713848e45329b78008dbfc17c1e25551ad48525b0ddcc67862516dc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/test-detect",
+  "schema_version": 1
+}

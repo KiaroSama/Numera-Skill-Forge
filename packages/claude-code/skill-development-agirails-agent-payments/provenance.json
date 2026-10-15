@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agirails-agent-payments/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3d2d8e34be7ceaa8a113cc7a37580ca8504ef2b43c35f9f1c760609028d02b47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agirails-agent-payments/skills/agirails-agent-payments/SKILL.md",
+      "path": "cli-tool/components/skills/development/agirails-agent-payments/SKILL.md",
+      "size": 34992
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c56f58319b1d897f4872e99b96849a5cbba3b5adea4115c9176449954d349d16",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/agirails-agent-payments",
+  "schema_version": 1
+}

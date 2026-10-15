@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/video/manim",
+  "license": "MIT",
+  "name": "skill-video-manim",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

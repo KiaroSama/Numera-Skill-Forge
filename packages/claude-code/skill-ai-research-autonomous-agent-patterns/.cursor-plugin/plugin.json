@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/autonomous-agent-patterns",
+  "license": "MIT",
+  "name": "skill-ai-research-autonomous-agent-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

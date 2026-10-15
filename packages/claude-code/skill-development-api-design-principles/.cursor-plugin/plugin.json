@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/api-design-principles",
+  "license": "MIT",
+  "name": "skill-development-api-design-principles",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

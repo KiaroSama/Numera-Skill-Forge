@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/obsidian-bases",
+  "license": "MIT",
+  "name": "skill-document-processing-obsidian-bases",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

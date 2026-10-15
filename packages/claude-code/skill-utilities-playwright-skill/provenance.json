@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/skills/playwright-skill/API_REFERENCE.md",
+      "path": "cli-tool/components/skills/utilities/playwright-skill/API_REFERENCE.md",
+      "size": 16366
+    },
+    {
+      "digest": "f38b55f1a3f132b9e89cd736d8085373f340c4f225193b943deedf3afd06740e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/skills/playwright-skill/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/playwright-skill/SKILL.md",
+      "size": 13930
+    },
+    {
+      "digest": "4bcf32529dd04cf50ddb89d83ccc5ce73e7ef25bd0d375d31310b1668a547739",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/skills/playwright-skill/lib/helpers.js",
+      "path": "cli-tool/components/skills/utilities/playwright-skill/lib/helpers.js",
+      "size": 12605
+    },
+    {
+      "digest": "b22d10a10dfff4770cb1e35e5f52a9fa78b0f05717a7f2d4e598930ef149262a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/skills/playwright-skill/package.json",
+      "path": "cli-tool/components/skills/utilities/playwright-skill/package.json",
+      "size": 652
+    },
+    {
+      "digest": "41b130999c784120b0d94f66de8e44ee83908a99c5bc84aa9f314e28400b909e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-utilities-playwright-skill/skills/playwright-skill/run.js",
+      "path": "cli-tool/components/skills/utilities/playwright-skill/run.js",
+      "size": 5788
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9ec9e654cb1a9f18239efc5386008183729f70f1ad982ca354fc1476b901f526",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/playwright-skill",
+  "schema_version": 1
+}

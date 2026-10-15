@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-fill-studio/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8d0556243366116b2a21a48df97a186e4ac7312af8f8a6f4a17991bb8b51a5a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-fill-studio/skills/pdf-fill-studio/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/pdf-fill-studio/SKILL.md",
+      "size": 2310
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3a1e89233cf5b771449364e1dd0e59923e3f1cf291a6e49940d20c9f96d756da",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/document-processing/pdf-fill-studio",
+  "schema_version": 1
+}

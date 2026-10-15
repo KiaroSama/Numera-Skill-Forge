@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/code-review-checklist",
+  "license": "MIT",
+  "name": "skill-development-code-review-checklist",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

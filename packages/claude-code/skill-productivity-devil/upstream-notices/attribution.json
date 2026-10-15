@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: davila7/claude-code-templates at ae7338765136cc77c2d54560c1ff48dbec3a2787/cli-tool/components/skills/productivity/devil. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct original author dhha22 PR717 explicitly grants MIT; source repo later404, but exact original contributed3files and skill-levelMIT/author notice survive. GitHub D6 and exact repository license apply; no source disappearance veto.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/ae7338765136cc77c2d54560c1ff48dbec3a2787/LICENSE"
+    }
+  ]
+}

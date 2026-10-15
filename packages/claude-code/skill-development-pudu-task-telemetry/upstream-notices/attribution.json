@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: devjaime/claude-code-templates at ebbf8f97907cf68870a6bde4efbcf95819af65b2/cli-tool/components/skills/development/pudu-task-telemetry. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct original contributor devjaime PR918 under repository MIT; original author's contributed material only. External services/tools are prerequisites, not bundled or executed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/devjaime/claude-code-templates/blob/ebbf8f97907cf68870a6bde4efbcf95819af65b2/LICENSE"
+    }
+  ]
+}

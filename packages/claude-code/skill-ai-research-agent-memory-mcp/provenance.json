@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agent-memory-mcp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "87f7692450db90f0ca101040873f431862dad1f8a71b41824a810eaa176c0897",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-agent-memory-mcp/skills/agent-memory-mcp/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/agent-memory-mcp/SKILL.md",
+      "size": 2101
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "42a647d91f82f73fc4c5684425b86ae3bdc4b7ffc8513bace263e9b010173a18",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/agent-memory-mcp",
+  "schema_version": 1
+}

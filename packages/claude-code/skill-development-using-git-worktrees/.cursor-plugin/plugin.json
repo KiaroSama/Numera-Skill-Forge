@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/using-git-worktrees",
+  "license": "MIT",
+  "name": "skill-development-using-git-worktrees",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

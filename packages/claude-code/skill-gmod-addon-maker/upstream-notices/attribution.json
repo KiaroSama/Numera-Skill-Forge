@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: lzmjlrt/claude-code-templates at 0f6aba82997361529d39391ada4cf22afbbea422/cli-tool/components/skills/gmod-addon-maker. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct original contributor lzmjlrt PR370 under repository MIT; original author's contributed material only. External services/tools are prerequisites, not bundled or executed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/lzmjlrt/claude-code-templates/blob/0f6aba82997361529d39391ada4cf22afbbea422/LICENSE"
+    }
+  ]
+}

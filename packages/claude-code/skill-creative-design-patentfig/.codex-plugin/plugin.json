@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/patentfig",
+  "license": "MIT",
+  "name": "skill-creative-design-patentfig",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

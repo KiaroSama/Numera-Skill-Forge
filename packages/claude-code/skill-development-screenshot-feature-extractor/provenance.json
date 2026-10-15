@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-screenshot-feature-extractor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ffd5144d4b4230b216db2fc581d69f8b14eb6c0a0f18c3bcbc7649e6e62e1a7c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-screenshot-feature-extractor/skills/screenshot-feature-extractor/SKILL.md",
+      "path": "cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md",
+      "size": 5146
+    },
+    {
+      "digest": "b8960992a35cf3406d2caf32e00edeffb434abba705e4a97a5ea32c45d2b23bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-screenshot-feature-extractor/skills/screenshot-feature-extractor/references/output-format.md",
+      "path": "cli-tool/components/skills/development/screenshot-feature-extractor/references/output-format.md",
+      "size": 2461
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b05a9303e9ae2c8912c95756b808da54abb97c63f18ccb0dc459b2b896219c27",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/screenshot-feature-extractor",
+  "schema_version": 1
+}

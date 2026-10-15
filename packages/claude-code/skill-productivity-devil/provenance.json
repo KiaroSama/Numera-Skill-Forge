@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-devil/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1a192bdcb8cad36adfdac71ea6b8c948e3f9e2ba2e0309457d0b721fa9f080cd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-devil/skills/devil/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/devil/SKILL.md",
+      "size": 19033
+    },
+    {
+      "digest": "0acba29ea188becc4bf2e60ca2bab4f24b623aa26790e08e1e1393d9bdc1b9ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-devil/skills/devil/references/checklist.md",
+      "path": "cli-tool/components/skills/productivity/devil/references/checklist.md",
+      "size": 10304
+    },
+    {
+      "digest": "8140aba9a6ee42c155b723d3de43c5b1682265e7a35c6acf40fe6aaf57876e45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-devil/skills/devil/references/examples.md",
+      "path": "cli-tool/components/skills/productivity/devil/references/examples.md",
+      "size": 7349
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e5dbc1b02c0f5e10d75b03f0f50b7751ba32b96c09300ee5649c607411de0e7e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/devil",
+  "schema_version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: ComposioHQ/awesome-claude-skills at 2d4fd29297bca4b57f2404e83071e0c87361934c/image-enhancer. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Original README expressly licenses repository Apache2.0; absent standaloneLICENSE notprohibition. Include actualsourceREADME declaration plusofficialApache2.0text (sourceprovidednoapplicationcopyrightline: do notinvent). Completeacceptedonefile exactoriginalblob/mode, noNOTICE/nestedterms inoriginal362entrytree; preserve existing Inspired-by attributions. Inspiration/workflow links notcopiedtextrestriction; video usagecopyrightwarning governsfuturemediause notskilldistribution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "c6689a038e949bdc44aa9d5b168126717ea77d56c6989a5d3579dc1bf755db23",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/c6689a038e949bdc44aa9d5b168126717ea77d56c6989a5d3579dc1bf755db23.txt",
+      "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/2d4fd29297bca4b57f2404e83071e0c87361934c/README.md"
+    },
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+      "source": "https://github.com/apache/.github/blob/66951150d5f712b03655139a4383a08b9b0cb2c6/LICENSE"
+    }
+  ]
+}

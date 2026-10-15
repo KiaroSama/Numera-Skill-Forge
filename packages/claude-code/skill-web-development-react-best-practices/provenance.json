@@ -1,0 +1,355 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c456f09d299872d46ed0f5690521fe8502e3eee3f38a654d93b8307c5e6dbe10",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/SKILL.md",
+      "size": 7357
+    },
+    {
+      "digest": "2fd137ad6dc481e9671138c354c192771d4b18cb0745de2679d89524866692bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/react-performance-guidelines.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/react-performance-guidelines.md",
+      "size": 46890
+    },
+    {
+      "digest": "3f70f58057811d6b5602b5d37c4e0d6bf9be12f94875d2bf4653c9889bc51c9e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/_sections.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/_sections.md",
+      "size": 1538
+    },
+    {
+      "digest": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/_template.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/_template.md",
+      "size": 631
+    },
+    {
+      "digest": "15d28a8b5207a22db9812362662d484a4f1ea822d8ea58f9e45e87d7b93b7574",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/advanced-event-handler-refs.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/advanced-event-handler-refs.md",
+      "size": 960
+    },
+    {
+      "digest": "0b7d925c96c5f063095e627a37f13b2b2cfff22d8c126be6232edcea509fa062",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/advanced-use-latest.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/advanced-use-latest.md",
+      "size": 1191
+    },
+    {
+      "digest": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/async-api-routes.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/async-api-routes.md",
+      "size": 1125
+    },
+    {
+      "digest": "9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/async-defer-await.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/async-defer-await.md",
+      "size": 2028
+    },
+    {
+      "digest": "bfd348ab519f168447ffdbde7b70f40ecb99115c3cdae9292182ec8e28e1ab63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/async-dependencies.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/async-dependencies.md",
+      "size": 942
+    },
+    {
+      "digest": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/async-parallel.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/async-parallel.md",
+      "size": 654
+    },
+    {
+      "digest": "2ccf54dcd1aff3694ac5a07e1b2afffcb63ddca7c77285a0c52d89c0500c5832",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/async-suspense-boundaries.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/async-suspense-boundaries.md",
+      "size": 1610
+    },
+    {
+      "digest": "9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/bundle-barrel-imports.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/bundle-barrel-imports.md",
+      "size": 2370
+    },
+    {
+      "digest": "62c1e787a139cd0754eac6eb4ad50120b3b8836743fcfa031e1a7f6da78b301c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/bundle-conditional.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/bundle-conditional.md",
+      "size": 870
+    },
+    {
+      "digest": "356389745e1a55dd182e1d6758a7fa7d24c4d9a074eca36e42eaa74748753353",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/bundle-defer-third-party.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/bundle-defer-third-party.md",
+      "size": 922
+    },
+    {
+      "digest": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/bundle-dynamic-imports.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/bundle-dynamic-imports.md",
+      "size": 791
+    },
+    {
+      "digest": "6cb284ca57e4bda8a07fc8419b78dd13b9a6d1a4cc732dbadf63971ade324d4e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/bundle-preload.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/bundle-preload.md",
+      "size": 1151
+    },
+    {
+      "digest": "aa1f9165b8e8aea6d87c8ce2df9dbc77326e3b71bd21b98ecb5f16f4cfd55a18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/client-event-listeners.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/client-event-listeners.md",
+      "size": 1976
+    },
+    {
+      "digest": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/client-swr-dedup.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/client-swr-dedup.md",
+      "size": 1159
+    },
+    {
+      "digest": "01535445eeed9df9a33c35d83e9c5e18c7181b20a190fcd77353834e63e6850b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/download_rules.sh",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/download_rules.sh",
+      "size": 3353
+    },
+    {
+      "digest": "b2dc21bef3b5dedef3323cff55cb3394d9e10e497de20a49e45b9f6904bb8649",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-batch-dom-css.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-batch-dom-css.md",
+      "size": 1902
+    },
+    {
+      "digest": "6ec5a49a6a6b5f4a2820167c138445dd2ac83997a0cfed4a818eadf9fd1d6745",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-cache-function-results.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-cache-function-results.md",
+      "size": 1954
+    },
+    {
+      "digest": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-cache-property-access.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-cache-property-access.md",
+      "size": 532
+    },
+    {
+      "digest": "dfbe43c55d1973e7cf456cfa6978f6f09f57c3fd1d5e7fd09ba9d4708c472b8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-cache-storage.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-cache-storage.md",
+      "size": 1617
+    },
+    {
+      "digest": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-combine-iterations.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-combine-iterations.md",
+      "size": 753
+    },
+    {
+      "digest": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-early-exit.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-early-exit.md",
+      "size": 1133
+    },
+    {
+      "digest": "db7a4a651e1745e46c8b5523c76dbe36ef091876af1a661be344180ed00b81ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-hoist-regexp.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-hoist-regexp.md",
+      "size": 994
+    },
+    {
+      "digest": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-index-maps.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-index-maps.md",
+      "size": 837
+    },
+    {
+      "digest": "4d4f4c90143223040c9c12c405cd2d6218f411e248cbd1204929f5b93f4ff030",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-length-check-first.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-length-check-first.md",
+      "size": 1745
+    },
+    {
+      "digest": "d51fed76afdf565bb3c372d47c7d4c65ec07cba7663cc5e630b59e115442fb65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-min-max-loop.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-min-max-loop.md",
+      "size": 2105
+    },
+    {
+      "digest": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-set-map-lookups.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-set-map-lookups.md",
+      "size": 532
+    },
+    {
+      "digest": "17f0792269cce727e145d24b5708e128c506d5c4c455cbad8f041d7ea09dd5db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/js-tosorted-immutable.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/js-tosorted-immutable.md",
+      "size": 1755
+    },
+    {
+      "digest": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-activity.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-activity.md",
+      "size": 564
+    },
+    {
+      "digest": "8798227233e2e7b3e434a6180be14e5b78e0d545af69b46dd0ac89ec543904fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-animate-svg-wrapper.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-animate-svg-wrapper.md",
+      "size": 1188
+    },
+    {
+      "digest": "d072261110d36ae29f289a1e7dc6bd3fc23280ae59e06f28b610da8c00bb2469",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-conditional-render.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-conditional-render.md",
+      "size": 983
+    },
+    {
+      "digest": "c48456cbe71373f13cbcd6e0e1c423d6388e93ddf353fccf1716bed75e58fd4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-content-visibility.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-content-visibility.md",
+      "size": 822
+    },
+    {
+      "digest": "f91dc6c2dcacdc22efcfafca390c00186b934eb520113d64c448b63e84d30b43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-hoist-jsx.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-hoist-jsx.md",
+      "size": 819
+    },
+    {
+      "digest": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-hydration-no-flicker.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-hydration-no-flicker.md",
+      "size": 2308
+    },
+    {
+      "digest": "f5c53cc0f8d256b191e1ffa1dbab23eec0b912168f503fcc07eed23e64586db6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rendering-svg-precision.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rendering-svg-precision.md",
+      "size": 591
+    },
+    {
+      "digest": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-defer-reads.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-defer-reads.md",
+      "size": 973
+    },
+    {
+      "digest": "379ac335c8042df57646326de95deabef38e20ce2b8d8a21fbd579f8c74d312f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-dependencies.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-dependencies.md",
+      "size": 827
+    },
+    {
+      "digest": "011c9d3e655f6e91408e818d47213625c1938008f2c68a42cbd72d2873438d99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-derived-state.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-derived-state.md",
+      "size": 724
+    },
+    {
+      "digest": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-lazy-state-init.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-lazy-state-init.md",
+      "size": 2016
+    },
+    {
+      "digest": "98eb5d9084dc33144dfbae91f5ccd2e314bc5ed6b9b4a9b1e0be5155d2ca58a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-memo.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-memo.md",
+      "size": 935
+    },
+    {
+      "digest": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/rerender-transitions.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/rerender-transitions.md",
+      "size": 1055
+    },
+    {
+      "digest": "f6ff3484b8aa52910ef06aaa1e27a1beee9baaa301f5c56e11f70d11a29c2ef4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/server-cache-lru.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/server-cache-lru.md",
+      "size": 1011
+    },
+    {
+      "digest": "56b75e081aaaea192effc4127b879a6a83f880585ee85f8fab0a9dece13a650b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/server-cache-react.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/server-cache-react.md",
+      "size": 679
+    },
+    {
+      "digest": "7710423762ebed2014d371ce2080f14530ba41c50599227c3ef7c62a8e9f3475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/server-parallel-fetching.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/server-parallel-fetching.md",
+      "size": 1511
+    },
+    {
+      "digest": "35e0a6f76b409a2b3b8106bd7f42c2ddf4820d4598b381c22268cb2ec97bce1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-best-practices/skills/react-best-practices/references/rules/server-serialization.md",
+      "path": "cli-tool/components/skills/web-development/react-best-practices/references/rules/server-serialization.md",
+      "size": 826
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c5f31c0f77bce760c69d7cafd7adcb4f0d285b3e06c959a966e1ec828c99db17",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/react-best-practices",
+  "schema_version": 1
+}

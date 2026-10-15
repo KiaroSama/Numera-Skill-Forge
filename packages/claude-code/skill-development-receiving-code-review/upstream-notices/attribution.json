@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: obra/superpowers at 80643c26040437740d4a185ed5693d365ca3aeec/skills/receiving-code-review. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain originalMIT Copyright2025JesseVincent plusapplicableintermediarynotice/attribution. Entrydiffreviewed: reviewthreadguidance/gitignorecheck/skillinvocationclarifications. Completeacceptedonefileunchanged; notlatestexactoriginalclaim. writing-skills excludedforactualfullAnthropicdoccompanionownershipreview.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "license": "MIT",
+      "path": "registry/licenses/a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400.txt",
+      "source": "https://github.com/obra/superpowers/blob/80643c26040437740d4a185ed5693d365ca3aeec/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    }
+  ]
+}

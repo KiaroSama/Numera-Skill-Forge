@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/exa-search",
+  "license": "MIT",
+  "name": "skill-web-development-exa-search",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

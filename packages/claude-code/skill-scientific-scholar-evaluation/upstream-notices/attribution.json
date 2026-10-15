@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: K-Dense-AI/claude-scientific-skills at 4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/scholar-evaluation. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Only upstream frontmatter addition; both complete original companions unchanged.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "license": "MIT",
+      "path": "registry/licenses/09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1.txt",
+      "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/LICENSE.md"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-patentfig/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9bbba5a781c35e6d4240a9a1231d27c0c63a26c27bd12623e6dfc5c638ee4b41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-patentfig/skills/patentfig/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/patentfig/SKILL.md",
+      "size": 4836
+    },
+    {
+      "digest": "4066b34f7224feeb0b2fda31a1dae57357c1390a2712e2d2db4444d421301e14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-patentfig/skills/patentfig/references/endpoints.md",
+      "path": "cli-tool/components/skills/creative-design/patentfig/references/endpoints.md",
+      "size": 3297
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6acf4987d98b1864fb93647ef041ac522299f4ecfd077df7382f920510258467",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/patentfig",
+  "schema_version": 1
+}

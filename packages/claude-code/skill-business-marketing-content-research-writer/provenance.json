@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-research-writer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-content-research-writer/skills/content-research-writer/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/content-research-writer/SKILL.md",
+      "size": 14244
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "08e9d37764d4fb4fa54070a198409acbdda554a9a1df460c86ac06403331ed6d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/content-research-writer",
+  "schema_version": 1
+}

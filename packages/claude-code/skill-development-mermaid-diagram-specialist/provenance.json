@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mermaid-diagram-specialist/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e096b691becce04afbb2d0613e9fba101c24e8f6762c8588477544960898fe08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mermaid-diagram-specialist/skills/mermaid-diagram-specialist/SKILL.md",
+      "path": "cli-tool/components/skills/development/mermaid-diagram-specialist/SKILL.md",
+      "size": 15273
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "917bed4e8db43cfae098009f1961c5fc776494742c1752f0bf8e8f60f96c9437",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/mermaid-diagram-specialist",
+  "schema_version": 1
+}

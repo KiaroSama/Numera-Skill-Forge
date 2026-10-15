@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/laravel-expert",
+  "license": "MIT",
+  "name": "skill-development-laravel-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

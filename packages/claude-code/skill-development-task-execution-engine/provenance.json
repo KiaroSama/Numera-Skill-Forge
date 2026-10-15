@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-task-execution-engine/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9d58bcb4b3570e51ed4a746fda82656967eb66cd9604cf44a6f088704da02575",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-task-execution-engine/skills/task-execution-engine/SKILL.md",
+      "path": "cli-tool/components/skills/development/task-execution-engine/SKILL.md",
+      "size": 3116
+    },
+    {
+      "digest": "e23cd14885c880a4181f6d9b29f1417e7880523814948ac5793622a7317677d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-task-execution-engine/skills/task-execution-engine/references/task-format.md",
+      "path": "cli-tool/components/skills/development/task-execution-engine/references/task-format.md",
+      "size": 2499
+    },
+    {
+      "digest": "dcd487d7a0592b6674956e7862c231745b93ac8483779c32a5d77f7ff22863c5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-task-execution-engine/skills/task-execution-engine/references/workflow-guide.md",
+      "path": "cli-tool/components/skills/development/task-execution-engine/references/workflow-guide.md",
+      "size": 4043
+    },
+    {
+      "digest": "15779826d7f2e44e0942d43649e2b5fbf7d143a421bbf462b35940da09a2f00c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-task-execution-engine/skills/task-execution-engine/scripts/task_manager.py",
+      "path": "cli-tool/components/skills/development/task-execution-engine/scripts/task_manager.py",
+      "size": 13867
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9d9d7d30a5d5342a005200a4899fcd5619a2576a0ac3bc425cab8796baa0d95a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/task-execution-engine",
+  "schema_version": 1
+}

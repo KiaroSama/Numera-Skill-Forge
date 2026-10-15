@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: vercel-labs/agent-skills at 1f0c31b5121cd42f1b2e6da8b7f62ef332e88d58/skills/react-best-practices. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Actual original README explicitly MIT; complete selected upstream adaptation, original rule content retained under relocated references. No invented copyright notice.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "9af6cf8f42cc5bf0594849f5ca7e06d645087a142fbfd4fcb614bf7fbafd41b2",
+      "license": "MIT",
+      "path": "registry/licenses/9af6cf8f42cc5bf0594849f5ca7e06d645087a142fbfd4fcb614bf7fbafd41b2.txt",
+      "source": "https://github.com/vercel-labs/agent-skills/blob/1f0c31b5121cd42f1b2e6da8b7f62ef332e88d58/README.md"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/avalonia-layout-zafiro",
+  "license": "MIT",
+  "name": "skill-development-avalonia-layout-zafiro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

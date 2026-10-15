@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-library/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4213f5a4aaf95534256cd1fdbbaf28f0432e3d437426923573b777c37dd27643",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-library/skills/prompt-library/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-library/SKILL.md",
+      "size": 7644
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cac8b04d7667b3949ab460e4f8cc1f98720e22606aaa3761b4e430aa3701cd76",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/prompt-library",
+  "schema_version": 1
+}

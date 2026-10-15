@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/json-canvas",
+  "license": "MIT",
+  "name": "skill-document-processing-json-canvas",
+  "version": "1.0.0"
+}

@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b1cb50313676fdedc6d87b76da8eecdcbf225f9e7c84ebbdd8fc6725556e4ac7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/ADVANCED.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/ADVANCED.md",
+      "size": 3979
+    },
+    {
+      "digest": "589be14cdeb929c571118c5d051df3d799458a177d7b0359eae546b82f6bab2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/HOOK_MECHANISMS.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/HOOK_MECHANISMS.md",
+      "size": 7920
+    },
+    {
+      "digest": "7b395ac7493d56fdb2e1ff093004f290101b2cfb14702c065d7684d2acae4abe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/PATTERNS_LIBRARY.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/PATTERNS_LIBRARY.md",
+      "size": 3347
+    },
+    {
+      "digest": "f4b4a4cd9ae4e1506ed0bde1aaa6741d95e6abcc746813844167a8ae03b0c622",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/SKILL.md",
+      "size": 12278
+    },
+    {
+      "digest": "340a66dc9a527da89509459454de7c21a224ae6f0eeef70b6cbee610e7d2e16e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/SKILL_RULES_REFERENCE.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/SKILL_RULES_REFERENCE.md",
+      "size": 8692
+    },
+    {
+      "digest": "0d42da5291d0ea6697d04813fae9d042dd00168a096675f3034c9ed59cd83856",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/TRIGGER_TYPES.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/TRIGGER_TYPES.md",
+      "size": 7709
+    },
+    {
+      "digest": "7fcdf0020730c03a97b58c9bf27802ec30fdd7945ff3c9a9bd0a5399df4f1e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-skill-developer/skills/skill-developer/TROUBLESHOOTING.md",
+      "path": "cli-tool/components/skills/productivity/skill-developer/TROUBLESHOOTING.md",
+      "size": 10080
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e98b336bb4d244a28ebf512f44d47cc0a1de043e784131618c339e00b73152ec",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/skill-developer",
+  "schema_version": 1
+}

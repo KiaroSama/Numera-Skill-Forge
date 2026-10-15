@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-firecrawl-scraper/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7ca0ad87218a76ddb9d3891cee039b811676336c229c7b06a52c0c59e9d66d6c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-firecrawl-scraper/skills/firecrawl-scraper/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/firecrawl-scraper/SKILL.md",
+      "size": 1012
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9f98513b96bff7c47b82988228aea7136dba19d6690220a5388035fb9dbda336",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/firecrawl-scraper",
+  "schema_version": 1
+}

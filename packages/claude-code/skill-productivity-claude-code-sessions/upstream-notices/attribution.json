@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: apappascs/claude-code-sessions at f19b0948d0e8ff712dbdd83f5cdf49493087b984/.. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Standalone original author installation/architecture guide. External plugin, Bun dashboard and eleven commands are not bundled or activated; requires separate original plugin installation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "58a410c3598e04b6ed5743a82e3b77bbd335d237ce22c0d1a21d70f98dc96f7a",
+      "license": "MIT",
+      "path": "registry/licenses/58a410c3598e04b6ed5743a82e3b77bbd335d237ce22c0d1a21d70f98dc96f7a.txt",
+      "source": "https://github.com/apappascs/claude-code-sessions/blob/f19b0948d0e8ff712dbdd83f5cdf49493087b984/LICENSE"
+    }
+  ]
+}

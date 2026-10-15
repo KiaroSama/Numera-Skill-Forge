@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "63743afd9ed48e3d1700b50e5985fee5bfddac7575cdb7f34623c62332c0afb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/SKILL.md",
+      "size": 8321
+    },
+    {
+      "digest": "ebfbb0244db0211581866b38e0b2668111db4d1c120fdbbb1a6e69457b2f3da9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/references/cache-catalog.md",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/references/cache-catalog.md",
+      "size": 11618
+    },
+    {
+      "digest": "7d1a914f6d30e1b6d60e60e873f118a1f08ec4322ea20bc31e43f88369c56fc6",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/scripts/clean-safe.sh",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/scripts/clean-safe.sh",
+      "size": 2919
+    },
+    {
+      "digest": "7dd0efff3bf74137453ed239902282de4856c1834670a78b8f8ca46b313f0515",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/scripts/find-extras.sh",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/scripts/find-extras.sh",
+      "size": 3703
+    },
+    {
+      "digest": "0c2aaeed651b8af7dfbe87cdb2f4cd340193bbc28ce2907d884a7f77163936a8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/scripts/lib.sh",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/scripts/lib.sh",
+      "size": 8086
+    },
+    {
+      "digest": "82ad34007f64b0367dbe01e72181b37ee6c03fd299722544fb4c49cf735a5e9e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/scripts/survey.sh",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/scripts/survey.sh",
+      "size": 3397
+    },
+    {
+      "digest": "6e44351d08718bad9b4d31d84377ebc1492e738035baa9e902770ba729b27cf3",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-productivity-mac-storage-cleaner/skills/mac-storage-cleaner/scripts/trash-items.sh",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/scripts/trash-items.sh",
+      "size": 1136
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2dd4d32634647c5333252703cae94c9c28d4929a2d350980d2b6dbd1ed861a79",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/mac-storage-cleaner",
+  "schema_version": 1
+}

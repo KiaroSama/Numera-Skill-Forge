@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/git/git-context-controller",
+  "license": "MIT",
+  "name": "skill-git-git-context-controller",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

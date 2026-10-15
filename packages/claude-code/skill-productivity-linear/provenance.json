@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-linear/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-linear/skills/linear/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/linear/SKILL.md",
+      "size": 4952
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "726e8b092d46aa38b2df9c12290266ff23c772d42461ff8903f1f033b2caa8b0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/linear",
+  "schema_version": 1
+}

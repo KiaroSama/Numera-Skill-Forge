@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-web-performance-optimization/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "83b088f0769e1ff890e10e38c372cf5e0163061e21380dff739966f73c51a27a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-web-performance-optimization/skills/web-performance-optimization/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/web-performance-optimization/SKILL.md",
+      "size": 16073
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "afe5637fd6fb93918525645e0aa171160700fc854391f6f2a5e8e6c4484d34a7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/web-performance-optimization",
+  "schema_version": 1
+}

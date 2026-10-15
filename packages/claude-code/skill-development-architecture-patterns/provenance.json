@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2c28ef0ab26ed02cbf7cb52fa945325090f0a2831b2b03c8e81564ff02bf9b80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture-patterns/skills/architecture-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/architecture-patterns/SKILL.md",
+      "size": 1931
+    },
+    {
+      "digest": "54cf8375417be40591bec2c66abf279bbb458ebdb964d2f7695357019282d588",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture-patterns/skills/architecture-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/architecture-patterns/resources/implementation-playbook.md",
+      "size": 14429
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d43112ccb4dbb3e5c78de0834588b4ad5084ed8de7cfdafb20942a9fc2b25909",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/architecture-patterns",
+  "schema_version": 1
+}

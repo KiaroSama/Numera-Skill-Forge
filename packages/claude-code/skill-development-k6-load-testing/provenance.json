@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-k6-load-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f1c12975a52f5c3106ab2ebdd4457d622eb6e628de11909b01e81ae225d064a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-k6-load-testing/skills/k6-load-testing/SKILL.md",
+      "path": "cli-tool/components/skills/development/k6-load-testing/SKILL.md",
+      "size": 14425
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d1f82ab8c229b93a7b410e64ebd74021eed68f18e64b0a4e66e4ba45c6e26cd5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/k6-load-testing",
+  "schema_version": 1
+}

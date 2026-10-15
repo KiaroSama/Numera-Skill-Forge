@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-x-twitter-scraper/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "461fce391da4b7321f0da772b0f692df0f7771f16e368aef22ddccca3b68f0f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-x-twitter-scraper/skills/x-twitter-scraper/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/x-twitter-scraper/SKILL.md",
+      "size": 9308
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2d089c876eb20b02c8e5ea9bb81c9c11dabb763052489425fbc20344e232d5a5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/x-twitter-scraper",
+  "schema_version": 1
+}

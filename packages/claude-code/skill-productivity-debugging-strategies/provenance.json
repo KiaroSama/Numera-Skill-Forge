@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-debugging-strategies/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "403320dd5afeeffaf0f09e8bb871f7c95651f977b2e70025be77c6d29c5281e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-debugging-strategies/skills/debugging-strategies/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/debugging-strategies/SKILL.md",
+      "size": 1231
+    },
+    {
+      "digest": "b74622e440ab2ac223d1eaec23ebf02d1ce54dcb8a8d3246b44f9130fda02b86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-debugging-strategies/skills/debugging-strategies/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/productivity/debugging-strategies/resources/implementation-playbook.md",
+      "size": 11944
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d5b0a194713978664ac91956bf8e9be79b92a6f797cffaead0d83c3de247da84",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/debugging-strategies",
+  "schema_version": 1
+}

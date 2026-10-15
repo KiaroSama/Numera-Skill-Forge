@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/sports/footballbin-predictions",
+  "license": "MIT",
+  "name": "skill-sports-footballbin-predictions",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

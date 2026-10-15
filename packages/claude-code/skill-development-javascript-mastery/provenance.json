@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-javascript-mastery/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b47245a09c6a7274b56a338bcbdc906230f8d9d3404ef64dfd10b636710c6f49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-javascript-mastery/skills/javascript-mastery/SKILL.md",
+      "path": "cli-tool/components/skills/development/javascript-mastery/SKILL.md",
+      "size": 12826
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3811f8e9f71a5e3df49562dbd80146ed725489a24888ceb7cdb326db7f296933",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/javascript-mastery",
+  "schema_version": 1
+}

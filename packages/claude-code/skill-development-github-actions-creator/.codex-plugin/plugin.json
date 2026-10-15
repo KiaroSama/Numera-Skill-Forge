@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/github-actions-creator",
+  "license": "MIT",
+  "name": "skill-development-github-actions-creator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

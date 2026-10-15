@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-hono/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8f63ed854b9d9d5dd292a263bc4dcfece1a69d0fccfa5776f39c874b675163ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-hono/skills/hono/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/hono/SKILL.md",
+      "size": 10433
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f69242bc8eb9b9082522ce14834ad7637380b2070d4db37d35a2f18099126b17",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/hono",
+  "schema_version": 1
+}

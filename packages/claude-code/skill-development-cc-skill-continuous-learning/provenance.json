@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-continuous-learning/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a01df48bcdd437afd697d2785d961776edee234a69a39ee0e377e57c9f9946da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-continuous-learning/skills/cc-skill-continuous-learning/SKILL.md",
+      "path": "cli-tool/components/skills/development/cc-skill-continuous-learning/SKILL.md",
+      "size": 192
+    },
+    {
+      "digest": "8af9150b6dca782cc3cb938e0c2267ad85ee4772eaf3ec30c0b91a848d108a44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-continuous-learning/skills/cc-skill-continuous-learning/config.json",
+      "path": "cli-tool/components/skills/development/cc-skill-continuous-learning/config.json",
+      "size": 391
+    },
+    {
+      "digest": "e238a4f59127d1346953b31338c639206d2f300512874ff750b979638ab5932c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-cc-skill-continuous-learning/skills/cc-skill-continuous-learning/evaluate-session.sh",
+      "path": "cli-tool/components/skills/development/cc-skill-continuous-learning/evaluate-session.sh",
+      "size": 2015
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5b6cd8140ea609ab15be7d1e826f9af3d698b1fd56602a5aacc6e0cc80099e00",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cc-skill-continuous-learning",
+  "schema_version": 1
+}

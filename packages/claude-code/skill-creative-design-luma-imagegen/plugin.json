@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/luma-imagegen",
+  "license": "MIT",
+  "name": "skill-creative-design-luma-imagegen",
+  "version": "1.0.0"
+}

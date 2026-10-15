@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: diet103/claude-code-infrastructure-showcase at a5818cb99f54f360303feacdeebe2ded291fdf71/.claude/skills/backend-dev-guidelines. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve fulloriginalMITgrant andoriginalrepositoryattribution. diet103actualcopyright2025ClaudeCodeInfrastructureContributors; ChrisWilesREADMEexplicitMIT hasnoapplicationcopyrightline, do notinvent. Everyacceptedrecursiveblob exactoriginal; no originalNOTICE/nestedlegal in81/43entrytrees. Referencedhooks/globalpaths unexecuteddata andtechnicaldependencies, notinstallationauthorization.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "d3acd3d582674bcc698cffe2a35e63ec6a70ae54c47ff331a980858040dce6b0",
+      "license": "MIT",
+      "path": "registry/licenses/d3acd3d582674bcc698cffe2a35e63ec6a70ae54c47ff331a980858040dce6b0.txt",
+      "source": "https://github.com/diet103/claude-code-infrastructure-showcase/blob/a5818cb99f54f360303feacdeebe2ded291fdf71/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: sickn33/agentic-awesome-skills at ae306ce0154ade9a361d5077362d85245a5afbcb/skills/pydantic-ai. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Directowningauthor submission suhaibjanjua underactualrepositoryMIT (GitHubD6), notaggregatorrelicenseofcopiedthirdparty. Preservecreatorattribution+MIT+currentCCcontentlayerconservatively. Completeacceptedonefile; suhaib4 andSaaSexactsubmissionblobs, Laravelmetadataquotesdateadaptationonly; noalternativegrantidentified. No originalexamples/network/scripts executed; no hostruntimeclaim.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/agentic-awesome-skills/blob/ae306ce0154ade9a361d5077362d85245a5afbcb/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    }
+  ]
+}

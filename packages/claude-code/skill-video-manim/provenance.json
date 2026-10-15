@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "53d7a18269448cf960ba0a4b5151aba5a2b447060eb6771cf888f4d970918169",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/skills/manim/SKILL.md",
+      "path": "cli-tool/components/skills/video/manim/SKILL.md",
+      "size": 4735
+    },
+    {
+      "digest": "ffde98e6425c6666039af0438ee8be0ea193940404af7334d7d5444e0b62708a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/skills/manim/references/animations.md",
+      "path": "cli-tool/components/skills/video/manim/references/animations.md",
+      "size": 5355
+    },
+    {
+      "digest": "c6bdec3534a7a19558804f2f975ad4251bedf491d40b816d2a0356e4d40d1710",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/skills/manim/references/latex.md",
+      "path": "cli-tool/components/skills/video/manim/references/latex.md",
+      "size": 4660
+    },
+    {
+      "digest": "87572bb8c73d6ab58a4e63c1b4b72241f1c5c580130b8cb995b2d1bbfa753193",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/skills/manim/references/mobjects.md",
+      "path": "cli-tool/components/skills/video/manim/references/mobjects.md",
+      "size": 3838
+    },
+    {
+      "digest": "5e0b4fdba55edf4b5534f6e8825d3f411cc68fe2a687c3692057bfc48e5c96e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-manim/skills/manim/references/scenes.md",
+      "path": "cli-tool/components/skills/video/manim/references/scenes.md",
+      "size": 2802
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5e73a9daf183a8b4c0a0600c424e298d595ef6b7db35453b3673ee6e337c91d2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/video/manim",
+  "schema_version": 1
+}

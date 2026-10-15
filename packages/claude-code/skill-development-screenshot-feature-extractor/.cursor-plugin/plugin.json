@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/screenshot-feature-extractor",
+  "license": "MIT",
+  "name": "skill-development-screenshot-feature-extractor",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

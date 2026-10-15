@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-using-superpowers/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "81d921b16502091f44e8669bbcfae74b87bbf4295d03fff70a98e81d73af60a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-using-superpowers/skills/using-superpowers/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/using-superpowers/SKILL.md",
+      "size": 3798
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4f9484090b8901cee1e2e83b8f5ddfac14bf13c641a5404e4739cfec8f2fdb7b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/using-superpowers",
+  "schema_version": 1
+}

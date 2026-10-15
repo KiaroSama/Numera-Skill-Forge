@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-motion-canvas/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0ef798908ee5cd368adf446494980193bd24ea669edc94959853d1993dc06436",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-motion-canvas/skills/motion-canvas/SKILL.md",
+      "path": "cli-tool/components/skills/video/motion-canvas/SKILL.md",
+      "size": 11471
+    },
+    {
+      "digest": "7c5b15dd397258d8b20f7b1635be6fa523aab2bc15d347de67c6249b5ae6bb91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-motion-canvas/skills/motion-canvas/references/animations.md",
+      "path": "cli-tool/components/skills/video/motion-canvas/references/animations.md",
+      "size": 3328
+    },
+    {
+      "digest": "ac23bc4b434346258b762a15922c96b8efb0166d4f71ee9ea4701b3f26f8df1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-motion-canvas/skills/motion-canvas/references/generators.md",
+      "path": "cli-tool/components/skills/video/motion-canvas/references/generators.md",
+      "size": 2038
+    },
+    {
+      "digest": "38cf5b762c2797f8ad1be4cd0c777409c680d92d734f0c12b7540155c35bb4c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-video-motion-canvas/skills/motion-canvas/references/signals.md",
+      "path": "cli-tool/components/skills/video/motion-canvas/references/signals.md",
+      "size": 2632
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "cc04445fcc07823916f76777c5a5a680d1da4dc1e94eaba2d60826fac5a20174",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/video/motion-canvas",
+  "schema_version": 1
+}

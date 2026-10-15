@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-luma-imagegen/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c1d7d645ef2513c72c12062629185af244ef940a7ad59b6b1fe4fd5f15fc7e8e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-luma-imagegen/skills/luma-imagegen/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/luma-imagegen/SKILL.md",
+      "size": 6717
+    },
+    {
+      "digest": "f7d20c87664cab85b33131a1f91b2b20a3ce8b2aca2dcdd33f58970fbcb8ba86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-luma-imagegen/skills/luma-imagegen/scripts/luma_imagegen.py",
+      "path": "cli-tool/components/skills/creative-design/luma-imagegen/scripts/luma_imagegen.py",
+      "size": 8533
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "791795784f4f19d676a168606a44c993bfbdc607bcea3d3908224b25a5259be7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/luma-imagegen",
+  "schema_version": 1
+}

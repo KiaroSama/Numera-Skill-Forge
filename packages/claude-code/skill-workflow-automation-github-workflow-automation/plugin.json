@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/github-workflow-automation",
+  "license": "MIT",
+  "name": "skill-workflow-automation-github-workflow-automation",
+  "version": "1.0.0"
+}

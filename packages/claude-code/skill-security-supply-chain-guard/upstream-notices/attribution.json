@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: davila7/claude-code-templates at 36fa6dbd5d8a45a62628b634aa48410f4d39682d/cli-tool/components/skills/security/supply-chain-guard. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve direct original contributor davila7, actual submission MIT license and any intermediary content attribution. GitHub D6 original inbound contribution, not blanket aggregator relicensing. Complete accepted recursive payload and embedded references inspected; source citations alone are not third-party restrictions. No imported scripts/hooks/scanners were executed. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/36fa6dbd5d8a45a62628b634aa48410f4d39682d/LICENSE"
+    }
+  ]
+}

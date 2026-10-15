@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-performance-optimizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7cf2d6693d07d0fdaab6441642295eb9bd9734e551caff656c138a388bd565b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-performance-optimizer/skills/performance-optimizer/README.md",
+      "path": "cli-tool/components/skills/productivity/performance-optimizer/README.md",
+      "size": 465
+    },
+    {
+      "digest": "2b3c074f458a7276a1e56da1925f0226b911982419c441e3bb8d7a50048b6516",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-performance-optimizer/skills/performance-optimizer/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/performance-optimizer/SKILL.md",
+      "size": 8522
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "92bb26a34c3dc2176c3449159183507e59e5016b36cec66ec8a8a33e5c0f97c2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/performance-optimizer",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-review-excellence/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2fdb772e684b2042c9e033892a70a259a26b7e2f31833f43b3ab08b653605bf4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-review-excellence/skills/code-review-excellence/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/code-review-excellence/SKILL.md",
+      "size": 1399
+    },
+    {
+      "digest": "ece72677dd719176f7c7b3c06ce59bfb3bbb74c25da471c0788e69bfd776ec13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-review-excellence/skills/code-review-excellence/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/productivity/code-review-excellence/resources/implementation-playbook.md",
+      "size": 13389
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c0deba9ebd66f4dbcbc03fbbaf5c48cb785760af02d9eaa42a96b57de135adaa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/code-review-excellence",
+  "schema_version": 1
+}

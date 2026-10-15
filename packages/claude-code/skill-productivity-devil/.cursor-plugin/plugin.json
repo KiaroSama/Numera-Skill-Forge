@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/devil",
+  "license": "MIT",
+  "name": "skill-productivity-devil",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

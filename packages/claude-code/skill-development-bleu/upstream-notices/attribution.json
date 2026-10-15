@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: Nirvaan05/Bleu-plugin at 2d202577de166dd44ff5274c3f4a9fc442b3047a/plugins/bleu/skills/bleu. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct author PR598 adaptation: metadata and two integration/reference edits; MIT permits adaptation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "e09a83d9dc283ef1ea4127c2d0a5130c383533bd966b3e92839bc293dca0aa21",
+      "license": "MIT",
+      "path": "registry/licenses/e09a83d9dc283ef1ea4127c2d0a5130c383533bd966b3e92839bc293dca0aa21.txt",
+      "source": "https://github.com/Nirvaan05/Bleu-plugin/blob/2d202577de166dd44ff5274c3f4a9fc442b3047a/LICENSE"
+    }
+  ]
+}

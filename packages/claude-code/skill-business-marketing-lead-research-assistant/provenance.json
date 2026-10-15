@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-lead-research-assistant/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5b6a21b21d4a4bfd3ae0a07746261e0675212c12781e4846a8bb1b1f5386c73f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-lead-research-assistant/skills/lead-research-assistant/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/lead-research-assistant/SKILL.md",
+      "size": 6587
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "7c6088945bddc0758f6b0e5c19f7c0e6298a23f805752964ffa5610d14728082",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/lead-research-assistant",
+  "schema_version": 1
+}

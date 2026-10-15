@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-astro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0e97aaaff0d770c5cbd39417c51aa9a91bbb3f4b2cbe3a4d025aa350359d0f61",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-astro/skills/astro/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/astro/SKILL.md",
+      "size": 10222
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ef46c92018947e96c460d90f9dfb256c951374e8cd0ac2f7868812773bf054ed",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/astro",
+  "schema_version": 1
+}

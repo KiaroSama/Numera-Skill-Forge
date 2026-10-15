@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "88b62c21b51eae08cd9af282d29d5adb9fa06626af59768cd4e9d739791e5a65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/skills/typescript-expert/SKILL.md",
+      "path": "cli-tool/components/skills/development/typescript-expert/SKILL.md",
+      "size": 14644
+    },
+    {
+      "digest": "baa3936ec045998a5b751166cc118ce9e9c7877f583562e75849f0a1d8bc59ac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/skills/typescript-expert/references/tsconfig-strict.json",
+      "path": "cli-tool/components/skills/development/typescript-expert/references/tsconfig-strict.json",
+      "size": 3426
+    },
+    {
+      "digest": "48e2298805f0f0f1081a2a3637470dac17714f838b6ae594a036a1c5364b6c5a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/skills/typescript-expert/references/typescript-cheatsheet.md",
+      "path": "cli-tool/components/skills/development/typescript-expert/references/typescript-cheatsheet.md",
+      "size": 7424
+    },
+    {
+      "digest": "72c9a65db30be18fa08a7e3fe9335aba271f871e91085ab586d5da49f7a6ca7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/skills/typescript-expert/references/utility-types.ts",
+      "path": "cli-tool/components/skills/development/typescript-expert/references/utility-types.ts",
+      "size": 8629
+    },
+    {
+      "digest": "5748639b1202052332554151d677dd6b1d2376c4985db08a17ae66561dc228a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-typescript-expert/skills/typescript-expert/scripts/ts_diagnostic.py",
+      "path": "cli-tool/components/skills/development/typescript-expert/scripts/ts_diagnostic.py",
+      "size": 6219
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dd7b30cf5592e01e72b88529e976fed521dacc0e355abf731a9508f3917c19cf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/typescript-expert",
+  "schema_version": 1
+}

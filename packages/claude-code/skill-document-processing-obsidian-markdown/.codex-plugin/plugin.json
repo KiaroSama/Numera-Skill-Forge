@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/obsidian-markdown",
+  "license": "MIT",
+  "name": "skill-document-processing-obsidian-markdown",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

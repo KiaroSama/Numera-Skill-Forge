@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/open-banking-io/open-banking-io",
+  "license": "MIT",
+  "name": "skill-open-banking-io-open-banking-io",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

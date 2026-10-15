@@ -1,0 +1,117 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4bec84afd2f95afa29c4e0980e81ca96c04e1b6ba453d26dc714fde117b6d029",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/SKILL.md",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+      "size": 4997
+    },
+    {
+      "digest": "4d448713fb626ba41d3076d3f47ad126a6b0fc1d508ae00b50ed3f51c2d710a0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/references/examples.md",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/references/examples.md",
+      "size": 3286
+    },
+    {
+      "digest": "8476536b2382392b5c8273da5d3c1ec76cc6781c02688a6138a71d2a7b1346ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/references/model-selection.md",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/references/model-selection.md",
+      "size": 3032
+    },
+    {
+      "digest": "604edc8dabe7d8229be9a7cd502d0b317bb73cd1942e363bfa34c8d0727739b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/references/setup.md",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/references/setup.md",
+      "size": 3048
+    },
+    {
+      "digest": "d62635314fd1eb5dfc45bca900ea0f7a72ccb6756f7d26520a3e053d89f01af3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/references/task-schema.json",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/references/task-schema.json",
+      "size": 5819
+    },
+    {
+      "digest": "ceab93b4a493f912c1be59b87b8bdacdd62a99dfada6fbbc3a17d0ee22204d31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/references/telemetry-contract.md",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/references/telemetry-contract.md",
+      "size": 4521
+    },
+    {
+      "digest": "ef2b06c12cc9356b2c7bed506ab8cfb767129d5d185a9d24596b993dc51f057d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/common.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/common.mjs",
+      "size": 1796
+    },
+    {
+      "digest": "47cac1b0cc53c6983831ded09ef94679df3d5ffdd458d70a154617f755dc1bff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/model-selection.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/model-selection.mjs",
+      "size": 3628
+    },
+    {
+      "digest": "f95e30198c8d03becb90b3454958b8fef4309d49258dd636b251890b3df2c278",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/ollama-adapter.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/ollama-adapter.mjs",
+      "size": 10801
+    },
+    {
+      "digest": "a6ed103b592fb5bf355b22e427a3f4c2e076a28961a9ea1615bdfea77a8884a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/pudu-adapter.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/pudu-adapter.mjs",
+      "size": 4785
+    },
+    {
+      "digest": "9d7291d16a62f22cb36261628bb439a3a1cdbe84a1058bab65a209d7b7102a00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/report.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/report.mjs",
+      "size": 4720
+    },
+    {
+      "digest": "3f2a20b23f0d6c4661fe30444e89de67d1228a70b74dc42fcc68c281e2015587",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/task-store.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/task-store.mjs",
+      "size": 8593
+    },
+    {
+      "digest": "8fe8894f2377af2a38d60b4163549c0a943fda0511d2fc9925ad2f8c991d9dac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/lib/telemetry.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/lib/telemetry.mjs",
+      "size": 3074
+    },
+    {
+      "digest": "fc78ff85e4cf2e60ae4a12fced386ff8f6381d1990666aeab911ae3ed46b81d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-pudu-task-telemetry/skills/pudu-task-telemetry/scripts/pudu-task.mjs",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/scripts/pudu-task.mjs",
+      "size": 13049
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3a248ae1f513608388cfd0573e5ccbd4b6c7fb904b841a7710abefe40937333c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/pudu-task-telemetry",
+  "schema_version": 1
+}

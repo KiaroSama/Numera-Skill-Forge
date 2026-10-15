@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/git/commit-smart",
+  "license": "MIT",
+  "name": "skill-git-commit-smart",
+  "version": "1.0.0"
+}

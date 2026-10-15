@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scholar-evaluation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9aaa928d073083a25dc9b46863a4a38fbbd6d181e44dff8ea9632a79cca148b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scholar-evaluation/skills/scholar-evaluation/SKILL.md",
+      "path": "cli-tool/components/skills/scientific/scholar-evaluation/SKILL.md",
+      "size": 12286
+    },
+    {
+      "digest": "0f771d994c048869a0b9fd33354d1e5fafa29e18108986137ec946ad37fea906",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scholar-evaluation/skills/scholar-evaluation/references/evaluation_framework.md",
+      "path": "cli-tool/components/skills/scientific/scholar-evaluation/references/evaluation_framework.md",
+      "size": 19950
+    },
+    {
+      "digest": "7d50b0daec81f76581c9151adb1bf60521b11ea09542957677bb6b22fbac7f58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-scholar-evaluation/skills/scholar-evaluation/scripts/calculate_scores.py",
+      "path": "cli-tool/components/skills/scientific/scholar-evaluation/scripts/calculate_scores.py",
+      "size": 11551
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e04565b044675f70646bcd391f8533c70dc1539eb0071e0ef8280a6ab7e88eed",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/scientific/scholar-evaluation",
+  "schema_version": 1
+}

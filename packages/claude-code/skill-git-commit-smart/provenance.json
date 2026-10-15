@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-git-commit-smart/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "622b843a4fd8823c1fa4f640dcf13fb2fbb51f7d16c754a0102d5dbcab593944",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-git-commit-smart/skills/commit-smart/SKILL.md",
+      "path": "cli-tool/components/skills/git/commit-smart/SKILL.md",
+      "size": 3284
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ba9267a1e63e5e48f67b6611bbff3e7870c317ee7e2fdd764b2b1f0e3622a0cd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/git/commit-smart",
+  "schema_version": 1
+}

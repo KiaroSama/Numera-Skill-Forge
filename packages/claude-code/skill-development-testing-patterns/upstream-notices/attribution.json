@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: ChrisWiles/claude-code-showcase at a95518f0cb67e86230119da40429169bc4c35a6f/.claude/skills/testing-patterns. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve fulloriginalMITgrant andoriginalrepositoryattribution. diet103actualcopyright2025ClaudeCodeInfrastructureContributors; ChrisWilesREADMEexplicitMIT hasnoapplicationcopyrightline, do notinvent. Everyacceptedrecursiveblob exactoriginal; no originalNOTICE/nestedlegal in81/43entrytrees. Referencedhooks/globalpaths unexecuteddata andtechnicaldependencies, notinstallationauthorization. Original ChrisWiles README expressly MIT; full MIT text retained without inventing original copyright.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "e3133e917bd1d0c85221edc37ca73fe20ea2d4094a98e7a1ed42671ae9ae1c85",
+      "license": "MIT",
+      "path": "registry/licenses/e3133e917bd1d0c85221edc37ca73fe20ea2d4094a98e7a1ed42671ae9ae1c85.txt",
+      "source": "https://github.com/ChrisWiles/claude-code-showcase/blob/a95518f0cb67e86230119da40429169bc4c35a6f/README.md"
+    }
+  ]
+}

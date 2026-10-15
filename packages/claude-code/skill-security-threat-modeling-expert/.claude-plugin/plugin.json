@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/threat-modeling-expert",
+  "license": "MIT",
+  "name": "skill-security-threat-modeling-expert",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

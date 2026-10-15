@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-event-sourcing-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a53c1719d5c43120a560b84914924a5f55adf24cf9d2ad970e0ade230d85bc23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-event-sourcing-architect/skills/event-sourcing-architect/SKILL.md",
+      "path": "cli-tool/components/skills/development/event-sourcing-architect/SKILL.md",
+      "size": 2636
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b175b5710c0c0363aae2a9592f3ccd4da555a34f55f7d0d6d34afb4336e976f0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/event-sourcing-architect",
+  "schema_version": 1
+}

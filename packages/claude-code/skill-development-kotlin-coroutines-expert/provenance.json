@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-kotlin-coroutines-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b0dd8aa0cb6c1a287295d345005f5369210f1d6e724dc4555f03e6b228165f26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-kotlin-coroutines-expert/skills/kotlin-coroutines-expert/SKILL.md",
+      "path": "cli-tool/components/skills/development/kotlin-coroutines-expert/SKILL.md",
+      "size": 3060
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a64aa4d46100c153470d1feef9ded8209f82f4af825f1ed467317a02829cb080",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/kotlin-coroutines-expert",
+  "schema_version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d0c081c36ffa6b4d8e6ca14615adf17d912c22aa281ecd68beb8656881eb1ef1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/SKILL.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/SKILL.md",
+      "size": 2320
+    },
+    {
+      "digest": "392138c43ea796ce352a20c9ab1dd940bebcabed7a3876eb6d3c1fe3285a54b4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/behaviors.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/behaviors.md",
+      "size": 1478
+    },
+    {
+      "digest": "bc37e1f6445d1e64b47560b14f7435890dd29ece101fb1f5ec2a3d5a18d708e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/components.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/components.md",
+      "size": 1429
+    },
+    {
+      "digest": "815f69e8b76593158799e0bb7c3e4e1c3c1ba314ba46f7e8e5305c90b528c849",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/containers.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/containers.md",
+      "size": 1560
+    },
+    {
+      "digest": "6da1f1baa21ea256aaff6e7a17f62898cab34e0bdf10cabb5c47f6010738a18e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/icons.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/icons.md",
+      "size": 1777
+    },
+    {
+      "digest": "7c75d2f788390c607235f4d96b178f45659267db7942870a9b7e7ad49d4d2262",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-layout-zafiro/skills/avalonia-layout-zafiro/themes.md",
+      "path": "cli-tool/components/skills/development/avalonia-layout-zafiro/themes.md",
+      "size": 1864
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0b1dd71e431325ea23a862c0281e5abe67925b97463d3533b51ba5d7556cc044",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/avalonia-layout-zafiro",
+  "schema_version": 1
+}

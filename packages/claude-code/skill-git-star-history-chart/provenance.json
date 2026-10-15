@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-git-star-history-chart/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5f74c9342e84fc137d301188d36ae951f5afdd5f181049446669b1cf7c9d6ab5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-git-star-history-chart/skills/star-history-chart/SKILL.md",
+      "path": "cli-tool/components/skills/git/star-history-chart/SKILL.md",
+      "size": 4391
+    },
+    {
+      "digest": "203beda1ef328768a1299f05c9a2c167ad6478cee30b40b1d99eb937f07e0361",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-git-star-history-chart/skills/star-history-chart/assets/star-history.yml",
+      "path": "cli-tool/components/skills/git/star-history-chart/assets/star-history.yml",
+      "size": 1696
+    },
+    {
+      "digest": "e266c667e662e84da7a81bcf3df2974de797a465698e876427262406660adf36",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-git-star-history-chart/skills/star-history-chart/scripts/generate_star_history.py",
+      "path": "cli-tool/components/skills/git/star-history-chart/scripts/generate_star_history.py",
+      "size": 7838
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5043e9975230be8aef96f9dc7ca443f31b81dc3f03529d01b7934ae59aeb54fd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/git/star-history-chart",
+  "schema_version": 1
+}

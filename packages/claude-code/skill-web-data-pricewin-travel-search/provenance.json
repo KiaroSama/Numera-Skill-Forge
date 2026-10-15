@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-pricewin-travel-search/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8aa9d0a8d618e617199a228066d618c2e498645fb4a641991f3ab5dffab2ce29",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-pricewin-travel-search/skills/pricewin-travel-search/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/pricewin-travel-search/SKILL.md",
+      "size": 7975
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac7dbe5c8986655d1e8844eb4b718d1f1c44e000eb70e4d6f2c7cecace839b29",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/pricewin-travel-search",
+  "schema_version": 1
+}

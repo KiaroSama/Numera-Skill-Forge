@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/web-performance-optimization",
+  "license": "MIT",
+  "name": "skill-web-development-web-performance-optimization",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

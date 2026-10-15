@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/bun-development",
+  "license": "MIT",
+  "name": "skill-development-bun-development",
+  "version": "1.0.0"
+}

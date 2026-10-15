@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-secrets-management/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "836a9907c1139f809686db41008aa0c7eccf88f45b4a0731912c47a385fc1d6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-secrets-management/skills/secrets-management/SKILL.md",
+      "path": "cli-tool/components/skills/security/secrets-management/SKILL.md",
+      "size": 8055
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "64e3263eac0f3b4670ee6b224b683b2f76ce1cf29cd9255a6119366850325e40",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/secrets-management",
+  "schema_version": 1
+}

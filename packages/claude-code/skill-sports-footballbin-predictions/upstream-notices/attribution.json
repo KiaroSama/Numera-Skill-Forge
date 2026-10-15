@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: billychl1/claude-code-templates at 9f1e06499e4d0f7efc7bf20a99764ff86cac6895/cli-tool/components/skills/sports/footballbin-predictions. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct original author billychl1 PR369 contribution under repository MIT (GitHub D6); full two-file payload preserved. No endpoint request or prediction validation performed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b9d0d150a45fe42c2f67cdba3a4a678ab261a7186d6b5563873a3a9b68e9ce6f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/README.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/README.md",
+      "size": 7674
+    },
+    {
+      "digest": "8db340c8b1e6f97196056af07990993d30a947b19e67c20f7429074a0e365d89",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/SKILL.md",
+      "size": 8787
+    },
+    {
+      "digest": "0c656adc843f8df8cc395fb605670859a38d3d3abf209aa577f25ea349bd5479",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-basic.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-basic.md",
+      "size": 2127
+    },
+    {
+      "digest": "2e08480b416a28a3de55c5b86cb194d6d8b1d097158e76728e2092b5e736809b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-business.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-business.md",
+      "size": 2855
+    },
+    {
+      "digest": "efaf844952d271184cfb0c895fc2e638b48c94ca19b11accf8cce6457563e53f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-colorful.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-colorful.md",
+      "size": 2810
+    },
+    {
+      "digest": "a31a393aeb025a7a55fc3c1bd6d8a094321c39d5337d1b956c652635b74650a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-dark.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-dark.md",
+      "size": 2400
+    },
+    {
+      "digest": "dedb860f2e30ca62e51a1d2b49c0b51159dd10695b7c58deb3513210349a4dce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-gradient.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-gradient.md",
+      "size": 2766
+    },
+    {
+      "digest": "fd398a9cd3afbe30d1c061fc5e0ca1a22272f54eba2fdbfa27872e542e1385d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-minimal.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-minimal.md",
+      "size": 1895
+    },
+    {
+      "digest": "2b9f51b06e39f63f0aa64a4eb41167e7adf31bad1a249f85c311ea271fa340ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/template-tech.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/template-tech.md",
+      "size": 2869
+    },
+    {
+      "digest": "0266dc73c523cb50b5a4007f9bf9873180d771c18d44adbade7894f2926ed162",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-business.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-business.css",
+      "size": 3709
+    },
+    {
+      "digest": "ac11be3e812c2e937d6de8df8e8529c67b9ea87c4e708926af7d2a586b43f9cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-colorful.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-colorful.css",
+      "size": 2961
+    },
+    {
+      "digest": "3619caf6e4bb49bd57cdd2a05d0de1938d2c08d11efda0f758d1ad98dec61fea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-dark.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-dark.css",
+      "size": 2481
+    },
+    {
+      "digest": "591cc218c971aca36cffd13274acd1262c25b40a919057db481657afd90b2de3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-default.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-default.css",
+      "size": 2530
+    },
+    {
+      "digest": "729fb211d1dd84b0bee45477d933ebafa2da1ca16e3c438596dbc235b34123e2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-gradient.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-gradient.css",
+      "size": 3019
+    },
+    {
+      "digest": "327d0035d7472a5506619e5fd83bbbfbec70350e5cbd2456fb09ba04fe75f473",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-minimal.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-minimal.css",
+      "size": 1734
+    },
+    {
+      "digest": "4a83b08fa36f9b85fc4a6231be4660ca6d29d648dc550d4296e132a3082eaad7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/assets/theme-tech.css",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/assets/theme-tech.css",
+      "size": 3599
+    },
+    {
+      "digest": "ca2e1cfd81c7459b22615131ce1cd8fb49cfa1176f426dd63092101445f9cba4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/advanced-features.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/advanced-features.md",
+      "size": 6771
+    },
+    {
+      "digest": "651662ce71673edaa7e0282bf392e5f741b7653dd789d8db08291b18cfe6626c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/best-practices.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/best-practices.md",
+      "size": 3417
+    },
+    {
+      "digest": "4fef8ba8d316cee09eabb133352a4895a84725b0bba33eac0d6c2f32e21d4fd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/image-patterns.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/image-patterns.md",
+      "size": 4911
+    },
+    {
+      "digest": "6fff73be3fc1d498f7a3691018354db8f4cb276c676909901cc67d7eac5f8f83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/marp-syntax.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/marp-syntax.md",
+      "size": 3630
+    },
+    {
+      "digest": "ada377579fa97c87c5b4dfa40ee728a598d4bd6b13460ca572003be3afc5a9ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/official-themes.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/official-themes.md",
+      "size": 5587
+    },
+    {
+      "digest": "e0c14377b89d473d933d48631ff056a486fe8e56af843ce739cfac23df9f0a13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/theme-css-guide.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/theme-css-guide.md",
+      "size": 5464
+    },
+    {
+      "digest": "ca4a6704c549944185e2943801d6f79b537902ae6bd7587fe8c3384e7c2334f7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-marp-slide/skills/marp-slide/references/theme-selection.md",
+      "path": "cli-tool/components/skills/creative-design/marp-slide/references/theme-selection.md",
+      "size": 4001
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0b94ee52c08266ab83ab5314e0b2b2e944098ef59dd6a1455a7e8a19b56dfbca",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/creative-design/marp-slide",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-llm-app-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6ba59c0506634fecd25eee0324a66518e355df30c477247e9180e5b6a893322b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-llm-app-patterns/skills/llm-app-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/llm-app-patterns/SKILL.md",
+      "size": 21695
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5825f88a422621db422afdae735cbcb03d9b738f9ad0728bf07776d363ac71c7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/llm-app-patterns",
+  "schema_version": 1
+}

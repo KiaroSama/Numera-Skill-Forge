@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-fastapi-endpoint/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ca296a77644cb5ec4ef88f431a2533582208a89747a12def68b42d8e3f69c045",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-fastapi-endpoint/skills/fastapi-endpoint/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/fastapi-endpoint/SKILL.md",
+      "size": 15524
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "011d6e98f47d2a44394f26ad56397e4ad4d1112a3bb18dbe01682c1aa382e6f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/fastapi-endpoint",
+  "schema_version": 1
+}

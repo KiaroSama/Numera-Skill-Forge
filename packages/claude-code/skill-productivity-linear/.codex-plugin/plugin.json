@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/linear",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-linear",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

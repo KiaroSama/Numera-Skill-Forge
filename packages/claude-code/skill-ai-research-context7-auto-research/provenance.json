@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-context7-auto-research/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5686421a71e52d980aa485a8f98e6f98d7f195c5726a5c937e81875fc0c19322",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-context7-auto-research/skills/context7-auto-research/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/context7-auto-research/SKILL.md",
+      "size": 1101
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1fa87d43010803d6814dea243b9031d692ee17e118d999c9e0fe3a5962626987",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/context7-auto-research",
+  "schema_version": 1
+}

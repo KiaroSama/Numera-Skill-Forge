@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: kepano/obsidian-skills at 139a821509cb49f78aff3be842611f7ed9a02291/obsidian-markdown. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567",
+      "license": "MIT",
+      "path": "registry/licenses/64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567.txt",
+      "source": "https://github.com/kepano/obsidian-skills/blob/139a821509cb49f78aff3be842611f7ed9a02291/LICENSE"
+    }
+  ]
+}

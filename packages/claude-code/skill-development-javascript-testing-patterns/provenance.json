@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-javascript-testing-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ab7534d530c229591052ddc903ac0c4a70776d6c010b3abbc1c14ef0b694724a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-javascript-testing-patterns/skills/javascript-testing-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/javascript-testing-patterns/SKILL.md",
+      "size": 1344
+    },
+    {
+      "digest": "3764b34a43b5e3559e2da6ca9496bf195f2561d93ba024816628048918b05194",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-javascript-testing-patterns/skills/javascript-testing-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/javascript-testing-patterns/resources/implementation-playbook.md",
+      "size": 25843
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "216a669850d29e843862dd08521f3acb9a1bcaf43259168898e25ed652056565",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/javascript-testing-patterns",
+  "schema_version": 1
+}

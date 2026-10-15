@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: expo/skills at b631a6045b421c425df947af74d3f6007e6ccc69/plugins/expo-deployment/skills/expo-deployment. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain originalMITgrant/copyright plusintermediaryMIT/CCcontent anddavilaMIT/sourceattribution. shadcn12companionsincludingPNGsexactoriginal, entrymetadata+WhenToUseonly; Expoacceptedstandalonecondensedrewritenoexpectedcompanions(no silent strippingnow). MITpermitsadaptation; no originalNOTICE/nearerlegaloverride; futureCLI/model/providerexecutionnotauthorized.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "49c5f9c7097c9a940ff663a54c27a4c60e379df6cc2b3052df0d37a09a85df93",
+      "license": "MIT",
+      "path": "registry/licenses/49c5f9c7097c9a940ff663a54c27a4c60e379df6cc2b3052df0d37a09a85df93.txt",
+      "source": "https://github.com/expo/skills/blob/b631a6045b421c425df947af74d3f6007e6ccc69/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    }
+  ]
+}

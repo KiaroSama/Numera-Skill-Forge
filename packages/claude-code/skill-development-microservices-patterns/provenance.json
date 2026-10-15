@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-microservices-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ccd349035b94f6c7029505942b57373a1826eaa47dc93d1d756f3cd002c6eec4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-microservices-patterns/skills/microservices-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/microservices-patterns/SKILL.md",
+      "size": 1374
+    },
+    {
+      "digest": "564ca16caf7a8d6c0fe285c24bfd099fb2dd98ac44e4918f6b3ffc2faa1e0b9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-microservices-patterns/skills/microservices-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/microservices-patterns/resources/implementation-playbook.md",
+      "size": 18007
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a8e8dc339281797c78864a7b17c56a380fc3f9ddd1b556d75b9b9a5d1232f3e5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/microservices-patterns",
+  "schema_version": 1
+}

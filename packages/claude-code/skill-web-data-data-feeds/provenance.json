@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-data-feeds/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a4b805c4bfbde1b6d0ee6591a038ea4560ceb5ceaa4acf6010513f6a9d7e0c70",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-data-feeds/skills/data-feeds/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/data-feeds/SKILL.md",
+      "size": 6606
+    },
+    {
+      "digest": "b68829f0b7baace455278e041ba38bf00f452a60e55506ce4a92f45fe210c12d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-data-feeds/skills/data-feeds/scripts/datasets.sh",
+      "path": "cli-tool/components/skills/web-data/data-feeds/scripts/datasets.sh",
+      "size": 8601
+    },
+    {
+      "digest": "7785de3856f1cdf54e7b896e50de4f75897036ecd28eb5c449c13d2c0b01a6b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-data-feeds/skills/data-feeds/scripts/fetch.sh",
+      "path": "cli-tool/components/skills/web-data/data-feeds/scripts/fetch.sh",
+      "size": 1895
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3f202d88db40fd332ac522712284696fc157366a3aab3023b933c6d1a1863e56",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/data-feeds",
+  "schema_version": 1
+}

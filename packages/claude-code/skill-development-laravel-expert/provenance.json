@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-laravel-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9aac3505cd8b143fcf59f9bd960ab7bced9755c74675abce79be8704f2dfcdc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-laravel-expert/skills/laravel-expert/SKILL.md",
+      "path": "cli-tool/components/skills/development/laravel-expert/SKILL.md",
+      "size": 3871
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a4552f439b6211c09732f2a61a6d49cf02457a1339a46c85664fa12de5503d00",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/laravel-expert",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-deadline-prep/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a5a2fe0b2aadcfeb9d792a723b5617719ed428299ea9a7a301ca05b89ec168f2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-deadline-prep/skills/deadline-prep/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/deadline-prep/SKILL.md",
+      "size": 2959
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2bbcc6074ca5c36b3f7cbee6716a923a10877671b038dd165dd74f5c4556cfbf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/deadline-prep",
+  "schema_version": 1
+}

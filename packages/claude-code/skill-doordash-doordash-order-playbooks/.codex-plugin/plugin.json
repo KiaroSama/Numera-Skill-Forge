@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/doordash/doordash-order-playbooks",
+  "license": "MIT",
+  "name": "skill-doordash-doordash-order-playbooks",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/utilities/busybox-on-windows",
+  "license": "MIT",
+  "name": "skill-utilities-busybox-on-windows",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

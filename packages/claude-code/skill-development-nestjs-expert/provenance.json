@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nestjs-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8d53471999580e29066ec0a15229423762919788dc49f84cdd5e4a13b19e52bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nestjs-expert/skills/nestjs-expert/SKILL.md",
+      "path": "cli-tool/components/skills/development/nestjs-expert/SKILL.md",
+      "size": 21444
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "54af5575e9fda85133407f6ccd78691eefb0cf16cbfd2d90bcffb0f07ae13daa",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/nestjs-expert",
+  "schema_version": 1
+}

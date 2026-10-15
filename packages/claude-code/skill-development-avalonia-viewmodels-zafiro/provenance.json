@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2042d1c3124abd66c1b13dd423b4fa54a5b79196af9b2630f77251e556ab57db",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/skills/avalonia-viewmodels-zafiro/SKILL.md",
+      "path": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro/SKILL.md",
+      "size": 1663
+    },
+    {
+      "digest": "26032108b0579d1f44229926e46276ad004766bc42a7975296d8f3b4d16cdf98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/skills/avalonia-viewmodels-zafiro/composition.md",
+      "path": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro/composition.md",
+      "size": 2227
+    },
+    {
+      "digest": "39821612996dae2deca4fa84c59077887b482894780940482f456ca61ed6eea1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/skills/avalonia-viewmodels-zafiro/navigation_sections.md",
+      "path": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro/navigation_sections.md",
+      "size": 1299
+    },
+    {
+      "digest": "e605860c1405eb522fcb1c631d2bc9dbecd4201180cd695955e2c2dc84a7e1de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/skills/avalonia-viewmodels-zafiro/viewmodels.md",
+      "path": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro/viewmodels.md",
+      "size": 1765
+    },
+    {
+      "digest": "3dd2508d4bc93b91885fbfb023c74b42d4501f7a615ba2fabac434ee46ccb566",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-avalonia-viewmodels-zafiro/skills/avalonia-viewmodels-zafiro/wizards.md",
+      "path": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro/wizards.md",
+      "size": 1563
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7cb9fa6e4fdd1b0129e3a353dea58eb7505bc1be9938e307af08635601c27945",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro",
+  "schema_version": 1
+}

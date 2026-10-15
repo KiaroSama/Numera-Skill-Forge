@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-strategic-compact/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ecd448d26e830161800d4e6dbae284130353344c2fc9cc12ed61f567386fd487",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cc-skill-strategic-compact/skills/cc-skill-strategic-compact/SKILL.md",
+      "path": "cli-tool/components/skills/development/cc-skill-strategic-compact/SKILL.md",
+      "size": 188
+    },
+    {
+      "digest": "a60d23a91d373c309d41286da3fe2326f79b3563ed27d29c847c51c0443ec0b0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-cc-skill-strategic-compact/skills/cc-skill-strategic-compact/suggest-compact.sh",
+      "path": "cli-tool/components/skills/development/cc-skill-strategic-compact/suggest-compact.sh",
+      "size": 1634
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c338d6c519dfc47d7e3ae058cb5eb822e0a7463d2abeccc7f3f7b39241d241bd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cc-skill-strategic-compact",
+  "schema_version": 1
+}

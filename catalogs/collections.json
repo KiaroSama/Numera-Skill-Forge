@@ -9,6 +9,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-maestro-agent-messaging",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-maestro/agent-messaging",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-maestro-docs-search",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -45,6 +53,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/ai-research/agent-evaluation",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-agent-memory-mcp",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/agent-memory-mcp",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -113,6 +129,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-autonomous-agent-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/autonomous-agent-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-autonomous-agents",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -141,6 +165,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/ai-research/context-window-management",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-context7-auto-research",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/context7-auto-research",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -197,6 +229,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/ai-research/datadog-cli",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-deep-research-notebooklm",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/deep-research-notebooklm",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -457,6 +497,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-llm-app-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/llm-app-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-llm-ops",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/llm-ops",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-loki-mode",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -689,6 +745,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-parallel-agents",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/parallel-agents",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-perplexity",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -809,6 +873,30 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-prompt-engineering-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/prompt-engineering-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-prompt-library",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/prompt-library",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-pydantic-ai",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/pydantic-ai",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-qa-test-planner",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -869,6 +957,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/ai-research/rag-sentence-transformers",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-research-engineer",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/research-engineer",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1025,6 +1121,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-business-marketing-competitive-ads-extractor",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/competitive-ads-extractor",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-business-marketing-competitor-alternatives",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1037,6 +1141,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/business-marketing/content-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-content-research-writer",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/content-research-writer",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1101,6 +1213,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/business-marketing/launch-strategy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-lead-research-assistant",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/lead-research-assistant",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1285,6 +1405,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/business-marketing/viral-generator-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-business-marketing-x-twitter-scraper",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/x-twitter-scraper",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1505,6 +1633,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-creative-design-diagrammer",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/diagrammer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-creative-design-draw-io",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1649,6 +1785,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-creative-design-luma-imagegen",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/luma-imagegen",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-marp-slide",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/marp-slide",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-creative-design-meme-factory",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1669,6 +1821,22 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/creative-design/mobile-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-patentfig",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/patentfig",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-premium-web-design",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/premium-web-design",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1717,6 +1885,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/creative-design/ux-researcher-designer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-web-design-guidelines",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/web-design-guidelines",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1825,10 +2001,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-database-neon-instagres",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/database/neon-instagres",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-database-postgres-schema-design",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/database/postgres-schema-design",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-database-postgresql",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/database/postgresql",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1881,6 +2073,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-agirails-agent-payments",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/agirails-agent-payments",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-algolia-search",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1893,6 +2093,22 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/angular",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-api-design-principles",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/api-design-principles",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-api-documentation-generator",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/api-documentation-generator",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1921,10 +2137,58 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-architecture-decision-records",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/architecture-decision-records",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-architecture-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/architecture-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-artifacts-builder",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/artifacts-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-async-python-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/async-python-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-avalonia-layout-zafiro",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/avalonia-layout-zafiro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-avalonia-viewmodels-zafiro",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/avalonia-viewmodels-zafiro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-avalonia-zafiro-development",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/avalonia-zafiro-development",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -1953,6 +2217,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-backend-dev-guidelines",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/backend-dev-guidelines",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-bash-linux",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1977,6 +2249,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-bleu",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/bleu",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-brainstorming",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1985,10 +2265,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-brightdata-local-search",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/brightdata-local-search",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-bullmq-specialist",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/bullmq-specialist",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-bun-development",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/bun-development",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2017,6 +2313,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-cc-skill-continuous-learning",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/cc-skill-continuous-learning",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-cc-skill-frontend-patterns",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2041,10 +2345,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-cc-skill-strategic-compact",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/cc-skill-strategic-compact",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-changelog-generator",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/changelog-generator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-claude-api",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/claude-api",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-clean-code",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/clean-code",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2081,6 +2409,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-cocoindex",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/cocoindex",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-code-review-checklist",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/code-review-checklist",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-code-reviewer",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2097,6 +2441,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-codex-review",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/codex-review",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-command-creator",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2105,10 +2457,42 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-context-architecture",
+      "license": "CC-BY-4.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/context-architecture",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-convex",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/convex",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-core-components",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/core-components",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-core-web-vitals",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/core-web-vitals",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-cpp-pro",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/cpp-pro",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2153,10 +2537,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-developer-growth-analysis",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/developer-growth-analysis",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-dispatching-parallel-agents",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/dispatching-parallel-agents",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-docker-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/docker-expert",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2177,10 +2577,42 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-e2e-testing-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/e2e-testing-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-environment-setup-guide",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/environment-setup-guide",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-event-sourcing-architect",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/event-sourcing-architect",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-executing-plans",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/executing-plans",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-feature-design-assistant",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/feature-design-assistant",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2209,10 +2641,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-frontend-dev-guidelines",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/frontend-dev-guidelines",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-gcp-cloud-run",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/gcp-cloud-run",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-github-actions-creator",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/github-actions-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-github-workflow-automation",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/github-workflow-automation",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2273,6 +2729,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-helm-chart-scaffolding",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/helm-chart-scaffolding",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-hubspot-integration",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2289,10 +2753,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-javascript-mastery",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/javascript-mastery",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-javascript-pro",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/javascript-pro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-javascript-testing-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/javascript-testing-patterns",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2305,6 +2785,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-k6-load-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/k6-load-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-kotlin-coroutines-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/kotlin-coroutines-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-kubernetes-architect",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2313,10 +2809,50 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-laravel-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/laravel-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-lint-and-validate",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/lint-and-validate",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-mcp-builder",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/mcp-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-mermaid-diagram-specialist",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/mermaid-diagram-specialist",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-microservices-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/microservices-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-moodle-external-api-development",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/moodle-external-api-development",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2333,6 +2869,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/neon-postgres",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-nestjs-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/nestjs-expert",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2361,10 +2905,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-nodejs-backend-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/nodejs-backend-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-nodejs-best-practices",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/nodejs-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-nosql-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/nosql-expert",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2417,6 +2977,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-playwright-e2e-builder",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/playwright-e2e-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-plugin-forge",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2425,10 +2993,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-postgres-best-practices",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/postgres-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-powershell-windows",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/powershell-windows",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-production-code-audit",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/production-code-audit",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-pudu-task-telemetry",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/pudu-task-telemetry",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2445,6 +3037,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/python-pro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-python-testing-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/python-testing-patterns",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2473,10 +3073,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-react-ui-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/react-ui-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-react-useeffect",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/react-useeffect",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-receiving-code-review",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/receiving-code-review",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2497,6 +3113,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-rust-cli-builder",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/rust-cli-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-rust-pro",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2505,10 +3129,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-saas-multi-tenant",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/saas-multi-tenant",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-salesforce-development",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/salesforce-development",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-screenshot-feature-extractor",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/screenshot-feature-extractor",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2665,10 +3305,26 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-swarmvault",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/swarmvault",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-systematic-debugging",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/systematic-debugging",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-task-execution-engine",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/task-execution-engine",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2689,6 +3345,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-test-detect",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/test-detect",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-test-driven-development",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2697,10 +3361,34 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-testing-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/testing-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-typescript-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/typescript-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-typescript-pro",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/typescript-pro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-using-git-worktrees",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/using-git-worktrees",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2749,6 +3437,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/web-quality-audit",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-web-to-markdown",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/web-to-markdown",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2817,10 +3513,50 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-document-processing-json-canvas",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/json-canvas",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-obsidian-bases",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/obsidian-bases",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-obsidian-markdown",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/obsidian-markdown",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-pdf-fill-studio",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/document-processing/pdf-fill-studio",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-document-processing-spreadsheet",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/document-processing/spreadsheet",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-doordash-doordash-order-playbooks",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/doordash/doordash-order-playbooks",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3017,6 +3753,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-enterprise-communication-session-handoff",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/enterprise-communication/session-handoff",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-enterprise-communication-slack-bot-builder",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -3065,6 +3809,54 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-git-commit-smart",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/git/commit-smart",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-git-git-context-controller",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/git/git-context-controller",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-git-star-history-chart",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/git/star-history-chart",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-gmod-addon-maker",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/gmod-addon-maker",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-marketing-x-twitter-scraper",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/marketing/x-twitter-scraper",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-media-image-enhancer",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/media/image-enhancer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-media-screenshot",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -3085,6 +3877,22 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/media/transcribe",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-media-video-downloader",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/media/video-downloader",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-open-banking-io-open-banking-io",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/open-banking-io/open-banking-io",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3145,6 +3953,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-productivity-address-github-comments",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/address-github-comments",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-productivity-avoid-ai-writing",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -3161,10 +3977,58 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-productivity-claude-code-sessions",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/claude-code-sessions",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-code-review-excellence",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/code-review-excellence",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-productivity-commit-work",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/productivity/commit-work",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-concise-planning",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/concise-planning",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-deadline-prep",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/deadline-prep",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-debugging-strategies",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/debugging-strategies",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-devil",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/devil",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3209,6 +4073,38 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-productivity-invoice-organizer",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/invoice-organizer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-linear",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/linear",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-mac-storage-cleaner",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/mac-storage-cleaner",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-meeting-insights-analyzer",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/meeting-insights-analyzer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-productivity-naming-analyzer",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -3233,10 +4129,50 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-productivity-obsidian-clipper-template-creator",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-performance-optimizer",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/performance-optimizer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-productivity-personal-tool-builder",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/productivity/personal-tool-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-plan-writing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/plan-writing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-planning-with-files",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/planning-with-files",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-raffle-winner-picker",
+      "license": "Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/raffle-winner-picker",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3269,6 +4205,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/productivity/skill-creator",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-skill-developer",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/skill-developer",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4225,6 +5169,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-scientific-scholar-evaluation",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/scientific/scholar-evaluation",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-scientific-scientific-brainstorming",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -4457,6 +5409,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-api-security-best-practices",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/api-security-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-api-security-testing",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -4521,6 +5481,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-sast-configuration",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/sast-configuration",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-secrets-management",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/secrets-management",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-security-audit",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -4549,6 +5525,22 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/security/security-threat-model",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-supply-chain-guard",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/supply-chain-guard",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-threat-modeling-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/threat-modeling-expert",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4625,6 +5617,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-sports-footballbin-predictions",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/sports/footballbin-predictions",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-utilities-browser-automation",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -4637,6 +5637,22 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/utilities/browser-extension-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-utilities-busybox-on-windows",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/busybox-on-windows",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-utilities-cf-crawl",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/cf-crawl",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4657,10 +5673,42 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-utilities-playwright-skill",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/playwright-skill",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-utilities-using-superpowers",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/using-superpowers",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-utilities-web-artifacts-builder",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/utilities/web-artifacts-builder",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-video-manim",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/video/manim",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-video-motion-canvas",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/video/motion-canvas",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4673,10 +5721,186 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-web-data-bright-data-best-practices",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/bright-data-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-bright-data-mcp",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/bright-data-mcp",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-data-feeds",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/data-feeds",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-design-mirror",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/design-mirror",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-pricewin-travel-search",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/pricewin-travel-search",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-scrape",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/scrape",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-data-search",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-data/search",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-astro",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/astro",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-building-blog",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/building-blog",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-chrome-extension-developer",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/chrome-extension-developer",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-drizzle-orm-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/drizzle-orm-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-electron-development",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/electron-development",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-exa-search",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/exa-search",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-expo-deployment",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/expo-deployment",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-fastapi-endpoint",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/fastapi-endpoint",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-firecrawl-scraper",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/firecrawl-scraper",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-hono",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/hono",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-nextjs-app-router-patterns",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/nextjs-app-router-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-progressive-web-app",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/progressive-web-app",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-react-best-practices",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/react-best-practices",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-web-development-react-component-performance",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/web-development/react-component-performance",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-react-native-architecture",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/react-native-architecture",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-roier-seo",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/roier-seo",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4689,10 +5913,50 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-web-development-shadcn",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/shadcn",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-web-development-shopify-apps",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/web-development/shopify-apps",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-sveltekit",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/sveltekit",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-tailwind-design-system",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/tailwind-design-system",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-tanstack-query-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/tanstack-query-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-tavily-web",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/tavily-web",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4705,10 +5969,42 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-web-development-web-performance-optimization",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/web-performance-optimization",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-zod-validation-expert",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/web-development/zod-validation-expert",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-workflow-automation-dependabot-review",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/workflow-automation/dependabot-review",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-github-workflow-automation",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/github-workflow-automation",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-gitops-workflow",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/gitops-workflow",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4773,6 +6069,22 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/workflow-automation/n8n/n8n-workflow-patterns",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-planning-with-files",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/planning-with-files",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-rote",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/workflow-automation/rote",
       "source": "davila7-templates",
       "version": "1.0.0"
     },

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-to-markdown/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b3958412846e03378eff8db0f08b076f6dd85b5ad04c7d7f74e9a48fdd502967",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-to-markdown/skills/web-to-markdown/README.md",
+      "path": "cli-tool/components/skills/development/web-to-markdown/README.md",
+      "size": 6803
+    },
+    {
+      "digest": "3b1e2c7b9c413602adb97617231f3baa56ea04c637c4cd27beae33c1650fa7a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-web-to-markdown/skills/web-to-markdown/SKILL.md",
+      "path": "cli-tool/components/skills/development/web-to-markdown/SKILL.md",
+      "size": 3390
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2194b8d38cfe49b09c704c8b8c674c5cb02d9132b25f997f4f2638d09858bbd7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/web-to-markdown",
+  "schema_version": 1
+}

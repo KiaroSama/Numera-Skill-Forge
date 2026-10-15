@@ -1,12 +1,12 @@
 # Source licensing and published skills
 
 Authoritative source: [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates).
-Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-11.
-The [Kiaro derivative](https://github.com/KiaroSama/Kiaro-Claude-Code-Templates) is a packaging reference,
-not the payload or licensing authority.
+Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-15.
 
-Each accepted skill is a separate native Claude plugin. Original SKILL.md, scripts, assets, binary
-companions and local notices remain byte-identical; generated wrappers and provenance are separate.
+Each accepted skill is a separate native Claude plugin. Original scripts, assets, binary companions
+and notices remain byte-identical. The four expressly approved name-only entry adaptations retain
+original entries separately; all other SKILL.md payloads remain exact. Generated wrappers and
+provenance are separate.
 No imported code was executed. Plugin assembler metadata never claims authorship of upstream skills.
 The root Forge GPL-3.0 license covers Forge, not a replacement license for these payloads.
 
@@ -33,11 +33,11 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **601 davila packages**, plus 180 packages from the other four
-registered sources, for **781 total**. The original 665 accepted identities are unchanged; the renewed
-116 additions include 380 payload/notice records, bringing that record count to 6981. Four entry
-records explicitly distinguish original and name-adapted output hashes. Original legal notices and
-new name-adaptation provenance are additional owned package files, not extra source-root counts.
+The current collection contains **765 davila packages**, plus180 packages from the other four
+registered sources, for **945 total** and **7638 payload/notice records**. The previous781 accepted
+identities are unchanged; the latest164 additions contribute657 records. Four earlier approved
+name-only adaptations remain the only payload edits. Original legal notices and adaptation
+provenance are separately owned package files, not extra source-root counts.
 
 The previous 485-root baseline had reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
 4272 original payload/notice files with exact Git modes. Original grants and adaptation attribution are
@@ -57,6 +57,9 @@ The five AI Maestro skills are the author's concise variants submitted in
 [PR373](https://github.com/davila7/claude-code-templates/pull/373), not copies of the longer current
 origin skills. Their original 23blocks and Juan Peláez MIT notices accompany unchanged davila payloads;
 planning also retains the earlier Ahmad Adi MIT notice and adaptation attribution.
+
+The following table records the historical485-root baseline; subsequent accepted sets are linked
+in the sections below and the complete current catalog.
 
 | Original skill root | License | Original license | Plugin |
 | --- | --- | --- | --- |
@@ -584,22 +587,22 @@ authorization to test another party's application.
 
 ## Unresolved provenance: not a prohibition claim
 
-299 roots remain unpromoted after renewed provenance/terms, companion and publication-compliance
-triage, including four mixed-license roots. The renewed review admitted 110 evidence-complete roots;
-this is not a claim that all 409 received complete legal audits. The accepted additions and original
-grants are listed below. The original Apache-2.0 grant for
-[ai-maestro/agent-messaging](https://github.com/agentmessaging/claude-plugin/blob/6dd0316a43aa6aeb9938932a6ed4ed77d4d04801/LICENSE)
-is verified, but its preexisting condensed payload lacks a prominent modified-file notice required by
-section 4(b). It stays excluded while exact-payload redistribution compliance is unresolved; this is
-not a claim of prohibition or unknown original rights. The six earlier packaging holds are resolved:
-four explicitly approved name-only adaptations preserve their original entries and exact change
-provenance; the older Modal public instructional reference has separate exact-path/hash approval;
-Vercel's original MIT declaration and the complete applicable adaptation notice are retained together.
-The Supabase hold is resolved by the original author's complete MIT notice added in
-[merged PR35](https://github.com/supabase/agent-skills/pull/35); the complete older payload is unchanged.
-The four adapted packages remain skills, not silently converted native commands. Only their
-frontmatter name and matching output directory change; original bodies and companions remain exact.
-One additional proprietary-declared root, [pdf-processing](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/document-processing/pdf-processing/SKILL.md), references absent terms and is excluded pending its actual grant.
+The remaining299 roots received substantive source/grant/companion review. **164 are now accepted**;
+**135 have explicit blockers**, fully listed in the [per-root disposition](remaining-skill-disposition.md).
+These are distinct from the earlier14 explicit restrictive/missing-terms exclusions. Name and missing
+resource holds are technical, not claims of illegality. Copyleft or embedded-source terms are not
+silently relabeled MIT, and no required companions or native enforcement components are stripped.
+
+The old messaging Apache assumption was corrected against its actual author-owned original:
+[23blocks MIT at f275bfe0](https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE).
+The concise direct-author PR373 payload is now accepted unchanged; the external AMP CLI is a
+separately installed prerequisite. No messaging command or hook was activated during inspection.
+
+The six earlier packaging holds remain resolved: four expressly approved name-only transformations,
+the older exact public instructional-document approval, and Vercel's original MIT declaration plus
+complete applicable adaptation notice. The Supabase original MIT declaration and complete selected
+payload are retained. No new name normalization approval is inferred for other titles.
+One proprietary-declared root, [pdf-processing](https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/document-processing/pdf-processing/SKILL.md), still references absent terms.
 
 The 13 restrictive texts listed above plus this missing-terms declaration are distinct from uncertainty.
 Other unresolved roots lack sufficiently verified skill-specific/inherited redistribution evidence. They are not declared illegal or proprietary; they are held out until their original
@@ -627,5 +630,5 @@ approval to supply real credentials, upload research data or run cloud workloads
 
 See the [116 reviewed additions and their immutable original grants](reviewed-additions.md).
 All 110 newly resolved provenance candidates and six former packaging holds retain complete
-selected payloads and required notices. The remaining 299 are unresolved or technically qualified,
-not declared prohibited. Packaging approval never executes their scripts or installs host hooks.
+selected payloads and required notices. The subsequent [299-root review](remaining-skill-disposition.md) adds164 complete packages and
+records135 concrete remaining blockers, not a blanket prohibition. Packaging approval never executes their scripts or installs host hooks.

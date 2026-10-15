@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/api-security-best-practices",
+  "license": "MIT",
+  "name": "skill-security-api-security-best-practices",
+  "version": "1.0.0"
+}

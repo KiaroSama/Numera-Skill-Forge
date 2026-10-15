@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: davila7/claude-code-templates at d1127cf816d7cf84a97f5de4780ac5defe8838ad/cli-tool/components/skills/web-development/roier-seo. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original MIT grant and author notices; no execution of upstream scripts or externally linked runtime software. Roier original Kemeny Studio PR291 author kemeny, MIT frontmatter and direct repository MIT; scripts/package manifest individually read before final primary acceptance. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/d1127cf816d7cf84a97f5de4780ac5defe8838ad/LICENSE"
+    }
+  ]
+}

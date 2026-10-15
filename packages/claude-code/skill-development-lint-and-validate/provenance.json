@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-lint-and-validate/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "2ade7398d02788f2b52cbc72c5e4313dd7ff9843c7b6748d342577b83ec92d68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-lint-and-validate/skills/lint-and-validate/SKILL.md",
+      "path": "cli-tool/components/skills/development/lint-and-validate/SKILL.md",
+      "size": 1729
+    },
+    {
+      "digest": "db69de52503eae949fecc7dca6198fe8194ea6e2018569ef86823d6b77fe11fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-lint-and-validate/skills/lint-and-validate/scripts/lint_runner.py",
+      "path": "cli-tool/components/skills/development/lint-and-validate/scripts/lint_runner.py",
+      "size": 4969
+    },
+    {
+      "digest": "e654d5eeae187976700da0739b4e62f35e2829d3c61b88cd08da19b99eb164f9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-lint-and-validate/skills/lint-and-validate/scripts/type_coverage.py",
+      "path": "cli-tool/components/skills/development/lint-and-validate/scripts/type_coverage.py",
+      "size": 6480
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "969824fa462f571ecd4104598af19d0437540654dea659fd86a5f142bc3a9f57",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/lint-and-validate",
+  "schema_version": 1
+}

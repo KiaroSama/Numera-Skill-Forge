@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-data/design-mirror",
+  "license": "MIT",
+  "name": "skill-web-data-design-mirror",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

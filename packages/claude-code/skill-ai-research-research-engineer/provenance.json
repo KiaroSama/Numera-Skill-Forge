@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-research-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5349dfa2833a6ed8eda3363438a4982d99e01465d787d5df3d5a60df4940eaef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-research-engineer/skills/research-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/research-engineer/SKILL.md",
+      "size": 6504
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "313391ab9aea7c5b5d44305b98ef5ab6d24dcde70ad2882e588238b8644ef144",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/research-engineer",
+  "schema_version": 1
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "33533aac264cf31d22ac7a1a50b85cb9760a821a49401ad1bac8cbae9b1d369f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/SKILL.md",
+      "size": 6629
+    },
+    {
+      "digest": "c71999f2838c8355092c360998253b461e9f7a334805414a0b0a1d604a2308b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/examples.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/examples.md",
+      "size": 4426
+    },
+    {
+      "digest": "f8b4edf7037a19cc4119f8cdc11dcda511da2d949328786202e0434d6044b830",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/reference.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/reference.md",
+      "size": 8066
+    },
+    {
+      "digest": "8cac13a594852bc00ab2c64db79d346ae651048178055b1afb49878c0faf883e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/scripts/check-complete.sh",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/scripts/check-complete.sh",
+      "size": 1160
+    },
+    {
+      "digest": "1be722d7471cc1dd58ffd136af2f2e91136559a5acd10929ec507c20a10fc895",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/scripts/init-session.sh",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/scripts/init-session.sh",
+      "size": 2254
+    },
+    {
+      "digest": "b5e64d73704daefa8492356d2c2c67ffeb78d79d448b316c0a0debc9226ad785",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/templates/findings.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/templates/findings.md",
+      "size": 3561
+    },
+    {
+      "digest": "a2366167ed178bc4a3c1d72ec6c5f6ea9e38aed67c6f3dd2c1a8cbdb4cde76b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/templates/progress.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/templates/progress.md",
+      "size": 4001
+    },
+    {
+      "digest": "03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-planning-with-files/skills/planning-with-files/templates/task_plan.md",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/templates/task_plan.md",
+      "size": 4613
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "64be540dd0bd77ef9b9947870f3d64cddce5cdc2bf81dbd6c19b50f31db2252c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/planning-with-files",
+  "schema_version": 1
+}

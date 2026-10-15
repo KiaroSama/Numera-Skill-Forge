@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/workflow-automation/github-workflow-automation",
+  "license": "MIT",
+  "name": "skill-workflow-automation-github-workflow-automation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

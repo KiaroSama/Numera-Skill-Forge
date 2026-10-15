@@ -1,0 +1,75 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f892e170955ae5a469e4ff204e9cdc7f710cf7489f1b971997dd4fe7a1ace4bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/SKILL.md",
+      "size": 2525
+    },
+    {
+      "digest": "aac89e245364b7f91319d5c3697b79b0b24f39a3f5bab0e04727bc51cef8835a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/assets/clipping-template.json",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/assets/clipping-template.json",
+      "size": 826
+    },
+    {
+      "digest": "584449427ad452a9de6557455e01f989b729f056af2865379082293a9b803cd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/assets/recipe-template.json",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/assets/recipe-template.json",
+      "size": 1102
+    },
+    {
+      "digest": "d666273f5db50f27ffa3866ee2bd5f4948bdbbb28ce9635169249bb00da2142f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/references/analysis-workflow.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/references/analysis-workflow.md",
+      "size": 2142
+    },
+    {
+      "digest": "94dfc761d332f2486dc0c205a6a74e2d11a7d9b861b573d42a78650b58e56889",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/references/bases-workflow.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/references/bases-workflow.md",
+      "size": 1884
+    },
+    {
+      "digest": "6243c4b9097a552a4b5fbc256092e088570fed2d77cc3f7a077c4575bc266000",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/references/filters.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/references/filters.md",
+      "size": 1544
+    },
+    {
+      "digest": "adf73ed1dbdf6e740110d1a9320de496aa22506d33cd85a00618e8a82e186e0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/references/json-schema.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/references/json-schema.md",
+      "size": 2222
+    },
+    {
+      "digest": "05e5019fb1d727327710a8d1bae721561ac43010d1063d384af88e66bbab8f1a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-obsidian-clipper-template-creator/skills/obsidian-clipper-template-creator/references/variables.md",
+      "path": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator/references/variables.md",
+      "size": 1790
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ee759ab11d99bc4ce00a47f11e2fd73889dd2c3177728da5079612569a0d07f7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
+  "schema_version": 1
+}

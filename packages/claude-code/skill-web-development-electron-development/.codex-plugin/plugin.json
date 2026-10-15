@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/electron-development",
+  "license": "MIT",
+  "name": "skill-web-development-electron-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

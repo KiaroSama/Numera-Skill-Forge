@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-sveltekit/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "045d18fb0f3d8fae4df4f388d190455fb484d1fe34f1bdabaffc7231f41d0272",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-sveltekit/skills/sveltekit/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/sveltekit/SKILL.md",
+      "size": 8868
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bddd3d0398f90b75b9404d621610e6b4a951b73abb99b89a8876bfdf09c903b9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/sveltekit",
+  "schema_version": 1
+}

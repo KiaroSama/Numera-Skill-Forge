@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: notedit/happy-coding-agent at 76cbd56481c922b1d90758d1ef6d0ba5758e7595/skills/screenshot-feature-extractor. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual MIT Copyright (c) 2025 leeoxiang; unrelated skill-creation-guide Anthropic LICENSE.txt not within these three source roots. Upstream limitations: {\"runtime_tested\": false, \"scope\": \"Complete accepted recursive payload exact original; task-manager script read as data, not executed.\"}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "0629bacdd921863d00b4830e51967c23d6c4b9ebb5e2e7b10d24487b1eaff573",
+      "license": "MIT",
+      "path": "registry/licenses/0629bacdd921863d00b4830e51967c23d6c4b9ebb5e2e7b10d24487b1eaff573.txt",
+      "source": "https://github.com/notedit/happy-coding-agent/blob/76cbd56481c922b1d90758d1ef6d0ba5758e7595/LICENSE"
+    }
+  ]
+}

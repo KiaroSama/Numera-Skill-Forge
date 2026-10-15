@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/task-execution-engine",
+  "license": "MIT",
+  "name": "skill-development-task-execution-engine",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

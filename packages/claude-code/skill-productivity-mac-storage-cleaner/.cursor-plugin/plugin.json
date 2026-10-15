@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/mac-storage-cleaner",
+  "license": "MIT",
+  "name": "skill-productivity-mac-storage-cleaner",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

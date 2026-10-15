@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/security/supply-chain-guard",
+  "license": "MIT",
+  "name": "skill-security-supply-chain-guard",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

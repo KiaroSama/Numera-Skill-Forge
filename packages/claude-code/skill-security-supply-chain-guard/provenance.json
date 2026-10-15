@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "17db0e48d2cca841970fad2ed48be401f5709a67a823d6c62e4bc94c27a60995",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/SKILL.md",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+      "size": 6743
+    },
+    {
+      "digest": "d4e358017c6497120f4bd96cc2f387beff41a01836551c7d001fa298f76c2ea2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/references/ioc-database.md",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/references/ioc-database.md",
+      "size": 5750
+    },
+    {
+      "digest": "a5779ed1e8d021ae52adcb24fec43a751256c62525a2b13acc65199510d43627",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/scripts/scan-all.sh",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/scripts/scan-all.sh",
+      "size": 4618
+    },
+    {
+      "digest": "6ec578462aeafd52adb091a97221a4c0ffda25df048d7503650a271273fcdf16",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/scripts/scan-ci.sh",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/scripts/scan-ci.sh",
+      "size": 10341
+    },
+    {
+      "digest": "6bb1c2e7202b22c2f43a273fc16edb56ed2a3b0e3c9d2e5187c864c329a2483c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/scripts/scan-npm.sh",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/scripts/scan-npm.sh",
+      "size": 12451
+    },
+    {
+      "digest": "65717a268f6bb7db96974360201274e7af398932f7641a3d65397a1029080edf",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-security-supply-chain-guard/skills/supply-chain-guard/scripts/scan-python.sh",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/scripts/scan-python.sh",
+      "size": 10835
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f128a0950965bf75ba04f477e74ffeed8b15d0e99a5a525d3ca3122cdf334293",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/supply-chain-guard",
+  "schema_version": 1
+}

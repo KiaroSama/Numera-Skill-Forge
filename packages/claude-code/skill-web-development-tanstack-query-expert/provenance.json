@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-tanstack-query-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e7b7c23d87a8bc16437fd185717916fd9758cf18b992341b57a65086d0fe5719",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-tanstack-query-expert/skills/tanstack-query-expert/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/tanstack-query-expert/SKILL.md",
+      "size": 9054
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e4d533438712c31dc491a05e699e40a134952443ed10c6b7a5c6ed526811230c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/tanstack-query-expert",
+  "schema_version": 1
+}

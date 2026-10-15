@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/nextjs-app-router-patterns",
+  "license": "MIT",
+  "name": "skill-web-development-nextjs-app-router-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

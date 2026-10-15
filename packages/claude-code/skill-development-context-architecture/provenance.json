@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-context-architecture/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9fb7ead8856e6d1f7bd950ef6295d0cb4bb35a7ff934673070a050b21f1031f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-context-architecture/skills/context-architecture/SKILL.md",
+      "path": "cli-tool/components/skills/development/context-architecture/SKILL.md",
+      "size": 20097
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "payload_digest": "16cf781c5df94f8623b032911a79067a4d417969eaeb9fe09bcd572699c89588",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/context-architecture",
+  "schema_version": 1
+}

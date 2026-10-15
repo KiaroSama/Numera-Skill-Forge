@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/prompt-library",
+  "license": "MIT",
+  "name": "skill-ai-research-prompt-library",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/shadcn",
+  "license": "MIT",
+  "name": "skill-web-development-shadcn",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

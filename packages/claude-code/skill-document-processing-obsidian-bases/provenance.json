@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-obsidian-bases/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "9d274859b7e7fce2a4c54291f94b9ea8969c381b1c3f62a74294726c84ab216b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-obsidian-bases/skills/obsidian-bases/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/obsidian-bases/SKILL.md",
+      "size": 16409
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "53014453ed64fd8997a11283332e826d6751269804b254210b0ce1e2c0f6602c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/document-processing/obsidian-bases",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/clean-code",
+  "license": "MIT",
+  "name": "skill-development-clean-code",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

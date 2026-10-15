@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/code-review-excellence",
+  "license": "MIT",
+  "name": "skill-productivity-code-review-excellence",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

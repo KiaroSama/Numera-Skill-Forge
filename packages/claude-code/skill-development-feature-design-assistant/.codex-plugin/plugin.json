@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/feature-design-assistant",
+  "license": "MIT",
+  "name": "skill-development-feature-design-assistant",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

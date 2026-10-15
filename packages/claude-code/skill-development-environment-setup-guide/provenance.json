@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-environment-setup-guide/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c0923163a9c667f11dc0311f8e73ff12f0aa5b95edbf42e645bd49772c3d63c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-environment-setup-guide/skills/environment-setup-guide/SKILL.md",
+      "path": "cli-tool/components/skills/development/environment-setup-guide/SKILL.md",
+      "size": 11403
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "97b155c2ceb74664f7ebfb791b7f177703e502dbb99a4825b75aabf3f0d5fa59",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/environment-setup-guide",
+  "schema_version": 1
+}

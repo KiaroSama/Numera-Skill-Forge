@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-neon-instagres/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "10530ac557eed02b080bd20830f0bfb4dd8f2380e965265b1dc99b35c67117bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-neon-instagres/skills/neon-instagres/SKILL.md",
+      "path": "cli-tool/components/skills/database/neon-instagres/SKILL.md",
+      "size": 6419
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f1141281c1266f3161cded4cadf33911ed4edbab55ad15a8b455033b823631be",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/database/neon-instagres",
+  "schema_version": 1
+}

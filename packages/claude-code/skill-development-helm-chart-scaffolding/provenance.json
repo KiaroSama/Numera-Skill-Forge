@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0cb50ffbd5667760828af85ca309099dae3147134c1aa026d77f568ac1db76b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/SKILL.md",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/SKILL.md",
+      "size": 1203
+    },
+    {
+      "digest": "a752ee6b46f5f191d032fe1f4da60772a02651a3be03605acc86489875f4e1dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/assets/Chart.yaml.template",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/assets/Chart.yaml.template",
+      "size": 801
+    },
+    {
+      "digest": "d4ec34d9301b82001a167babcbfcfda8a5f2c39dbbe5b85d336a9c695d35c91a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/assets/values.yaml.template",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/assets/values.yaml.template",
+      "size": 3190
+    },
+    {
+      "digest": "212526eea43c6ac1372543d7dc1af5eb7da3570aa197cb42df42d18dd48a855f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/references/chart-structure.md",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/references/chart-structure.md",
+      "size": 11775
+    },
+    {
+      "digest": "fe5d344b630da23f6b595dbcda2ef347226a80ed8fe0b435e4ecbba6e279f048",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/resources/implementation-playbook.md",
+      "size": 11376
+    },
+    {
+      "digest": "f1de1b886fc8e171fd4c6e10f1cb53796d47dac9b7a76babd710e2a86471089a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-helm-chart-scaffolding/skills/helm-chart-scaffolding/scripts/validate-chart.sh",
+      "path": "cli-tool/components/skills/development/helm-chart-scaffolding/scripts/validate-chart.sh",
+      "size": 6506
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d9f84e74c2ccb2ba73eb82fd1cfae6145f46695dd2e21a8f6f79bfea641d6634",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/helm-chart-scaffolding",
+  "schema_version": 1
+}

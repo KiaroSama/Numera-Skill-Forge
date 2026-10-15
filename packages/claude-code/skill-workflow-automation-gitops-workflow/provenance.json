@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-gitops-workflow/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "00aed165f55ef10949e4affc78faad87a2ac8620451ea05a81830761323eef8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-gitops-workflow/skills/gitops-workflow/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/gitops-workflow/SKILL.md",
+      "size": 6337
+    },
+    {
+      "digest": "062bd19f9d4ca7e7ca9ccc1fd63cd5d9cf3898f60a5b5c30c140c45f2373e481",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-gitops-workflow/skills/gitops-workflow/references/argocd-setup.md",
+      "path": "cli-tool/components/skills/workflow-automation/gitops-workflow/references/argocd-setup.md",
+      "size": 2894
+    },
+    {
+      "digest": "56b65cf0cef633d87272a1fa1b7ea8bc53ac06073496330dea6f04c5bfe60c68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-gitops-workflow/skills/gitops-workflow/references/sync-policies.md",
+      "path": "cli-tool/components/skills/workflow-automation/gitops-workflow/references/sync-policies.md",
+      "size": 2767
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b402a711f490bcaa420cd9a313c627d0f64d10bd26b2a7bf73fb85f3735136ad",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/gitops-workflow",
+  "schema_version": 1
+}

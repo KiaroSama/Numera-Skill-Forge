@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/pdf-fill-studio",
+  "license": "MIT",
+  "name": "skill-document-processing-pdf-fill-studio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

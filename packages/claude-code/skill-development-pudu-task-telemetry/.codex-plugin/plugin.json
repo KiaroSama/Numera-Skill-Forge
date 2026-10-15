@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/pudu-task-telemetry",
+  "license": "MIT",
+  "name": "skill-development-pudu-task-telemetry",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

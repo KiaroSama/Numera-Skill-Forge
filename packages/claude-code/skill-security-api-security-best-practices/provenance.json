@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-api-security-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "87ff9c17aed9d9c926a44d5404cedbe12045753bb7c291a3bbdc8a289d284fe1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-api-security-best-practices/skills/api-security-best-practices/SKILL.md",
+      "path": "cli-tool/components/skills/security/api-security-best-practices/SKILL.md",
+      "size": 23401
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "015ce030dc297c659a280fdd1e6426d81fc88119eaba824c7d4cee8a95466db4",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/api-security-best-practices",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-progressive-web-app/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "3434e747171a694167ecbf67b064328aace0ae78aa121f04a04475d4ba2ac171",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-progressive-web-app/skills/progressive-web-app/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/progressive-web-app/SKILL.md",
+      "size": 12618
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "39298114de24d50817b355756cda3fb2e02c6a6f3c0b06a7563cbd8e273096f1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/progressive-web-app",
+  "schema_version": 1
+}

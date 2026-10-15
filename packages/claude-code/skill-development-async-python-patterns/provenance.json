@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-async-python-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4563d4c356c1f222865789fc6fc1d1c444cbc104f26ecf78e4085577bbb9509c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-async-python-patterns/skills/async-python-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/async-python-patterns/SKILL.md",
+      "size": 1719
+    },
+    {
+      "digest": "1a1ff5b00ab550b74d407261352ba4b97a643d3a2f24416937be964554431d13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-async-python-patterns/skills/async-python-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/async-python-patterns/resources/implementation-playbook.md",
+      "size": 17935
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6c221a8819fe10d6f40e41eddf7e41d7f56a03473eb17a4dda521ce97a02a216",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/async-python-patterns",
+  "schema_version": 1
+}

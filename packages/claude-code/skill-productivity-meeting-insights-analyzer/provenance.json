@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-meeting-insights-analyzer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c639c0fc10a84225ba117ec5561f8cca1325c8d739fd0ac169b5a6dca6a0d071",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-meeting-insights-analyzer/skills/meeting-insights-analyzer/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/meeting-insights-analyzer/SKILL.md",
+      "size": 10177
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "76da7cdf554e5ad8276b5406d213116f704438abce71a18281cb1ed1da836a7e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/meeting-insights-analyzer",
+  "schema_version": 1
+}

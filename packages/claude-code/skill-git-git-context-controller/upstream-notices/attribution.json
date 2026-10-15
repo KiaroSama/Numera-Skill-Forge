@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: faugustdev/claude-code-templates at df472f878b67893e17e95e8d570fbe2e1a4af42e/cli-tool/components/skills/git/git-context-controller. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Direct original contributor faugustdev PR380 under repository MIT; original author's contributed material only. External services/tools are prerequisites, not bundled or executed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/faugustdev/claude-code-templates/blob/df472f878b67893e17e95e8d570fbe2e1a4af42e/LICENSE"
+    }
+  ]
+}

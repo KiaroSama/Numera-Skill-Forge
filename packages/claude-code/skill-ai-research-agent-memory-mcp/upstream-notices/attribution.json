@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: webzler/agentMemory at 0409b7b7bb6fe443d0d4b6a6b1ee0d4df214f3cd/SKILL.md. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original MIT grant and author notices; no execution of upstream scripts or externally linked runtime software. Upstream limitations: {\"runtime_tested\": false, \"scope\": \"Standalone installation guide referencing external agentMemory server; server intentionally not bundled; no MCP runtime claim.\"}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "eb9fecd10ad938192e15035d9e98b8ef98b94de5344f4f919de450ab85a8a9ff",
+      "license": "MIT",
+      "path": "registry/licenses/eb9fecd10ad938192e15035d9e98b8ef98b94de5344f4f919de450ab85a8a9ff.txt",
+      "source": "https://github.com/webzler/agentMemory/blob/0409b7b7bb6fe443d0d4b6a6b1ee0d4df214f3cd/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    }
+  ]
+}

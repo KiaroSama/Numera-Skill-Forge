@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-docker-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e33b08feeaa8e110c08dddd030970547356514d42aa484e52f51e2fd2d4f451b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-docker-expert/skills/docker-expert/SKILL.md",
+      "path": "cli-tool/components/skills/development/docker-expert/SKILL.md",
+      "size": 14062
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ec52734de71f93cbdcc63b39db07322b9571fa2f59c468bf12b6b97a62ba7cea",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/docker-expert",
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: lackeyjb/playwright-skill at bb7e920d376022958214e349ef25498a2644e189/skills/playwright-skill. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original MIT grant and author notices; no execution of upstream scripts or externally linked runtime software. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "c9104b65859edbe0df0255c2adbad01b147b58a02fa2aff1c2e5736512e8a143",
+      "license": "MIT",
+      "path": "registry/licenses/c9104b65859edbe0df0255c2adbad01b147b58a02fa2aff1c2e5736512e8a143.txt",
+      "source": "https://github.com/lackeyjb/playwright-skill/blob/bb7e920d376022958214e349ef25498a2644e189/LICENSE"
+    }
+  ]
+}

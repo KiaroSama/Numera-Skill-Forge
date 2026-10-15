@@ -49,7 +49,7 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **601 reviewed skills** from
+The native Claude marketplace currently packages **765 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
 plugin. Original prompts, scripts, companions and notices are preserved; four explicitly reviewed
 entries normalize only their frontmatter name and matching directory, retaining the original entry
@@ -103,7 +103,7 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **781 packages**. K-Dense original names,
+contains **945 packages**. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.
@@ -174,6 +174,10 @@ Settings can separately opt into policy-approved safe updates and rebuilds on op
 publishes. Generic builds emit target catalogs and a separate Claude marketplace without changing the
 collection-owned repository marketplace; native manifest identities and user-edited outputs are preserved. Installed updates coordinate all enabled owners per destination and preserve user changes.
 Persisted per-step progress supports inspection/cancellation and failed-only retry.
+
+The remaining-skill review added164 complete packages;135 have explicit source, notice or technical
+blockers. See the [complete299-root disposition](docs/remaining-skill-disposition.md). Original
+upstream stubs and separately installed prerequisites are disclosed; packaging never executes them.
 
 ## Documentation
 

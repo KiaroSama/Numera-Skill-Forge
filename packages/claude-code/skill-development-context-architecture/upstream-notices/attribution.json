@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: sergioazoc/context-architecture at 774b53e603e002f7cbb63836a0af9fef53d65760/skills/context-architecture. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Exact author-submitted v0.3.0; skill-level CC-BY-4.0 grant and Sergio Azocar attribution govern; retain dual repository grant too.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "9fb7ead8856e6d1f7bd950ef6295d0cb4bb35a7ff934673070a050b21f1031f1",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/9fb7ead8856e6d1f7bd950ef6295d0cb4bb35a7ff934673070a050b21f1031f1.txt",
+      "source": "https://github.com/sergioazoc/context-architecture/blob/774b53e603e002f7cbb63836a0af9fef53d65760/skills/context-architecture/SKILL.md"
+    },
+    {
+      "digest": "6a6e30d8dde47bd608bff1ab441f9a1c7f85b60affe40201f54d77aded7eecb3",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/6a6e30d8dde47bd608bff1ab441f9a1c7f85b60affe40201f54d77aded7eecb3.txt",
+      "source": "https://github.com/sergioazoc/context-architecture/blob/774b53e603e002f7cbb63836a0af9fef53d65760/LICENSE"
+    }
+  ]
+}

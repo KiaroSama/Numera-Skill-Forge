@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nodejs-backend-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1f5a779fdb34d498bba52b5f57fcb2129a4fdc7253ca3f8d937590cdb45b95de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nodejs-backend-patterns/skills/nodejs-backend-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/nodejs-backend-patterns/SKILL.md",
+      "size": 1344
+    },
+    {
+      "digest": "9a375eed368e0e1d8ba4e575415ecc528fe7c0883001b7c83dfee6643d1b8e71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-nodejs-backend-patterns/skills/nodejs-backend-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/nodejs-backend-patterns/resources/implementation-playbook.md",
+      "size": 24643
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "119b75b75870a470e75a433cbccac295887c05be794aa3d686dcb1e3f30276bd",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/nodejs-backend-patterns",
+  "schema_version": 1
+}

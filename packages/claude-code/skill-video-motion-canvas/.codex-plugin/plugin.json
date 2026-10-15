@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/video/motion-canvas",
+  "license": "MIT",
+  "name": "skill-video-motion-canvas",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

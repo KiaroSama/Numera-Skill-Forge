@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/rust-cli-builder",
+  "license": "MIT",
+  "name": "skill-development-rust-cli-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

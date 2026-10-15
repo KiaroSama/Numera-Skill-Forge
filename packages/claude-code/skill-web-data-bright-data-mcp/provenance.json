@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-mcp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0c56250443ad2ffd8bfd40bba32f26b034447b932d1d52f5bbffb3bb6f428e40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-mcp/skills/bright-data-mcp/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-mcp/SKILL.md",
+      "size": 10352
+    },
+    {
+      "digest": "b1f4ef5a19c0354d418f917ebb2f223804e46825aee94aeb7a5e301e93e4d259",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-mcp/skills/bright-data-mcp/references/mcp-setup.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-mcp/references/mcp-setup.md",
+      "size": 3847
+    },
+    {
+      "digest": "020900419abb40bc96d4208bbf6f42764ed24e649aaf5c6a07a103f5196e7c57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-bright-data-mcp/skills/bright-data-mcp/references/mcp-tools.md",
+      "path": "cli-tool/components/skills/web-data/bright-data-mcp/references/mcp-tools.md",
+      "size": 8883
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "632c36e5738fadb5e6dc4567286df8a35d9f23583ad5756e251c912a416bad0c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/bright-data-mcp",
+  "schema_version": 1
+}

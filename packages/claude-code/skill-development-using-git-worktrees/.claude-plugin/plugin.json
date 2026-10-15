@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/using-git-worktrees",
+  "license": "MIT",
+  "name": "skill-development-using-git-worktrees",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: 23blocks-OS/ai-maestro-plugins at f275bfe0be63309bd3b4e7af8871b695f8aeb99c/plugins/ai-maestro/skills/agent-messaging. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Actual historical original is MIT2025 23blocks, not the stale Apache lead. Direct author PR373 concise standalone rewrite. Original CLI scripts are external prerequisite installed separately, not packaged or executed.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02",
+      "license": "MIT",
+      "path": "registry/licenses/b022c5a04812460a95cc5bc812d0a1b3cd67cf68701008d96318c5a39e440e02.txt",
+      "source": "https://github.com/23blocks-OS/ai-maestro-plugins/blob/f275bfe0be63309bd3b4e7af8871b695f8aeb99c/LICENSE"
+    }
+  ]
+}

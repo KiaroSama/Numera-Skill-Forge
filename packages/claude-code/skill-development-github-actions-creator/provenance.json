@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-github-actions-creator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "abf9347f6af22fa2ff1f8ada4542d594c2fa674249cb4ac4da6351b0028b4f19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-github-actions-creator/skills/github-actions-creator/SKILL.md",
+      "path": "cli-tool/components/skills/development/github-actions-creator/SKILL.md",
+      "size": 9596
+    },
+    {
+      "digest": "fef7c4ee2c9f665b744533a6a8763c4d7ac1dd854bac675eda196e906e2e01f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-github-actions-creator/skills/github-actions-creator/references/workflow-templates.md",
+      "path": "cli-tool/components/skills/development/github-actions-creator/references/workflow-templates.md",
+      "size": 17875
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0adc0133739461128ad6604a5985ae0fd18992f087c022aeb19faffd67068fbc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/github-actions-creator",
+  "schema_version": 1
+}

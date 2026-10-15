@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/marketing/x-twitter-scraper",
+  "license": "MIT",
+  "name": "skill-marketing-x-twitter-scraper",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-tailwind-design-system/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ad4b366be3d1b39200b0732b66f57c6970b2bb2e9e012aef5fa1876a1f9dfe44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-tailwind-design-system/skills/tailwind-design-system/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/tailwind-design-system/SKILL.md",
+      "size": 1186
+    },
+    {
+      "digest": "8776e5583bcd58f569f40a1ac4065079e59fc6acf8f67ec9a6d11fc533a6a9ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-tailwind-design-system/skills/tailwind-design-system/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/web-development/tailwind-design-system/resources/implementation-playbook.md",
+      "size": 18541
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "bb63ee18a0daf5bf4c56330a568b5e031163db23d3cf7691c4c6bd8bdf175c74",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/tailwind-design-system",
+  "schema_version": 1
+}

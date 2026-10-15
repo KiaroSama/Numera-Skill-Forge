@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5c9655b550a37385141be870f55cd6aba5e88d8a337b3807c1da9fdf35cccefa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/SKILL.md",
+      "size": 7323
+    },
+    {
+      "digest": "8e1ade9727b0bb1fb5540a781192b67e2692fbb5908ffe9eac3ec7cc2fbc6216",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/assets/few-shot-examples.json",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/assets/few-shot-examples.json",
+      "size": 4174
+    },
+    {
+      "digest": "b09fe28892ca12ee96d92c3c72679d0f0b2af9f7c457a7e8a978cf4fcd617544",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/assets/prompt-template-library.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/assets/prompt-template-library.md",
+      "size": 3273
+    },
+    {
+      "digest": "2c2949e31f89f608361560d3bbf38bafd478a250e51ebd30e2f0a02dd36a1f7f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/references/chain-of-thought.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/references/chain-of-thought.md",
+      "size": 9386
+    },
+    {
+      "digest": "c16b322681b63dcc7a82fc21b90858e13b20f5e3bc1f2e739675c3adbea7beab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/references/few-shot-learning.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/references/few-shot-learning.md",
+      "size": 11171
+    },
+    {
+      "digest": "1a4de3a292480904ac265cb652c40e0defcf77f0c8d804e7dccdf3f70124c8e3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/references/prompt-optimization.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/references/prompt-optimization.md",
+      "size": 12778
+    },
+    {
+      "digest": "2ade8c01b8499516dca969ec6ac4a215e62a0044e9abeb8454723a17cf836507",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/references/prompt-templates.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/references/prompt-templates.md",
+      "size": 11395
+    },
+    {
+      "digest": "2566cd828a265ea13d09cdad28a0b4bcb422fd5886c053b4e0b7299848d06f0f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/references/system-prompts.md",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/references/system-prompts.md",
+      "size": 5438
+    },
+    {
+      "digest": "e2bd63207f0b6ed40944d8bb49311e0c97babb40d0fae974580c2dd3be99a671",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-prompt-engineering-patterns/skills/prompt-engineering-patterns/scripts/optimize-prompt.py",
+      "path": "cli-tool/components/skills/ai-research/prompt-engineering-patterns/scripts/optimize-prompt.py",
+      "size": 9159
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e378ae71246552c77c9cf642af66ac63d91e3395f3feab5f2ed937edcbadb5dc",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/prompt-engineering-patterns",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/nestjs-expert",
+  "license": "MIT",
+  "name": "skill-development-nestjs-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

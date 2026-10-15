@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: OthmanAdi/planning-with-files at bc791694b83ef6a9f8f29cdb5adc4dbc66d3f2b6/skills/planning-with-files. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original full license, copyright and supplied attribution. Exact complete payload source comparison performed, no runtime execution. Original Ahmad AdiMIT; workflowv1 entry removes version only, productivityv2.1.1 entrychangesversion2.1.0to2.1.2 with seven companions exact. Hooks are inert data here and were not installed/executed. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84",
+      "license": "MIT",
+      "path": "registry/licenses/4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84.txt",
+      "source": "https://github.com/OthmanAdi/planning-with-files/blob/bc791694b83ef6a9f8f29cdb5adc4dbc66d3f2b6/LICENSE"
+    }
+  ]
+}

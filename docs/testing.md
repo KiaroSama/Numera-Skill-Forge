@@ -258,3 +258,13 @@ All verification workflows start manually; dependency review requires explicit b
 The 116 reviewed additions bring the inventory to 781 packages and 6981 payload/notice records;
 prior 665 accepted identities remain unchanged. Four entry digests intentionally describe reviewed
 name-only output, with their original digests recorded separately. No collected script is executed.
+
+## Complete remaining-root disposition
+
+The next164 accepted original roots bring the inventory to945 packages and7638 payload/notice
+records. Prior781 accepted records remain unchanged. All299 previously held roots have explicit
+source/notice/companion outcomes;135 are excluded with exact conditions in
+[remaining-skill-disposition.md](remaining-skill-disposition.md). The existing original-byte/mode/
+notice/catalog verifier and real CLI lifecycle tier cover the expanded accepted inventory without
+executing imported source scripts. Original stubs and external prerequisites are not runtime-certified.
+No new desktop release, model/API integration test or native-hook activation is implied.

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/media/image-enhancer",
+  "license": "Apache-2.0",
+  "name": "skill-media-image-enhancer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

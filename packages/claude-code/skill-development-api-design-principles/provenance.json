@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8e89a9a6ca86051582fcca5ec26b6057acd652d422e4374ab4403a69c37bd2fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/SKILL.md",
+      "path": "cli-tool/components/skills/development/api-design-principles/SKILL.md",
+      "size": 1474
+    },
+    {
+      "digest": "ef98cb8910cdc555514198df7becc6de8b04e1a98e2291b1440bc62e14cd07e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/assets/api-design-checklist.md",
+      "path": "cli-tool/components/skills/development/api-design-principles/assets/api-design-checklist.md",
+      "size": 3884
+    },
+    {
+      "digest": "b359cda817740ee2cd3c9a901d7d5a14178cc0e2dcb46b75af053e5cc4d6012c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/assets/rest-api-template.py",
+      "path": "cli-tool/components/skills/development/api-design-principles/assets/rest-api-template.py",
+      "size": 5323
+    },
+    {
+      "digest": "0f10cbe2f3d787be9de4ab8dcc88444ac36ab69786973666a229fdbffeb01638",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/references/graphql-schema-design.md",
+      "path": "cli-tool/components/skills/development/api-design-principles/references/graphql-schema-design.md",
+      "size": 9005
+    },
+    {
+      "digest": "675fbafdd5a6d5ac2c17ab97e17c90aa0a10c2a5608860128a8be14764130fae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/references/rest-best-practices.md",
+      "path": "cli-tool/components/skills/development/api-design-principles/references/rest-best-practices.md",
+      "size": 7571
+    },
+    {
+      "digest": "01a77e3f69a3e8d82a5ff49fa8ab1a1d0e16046af21c78f2c800e15e397b2321",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-design-principles/skills/api-design-principles/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/api-design-principles/resources/implementation-playbook.md",
+      "size": 13019
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac000439e4470f4c855fa9126c58e462a156162193d502f370c6be144c1e8251",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/api-design-principles",
+  "schema_version": 1
+}

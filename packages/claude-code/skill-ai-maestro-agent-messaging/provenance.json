@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-agent-messaging/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "79505d990103f72fe77e9bb3ef9074a954ca38247e3f8c9673aedb416dffc300",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-maestro-agent-messaging/skills/agent-messaging/SKILL.md",
+      "path": "cli-tool/components/skills/ai-maestro/agent-messaging/SKILL.md",
+      "size": 3227
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "21b50566ad9fff94fc4a0d822c53f5dafcc358ca06c3ed671d389d8c88951b00",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-maestro/agent-messaging",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture-decision-records/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e441a94143eed1ac846233cfb5fabd958a692cdb209688ddda3bf1f7c0d95462",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-architecture-decision-records/skills/architecture-decision-records/SKILL.md",
+      "path": "cli-tool/components/skills/development/architecture-decision-records/SKILL.md",
+      "size": 12992
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e081ab82dc75a29c22997ec3b97f9347550d434fc0545f168ceb84f14b585f7a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/architecture-decision-records",
+  "schema_version": 1
+}

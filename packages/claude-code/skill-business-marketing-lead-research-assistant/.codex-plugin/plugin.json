@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/lead-research-assistant",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-lead-research-assistant",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

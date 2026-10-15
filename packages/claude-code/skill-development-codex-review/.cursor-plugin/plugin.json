@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/codex-review",
+  "license": "MIT",
+  "name": "skill-development-codex-review",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: KevinDoremy/pdf-fill-studio at 8a98da7045561db45ec41ec136f629cf226f7cef/skills/pdf-fill-studio. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "63bf2a7416eaf65c99d299d7e5e792289dd09d602c089df021387e250988a7c7",
+      "license": "MIT",
+      "path": "registry/licenses/63bf2a7416eaf65c99d299d7e5e792289dd09d602c089df021387e250988a7c7.txt",
+      "source": "https://github.com/KevinDoremy/pdf-fill-studio/blob/8a98da7045561db45ec41ec136f629cf226f7cef/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/saas-multi-tenant",
+  "license": "MIT",
+  "name": "skill-development-saas-multi-tenant",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

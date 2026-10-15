@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-open-banking-io-open-banking-io/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fefebd5566fb57d6e29525fd75cc6c5e1ae3bdd82ce51a33ebb17ea929291155",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-open-banking-io-open-banking-io/skills/open-banking-io/SKILL.md",
+      "path": "cli-tool/components/skills/open-banking-io/open-banking-io/SKILL.md",
+      "size": 1898
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "adf8cb5067e55e44843af30829ada7d0572eba583778f5e2e499c078297a2618",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/open-banking-io/open-banking-io",
+  "schema_version": 1
+}

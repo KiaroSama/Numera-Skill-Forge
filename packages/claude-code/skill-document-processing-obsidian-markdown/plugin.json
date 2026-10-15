@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/document-processing/obsidian-markdown",
+  "license": "MIT",
+  "name": "skill-document-processing-obsidian-markdown",
+  "version": "1.0.0"
+}

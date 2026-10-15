@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: swarmclawai/swarmvault at f2ae2033539f94e1f6044bd6ef13876640b1525a/skills/swarmvault. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original full license, copyright and supplied attribution. Exact complete payload source comparison performed, no runtime execution. Eight companions exact v0.7.30 originals, entry only adds MIT frontmatter; Karpathy LLM Wiki external citation not bundled gist text. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "190c05a348b19f978c00bb54b83ed23a45b38e7d3e5c46f359e15975669c279d",
+      "license": "MIT",
+      "path": "registry/licenses/190c05a348b19f978c00bb54b83ed23a45b38e7d3e5c46f359e15975669c279d.txt",
+      "source": "https://github.com/swarmclawai/swarmvault/blob/f2ae2033539f94e1f6044bd6ef13876640b1525a/LICENSE"
+    }
+  ]
+}

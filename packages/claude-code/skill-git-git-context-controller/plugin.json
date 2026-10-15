@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: cli-tool/components/skills/git/git-context-controller",
+  "license": "MIT",
+  "name": "skill-git-git-context-controller",
+  "version": "1.0.0"
+}

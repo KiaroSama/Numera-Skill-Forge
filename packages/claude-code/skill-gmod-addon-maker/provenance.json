@@ -1,0 +1,47 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-gmod-addon-maker/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ca702c6db253fa8d64bd05f3c7c9e6628e043d510eb517416201363b1db1d57a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-gmod-addon-maker/skills/gmod-addon-maker/SKILL.md",
+      "path": "cli-tool/components/skills/gmod-addon-maker/SKILL.md",
+      "size": 2389
+    },
+    {
+      "digest": "5d3d60fc4c4ead3fa8cceb1a599f9d5a95700fa5a6de8741d191cad4ce22c4ff",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-gmod-addon-maker/skills/gmod-addon-maker/references/addon-structure.md",
+      "path": "cli-tool/components/skills/gmod-addon-maker/references/addon-structure.md",
+      "size": 4628
+    },
+    {
+      "digest": "efd3f782528ec4dc735d89d778b051bf435fc6b4321671e507aead3f81d66faa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-gmod-addon-maker/skills/gmod-addon-maker/references/common-error.md",
+      "path": "cli-tool/components/skills/gmod-addon-maker/references/common-error.md",
+      "size": 3754
+    },
+    {
+      "digest": "0b2d950fa1420af4b2d7131ea0923618307e55598cdc3350afcd2cbe09f7f184",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-gmod-addon-maker/skills/gmod-addon-maker/references/state-exp.md",
+      "path": "cli-tool/components/skills/gmod-addon-maker/references/state-exp.md",
+      "size": 6679
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d5e3903c2a0aa18a1a1f331eb6fc5cbdd9adae1344a6690c5b3ab27ccf1fff7e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/gmod-addon-maker",
+  "schema_version": 1
+}

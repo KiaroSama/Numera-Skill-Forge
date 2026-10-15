@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/sports/footballbin-predictions",
+  "license": "MIT",
+  "name": "skill-sports-footballbin-predictions",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

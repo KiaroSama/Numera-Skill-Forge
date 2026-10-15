@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: affaan-m/ECC at 5a26daf39214c31d5ce31ea1c56f3dbb701388e8/skills/strategic-compact. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Original upstream entry is a literal stub. Companion shell/config bytes preserved; no hook registered, no learning/compaction execution or functional completeness claim.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "license": "MIT",
+      "path": "registry/licenses/326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2.txt",
+      "source": "https://github.com/affaan-m/ECC/blob/01ad21b1d44b1b1cffd413d907e52a44c6c8efd4/LICENSE"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    }
+  ]
+}

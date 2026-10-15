@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: TopLocalAI/patentfig-skill at 08a0f8f5181070f21127025ec94798c4866a0e11/.. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Full original root skill+endpoint companion; only upstream frontmatter version/author/tags adaptation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "4f798c138a2cd7c2617cfcc49b7fcf0baf3dc35ba6fad2e0518b6693f7a4e71c",
+      "license": "MIT",
+      "path": "registry/licenses/4f798c138a2cd7c2617cfcc49b7fcf0baf3dc35ba6fad2e0518b6693f7a4e71c.txt",
+      "source": "https://github.com/TopLocalAI/patentfig-skill/blob/08a0f8f5181070f21127025ec94798c4866a0e11/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4206f6812752cef0990e1b5d2324fafc89bccd6ca10340fdec5a21d83ba03e87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/README.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/README.md",
+      "size": 7033
+    },
+    {
+      "digest": "8964e1b846170ac9cdbaa4c3c510e3493e08917620761cbb492c46d8d3567e64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/SKILL.md",
+      "size": 6307
+    },
+    {
+      "digest": "13f79fdd42c30598a4cccae6cd497056e6a3f074d683edc286c82f3faa49ffb8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/evals/model-expectations.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/evals/model-expectations.md",
+      "size": 5757
+    },
+    {
+      "digest": "8b6bd622bb37bcd8db466f3af16532135ae128fec06225cd5875f131825263bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/evals/results-opus-baseline.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/evals/results-opus-baseline.md",
+      "size": 2704
+    },
+    {
+      "digest": "84793ea6718c26ba7b40f13cf3bc16ee08a48748c072aa482f99968754e47692",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/evals/setup_test_env.py",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/evals/setup_test_env.py",
+      "size": 10293
+    },
+    {
+      "digest": "987a534f7477139bab2104508529b02589375b400ff9404b21f6b5966f481ef3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/evals/test-scenarios.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/evals/test-scenarios.md",
+      "size": 5306
+    },
+    {
+      "digest": "35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/references/handoff-template.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/references/handoff-template.md",
+      "size": 3963
+    },
+    {
+      "digest": "bd64d36be5e68f361038ab7465b7f0c6bd47f4d3e43c925cc38a3868356f19e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/references/resume-checklist.md",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/references/resume-checklist.md",
+      "size": 2782
+    },
+    {
+      "digest": "8c133949d28f799893c951ae15d61c5abd32ee09ac459de2cedc02b7ce758497",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/scripts/check_staleness.py",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/scripts/check_staleness.py",
+      "size": 13721
+    },
+    {
+      "digest": "566794a9bfbafc60a9f26fc95e061bfc6158fabfd1f31e4ad2025a1a37992217",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/scripts/create_handoff.py",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/scripts/create_handoff.py",
+      "size": 10666
+    },
+    {
+      "digest": "69485ec8a25ba7795e590e96b84534d986086a769932342efb34e86a25de33f8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/scripts/list_handoffs.py",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/scripts/list_handoffs.py",
+      "size": 3813
+    },
+    {
+      "digest": "e63fed866fafb7a8055c51a19e5c576bce73bc0ec474c09c9be6962f596ba677",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-enterprise-communication-session-handoff/skills/session-handoff/scripts/validate_handoff.py",
+      "path": "cli-tool/components/skills/enterprise-communication/session-handoff/scripts/validate_handoff.py",
+      "size": 10821
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "054bef8aeb27aaca18a981922b8eea3e4219c99b209e61879d2ba1c85e53c7ca",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/enterprise-communication/session-handoff",
+  "schema_version": 1
+}

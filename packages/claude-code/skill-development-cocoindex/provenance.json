@@ -1,0 +1,54 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d5f15a9e07fd7b4464b275f2724d989aeb34c3f4f53de84bbffae4c0e0de40ce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/skills/cocoindex/SKILL.md",
+      "path": "cli-tool/components/skills/development/cocoindex/SKILL.md",
+      "size": 25659
+    },
+    {
+      "digest": "2af611f85717e6c76ee0e2cf8066cce584724db08c629bf4b9dfba2fd951d1d8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/skills/cocoindex/references/api_operations.md",
+      "path": "cli-tool/components/skills/development/cocoindex/references/api_operations.md",
+      "size": 13488
+    },
+    {
+      "digest": "44985752a7aa684ba274812c85ff9f8f171ff5bd6eb09e0af5d18610a8a595df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/skills/cocoindex/references/cli_operations.md",
+      "path": "cli-tool/components/skills/development/cocoindex/references/cli_operations.md",
+      "size": 8897
+    },
+    {
+      "digest": "5a0ce34234f9f7444fc01cf90a2983f72a533035815765f398c3492564ea0885",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/skills/cocoindex/references/custom_functions.md",
+      "path": "cli-tool/components/skills/development/cocoindex/references/custom_functions.md",
+      "size": 13690
+    },
+    {
+      "digest": "aec04fbf5d8529e106a5fd4273ce93bcde5eeefdeb37fac91f7529dbdc126b37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cocoindex/skills/cocoindex/references/flow_patterns.md",
+      "path": "cli-tool/components/skills/development/cocoindex/references/flow_patterns.md",
+      "size": 13857
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "5297f247f8ea384c131a55d9ff9c464e8988ef7611a79fcd57d7cf864cef4d84",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cocoindex",
+  "schema_version": 1
+}

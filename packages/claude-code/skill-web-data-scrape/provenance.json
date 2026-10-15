@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-scrape/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b3329adc7add28fe08797f86b56eed2a6ac4f0aba22e29d45c24e884225f9393",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-scrape/skills/scrape/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/scrape/SKILL.md",
+      "size": 1566
+    },
+    {
+      "digest": "94ded10d4b86c01d5f3e4d4386415b305a55c443d0c850f8d977f40c20904681",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-scrape/skills/scrape/scripts/scrape.sh",
+      "path": "cli-tool/components/skills/web-data/scrape/scripts/scrape.sh",
+      "size": 864
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "583b45f4e913b96f87fa0c083bcf8eaa1932d2734bb0626f2c93b8767ccf6252",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/scrape",
+  "schema_version": 1
+}

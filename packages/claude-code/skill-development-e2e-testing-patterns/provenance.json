@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-e2e-testing-patterns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1e6e621baf9add3651cf0c222da6195f220a9d25057e1026897099dd8305377c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-e2e-testing-patterns/skills/e2e-testing-patterns/SKILL.md",
+      "path": "cli-tool/components/skills/development/e2e-testing-patterns/SKILL.md",
+      "size": 1370
+    },
+    {
+      "digest": "426683013b5178548c2ef567e40cd012dcac873bc148437d542d4ffdd6b3ccdc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-e2e-testing-patterns/skills/e2e-testing-patterns/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/e2e-testing-patterns/resources/implementation-playbook.md",
+      "size": 14545
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "91a729f2d9690e98bb209a37976b0b727d08a67cdd89af2ecd507f9538de68d2",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/e2e-testing-patterns",
+  "schema_version": 1
+}

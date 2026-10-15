@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-github-workflow-automation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "092068f262fecac6c7ec1dffa15334d5ac9bd1535cb9fcfb8b9b495ce56710c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-github-workflow-automation/skills/github-workflow-automation/SKILL.md",
+      "path": "cli-tool/components/skills/workflow-automation/github-workflow-automation/SKILL.md",
+      "size": 21658
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d80f3481d7048d857dee5198705f4cec38a6b97e08d6014c83d03ac4adfac022",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/workflow-automation/github-workflow-automation",
+  "schema_version": 1
+}

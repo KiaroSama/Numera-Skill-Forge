@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/business-marketing/competitive-ads-extractor",
+  "license": "Apache-2.0",
+  "name": "skill-business-marketing-competitive-ads-extractor",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

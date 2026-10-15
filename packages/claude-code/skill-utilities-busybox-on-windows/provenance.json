@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-busybox-on-windows/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "292136c12d30a04f5a5de0e1e3b7b7277ac868d605f41bb7a589e30e629edf3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-busybox-on-windows/skills/busybox-on-windows/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/busybox-on-windows/SKILL.md",
+      "size": 1919
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f906bb8a69813641087b7cd55b3467200203ffe04e6f1c665747e97f0a06d8fe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/busybox-on-windows",
+  "schema_version": 1
+}

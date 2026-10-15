@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/astro",
+  "license": "MIT",
+  "name": "skill-web-development-astro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

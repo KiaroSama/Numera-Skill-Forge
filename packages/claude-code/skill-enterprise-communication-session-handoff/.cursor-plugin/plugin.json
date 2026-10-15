@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/enterprise-communication/session-handoff",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-session-handoff",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

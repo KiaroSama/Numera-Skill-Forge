@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-address-github-comments/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "075bcc90295ffb889983451a906e0a0e92c052e0a2ea56cc7a37e46ed853f29a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-address-github-comments/skills/address-github-comments/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/address-github-comments/SKILL.md",
+      "size": 1227
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "059b41f209dbc6f3c12842d5d3f62472a80e225bebbab4d51836b08c25406aa6",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/address-github-comments",
+  "schema_version": 1
+}

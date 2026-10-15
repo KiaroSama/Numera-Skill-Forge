@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-competitive-ads-extractor/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c9bc0f711936ee058858c938c14ac2b52fc0241cde766eff7aca020e9874f157",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-competitive-ads-extractor/skills/competitive-ads-extractor/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/competitive-ads-extractor/SKILL.md",
+      "size": 7912
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "3d6d493c428f7426f5af6274b68663a32c5bb2b4564f1f8d1ec2d173f1701c27",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/competitive-ads-extractor",
+  "schema_version": 1
+}

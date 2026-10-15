@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/web-performance-optimization",
+  "license": "MIT",
+  "name": "skill-web-development-web-performance-optimization",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

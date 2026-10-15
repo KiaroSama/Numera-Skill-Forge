@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-saas-multi-tenant/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f44a4a31ec3dc07e45d3b6621998842b529767df31299f40eca3ae6be611924b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-saas-multi-tenant/skills/saas-multi-tenant/SKILL.md",
+      "path": "cli-tool/components/skills/development/saas-multi-tenant/SKILL.md",
+      "size": 12608
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "56ec191a0a8bd981a6b975664268d818da95f96b7d6beed807e2127b411b0b76",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/saas-multi-tenant",
+  "schema_version": 1
+}

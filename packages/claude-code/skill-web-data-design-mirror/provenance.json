@@ -1,0 +1,61 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f588fc917dfe45588d1f3ab893386ee0cf07460ff9ffc4a919d68880db5dfecd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/SKILL.md",
+      "path": "cli-tool/components/skills/web-data/design-mirror/SKILL.md",
+      "size": 8278
+    },
+    {
+      "digest": "98e0f75a861b7348a479e1da47b4ea8fead499eca368c686a63aabc0192b7ce0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/references/apply-guide.md",
+      "path": "cli-tool/components/skills/web-data/design-mirror/references/apply-guide.md",
+      "size": 6526
+    },
+    {
+      "digest": "47408a608932c0faa75fd9a3dbf84863ddd0f59dd73e22adcccd4c670a5d7cd9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/references/capture-guide.md",
+      "path": "cli-tool/components/skills/web-data/design-mirror/references/capture-guide.md",
+      "size": 3020
+    },
+    {
+      "digest": "94df73e4e03064f4a9d80c285d18a228ddc6f7f3d61782049afa67c382e33672",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/references/css-extraction.md",
+      "path": "cli-tool/components/skills/web-data/design-mirror/references/css-extraction.md",
+      "size": 4682
+    },
+    {
+      "digest": "11d3f8dac88ada0f907975261719ebfa8e5c7b30b255b6d29c2df2030d4fb648",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/scripts/scrape_html.sh",
+      "path": "cli-tool/components/skills/web-data/design-mirror/scripts/scrape_html.sh",
+      "size": 999
+    },
+    {
+      "digest": "daa4ed0b9ec9eb4e5502f5457d73776b852b6feeb58e0eda523be344417a8130",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-data-design-mirror/skills/design-mirror/scripts/screenshot.sh",
+      "path": "cli-tool/components/skills/web-data/design-mirror/scripts/screenshot.sh",
+      "size": 1030
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ccefbf7cd4ca69d8ff94372c1857cce8e4024aeb84cce2d934bf1abfbd3335e7",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-data/design-mirror",
+  "schema_version": 1
+}

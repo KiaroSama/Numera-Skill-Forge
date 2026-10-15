@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/open-banking-io/open-banking-io",
+  "license": "MIT",
+  "name": "skill-open-banking-io-open-banking-io",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

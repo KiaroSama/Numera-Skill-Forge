@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
+  "license": "MIT",
+  "name": "skill-productivity-obsidian-clipper-template-creator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

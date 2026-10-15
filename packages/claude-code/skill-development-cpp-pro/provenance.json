@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ad8193b7622780f1473675108ee3590a171736540366e3e2851ab83f63b5b35e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/SKILL.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/SKILL.md",
+      "size": 1868
+    },
+    {
+      "digest": "337ae8b622628fafae86f89d914561ee6176b8d74073db2d5580e91ddd240f30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/references/build-tooling.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/references/build-tooling.md",
+      "size": 9761
+    },
+    {
+      "digest": "cb772cec134530ed7ca4af25c261d42850ce27e92133657849e09d6cb2544891",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/references/concurrency.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/references/concurrency.md",
+      "size": 10918
+    },
+    {
+      "digest": "9bf813632158c49f3843d1b0d803aa710a5ae67a5f37df6420bee42f4f161caa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/references/memory-performance.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/references/memory-performance.md",
+      "size": 9104
+    },
+    {
+      "digest": "7410851bb066f5e6d825fab2efe7d767ed0ca2ea44cd377ff4f6ef7f90a21736",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/references/modern-cpp.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/references/modern-cpp.md",
+      "size": 6565
+    },
+    {
+      "digest": "d7a8e294439879126cd5df5b415eecf171d193f97368a2142607162c106a3ee8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/references/templates.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/references/templates.md",
+      "size": 7908
+    },
+    {
+      "digest": "633456607c26300d7ef3e262255e2f7b782f6308d3c2174d8f30eb2ec6bd9994",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cpp-pro/skills/cpp-pro/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/development/cpp-pro/resources/implementation-playbook.md",
+      "size": 1255
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "05e112f778ac9a28aadc1756988a451f66778b749e74878844dcee02ac676560",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/cpp-pro",
+  "schema_version": 1
+}

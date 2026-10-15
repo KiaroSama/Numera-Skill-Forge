@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-claude-code-sessions/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d170e390288bef7835b3a216fce054159f5d4a306dda0bbb74aa0f0105919eb0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-claude-code-sessions/skills/claude-code-sessions/SKILL.md",
+      "path": "cli-tool/components/skills/productivity/claude-code-sessions/SKILL.md",
+      "size": 3167
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e3e013afd31d5c397fd554fcfd1a79e482cb7f78548026e3d6e0c6336c181cae",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/productivity/claude-code-sessions",
+  "schema_version": 1
+}

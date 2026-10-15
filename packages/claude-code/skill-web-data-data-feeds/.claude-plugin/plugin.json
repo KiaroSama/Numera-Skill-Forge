@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-data/data-feeds",
+  "license": "MIT",
+  "name": "skill-web-data-data-feeds",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

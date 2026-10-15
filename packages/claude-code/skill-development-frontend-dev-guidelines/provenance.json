@@ -1,0 +1,96 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "646f2fb6e25cef87f39de43363f0962d92b3c39f53ffd881fb7959e1338a4ae0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/SKILL.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/SKILL.md",
+      "size": 11328
+    },
+    {
+      "digest": "c20826095408922100efb884dc861d1facaa0d2658fd6ec925e66874e2f2fd66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/common-patterns.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/common-patterns.md",
+      "size": 8369
+    },
+    {
+      "digest": "f77cebe741efa7b5bc6e1b2be0cb52df2538df778128d8341e4353456c9be0c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/complete-examples.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/complete-examples.md",
+      "size": 24524
+    },
+    {
+      "digest": "3732ee17b422ef683430adeb5c680dee6d3cc8bb2d51bd50099abbf32f1cb65f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/component-patterns.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/component-patterns.md",
+      "size": 10804
+    },
+    {
+      "digest": "052ca2bd77244bbd7d11dfebe17b1b21212019fa49e1bc2a786ffa0bf80bc675",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/data-fetching.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/data-fetching.md",
+      "size": 19817
+    },
+    {
+      "digest": "d7f8d790d2066d2435573a63df76aa4668b9b5904a48daa36fac5e23c068b52b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/file-organization.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/file-organization.md",
+      "size": 11871
+    },
+    {
+      "digest": "705c5d479704f26bde728f7cccf2cc9b99b926b0fdc8ff2b1e4cbe0a14066330",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/loading-and-error-states.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/loading-and-error-states.md",
+      "size": 12036
+    },
+    {
+      "digest": "8041c56c985c6cc84356de29ed7cdd5f22e183ae22e782cd9b82ddad70de8e18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/performance.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/performance.md",
+      "size": 9639
+    },
+    {
+      "digest": "1f2d4eeaa9f547db3cdcdff4160b868eaef8436b6f726e1e8597d1504e57bbb7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/routing-guide.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/routing-guide.md",
+      "size": 7193
+    },
+    {
+      "digest": "165cef2825f61bd981f8d23e102d8453a831cec8e1fb57e4c23e823962bb46fd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/styling-guide.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/styling-guide.md",
+      "size": 7905
+    },
+    {
+      "digest": "8c15b5d7822e182a795e24d08950c1ae9910cba2e31d42542584e2bf549d96a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-frontend-dev-guidelines/skills/frontend-dev-guidelines/resources/typescript-standards.md",
+      "path": "cli-tool/components/skills/development/frontend-dev-guidelines/resources/typescript-standards.md",
+      "size": 8439
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e409e59776b82fccf862fcff793ecb4e67d1e5d70728c178049f6b9cbef900ef",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/frontend-dev-guidelines",
+  "schema_version": 1
+}

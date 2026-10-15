@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-cf-crawl/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1f22793a3890b5c6c708819d4a96526185637bf13453c8d9478418b96cdd7ed2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-cf-crawl/skills/cf-crawl/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/cf-crawl/SKILL.md",
+      "size": 10547
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6577ad2fa2799ac15797ff97757690bc178d1beef113a767145b855e16c8d147",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/cf-crawl",
+  "schema_version": 1
+}

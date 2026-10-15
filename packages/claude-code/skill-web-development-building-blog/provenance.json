@@ -1,0 +1,40 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-building-blog/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1880a673731a27dd5aa01adbfface6829a2341eb35c05141ceeb9d1b7df1c76c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-building-blog/skills/building-blog/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/building-blog/SKILL.md",
+      "size": 3796
+    },
+    {
+      "digest": "4700b6a5994edf4d660afbd6978b6b0bf55fb1b167cf6b647f364d80b5cfdd83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-building-blog/skills/building-blog/blog-image-style-guide.md",
+      "path": "cli-tool/components/skills/web-development/building-blog/blog-image-style-guide.md",
+      "size": 12712
+    },
+    {
+      "digest": "afad3e866b08c773d0369fb3f65b6f201d2e6681de53a269ef66087a75bf0a1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-building-blog/skills/building-blog/blog-technical-requirements.md",
+      "path": "cli-tool/components/skills/web-development/building-blog/blog-technical-requirements.md",
+      "size": 62439
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3748e5d9a71f8de825dee11a7e10063084c20c09f4a69e510f705b26e7855ef0",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/building-blog",
+  "schema_version": 1
+}

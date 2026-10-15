@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: Xquik-dev/x-twitter-scraper at 37f076b8758ab1757c70c7e577e1e01caeca2cf9/skills/x-twitter-scraper. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution. Upstream limitations: Selected upstream standalone condensed guide, all links to omitted original companions removed by upstream. MIT permits adaptation; retained original Xquik grant. No service execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "591a93ca295f08caf49f4417eef0a085bb64d4b208ba8f186e0f0f027aebd4b5",
+      "license": "MIT",
+      "path": "registry/licenses/591a93ca295f08caf49f4417eef0a085bb64d4b208ba8f186e0f0f027aebd4b5.txt",
+      "source": "https://github.com/Xquik-dev/x-twitter-scraper/blob/37f076b8758ab1757c70c7e577e1e01caeca2cf9/LICENSE"
+    }
+  ]
+}

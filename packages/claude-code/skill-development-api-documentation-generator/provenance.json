@@ -1,0 +1,26 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-documentation-generator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "4b4c6a6728108792e224ecc5a36c52c08248cdd10eda7731891aa82ae5d6aebb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-api-documentation-generator/skills/api-documentation-generator/SKILL.md",
+      "path": "cli-tool/components/skills/development/api-documentation-generator/SKILL.md",
+      "size": 11185
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "286bcfff0f3d5de31bacd2704500181da49bd35bab4dba84cf5c20c4787f57f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/api-documentation-generator",
+  "schema_version": 1
+}

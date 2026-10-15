@@ -1,0 +1,82 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8af4cb73017dcb66533c493fa5d857a502b5526de1b86838cc4949db603ab9f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/SKILL.md",
+      "path": "cli-tool/components/skills/development/bleu/SKILL.md",
+      "size": 35754
+    },
+    {
+      "digest": "a39a96fda9f481a741b87a8b201e6bb0695c8a1286cc93d6378e34b2bb73aa45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/action-point-template.md",
+      "path": "cli-tool/components/skills/development/bleu/references/action-point-template.md",
+      "size": 6071
+    },
+    {
+      "digest": "cf3891db755212095b175e10a626036013faf8333005199d38fd2b2352fbde6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/advanced-architecture.md",
+      "path": "cli-tool/components/skills/development/bleu/references/advanced-architecture.md",
+      "size": 44996
+    },
+    {
+      "digest": "7d23a7930a747002536388ab3607a4f05e8a29eabdd70eb160595287cd52faa9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/claude-code-integration.md",
+      "path": "cli-tool/components/skills/development/bleu/references/claude-code-integration.md",
+      "size": 35014
+    },
+    {
+      "digest": "95e181572a2d9535b7ec3f8846de5dcb71298c1a010a4bd0fc1a00386b7d96a2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/handoff-formats.md",
+      "path": "cli-tool/components/skills/development/bleu/references/handoff-formats.md",
+      "size": 17848
+    },
+    {
+      "digest": "91ce27949b5fc86097cf4cbed20db890d4d82f8c5d16226e50905f442ccdbebc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/knowledge-base-pattern.md",
+      "path": "cli-tool/components/skills/development/bleu/references/knowledge-base-pattern.md",
+      "size": 14716
+    },
+    {
+      "digest": "40dd4c1caf5101e9e7e96423abf692d31e516c72c2e66dfd91d6b389d2f8628c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/landscape-research.md",
+      "path": "cli-tool/components/skills/development/bleu/references/landscape-research.md",
+      "size": 64384
+    },
+    {
+      "digest": "f9016049a666238a99ae49cccc054f08bafa973300c4db048b259ca747563d81",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/research-and-citations.md",
+      "path": "cli-tool/components/skills/development/bleu/references/research-and-citations.md",
+      "size": 6506
+    },
+    {
+      "digest": "0e86949a89083332ce66e419886fd83b008444e0d3c8ff4a4c67039fb6afc952",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-bleu/skills/bleu/references/session-persistence.md",
+      "path": "cli-tool/components/skills/development/bleu/references/session-persistence.md",
+      "size": 19310
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "72982ba4018cf25fee5637f75097d10d4566bb8c9361346975a0ecc6ec35d244",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/bleu",
+  "schema_version": 1
+}

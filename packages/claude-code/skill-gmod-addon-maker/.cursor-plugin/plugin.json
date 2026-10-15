@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/gmod-addon-maker",
+  "license": "MIT",
+  "name": "skill-gmod-addon-maker",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

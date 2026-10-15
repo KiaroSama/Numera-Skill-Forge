@@ -1,0 +1,103 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7698edb57ccbaf005b73ab22a7785a432c5862490458067e77ed8089ac2bc370",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/SKILL.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/SKILL.md",
+      "size": 8159
+    },
+    {
+      "digest": "be5bb30a597dd7b5b3fa15233864ce4e4d7aa8076c73e2464eab4f77fe192721",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/architecture-overview.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/architecture-overview.md",
+      "size": 12866
+    },
+    {
+      "digest": "a5ea3f9e5366157513aa270e4adb917e961a05912528382244d9945099e8eed8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/async-and-errors.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/async-and-errors.md",
+      "size": 6862
+    },
+    {
+      "digest": "7101fb21366848bf919f79a1e58e070e73819bc1e62db553a05ade17d5a19dce",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/complete-examples.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/complete-examples.md",
+      "size": 16478
+    },
+    {
+      "digest": "46779dd13ad3fc3834a875d5899a5ca4f8460526dfd9e07661d03c1857e905af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/configuration.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/configuration.md",
+      "size": 5816
+    },
+    {
+      "digest": "9b19c9736854c5487a0d65ef1ceb3f23259085cbe00f361c1542d325b90c7ca9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/database-patterns.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/database-patterns.md",
+      "size": 4937
+    },
+    {
+      "digest": "a9f3f36fe719cdddb86ec62363421e8e2f555659cce34aae3af0f297ac9b07e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/middleware-guide.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/middleware-guide.md",
+      "size": 5169
+    },
+    {
+      "digest": "7ac61a6e85460ba01a681eac71183c5ca7bcf69e78a16cee5fe3d9f6cf01989a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/routing-and-controllers.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/routing-and-controllers.md",
+      "size": 19930
+    },
+    {
+      "digest": "5fffb34350941963c19841c53c2380e65d90e08c9c3783f50666e00fec502d63",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/sentry-and-monitoring.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/sentry-and-monitoring.md",
+      "size": 7753
+    },
+    {
+      "digest": "21a28accc70f40496b2509a56946e9b0ac670fdaeab347b19975d201aff737c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/services-and-repositories.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/services-and-repositories.md",
+      "size": 22299
+    },
+    {
+      "digest": "7e9bb903cd0972f2e218216aa58cf8d0e8ec4b408cb6471862be67bbb3bf0c6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/testing-guide.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/testing-guide.md",
+      "size": 5420
+    },
+    {
+      "digest": "a3f0d9f5b62a14d51a3ab7841482ebfabe944b62ae2e5431ff7a0e6bb4e6c192",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-backend-dev-guidelines/skills/backend-dev-guidelines/resources/validation-patterns.md",
+      "path": "cli-tool/components/skills/development/backend-dev-guidelines/resources/validation-patterns.md",
+      "size": 18038
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b9010336ce75e7c651174610bfcc31717fda5fe8f80bda41a22a1c8493e434cb",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/backend-dev-guidelines",
+  "schema_version": 1
+}

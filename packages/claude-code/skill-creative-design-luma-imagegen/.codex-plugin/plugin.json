@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/luma-imagegen",
+  "license": "MIT",
+  "name": "skill-creative-design-luma-imagegen",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/web-development/firecrawl-scraper",
+  "license": "MIT",
+  "name": "skill-web-development-firecrawl-scraper",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

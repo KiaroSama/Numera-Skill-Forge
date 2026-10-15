@@ -1,0 +1,33 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-native-architecture/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "8c078f2d6fa9b4466f3f32b8dca2cb60012dfd8eb25ebda27c42650235208682",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-native-architecture/skills/react-native-architecture/SKILL.md",
+      "path": "cli-tool/components/skills/web-development/react-native-architecture/SKILL.md",
+      "size": 1215
+    },
+    {
+      "digest": "eb9e1b7a436c2299de89e09610b4bc04b744fe522835865285989df148e6cd38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-native-architecture/skills/react-native-architecture/resources/implementation-playbook.md",
+      "path": "cli-tool/components/skills/web-development/react-native-architecture/resources/implementation-playbook.md",
+      "size": 17048
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b74297fb070f64620069d99633eba7f10426fa9d0e466b1328c3502e679274f1",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/web-development/react-native-architecture",
+  "schema_version": 1
+}

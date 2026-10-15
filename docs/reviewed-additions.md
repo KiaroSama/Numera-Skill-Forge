@@ -140,3 +140,8 @@ coexist: no package-level MIT label overrides the separate original or intermedi
 | `security/red-team-tactics` | [skill-security-red-team-tactics](../packages/claude-code/skill-security-red-team-tactics) |
 | `security/vulnerability-scanner` | [skill-security-vulnerability-scanner](../packages/claude-code/skill-security-vulnerability-scanner) |
 | `utilities/geo-fundamentals` | [skill-utilities-geo-fundamentals](../packages/claude-code/skill-utilities-geo-fundamentals) |
+
+## Subsequent complete remaining-root review
+
+See [all299 outcomes](remaining-skill-disposition.md):164 additional complete packages accepted,
+135 with concrete blockers. This does not change the earlier116-package milestone above.

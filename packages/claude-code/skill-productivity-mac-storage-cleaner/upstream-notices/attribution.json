@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: JubaKitiashvili/mac-storage-cleaner at 79f350edee72759b5c599e79b7b42793a1608d3b/skills/mac-storage-cleaner. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Retain exact original grants and copyright; no blanket relicensing. Keep source links and any original adaptation declaration. No upstream code execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "1f031da8cf42fa297d9148bf7fa790eeaf381f2325fa17a417fde7fffd504a75",
+      "license": "MIT",
+      "path": "registry/licenses/1f031da8cf42fa297d9148bf7fa790eeaf381f2325fa17a417fde7fffd504a75.txt",
+      "source": "https://github.com/JubaKitiashvili/mac-storage-cleaner/blob/79f350edee72759b5c599e79b7b42793a1608d3b/LICENSE"
+    }
+  ]
+}

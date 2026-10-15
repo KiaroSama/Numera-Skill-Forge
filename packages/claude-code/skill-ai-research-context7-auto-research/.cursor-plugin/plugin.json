@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/ai-research/context7-auto-research",
+  "license": "MIT",
+  "name": "skill-ai-research-context7-auto-research",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

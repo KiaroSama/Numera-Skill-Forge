@@ -1,0 +1,18 @@
+{
+  "attribution": "Original source: cocoindex-io/cocoindex-claude at 589674c365262270299bb11b6fd6c08635d10ff7/cocoindex. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Preserve actual original full license, copyright and supplied attribution. Exact complete payload source comparison performed, no runtime execution. All five accepted CocoIndex blobs byte-identical original, no section4b modification requirement triggered; root Apache full grant supplied, no NOTICE present in nontruncated12entry source tree. Upstream limitations: {\"runtime_tested\": false}",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+      "source": "https://github.com/cocoindex-io/cocoindex-claude/blob/589674c365262270299bb11b6fd6c08635d10ff7/LICENSE"
+    },
+    {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt",
+      "source": "https://github.com/apache/.github/blob/66951150d5f712b03655139a4383a08b9b0cb2c6/LICENSE"
+    }
+  ]
+}
