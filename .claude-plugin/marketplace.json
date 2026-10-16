@@ -5673,6 +5673,60 @@
       "name": "skill-newliver666-apk-reverse",
       "source": "./packages/claude-code/skill-newliver666-apk-reverse",
       "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/composition-patterns",
+      "name": "skill-vercel-composition-patterns",
+      "source": "./packages/claude-code/skill-vercel-composition-patterns",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/deploy-to-vercel",
+      "name": "skill-vercel-deploy-to-vercel",
+      "source": "./packages/claude-code/skill-vercel-deploy-to-vercel",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/react-best-practices",
+      "name": "skill-vercel-react-best-practices",
+      "source": "./packages/claude-code/skill-vercel-react-best-practices",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/react-native-skills",
+      "name": "skill-vercel-react-native-skills",
+      "source": "./packages/claude-code/skill-vercel-react-native-skills",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/react-view-transitions",
+      "name": "skill-vercel-react-view-transitions",
+      "source": "./packages/claude-code/skill-vercel-react-view-transitions",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/vercel-cli-with-tokens",
+      "name": "skill-vercel-vercel-cli-with-tokens",
+      "source": "./packages/claude-code/skill-vercel-vercel-cli-with-tokens",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/vercel-optimize",
+      "name": "skill-vercel-vercel-optimize",
+      "source": "./packages/claude-code/skill-vercel-vercel-optimize",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/web-design-guidelines",
+      "name": "skill-vercel-web-design-guidelines",
+      "source": "./packages/claude-code/skill-vercel-web-design-guidelines",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/writing-guidelines",
+      "name": "skill-vercel-writing-guidelines",
+      "source": "./packages/claude-code/skill-vercel-writing-guidelines",
+      "version": "1.0.0"
     }
   ]
 }

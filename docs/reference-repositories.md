@@ -3,3 +3,5 @@
 - https://github.com/morluto/rea
 - https://github.com/newliver666/apk-reverse
 - https://github.com/K-Dense-AI/scientific-agent-skills
+- https://github.com/vercel-labs/agent-skills
+- https://github.com/voltagent/awesome-design-md

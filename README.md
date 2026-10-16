@@ -103,7 +103,7 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **945 packages**. K-Dense original names,
+contains **954 packages**. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.
@@ -117,6 +117,24 @@ This collection has its own source/update identity. Scientific dependencies, clo
 credentials, datasets and GPU tools are not installed or executed by Forge. Packages with matching
 original names from different sources remain distinct; a conflicting standalone installation refuses
 rather than overwriting the other source. Packaging is not scientific or clinical validation.
+
+## Vercel skills and design references
+
+All **nine original Vercel skills** are included from reviewed revision `063bee94`, as
+`skill-vercel-<source-directory>` packages: composition patterns, deployment, React best practices,
+React Native, View Transitions, CLI tokens, optimization, web design guidelines and writing guidelines.
+Their **304 original files**, including the deployment archive and all companions, retain exact bytes
+and nine executable modes. The previous 945 package records remain unchanged. For example:
+
+```bash
+claude plugin install skill-vercel-react-best-practices@numera-skill-forge
+```
+
+The [VoltAgent DESIGN.md collection](https://github.com/voltagent/awesome-design-md) is listed as a
+**reference library**, not installed as skills: its reviewed revision contains 84 design documents
+and no `SKILL.md` entrypoints. Forge does not invent wrappers or copy branded layouts. Its MIT
+source-document license does not grant third-party font, logo or visual-identity rights.
+See [source details and limits](docs/source-licenses.md#vercel-original-skills-and-voltagent-references).
 
 ## Other hosts: native catalogs and standalone skills
 

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/web-design-guidelines",
+  "license": "MIT",
+  "name": "skill-vercel-web-design-guidelines",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,1104 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "922a35993ffd98c923d61fa3d7a722bc1bc17466ea1e0b5828f67de21fbb0e7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/AGENTS.md",
+      "path": "skills/vercel-optimize/AGENTS.md",
+      "size": 1964
+    },
+    {
+      "digest": "4a3c6695f23ada3228582f1062509545dbad485e5011434c12b7ddd81bf1370a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/CONTRIBUTING.md",
+      "path": "skills/vercel-optimize/CONTRIBUTING.md",
+      "size": 2224
+    },
+    {
+      "digest": "4ebb0ae7c6a2c8cfe7ed8ad26a6bee0be99d8682be331d9d28c1cb81ad3718d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/README.md",
+      "path": "skills/vercel-optimize/README.md",
+      "size": 4471
+    },
+    {
+      "digest": "95ae2683b30d892d165af92a350c5628b68106f395a59b448857b654e306ed91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/SKILL.md",
+      "path": "skills/vercel-optimize/SKILL.md",
+      "size": 17311
+    },
+    {
+      "digest": "c06a222bccd2c57b418b1d935d73f5b81297dac8533c004ec5bb4027cec3307a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/auth-route.mjs",
+      "path": "skills/vercel-optimize/lib/auth-route.mjs",
+      "size": 807
+    },
+    {
+      "digest": "8662a2914940b8c548be164c09ce7706ea261549fb61147d2a7a13af1e3337cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/budget-summary.mjs",
+      "path": "skills/vercel-optimize/lib/budget-summary.mjs",
+      "size": 7145
+    },
+    {
+      "digest": "41a1bafa7addc4b39d144491f178a159cc23ff779b4803f2c152fe579209b384",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/citations.mjs",
+      "path": "skills/vercel-optimize/lib/citations.mjs",
+      "size": 4029
+    },
+    {
+      "digest": "483b0f03f5db08e15388e1c047ffad414bb132bb3ce48418defc0d9a70a20e44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/cost-coverage.mjs",
+      "path": "skills/vercel-optimize/lib/cost-coverage.mjs",
+      "size": 8628
+    },
+    {
+      "digest": "5fc631c1f56eea8bf8c59afb773511d9a8f42d29574fa14f03abb60c881206cc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/dedup-recs.mjs",
+      "path": "skills/vercel-optimize/lib/dedup-recs.mjs",
+      "size": 10151
+    },
+    {
+      "digest": "c86c5ed224c00c2e72a54eef16260b8e7237302a7e69e47310077eae7f65ced1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/deep-dive.mjs",
+      "path": "skills/vercel-optimize/lib/deep-dive.mjs",
+      "size": 10458
+    },
+    {
+      "digest": "e56e54a0e19ed3ed4f45112cb358c1df5a77caa7411f5c2267c73064f64d1b08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/display-labels.mjs",
+      "path": "skills/vercel-optimize/lib/display-labels.mjs",
+      "size": 7611
+    },
+    {
+      "digest": "a3f44334dad0ba743699860d6b83a06e38c7e465f73418749822cf00d563ee2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/extract-claims.mjs",
+      "path": "skills/vercel-optimize/lib/extract-claims.mjs",
+      "size": 19136
+    },
+    {
+      "digest": "ed8ef73604d5bd91f4aea6fb0de465079474e00299c23bbdba8b04dd70545364",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/framework-support.mjs",
+      "path": "skills/vercel-optimize/lib/framework-support.mjs",
+      "size": 2126
+    },
+    {
+      "digest": "c088ab1f91af8b4e86e8f3f3210c7b625757a3699bd5818c905f66ade92064b1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/build-minutes-fanout.mjs",
+      "path": "skills/vercel-optimize/lib/gates/build-minutes-fanout.mjs",
+      "size": 3016
+    },
+    {
+      "digest": "40023aae34ebc37df1382c7c4c00efc3864b2c11a8c9ee8cf05f371762680300",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cold-start.mjs",
+      "path": "skills/vercel-optimize/lib/gates/cold-start.mjs",
+      "size": 2797
+    },
+    {
+      "digest": "e0bd012b53b6a70684279a3ad58598f5a1f79698d0e521d0e9d0994e87b3ae65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/contract.mjs",
+      "path": "skills/vercel-optimize/lib/gates/contract.mjs",
+      "size": 3143
+    },
+    {
+      "digest": "17ab4ae24b5d0220d941215db8544bed68c1af02e6d5d7aba4ff077a46675fbb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cwv-poor.mjs",
+      "path": "skills/vercel-optimize/lib/gates/cwv-poor.mjs",
+      "size": 3372
+    },
+    {
+      "digest": "12ce4f0cf906e5631170a58307758f095069d3051c16f64ddeec00bb99a66dc9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/external-api-slow.mjs",
+      "path": "skills/vercel-optimize/lib/gates/external-api-slow.mjs",
+      "size": 2173
+    },
+    {
+      "digest": "b31d94495e20721b8ce825bde073ba9a32c14063b0cc711e23e2582fb0ebd677",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/hard-gates.mjs",
+      "path": "skills/vercel-optimize/lib/gates/hard-gates.mjs",
+      "size": 2543
+    },
+    {
+      "digest": "d473dfce777f68430d2b68836efb184152a59da97d3b06d37a6f618c7d4c59a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/index.mjs",
+      "path": "skills/vercel-optimize/lib/gates/index.mjs",
+      "size": 2066
+    },
+    {
+      "digest": "333d2dc8523d5850fddb5c13cd78fe62c0838ffd627c41b374804dca26cc63c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/isr-overrevalidation.mjs",
+      "path": "skills/vercel-optimize/lib/gates/isr-overrevalidation.mjs",
+      "size": 2442
+    },
+    {
+      "digest": "1ad98bc73be97254d6131707ed93c72262c071e54ce071a392549df33d0d7ae7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/middleware-heavy.mjs",
+      "path": "skills/vercel-optimize/lib/gates/middleware-heavy.mjs",
+      "size": 2085
+    },
+    {
+      "digest": "8e465217257c771c0be8580c1b9abcf1defd26e5a70c9559dc10f4cc45527c52",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/observability-events-attribution.mjs",
+      "path": "skills/vercel-optimize/lib/gates/observability-events-attribution.mjs",
+      "size": 2255
+    },
+    {
+      "digest": "0124cd71876616f7de741d962ff4cbcb79a78654a3026372a18195e2ff99294b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-bot-protection.mjs",
+      "path": "skills/vercel-optimize/lib/gates/platform-bot-protection.mjs",
+      "size": 5089
+    },
+    {
+      "digest": "de81279134bef9499f1cbe2f38d06bb5caa968daa5438f09c9bad0d2f27efa96",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-fluid-compute.mjs",
+      "path": "skills/vercel-optimize/lib/gates/platform-fluid-compute.mjs",
+      "size": 3630
+    },
+    {
+      "digest": "0b3976cd50a9fb54601c60ad27c62b64aa7a4eeb338af4226b618ae1d5a9cc4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/region-misconfig.mjs",
+      "path": "skills/vercel-optimize/lib/gates/region-misconfig.mjs",
+      "size": 3101
+    },
+    {
+      "digest": "a32a29b683557409b351da84e45ab316818f8a90c5af380ba7efc5366c03129f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/route-errors.mjs",
+      "path": "skills/vercel-optimize/lib/gates/route-errors.mjs",
+      "size": 3101
+    },
+    {
+      "digest": "485313169d009ded7bdb1e4083150919e77eb4373aff0252cd5c0c235f2e8f3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/scanner-driven.mjs",
+      "path": "skills/vercel-optimize/lib/gates/scanner-driven.mjs",
+      "size": 5191
+    },
+    {
+      "digest": "bde0714be600905caaaa99991d37c31df9e6775b8a107ee2df5eb63ffa9d1e11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/select-candidates.mjs",
+      "path": "skills/vercel-optimize/lib/gates/select-candidates.mjs",
+      "size": 4703
+    },
+    {
+      "digest": "b0d330e4244bd3d2e240f6398ead4b235bb69b72fe585771cde4f11ae8726148",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/slow-route.mjs",
+      "path": "skills/vercel-optimize/lib/gates/slow-route.mjs",
+      "size": 4384
+    },
+    {
+      "digest": "097ea533204446ccc18798fc01656577df8b864c24b0eda4c66ebc913fa36f31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/types.d.ts",
+      "path": "skills/vercel-optimize/lib/gates/types.d.ts",
+      "size": 893
+    },
+    {
+      "digest": "c4f89fa083f13a9360dd5ec6b45b39db3f480c797193c590bf131f53463388cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/uncached-route.mjs",
+      "path": "skills/vercel-optimize/lib/gates/uncached-route.mjs",
+      "size": 3963
+    },
+    {
+      "digest": "b8f84b57fe9d41323467c765ef9da4893b0cac6eee31603179cd8cb77ffd7be3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/usage-spike-triage.mjs",
+      "path": "skills/vercel-optimize/lib/gates/usage-spike-triage.mjs",
+      "size": 5095
+    },
+    {
+      "digest": "e06008677dd1c6a27d767636356b6a68f357a3122b57adca3238bd2ca7576c38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/grade-recommendation.mjs",
+      "path": "skills/vercel-optimize/lib/grade-recommendation.mjs",
+      "size": 6887
+    },
+    {
+      "digest": "4d55baae79025bfa43b829ff291019bb6a1f6d015c72dd44612d8e3afeb60b9f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-label.mjs",
+      "path": "skills/vercel-optimize/lib/impact-label.mjs",
+      "size": 5344
+    },
+    {
+      "digest": "a87cec394f9d853da43e633e8ce2cb9f1f62fb2ae7dd6a58f542a5e7024b2c5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-magnitude.mjs",
+      "path": "skills/vercel-optimize/lib/impact-magnitude.mjs",
+      "size": 2172
+    },
+    {
+      "digest": "f41d9354992fb5c7904b8faa1ad1fa457f8b69533d2113ec9c38192c227bf0c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/investigation-brief.mjs",
+      "path": "skills/vercel-optimize/lib/investigation-brief.mjs",
+      "size": 35165
+    },
+    {
+      "digest": "540a4c49f10ceab570513f2834b7fbd88b2090c85690ed0f8b5c5bf0e623badd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/observation-safety.mjs",
+      "path": "skills/vercel-optimize/lib/observation-safety.mjs",
+      "size": 9486
+    },
+    {
+      "digest": "d8b508d1077fdb4bcf5c2f267750cb4a6ca529811eecdadb10f9e632e304f30b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/project-facts.mjs",
+      "path": "skills/vercel-optimize/lib/project-facts.mjs",
+      "size": 4399
+    },
+    {
+      "digest": "a747292c7bbc69a245799f846c6d081df44506c5c8e3d245b610c0f32edcea69",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/queries.mjs",
+      "path": "skills/vercel-optimize/lib/queries.mjs",
+      "size": 10338
+    },
+    {
+      "digest": "4e02dbc4fba1834192f018b05e9d42723fda13dbecf26a7cc09eacbfe1925b75",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/reconcile-candidates.mjs",
+      "path": "skills/vercel-optimize/lib/reconcile-candidates.mjs",
+      "size": 15966
+    },
+    {
+      "digest": "35068fb5df2f2b9a89cabf40e050c40da5d8fadeec33cdbd47c8fc995677a127",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/render-report.mjs",
+      "path": "skills/vercel-optimize/lib/render-report.mjs",
+      "size": 39131
+    },
+    {
+      "digest": "77ce8277fa444dea77cb10c17e7a0d2db98a6cbea6e2df0fa2ff01372b52eb0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/repo-root.mjs",
+      "path": "skills/vercel-optimize/lib/repo-root.mjs",
+      "size": 3135
+    },
+    {
+      "digest": "a2e39b3f653695392f096c1b385e31a9b1452714de4908c1d0e6604626274b5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/route-normalize.mjs",
+      "path": "skills/vercel-optimize/lib/route-normalize.mjs",
+      "size": 8590
+    },
+    {
+      "digest": "2edac6df3f4565ec7d2f784db7e660767f8a213bfe9f55f6da14f2517f4a071a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/bot-protection-certainty.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/bot-protection-certainty.mjs",
+      "size": 1988
+    },
+    {
+      "digest": "31aec0481e996fd2a9a546c792ff17223747c850806405b2ee3cb95c40e296c0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/cache-tag-invalidation-certainty.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/cache-tag-invalidation-certainty.mjs",
+      "size": 1522
+    },
+    {
+      "digest": "cf427876a8c64d9591d89da727a2d4cec9dc0dcd717ffba3f82be52c38c73de3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/count-correct.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/count-correct.mjs",
+      "size": 1956
+    },
+    {
+      "digest": "c745bc90e67722f8584d3d426f28ccc4701504a635dd966cdb8f487ee79eb7b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/function-duration-invocations.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/function-duration-invocations.mjs",
+      "size": 1470
+    },
+    {
+      "digest": "99babb880c7d5e7ac209e7eb1bf26f2ae9ac5a795062d01e15d76c57055247bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/index.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/index.mjs",
+      "size": 3053
+    },
+    {
+      "digest": "89fae25e31662ed7f31fef973e7b969271fc061839112adabf253a3e87380b97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/middleware-conflict.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/middleware-conflict.mjs",
+      "size": 1586
+    },
+    {
+      "digest": "431ec0944239d4477556a23808733298ecd5bdfb4a810ab887b83f0266eb5904",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/missing-citation.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/missing-citation.mjs",
+      "size": 497
+    },
+    {
+      "digest": "dce1475fd392d245bd4a48e1280c2f0a00fc4dea96cd9f40e4d260fdc0bf5940",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/pre-release.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/pre-release.mjs",
+      "size": 2224
+    },
+    {
+      "digest": "42b2a3ecb07443ab5aeb881ab6dea31a92f767b73697fd0529e877084657629c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rate-limit.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/rate-limit.mjs",
+      "size": 2655
+    },
+    {
+      "digest": "410c60d8f71250d8b443384098f02869e7a1b4d9dcb3e3ca384ca3b875648788",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rendering-mode-mislabel.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/rendering-mode-mislabel.mjs",
+      "size": 1670
+    },
+    {
+      "digest": "bc2a483311a2c44103b15d9498b5d303101724454c114907d23de6d7725e8769",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/undeclared-dep.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/undeclared-dep.mjs",
+      "size": 2833
+    },
+    {
+      "digest": "b94a6fcd0a03358dcb853b04a392b0946d8a07d8619e86b562b8b38a6cffac85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/vercel-directive-strip.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/vercel-directive-strip.mjs",
+      "size": 1460
+    },
+    {
+      "digest": "f7823f1c4705166c313107571f048fd4e7fa160cb982dcbfe07d936ab4cb5a3b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/window-units.mjs",
+      "path": "skills/vercel-optimize/lib/sanitizers/window-units.mjs",
+      "size": 869
+    },
+    {
+      "digest": "ca4c643a30b76df0e8728f8b8854167483f746a9d45aafb467c3bec9125b7878",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/cache-components-suspense-dedupe.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/cache-components-suspense-dedupe.mjs",
+      "size": 4367
+    },
+    {
+      "digest": "0faacf202542cc6ea37290377a61e9c34a84d3d9439822cd7df09d450ff663a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/edge-heavy-import.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/edge-heavy-import.mjs",
+      "size": 3740
+    },
+    {
+      "digest": "5f378119f8e6d1961cde57dcd6ccd193cc4a9713068d4828ca4eee724b15095d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/force-dynamic.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/force-dynamic.mjs",
+      "size": 1586
+    },
+    {
+      "digest": "84f72dcd79631561fa54f6a5128337b6b9317bc9b7c720b709078cf0c2758e7d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/headers-in-page.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/headers-in-page.mjs",
+      "size": 1537
+    },
+    {
+      "digest": "9443d7e055a4b8368973c027b739742bbf5e98de4dbc5078c4cd7fb2677aeeb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/index.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/index.mjs",
+      "size": 1458
+    },
+    {
+      "digest": "5ee29065ae96b7aff236dd3ea9766765a7c48e1bd95008e261837ae42932b783",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/large-static-asset.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/large-static-asset.mjs",
+      "size": 3279
+    },
+    {
+      "digest": "ec722b65530f428232f2b501f5f52e427cd7218c51cceb4783b5f7b03c3ad577",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/max-age-without-s-maxage.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/max-age-without-s-maxage.mjs",
+      "size": 1629
+    },
+    {
+      "digest": "e41e07c4fb8d0b6776e5f27609e719ae42c1644b7adcfa2dc1abc90a511c0492",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/middleware-broad-matcher.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/middleware-broad-matcher.mjs",
+      "size": 1986
+    },
+    {
+      "digest": "cc4ccea4c4f1d8594a97b18ca39b5212060faa3306dccdea0b2c7645d3f3cf8a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/missing-cache-headers.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/missing-cache-headers.mjs",
+      "size": 3922
+    },
+    {
+      "digest": "ab107e2732ca1873b4e4ce974e9c08b6ebde83a8f96675b96087213b16aa901e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/prisma-include-tree.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/prisma-include-tree.mjs",
+      "size": 1585
+    },
+    {
+      "digest": "906f33c344c98910f1148c86a9c5cd5cfbaf84cc8c06d02e3eb257ecd639b0d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/region-pin-in-config.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/region-pin-in-config.mjs",
+      "size": 3448
+    },
+    {
+      "digest": "f9ab9cf88a22a4c0fa32f73ac39243b6f61a868b81ca55f804d8c33a9341013c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/source-maps-production.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/source-maps-production.mjs",
+      "size": 1300
+    },
+    {
+      "digest": "ff5380fa9d8a3e77d8ff430e1b7866a0890b50d163bcc2a599f0b30238947999",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/sveltekit-prerender-missing.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/sveltekit-prerender-missing.mjs",
+      "size": 2127
+    },
+    {
+      "digest": "b84a7774f18e1ea86cb19335fd41324b89635ccb43b75f31e0218516fd9363d2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/turbo-force-bypass.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/turbo-force-bypass.mjs",
+      "size": 4974
+    },
+    {
+      "digest": "f2049c073b769838e33f6110f8f139cacd1e8b8a01eda1473ebed0a14ec64b4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/unoptimized-image.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/unoptimized-image.mjs",
+      "size": 4516
+    },
+    {
+      "digest": "2d04abd40b888e8c16bccee92dc3423ab86b109551cfab8807367d9cc8ca0878",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/use-cache-date-stamp.mjs",
+      "path": "skills/vercel-optimize/lib/scanners/use-cache-date-stamp.mjs",
+      "size": 4040
+    },
+    {
+      "digest": "c9ac60070df4e6707299da5ab0d72a9853659ddfcfd4dca29f5803ef3ce41840",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/support-topics.mjs",
+      "path": "skills/vercel-optimize/lib/support-topics.mjs",
+      "size": 12836
+    },
+    {
+      "digest": "1d09d586071838152fe28882cd65f508a508ecd99b59187c84f27b908cc18017",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/throttle.mjs",
+      "path": "skills/vercel-optimize/lib/throttle.mjs",
+      "size": 8992
+    },
+    {
+      "digest": "431eb675f0a658e19a1b08cdb064e19f96a62d42a35c5f4d962756c8cf97d523",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/util.mjs",
+      "path": "skills/vercel-optimize/lib/util.mjs",
+      "size": 544
+    },
+    {
+      "digest": "01a7bd818b64bd26143f93e4417f6463199a81c154854e9c60d2fcce3aea2e82",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/vercel.mjs",
+      "path": "skills/vercel-optimize/lib/vercel.mjs",
+      "size": 31125
+    },
+    {
+      "digest": "b7956b5e96e0be7e4ed7a107541d5e4ea11475f9b4e7829c4035769d3a879f71",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/verify-claim.mjs",
+      "path": "skills/vercel-optimize/lib/verify-claim.mjs",
+      "size": 60992
+    },
+    {
+      "digest": "9da10f288418475ab871b5430de38d4b97441794373721844cb540e40986e74c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/workspace-resolver.mjs",
+      "path": "skills/vercel-optimize/lib/workspace-resolver.mjs",
+      "size": 17545
+    },
+    {
+      "digest": "729f7dcb13ebac414d54232e56acaeae4f7ded041947805a0b30a5d8fee59511",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/metadata.json",
+      "path": "skills/vercel-optimize/metadata.json",
+      "size": 903
+    },
+    {
+      "digest": "1e04722b3924a11a774d87abbf35070cdf480ad02c8487f97a3dd69bb46b59af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/candidates.md",
+      "path": "skills/vercel-optimize/references/candidates.md",
+      "size": 8510
+    },
+    {
+      "digest": "dbc013dfc59c29f38f279fbbb422f19d7cc1ba37d17ee02d9c64ea6cb594bd22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/data-collection.md",
+      "path": "skills/vercel-optimize/references/data-collection.md",
+      "size": 20925
+    },
+    {
+      "digest": "287d4dabbb3eab789911a6c2b4aea9ffc57206fa4a8449636358503e32b9542c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/docs-library.json",
+      "path": "skills/vercel-optimize/references/docs-library.json",
+      "size": 31540
+    },
+    {
+      "digest": "4a7eac752141410d134febe786c4b51f4723a55026a5638c38fcb492a1d86df4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/doctrine.md",
+      "path": "skills/vercel-optimize/references/doctrine.md",
+      "size": 9512
+    },
+    {
+      "digest": "86b6f6d5bd7f4b9827f70505705ed0f875a0ef2e2cdb85653f0e09f825393333",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/observability-plus.md",
+      "path": "skills/vercel-optimize/references/observability-plus.md",
+      "size": 5329
+    },
+    {
+      "digest": "9b699bb8d2436b089ced036780cbc108502f3713b15f83440fd042e393487cf3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/README.md",
+      "path": "skills/vercel-optimize/references/playbooks/README.md",
+      "size": 2812
+    },
+    {
+      "digest": "e9e353a3f7d5c576e14893ebb0e1eddaa90ee986f0ef3d9edb3be73a2e947ac9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ai-application.md",
+      "path": "skills/vercel-optimize/references/playbooks/ai-application.md",
+      "size": 3933
+    },
+    {
+      "digest": "f90e2d558ea697dc06f05794ad47770f379e3268321ab8a6a642abd7f2fa7ed3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/api-service.md",
+      "path": "skills/vercel-optimize/references/playbooks/api-service.md",
+      "size": 2485
+    },
+    {
+      "digest": "9d4b1a7d1c6eb6f58e94c5df5dc8264c5bd6c877f045c7c81228924cbadc9d37",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/content-site.md",
+      "path": "skills/vercel-optimize/references/playbooks/content-site.md",
+      "size": 2502
+    },
+    {
+      "digest": "f44707fac676e67de04b7ddb2f78bc806f286cd324d05d990641acef3097a0e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ecommerce.md",
+      "path": "skills/vercel-optimize/references/playbooks/ecommerce.md",
+      "size": 2737
+    },
+    {
+      "digest": "b7e0ed3de01e95f7776891b6a63e0d2929b066c61ccd9b8ac012b42cbc3e4a19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/marketing.md",
+      "path": "skills/vercel-optimize/references/playbooks/marketing.md",
+      "size": 2675
+    },
+    {
+      "digest": "f23b518dd7c369144813f80abe6eba3e762db3b737b3271bb8b887307fcec387",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/saas.md",
+      "path": "skills/vercel-optimize/references/playbooks/saas.md",
+      "size": 2896
+    },
+    {
+      "digest": "32db0a70f1217c2e3f750ef5e5671da54a07a510369307e38877e3fd3ad21767",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/sveltekit.md",
+      "path": "skills/vercel-optimize/references/playbooks/sveltekit.md",
+      "size": 4019
+    },
+    {
+      "digest": "8e65890c1afd942f4bf9dd07ba538b2b9f53a6136ec83e96cc10740c6f8dda87",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/recommendations.md",
+      "path": "skills/vercel-optimize/references/recommendations.md",
+      "size": 10788
+    },
+    {
+      "digest": "e160869045f6456d10bd4f1fdeff76d42d8b3e0c50a7212a607603589798bcaa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scanner-patterns.md",
+      "path": "skills/vercel-optimize/references/scanner-patterns.md",
+      "size": 13671
+    },
+    {
+      "digest": "44a295b6c65ee5c221815149c7fad1adb02c8ac8750d0604a8dfbfe47d04b6d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scoring.md",
+      "path": "skills/vercel-optimize/references/scoring.md",
+      "size": 12505
+    },
+    {
+      "digest": "63e2acd6e221ca52355a5f70ff8d9c3d9704600eb7e176d3cb2f4597ad03db4b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/README.md",
+      "path": "skills/vercel-optimize/references/support-topics/README.md",
+      "size": 1785
+    },
+    {
+      "digest": "80586e0b110749f2cdd6e56635d6cd88082230b9bd11a8e388ec6d3b280bc65d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md",
+      "path": "skills/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md",
+      "size": 1012
+    },
+    {
+      "digest": "6137553e35076795f6c0851b0e93d4686cf937930d35b284567da7c0edfe35ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md",
+      "path": "skills/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md",
+      "size": 1135
+    },
+    {
+      "digest": "34cfd687cc106ef15696b8f1f155c30f635234e29f3c4db087193c3c2c3c4bac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/auth-preserving-parallelization.md",
+      "path": "skills/vercel-optimize/references/support-topics/auth-preserving-parallelization.md",
+      "size": 1203
+    },
+    {
+      "digest": "892d8f32deb5bded86863a513d3799bfd81dc4654ae4fde5a264638cfd86755d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md",
+      "path": "skills/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md",
+      "size": 1119
+    },
+    {
+      "digest": "1f54f0ba4d1b2ab873eb166ca2f1661d39b49e70253dea8ce13a44c2b728ba85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md",
+      "path": "skills/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md",
+      "size": 1269
+    },
+    {
+      "digest": "664a13ced4e985e9b12bdf6730fecccfd79fb715be2998a710068384a0ab4cc0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md",
+      "path": "skills/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md",
+      "size": 1162
+    },
+    {
+      "digest": "212f1bedf49c9a1e7aac7745c5b19f57c486456d5e4ef9037fa9689f51930047",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+      "path": "skills/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+      "size": 1380
+    },
+    {
+      "digest": "5691cd39b3403ef939199c3b9b21e28cb447b2f8d2f6dea6000064e5ef3fdfb5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md",
+      "path": "skills/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md",
+      "size": 1068
+    },
+    {
+      "digest": "98961df48eac648e71c73b7dd53a215ac02af62f0bfbc67a1af335e66b8fb7c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md",
+      "path": "skills/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md",
+      "size": 1159
+    },
+    {
+      "digest": "05d84906be0f1e26787e871c00cd563f18533a7b12d3383c5cb3557fe01ea768",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md",
+      "path": "skills/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md",
+      "size": 1037
+    },
+    {
+      "digest": "83fa0f1a3ff67b9f149ba39432834bba88437dbdf09d6b5e7a5e3b552ceb473e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/database-egress-pooling-region.md",
+      "path": "skills/vercel-optimize/references/support-topics/database-egress-pooling-region.md",
+      "size": 1015
+    },
+    {
+      "digest": "a075a13fc3c40d7d249051519cf2384497a34f3f4a207f757bf4343c3896fd64",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/dynamic-rendering-traps.md",
+      "path": "skills/vercel-optimize/references/support-topics/dynamic-rendering-traps.md",
+      "size": 1139
+    },
+    {
+      "digest": "02a7a7e3ba867973c9e45d565e69349cd44a5bdb9e00e6fbbf9c76edd01516e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path-platform.md",
+      "path": "skills/vercel-optimize/references/support-topics/external-api-critical-path-platform.md",
+      "size": 1145
+    },
+    {
+      "digest": "dade955ceba21150590f8606b993881d6f6b20fef32c147b77ce26d9e9931773",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path.md",
+      "path": "skills/vercel-optimize/references/support-topics/external-api-critical-path.md",
+      "size": 978
+    },
+    {
+      "digest": "d7daca1a05d8f3157aab22b97552247cb0a8f856f08fc49079fd76872f7a50fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md",
+      "path": "skills/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md",
+      "size": 1050
+    },
+    {
+      "digest": "3408a19b49a9723cfac1b461babe56dc414f0f1f7561bd7e6f4f7579ab26a13f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fluid-compute-caveats.md",
+      "path": "skills/vercel-optimize/references/support-topics/fluid-compute-caveats.md",
+      "size": 1125
+    },
+    {
+      "digest": "693c07390d7cf8b4c0a0d0235176a5f452694d1553c33db4fd385f76c94d307d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-duration-io-and-after.md",
+      "path": "skills/vercel-optimize/references/support-topics/function-duration-io-and-after.md",
+      "size": 1027
+    },
+    {
+      "digest": "1e50e0e24299fc08aaf6b81d6673ce24c0bc250883c8ecc76e52d6d1dca989a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-invocation-reduction.md",
+      "path": "skills/vercel-optimize/references/support-topics/function-invocation-reduction.md",
+      "size": 1181
+    },
+    {
+      "digest": "dd5013cf9bd5b3ee7383d3b9835babc6a93b965e07b7093f48d53ce755510326",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md",
+      "path": "skills/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md",
+      "size": 1254
+    },
+    {
+      "digest": "1123f4712ec4a4ff057dadbee25f7de51bc8473862dbb398693f9c091336681c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/image-optimization-cost-control.md",
+      "path": "skills/vercel-optimize/references/support-topics/image-optimization-cost-control.md",
+      "size": 1071
+    },
+    {
+      "digest": "fafc8585a02b2142b60289177b041d63e1280d1fdccd38a2faa2e89d7c1950cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md",
+      "path": "skills/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md",
+      "size": 1419
+    },
+    {
+      "digest": "d1c6f3b0f4ecf3c4d430c2ae3999c9485e8f2115e40d9ba973b637541a5a5f32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md",
+      "path": "skills/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md",
+      "size": 991
+    },
+    {
+      "digest": "65897b4111c75457e1fbe16ce6f9716c5fd58365d8defaeb80b5ea0ca4f2a3b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md",
+      "size": 1059
+    },
+    {
+      "digest": "a06d7f692fc902f41a227f5acb20d694e2d47c3098b1fba354b5413e7df32964",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md",
+      "size": 906
+    },
+    {
+      "digest": "f48f1f61626aa313b3e08a6e43a5550bddef278f5c6aa4093b52bee1e9e1d78b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+      "size": 1048
+    },
+    {
+      "digest": "f176647780339cbd409897cbbaa8666f0dc7c301905651ad39b7feb2a0696a89",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md",
+      "size": 1062
+    },
+    {
+      "digest": "2f7e29b85cc1a8a31db214f59524035d3486c3a26c9fb9a39d62f3b834ee0f0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md",
+      "size": 1072
+    },
+    {
+      "digest": "413fb8dfdb561ccb5073c89b93c0e28420cfa5125bff89317c699167c3b2f35a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-script-third-party-strategy.md",
+      "path": "skills/vercel-optimize/references/support-topics/next-script-third-party-strategy.md",
+      "size": 1051
+    },
+    {
+      "digest": "e8bf6e27e63841bb49c44e8d0e93d674866ba28f6217d41d5c4de2b51178b8dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md",
+      "path": "skills/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md",
+      "size": 996
+    },
+    {
+      "digest": "88a9bf8ec200182534957603bda8c3bcc8d9dce8d884ea19c890994424827ab8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md",
+      "path": "skills/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md",
+      "size": 1273
+    },
+    {
+      "digest": "639b0a57b50813bfea7f1734a2cb883d8fb756c86a3a4460e08e899d04323cbb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md",
+      "path": "skills/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md",
+      "size": 1188
+    },
+    {
+      "digest": "60b2aea01836d6554b07cc79c9d8d64a4430782a2a4cec2ccd43ad957d69658e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/observability-events-cost-attribution.md",
+      "path": "skills/vercel-optimize/references/support-topics/observability-events-cost-attribution.md",
+      "size": 1155
+    },
+    {
+      "digest": "da5ff4b2d2a714bc06d2cc4b442e77840b89f9e72e171ec33af4fb95cac8ab26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/post-response-work-waituntil.md",
+      "path": "skills/vercel-optimize/references/support-topics/post-response-work-waituntil.md",
+      "size": 1009
+    },
+    {
+      "digest": "2ff21304503673bbeb656d92fd9841f8aa874cd93a5428f14a0f9abb55e49b65",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-durable-offload.md",
+      "path": "skills/vercel-optimize/references/support-topics/route-error-durable-offload.md",
+      "size": 1298
+    },
+    {
+      "digest": "e4a70ec3e1112c658e1ce136359c00fcb6c9fb484887efafb3ba3364ebdb70a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-runtime-limits.md",
+      "path": "skills/vercel-optimize/references/support-topics/route-error-runtime-limits.md",
+      "size": 988
+    },
+    {
+      "digest": "cf59ca89dbfa178d371435e0aa7f5c588c2fc3114b4574049b4d644c63628911",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md",
+      "path": "skills/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md",
+      "size": 1180
+    },
+    {
+      "digest": "909357c83a7718865cf5e1056653117f08df0042416e17050f22eae7900dfa49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md",
+      "path": "skills/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md",
+      "size": 1167
+    },
+    {
+      "digest": "e61fee58a22120acbdfafb2559959749806cf2c1ad242749d30ad6d9f533d5f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+      "path": "skills/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+      "size": 1040
+    },
+    {
+      "digest": "850ce351c3cbff86a321b349eaa82330a29e08b78a3d255150dc290a7d095015",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/usage-spike-triage.md",
+      "path": "skills/vercel-optimize/references/support-topics/usage-spike-triage.md",
+      "size": 1018
+    },
+    {
+      "digest": "45d5381f890b552dd672f6577aad203630f9f0e3caf04f3f2170726c0cea86fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+      "path": "skills/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+      "size": 1189
+    },
+    {
+      "digest": "4e8590e6c3ed65e5ec8811cfad82fcecf3cf5ac797e446bbf00e4498bd7e0d68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md",
+      "path": "skills/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md",
+      "size": 1089
+    },
+    {
+      "digest": "07145dac55800c709a57a1abfbe29e1764ecd6371ff05f342c8f73f69d101257",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md",
+      "path": "skills/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md",
+      "size": 1274
+    },
+    {
+      "digest": "db3ffb183ae3c141eeb980ea3765ff215da01eb4bb8b569c7f86868ec3cfe5a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/verification.md",
+      "path": "skills/vercel-optimize/references/verification.md",
+      "size": 9000
+    },
+    {
+      "digest": "1bd89b7f12f8ce912d0381b9ca7c251f8183f69bae0abf0021391e8397dfef11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/voice.md",
+      "path": "skills/vercel-optimize/references/voice.md",
+      "size": 3731
+    },
+    {
+      "digest": "4dc6cb8ab9278ac9196e4cd70c36ecc1ffe2afeaffe09e99e562de42e62f94ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/budget-summary.mjs",
+      "path": "skills/vercel-optimize/scripts/budget-summary.mjs",
+      "size": 2096
+    },
+    {
+      "digest": "ce426e5bb4a803b86981588b733fc97aff13fea1c393d6d6559b97518df31ad8",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/build-docs.mjs",
+      "path": "skills/vercel-optimize/scripts/build-docs.mjs",
+      "size": 3414
+    },
+    {
+      "digest": "47acb1d9deba97531ad46ef81cccaa9349bec4a3cf57d8fdc2bd601411b57fdb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-citations.mjs",
+      "path": "skills/vercel-optimize/scripts/check-citations.mjs",
+      "size": 3531
+    },
+    {
+      "digest": "6c47f5595c6e317426606d67afa53d52d822fcc071fee27885cc25df38e7949e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-docs-fresh.mjs",
+      "path": "skills/vercel-optimize/scripts/check-docs-fresh.mjs",
+      "size": 3910
+    },
+    {
+      "digest": "bc1dcba99aa20ad7863450bc1a336d0ec8d78aac0f3f26f8b6be9183e52e944a",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-signals.mjs",
+      "path": "skills/vercel-optimize/scripts/collect-signals.mjs",
+      "size": 21576
+    },
+    {
+      "digest": "21bd960b11c75711e1f51cb362efb5243f19bc8db65a3bfdab48549bb47bf9fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-sub-agent-outputs.mjs",
+      "path": "skills/vercel-optimize/scripts/collect-sub-agent-outputs.mjs",
+      "size": 10123
+    },
+    {
+      "digest": "f90c74b28a1a1580a45d7d12ab64f683c8c6f1b59d32aa7299980e74980550aa",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/deep-dive.mjs",
+      "path": "skills/vercel-optimize/scripts/deep-dive.mjs",
+      "size": 12332
+    },
+    {
+      "digest": "b30d756a3af5bc1170e4eec95e2fca7241999a516d8871497bd4e5a1cd681535",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/gate-investigations.mjs",
+      "path": "skills/vercel-optimize/scripts/gate-investigations.mjs",
+      "size": 6353
+    },
+    {
+      "digest": "2d16f83d221ea6bb28f1a05f48829c2e67e315d0acc2125fc8b642813a527f06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/merge-signals.mjs",
+      "path": "skills/vercel-optimize/scripts/merge-signals.mjs",
+      "size": 6325
+    },
+    {
+      "digest": "8a9c9a840e907985f8a84218251c33c38f3dc17956b851a8b5d7e28c56689edc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/prepare-investigation-brief.mjs",
+      "path": "skills/vercel-optimize/scripts/prepare-investigation-brief.mjs",
+      "size": 8071
+    },
+    {
+      "digest": "ef8d6ae2f1e7e43c62a46dfe7af14e9618fd2b550724823448f8badf266cccaf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/reconcile-candidates.mjs",
+      "path": "skills/vercel-optimize/scripts/reconcile-candidates.mjs",
+      "size": 2442
+    },
+    {
+      "digest": "ab0a3f0188215fe0f9a464858b3a42c74e2d4daea6fe857b6a969595f27ebf5b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/render-report.mjs",
+      "path": "skills/vercel-optimize/scripts/render-report.mjs",
+      "size": 17424
+    },
+    {
+      "digest": "4b5c847899604831aafd3fcdf860968792e99203670a3ba6f3947cb7ae708705",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/scan-codebase.mjs",
+      "path": "skills/vercel-optimize/scripts/scan-codebase.mjs",
+      "size": 11521
+    },
+    {
+      "digest": "9211268107c17f577d24a8994515946b9fd3a1fc1d2353a79dd0a139df25f706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-and-regen.mjs",
+      "path": "skills/vercel-optimize/scripts/verify-and-regen.mjs",
+      "size": 15238
+    },
+    {
+      "digest": "534590f7900e20648f67cc2d6845502960709ddfeb10cbb6733ade37b2eebe8e",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-finding.mjs",
+      "path": "skills/vercel-optimize/scripts/verify-finding.mjs",
+      "size": 698
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dbaa5432c101a4182af67c9d11206078243cb55ea29b82482ff9b83b040bdd0c",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/vercel-optimize",
+  "schema_version": 1
+}

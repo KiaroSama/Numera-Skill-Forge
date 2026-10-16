@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/react-native-skills",
+  "license": "MIT",
+  "name": "skill-vercel-react-native-skills",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

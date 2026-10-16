@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/react-best-practices",
+  "license": "MIT",
+  "name": "skill-vercel-react-best-practices",
+  "version": "1.0.0"
+}

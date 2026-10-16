@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/react-best-practices",
+  "license": "MIT",
+  "name": "skill-vercel-react-best-practices",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

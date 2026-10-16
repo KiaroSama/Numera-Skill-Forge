@@ -1,0 +1,75 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "83fd29aec273cf4318a4f428ed2725f2cd3b6adbd76640e495c31f0a2521c702",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/AGENTS.md",
+      "path": "skills/react-view-transitions/AGENTS.md",
+      "size": 58993
+    },
+    {
+      "digest": "aba31b4ac31c1b13d2a8054179604abd4498b0d7324746635ff0e3b0aea9d608",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/README.md",
+      "path": "skills/react-view-transitions/README.md",
+      "size": 2231
+    },
+    {
+      "digest": "1520343c8814c972fee001cac6d6185976d6eb3f4edcac33afe95c10f3b3228b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/SKILL.md",
+      "path": "skills/react-view-transitions/SKILL.md",
+      "size": 14407
+    },
+    {
+      "digest": "b1a5ae09f3904dc83dab79f518d033bd98f1e2f55caabfdb5beeeaaf0ca5e4c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/metadata.json",
+      "path": "skills/react-view-transitions/metadata.json",
+      "size": 852
+    },
+    {
+      "digest": "f4a5b92a7aad6befd2779e498ab04311277f179b240d2170f0a68a1444024d51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/css-recipes.md",
+      "path": "skills/react-view-transitions/references/css-recipes.md",
+      "size": 8337
+    },
+    {
+      "digest": "87687de5fa2f775a6b5134ee02863ebede9ee6bc42ea8ed99bd53aa5325e78f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/implementation.md",
+      "path": "skills/react-view-transitions/references/implementation.md",
+      "size": 9280
+    },
+    {
+      "digest": "f926a645d5e4c62fcc2d5832be0f3ad048f2ee1d17f8476324e2bc407e4b3a07",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/nextjs.md",
+      "path": "skills/react-view-transitions/references/nextjs.md",
+      "size": 10700
+    },
+    {
+      "digest": "da24d7f37c7e6b8ecbcf05525ef613d8f5be94655c233d6fa62833c8a746604f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/patterns.md",
+      "path": "skills/react-view-transitions/references/patterns.md",
+      "size": 11941
+    },
+    {
+      "digest": "aa6811d276dcf06dcc9aba90d1e11e1d0a29146604bf7c89a9e93a6fa8883c7a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/troubleshooting.md",
+      "path": "skills/react-view-transitions/references/troubleshooting.md",
+      "size": 4940
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "64ef9b0b3fa0954d57296a0887cd21a1a3cdea62f4b102a4eca7ec7fc0053f6f",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/react-view-transitions",
+  "schema_version": 1
+}

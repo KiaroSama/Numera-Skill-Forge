@@ -1,0 +1,306 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "72996343b8260800fbeb9af63ddaed91f14b65dc547e0922f9f8e9bd72076cbf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/AGENTS.md",
+      "path": "skills/react-native-skills/AGENTS.md",
+      "size": 73771
+    },
+    {
+      "digest": "d60d7623005a833b928be6a109ed9d14dea43d7217fb534e8f2e4de5fc1f0ddf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/README.md",
+      "path": "skills/react-native-skills/README.md",
+      "size": 5064
+    },
+    {
+      "digest": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/SKILL.md",
+      "path": "skills/react-native-skills/SKILL.md",
+      "size": 4439
+    },
+    {
+      "digest": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/metadata.json",
+      "path": "skills/react-native-skills/metadata.json",
+      "size": 896
+    },
+    {
+      "digest": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_sections.md",
+      "path": "skills/react-native-skills/rules/_sections.md",
+      "size": 2228
+    },
+    {
+      "digest": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_template.md",
+      "path": "skills/react-native-skills/rules/_template.md",
+      "size": 631
+    },
+    {
+      "digest": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-derived-value.md",
+      "path": "skills/react-native-skills/rules/animation-derived-value.md",
+      "size": 1373
+    },
+    {
+      "digest": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gesture-detector-press.md",
+      "path": "skills/react-native-skills/rules/animation-gesture-detector-press.md",
+      "size": 2559
+    },
+    {
+      "digest": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gpu-properties.md",
+      "path": "skills/react-native-skills/rules/animation-gpu-properties.md",
+      "size": 2059
+    },
+    {
+      "digest": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/design-system-compound-components.md",
+      "path": "skills/react-native-skills/rules/design-system-compound-components.md",
+      "size": 1625
+    },
+    {
+      "digest": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/fonts-config-plugin.md",
+      "path": "skills/react-native-skills/rules/fonts-config-plugin.md",
+      "size": 1393
+    },
+    {
+      "digest": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/imports-design-system-folder.md",
+      "path": "skills/react-native-skills/rules/imports-design-system-folder.md",
+      "size": 1418
+    },
+    {
+      "digest": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/js-hoist-intl.md",
+      "path": "skills/react-native-skills/rules/js-hoist-intl.md",
+      "size": 1645
+    },
+    {
+      "digest": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-callbacks.md",
+      "path": "skills/react-native-skills/rules/list-performance-callbacks.md",
+      "size": 1059
+    },
+    {
+      "digest": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-function-references.md",
+      "path": "skills/react-native-skills/rules/list-performance-function-references.md",
+      "size": 4133
+    },
+    {
+      "digest": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-images.md",
+      "path": "skills/react-native-skills/rules/list-performance-images.md",
+      "size": 1417
+    },
+    {
+      "digest": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-inline-objects.md",
+      "path": "skills/react-native-skills/rules/list-performance-inline-objects.md",
+      "size": 2308
+    },
+    {
+      "digest": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-expensive.md",
+      "path": "skills/react-native-skills/rules/list-performance-item-expensive.md",
+      "size": 2466
+    },
+    {
+      "digest": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-memo.md",
+      "path": "skills/react-native-skills/rules/list-performance-item-memo.md",
+      "size": 2250
+    },
+    {
+      "digest": "eed225f4e9e504bfa7db01f5395d1402545cc47de8adf1829a9408cd5d158cf6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-types.md",
+      "path": "skills/react-native-skills/rules/list-performance-item-types.md",
+      "size": 2749
+    },
+    {
+      "digest": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-virtualize.md",
+      "path": "skills/react-native-skills/rules/list-performance-virtualize.md",
+      "size": 1742
+    },
+    {
+      "digest": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-native-deps-in-app.md",
+      "path": "skills/react-native-skills/rules/monorepo-native-deps-in-app.md",
+      "size": 1091
+    },
+    {
+      "digest": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-single-dependency-versions.md",
+      "path": "skills/react-native-skills/rules/monorepo-single-dependency-versions.md",
+      "size": 1351
+    },
+    {
+      "digest": "6642dedb57e72f0b56df5fbc3d5b8aaa91fc4456932c12712cfd076d393f32c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/navigation-native-navigators.md",
+      "path": "skills/react-native-skills/rules/navigation-native-navigators.md",
+      "size": 4941
+    },
+    {
+      "digest": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-destructure-functions.md",
+      "path": "skills/react-native-skills/rules/react-compiler-destructure-functions.md",
+      "size": 1274
+    },
+    {
+      "digest": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+      "path": "skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+      "size": 1268
+    },
+    {
+      "digest": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-dispatcher.md",
+      "path": "skills/react-native-skills/rules/react-state-dispatcher.md",
+      "size": 2255
+    },
+    {
+      "digest": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-fallback.md",
+      "path": "skills/react-native-skills/rules/react-state-fallback.md",
+      "size": 1735
+    },
+    {
+      "digest": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-minimize.md",
+      "path": "skills/react-native-skills/rules/react-state-minimize.md",
+      "size": 1740
+    },
+    {
+      "digest": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-no-falsy-and.md",
+      "path": "skills/react-native-skills/rules/rendering-no-falsy-and.md",
+      "size": 1812
+    },
+    {
+      "digest": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-text-in-text-component.md",
+      "path": "skills/react-native-skills/rules/rendering-text-in-text-component.md",
+      "size": 697
+    },
+    {
+      "digest": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/scroll-position-no-state.md",
+      "path": "skills/react-native-skills/rules/scroll-position-no-state.md",
+      "size": 1936
+    },
+    {
+      "digest": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/state-ground-truth.md",
+      "path": "skills/react-native-skills/rules/state-ground-truth.md",
+      "size": 2172
+    },
+    {
+      "digest": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-expo-image.md",
+      "path": "skills/react-native-skills/rules/ui-expo-image.md",
+      "size": 1648
+    },
+    {
+      "digest": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-image-gallery.md",
+      "path": "skills/react-native-skills/rules/ui-image-gallery.md",
+      "size": 2546
+    },
+    {
+      "digest": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-measure-views.md",
+      "path": "skills/react-native-skills/rules/ui-measure-views.md",
+      "size": 2232
+    },
+    {
+      "digest": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-menus.md",
+      "path": "skills/react-native-skills/rules/ui-menus.md",
+      "size": 4598
+    },
+    {
+      "digest": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-native-modals.md",
+      "path": "skills/react-native-skills/rules/ui-native-modals.md",
+      "size": 1859
+    },
+    {
+      "digest": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-pressable.md",
+      "path": "skills/react-native-skills/rules/ui-pressable.md",
+      "size": 1534
+    },
+    {
+      "digest": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-safe-area-scroll.md",
+      "path": "skills/react-native-skills/rules/ui-safe-area-scroll.md",
+      "size": 1579
+    },
+    {
+      "digest": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-scrollview-content-inset.md",
+      "path": "skills/react-native-skills/rules/ui-scrollview-content-inset.md",
+      "size": 1317
+    },
+    {
+      "digest": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-styling.md",
+      "path": "skills/react-native-skills/rules/ui-styling.md",
+      "size": 2212
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "94e92cea6d0f3f1da25efae96a2ad8d27cc7d0a5f1e18466fc4b32330e5fe4a8",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/react-native-skills",
+  "schema_version": 1
+}

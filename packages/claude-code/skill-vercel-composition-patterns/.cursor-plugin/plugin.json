@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/composition-patterns",
+  "license": "MIT",
+  "name": "skill-vercel-composition-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,40 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "37c0d035b3d2c6256105316a2492c1487f3688efa21f030a8a623a9f7f0ee02f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/Archive.zip",
+      "path": "skills/deploy-to-vercel/Archive.zip",
+      "size": 11314
+    },
+    {
+      "digest": "cfcc3dd479ab2e0ae721ddf39b8af84d977321487672f1487c8d6855f576927b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/SKILL.md",
+      "path": "skills/deploy-to-vercel/SKILL.md",
+      "size": 11786
+    },
+    {
+      "digest": "18b411e2bfe07778bca11d7f0e1ec9c95e5764011dd2e3838f51066728646855",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy-codex.sh",
+      "path": "skills/deploy-to-vercel/resources/deploy-codex.sh",
+      "size": 8855
+    },
+    {
+      "digest": "418da6ff48c582790799d850a88fd83ca00f2ee00502665caf8dbb06d4dab8b9",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy.sh",
+      "path": "skills/deploy-to-vercel/resources/deploy.sh",
+      "size": 8841
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c5269e86a850fd88c4d5e0fe33703ea6e379d592fb3a7f712050b3d32d4d26c6",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/deploy-to-vercel",
+  "schema_version": 1
+}

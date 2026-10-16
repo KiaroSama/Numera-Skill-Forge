@@ -33,8 +33,8 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **765 davila packages**, plus180 packages from the other four
-registered sources, for **945 total** and **7638 payload/notice records**. The previous781 accepted
+The current collection contains **765 davila packages**, plus189 packages from the other five
+registered sources, for **954 total** and **7942 payload/notice records**. The previous781 accepted
 identities are unchanged; the latest164 additions contribute657 records. Four earlier approved
 name-only adaptations remain the only payload edits. Original legal notices and adaptation
 provenance are separately owned package files, not extra source-root counts.
@@ -632,3 +632,45 @@ See the [116 reviewed additions and their immutable original grants](reviewed-ad
 All 110 newly resolved provenance candidates and six former packaging holds retain complete
 selected payloads and required notices. The subsequent [299-root review](remaining-skill-disposition.md) adds164 complete packages and
 records135 concrete remaining blockers, not a blanket prohibition. Packaging approval never executes their scripts or installs host hooks.
+
+## Vercel original skills and VoltAgent references
+
+Checked 2026-10-16. [Vercel original revision063bee94](https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills)
+adds nine independent `skill-vercel-<source-directory>` packages and304 complete original skill files.
+The previous945 accepted records remain unchanged. Original source directory and frontmatter name
+are distinct: emitted directories follow the unchanged original declared name, without rewriting prompts.
+
+| Original directory | Installed skill name | Original files |
+| --- | --- | ---: |
+| composition-patterns | vercel-composition-patterns |14|
+| deploy-to-vercel | deploy-to-vercel |4|
+| react-best-practices | vercel-react-best-practices |76|
+| react-native-skills | vercel-react-native-skills |42|
+| react-view-transitions | vercel-react-view-transitions |9|
+| vercel-cli-with-tokens | vercel-cli-with-tokens |1|
+| vercel-optimize | vercel-optimize |156|
+| web-design-guidelines | web-design-guidelines |1|
+| writing-guidelines | writing-guidelines |1|
+
+All companions, including original in-root AGENTS.md files and deploy-to-vercel/Archive.zip, are retained.
+Nine original executable bits remain intact; packaging never executes scripts. Root maintainer files,
+source-build tools and sibling prebuilt ZIP distributions are not additional skill roots.
+The [original README license declaration](https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md#license)
+expressly says MIT; four entries also declare MIT. Upstream supplies no standalone full LICENSE or
+copyright-holder/year notice at this revision. The exact original README accompanies each package,
+alongside separately sourced complete MIT terms with their own provenance. The latter are not a
+new grant over Vercel content; no copyright holder/year or upstream LICENSE is invented.
+
+Deployment/token/optimization instructions retain their actual external-service behavior. Distribution
+is not token access, host activation, account authentication, upload or deployment approval. Two guideline
+entrypoints fetch mutable external rule URLs when used; pinning the skill does not pin those remote bodies.
+Optimization's Node20+/authenticated Vercel CLI53+/Observability Plus prerequisites are not installed.
+
+[VoltAgent revision3b605329](https://github.com/voltagent/awesome-design-md/tree/3b605329240ce735b510037cca322f1831fdd7f8)
+is an MIT-licensed reference source, not a registered skill collection:84 DESIGN.md directories,
+167 original design/README files and zero SKILL.md entrypoints. No native skill wrapper was fabricated;
+its source link is retained for manual reference. The reviewed tree contains no claimed HTML previews,
+font/image binaries or executable code. Closed unmerged skill-conversion proposals are not official content.
+Its [original MIT notice](https://github.com/voltagent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE)
+covers the licensed prose; the README disclaims ownership of the analyzed websites' visual identities.
+Third-party proprietary fonts, logos, brand assets and protected layouts need their own rights.

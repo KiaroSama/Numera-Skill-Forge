@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/vercel-optimize",
+  "license": "MIT",
+  "name": "skill-vercel-vercel-optimize",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

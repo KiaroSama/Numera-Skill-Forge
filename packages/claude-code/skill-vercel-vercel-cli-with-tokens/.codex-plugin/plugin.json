@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/vercel-cli-with-tokens",
+  "license": "MIT",
+  "name": "skill-vercel-vercel-cli-with-tokens",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

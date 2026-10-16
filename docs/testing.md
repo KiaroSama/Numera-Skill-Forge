@@ -268,3 +268,15 @@ source/notice/companion outcomes;135 are excluded with exact conditions in
 notice/catalog verifier and real CLI lifecycle tier cover the expanded accepted inventory without
 executing imported source scripts. Original stubs and external prerequisites are not runtime-certified.
 No new desktop release, model/API integration test or native-hook activation is implied.
+
+## Direct Vercel collection
+
+The nine original Vercel packages retain304source files and nine executable modes; prior945 accepted
+records are unchanged. Independent immutable-source comparison includes Archive.zip and all AGENTS.md
+companions. A local isolated optimization-package lifecycle covers all156original companions,
+preview/no-write, native-only refusal, install/disable/enable/uninstall and unrelated-file preservation.
+Repeating nine-package assembly leaves all954accepted records unchanged. No upstream scripts or
+deployments run. Existing CI independently verifies all954payloads/catalogs; its practical CLI tier
+retains the earlier five-origin fixture plus the approved name-adaptation case, rather than claiming
+a new per-origin Vercel runtime fixture. VoltAgent is source-reference documentation only, not native
+skill execution or installation coverage. Final exact-SHA hosted results must be checked separately.

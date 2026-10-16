@@ -17880,6 +17880,212 @@
           "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
         }
       ]
+    },
+    {
+      "id": "vercel-agent-skills",
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "branch": "main",
+      "reviewed_revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "skills": [
+        {
+          "id": "skill-vercel-composition-patterns",
+          "root": "skills/composition-patterns",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-deploy-to-vercel",
+          "root": "skills/deploy-to-vercel",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-react-best-practices",
+          "root": "skills/react-best-practices",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-react-native-skills",
+          "root": "skills/react-native-skills",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-react-view-transitions",
+          "root": "skills/react-view-transitions",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-vercel-cli-with-tokens",
+          "root": "skills/vercel-cli-with-tokens",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-vercel-optimize",
+          "root": "skills/vercel-optimize",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-web-design-guidelines",
+          "root": "skills/web-design-guidelines",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        },
+        {
+          "id": "skill-vercel-writing-guidelines",
+          "root": "skills/writing-guidelines",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651.txt",
+              "digest": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+              "source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
+        }
+      ]
     }
   ]
 }

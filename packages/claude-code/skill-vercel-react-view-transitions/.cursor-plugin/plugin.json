@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/react-view-transitions",
+  "license": "MIT",
+  "name": "skill-vercel-react-view-transitions",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

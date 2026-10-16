@@ -1,0 +1,19 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-web-design-guidelines/skills/web-design-guidelines/SKILL.md",
+      "path": "skills/web-design-guidelines/SKILL.md",
+      "size": 1231
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "638df3e21bd8615e71cd535f831a5b50e6721d40d9829bbfd03ce8536adf1d0a",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/web-design-guidelines",
+  "schema_version": 1
+}

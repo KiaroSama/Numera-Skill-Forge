@@ -1,0 +1,19 @@
+{
+  "collection": "vercel-agent-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "89a5f581193289b80af58b980090aeed535047c8df2b55ccbaae0de40283a99d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-vercel-writing-guidelines/skills/writing-guidelines/SKILL.md",
+      "path": "skills/writing-guidelines/SKILL.md",
+      "size": 1233
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "16ed796fbb2405248f52e16cb6f1241a336dfee3fe1e2a3db6db604db6a42abe",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+  "root": "skills/writing-guidelines",
+  "schema_version": 1
+}

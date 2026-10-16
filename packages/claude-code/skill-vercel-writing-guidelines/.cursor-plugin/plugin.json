@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/writing-guidelines",
+  "license": "MIT",
+  "name": "skill-vercel-writing-guidelines",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

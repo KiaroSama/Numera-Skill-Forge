@@ -7559,6 +7559,78 @@
       "root": "skills/apk-reverse",
       "source": "newliver666-apk-reverse",
       "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-composition-patterns",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/composition-patterns",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-deploy-to-vercel",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/deploy-to-vercel",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-react-best-practices",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/react-best-practices",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-react-native-skills",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/react-native-skills",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-react-view-transitions",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/react-view-transitions",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-vercel-cli-with-tokens",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/vercel-cli-with-tokens",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-vercel-optimize",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/vercel-optimize",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-web-design-guidelines",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/web-design-guidelines",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-vercel-writing-guidelines",
+      "license": "MIT",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "root": "skills/writing-guidelines",
+      "source": "vercel-agent-skills",
+      "version": "1.0.0"
     }
   ],
   "schema_version": 1

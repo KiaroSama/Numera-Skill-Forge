@@ -233,7 +233,7 @@ host files or bypass an ownership conflict with a manual bulk copy.
 
 ## 4. Duplicate names and evidence limits
 
-There are 487 accepted packages and 472 distinct original names. Thirteen groups share names.
+There are 954 accepted packages and 832 distinct installed skill names. There are 118 shared-name groups.
 Native per-package namespaces retain independent identity where the host implements it. Flat
 standalone roots cannot make different same-name packages simultaneously unambiguous: Forge refuses
 the second owner, even when their main SKILL.md bytes match. Select another project/home destination

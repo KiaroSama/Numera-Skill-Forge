@@ -82232,6 +82232,2645 @@
         "packages/claude-code/skill-newliver666-apk-reverse/.cursor-plugin/plugin.json": "0bb78c66c63953da01674d2528ff6b9ed8d32194a4f75a7ffb3644361812aa74",
         "packages/claude-code/skill-newliver666-apk-reverse/plugin.json": "c0f22cd8ddc9eab5f148f975d265ef5ffe1ae949d0307a3b6b0268faf392c810"
       }
+    },
+    "vercel-agent-skills/skill-vercel-composition-patterns": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-composition-patterns",
+      "root": "skills/composition-patterns",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "8850b43da10994d5222c61d728595ea6ef033be82263985bc29dfbb16063880c",
+      "files": [
+        {
+          "path": "skills/composition-patterns/AGENTS.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/AGENTS.md",
+          "digest": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+          "mode": "100644",
+          "size": 22627
+        },
+        {
+          "path": "skills/composition-patterns/README.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/README.md",
+          "digest": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+          "mode": "100644",
+          "size": 2140
+        },
+        {
+          "path": "skills/composition-patterns/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/SKILL.md",
+          "digest": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+          "mode": "100644",
+          "size": 2886
+        },
+        {
+          "path": "skills/composition-patterns/metadata.json",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/metadata.json",
+          "digest": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+          "mode": "100644",
+          "size": 530
+        },
+        {
+          "path": "skills/composition-patterns/rules/_sections.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/_sections.md",
+          "digest": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+          "mode": "100644",
+          "size": 829
+        },
+        {
+          "path": "skills/composition-patterns/rules/_template.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/_template.md",
+          "digest": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+          "mode": "100644",
+          "size": 329
+        },
+        {
+          "path": "skills/composition-patterns/rules/architecture-avoid-boolean-props.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+          "digest": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+          "mode": "100644",
+          "size": 2267
+        },
+        {
+          "path": "skills/composition-patterns/rules/architecture-compound-components.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/architecture-compound-components.md",
+          "digest": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+          "mode": "100644",
+          "size": 2600
+        },
+        {
+          "path": "skills/composition-patterns/rules/patterns-children-over-render-props.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+          "digest": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+          "mode": "100644",
+          "size": 1886
+        },
+        {
+          "path": "skills/composition-patterns/rules/patterns-explicit-variants.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+          "digest": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+          "mode": "100644",
+          "size": 2395
+        },
+        {
+          "path": "skills/composition-patterns/rules/react19-no-forwardref.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/react19-no-forwardref.md",
+          "digest": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+          "mode": "100644",
+          "size": 953
+        },
+        {
+          "path": "skills/composition-patterns/rules/state-context-interface.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-context-interface.md",
+          "digest": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+          "mode": "100644",
+          "size": 4974
+        },
+        {
+          "path": "skills/composition-patterns/rules/state-decouple-implementation.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-decouple-implementation.md",
+          "digest": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+          "mode": "100644",
+          "size": 2699
+        },
+        {
+          "path": "skills/composition-patterns/rules/state-lift-state.md",
+          "output_path": "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-lift-state.md",
+          "digest": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+          "mode": "100644",
+          "size": 3224
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-composition-patterns/.claude-plugin/plugin.json": "a71f2f5db9eb02773d9c3a35f3759954239c698d95030d7fa36cd4eda9a8cd61",
+        "packages/claude-code/skill-vercel-composition-patterns/provenance.json": "3a85b942385b5b01051e09b3e51f856bdf6997b92619c1bca078d8e752bd60b8",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/AGENTS.md": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/README.md": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/SKILL.md": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/metadata.json": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/_sections.md": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/_template.md": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/architecture-compound-components.md": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/react19-no-forwardref.md": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-context-interface.md": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-decouple-implementation.md": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+        "packages/claude-code/skill-vercel-composition-patterns/skills/vercel-composition-patterns/rules/state-lift-state.md": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+        "packages/claude-code/skill-vercel-composition-patterns/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-composition-patterns/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-composition-patterns/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-composition-patterns/.codex-plugin/plugin.json": "5981886216e5dbcac408767464336cea434788410b0624a6f7ae63cb8d9d82e6",
+        "packages/claude-code/skill-vercel-composition-patterns/.cursor-plugin/plugin.json": "5981886216e5dbcac408767464336cea434788410b0624a6f7ae63cb8d9d82e6",
+        "packages/claude-code/skill-vercel-composition-patterns/plugin.json": "84871630e51cfd549c669ab4561657e3a3ef6ef814594e4938b83e0377ea400c"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-deploy-to-vercel": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-deploy-to-vercel",
+      "root": "skills/deploy-to-vercel",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "c5269e86a850fd88c4d5e0fe33703ea6e379d592fb3a7f712050b3d32d4d26c6",
+      "files": [
+        {
+          "path": "skills/deploy-to-vercel/Archive.zip",
+          "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/Archive.zip",
+          "digest": "37c0d035b3d2c6256105316a2492c1487f3688efa21f030a8a623a9f7f0ee02f",
+          "mode": "100644",
+          "size": 11314
+        },
+        {
+          "path": "skills/deploy-to-vercel/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/SKILL.md",
+          "digest": "cfcc3dd479ab2e0ae721ddf39b8af84d977321487672f1487c8d6855f576927b",
+          "mode": "100644",
+          "size": 11786
+        },
+        {
+          "path": "skills/deploy-to-vercel/resources/deploy-codex.sh",
+          "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy-codex.sh",
+          "digest": "18b411e2bfe07778bca11d7f0e1ec9c95e5764011dd2e3838f51066728646855",
+          "mode": "100755",
+          "size": 8855
+        },
+        {
+          "path": "skills/deploy-to-vercel/resources/deploy.sh",
+          "output_path": "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy.sh",
+          "digest": "418da6ff48c582790799d850a88fd83ca00f2ee00502665caf8dbb06d4dab8b9",
+          "mode": "100755",
+          "size": 8841
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-deploy-to-vercel/.claude-plugin/plugin.json": "813abff472313a37f37f2b2a12c6141d17d04cbcb86511d640a24094f792a0ec",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/provenance.json": "bc737824827121a4a41e5775a258e026f009c1b6aaf2598f764f6e1dffec3f8e",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/Archive.zip": "37c0d035b3d2c6256105316a2492c1487f3688efa21f030a8a623a9f7f0ee02f",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/SKILL.md": "cfcc3dd479ab2e0ae721ddf39b8af84d977321487672f1487c8d6855f576927b",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy-codex.sh": "18b411e2bfe07778bca11d7f0e1ec9c95e5764011dd2e3838f51066728646855",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/skills/deploy-to-vercel/resources/deploy.sh": "418da6ff48c582790799d850a88fd83ca00f2ee00502665caf8dbb06d4dab8b9",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-deploy-to-vercel/.codex-plugin/plugin.json": "ee7c489f21f8ba20c66ed339180a7436d67f587a8ed334344f2cf002bec77708",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/.cursor-plugin/plugin.json": "ee7c489f21f8ba20c66ed339180a7436d67f587a8ed334344f2cf002bec77708",
+        "packages/claude-code/skill-vercel-deploy-to-vercel/plugin.json": "2972ab6127ab6a88b40bf99734d0e4fc33b024dd4bbfcf756ce12fd3e927cfb3"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-react-best-practices": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-react-best-practices",
+      "root": "skills/react-best-practices",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "bc03cccffe713a96d5e885c4c3b740e9899a289fdb081501f6417da2a6842213",
+      "files": [
+        {
+          "path": "skills/react-best-practices/AGENTS.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/AGENTS.md",
+          "digest": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+          "mode": "100644",
+          "size": 108261
+        },
+        {
+          "path": "skills/react-best-practices/README.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/README.md",
+          "digest": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+          "mode": "100644",
+          "size": 3360
+        },
+        {
+          "path": "skills/react-best-practices/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/SKILL.md",
+          "digest": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+          "mode": "100644",
+          "size": 7251
+        },
+        {
+          "path": "skills/react-best-practices/metadata.json",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/metadata.json",
+          "digest": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+          "mode": "100644",
+          "size": 921
+        },
+        {
+          "path": "skills/react-best-practices/rules/_sections.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/_sections.md",
+          "digest": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+          "mode": "100644",
+          "size": 1554
+        },
+        {
+          "path": "skills/react-best-practices/rules/_template.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/_template.md",
+          "digest": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+          "mode": "100644",
+          "size": 631
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-effect-event-deps.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
+          "digest": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+          "mode": "100644",
+          "size": 1802
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-event-handler-refs.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md",
+          "digest": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+          "mode": "100644",
+          "size": 1483
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-init-once.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-init-once.md",
+          "digest": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+          "mode": "100644",
+          "size": 958
+        },
+        {
+          "path": "skills/react-best-practices/rules/advanced-use-latest.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-use-latest.md",
+          "digest": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+          "mode": "100644",
+          "size": 1072
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-api-routes.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-api-routes.md",
+          "digest": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+          "mode": "100644",
+          "size": 1125
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-cheap-condition-before-await.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-cheap-condition-before-await.md",
+          "digest": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+          "mode": "100644",
+          "size": 1220
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-defer-await.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-defer-await.md",
+          "digest": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+          "mode": "100644",
+          "size": 2208
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-dependencies.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-dependencies.md",
+          "digest": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+          "mode": "100644",
+          "size": 1293
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-parallel.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-parallel.md",
+          "digest": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+          "mode": "100644",
+          "size": 654
+        },
+        {
+          "path": "skills/react-best-practices/rules/async-suspense-boundaries.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md",
+          "digest": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+          "mode": "100644",
+          "size": 2510
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-analyzable-paths.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-analyzable-paths.md",
+          "digest": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+          "mode": "100644",
+          "size": 2382
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-barrel-imports.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md",
+          "digest": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+          "mode": "100644",
+          "size": 2795
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-conditional.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-conditional.md",
+          "digest": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+          "mode": "100644",
+          "size": 949
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-defer-third-party.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md",
+          "digest": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+          "mode": "100644",
+          "size": 920
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-dynamic-imports.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md",
+          "digest": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+          "mode": "100644",
+          "size": 791
+        },
+        {
+          "path": "skills/react-best-practices/rules/bundle-preload.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-preload.md",
+          "digest": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+          "mode": "100644",
+          "size": 1149
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-event-listeners.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-event-listeners.md",
+          "digest": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+          "mode": "100644",
+          "size": 1969
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-localstorage-schema.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-localstorage-schema.md",
+          "digest": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+          "mode": "100644",
+          "size": 1950
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-passive-event-listeners.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md",
+          "digest": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+          "mode": "100644",
+          "size": 1644
+        },
+        {
+          "path": "skills/react-best-practices/rules/client-swr-dedup.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-swr-dedup.md",
+          "digest": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+          "mode": "100644",
+          "size": 1159
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-batch-dom-css.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-batch-dom-css.md",
+          "digest": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+          "mode": "100644",
+          "size": 3266
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-function-results.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-function-results.md",
+          "digest": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+          "mode": "100644",
+          "size": 1949
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-property-access.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-property-access.md",
+          "digest": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+          "mode": "100644",
+          "size": 532
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-cache-storage.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-storage.md",
+          "digest": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+          "mode": "100644",
+          "size": 1651
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-combine-iterations.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-combine-iterations.md",
+          "digest": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+          "mode": "100644",
+          "size": 753
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-early-exit.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-early-exit.md",
+          "digest": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+          "mode": "100644",
+          "size": 1133
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-flatmap-filter.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-flatmap-filter.md",
+          "digest": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+          "mode": "100644",
+          "size": 1411
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-hoist-regexp.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-hoist-regexp.md",
+          "digest": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+          "mode": "100644",
+          "size": 1028
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-index-maps.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-index-maps.md",
+          "digest": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+          "mode": "100644",
+          "size": 837
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-length-check-first.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-length-check-first.md",
+          "digest": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+          "mode": "100644",
+          "size": 1747
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-min-max-loop.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-min-max-loop.md",
+          "digest": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+          "mode": "100644",
+          "size": 2290
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-request-idle-callback.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-request-idle-callback.md",
+          "digest": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+          "mode": "100644",
+          "size": 2647
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-set-map-lookups.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-set-map-lookups.md",
+          "digest": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+          "mode": "100644",
+          "size": 532
+        },
+        {
+          "path": "skills/react-best-practices/rules/js-tosorted-immutable.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md",
+          "digest": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+          "mode": "100644",
+          "size": 1782
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-activity.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-activity.md",
+          "digest": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+          "mode": "100644",
+          "size": 564
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md",
+          "digest": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+          "mode": "100644",
+          "size": 1185
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-conditional-render.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-conditional-render.md",
+          "digest": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+          "mode": "100644",
+          "size": 980
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-content-visibility.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-content-visibility.md",
+          "digest": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+          "mode": "100644",
+          "size": 815
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hoist-jsx.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md",
+          "digest": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+          "mode": "100644",
+          "size": 1039
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md",
+          "digest": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+          "mode": "100644",
+          "size": 2308
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md",
+          "digest": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+          "mode": "100644",
+          "size": 872
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-resource-hints.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-resource-hints.md",
+          "digest": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+          "mode": "100644",
+          "size": 2549
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-script-defer-async.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md",
+          "digest": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+          "mode": "100644",
+          "size": 1868
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-svg-precision.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-svg-precision.md",
+          "digest": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+          "mode": "100644",
+          "size": 588
+        },
+        {
+          "path": "skills/react-best-practices/rules/rendering-usetransition-loading.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md",
+          "digest": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+          "mode": "100644",
+          "size": 2074
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-defer-reads.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-defer-reads.md",
+          "digest": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+          "mode": "100644",
+          "size": 973
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-dependencies.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-dependencies.md",
+          "digest": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+          "mode": "100644",
+          "size": 824
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-derived-state-no-effect.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md",
+          "digest": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+          "mode": "100644",
+          "size": 1201
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-derived-state.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-derived-state.md",
+          "digest": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+          "mode": "100644",
+          "size": 728
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-functional-setstate.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md",
+          "digest": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+          "mode": "100644",
+          "size": 2968
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-lazy-state-init.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md",
+          "digest": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+          "mode": "100644",
+          "size": 2016
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-memo-with-default-value.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
+          "digest": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+          "mode": "100644",
+          "size": 1173
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-memo.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-memo.md",
+          "digest": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+          "mode": "100644",
+          "size": 1148
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-move-effect-to-event.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md",
+          "digest": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+          "mode": "100644",
+          "size": 1268
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-no-inline-components.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md",
+          "digest": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+          "mode": "100644",
+          "size": 2135
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
+          "digest": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+          "mode": "100644",
+          "size": 1018
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-split-combined-hooks.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md",
+          "digest": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+          "mode": "100644",
+          "size": 1844
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-transitions.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-transitions.md",
+          "digest": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+          "mode": "100644",
+          "size": 1055
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-use-deferred-value.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md",
+          "digest": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+          "mode": "100644",
+          "size": 1846
+        },
+        {
+          "path": "skills/react-best-practices/rules/rerender-use-ref-transient-values.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md",
+          "digest": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+          "mode": "100644",
+          "size": 1742
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-after-nonblocking.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-after-nonblocking.md",
+          "digest": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+          "mode": "100644",
+          "size": 2012
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-auth-actions.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-auth-actions.md",
+          "digest": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+          "mode": "100644",
+          "size": 2649
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-cache-lru.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-lru.md",
+          "digest": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+          "mode": "100644",
+          "size": 1353
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-cache-react.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-react.md",
+          "digest": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+          "mode": "100644",
+          "size": 2228
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-dedup-props.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-dedup-props.md",
+          "digest": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+          "mode": "100644",
+          "size": 2060
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-hoist-static-io.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-hoist-static-io.md",
+          "digest": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+          "mode": "100644",
+          "size": 4423
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-no-shared-module-state.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-no-shared-module-state.md",
+          "digest": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+          "mode": "100644",
+          "size": 1766
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-parallel-fetching.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-parallel-fetching.md",
+          "digest": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+          "mode": "100644",
+          "size": 1554
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-parallel-nested-fetching.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
+          "digest": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+          "mode": "100644",
+          "size": 992
+        },
+        {
+          "path": "skills/react-best-practices/rules/server-serialization.md",
+          "output_path": "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-serialization.md",
+          "digest": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+          "mode": "100644",
+          "size": 996
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-react-best-practices/.claude-plugin/plugin.json": "5bb722633e0e93778e3b344e37680cc00fd1a22631cb35c9f906017b799e4c0d",
+        "packages/claude-code/skill-vercel-react-best-practices/provenance.json": "e6ec561a04834e2c7d0b9a8bc0c31ac1e30358ff67993033a34b7d3a1ae5f008",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/AGENTS.md": "fc93e7421177bbf869cce892bc60a6c83a4517d974bc3bf65c4e2c1e58a6ccf6",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/README.md": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/SKILL.md": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/metadata.json": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/_sections.md": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/_template.md": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-effect-event-deps.md": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-init-once.md": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/advanced-use-latest.md": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-api-routes.md": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-cheap-condition-before-await.md": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-defer-await.md": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-dependencies.md": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-parallel.md": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-analyzable-paths.md": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-conditional.md": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/bundle-preload.md": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-event-listeners.md": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-localstorage-schema.md": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/client-swr-dedup.md": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-batch-dom-css.md": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-function-results.md": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-property-access.md": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-cache-storage.md": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-combine-iterations.md": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-early-exit.md": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-flatmap-filter.md": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-hoist-regexp.md": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-index-maps.md": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-length-check-first.md": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-min-max-loop.md": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-request-idle-callback.md": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-set-map-lookups.md": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-activity.md": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-conditional-render.md": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-content-visibility.md": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-resource-hints.md": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-svg-precision.md": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-defer-reads.md": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-dependencies.md": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-derived-state.md": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-memo.md": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-transitions.md": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-after-nonblocking.md": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-auth-actions.md": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-lru.md": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-cache-react.md": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-dedup-props.md": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-hoist-static-io.md": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-no-shared-module-state.md": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-parallel-fetching.md": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-parallel-nested-fetching.md": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+        "packages/claude-code/skill-vercel-react-best-practices/skills/vercel-react-best-practices/rules/server-serialization.md": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+        "packages/claude-code/skill-vercel-react-best-practices/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-react-best-practices/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-react-best-practices/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-react-best-practices/.codex-plugin/plugin.json": "32eb10073f91d1f0cac0ae1cc205f1b923e3d9c6118e25798fffd2136f7ee36d",
+        "packages/claude-code/skill-vercel-react-best-practices/.cursor-plugin/plugin.json": "32eb10073f91d1f0cac0ae1cc205f1b923e3d9c6118e25798fffd2136f7ee36d",
+        "packages/claude-code/skill-vercel-react-best-practices/plugin.json": "9d09c60ef9b3fb435551e939910455b8c2218bb7444d3e20ab8e828ebb8ffe76"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-react-native-skills": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-react-native-skills",
+      "root": "skills/react-native-skills",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "94e92cea6d0f3f1da25efae96a2ad8d27cc7d0a5f1e18466fc4b32330e5fe4a8",
+      "files": [
+        {
+          "path": "skills/react-native-skills/AGENTS.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/AGENTS.md",
+          "digest": "72996343b8260800fbeb9af63ddaed91f14b65dc547e0922f9f8e9bd72076cbf",
+          "mode": "100644",
+          "size": 73771
+        },
+        {
+          "path": "skills/react-native-skills/README.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/README.md",
+          "digest": "d60d7623005a833b928be6a109ed9d14dea43d7217fb534e8f2e4de5fc1f0ddf",
+          "mode": "100644",
+          "size": 5064
+        },
+        {
+          "path": "skills/react-native-skills/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/SKILL.md",
+          "digest": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+          "mode": "100644",
+          "size": 4439
+        },
+        {
+          "path": "skills/react-native-skills/metadata.json",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/metadata.json",
+          "digest": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+          "mode": "100644",
+          "size": 896
+        },
+        {
+          "path": "skills/react-native-skills/rules/_sections.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_sections.md",
+          "digest": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+          "mode": "100644",
+          "size": 2228
+        },
+        {
+          "path": "skills/react-native-skills/rules/_template.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_template.md",
+          "digest": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+          "mode": "100644",
+          "size": 631
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-derived-value.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-derived-value.md",
+          "digest": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+          "mode": "100644",
+          "size": 1373
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-gesture-detector-press.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gesture-detector-press.md",
+          "digest": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+          "mode": "100644",
+          "size": 2559
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-gpu-properties.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gpu-properties.md",
+          "digest": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+          "mode": "100644",
+          "size": 2059
+        },
+        {
+          "path": "skills/react-native-skills/rules/design-system-compound-components.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/design-system-compound-components.md",
+          "digest": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+          "mode": "100644",
+          "size": 1625
+        },
+        {
+          "path": "skills/react-native-skills/rules/fonts-config-plugin.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/fonts-config-plugin.md",
+          "digest": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+          "mode": "100644",
+          "size": 1393
+        },
+        {
+          "path": "skills/react-native-skills/rules/imports-design-system-folder.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/imports-design-system-folder.md",
+          "digest": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+          "mode": "100644",
+          "size": 1418
+        },
+        {
+          "path": "skills/react-native-skills/rules/js-hoist-intl.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/js-hoist-intl.md",
+          "digest": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+          "mode": "100644",
+          "size": 1645
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-callbacks.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-callbacks.md",
+          "digest": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+          "mode": "100644",
+          "size": 1059
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-function-references.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-function-references.md",
+          "digest": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+          "mode": "100644",
+          "size": 4133
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-images.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-images.md",
+          "digest": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+          "mode": "100644",
+          "size": 1417
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-inline-objects.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-inline-objects.md",
+          "digest": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+          "mode": "100644",
+          "size": 2308
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-expensive.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-expensive.md",
+          "digest": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+          "mode": "100644",
+          "size": 2466
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-memo.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-memo.md",
+          "digest": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+          "mode": "100644",
+          "size": 2250
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-types.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-types.md",
+          "digest": "eed225f4e9e504bfa7db01f5395d1402545cc47de8adf1829a9408cd5d158cf6",
+          "mode": "100644",
+          "size": 2749
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-virtualize.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-virtualize.md",
+          "digest": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+          "mode": "100644",
+          "size": 1742
+        },
+        {
+          "path": "skills/react-native-skills/rules/monorepo-native-deps-in-app.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-native-deps-in-app.md",
+          "digest": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+          "mode": "100644",
+          "size": 1091
+        },
+        {
+          "path": "skills/react-native-skills/rules/monorepo-single-dependency-versions.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-single-dependency-versions.md",
+          "digest": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+          "mode": "100644",
+          "size": 1351
+        },
+        {
+          "path": "skills/react-native-skills/rules/navigation-native-navigators.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/navigation-native-navigators.md",
+          "digest": "6642dedb57e72f0b56df5fbc3d5b8aaa91fc4456932c12712cfd076d393f32c6",
+          "mode": "100644",
+          "size": 4941
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-compiler-destructure-functions.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-destructure-functions.md",
+          "digest": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+          "mode": "100644",
+          "size": 1274
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+          "digest": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+          "mode": "100644",
+          "size": 1268
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-dispatcher.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-dispatcher.md",
+          "digest": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+          "mode": "100644",
+          "size": 2255
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-fallback.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-fallback.md",
+          "digest": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+          "mode": "100644",
+          "size": 1735
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-minimize.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-minimize.md",
+          "digest": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+          "mode": "100644",
+          "size": 1740
+        },
+        {
+          "path": "skills/react-native-skills/rules/rendering-no-falsy-and.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-no-falsy-and.md",
+          "digest": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+          "mode": "100644",
+          "size": 1812
+        },
+        {
+          "path": "skills/react-native-skills/rules/rendering-text-in-text-component.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-text-in-text-component.md",
+          "digest": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+          "mode": "100644",
+          "size": 697
+        },
+        {
+          "path": "skills/react-native-skills/rules/scroll-position-no-state.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/scroll-position-no-state.md",
+          "digest": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+          "mode": "100644",
+          "size": 1936
+        },
+        {
+          "path": "skills/react-native-skills/rules/state-ground-truth.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/state-ground-truth.md",
+          "digest": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+          "mode": "100644",
+          "size": 2172
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-expo-image.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-expo-image.md",
+          "digest": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+          "mode": "100644",
+          "size": 1648
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-image-gallery.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-image-gallery.md",
+          "digest": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+          "mode": "100644",
+          "size": 2546
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-measure-views.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-measure-views.md",
+          "digest": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+          "mode": "100644",
+          "size": 2232
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-menus.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-menus.md",
+          "digest": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+          "mode": "100644",
+          "size": 4598
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-native-modals.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-native-modals.md",
+          "digest": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+          "mode": "100644",
+          "size": 1859
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-pressable.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-pressable.md",
+          "digest": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+          "mode": "100644",
+          "size": 1534
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-safe-area-scroll.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-safe-area-scroll.md",
+          "digest": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+          "mode": "100644",
+          "size": 1579
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-scrollview-content-inset.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-scrollview-content-inset.md",
+          "digest": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+          "mode": "100644",
+          "size": 1317
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-styling.md",
+          "output_path": "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-styling.md",
+          "digest": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+          "mode": "100644",
+          "size": 2212
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-react-native-skills/.claude-plugin/plugin.json": "fe536dff90307b0d7182bad28650262535700569582696ffd37a755e082ff9cd",
+        "packages/claude-code/skill-vercel-react-native-skills/provenance.json": "0bc4a0f64973bd6855ccf924b69a0a01f637f44f7ab81b2d0c0b5900e26d476e",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/AGENTS.md": "72996343b8260800fbeb9af63ddaed91f14b65dc547e0922f9f8e9bd72076cbf",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/README.md": "d60d7623005a833b928be6a109ed9d14dea43d7217fb534e8f2e4de5fc1f0ddf",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/SKILL.md": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/metadata.json": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_sections.md": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/_template.md": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-derived-value.md": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gesture-detector-press.md": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/animation-gpu-properties.md": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/design-system-compound-components.md": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/fonts-config-plugin.md": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/imports-design-system-folder.md": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/js-hoist-intl.md": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-callbacks.md": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-function-references.md": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-images.md": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-inline-objects.md": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-expensive.md": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-memo.md": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-item-types.md": "eed225f4e9e504bfa7db01f5395d1402545cc47de8adf1829a9408cd5d158cf6",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/list-performance-virtualize.md": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-native-deps-in-app.md": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/monorepo-single-dependency-versions.md": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/navigation-native-navigators.md": "6642dedb57e72f0b56df5fbc3d5b8aaa91fc4456932c12712cfd076d393f32c6",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-destructure-functions.md": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-compiler-reanimated-shared-values.md": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-dispatcher.md": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-fallback.md": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/react-state-minimize.md": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-no-falsy-and.md": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/rendering-text-in-text-component.md": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/scroll-position-no-state.md": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/state-ground-truth.md": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-expo-image.md": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-image-gallery.md": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-measure-views.md": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-menus.md": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-native-modals.md": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-pressable.md": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-safe-area-scroll.md": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-scrollview-content-inset.md": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+        "packages/claude-code/skill-vercel-react-native-skills/skills/vercel-react-native-skills/rules/ui-styling.md": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+        "packages/claude-code/skill-vercel-react-native-skills/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-react-native-skills/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-react-native-skills/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-react-native-skills/.codex-plugin/plugin.json": "d68ebbb0a5a926c96529c358fb91d8489eedb5f6006c97c2068b9391e1aa9e65",
+        "packages/claude-code/skill-vercel-react-native-skills/.cursor-plugin/plugin.json": "d68ebbb0a5a926c96529c358fb91d8489eedb5f6006c97c2068b9391e1aa9e65",
+        "packages/claude-code/skill-vercel-react-native-skills/plugin.json": "4b4d280b21023ada39f2ae6f9311d397b49c70183394ff49a7a2912a409d7559"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-react-view-transitions": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-react-view-transitions",
+      "root": "skills/react-view-transitions",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "64ef9b0b3fa0954d57296a0887cd21a1a3cdea62f4b102a4eca7ec7fc0053f6f",
+      "files": [
+        {
+          "path": "skills/react-view-transitions/AGENTS.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/AGENTS.md",
+          "digest": "83fd29aec273cf4318a4f428ed2725f2cd3b6adbd76640e495c31f0a2521c702",
+          "mode": "100644",
+          "size": 58993
+        },
+        {
+          "path": "skills/react-view-transitions/README.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/README.md",
+          "digest": "aba31b4ac31c1b13d2a8054179604abd4498b0d7324746635ff0e3b0aea9d608",
+          "mode": "100644",
+          "size": 2231
+        },
+        {
+          "path": "skills/react-view-transitions/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/SKILL.md",
+          "digest": "1520343c8814c972fee001cac6d6185976d6eb3f4edcac33afe95c10f3b3228b",
+          "mode": "100644",
+          "size": 14407
+        },
+        {
+          "path": "skills/react-view-transitions/metadata.json",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/metadata.json",
+          "digest": "b1a5ae09f3904dc83dab79f518d033bd98f1e2f55caabfdb5beeeaaf0ca5e4c2",
+          "mode": "100644",
+          "size": 852
+        },
+        {
+          "path": "skills/react-view-transitions/references/css-recipes.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/css-recipes.md",
+          "digest": "f4a5b92a7aad6befd2779e498ab04311277f179b240d2170f0a68a1444024d51",
+          "mode": "100644",
+          "size": 8337
+        },
+        {
+          "path": "skills/react-view-transitions/references/implementation.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/implementation.md",
+          "digest": "87687de5fa2f775a6b5134ee02863ebede9ee6bc42ea8ed99bd53aa5325e78f4",
+          "mode": "100644",
+          "size": 9280
+        },
+        {
+          "path": "skills/react-view-transitions/references/nextjs.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/nextjs.md",
+          "digest": "f926a645d5e4c62fcc2d5832be0f3ad048f2ee1d17f8476324e2bc407e4b3a07",
+          "mode": "100644",
+          "size": 10700
+        },
+        {
+          "path": "skills/react-view-transitions/references/patterns.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/patterns.md",
+          "digest": "da24d7f37c7e6b8ecbcf05525ef613d8f5be94655c233d6fa62833c8a746604f",
+          "mode": "100644",
+          "size": 11941
+        },
+        {
+          "path": "skills/react-view-transitions/references/troubleshooting.md",
+          "output_path": "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/troubleshooting.md",
+          "digest": "aa6811d276dcf06dcc9aba90d1e11e1d0a29146604bf7c89a9e93a6fa8883c7a",
+          "mode": "100644",
+          "size": 4940
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-react-view-transitions/.claude-plugin/plugin.json": "e05f5299ed201ac29dc84d5471a312de7bf42bc0aca5e1d65a4327de50cf7b51",
+        "packages/claude-code/skill-vercel-react-view-transitions/provenance.json": "039def0cf5795e0669bcbfa1320665b7e86ce5d8642526376e0d94ebfd4c7d77",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/AGENTS.md": "83fd29aec273cf4318a4f428ed2725f2cd3b6adbd76640e495c31f0a2521c702",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/README.md": "aba31b4ac31c1b13d2a8054179604abd4498b0d7324746635ff0e3b0aea9d608",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/SKILL.md": "1520343c8814c972fee001cac6d6185976d6eb3f4edcac33afe95c10f3b3228b",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/metadata.json": "b1a5ae09f3904dc83dab79f518d033bd98f1e2f55caabfdb5beeeaaf0ca5e4c2",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/css-recipes.md": "f4a5b92a7aad6befd2779e498ab04311277f179b240d2170f0a68a1444024d51",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/implementation.md": "87687de5fa2f775a6b5134ee02863ebede9ee6bc42ea8ed99bd53aa5325e78f4",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/nextjs.md": "f926a645d5e4c62fcc2d5832be0f3ad048f2ee1d17f8476324e2bc407e4b3a07",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/patterns.md": "da24d7f37c7e6b8ecbcf05525ef613d8f5be94655c233d6fa62833c8a746604f",
+        "packages/claude-code/skill-vercel-react-view-transitions/skills/vercel-react-view-transitions/references/troubleshooting.md": "aa6811d276dcf06dcc9aba90d1e11e1d0a29146604bf7c89a9e93a6fa8883c7a",
+        "packages/claude-code/skill-vercel-react-view-transitions/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-react-view-transitions/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-react-view-transitions/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-react-view-transitions/.codex-plugin/plugin.json": "b9002ebee1e0790b9c0595a5169aa9c44212973fd4244d47e22d340166da5883",
+        "packages/claude-code/skill-vercel-react-view-transitions/.cursor-plugin/plugin.json": "b9002ebee1e0790b9c0595a5169aa9c44212973fd4244d47e22d340166da5883",
+        "packages/claude-code/skill-vercel-react-view-transitions/plugin.json": "6a8c164b5d2d242d7cc495414cd07aae837bd7aef4025e236f10c791c8ba2fad"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-vercel-cli-with-tokens": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-vercel-cli-with-tokens",
+      "root": "skills/vercel-cli-with-tokens",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "92b61b1879882c13ed3e4b7bd582a54e62407ec4f256d38a99f1f6eaad7de18d",
+      "files": [
+        {
+          "path": "skills/vercel-cli-with-tokens/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-cli-with-tokens/skills/vercel-cli-with-tokens/SKILL.md",
+          "digest": "c06bea99e75eab07fde4fae26069baa002f82f39b53f07981704c2901551dd4c",
+          "mode": "100644",
+          "size": 10476
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/.claude-plugin/plugin.json": "c325c002eb97f20bb0f1179f3bd24a84304b5a439fbdf4f71fe89abe731151ae",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/provenance.json": "08cc281dd0cba33e57101b86e31c187e2da1fb8f2dd2e1e4b8c857b7c3890add",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/skills/vercel-cli-with-tokens/SKILL.md": "c06bea99e75eab07fde4fae26069baa002f82f39b53f07981704c2901551dd4c",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/.codex-plugin/plugin.json": "8ce1ccaea536730e2c96a73585e01404bf3312846fa726040d049c5307bd5f2f",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/.cursor-plugin/plugin.json": "8ce1ccaea536730e2c96a73585e01404bf3312846fa726040d049c5307bd5f2f",
+        "packages/claude-code/skill-vercel-vercel-cli-with-tokens/plugin.json": "d0f110d7d524952cb9b0f0bab7911e82392a00e42d5a4c66d725304fa607db6b"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-vercel-optimize": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-vercel-optimize",
+      "root": "skills/vercel-optimize",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "dbaa5432c101a4182af67c9d11206078243cb55ea29b82482ff9b83b040bdd0c",
+      "files": [
+        {
+          "path": "skills/vercel-optimize/AGENTS.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/AGENTS.md",
+          "digest": "922a35993ffd98c923d61fa3d7a722bc1bc17466ea1e0b5828f67de21fbb0e7a",
+          "mode": "100644",
+          "size": 1964
+        },
+        {
+          "path": "skills/vercel-optimize/CONTRIBUTING.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/CONTRIBUTING.md",
+          "digest": "4a3c6695f23ada3228582f1062509545dbad485e5011434c12b7ddd81bf1370a",
+          "mode": "100644",
+          "size": 2224
+        },
+        {
+          "path": "skills/vercel-optimize/README.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/README.md",
+          "digest": "4ebb0ae7c6a2c8cfe7ed8ad26a6bee0be99d8682be331d9d28c1cb81ad3718d0",
+          "mode": "100644",
+          "size": 4471
+        },
+        {
+          "path": "skills/vercel-optimize/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/SKILL.md",
+          "digest": "95ae2683b30d892d165af92a350c5628b68106f395a59b448857b654e306ed91",
+          "mode": "100644",
+          "size": 17311
+        },
+        {
+          "path": "skills/vercel-optimize/lib/auth-route.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/auth-route.mjs",
+          "digest": "c06a222bccd2c57b418b1d935d73f5b81297dac8533c004ec5bb4027cec3307a",
+          "mode": "100644",
+          "size": 807
+        },
+        {
+          "path": "skills/vercel-optimize/lib/budget-summary.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/budget-summary.mjs",
+          "digest": "8662a2914940b8c548be164c09ce7706ea261549fb61147d2a7a13af1e3337cc",
+          "mode": "100644",
+          "size": 7145
+        },
+        {
+          "path": "skills/vercel-optimize/lib/citations.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/citations.mjs",
+          "digest": "41a1bafa7addc4b39d144491f178a159cc23ff779b4803f2c152fe579209b384",
+          "mode": "100644",
+          "size": 4029
+        },
+        {
+          "path": "skills/vercel-optimize/lib/cost-coverage.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/cost-coverage.mjs",
+          "digest": "483b0f03f5db08e15388e1c047ffad414bb132bb3ce48418defc0d9a70a20e44",
+          "mode": "100644",
+          "size": 8628
+        },
+        {
+          "path": "skills/vercel-optimize/lib/dedup-recs.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/dedup-recs.mjs",
+          "digest": "5fc631c1f56eea8bf8c59afb773511d9a8f42d29574fa14f03abb60c881206cc",
+          "mode": "100644",
+          "size": 10151
+        },
+        {
+          "path": "skills/vercel-optimize/lib/deep-dive.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/deep-dive.mjs",
+          "digest": "c86c5ed224c00c2e72a54eef16260b8e7237302a7e69e47310077eae7f65ced1",
+          "mode": "100644",
+          "size": 10458
+        },
+        {
+          "path": "skills/vercel-optimize/lib/display-labels.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/display-labels.mjs",
+          "digest": "e56e54a0e19ed3ed4f45112cb358c1df5a77caa7411f5c2267c73064f64d1b08",
+          "mode": "100644",
+          "size": 7611
+        },
+        {
+          "path": "skills/vercel-optimize/lib/extract-claims.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/extract-claims.mjs",
+          "digest": "a3f44334dad0ba743699860d6b83a06e38c7e465f73418749822cf00d563ee2a",
+          "mode": "100644",
+          "size": 19136
+        },
+        {
+          "path": "skills/vercel-optimize/lib/framework-support.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/framework-support.mjs",
+          "digest": "ed8ef73604d5bd91f4aea6fb0de465079474e00299c23bbdba8b04dd70545364",
+          "mode": "100644",
+          "size": 2126
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/build-minutes-fanout.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/build-minutes-fanout.mjs",
+          "digest": "c088ab1f91af8b4e86e8f3f3210c7b625757a3699bd5818c905f66ade92064b1",
+          "mode": "100644",
+          "size": 3016
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/cold-start.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cold-start.mjs",
+          "digest": "40023aae34ebc37df1382c7c4c00efc3864b2c11a8c9ee8cf05f371762680300",
+          "mode": "100644",
+          "size": 2797
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/contract.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/contract.mjs",
+          "digest": "e0bd012b53b6a70684279a3ad58598f5a1f79698d0e521d0e9d0994e87b3ae65",
+          "mode": "100644",
+          "size": 3143
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/cwv-poor.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cwv-poor.mjs",
+          "digest": "17ab4ae24b5d0220d941215db8544bed68c1af02e6d5d7aba4ff077a46675fbb",
+          "mode": "100644",
+          "size": 3372
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/external-api-slow.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/external-api-slow.mjs",
+          "digest": "12ce4f0cf906e5631170a58307758f095069d3051c16f64ddeec00bb99a66dc9",
+          "mode": "100644",
+          "size": 2173
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/hard-gates.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/hard-gates.mjs",
+          "digest": "b31d94495e20721b8ce825bde073ba9a32c14063b0cc711e23e2582fb0ebd677",
+          "mode": "100644",
+          "size": 2543
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/index.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/index.mjs",
+          "digest": "d473dfce777f68430d2b68836efb184152a59da97d3b06d37a6f618c7d4c59a6",
+          "mode": "100644",
+          "size": 2066
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/isr-overrevalidation.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/isr-overrevalidation.mjs",
+          "digest": "333d2dc8523d5850fddb5c13cd78fe62c0838ffd627c41b374804dca26cc63c6",
+          "mode": "100644",
+          "size": 2442
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/middleware-heavy.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/middleware-heavy.mjs",
+          "digest": "1ad98bc73be97254d6131707ed93c72262c071e54ce071a392549df33d0d7ae7",
+          "mode": "100644",
+          "size": 2085
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/observability-events-attribution.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/observability-events-attribution.mjs",
+          "digest": "8e465217257c771c0be8580c1b9abcf1defd26e5a70c9559dc10f4cc45527c52",
+          "mode": "100644",
+          "size": 2255
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/platform-bot-protection.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-bot-protection.mjs",
+          "digest": "0124cd71876616f7de741d962ff4cbcb79a78654a3026372a18195e2ff99294b",
+          "mode": "100644",
+          "size": 5089
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/platform-fluid-compute.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-fluid-compute.mjs",
+          "digest": "de81279134bef9499f1cbe2f38d06bb5caa968daa5438f09c9bad0d2f27efa96",
+          "mode": "100644",
+          "size": 3630
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/region-misconfig.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/region-misconfig.mjs",
+          "digest": "0b3976cd50a9fb54601c60ad27c62b64aa7a4eeb338af4226b618ae1d5a9cc4a",
+          "mode": "100644",
+          "size": 3101
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/route-errors.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/route-errors.mjs",
+          "digest": "a32a29b683557409b351da84e45ab316818f8a90c5af380ba7efc5366c03129f",
+          "mode": "100644",
+          "size": 3101
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/scanner-driven.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/scanner-driven.mjs",
+          "digest": "485313169d009ded7bdb1e4083150919e77eb4373aff0252cd5c0c235f2e8f3b",
+          "mode": "100644",
+          "size": 5191
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/select-candidates.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/select-candidates.mjs",
+          "digest": "bde0714be600905caaaa99991d37c31df9e6775b8a107ee2df5eb63ffa9d1e11",
+          "mode": "100644",
+          "size": 4703
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/slow-route.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/slow-route.mjs",
+          "digest": "b0d330e4244bd3d2e240f6398ead4b235bb69b72fe585771cde4f11ae8726148",
+          "mode": "100644",
+          "size": 4384
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/types.d.ts",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/types.d.ts",
+          "digest": "097ea533204446ccc18798fc01656577df8b864c24b0eda4c66ebc913fa36f31",
+          "mode": "100644",
+          "size": 893
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/uncached-route.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/uncached-route.mjs",
+          "digest": "c4f89fa083f13a9360dd5ec6b45b39db3f480c797193c590bf131f53463388cb",
+          "mode": "100644",
+          "size": 3963
+        },
+        {
+          "path": "skills/vercel-optimize/lib/gates/usage-spike-triage.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/usage-spike-triage.mjs",
+          "digest": "b8f84b57fe9d41323467c765ef9da4893b0cac6eee31603179cd8cb77ffd7be3",
+          "mode": "100644",
+          "size": 5095
+        },
+        {
+          "path": "skills/vercel-optimize/lib/grade-recommendation.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/grade-recommendation.mjs",
+          "digest": "e06008677dd1c6a27d767636356b6a68f357a3122b57adca3238bd2ca7576c38",
+          "mode": "100644",
+          "size": 6887
+        },
+        {
+          "path": "skills/vercel-optimize/lib/impact-label.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-label.mjs",
+          "digest": "4d55baae79025bfa43b829ff291019bb6a1f6d015c72dd44612d8e3afeb60b9f",
+          "mode": "100644",
+          "size": 5344
+        },
+        {
+          "path": "skills/vercel-optimize/lib/impact-magnitude.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-magnitude.mjs",
+          "digest": "a87cec394f9d853da43e633e8ce2cb9f1f62fb2ae7dd6a58f542a5e7024b2c5b",
+          "mode": "100644",
+          "size": 2172
+        },
+        {
+          "path": "skills/vercel-optimize/lib/investigation-brief.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/investigation-brief.mjs",
+          "digest": "f41d9354992fb5c7904b8faa1ad1fa457f8b69533d2113ec9c38192c227bf0c7",
+          "mode": "100644",
+          "size": 35165
+        },
+        {
+          "path": "skills/vercel-optimize/lib/observation-safety.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/observation-safety.mjs",
+          "digest": "540a4c49f10ceab570513f2834b7fbd88b2090c85690ed0f8b5c5bf0e623badd",
+          "mode": "100644",
+          "size": 9486
+        },
+        {
+          "path": "skills/vercel-optimize/lib/project-facts.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/project-facts.mjs",
+          "digest": "d8b508d1077fdb4bcf5c2f267750cb4a6ca529811eecdadb10f9e632e304f30b",
+          "mode": "100644",
+          "size": 4399
+        },
+        {
+          "path": "skills/vercel-optimize/lib/queries.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/queries.mjs",
+          "digest": "a747292c7bbc69a245799f846c6d081df44506c5c8e3d245b610c0f32edcea69",
+          "mode": "100644",
+          "size": 10338
+        },
+        {
+          "path": "skills/vercel-optimize/lib/reconcile-candidates.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/reconcile-candidates.mjs",
+          "digest": "4e02dbc4fba1834192f018b05e9d42723fda13dbecf26a7cc09eacbfe1925b75",
+          "mode": "100644",
+          "size": 15966
+        },
+        {
+          "path": "skills/vercel-optimize/lib/render-report.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/render-report.mjs",
+          "digest": "35068fb5df2f2b9a89cabf40e050c40da5d8fadeec33cdbd47c8fc995677a127",
+          "mode": "100644",
+          "size": 39131
+        },
+        {
+          "path": "skills/vercel-optimize/lib/repo-root.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/repo-root.mjs",
+          "digest": "77ce8277fa444dea77cb10c17e7a0d2db98a6cbea6e2df0fa2ff01372b52eb0c",
+          "mode": "100644",
+          "size": 3135
+        },
+        {
+          "path": "skills/vercel-optimize/lib/route-normalize.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/route-normalize.mjs",
+          "digest": "a2e39b3f653695392f096c1b385e31a9b1452714de4908c1d0e6604626274b5d",
+          "mode": "100644",
+          "size": 8590
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/bot-protection-certainty.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/bot-protection-certainty.mjs",
+          "digest": "2edac6df3f4565ec7d2f784db7e660767f8a213bfe9f55f6da14f2517f4a071a",
+          "mode": "100644",
+          "size": 1988
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/cache-tag-invalidation-certainty.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/cache-tag-invalidation-certainty.mjs",
+          "digest": "31aec0481e996fd2a9a546c792ff17223747c850806405b2ee3cb95c40e296c0",
+          "mode": "100644",
+          "size": 1522
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/count-correct.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/count-correct.mjs",
+          "digest": "cf427876a8c64d9591d89da727a2d4cec9dc0dcd717ffba3f82be52c38c73de3",
+          "mode": "100644",
+          "size": 1956
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/function-duration-invocations.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/function-duration-invocations.mjs",
+          "digest": "c745bc90e67722f8584d3d426f28ccc4701504a635dd966cdb8f487ee79eb7b3",
+          "mode": "100644",
+          "size": 1470
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/index.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/index.mjs",
+          "digest": "99babb880c7d5e7ac209e7eb1bf26f2ae9ac5a795062d01e15d76c57055247bf",
+          "mode": "100644",
+          "size": 3053
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/middleware-conflict.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/middleware-conflict.mjs",
+          "digest": "89fae25e31662ed7f31fef973e7b969271fc061839112adabf253a3e87380b97",
+          "mode": "100644",
+          "size": 1586
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/missing-citation.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/missing-citation.mjs",
+          "digest": "431ec0944239d4477556a23808733298ecd5bdfb4a810ab887b83f0266eb5904",
+          "mode": "100644",
+          "size": 497
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/pre-release.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/pre-release.mjs",
+          "digest": "dce1475fd392d245bd4a48e1280c2f0a00fc4dea96cd9f40e4d260fdc0bf5940",
+          "mode": "100644",
+          "size": 2224
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/rate-limit.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rate-limit.mjs",
+          "digest": "42b2a3ecb07443ab5aeb881ab6dea31a92f767b73697fd0529e877084657629c",
+          "mode": "100644",
+          "size": 2655
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/rendering-mode-mislabel.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rendering-mode-mislabel.mjs",
+          "digest": "410c60d8f71250d8b443384098f02869e7a1b4d9dcb3e3ca384ca3b875648788",
+          "mode": "100644",
+          "size": 1670
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/undeclared-dep.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/undeclared-dep.mjs",
+          "digest": "bc2a483311a2c44103b15d9498b5d303101724454c114907d23de6d7725e8769",
+          "mode": "100644",
+          "size": 2833
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/vercel-directive-strip.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/vercel-directive-strip.mjs",
+          "digest": "b94a6fcd0a03358dcb853b04a392b0946d8a07d8619e86b562b8b38a6cffac85",
+          "mode": "100644",
+          "size": 1460
+        },
+        {
+          "path": "skills/vercel-optimize/lib/sanitizers/window-units.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/window-units.mjs",
+          "digest": "f7823f1c4705166c313107571f048fd4e7fa160cb982dcbfe07d936ab4cb5a3b",
+          "mode": "100644",
+          "size": 869
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/cache-components-suspense-dedupe.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/cache-components-suspense-dedupe.mjs",
+          "digest": "ca4c643a30b76df0e8728f8b8854167483f746a9d45aafb467c3bec9125b7878",
+          "mode": "100644",
+          "size": 4367
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/edge-heavy-import.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/edge-heavy-import.mjs",
+          "digest": "0faacf202542cc6ea37290377a61e9c34a84d3d9439822cd7df09d450ff663a3",
+          "mode": "100644",
+          "size": 3740
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/force-dynamic.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/force-dynamic.mjs",
+          "digest": "5f378119f8e6d1961cde57dcd6ccd193cc4a9713068d4828ca4eee724b15095d",
+          "mode": "100644",
+          "size": 1586
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/headers-in-page.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/headers-in-page.mjs",
+          "digest": "84f72dcd79631561fa54f6a5128337b6b9317bc9b7c720b709078cf0c2758e7d",
+          "mode": "100644",
+          "size": 1537
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/index.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/index.mjs",
+          "digest": "9443d7e055a4b8368973c027b739742bbf5e98de4dbc5078c4cd7fb2677aeeb9",
+          "mode": "100644",
+          "size": 1458
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/large-static-asset.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/large-static-asset.mjs",
+          "digest": "5ee29065ae96b7aff236dd3ea9766765a7c48e1bd95008e261837ae42932b783",
+          "mode": "100644",
+          "size": 3279
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/max-age-without-s-maxage.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/max-age-without-s-maxage.mjs",
+          "digest": "ec722b65530f428232f2b501f5f52e427cd7218c51cceb4783b5f7b03c3ad577",
+          "mode": "100644",
+          "size": 1629
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/middleware-broad-matcher.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/middleware-broad-matcher.mjs",
+          "digest": "e41e07c4fb8d0b6776e5f27609e719ae42c1644b7adcfa2dc1abc90a511c0492",
+          "mode": "100644",
+          "size": 1986
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/missing-cache-headers.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/missing-cache-headers.mjs",
+          "digest": "cc4ccea4c4f1d8594a97b18ca39b5212060faa3306dccdea0b2c7645d3f3cf8a",
+          "mode": "100644",
+          "size": 3922
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/prisma-include-tree.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/prisma-include-tree.mjs",
+          "digest": "ab107e2732ca1873b4e4ce974e9c08b6ebde83a8f96675b96087213b16aa901e",
+          "mode": "100644",
+          "size": 1585
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/region-pin-in-config.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/region-pin-in-config.mjs",
+          "digest": "906f33c344c98910f1148c86a9c5cd5cfbaf84cc8c06d02e3eb257ecd639b0d3",
+          "mode": "100644",
+          "size": 3448
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/source-maps-production.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/source-maps-production.mjs",
+          "digest": "f9ab9cf88a22a4c0fa32f73ac39243b6f61a868b81ca55f804d8c33a9341013c",
+          "mode": "100644",
+          "size": 1300
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/sveltekit-prerender-missing.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/sveltekit-prerender-missing.mjs",
+          "digest": "ff5380fa9d8a3e77d8ff430e1b7866a0890b50d163bcc2a599f0b30238947999",
+          "mode": "100644",
+          "size": 2127
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/turbo-force-bypass.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/turbo-force-bypass.mjs",
+          "digest": "b84a7774f18e1ea86cb19335fd41324b89635ccb43b75f31e0218516fd9363d2",
+          "mode": "100644",
+          "size": 4974
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/unoptimized-image.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/unoptimized-image.mjs",
+          "digest": "f2049c073b769838e33f6110f8f139cacd1e8b8a01eda1473ebed0a14ec64b4f",
+          "mode": "100644",
+          "size": 4516
+        },
+        {
+          "path": "skills/vercel-optimize/lib/scanners/use-cache-date-stamp.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/use-cache-date-stamp.mjs",
+          "digest": "2d04abd40b888e8c16bccee92dc3423ab86b109551cfab8807367d9cc8ca0878",
+          "mode": "100644",
+          "size": 4040
+        },
+        {
+          "path": "skills/vercel-optimize/lib/support-topics.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/support-topics.mjs",
+          "digest": "c9ac60070df4e6707299da5ab0d72a9853659ddfcfd4dca29f5803ef3ce41840",
+          "mode": "100644",
+          "size": 12836
+        },
+        {
+          "path": "skills/vercel-optimize/lib/throttle.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/throttle.mjs",
+          "digest": "1d09d586071838152fe28882cd65f508a508ecd99b59187c84f27b908cc18017",
+          "mode": "100644",
+          "size": 8992
+        },
+        {
+          "path": "skills/vercel-optimize/lib/util.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/util.mjs",
+          "digest": "431eb675f0a658e19a1b08cdb064e19f96a62d42a35c5f4d962756c8cf97d523",
+          "mode": "100644",
+          "size": 544
+        },
+        {
+          "path": "skills/vercel-optimize/lib/vercel.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/vercel.mjs",
+          "digest": "01a7bd818b64bd26143f93e4417f6463199a81c154854e9c60d2fcce3aea2e82",
+          "mode": "100644",
+          "size": 31125
+        },
+        {
+          "path": "skills/vercel-optimize/lib/verify-claim.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/verify-claim.mjs",
+          "digest": "b7956b5e96e0be7e4ed7a107541d5e4ea11475f9b4e7829c4035769d3a879f71",
+          "mode": "100644",
+          "size": 60992
+        },
+        {
+          "path": "skills/vercel-optimize/lib/workspace-resolver.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/workspace-resolver.mjs",
+          "digest": "9da10f288418475ab871b5430de38d4b97441794373721844cb540e40986e74c",
+          "mode": "100644",
+          "size": 17545
+        },
+        {
+          "path": "skills/vercel-optimize/metadata.json",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/metadata.json",
+          "digest": "729f7dcb13ebac414d54232e56acaeae4f7ded041947805a0b30a5d8fee59511",
+          "mode": "100644",
+          "size": 903
+        },
+        {
+          "path": "skills/vercel-optimize/references/candidates.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/candidates.md",
+          "digest": "1e04722b3924a11a774d87abbf35070cdf480ad02c8487f97a3dd69bb46b59af",
+          "mode": "100644",
+          "size": 8510
+        },
+        {
+          "path": "skills/vercel-optimize/references/data-collection.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/data-collection.md",
+          "digest": "dbc013dfc59c29f38f279fbbb422f19d7cc1ba37d17ee02d9c64ea6cb594bd22",
+          "mode": "100644",
+          "size": 20925
+        },
+        {
+          "path": "skills/vercel-optimize/references/docs-library.json",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/docs-library.json",
+          "digest": "287d4dabbb3eab789911a6c2b4aea9ffc57206fa4a8449636358503e32b9542c",
+          "mode": "100644",
+          "size": 31540
+        },
+        {
+          "path": "skills/vercel-optimize/references/doctrine.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/doctrine.md",
+          "digest": "4a7eac752141410d134febe786c4b51f4723a55026a5638c38fcb492a1d86df4",
+          "mode": "100644",
+          "size": 9512
+        },
+        {
+          "path": "skills/vercel-optimize/references/observability-plus.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/observability-plus.md",
+          "digest": "86b6f6d5bd7f4b9827f70505705ed0f875a0ef2e2cdb85653f0e09f825393333",
+          "mode": "100644",
+          "size": 5329
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/README.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/README.md",
+          "digest": "9b699bb8d2436b089ced036780cbc108502f3713b15f83440fd042e393487cf3",
+          "mode": "100644",
+          "size": 2812
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/ai-application.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ai-application.md",
+          "digest": "e9e353a3f7d5c576e14893ebb0e1eddaa90ee986f0ef3d9edb3be73a2e947ac9",
+          "mode": "100644",
+          "size": 3933
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/api-service.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/api-service.md",
+          "digest": "f90e2d558ea697dc06f05794ad47770f379e3268321ab8a6a642abd7f2fa7ed3",
+          "mode": "100644",
+          "size": 2485
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/content-site.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/content-site.md",
+          "digest": "9d4b1a7d1c6eb6f58e94c5df5dc8264c5bd6c877f045c7c81228924cbadc9d37",
+          "mode": "100644",
+          "size": 2502
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/ecommerce.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ecommerce.md",
+          "digest": "f44707fac676e67de04b7ddb2f78bc806f286cd324d05d990641acef3097a0e9",
+          "mode": "100644",
+          "size": 2737
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/marketing.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/marketing.md",
+          "digest": "b7e0ed3de01e95f7776891b6a63e0d2929b066c61ccd9b8ac012b42cbc3e4a19",
+          "mode": "100644",
+          "size": 2675
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/saas.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/saas.md",
+          "digest": "f23b518dd7c369144813f80abe6eba3e762db3b737b3271bb8b887307fcec387",
+          "mode": "100644",
+          "size": 2896
+        },
+        {
+          "path": "skills/vercel-optimize/references/playbooks/sveltekit.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/sveltekit.md",
+          "digest": "32db0a70f1217c2e3f750ef5e5671da54a07a510369307e38877e3fd3ad21767",
+          "mode": "100644",
+          "size": 4019
+        },
+        {
+          "path": "skills/vercel-optimize/references/recommendations.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/recommendations.md",
+          "digest": "8e65890c1afd942f4bf9dd07ba538b2b9f53a6136ec83e96cc10740c6f8dda87",
+          "mode": "100644",
+          "size": 10788
+        },
+        {
+          "path": "skills/vercel-optimize/references/scanner-patterns.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scanner-patterns.md",
+          "digest": "e160869045f6456d10bd4f1fdeff76d42d8b3e0c50a7212a607603589798bcaa",
+          "mode": "100644",
+          "size": 13671
+        },
+        {
+          "path": "skills/vercel-optimize/references/scoring.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scoring.md",
+          "digest": "44a295b6c65ee5c221815149c7fad1adb02c8ac8750d0604a8dfbfe47d04b6d6",
+          "mode": "100644",
+          "size": 12505
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/README.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/README.md",
+          "digest": "63e2acd6e221ca52355a5f70ff8d9c3d9704600eb7e176d3cb2f4597ad03db4b",
+          "mode": "100644",
+          "size": 1785
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md",
+          "digest": "80586e0b110749f2cdd6e56635d6cd88082230b9bd11a8e388ec6d3b280bc65d",
+          "mode": "100644",
+          "size": 1012
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md",
+          "digest": "6137553e35076795f6c0851b0e93d4686cf937930d35b284567da7c0edfe35ba",
+          "mode": "100644",
+          "size": 1135
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/auth-preserving-parallelization.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/auth-preserving-parallelization.md",
+          "digest": "34cfd687cc106ef15696b8f1f155c30f635234e29f3c4db087193c3c2c3c4bac",
+          "mode": "100644",
+          "size": 1203
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md",
+          "digest": "892d8f32deb5bded86863a513d3799bfd81dc4654ae4fde5a264638cfd86755d",
+          "mode": "100644",
+          "size": 1119
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md",
+          "digest": "1f54f0ba4d1b2ab873eb166ca2f1661d39b49e70253dea8ce13a44c2b728ba85",
+          "mode": "100644",
+          "size": 1269
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md",
+          "digest": "664a13ced4e985e9b12bdf6730fecccfd79fb715be2998a710068384a0ab4cc0",
+          "mode": "100644",
+          "size": 1162
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+          "digest": "212f1bedf49c9a1e7aac7745c5b19f57c486456d5e4ef9037fa9689f51930047",
+          "mode": "100644",
+          "size": 1380
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md",
+          "digest": "5691cd39b3403ef939199c3b9b21e28cb447b2f8d2f6dea6000064e5ef3fdfb5",
+          "mode": "100644",
+          "size": 1068
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md",
+          "digest": "98961df48eac648e71c73b7dd53a215ac02af62f0bfbc67a1af335e66b8fb7c1",
+          "mode": "100644",
+          "size": 1159
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md",
+          "digest": "05d84906be0f1e26787e871c00cd563f18533a7b12d3383c5cb3557fe01ea768",
+          "mode": "100644",
+          "size": 1037
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/database-egress-pooling-region.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/database-egress-pooling-region.md",
+          "digest": "83fa0f1a3ff67b9f149ba39432834bba88437dbdf09d6b5e7a5e3b552ceb473e",
+          "mode": "100644",
+          "size": 1015
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/dynamic-rendering-traps.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/dynamic-rendering-traps.md",
+          "digest": "a075a13fc3c40d7d249051519cf2384497a34f3f4a207f757bf4343c3896fd64",
+          "mode": "100644",
+          "size": 1139
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/external-api-critical-path-platform.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path-platform.md",
+          "digest": "02a7a7e3ba867973c9e45d565e69349cd44a5bdb9e00e6fbbf9c76edd01516e5",
+          "mode": "100644",
+          "size": 1145
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/external-api-critical-path.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path.md",
+          "digest": "dade955ceba21150590f8606b993881d6f6b20fef32c147b77ce26d9e9931773",
+          "mode": "100644",
+          "size": 978
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md",
+          "digest": "d7daca1a05d8f3157aab22b97552247cb0a8f856f08fc49079fd76872f7a50fa",
+          "mode": "100644",
+          "size": 1050
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/fluid-compute-caveats.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fluid-compute-caveats.md",
+          "digest": "3408a19b49a9723cfac1b461babe56dc414f0f1f7561bd7e6f4f7579ab26a13f",
+          "mode": "100644",
+          "size": 1125
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/function-duration-io-and-after.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-duration-io-and-after.md",
+          "digest": "693c07390d7cf8b4c0a0d0235176a5f452694d1553c33db4fd385f76c94d307d",
+          "mode": "100644",
+          "size": 1027
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/function-invocation-reduction.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-invocation-reduction.md",
+          "digest": "1e50e0e24299fc08aaf6b81d6673ce24c0bc250883c8ecc76e52d6d1dca989a9",
+          "mode": "100644",
+          "size": 1181
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md",
+          "digest": "dd5013cf9bd5b3ee7383d3b9835babc6a93b965e07b7093f48d53ce755510326",
+          "mode": "100644",
+          "size": 1254
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/image-optimization-cost-control.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/image-optimization-cost-control.md",
+          "digest": "1123f4712ec4a4ff057dadbee25f7de51bc8473862dbb398693f9c091336681c",
+          "mode": "100644",
+          "size": 1071
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md",
+          "digest": "fafc8585a02b2142b60289177b041d63e1280d1fdccd38a2faa2e89d7c1950cb",
+          "mode": "100644",
+          "size": 1419
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md",
+          "digest": "d1c6f3b0f4ecf3c4d430c2ae3999c9485e8f2115e40d9ba973b637541a5a5f32",
+          "mode": "100644",
+          "size": 991
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md",
+          "digest": "65897b4111c75457e1fbe16ce6f9716c5fd58365d8defaeb80b5ea0ca4f2a3b0",
+          "mode": "100644",
+          "size": 1059
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md",
+          "digest": "a06d7f692fc902f41a227f5acb20d694e2d47c3098b1fba354b5413e7df32964",
+          "mode": "100644",
+          "size": 906
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+          "digest": "f48f1f61626aa313b3e08a6e43a5550bddef278f5c6aa4093b52bee1e9e1d78b",
+          "mode": "100644",
+          "size": 1048
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md",
+          "digest": "f176647780339cbd409897cbbaa8666f0dc7c301905651ad39b7feb2a0696a89",
+          "mode": "100644",
+          "size": 1062
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md",
+          "digest": "2f7e29b85cc1a8a31db214f59524035d3486c3a26c9fb9a39d62f3b834ee0f0c",
+          "mode": "100644",
+          "size": 1072
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/next-script-third-party-strategy.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-script-third-party-strategy.md",
+          "digest": "413fb8dfdb561ccb5073c89b93c0e28420cfa5125bff89317c699167c3b2f35a",
+          "mode": "100644",
+          "size": 1051
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md",
+          "digest": "e8bf6e27e63841bb49c44e8d0e93d674866ba28f6217d41d5c4de2b51178b8dc",
+          "mode": "100644",
+          "size": 996
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md",
+          "digest": "88a9bf8ec200182534957603bda8c3bcc8d9dce8d884ea19c890994424827ab8",
+          "mode": "100644",
+          "size": 1273
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md",
+          "digest": "639b0a57b50813bfea7f1734a2cb883d8fb756c86a3a4460e08e899d04323cbb",
+          "mode": "100644",
+          "size": 1188
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/observability-events-cost-attribution.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/observability-events-cost-attribution.md",
+          "digest": "60b2aea01836d6554b07cc79c9d8d64a4430782a2a4cec2ccd43ad957d69658e",
+          "mode": "100644",
+          "size": 1155
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/post-response-work-waituntil.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/post-response-work-waituntil.md",
+          "digest": "da5ff4b2d2a714bc06d2cc4b442e77840b89f9e72e171ec33af4fb95cac8ab26",
+          "mode": "100644",
+          "size": 1009
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/route-error-durable-offload.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-durable-offload.md",
+          "digest": "2ff21304503673bbeb656d92fd9841f8aa874cd93a5428f14a0f9abb55e49b65",
+          "mode": "100644",
+          "size": 1298
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/route-error-runtime-limits.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-runtime-limits.md",
+          "digest": "e4a70ec3e1112c658e1ce136359c00fcb6c9fb484887efafb3ba3364ebdb70a6",
+          "mode": "100644",
+          "size": 988
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md",
+          "digest": "cf59ca89dbfa178d371435e0aa7f5c588c2fc3114b4574049b4d644c63628911",
+          "mode": "100644",
+          "size": 1180
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md",
+          "digest": "909357c83a7718865cf5e1056653117f08df0042416e17050f22eae7900dfa49",
+          "mode": "100644",
+          "size": 1167
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+          "digest": "e61fee58a22120acbdfafb2559959749806cf2c1ad242749d30ad6d9f533d5f6",
+          "mode": "100644",
+          "size": 1040
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/usage-spike-triage.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/usage-spike-triage.md",
+          "digest": "850ce351c3cbff86a321b349eaa82330a29e08b78a3d255150dc290a7d095015",
+          "mode": "100644",
+          "size": 1018
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+          "digest": "45d5381f890b552dd672f6577aad203630f9f0e3caf04f3f2170726c0cea86fb",
+          "mode": "100644",
+          "size": 1189
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md",
+          "digest": "4e8590e6c3ed65e5ec8811cfad82fcecf3cf5ac797e446bbf00e4498bd7e0d68",
+          "mode": "100644",
+          "size": 1089
+        },
+        {
+          "path": "skills/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md",
+          "digest": "07145dac55800c709a57a1abfbe29e1764ecd6371ff05f342c8f73f69d101257",
+          "mode": "100644",
+          "size": 1274
+        },
+        {
+          "path": "skills/vercel-optimize/references/verification.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/verification.md",
+          "digest": "db3ffb183ae3c141eeb980ea3765ff215da01eb4bb8b569c7f86868ec3cfe5a1",
+          "mode": "100644",
+          "size": 9000
+        },
+        {
+          "path": "skills/vercel-optimize/references/voice.md",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/voice.md",
+          "digest": "1bd89b7f12f8ce912d0381b9ca7c251f8183f69bae0abf0021391e8397dfef11",
+          "mode": "100644",
+          "size": 3731
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/budget-summary.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/budget-summary.mjs",
+          "digest": "4dc6cb8ab9278ac9196e4cd70c36ecc1ffe2afeaffe09e99e562de42e62f94ea",
+          "mode": "100644",
+          "size": 2096
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/build-docs.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/build-docs.mjs",
+          "digest": "ce426e5bb4a803b86981588b733fc97aff13fea1c393d6d6559b97518df31ad8",
+          "mode": "100755",
+          "size": 3414
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/check-citations.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-citations.mjs",
+          "digest": "47acb1d9deba97531ad46ef81cccaa9349bec4a3cf57d8fdc2bd601411b57fdb",
+          "mode": "100644",
+          "size": 3531
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/check-docs-fresh.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-docs-fresh.mjs",
+          "digest": "6c47f5595c6e317426606d67afa53d52d822fcc071fee27885cc25df38e7949e",
+          "mode": "100755",
+          "size": 3910
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/collect-signals.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-signals.mjs",
+          "digest": "bc1dcba99aa20ad7863450bc1a336d0ec8d78aac0f3f26f8b6be9183e52e944a",
+          "mode": "100755",
+          "size": 21576
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/collect-sub-agent-outputs.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-sub-agent-outputs.mjs",
+          "digest": "21bd960b11c75711e1f51cb362efb5243f19bc8db65a3bfdab48549bb47bf9fb",
+          "mode": "100644",
+          "size": 10123
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/deep-dive.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/deep-dive.mjs",
+          "digest": "f90c74b28a1a1580a45d7d12ab64f683c8c6f1b59d32aa7299980e74980550aa",
+          "mode": "100755",
+          "size": 12332
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/gate-investigations.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/gate-investigations.mjs",
+          "digest": "b30d756a3af5bc1170e4eec95e2fca7241999a516d8871497bd4e5a1cd681535",
+          "mode": "100755",
+          "size": 6353
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/merge-signals.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/merge-signals.mjs",
+          "digest": "2d16f83d221ea6bb28f1a05f48829c2e67e315d0acc2125fc8b642813a527f06",
+          "mode": "100644",
+          "size": 6325
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/prepare-investigation-brief.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/prepare-investigation-brief.mjs",
+          "digest": "8a9c9a840e907985f8a84218251c33c38f3dc17956b851a8b5d7e28c56689edc",
+          "mode": "100644",
+          "size": 8071
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/reconcile-candidates.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/reconcile-candidates.mjs",
+          "digest": "ef8d6ae2f1e7e43c62a46dfe7af14e9618fd2b550724823448f8badf266cccaf",
+          "mode": "100644",
+          "size": 2442
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/render-report.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/render-report.mjs",
+          "digest": "ab0a3f0188215fe0f9a464858b3a42c74e2d4daea6fe857b6a969595f27ebf5b",
+          "mode": "100644",
+          "size": 17424
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/scan-codebase.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/scan-codebase.mjs",
+          "digest": "4b5c847899604831aafd3fcdf860968792e99203670a3ba6f3947cb7ae708705",
+          "mode": "100755",
+          "size": 11521
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/verify-and-regen.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-and-regen.mjs",
+          "digest": "9211268107c17f577d24a8994515946b9fd3a1fc1d2353a79dd0a139df25f706",
+          "mode": "100644",
+          "size": 15238
+        },
+        {
+          "path": "skills/vercel-optimize/scripts/verify-finding.mjs",
+          "output_path": "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-finding.mjs",
+          "digest": "534590f7900e20648f67cc2d6845502960709ddfeb10cbb6733ade37b2eebe8e",
+          "mode": "100755",
+          "size": 698
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-vercel-optimize/.claude-plugin/plugin.json": "a6563a34a211dea326f029706eb5201b83db40a04920eda7f81b6be324e94a9c",
+        "packages/claude-code/skill-vercel-vercel-optimize/provenance.json": "dd9768dd7eb435f32ddab9fddb7992d7583dd8b888376b92f9eaf46b0c6a650d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/AGENTS.md": "922a35993ffd98c923d61fa3d7a722bc1bc17466ea1e0b5828f67de21fbb0e7a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/CONTRIBUTING.md": "4a3c6695f23ada3228582f1062509545dbad485e5011434c12b7ddd81bf1370a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/README.md": "4ebb0ae7c6a2c8cfe7ed8ad26a6bee0be99d8682be331d9d28c1cb81ad3718d0",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/SKILL.md": "95ae2683b30d892d165af92a350c5628b68106f395a59b448857b654e306ed91",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/auth-route.mjs": "c06a222bccd2c57b418b1d935d73f5b81297dac8533c004ec5bb4027cec3307a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/budget-summary.mjs": "8662a2914940b8c548be164c09ce7706ea261549fb61147d2a7a13af1e3337cc",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/citations.mjs": "41a1bafa7addc4b39d144491f178a159cc23ff779b4803f2c152fe579209b384",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/cost-coverage.mjs": "483b0f03f5db08e15388e1c047ffad414bb132bb3ce48418defc0d9a70a20e44",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/dedup-recs.mjs": "5fc631c1f56eea8bf8c59afb773511d9a8f42d29574fa14f03abb60c881206cc",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/deep-dive.mjs": "c86c5ed224c00c2e72a54eef16260b8e7237302a7e69e47310077eae7f65ced1",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/display-labels.mjs": "e56e54a0e19ed3ed4f45112cb358c1df5a77caa7411f5c2267c73064f64d1b08",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/extract-claims.mjs": "a3f44334dad0ba743699860d6b83a06e38c7e465f73418749822cf00d563ee2a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/framework-support.mjs": "ed8ef73604d5bd91f4aea6fb0de465079474e00299c23bbdba8b04dd70545364",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/build-minutes-fanout.mjs": "c088ab1f91af8b4e86e8f3f3210c7b625757a3699bd5818c905f66ade92064b1",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cold-start.mjs": "40023aae34ebc37df1382c7c4c00efc3864b2c11a8c9ee8cf05f371762680300",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/contract.mjs": "e0bd012b53b6a70684279a3ad58598f5a1f79698d0e521d0e9d0994e87b3ae65",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/cwv-poor.mjs": "17ab4ae24b5d0220d941215db8544bed68c1af02e6d5d7aba4ff077a46675fbb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/external-api-slow.mjs": "12ce4f0cf906e5631170a58307758f095069d3051c16f64ddeec00bb99a66dc9",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/hard-gates.mjs": "b31d94495e20721b8ce825bde073ba9a32c14063b0cc711e23e2582fb0ebd677",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/index.mjs": "d473dfce777f68430d2b68836efb184152a59da97d3b06d37a6f618c7d4c59a6",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/isr-overrevalidation.mjs": "333d2dc8523d5850fddb5c13cd78fe62c0838ffd627c41b374804dca26cc63c6",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/middleware-heavy.mjs": "1ad98bc73be97254d6131707ed93c72262c071e54ce071a392549df33d0d7ae7",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/observability-events-attribution.mjs": "8e465217257c771c0be8580c1b9abcf1defd26e5a70c9559dc10f4cc45527c52",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-bot-protection.mjs": "0124cd71876616f7de741d962ff4cbcb79a78654a3026372a18195e2ff99294b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/platform-fluid-compute.mjs": "de81279134bef9499f1cbe2f38d06bb5caa968daa5438f09c9bad0d2f27efa96",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/region-misconfig.mjs": "0b3976cd50a9fb54601c60ad27c62b64aa7a4eeb338af4226b618ae1d5a9cc4a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/route-errors.mjs": "a32a29b683557409b351da84e45ab316818f8a90c5af380ba7efc5366c03129f",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/scanner-driven.mjs": "485313169d009ded7bdb1e4083150919e77eb4373aff0252cd5c0c235f2e8f3b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/select-candidates.mjs": "bde0714be600905caaaa99991d37c31df9e6775b8a107ee2df5eb63ffa9d1e11",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/slow-route.mjs": "b0d330e4244bd3d2e240f6398ead4b235bb69b72fe585771cde4f11ae8726148",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/types.d.ts": "097ea533204446ccc18798fc01656577df8b864c24b0eda4c66ebc913fa36f31",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/uncached-route.mjs": "c4f89fa083f13a9360dd5ec6b45b39db3f480c797193c590bf131f53463388cb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/gates/usage-spike-triage.mjs": "b8f84b57fe9d41323467c765ef9da4893b0cac6eee31603179cd8cb77ffd7be3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/grade-recommendation.mjs": "e06008677dd1c6a27d767636356b6a68f357a3122b57adca3238bd2ca7576c38",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-label.mjs": "4d55baae79025bfa43b829ff291019bb6a1f6d015c72dd44612d8e3afeb60b9f",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/impact-magnitude.mjs": "a87cec394f9d853da43e633e8ce2cb9f1f62fb2ae7dd6a58f542a5e7024b2c5b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/investigation-brief.mjs": "f41d9354992fb5c7904b8faa1ad1fa457f8b69533d2113ec9c38192c227bf0c7",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/observation-safety.mjs": "540a4c49f10ceab570513f2834b7fbd88b2090c85690ed0f8b5c5bf0e623badd",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/project-facts.mjs": "d8b508d1077fdb4bcf5c2f267750cb4a6ca529811eecdadb10f9e632e304f30b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/queries.mjs": "a747292c7bbc69a245799f846c6d081df44506c5c8e3d245b610c0f32edcea69",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/reconcile-candidates.mjs": "4e02dbc4fba1834192f018b05e9d42723fda13dbecf26a7cc09eacbfe1925b75",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/render-report.mjs": "35068fb5df2f2b9a89cabf40e050c40da5d8fadeec33cdbd47c8fc995677a127",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/repo-root.mjs": "77ce8277fa444dea77cb10c17e7a0d2db98a6cbea6e2df0fa2ff01372b52eb0c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/route-normalize.mjs": "a2e39b3f653695392f096c1b385e31a9b1452714de4908c1d0e6604626274b5d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/bot-protection-certainty.mjs": "2edac6df3f4565ec7d2f784db7e660767f8a213bfe9f55f6da14f2517f4a071a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/cache-tag-invalidation-certainty.mjs": "31aec0481e996fd2a9a546c792ff17223747c850806405b2ee3cb95c40e296c0",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/count-correct.mjs": "cf427876a8c64d9591d89da727a2d4cec9dc0dcd717ffba3f82be52c38c73de3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/function-duration-invocations.mjs": "c745bc90e67722f8584d3d426f28ccc4701504a635dd966cdb8f487ee79eb7b3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/index.mjs": "99babb880c7d5e7ac209e7eb1bf26f2ae9ac5a795062d01e15d76c57055247bf",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/middleware-conflict.mjs": "89fae25e31662ed7f31fef973e7b969271fc061839112adabf253a3e87380b97",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/missing-citation.mjs": "431ec0944239d4477556a23808733298ecd5bdfb4a810ab887b83f0266eb5904",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/pre-release.mjs": "dce1475fd392d245bd4a48e1280c2f0a00fc4dea96cd9f40e4d260fdc0bf5940",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rate-limit.mjs": "42b2a3ecb07443ab5aeb881ab6dea31a92f767b73697fd0529e877084657629c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/rendering-mode-mislabel.mjs": "410c60d8f71250d8b443384098f02869e7a1b4d9dcb3e3ca384ca3b875648788",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/undeclared-dep.mjs": "bc2a483311a2c44103b15d9498b5d303101724454c114907d23de6d7725e8769",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/vercel-directive-strip.mjs": "b94a6fcd0a03358dcb853b04a392b0946d8a07d8619e86b562b8b38a6cffac85",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/sanitizers/window-units.mjs": "f7823f1c4705166c313107571f048fd4e7fa160cb982dcbfe07d936ab4cb5a3b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/cache-components-suspense-dedupe.mjs": "ca4c643a30b76df0e8728f8b8854167483f746a9d45aafb467c3bec9125b7878",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/edge-heavy-import.mjs": "0faacf202542cc6ea37290377a61e9c34a84d3d9439822cd7df09d450ff663a3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/force-dynamic.mjs": "5f378119f8e6d1961cde57dcd6ccd193cc4a9713068d4828ca4eee724b15095d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/headers-in-page.mjs": "84f72dcd79631561fa54f6a5128337b6b9317bc9b7c720b709078cf0c2758e7d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/index.mjs": "9443d7e055a4b8368973c027b739742bbf5e98de4dbc5078c4cd7fb2677aeeb9",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/large-static-asset.mjs": "5ee29065ae96b7aff236dd3ea9766765a7c48e1bd95008e261837ae42932b783",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/max-age-without-s-maxage.mjs": "ec722b65530f428232f2b501f5f52e427cd7218c51cceb4783b5f7b03c3ad577",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/middleware-broad-matcher.mjs": "e41e07c4fb8d0b6776e5f27609e719ae42c1644b7adcfa2dc1abc90a511c0492",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/missing-cache-headers.mjs": "cc4ccea4c4f1d8594a97b18ca39b5212060faa3306dccdea0b2c7645d3f3cf8a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/prisma-include-tree.mjs": "ab107e2732ca1873b4e4ce974e9c08b6ebde83a8f96675b96087213b16aa901e",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/region-pin-in-config.mjs": "906f33c344c98910f1148c86a9c5cd5cfbaf84cc8c06d02e3eb257ecd639b0d3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/source-maps-production.mjs": "f9ab9cf88a22a4c0fa32f73ac39243b6f61a868b81ca55f804d8c33a9341013c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/sveltekit-prerender-missing.mjs": "ff5380fa9d8a3e77d8ff430e1b7866a0890b50d163bcc2a599f0b30238947999",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/turbo-force-bypass.mjs": "b84a7774f18e1ea86cb19335fd41324b89635ccb43b75f31e0218516fd9363d2",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/unoptimized-image.mjs": "f2049c073b769838e33f6110f8f139cacd1e8b8a01eda1473ebed0a14ec64b4f",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/scanners/use-cache-date-stamp.mjs": "2d04abd40b888e8c16bccee92dc3423ab86b109551cfab8807367d9cc8ca0878",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/support-topics.mjs": "c9ac60070df4e6707299da5ab0d72a9853659ddfcfd4dca29f5803ef3ce41840",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/throttle.mjs": "1d09d586071838152fe28882cd65f508a508ecd99b59187c84f27b908cc18017",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/util.mjs": "431eb675f0a658e19a1b08cdb064e19f96a62d42a35c5f4d962756c8cf97d523",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/vercel.mjs": "01a7bd818b64bd26143f93e4417f6463199a81c154854e9c60d2fcce3aea2e82",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/verify-claim.mjs": "b7956b5e96e0be7e4ed7a107541d5e4ea11475f9b4e7829c4035769d3a879f71",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/lib/workspace-resolver.mjs": "9da10f288418475ab871b5430de38d4b97441794373721844cb540e40986e74c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/metadata.json": "729f7dcb13ebac414d54232e56acaeae4f7ded041947805a0b30a5d8fee59511",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/candidates.md": "1e04722b3924a11a774d87abbf35070cdf480ad02c8487f97a3dd69bb46b59af",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/data-collection.md": "dbc013dfc59c29f38f279fbbb422f19d7cc1ba37d17ee02d9c64ea6cb594bd22",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/docs-library.json": "287d4dabbb3eab789911a6c2b4aea9ffc57206fa4a8449636358503e32b9542c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/doctrine.md": "4a7eac752141410d134febe786c4b51f4723a55026a5638c38fcb492a1d86df4",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/observability-plus.md": "86b6f6d5bd7f4b9827f70505705ed0f875a0ef2e2cdb85653f0e09f825393333",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/README.md": "9b699bb8d2436b089ced036780cbc108502f3713b15f83440fd042e393487cf3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ai-application.md": "e9e353a3f7d5c576e14893ebb0e1eddaa90ee986f0ef3d9edb3be73a2e947ac9",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/api-service.md": "f90e2d558ea697dc06f05794ad47770f379e3268321ab8a6a642abd7f2fa7ed3",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/content-site.md": "9d4b1a7d1c6eb6f58e94c5df5dc8264c5bd6c877f045c7c81228924cbadc9d37",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/ecommerce.md": "f44707fac676e67de04b7ddb2f78bc806f286cd324d05d990641acef3097a0e9",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/marketing.md": "b7e0ed3de01e95f7776891b6a63e0d2929b066c61ccd9b8ac012b42cbc3e4a19",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/saas.md": "f23b518dd7c369144813f80abe6eba3e762db3b737b3271bb8b887307fcec387",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/playbooks/sveltekit.md": "32db0a70f1217c2e3f750ef5e5671da54a07a510369307e38877e3fd3ad21767",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/recommendations.md": "8e65890c1afd942f4bf9dd07ba538b2b9f53a6136ec83e96cc10740c6f8dda87",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scanner-patterns.md": "e160869045f6456d10bd4f1fdeff76d42d8b3e0c50a7212a607603589798bcaa",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/scoring.md": "44a295b6c65ee5c221815149c7fad1adb02c8ac8750d0604a8dfbfe47d04b6d6",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/README.md": "63e2acd6e221ca52355a5f70ff8d9c3d9704600eb7e176d3cb2f4597ad03db4b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md": "80586e0b110749f2cdd6e56635d6cd88082230b9bd11a8e388ec6d3b280bc65d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md": "6137553e35076795f6c0851b0e93d4686cf937930d35b284567da7c0edfe35ba",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/auth-preserving-parallelization.md": "34cfd687cc106ef15696b8f1f155c30f635234e29f3c4db087193c3c2c3c4bac",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md": "892d8f32deb5bded86863a513d3799bfd81dc4654ae4fde5a264638cfd86755d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md": "1f54f0ba4d1b2ab873eb166ca2f1661d39b49e70253dea8ce13a44c2b728ba85",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md": "664a13ced4e985e9b12bdf6730fecccfd79fb715be2998a710068384a0ab4cc0",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md": "212f1bedf49c9a1e7aac7745c5b19f57c486456d5e4ef9037fa9689f51930047",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md": "5691cd39b3403ef939199c3b9b21e28cb447b2f8d2f6dea6000064e5ef3fdfb5",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md": "98961df48eac648e71c73b7dd53a215ac02af62f0bfbc67a1af335e66b8fb7c1",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md": "05d84906be0f1e26787e871c00cd563f18533a7b12d3383c5cb3557fe01ea768",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/database-egress-pooling-region.md": "83fa0f1a3ff67b9f149ba39432834bba88437dbdf09d6b5e7a5e3b552ceb473e",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/dynamic-rendering-traps.md": "a075a13fc3c40d7d249051519cf2384497a34f3f4a207f757bf4343c3896fd64",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path-platform.md": "02a7a7e3ba867973c9e45d565e69349cd44a5bdb9e00e6fbbf9c76edd01516e5",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/external-api-critical-path.md": "dade955ceba21150590f8606b993881d6f6b20fef32c147b77ce26d9e9931773",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md": "d7daca1a05d8f3157aab22b97552247cb0a8f856f08fc49079fd76872f7a50fa",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/fluid-compute-caveats.md": "3408a19b49a9723cfac1b461babe56dc414f0f1f7561bd7e6f4f7579ab26a13f",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-duration-io-and-after.md": "693c07390d7cf8b4c0a0d0235176a5f452694d1553c33db4fd385f76c94d307d",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-invocation-reduction.md": "1e50e0e24299fc08aaf6b81d6673ce24c0bc250883c8ecc76e52d6d1dca989a9",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md": "dd5013cf9bd5b3ee7383d3b9835babc6a93b965e07b7093f48d53ce755510326",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/image-optimization-cost-control.md": "1123f4712ec4a4ff057dadbee25f7de51bc8473862dbb398693f9c091336681c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md": "fafc8585a02b2142b60289177b041d63e1280d1fdccd38a2faa2e89d7c1950cb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md": "d1c6f3b0f4ecf3c4d430c2ae3999c9485e8f2115e40d9ba973b637541a5a5f32",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md": "65897b4111c75457e1fbe16ce6f9716c5fd58365d8defaeb80b5ea0ca4f2a3b0",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md": "a06d7f692fc902f41a227f5acb20d694e2d47c3098b1fba354b5413e7df32964",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md": "f48f1f61626aa313b3e08a6e43a5550bddef278f5c6aa4093b52bee1e9e1d78b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md": "f176647780339cbd409897cbbaa8666f0dc7c301905651ad39b7feb2a0696a89",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md": "2f7e29b85cc1a8a31db214f59524035d3486c3a26c9fb9a39d62f3b834ee0f0c",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/next-script-third-party-strategy.md": "413fb8dfdb561ccb5073c89b93c0e28420cfa5125bff89317c699167c3b2f35a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md": "e8bf6e27e63841bb49c44e8d0e93d674866ba28f6217d41d5c4de2b51178b8dc",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md": "88a9bf8ec200182534957603bda8c3bcc8d9dce8d884ea19c890994424827ab8",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md": "639b0a57b50813bfea7f1734a2cb883d8fb756c86a3a4460e08e899d04323cbb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/observability-events-cost-attribution.md": "60b2aea01836d6554b07cc79c9d8d64a4430782a2a4cec2ccd43ad957d69658e",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/post-response-work-waituntil.md": "da5ff4b2d2a714bc06d2cc4b442e77840b89f9e72e171ec33af4fb95cac8ab26",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-durable-offload.md": "2ff21304503673bbeb656d92fd9841f8aa874cd93a5428f14a0f9abb55e49b65",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/route-error-runtime-limits.md": "e4a70ec3e1112c658e1ce136359c00fcb6c9fb484887efafb3ba3364ebdb70a6",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md": "cf59ca89dbfa178d371435e0aa7f5c588c2fc3114b4574049b4d644c63628911",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md": "909357c83a7718865cf5e1056653117f08df0042416e17050f22eae7900dfa49",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md": "e61fee58a22120acbdfafb2559959749806cf2c1ad242749d30ad6d9f533d5f6",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/usage-spike-triage.md": "850ce351c3cbff86a321b349eaa82330a29e08b78a3d255150dc290a7d095015",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md": "45d5381f890b552dd672f6577aad203630f9f0e3caf04f3f2170726c0cea86fb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md": "4e8590e6c3ed65e5ec8811cfad82fcecf3cf5ac797e446bbf00e4498bd7e0d68",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md": "07145dac55800c709a57a1abfbe29e1764ecd6371ff05f342c8f73f69d101257",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/verification.md": "db3ffb183ae3c141eeb980ea3765ff215da01eb4bb8b569c7f86868ec3cfe5a1",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/references/voice.md": "1bd89b7f12f8ce912d0381b9ca7c251f8183f69bae0abf0021391e8397dfef11",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/budget-summary.mjs": "4dc6cb8ab9278ac9196e4cd70c36ecc1ffe2afeaffe09e99e562de42e62f94ea",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/build-docs.mjs": "ce426e5bb4a803b86981588b733fc97aff13fea1c393d6d6559b97518df31ad8",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-citations.mjs": "47acb1d9deba97531ad46ef81cccaa9349bec4a3cf57d8fdc2bd601411b57fdb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/check-docs-fresh.mjs": "6c47f5595c6e317426606d67afa53d52d822fcc071fee27885cc25df38e7949e",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-signals.mjs": "bc1dcba99aa20ad7863450bc1a336d0ec8d78aac0f3f26f8b6be9183e52e944a",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/collect-sub-agent-outputs.mjs": "21bd960b11c75711e1f51cb362efb5243f19bc8db65a3bfdab48549bb47bf9fb",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/deep-dive.mjs": "f90c74b28a1a1580a45d7d12ab64f683c8c6f1b59d32aa7299980e74980550aa",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/gate-investigations.mjs": "b30d756a3af5bc1170e4eec95e2fca7241999a516d8871497bd4e5a1cd681535",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/merge-signals.mjs": "2d16f83d221ea6bb28f1a05f48829c2e67e315d0acc2125fc8b642813a527f06",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/prepare-investigation-brief.mjs": "8a9c9a840e907985f8a84218251c33c38f3dc17956b851a8b5d7e28c56689edc",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/reconcile-candidates.mjs": "ef8d6ae2f1e7e43c62a46dfe7af14e9618fd2b550724823448f8badf266cccaf",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/render-report.mjs": "ab0a3f0188215fe0f9a464858b3a42c74e2d4daea6fe857b6a969595f27ebf5b",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/scan-codebase.mjs": "4b5c847899604831aafd3fcdf860968792e99203670a3ba6f3947cb7ae708705",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-and-regen.mjs": "9211268107c17f577d24a8994515946b9fd3a1fc1d2353a79dd0a139df25f706",
+        "packages/claude-code/skill-vercel-vercel-optimize/skills/vercel-optimize/scripts/verify-finding.mjs": "534590f7900e20648f67cc2d6845502960709ddfeb10cbb6733ade37b2eebe8e",
+        "packages/claude-code/skill-vercel-vercel-optimize/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-vercel-optimize/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-vercel-optimize/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-vercel-optimize/.codex-plugin/plugin.json": "4b0b9fab452084e5d0bc493e452fb7d4795f692b1b204cfc6a4b3749de073608",
+        "packages/claude-code/skill-vercel-vercel-optimize/.cursor-plugin/plugin.json": "4b0b9fab452084e5d0bc493e452fb7d4795f692b1b204cfc6a4b3749de073608",
+        "packages/claude-code/skill-vercel-vercel-optimize/plugin.json": "0a2d5e5a05e83126ca3b8844dba0f67aafc92e93b7fc92dae8efbf886800f18c"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-web-design-guidelines": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-web-design-guidelines",
+      "root": "skills/web-design-guidelines",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "638df3e21bd8615e71cd535f831a5b50e6721d40d9829bbfd03ce8536adf1d0a",
+      "files": [
+        {
+          "path": "skills/web-design-guidelines/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-web-design-guidelines/skills/web-design-guidelines/SKILL.md",
+          "digest": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+          "mode": "100644",
+          "size": 1231
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-web-design-guidelines/.claude-plugin/plugin.json": "de8a3e39831bb0198a3a54c25691b19d52bb0125e17cb6684e9ee96a3c420f38",
+        "packages/claude-code/skill-vercel-web-design-guidelines/provenance.json": "9d15d1f04d0e8d4f3163be4235b97dbcd9de5452ddabd81b6a3cfc306172e3c4",
+        "packages/claude-code/skill-vercel-web-design-guidelines/skills/web-design-guidelines/SKILL.md": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+        "packages/claude-code/skill-vercel-web-design-guidelines/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-web-design-guidelines/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-web-design-guidelines/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-web-design-guidelines/.codex-plugin/plugin.json": "dbe2c9d4f10a7ed7cb98ca95c3e20c62cdaae0150279a9f180ab3defe59f5170",
+        "packages/claude-code/skill-vercel-web-design-guidelines/.cursor-plugin/plugin.json": "dbe2c9d4f10a7ed7cb98ca95c3e20c62cdaae0150279a9f180ab3defe59f5170",
+        "packages/claude-code/skill-vercel-web-design-guidelines/plugin.json": "013dfe52edff98271f4bdde082c2305012924452b798a7273cea6dbd91ebb80a"
+      }
+    },
+    "vercel-agent-skills/skill-vercel-writing-guidelines": {
+      "collection": "vercel-agent-skills",
+      "id": "skill-vercel-writing-guidelines",
+      "root": "skills/writing-guidelines",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "16ed796fbb2405248f52e16cb6f1241a336dfee3fe1e2a3db6db604db6a42abe",
+      "files": [
+        {
+          "path": "skills/writing-guidelines/SKILL.md",
+          "output_path": "packages/claude-code/skill-vercel-writing-guidelines/skills/writing-guidelines/SKILL.md",
+          "digest": "89a5f581193289b80af58b980090aeed535047c8df2b55ccbaae0de40283a99d",
+          "mode": "100644",
+          "size": 1233
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-vercel-writing-guidelines/.claude-plugin/plugin.json": "736555ea6ccd55280aa571cd90ae69464a2acb6de02b21e8c86e79c8798ae10d",
+        "packages/claude-code/skill-vercel-writing-guidelines/provenance.json": "1fa5aa2f16ec144a74e43e2fd13e3364f4962bf689e3deba3599f07e828d40ca",
+        "packages/claude-code/skill-vercel-writing-guidelines/skills/writing-guidelines/SKILL.md": "89a5f581193289b80af58b980090aeed535047c8df2b55ccbaae0de40283a99d",
+        "packages/claude-code/skill-vercel-writing-guidelines/upstream-notices/attribution.json": "1782e1129238eaffae0c2f2a8f5608e1910dbf063661e36618c65f7f0170d063",
+        "packages/claude-code/skill-vercel-writing-guidelines/upstream-notices/original-0.txt": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+        "packages/claude-code/skill-vercel-writing-guidelines/upstream-notices/original-1.txt": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+      },
+      "delivery": {
+        "packages/claude-code/skill-vercel-writing-guidelines/.codex-plugin/plugin.json": "a4c3b872611fcd9360309c18714a7cdbabcbde6d50e5d9da1f509b358ae85932",
+        "packages/claude-code/skill-vercel-writing-guidelines/.cursor-plugin/plugin.json": "a4c3b872611fcd9360309c18714a7cdbabcbde6d50e5d9da1f509b358ae85932",
+        "packages/claude-code/skill-vercel-writing-guidelines/plugin.json": "c28b6e3e42171b841d77dbdbe2fdf61c765e43e078fc3e394e4cf50d5aa1f23e"
+      }
     }
   }
 }
