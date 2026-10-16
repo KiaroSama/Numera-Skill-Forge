@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dji/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "c8a57520b87286869a88cdd2c07f21080ebda9fb3eee315b11d95c752582c1a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dji/skills/voltagent-design-dji/DESIGN.md",
+      "path": "design-md/dji/DESIGN.md",
+      "size": 42268
+    },
+    {
+      "digest": "f4b74e4414acd420755c2ba7b24f5c2b6522058d785c93b860a2f70ce8c64ebd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dji/skills/voltagent-design-dji/README.md",
+      "path": "design-md/dji/README.md",
+      "size": 203
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e0a78d3a2aca7e1b43283f4bd409a9a0f7eafc4864700da880e75ee27f6229a6",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/dji",
+  "schema_version": 1
+}

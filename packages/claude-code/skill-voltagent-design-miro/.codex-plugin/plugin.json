@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/miro",
+  "license": "MIT",
+  "name": "skill-voltagent-design-miro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

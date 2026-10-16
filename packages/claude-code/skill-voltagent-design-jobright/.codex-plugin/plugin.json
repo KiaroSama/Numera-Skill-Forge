@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/jobright",
+  "license": "MIT",
+  "name": "skill-voltagent-design-jobright",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

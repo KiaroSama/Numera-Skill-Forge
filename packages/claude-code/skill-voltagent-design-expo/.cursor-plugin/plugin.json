@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/expo",
+  "license": "MIT",
+  "name": "skill-voltagent-design-expo",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

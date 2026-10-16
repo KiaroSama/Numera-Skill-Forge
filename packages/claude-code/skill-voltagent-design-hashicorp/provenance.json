@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-hashicorp/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "d2df9be72d867e48d318fd18db04e60a78357c27e392ab921fc2ba7f46951442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-hashicorp/skills/voltagent-design-hashicorp/DESIGN.md",
+      "path": "design-md/hashicorp/DESIGN.md",
+      "size": 28023
+    },
+    {
+      "digest": "877d3ceb30ab3384c4db8785dd82dc10bbf88f46a07052f3e2123c660171404d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-hashicorp/skills/voltagent-design-hashicorp/README.md",
+      "path": "design-md/hashicorp/README.md",
+      "size": 215
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "93a510e79158b0458dc05398a0f0b499d38fd079156ae445f0de457c013b48e7",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/hashicorp",
+  "schema_version": 1
+}

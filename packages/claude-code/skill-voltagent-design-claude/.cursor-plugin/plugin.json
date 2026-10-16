@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/claude",
+  "license": "MIT",
+  "name": "skill-voltagent-design-claude",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

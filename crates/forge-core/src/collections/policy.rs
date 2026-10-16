@@ -4,6 +4,7 @@ use std::collections::BTreeMap;
 
 pub fn validate_skill(skill: &Skill) -> Result<()> {
     validation::identifier(&skill.id)?;
+    super::design::validate(skill)?;
     validation::relative_path(&skill.root)?;
     if let Some(approval) = &skill.reviewed_name {
         super::adaptation::validate(approval)?;

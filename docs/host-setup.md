@@ -233,7 +233,7 @@ host files or bypass an ownership conflict with a manual bulk copy.
 
 ## 4. Duplicate names and evidence limits
 
-There are 954 accepted packages and 832 distinct installed skill names. There are 118 shared-name groups.
+There are 1038 accepted packages and 916 distinct installed skill names. There are 118 shared-name groups.
 Native per-package namespaces retain independent identity where the host implements it. Flat
 standalone roots cannot make different same-name packages simultaneously unambiguous: Forge refuses
 the second owner, even when their main SKILL.md bytes match. Select another project/home destination
@@ -251,3 +251,13 @@ See [compatibility](compatibility.md) and [testing](testing.md).
 - [Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills), [VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills), [Gemini](https://geminicli.com/docs/cli/skills/), [Amp](https://ampcode.com/docs/markdown/customize/skills).
 - [Pi v1.2.0](https://github.com/earendil-works/pi/blob/v1.2.0/packages/coding-agent/docs/skills.md), [Kiro](https://kiro.dev/docs/skills/), [Windsurf](https://docs.windsurf.com/windsurf/cascade/skills), [Cline](https://docs.cline.bot/customization/skills).
 - [Kilo](https://kilo.ai/docs/customize/skills), [Continue loader](https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/extensions/cli/src/util/loadMarkdownSkills.ts), [OpenHands](https://docs.openhands.dev/overview/skills.md), [OpenClaw](https://docs.openclaw.ai/tools/skills).
+
+## VoltAgent design adapters
+
+Select any `skill-voltagent-design-<name>` through the same native catalogs or standalone commands.
+For example, install `skill-voltagent-design-voltagent` with target `claude-code`, `codex` or `cursor`
+and an explicit destination. Its installed skill is `voltagent-design-voltagent`; dotted source names
+use a hyphen in the generated identity (`linear.app` becomes `voltagent-design-linear-app`). Original
+DESIGN.md/README.md bytes are unchanged. The generated entry explicitly reads the local DESIGN.md;
+no website fetch, font download, model call or executable host plugin is required by the adapter.
+Use the returned receipt with the existing disable/enable/uninstall/rollback commands above.

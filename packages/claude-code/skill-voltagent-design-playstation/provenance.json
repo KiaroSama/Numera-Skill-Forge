@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-playstation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "2a56c109af6cb847fa091b768f719b498ac56b582d010860e73ea5fb72a1590d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-playstation/skills/voltagent-design-playstation/DESIGN.md",
+      "path": "design-md/playstation/DESIGN.md",
+      "size": 39766
+    },
+    {
+      "digest": "c70c2adbfdeaf04459851132bc5c4968ef6c1216900e0b575b4e175c9976aaba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-playstation/skills/voltagent-design-playstation/README.md",
+      "path": "design-md/playstation/README.md",
+      "size": 219
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2d9ec8694451f66173506cd5cf3679664bc36340721223716a94b525ad0874b3",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/playstation",
+  "schema_version": 1
+}

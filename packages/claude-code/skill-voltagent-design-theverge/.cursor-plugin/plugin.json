@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/theverge",
+  "license": "MIT",
+  "name": "skill-voltagent-design-theverge",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/bugatti",
+  "license": "MIT",
+  "name": "skill-voltagent-design-bugatti",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

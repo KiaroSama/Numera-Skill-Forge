@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nerdwallet/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "478475273beb642f0661fb1aef7107bac5cde69250794bc148b28ee2c61960c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nerdwallet/skills/voltagent-design-nerdwallet/DESIGN.md",
+      "path": "design-md/nerdwallet/DESIGN.md",
+      "size": 36240
+    },
+    {
+      "digest": "c1ce5518565997204634e044707d0a30aa8cca54bf2989d3621e6804ef614cc4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nerdwallet/skills/voltagent-design-nerdwallet/README.md",
+      "path": "design-md/nerdwallet/README.md",
+      "size": 217
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3e9b5503e76a32b3fe973c7572c8965987efc418c52a6c3a7d63ecc574ada259",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/nerdwallet",
+  "schema_version": 1
+}

@@ -38,6 +38,24 @@ for key, entry in entries.items():
         if sys.platform != "win32":
             assert bool((root / name).stat().st_mode & 0o111) == (file["mode"] == "100755"), name
         count += 1
+    design = skill.get("reviewed_design")
+    assert entry.get("reviewed_design") == design, "Design approval changed"
+    if design:
+        assert design["adapter_version"] == 1 and not skill.get("reviewed_name")
+        name = design["name"]
+        assert 1 <= len(name) <= 64 and all(c in "abcdefghijklmnopqrstuvwxyz0123456789-" for c in name)
+        assert not name.startswith("-") and not name.endswith("-") and "--" not in name
+        source = next(f for f in entry["files"] if f["path"] == skill["root"] + "/DESIGN.md")
+        assert source["digest"] == design["source_digest"]
+        assert source["output_path"] == prefix + "skills/" + name + "/DESIGN.md"
+        assert not any(f["path"] == skill["root"] + "/SKILL.md" for f in entry["files"])
+        generated_entry = prefix + "skills/" + name + "/SKILL.md"
+        text = (root / generated_entry).read_text(encoding="utf-8")
+        assert text.splitlines()[:2] == ["---", "name: " + name]
+        assert text.splitlines()[2].startswith("description: ")
+        assert "[DESIGN.md](DESIGN.md)" in text and "Numera Skill Forge" in text and "third-party" in text
+        assert "adapter-version: '1'" in text
+        assert generated_entry in entry["generated"]
     adapted = [f for f in entry["files"] if f.get("source_digest")]
     approval = skill.get("reviewed_name")
     if approval:

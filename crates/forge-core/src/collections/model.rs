@@ -31,6 +31,15 @@ pub struct Skill {
     pub reviewed_documents: BTreeMap<String, String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub reviewed_name: Option<ReviewedName>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_design: Option<ReviewedDesign>,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedDesign {
+    pub name: String,
+    pub source_digest: String,
+    pub adapter_version: u32,
 }
 #[derive(Serialize, Deserialize)]
 pub struct ReviewedName {
@@ -68,6 +77,8 @@ pub struct Accepted {
     pub generated: BTreeMap<String, String>,
     #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
     pub delivery: BTreeMap<String, String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_design: Option<ReviewedDesign>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct Lock {

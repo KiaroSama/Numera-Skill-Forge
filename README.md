@@ -103,7 +103,7 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **954 packages**. K-Dense original names,
+contains **1038 packages**. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.
@@ -130,10 +130,16 @@ and nine executable modes. The previous 945 package records remain unchanged. Fo
 claude plugin install skill-vercel-react-best-practices@numera-skill-forge
 ```
 
-The [VoltAgent DESIGN.md collection](https://github.com/voltagent/awesome-design-md) is listed as a
-**reference library**, not installed as skills: its reviewed revision contains 84 design documents
-and no `SKILL.md` entrypoints. Forge does not invent wrappers or copy branded layouts. Its MIT
-source-document license does not grant third-party font, logo or visual-identity rights.
+The [VoltAgent DESIGN.md collection](https://github.com/voltagent/awesome-design-md) now provides
+**84 independently installable design skills/plugins**. Each `skill-voltagent-design-<name>` package
+contains a Forge-generated `SKILL.md`, the unchanged original design document, complete companions,
+MIT notice and visual-identity disclaimer. These are explicitly adapted references, not upstream-native
+skills or permission to copy brands, proprietary fonts or assets. For example:
+
+```bash
+claude plugin install skill-voltagent-design-voltagent@numera-skill-forge
+```
+
 See [source details and limits](docs/source-licenses.md#vercel-original-skills-and-voltagent-references).
 
 ## Other hosts: native catalogs and standalone skills

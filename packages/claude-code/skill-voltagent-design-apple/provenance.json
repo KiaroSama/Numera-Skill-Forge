@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-apple/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "83fbc614443a9b3d7569e9956a43e7b8740f9d0f939f58b8154f7a7cec3002b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-apple/skills/voltagent-design-apple/DESIGN.md",
+      "path": "design-md/apple/DESIGN.md",
+      "size": 37096
+    },
+    {
+      "digest": "6fa6a25abaaac3ae676312342524e11ed9c612a80a1c9dcea5387173147da174",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-apple/skills/voltagent-design-apple/README.md",
+      "path": "design-md/apple/README.md",
+      "size": 207
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "adcd3ed36017245af8faa8c8a340967605bf96a1547afa51cd804bb2cfad2273",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/apple",
+  "schema_version": 1
+}

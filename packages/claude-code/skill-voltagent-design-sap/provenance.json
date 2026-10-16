@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sap/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "f14c951d6112efce488f56d189b9bcdf58f5b9f87ae1e2ee68f062e6a6967d97",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sap/skills/voltagent-design-sap/DESIGN.md",
+      "path": "design-md/sap/DESIGN.md",
+      "size": 33615
+    },
+    {
+      "digest": "67517baff04b9204b7181c4a326c0658819b4fb34fe48277024c63ee636ce408",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sap/skills/voltagent-design-sap/README.md",
+      "path": "design-md/sap/README.md",
+      "size": 203
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "84c42c35e2a78a98d2b072d61318801cb2e708330d5cec71974a9afeb5564d15",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/sap",
+  "schema_version": 1
+}

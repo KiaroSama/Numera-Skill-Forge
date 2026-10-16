@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/dji",
+  "license": "MIT",
+  "name": "skill-voltagent-design-dji",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

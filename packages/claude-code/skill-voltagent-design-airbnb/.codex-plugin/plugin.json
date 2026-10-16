@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/airbnb",
+  "license": "MIT",
+  "name": "skill-voltagent-design-airbnb",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

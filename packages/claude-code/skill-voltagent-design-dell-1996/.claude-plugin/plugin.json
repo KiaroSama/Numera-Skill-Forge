@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed design adapter with original documents: design-md/dell-1996",
+  "license": "MIT",
+  "name": "skill-voltagent-design-dell-1996",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "version": "1.0.0"
+}

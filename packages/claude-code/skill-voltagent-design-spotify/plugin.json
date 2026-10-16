@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed design adapter with original documents: design-md/spotify",
+  "license": "MIT",
+  "name": "skill-voltagent-design-spotify",
+  "version": "1.0.0"
+}

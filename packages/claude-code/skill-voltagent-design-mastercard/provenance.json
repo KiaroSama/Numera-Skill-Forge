@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mastercard/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "e76ceaa187f43bd24b8338d2b2314e71e9225b36492e40f32a55782281a10437",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mastercard/skills/voltagent-design-mastercard/DESIGN.md",
+      "path": "design-md/mastercard/DESIGN.md",
+      "size": 26995
+    },
+    {
+      "digest": "2492927f56410b83629183fca8c3e837a8c3732125d56fa7f1ad65d3b8561ab3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mastercard/skills/voltagent-design-mastercard/README.md",
+      "path": "design-md/mastercard/README.md",
+      "size": 217
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e49e5333a84a04699b1350f2b23b833e3336c1f6a1ae0b311dc6ade3ec8d74cc",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/mastercard",
+  "schema_version": 1
+}

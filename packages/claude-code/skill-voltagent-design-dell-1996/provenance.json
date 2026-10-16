@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dell-1996/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "e186c614b1223fe7015670472ac6bc84b5b3fdd5de5325b3ce5bfb7fbe9c8d6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dell-1996/skills/voltagent-design-dell-1996/DESIGN.md",
+      "path": "design-md/dell-1996/DESIGN.md",
+      "size": 34592
+    },
+    {
+      "digest": "ac1d0377c827b71b00f02f9f5ad4b3085e70dcda5e68ece1921876b3ac1f5966",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-dell-1996/skills/voltagent-design-dell-1996/README.md",
+      "path": "design-md/dell-1996/README.md",
+      "size": 217
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "620b22d898557249c14774a54071293f53d8411175fec2bd369084a3d440f3b0",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/dell-1996",
+  "schema_version": 1
+}

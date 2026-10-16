@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/oura",
+  "license": "MIT",
+  "name": "skill-voltagent-design-oura",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

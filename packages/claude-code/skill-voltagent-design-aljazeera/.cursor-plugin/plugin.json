@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/aljazeera",
+  "license": "MIT",
+  "name": "skill-voltagent-design-aljazeera",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

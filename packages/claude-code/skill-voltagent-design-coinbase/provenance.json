@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-coinbase/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "c8c67800dd7f58fcc87ed7d267a3bba862e3419e499e8a66d67731a69d2de1d6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-coinbase/skills/voltagent-design-coinbase/DESIGN.md",
+      "path": "design-md/coinbase/DESIGN.md",
+      "size": 25853
+    },
+    {
+      "digest": "1128abcfa578c532a3063f072f39b11f527219679036165a110dc04ab0a2c851",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-coinbase/skills/voltagent-design-coinbase/README.md",
+      "path": "design-md/coinbase/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "8a2e08053659089411f44c5cc3f3ba1ce39ac3c46ee60c9abe067a7fa52a71f4",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/coinbase",
+  "schema_version": 1
+}

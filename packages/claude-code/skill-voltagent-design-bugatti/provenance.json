@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bugatti/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "375f0a20ada88cdee5e995ca7edcfbd584ddf5f887024deebd1bc75bfd55b1bc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bugatti/skills/voltagent-design-bugatti/DESIGN.md",
+      "path": "design-md/bugatti/DESIGN.md",
+      "size": 28535
+    },
+    {
+      "digest": "77787b2c529521ebc2d1097eb1190e67b83824177598f9db5b3ff1194057629f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bugatti/skills/voltagent-design-bugatti/README.md",
+      "path": "design-md/bugatti/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "6c96ad54271158fb577bafc11833c7b30f79730d69674f3e756dbf6804205c9c",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/bugatti",
+  "schema_version": 1
+}

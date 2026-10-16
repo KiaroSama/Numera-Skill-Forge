@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/airtable",
+  "license": "MIT",
+  "name": "skill-voltagent-design-airtable",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

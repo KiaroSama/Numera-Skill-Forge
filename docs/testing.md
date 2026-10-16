@@ -280,3 +280,14 @@ deployments run. Existing CI independently verifies all954payloads/catalogs; its
 retains the earlier five-origin fixture plus the approved name-adaptation case, rather than claiming
 a new per-origin Vercel runtime fixture. VoltAgent is source-reference documentation only, not native
 skill execution or installation coverage. Final exact-SHA hosted results must be checked separately.
+
+## VoltAgent design conversion
+
+`collection_design.rs` exercises the public sync/verify/catalog/install seam with real inert Git
+DESIGN.md and companion files, generated-entry discovery, preview/no-write, installation, disable,
+enable, uninstall, unchanged repeat and exact reconstruction. Changed/withdrawn approval, source hash,
+name/version and edited entry refuse while preserving acceptance. The persistent real release CLI tier
+also installs the VoltAgent adapter and verifies original documents plus the owned generated entry,
+consumer edits, native-only refusal, rollback and cleanup using the same bounded fixture. Source-data
+comparison covers all84adapters/167originaldesign documents, with root legal notices separately retained;
+no generated instruction is misrepresented as an original Git file or model-followed design proof.

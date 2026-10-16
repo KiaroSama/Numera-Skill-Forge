@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-raycast/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "6e2c5137e4d914b70996d589688374a801b6f29a35c9c019c22abb5e0170bda3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-raycast/skills/voltagent-design-raycast/DESIGN.md",
+      "path": "design-md/raycast/DESIGN.md",
+      "size": 41275
+    },
+    {
+      "digest": "b1bb03b73837617837d9aff7bae6993c519805db90245358acd876e23d1fb84e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-raycast/skills/voltagent-design-raycast/README.md",
+      "path": "design-md/raycast/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "72ca5791cea5a96197a28ba74f13581799e894042aa558b4671b9fc11bfb8896",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/raycast",
+  "schema_version": 1
+}

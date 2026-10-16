@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sanity/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "ea1c442de2b23443f79af46524a81f33951606c8ff043ea9c25ba886264fbdd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sanity/skills/voltagent-design-sanity/DESIGN.md",
+      "path": "design-md/sanity/DESIGN.md",
+      "size": 21231
+    },
+    {
+      "digest": "f4ebce407039d77c84fe71baa917146bfd1a35ba0882cc7469bfd371805e1367",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-sanity/skills/voltagent-design-sanity/README.md",
+      "path": "design-md/sanity/README.md",
+      "size": 209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "96b433f05b1ae801cfaf5fea330e252c540e83723a74ca16a5b5054717623ccc",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/sanity",
+  "schema_version": 1
+}

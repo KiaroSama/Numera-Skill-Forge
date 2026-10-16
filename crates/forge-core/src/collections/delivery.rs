@@ -4,14 +4,7 @@ pub(crate) const CURSOR_CATALOG: &str = ".cursor-plugin/marketplace.json";
 
 pub(super) fn descriptors(a: &Accepted) -> Result<BTreeMap<String, Vec<u8>>> {
     let prefix = format!("packages/claude-code/{}", a.id);
-    let description = if a.files.iter().any(|f| f.source_digest.is_some()) {
-        format!(
-            "Upstream skill with reviewed name-only adaptation: {}",
-            a.root
-        )
-    } else {
-        format!("Unmodified upstream skill: {}", a.root)
-    };
+    let description = design::description(a);
     let native = json!({"name":a.id,"version":a.version,
         "description":description,
         "license":a.license,"skills":"./skills/"});
@@ -38,7 +31,7 @@ pub(super) fn catalogs(state: &Lock) -> [(String, Value); 1] {
         .map(|a| {
             json!({"name":a.id,
         "source":format!("packages/claude-code/{}",a.id),
-        "description":format!("Original upstream skill: {}",a.root)})
+        "description":if a.reviewed_design.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})
         })
         .collect::<Vec<_>>();
     [(

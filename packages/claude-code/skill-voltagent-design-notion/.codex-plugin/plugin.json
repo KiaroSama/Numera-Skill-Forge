@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/notion",
+  "license": "MIT",
+  "name": "skill-voltagent-design-notion",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

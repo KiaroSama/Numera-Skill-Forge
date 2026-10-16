@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-wise/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "442df0ad7380efd8712f5574bdca34a73cfb41a2a43454ff459863a6258af547",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-wise/skills/voltagent-design-wise/DESIGN.md",
+      "path": "design-md/wise/DESIGN.md",
+      "size": 24586
+    },
+    {
+      "digest": "59157b28e31e7c13ffaee071170cf2008ac2aabb0b751459a08680a578264df5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-wise/skills/voltagent-design-wise/README.md",
+      "path": "design-md/wise/README.md",
+      "size": 205
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "65d632d3a8840e3889b5fe9f2e6279d1ef334e2c89a3c410f442fd1ba881839d",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/wise",
+  "schema_version": 1
+}

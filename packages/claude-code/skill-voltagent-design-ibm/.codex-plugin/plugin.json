@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/ibm",
+  "license": "MIT",
+  "name": "skill-voltagent-design-ibm",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

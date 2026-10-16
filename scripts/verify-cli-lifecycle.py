@@ -18,6 +18,7 @@ SELECTED = [
     ("morluto-rea", "skill-morluto-reverse-engineer-anything", "opencode", ".opencode/skills"),
     ("newliver666-apk-reverse", "skill-newliver666-apk-reverse", "cursor", ".cursor/skills"),
     ("kdense-scientific-agent-skills", "skill-kdense-statistical-analysis", "claude-code", ".claude/skills"),
+    ("voltagent-design", "skill-voltagent-design-voltagent", "claude-code", ".claude/skills"),
 ]
 
 
@@ -38,7 +39,7 @@ def subset(project, workspace):
     selected.add("skill-scientific-statistical-analysis")
     entries = {k: e for k, e in lock["entries"].items() if e["id"] in selected}
     # Use a guaranteed registered same-name alternative if the older collection has another ID.
-    if len(entries) == 5:
+    if len(entries) == len(SELECTED):
         old = next(e for e in lock["entries"].values() if e["collection"] == "davila7-templates" and e["root"].endswith("/statistical-analysis"))
         entries[f"{old['collection']}/{old['id']}"] = old
     for entry in entries.values():
@@ -96,7 +97,9 @@ def verify(application, project, work):
         record["checks"].append("full-catalog")
         for collection, package, target, prefix in SELECTED:
             entry = entries[f"{collection}/{package}"]
-            name = next(f["output_path"].split("/skills/", 1)[1].split("/")[0] for f in entry["files"] if f["path"] == entry["root"] + "/SKILL.md")
+            name = entry["reviewed_design"]["name"] if entry.get("reviewed_design") else next(
+                f["output_path"].split("/skills/", 1)[1].split("/")[0]
+                for f in entry["files"] if f["path"] == entry["root"] + "/SKILL.md")
             destination = fixture / (package + " consumer")
             destination.mkdir()
             unrelated = destination / "unrelated.txt"

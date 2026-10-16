@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mercury/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "dabb3683422a9841369b0db53ff13ed375b0b6f019157a5c90e9fca165cc111f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mercury/skills/voltagent-design-mercury/DESIGN.md",
+      "path": "design-md/mercury/DESIGN.md",
+      "size": 25065
+    },
+    {
+      "digest": "d7ed405f7685b6894a1e940940d8cb585f326587298a91ef83660b8b8842b307",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mercury/skills/voltagent-design-mercury/README.md",
+      "path": "design-md/mercury/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e687ce0f112e7b706f5e09c0a3b76e7d2e4f3bdefad4cff293eedaacc1ce4b09",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/mercury",
+  "schema_version": 1
+}

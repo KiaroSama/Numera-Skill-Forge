@@ -135,6 +135,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 let candidate_files = files(skill, &selected, &candidate)?;
                 let digest = storage::digest(&storage::encoded(&candidate_files)?);
                 if let Some(prior) = &prior {
+                    design::verify(root, skill, prior)?;
                     check_owned(root, state.entries.get(&key).unwrap_or(prior))?;
                     adaptation::verify(root, skill, prior)?;
                     if !skill.notices.is_empty() {

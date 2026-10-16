@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-intercom/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "962be23cd947e87a86b2ffbc0440e9d0808243a6ef3af2aa04e8e7cc04d48ba3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-intercom/skills/voltagent-design-intercom/DESIGN.md",
+      "path": "design-md/intercom/DESIGN.md",
+      "size": 23278
+    },
+    {
+      "digest": "b056a73ebe5fd27f291a5560ab7d24d4ceab461e87c7473831c6410711a319b9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-intercom/skills/voltagent-design-intercom/README.md",
+      "path": "design-md/intercom/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "18480248e246a209ed8f53c59f0d63ef6525bf75a2dac9d4b27c55ae88de50ce",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/intercom",
+  "schema_version": 1
+}

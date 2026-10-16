@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-starbucks/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "e20338ee10226c63cf2588207288c08e12d60754a53f681657adaf364dfe8fa7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-starbucks/skills/voltagent-design-starbucks/DESIGN.md",
+      "path": "design-md/starbucks/DESIGN.md",
+      "size": 37329
+    },
+    {
+      "digest": "286bd1fcccdf82a55b8a76830abff3799412ab3a02062531a2eb3932ef044925",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-starbucks/skills/voltagent-design-starbucks/README.md",
+      "path": "design-md/starbucks/README.md",
+      "size": 215
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2589958ab908f6b375cb46fb24a20662c4d1ce517af452dc32e0fad3d0f8a3cd",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/starbucks",
+  "schema_version": 1
+}

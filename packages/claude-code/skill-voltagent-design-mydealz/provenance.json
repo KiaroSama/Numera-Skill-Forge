@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mydealz/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "598698a1bd0824260d57eb21f728b79cd702916f918de2b6f39b3720ba727872",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mydealz/skills/voltagent-design-mydealz/DESIGN.md",
+      "path": "design-md/mydealz/DESIGN.md",
+      "size": 25797
+    },
+    {
+      "digest": "d2b782798ef4cc7845202c61752bc8104de048dd60f8ab0a0eeb61667ca34d2e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mydealz/skills/voltagent-design-mydealz/README.md",
+      "path": "design-md/mydealz/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a2a5629534985722759bcdb4257a9bfa441d56abbba65bb87f24920dedc890d3",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/mydealz",
+  "schema_version": 1
+}

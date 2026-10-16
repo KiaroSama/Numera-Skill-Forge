@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/figma",
+  "license": "MIT",
+  "name": "skill-voltagent-design-figma",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

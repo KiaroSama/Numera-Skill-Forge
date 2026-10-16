@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mintlify/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "754ffcf35dcd39ef8aef450085ce936aaca5b872ff92caa66be99e91a5c3d5ec",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mintlify/skills/voltagent-design-mintlify/DESIGN.md",
+      "path": "design-md/mintlify/DESIGN.md",
+      "size": 44083
+    },
+    {
+      "digest": "c63066c714bc7debc1668571ff756a52766efbe69e32e44d6cf889c44190501d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-mintlify/skills/voltagent-design-mintlify/README.md",
+      "path": "design-md/mintlify/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2f4022902b6d1f20ea10d01afae50450bf5e3973af8f35232652d6e0d52f8623",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/mintlify",
+  "schema_version": 1
+}

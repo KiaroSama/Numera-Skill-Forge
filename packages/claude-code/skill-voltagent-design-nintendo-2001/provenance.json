@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nintendo-2001/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "9630af17090d5c39ba9d8b5915a597a96c7552efe1422b3b8c3f31fb3e636716",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nintendo-2001/skills/voltagent-design-nintendo-2001/DESIGN.md",
+      "path": "design-md/nintendo-2001/DESIGN.md",
+      "size": 38977
+    },
+    {
+      "digest": "3b084834b5996b94a2678c04856698c02095b54110b28f9c28b0a60fa7c42de0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nintendo-2001/skills/voltagent-design-nintendo-2001/README.md",
+      "path": "design-md/nintendo-2001/README.md",
+      "size": 229
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "193541489cd0bb500e340e0852c28c7c6db0fdf59731654d0e438fca71f050bf",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/nintendo-2001",
+  "schema_version": 1
+}

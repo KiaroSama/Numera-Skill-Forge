@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed design adapter with original documents: design-md/dell-1996",
+  "license": "MIT",
+  "name": "skill-voltagent-design-dell-1996",
+  "version": "1.0.0"
+}

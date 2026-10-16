@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-ferrari/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "1199e2832641cac7e384aaf3b1f3db87f992240cea5d3d1eee04d9dc00acb17c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-ferrari/skills/voltagent-design-ferrari/DESIGN.md",
+      "path": "design-md/ferrari/DESIGN.md",
+      "size": 24365
+    },
+    {
+      "digest": "c810f3335aa5c550a1a34575e83ea806c9978173abfb486f8f6d56a36b40503f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-ferrari/skills/voltagent-design-ferrari/README.md",
+      "path": "design-md/ferrari/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "131cc9a71b3f766414d0f8e49e65bd86a1bed3e1be9d5013502a40c564833aed",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/ferrari",
+  "schema_version": 1
+}

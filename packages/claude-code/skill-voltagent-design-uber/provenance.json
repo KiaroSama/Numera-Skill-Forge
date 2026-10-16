@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-uber/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "f30d2257d2d090790332d00ccb16cd2516c3c6008be61ad2ce83c4e991bcc803",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-uber/skills/voltagent-design-uber/DESIGN.md",
+      "path": "design-md/uber/DESIGN.md",
+      "size": 34760
+    },
+    {
+      "digest": "bfd1905623561797fa86660bff27af259f5e81e3243dd230c7ec123e39c4f99b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-uber/skills/voltagent-design-uber/README.md",
+      "path": "design-md/uber/README.md",
+      "size": 205
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f4fcce01cddccc0f558370c6df98e64d171f18955cb2bb3a8d5b8147c5c33668",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/uber",
+  "schema_version": 1
+}

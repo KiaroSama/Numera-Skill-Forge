@@ -42,17 +42,26 @@ pub(crate) fn find(root: &Path, id: &str) -> Result<Option<Accepted>> {
 
 pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, String)> {
     let prefix = format!("packages/claude-code/{}/skills/", accepted.id);
-    let entry = accepted
-        .files
-        .iter()
-        .find(|f| {
-            f.output_path.starts_with(&prefix)
-                && f.output_path.ends_with("/SKILL.md")
-                && f.output_path[prefix.len()..].split('/').count() == 2
+    let generated = crate::collections::design::entry_path(accepted);
+    let path = generated
+        .or_else(|| {
+            accepted
+                .files
+                .iter()
+                .find(|f| {
+                    f.output_path.starts_with(&prefix)
+                        && f.output_path.ends_with("/SKILL.md")
+                        && f.output_path[prefix.len()..].split('/').count() == 2
+                })
+                .map(|f| f.output_path.clone())
         })
         .ok_or_else(|| Error::new("skill-entrypoint", "Accepted skill entry point is missing"))?;
-    let bytes = storage::bytes(&validation::contained(root, &entry.output_path)?)?;
-    if storage::digest(&bytes) != entry.digest {
+    let digest = accepted
+        .generated
+        .get(&path)
+        .ok_or_else(|| Error::new("integrity", "Skill entry is not owned"))?;
+    let bytes = storage::bytes(&validation::contained(root, &path)?)?;
+    if &storage::digest(&bytes) != digest {
         return Err(Error::new("integrity", "Accepted skill bytes changed"));
     }
     let text =
@@ -69,7 +78,7 @@ pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, Stri
         .filter(|s| !s.is_empty())
         .ok_or_else(|| Error::new("frontmatter", "Original skill requires a name"))?;
     validation::identifier(name)?;
-    if entry.output_path != format!("{prefix}{name}/SKILL.md") {
+    if path != format!("{prefix}{name}/SKILL.md") {
         return Err(Error::new(
             "integrity",
             "Original skill directory does not match its name",

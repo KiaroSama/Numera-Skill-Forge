@@ -4773,6 +4773,426 @@
       "description": "Original upstream skill: skills/writing-guidelines",
       "name": "skill-vercel-writing-guidelines",
       "source": "packages/claude-code/skill-vercel-writing-guidelines"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/1win",
+      "name": "skill-voltagent-design-1win",
+      "source": "packages/claude-code/skill-voltagent-design-1win"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/airbnb",
+      "name": "skill-voltagent-design-airbnb",
+      "source": "packages/claude-code/skill-voltagent-design-airbnb"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/airtable",
+      "name": "skill-voltagent-design-airtable",
+      "source": "packages/claude-code/skill-voltagent-design-airtable"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/aljazeera",
+      "name": "skill-voltagent-design-aljazeera",
+      "source": "packages/claude-code/skill-voltagent-design-aljazeera"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/apple",
+      "name": "skill-voltagent-design-apple",
+      "source": "packages/claude-code/skill-voltagent-design-apple"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/binance",
+      "name": "skill-voltagent-design-binance",
+      "source": "packages/claude-code/skill-voltagent-design-binance"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/bmw",
+      "name": "skill-voltagent-design-bmw",
+      "source": "packages/claude-code/skill-voltagent-design-bmw"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/bmw-m",
+      "name": "skill-voltagent-design-bmw-m",
+      "source": "packages/claude-code/skill-voltagent-design-bmw-m"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/bugatti",
+      "name": "skill-voltagent-design-bugatti",
+      "source": "packages/claude-code/skill-voltagent-design-bugatti"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/cal",
+      "name": "skill-voltagent-design-cal",
+      "source": "packages/claude-code/skill-voltagent-design-cal"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/claude",
+      "name": "skill-voltagent-design-claude",
+      "source": "packages/claude-code/skill-voltagent-design-claude"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/clay",
+      "name": "skill-voltagent-design-clay",
+      "source": "packages/claude-code/skill-voltagent-design-clay"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/clickhouse",
+      "name": "skill-voltagent-design-clickhouse",
+      "source": "packages/claude-code/skill-voltagent-design-clickhouse"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/cohere",
+      "name": "skill-voltagent-design-cohere",
+      "source": "packages/claude-code/skill-voltagent-design-cohere"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/coinbase",
+      "name": "skill-voltagent-design-coinbase",
+      "source": "packages/claude-code/skill-voltagent-design-coinbase"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/composio",
+      "name": "skill-voltagent-design-composio",
+      "source": "packages/claude-code/skill-voltagent-design-composio"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/cursor",
+      "name": "skill-voltagent-design-cursor",
+      "source": "packages/claude-code/skill-voltagent-design-cursor"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/dell-1996",
+      "name": "skill-voltagent-design-dell-1996",
+      "source": "packages/claude-code/skill-voltagent-design-dell-1996"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/dji",
+      "name": "skill-voltagent-design-dji",
+      "source": "packages/claude-code/skill-voltagent-design-dji"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/elevenlabs",
+      "name": "skill-voltagent-design-elevenlabs",
+      "source": "packages/claude-code/skill-voltagent-design-elevenlabs"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/expo",
+      "name": "skill-voltagent-design-expo",
+      "source": "packages/claude-code/skill-voltagent-design-expo"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/ferrari",
+      "name": "skill-voltagent-design-ferrari",
+      "source": "packages/claude-code/skill-voltagent-design-ferrari"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/figma",
+      "name": "skill-voltagent-design-figma",
+      "source": "packages/claude-code/skill-voltagent-design-figma"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/framer",
+      "name": "skill-voltagent-design-framer",
+      "source": "packages/claude-code/skill-voltagent-design-framer"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/hashicorp",
+      "name": "skill-voltagent-design-hashicorp",
+      "source": "packages/claude-code/skill-voltagent-design-hashicorp"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/hp",
+      "name": "skill-voltagent-design-hp",
+      "source": "packages/claude-code/skill-voltagent-design-hp"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/ibm",
+      "name": "skill-voltagent-design-ibm",
+      "source": "packages/claude-code/skill-voltagent-design-ibm"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/intercom",
+      "name": "skill-voltagent-design-intercom",
+      "source": "packages/claude-code/skill-voltagent-design-intercom"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/jobright",
+      "name": "skill-voltagent-design-jobright",
+      "source": "packages/claude-code/skill-voltagent-design-jobright"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/kraken",
+      "name": "skill-voltagent-design-kraken",
+      "source": "packages/claude-code/skill-voltagent-design-kraken"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/lamborghini",
+      "name": "skill-voltagent-design-lamborghini",
+      "source": "packages/claude-code/skill-voltagent-design-lamborghini"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/linear.app",
+      "name": "skill-voltagent-design-linear-app",
+      "source": "packages/claude-code/skill-voltagent-design-linear-app"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/lovable",
+      "name": "skill-voltagent-design-lovable",
+      "source": "packages/claude-code/skill-voltagent-design-lovable"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mastercard",
+      "name": "skill-voltagent-design-mastercard",
+      "source": "packages/claude-code/skill-voltagent-design-mastercard"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mercury",
+      "name": "skill-voltagent-design-mercury",
+      "source": "packages/claude-code/skill-voltagent-design-mercury"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/meta",
+      "name": "skill-voltagent-design-meta",
+      "source": "packages/claude-code/skill-voltagent-design-meta"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/minimax",
+      "name": "skill-voltagent-design-minimax",
+      "source": "packages/claude-code/skill-voltagent-design-minimax"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mintlify",
+      "name": "skill-voltagent-design-mintlify",
+      "source": "packages/claude-code/skill-voltagent-design-mintlify"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/miro",
+      "name": "skill-voltagent-design-miro",
+      "source": "packages/claude-code/skill-voltagent-design-miro"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mistral.ai",
+      "name": "skill-voltagent-design-mistral-ai",
+      "source": "packages/claude-code/skill-voltagent-design-mistral-ai"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mongodb",
+      "name": "skill-voltagent-design-mongodb",
+      "source": "packages/claude-code/skill-voltagent-design-mongodb"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/mydealz",
+      "name": "skill-voltagent-design-mydealz",
+      "source": "packages/claude-code/skill-voltagent-design-mydealz"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/nerdwallet",
+      "name": "skill-voltagent-design-nerdwallet",
+      "source": "packages/claude-code/skill-voltagent-design-nerdwallet"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/nike",
+      "name": "skill-voltagent-design-nike",
+      "source": "packages/claude-code/skill-voltagent-design-nike"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/nintendo-2001",
+      "name": "skill-voltagent-design-nintendo-2001",
+      "source": "packages/claude-code/skill-voltagent-design-nintendo-2001"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/notion",
+      "name": "skill-voltagent-design-notion",
+      "source": "packages/claude-code/skill-voltagent-design-notion"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/nvidia",
+      "name": "skill-voltagent-design-nvidia",
+      "source": "packages/claude-code/skill-voltagent-design-nvidia"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/ollama",
+      "name": "skill-voltagent-design-ollama",
+      "source": "packages/claude-code/skill-voltagent-design-ollama"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/opencode.ai",
+      "name": "skill-voltagent-design-opencode-ai",
+      "source": "packages/claude-code/skill-voltagent-design-opencode-ai"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/oracle",
+      "name": "skill-voltagent-design-oracle",
+      "source": "packages/claude-code/skill-voltagent-design-oracle"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/oura",
+      "name": "skill-voltagent-design-oura",
+      "source": "packages/claude-code/skill-voltagent-design-oura"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/pinterest",
+      "name": "skill-voltagent-design-pinterest",
+      "source": "packages/claude-code/skill-voltagent-design-pinterest"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/playstation",
+      "name": "skill-voltagent-design-playstation",
+      "source": "packages/claude-code/skill-voltagent-design-playstation"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/posthog",
+      "name": "skill-voltagent-design-posthog",
+      "source": "packages/claude-code/skill-voltagent-design-posthog"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/raycast",
+      "name": "skill-voltagent-design-raycast",
+      "source": "packages/claude-code/skill-voltagent-design-raycast"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/renault",
+      "name": "skill-voltagent-design-renault",
+      "source": "packages/claude-code/skill-voltagent-design-renault"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/replicate",
+      "name": "skill-voltagent-design-replicate",
+      "source": "packages/claude-code/skill-voltagent-design-replicate"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/resend",
+      "name": "skill-voltagent-design-resend",
+      "source": "packages/claude-code/skill-voltagent-design-resend"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/revolut",
+      "name": "skill-voltagent-design-revolut",
+      "source": "packages/claude-code/skill-voltagent-design-revolut"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/runwayml",
+      "name": "skill-voltagent-design-runwayml",
+      "source": "packages/claude-code/skill-voltagent-design-runwayml"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/sanity",
+      "name": "skill-voltagent-design-sanity",
+      "source": "packages/claude-code/skill-voltagent-design-sanity"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/sap",
+      "name": "skill-voltagent-design-sap",
+      "source": "packages/claude-code/skill-voltagent-design-sap"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/sentry",
+      "name": "skill-voltagent-design-sentry",
+      "source": "packages/claude-code/skill-voltagent-design-sentry"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/shopify",
+      "name": "skill-voltagent-design-shopify",
+      "source": "packages/claude-code/skill-voltagent-design-shopify"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/slack",
+      "name": "skill-voltagent-design-slack",
+      "source": "packages/claude-code/skill-voltagent-design-slack"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/spacex",
+      "name": "skill-voltagent-design-spacex",
+      "source": "packages/claude-code/skill-voltagent-design-spacex"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/spotify",
+      "name": "skill-voltagent-design-spotify",
+      "source": "packages/claude-code/skill-voltagent-design-spotify"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/starbucks",
+      "name": "skill-voltagent-design-starbucks",
+      "source": "packages/claude-code/skill-voltagent-design-starbucks"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/stripe",
+      "name": "skill-voltagent-design-stripe",
+      "source": "packages/claude-code/skill-voltagent-design-stripe"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/supabase",
+      "name": "skill-voltagent-design-supabase",
+      "source": "packages/claude-code/skill-voltagent-design-supabase"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/superhuman",
+      "name": "skill-voltagent-design-superhuman",
+      "source": "packages/claude-code/skill-voltagent-design-superhuman"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/tesla",
+      "name": "skill-voltagent-design-tesla",
+      "source": "packages/claude-code/skill-voltagent-design-tesla"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/theverge",
+      "name": "skill-voltagent-design-theverge",
+      "source": "packages/claude-code/skill-voltagent-design-theverge"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/together.ai",
+      "name": "skill-voltagent-design-together-ai",
+      "source": "packages/claude-code/skill-voltagent-design-together-ai"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/uber",
+      "name": "skill-voltagent-design-uber",
+      "source": "packages/claude-code/skill-voltagent-design-uber"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/vercel",
+      "name": "skill-voltagent-design-vercel",
+      "source": "packages/claude-code/skill-voltagent-design-vercel"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/vodafone",
+      "name": "skill-voltagent-design-vodafone",
+      "source": "packages/claude-code/skill-voltagent-design-vodafone"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/voltagent",
+      "name": "skill-voltagent-design-voltagent",
+      "source": "packages/claude-code/skill-voltagent-design-voltagent"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/warp",
+      "name": "skill-voltagent-design-warp",
+      "source": "packages/claude-code/skill-voltagent-design-warp"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/webflow",
+      "name": "skill-voltagent-design-webflow",
+      "source": "packages/claude-code/skill-voltagent-design-webflow"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/wired",
+      "name": "skill-voltagent-design-wired",
+      "source": "packages/claude-code/skill-voltagent-design-wired"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/wise",
+      "name": "skill-voltagent-design-wise",
+      "source": "packages/claude-code/skill-voltagent-design-wise"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/x.ai",
+      "name": "skill-voltagent-design-x-ai",
+      "source": "packages/claude-code/skill-voltagent-design-x-ai"
+    },
+    {
+      "description": "Reviewed design adapter with original documents: design-md/zapier",
+      "name": "skill-voltagent-design-zapier",
+      "source": "packages/claude-code/skill-voltagent-design-zapier"
     }
   ]
 }

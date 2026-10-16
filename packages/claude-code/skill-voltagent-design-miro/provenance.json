@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-miro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "87c71f76297277d64f9679e015a50da88e72d86d7b41badf8733eae1e4cde335",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-miro/skills/voltagent-design-miro/DESIGN.md",
+      "path": "design-md/miro/DESIGN.md",
+      "size": 36542
+    },
+    {
+      "digest": "dac0fbe8d79c11332df5d51ab04012f7cc3986cfa72aab09173939f8605844f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-miro/skills/voltagent-design-miro/README.md",
+      "path": "design-md/miro/README.md",
+      "size": 205
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4cbfb444775be1da05e1149aa7519704c20e2d974f2f237b7e99003919c4feb5",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/miro",
+  "schema_version": 1
+}

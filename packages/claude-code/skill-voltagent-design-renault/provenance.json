@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-renault/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "b343df9a67e57f248e9eee704f52b17dff9cf6a46d1dc9f8d7ab36741940db59",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-renault/skills/voltagent-design-renault/DESIGN.md",
+      "path": "design-md/renault/DESIGN.md",
+      "size": 30076
+    },
+    {
+      "digest": "1ccc523d63f6813495b6d4890c65fb48501a02fc14e99656ac9aa77dd3aa01b3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-renault/skills/voltagent-design-renault/README.md",
+      "path": "design-md/renault/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3a9cdb7e3f6b1ffcca89506cce3199620549fcac3d0ef3cb99372354a3216f56",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/renault",
+  "schema_version": 1
+}

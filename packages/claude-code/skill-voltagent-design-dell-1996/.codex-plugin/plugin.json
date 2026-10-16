@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/dell-1996",
+  "license": "MIT",
+  "name": "skill-voltagent-design-dell-1996",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

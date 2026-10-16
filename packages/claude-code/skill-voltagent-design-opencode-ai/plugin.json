@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed design adapter with original documents: design-md/opencode.ai",
+  "license": "MIT",
+  "name": "skill-voltagent-design-opencode-ai",
+  "version": "1.0.0"
+}

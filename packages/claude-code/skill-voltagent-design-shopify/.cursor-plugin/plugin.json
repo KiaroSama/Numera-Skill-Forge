@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/shopify",
+  "license": "MIT",
+  "name": "skill-voltagent-design-shopify",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

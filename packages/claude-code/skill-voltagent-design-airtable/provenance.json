@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-airtable/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "1d225e511213044d3c705bde50265ad010932bfd8a15740a144dd4f480128889",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-airtable/skills/voltagent-design-airtable/DESIGN.md",
+      "path": "design-md/airtable/DESIGN.md",
+      "size": 35266
+    },
+    {
+      "digest": "46e316cd046138600b93d04aa7f28472af8b2fcece266e90d33dae457c7bd0de",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-airtable/skills/voltagent-design-airtable/README.md",
+      "path": "design-md/airtable/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3c48b2a2516c812a9720b045a4bbe24f08a44575de85e54c7f0aabccb8915a82",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/airtable",
+  "schema_version": 1
+}

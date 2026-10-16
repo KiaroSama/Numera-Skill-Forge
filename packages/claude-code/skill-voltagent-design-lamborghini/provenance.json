@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-lamborghini/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "9aa68c53b481a0befdf72859db5625f85454122294509989aa58414aaee04b34",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-lamborghini/skills/voltagent-design-lamborghini/DESIGN.md",
+      "path": "design-md/lamborghini/DESIGN.md",
+      "size": 21119
+    },
+    {
+      "digest": "ef3303c6992ca649edbefdb645e56227e24996b0c1ef1da4d34d38ba1fedd442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-lamborghini/skills/voltagent-design-lamborghini/README.md",
+      "path": "design-md/lamborghini/README.md",
+      "size": 219
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d076b904c9c1f0054a986cb90f14f235f9be184c066fe9961855e917743f02d5",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/lamborghini",
+  "schema_version": 1
+}

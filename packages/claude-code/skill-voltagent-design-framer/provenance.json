@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-framer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "a5d47dddacf5a04577cec0be6fe0fc53b7402254c7686874af3e59bcc7588cb4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-framer/skills/voltagent-design-framer/DESIGN.md",
+      "path": "design-md/framer/DESIGN.md",
+      "size": 29119
+    },
+    {
+      "digest": "830726692635b292ac04d93c94c0fb0777498dd8532d1be356a55af12b06a8ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-framer/skills/voltagent-design-framer/README.md",
+      "path": "design-md/framer/README.md",
+      "size": 209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f7d7d0bf7103ce463b4124556c3da57b471f58bd23841687d64694c143997a7b",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/framer",
+  "schema_version": 1
+}

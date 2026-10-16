@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bmw-m/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "824a1707c0a8d1609d72477d0fa211b9ebe4bdeb3e1fd701790af7b7bb669a4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bmw-m/skills/voltagent-design-bmw-m/DESIGN.md",
+      "path": "design-md/bmw-m/DESIGN.md",
+      "size": 30697
+    },
+    {
+      "digest": "47f448fc683a36f9b6ac69a52e57b32cc5a4eee4c26699d1473363a8221f3137",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-bmw-m/skills/voltagent-design-bmw-m/README.md",
+      "path": "design-md/bmw-m/README.md",
+      "size": 207
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e8ea9ffafb7b200a3062b1d152560342b7dd818b6eeedb1233345563fe53ae3c",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/bmw-m",
+  "schema_version": 1
+}

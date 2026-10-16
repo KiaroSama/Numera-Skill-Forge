@@ -33,8 +33,8 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **765 davila packages**, plus189 packages from the other five
-registered sources, for **954 total** and **7942 payload/notice records**. The previous781 accepted
+The current collection contains **765 davila packages**, plus273 packages from the other six
+registered sources, for **1038 total** and **8193 original payload/notice records**. The previous781 accepted
 identities are unchanged; the latest164 additions contribute657 records. Four earlier approved
 name-only adaptations remain the only payload edits. Original legal notices and adaptation
 provenance are separately owned package files, not extra source-root counts.
@@ -667,10 +667,15 @@ entrypoints fetch mutable external rule URLs when used; pinning the skill does n
 Optimization's Node20+/authenticated Vercel CLI53+/Observability Plus prerequisites are not installed.
 
 [VoltAgent revision3b605329](https://github.com/voltagent/awesome-design-md/tree/3b605329240ce735b510037cca322f1831fdd7f8)
-is an MIT-licensed reference source, not a registered skill collection:84 DESIGN.md directories,
-167 original design/README files and zero SKILL.md entrypoints. No native skill wrapper was fabricated;
-its source link is retained for manual reference. The reviewed tree contains no claimed HTML previews,
-font/image binaries or executable code. Closed unmerged skill-conversion proposals are not official content.
+is converted under explicit owner approval into84separate `skill-voltagent-design-<name>` packages.
+All167original DESIGN.md/README.md documents remain exact, with84copies of the original root MIT
+notice in source-file records. Each package also retains the root README disclaimer as a separate
+notice. Forge generates84new SKILL.md entrypoints; these are clearly attributed adapters, not original
+upstream skills or Git blobs. Names use `voltagent-design-<source-directory>`, replacing dots with
+hyphens only in new generated identities. Existing954accepted package records remain unchanged.
+Conversion pins original DESIGN.md hashes and adapter version1; source changes and changed/withdrawn
+approval require review, while edited outputs refuse. No HTML preview, font/image binary or
+executable code is fabricated. Closed unmerged upstream conversions were not copied.
 Its [original MIT notice](https://github.com/voltagent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE)
 covers the licensed prose; the README disclaims ownership of the analyzed websites' visual identities.
 Third-party proprietary fonts, logos, brand assets and protected layouts need their own rights.

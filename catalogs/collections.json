@@ -7631,6 +7631,678 @@
       "root": "skills/writing-guidelines",
       "source": "vercel-agent-skills",
       "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-1win",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/1win",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-airbnb",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/airbnb",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-airtable",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/airtable",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-aljazeera",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/aljazeera",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-apple",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/apple",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-binance",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/binance",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-bmw",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/bmw",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-bmw-m",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/bmw-m",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-bugatti",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/bugatti",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-cal",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/cal",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-claude",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/claude",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-clay",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/clay",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-clickhouse",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/clickhouse",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-cohere",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/cohere",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-coinbase",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/coinbase",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-composio",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/composio",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-cursor",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/cursor",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-dell-1996",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/dell-1996",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-dji",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/dji",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-elevenlabs",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/elevenlabs",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-expo",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/expo",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-ferrari",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/ferrari",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-figma",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/figma",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-framer",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/framer",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-hashicorp",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/hashicorp",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-hp",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/hp",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-ibm",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/ibm",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-intercom",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/intercom",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-jobright",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/jobright",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-kraken",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/kraken",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-lamborghini",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/lamborghini",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-linear-app",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/linear.app",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-lovable",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/lovable",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mastercard",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mastercard",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mercury",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mercury",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-meta",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/meta",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-minimax",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/minimax",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mintlify",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mintlify",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-miro",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/miro",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mistral-ai",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mistral.ai",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mongodb",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mongodb",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-mydealz",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/mydealz",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-nerdwallet",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/nerdwallet",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-nike",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/nike",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-nintendo-2001",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/nintendo-2001",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-notion",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/notion",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-nvidia",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/nvidia",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-ollama",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/ollama",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-opencode-ai",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/opencode.ai",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-oracle",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/oracle",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-oura",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/oura",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-pinterest",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/pinterest",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-playstation",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/playstation",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-posthog",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/posthog",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-raycast",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/raycast",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-renault",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/renault",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-replicate",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/replicate",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-resend",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/resend",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-revolut",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/revolut",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-runwayml",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/runwayml",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-sanity",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/sanity",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-sap",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/sap",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-sentry",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/sentry",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-shopify",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/shopify",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-slack",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/slack",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-spacex",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/spacex",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-spotify",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/spotify",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-starbucks",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/starbucks",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-stripe",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/stripe",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-supabase",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/supabase",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-superhuman",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/superhuman",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-tesla",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/tesla",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-theverge",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/theverge",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-together-ai",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/together.ai",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-uber",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/uber",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-vercel",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/vercel",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-vodafone",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/vodafone",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-voltagent",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/voltagent",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-warp",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/warp",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-webflow",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/webflow",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-wired",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/wired",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-wise",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/wise",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-x-ai",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/x.ai",
+      "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-voltagent-design-zapier",
+      "license": "MIT",
+      "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "root": "design-md/zapier",
+      "source": "voltagent-design",
+      "version": "1.0.0"
     }
   ],
   "schema_version": 1

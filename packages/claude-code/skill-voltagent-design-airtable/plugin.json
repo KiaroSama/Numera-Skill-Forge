@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed design adapter with original documents: design-md/airtable",
+  "license": "MIT",
+  "name": "skill-voltagent-design-airtable",
+  "version": "1.0.0"
+}

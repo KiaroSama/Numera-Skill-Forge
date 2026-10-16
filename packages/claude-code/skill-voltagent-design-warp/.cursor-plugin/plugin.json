@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/warp",
+  "license": "MIT",
+  "name": "skill-voltagent-design-warp",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

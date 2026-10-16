@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-runwayml/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "b0e69bf643f89bb57ac0b82a3bf025e59ff1478c244cb0528ad1e38b3f80dac9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-runwayml/skills/voltagent-design-runwayml/DESIGN.md",
+      "path": "design-md/runwayml/DESIGN.md",
+      "size": 14353
+    },
+    {
+      "digest": "75d308f08c00cb48117a6e7ecabb715c446689ff59270988614ff1e7b1caab06",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-runwayml/skills/voltagent-design-runwayml/README.md",
+      "path": "design-md/runwayml/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "280041ee2e26fa8f0a2d8034a968e89fee553609511654c89910f5008d21c646",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/runwayml",
+  "schema_version": 1
+}

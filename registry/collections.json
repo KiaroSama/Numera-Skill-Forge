@@ -18086,6 +18086,2282 @@
           "attribution": "Original Vercel skill and complete companions retained byte-for-byte. The pinned Vercel README is the actual upstream MIT declaration; no standalone Vercel LICENSE or copyright year is invented. Separately sourced full MIT terms retain their own provenance and do not grant rights over Vercel material or reattribute its authorship. No upstream scripts, deployments, token reads or services were executed. External guideline URLs remain mutable upstream dependencies, not pinned or vendored by Forge."
         }
       ]
+    },
+    {
+      "id": "voltagent-design",
+      "repository": "https://github.com/VoltAgent/awesome-design-md",
+      "branch": "main",
+      "reviewed_revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "skills": [
+        {
+          "id": "skill-voltagent-design-1win",
+          "root": "design-md/1win",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-1win",
+            "source_digest": "64d02d344cb16d68b6882054f35e3bfb7241ad60dc8b7f84f6636a7d1379496a",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-airbnb",
+          "root": "design-md/airbnb",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-airbnb",
+            "source_digest": "add34130d67209ad105346d60fe2b290728b9711683969db4b7760e29477a5fe",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-airtable",
+          "root": "design-md/airtable",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-airtable",
+            "source_digest": "1d225e511213044d3c705bde50265ad010932bfd8a15740a144dd4f480128889",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-aljazeera",
+          "root": "design-md/aljazeera",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-aljazeera",
+            "source_digest": "37614fc72658ffa30faca01049bd1efa8a9baafa4750501405eeea66f149466a",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-apple",
+          "root": "design-md/apple",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-apple",
+            "source_digest": "83fbc614443a9b3d7569e9956a43e7b8740f9d0f939f58b8154f7a7cec3002b2",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-binance",
+          "root": "design-md/binance",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-binance",
+            "source_digest": "378ff97d568ccbc316519b9d45a29d6649ed8961c9c486c3ed4cea7501d72371",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-bmw",
+          "root": "design-md/bmw",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-bmw",
+            "source_digest": "b7268279e7c98e85fb80890e06765f4ee8340ba1ea1ccb5a8a5b134de43dac3e",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-bmw-m",
+          "root": "design-md/bmw-m",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-bmw-m",
+            "source_digest": "824a1707c0a8d1609d72477d0fa211b9ebe4bdeb3e1fd701790af7b7bb669a4a",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-bugatti",
+          "root": "design-md/bugatti",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-bugatti",
+            "source_digest": "375f0a20ada88cdee5e995ca7edcfbd584ddf5f887024deebd1bc75bfd55b1bc",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-cal",
+          "root": "design-md/cal",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-cal",
+            "source_digest": "8cd21b7d67e94c899843d517f4b426e4fee33d47354a433d6a63ebcf79d5a654",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-claude",
+          "root": "design-md/claude",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-claude",
+            "source_digest": "3d972f34f8d4f33b442fa28220cf3b7ca2f13c0a97c468e3988148f82521f9df",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-clay",
+          "root": "design-md/clay",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-clay",
+            "source_digest": "1abd803a207fbe950a06e155adcd6013c2e149b13e7b88844f5069f9d3d99eb3",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-clickhouse",
+          "root": "design-md/clickhouse",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-clickhouse",
+            "source_digest": "50987e29b603cc7503ebe724af810fcf43845e96fdd4083e0fbe5fe00d2cdd2e",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-cohere",
+          "root": "design-md/cohere",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-cohere",
+            "source_digest": "1c49a5a5f88d43841d4f4afa33831328d47a5715048700a3b75086a822575883",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-coinbase",
+          "root": "design-md/coinbase",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-coinbase",
+            "source_digest": "c8c67800dd7f58fcc87ed7d267a3bba862e3419e499e8a66d67731a69d2de1d6",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-composio",
+          "root": "design-md/composio",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-composio",
+            "source_digest": "e7db886dabecca61f29b83e8f46d7a1e8a43889d30b81bc6e48162ccaafcbb2f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-cursor",
+          "root": "design-md/cursor",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-cursor",
+            "source_digest": "a3db9b3019dc2f514fdee7cd0ca0a5232c0bd0119e23178e8eebaf6916258d9d",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-dell-1996",
+          "root": "design-md/dell-1996",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-dell-1996",
+            "source_digest": "e186c614b1223fe7015670472ac6bc84b5b3fdd5de5325b3ce5bfb7fbe9c8d6e",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-dji",
+          "root": "design-md/dji",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-dji",
+            "source_digest": "c8a57520b87286869a88cdd2c07f21080ebda9fb3eee315b11d95c752582c1a9",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-elevenlabs",
+          "root": "design-md/elevenlabs",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-elevenlabs",
+            "source_digest": "3b359acfaafadbb499c7ed3eebe813a76e0be497a7157b77de207fe275068a66",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-expo",
+          "root": "design-md/expo",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-expo",
+            "source_digest": "1be7e129b6f75afaa12318a7c51ab22f6f74a214dec22c4827cecc519f112363",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-ferrari",
+          "root": "design-md/ferrari",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-ferrari",
+            "source_digest": "1199e2832641cac7e384aaf3b1f3db87f992240cea5d3d1eee04d9dc00acb17c",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-figma",
+          "root": "design-md/figma",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-figma",
+            "source_digest": "716ce8431f47eb8b8135552710e3c4d538bccccf1202e4ceac5428c9aada9972",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-framer",
+          "root": "design-md/framer",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-framer",
+            "source_digest": "a5d47dddacf5a04577cec0be6fe0fc53b7402254c7686874af3e59bcc7588cb4",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-hashicorp",
+          "root": "design-md/hashicorp",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-hashicorp",
+            "source_digest": "d2df9be72d867e48d318fd18db04e60a78357c27e392ab921fc2ba7f46951442",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-hp",
+          "root": "design-md/hp",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-hp",
+            "source_digest": "4c9a248046684bdde5311a0c9881814f50e2381c2b0f3c75b02a35fc64bc8bb8",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-ibm",
+          "root": "design-md/ibm",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-ibm",
+            "source_digest": "46f6fd65b5e7524fed1133b9b3c0dd619f9a0f145fbb2b87f3675c701a88f3bd",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-intercom",
+          "root": "design-md/intercom",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-intercom",
+            "source_digest": "962be23cd947e87a86b2ffbc0440e9d0808243a6ef3af2aa04e8e7cc04d48ba3",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-jobright",
+          "root": "design-md/jobright",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-jobright",
+            "source_digest": "9e682194e3f846915164189538741133ab1e2779730677e92d28f873f782999b",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-kraken",
+          "root": "design-md/kraken",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-kraken",
+            "source_digest": "41bcbd5642c926a549f0d50f1151484c5776b4536233240c8415cfb79bcf1f38",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-lamborghini",
+          "root": "design-md/lamborghini",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-lamborghini",
+            "source_digest": "9aa68c53b481a0befdf72859db5625f85454122294509989aa58414aaee04b34",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-linear-app",
+          "root": "design-md/linear.app",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-linear-app",
+            "source_digest": "30bd30e72c48a16e4bdbd010f2d1c85fab657c6fae3cc85389399aab10f9cb5f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-lovable",
+          "root": "design-md/lovable",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-lovable",
+            "source_digest": "92790895c833104072643929ba56ebbf42c8f88ffb7bff1926462545d0ace6c7",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mastercard",
+          "root": "design-md/mastercard",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mastercard",
+            "source_digest": "e76ceaa187f43bd24b8338d2b2314e71e9225b36492e40f32a55782281a10437",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mercury",
+          "root": "design-md/mercury",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mercury",
+            "source_digest": "dabb3683422a9841369b0db53ff13ed375b0b6f019157a5c90e9fca165cc111f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-meta",
+          "root": "design-md/meta",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-meta",
+            "source_digest": "306dfad97c006d47b134fb0dbd55ff68d3baa526844d6eb37346373c9ef35339",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-minimax",
+          "root": "design-md/minimax",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-minimax",
+            "source_digest": "2658b96488bb629749259b152c5ba2912a0e8feb6a03477e265879abd9264c50",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mintlify",
+          "root": "design-md/mintlify",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mintlify",
+            "source_digest": "754ffcf35dcd39ef8aef450085ce936aaca5b872ff92caa66be99e91a5c3d5ec",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-miro",
+          "root": "design-md/miro",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-miro",
+            "source_digest": "87c71f76297277d64f9679e015a50da88e72d86d7b41badf8733eae1e4cde335",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mistral-ai",
+          "root": "design-md/mistral.ai",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mistral-ai",
+            "source_digest": "40e2c692d72c54bae1e43446e2d059b71d773668d39d71ccb7ededa9fa07d145",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mongodb",
+          "root": "design-md/mongodb",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mongodb",
+            "source_digest": "4523f10efd5ccd46f9aeac3b98626e24bcf907bc0c1e46500cb0e3920f932e71",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-mydealz",
+          "root": "design-md/mydealz",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-mydealz",
+            "source_digest": "598698a1bd0824260d57eb21f728b79cd702916f918de2b6f39b3720ba727872",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-nerdwallet",
+          "root": "design-md/nerdwallet",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-nerdwallet",
+            "source_digest": "478475273beb642f0661fb1aef7107bac5cde69250794bc148b28ee2c61960c7",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-nike",
+          "root": "design-md/nike",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-nike",
+            "source_digest": "d2a3d363665839e2ddc15c91b8a9f3e92b1962ff55a7ca5d964ab3bb88b8186c",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-nintendo-2001",
+          "root": "design-md/nintendo-2001",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-nintendo-2001",
+            "source_digest": "9630af17090d5c39ba9d8b5915a597a96c7552efe1422b3b8c3f31fb3e636716",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-notion",
+          "root": "design-md/notion",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-notion",
+            "source_digest": "fa9d6e78216d8f3e5d3990709ca2de6bc2e268e945bb94f255fd1bfb15455266",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-nvidia",
+          "root": "design-md/nvidia",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-nvidia",
+            "source_digest": "d649be85daf075c98a17071e707e3901c6e19150044a81716acd01ef1169cc83",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-ollama",
+          "root": "design-md/ollama",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-ollama",
+            "source_digest": "3f36f897e5aad870344dd97e282c8f125ad208dc99449bb08dd38b9259d2f451",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-opencode-ai",
+          "root": "design-md/opencode.ai",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-opencode-ai",
+            "source_digest": "d1a8893c4b8ac90b1e86230eee2effa8bd15add3582853477920e32432336dda",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-oracle",
+          "root": "design-md/oracle",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-oracle",
+            "source_digest": "23f03014c1654ff72e9a2185f1c3d1f3b51eabc8124c14f6ddd51b17a36a85a6",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-oura",
+          "root": "design-md/oura",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-oura",
+            "source_digest": "8674dbeb48bf7e3ff5271e79a6222084118ba1630db4a2199d1492568850fa08",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-pinterest",
+          "root": "design-md/pinterest",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-pinterest",
+            "source_digest": "26a202fd244e9213d5e2475d81581828da1dd97e089e44639d9783d04f96e4a8",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-playstation",
+          "root": "design-md/playstation",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-playstation",
+            "source_digest": "2a56c109af6cb847fa091b768f719b498ac56b582d010860e73ea5fb72a1590d",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-posthog",
+          "root": "design-md/posthog",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-posthog",
+            "source_digest": "01f497f751d56296bfcd5eb8806325a4bb4786d364941ec6e65c65fa9ee6d362",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-raycast",
+          "root": "design-md/raycast",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-raycast",
+            "source_digest": "6e2c5137e4d914b70996d589688374a801b6f29a35c9c019c22abb5e0170bda3",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-renault",
+          "root": "design-md/renault",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-renault",
+            "source_digest": "b343df9a67e57f248e9eee704f52b17dff9cf6a46d1dc9f8d7ab36741940db59",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-replicate",
+          "root": "design-md/replicate",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-replicate",
+            "source_digest": "c22062d7b4174bf9ced7bc61c48389086cf6eed96a958e098ee70389893b0a15",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-resend",
+          "root": "design-md/resend",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-resend",
+            "source_digest": "99536f1b2380511a539f7f3466d46d351e4bf35a5af0c0df395bdc20af05c9be",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-revolut",
+          "root": "design-md/revolut",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-revolut",
+            "source_digest": "b7fa8473315541f5d7e7d76f68a77105d255e6dae00d31d5eb34621d1d52de59",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-runwayml",
+          "root": "design-md/runwayml",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-runwayml",
+            "source_digest": "b0e69bf643f89bb57ac0b82a3bf025e59ff1478c244cb0528ad1e38b3f80dac9",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-sanity",
+          "root": "design-md/sanity",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-sanity",
+            "source_digest": "ea1c442de2b23443f79af46524a81f33951606c8ff043ea9c25ba886264fbdd8",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-sap",
+          "root": "design-md/sap",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-sap",
+            "source_digest": "f14c951d6112efce488f56d189b9bcdf58f5b9f87ae1e2ee68f062e6a6967d97",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-sentry",
+          "root": "design-md/sentry",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-sentry",
+            "source_digest": "655c91d7d23b5e869a966b7f1b63ae650567ad5d69003cfc64b0ee62c8e02c1f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-shopify",
+          "root": "design-md/shopify",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-shopify",
+            "source_digest": "495e89b8d0a1848ded013c040f7a2ae62077e9d87fc4385350e25dee02ccdb38",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-slack",
+          "root": "design-md/slack",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-slack",
+            "source_digest": "03cb243015a2e11d0faf05caba7f3d0c7fda6839b1f5ce707a23e8d46d1a11bd",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-spacex",
+          "root": "design-md/spacex",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-spacex",
+            "source_digest": "495450c79faab54d12d677649ca0a2c30a60f64f536a802e945ad54185c5baad",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-spotify",
+          "root": "design-md/spotify",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-spotify",
+            "source_digest": "72e964a6cf551d0603f9854f2f42ee08e97ad4d9e17e037f50f6233508288295",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-starbucks",
+          "root": "design-md/starbucks",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-starbucks",
+            "source_digest": "e20338ee10226c63cf2588207288c08e12d60754a53f681657adaf364dfe8fa7",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-stripe",
+          "root": "design-md/stripe",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-stripe",
+            "source_digest": "5c8806b7dd3e0c2554ccba9d1e2a7c78e7c6e50e44fcf6ff5daea6026f8a9ed9",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-supabase",
+          "root": "design-md/supabase",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-supabase",
+            "source_digest": "f57287d7f44d59e8169dc4b4304ff03c1a2efb37f5433b9c04460caae7710880",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-superhuman",
+          "root": "design-md/superhuman",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-superhuman",
+            "source_digest": "3640298bd2957aee80ce88eb465a7541ba835ec105cba364a6a621d885c7f34f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-tesla",
+          "root": "design-md/tesla",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-tesla",
+            "source_digest": "19f2f7e6073d708f46d2512e6bab3c7c417cf2b4d9f57ff6ec6f2e056ea942b0",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-theverge",
+          "root": "design-md/theverge",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-theverge",
+            "source_digest": "5da2c3116e6845826b043ac115a80896a399efda2cebc0188981fba2ef9bb526",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-together-ai",
+          "root": "design-md/together.ai",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-together-ai",
+            "source_digest": "aee472c583f55a2f2c7ee1c403a96dddadb3ff6dc518335451f431e313bf43cf",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-uber",
+          "root": "design-md/uber",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-uber",
+            "source_digest": "f30d2257d2d090790332d00ccb16cd2516c3c6008be61ad2ce83c4e991bcc803",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-vercel",
+          "root": "design-md/vercel",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-vercel",
+            "source_digest": "d0951b93c2b4ce9840c715c9f9b3e58a386c6c58ae5cc0f804dec3b116b95bd8",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-vodafone",
+          "root": "design-md/vodafone",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-vodafone",
+            "source_digest": "293a40951e654283978fa744b24177a159d8f2a60f402bc735bf081618af0ef6",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-voltagent",
+          "root": "design-md/voltagent",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-voltagent",
+            "source_digest": "4457887741ae5e965e205282b03c4bff83e47dd7a03cd7f38c64623a17569fcd",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-warp",
+          "root": "design-md/warp",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-warp",
+            "source_digest": "5b1201f7b1b4e72570d148d1f980fd1cb35e6e4122d48dd271787aa3538a25ad",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-webflow",
+          "root": "design-md/webflow",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-webflow",
+            "source_digest": "9230c7b3951371fc2edc04958962e32bb7ec9a9b703aa6b72eaf5c7991b7c984",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-wired",
+          "root": "design-md/wired",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-wired",
+            "source_digest": "eb439dcc573401dc30583f40e7eef8a60b769232da59e524de6dce56d5c3593e",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-wise",
+          "root": "design-md/wise",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-wise",
+            "source_digest": "442df0ad7380efd8712f5574bdca34a73cfb41a2a43454ff459863a6258af547",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-x-ai",
+          "root": "design-md/x.ai",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-x-ai",
+            "source_digest": "9c9ef45d8c0c3b9a7622833cdff8bd125ed6bf296a82cc7274215276706e52eb",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-voltagent-design-zapier",
+          "root": "design-md/zapier",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+          "notices": [
+            {
+              "path": "registry/licenses/6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44.txt",
+              "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0.txt",
+              "digest": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+              "source": "https://github.com/VoltAgent/awesome-design-md/blob/3b605329240ce735b510037cca322f1831fdd7f8/README.md",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original design analysis and companion documents by VoltAgent, retained byte-for-byte under the original MIT notice. Numera Skill Forge generates the separately identified skill entry and native plugin metadata. This is not an original upstream skill, brand affiliation or a grant to proprietary fonts, logos, third-party assets or protected layouts. Original README visual-identity disclaimer retained.",
+          "reviewed_design": {
+            "name": "voltagent-design-zapier",
+            "source_digest": "9aee43ba8ece1b4fd0753b4cad0a29f3497331882fa376f0dd4fea8a018c32fc",
+            "adapter_version": 1
+          }
+        }
+      ]
     }
   ]
 }

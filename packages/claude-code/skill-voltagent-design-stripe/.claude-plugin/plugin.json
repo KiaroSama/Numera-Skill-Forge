@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed design adapter with original documents: design-md/stripe",
+  "license": "MIT",
+  "name": "skill-voltagent-design-stripe",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "version": "1.0.0"
+}

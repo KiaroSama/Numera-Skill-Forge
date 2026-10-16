@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nvidia/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "d649be85daf075c98a17071e707e3901c6e19150044a81716acd01ef1169cc83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nvidia/skills/voltagent-design-nvidia/DESIGN.md",
+      "path": "design-md/nvidia/DESIGN.md",
+      "size": 35591
+    },
+    {
+      "digest": "df7b390a846fee31f858c3d42566160244da74d97435795f7f38124216bd0709",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nvidia/skills/voltagent-design-nvidia/README.md",
+      "path": "design-md/nvidia/README.md",
+      "size": 209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d2f876d63de0cbcfeefde2711942cce5864571a3b55c3fb789cb4e09ee069212",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/nvidia",
+  "schema_version": 1
+}

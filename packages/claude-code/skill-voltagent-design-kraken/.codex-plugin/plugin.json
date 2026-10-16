@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/kraken",
+  "license": "MIT",
+  "name": "skill-voltagent-design-kraken",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

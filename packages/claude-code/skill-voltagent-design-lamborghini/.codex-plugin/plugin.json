@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/lamborghini",
+  "license": "MIT",
+  "name": "skill-voltagent-design-lamborghini",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

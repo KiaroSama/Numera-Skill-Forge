@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/linear.app",
+  "license": "MIT",
+  "name": "skill-voltagent-design-linear-app",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

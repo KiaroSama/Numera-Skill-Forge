@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-binance/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "378ff97d568ccbc316519b9d45a29d6649ed8961c9c486c3ed4cea7501d72371",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-binance/skills/voltagent-design-binance/DESIGN.md",
+      "path": "design-md/binance/DESIGN.md",
+      "size": 39918
+    },
+    {
+      "digest": "b0ae7e965dd13aa5d03a0b14667e38389f8be6da04166173171b79eb43276668",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-binance/skills/voltagent-design-binance/README.md",
+      "path": "design-md/binance/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e945b1b335462fe825436ae2fbc27e26c926cd0596692ee778983ab6c0ac2f4e",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/binance",
+  "schema_version": 1
+}

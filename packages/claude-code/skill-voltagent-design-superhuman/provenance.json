@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-superhuman/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "3640298bd2957aee80ce88eb465a7541ba835ec105cba364a6a621d885c7f34f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-superhuman/skills/voltagent-design-superhuman/DESIGN.md",
+      "path": "design-md/superhuman/DESIGN.md",
+      "size": 21877
+    },
+    {
+      "digest": "61c1deedea1d8429e5a41b59330e013e77ba365e8d4c4cb844511c7a22f9ee4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-superhuman/skills/voltagent-design-superhuman/README.md",
+      "path": "design-md/superhuman/README.md",
+      "size": 217
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ec0a32106e48bcc2c0dd2452dbac2e2e6ff1309c3ec11c2128f8374afc3b3ddf",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/superhuman",
+  "schema_version": 1
+}

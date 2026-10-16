@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-shopify/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "495e89b8d0a1848ded013c040f7a2ae62077e9d87fc4385350e25dee02ccdb38",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-shopify/skills/voltagent-design-shopify/DESIGN.md",
+      "path": "design-md/shopify/DESIGN.md",
+      "size": 27067
+    },
+    {
+      "digest": "3fbb0382b19c051fc5b0f2f925c29062b512201d7957c81efd02d129a31a3cc0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-shopify/skills/voltagent-design-shopify/README.md",
+      "path": "design-md/shopify/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5bf79bd4b952c80739453c34fb59ebe27beb6c143b7a9230a46a6258c078b3bc",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/shopify",
+  "schema_version": 1
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-linear-app/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "30bd30e72c48a16e4bdbd010f2d1c85fab657c6fae3cc85389399aab10f9cb5f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-linear-app/skills/voltagent-design-linear-app/DESIGN.md",
+      "path": "design-md/linear.app/DESIGN.md",
+      "size": 24354
+    },
+    {
+      "digest": "43fe138442be43a95951d28b5dcbda887057849963931feff6049c6f303e0680",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-linear-app/skills/voltagent-design-linear-app/README.md",
+      "path": "design-md/linear.app/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "40d693bb66c84a75ce15fd8bd5e5859f90dd07c5b2e0673603846e16e0bbc37a",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/linear.app",
+  "schema_version": 1
+}

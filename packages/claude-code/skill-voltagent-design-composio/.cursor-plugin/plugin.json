@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/composio",
+  "license": "MIT",
+  "name": "skill-voltagent-design-composio",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-aljazeera/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "37614fc72658ffa30faca01049bd1efa8a9baafa4750501405eeea66f149466a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-aljazeera/skills/voltagent-design-aljazeera/DESIGN.md",
+      "path": "design-md/aljazeera/DESIGN.md",
+      "size": 28031
+    },
+    {
+      "digest": "a4eb58c12872e110d01dea100b454ed61f0bbe08d503cf9c2a17a4e754f8118b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-aljazeera/skills/voltagent-design-aljazeera/README.md",
+      "path": "design-md/aljazeera/README.md",
+      "size": 216
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "dec92b0e9eef482fc547b27dc4b773ba6d4d6f0d6efb88ce0c366a8cfd4a24fb",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/aljazeera",
+  "schema_version": 1
+}

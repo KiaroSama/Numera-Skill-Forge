@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/x.ai",
+  "license": "MIT",
+  "name": "skill-voltagent-design-x-ai",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

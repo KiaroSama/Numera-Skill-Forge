@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nike/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "d2a3d363665839e2ddc15c91b8a9f3e92b1962ff55a7ca5d964ab3bb88b8186c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nike/skills/voltagent-design-nike/DESIGN.md",
+      "path": "design-md/nike/DESIGN.md",
+      "size": 36697
+    },
+    {
+      "digest": "2c82c4c9c8826f3e5f100f355e392c0b46506b3cb448838f13ddfc74bcdaa874",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-nike/skills/voltagent-design-nike/README.md",
+      "path": "design-md/nike/README.md",
+      "size": 205
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "098e7643062cc806b839357e7c05b54a32e573dc57d1e094fad88bde4d67e822",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/nike",
+  "schema_version": 1
+}

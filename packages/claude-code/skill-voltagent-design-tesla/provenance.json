@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-tesla/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "19f2f7e6073d708f46d2512e6bab3c7c417cf2b4d9f57ff6ec6f2e056ea942b0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-tesla/skills/voltagent-design-tesla/DESIGN.md",
+      "path": "design-md/tesla/DESIGN.md",
+      "size": 22212
+    },
+    {
+      "digest": "837c51fd893ddab020ec06c19e6cc8cd4fd0e10aea593a4d9df3df26db10d71d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-tesla/skills/voltagent-design-tesla/README.md",
+      "path": "design-md/tesla/README.md",
+      "size": 207
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "80b231a7ec8a4aefc304400fd6ea8e0ee72e94418cac34bb903f1edf6f5fbda0",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/tesla",
+  "schema_version": 1
+}

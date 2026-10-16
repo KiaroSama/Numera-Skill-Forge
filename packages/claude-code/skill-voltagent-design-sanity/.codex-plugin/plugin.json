@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/sanity",
+  "license": "MIT",
+  "name": "skill-voltagent-design-sanity",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

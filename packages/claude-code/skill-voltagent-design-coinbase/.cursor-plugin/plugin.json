@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/coinbase",
+  "license": "MIT",
+  "name": "skill-voltagent-design-coinbase",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

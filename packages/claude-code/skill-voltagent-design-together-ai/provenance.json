@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-together-ai/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "aee472c583f55a2f2c7ee1c403a96dddadb3ff6dc518335451f431e313bf43cf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-together-ai/skills/voltagent-design-together-ai/DESIGN.md",
+      "path": "design-md/together.ai/DESIGN.md",
+      "size": 38343
+    },
+    {
+      "digest": "e00791bdd281eeb391a37e9b76bf01f0409ee89cc48393550fbd8f1ac4396ae5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-together-ai/skills/voltagent-design-together-ai/README.md",
+      "path": "design-md/together.ai/README.md",
+      "size": 219
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7fef234a8cdfbbfdb60476c3c78ffa402af57c0e3ef29ca87643357684f88218",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/together.ai",
+  "schema_version": 1
+}

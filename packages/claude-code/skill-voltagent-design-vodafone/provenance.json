@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vodafone/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "293a40951e654283978fa744b24177a159d8f2a60f402bc735bf081618af0ef6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vodafone/skills/voltagent-design-vodafone/DESIGN.md",
+      "path": "design-md/vodafone/DESIGN.md",
+      "size": 28106
+    },
+    {
+      "digest": "e2e2750295b7a1698fe070275c004311334dfe99c5f44a63041675113819ca9c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vodafone/skills/voltagent-design-vodafone/README.md",
+      "path": "design-md/vodafone/README.md",
+      "size": 213
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "c61fbf0fda27dcfdeda2ad14a5cc83c7efbc80e7b69f24a7575306380d38fbe3",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/vodafone",
+  "schema_version": 1
+}

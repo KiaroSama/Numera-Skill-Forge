@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/tesla",
+  "license": "MIT",
+  "name": "skill-voltagent-design-tesla",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

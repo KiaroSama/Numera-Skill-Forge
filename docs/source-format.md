@@ -135,3 +135,14 @@ bytes; optional `source_digest` identifies the original entry. Absent fields are
 accepted entries unchanged. Changed original entry/hash/name or withdrawn approval requires review;
 verification checks the literal transformation, source notice and ownership. Four approved adaptations
 currently use this path; no global rename or runtime permission is implied.
+
+## Reviewed design-document adapters
+
+After explicit conversion approval, a skill registration may contain `reviewed_design` with `name`,
+`source_digest` (SHA-256 of the complete original DESIGN.md), and `adapter_version: 1`. The name is
+lowercase ASCII kebab-case, 1–64 characters. It cannot be combined with `reviewed_name` or replace an
+existing upstream SKILL.md. Forge generates a clearly attributed instruction entry beside unchanged
+original documents. Accepted source-file records contain only real upstream files; the generated entry
+is separately owned and the exact approval is retained in accepted metadata. Changed source hashes,
+withdrawn/changed approval, unsupported adapter versions or edited outputs refuse without replacing
+last-known-good packages. This is opt-in conversion, never automatic discovery or brand-rights approval.

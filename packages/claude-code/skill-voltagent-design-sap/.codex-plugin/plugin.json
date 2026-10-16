@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/sap",
+  "license": "MIT",
+  "name": "skill-voltagent-design-sap",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

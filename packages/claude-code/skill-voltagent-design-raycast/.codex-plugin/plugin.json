@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/raycast",
+  "license": "MIT",
+  "name": "skill-voltagent-design-raycast",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

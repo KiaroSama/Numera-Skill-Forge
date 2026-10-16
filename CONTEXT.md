@@ -46,3 +46,6 @@ _Avoid_: Source snapshot
 
 **Execution evidence**: A prospective record of one bounded job's identities, attempted commands, outcome and verified cleanup.
 _Avoid_: Historical admission, universal hermeticity
+
+**Reviewed design adapter**: An explicitly approved generated skill entry referring to unchanged original design documents, with separately identified authorship and source identity.
+_Avoid_: Original upstream skill, brand license

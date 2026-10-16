@@ -13,6 +13,7 @@ use std::{
 mod acquire;
 mod adaptation;
 mod delivery;
+pub(crate) mod design;
 pub(crate) mod model;
 mod policy;
 pub use delivery::build;
@@ -116,12 +117,17 @@ fn files(
     payload: &BTreeMap<String, Vec<u8>>,
 ) -> Result<Vec<File>> {
     let entry = format!("{}/SKILL.md", skill.root);
-    let emitted = adaptation::entry(
-        skill,
-        payload
-            .get(&entry)
-            .ok_or_else(|| Error::new("skill-entrypoint", "Selected root has no SKILL.md"))?,
-    )?;
+    let emitted = if let Some(approval) = &skill.reviewed_design {
+        design::source(skill, payload)?;
+        design::entry(approval)
+    } else {
+        adaptation::entry(
+            skill,
+            payload
+                .get(&entry)
+                .ok_or_else(|| Error::new("skill-entrypoint", "Selected root has no SKILL.md"))?,
+        )?
+    };
     let text = std::str::from_utf8(&emitted)
         .map_err(|_| Error::new("encoding", "SKILL.md is not UTF-8"))?;
     let front = text
@@ -182,10 +188,20 @@ fn package(
             adaptation::payload(skill, &file.path, &payload[&file.path])?,
         );
     }
-    outputs.extend(adaptation::outputs(
-        skill,
-        &payload[&format!("{}/SKILL.md", skill.root)],
-    )?);
+    if let Some(approval) = &skill.reviewed_design {
+        outputs.insert(
+            format!(
+                "packages/claude-code/{}/skills/{}/SKILL.md",
+                skill.id, approval.name
+            ),
+            design::entry(approval),
+        );
+    } else {
+        outputs.extend(adaptation::outputs(
+            skill,
+            &payload[&format!("{}/SKILL.md", skill.root)],
+        )?);
+    }
     let prefix = format!("packages/claude-code/{}", skill.id);
     for (index, notice) in skill.notices.iter().enumerate() {
         let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
@@ -221,6 +237,7 @@ fn package(
             files,
             generated,
             delivery: BTreeMap::new(),
+            reviewed_design: skill.reviewed_design.clone(),
         },
         outputs,
     ))
@@ -346,7 +363,7 @@ fn promote(
 pub use sync::execute as sync;
 
 fn catalog_values(state: &Lock) -> Vec<(String, Value)> {
-    let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":format!("Original upstream skill: {}",a.root)})).collect::<Vec<_>>();
+    let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":if a.reviewed_design.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})).collect::<Vec<_>>();
     vec![
         (
             MARKETPLACE.into(),
@@ -509,6 +526,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
             }
         }
         adaptation::verify(root, skill, accepted)?;
+        design::verify(root, skill, accepted)?;
         for file in &accepted.files {
             if policy::protected(&file.path)
                 && skill.reviewed_templates.get(&file.path) != Some(&file.digest)

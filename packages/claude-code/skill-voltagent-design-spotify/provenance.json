@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-spotify/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "72e964a6cf551d0603f9854f2f42ee08e97ad4d9e17e037f50f6233508288295",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-spotify/skills/voltagent-design-spotify/DESIGN.md",
+      "path": "design-md/spotify/DESIGN.md",
+      "size": 12955
+    },
+    {
+      "digest": "f979ce594d38626ffdd88f9b632acb24f648599b755b720bc3fd33c8df50a1a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-spotify/skills/voltagent-design-spotify/README.md",
+      "path": "design-md/spotify/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "77ae4c5dd3682692f02a0c0d1e8bd7bae7fe68ab8cd2b11a0666f0d34b40317f",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/spotify",
+  "schema_version": 1
+}

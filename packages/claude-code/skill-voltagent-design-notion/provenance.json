@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-notion/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "fa9d6e78216d8f3e5d3990709ca2de6bc2e268e945bb94f255fd1bfb15455266",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-notion/skills/voltagent-design-notion/DESIGN.md",
+      "path": "design-md/notion/DESIGN.md",
+      "size": 35176
+    },
+    {
+      "digest": "e01d55b42e5273272ab79e8fee4a446fed0e89d021a05081e04413523d505568",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-notion/skills/voltagent-design-notion/README.md",
+      "path": "design-md/notion/README.md",
+      "size": 209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e34180bc6890cf64c176e28740c5d01e71f9ee2ca5aa716a29acc8b02930c5e8",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/notion",
+  "schema_version": 1
+}

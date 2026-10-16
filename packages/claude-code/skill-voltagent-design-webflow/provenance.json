@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-webflow/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "9230c7b3951371fc2edc04958962e32bb7ec9a9b703aa6b72eaf5c7991b7c984",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-webflow/skills/voltagent-design-webflow/DESIGN.md",
+      "path": "design-md/webflow/DESIGN.md",
+      "size": 28179
+    },
+    {
+      "digest": "d308ae50f5e4bb824090f0f2fbe77f5a70c1bcbff57f9e32a308cfd346df913f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-webflow/skills/voltagent-design-webflow/README.md",
+      "path": "design-md/webflow/README.md",
+      "size": 211
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b69ce92e1113bb36701e19ec03e848dfdba530b65013723ef5190ac20e32d3d3",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/webflow",
+  "schema_version": 1
+}

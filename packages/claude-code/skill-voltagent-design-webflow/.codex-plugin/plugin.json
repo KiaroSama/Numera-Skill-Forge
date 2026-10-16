@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/webflow",
+  "license": "MIT",
+  "name": "skill-voltagent-design-webflow",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

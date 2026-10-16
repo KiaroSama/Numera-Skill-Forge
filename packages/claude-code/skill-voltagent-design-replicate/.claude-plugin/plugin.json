@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed design adapter with original documents: design-md/replicate",
+  "license": "MIT",
+  "name": "skill-voltagent-design-replicate",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "version": "1.0.0"
+}

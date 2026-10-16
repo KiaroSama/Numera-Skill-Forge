@@ -1,0 +1,33 @@
+{
+  "collection": "voltagent-design",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vercel/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "digest": "d0951b93c2b4ce9840c715c9f9b3e58a386c6c58ae5cc0f804dec3b116b95bd8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vercel/skills/voltagent-design-vercel/DESIGN.md",
+      "path": "design-md/vercel/DESIGN.md",
+      "size": 41405
+    },
+    {
+      "digest": "c192b23d127809b7bca14ed90840fa4c7f306aa6440a67d0751c87d5df6b5cae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-voltagent-design-vercel/skills/voltagent-design-vercel/README.md",
+      "path": "design-md/vercel/README.md",
+      "size": 209
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "50d87d91283de77dccd06a2c478a699a4f4ecda65c10ba8f434e0be6dd4bf891",
+  "repository": "https://github.com/VoltAgent/awesome-design-md",
+  "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
+  "root": "design-md/vercel",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed design adapter with original documents: design-md/uber",
+  "license": "MIT",
+  "name": "skill-voltagent-design-uber",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}
