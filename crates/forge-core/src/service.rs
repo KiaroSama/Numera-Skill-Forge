@@ -182,6 +182,26 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
             request["apply"].as_bool().unwrap_or(false),
             request["offline"].as_bool().unwrap_or(false),
         ),
+        "collection-design-list" => crate::collections::design_list(
+            root,
+            field(&request, "collection")?,
+            request["offline"].as_bool().unwrap_or(false),
+        ),
+        "collection-design-review" => crate::collections::design_review(
+            root,
+            field(&request, "collection")?,
+            field(&request, "root")?,
+            request["revision"].as_str(),
+            request["offline"].as_bool().unwrap_or(false),
+        ),
+        "collection-design-accept" => crate::collections::design_accept(
+            root,
+            field(&request, "collection")?,
+            field(&request, "root")?,
+            field(&request, "revision")?,
+            field(&request, "digest")?,
+            request["offline"].as_bool().unwrap_or(false),
+        ),
         "collection-verify" => crate::collections::verify(root),
         "sync" => sync::sync(
             root,

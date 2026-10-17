@@ -194,6 +194,23 @@ enum Sources {
 }
 #[derive(Subcommand)]
 enum Collections {
+    DesignList {
+        collection: String,
+    },
+    DesignReview {
+        collection: String,
+        root: String,
+        #[arg(long)]
+        revision: Option<String>,
+    },
+    DesignAccept {
+        collection: String,
+        root: String,
+        #[arg(long)]
+        revision: String,
+        #[arg(long)]
+        digest: String,
+    },
     Sync {
         #[arg(long)]
         apply: bool,
@@ -265,6 +282,24 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
             json!({"action":"approve","source":source,"digest":digest,"allow_executable":allow_executable})
         }
         Commands::Collection { command } => match command {
+            Collections::DesignList { collection } => {
+                json!({"action":"collection-design-list","collection":collection,"offline":cli.offline})
+            }
+            Collections::DesignReview {
+                collection,
+                root,
+                revision,
+            } => {
+                json!({"action":"collection-design-review","collection":collection,"root":root,"revision":revision,"offline":cli.offline})
+            }
+            Collections::DesignAccept {
+                collection,
+                root,
+                revision,
+                digest,
+            } => {
+                json!({"action":"collection-design-accept","collection":collection,"root":root,"revision":revision,"digest":digest,"offline":cli.offline})
+            }
             Collections::Sync { apply } => {
                 json!({"action":"collection-sync","apply":apply,"offline":cli.offline})
             }

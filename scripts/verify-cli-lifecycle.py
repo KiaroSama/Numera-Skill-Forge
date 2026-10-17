@@ -212,6 +212,27 @@ def updates(fixture, owner, cli, record):
     cli(workspace, "uninstall", receipt["id"])
     assert not (installed / "SKILL.md").exists()
     record["checks"].extend(["actual-git-safe-update", "installed-update", "script-review-retention", "offline-repeat"])
+    design = upstream / "design-md/sample/DESIGN.md"
+    design.parent.mkdir(parents=True)
+    design.write_text("# Original design\nReadable spacing.\n", encoding="utf-8")
+    git("add", "."); git("commit", "-m", "design")
+    design_workspace = fixture / "design workspace"
+    design_workspace.mkdir()
+    write(design_workspace / "registry/collections.json", {"schema_version": 1, "collections": [{"id": "design", "repository": "local:" + str(upstream), "branch": "main", "reviewed_revision": git("rev-parse", "HEAD"), "skills": [{"id": "skill-design-sample", "root": "design-md/sample", "license": "MIT", "license_path": "LICENSE", "license_digest": digest(license), "reviewed_design": {"name": "design-sample", "source_digest": digest(design), "adapter_version": 1}}]}]})
+    assert cli(design_workspace, "collection", "sync", "--apply")["status"] == "success"
+    inventory = cli(design_workspace, "collection", "design-list", "design")
+    assert inventory["designs"][0]["status"] == "registered"
+    design.write_text("# Updated design\nAccessible contrast.\n", encoding="utf-8")
+    git("add", "."); git("commit", "-m", "design update")
+    review = cli(design_workspace, "collection", "design-review", "design", "design-md/sample")
+    assert review["status"] == "review-required" and "Accessible contrast" in review["diff"]
+    cli(design_workspace, "collection", "design-accept", "design", "design-md/sample", "--revision", review["revision"], "--digest", "0" * 64, error="approval-stale")
+    args = ("collection", "design-accept", "design", "design-md/sample", "--revision", review["revision"], "--digest", review["digest"])
+    assert cli(design_workspace, *args)["version"] == "1.0.1"
+    assert cli(design_workspace, *args)["status"] == "unchanged"
+    cli(design_workspace, "collection", "verify")
+    assert (design_workspace / "packages/claude-code/skill-design-sample/skills/design-sample/DESIGN.md").read_bytes() == design.read_bytes()
+    record["checks"].append("actual-design-review-accept-repeat")
 
 
 def main():

@@ -162,6 +162,9 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     if prior.content_digest == digest {
                         return Ok("unchanged");
                     }
+                    if skill.reviewed_design.is_some() {
+                        return Ok("review-required");
+                    }
                     repository.ensure_revision(&prior.revision, offline)?;
                     let old_blobs = selection(&repository.tree(&prior.revision)?, skill)?;
                     let old_payload = repository.blobs(&old_blobs)?;
@@ -227,8 +230,13 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                         return Err(e);
                     }
                     partial = true;
-                    crate::jobs::progress("collection", &skill.id, None, "failed")?;
-                    statuses.push(json!({"collection":collection.id,"skill":skill.id,"status":"failed","code":e.code,"message":e.message}));
+                    let status = if skill.reviewed_design.is_some() && e.code == "design-review" {
+                        "review-required"
+                    } else {
+                        "failed"
+                    };
+                    crate::jobs::progress("collection", &skill.id, None, status)?;
+                    statuses.push(json!({"collection":collection.id,"skill":skill.id,"status":status,"code":e.code,"message":e.message}));
                 }
             }
         }

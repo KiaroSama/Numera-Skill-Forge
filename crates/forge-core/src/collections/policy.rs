@@ -131,7 +131,11 @@ pub fn verify_license(
             .ok_or_else(|| Error::new("license-review", "Missing reviewed license file"))?
     };
     for notice in &skill.notices {
-        let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
+        let bytes = if let Some(bytes) = payload.get(&notice.path) {
+            bytes.clone()
+        } else {
+            storage::bytes(&validation::contained(root, &notice.path)?)?
+        };
         if storage::digest(&bytes) != notice.digest {
             return Err(Error::new(
                 "license-review",

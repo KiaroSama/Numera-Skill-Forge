@@ -140,7 +140,8 @@ skills or permission to copy brands, proprietary fonts or assets. For example:
 claude plugin install skill-voltagent-design-voltagent@numera-skill-forge
 ```
 
-See [source details and limits](docs/source-licenses.md#vercel-original-skills-and-voltagent-references).
+See [source details and limits](docs/source-licenses.md#vercel-original-skills-and-voltagent-references)
+and the [explicit design review, acceptance and update workflow](docs/design-updates.md).
 
 ## Other hosts: native catalogs and standalone skills
 

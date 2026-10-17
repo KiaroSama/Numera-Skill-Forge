@@ -14,6 +14,10 @@ mod acquire;
 mod adaptation;
 mod delivery;
 pub(crate) mod design;
+mod design_accept;
+mod design_review;
+pub use design_accept::accept as design_accept;
+pub use design_review::{list as design_list, review as design_review};
 pub(crate) mod model;
 mod policy;
 pub use delivery::build;
@@ -204,7 +208,11 @@ fn package(
     }
     let prefix = format!("packages/claude-code/{}", skill.id);
     for (index, notice) in skill.notices.iter().enumerate() {
-        let bytes = storage::bytes(&validation::contained(root, &notice.path)?)?;
+        let bytes = if let Some(bytes) = payload.get(&notice.path) {
+            bytes.clone()
+        } else {
+            storage::bytes(&validation::contained(root, &notice.path)?)?
+        };
         if storage::digest(&bytes) != notice.digest {
             return Err(Error::new(
                 "license-review",

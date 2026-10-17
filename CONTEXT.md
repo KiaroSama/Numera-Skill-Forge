@@ -49,3 +49,6 @@ _Avoid_: Historical admission, universal hermeticity
 
 **Reviewed design adapter**: An explicitly approved generated skill entry referring to unchanged original design documents, with separately identified authorship and source identity.
 _Avoid_: Original upstream skill, brand license
+
+**Design candidate**: One immutable proposed design snapshot and its original-content differences, bound to prior accepted state for explicit review and acceptance.
+_Avoid_: Automatic update, accepted revision
