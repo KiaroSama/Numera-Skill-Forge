@@ -103,7 +103,7 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **1107 packages**. The [latest 69 additions](docs/missing-skill-imports.md) include approved
+contains **1110 packages**. The [latest 72 additions](docs/missing-skill-imports.md) include approved
 name-only adaptations, complete original-source packages and transparent guide adapters. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse

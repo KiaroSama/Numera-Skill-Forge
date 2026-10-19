@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/observability-monitoring/skills/grafana-dashboards",
+  "license": "MIT",
+  "name": "skill-development-grafana-dashboards",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

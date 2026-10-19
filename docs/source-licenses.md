@@ -33,12 +33,14 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **803 davila packages**, plus304 packages from the other ten
-registered sources, for **1107 total** and **8446 payload/notice records**. The previous1038 accepted
-identities are unchanged; the latest69 additions contribute253 records. Forty-one expressly approved
+The current collection contains **803 davila packages**, plus307 packages from the other ten
+registered sources, for **1110 total** and **8453 payload/notice records**. The previous1038 accepted
+identities are unchanged; the latest72 additions contribute260 records. Forty-one expressly approved
 name-only adaptations retain their exact original entries separately; all bodies and companions remain
 unchanged. Nineteen generated guide entries reference unchanged original author documents;
-twelve complete native originals replace no existing package. See
+fifteen complete native originals replace no existing package. The latest three restored wshobson
+roots use revision0874a27, retain four original skill files and three unchanged Seth Hobson MIT
+notices, and leave all1107 preceding accepted records unchanged. See
 [missing-skill additions and remaining blockers](missing-skill-imports.md). Original legal notices and
 adaptation provenance are separately owned package files, not extra source-root counts.
 

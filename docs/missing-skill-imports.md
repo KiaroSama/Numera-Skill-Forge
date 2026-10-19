@@ -1,7 +1,7 @@
 # Missing skill imports
 
-The latest import adds **69 independently selectable packages**, bringing the accepted inventory
-to **1107 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
+The import adds **72 independently selectable packages**, bringing the accepted inventory
+to **1110 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
 records** remain unchanged. Importing instructions never executes scripts, installs hooks or
 activates external services.
 
@@ -37,6 +37,15 @@ agent, inherit its model/tools or claim it was an upstream-native skill. Exact p
 approval is required; source drift or withdrawal refuses. Sibling agents are not bundled.
 The incomplete intermediary copies are not presented as exact originals.
 
+Three more complete native originals are restored from author revision
+[`0874a27`](https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06):
+`grafana-dashboards`, `prometheus-configuration` and `github-actions-templates`. The author removed
+phantom resource requirements; Prometheus now includes its required `references/details.md`.
+All four original skill files and three copies of the unchanged MIT license are preserved. No
+missing historical asset was fabricated, no source instruction was locally edited, and all1107
+previous accepted records remain unchanged. The collection now contains25 packages:6native skills
+and19guide adapters, each retaining its own accepted revision.
+
 The19 guide names are `ml-engineer`, `database-optimizer`, `c-pro`, `cloud-architect`, `csharp-pro`,
 `django-pro`, `elixir-pro`, `fastapi-pro`, `flutter-expert`, `graphql-architect`, `haskell-pro`,
 `incident-responder`, `java-pro`, `monorepo-architect`, `php-pro`, `ruby-pro`, `scala-pro`,
@@ -68,16 +77,16 @@ authorized use only; inclusion is not permission to test a target.
 
 ## What remains outside
 
-Of the previously identified **153 missing canonical roots**, **69 now have packages** and **84
-remain unbundled**:80 Templates roots plus four scientific Office roots. The [current per-root table](canonical-root-outcomes.md) accounts for every one of the153 roots.
+Of the previously identified **153 missing canonical roots**, **72 now have packages** and **81
+remain unbundled**:77 Templates roots plus four scientific Office roots. The [current per-root table](canonical-root-outcomes.md) accounts for every one of the153 roots.
 The historical [hold table](remaining-skill-disposition.md#held-roots-and-exact-next-condition)
-is superseded for these69 resolved rows.
+is superseded for these72 resolved rows.
 
 - Scientific `docx`, `pdf`, `pptx` and `xlsx` contain specific proprietary terms restricting copying
   and redistribution. A permissive fork-root label does not replace those scoped terms.
-- Twenty-five intermediary entries require a nonexistent playbook.22 are resolved through approved
-  complete originals/guides. The Grafana, Prometheus and GitHub Actions original roots have their own
-  missing assets/references and remain held. Playwright Java and NoWait missing references also remain.
+- All25 intermediary playbook cases are resolved through complete author originals/guides, including
+  the author's repaired Grafana, Prometheus and GitHub Actions roots. Playwright Java and NoWait still
+  reference unavailable paths in their selected layouts; neither was silently relocated.
 - Other original-rights, name-and-origin, mixed-notice and modification-compliance holds need their
   specific evidence or reviewed repair. Technical approval is not a license grant. Native DoorDash
   enforcement needs components beyond a standalone skill.

@@ -5485,6 +5485,11 @@
       "source": "packages/claude-code/skill-development-flutter-expert"
     },
     {
+      "description": "Original upstream skill: plugins/observability-monitoring/skills/grafana-dashboards",
+      "name": "skill-development-grafana-dashboards",
+      "source": "packages/claude-code/skill-development-grafana-dashboards"
+    },
+    {
       "description": "Reviewed original guide adapter: plugins/api-scaffolding/agents",
       "name": "skill-development-graphql-architect",
       "source": "packages/claude-code/skill-development-graphql-architect"
@@ -5515,6 +5520,11 @@
       "source": "packages/claude-code/skill-development-php-pro"
     },
     {
+      "description": "Original upstream skill: plugins/observability-monitoring/skills/prometheus-configuration",
+      "name": "skill-development-prometheus-configuration",
+      "source": "packages/claude-code/skill-development-prometheus-configuration"
+    },
+    {
       "description": "Reviewed original guide adapter: plugins/web-scripting/agents",
       "name": "skill-development-ruby-pro",
       "source": "packages/claude-code/skill-development-ruby-pro"
@@ -5538,6 +5548,11 @@
       "description": "Original upstream skill: plugins/frontend-mobile-development/skills/react-state-management",
       "name": "skill-web-development-react-state-management",
       "source": "packages/claude-code/skill-web-development-react-state-management"
+    },
+    {
+      "description": "Original upstream skill: plugins/cicd-automation/skills/github-actions-templates",
+      "name": "skill-workflow-automation-github-actions-templates",
+      "source": "packages/claude-code/skill-workflow-automation-github-actions-templates"
     }
   ]
 }

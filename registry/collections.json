@@ -21325,7 +21325,7 @@
       "id": "wshobson-guides",
       "repository": "https://github.com/wshobson/agents",
       "branch": "main",
-      "reviewed_revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "reviewed_revision": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
       "skills": [
         {
           "id": "skill-ai-research-llm-evaluation",
@@ -21638,6 +21638,33 @@
           "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
           "notices": [],
           "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/web-development/react-state-management. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/frontend-mobile-development/skills/react-state-management/SKILL.md. Original body and license preserved; no invented implementation playbook. "
+        },
+        {
+          "id": "skill-development-grafana-dashboards",
+          "root": "plugins/observability-monitoring/skills/grafana-dashboards",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary cli-tool/components/skills/development/grafana-dashboards. Exact original source https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/observability-monitoring/skills/grafana-dashboards. Author repaired phantom companion references; current complete original instructions, companions and MIT notice preserved without local edits. Historical intermediary entry is not represented as byte-equivalent. No upstream script, workflow or service executed."
+        },
+        {
+          "id": "skill-development-prometheus-configuration",
+          "root": "plugins/observability-monitoring/skills/prometheus-configuration",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary cli-tool/components/skills/development/prometheus-configuration. Exact original source https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/observability-monitoring/skills/prometheus-configuration. Author repaired phantom companion references; current complete original instructions, companions and MIT notice preserved without local edits. Historical intermediary entry is not represented as byte-equivalent. No upstream script, workflow or service executed."
+        },
+        {
+          "id": "skill-workflow-automation-github-actions-templates",
+          "root": "plugins/cicd-automation/skills/github-actions-templates",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary cli-tool/components/skills/workflow-automation/github-actions-templates. Exact original source https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/cicd-automation/skills/github-actions-templates. Author repaired phantom companion references; current complete original instructions, companions and MIT notice preserved without local edits. Historical intermediary entry is not represented as byte-equivalent. No upstream script, workflow or service executed."
         }
       ]
     }

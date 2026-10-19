@@ -25,6 +25,9 @@ SELECTED = [
     ("openai-skills", "skill-productivity-notion-knowledge-capture", "claude-code", ".claude/skills"),
     ("wshobson-guides", "skill-development-c-pro", "claude-code", ".claude/skills"),
     ("davila7-templates", "skill-creative-design-ui-ux-pro-max", "claude-code", ".claude/skills"),
+    ("wshobson-guides", "skill-development-grafana-dashboards", "claude-code", ".claude/skills"),
+    ("wshobson-guides", "skill-development-prometheus-configuration", "claude-code", ".claude/skills"),
+    ("wshobson-guides", "skill-workflow-automation-github-actions-templates", "claude-code", ".claude/skills"),
 ]
 
 

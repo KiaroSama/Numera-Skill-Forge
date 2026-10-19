@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/observability-monitoring/skills/grafana-dashboards",
+  "license": "MIT",
+  "name": "skill-development-grafana-dashboards",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

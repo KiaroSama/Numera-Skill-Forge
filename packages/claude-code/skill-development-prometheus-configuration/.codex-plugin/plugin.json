@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/observability-monitoring/skills/prometheus-configuration",
+  "license": "MIT",
+  "name": "skill-development-prometheus-configuration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

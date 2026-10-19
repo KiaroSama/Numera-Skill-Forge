@@ -1,0 +1,33 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-prometheus-configuration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "e28770f8645d98ce351e6de07535af743a126cd61fc7576485175f9f49e0d9a9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-prometheus-configuration/skills/prometheus-configuration/SKILL.md",
+      "path": "plugins/observability-monitoring/skills/prometheus-configuration/SKILL.md",
+      "size": 1795
+    },
+    {
+      "digest": "5c2f5e07012c033a0b8eb58f728287f1ff0230bc1f32bc3b199e54387eecd32c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-prometheus-configuration/skills/prometheus-configuration/references/details.md",
+      "path": "plugins/observability-monitoring/skills/prometheus-configuration/references/details.md",
+      "size": 8315
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "727be1f64e778c318a9603a56c297705a2d2eb8f42ed11b005db6769c92b40a3",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+  "root": "plugins/observability-monitoring/skills/prometheus-configuration",
+  "schema_version": 1
+}

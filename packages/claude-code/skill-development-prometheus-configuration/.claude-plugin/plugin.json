@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/observability-monitoring/skills/prometheus-configuration",
+  "license": "MIT",
+  "name": "skill-development-prometheus-configuration",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

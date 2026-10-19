@@ -1,9 +1,9 @@
 # Completion of the remaining skill review
 
-**2026-10-19 update:** [69 additional packages](missing-skill-imports.md) resolve37name holds,
-9missing-companion roots,22original-guide cases and one exact CRLF root. Accepted inventory is1107; the original1038
+**2026-10-19 update:** [72 additional packages](missing-skill-imports.md) resolve37name holds,
+9missing-companion roots,25original-guide cases and one exact CRLF root. Accepted inventory is1110; the original1038
 records remain unchanged. The historical counts/table below predate this update; resolved rows are
-superseded by the linked additions.80Templates roots and4scientific Office roots remain unbundled.
+superseded by the linked additions.77Templates roots and4scientific Office roots remain unbundled.
 The [current canonical-root outcome table](canonical-root-outcomes.md) lists all153 affected roots.
 
 The 299 previously held roots were checked against immutable originals, complete selected payloads,

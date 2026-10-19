@@ -8769,6 +8769,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-grafana-dashboards",
+      "license": "MIT",
+      "revision": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "root": "plugins/observability-monitoring/skills/grafana-dashboards",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-graphql-architect",
       "license": "MIT",
       "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
@@ -8817,6 +8825,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-prometheus-configuration",
+      "license": "MIT",
+      "revision": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "root": "plugins/observability-monitoring/skills/prometheus-configuration",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-ruby-pro",
       "license": "MIT",
       "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
@@ -8853,6 +8869,14 @@
       "license": "MIT",
       "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
       "root": "plugins/frontend-mobile-development/skills/react-state-management",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-github-actions-templates",
+      "license": "MIT",
+      "revision": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "root": "plugins/cicd-automation/skills/github-actions-templates",
       "source": "wshobson-guides",
       "version": "1.0.0"
     }

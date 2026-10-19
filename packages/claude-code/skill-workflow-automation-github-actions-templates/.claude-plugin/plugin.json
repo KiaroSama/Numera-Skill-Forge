@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/cicd-automation/skills/github-actions-templates",
+  "license": "MIT",
+  "name": "skill-workflow-automation-github-actions-templates",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}
