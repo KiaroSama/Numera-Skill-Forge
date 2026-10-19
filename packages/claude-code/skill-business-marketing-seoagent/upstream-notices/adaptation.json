@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "seoagent",
+    "source_digest": "b234149cba0173cca56205389e72bc6ef123d795f5aa9fc1734dfcca1b162d00",
+    "source_name": "SEOAgent"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "07b3f89eaae1eb6bd749a56b23c94145197e026a9ebedad193ab0dfaff716495",
+  "schema_version": 1
+}

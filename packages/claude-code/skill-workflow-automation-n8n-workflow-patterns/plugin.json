@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/n8n-workflow-patterns",
+  "license": "MIT",
+  "name": "skill-workflow-automation-n8n-workflow-patterns",
+  "version": "1.0.0"
+}

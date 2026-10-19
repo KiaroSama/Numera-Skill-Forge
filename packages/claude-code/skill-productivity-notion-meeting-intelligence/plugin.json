@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/.curated/notion-meeting-intelligence",
+  "license": "MIT",
+  "name": "skill-productivity-notion-meeting-intelligence",
+  "version": "1.0.0"
+}

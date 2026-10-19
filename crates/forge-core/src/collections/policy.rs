@@ -5,6 +5,7 @@ use std::collections::BTreeMap;
 pub fn validate_skill(skill: &Skill) -> Result<()> {
     validation::identifier(&skill.id)?;
     super::design::validate(skill)?;
+    super::guide::validate(skill)?;
     validation::relative_path(&skill.root)?;
     if let Some(approval) = &skill.reviewed_name {
         super::adaptation::validate(approval)?;
@@ -186,14 +187,9 @@ fn prompt(bytes: &[u8]) -> Option<&str> {
     Some(text)
 }
 fn frontmatter(text: &str) -> &str {
-    if let Some(rest) = text.strip_prefix("---\n") {
-        rest.split_once("\n---")
-            .map(|(front, _)| front)
-            .unwrap_or(text)
-    } else {
-        ""
-    }
+    validation::frontmatter(text).unwrap_or_else(|| if text.starts_with("---") { text } else { "" })
 }
+
 pub fn safe_update(
     previous: &Accepted,
     files: &[File],

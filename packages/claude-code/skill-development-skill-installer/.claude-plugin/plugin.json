@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/.system/skill-installer",
+  "license": "Apache-2.0",
+  "name": "skill-development-skill-installer",
+  "repository": "https://github.com/openai/skills",
+  "version": "1.0.0"
+}

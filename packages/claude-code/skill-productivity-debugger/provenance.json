@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-debugger/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "eb40e4f488b8135382acadcd8d102795b7da4fb0c720d64dc4b96a75a71fd346",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-debugger/skills/debugger/debugger.md",
+      "path": "plugins/debugging-toolkit/agents/debugger.md",
+      "size": 784
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "949af0c9c9fc067bfa42162df0d8e1aff6b51922f5b4230ecfd05e80062b3cb9",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/debugging-toolkit/agents",
+  "schema_version": 1
+}

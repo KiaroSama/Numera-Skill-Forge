@@ -1,0 +1,40 @@
+{
+  "collection": "microsoft-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "aa16058dbb9687f7050964b569c656254ecea0b325ea28e3b1fe9751737ebce9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-zustand-store-ts/skills/zustand-store-ts/SKILL.md",
+      "path": ".github/skills/zustand-store-ts/SKILL.md",
+      "size": 1699
+    },
+    {
+      "digest": "532f21cb1ed04b6abfef86586670ea6037370869a5c460b45408b03c151ad6d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-zustand-store-ts/skills/zustand-store-ts/assets/template.ts",
+      "path": ".github/skills/zustand-store-ts/assets/template.ts",
+      "size": 3335
+    },
+    {
+      "digest": "9d48d603908ae8291d989e7993dfab162c2c536fd15ab2b8642c83d957aad2d0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-zustand-store-ts/skills/zustand-store-ts/references/acceptance-criteria.md",
+      "path": ".github/skills/zustand-store-ts/references/acceptance-criteria.md",
+      "size": 8879
+    },
+    {
+      "digest": "d9a1b1e30d633d5732ea18e3cba9538d293ebc53e1a9e4e96ab739e0c5c4f1cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-zustand-store-ts/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1140
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4bd82e9c6dab6d99643ff26ec01454c39dc56c3563b62ad148e2eba55c4c28d4",
+  "repository": "https://github.com/microsoft/skills",
+  "revision": "2f9d135614ca76198a2fb715052c7c23b2eead5b",
+  "root": ".github/skills/zustand-store-ts",
+  "schema_version": 1
+}

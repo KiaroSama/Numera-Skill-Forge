@@ -136,6 +136,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 let digest = storage::digest(&storage::encoded(&candidate_files)?);
                 if let Some(prior) = &prior {
                     design::verify(root, skill, prior)?;
+                    guide::verify(root, skill, prior)?;
                     check_owned(root, state.entries.get(&key).unwrap_or(prior))?;
                     adaptation::verify(root, skill, prior)?;
                     if !skill.notices.is_empty() {
@@ -162,7 +163,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                     if prior.content_digest == digest {
                         return Ok("unchanged");
                     }
-                    if skill.reviewed_design.is_some() {
+                    if skill.reviewed_design.is_some() || skill.reviewed_guide.is_some() {
                         return Ok("review-required");
                     }
                     repository.ensure_revision(&prior.revision, offline)?;
@@ -230,7 +231,9 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                         return Err(e);
                     }
                     partial = true;
-                    let status = if skill.reviewed_design.is_some() && e.code == "design-review" {
+                    let status = if (skill.reviewed_design.is_some() && e.code == "design-review")
+                        || (skill.reviewed_guide.is_some() && e.code == "guide-review")
+                    {
                         "review-required"
                     } else {
                         "failed"

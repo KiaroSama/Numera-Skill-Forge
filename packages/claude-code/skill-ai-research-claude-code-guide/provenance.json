@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-claude-code-guide/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "51299f10a96b01e6f46cbce10454db6ede6b8079c75da83870093762fc4a77a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-claude-code-guide/skills/claude-code-guide/SKILL.md",
+      "path": "cli-tool/components/skills/ai-research/claude-code-guide/SKILL.md",
+      "size": 2137,
+      "source_digest": "94144e941761fa3fc7c849185d22ea472bd57b35dc94a97ad0aebbdbf8af5eed"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3e28336b4c8a64b827dd37013696ef80ebe908f745f3f9c8e76c9686526f0c91",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/ai-research/claude-code-guide",
+  "schema_version": 1
+}

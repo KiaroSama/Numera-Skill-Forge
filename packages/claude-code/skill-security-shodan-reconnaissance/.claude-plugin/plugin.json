@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/shodan-reconnaissance",
+  "license": "MIT",
+  "name": "skill-security-shodan-reconnaissance",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

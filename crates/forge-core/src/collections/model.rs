@@ -33,11 +33,21 @@ pub struct Skill {
     pub reviewed_name: Option<ReviewedName>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub reviewed_design: Option<ReviewedDesign>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_guide: Option<ReviewedGuide>,
 }
 #[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(deny_unknown_fields)]
 pub struct ReviewedDesign {
     pub name: String,
+    pub source_digest: String,
+    pub adapter_version: u32,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedGuide {
+    pub name: String,
+    pub path: String,
     pub source_digest: String,
     pub adapter_version: u32,
 }
@@ -79,6 +89,8 @@ pub struct Accepted {
     pub delivery: BTreeMap<String, String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub reviewed_design: Option<ReviewedDesign>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_guide: Option<ReviewedGuide>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct Lock {

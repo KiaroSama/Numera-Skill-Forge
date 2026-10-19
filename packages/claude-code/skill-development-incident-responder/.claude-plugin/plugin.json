@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed original guide adapter: plugins/incident-response/agents",
+  "license": "MIT",
+  "name": "skill-development-incident-responder",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

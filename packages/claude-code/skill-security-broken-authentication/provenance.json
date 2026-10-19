@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-broken-authentication/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "36289965b69c82cbaff49efe25d96caf94aa71d0a8c139b1af8fff755634ef41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-broken-authentication/skills/broken-authentication/SKILL.md",
+      "path": "cli-tool/components/skills/security/broken-authentication/SKILL.md",
+      "size": 12606,
+      "source_digest": "70ff7a295178998f4bee5cff539b0094886b07d9ae3e12bdbdd505392215f793"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d009c8b045048de9e79efc0703d6b1c4da7ac9daeed497ebd104c53fb8b68c32",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/broken-authentication",
+  "schema_version": 1
+}

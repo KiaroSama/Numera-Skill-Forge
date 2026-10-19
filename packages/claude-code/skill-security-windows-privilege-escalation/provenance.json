@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-windows-privilege-escalation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6b7938db008b1ed37e5320e975346a0b64746fa1291835c1d0ce2288f445d194",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-windows-privilege-escalation/skills/windows-privilege-escalation/SKILL.md",
+      "path": "cli-tool/components/skills/security/windows-privilege-escalation/SKILL.md",
+      "size": 14367,
+      "source_digest": "affa51414188b95192c0f6fd6fd03ffda3dc46f3809143449bb8b79dd0416657"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "be9429ad3c9f1638f64c35d3d6a8c0bbe9bd5c46886eec444d0036019f57f18f",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/windows-privilege-escalation",
+  "schema_version": 1
+}

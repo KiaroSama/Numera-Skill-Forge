@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/functional-programming/agents",
+  "license": "MIT",
+  "name": "skill-development-haskell-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

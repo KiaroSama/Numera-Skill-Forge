@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/pocketbase/pb-deploy",
+  "license": "MIT",
+  "name": "skill-pocketbase-pb-deploy",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

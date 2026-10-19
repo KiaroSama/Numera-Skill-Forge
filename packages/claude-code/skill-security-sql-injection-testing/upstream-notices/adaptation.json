@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "sql-injection-testing",
+    "source_digest": "ef8cab6e5509f3f346f7c9c4b0beb8ef67e7a48937f424cd70e7a455c6041545",
+    "source_name": "SQL Injection Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "5bb9463f4df59ea50eaa6e9d1a1c407dafc44fb68ef4900643f4198a1075a780",
+  "schema_version": 1
+}

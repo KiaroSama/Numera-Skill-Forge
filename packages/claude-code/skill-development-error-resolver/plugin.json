@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/error-resolver",
+  "license": "MIT",
+  "name": "skill-development-error-resolver",
+  "version": "1.0.0"
+}

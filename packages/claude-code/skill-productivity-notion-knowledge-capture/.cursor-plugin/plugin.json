@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/.curated/notion-knowledge-capture",
+  "license": "MIT",
+  "name": "skill-productivity-notion-knowledge-capture",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

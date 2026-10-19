@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-java-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "fa2b3d439c5da476adcb61b4fae1aa816ce9748a428f7c594cdc2907a3b244c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-java-pro/skills/java-pro/java-pro.md",
+      "path": "plugins/jvm-languages/agents/java-pro.md",
+      "size": 7770
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "62ce3525a86d56dc4270e728dfe782d68bac8ec601c7e792d5f8c2f586248515",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/jvm-languages/agents",
+  "schema_version": 1
+}

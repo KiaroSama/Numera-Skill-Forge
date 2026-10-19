@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/html-injection-testing",
+  "license": "MIT",
+  "name": "skill-security-html-injection-testing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

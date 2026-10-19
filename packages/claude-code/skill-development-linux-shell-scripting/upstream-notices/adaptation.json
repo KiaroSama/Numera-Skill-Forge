@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "linux-shell-scripting",
+    "source_digest": "c52e2c534cf0ceb268bc9aa0ef1b8d557a744ed1cbab3c2ed070519e60918b15",
+    "source_name": "Linux Production Shell Scripts"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "f4e12762f01b901fb192c83f86249f1eb4a36cfcf7056fbfece6332183cce6b8",
+  "schema_version": 1
+}

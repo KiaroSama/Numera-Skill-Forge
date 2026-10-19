@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-scanning-tools/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c67549994eb33849b8a318477012fde4edb5614347ffe7a10777a7ee18d0726f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-scanning-tools/skills/scanning-tools/SKILL.md",
+      "path": "cli-tool/components/skills/security/scanning-tools/SKILL.md",
+      "size": 13538,
+      "source_digest": "fb487cf3bf46191c0bb284454f34f5a6d0dbe11181edf2d2164cfa551e8b61d3"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "fc1891f8a8fadda5dd884d540e13884099f8dfbde7851db670d49cc78e036577",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/scanning-tools",
+  "schema_version": 1
+}

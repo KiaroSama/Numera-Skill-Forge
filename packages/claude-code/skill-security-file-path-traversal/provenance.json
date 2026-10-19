@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-file-path-traversal/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0286b8f30788657d6e695c823ba34088f40a96cba0b5285d4bd5f42de2cfe260",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-file-path-traversal/skills/file-path-traversal/SKILL.md",
+      "path": "cli-tool/components/skills/security/file-path-traversal/SKILL.md",
+      "size": 11814,
+      "source_digest": "3677f26cdb9b3a1d142dae83d63ebc9e2a41195659caccbc44f7734812f2d0d0"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ed6edc6a874c1684f9256bbffa6a89f2413bc77984d18f2121c0a6db523c5958",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/file-path-traversal",
+  "schema_version": 1
+}

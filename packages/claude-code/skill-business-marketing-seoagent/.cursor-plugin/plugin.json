@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/business-marketing/seoagent",
+  "license": "MIT",
+  "name": "skill-business-marketing-seoagent",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

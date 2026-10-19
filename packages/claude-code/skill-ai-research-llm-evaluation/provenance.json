@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-llm-evaluation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "81faf04f5f6031c69d75bfdd4a6b0eea1df9c0167fe524646f56351341d4f336",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-llm-evaluation/skills/llm-evaluation/SKILL.md",
+      "path": "plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+      "size": 19058
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "26ed8c4d8d13a5bd2b3f0c2a9a574e6adcccb271b112030025a319fb64b1ca00",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/llm-application-dev/skills/llm-evaluation",
+  "schema_version": 1
+}

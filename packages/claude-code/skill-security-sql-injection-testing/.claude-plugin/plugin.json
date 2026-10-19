@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/sql-injection-testing",
+  "license": "MIT",
+  "name": "skill-security-sql-injection-testing",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

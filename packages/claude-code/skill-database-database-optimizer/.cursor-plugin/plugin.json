@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/database-cloud-optimization/agents",
+  "license": "MIT",
+  "name": "skill-database-database-optimizer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

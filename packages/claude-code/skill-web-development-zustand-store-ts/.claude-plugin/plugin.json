@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: .github/skills/zustand-store-ts",
+  "license": "MIT",
+  "name": "skill-web-development-zustand-store-ts",
+  "repository": "https://github.com/microsoft/skills",
+  "version": "1.0.0"
+}

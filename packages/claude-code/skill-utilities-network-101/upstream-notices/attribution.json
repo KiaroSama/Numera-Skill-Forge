@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/network-101. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+  "payload": "Reviewed frontmatter name and directory normalized by Forge; original entry retained separately, body and companions unchanged",
+  "sources": [
+    {
+      "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+      "license": "MIT",
+      "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+      "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE"
+    }
+  ]
+}

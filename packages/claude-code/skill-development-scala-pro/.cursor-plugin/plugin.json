@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/jvm-languages/agents",
+  "license": "MIT",
+  "name": "skill-development-scala-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

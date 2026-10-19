@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-html-injection-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "0698b5b945b44c0cad2c85e729fb003a8a814088774036d56a50cbacba5ea4c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-html-injection-testing/skills/html-injection-testing/SKILL.md",
+      "path": "cli-tool/components/skills/security/html-injection-testing/SKILL.md",
+      "size": 13044,
+      "source_digest": "779795725d9738bda7a8b409f081131b0a0518f9e869f647217c9c0f1d143e3f"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "33f5096ba34c607ed9d290140453ade32a018f4c7e9f9315e517aa37c8ad7834",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/html-injection-testing",
+  "schema_version": 1
+}

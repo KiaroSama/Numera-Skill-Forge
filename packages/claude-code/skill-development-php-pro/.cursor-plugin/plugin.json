@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/web-scripting/agents",
+  "license": "MIT",
+  "name": "skill-development-php-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

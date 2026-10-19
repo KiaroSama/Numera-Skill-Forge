@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/.curated/notion-spec-to-implementation",
+  "license": "MIT",
+  "name": "skill-productivity-notion-spec-to-implementation",
+  "repository": "https://github.com/openai/skills",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/red-team-tools",
+  "license": "MIT",
+  "name": "skill-security-red-team-tools",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

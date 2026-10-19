@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/api-scaffolding/agents",
+  "license": "MIT",
+  "name": "skill-development-fastapi-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

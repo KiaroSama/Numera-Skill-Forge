@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "smtp-penetration-testing",
+    "source_digest": "0994f7796d22b4d7bbd81bbcb132de00498ccbf306d3fb35e45d765725e7564a",
+    "source_name": "SMTP Penetration Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "1f2a1ca7b95f91f038f6fb654ac4c676b0263ac5c9a6cd11df4adb98324eb7f6",
+  "schema_version": 1
+}

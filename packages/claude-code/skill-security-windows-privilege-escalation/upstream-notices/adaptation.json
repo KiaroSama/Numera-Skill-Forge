@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "windows-privilege-escalation",
+    "source_digest": "affa51414188b95192c0f6fd6fd03ffda3dc46f3809143449bb8b79dd0416657",
+    "source_name": "Windows Privilege Escalation"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "6b7938db008b1ed37e5320e975346a0b64746fa1291835c1d0ce2288f445d194",
+  "schema_version": 1
+}

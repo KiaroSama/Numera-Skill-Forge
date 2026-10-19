@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: skills/.curated/notion-research-documentation",
+  "license": "MIT",
+  "name": "skill-productivity-notion-research-documentation",
+  "version": "1.0.0"
+}

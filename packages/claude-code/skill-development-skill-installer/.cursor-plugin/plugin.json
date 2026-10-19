@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/.system/skill-installer",
+  "license": "Apache-2.0",
+  "name": "skill-development-skill-installer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

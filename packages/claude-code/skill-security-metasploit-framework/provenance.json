@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-metasploit-framework/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f36bf582247ab0daa5b2504a9354bfcd16dd7a359118e16511c5d12032d2cbe7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-metasploit-framework/skills/metasploit-framework/SKILL.md",
+      "path": "cli-tool/components/skills/security/metasploit-framework/SKILL.md",
+      "size": 13213,
+      "source_digest": "260c73085a019689baed1ce1ee19450827b3ef41e66615cebd82cd64347a162d"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "5abe9edb98fd140ff5b2f67d26cc1c0cf344e106126899bf02b49a3575e24368",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/metasploit-framework",
+  "schema_version": 1
+}

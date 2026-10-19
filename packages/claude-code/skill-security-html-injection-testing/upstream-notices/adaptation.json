@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "html-injection-testing",
+    "source_digest": "779795725d9738bda7a8b409f081131b0a0518f9e869f647217c9c0f1d143e3f",
+    "source_name": "HTML Injection Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "0698b5b945b44c0cad2c85e729fb003a8a814088774036d56a50cbacba5ea4c3",
+  "schema_version": 1
+}

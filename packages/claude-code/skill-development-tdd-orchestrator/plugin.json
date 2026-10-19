@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed original guide adapter: plugins/backend-development/agents",
+  "license": "MIT",
+  "name": "skill-development-tdd-orchestrator",
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "aws-penetration-testing",
+    "source_digest": "45c3f62c29eac3de57a93200ea1955555d427ba09a32e92150796faefe5e7785",
+    "source_name": "AWS Penetration Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "fc63d59bd1ba11f221f61c08c0159994321e2ff60d6103681999e5dc0dbd6d2d",
+  "schema_version": 1
+}

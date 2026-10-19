@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/incident-response/agents",
+  "license": "MIT",
+  "name": "skill-development-incident-responder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

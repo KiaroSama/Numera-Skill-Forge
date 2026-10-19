@@ -1,0 +1,47 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-installer/skills/skill-installer/LICENSE.txt",
+      "path": "skills/.system/skill-installer/LICENSE.txt",
+      "size": 11358
+    },
+    {
+      "digest": "ea0be3fdc00e7113071837d33fd0045d1074a2927cdb44569d372e91528e8d9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-installer/skills/skill-installer/SKILL.md",
+      "path": "skills/.system/skill-installer/SKILL.md",
+      "size": 2815
+    },
+    {
+      "digest": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-installer/skills/skill-installer/scripts/github_utils.py",
+      "path": "skills/.system/skill-installer/scripts/github_utils.py",
+      "size": 659
+    },
+    {
+      "digest": "0fbbd36e8ea294442c0bd48d6f610a2e8656216bfef5c322f1dcf448ef2f09f1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-skill-installer/skills/skill-installer/scripts/install-skill-from-github.py",
+      "path": "skills/.system/skill-installer/scripts/install-skill-from-github.py",
+      "size": 10096
+    },
+    {
+      "digest": "877c98aefe077cc4ecdadf6cc085a94b6f1df9dce6d4314b44f380b11f68cc5c",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-skill-installer/skills/skill-installer/scripts/list-curated-skills.py",
+      "path": "skills/.system/skill-installer/scripts/list-curated-skills.py",
+      "size": 2918
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "ee5a7eec3b0b98bf16e3d3beb7afb284c80f90fe387d5f3d2f406dd3fb9f05b6",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.system/skill-installer",
+  "schema_version": 1
+}

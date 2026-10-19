@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "xss-html-injection",
+    "source_digest": "727f5af3c030c70c8f6be1aee824d5ed0e6c1652e476584e87bfd50ca656754f",
+    "source_name": "Cross-Site Scripting and HTML Injection Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "f92f9249d5e97cd9f96622dcc650f1496590a8649089de17c117f23dd979d84c",
+  "schema_version": 1
+}

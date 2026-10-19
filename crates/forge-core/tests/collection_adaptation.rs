@@ -11,6 +11,12 @@ impl Drop for Fixture {
 
 #[test]
 fn reviewed_name_changes_only_name_and_retains_source_identity() {
+    for newline in ["\n", "\r\n"] {
+        reviewed_name_case(newline);
+    }
+}
+
+fn reviewed_name_case(newline: &str) {
     let f = Fixture(
         PathBuf::from(env!("CARGO_MANIFEST_DIR"))
             .join("../../.ci-work/tests")
@@ -20,6 +26,16 @@ fn reviewed_name_changes_only_name_and_retains_source_identity() {
     fs::create_dir_all(upstream.join("skills/demo/references")).unwrap();
     let original = b"---\nname: Original Demo\ndescription: Original description\n---\n# Original Demo\nKeep all body bytes.\n";
     let expected = b"---\nname: original-demo\ndescription: Original description\n---\n# Original Demo\nKeep all body bytes.\n";
+    let original_bytes = std::str::from_utf8(original)
+        .unwrap()
+        .replace('\n', newline)
+        .into_bytes();
+    let expected_bytes = std::str::from_utf8(expected)
+        .unwrap()
+        .replace('\n', newline)
+        .into_bytes();
+    let original = original_bytes.as_slice();
+    let expected = expected_bytes.as_slice();
     fs::write(upstream.join("skills/demo/SKILL.md"), original).unwrap();
     fs::write(
         upstream.join("skills/demo/references/guide.md"),
@@ -34,6 +50,7 @@ fn reviewed_name_changes_only_name_and_retains_source_identity() {
         String::from_utf8(process::git(&command, 15).unwrap()).unwrap()
     };
     git(&["init", "-b", "main"]);
+    git(&["config", "core.autocrlf", "false"]);
     git(&["add", "."]);
     git(&[
         "-c",

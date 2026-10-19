@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "ssh-penetration-testing",
+    "source_digest": "d9a51c71e00efef412049d62788d81c398e3c1e3cc5bd90345e6396bbf9a5c73",
+    "source_name": "SSH Penetration Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "2c51adf87fd435a18093c9906d206f9f762f8917c50ca939f25a313fbd0b6fd5",
+  "schema_version": 1
+}

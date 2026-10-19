@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-api-fuzzing-bug-bounty/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "b09dbcb762f0c1a2315761b9d07b47a6fdc31a68a0cb888e40cb12b54c3ede68",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-api-fuzzing-bug-bounty/skills/api-fuzzing-bug-bounty/SKILL.md",
+      "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+      "size": 10286,
+      "source_digest": "6e252cef1aa1d4d125c6f15b81f6edb0728bcb698f6dfc390a9695a37f63e2e3"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "76a3d61d98adb68411131c807fb86cb1cc445eb1fb4e854e3b5bff20ea4a1142",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+  "schema_version": 1
+}

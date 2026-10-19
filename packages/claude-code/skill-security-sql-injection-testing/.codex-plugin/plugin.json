@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/sql-injection-testing",
+  "license": "MIT",
+  "name": "skill-security-sql-injection-testing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

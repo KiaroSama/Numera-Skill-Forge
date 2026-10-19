@@ -4,7 +4,7 @@ Authoritative source: [davila7/claude-code-templates](https://github.com/davila7
 Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-15.
 
 Each accepted skill is a separate native Claude plugin. Original scripts, assets, binary companions
-and notices remain byte-identical. The four expressly approved name-only entry adaptations retain
+and notices remain byte-identical. The 41 expressly approved name-only entry adaptations retain
 original entries separately; all other SKILL.md payloads remain exact. Generated wrappers and
 provenance are separate.
 No imported code was executed. Plugin assembler metadata never claims authorship of upstream skills.
@@ -33,11 +33,14 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **765 davila packages**, plus273 packages from the other six
-registered sources, for **1038 total** and **8193 original payload/notice records**. The previous781 accepted
-identities are unchanged; the latest164 additions contribute657 records. Four earlier approved
-name-only adaptations remain the only payload edits. Original legal notices and adaptation
-provenance are separately owned package files, not extra source-root counts.
+The current collection contains **803 davila packages**, plus304 packages from the other ten
+registered sources, for **1107 total** and **8446 payload/notice records**. The previous1038 accepted
+identities are unchanged; the latest69 additions contribute253 records. Forty-one expressly approved
+name-only adaptations retain their exact original entries separately; all bodies and companions remain
+unchanged. Nineteen generated guide entries reference unchanged original author documents;
+twelve complete native originals replace no existing package. See
+[missing-skill additions and remaining blockers](missing-skill-imports.md). Original legal notices and
+adaptation provenance are separately owned package files, not extra source-root counts.
 
 The previous 485-root baseline had reviewed original/local MIT, Apache-2.0 or CC-BY-4.0 evidence. This assembled tree includes
 4272 original payload/notice files with exact Git modes. Original grants and adaptation attribution are

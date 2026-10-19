@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "idor-testing",
+    "source_digest": "b97f241442802396f5dd5b1a0990611ac1327759fd2e48b45463e162f9da4248",
+    "source_name": "IDOR Vulnerability Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "6f7c16c24bdf8bf5e95b825c8df105a21851a943705563bde553a908f9963754",
+  "schema_version": 1
+}

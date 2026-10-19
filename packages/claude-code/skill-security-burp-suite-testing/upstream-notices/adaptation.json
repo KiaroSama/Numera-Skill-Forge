@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "burp-suite-testing",
+    "source_digest": "8b0f7b7dc83a26af06cd0d22f25e01711f00c2244ffed0d31c8031570fbf7ef0",
+    "source_name": "Burp Suite Web Application Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "57cc116cdc19f4506d541ad31514e5ab79410d4ad22eee15b8c31e957090800e",
+  "schema_version": 1
+}

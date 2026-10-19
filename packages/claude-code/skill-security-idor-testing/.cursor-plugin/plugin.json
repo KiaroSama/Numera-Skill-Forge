@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/idor-testing",
+  "license": "MIT",
+  "name": "skill-security-idor-testing",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-api-rules/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6184de61820b1151f108f38b6d251d6e9fb661beb93d51fd106e4bf18da5a57b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-api-rules/skills/pb-api-rules/SKILL.md",
+      "path": "cli-tool/components/skills/pocketbase/pb-api-rules/SKILL.md",
+      "size": 6733,
+      "source_digest": "500b724b5058a5f65b61a3ac28216a87a3465f88b8d16ae328a985e425f079fd"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "eadff6747e72281e44e3b65b727385d0c2f215996a2ff5c3d84030c9270cdda9",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/pocketbase/pb-api-rules",
+  "schema_version": 1
+}

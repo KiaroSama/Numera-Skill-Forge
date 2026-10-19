@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "metasploit-framework",
+    "source_digest": "260c73085a019689baed1ce1ee19450827b3ef41e66615cebd82cd64347a162d",
+    "source_name": "Metasploit Framework"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "f36bf582247ab0daa5b2504a9354bfcd16dd7a359118e16511c5d12032d2cbe7",
+  "schema_version": 1
+}

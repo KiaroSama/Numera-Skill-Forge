@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/broken-authentication",
+  "license": "MIT",
+  "name": "skill-security-broken-authentication",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

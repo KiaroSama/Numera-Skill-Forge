@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "scanning-tools",
+    "source_digest": "fb487cf3bf46191c0bb284454f34f5a6d0dbe11181edf2d2164cfa551e8b61d3",
+    "source_name": "Security Scanning Tools"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "c67549994eb33849b8a318477012fde4edb5614347ffe7a10777a7ee18d0726f",
+  "schema_version": 1
+}

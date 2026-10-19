@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/broken-authentication",
+  "license": "MIT",
+  "name": "skill-security-broken-authentication",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/machine-learning-ops/agents",
+  "license": "MIT",
+  "name": "skill-ai-research-ml-engineer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

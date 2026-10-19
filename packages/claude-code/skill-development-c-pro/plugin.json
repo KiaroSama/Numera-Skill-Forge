@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed original guide adapter: plugins/systems-programming/agents",
+  "license": "MIT",
+  "name": "skill-development-c-pro",
+  "version": "1.0.0"
+}

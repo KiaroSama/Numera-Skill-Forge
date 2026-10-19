@@ -1,0 +1,48 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-telegram-bot-builder/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "98f015799f808d9ff947b978a69f545e256c781208c52df4829e256b94dd42d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-telegram-bot-builder/skills/telegram-bot-builder/SKILL.md",
+      "path": "cli-tool/components/skills/development/telegram-bot-builder/SKILL.md",
+      "size": 8858,
+      "source_digest": "a3e801fbb50296f87d60caa7f4c3812056f59539827a2d449f88223af1b43068"
+    },
+    {
+      "digest": "d06893baddd57fcecfacf700a3351c84cda2624a5d76ac3466f192d0da45a076",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-telegram-bot-builder/skills/telegram-bot-builder/reference/api_methods.md",
+      "path": "cli-tool/components/skills/development/telegram-bot-builder/reference/api_methods.md",
+      "size": 15342
+    },
+    {
+      "digest": "b0303d9dbfe36f73f98e2162078c790063d0ca2cf6dafa7d2f20229dc36c7bdd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-telegram-bot-builder/skills/telegram-bot-builder/reference/api_types.md",
+      "path": "cli-tool/components/skills/development/telegram-bot-builder/reference/api_types.md",
+      "size": 22765
+    },
+    {
+      "digest": "fd824c308cad71f9c7cad122870591eb3bf61b52332370fa8ba434d3dd1a1657",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-telegram-bot-builder/skills/telegram-bot-builder/reference/patterns_and_examples.md",
+      "path": "cli-tool/components/skills/development/telegram-bot-builder/reference/patterns_and_examples.md",
+      "size": 27797
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3dfcefe9ef452bbac82d54c511635e7764753bc58f8f96619990a342a8a92b68",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/telegram-bot-builder",
+  "schema_version": 1
+}

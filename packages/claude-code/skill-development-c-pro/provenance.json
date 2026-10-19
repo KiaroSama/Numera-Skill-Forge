@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-c-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "1ac8473f5321a0c285729b355bd7daf73e63e7a167fe87ab1f4a7b570f72f3c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-c-pro/skills/c-pro/c-pro.md",
+      "path": "plugins/systems-programming/agents/c-pro.md",
+      "size": 1163
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "114a2361fcb358cd13c0d62cb7b498e3dc63b89e51b8404bd7492d9f8b070e5d",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/systems-programming/agents",
+  "schema_version": 1
+}

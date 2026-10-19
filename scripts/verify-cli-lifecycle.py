@@ -19,6 +19,12 @@ SELECTED = [
     ("newliver666-apk-reverse", "skill-newliver666-apk-reverse", "cursor", ".cursor/skills"),
     ("kdense-scientific-agent-skills", "skill-kdense-statistical-analysis", "claude-code", ".claude/skills"),
     ("voltagent-design", "skill-voltagent-design-voltagent", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-pocketbase-pb-api-rules", "claude-code", ".claude/skills"),
+    ("microsoft-skills", "skill-web-development-zustand-store-ts", "cursor", ".cursor/skills"),
+    ("n8n-skills", "skill-workflow-automation-n8n-workflow-patterns", "opencode", ".opencode/skills"),
+    ("openai-skills", "skill-productivity-notion-knowledge-capture", "claude-code", ".claude/skills"),
+    ("wshobson-guides", "skill-development-c-pro", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-creative-design-ui-ux-pro-max", "claude-code", ".claude/skills"),
 ]
 
 
@@ -97,7 +103,8 @@ def verify(application, project, work):
         record["checks"].append("full-catalog")
         for collection, package, target, prefix in SELECTED:
             entry = entries[f"{collection}/{package}"]
-            name = entry["reviewed_design"]["name"] if entry.get("reviewed_design") else next(
+            adapter = entry.get("reviewed_guide") or entry.get("reviewed_design")
+            name = adapter["name"] if adapter else next(
                 f["output_path"].split("/skills/", 1)[1].split("/")[0]
                 for f in entry["files"] if f["path"] == entry["root"] + "/SKILL.md")
             destination = fixture / (package + " consumer")

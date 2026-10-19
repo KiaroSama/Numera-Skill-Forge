@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/developer-essentials/agents",
+  "license": "MIT",
+  "name": "skill-development-monorepo-architect",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

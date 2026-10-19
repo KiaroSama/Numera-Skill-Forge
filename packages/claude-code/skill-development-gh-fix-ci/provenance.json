@@ -1,0 +1,33 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gh-fix-ci/skills/gh-fix-ci/LICENSE.txt",
+      "path": "skills/.curated/gh-fix-ci/LICENSE.txt",
+      "size": 11357
+    },
+    {
+      "digest": "4cd263f7c587626cb5f746a4850792a09cbc337c4b3d8fda5c32fb2b0a5771f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gh-fix-ci/skills/gh-fix-ci/SKILL.md",
+      "path": "skills/.curated/gh-fix-ci/SKILL.md",
+      "size": 3921
+    },
+    {
+      "digest": "7e83b0e7bf8ccfb7e54b0e8a0bba4fcf382d51a41d37198999bbf743fdbe920b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-gh-fix-ci/skills/gh-fix-ci/scripts/inspect_pr_checks.py",
+      "path": "skills/.curated/gh-fix-ci/scripts/inspect_pr_checks.py",
+      "size": 15071
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "7abc0542084a5b6d1fae7e8db97136e7b6de5a79f7414045e58eaa9c2eb44337",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.curated/gh-fix-ci",
+  "schema_version": 1
+}

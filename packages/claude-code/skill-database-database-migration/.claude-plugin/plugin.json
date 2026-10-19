@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/framework-migration/skills/database-migration",
+  "license": "MIT",
+  "name": "skill-database-database-migration",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

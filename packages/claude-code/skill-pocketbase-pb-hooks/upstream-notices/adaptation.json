@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pb-hooks",
+    "source_digest": "edb6e86f263e4ebe1090bbc8b99d1018aaba6bbb9ea9b041c8a99a639de1ad31",
+    "source_name": "\"PocketBase Hooks\""
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "50f958362b0c4269641f0e2a16fc0c30193a304490a298eb7aa8a1535439030b",
+  "schema_version": 1
+}

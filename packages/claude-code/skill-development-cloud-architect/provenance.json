@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "0310b6947017e5a2d5ebc64b528aa7f70c0422c71056bf98f36123d182bb84ab",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-cloud-architect/skills/cloud-architect/cloud-architect.md",
+      "path": "plugins/cicd-automation/agents/cloud-architect.md",
+      "size": 7395
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "70eac662692e6735f407327561e1efdb656ed58e8276ebfd93d2f8b88a34545a",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/cicd-automation/agents",
+  "schema_version": 1
+}

@@ -38,12 +38,11 @@ pub fn approved_content(root: &Path, before: &Snapshot, after: &Snapshot) -> Res
         ) else {
             return Ok(false);
         };
-        let front = |text: &str| {
-            text.strip_prefix("---\n")
-                .and_then(|v| v.split_once("\n---"))
-                .map(|(head, _)| head.to_owned())
-        };
-        if front(old) != front(new) {
+        if validation::frontmatter(old) != validation::frontmatter(new)
+            || ((old.starts_with("---") || new.starts_with("---"))
+                && (validation::frontmatter(old).is_none()
+                    || validation::frontmatter(new).is_none()))
+        {
             return Ok(false);
         }
         // Fail closed on execution/network-sensitive prompts; this is not a safety certification.

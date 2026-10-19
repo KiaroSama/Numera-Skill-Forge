@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-tdd-orchestrator/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "58fd3a44b1c277f02f6b88a83d2186f89b398e11b3e7818a7dc4a19c8fb95e60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-tdd-orchestrator/skills/tdd-orchestrator/tdd-orchestrator.md",
+      "path": "plugins/backend-development/agents/tdd-orchestrator.md",
+      "size": 9842
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3ab257d3ea0958529ad13ffe9778aed22eb2ffdddf81d1fe027750614aed7fd4",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/backend-development/agents",
+  "schema_version": 1
+}

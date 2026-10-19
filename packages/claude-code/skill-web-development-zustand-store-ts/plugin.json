@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: .github/skills/zustand-store-ts",
+  "license": "MIT",
+  "name": "skill-web-development-zustand-store-ts",
+  "version": "1.0.0"
+}

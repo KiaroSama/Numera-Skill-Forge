@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-csharp-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "e82d6c7995390e91228a9ceedee6bfa62808fe920980f11d78ab0d3ef0422539",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-csharp-pro/skills/csharp-pro/csharp-pro.md",
+      "path": "plugins/jvm-languages/agents/csharp-pro.md",
+      "size": 1688
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ac53d5f3fe5d53d4a22114fa68a6c02c405086b147d62c37b12beb2a3e8b8ca6",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/jvm-languages/agents",
+  "schema_version": 1
+}

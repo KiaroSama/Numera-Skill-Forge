@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "file-path-traversal",
+    "source_digest": "3677f26cdb9b3a1d142dae83d63ebc9e2a41195659caccbc44f7734812f2d0d0",
+    "source_name": "File Path Traversal Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "0286b8f30788657d6e695c823ba34088f40a96cba0b5285d4bd5f42de2cfe260",
+  "schema_version": 1
+}

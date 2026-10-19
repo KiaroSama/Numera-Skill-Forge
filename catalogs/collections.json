@@ -153,6 +153,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-claude-code-guide",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/ai-research/claude-code-guide",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-computer-use-agents",
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1385,6 +1393,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-business-marketing-seoagent",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/business-marketing/seoagent",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-business-marketing-signup-flow-cro",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1877,6 +1893,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/creative-design/ui-design-system",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-ui-ux-pro-max",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/creative-design/ui-ux-pro-max",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2593,6 +2617,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-error-resolver",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/error-resolver",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-event-sourcing-architect",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2821,6 +2853,22 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/lint-and-validate",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-linux-shell-scripting",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/linux-shell-scripting",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-manifest",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/manifest",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3333,6 +3381,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/tdd-workflow",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-telegram-bot-builder",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/telegram-bot-builder",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3941,6 +3997,54 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/operations/weekly-ops-report",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-api-rules",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-api-rules",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-collections",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-collections",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-deploy",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-deploy",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-hooks",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-hooks",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-migrations",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-migrations",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-pocketbase-pb-sdk",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/pocketbase/pb-sdk",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -5409,6 +5513,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-api-fuzzing-bug-bounty",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-api-security-best-practices",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -5425,10 +5537,50 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-aws-penetration-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/aws-penetration-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-broken-authentication",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/broken-authentication",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-burp-suite-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/burp-suite-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-cra-vulnerability-obligations",
       "license": "CC-BY-4.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/security/cra-vulnerability-obligations",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-ethical-hacking-methodology",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/ethical-hacking-methodology",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-file-path-traversal",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/file-path-traversal",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -5457,6 +5609,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-html-injection-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/html-injection-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-idor-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/idor-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-incident-reporting-navigator",
       "license": "CC-BY-4.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -5465,10 +5633,58 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-linux-privilege-escalation",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/linux-privilege-escalation",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-metasploit-framework",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/metasploit-framework",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-pentest-checklist",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/pentest-checklist",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-pentest-commands",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/pentest-commands",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-privilege-escalation-methods",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/privilege-escalation-methods",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-red-team-tactics",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/security/red-team-tactics",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-red-team-tools",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/red-team-tools",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -5485,6 +5701,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/security/sast-configuration",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-scanning-tools",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/scanning-tools",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -5529,6 +5753,46 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-security-shodan-reconnaissance",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/shodan-reconnaissance",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-smtp-penetration-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/smtp-penetration-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-sql-injection-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/sql-injection-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-sqlmap-database-pentesting",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/sqlmap-database-pentesting",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-ssh-penetration-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/ssh-penetration-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-security-supply-chain-guard",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -5565,6 +5829,38 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/security/webapp-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-windows-privilege-escalation",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/windows-privilege-escalation",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-wireshark-analysis",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/wireshark-analysis",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-wordpress-penetration-testing",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/wordpress-penetration-testing",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-xss-html-injection",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/security/xss-html-injection",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -5669,6 +5965,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/utilities/geo-fundamentals",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-utilities-network-101",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/utilities/network-101",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -7545,6 +7849,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-web-development-zustand-store-ts",
+      "license": "MIT",
+      "revision": "2f9d135614ca76198a2fb715052c7c23b2eead5b",
+      "root": ".github/skills/zustand-store-ts",
+      "source": "microsoft-skills",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-morluto-reverse-engineer-anything",
       "license": "MIT",
       "revision": "fdd8f826023c568937d237c2f97d855de283a9b8",
@@ -7553,11 +7865,75 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-workflow-automation-n8n-workflow-patterns",
+      "license": "MIT",
+      "revision": "d9c287202999481777868c4ce7441ced847350b3",
+      "root": "skills/n8n-workflow-patterns",
+      "source": "n8n-skills",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-newliver666-apk-reverse",
       "license": "MIT",
       "revision": "7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd",
       "root": "skills/apk-reverse",
       "source": "newliver666-apk-reverse",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-gh-address-comments",
+      "license": "Apache-2.0",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/gh-address-comments",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-gh-fix-ci",
+      "license": "Apache-2.0",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/gh-fix-ci",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-skill-installer",
+      "license": "Apache-2.0",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.system/skill-installer",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-notion-knowledge-capture",
+      "license": "MIT",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/notion-knowledge-capture",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-notion-meeting-intelligence",
+      "license": "MIT",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/notion-meeting-intelligence",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-notion-research-documentation",
+      "license": "MIT",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/notion-research-documentation",
+      "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-notion-spec-to-implementation",
+      "license": "MIT",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.curated/notion-spec-to-implementation",
+      "source": "openai-skills",
       "version": "1.0.0"
     },
     {
@@ -8302,6 +8678,182 @@
       "revision": "3b605329240ce735b510037cca322f1831fdd7f8",
       "root": "design-md/zapier",
       "source": "voltagent-design",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-llm-evaluation",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/llm-application-dev/skills/llm-evaluation",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-ml-engineer",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/machine-learning-ops/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-database-database-migration",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/framework-migration/skills/database-migration",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-database-database-optimizer",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/database-cloud-optimization/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-c-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/systems-programming/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-cloud-architect",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/cicd-automation/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-csharp-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/jvm-languages/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-django-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/api-scaffolding/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-elixir-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/functional-programming/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-fastapi-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/api-scaffolding/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-flutter-expert",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/multi-platform-apps/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-graphql-architect",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/api-scaffolding/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-haskell-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/functional-programming/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-incident-responder",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/incident-response/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-java-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/jvm-languages/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-monorepo-architect",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/developer-essentials/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-php-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/web-scripting/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-ruby-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/web-scripting/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-scala-pro",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/jvm-languages/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-tdd-orchestrator",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/backend-development/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-debugger",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/debugging-toolkit/agents",
+      "source": "wshobson-guides",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-react-state-management",
+      "license": "MIT",
+      "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "root": "plugins/frontend-mobile-development/skills/react-state-management",
+      "source": "wshobson-guides",
       "version": "1.0.0"
     }
   ],

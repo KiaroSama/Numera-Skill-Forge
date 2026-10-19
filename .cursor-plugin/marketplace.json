@@ -100,6 +100,11 @@
       "source": "packages/claude-code/skill-ai-research-behavioral-modes"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/ai-research/claude-code-guide",
+      "name": "skill-ai-research-claude-code-guide",
+      "source": "packages/claude-code/skill-ai-research-claude-code-guide"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/computer-use-agents",
       "name": "skill-ai-research-computer-use-agents",
       "source": "packages/claude-code/skill-ai-research-computer-use-agents"
@@ -870,6 +875,11 @@
       "source": "packages/claude-code/skill-business-marketing-seo-optimizer"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/business-marketing/seoagent",
+      "name": "skill-business-marketing-seoagent",
+      "source": "packages/claude-code/skill-business-marketing-seoagent"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/signup-flow-cro",
       "name": "skill-business-marketing-signup-flow-cro",
       "source": "packages/claude-code/skill-business-marketing-signup-flow-cro"
@@ -1178,6 +1188,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/ui-design-system",
       "name": "skill-creative-design-ui-design-system",
       "source": "packages/claude-code/skill-creative-design-ui-design-system"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/ui-ux-pro-max",
+      "name": "skill-creative-design-ui-ux-pro-max",
+      "source": "packages/claude-code/skill-creative-design-ui-ux-pro-max"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/creative-design/ux-researcher-designer",
@@ -1625,6 +1640,11 @@
       "source": "packages/claude-code/skill-development-environment-setup-guide"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/error-resolver",
+      "name": "skill-development-error-resolver",
+      "source": "packages/claude-code/skill-development-error-resolver"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/event-sourcing-architect",
       "name": "skill-development-event-sourcing-architect",
       "source": "packages/claude-code/skill-development-event-sourcing-architect"
@@ -1768,6 +1788,16 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/lint-and-validate",
       "name": "skill-development-lint-and-validate",
       "source": "packages/claude-code/skill-development-lint-and-validate"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/linux-shell-scripting",
+      "name": "skill-development-linux-shell-scripting",
+      "source": "packages/claude-code/skill-development-linux-shell-scripting"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/manifest",
+      "name": "skill-development-manifest",
+      "source": "packages/claude-code/skill-development-manifest"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/mcp-builder",
@@ -2088,6 +2118,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/tdd-workflow",
       "name": "skill-development-tdd-workflow",
       "source": "packages/claude-code/skill-development-tdd-workflow"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/telegram-bot-builder",
+      "name": "skill-development-telegram-bot-builder",
+      "source": "packages/claude-code/skill-development-telegram-bot-builder"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/terraform-specialist",
@@ -2468,6 +2503,36 @@
       "description": "Original upstream skill: cli-tool/components/skills/operations/weekly-ops-report",
       "name": "skill-operations-weekly-ops-report",
       "source": "packages/claude-code/skill-operations-weekly-ops-report"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-api-rules",
+      "name": "skill-pocketbase-pb-api-rules",
+      "source": "packages/claude-code/skill-pocketbase-pb-api-rules"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-collections",
+      "name": "skill-pocketbase-pb-collections",
+      "source": "packages/claude-code/skill-pocketbase-pb-collections"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-deploy",
+      "name": "skill-pocketbase-pb-deploy",
+      "source": "packages/claude-code/skill-pocketbase-pb-deploy"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-hooks",
+      "name": "skill-pocketbase-pb-hooks",
+      "source": "packages/claude-code/skill-pocketbase-pb-hooks"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-migrations",
+      "name": "skill-pocketbase-pb-migrations",
+      "source": "packages/claude-code/skill-pocketbase-pb-migrations"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/pocketbase/pb-sdk",
+      "name": "skill-pocketbase-pb-sdk",
+      "source": "packages/claude-code/skill-pocketbase-pb-sdk"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/academy-guide",
@@ -3385,6 +3450,11 @@
       "source": "packages/claude-code/skill-scientific-zinc-database"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+      "name": "skill-security-api-fuzzing-bug-bounty",
+      "source": "packages/claude-code/skill-security-api-fuzzing-bug-bounty"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/api-security-best-practices",
       "name": "skill-security-api-security-best-practices",
       "source": "packages/claude-code/skill-security-api-security-best-practices"
@@ -3395,9 +3465,34 @@
       "source": "packages/claude-code/skill-security-api-security-testing"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/aws-penetration-testing",
+      "name": "skill-security-aws-penetration-testing",
+      "source": "packages/claude-code/skill-security-aws-penetration-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/broken-authentication",
+      "name": "skill-security-broken-authentication",
+      "source": "packages/claude-code/skill-security-broken-authentication"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/burp-suite-testing",
+      "name": "skill-security-burp-suite-testing",
+      "source": "packages/claude-code/skill-security-burp-suite-testing"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/cra-vulnerability-obligations",
       "name": "skill-security-cra-vulnerability-obligations",
       "source": "packages/claude-code/skill-security-cra-vulnerability-obligations"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/ethical-hacking-methodology",
+      "name": "skill-security-ethical-hacking-methodology",
+      "source": "packages/claude-code/skill-security-ethical-hacking-methodology"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/file-path-traversal",
+      "name": "skill-security-file-path-traversal",
+      "source": "packages/claude-code/skill-security-file-path-traversal"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/security/file-uploads",
@@ -3415,14 +3510,54 @@
       "source": "packages/claude-code/skill-security-google-cloud-waf-security"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/html-injection-testing",
+      "name": "skill-security-html-injection-testing",
+      "source": "packages/claude-code/skill-security-html-injection-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/idor-testing",
+      "name": "skill-security-idor-testing",
+      "source": "packages/claude-code/skill-security-idor-testing"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/incident-reporting-navigator",
       "name": "skill-security-incident-reporting-navigator",
       "source": "packages/claude-code/skill-security-incident-reporting-navigator"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/linux-privilege-escalation",
+      "name": "skill-security-linux-privilege-escalation",
+      "source": "packages/claude-code/skill-security-linux-privilege-escalation"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/metasploit-framework",
+      "name": "skill-security-metasploit-framework",
+      "source": "packages/claude-code/skill-security-metasploit-framework"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/pentest-checklist",
+      "name": "skill-security-pentest-checklist",
+      "source": "packages/claude-code/skill-security-pentest-checklist"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/pentest-commands",
+      "name": "skill-security-pentest-commands",
+      "source": "packages/claude-code/skill-security-pentest-commands"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/privilege-escalation-methods",
+      "name": "skill-security-privilege-escalation-methods",
+      "source": "packages/claude-code/skill-security-privilege-escalation-methods"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/red-team-tactics",
       "name": "skill-security-red-team-tactics",
       "source": "packages/claude-code/skill-security-red-team-tactics"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/red-team-tools",
+      "name": "skill-security-red-team-tools",
+      "source": "packages/claude-code/skill-security-red-team-tools"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/security/regulatory-threat-model",
@@ -3433,6 +3568,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/security/sast-configuration",
       "name": "skill-security-sast-configuration",
       "source": "packages/claude-code/skill-security-sast-configuration"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/scanning-tools",
+      "name": "skill-security-scanning-tools",
+      "source": "packages/claude-code/skill-security-scanning-tools"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/security/secrets-management",
@@ -3460,6 +3600,31 @@
       "source": "packages/claude-code/skill-security-security-threat-model"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/security/shodan-reconnaissance",
+      "name": "skill-security-shodan-reconnaissance",
+      "source": "packages/claude-code/skill-security-shodan-reconnaissance"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/smtp-penetration-testing",
+      "name": "skill-security-smtp-penetration-testing",
+      "source": "packages/claude-code/skill-security-smtp-penetration-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/sql-injection-testing",
+      "name": "skill-security-sql-injection-testing",
+      "source": "packages/claude-code/skill-security-sql-injection-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/sqlmap-database-pentesting",
+      "name": "skill-security-sqlmap-database-pentesting",
+      "source": "packages/claude-code/skill-security-sqlmap-database-pentesting"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/ssh-penetration-testing",
+      "name": "skill-security-ssh-penetration-testing",
+      "source": "packages/claude-code/skill-security-ssh-penetration-testing"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/security/supply-chain-guard",
       "name": "skill-security-supply-chain-guard",
       "source": "packages/claude-code/skill-security-supply-chain-guard"
@@ -3483,6 +3648,26 @@
       "description": "Original upstream skill: cli-tool/components/skills/security/webapp-testing",
       "name": "skill-security-webapp-testing",
       "source": "packages/claude-code/skill-security-webapp-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/windows-privilege-escalation",
+      "name": "skill-security-windows-privilege-escalation",
+      "source": "packages/claude-code/skill-security-windows-privilege-escalation"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/wireshark-analysis",
+      "name": "skill-security-wireshark-analysis",
+      "source": "packages/claude-code/skill-security-wireshark-analysis"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/wordpress-penetration-testing",
+      "name": "skill-security-wordpress-penetration-testing",
+      "source": "packages/claude-code/skill-security-wordpress-penetration-testing"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/security/xss-html-injection",
+      "name": "skill-security-xss-html-injection",
+      "source": "packages/claude-code/skill-security-xss-html-injection"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/sentry/code-review",
@@ -3548,6 +3733,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/utilities/geo-fundamentals",
       "name": "skill-utilities-geo-fundamentals",
       "source": "packages/claude-code/skill-utilities-geo-fundamentals"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/utilities/network-101",
+      "name": "skill-utilities-network-101",
+      "source": "packages/claude-code/skill-utilities-network-101"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/utilities/playwright-skill",
@@ -4720,14 +4910,59 @@
       "source": "packages/claude-code/skill-kdense-zarr-python"
     },
     {
+      "description": "Original upstream skill: .github/skills/zustand-store-ts",
+      "name": "skill-web-development-zustand-store-ts",
+      "source": "packages/claude-code/skill-web-development-zustand-store-ts"
+    },
+    {
       "description": "Original upstream skill: .agents/skills/reverse-engineer-anything",
       "name": "skill-morluto-reverse-engineer-anything",
       "source": "packages/claude-code/skill-morluto-reverse-engineer-anything"
     },
     {
+      "description": "Original upstream skill: skills/n8n-workflow-patterns",
+      "name": "skill-workflow-automation-n8n-workflow-patterns",
+      "source": "packages/claude-code/skill-workflow-automation-n8n-workflow-patterns"
+    },
+    {
       "description": "Original upstream skill: skills/apk-reverse",
       "name": "skill-newliver666-apk-reverse",
       "source": "packages/claude-code/skill-newliver666-apk-reverse"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/gh-address-comments",
+      "name": "skill-development-gh-address-comments",
+      "source": "packages/claude-code/skill-development-gh-address-comments"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/gh-fix-ci",
+      "name": "skill-development-gh-fix-ci",
+      "source": "packages/claude-code/skill-development-gh-fix-ci"
+    },
+    {
+      "description": "Original upstream skill: skills/.system/skill-installer",
+      "name": "skill-development-skill-installer",
+      "source": "packages/claude-code/skill-development-skill-installer"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/notion-knowledge-capture",
+      "name": "skill-productivity-notion-knowledge-capture",
+      "source": "packages/claude-code/skill-productivity-notion-knowledge-capture"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/notion-meeting-intelligence",
+      "name": "skill-productivity-notion-meeting-intelligence",
+      "source": "packages/claude-code/skill-productivity-notion-meeting-intelligence"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/notion-research-documentation",
+      "name": "skill-productivity-notion-research-documentation",
+      "source": "packages/claude-code/skill-productivity-notion-research-documentation"
+    },
+    {
+      "description": "Original upstream skill: skills/.curated/notion-spec-to-implementation",
+      "name": "skill-productivity-notion-spec-to-implementation",
+      "source": "packages/claude-code/skill-productivity-notion-spec-to-implementation"
     },
     {
       "description": "Original upstream skill: skills/composition-patterns",
@@ -5193,6 +5428,116 @@
       "description": "Reviewed design adapter with original documents: design-md/zapier",
       "name": "skill-voltagent-design-zapier",
       "source": "packages/claude-code/skill-voltagent-design-zapier"
+    },
+    {
+      "description": "Original upstream skill: plugins/llm-application-dev/skills/llm-evaluation",
+      "name": "skill-ai-research-llm-evaluation",
+      "source": "packages/claude-code/skill-ai-research-llm-evaluation"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/machine-learning-ops/agents",
+      "name": "skill-ai-research-ml-engineer",
+      "source": "packages/claude-code/skill-ai-research-ml-engineer"
+    },
+    {
+      "description": "Original upstream skill: plugins/framework-migration/skills/database-migration",
+      "name": "skill-database-database-migration",
+      "source": "packages/claude-code/skill-database-database-migration"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/database-cloud-optimization/agents",
+      "name": "skill-database-database-optimizer",
+      "source": "packages/claude-code/skill-database-database-optimizer"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/systems-programming/agents",
+      "name": "skill-development-c-pro",
+      "source": "packages/claude-code/skill-development-c-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/cicd-automation/agents",
+      "name": "skill-development-cloud-architect",
+      "source": "packages/claude-code/skill-development-cloud-architect"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/jvm-languages/agents",
+      "name": "skill-development-csharp-pro",
+      "source": "packages/claude-code/skill-development-csharp-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/api-scaffolding/agents",
+      "name": "skill-development-django-pro",
+      "source": "packages/claude-code/skill-development-django-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/functional-programming/agents",
+      "name": "skill-development-elixir-pro",
+      "source": "packages/claude-code/skill-development-elixir-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/api-scaffolding/agents",
+      "name": "skill-development-fastapi-pro",
+      "source": "packages/claude-code/skill-development-fastapi-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/multi-platform-apps/agents",
+      "name": "skill-development-flutter-expert",
+      "source": "packages/claude-code/skill-development-flutter-expert"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/api-scaffolding/agents",
+      "name": "skill-development-graphql-architect",
+      "source": "packages/claude-code/skill-development-graphql-architect"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/functional-programming/agents",
+      "name": "skill-development-haskell-pro",
+      "source": "packages/claude-code/skill-development-haskell-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/incident-response/agents",
+      "name": "skill-development-incident-responder",
+      "source": "packages/claude-code/skill-development-incident-responder"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/jvm-languages/agents",
+      "name": "skill-development-java-pro",
+      "source": "packages/claude-code/skill-development-java-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/developer-essentials/agents",
+      "name": "skill-development-monorepo-architect",
+      "source": "packages/claude-code/skill-development-monorepo-architect"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/web-scripting/agents",
+      "name": "skill-development-php-pro",
+      "source": "packages/claude-code/skill-development-php-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/web-scripting/agents",
+      "name": "skill-development-ruby-pro",
+      "source": "packages/claude-code/skill-development-ruby-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/jvm-languages/agents",
+      "name": "skill-development-scala-pro",
+      "source": "packages/claude-code/skill-development-scala-pro"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/backend-development/agents",
+      "name": "skill-development-tdd-orchestrator",
+      "source": "packages/claude-code/skill-development-tdd-orchestrator"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/debugging-toolkit/agents",
+      "name": "skill-productivity-debugger",
+      "source": "packages/claude-code/skill-productivity-debugger"
+    },
+    {
+      "description": "Original upstream skill: plugins/frontend-mobile-development/skills/react-state-management",
+      "name": "skill-web-development-react-state-management",
+      "source": "packages/claude-code/skill-web-development-react-state-management"
     }
   ]
 }

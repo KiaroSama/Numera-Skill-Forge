@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Reviewed original guide adapter: plugins/developer-essentials/agents",
+  "license": "MIT",
+  "name": "skill-development-monorepo-architect",
+  "version": "1.0.0"
+}

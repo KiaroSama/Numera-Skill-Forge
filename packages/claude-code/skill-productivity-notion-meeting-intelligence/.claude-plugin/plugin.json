@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/.curated/notion-meeting-intelligence",
+  "license": "MIT",
+  "name": "skill-productivity-notion-meeting-intelligence",
+  "repository": "https://github.com/openai/skills",
+  "version": "1.0.0"
+}

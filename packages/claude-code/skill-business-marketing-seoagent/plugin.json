@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/business-marketing/seoagent",
+  "license": "MIT",
+  "name": "skill-business-marketing-seoagent",
+  "version": "1.0.0"
+}

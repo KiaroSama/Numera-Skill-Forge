@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/metasploit-framework",
+  "license": "MIT",
+  "name": "skill-security-metasploit-framework",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

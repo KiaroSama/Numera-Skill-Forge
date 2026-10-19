@@ -38,6 +38,20 @@ for key, entry in entries.items():
         if sys.platform != "win32":
             assert bool((root / name).stat().st_mode & 0o111) == (file["mode"] == "100755"), name
         count += 1
+    guide = skill.get("reviewed_guide")
+    assert entry.get("reviewed_guide") == guide, "Guide approval changed"
+    if guide:
+        assert guide["adapter_version"] == 1 and not skill.get("reviewed_name") and not skill.get("reviewed_design")
+        source = next(f for f in entry["files"] if f["path"] == guide["path"])
+        assert source["digest"] == guide["source_digest"]
+        leaf = guide["path"].rsplit("/", 1)[-1]
+        assert source["output_path"] == prefix + "skills/" + guide["name"] + "/" + leaf
+        assert not any(f["path"].startswith(skill["root"] + "/") and f["path"] != guide["path"] and f["path"] != skill["license_path"] for f in entry["files"])
+        generated = prefix + "skills/" + guide["name"] + "/SKILL.md"
+        text = (root / generated).read_text(encoding="utf-8")
+        assert text.splitlines()[:2] == ["---", "name: " + guide["name"]]
+        assert "[original guide](" + leaf + ")" in text and "Numera Skill Forge" in text
+        assert generated in entry["generated"] and "adapter-version: '1'" in text
     design = skill.get("reviewed_design")
     assert entry.get("reviewed_design") == design, "Design approval changed"
     if design:
@@ -62,10 +76,15 @@ for key, entry in entries.items():
         original = (root / prefix / "upstream-notices/source-entry.md").read_bytes()
         assert hashlib.sha256(original).hexdigest() == approval["source_digest"]
         text = original.decode("utf-8")
-        front = text.removeprefix("---\n").split("\n---", 1)[0]
+        parts = original.split(b"\n")
+        lines = [(value + (b"\n" if i < len(parts) - 1 else b"")).decode("utf-8") for i, value in enumerate(parts)]
+        assert lines[0] in ("---\n", "---\r\n")
+        closing = next(i for i, value in enumerate(lines[1:], 1) if value.removesuffix("\n").removesuffix("\r") == "---")
+        front_lines = lines[1:closing]
         line = "name: " + approval["source_name"]
-        assert [s for s in front.splitlines() if s.startswith("name:")] == [line]
-        offset = 4 + sum(len(s.encode("utf-8")) for s in front.splitlines(keepends=True)[:front.splitlines().index(line)])
+        names = [i for i, value in enumerate(front_lines) if value.removesuffix("\n").removesuffix("\r").startswith("name:")]
+        assert len(names) == 1 and front_lines[names[0]].removesuffix("\n").removesuffix("\r") == line
+        offset = len(lines[0].encode("utf-8")) + sum(len(value.encode("utf-8")) for value in front_lines[:names[0]])
         expected = original[:offset] + ("name: " + approval["name"]).encode("utf-8") + original[offset + len(line.encode("utf-8")):]
         assert len(adapted) == 1 and adapted[0]["path"] == skill["root"] + "/SKILL.md"
         assert adapted[0]["source_digest"] == approval["source_digest"]

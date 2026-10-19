@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/n8n-workflow-patterns",
+  "license": "MIT",
+  "name": "skill-workflow-automation-n8n-workflow-patterns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

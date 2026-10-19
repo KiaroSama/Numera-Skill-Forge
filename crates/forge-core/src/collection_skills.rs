@@ -42,7 +42,8 @@ pub(crate) fn find(root: &Path, id: &str) -> Result<Option<Accepted>> {
 
 pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, String)> {
     let prefix = format!("packages/claude-code/{}/skills/", accepted.id);
-    let generated = crate::collections::design::entry_path(accepted);
+    let generated = crate::collections::guide::entry_path(accepted)
+        .or_else(|| crate::collections::design::entry_path(accepted));
     let path = generated
         .or_else(|| {
             accepted
@@ -66,11 +67,8 @@ pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, Stri
     }
     let text =
         std::str::from_utf8(&bytes).map_err(|_| Error::new("encoding", "Skill is not UTF-8"))?;
-    let front = text
-        .strip_prefix("---\n")
-        .and_then(|s| s.split_once("\n---"))
-        .ok_or_else(|| Error::new("frontmatter", "Original skill frontmatter is missing"))?
-        .0;
+    let front = validation::frontmatter(text)
+        .ok_or_else(|| Error::new("frontmatter", "Original skill frontmatter is missing"))?;
     let value: Value = serde_yaml_ng::from_str(front)
         .map_err(|_| Error::new("frontmatter", "Original skill frontmatter is invalid"))?;
     let name = value["name"]

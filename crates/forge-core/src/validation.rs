@@ -88,3 +88,21 @@ pub fn reject_link(path: &Path) -> Result<()> {
     }
     Ok(())
 }
+
+pub(crate) fn frontmatter(text: &str) -> Option<&str> {
+    let rest = text
+        .strip_prefix("---\n")
+        .or_else(|| text.strip_prefix("---\r\n"))?;
+    let mut end = 0;
+    for raw in rest.split_inclusive('\n') {
+        let line = raw
+            .strip_suffix("\r\n")
+            .or_else(|| raw.strip_suffix('\n'))
+            .unwrap_or(raw);
+        if line == "---" {
+            return Some(&rest[..end]);
+        }
+        end += raw.len();
+    }
+    None
+}

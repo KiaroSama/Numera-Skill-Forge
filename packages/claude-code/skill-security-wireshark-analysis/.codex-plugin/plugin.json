@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/wireshark-analysis",
+  "license": "MIT",
+  "name": "skill-security-wireshark-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

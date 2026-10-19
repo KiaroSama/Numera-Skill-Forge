@@ -1,0 +1,152 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/LICENSE.txt",
+      "path": "skills/.curated/notion-research-documentation/LICENSE.txt",
+      "size": 1057
+    },
+    {
+      "digest": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/SKILL.md",
+      "path": "skills/.curated/notion-research-documentation/SKILL.md",
+      "size": 3404
+    },
+    {
+      "digest": "3b4e26d61cf17f9357e5a80f90da662f3d858294f69cad5e94c620bf1ce29455",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/evaluations/README.md",
+      "path": "skills/.curated/notion-research-documentation/evaluations/README.md",
+      "size": 4254
+    },
+    {
+      "digest": "41077f0746f28d4e6a12d88c6c2a23ceb5590dc448df4ed8c1335165d0ac6bb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/evaluations/basic-research.json",
+      "path": "skills/.curated/notion-research-documentation/evaluations/basic-research.json",
+      "size": 1731
+    },
+    {
+      "digest": "a442c3a60b864f98c2de80bc2e55176773fe31f87feab59b9d1bfd029966496d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/evaluations/research-to-database.json",
+      "path": "skills/.curated/notion-research-documentation/evaluations/research-to-database.json",
+      "size": 1681
+    },
+    {
+      "digest": "e51bf2f471d928c4c908f85c86fba81a1b42ceba468bb46024e33adf5c29e4ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/examples/competitor-analysis.md",
+      "path": "skills/.curated/notion-research-documentation/examples/competitor-analysis.md",
+      "size": 8213
+    },
+    {
+      "digest": "cb4ed96c9763fe2309354a40a7822c4770a7952909c01b890b3962e0e01adc4d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/examples/market-research.md",
+      "path": "skills/.curated/notion-research-documentation/examples/market-research.md",
+      "size": 1899
+    },
+    {
+      "digest": "2db3f3a1664e6bff4b196b0e96d76e8048fc641722f570cb156f36aed8e74d85",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/examples/technical-investigation.md",
+      "path": "skills/.curated/notion-research-documentation/examples/technical-investigation.md",
+      "size": 6521
+    },
+    {
+      "digest": "3e2f7f8fc31fb2244af76a09649b8ecf2691ef737398ddef66d5da6e515c350b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/examples/trip-planning.md",
+      "path": "skills/.curated/notion-research-documentation/examples/trip-planning.md",
+      "size": 3789
+    },
+    {
+      "digest": "f9c70a3b731ce76f35aee7caa53888cc8b22dadc17dd0f54cce95933a0cbbe91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/advanced-search.md",
+      "path": "skills/.curated/notion-research-documentation/reference/advanced-search.md",
+      "size": 4593
+    },
+    {
+      "digest": "fc81043a5220a350ec17d818c43814f0a5fd466c6cbaaf732fc487d21833a5a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/citations.md",
+      "path": "skills/.curated/notion-research-documentation/reference/citations.md",
+      "size": 5152
+    },
+    {
+      "digest": "e80f6ca6573d5d776e24454df04b4a038498dcd2aa93d97edb4113cfdbd88851",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/comparison-format.md",
+      "path": "skills/.curated/notion-research-documentation/reference/comparison-format.md",
+      "size": 870
+    },
+    {
+      "digest": "4c3af7b72a704beb22ab8741e97d26830421dbb5f489fdc53509fdcbe4000f2f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/comparison-template.md",
+      "path": "skills/.curated/notion-research-documentation/reference/comparison-template.md",
+      "size": 911
+    },
+    {
+      "digest": "956da824ce2e9c5a167dcca8322b18e29c0438ca91109f7e2cbede6785541979",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/comprehensive-report-format.md",
+      "path": "skills/.curated/notion-research-documentation/reference/comprehensive-report-format.md",
+      "size": 1077
+    },
+    {
+      "digest": "043096d757ab5cb681c8e0abc3783663dbc5afe544012f8a9a230b0c31d62882",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/comprehensive-report-template.md",
+      "path": "skills/.curated/notion-research-documentation/reference/comprehensive-report-template.md",
+      "size": 1270
+    },
+    {
+      "digest": "6280f5219e141b3e284fbe47e550a1bed1831de044eb0b1b145b43ac86f38133",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/format-selection-guide.md",
+      "path": "skills/.curated/notion-research-documentation/reference/format-selection-guide.md",
+      "size": 2798
+    },
+    {
+      "digest": "de02fca650fb676db4e2dd5772c9393b91fc9467edc2d4e33ca57df7ccd58d13",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/quick-brief-format.md",
+      "path": "skills/.curated/notion-research-documentation/reference/quick-brief-format.md",
+      "size": 767
+    },
+    {
+      "digest": "280912ecdb1c1543038a883d6341587aa8afc8f699952b7449e314dbe68c9243",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/quick-brief-template.md",
+      "path": "skills/.curated/notion-research-documentation/reference/quick-brief-template.md",
+      "size": 473
+    },
+    {
+      "digest": "29308d84318a717c8f8550bbfaded1826d4f7372f658c68638380d6a2b58f89b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/research-summary-format.md",
+      "path": "skills/.curated/notion-research-documentation/reference/research-summary-format.md",
+      "size": 841
+    },
+    {
+      "digest": "c1e704d6b28b4414fd8d37b07095859704e34ce92041fa872b15e53da15dfa2a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-research-documentation/skills/notion-research-documentation/reference/research-summary-template.md",
+      "path": "skills/.curated/notion-research-documentation/reference/research-summary-template.md",
+      "size": 1152
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "408ad6687225db89345b16cc4e3e3b7c61430b8fa345d0da4493f58d3bcb3862",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.curated/notion-research-documentation",
+  "schema_version": 1
+}

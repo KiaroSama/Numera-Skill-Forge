@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "red-team-tools",
+    "source_digest": "60f254763e3e93a6422319bc0afbd503f4eadb1b976acff8511b2bb07e2880d7",
+    "source_name": "Red Team Tools and Methodology"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "5fe3ca30fb694b141ce00e8aa3bf7504bca785c6a33b33ab6df9f1b71a2e7d90",
+  "schema_version": 1
+}

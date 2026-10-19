@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/debugging-toolkit/agents",
+  "license": "MIT",
+  "name": "skill-productivity-debugger",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -49,9 +49,9 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **765 reviewed skills** from
+The native Claude marketplace currently packages **803 reviewed skills** from
 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
-plugin. Original prompts, scripts, companions and notices are preserved; four explicitly reviewed
+plugin. Original prompts, scripts, companions and notices are preserved; 41 explicitly reviewed
 entries normalize only their frontmatter name and matching directory, retaining the original entry
 and exact change provenance. This is a bounded licensed subset, not the entire upstream collection.
 See [licenses, additions and exclusions](docs/source-licenses.md).
@@ -103,7 +103,8 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **1038 packages**. K-Dense original names,
+contains **1107 packages**. The [latest 69 additions](docs/missing-skill-imports.md) include approved
+name-only adaptations, complete original-source packages and transparent guide adapters. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.

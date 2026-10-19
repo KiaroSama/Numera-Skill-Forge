@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "manifest",
+    "source_digest": "c8ee6d3342d61f58d00b000d55fe8d225ae6d4599fce477b150de7e29442e57c",
+    "source_name": "Manifest"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "6ec9e431abc5fac6ccdc4c15f4fc0a946093aed8cd2f90684cb984d2f80746c6",
+  "schema_version": 1
+}

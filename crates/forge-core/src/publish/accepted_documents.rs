@@ -174,11 +174,7 @@ pub(super) fn baseline(git: &Git<'_>) -> Result<BTreeMap<String, String>> {
         }
         let text = std::str::from_utf8(skill)
             .map_err(|_| Error::new("encoding", "Committed skill is not UTF-8"))?;
-        let Some(front) = text
-            .strip_prefix("---\n")
-            .and_then(|s| s.split_once("\n---"))
-            .map(|v| v.0)
-        else {
+        let Some(front) = validation::frontmatter(text) else {
             continue;
         };
         let metadata: Value = serde_yaml_ng::from_str(front)

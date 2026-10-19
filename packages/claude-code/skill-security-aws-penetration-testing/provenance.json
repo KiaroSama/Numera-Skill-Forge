@@ -1,0 +1,34 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-aws-penetration-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "fc63d59bd1ba11f221f61c08c0159994321e2ff60d6103681999e5dc0dbd6d2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-aws-penetration-testing/skills/aws-penetration-testing/SKILL.md",
+      "path": "cli-tool/components/skills/security/aws-penetration-testing/SKILL.md",
+      "size": 9911,
+      "source_digest": "45c3f62c29eac3de57a93200ea1955555d427ba09a32e92150796faefe5e7785"
+    },
+    {
+      "digest": "41556bd893e2f1762271c819b39d072d14b6fcc16879071bc060f470b8673c2d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-aws-penetration-testing/skills/aws-penetration-testing/references/advanced-aws-pentesting.md",
+      "path": "cli-tool/components/skills/security/aws-penetration-testing/references/advanced-aws-pentesting.md",
+      "size": 12033
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "3fe30d5b8ffeb6e18ca4bb18243bc56e8c3ea99f25a7e8e39655d6f29ce4f573",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/aws-penetration-testing",
+  "schema_version": 1
+}

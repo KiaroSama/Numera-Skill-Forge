@@ -49,14 +49,17 @@ pub fn inspect(root: &Path, source: &str, revision: &str) -> Result<Snapshot> {
             ) {
                 let text = std::str::from_utf8(&bytes)
                     .map_err(|_| Error::new("encoding", "Prompt payload is not UTF-8"))?;
-                if let Some(rest) = text.strip_prefix("---\n")
-                    && let Some((front, _)) = rest.split_once("\n---")
-                {
+                if let Some(front) = crate::validation::frontmatter(text) {
                     let value: serde_json::Value = serde_yaml_ng::from_str(front)
                         .map_err(|_| Error::new("frontmatter", "Invalid YAML frontmatter"))?;
                     if let Some(map) = value.as_object() {
                         metadata.extend(map.iter().map(|(k, v)| (k.clone(), v.clone())));
                     }
+                } else if text.starts_with("---") {
+                    return Err(Error::new(
+                        "frontmatter",
+                        "Malformed prompt frontmatter delimiters",
+                    ));
                 }
             }
             if kind == Kind::Plugins {

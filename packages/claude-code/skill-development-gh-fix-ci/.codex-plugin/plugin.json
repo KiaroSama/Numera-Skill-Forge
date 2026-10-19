@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/.curated/gh-fix-ci",
+  "license": "Apache-2.0",
+  "name": "skill-development-gh-fix-ci",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

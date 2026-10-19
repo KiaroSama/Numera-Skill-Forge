@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "shodan-reconnaissance",
+    "source_digest": "035ae5d1c954095fecf684e5ce6e368d2e4e71455f7f1f7f5fcdf222159962c1",
+    "source_name": "Shodan Reconnaissance and Pentesting"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "1bf8aa15dae0b6f901f0ca2293f7f122e36d950efff4e690acd6f3453c506a4f",
+  "schema_version": 1
+}

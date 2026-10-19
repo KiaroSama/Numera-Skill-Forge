@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-wireshark-analysis/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "d2bd91505accf00176d673d448bbdf5ae2a3fbe165156d42495bdcc788559c22",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-wireshark-analysis/skills/wireshark-analysis/SKILL.md",
+      "path": "cli-tool/components/skills/security/wireshark-analysis/SKILL.md",
+      "size": 12164,
+      "source_digest": "d2f094fb06675efad0bd2ee8c9bdf49e4456aa42570dc50ca8a870721f851376"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "206ad15611be279ee3f07c85cd016536c15c73c7ea6c49cf6c39025c47d60194",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/wireshark-analysis",
+  "schema_version": 1
+}

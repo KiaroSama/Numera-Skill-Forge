@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "ethical-hacking-methodology",
+    "source_digest": "5983de61a40f364f68de685646aceafcced7f4036185d6a628c1265961fa787e",
+    "source_name": "Ethical Hacking Methodology"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "e2e10d57dda3671793e4de3ef2b61ebb0b802cc06eea02733078f9337bec2deb",
+  "schema_version": 1
+}

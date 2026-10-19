@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "wireshark-analysis",
+    "source_digest": "d2f094fb06675efad0bd2ee8c9bdf49e4456aa42570dc50ca8a870721f851376",
+    "source_name": "Wireshark Network Traffic Analysis"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "d2bd91505accf00176d673d448bbdf5ae2a3fbe165156d42495bdcc788559c22",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-haskell-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "2008710fb40c8dc757aba16bc164b18882e40ddee987c90825f8b9b528ded39f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-haskell-pro/skills/haskell-pro/haskell-pro.md",
+      "path": "plugins/functional-programming/agents/haskell-pro.md",
+      "size": 1783
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0ea572725001e2f60aa9e7f7e843ee1499b221755f0e6cf8eab41fbb96eb0d29",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/functional-programming/agents",
+  "schema_version": 1
+}

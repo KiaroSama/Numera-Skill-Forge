@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/backend-development/agents",
+  "license": "MIT",
+  "name": "skill-development-tdd-orchestrator",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

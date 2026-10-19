@@ -16583,6 +16583,859 @@
             }
           ],
           "attribution": "Original source: sickn33/agentic-awesome-skills at b06ee9ee2354bf8b8a1ee3ce5fdd51165898028b/skills/convex. Selected davila payload retained byte-for-byte; upstream adaptations are not Forge changes. Original and intermediary terms apply to their respective material, no blanket relicensing. Original authored guide by sck000 b06ee9ee, actual MIT inbound grant. Accepted date/blankline metadata adaptation; official docs source credit preserved, illustrative API examples not copied framework implementation. Citation alone is not a permission blocker. Upstream limitations: {\"runtime_tested\": false}"
+        },
+        {
+          "id": "skill-ai-research-claude-code-guide",
+          "root": "cli-tool/components/skills/ai-research/claude-code-guide",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+          "notices": [
+            {
+              "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+              "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+              "source": "https://github.com/sickn33/agentic-awesome-skills/blob/4ee569d5d5e89a96b6be43dd6100f6cae5299229/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+              "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+              "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT",
+              "license": "CC-BY-4.0"
+            },
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: sickn33/agentic-awesome-skills at 4ee569d5d5e89a96b6be43dd6100f6cae5299229/skills/claude-code-guide. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Claude Code Guide",
+            "name": "claude-code-guide",
+            "source_digest": "94144e941761fa3fc7c849185d22ea472bd57b35dc94a97ad0aebbdbf8af5eed"
+          }
+        },
+        {
+          "id": "skill-business-marketing-seoagent",
+          "root": "cli-tool/components/skills/business-marketing/seoagent",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/aleclindz/claude-code-templates/blob/f5a86b083e2793f2a1d8e327e68b8770be0cbed3/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: aleclindz/claude-code-templates at f5a86b083e2793f2a1d8e327e68b8770be0cbed3/cli-tool/components/skills/business-marketing/seoagent. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "SEOAgent",
+            "name": "seoagent",
+            "source_digest": "b234149cba0173cca56205389e72bc6ef123d795f5aa9fc1734dfcca1b162d00"
+          }
+        },
+        {
+          "id": "skill-development-error-resolver",
+          "root": "cli-tool/components/skills/development/error-resolver",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/4f6974ebe9e32ec27ac3d663ce34c73e123ff974/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: davila7/claude-code-templates at 4f6974ebe9e32ec27ac3d663ce34c73e123ff974/cli-tool/components/skills/development/error-resolver. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Error Resolver",
+            "name": "error-resolver",
+            "source_digest": "5864ed0414f31a138a5d41dc7b50f3acd31c5adc0cfc911c434f2f6605fb0d7a"
+          }
+        },
+        {
+          "id": "skill-development-linux-shell-scripting",
+          "root": "cli-tool/components/skills/development/linux-shell-scripting",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/linux-shell-scripting. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Linux Production Shell Scripts",
+            "name": "linux-shell-scripting",
+            "source_digest": "c52e2c534cf0ceb268bc9aa0ef1b8d557a744ed1cbab3c2ed070519e60918b15"
+          }
+        },
+        {
+          "id": "skill-development-manifest",
+          "root": "cli-tool/components/skills/development/manifest",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+          "notices": [
+            {
+              "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+              "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+              "source": "https://github.com/sickn33/agentic-awesome-skills/blob/91590d2f230ce1fc777ff3c864efa4ddcc84f39e/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+              "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+              "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT",
+              "license": "CC-BY-4.0"
+            },
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: sickn33/agentic-awesome-skills at 91590d2f230ce1fc777ff3c864efa4ddcc84f39e/skills/manifest. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Manifest",
+            "name": "manifest",
+            "source_digest": "c8ee6d3342d61f58d00b000d55fe8d225ae6d4599fce477b150de7e29442e57c"
+          }
+        },
+        {
+          "id": "skill-development-telegram-bot-builder",
+          "root": "cli-tool/components/skills/development/telegram-bot-builder",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a57a219ac5cd4006552465ca0255c093de0d2c12/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: davila7/claude-code-templates at a57a219ac5cd4006552465ca0255c093de0d2c12/cli-tool/components/skills/development/telegram-bot-builder. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Telegram Bot Builder",
+            "name": "telegram-bot-builder",
+            "source_digest": "a3e801fbb50296f87d60caa7f4c3812056f59539827a2d449f88223af1b43068"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-api-rules",
+          "root": "cli-tool/components/skills/pocketbase/pb-api-rules",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-api-rules. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase API Rules\"",
+            "name": "pb-api-rules",
+            "source_digest": "500b724b5058a5f65b61a3ac28216a87a3465f88b8d16ae328a985e425f079fd"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-collections",
+          "root": "cli-tool/components/skills/pocketbase/pb-collections",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-collections. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase Collections\"",
+            "name": "pb-collections",
+            "source_digest": "44c52bbbabb0cdce246e0e219027cc6272b876c0250f1f2cfac5e44016351627"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-deploy",
+          "root": "cli-tool/components/skills/pocketbase/pb-deploy",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-deploy. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase Deploy\"",
+            "name": "pb-deploy",
+            "source_digest": "0b6a5946eca956b976f15280044d048217b25816439c40a51231b4fb0fb831e0"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-hooks",
+          "root": "cli-tool/components/skills/pocketbase/pb-hooks",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-hooks. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase Hooks\"",
+            "name": "pb-hooks",
+            "source_digest": "edb6e86f263e4ebe1090bbc8b99d1018aaba6bbb9ea9b041c8a99a639de1ad31"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-migrations",
+          "root": "cli-tool/components/skills/pocketbase/pb-migrations",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-migrations. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase Migrations\"",
+            "name": "pb-migrations",
+            "source_digest": "06fd5f1047866f343761b437966420629a2f253c0dcbe30a7cd7b4624a41ab64"
+          }
+        },
+        {
+          "id": "skill-pocketbase-pb-sdk",
+          "root": "cli-tool/components/skills/pocketbase/pb-sdk",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-sdk. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "\"PocketBase SDK\"",
+            "name": "pb-sdk",
+            "source_digest": "72c2e8513dec6af5ac77af93a82b7dd243c67831c39790fa84208858f1bcb667"
+          }
+        },
+        {
+          "id": "skill-security-api-fuzzing-bug-bounty",
+          "root": "cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/api-fuzzing-bug-bounty. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "API Fuzzing for Bug Bounty",
+            "name": "api-fuzzing-bug-bounty",
+            "source_digest": "6e252cef1aa1d4d125c6f15b81f6edb0728bcb698f6dfc390a9695a37f63e2e3"
+          }
+        },
+        {
+          "id": "skill-security-aws-penetration-testing",
+          "root": "cli-tool/components/skills/security/aws-penetration-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/aws-penetration-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "AWS Penetration Testing",
+            "name": "aws-penetration-testing",
+            "source_digest": "45c3f62c29eac3de57a93200ea1955555d427ba09a32e92150796faefe5e7785"
+          }
+        },
+        {
+          "id": "skill-security-broken-authentication",
+          "root": "cli-tool/components/skills/security/broken-authentication",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/broken-authentication. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Broken Authentication Testing",
+            "name": "broken-authentication",
+            "source_digest": "70ff7a295178998f4bee5cff539b0094886b07d9ae3e12bdbdd505392215f793"
+          }
+        },
+        {
+          "id": "skill-security-burp-suite-testing",
+          "root": "cli-tool/components/skills/security/burp-suite-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/burp-suite-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Burp Suite Web Application Testing",
+            "name": "burp-suite-testing",
+            "source_digest": "8b0f7b7dc83a26af06cd0d22f25e01711f00c2244ffed0d31c8031570fbf7ef0"
+          }
+        },
+        {
+          "id": "skill-security-ethical-hacking-methodology",
+          "root": "cli-tool/components/skills/security/ethical-hacking-methodology",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/ethical-hacking-methodology. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Ethical Hacking Methodology",
+            "name": "ethical-hacking-methodology",
+            "source_digest": "5983de61a40f364f68de685646aceafcced7f4036185d6a628c1265961fa787e"
+          }
+        },
+        {
+          "id": "skill-security-file-path-traversal",
+          "root": "cli-tool/components/skills/security/file-path-traversal",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/file-path-traversal. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "File Path Traversal Testing",
+            "name": "file-path-traversal",
+            "source_digest": "3677f26cdb9b3a1d142dae83d63ebc9e2a41195659caccbc44f7734812f2d0d0"
+          }
+        },
+        {
+          "id": "skill-security-html-injection-testing",
+          "root": "cli-tool/components/skills/security/html-injection-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/html-injection-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "HTML Injection Testing",
+            "name": "html-injection-testing",
+            "source_digest": "779795725d9738bda7a8b409f081131b0a0518f9e869f647217c9c0f1d143e3f"
+          }
+        },
+        {
+          "id": "skill-security-idor-testing",
+          "root": "cli-tool/components/skills/security/idor-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/idor-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "IDOR Vulnerability Testing",
+            "name": "idor-testing",
+            "source_digest": "b97f241442802396f5dd5b1a0990611ac1327759fd2e48b45463e162f9da4248"
+          }
+        },
+        {
+          "id": "skill-security-linux-privilege-escalation",
+          "root": "cli-tool/components/skills/security/linux-privilege-escalation",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/linux-privilege-escalation. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Linux Privilege Escalation",
+            "name": "linux-privilege-escalation",
+            "source_digest": "a683a60d807435f23477c35075e60b45ee70637a1b847be89e0191c0ef37e24d"
+          }
+        },
+        {
+          "id": "skill-security-metasploit-framework",
+          "root": "cli-tool/components/skills/security/metasploit-framework",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/metasploit-framework. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Metasploit Framework",
+            "name": "metasploit-framework",
+            "source_digest": "260c73085a019689baed1ce1ee19450827b3ef41e66615cebd82cd64347a162d"
+          }
+        },
+        {
+          "id": "skill-security-pentest-checklist",
+          "root": "cli-tool/components/skills/security/pentest-checklist",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/pentest-checklist. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Pentest Checklist",
+            "name": "pentest-checklist",
+            "source_digest": "b559440c2e36e6a2f8980663dc31457ea23afcc467c08c6a427878e1afca92a6"
+          }
+        },
+        {
+          "id": "skill-security-pentest-commands",
+          "root": "cli-tool/components/skills/security/pentest-commands",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/pentest-commands. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Pentest Commands",
+            "name": "pentest-commands",
+            "source_digest": "7080b1f51c0f0a6c0c04293c6f5bf76d7da7206237ac4bb2689efb7132f9b104"
+          }
+        },
+        {
+          "id": "skill-security-privilege-escalation-methods",
+          "root": "cli-tool/components/skills/security/privilege-escalation-methods",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/privilege-escalation-methods. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Privilege Escalation Methods",
+            "name": "privilege-escalation-methods",
+            "source_digest": "230ebe3a0dd2d9a40216bb993cc7d41525f1a4e8b31185097d51a6a83f5dc7db"
+          }
+        },
+        {
+          "id": "skill-security-red-team-tools",
+          "root": "cli-tool/components/skills/security/red-team-tools",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/red-team-tools. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Red Team Tools and Methodology",
+            "name": "red-team-tools",
+            "source_digest": "60f254763e3e93a6422319bc0afbd503f4eadb1b976acff8511b2bb07e2880d7"
+          }
+        },
+        {
+          "id": "skill-security-scanning-tools",
+          "root": "cli-tool/components/skills/security/scanning-tools",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/scanning-tools. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Security Scanning Tools",
+            "name": "scanning-tools",
+            "source_digest": "fb487cf3bf46191c0bb284454f34f5a6d0dbe11181edf2d2164cfa551e8b61d3"
+          }
+        },
+        {
+          "id": "skill-security-shodan-reconnaissance",
+          "root": "cli-tool/components/skills/security/shodan-reconnaissance",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/shodan-reconnaissance. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Shodan Reconnaissance and Pentesting",
+            "name": "shodan-reconnaissance",
+            "source_digest": "035ae5d1c954095fecf684e5ce6e368d2e4e71455f7f1f7f5fcdf222159962c1"
+          }
+        },
+        {
+          "id": "skill-security-smtp-penetration-testing",
+          "root": "cli-tool/components/skills/security/smtp-penetration-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/smtp-penetration-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "SMTP Penetration Testing",
+            "name": "smtp-penetration-testing",
+            "source_digest": "0994f7796d22b4d7bbd81bbcb132de00498ccbf306d3fb35e45d765725e7564a"
+          }
+        },
+        {
+          "id": "skill-security-sql-injection-testing",
+          "root": "cli-tool/components/skills/security/sql-injection-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/sql-injection-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "SQL Injection Testing",
+            "name": "sql-injection-testing",
+            "source_digest": "ef8cab6e5509f3f346f7c9c4b0beb8ef67e7a48937f424cd70e7a455c6041545"
+          }
+        },
+        {
+          "id": "skill-security-sqlmap-database-pentesting",
+          "root": "cli-tool/components/skills/security/sqlmap-database-pentesting",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/sqlmap-database-pentesting. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "SQLMap Database Penetration Testing",
+            "name": "sqlmap-database-pentesting",
+            "source_digest": "43732dff3159abc0a5f953532b948708543220bd85129451b228bc4af74ef11a"
+          }
+        },
+        {
+          "id": "skill-security-ssh-penetration-testing",
+          "root": "cli-tool/components/skills/security/ssh-penetration-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/ssh-penetration-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "SSH Penetration Testing",
+            "name": "ssh-penetration-testing",
+            "source_digest": "d9a51c71e00efef412049d62788d81c398e3c1e3cc5bd90345e6396bbf9a5c73"
+          }
+        },
+        {
+          "id": "skill-security-windows-privilege-escalation",
+          "root": "cli-tool/components/skills/security/windows-privilege-escalation",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/windows-privilege-escalation. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Windows Privilege Escalation",
+            "name": "windows-privilege-escalation",
+            "source_digest": "affa51414188b95192c0f6fd6fd03ffda3dc46f3809143449bb8b79dd0416657"
+          }
+        },
+        {
+          "id": "skill-security-wireshark-analysis",
+          "root": "cli-tool/components/skills/security/wireshark-analysis",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/wireshark-analysis. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Wireshark Network Traffic Analysis",
+            "name": "wireshark-analysis",
+            "source_digest": "d2f094fb06675efad0bd2ee8c9bdf49e4456aa42570dc50ca8a870721f851376"
+          }
+        },
+        {
+          "id": "skill-security-wordpress-penetration-testing",
+          "root": "cli-tool/components/skills/security/wordpress-penetration-testing",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/wordpress-penetration-testing. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "WordPress Penetration Testing",
+            "name": "wordpress-penetration-testing",
+            "source_digest": "a123814a39894f16d274413b2b335fcc353fb2cea00a4a46c524967c50f216c4"
+          }
+        },
+        {
+          "id": "skill-security-xss-html-injection",
+          "root": "cli-tool/components/skills/security/xss-html-injection",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/xss-html-injection. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Cross-Site Scripting and HTML Injection Testing",
+            "name": "xss-html-injection",
+            "source_digest": "727f5af3c030c70c8f6be1aee824d5ed0e6c1652e476584e87bfd50ca656754f"
+          }
+        },
+        {
+          "id": "skill-utilities-network-101",
+          "root": "cli-tool/components/skills/utilities/network-101",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "notices": [
+            {
+              "path": "registry/licenses/e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c.txt",
+              "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+              "source": "https://github.com/zebbern/claude-code-guide/blob/ec28c872205d9c40f1c856f1b21865139dd3bd43/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: zebbern/claude-code-guide at ec28c872205d9c40f1c856f1b21865139dd3bd43/skills/network-101. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+          "reviewed_name": {
+            "source_name": "Network 101",
+            "name": "network-101",
+            "source_digest": "2ba73385c3ced4fcecd5c3ae917ae72c2f989c3b8a02d481e7fb6745da40c1fd"
+          }
+        },
+        {
+          "id": "skill-creative-design-ui-ux-pro-max",
+          "root": "cli-tool/components/skills/creative-design/ui-ux-pro-max",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+          "notices": [
+            {
+              "path": "registry/licenses/738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014.txt",
+              "digest": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+              "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/caaa535c0a97ffcb8f41654a44e770e4942e5105/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+              "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE",
+              "license": "MIT"
+            },
+            {
+              "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+              "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+              "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT",
+              "license": "CC-BY-4.0"
+            },
+            {
+              "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+              "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+              "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Original source: nextlevelbuilder/ui-ux-pro-max-skill at caaa535c0a97ffcb8f41654a44e770e4942e5105. All 27 selected aggregator files match verified original native variants (.codex entry and .gemini core.py); original bytes, CRLF, companions and modes unchanged. Original MIT and applicable intermediary MIT/CC-BY-4.0 notices retain their respective scope. Forge only reads frontmatter without normalization; no upstream script execution or service activation."
         }
       ]
     },
@@ -20360,6 +21213,431 @@
             "source_digest": "9aee43ba8ece1b4fd0753b4cad0a29f3497331882fa376f0dd4fea8a018c32fc",
             "adapter_version": 1
           }
+        }
+      ]
+    },
+    {
+      "id": "microsoft-skills",
+      "repository": "https://github.com/microsoft/skills",
+      "branch": "main",
+      "reviewed_revision": "2f9d135614ca76198a2fb715052c7c23b2eead5b",
+      "skills": [
+        {
+          "id": "skill-web-development-zustand-store-ts",
+          "root": ".github/skills/zustand-store-ts",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "d9a1b1e30d633d5732ea18e3cba9538d293ebc53e1a9e4e96ab739e0c5c4f1cb",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root web-development/zustand-store-ts. Selected directly from microsoft/skills at 2f9d135614ca76198a2fb715052c7c23b2eead5b/.github/skills/zustand-store-ts; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        }
+      ]
+    },
+    {
+      "id": "n8n-skills",
+      "repository": "https://github.com/czlonkowski/n8n-skills",
+      "branch": "main",
+      "reviewed_revision": "d9c287202999481777868c4ce7441ced847350b3",
+      "skills": [
+        {
+          "id": "skill-workflow-automation-n8n-workflow-patterns",
+          "root": "skills/n8n-workflow-patterns",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "b03a339fb8660cceec76a78a566fc12eadf2db5a1fb7d1a48e3b5b77989afa07",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root workflow-automation/n8n-workflow-patterns. Selected directly from czlonkowski/n8n-skills at d9c287202999481777868c4ce7441ced847350b3/skills/n8n-workflow-patterns; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        }
+      ]
+    },
+    {
+      "id": "openai-skills",
+      "repository": "https://github.com/openai/skills",
+      "branch": "main",
+      "reviewed_revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "skills": [
+        {
+          "id": "skill-productivity-notion-knowledge-capture",
+          "root": "skills/.curated/notion-knowledge-capture",
+          "license": "MIT",
+          "license_path": "skills/.curated/notion-knowledge-capture/LICENSE.txt",
+          "license_digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root productivity/notion-knowledge-capture. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/notion-knowledge-capture; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-productivity-notion-meeting-intelligence",
+          "root": "skills/.curated/notion-meeting-intelligence",
+          "license": "MIT",
+          "license_path": "skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+          "license_digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root productivity/notion-meeting-intelligence. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/notion-meeting-intelligence; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-productivity-notion-research-documentation",
+          "root": "skills/.curated/notion-research-documentation",
+          "license": "MIT",
+          "license_path": "skills/.curated/notion-research-documentation/LICENSE.txt",
+          "license_digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root productivity/notion-research-documentation. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/notion-research-documentation; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-productivity-notion-spec-to-implementation",
+          "root": "skills/.curated/notion-spec-to-implementation",
+          "license": "MIT",
+          "license_path": "skills/.curated/notion-spec-to-implementation/LICENSE.txt",
+          "license_digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root productivity/notion-spec-to-implementation. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/notion-spec-to-implementation; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-development-gh-address-comments",
+          "root": "skills/.curated/gh-address-comments",
+          "license": "Apache-2.0",
+          "license_path": "skills/.curated/gh-address-comments/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root development/gh-address-comments. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/gh-address-comments; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-development-gh-fix-ci",
+          "root": "skills/.curated/gh-fix-ci",
+          "license": "Apache-2.0",
+          "license_path": "skills/.curated/gh-fix-ci/LICENSE.txt",
+          "license_digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root development/gh-fix-ci. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.curated/gh-fix-ci; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        },
+        {
+          "id": "skill-development-skill-installer",
+          "root": "skills/.system/skill-installer",
+          "license": "Apache-2.0",
+          "license_path": "skills/.system/skill-installer/LICENSE.txt",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Complete licensed original source for missing intermediary root development/skill-installer. Selected directly from openai/skills at dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.system/skill-installer; original entry, companions, notices and modes unchanged. This is an explicit original-source route, not byte equivalence to the incomplete mirror. External services and script execution are not authorized by package acquisition."
+        }
+      ]
+    },
+    {
+      "id": "wshobson-guides",
+      "repository": "https://github.com/wshobson/agents",
+      "branch": "main",
+      "reviewed_revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+      "skills": [
+        {
+          "id": "skill-ai-research-llm-evaluation",
+          "root": "plugins/llm-application-dev/skills/llm-evaluation",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/ai-research/llm-evaluation. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/llm-application-dev/skills/llm-evaluation/SKILL.md. Original body and license preserved; no invented implementation playbook. "
+        },
+        {
+          "id": "skill-ai-research-ml-engineer",
+          "root": "plugins/machine-learning-ops/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/ai-research/ml-engineer. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/machine-learning-ops/agents/ml-engineer.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "ml-engineer",
+            "path": "plugins/machine-learning-ops/agents/ml-engineer.md",
+            "source_digest": "c6c0c0f79f061a57b8beb3cf8c2d9deaf60a0f641f9b49e9f61d844f5afb707e",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-database-database-migration",
+          "root": "plugins/framework-migration/skills/database-migration",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/database/database-migration. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/framework-migration/skills/database-migration/SKILL.md. Original body and license preserved; no invented implementation playbook. "
+        },
+        {
+          "id": "skill-database-database-optimizer",
+          "root": "plugins/database-cloud-optimization/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/database/database-optimizer. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/database-cloud-optimization/agents/database-optimizer.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "database-optimizer",
+            "path": "plugins/database-cloud-optimization/agents/database-optimizer.md",
+            "source_digest": "c64464544de7e7755e8394c48074065f716e1ece612cecd14ffe9dff51d2826f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-c-pro",
+          "root": "plugins/systems-programming/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/c-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/systems-programming/agents/c-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "c-pro",
+            "path": "plugins/systems-programming/agents/c-pro.md",
+            "source_digest": "1ac8473f5321a0c285729b355bd7daf73e63e7a167fe87ab1f4a7b570f72f3c1",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-cloud-architect",
+          "root": "plugins/cicd-automation/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/cloud-architect. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/cicd-automation/agents/cloud-architect.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "cloud-architect",
+            "path": "plugins/cicd-automation/agents/cloud-architect.md",
+            "source_digest": "0310b6947017e5a2d5ebc64b528aa7f70c0422c71056bf98f36123d182bb84ab",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-csharp-pro",
+          "root": "plugins/jvm-languages/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/csharp-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/jvm-languages/agents/csharp-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "csharp-pro",
+            "path": "plugins/jvm-languages/agents/csharp-pro.md",
+            "source_digest": "e82d6c7995390e91228a9ceedee6bfa62808fe920980f11d78ab0d3ef0422539",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-django-pro",
+          "root": "plugins/api-scaffolding/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/django-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/api-scaffolding/agents/django-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "django-pro",
+            "path": "plugins/api-scaffolding/agents/django-pro.md",
+            "source_digest": "96e46752dc72c1111bb1e633d3a4afd4f2c496b460ed984376f2476f8d07499a",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-elixir-pro",
+          "root": "plugins/functional-programming/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/elixir-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/functional-programming/agents/elixir-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "elixir-pro",
+            "path": "plugins/functional-programming/agents/elixir-pro.md",
+            "source_digest": "b71d632762557ab2e65c061f0af23eea0655369d3068647ae56966f119533a08",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-fastapi-pro",
+          "root": "plugins/api-scaffolding/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/fastapi-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/api-scaffolding/agents/fastapi-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "fastapi-pro",
+            "path": "plugins/api-scaffolding/agents/fastapi-pro.md",
+            "source_digest": "91a5c9508809c2c6a81d58292a1fd0b2debfec85ae67b7796a65571c5873c7c4",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-flutter-expert",
+          "root": "plugins/multi-platform-apps/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/flutter-expert. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/multi-platform-apps/agents/flutter-expert.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "flutter-expert",
+            "path": "plugins/multi-platform-apps/agents/flutter-expert.md",
+            "source_digest": "3d726438918b997e269f1e6032ad8d9d8bf2e78030365d7ffe55f8bc83805895",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-graphql-architect",
+          "root": "plugins/api-scaffolding/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/graphql-architect. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/api-scaffolding/agents/graphql-architect.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "graphql-architect",
+            "path": "plugins/api-scaffolding/agents/graphql-architect.md",
+            "source_digest": "378dd3852d07b664ab10b75dbcf404ea6db7e34d5bd74811ccc945db997af706",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-haskell-pro",
+          "root": "plugins/functional-programming/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/haskell-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/functional-programming/agents/haskell-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "haskell-pro",
+            "path": "plugins/functional-programming/agents/haskell-pro.md",
+            "source_digest": "2008710fb40c8dc757aba16bc164b18882e40ddee987c90825f8b9b528ded39f",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-incident-responder",
+          "root": "plugins/incident-response/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/incident-responder. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/incident-response/agents/incident-responder.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "incident-responder",
+            "path": "plugins/incident-response/agents/incident-responder.md",
+            "source_digest": "756a20cea3657dc119c1616073d223a8aa102f591479151419228f6d54f101cc",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-java-pro",
+          "root": "plugins/jvm-languages/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/java-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/jvm-languages/agents/java-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "java-pro",
+            "path": "plugins/jvm-languages/agents/java-pro.md",
+            "source_digest": "fa2b3d439c5da476adcb61b4fae1aa816ce9748a428f7c594cdc2907a3b244c9",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-monorepo-architect",
+          "root": "plugins/developer-essentials/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/monorepo-architect. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/developer-essentials/agents/monorepo-architect.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "monorepo-architect",
+            "path": "plugins/developer-essentials/agents/monorepo-architect.md",
+            "source_digest": "dba7cc40985e3386009a96e338421ec0d7e68c864abc503d9b2c0fdef12df5cb",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-php-pro",
+          "root": "plugins/web-scripting/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/php-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/web-scripting/agents/php-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "php-pro",
+            "path": "plugins/web-scripting/agents/php-pro.md",
+            "source_digest": "03ba878aa425a3bf955bfd4b0652e4e6528e0a5f23947cdbcc9a5cdddf1a7ec3",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-ruby-pro",
+          "root": "plugins/web-scripting/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/ruby-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/web-scripting/agents/ruby-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "ruby-pro",
+            "path": "plugins/web-scripting/agents/ruby-pro.md",
+            "source_digest": "aefcaf26b743922974462f2e0dc6885b06f9ae790a5a274f958f6e40cc5f0298",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-scala-pro",
+          "root": "plugins/jvm-languages/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/scala-pro. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/jvm-languages/agents/scala-pro.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "scala-pro",
+            "path": "plugins/jvm-languages/agents/scala-pro.md",
+            "source_digest": "4e9252834b78cbb60db96308305c31e3d3913d8fb6011075b9f9fc2e8d603dc0",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-tdd-orchestrator",
+          "root": "plugins/backend-development/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/development/tdd-orchestrator. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/backend-development/agents/tdd-orchestrator.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "tdd-orchestrator",
+            "path": "plugins/backend-development/agents/tdd-orchestrator.md",
+            "source_digest": "58fd3a44b1c277f02f6b88a83d2186f89b398e11b3e7818a7dc4a19c8fb95e60",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-productivity-debugger",
+          "root": "plugins/debugging-toolkit/agents",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/productivity/debugger. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/debugging-toolkit/agents/debugger.md. Original body and license preserved; no invented implementation playbook. Forge-generated entry references the original agent guide; no agent runtime, model invocation or source execution.",
+          "reviewed_guide": {
+            "name": "debugger",
+            "path": "plugins/debugging-toolkit/agents/debugger.md",
+            "source_digest": "eb40e4f488b8135382acadcd8d102795b7da4fb0c720d64dc4b96a75a71fd346",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-web-development-react-state-management",
+          "root": "plugins/frontend-mobile-development/skills/react-state-management",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+          "notices": [],
+          "attribution": "Owner-approved original-author restoration for intermediary cli-tool/components/skills/web-development/react-state-management. Exact original source https://github.com/wshobson/agents/blob/ade0c7a211d04fa1354d10359737cace5c6fc5b0/plugins/frontend-mobile-development/skills/react-state-management/SKILL.md. Original body and license preserved; no invented implementation playbook. "
         }
       ]
     }

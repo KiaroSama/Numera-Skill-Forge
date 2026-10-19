@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/scanning-tools",
+  "license": "MIT",
+  "name": "skill-security-scanning-tools",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

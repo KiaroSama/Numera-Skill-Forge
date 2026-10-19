@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-linux-shell-scripting/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f4e12762f01b901fb192c83f86249f1eb4a36cfcf7056fbfece6332183cce6b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-linux-shell-scripting/skills/linux-shell-scripting/SKILL.md",
+      "path": "cli-tool/components/skills/development/linux-shell-scripting/SKILL.md",
+      "size": 12408,
+      "source_digest": "c52e2c534cf0ceb268bc9aa0ef1b8d557a744ed1cbab3c2ed070519e60918b15"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "20194573c55cbee874f998368b8485185e012206a9457996e1798f03032416f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/linux-shell-scripting",
+  "schema_version": 1
+}

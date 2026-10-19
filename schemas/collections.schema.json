@@ -25,6 +25,14 @@
         "attribution": { "type": "string" },
         "reviewed_templates": { "type": "object", "additionalProperties": { "$ref": "#/$defs/digest" } },
         "reviewed_documents": { "type": "object", "additionalProperties": { "$ref": "#/$defs/digest" } },
+        "reviewed_guide": {
+          "type": "object", "required": ["name", "path", "source_digest", "adapter_version"],
+          "properties": {
+            "name": { "$ref": "#/$defs/id" }, "path": { "type": "string", "minLength": 1 },
+            "source_digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+            "adapter_version": { "const": 1 }
+          }, "additionalProperties": false
+        },
         "reviewed_design": {
           "type": "object", "required": ["name", "source_digest", "adapter_version"],
           "properties": {

@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-ml-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "c6c0c0f79f061a57b8beb3cf8c2d9deaf60a0f641f9b49e9f61d844f5afb707e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-ml-engineer/skills/ml-engineer/ml-engineer.md",
+      "path": "plugins/machine-learning-ops/agents/ml-engineer.md",
+      "size": 8840
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4515b2ca38261f764b0170bdb20b1fea3c6bc45510177182476a4782eadf6cd0",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/machine-learning-ops/agents",
+  "schema_version": 1
+}

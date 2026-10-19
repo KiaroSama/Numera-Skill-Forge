@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastapi-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "91a5c9508809c2c6a81d58292a1fd0b2debfec85ae67b7796a65571c5873c7c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastapi-pro/skills/fastapi-pro/fastapi-pro.md",
+      "path": "plugins/api-scaffolding/agents/fastapi-pro.md",
+      "size": 5959
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ae42aca737314f32cafa8ee1464a39988b715298acf95a750e049bf89c6c6b71",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/api-scaffolding/agents",
+  "schema_version": 1
+}

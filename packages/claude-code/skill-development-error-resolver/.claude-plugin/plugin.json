@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/error-resolver",
+  "license": "MIT",
+  "name": "skill-development-error-resolver",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

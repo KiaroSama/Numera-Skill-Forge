@@ -1,0 +1,117 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/LICENSE.txt",
+      "path": "skills/.curated/notion-knowledge-capture/LICENSE.txt",
+      "size": 1057
+    },
+    {
+      "digest": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/SKILL.md",
+      "path": "skills/.curated/notion-knowledge-capture/SKILL.md",
+      "size": 3316
+    },
+    {
+      "digest": "2d965e000d73b013a0a0ab50802fa53e81efb8a657dba49a3d79ec6562ab3d23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/evaluations/README.md",
+      "path": "skills/.curated/notion-knowledge-capture/evaluations/README.md",
+      "size": 3487
+    },
+    {
+      "digest": "ff08f8d2b7c0634314b70e96cc2f7fa8aa757683dd0652d99d665c678c6c53ba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/evaluations/conversation-to-wiki.json",
+      "path": "skills/.curated/notion-knowledge-capture/evaluations/conversation-to-wiki.json",
+      "size": 2035
+    },
+    {
+      "digest": "9f7c3de9390cb57dde8278fa0537bd3f779b4e7066b9a17ec72ec7a108e7ba32",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/evaluations/decision-record.json",
+      "path": "skills/.curated/notion-knowledge-capture/evaluations/decision-record.json",
+      "size": 2220
+    },
+    {
+      "digest": "2c78414d86d3d854ba51ff6c88ea5f1315268742816e2d3b13ee6848f1158a73",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/examples/conversation-to-faq.md",
+      "path": "skills/.curated/notion-knowledge-capture/examples/conversation-to-faq.md",
+      "size": 16242
+    },
+    {
+      "digest": "c6fc42d095d842ac55ab1a95322bab7d0146669089e0b0d470f791ad8477b586",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/examples/decision-capture.md",
+      "path": "skills/.curated/notion-knowledge-capture/examples/decision-capture.md",
+      "size": 3568
+    },
+    {
+      "digest": "5c13ac240bf07a0575b1295a6c5d7f95d0112702652d92870a9858e3c74033e7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/examples/how-to-guide.md",
+      "path": "skills/.curated/notion-knowledge-capture/examples/how-to-guide.md",
+      "size": 2838
+    },
+    {
+      "digest": "72190afe54894b8ef2566d6f6d60fdcfe39822f5a1db02e75c2186c6952ad83c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/database-best-practices.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/database-best-practices.md",
+      "size": 2876
+    },
+    {
+      "digest": "77d23a69b94cecaad520cb84f18b214994fa2c7873b88928f8d13da8b301c773",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/decision-log-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/decision-log-database.md",
+      "size": 2033
+    },
+    {
+      "digest": "727f6bb7a341e871ba8afe155f9b261fe6f5ecf7f5ca7a43db3ad646fee7244d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/documentation-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/documentation-database.md",
+      "size": 2745
+    },
+    {
+      "digest": "2fedbd91f02df20541fa14372661d82d19e04cb96d261a184a74aff5b90089be",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/faq-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/faq-database.md",
+      "size": 2037
+    },
+    {
+      "digest": "a6002d032b0563e0234a4c225226ea6a207b120e69b0c839315c8402813b30e5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/how-to-guide-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/how-to-guide-database.md",
+      "size": 1237
+    },
+    {
+      "digest": "8ceaa72bc7ab944ce1084df6233001c05b65d06ee5913a23caf760f248236e83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/learning-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/learning-database.md",
+      "size": 1322
+    },
+    {
+      "digest": "b08cfd417d2d61cda223c1d44c199b0a588e35c177f75328681c1b820b6450f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-knowledge-capture/skills/notion-knowledge-capture/reference/team-wiki-database.md",
+      "path": "skills/.curated/notion-knowledge-capture/reference/team-wiki-database.md",
+      "size": 927
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "348bc6d341453bab408b32c6c7f4fed82d7e278766c6c3e1050f56e5b87689a7",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.curated/notion-knowledge-capture",
+  "schema_version": 1
+}

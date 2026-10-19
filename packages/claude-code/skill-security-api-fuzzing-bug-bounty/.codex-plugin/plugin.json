@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/api-fuzzing-bug-bounty",
+  "license": "MIT",
+  "name": "skill-security-api-fuzzing-bug-bounty",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

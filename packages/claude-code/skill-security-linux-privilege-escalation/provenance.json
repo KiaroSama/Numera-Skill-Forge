@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-linux-privilege-escalation/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1a490010896032675b5e30dd4333c19e9dbb9a18a7cde15eb0132e5046d9a8fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-linux-privilege-escalation/skills/linux-privilege-escalation/SKILL.md",
+      "path": "cli-tool/components/skills/security/linux-privilege-escalation/SKILL.md",
+      "size": 11730,
+      "source_digest": "a683a60d807435f23477c35075e60b45ee70637a1b847be89e0191c0ef37e24d"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "47daa2efeb2375e9efb0fd2bcb6a9ec63f00aae959b386b15440841adb568ffe",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/linux-privilege-escalation",
+  "schema_version": 1
+}

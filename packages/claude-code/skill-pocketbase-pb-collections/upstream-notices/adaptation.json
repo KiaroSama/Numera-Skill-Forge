@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pb-collections",
+    "source_digest": "44c52bbbabb0cdce246e0e219027cc6272b876c0250f1f2cfac5e44016351627",
+    "source_name": "\"PocketBase Collections\""
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "670cecdcbe4261f8d2540093fd9de8ef0ac0109962229419f4f7120ac9572994",
+  "schema_version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pb-deploy",
+    "source_digest": "0b6a5946eca956b976f15280044d048217b25816439c40a51231b4fb0fb831e0",
+    "source_name": "\"PocketBase Deploy\""
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "f23d662b5576c633bb12d73ac9591106d6e25e0f46f7dd26dd4495c6b67060e2",
+  "schema_version": 1
+}

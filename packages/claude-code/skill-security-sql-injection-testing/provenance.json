@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-sql-injection-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5bb9463f4df59ea50eaa6e9d1a1c407dafc44fb68ef4900643f4198a1075a780",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-sql-injection-testing/skills/sql-injection-testing/SKILL.md",
+      "path": "cli-tool/components/skills/security/sql-injection-testing/SKILL.md",
+      "size": 11462,
+      "source_digest": "ef8cab6e5509f3f346f7c9c4b0beb8ef67e7a48937f424cd70e7a455c6041545"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "a10aa618d4d31199d96fe0a8c43193624e4a269b7caac26991dc8566d68b184d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/sql-injection-testing",
+  "schema_version": 1
+}

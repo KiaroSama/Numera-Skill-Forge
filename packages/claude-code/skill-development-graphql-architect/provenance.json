@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-graphql-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "378dd3852d07b664ab10b75dbcf404ea6db7e34d5bd74811ccc945db997af706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-graphql-architect/skills/graphql-architect/graphql-architect.md",
+      "path": "plugins/api-scaffolding/agents/graphql-architect.md",
+      "size": 6799
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4fe2ec6fadf2510d6507c12b647ec4c5042a37e708aa536df2c908abd2ee7938",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/api-scaffolding/agents",
+  "schema_version": 1
+}

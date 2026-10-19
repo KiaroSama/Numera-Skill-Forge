@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-monorepo-architect/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "dba7cc40985e3386009a96e338421ec0d7e68c864abc503d9b2c0fdef12df5cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-monorepo-architect/skills/monorepo-architect/monorepo-architect.md",
+      "path": "plugins/developer-essentials/agents/monorepo-architect.md",
+      "size": 1468
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "68e3e4aba78352eee1eb2a6d43f2eb542118a3ef38eaa6686b484bfe8e3eb29b",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/developer-essentials/agents",
+  "schema_version": 1
+}

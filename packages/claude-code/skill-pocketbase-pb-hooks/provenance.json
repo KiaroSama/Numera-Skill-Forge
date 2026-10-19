@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-hooks/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "50f958362b0c4269641f0e2a16fc0c30193a304490a298eb7aa8a1535439030b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-hooks/skills/pb-hooks/SKILL.md",
+      "path": "cli-tool/components/skills/pocketbase/pb-hooks/SKILL.md",
+      "size": 16536,
+      "source_digest": "edb6e86f263e4ebe1090bbc8b99d1018aaba6bbb9ea9b041c8a99a639de1ad31"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1906c6701000d43b4f8923c6ced8808a72e26b46f65719a0f47ea6a56c8c67c3",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/pocketbase/pb-hooks",
+  "schema_version": 1
+}

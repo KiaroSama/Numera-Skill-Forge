@@ -1,0 +1,30 @@
+{
+  "attribution": "Original source: nextlevelbuilder/ui-ux-pro-max-skill at caaa535c0a97ffcb8f41654a44e770e4942e5105. All 27 selected aggregator files match verified original native variants (.codex entry and .gemini core.py); original bytes, CRLF, companions and modes unchanged. Original MIT and applicable intermediary MIT/CC-BY-4.0 notices retain their respective scope. Forge only reads frontmatter without normalization; no upstream script execution or service activation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+      "license": "MIT",
+      "path": "registry/licenses/738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014.txt",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/caaa535c0a97ffcb8f41654a44e770e4942e5105/LICENSE"
+    },
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "license": "MIT",
+      "path": "registry/licenses/af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE"
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "license": "CC-BY-4.0",
+      "path": "registry/licenses/deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf.txt",
+      "source": "https://github.com/sickn33/antigravity-awesome-skills/blob/d25d06c29b32148be51505c5c9b84b3e38e0e2b1/LICENSE-CONTENT"
+    },
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/LICENSE"
+    }
+  ]
+}

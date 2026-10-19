@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-ethical-hacking-methodology/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "e2e10d57dda3671793e4de3ef2b61ebb0b802cc06eea02733078f9337bec2deb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-ethical-hacking-methodology/skills/ethical-hacking-methodology/SKILL.md",
+      "path": "cli-tool/components/skills/security/ethical-hacking-methodology/SKILL.md",
+      "size": 10882,
+      "source_digest": "5983de61a40f364f68de685646aceafcced7f4036185d6a628c1265961fa787e"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b4753971e99c66dc6c805923883b512c45ac263b1ba85e0c4a8e0b88f087da51",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/ethical-hacking-methodology",
+  "schema_version": 1
+}

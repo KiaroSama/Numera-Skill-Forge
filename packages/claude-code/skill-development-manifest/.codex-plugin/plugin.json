@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/manifest",
+  "license": "MIT",
+  "name": "skill-development-manifest",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

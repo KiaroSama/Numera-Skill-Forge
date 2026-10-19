@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "error-resolver",
+    "source_digest": "5864ed0414f31a138a5d41dc7b50f3acd31c5adc0cfc911c434f2f6605fb0d7a",
+    "source_name": "Error Resolver"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "bf4b3a7f476bf793cf317ed790398d9c8a7c63ada5cf635c96a22471fdf6ab46",
+  "schema_version": 1
+}

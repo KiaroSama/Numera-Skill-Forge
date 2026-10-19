@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/ethical-hacking-methodology",
+  "license": "MIT",
+  "name": "skill-security-ethical-hacking-methodology",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/linux-privilege-escalation",
+  "license": "MIT",
+  "name": "skill-security-linux-privilege-escalation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

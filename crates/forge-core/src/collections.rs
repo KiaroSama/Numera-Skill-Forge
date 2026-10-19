@@ -16,6 +16,7 @@ mod delivery;
 pub(crate) mod design;
 mod design_accept;
 mod design_review;
+pub(crate) mod guide;
 pub use design_accept::accept as design_accept;
 pub use design_review::{list as design_list, review as design_review};
 pub(crate) mod model;
@@ -96,8 +97,10 @@ fn selection(tree: &[Blob], skill: &Skill) -> Result<Vec<Blob>> {
     let selected = tree
         .iter()
         .filter(|b| {
-            b.path.starts_with(&format!("{}/", skill.root))
-                || b.path == skill.license_path
+            skill.reviewed_guide.as_ref().map_or_else(
+                || b.path.starts_with(&format!("{}/", skill.root)),
+                |g| b.path == g.path,
+            ) || b.path == skill.license_path
                 || (policy::license(&b.path) && !b.path.contains('/'))
         })
         .cloned()
@@ -121,7 +124,10 @@ fn files(
     payload: &BTreeMap<String, Vec<u8>>,
 ) -> Result<Vec<File>> {
     let entry = format!("{}/SKILL.md", skill.root);
-    let emitted = if let Some(approval) = &skill.reviewed_design {
+    let emitted = if let Some(approval) = &skill.reviewed_guide {
+        guide::source(skill, payload)?;
+        guide::entry(approval)
+    } else if let Some(approval) = &skill.reviewed_design {
         design::source(skill, payload)?;
         design::entry(approval)
     } else {
@@ -134,11 +140,8 @@ fn files(
     };
     let text = std::str::from_utf8(&emitted)
         .map_err(|_| Error::new("encoding", "SKILL.md is not UTF-8"))?;
-    let front = text
-        .strip_prefix("---\n")
-        .and_then(|s| s.split_once("\n---"))
-        .ok_or_else(|| Error::new("frontmatter", "Skill requires original frontmatter"))?
-        .0;
+    let front = validation::frontmatter(text)
+        .ok_or_else(|| Error::new("frontmatter", "Skill requires original frontmatter"))?;
     let metadata: Value = serde_yaml_ng::from_str(front)
         .map_err(|_| Error::new("frontmatter", "Invalid original skill frontmatter"))?;
     let name = metadata["name"]
@@ -192,7 +195,15 @@ fn package(
             adaptation::payload(skill, &file.path, &payload[&file.path])?,
         );
     }
-    if let Some(approval) = &skill.reviewed_design {
+    if let Some(approval) = &skill.reviewed_guide {
+        outputs.insert(
+            format!(
+                "packages/claude-code/{}/skills/{}/SKILL.md",
+                skill.id, approval.name
+            ),
+            guide::entry(approval),
+        );
+    } else if let Some(approval) = &skill.reviewed_design {
         outputs.insert(
             format!(
                 "packages/claude-code/{}/skills/{}/SKILL.md",
@@ -246,6 +257,7 @@ fn package(
             generated,
             delivery: BTreeMap::new(),
             reviewed_design: skill.reviewed_design.clone(),
+            reviewed_guide: skill.reviewed_guide.clone(),
         },
         outputs,
     ))
@@ -371,7 +383,7 @@ fn promote(
 pub use sync::execute as sync;
 
 fn catalog_values(state: &Lock) -> Vec<(String, Value)> {
-    let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":if a.reviewed_design.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})).collect::<Vec<_>>();
+    let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":if a.reviewed_design.is_some() || a.reviewed_guide.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})).collect::<Vec<_>>();
     vec![
         (
             MARKETPLACE.into(),
@@ -535,6 +547,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
         }
         adaptation::verify(root, skill, accepted)?;
         design::verify(root, skill, accepted)?;
+        guide::verify(root, skill, accepted)?;
         for file in &accepted.files {
             if policy::protected(&file.path)
                 && skill.reviewed_templates.get(&file.path) != Some(&file.digest)

@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-state-management/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "de147720d385f3b000cdca88e237e0d692fd52277075c0a50e73f54695ccac3c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-react-state-management/skills/react-state-management/SKILL.md",
+      "path": "plugins/frontend-mobile-development/skills/react-state-management/SKILL.md",
+      "size": 11740
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b4db8cefb56fc684d4271ac853d803a7554ed3abbfad55ae52d788f8675121c5",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/frontend-mobile-development/skills/react-state-management",
+  "schema_version": 1
+}

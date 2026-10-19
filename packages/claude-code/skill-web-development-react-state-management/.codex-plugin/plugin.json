@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/frontend-mobile-development/skills/react-state-management",
+  "license": "MIT",
+  "name": "skill-web-development-react-state-management",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

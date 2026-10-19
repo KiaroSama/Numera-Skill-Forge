@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/html-injection-testing",
+  "license": "MIT",
+  "name": "skill-security-html-injection-testing",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

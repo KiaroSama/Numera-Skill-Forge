@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/frontend-mobile-development/skills/react-state-management",
+  "license": "MIT",
+  "name": "skill-web-development-react-state-management",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

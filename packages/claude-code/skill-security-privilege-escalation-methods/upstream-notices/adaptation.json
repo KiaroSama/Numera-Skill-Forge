@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "privilege-escalation-methods",
+    "source_digest": "230ebe3a0dd2d9a40216bb993cc7d41525f1a4e8b31185097d51a6a83f5dc7db",
+    "source_name": "Privilege Escalation Methods"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "19c03ff3e1b8214ffc097355ded17f3c5cf1183710187bc76c930150bb0cf657",
+  "schema_version": 1
+}

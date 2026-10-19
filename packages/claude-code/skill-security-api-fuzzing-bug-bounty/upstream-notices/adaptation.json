@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "api-fuzzing-bug-bounty",
+    "source_digest": "6e252cef1aa1d4d125c6f15b81f6edb0728bcb698f6dfc390a9695a37f63e2e3",
+    "source_name": "API Fuzzing for Bug Bounty"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "b09dbcb762f0c1a2315761b9d07b47a6fdc31a68a0cb888e40cb12b54c3ede68",
+  "schema_version": 1
+}

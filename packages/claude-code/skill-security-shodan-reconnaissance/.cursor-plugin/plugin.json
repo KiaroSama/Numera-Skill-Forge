@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/shodan-reconnaissance",
+  "license": "MIT",
+  "name": "skill-security-shodan-reconnaissance",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

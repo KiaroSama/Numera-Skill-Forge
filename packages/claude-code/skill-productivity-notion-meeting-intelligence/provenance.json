@@ -1,0 +1,124 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/LICENSE.txt",
+      "path": "skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+      "size": 1057
+    },
+    {
+      "digest": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/SKILL.md",
+      "path": "skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "size": 3418
+    },
+    {
+      "digest": "0991780b6c2a29a2ef84b8a37f5e3ea0dc898d31118b8968bbfe26680ac73f24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/evaluations/README.md",
+      "path": "skills/.curated/notion-meeting-intelligence/evaluations/README.md",
+      "size": 3971
+    },
+    {
+      "digest": "3ba23fc1fc3edfa26e51afff0d92f88f41e93e0f8a20852a19d90cd9354f299a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/evaluations/decision-meeting-prep.json",
+      "path": "skills/.curated/notion-meeting-intelligence/evaluations/decision-meeting-prep.json",
+      "size": 3441
+    },
+    {
+      "digest": "3f7b065f14e68dc1f0d1ffc3720fb0cd32fcf9cdf23365d935338425b2ce4021",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/evaluations/status-meeting-prep.json",
+      "path": "skills/.curated/notion-meeting-intelligence/evaluations/status-meeting-prep.json",
+      "size": 3312
+    },
+    {
+      "digest": "5371f1d9df68454df163ffc28e69ad8f2434ad47c19ebe19099d1aeaea0cc3f5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/examples/customer-meeting.md",
+      "path": "skills/.curated/notion-meeting-intelligence/examples/customer-meeting.md",
+      "size": 3133
+    },
+    {
+      "digest": "e39b93e00564cc7631fcc95ba948f9d6fb94e5a7f23eb6100de6b421bddaa4fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/examples/executive-review.md",
+      "path": "skills/.curated/notion-meeting-intelligence/examples/executive-review.md",
+      "size": 2150
+    },
+    {
+      "digest": "511decfaed53dcf8462874a4f6cafe1656dca635fa4bcaf9196a354a3f1a86b5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/examples/project-decision.md",
+      "path": "skills/.curated/notion-meeting-intelligence/examples/project-decision.md",
+      "size": 12840
+    },
+    {
+      "digest": "e6ad6b8b3ec26b8181ad61c2cb9f91897d023749dd6e57a2c86559c0130f2776",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/examples/sprint-planning.md",
+      "path": "skills/.curated/notion-meeting-intelligence/examples/sprint-planning.md",
+      "size": 2100
+    },
+    {
+      "digest": "4f118f04c8e5eef18f55faf12ecbdb7f8243cd189a4773c98c0d61b822706b14",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/brainstorming-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/brainstorming-template.md",
+      "size": 1480
+    },
+    {
+      "digest": "f0b46b0f71a2886bd72af7f9b219ece1d68742b5fba6e2a7fe78f9c65f140d98",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/decision-meeting-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/decision-meeting-template.md",
+      "size": 1825
+    },
+    {
+      "digest": "1c7f328738b5d6139b22e977608b5ef47f3fa45d95211991168efc632a73c7ae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/one-on-one-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/one-on-one-template.md",
+      "size": 932
+    },
+    {
+      "digest": "b1e18f96323ce83405f25fa24833b3d3e97fbab86e20c99e6ccfb9a826bd354c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/retrospective-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/retrospective-template.md",
+      "size": 940
+    },
+    {
+      "digest": "1eed8455dc48c330eaecd0f79cbd18150973d47b93329826c7ae611a10dece66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/sprint-planning-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/sprint-planning-template.md",
+      "size": 1301
+    },
+    {
+      "digest": "c5f53adde43d8a9333555ce0e4634b85f4f6a44faa560f3a250c6104eebe4f17",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/status-update-template.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/status-update-template.md",
+      "size": 1356
+    },
+    {
+      "digest": "a29b16db340c153a3a32579b7031809b398ed319210fbea2d29ec424c68d147e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-notion-meeting-intelligence/skills/notion-meeting-intelligence/reference/template-selection-guide.md",
+      "path": "skills/.curated/notion-meeting-intelligence/reference/template-selection-guide.md",
+      "size": 1948
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "820f8aacd12b4d2d58ce59f0ef04b0a47361cb41cd2dbf02efbf5e0100425b29",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.curated/notion-meeting-intelligence",
+  "schema_version": 1
+}

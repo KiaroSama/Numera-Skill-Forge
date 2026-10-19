@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pb-api-rules",
+    "source_digest": "500b724b5058a5f65b61a3ac28216a87a3465f88b8d16ae328a985e425f079fd",
+    "source_name": "\"PocketBase API Rules\""
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "6184de61820b1151f108f38b6d251d6e9fb661beb93d51fd106e4bf18da5a57b",
+  "schema_version": 1
+}

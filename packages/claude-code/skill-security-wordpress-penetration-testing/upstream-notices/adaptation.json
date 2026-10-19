@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "wordpress-penetration-testing",
+    "source_digest": "a123814a39894f16d274413b2b335fcc353fb2cea00a4a46c524967c50f216c4",
+    "source_name": "WordPress Penetration Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "365c3ed4686e71ab9204607f736dfcb6fa044448fc89ebeea38d715035209088",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/framework-migration/skills/database-migration",
+  "license": "MIT",
+  "name": "skill-database-database-migration",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

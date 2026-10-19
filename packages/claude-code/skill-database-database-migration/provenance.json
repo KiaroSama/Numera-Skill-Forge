@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-database-migration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "ea1e2951e23f3db0d5686c4e60d84bb3518e5e1014e80bf7652c6b572c3ed77c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-database-migration/skills/database-migration/SKILL.md",
+      "path": "plugins/framework-migration/skills/database-migration/SKILL.md",
+      "size": 10787
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "69c5d661b8209169b747b1a9f73f9d035ecae7c4fafdc654c2f61afc916bc650",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/framework-migration/skills/database-migration",
+  "schema_version": 1
+}

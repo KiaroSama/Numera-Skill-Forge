@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "claude-code-guide",
+    "source_digest": "94144e941761fa3fc7c849185d22ea472bd57b35dc94a97ad0aebbdbf8af5eed",
+    "source_name": "Claude Code Guide"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "51299f10a96b01e6f46cbce10454db6ede6b8079c75da83870093762fc4a77a6",
+  "schema_version": 1
+}

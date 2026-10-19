@@ -1,0 +1,118 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "bf4b3a7f476bf793cf317ed790398d9c8a7c63ada5cf635c96a22471fdf6ab46",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/SKILL.md",
+      "path": "cli-tool/components/skills/development/error-resolver/SKILL.md",
+      "size": 8109,
+      "source_digest": "5864ed0414f31a138a5d41dc7b50f3acd31c5adc0cfc911c434f2f6605fb0d7a"
+    },
+    {
+      "digest": "a1332b7d6ccc932c01d075a3ef3dce4879e5ced72dd70d0a172df86e42cc4a11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/analysis/root-cause.md",
+      "path": "cli-tool/components/skills/development/error-resolver/analysis/root-cause.md",
+      "size": 7512
+    },
+    {
+      "digest": "1cb049231e9e6e18e9739d37a05195baf47e56a7b97fca8fec5c1904524b0464",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/analysis/stack-trace.md",
+      "path": "cli-tool/components/skills/development/error-resolver/analysis/stack-trace.md",
+      "size": 8158
+    },
+    {
+      "digest": "af34da7a4a07f362dc46b8b90cc23805f175336cbd9eddbfc2f7508463b34f8d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/database.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/database.md",
+      "size": 10149
+    },
+    {
+      "digest": "d960f078a3f85d00708d78e5132350e1138cc31bb157abc62a36ad724e374507",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/docker.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/docker.md",
+      "size": 9294
+    },
+    {
+      "digest": "7f2080a83abc8994791e6c19c54860aef6321f69e1bb3059b2a58c1f9e12e77f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/git.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/git.md",
+      "size": 9158
+    },
+    {
+      "digest": "c2a6a0944a3fbe088c5e2f18e42662b5564b59bf1c1e582dc38f798faa50a2a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/go.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/go.md",
+      "size": 9010
+    },
+    {
+      "digest": "1d68932c3bbf2b8398ce1ee2381dd39d68508b64cb41a025477a6f8254371349",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/network.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/network.md",
+      "size": 11835
+    },
+    {
+      "digest": "f5b548a6ca18d475aad683bfb54ad4c3b4e088c614261ff1d04d691b366d83d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/nodejs.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/nodejs.md",
+      "size": 10608
+    },
+    {
+      "digest": "ae5ad477e96e303ffb0efde0af6a0b57fcc49fac64f3b3c106203235c73cbe05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/python.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/python.md",
+      "size": 10768
+    },
+    {
+      "digest": "354a31750bc2b4141214cab974dce8e2424ff71dee958c5f6ae0962ce78acf76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/react.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/react.md",
+      "size": 11410
+    },
+    {
+      "digest": "8968e4cfce5786f793499321745a7f80d0402b9a32b50cea2461d0e541bbc4d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/patterns/rust.md",
+      "path": "cli-tool/components/skills/development/error-resolver/patterns/rust.md",
+      "size": 10709
+    },
+    {
+      "digest": "6ba92a66806196f140736bccd5fdf82f193ddf5d62cbd9194727ee57e8f11f09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/replay/README.md",
+      "path": "cli-tool/components/skills/development/error-resolver/replay/README.md",
+      "size": 6710
+    },
+    {
+      "digest": "5820a6457ea5a1491cc8aacd41681eaff3de3dbc1b0409ce50dea3152acfaf1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-error-resolver/skills/error-resolver/replay/solution-template.yaml",
+      "path": "cli-tool/components/skills/development/error-resolver/replay/solution-template.yaml",
+      "size": 2101
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ad3324714a039ed4adc1d3522e6f53529d1592f4463d133a31cb46df61a5158d",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/error-resolver",
+  "schema_version": 1
+}

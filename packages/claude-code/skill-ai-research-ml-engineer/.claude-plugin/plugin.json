@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed original guide adapter: plugins/machine-learning-ops/agents",
+  "license": "MIT",
+  "name": "skill-ai-research-ml-engineer",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

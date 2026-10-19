@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-migrations/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "c8ff8e2c8b65ae2c05c3b75e5013c0d3f6576b8f700336216228da6d056dceac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-pocketbase-pb-migrations/skills/pb-migrations/SKILL.md",
+      "path": "cli-tool/components/skills/pocketbase/pb-migrations/SKILL.md",
+      "size": 9111,
+      "source_digest": "06fd5f1047866f343761b437966420629a2f253c0dcbe30a7cd7b4624a41ab64"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7dff099f694aa57aa7b8cf2e133f9e614f14914ca444d096ee527eba2dd81f6b",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/pocketbase/pb-migrations",
+  "schema_version": 1
+}

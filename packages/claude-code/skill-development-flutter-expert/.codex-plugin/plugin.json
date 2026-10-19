@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/multi-platform-apps/agents",
+  "license": "MIT",
+  "name": "skill-development-flutter-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

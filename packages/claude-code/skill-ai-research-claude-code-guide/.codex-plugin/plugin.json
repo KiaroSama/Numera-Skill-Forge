@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/ai-research/claude-code-guide",
+  "license": "MIT",
+  "name": "skill-ai-research-claude-code-guide",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pb-migrations",
+    "source_digest": "06fd5f1047866f343761b437966420629a2f253c0dcbe30a7cd7b4624a41ab64",
+    "source_name": "\"PocketBase Migrations\""
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "c8ff8e2c8b65ae2c05c3b75e5013c0d3f6576b8f700336216228da6d056dceac",
+  "schema_version": 1
+}

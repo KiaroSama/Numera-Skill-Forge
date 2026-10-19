@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "telegram-bot-builder",
+    "source_digest": "a3e801fbb50296f87d60caa7f4c3812056f59539827a2d449f88223af1b43068",
+    "source_name": "Telegram Bot Builder"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "98f015799f808d9ff947b978a69f545e256c781208c52df4829e256b94dd42d3",
+  "schema_version": 1
+}

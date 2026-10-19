@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: plugins/frontend-mobile-development/skills/react-state-management",
+  "license": "MIT",
+  "name": "skill-web-development-react-state-management",
+  "version": "1.0.0"
+}

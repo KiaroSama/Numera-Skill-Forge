@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-database-optimizer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "c64464544de7e7755e8394c48074065f716e1ece612cecd14ffe9dff51d2826f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-database-optimizer/skills/database-optimizer/database-optimizer.md",
+      "path": "plugins/database-cloud-optimization/agents/database-optimizer.md",
+      "size": 9779
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "9ba00b7602360de9f288c8d13dd5c174583576b685cbd0b2c0c6237a6cb58838",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/database-cloud-optimization/agents",
+  "schema_version": 1
+}

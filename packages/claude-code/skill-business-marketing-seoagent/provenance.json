@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seoagent/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "07b3f89eaae1eb6bd749a56b23c94145197e026a9ebedad193ab0dfaff716495",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-business-marketing-seoagent/skills/seoagent/SKILL.md",
+      "path": "cli-tool/components/skills/business-marketing/seoagent/SKILL.md",
+      "size": 5620,
+      "source_digest": "b234149cba0173cca56205389e72bc6ef123d795f5aa9fc1734dfcca1b162d00"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4ba2b1d112b6e6e7fc76dd6b7e4dd434e7c4beb2f8cd19fe322b98fbf78f838e",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/business-marketing/seoagent",
+  "schema_version": 1
+}

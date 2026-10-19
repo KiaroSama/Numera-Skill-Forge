@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/cicd-automation/agents",
+  "license": "MIT",
+  "name": "skill-development-cloud-architect",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

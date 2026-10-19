@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-manifest/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "6ec9e431abc5fac6ccdc4c15f4fc0a946093aed8cd2f90684cb984d2f80746c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-manifest/skills/manifest/SKILL.md",
+      "path": "cli-tool/components/skills/development/manifest/SKILL.md",
+      "size": 3124,
+      "source_digest": "c8ee6d3342d61f58d00b000d55fe8d225ae6d4599fce477b150de7e29442e57c"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "d6f79356dd0a01f2ad575f154a5fa0d3d6d0f9f0340a980c6d805cb3fa25ee15",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/manifest",
+  "schema_version": 1
+}

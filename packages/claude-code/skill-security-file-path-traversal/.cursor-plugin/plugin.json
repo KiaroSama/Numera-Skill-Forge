@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/file-path-traversal",
+  "license": "MIT",
+  "name": "skill-security-file-path-traversal",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

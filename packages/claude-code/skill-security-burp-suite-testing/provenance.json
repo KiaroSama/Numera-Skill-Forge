@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-burp-suite-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "57cc116cdc19f4506d541ad31514e5ab79410d4ad22eee15b8c31e957090800e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-burp-suite-testing/skills/burp-suite-testing/SKILL.md",
+      "path": "cli-tool/components/skills/security/burp-suite-testing/SKILL.md",
+      "size": 10902,
+      "source_digest": "8b0f7b7dc83a26af06cd0d22f25e01711f00c2244ffed0d31c8031570fbf7ef0"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "66f4a50f1d052b7606ca3d143dc9939d4f88f4d9c4498c92d18c79c8359192ff",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/burp-suite-testing",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-scala-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "4e9252834b78cbb60db96308305c31e3d3913d8fb6011075b9f9fc2e8d603dc0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-scala-pro/skills/scala-pro/scala-pro.md",
+      "path": "plugins/jvm-languages/agents/scala-pro.md",
+      "size": 5093
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1bcfc5362d2d7b7c9722f518181cafa221c8e6171ae769870177ed2c9075c092",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/jvm-languages/agents",
+  "schema_version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/ai-research/claude-code-guide",
+  "license": "MIT",
+  "name": "skill-ai-research-claude-code-guide",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

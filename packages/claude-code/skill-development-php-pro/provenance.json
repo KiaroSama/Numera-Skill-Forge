@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-php-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "03ba878aa425a3bf955bfd4b0652e4e6528e0a5f23947cdbcc9a5cdddf1a7ec3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-php-pro/skills/php-pro/php-pro.md",
+      "path": "plugins/web-scripting/agents/php-pro.md",
+      "size": 2064
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f665a15705e71fabb84e95f64c9da83b8ed1f995d913f5c708d29a145144ba78",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/web-scripting/agents",
+  "schema_version": 1
+}

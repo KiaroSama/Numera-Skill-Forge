@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/pocketbase/pb-collections",
+  "license": "MIT",
+  "name": "skill-pocketbase-pb-collections",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

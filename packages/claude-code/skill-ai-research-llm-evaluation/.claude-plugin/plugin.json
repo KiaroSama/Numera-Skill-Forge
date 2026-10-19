@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/llm-application-dev/skills/llm-evaluation",
+  "license": "MIT",
+  "name": "skill-ai-research-llm-evaluation",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

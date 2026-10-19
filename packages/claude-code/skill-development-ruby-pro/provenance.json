@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-ruby-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "aefcaf26b743922974462f2e0dc6885b06f9ae790a5a274f958f6e40cc5f0298",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-ruby-pro/skills/ruby-pro/ruby-pro.md",
+      "path": "plugins/web-scripting/agents/ruby-pro.md",
+      "size": 1308
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "040c60c8ca29011e4b5f2f9de2916a0ed07bb9ca049baeae035c4a6ba49c655d",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/web-scripting/agents",
+  "schema_version": 1
+}

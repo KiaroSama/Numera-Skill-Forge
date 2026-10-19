@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-smtp-penetration-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1f2a1ca7b95f91f038f6fb654ac4c676b0263ac5c9a6cd11df4adb98324eb7f6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-smtp-penetration-testing/skills/smtp-penetration-testing/SKILL.md",
+      "path": "cli-tool/components/skills/security/smtp-penetration-testing/SKILL.md",
+      "size": 12156,
+      "source_digest": "0994f7796d22b4d7bbd81bbcb132de00498ccbf306d3fb35e45d765725e7564a"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "97c228582daaf64058d412110ad7b5f817ebc8db690ff97aae06340ee04fc260",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/smtp-penetration-testing",
+  "schema_version": 1
+}

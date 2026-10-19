@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/telegram-bot-builder",
+  "license": "MIT",
+  "name": "skill-development-telegram-bot-builder",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

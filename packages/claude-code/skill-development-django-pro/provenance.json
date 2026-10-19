@@ -1,0 +1,26 @@
+{
+  "collection": "wshobson-guides",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-django-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "digest": "96e46752dc72c1111bb1e633d3a4afd4f2c496b460ed984376f2476f8d07499a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-django-pro/skills/django-pro/django-pro.md",
+      "path": "plugins/api-scaffolding/agents/django-pro.md",
+      "size": 6510
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f5c3d373dca15ad74858e799a8ef3de7c01d6ea95e757cfb553235e44607b8f4",
+  "repository": "https://github.com/wshobson/agents",
+  "revision": "ade0c7a211d04fa1354d10359737cace5c6fc5b0",
+  "root": "plugins/api-scaffolding/agents",
+  "schema_version": 1
+}

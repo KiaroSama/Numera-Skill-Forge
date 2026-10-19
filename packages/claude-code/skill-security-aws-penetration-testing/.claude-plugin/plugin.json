@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/security/aws-penetration-testing",
+  "license": "MIT",
+  "name": "skill-security-aws-penetration-testing",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "version": "1.0.0"
+}

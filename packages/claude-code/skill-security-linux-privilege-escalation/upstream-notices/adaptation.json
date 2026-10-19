@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "linux-privilege-escalation",
+    "source_digest": "a683a60d807435f23477c35075e60b45ee70637a1b847be89e0191c0ef37e24d",
+    "source_name": "Linux Privilege Escalation"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "1a490010896032675b5e30dd4333c19e9dbb9a18a7cde15eb0132e5046d9a8fb",
+  "schema_version": 1
+}

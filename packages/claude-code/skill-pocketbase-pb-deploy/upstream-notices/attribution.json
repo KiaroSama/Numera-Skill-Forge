@@ -1,0 +1,12 @@
+{
+  "attribution": "Original source: bolkhovsky/claude-code-templates at d6838b8eedb9b76c9698871ac620e17bcc456f87/cli-tool/components/skills/pocketbase/pb-deploy. Owner-approved technical name normalization only; original entry retained separately, body and all companions unchanged. Original and intermediary terms retain their respective scope; no upstream script execution.",
+  "payload": "Reviewed frontmatter name and directory normalized by Forge; original entry retained separately, body and companions unchanged",
+  "sources": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "license": "MIT",
+      "path": "registry/licenses/15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705.txt",
+      "source": "https://github.com/bolkhovsky/claude-code-templates/blob/d6838b8eedb9b76c9698871ac620e17bcc456f87/LICENSE"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed original guide adapter: plugins/jvm-languages/agents",
+  "license": "MIT",
+  "name": "skill-development-csharp-pro",
+  "repository": "https://github.com/wshobson/agents",
+  "version": "1.0.0"
+}

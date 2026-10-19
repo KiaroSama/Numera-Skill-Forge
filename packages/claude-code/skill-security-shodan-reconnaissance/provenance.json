@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-shodan-reconnaissance/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "1bf8aa15dae0b6f901f0ca2293f7f122e36d950efff4e690acd6f3453c506a4f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-shodan-reconnaissance/skills/shodan-reconnaissance/SKILL.md",
+      "path": "cli-tool/components/skills/security/shodan-reconnaissance/SKILL.md",
+      "size": 13806,
+      "source_digest": "035ae5d1c954095fecf684e5ce6e368d2e4e71455f7f1f7f5fcdf222159962c1"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b26b84d8079e4854f89132c7dbf63e13803d18bee67ccc79903a4839f1d057f5",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/security/shodan-reconnaissance",
+  "schema_version": 1
+}

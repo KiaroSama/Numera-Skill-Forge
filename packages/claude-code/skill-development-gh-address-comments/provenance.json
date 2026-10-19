@@ -1,0 +1,33 @@
+{
+  "collection": "openai-skills",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gh-address-comments/skills/gh-address-comments/LICENSE.txt",
+      "path": "skills/.curated/gh-address-comments/LICENSE.txt",
+      "size": 11357
+    },
+    {
+      "digest": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gh-address-comments/skills/gh-address-comments/SKILL.md",
+      "path": "skills/.curated/gh-address-comments/SKILL.md",
+      "size": 1278
+    },
+    {
+      "digest": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-gh-address-comments/skills/gh-address-comments/scripts/fetch_comments.py",
+      "path": "skills/.curated/gh-address-comments/scripts/fetch_comments.py",
+      "size": 6537
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8def683c1d77dec5d4b7545bc4f29d754a38e0b72ef5e5ad28e1513039afc858",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.curated/gh-address-comments",
+  "schema_version": 1
+}

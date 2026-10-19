@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "broken-authentication",
+    "source_digest": "70ff7a295178998f4bee5cff539b0094886b07d9ae3e12bdbdd505392215f793",
+    "source_name": "Broken Authentication Testing"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "36289965b69c82cbaff49efe25d96caf94aa71d0a8c139b1af8fff755634ef41",
+  "schema_version": 1
+}

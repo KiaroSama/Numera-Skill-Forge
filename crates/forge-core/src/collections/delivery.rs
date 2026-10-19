@@ -31,7 +31,7 @@ pub(super) fn catalogs(state: &Lock) -> [(String, Value); 1] {
         .map(|a| {
             json!({"name":a.id,
         "source":format!("packages/claude-code/{}",a.id),
-        "description":if a.reviewed_design.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})
+        "description":if a.reviewed_design.is_some() || a.reviewed_guide.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})
         })
         .collect::<Vec<_>>();
     [(

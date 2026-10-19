@@ -72,7 +72,9 @@ pub fn entry_path(accepted: &Accepted) -> Option<String> {
 }
 
 pub fn description(accepted: &Accepted) -> String {
-    if accepted.reviewed_design.is_some() {
+    if accepted.reviewed_guide.is_some() {
+        format!("Reviewed original guide adapter: {}", accepted.root)
+    } else if accepted.reviewed_design.is_some() {
         format!(
             "Reviewed design adapter with original documents: {}",
             accepted.root

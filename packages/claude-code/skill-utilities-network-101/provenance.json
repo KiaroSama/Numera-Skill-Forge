@@ -1,0 +1,27 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-network-101/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "89eb475dcd3fad90ea8eb4b8ff372e9575dc135e63e526ec9457aa3f4d6a5946",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-utilities-network-101/skills/network-101/SKILL.md",
+      "path": "cli-tool/components/skills/utilities/network-101/SKILL.md",
+      "size": 7480,
+      "source_digest": "2ba73385c3ced4fcecd5c3ae917ae72c2f989c3b8a02d481e7fb6745da40c1fd"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7783d8309f61308f94eaf83208664502c34dad25e4611a763b996f811808956c",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/utilities/network-101",
+  "schema_version": 1
+}
