@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "cli-tool/components/skills/development/android-cicd/SKILL.md": {
+      "digest": "174181653943f9c555d703e375be018a47b451f03e13de9228ec4b8c34f74cd1",
+      "mode": "100644",
+      "output": "skills/android-cicd/SKILL.md"
+    }
+  },
+  "supplements": {
+    "registry/licenses/8a176e3265a9c9c8544731661f475a43b42dd844cd78551eb30655252966daff.txt": {
+      "digest": "8a176e3265a9c9c8544731661f475a43b42dd844cd78551eb30655252966daff",
+      "output": "skills/android-cicd/templates/gradle/signing.gradle",
+      "source": "https://registry.npmjs.org/android-cicd/-/android-cicd-1.0.4.tgz",
+      "license": "MIT",
+      "artifact": {
+        "digest": "439fb3a38843577be549420885851416fc7075ee52d692b037dd3d46080a6e94",
+        "member": "package/templates/gradle/signing.gradle",
+        "integrity": "sha512-U87Nhp5zSlsF4Mj9leFVRtdG6YuXPNAaYe9avNIRST6WGZlUJ7Pf/bJXmXVY7oh9jgvo0ApVqq4zHF8Vc6vZcg=="
+      }
+    },
+    "registry/licenses/c5c62865b0adcc6ab85ff83ce04e7ff36e44449fa5cd6f9ceacd5b0a6752900d.txt": {
+      "digest": "c5c62865b0adcc6ab85ff83ce04e7ff36e44449fa5cd6f9ceacd5b0a6752900d",
+      "output": "skills/android-cicd/LICENSE.npm.txt",
+      "source": "https://registry.npmjs.org/android-cicd/-/android-cicd-1.0.4.tgz",
+      "license": "MIT",
+      "artifact": {
+        "digest": "439fb3a38843577be549420885851416fc7075ee52d692b037dd3d46080a6e94",
+        "member": "package/LICENSE",
+        "integrity": "sha512-U87Nhp5zSlsF4Mj9leFVRtdG6YuXPNAaYe9avNIRST6WGZlUJ7Pf/bJXmXVY7oh9jgvo0ApVqq4zHF8Vc6vZcg=="
+      }
+    }
+  }
+}

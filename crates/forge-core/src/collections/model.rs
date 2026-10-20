@@ -35,6 +35,8 @@ pub struct Skill {
     pub reviewed_design: Option<ReviewedDesign>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub reviewed_guide: Option<ReviewedGuide>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_distribution: Option<ReviewedDistribution>,
 }
 #[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -50,6 +52,59 @@ pub struct ReviewedGuide {
     pub path: String,
     pub source_digest: String,
     pub adapter_version: u32,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedDistribution {
+    pub version: u32,
+    pub files: BTreeMap<String, ReviewedFile>,
+    #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
+    pub supplements: BTreeMap<String, ReviewedSupplement>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub obligations: Vec<ReviewedObligation>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub native: Option<ReviewedNative>,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedNative {
+    pub files: BTreeMap<String, String>,
+    pub hook_configs: Vec<String>,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedSupplement {
+    pub digest: String,
+    pub output: String,
+    pub source: String,
+    pub license: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub artifact: Option<ReviewedArtifact>,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedArtifact {
+    pub digest: String,
+    pub member: String,
+    pub integrity: String,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedObligation {
+    pub license: String,
+    pub files: Vec<String>,
+    pub notices: Vec<String>,
+    pub attribution: String,
+    pub source: String,
+}
+#[derive(Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct ReviewedFile {
+    pub digest: String,
+    pub mode: String,
+    pub output: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub change_notice: Option<String>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct ReviewedName {
@@ -91,6 +146,8 @@ pub struct Accepted {
     pub reviewed_design: Option<ReviewedDesign>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub reviewed_guide: Option<ReviewedGuide>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub reviewed_distribution: Option<ReviewedDistribution>,
 }
 #[derive(Serialize, Deserialize)]
 pub struct Lock {

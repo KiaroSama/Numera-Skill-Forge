@@ -1,0 +1,68 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "cd65d63069a730374bd8ff06899056143ca577debb728e3bb53baa514dca6c1c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/.env.example",
+      "path": "cli-tool/components/skills/analytics/google-analytics/.env.example",
+      "size": 1153
+    },
+    {
+      "digest": "a12ba83c02a9697e47240e68a150495ef86f30960815cfa757570d4482ad3e57",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/EXAMPLES.md",
+      "path": "cli-tool/components/skills/analytics/google-analytics/EXAMPLES.md",
+      "size": 13867
+    },
+    {
+      "digest": "df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/REFERENCE.md",
+      "path": "cli-tool/components/skills/analytics/google-analytics/REFERENCE.md",
+      "size": 8853
+    },
+    {
+      "digest": "55afa206d2802222b92d4ac8313c2d9632bb96b44c9f05ae687e3b5a48e3db91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/SKILL.md",
+      "path": "cli-tool/components/skills/analytics/google-analytics/SKILL.md",
+      "size": 4745
+    },
+    {
+      "digest": "43b4d7e742fd825c8dfb44d150505e7a39568861f947c12aacd66dd7fbe117a7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/requirements.txt",
+      "path": "cli-tool/components/skills/analytics/google-analytics/requirements.txt",
+      "size": 152
+    },
+    {
+      "digest": "33497a09af3a2ae1f232b3296f1024bd5265fc79981f3c9a17d11f79bdaba55f",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/scripts/analyze.py",
+      "path": "cli-tool/components/skills/analytics/google-analytics/scripts/analyze.py",
+      "size": 15777
+    },
+    {
+      "digest": "0549ea3c250bdad72376d5f45f7d51d78934c6e34125197c2ae827714806d0a7",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-analytics-google-analytics/skills/google-analytics/scripts/ga_client.py",
+      "path": "cli-tool/components/skills/analytics/google-analytics/scripts/ga_client.py",
+      "size": 11325
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "f70c9cd62bae54075c79346ae6cfc9186db33fe4f76e2b7174e2492bd52cff4a",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/analytics/google-analytics",
+  "schema_version": 1
+}

@@ -1,10 +1,6 @@
 # Completion of the remaining skill review
 
-**2026-10-19 update:** [72 additional packages](missing-skill-imports.md) resolve37name holds,
-9missing-companion roots,25original-guide cases and one exact CRLF root. Accepted inventory is1110; the original1038
-records remain unchanged. The historical counts/table below predate this update; resolved rows are
-superseded by the linked additions.77Templates roots and4scientific Office roots remain unbundled.
-The [current canonical-root outcome table](canonical-root-outcomes.md) lists all153 affected roots.
+**2026-10-20 update:** [107 additional packages](missing-skill-imports.md) now resolve the missing canonical inventory; accepted total is1145. The latest35 additions preserve all1110 preceding accepted objects, adding complete originals, reviewed layout/companion/compliance repairs and required DoorDash native bundles. Forty-six canonical roots remain held (42 Templates/four scientific Office) for exact original grants/source/compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
 
 The 299 previously held roots were checked against immutable originals, complete selected payloads,
 source grants, notices, native requirements and actual package admission. This pass adds **164**
@@ -15,6 +11,18 @@ restricted/missing-terms roots and the two REA maintainer exclusions remain unch
 Current inventory: **765 davila packages +180 other selected originals =945 packages**, with **7638**
 payload/notice records. All prior781 accepted lock records are unchanged. Source scripts, models,
 services, hooks and installation commands were inspected as data, never executed.
+
+## Additional requested source: Animate UI
+
+The supplied [Animate UI repository](https://github.com/imskyleen/animate-ui) contains an actual
+`skills/animate-ui` skill with40original files at
+[73e1dcc](https://github.com/imskyleen/animate-ui/tree/73e1dcc574b82244492566b3f5a67928d16967b5/skills/animate-ui).
+Its [root license](https://github.com/imskyleen/animate-ui/blob/73e1dcc574b82244492566b3f5a67928d16967b5/LICENSE.md)
+is custom MIT + Commons Clause, including a restriction on redistributing original components alone
+or in a bundle. No separate skill grant was located; the skill NOTICE's Emil Kowalski MIT notice
+covers credited upstream material, not an affirmative grant for the entire Animate UI skill.
+The source link is listed; the payload is not bundled pending an authoritative skill-specific grant
+or clarification. No library installation, script execution or personal activation was performed.
 
 ## Admission boundaries
 

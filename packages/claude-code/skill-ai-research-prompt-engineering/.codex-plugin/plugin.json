@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/prompt-engineering",
+  "license": "GPL-3.0-only",
+  "name": "skill-ai-research-prompt-engineering",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

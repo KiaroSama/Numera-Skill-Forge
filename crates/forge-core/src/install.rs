@@ -187,6 +187,38 @@ pub fn install_scoped(
     scope: Scope,
     dry: bool,
 ) -> Result<Value> {
+    install_scoped_approved(root, id, target, selected, scope, dry, None)
+}
+
+pub fn install_scoped_approved(
+    root: &Path,
+    id: &str,
+    target: &str,
+    selected: &Path,
+    scope: Scope,
+    dry: bool,
+    native_approval: Option<&str>,
+) -> Result<Value> {
+    let accepted = crate::collection_skills::find(root, id)?;
+    let required = accepted
+        .as_ref()
+        .filter(|a| crate::collections::native::required(a));
+    if let Some(a) = required {
+        crate::collections::native::assess(a, target, Some(scope))?;
+    }
+    let approval = required
+        .map(|a| storage::encoded(a).map(|b| storage::digest(&b)))
+        .transpose()?;
+    if !dry
+        && approval
+            .as_deref()
+            .is_some_and(|digest| native_approval != Some(digest))
+    {
+        return Err(Error::new(
+            "native-approval-required",
+            "Preview and explicitly approve this exact native package digest before enabling project hooks",
+        ));
+    }
     let mut candidate = planning::candidate(root, id, target, selected, scope)?;
     let destination = candidate.receipt.destination.clone();
     let identity = storage::digest(&storage::encoded(&(id, target, &destination, scope))?);
@@ -218,7 +250,7 @@ pub fn install_scoped(
     let (receipt, changes) = planning::reconcile(candidate, previous.as_ref(), &others)?;
     if dry {
         return Ok(
-            json!({"dry_run":true,"scope":scope,"destination":receipt.destination,"files":receipt.files.keys().collect::<Vec<_>>(),"configs":receipt.configs.keys().collect::<Vec<_>>(),"changes":changes.len(),"delivery":receipt.delivery}),
+            json!({"dry_run":true,"scope":scope,"destination":receipt.destination,"files":receipt.files.keys().collect::<Vec<_>>(),"configs":receipt.configs.keys().collect::<Vec<_>>(),"changes":changes.len(),"delivery":receipt.delivery,"native_approval":approval}),
         );
     }
     commit_receipt(root, &receipt, changes)?;

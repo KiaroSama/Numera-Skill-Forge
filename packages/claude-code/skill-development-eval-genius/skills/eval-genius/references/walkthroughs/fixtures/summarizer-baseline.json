@@ -1,0 +1,241 @@
+{
+  "manifest": {
+    "run_id": "r-toy-sum-base",
+    "fixture_hash": "sha256:5c90dcb5d3b7aeb714505a4097555d1294d211b8b6b919a8b57154ef1bb32996",
+    "liveness": "not-applicable",
+    "negative_control_id": "sum-neg",
+    "arm": {
+      "name": "baseline",
+      "lever_value": "prompt v1"
+    },
+    "system": {
+      "version_or_commit": "toy",
+      "model_snapshot": "toy-model-snapshot"
+    },
+    "reproducibility": {
+      "seeds": {
+        "sampling": 0,
+        "order": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "sum-01",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-02",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-03",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-04",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-05",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-06",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-07",
+      "verdict": "fail",
+      "score": 0.25,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-08",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-09",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-10",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-11",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-12",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-13",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-14",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-15",
+      "verdict": "fail",
+      "score": 0.5,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-16",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-17",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-18",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-19",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-20",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-21",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-22",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-23",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-24",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-25",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-26",
+      "verdict": "fail",
+      "score": 0.5,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-27",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-28",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-29",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-30",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "sum-neg",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    }
+  ]
+}

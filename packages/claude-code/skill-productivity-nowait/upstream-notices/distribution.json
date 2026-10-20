@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "cli-tool/components/skills/productivity/nowait/SKILL.md": {
+      "digest": "fd71e79f36014d423e296fa7e71e48aa5ec437c15a8d096033766a898afc8a25",
+      "mode": "100644",
+      "output": "skills/nowait-reasoning-optimizer/SKILL.md"
+    },
+    "cli-tool/components/skills/productivity/nowait/refrences/keywords.md": {
+      "digest": "f6423a2351fad72ea376e63e83c104f6d4d4d00d341743c8440761beefa2a88f",
+      "mode": "100644",
+      "output": "skills/nowait-reasoning-optimizer/references/keywords.md"
+    },
+    "cli-tool/components/skills/productivity/nowait/scripts/nowait_processor.py": {
+      "digest": "8949b882dfb802117d48017f861e3fd0ddd653ac2b7cdb2f19940ecbfcdf2cff",
+      "mode": "100644",
+      "output": "skills/nowait-reasoning-optimizer/scripts/nowait_processor.py"
+    }
+  }
+}

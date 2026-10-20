@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/hookify/skills/writing-rules",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-writing-rules",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "version": "1.0.0"
+}

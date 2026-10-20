@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: file-organizer",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-file-organizer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

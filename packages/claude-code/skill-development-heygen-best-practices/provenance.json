@@ -1,0 +1,89 @@
+{
+  "collection": "heygen-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "ed9ff67751c11e70907ac5186918c8339981cf40907ba09ae896714127e5644c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1063
+    },
+    {
+      "digest": "ba73aa1e0a5c6584cc7314ecbd592f9043f24705e860f297bd2cf0e9b4751d18",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/SKILL.md",
+      "path": "heygen-video/SKILL.md",
+      "size": 40362
+    },
+    {
+      "digest": "e58cf0a305293e85583f179b2ba5e19b04925e7c7c6342f52c16798306ddbb08",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/asset-routing.md",
+      "path": "heygen-video/references/asset-routing.md",
+      "size": 4217
+    },
+    {
+      "digest": "887dc916e728731799a3434bf0d33ce087b5e73ee8a69e8821082b9f85b45439",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/avatar-discovery.md",
+      "path": "heygen-video/references/avatar-discovery.md",
+      "size": 6985
+    },
+    {
+      "digest": "9d3ea9689e26bceeb80eee277ec27f93c5155c9298e0cb622b43834658a70c7b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/frame-check.md",
+      "path": "heygen-video/references/frame-check.md",
+      "size": 6125
+    },
+    {
+      "digest": "19a3c7e2f4043fa6495aee438afbe7d471b440699d3efe90f4c10af7accce992",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/motion-vocabulary.md",
+      "path": "heygen-video/references/motion-vocabulary.md",
+      "size": 8332
+    },
+    {
+      "digest": "5ca3b833846d01173d55bf21736d5eca3aa3cc27e277ae5e72e953f779faf8e9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/official-prompt-guide.md",
+      "path": "heygen-video/references/official-prompt-guide.md",
+      "size": 5805
+    },
+    {
+      "digest": "847fec6b0d51bd52ad64b33a4bc20e634a3e45d7626bd087848d0b17075ca72c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/prompt-craft.md",
+      "path": "heygen-video/references/prompt-craft.md",
+      "size": 10020
+    },
+    {
+      "digest": "9b0a5610c393cdee782d0f4920d084b7cfec865cb6fad37ff9ed73a5784fd211",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/prompt-styles.md",
+      "path": "heygen-video/references/prompt-styles.md",
+      "size": 10236
+    },
+    {
+      "digest": "f387fa6abbc0198121377825de1fcebd7f72629c791eab6a7af4a91fc677ec15",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/references/troubleshooting.md",
+      "path": "heygen-video/references/troubleshooting.md",
+      "size": 7588
+    },
+    {
+      "digest": "3266524943df88d9291a54a3d9d29d95cb54315d88e1c73efa67fdbe4542de77",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-heygen-best-practices/skills/heygen-video/scripts/update-check.sh",
+      "path": "heygen-video/scripts/update-check.sh",
+      "size": 6043
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "e332b31236f656dbe8be5208a1f5a8ee77cd4e360fa9c2765d38f67de7efcb72",
+  "repository": "https://github.com/heygen-com/skills",
+  "revision": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+  "root": "heygen-video",
+  "schema_version": 1
+}

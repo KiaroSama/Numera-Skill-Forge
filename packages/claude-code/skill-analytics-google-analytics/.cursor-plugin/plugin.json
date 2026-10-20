@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/analytics/google-analytics",
+  "license": "MIT",
+  "name": "skill-analytics-google-analytics",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

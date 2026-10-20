@@ -1,6 +1,126 @@
 {
   "plugins": [
     {
+      "id": "skill-development-agent-development",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/agent-development",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-command-development",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/command-development",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-hook-development",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/hook-development",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-mcp-integration",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/mcp-integration",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-plugin-settings",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/plugin-settings",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-plugin-structure",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/plugin-structure",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-skill-development",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/plugin-dev/skills/skill-development",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-code-simplifier",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/code-simplifier/agents",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-writing-rules",
+      "license": "Apache-2.0",
+      "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "root": "plugins/hookify/skills/writing-rules",
+      "source": "anthropic-official-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-scientific-clinpgx-database",
+      "license": "MIT AND CC-BY-SA-4.0",
+      "revision": "4fc6ac7727a2b0c30f964906713bd884679ff188",
+      "root": "scientific-skills/clinpgx-database",
+      "source": "clinpgx-historical-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-github-automation",
+      "license": "Apache-2.0",
+      "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+      "root": "github-automation",
+      "source": "composio-automation-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-jira-automation",
+      "license": "Apache-2.0",
+      "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+      "root": "jira-automation",
+      "source": "composio-automation-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-linear-automation",
+      "license": "Apache-2.0",
+      "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+      "root": "linear-automation",
+      "source": "composio-automation-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-workflow-automation-slack-automation",
+      "license": "Apache-2.0",
+      "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+      "root": "slack-automation",
+      "source": "composio-automation-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-file-organizer",
+      "license": "Apache-2.0",
+      "revision": "be2a406907dbc61b73e6827ded415c96139d13a2",
+      "root": "file-organizer",
+      "source": "composio-originals",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-maestro-agent-management",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -1037,6 +1157,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/ai-research/voice-ai-development",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-analytics-google-analytics",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/analytics/google-analytics",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -2113,6 +2241,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-android-cicd",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/android-cicd",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-angular",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2641,6 +2777,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-fastmcp-server",
+      "license": "MIT AND Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/fastmcp-server",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-development-feature-design-assistant",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
@@ -2901,6 +3045,14 @@
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/development/moodle-external-api-development",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-move-code-quality",
+      "license": "MIT AND Apache-2.0",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/development/move-code-quality",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -3609,10 +3761,42 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-doordash-doordash-allergy-shield",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/doordash/doordash-allergy-shield",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-doordash-doordash-group-orders",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/doordash/doordash-group-orders",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-doordash-doordash-order-ledger",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/doordash/doordash-order-ledger",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-doordash-doordash-order-playbooks",
       "license": "MIT",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/doordash/doordash-order-playbooks",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-doordash-doordash-spend-guard",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/doordash/doordash-spend-guard",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -4229,6 +4413,14 @@
       "license": "Apache-2.0",
       "revision": "a344359459263d73d8948651c789244093c02e4e",
       "root": "cli-tool/components/skills/productivity/notion-template-business",
+      "source": "davila7-templates",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-nowait",
+      "license": "MIT",
+      "revision": "a344359459263d73d8948651c789244093c02e4e",
+      "root": "cli-tool/components/skills/productivity/nowait",
       "source": "davila7-templates",
       "version": "1.0.0"
     },
@@ -6425,6 +6617,46 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-git-pushing",
+      "license": "Apache-2.0",
+      "revision": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "root": "engineering-workflow-plugin/skills/git-pushing",
+      "source": "engineering-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-test-fixing",
+      "license": "Apache-2.0",
+      "revision": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "root": "engineering-workflow-plugin/skills/test-fixing",
+      "source": "engineering-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-eval-genius",
+      "license": "Apache-2.0",
+      "revision": "dd1270441c2fbb75f85253571e2c74e7a4ad183c",
+      "root": "skills/eval-genius",
+      "source": "eval-genius-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-heygen-best-practices",
+      "license": "MIT",
+      "revision": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "root": "heygen-video",
+      "source": "heygen-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-playwright-java",
+      "license": "MIT",
+      "revision": "89a6b43c3e8cd210215e9803172be2bd8897b0c7",
+      "root": "skills/playwright-java",
+      "source": "java-layout-originals",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-jcodesmore-clone-website",
       "license": "MIT",
       "revision": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
@@ -7873,11 +8105,51 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-software-architecture",
+      "license": "GPL-3.0-only",
+      "revision": "49be11a06d5e2a8c31e924ef55a771d9229fbca2",
+      "root": "plugins/ddd/skills/software-architecture",
+      "source": "neolab-historical-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-prompt-engineering",
+      "license": "GPL-3.0-only",
+      "revision": "23e2428e809d77717f8acc9659c374a3a1fcb93e",
+      "root": "skills/prompt-engineering",
+      "source": "neolab-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-kaizen",
+      "license": "GPL-3.0-only",
+      "revision": "23e2428e809d77717f8acc9659c374a3a1fcb93e",
+      "root": "skills/kaizen",
+      "source": "neolab-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-database-using-neon",
+      "license": "Apache-2.0",
+      "revision": "81392ac49afa3a1a0c523a5c2752328797282717",
+      "root": "skills/neon-postgres",
+      "source": "neon-originals",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-newliver666-apk-reverse",
       "license": "MIT",
       "revision": "7b6c6932a95f03d778e81e5e1a2cbf6f62dc97fd",
       "root": "skills/apk-reverse",
       "source": "newliver666-apk-reverse",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-create-plan",
+      "license": "Apache-2.0",
+      "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "root": "skills/.experimental/create-plan",
+      "source": "openai-historical-originals",
       "version": "1.0.0"
     },
     {
@@ -7934,6 +8206,14 @@
       "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
       "root": "skills/.curated/notion-spec-to-implementation",
       "source": "openai-skills",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-ai-research-deep-research",
+      "license": "Apache-2.0",
+      "revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",
+      "root": "skills/deep-research",
+      "source": "sanjay-originals",
       "version": "1.0.0"
     },
     {

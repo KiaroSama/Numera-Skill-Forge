@@ -1,0 +1,26 @@
+{
+  "collection": "neolab-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-kaizen/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 35149
+    },
+    {
+      "digest": "1a300eb3c93aa3f8307e034cc5f45731076ae478f78c049e23f06ad2a0c98626",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-kaizen/skills/kaizen/SKILL.md",
+      "path": "skills/kaizen/SKILL.md",
+      "size": 17876
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "payload_digest": "7b9b8825f9b6e2893788845dd6d513bb6813c5406487a29dad59ce17f2f332b2",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "revision": "23e2428e809d77717f8acc9659c374a3a1fcb93e",
+  "root": "skills/kaizen",
+  "schema_version": 1
+}

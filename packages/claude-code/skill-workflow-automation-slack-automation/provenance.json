@@ -1,0 +1,19 @@
+{
+  "collection": "composio-automation-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "c34aef19dc52282b9e4dba0ca2cfab25511b95be26fb9ca4f9b99b98d620c6c9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-slack-automation/skills/slack-automation/SKILL.md",
+      "path": "slack-automation/SKILL.md",
+      "size": 9533
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "fac4be5cc1ca56c708f4ef27d17cd4e070f85c1d6c5bb4ca037c89c7e462825e",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+  "root": "slack-automation",
+  "schema_version": 1
+}

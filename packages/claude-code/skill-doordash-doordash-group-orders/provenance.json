@@ -1,0 +1,152 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "448887caad3279bad83c6de01ef2163a25619859b82bae791490d2d005f0d03d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/commands/doordash/doordash-budget.md",
+      "path": "cli-tool/components/commands/doordash/doordash-budget.md",
+      "size": 2775
+    },
+    {
+      "digest": "02e71edff311b8d377c47e088cad130d47b12e68754c03ebfed8d98cbb0c743e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/commands/doordash/doordash-lunch.md",
+      "path": "cli-tool/components/commands/doordash/doordash-lunch.md",
+      "size": 2619
+    },
+    {
+      "digest": "d763ebd07cd1e4ceaa57f6384aa7d35d0d725938db3d743311b77e127dd4e221",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/commands/doordash/doordash-playbook.md",
+      "path": "cli-tool/components/commands/doordash/doordash-playbook.md",
+      "size": 1951
+    },
+    {
+      "digest": "2cd0b35b27ba871cd5172f24d4a866ccb3254d96c2cb59f4e61956a660b6fa6a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/commands/doordash/doordash-profile.md",
+      "path": "cli-tool/components/commands/doordash/doordash-profile.md",
+      "size": 2360
+    },
+    {
+      "digest": "6da07271a717dfc56eaf4100b4a61f37d25b17d0b9444dc01c806ab179647f49",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/commands/doordash/doordash-report.md",
+      "path": "cli-tool/components/commands/doordash/doordash-report.md",
+      "size": 2890
+    },
+    {
+      "digest": "a9be65d922dfc1892f4edc06f53ef77553211a3f32444fe22c3386bffb17b213",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-allergy-checkout-gate.json",
+      "path": "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json",
+      "size": 986
+    },
+    {
+      "digest": "ef589fe31a2898314852591b597dcf2e49f4e54db7d83bd6e65e4208d503a42c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-allergy-checkout-gate.sh",
+      "path": "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh",
+      "size": 5483
+    },
+    {
+      "digest": "5b3f6b96b5c7cdc01197b4677afb247751033c6cde9cbd9585ed14b1f2aac5f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-audit-log.json",
+      "path": "cli-tool/components/hooks/doordash/doordash-audit-log.json",
+      "size": 952
+    },
+    {
+      "digest": "59c8763497a9bc49309b2ddd97be43b2671f75bdd45ada86ade744056a77df33",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-audit-log.sh",
+      "path": "cli-tool/components/hooks/doordash/doordash-audit-log.sh",
+      "size": 2889
+    },
+    {
+      "digest": "7f9ca498b5430e9108df3f8498973d90f4811b500192f3984fc2427572ed5fca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-group-checkout-gate.json",
+      "path": "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json",
+      "size": 940
+    },
+    {
+      "digest": "182bea45969dafaba7bb8eae5fb814fd82ea00539b526166855bed97a88d59ca",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-group-checkout-gate.sh",
+      "path": "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh",
+      "size": 5435
+    },
+    {
+      "digest": "a03e50b8bfca66e999ec7572a4c9acd39af58dc6f6b0c43df96c4bb7ac0236b2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-spend-guard.json",
+      "path": "cli-tool/components/hooks/doordash/doordash-spend-guard.json",
+      "size": 767
+    },
+    {
+      "digest": "bf1749bf154b3364658bf98b4073fcccb2a71eb0f4163c4bd5de456fa220a9d1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/hooks/doordash/doordash-spend-guard.sh",
+      "path": "cli-tool/components/hooks/doordash/doordash-spend-guard.sh",
+      "size": 2143
+    },
+    {
+      "digest": "ac259bc7e58b7d291232b008e82299d23594a572976e0e5acf0e33f8f6a67a6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/skills/doordash/doordash-allergy-shield/SKILL.md",
+      "path": "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md",
+      "size": 5393
+    },
+    {
+      "digest": "519507236097cd7ebaf58d0be9657003027ecff0a0596451becae7b6286cafc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md",
+      "path": "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md",
+      "size": 2444
+    },
+    {
+      "digest": "ae22f5f02488641d3e1a63857296e6a7e6958cb603a34ccd967df843c27d7c1f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/skills/doordash-group-orders/SKILL.md",
+      "path": "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md",
+      "size": 5411
+    },
+    {
+      "digest": "372b892206f533ea0b2631953d921dbb253752ab6d1b8ccd26d491e5c4929225",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/skills/doordash/doordash-order-ledger/SKILL.md",
+      "path": "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md",
+      "size": 3687
+    },
+    {
+      "digest": "14b9ceda4fb1ac5b98169f95bf8aa5c1fd2354cb7a35470002a13a9bcedf5169",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/skills/doordash/doordash-spend-guard/SKILL.md",
+      "path": "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md",
+      "size": 5187
+    },
+    {
+      "digest": "62265a2827e452c263c540a331272bc203e5c198487b3db8fba4cb297c4755c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-doordash-doordash-group-orders/native-originals/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh",
+      "path": "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh",
+      "size": 8267
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "b69364c0034660db7c82f017d3fc1a9d409437703bd28265ee80db9fe80a4e47",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/doordash/doordash-group-orders",
+  "schema_version": 1
+}

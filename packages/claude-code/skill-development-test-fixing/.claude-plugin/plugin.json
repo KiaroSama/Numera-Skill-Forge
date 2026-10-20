@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: engineering-workflow-plugin/skills/test-fixing",
+  "license": "Apache-2.0",
+  "name": "skill-development-test-fixing",
+  "repository": "https://github.com/mhattingpete/claude-skills-marketplace",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: slack-automation",
+  "license": "Apache-2.0",
+  "name": "skill-workflow-automation-slack-automation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

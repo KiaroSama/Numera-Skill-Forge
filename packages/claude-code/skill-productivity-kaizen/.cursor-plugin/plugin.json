@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/kaizen",
+  "license": "GPL-3.0-only",
+  "name": "skill-productivity-kaizen",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

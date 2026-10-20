@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/move-code-quality",
+  "license": "MIT AND Apache-2.0",
+  "name": "skill-development-move-code-quality",
+  "version": "1.0.0"
+}

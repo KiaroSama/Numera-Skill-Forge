@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed original guide adapter: plugins/code-simplifier/agents",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-code-simplifier",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

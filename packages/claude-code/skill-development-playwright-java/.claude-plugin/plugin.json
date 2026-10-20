@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/playwright-java",
+  "license": "MIT",
+  "name": "skill-development-playwright-java",
+  "repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "version": "1.0.0"
+}

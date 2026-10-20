@@ -111,6 +111,8 @@ enum Commands {
         destination: PathBuf,
         #[arg(long)]
         dry_run: bool,
+        #[arg(long)]
+        native_approval: Option<String>,
     },
     Installed,
     Update {
@@ -337,8 +339,9 @@ fn request(cli: &Cli) -> forge_core::Result<Value> {
             destination,
             dry_run,
             scope,
+            native_approval,
         } => {
-            json!({"action":"install","package":package,"target":target,"scope":scope,"destination":destination,"dry_run":dry_run})
+            json!({"action":"install","package":package,"target":target,"scope":scope,"destination":destination,"dry_run":dry_run,"native_approval":native_approval})
         }
         Commands::Installed => json!({"action":"installed"}),
         Commands::Update { .. } => json!({"action":"update"}),

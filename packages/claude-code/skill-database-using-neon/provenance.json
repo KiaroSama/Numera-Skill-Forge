@@ -1,0 +1,222 @@
+{
+  "collection": "neon-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "b1bde583dfbe4b29a2a47cf089c62c8d637c41b7fb596aa4086bcaacf390c29e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11343
+    },
+    {
+      "digest": "ebc7c69c4bf0f3b2c4a2b4554a5dea4344cf76b525b88e9b6730024235a871c7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/SKILL.md",
+      "path": "skills/neon-postgres/SKILL.md",
+      "size": 4329
+    },
+    {
+      "digest": "9a5a5189930194ba4c682601cc02df9ee01dbf30d88dba86e9cd5f70cfe6e226",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/connection-methods.md",
+      "path": "skills/neon-postgres/references/connection-methods.md",
+      "size": 7351
+    },
+    {
+      "digest": "a4d4121fe2b65a6b9f171ffb9b603ed75b8640968eb6a904ad2e0ea237f768e0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/devtools.md",
+      "path": "skills/neon-postgres/references/devtools.md",
+      "size": 3506
+    },
+    {
+      "digest": "0cff45a98336cb47393fb77f86b2dcfe0745fdab0ea89c311c29e2cead7eab16",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/features.md",
+      "path": "skills/neon-postgres/references/features.md",
+      "size": 5096
+    },
+    {
+      "digest": "6eb5fcba44e2131339bcd2e0cd4267eebad33876799bd27fc4045700a6f52fb9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/getting-started.md",
+      "path": "skills/neon-postgres/references/getting-started.md",
+      "size": 5957
+    },
+    {
+      "digest": "74e7c7da23e02548d37b7584509911080b2fcca05e740ce2c603b947e1d5684c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth.md",
+      "path": "skills/neon-postgres/references/neon-auth.md",
+      "size": 3868
+    },
+    {
+      "digest": "980d35ddb3ad9d80152f4cdea43252dc43268dceed20bf93be085b02cef10266",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth/auth-methods.md",
+      "path": "skills/neon-postgres/references/neon-auth/auth-methods.md",
+      "size": 6454
+    },
+    {
+      "digest": "49f36738d45da017080a7e84d6e17a3e205d348f1c27960e59f195c29ad40c40",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth/common-mistakes.md",
+      "path": "skills/neon-postgres/references/neon-auth/common-mistakes.md",
+      "size": 5785
+    },
+    {
+      "digest": "25dde3a67c96f8824b75764c71a7bcca70ff1274b14501de4ed27ae0318b21a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth/setup-nextjs.md",
+      "path": "skills/neon-postgres/references/neon-auth/setup-nextjs.md",
+      "size": 2742
+    },
+    {
+      "digest": "5e8aeb162efd7a28586cbfa3543da40996e773b9d7ab5a4ddfecda2db19624d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth/setup-react-spa.md",
+      "path": "skills/neon-postgres/references/neon-auth/setup-react-spa.md",
+      "size": 5959
+    },
+    {
+      "digest": "0bb349d827ee3dbd8766d65d083f4ad6acc5885e8b580bf2311a3a5099bd8404",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-auth/ui-components.md",
+      "path": "skills/neon-postgres/references/neon-auth/ui-components.md",
+      "size": 4929
+    },
+    {
+      "digest": "1d85337900b51f5b3b814e2f18886a7189f16e03be38fd6ff015de40d7cb2a99",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-cli.md",
+      "path": "skills/neon-postgres/references/neon-cli.md",
+      "size": 4032
+    },
+    {
+      "digest": "705d3bb4a8510c1096e906779e628dfb0cabf0611cace7b90b9c1b901901a760",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-drizzle.md",
+      "path": "skills/neon-postgres/references/neon-drizzle.md",
+      "size": 6449
+    },
+    {
+      "digest": "c0514159acf37015a7f287f9fbc70690b066c47a151bd7d2aa4172fb3a316c11",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-js.md",
+      "path": "skills/neon-postgres/references/neon-js.md",
+      "size": 5724
+    },
+    {
+      "digest": "cea97c1d78cc10041e8676cbacb456d07b25df4a863febc9ef0f85a29f2467f0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-js/common-mistakes.md",
+      "path": "skills/neon-postgres/references/neon-js/common-mistakes.md",
+      "size": 2813
+    },
+    {
+      "digest": "b38964010f3c397d228dc437c5bca4781500dd267a3a6a26437cda4ab42da528",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-js/data-api.md",
+      "path": "skills/neon-postgres/references/neon-js/data-api.md",
+      "size": 8732
+    },
+    {
+      "digest": "97d12ed3ff2da87008a5c9083ca688be18cc09d0650f4c372059dc5dbaaf1b4a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-platform-api.md",
+      "path": "skills/neon-postgres/references/neon-platform-api.md",
+      "size": 4154
+    },
+    {
+      "digest": "90c65594594dcc6e5676a7f5027a40c8c137408a23cb6fdad907694dfe7a4538",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-python-sdk.md",
+      "path": "skills/neon-postgres/references/neon-python-sdk.md",
+      "size": 4333
+    },
+    {
+      "digest": "758a8a1e733ff77a2d5140ac139981515e1b9027b2ddeedd7e255693821e4c90",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/branches.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/branches.md",
+      "size": 20510
+    },
+    {
+      "digest": "519299954050e99ddea56d4ee6851f90d5cfabcf96a680e748e5f93ada37cc66",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/endpoints.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/endpoints.md",
+      "size": 8537
+    },
+    {
+      "digest": "16c4c835977cd5e9b65387cfc1d1d5e49337d3c96e357c692d387777f676b748",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/guidelines.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/guidelines.md",
+      "size": 6615
+    },
+    {
+      "digest": "6ec390129642a5dc724b3a651ad80640aacc3ca833f95f606895fdfd8a6cdaf3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/keys.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/keys.md",
+      "size": 2150
+    },
+    {
+      "digest": "a58eff660c61553122577ce436ef0e505b6079a66b280c5badb6571a2979bdae",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/operations.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/operations.md",
+      "size": 5371
+    },
+    {
+      "digest": "39308ddcdf9ec2e7d6860434fbd90838ee9c410467e5d67f383aecbfd537faa7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/organizations.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/organizations.md",
+      "size": 7082
+    },
+    {
+      "digest": "e3ceb7cdfef88260e8efe0fc108de7b1d572280a98977be0ed194bded065b89b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-rest-api/projects.md",
+      "path": "skills/neon-postgres/references/neon-rest-api/projects.md",
+      "size": 22874
+    },
+    {
+      "digest": "18c5980f37aac9690909bf3187650605c2e04774a519bd0964769cd2383e0038",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-serverless.md",
+      "path": "skills/neon-postgres/references/neon-serverless.md",
+      "size": 6501
+    },
+    {
+      "digest": "a673892791fae6a841158b929c80b2f378cf880e6b2a1dbcf26c1155f3757a26",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/neon-typescript-sdk.md",
+      "path": "skills/neon-postgres/references/neon-typescript-sdk.md",
+      "size": 6378
+    },
+    {
+      "digest": "e58b7dead4491219cc43b474f1362c1535bedaa4f7cfb60f65282ef6ac79070a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/referencing-docs.md",
+      "path": "skills/neon-postgres/references/referencing-docs.md",
+      "size": 2921
+    },
+    {
+      "digest": "eda6c2651ef797ae0182767e975d5139e24ed341dba26e1b8b46dab5664ddeda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-database-using-neon/skills/neon-postgres/references/what-is-neon.md",
+      "path": "skills/neon-postgres/references/what-is-neon.md",
+      "size": 3187
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "2a170c0541563c75260e9dbb047aa2787defb21bbf1e5c26afa02a3498a20586",
+  "repository": "https://github.com/neondatabase/agent-skills",
+  "revision": "81392ac49afa3a1a0c523a5c2752328797282717",
+  "root": "skills/neon-postgres",
+  "schema_version": 1
+}

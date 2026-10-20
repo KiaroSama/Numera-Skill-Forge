@@ -46,7 +46,33 @@ pub(super) fn candidate(
         ));
     }
     let components = report["components"].as_array().cloned().unwrap_or_default();
-    let contributions = contributions(&package, target, scope, &components)?;
+    let mut contributions = contributions(&package, target, scope, &components)?;
+    let mut native_files = BTreeMap::new();
+    if let Some(accepted) = &collection {
+        crate::collections::native::assess(accepted, target, Some(scope))?;
+        if crate::collections::native::required(accepted) {
+            let (files, config) = crate::collections::native::installation(root, accepted)?;
+            native_files = files;
+            if let Some(before) = super::current(&destination, ".claude/settings.json")? {
+                let existing: Value = serde_json::from_slice(&before)?;
+                for (event, desired) in config["hooks"]
+                    .as_object()
+                    .ok_or_else(|| Error::new("native-review", "Required hook event map missing"))?
+                {
+                    if existing["hooks"]
+                        .get(event)
+                        .is_some_and(|value| value != desired)
+                    {
+                        return Err(Error::new(
+                            "config-conflict",
+                            "Existing hook event handlers differ; no user guard will be replaced",
+                        ));
+                    }
+                }
+            }
+            contributions.insert(".claude/settings.json".into(), (config, None));
+        }
+    }
     let native = components.iter().any(|c| {
         !matches!(c["kind"].as_str(), Some("skills" | "assets"))
             && !c["metadata"]["install_contribution"].is_object()
@@ -79,7 +105,9 @@ pub(super) fn candidate(
     } else {
         skill_prefix(target, scope)?.into()
     };
-    let delivery = if collection.is_some() {
+    let delivery = if !native_files.is_empty() {
+        "accepted collection reviewed-native bundle; explicit content-bound hook approval"
+    } else if collection.is_some() {
         "accepted collection standalone skills; host enablement/trust separate"
     } else if native {
         "native-directory; host loading/enablement not verified"
@@ -152,7 +180,9 @@ pub(super) fn candidate(
         {
             continue;
         }
-        let relative = if native {
+        let relative = if let Some(destination) = native_files.get(&path) {
+            destination.clone()
+        } else if native {
             format!("{prefix}/{path}")
         } else if let Some(path) = path.strip_prefix("skills/") {
             format!("{prefix}/{path}")
@@ -191,14 +221,41 @@ pub(super) fn candidate(
     })
 }
 
-pub(super) fn check_skill_owners<'a>(
+pub(super) fn check_skill_owners(
     receipt: &Receipt,
-    paths: impl Iterator<Item = &'a String>,
+    files: &BTreeMap<String, (Vec<u8>, u32)>,
     others: &[Receipt],
 ) -> Result<()> {
-    for path in paths.filter(|p| p.ends_with("/SKILL.md")) {
+    let compatible = others
+        .iter()
+        .filter(|other| {
+            if !receipt
+                .delivery
+                .starts_with("accepted collection reviewed-native")
+                || !other
+                    .delivery
+                    .starts_with("accepted collection reviewed-native")
+            {
+                return true;
+            }
+            !files
+                .keys()
+                .filter(|path| path.ends_with("/SKILL.md"))
+                .all(|path| {
+                    let prefix = path.trim_end_matches("SKILL.md");
+                    let selected = files.iter().filter(|(p, _)| p.starts_with(prefix));
+                    selected.clone().count()
+                        == other.files.keys().filter(|p| p.starts_with(prefix)).count()
+                        && selected.clone().all(|(p, (bytes, mode))| {
+                            other.files.get(p) == Some(&storage::digest(bytes))
+                                && other.modes.get(p) == Some(mode)
+                        })
+                })
+        })
+        .collect::<Vec<_>>();
+    for path in files.keys().filter(|p| p.ends_with("/SKILL.md")) {
         let name = path.rsplit('/').nth(1).unwrap_or("");
-        if others.iter().any(|r| {
+        if compatible.iter().any(|r| {
             r.package != receipt.package
                 && (receipt.delivery.starts_with("accepted collection")
                     || r.delivery.starts_with("accepted collection"))
@@ -228,7 +285,7 @@ pub(super) fn reconcile(
     others: &[Receipt],
 ) -> Result<(Receipt, Vec<Change>)> {
     let mut receipt = candidate.receipt;
-    check_skill_owners(&receipt, candidate.files.keys(), others)?;
+    check_skill_owners(&receipt, &candidate.files, others)?;
     let contributions = candidate.contributions;
     let mut changes = vec![];
     for (relative, (after, mode)) in candidate.files {

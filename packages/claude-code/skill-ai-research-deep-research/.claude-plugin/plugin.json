@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/deep-research",
+  "license": "Apache-2.0",
+  "name": "skill-ai-research-deep-research",
+  "repository": "https://github.com/sanjay3290/ai-skills",
+  "version": "1.0.0"
+}

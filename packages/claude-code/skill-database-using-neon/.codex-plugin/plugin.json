@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/neon-postgres",
+  "license": "Apache-2.0",
+  "name": "skill-database-using-neon",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

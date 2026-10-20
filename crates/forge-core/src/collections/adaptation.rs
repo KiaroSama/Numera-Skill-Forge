@@ -136,7 +136,14 @@ pub fn verify(root: &Path, skill: &Skill, accepted: &Accepted) -> Result<()> {
     let adapted = accepted
         .files
         .iter()
-        .filter(|f| f.source_digest.is_some())
+        .filter(|f| {
+            f.source_digest.is_some()
+                && skill
+                    .reviewed_distribution
+                    .as_ref()
+                    .and_then(|r| r.files.get(&f.path))
+                    .is_none_or(|f| f.change_notice.is_none())
+        })
         .collect::<Vec<_>>();
     let stale = || {
         Error::new(

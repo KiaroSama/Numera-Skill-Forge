@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/fastmcp-server",
+  "license": "MIT AND Apache-2.0",
+  "name": "skill-development-fastmcp-server",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

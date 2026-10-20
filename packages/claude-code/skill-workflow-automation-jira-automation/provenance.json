@@ -1,0 +1,19 @@
+{
+  "collection": "composio-automation-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "42a37770646e11db5e66c5063d45ae8aa8cf4cbc33daff61aac40505d3e6dc9a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-jira-automation/skills/jira-automation/SKILL.md",
+      "path": "jira-automation/SKILL.md",
+      "size": 6658
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "50b2c6bcf30f8fecd5ae93621352de552dae8a90a3936f49a17f60bf1841d218",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+  "root": "jira-automation",
+  "schema_version": 1
+}

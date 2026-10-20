@@ -1,0 +1,103 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "f47e2d42f6360294216a859ae0c30b93caafdd2b2e5ffc007489ba4ca447fa5c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/SKILL.md",
+      "path": "plugins/plugin-dev/skills/hook-development/SKILL.md",
+      "size": 16246
+    },
+    {
+      "digest": "0d614599e711c087b381a4ac7ee3c40758af1022669fc998649d199b9dfe15ed",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/examples/load-context.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/examples/load-context.sh",
+      "size": 1690
+    },
+    {
+      "digest": "348c58f4cf38a2e7080ea5272935a7658c7122d83dd6c52d0a1f2ef599c176ab",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/examples/validate-bash.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/examples/validate-bash.sh",
+      "size": 1304
+    },
+    {
+      "digest": "89a8ef9bb7508e4819080e65834d6783afa5a5a614d458a3821b80a329eb32e5",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/examples/validate-write.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/examples/validate-write.sh",
+      "size": 1222
+    },
+    {
+      "digest": "5b139ceeb6a3ef16555a6eef421e2642e6ca286b5527ee2b4e02c11ae5b75dd5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/references/advanced.md",
+      "path": "plugins/plugin-dev/skills/hook-development/references/advanced.md",
+      "size": 10148
+    },
+    {
+      "digest": "7f8e7a795829837f46a0c058c26c8f5c4aa8be5c9fb5316b828229d1802ded77",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/references/migration.md",
+      "path": "plugins/plugin-dev/skills/hook-development/references/migration.md",
+      "size": 8299
+    },
+    {
+      "digest": "cb607fca192bfa892fd198141b86dac9d0ca2c573a280b054b7beaa56fc9a8bf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/references/patterns.md",
+      "path": "plugins/plugin-dev/skills/hook-development/references/patterns.md",
+      "size": 7144
+    },
+    {
+      "digest": "08a28b12ffa9fcb16f257ea685c70a920f4f835978b9ffbbac055137c6f6aca0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/scripts/README.md",
+      "path": "plugins/plugin-dev/skills/hook-development/scripts/README.md",
+      "size": 3677
+    },
+    {
+      "digest": "85a7d55488f8f38f9b98350b5cb597fb306432d5e61eaa3444e7226ca9309e0b",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/scripts/hook-linter.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/scripts/hook-linter.sh",
+      "size": 4200
+    },
+    {
+      "digest": "ded642e811b4731f6a2c90c73b02e00c937511d9ee65236bb8cf9964f0069393",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/scripts/test-hook.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/scripts/test-hook.sh",
+      "size": 5336
+    },
+    {
+      "digest": "e7785d6c61d368f5ea5270c979753aea02f776f5b6aa220137ec4585abd720c2",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-hook-development/skills/hook-development/scripts/validate-hook-schema.sh",
+      "path": "plugins/plugin-dev/skills/hook-development/scripts/validate-hook-schema.sh",
+      "size": 5081
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "2d5df57c34a6d99e2ad61a355df79869f1d879ef4bb4d83e3be5c2c26ce226a3",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/hook-development",
+  "schema_version": 1
+}

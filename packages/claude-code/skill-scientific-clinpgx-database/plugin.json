@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: scientific-skills/clinpgx-database",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "name": "skill-scientific-clinpgx-database",
+  "version": "1.0.0"
+}

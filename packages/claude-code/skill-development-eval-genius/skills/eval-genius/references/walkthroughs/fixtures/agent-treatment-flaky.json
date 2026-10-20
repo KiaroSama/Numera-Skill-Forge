@@ -1,0 +1,115 @@
+{
+  "manifest": {
+    "run_id": "r-toy-agent-treat-flaky",
+    "fixture_hash": "sha256:fab18222ed8e02a002c6c6b6ddd3b711cf376a4f75849966fe0606693f481104",
+    "liveness": "passed",
+    "negative_control_id": "task-neg",
+    "arm": {
+      "name": "treatment-scaffold",
+      "lever_value": "scaffold v2"
+    },
+    "system": {
+      "version_or_commit": "toy",
+      "model_snapshot": "toy-model-snapshot"
+    },
+    "reproducibility": {
+      "seeds": {
+        "sampling": 0,
+        "order": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "task-01",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-02",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-03",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-04",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-05",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-06",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-07",
+      "verdict": "fail",
+      "score": 0.25,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-08",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-09",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-10",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-11",
+      "verdict": "error",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": "sandbox setup timeout: agent never entered the task"
+    },
+    {
+      "id": "task-12",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "task-neg",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    }
+  ]
+}

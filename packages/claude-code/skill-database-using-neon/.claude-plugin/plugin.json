@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/neon-postgres",
+  "license": "Apache-2.0",
+  "name": "skill-database-using-neon",
+  "repository": "https://github.com/neondatabase/agent-skills",
+  "version": "1.0.0"
+}

@@ -1,0 +1,75 @@
+{
+  "collection": "java-layout-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1073
+    },
+    {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/upstream-notices/LICENSE-CONTENT",
+      "path": "LICENSE-CONTENT",
+      "size": 652
+    },
+    {
+      "digest": "2cf3e1fdf96377683a21b73a769bc2666f58bd8a65e577bcab2850d9f0c6dd6b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/templates/BasePage.java",
+      "path": "skills/playwright-java/BasePage.java",
+      "size": 4830
+    },
+    {
+      "digest": "a20b368795c8606431d4cbad2619e1321a7dfbce837cf458763b02bfdb3aeaf3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/templates/BaseTest.java",
+      "path": "skills/playwright-java/BaseTest.java",
+      "size": 4526
+    },
+    {
+      "digest": "0039fb01926c8521f6a15ef856c46413ed41acbb1fe44255370531c5c8d48545",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/SKILL.md",
+      "path": "skills/playwright-java/SKILL.md",
+      "size": 15128
+    },
+    {
+      "digest": "c2963ceb57c8924bb9de5a826800a7892047fe460ce376c84b161b789d384e41",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/references/assertions.md",
+      "path": "skills/playwright-java/assertions.md",
+      "size": 4226
+    },
+    {
+      "digest": "e4d018dddd4d1c580a5e56676339d3dcd20dd3686d9e672e6f9ca87d77075215",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/references/config.md",
+      "path": "skills/playwright-java/config.md",
+      "size": 6651
+    },
+    {
+      "digest": "351a005aa105e875a9d4da35138a02b617fb700384215eeb78704222830ec17d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/references/fixtures.md",
+      "path": "skills/playwright-java/fixtures.md",
+      "size": 7755
+    },
+    {
+      "digest": "f2455dd622bb973fb301a183ca9a09e2136ed78023fff21ca26db967d220115e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-playwright-java/skills/playwright-java/references/page-objects.md",
+      "path": "skills/playwright-java/page-objects.md",
+      "size": 6104
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "4c347bd61b1289c07fe76c11141189de5fb46cd300812a578449e486c576b1e6",
+  "repository": "https://github.com/sickn33/agentic-awesome-skills",
+  "revision": "89a6b43c3e8cd210215e9803172be2bd8897b0c7",
+  "root": "skills/playwright-java",
+  "schema_version": 1
+}

@@ -71,6 +71,23 @@ jobs:
             .ci-work/cli-lifecycle/result.json
           retention-days: 7
           if-no-files-found: error
+      - name: Verify original DoorDash hooks without network or accounts
+        if: runner.os == 'Linux'
+        run: >-
+          sudo timeout --signal=TERM --kill-after=5s 60s
+          unshare --mount --net --pid --fork --mount-proc --kill-child
+          python3 -B scripts/verify-doordash-hooks.py --work .ci-work/doordash-hooks
+        timeout-minutes: 2
+      - name: Preserve isolated DoorDash evidence
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: doordash-hook-evidence
+          path: |
+            .ci-work/doordash-hooks/*.log
+            .ci-work/doordash-hooks/result.json
+          retention-days: 7
+          if-no-files-found: error
       - name: Prepare hosted-only private transport prerequisites
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y openssh-server

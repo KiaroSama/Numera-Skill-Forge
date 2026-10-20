@@ -1,0 +1,33 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-simplifier/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-simplifier/upstream-notices/plugins_code-simplifier_LICENSE",
+      "path": "plugins/code-simplifier/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-code-simplifier/skills/code-simplifier/code-simplifier.md",
+      "path": "plugins/code-simplifier/agents/code-simplifier.md",
+      "size": 3129
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "7dcecdf94cd00a8120f06e817ab8894d3c4cca6d6e1bdac1989267c472a2fd8f",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/code-simplifier/agents",
+  "schema_version": 1
+}

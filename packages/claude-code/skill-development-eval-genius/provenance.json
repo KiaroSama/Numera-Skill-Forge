@@ -1,0 +1,369 @@
+{
+  "collection": "eval-genius-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "51022d8372ebad0fbb4b1a7ba15ce8a9605fd6843a417c366b748e7d79612ce1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/upstream-notices/NOTICE",
+      "path": "NOTICE",
+      "size": 264
+    },
+    {
+      "digest": "b24c468fcdb2d96eefc6506a7063476f01271f184197970bc0b5f1d9a11ca706",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/SKILL.md",
+      "path": "skills/eval-genius/SKILL.md",
+      "size": 9856
+    },
+    {
+      "digest": "42155f7e4aeb3c48f6f87109deb0d892858b7919f0bacfa095b891273e3b99c8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/evals/evals.json",
+      "path": "skills/eval-genius/evals/evals.json",
+      "size": 2224
+    },
+    {
+      "digest": "16df6886a8b03ba045eee3b210d129c4c5cae24f75469d4ee0f9e54b477d3137",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/00-start-here.md",
+      "path": "skills/eval-genius/references/00-start-here.md",
+      "size": 8061
+    },
+    {
+      "digest": "87338862b76d7375dea2d83c97948ecffcdb688123e6f126e72f5e3ff27fc202",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/01-foundation.md",
+      "path": "skills/eval-genius/references/01-foundation.md",
+      "size": 7122
+    },
+    {
+      "digest": "d2159382d67a89065aa32291fcfe10d1d06701eccaf254b3786e8ea2cda7ff24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/02-grading-and-metrics.md",
+      "path": "skills/eval-genius/references/02-grading-and-metrics.md",
+      "size": 11465
+    },
+    {
+      "digest": "4dbdeb0d1a3a2efd74f465413efd8fd5c021b5b6c6a41b1dd221c8771eef2409",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/03-judge-calibration.md",
+      "path": "skills/eval-genius/references/03-judge-calibration.md",
+      "size": 7191
+    },
+    {
+      "digest": "a685b052d7850a97bf1a887a71805b6f53728998489ec5a4700d57921b10fa12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/04-search-vs-build.md",
+      "path": "skills/eval-genius/references/04-search-vs-build.md",
+      "size": 4147
+    },
+    {
+      "digest": "674232ea30ea2d661b158d70b34ff480eadb9ccb8c4cdc2d6327a54ce23713b6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/05-dataset-construction.md",
+      "path": "skills/eval-genius/references/05-dataset-construction.md",
+      "size": 9471
+    },
+    {
+      "digest": "3ef3e8cb6a3ef1a0ddde32489bd16a160e252dda4f06a6055ce164b9586f2d23",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/06-harness-design.md",
+      "path": "skills/eval-genius/references/06-harness-design.md",
+      "size": 10505
+    },
+    {
+      "digest": "2ec6cf85ce2d78f624ceb1af00eca503e3ba1a88add69d86aeaee981f7a9d537",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/07-gates-and-ci.md",
+      "path": "skills/eval-genius/references/07-gates-and-ci.md",
+      "size": 9912
+    },
+    {
+      "digest": "2030f6e864893e5f2822da7c06e040166a1357caa9cfad48829a11c9652a7d94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/08-statistics.md",
+      "path": "skills/eval-genius/references/08-statistics.md",
+      "size": 5025
+    },
+    {
+      "digest": "d63ca8e190a2cbd43b8544412a34714541ed09623c01010bc5d3c6f45e67ceac",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/09-reporting.md",
+      "path": "skills/eval-genius/references/09-reporting.md",
+      "size": 3968
+    },
+    {
+      "digest": "77184aea4546831cdf2f5fce11056d64c1f72ed0ec8361c8fb60a3bbf6bea587",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/10-agentic-evals.md",
+      "path": "skills/eval-genius/references/10-agentic-evals.md",
+      "size": 5743
+    },
+    {
+      "digest": "22a979df343b5153b2f3da7db9e4cbd764636574dd2af1266901f24b507fe5bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/11-reading-results.md",
+      "path": "skills/eval-genius/references/11-reading-results.md",
+      "size": 6423
+    },
+    {
+      "digest": "b250ad76c4d7a01ffcaa610ef58ee284ff3d5eadd5957e8b6557ec2e6a1bb11a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/12-error-analysis.md",
+      "path": "skills/eval-genius/references/12-error-analysis.md",
+      "size": 7422
+    },
+    {
+      "digest": "956470c94a2fd458c220b5b8b5189f23ad368e3f7a24baf1e437119ebb26fb80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/13-trigger-evals.md",
+      "path": "skills/eval-genius/references/13-trigger-evals.md",
+      "size": 4751
+    },
+    {
+      "digest": "41973ed0d835613ad0efc4517b35700e812520de778f0d85263da05285753adf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/14-safety-threat-model.md",
+      "path": "skills/eval-genius/references/14-safety-threat-model.md",
+      "size": 4373
+    },
+    {
+      "digest": "e7f005f50e627dc7d649e2cb2647da3d25ee4b20500b1420073a536a8936f253",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/15-decision-model-judge.md",
+      "path": "skills/eval-genius/references/15-decision-model-judge.md",
+      "size": 16205
+    },
+    {
+      "digest": "6e717922bdc8a40e71eaebd33158fef0b5b6381f036cc2f48a66e1591f765c09",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/ai-system.md",
+      "path": "skills/eval-genius/references/walkthroughs/ai-system.md",
+      "size": 8491
+    },
+    {
+      "digest": "90f13b4a12060c946aeb323d78174a3ce780057daf70db0334f47328bc019d0c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/benchmark.md",
+      "path": "skills/eval-genius/references/walkthroughs/benchmark.md",
+      "size": 7874
+    },
+    {
+      "digest": "1b1560b6b51027c26a0671853cb77706a3a9a0e871ea43f519330c1d9440ae45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-baseline.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-baseline.json",
+      "size": 2256
+    },
+    {
+      "digest": "7c316cce701ab5bdf4bfee6f314eabe741d6837a27b29a2e81be2a22e5a4bf5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-human-labels.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-human-labels.json",
+      "size": 2770
+    },
+    {
+      "digest": "b7fc84d1b05124e384955d4d3d33e81fbdb8705cde98574cb75c44ccb94afaea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-judge-labels.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-judge-labels.json",
+      "size": 2770
+    },
+    {
+      "digest": "22fdab37801e86bffc825f8787c996719fc7c63cbaca9f6785728eed26209672",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-tasks.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-tasks.json",
+      "size": 1814
+    },
+    {
+      "digest": "e216194d92b07bada54b7b946e84ad3dee8ef71d7d6e71744961786c858d7ab0",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-treatment-flaky.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-treatment-flaky.json",
+      "size": 2314
+    },
+    {
+      "digest": "ce48c6b8c869ad49e2970c8b8976df7ad0e5cca80ef13dec6b5da531035e3d58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/agent-treatment.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/agent-treatment.json",
+      "size": 2258
+    },
+    {
+      "digest": "05fd0fc63be1312a06b10a65153a856455cef342e202acafa454ee1464da27f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/retrieval-items.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/retrieval-items.json",
+      "size": 4619
+    },
+    {
+      "digest": "6d3e427692ee6be31c210535a143c7ee764dc3fdfcf71154934bbd9cf9bbd5d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/retrieval-v1.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/retrieval-v1.json",
+      "size": 5933
+    },
+    {
+      "digest": "b0662f6196587477f2d02a2e894cf61236c854788fb16e6e3f76e07e26f9e79f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/retrieval-v2.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/retrieval-v2.json",
+      "size": 5936
+    },
+    {
+      "digest": "61e64d743623514223aa9aa532c30d65d3a0e828eb8f13f0d0b2e3c59321e153",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/summarizer-baseline.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/summarizer-baseline.json",
+      "size": 4613
+    },
+    {
+      "digest": "dfa89ca341edc0d5081ad7de3da501a7a4554ce3ea0f2439975912b9eecd4faf",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/summarizer-items.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/summarizer-items.json",
+      "size": 4678
+    },
+    {
+      "digest": "05c9eb6c8553a36839fc39b451ea378020a6ffbf5afa3c52c6e3dfd4300b39a4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/fixtures/summarizer-treatment.json",
+      "path": "skills/eval-genius/references/walkthroughs/fixtures/summarizer-treatment.json",
+      "size": 4616
+    },
+    {
+      "digest": "22a177793eb36f09208f14598d8d75262a626d2bf2762e2e3db018f2aaf0da80",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/references/walkthroughs/product-step.md",
+      "path": "skills/eval-genius/references/walkthroughs/product-step.md",
+      "size": 7262
+    },
+    {
+      "digest": "039758aefab03cc9ba4fb5160f8d042878f7513632ef03c9fdf0bc801d4ab514",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/check_gate.py",
+      "path": "skills/eval-genius/scripts/check_gate.py",
+      "size": 14207
+    },
+    {
+      "digest": "515880824bbb1bdb9af190306776e035bdac73374726766c3cecdc9be5ed1871",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/hash_fixture.py",
+      "path": "skills/eval-genius/scripts/hash_fixture.py",
+      "size": 5561
+    },
+    {
+      "digest": "3cb376e4a6b94f72056b2fecf9d206e74b981644e4ffb931ef4f0ffd824a1a6d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/jev_calibrate.py",
+      "path": "skills/eval-genius/scripts/jev_calibrate.py",
+      "size": 7823
+    },
+    {
+      "digest": "fa84b54e1dab9d6fa286ab439bec86cf2b6cdfeddbadd21e900dad97f30b6701",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/jev_cascade_cost.py",
+      "path": "skills/eval-genius/scripts/jev_cascade_cost.py",
+      "size": 10746
+    },
+    {
+      "digest": "b2c1f62596dd8fe5713c3265f40ff95062a3bb95a5fb9ebe9e234bafde615985",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/jev_choice_route.py",
+      "path": "skills/eval-genius/scripts/jev_choice_route.py",
+      "size": 9227
+    },
+    {
+      "digest": "388f1e581412cbff72b3bf1588443c911dacd10b6fcb2f53b5b87bd87aa0712a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/jev_confidence_route.py",
+      "path": "skills/eval-genius/scripts/jev_confidence_route.py",
+      "size": 5603
+    },
+    {
+      "digest": "596e42d0b6ba0f17cdcc9cf8958004a5347c467789d9bc39166d83f8e700641d",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/judge_agreement.py",
+      "path": "skills/eval-genius/scripts/judge_agreement.py",
+      "size": 8897
+    },
+    {
+      "digest": "bb075762723792c988bc2086a749f19579d69f553b509d86e38bef97a1240b80",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/paired_bootstrap.py",
+      "path": "skills/eval-genius/scripts/paired_bootstrap.py",
+      "size": 8705
+    },
+    {
+      "digest": "0a2a73a9d59cf2b51330093d7c76ce2578acbb9ecc73925e0d9d4c9a3627fac1",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/scripts/rate_interval.py",
+      "path": "skills/eval-genius/scripts/rate_interval.py",
+      "size": 3033
+    },
+    {
+      "digest": "b43351ba6a1b9eb6f0480f48cfc7b384e655a7bdd0d7b8347b385dfc47dd919d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/benchmark-assessment-scorecard.md",
+      "path": "skills/eval-genius/templates/benchmark-assessment-scorecard.md",
+      "size": 1582
+    },
+    {
+      "digest": "719561b746c69d1a52aa447936551cdf54b8c928c7dd5fda9382277bb9b58b67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/error-analysis-log.md",
+      "path": "skills/eval-genius/templates/error-analysis-log.md",
+      "size": 1807
+    },
+    {
+      "digest": "50d978f35db2b20b5e1c6dc7693429364166ae02c4427199670d1e123d2fc8d4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/eval-report.md",
+      "path": "skills/eval-genius/templates/eval-report.md",
+      "size": 1985
+    },
+    {
+      "digest": "0898f7123cc9c0e03102848b81e5e6e4d8a3526af416470eb940b18c22ffa8fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/jev-lane-preregistration.md",
+      "path": "skills/eval-genius/templates/jev-lane-preregistration.md",
+      "size": 3483
+    },
+    {
+      "digest": "d8b6b7bd8eb777e7180a35d932c8b3a8a29f3b0a58334c65830aa3ca2773c18d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/preregistration.md",
+      "path": "skills/eval-genius/templates/preregistration.md",
+      "size": 2164
+    },
+    {
+      "digest": "95f55c167231160a491fae551f67439942335d4044561036fd2648dec2247471",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/quality-checklist.md",
+      "path": "skills/eval-genius/templates/quality-checklist.md",
+      "size": 814
+    },
+    {
+      "digest": "2b7a0e547ecd1762a87472495a5d7416879b0921750a61da4cd84eb3480a89f1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-eval-genius/skills/eval-genius/templates/run-manifest.json",
+      "path": "skills/eval-genius/templates/run-manifest.json",
+      "size": 2128
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "b58ae27e5d7bca3e51b593f7275b295bfa25ba09fd6dcd8bbe1b4ee314c5239f",
+  "repository": "https://github.com/alexgreensh/eval-genius",
+  "revision": "dd1270441c2fbb75f85253571e2c74e7a4ad183c",
+  "root": "skills/eval-genius",
+  "schema_version": 1
+}

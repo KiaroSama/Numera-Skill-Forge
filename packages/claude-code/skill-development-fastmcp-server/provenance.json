@@ -1,0 +1,266 @@
+{
+  "collection": "davila7-templates",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "5f7c5bd11cb89f75ba00bacf508320701f5bbcc18b6fdbcecb2dfd063af64fa6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/SKILL.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/SKILL.md",
+      "size": 7627
+    },
+    {
+      "digest": "9a67ba5a9e434bace028c298f3dfcd3eddb4a667356df55a03c0271ae5e9186c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authentication/full-oauth-server.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authentication/full-oauth-server.md",
+      "size": 5732,
+      "source_digest": "feeb544eab35de10b846a6af632ce8781a6365f1803265d2aa8eaf691017c50f"
+    },
+    {
+      "digest": "73edb14f9b9041d60a48dc9a60fe04a151fd1d003145eee55ab3b54eef6fc58f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authentication/oauth-proxy.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authentication/oauth-proxy.md",
+      "size": 32529,
+      "source_digest": "22f456a20c4f1eeb100bba99164635ff1cd0cd4dc9a3a892b36753b000e924d4"
+    },
+    {
+      "digest": "999d12892527949c7967146f369fdda530a26648a358fb7542294ae50c7e3a60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authentication/oidc-proxy.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authentication/oidc-proxy.md",
+      "size": 10605,
+      "source_digest": "4a80ca8a99ffab1f7bfe095e0b3ae247a05431094120e4bcb6f396ffbd8ac0ce"
+    },
+    {
+      "digest": "430032c88050b8552e85e30e21e489e2f0df0d3b99dac9d02332c2e745e1d100",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authentication/remote-oauth.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authentication/remote-oauth.md",
+      "size": 14899,
+      "source_digest": "19382925d0737e03e4a7349628e01564666ecad3f18aa992edbb07521a1ac207"
+    },
+    {
+      "digest": "cb1d30a5bafbc8520f9a07e70da1cacb9d9a29340ae64479a6b53c4c579dc450",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authentication/token-verification.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authentication/token-verification.md",
+      "size": 18207,
+      "source_digest": "278b663ad8c042acf0ef8ec334a9a61f0ab3861f73dce4a1ab49be5a3b1a58e7"
+    },
+    {
+      "digest": "2db903c259ebb892a650d5596a73bcebcff61212366e1af1afa5ce6844f7063d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/authorization.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/authorization.md",
+      "size": 13967,
+      "source_digest": "200eec673ad367472ad490e8472bfb023020a6bcd3a743175c8f5c834a2a47c8"
+    },
+    {
+      "digest": "414cafa8d6ebcd2ef39c730a99495c18316dcbcc43593c9824bfc6fb5fe1af0e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/context/background-tasks.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/context/background-tasks.md",
+      "size": 10907,
+      "source_digest": "cc9da4a05e0963be7761f737505e57fb7825a99173903c6346c830f6c54045bb"
+    },
+    {
+      "digest": "aa3007e6874285e3749a1af51e9f85a522bf5d53d03c74793607cbbcff98f8c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/context/dependency-injection.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/context/dependency-injection.md",
+      "size": 13204,
+      "source_digest": "525f8322952674004699ca70b47383f78ef11ceb7480fb329a71f600afd999a7"
+    },
+    {
+      "digest": "318541926dee1d6592a12e288d0b4ef9232f14c6e38c09a69ec1eda5001e189e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/context/mcp-context.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/context/mcp-context.md",
+      "size": 17582,
+      "source_digest": "035d7e3f8eb7b59e412c0ebc392f6fc6b352c3696eff3af2d5406d592cc32ce7"
+    },
+    {
+      "digest": "0d837bffa8ecca1e24c9a8a738ee0b61ad939ad375a3bcfd85ed00b913fb7afb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/context/user-elicitation.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/context/user-elicitation.md",
+      "size": 12176,
+      "source_digest": "f5972be7d42026ce58275007604eef20f72494dc4f92822609ca93e7c1e84fad"
+    },
+    {
+      "digest": "2002b7151812d613870596944dded36242918dc3b7b1899bf8a82f839d0251ef",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/client-logging.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/client-logging.md",
+      "size": 3933,
+      "source_digest": "22c5dfad8736734150c70fe5f23b39af9476e14de9a52a10982de64d2b90a102"
+    },
+    {
+      "digest": "6d8d5bc653b9b0300bb6b494ec41f623f596051144213d290d9ea86da444aeb3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/icons.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/icons.md",
+      "size": 4891,
+      "source_digest": "6c6bc59862c90c159c37a7688167e07e44e76eef9f4bb8df2629e23012d694e3"
+    },
+    {
+      "digest": "a90ada9644f588bd218731b76b64e7960a801b7e64678ad0e0063331cd8ac36a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/lifespans.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/lifespans.md",
+      "size": 4228,
+      "source_digest": "a2f037780a64c8b872cee1fee04c4ccf496164c5489a003c8cc0896d3bb5cb72"
+    },
+    {
+      "digest": "9376c463df48027e804714ab928b605a599e4518b9f20d0aabe17eb6b004256a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/middleware.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/middleware.md",
+      "size": 30105,
+      "source_digest": "e9b2f5b507df4f3c4b7c5cc59f8e8bed2c6b6f3b714bb89cb862480c5a32da57"
+    },
+    {
+      "digest": "c22b851a8e527b2e7a6913cf225782ba524779bad8ba6007d9b633c8d6f7a903",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/opentelemetry.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/opentelemetry.md",
+      "size": 10225,
+      "source_digest": "6bc73f2d82baee3534f89ce7be07d0a1a2abe2fd4315d8c87ef380c4b11497ac"
+    },
+    {
+      "digest": "d98a1e551d6d411c7ec01cf663a8a3b60497fc674afe82cd6beb7ada29b1303e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/pagination.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/pagination.md",
+      "size": 4852,
+      "source_digest": "f89996af529405d98334b9eb56307d87732ed6c8b82a081c1fe91f4b57ee8e8c"
+    },
+    {
+      "digest": "7c3004146472c23f3beb9247401fbaa68cd95ea6db2fb30411abfcc541e16f83",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/progress-reporting.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/progress-reporting.md",
+      "size": 2808,
+      "source_digest": "b4954acbc3d51a109b77c18f2dfe71c8ce51d1822342a293601f1844a2ba3438"
+    },
+    {
+      "digest": "8b483d2435ae84f7babffd8e7f2366fe74c74104e832a331b4ba1f482a46d809",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/sampling.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/sampling.md",
+      "size": 20566,
+      "source_digest": "5b367a3a6063e54377378ec09f0ff5bbf5593aeb48d74c25ae2d05b68c209a69"
+    },
+    {
+      "digest": "c49659422bb3e5697d1ad3ad278620b5ae14340daeaefab7602b31e9d5307e7e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/storage-backends.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/storage-backends.md",
+      "size": 10155,
+      "source_digest": "9006647b5ea92171e6f113ec94d5752ba877e6a0f85979321a0141f1739485c7"
+    },
+    {
+      "digest": "eeae070f343c5c5cdc1d95807359d739f8e3c31081843a72aeb859a43dff1a88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/features/versioning.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/features/versioning.md",
+      "size": 27051,
+      "source_digest": "81eefe32ff93d0be7ac5f123ed480095341b88dcf8f7b874d91d44e3b358693f"
+    },
+    {
+      "digest": "24ac0b216de5f37f21f37bdec920817a1962e683e260cdf830f5ca8d23f32540",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/getting-started/installation.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/getting-started/installation.md",
+      "size": 4460,
+      "source_digest": "da508e743d9dac1abed2ed7e05a2372413564afd596cb326082e553af849c628"
+    },
+    {
+      "digest": "1af117e76001c3d7ff591b562756466cb1e8ec41c2cacff4d535f7eecee5fc88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/getting-started/quickstart.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/getting-started/quickstart.md",
+      "size": 13534,
+      "source_digest": "6413f73ce790bcad258a66ec92d756825ace28549daa03f873490a403ac230f9"
+    },
+    {
+      "digest": "2e99f1351ac9ab9a7d2981f25764af7cf0cca6b07e40b56b3203d15c40ece549",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/getting-started/upgrade-guide.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/getting-started/upgrade-guide.md",
+      "size": 7128,
+      "source_digest": "591746f939f7fb6ff21eb3b2ac0b5eab15f85e080384c6b0a9f9c80afc78b618"
+    },
+    {
+      "digest": "84a3a0eaef0127c248671eac6c1bec796b147429e923471460db9db0ad36a2aa",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/providers/custom.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/providers/custom.md",
+      "size": 16423,
+      "source_digest": "7fb9d6232359f0a13b8beb89dadd72ddbf9c0e85994a378ffde58b1dca77a5d2"
+    },
+    {
+      "digest": "15cc6f708b904ae4d4d97baad0415b87115281c5c518f299e7c39799c3795c47",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/providers/filesystem.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/providers/filesystem.md",
+      "size": 18755,
+      "source_digest": "5b7a436b47606c33dd51e2400bb4ee3744675bcb4e11857d4e8d4484ee2d8905"
+    },
+    {
+      "digest": "9d241fc3ce593738f2c9d59f3c47b97954e82746ed9a6197fe012464f992a809",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/providers/local.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/providers/local.md",
+      "size": 4561,
+      "source_digest": "f66cc0ff655087cafbaba114e1abae1decf74a0b9cf6303f1b3fd8517dc64cbb"
+    },
+    {
+      "digest": "b830332be14bf2d6744346bff501b235658d69ff7a05bcf58b13c1beb7f8753a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/providers/skills.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/providers/skills.md",
+      "size": 11787,
+      "source_digest": "a1c1f744abfb6fa27c7432f415497b4477f93ecd702597be9680de041492e5c9"
+    },
+    {
+      "digest": "fbbf557c29850ffd85087c1435ae0ca750b0df8a3c7c74b9c25baa5bb9ca7b12",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/server/resources-and-templates.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/server/resources-and-templates.md",
+      "size": 57920,
+      "source_digest": "f356ba30a3e30a26e863dbe30981c1ee06a845d32e789f60d2986d424aab6a04"
+    },
+    {
+      "digest": "a8ec719f7d26633818e8b38ce33aa76773d2fed97f5d150dd4a112488958b7e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/server/server-class.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/server/server-class.md",
+      "size": 8776,
+      "source_digest": "14edece0ab3a741309e00b83dafe95dda82e12639c0ee21e1a3bb2648910711f"
+    },
+    {
+      "digest": "4a1a92f25811e98ae295de003b989b8387717dd622d0f93ffdb100b14abd42fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-fastmcp-server/skills/fastmcp-server/references/server/tools.md",
+      "path": "cli-tool/components/skills/development/fastmcp-server/references/server/tools.md",
+      "size": 42815,
+      "source_digest": "f9f2a2ed2705cbe80662bc52eee09625ffd100822f496a22b95d9235c4ba8ea8"
+    }
+  ],
+  "license": "MIT AND Apache-2.0",
+  "payload_digest": "d002a8b37c49388c31d26f4fbc49cec8db8088a2b724dda9a603c183e70961cf",
+  "repository": "https://github.com/davila7/claude-code-templates",
+  "revision": "a344359459263d73d8948651c789244093c02e4e",
+  "root": "cli-tool/components/skills/development/fastmcp-server",
+  "schema_version": 1
+}

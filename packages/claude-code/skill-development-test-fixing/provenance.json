@@ -1,0 +1,26 @@
+{
+  "collection": "engineering-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e7b895e3484e5d60786f8925bae58ea9446c3aaaaca4c47f7b5813d6fa3cbcdc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-fixing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 9663
+    },
+    {
+      "digest": "391f286dd828239fe6d82679204eaf4c850816e363000dc9ee99f1d5e253f108",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-test-fixing/skills/test-fixing/SKILL.md",
+      "path": "engineering-workflow-plugin/skills/test-fixing/SKILL.md",
+      "size": 2965
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "6aa49f0fa5c284bb0a26fb2393e8a693e15179fe0ae894b66c3bf803764021bd",
+  "repository": "https://github.com/mhattingpete/claude-skills-marketplace",
+  "revision": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+  "root": "engineering-workflow-plugin/skills/test-fixing",
+  "schema_version": 1
+}

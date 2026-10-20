@@ -137,6 +137,7 @@ pub fn execute(root: &Path, apply: bool, offline: bool) -> Result<Value> {
                 if let Some(prior) = &prior {
                     design::verify(root, skill, prior)?;
                     guide::verify(root, skill, prior)?;
+                    distribution::verify(root, skill, prior)?;
                     check_owned(root, state.entries.get(&key).unwrap_or(prior))?;
                     adaptation::verify(root, skill, prior)?;
                     if !skill.notices.is_empty() {

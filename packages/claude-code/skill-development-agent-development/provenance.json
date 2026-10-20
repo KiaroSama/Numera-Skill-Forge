@@ -1,0 +1,75 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "6a2826571320828cc6f8f21ccd8e6eefd2bced62000c8c5e43a712c12e2d83a1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/SKILL.md",
+      "path": "plugins/plugin-dev/skills/agent-development/SKILL.md",
+      "size": 11168
+    },
+    {
+      "digest": "a299652c1bba7b43736cc72a14ada464baccc80c6431e5fa3a55bd13129ac54c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/examples/agent-creation-prompt.md",
+      "path": "plugins/plugin-dev/skills/agent-development/examples/agent-creation-prompt.md",
+      "size": 9838
+    },
+    {
+      "digest": "8321e9933dd0033c46bf5ae831e7cf7dc79783c80fb9b5ea1b66c74f4ac2b337",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/examples/complete-agent-examples.md",
+      "path": "plugins/plugin-dev/skills/agent-development/examples/complete-agent-examples.md",
+      "size": 13916
+    },
+    {
+      "digest": "c56e7fafb84bcbeff69ecd61b1f68ca380e8ba4177dc57c6ceeecd3aa8a83d7b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/references/agent-creation-system-prompt.md",
+      "path": "plugins/plugin-dev/skills/agent-development/references/agent-creation-system-prompt.md",
+      "size": 9749
+    },
+    {
+      "digest": "eaac53eaaf8326ac04428987280fb5041920b7571477ad41742517c5aac683fc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/references/system-prompt-design.md",
+      "path": "plugins/plugin-dev/skills/agent-development/references/system-prompt-design.md",
+      "size": 9998
+    },
+    {
+      "digest": "b8ff47692b007b19b36df81ebd0562476202a21d67db80eeca9c3ee05528cb10",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/references/triggering-examples.md",
+      "path": "plugins/plugin-dev/skills/agent-development/references/triggering-examples.md",
+      "size": 8868
+    },
+    {
+      "digest": "d22e1292f997169fb745793dc50ebe3e9c6631603e1d77f04c2e79bb1fc63cba",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-agent-development/skills/agent-development/scripts/validate-agent.sh",
+      "path": "plugins/plugin-dev/skills/agent-development/scripts/validate-agent.sh",
+      "size": 5796
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "157a68252bcefb1bbb811034cfaf4bbd17137af4b7be32471d1ed37385e59815",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/agent-development",
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "collection": "composio-automation-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "14511fe69b1a11849c37f5a52e3283cc20919e77f368b04556b489975e1e755e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-linear-automation/skills/linear-automation/SKILL.md",
+      "path": "linear-automation/SKILL.md",
+      "size": 5917
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "6f03b9be65ee508a76235693b299426d557752c5b93b51765f3de4393007ec75",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+  "root": "linear-automation",
+  "schema_version": 1
+}

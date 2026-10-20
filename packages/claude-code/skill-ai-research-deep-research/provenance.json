@@ -1,0 +1,61 @@
+{
+  "collection": "sanjay-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "7999c0fed82cce6afd734c4f64c6a1ebc0c05ba33eaf4191a72b68093b9dba6e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 10755
+    },
+    {
+      "digest": "b94ef0a3267baf3990c96aa12ba39324e09cecde3322e94fe1d2c7505b50f371",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/.env.example",
+      "path": "skills/deep-research/.env.example",
+      "size": 344
+    },
+    {
+      "digest": "d1cd7b8f59e64ae872998679f512ca7a3a40f0103a3cbed3cb80f04ca1f0ca9b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/.gitignore",
+      "path": "skills/deep-research/.gitignore",
+      "size": 304
+    },
+    {
+      "digest": "538ae2d6550ee162c7bf0a5f18ecae252dacc759ddf1a6fef56085e1eb9d2757",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/README.md",
+      "path": "skills/deep-research/README.md",
+      "size": 7675
+    },
+    {
+      "digest": "41032a394068f1b2d172f0b663f58891f8f272fc6e1e4b1f33b0836a771bf91a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/SKILL.md",
+      "path": "skills/deep-research/SKILL.md",
+      "size": 2734
+    },
+    {
+      "digest": "1f737f7295a4ee731ade2ebf7b0b44a8388cb09f8f9f8c9dfd9cf0232f410dc8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/requirements.txt",
+      "path": "skills/deep-research/requirements.txt",
+      "size": 35
+    },
+    {
+      "digest": "300d4be3030411656d0c0773f2178aa1be5cc12c159818b768091e8848191e53",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-deep-research/skills/deep-research/scripts/research.py",
+      "path": "skills/deep-research/scripts/research.py",
+      "size": 24204
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "828602b2b4a03df654ee20d610f2357f0a3632787ff0bd5b2aa81fe9061681a3",
+  "repository": "https://github.com/sanjay3290/ai-skills",
+  "revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",
+  "root": "skills/deep-research",
+  "schema_version": 1
+}

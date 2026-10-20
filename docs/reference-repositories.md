@@ -5,3 +5,4 @@
 - https://github.com/K-Dense-AI/scientific-agent-skills
 - https://github.com/vercel-labs/agent-skills
 - https://github.com/voltagent/awesome-design-md
+- https://github.com/imskyleen/animate-ui

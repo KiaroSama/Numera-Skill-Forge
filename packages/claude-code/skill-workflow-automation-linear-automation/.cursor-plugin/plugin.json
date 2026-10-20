@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: linear-automation",
+  "license": "Apache-2.0",
+  "name": "skill-workflow-automation-linear-automation",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

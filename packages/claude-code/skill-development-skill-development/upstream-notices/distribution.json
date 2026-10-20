@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "plugins/plugin-dev/LICENSE": {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output": "upstream-notices/plugins_plugin-dev_LICENSE"
+    },
+    "plugins/plugin-dev/skills/skill-development/SKILL.md": {
+      "digest": "d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f",
+      "mode": "100644",
+      "output": "skills/skill-development/SKILL.md"
+    },
+    "plugins/plugin-dev/skills/skill-development/references/skill-creator-original.md": {
+      "digest": "8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816",
+      "mode": "100644",
+      "output": "skills/skill-development/references/skill-creator-original.md"
+    }
+  },
+  "supplements": {
+    "registry/licenses/bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362.txt": {
+      "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "output": "skills/skill-development/references/LICENSE.txt",
+      "source": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+      "license": "Apache-2.0"
+    }
+  }
+}

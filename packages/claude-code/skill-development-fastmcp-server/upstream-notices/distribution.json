@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "cli-tool/components/skills/development/fastmcp-server/SKILL.md": {
+      "digest": "5f7c5bd11cb89f75ba00bacf508320701f5bbcc18b6fdbcecb2dfd063af64fa6",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/SKILL.md"
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authentication/full-oauth-server.md": {
+      "digest": "feeb544eab35de10b846a6af632ce8781a6365f1803265d2aa8eaf691017c50f",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authentication/full-oauth-server.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/full-oauth-server.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authentication/oauth-proxy.md": {
+      "digest": "22f456a20c4f1eeb100bba99164635ff1cd0cd4dc9a3a892b36753b000e924d4",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authentication/oauth-proxy.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/oauth-proxy.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authentication/oidc-proxy.md": {
+      "digest": "4a80ca8a99ffab1f7bfe095e0b3ae247a05431094120e4bcb6f396ffbd8ac0ce",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authentication/oidc-proxy.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/oidc-proxy.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authentication/remote-oauth.md": {
+      "digest": "19382925d0737e03e4a7349628e01564666ecad3f18aa992edbb07521a1ac207",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authentication/remote-oauth.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/remote-oauth.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authentication/token-verification.md": {
+      "digest": "278b663ad8c042acf0ef8ec334a9a61f0ab3861f73dce4a1ab49be5a3b1a58e7",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authentication/token-verification.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/token-verification.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/authorization.md": {
+      "digest": "200eec673ad367472ad490e8472bfb023020a6bcd3a743175c8f5c834a2a47c8",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/authorization.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/authorization.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/context/background-tasks.md": {
+      "digest": "cc9da4a05e0963be7761f737505e57fb7825a99173903c6346c830f6c54045bb",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/context/background-tasks.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/tasks.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/context/dependency-injection.md": {
+      "digest": "525f8322952674004699ca70b47383f78ef11ceb7480fb329a71f600afd999a7",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/context/dependency-injection.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/dependency-injection.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/context/mcp-context.md": {
+      "digest": "035d7e3f8eb7b59e412c0ebc392f6fc6b352c3696eff3af2d5406d592cc32ce7",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/context/mcp-context.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/context.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/context/user-elicitation.md": {
+      "digest": "f5972be7d42026ce58275007604eef20f72494dc4f92822609ca93e7c1e84fad",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/context/user-elicitation.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/elicitation.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/client-logging.md": {
+      "digest": "22c5dfad8736734150c70fe5f23b39af9476e14de9a52a10982de64d2b90a102",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/client-logging.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/logging.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/icons.md": {
+      "digest": "6c6bc59862c90c159c37a7688167e07e44e76eef9f4bb8df2629e23012d694e3",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/icons.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/icons.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/lifespans.md": {
+      "digest": "a2f037780a64c8b872cee1fee04c4ccf496164c5489a003c8cc0896d3bb5cb72",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/lifespans.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/lifespan.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/middleware.md": {
+      "digest": "e9b2f5b507df4f3c4b7c5cc59f8e8bed2c6b6f3b714bb89cb862480c5a32da57",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/middleware.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/middleware.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/opentelemetry.md": {
+      "digest": "6bc73f2d82baee3534f89ce7be07d0a1a2abe2fd4315d8c87ef380c4b11497ac",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/opentelemetry.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/telemetry.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/pagination.md": {
+      "digest": "f89996af529405d98334b9eb56307d87732ed6c8b82a081c1fe91f4b57ee8e8c",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/pagination.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/pagination.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/progress-reporting.md": {
+      "digest": "b4954acbc3d51a109b77c18f2dfe71c8ce51d1822342a293601f1844a2ba3438",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/progress-reporting.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/progress.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/sampling.md": {
+      "digest": "5b367a3a6063e54377378ec09f0ff5bbf5593aeb48d74c25ae2d05b68c209a69",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/sampling.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/v3/servers/sampling.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/storage-backends.md": {
+      "digest": "9006647b5ea92171e6f113ec94d5752ba877e6a0f85979321a0141f1739485c7",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/storage-backends.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/storage-backends.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/features/versioning.md": {
+      "digest": "81eefe32ff93d0be7ac5f123ed480095341b88dcf8f7b874d91d44e3b358693f",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/features/versioning.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/versioning.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/getting-started/installation.md": {
+      "digest": "da508e743d9dac1abed2ed7e05a2372413564afd596cb326082e553af849c628",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/getting-started/installation.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/installation.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/getting-started/quickstart.md": {
+      "digest": "6413f73ce790bcad258a66ec92d756825ace28549daa03f873490a403ac230f9",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/getting-started/quickstart.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/quickstart.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/getting-started/upgrade-guide.md": {
+      "digest": "591746f939f7fb6ff21eb3b2ac0b5eab15f85e080384c6b0a9f9c80afc78b618",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/getting-started/upgrade-guide.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/upgrading/from-fastmcp-2.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/providers/custom.md": {
+      "digest": "7fb9d6232359f0a13b8beb89dadd72ddbf9c0e85994a378ffde58b1dca77a5d2",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/providers/custom.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/custom.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/providers/filesystem.md": {
+      "digest": "5b7a436b47606c33dd51e2400bb4ee3744675bcb4e11857d4e8d4484ee2d8905",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/providers/filesystem.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/filesystem.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/providers/local.md": {
+      "digest": "f66cc0ff655087cafbaba114e1abae1decf74a0b9cf6303f1b3fd8517dc64cbb",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/providers/local.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/local.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/providers/skills.md": {
+      "digest": "a1c1f744abfb6fa27c7432f415497b4477f93ecd702597be9680de041492e5c9",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/providers/skills.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/skills.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/server/resources-and-templates.md": {
+      "digest": "f356ba30a3e30a26e863dbe30981c1ee06a845d32e789f60d2986d424aab6a04",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/server/resources-and-templates.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/resources.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/server/server-class.md": {
+      "digest": "14edece0ab3a741309e00b83dafe95dda82e12639c0ee21e1a3bb2648910711f",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/server/server-class.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/server.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    },
+    "cli-tool/components/skills/development/fastmcp-server/references/server/tools.md": {
+      "digest": "f9f2a2ed2705cbe80662bc52eee09625ffd100822f496a22b95d9235c4ba8ea8",
+      "mode": "100644",
+      "output": "skills/fastmcp-server/references/server/tools.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/tools.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    }
+  },
+  "supplements": {
+    "registry/licenses/43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1.txt": {
+      "digest": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "output": "skills/fastmcp-server/LICENSE.Apache-2.0.txt",
+      "source": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE",
+      "license": "Apache-2.0"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "LICENSE",
+        "cli-tool/components/skills/development/fastmcp-server/SKILL.md"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "attribution": "Original skill authors and intermediary contribution under actual MIT terms; selected source retained, no blanket relicensing of earlier Apache material.",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/fastmcp-server/SKILL.md"
+    },
+    {
+      "license": "Apache-2.0",
+      "files": [
+        "cli-tool/components/skills/development/fastmcp-server/references/authentication/full-oauth-server.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/authentication/oauth-proxy.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/authentication/oidc-proxy.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/authentication/remote-oauth.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/authentication/token-verification.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/authorization.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/context/background-tasks.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/context/dependency-injection.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/context/mcp-context.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/context/user-elicitation.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/client-logging.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/icons.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/lifespans.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/middleware.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/opentelemetry.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/pagination.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/progress-reporting.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/sampling.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/storage-backends.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/features/versioning.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/getting-started/installation.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/getting-started/quickstart.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/getting-started/upgrade-guide.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/providers/custom.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/providers/filesystem.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/providers/local.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/providers/skills.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/server/resources-and-templates.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/server/server-class.md",
+        "cli-tool/components/skills/development/fastmcp-server/references/server/tools.md"
+      ],
+      "notices": [
+        "registry/licenses/43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1.txt"
+      ],
+      "attribution": "PrefectHQ/fastmcp original documentation and contributors; derived document mappings and prominent modification notices retained in every adapted file. Original selected bytes preserved separately.",
+      "source": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE"
+    }
+  ]
+}

@@ -49,9 +49,9 @@ WSL is a separate Linux environment: select its own workspace and destinations.
 
 ## First skill collection
 
-The native Claude marketplace currently packages **803 reviewed skills** from
-[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates), each as a separate
-plugin. Original prompts, scripts, companions and notices are preserved; 41 explicitly reviewed
+Forge currently accepts **812 reviewed packages** from
+[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates): 808 independent
+marketplace plugins and four required-native DoorDash bundles delivered through explicit Forge approval. Original prompts, scripts, companions and notices are preserved; 41 explicitly reviewed
 entries normalize only their frontmatter name and matching directory, retaining the original entry
 and exact change provenance. This is a bounded licensed subset, not the entire upstream collection.
 See [licenses, additions and exclusions](docs/source-licenses.md).
@@ -102,9 +102,12 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 ## Complete K-Dense scientific collection
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-are included as independent packages. Together with the reviewed additions, the marketplace now
-contains **1110 packages**. The [latest 72 additions](docs/missing-skill-imports.md) include approved
-name-only adaptations, complete original-source packages and transparent guide adapters. K-Dense original names,
+are included as independent packages. Together with the reviewed additions, Forge now accepts
+**1145 packages**: **1141 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [107 missing-root additions](docs/missing-skill-imports.md) include approved
+name-only adaptations, complete original-source packages, transparent guide adapters and reviewed
+layout/license-compliance repairs. The latest35 preserve all1110 preceding accepted objects.
+Forty-six canonical roots remain held for exact source/grant conditions; Animate UI is additionally
+listed as a source reference pending clarification of its custom redistribution terms. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
 [the catalog](catalogs/collections.json) for the complete list.

@@ -1,0 +1,103 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "dd4ba7eded93d7ba698f05ec63d06d110a6b5543664af359b005dd976ce811b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/README.md",
+      "path": "plugins/plugin-dev/skills/command-development/README.md",
+      "size": 7651
+    },
+    {
+      "digest": "c55ad02cfe4cbb2a947eea3b1ed5fa1871e722d627c3c6792c3ed87c10c4d7a8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/SKILL.md",
+      "path": "plugins/plugin-dev/skills/command-development/SKILL.md",
+      "size": 19233
+    },
+    {
+      "digest": "7d71d7b516020a6c171171399b40dd2cad02b842c9faa78b90e0983906c9ee94",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/examples/plugin-commands.md",
+      "path": "plugins/plugin-dev/skills/command-development/examples/plugin-commands.md",
+      "size": 13989
+    },
+    {
+      "digest": "f2533ed834305166603bcb4dd870d695af4a33b9a49d330937a4c70ed964767c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/examples/simple-commands.md",
+      "path": "plugins/plugin-dev/skills/command-development/examples/simple-commands.md",
+      "size": 8675
+    },
+    {
+      "digest": "eb258095b5a411b68377c96730effe597884a14b619cb0c1a7ab1c801d80a7d9",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/advanced-workflows.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/advanced-workflows.md",
+      "size": 13618
+    },
+    {
+      "digest": "70c6c9b0a9b2d46a925ada6c45808a73498a457e1d641c82cc05de8a29a33b05",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/documentation-patterns.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/documentation-patterns.md",
+      "size": 14971
+    },
+    {
+      "digest": "db1ea175ca4b0bb7d11c75cb8a7d00b353ea7cf4df2027b4263e45ded4d39475",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/frontmatter-reference.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/frontmatter-reference.md",
+      "size": 9162
+    },
+    {
+      "digest": "09ab1f18bfa3ff5f7088e45d5810ac20eb25ffc97fc9e8bb79416d40e0b4516b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/interactive-commands.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/interactive-commands.md",
+      "size": 20980
+    },
+    {
+      "digest": "ab30835431d06a8e65cd629ba0e73b3f1de5b043126c6fef7ea70163400e90f4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/marketplace-considerations.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/marketplace-considerations.md",
+      "size": 16437
+    },
+    {
+      "digest": "57e11ae6a4bbc1a4a295d1f036202970911d6029d64f4ab058b63a4c5a899072",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/plugin-features-reference.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/plugin-features-reference.md",
+      "size": 14622
+    },
+    {
+      "digest": "e6ccf78d85c23bc58582dbc8b91731c4e412568705ed2c87ac699a1ded9adc67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-command-development/skills/command-development/references/testing-strategies.md",
+      "path": "plugins/plugin-dev/skills/command-development/references/testing-strategies.md",
+      "size": 14803
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "8f3a65737def2369818dbcb4e0d0d5a4208f33ec5d43dcae5450cc9b872bcac6",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/command-development",
+  "schema_version": 1
+}

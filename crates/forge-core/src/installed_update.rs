@@ -63,6 +63,21 @@ pub fn update_installed(root: &Path, selected: &Path, dry: bool) -> Result<Value
             &destination,
             owner.scope,
         )?;
+        if candidate
+            .receipt
+            .delivery
+            .starts_with("accepted collection reviewed-native")
+            && (candidate.files.len() != owner.files.len()
+                || candidate.files.iter().any(|(path, (bytes, mode))| {
+                    owner.files.get(path) != Some(&storage::digest(bytes))
+                        || owner.modes.get(path) != Some(mode)
+                }))
+        {
+            return Err(Error::new(
+                "native-approval-required",
+                "Preview and approve the changed native package through install before updating its executable hooks",
+            ));
+        }
         candidate.receipt.id = owner.id.clone();
         candidate.receipt.operation = operation.clone();
         let mut skill_owners = disabled.clone();
@@ -71,12 +86,17 @@ pub fn update_installed(root: &Path, selected: &Path, dry: bool) -> Result<Value
             let mut receipt = prior.receipt.clone();
             receipt.files = prior
                 .files
-                .keys()
-                .map(|p| (p.clone(), String::new()))
+                .iter()
+                .map(|(p, (bytes, _))| (p.clone(), storage::digest(bytes)))
+                .collect();
+            receipt.modes = prior
+                .files
+                .iter()
+                .map(|(p, (_, mode))| (p.clone(), *mode))
                 .collect();
             skill_owners.push(receipt);
         }
-        planning::check_skill_owners(&candidate.receipt, candidate.files.keys(), &skill_owners)?;
+        planning::check_skill_owners(&candidate.receipt, &candidate.files, &skill_owners)?;
         for (path, (bytes, mode)) in &candidate.files {
             total += bytes.len() as u64;
             if total > storage::MAX_TOTAL {

@@ -1,0 +1,19 @@
+{
+  "collection": "composio-automation-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "def7dff8dfc0ca88e404c0439b38dcd68aabfd4ec7d998a19cbca2e0b4c0ea19",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-workflow-automation-github-automation/skills/github-automation/SKILL.md",
+      "path": "github-automation/SKILL.md",
+      "size": 11230
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "b793ed56b985a54f20255af11977cbbb6edca94bcafbb0dbf236a204a0387489",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+  "root": "github-automation",
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: heygen-video",
+  "license": "MIT",
+  "name": "skill-development-heygen-best-practices",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

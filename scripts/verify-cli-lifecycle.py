@@ -28,6 +28,11 @@ SELECTED = [
     ("wshobson-guides", "skill-development-grafana-dashboards", "claude-code", ".claude/skills"),
     ("wshobson-guides", "skill-development-prometheus-configuration", "claude-code", ".claude/skills"),
     ("wshobson-guides", "skill-workflow-automation-github-actions-templates", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-productivity-nowait", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-development-android-cicd", "claude-code", ".claude/skills"),
+    ("clinpgx-historical-originals", "skill-scientific-clinpgx-database", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-development-fastmcp-server", "claude-code", ".claude/skills"),
+    ("davila7-templates", "skill-doordash-doordash-allergy-shield", "claude-code", ".claude/skills"),
 ]
 
 
@@ -66,6 +71,10 @@ def subset(project, workspace):
         write(workspace / path, catalog)
     for collection in collections:
         for skill in collection["skills"]:
+            for path in skill.get("reviewed_distribution", {}).get("supplements", {}):
+                target = workspace / path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(project / path, target)
             for notice in skill.get("notices", []):
                 target = workspace / notice["path"]
                 target.parent.mkdir(parents=True, exist_ok=True)
@@ -116,16 +125,27 @@ def verify(application, project, work):
             unrelated.write_text("Keep consumer content\n", encoding="utf-8")
             cli(workspace, "package", "inspect", package)
             cli(workspace, "build", package, "--target", target, "--locked")
-            cli(workspace, "install", package, "--target", target, "--destination", str(destination), "--dry-run")
+            native_preview = cli(workspace, "install", package, "--target", target, "--destination", str(destination), "--dry-run")
             assert not (destination / prefix).exists()
-            cli(workspace, "install", package, "--target", "hermes-native", "--destination", str(destination), error="native-install-required")
+            native_required = bool(entry.get("reviewed_distribution", {}).get("native"))
+            cli(workspace, "install", package, "--target", "hermes-native", "--destination", str(destination), error="unsupported-required" if native_required else "native-install-required")
             assert not (destination / prefix).exists()
-            receipt = cli(workspace, "install", package, "--target", target, "--destination", str(destination))
+            approval = ["--native-approval", native_preview["native_approval"]] if native_required else []
+            receipt = cli(workspace, "install", package, "--target", target, "--destination", str(destination), *approval)
             receipt_id = receipt["id"]
+            if native_required:
+                native = entry["reviewed_distribution"]["native"]
+                for source, path in native["files"].items():
+                    expected = next(f["digest"] for f in entry["files"] if f["path"] == source)
+                    assert digest(destination / path) == expected
+                settings = json.loads((destination / ".claude/settings.json").read_text(encoding="utf-8"))
+                assert len(settings["hooks"]["PreToolUse"]) == 3 and len(settings["hooks"]["PostToolUse"]) == 1
+                cli(workspace, "install", package, "--target", "codex", "--destination", str(destination), error="unsupported-required")
             installed = destination / prefix / name
             for file in entry["files"]:
-                if file["path"].startswith(entry["root"] + "/"):
-                    copied = installed / file["path"][len(entry["root"]) + 1:]
+                skill_path = file["output_path"].split(f"packages/claude-code/{package}/skills/{name}/", 1)
+                if len(skill_path) == 2:
+                    copied = installed / skill_path[1]
                     assert digest(copied) == file["digest"]
                     assert bool(copied.stat().st_mode & 0o111) == (file["mode"] == "100755")
             for path, expected in receipt["files"].items():

@@ -1,0 +1,82 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "028b955244b937ebc1a5c268a12776b8ceae4cbfb60928fbca927227f4c8851d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/SKILL.md",
+      "path": "plugins/plugin-dev/skills/plugin-settings/SKILL.md",
+      "size": 12097
+    },
+    {
+      "digest": "abf0a36bb3f6425041046f2da1ebfac5505c5b37656fdd4772cfc4d8bd2fa655",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/examples/create-settings-command.md",
+      "path": "plugins/plugin-dev/skills/plugin-settings/examples/create-settings-command.md",
+      "size": 2177
+    },
+    {
+      "digest": "f07209b6e2fb62d443ae07d01bc1674c6c741c352a04549bfa978e1f34b9769e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/examples/example-settings.md",
+      "path": "plugins/plugin-dev/skills/plugin-settings/examples/example-settings.md",
+      "size": 2930
+    },
+    {
+      "digest": "627fce38d37d64c971401ecc85d548f060075670bcac52f65c92ca156e810c70",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/examples/read-settings-hook.sh",
+      "path": "plugins/plugin-dev/skills/plugin-settings/examples/read-settings-hook.sh",
+      "size": 2205
+    },
+    {
+      "digest": "bc90aa020aa5fcbb3483d7316754450dcc91d086ee96f9304fa655e878f7712e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/references/parsing-techniques.md",
+      "path": "plugins/plugin-dev/skills/plugin-settings/references/parsing-techniques.md",
+      "size": 11513
+    },
+    {
+      "digest": "35c8805ac43fccd9efeef932bc49afc424f8fd150b553197652996abf2d1327e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/references/real-world-examples.md",
+      "path": "plugins/plugin-dev/skills/plugin-settings/references/real-world-examples.md",
+      "size": 9492
+    },
+    {
+      "digest": "1ab8c42d5a19e0b404af3c573d0267fc19b5987e1d7885f522066ffd76e54553",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/scripts/parse-frontmatter.sh",
+      "path": "plugins/plugin-dev/skills/plugin-settings/scripts/parse-frontmatter.sh",
+      "size": 1269
+    },
+    {
+      "digest": "2f4975285cba7f16b82c764a95fe76d34ac488308ba6705c04561267da4f4f75",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-plugin-settings/skills/plugin-settings/scripts/validate-settings.sh",
+      "path": "plugins/plugin-dev/skills/plugin-settings/scripts/validate-settings.sh",
+      "size": 2712
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "7e88e59d14d2c52ca02ed0a6f5ef82a4d85d781f78a86938bf91fb6f14a07364",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/plugin-settings",
+  "schema_version": 1
+}

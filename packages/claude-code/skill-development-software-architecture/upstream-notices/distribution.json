@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "plugins/ddd/skills/software-architecture/SKILL.md": {
+      "digest": "9fdcdb61e44bd8b66da6d023282e1924b2887079695a82c14c4c3dd43c95c463",
+      "mode": "100644",
+      "output": "skills/software-architecture/SKILL.md"
+    }
+  },
+  "obligations": [
+    {
+      "license": "GPL-3.0-only",
+      "files": [
+        "LICENSE",
+        "plugins/ddd/skills/software-architecture/SKILL.md"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "attribution": "NeoLabHQ context-engineering-kit; unchanged preferred-form Markdown source and original GPL terms. No additional restrictions.",
+      "source": "https://github.com/NeoLabHQ/context-engineering-kit/blob/49be11a06d5e2a8c31e924ef55a771d9229fbca2/plugins/ddd/skills/software-architecture/SKILL.md"
+    }
+  ]
+}

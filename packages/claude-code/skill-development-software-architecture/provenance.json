@@ -1,0 +1,26 @@
+{
+  "collection": "neolab-historical-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-software-architecture/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 35149
+    },
+    {
+      "digest": "9fdcdb61e44bd8b66da6d023282e1924b2887079695a82c14c4c3dd43c95c463",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-software-architecture/skills/software-architecture/SKILL.md",
+      "path": "plugins/ddd/skills/software-architecture/SKILL.md",
+      "size": 3540
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "payload_digest": "66c341c55d72ca1a057db383a5d2912172009d2289611fd1d73674565e593028",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "revision": "49be11a06d5e2a8c31e924ef55a771d9229fbca2",
+  "root": "plugins/ddd/skills/software-architecture",
+  "schema_version": 1
+}

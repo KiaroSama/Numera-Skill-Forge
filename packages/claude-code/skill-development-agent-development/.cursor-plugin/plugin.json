@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/plugin-dev/skills/agent-development",
+  "license": "Apache-2.0",
+  "name": "skill-development-agent-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

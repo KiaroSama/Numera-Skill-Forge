@@ -92,6 +92,7 @@ pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, Stri
 }
 
 pub(crate) fn assess(root: &Path, accepted: &Accepted, target: &str) -> Result<Value> {
+    crate::collections::native::assess(accepted, target, None)?;
     adapters::install_prefix(target)?;
     let (name, description) = metadata(root, accepted)?;
     assess_metadata(accepted, target, &name, &description)
@@ -103,6 +104,7 @@ pub(crate) fn assess_metadata(
     name: &str,
     description: &str,
 ) -> Result<Value> {
+    crate::collections::native::assess(accepted, target, None)?;
     let strict = matches!(
         target,
         "opencode" | "opencode-v1" | "copilot" | "vscode" | "cline" | "kilo" | "kiro"

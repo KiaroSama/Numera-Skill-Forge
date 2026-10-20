@@ -226,13 +226,14 @@ pub fn execute(root: &Path, request: Value) -> Result<Value> {
                 return Err(Error::new("destination", "Select an absolute destination"));
             }
             let scope = request.get("scope").cloned().unwrap_or(json!("project"));
-            install::install_scoped(
+            install::install_scoped_approved(
                 root,
                 field(&request, "package")?,
                 field(&request, "target")?,
                 &destination,
                 serde_json::from_value(scope)?,
                 request["dry_run"].as_bool().unwrap_or(true),
+                request["native_approval"].as_str(),
             )
         }
         "disable" => install::disable(root, field(&request, "receipt")?),

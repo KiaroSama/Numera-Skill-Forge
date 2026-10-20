@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: plugins/hookify/skills/writing-rules",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-writing-rules",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

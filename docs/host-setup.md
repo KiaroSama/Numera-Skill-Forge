@@ -184,6 +184,30 @@ the user-scope defaults above do not silently become custom-state paths.
 brands. Use the corresponding ordinary skill target for these collections. Forge refuses skill-copy
 conversion of a native package when it would discard required runtime behavior.
 
+### Required DoorDash native bundle
+
+The four `skill-doordash-doordash-*` packages require project-scoped `claude-code` installation.
+They contain all four original hook/config pairs, five commands and companion skills. Forge places
+scripts in `.claude/hooks`, commands in `.claude/commands`, skills in `.claude/skills` and merges the
+reviewed hook event fields into project settings with receipt ownership. User edits/conflicting
+managed arrays refuse; unrelated settings survive uninstall. Other targets/user scope refuse instead
+of silently installing advisory instructions only. These four bundles are excluded from ordinary
+skill-only marketplaces; direct Forge delivery is not an enforcement guarantee.
+
+```bash
+numera-forge install skill-doordash-doordash-allergy-shield --target claude-code --scope project --destination /absolute/path/to/project --dry-run
+```
+
+The preview returns `native_approval`, a digest of the exact accepted package. Apply only after
+reviewing the hook changes, removing `--dry-run` and supplying `--native-approval <digest>`.
+Without that content-bound approval Forge refuses activation. Coordinated updates also refuse changed
+native payloads until they are explicitly approved through install. Existing differing hook event arrays
+also refuse before writes; user guards are never replaced. Identical complete reviewed-native
+companion bundles can share ownership across the four independently selected packages. Python3, Bash, jq and the
+actual dd-cli service are external prerequisites; original hooks fail open without Python3 and use
+heuristic command/allergen matching. They are not medical-grade, tamper-proof or universal budget
+controls. Real ordering/service access and personal-profile activation were not tested or performed.
+
 ### Verification, updates and removal
 
 Inspect the install result/receipt and actual host inventory. File presence alone proves neither
@@ -233,10 +257,11 @@ host files or bypass an ownership conflict with a manual bulk copy.
 
 ## 4. Duplicate names and evidence limits
 
-There are 1038 accepted packages and 916 distinct installed skill names. There are 118 shared-name groups.
-Native per-package namespaces retain independent identity where the host implements it. Flat
-standalone roots cannot make different same-name packages simultaneously unambiguous: Forge refuses
-the second owner, even when their main SKILL.md bytes match. Select another project/home destination
+There are 1145 accepted packages, 1020 distinct bundled skill names and 121 shared-name groups.
+The ordinary catalogs contain 1141 packages; four required-native DoorDash bundles use only the
+explicit Forge route. Native per-package namespaces retain independent identity where implemented.
+Flat standalone roots refuse different-source same-name owners, even when their main SKILL.md bytes
+match. Only complete identical reviewed-native companion trees can share ownership as described above. Select another project/home destination
 or uninstall the prior owner first. No original skill name is rewritten or silently dropped.
 
 Current verification distinguishes deterministic metadata/path checks, first-party scoped lifecycle

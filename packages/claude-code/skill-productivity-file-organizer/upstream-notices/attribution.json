@@ -1,0 +1,18 @@
+{
+  "attribution": "Owner-approved complete original-author restoration for intermediary productivity/file-organizer. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/file-organizer. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12.txt",
+      "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md"
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+      "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE"
+    }
+  ]
+}

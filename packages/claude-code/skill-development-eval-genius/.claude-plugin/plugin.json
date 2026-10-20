@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/eval-genius",
+  "license": "Apache-2.0",
+  "name": "skill-development-eval-genius",
+  "repository": "https://github.com/alexgreensh/eval-genius",
+  "version": "1.0.0"
+}

@@ -5,6 +5,81 @@
   },
   "plugins": [
     {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/agent-development",
+      "name": "skill-development-agent-development",
+      "source": "packages/claude-code/skill-development-agent-development"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/command-development",
+      "name": "skill-development-command-development",
+      "source": "packages/claude-code/skill-development-command-development"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/hook-development",
+      "name": "skill-development-hook-development",
+      "source": "packages/claude-code/skill-development-hook-development"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/mcp-integration",
+      "name": "skill-development-mcp-integration",
+      "source": "packages/claude-code/skill-development-mcp-integration"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/plugin-settings",
+      "name": "skill-development-plugin-settings",
+      "source": "packages/claude-code/skill-development-plugin-settings"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/plugin-structure",
+      "name": "skill-development-plugin-structure",
+      "source": "packages/claude-code/skill-development-plugin-structure"
+    },
+    {
+      "description": "Original upstream skill: plugins/plugin-dev/skills/skill-development",
+      "name": "skill-development-skill-development",
+      "source": "packages/claude-code/skill-development-skill-development"
+    },
+    {
+      "description": "Reviewed original guide adapter: plugins/code-simplifier/agents",
+      "name": "skill-productivity-code-simplifier",
+      "source": "packages/claude-code/skill-productivity-code-simplifier"
+    },
+    {
+      "description": "Original upstream skill: plugins/hookify/skills/writing-rules",
+      "name": "skill-productivity-writing-rules",
+      "source": "packages/claude-code/skill-productivity-writing-rules"
+    },
+    {
+      "description": "Original upstream skill: scientific-skills/clinpgx-database",
+      "name": "skill-scientific-clinpgx-database",
+      "source": "packages/claude-code/skill-scientific-clinpgx-database"
+    },
+    {
+      "description": "Original upstream skill: github-automation",
+      "name": "skill-workflow-automation-github-automation",
+      "source": "packages/claude-code/skill-workflow-automation-github-automation"
+    },
+    {
+      "description": "Original upstream skill: jira-automation",
+      "name": "skill-workflow-automation-jira-automation",
+      "source": "packages/claude-code/skill-workflow-automation-jira-automation"
+    },
+    {
+      "description": "Original upstream skill: linear-automation",
+      "name": "skill-workflow-automation-linear-automation",
+      "source": "packages/claude-code/skill-workflow-automation-linear-automation"
+    },
+    {
+      "description": "Original upstream skill: slack-automation",
+      "name": "skill-workflow-automation-slack-automation",
+      "source": "packages/claude-code/skill-workflow-automation-slack-automation"
+    },
+    {
+      "description": "Original upstream skill: file-organizer",
+      "name": "skill-productivity-file-organizer",
+      "source": "packages/claude-code/skill-productivity-file-organizer"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/ai-maestro/agent-management",
       "name": "skill-ai-maestro-agent-management",
       "source": "packages/claude-code/skill-ai-maestro-agent-management"
@@ -653,6 +728,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/ai-research/voice-ai-development",
       "name": "skill-ai-research-voice-ai-development",
       "source": "packages/claude-code/skill-ai-research-voice-ai-development"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/analytics/google-analytics",
+      "name": "skill-analytics-google-analytics",
+      "source": "packages/claude-code/skill-analytics-google-analytics"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/business-marketing/ab-test-setup",
@@ -1325,6 +1405,11 @@
       "source": "packages/claude-code/skill-development-algolia-search"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/android-cicd",
+      "name": "skill-development-android-cicd",
+      "source": "packages/claude-code/skill-development-android-cicd"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/angular",
       "name": "skill-development-angular",
       "source": "packages/claude-code/skill-development-angular"
@@ -1655,6 +1740,11 @@
       "source": "packages/claude-code/skill-development-executing-plans"
     },
     {
+      "description": "Original upstream skill: cli-tool/components/skills/development/fastmcp-server",
+      "name": "skill-development-fastmcp-server",
+      "source": "packages/claude-code/skill-development-fastmcp-server"
+    },
+    {
       "description": "Original upstream skill: cli-tool/components/skills/development/feature-design-assistant",
       "name": "skill-development-feature-design-assistant",
       "source": "packages/claude-code/skill-development-feature-design-assistant"
@@ -1818,6 +1908,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/development/moodle-external-api-development",
       "name": "skill-development-moodle-external-api-development",
       "source": "packages/claude-code/skill-development-moodle-external-api-development"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/move-code-quality",
+      "name": "skill-development-move-code-quality",
+      "source": "packages/claude-code/skill-development-move-code-quality"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/development/mui",
@@ -2648,6 +2743,11 @@
       "description": "Original upstream skill: cli-tool/components/skills/productivity/notion-template-business",
       "name": "skill-productivity-notion-template-business",
       "source": "packages/claude-code/skill-productivity-notion-template-business"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/productivity/nowait",
+      "name": "skill-productivity-nowait",
+      "source": "packages/claude-code/skill-productivity-nowait"
     },
     {
       "description": "Original upstream skill: cli-tool/components/skills/productivity/obsidian-clipper-template-creator",
@@ -4020,6 +4120,31 @@
       "source": "packages/claude-code/skill-workflow-automation-zapier-make-patterns"
     },
     {
+      "description": "Original upstream skill: engineering-workflow-plugin/skills/git-pushing",
+      "name": "skill-development-git-pushing",
+      "source": "packages/claude-code/skill-development-git-pushing"
+    },
+    {
+      "description": "Original upstream skill: engineering-workflow-plugin/skills/test-fixing",
+      "name": "skill-development-test-fixing",
+      "source": "packages/claude-code/skill-development-test-fixing"
+    },
+    {
+      "description": "Original upstream skill: skills/eval-genius",
+      "name": "skill-development-eval-genius",
+      "source": "packages/claude-code/skill-development-eval-genius"
+    },
+    {
+      "description": "Original upstream skill: heygen-video",
+      "name": "skill-development-heygen-best-practices",
+      "source": "packages/claude-code/skill-development-heygen-best-practices"
+    },
+    {
+      "description": "Original upstream skill: skills/playwright-java",
+      "name": "skill-development-playwright-java",
+      "source": "packages/claude-code/skill-development-playwright-java"
+    },
+    {
       "description": "Original upstream skill: .agents/skills/clone-website",
       "name": "skill-jcodesmore-clone-website",
       "source": "packages/claude-code/skill-jcodesmore-clone-website"
@@ -4925,9 +5050,34 @@
       "source": "packages/claude-code/skill-workflow-automation-n8n-workflow-patterns"
     },
     {
+      "description": "Original upstream skill: plugins/ddd/skills/software-architecture",
+      "name": "skill-development-software-architecture",
+      "source": "packages/claude-code/skill-development-software-architecture"
+    },
+    {
+      "description": "Original upstream skill: skills/prompt-engineering",
+      "name": "skill-ai-research-prompt-engineering",
+      "source": "packages/claude-code/skill-ai-research-prompt-engineering"
+    },
+    {
+      "description": "Original upstream skill: skills/kaizen",
+      "name": "skill-productivity-kaizen",
+      "source": "packages/claude-code/skill-productivity-kaizen"
+    },
+    {
+      "description": "Original upstream skill: skills/neon-postgres",
+      "name": "skill-database-using-neon",
+      "source": "packages/claude-code/skill-database-using-neon"
+    },
+    {
       "description": "Original upstream skill: skills/apk-reverse",
       "name": "skill-newliver666-apk-reverse",
       "source": "packages/claude-code/skill-newliver666-apk-reverse"
+    },
+    {
+      "description": "Original upstream skill: skills/.experimental/create-plan",
+      "name": "skill-development-create-plan",
+      "source": "packages/claude-code/skill-development-create-plan"
     },
     {
       "description": "Original upstream skill: skills/.curated/gh-address-comments",
@@ -4963,6 +5113,11 @@
       "description": "Original upstream skill: skills/.curated/notion-spec-to-implementation",
       "name": "skill-productivity-notion-spec-to-implementation",
       "source": "packages/claude-code/skill-productivity-notion-spec-to-implementation"
+    },
+    {
+      "description": "Original upstream skill: skills/deep-research",
+      "name": "skill-ai-research-deep-research",
+      "source": "packages/claude-code/skill-ai-research-deep-research"
     },
     {
       "description": "Original upstream skill: skills/composition-patterns",

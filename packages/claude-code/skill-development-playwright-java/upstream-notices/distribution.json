@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "LICENSE-CONTENT": {
+      "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE-CONTENT"
+    },
+    "skills/playwright-java/BasePage.java": {
+      "digest": "2cf3e1fdf96377683a21b73a769bc2666f58bd8a65e577bcab2850d9f0c6dd6b",
+      "mode": "100644",
+      "output": "skills/playwright-java/templates/BasePage.java"
+    },
+    "skills/playwright-java/BaseTest.java": {
+      "digest": "a20b368795c8606431d4cbad2619e1321a7dfbce837cf458763b02bfdb3aeaf3",
+      "mode": "100644",
+      "output": "skills/playwright-java/templates/BaseTest.java"
+    },
+    "skills/playwright-java/SKILL.md": {
+      "digest": "0039fb01926c8521f6a15ef856c46413ed41acbb1fe44255370531c5c8d48545",
+      "mode": "100644",
+      "output": "skills/playwright-java/SKILL.md"
+    },
+    "skills/playwright-java/assertions.md": {
+      "digest": "c2963ceb57c8924bb9de5a826800a7892047fe460ce376c84b161b789d384e41",
+      "mode": "100644",
+      "output": "skills/playwright-java/references/assertions.md"
+    },
+    "skills/playwright-java/config.md": {
+      "digest": "e4d018dddd4d1c580a5e56676339d3dcd20dd3686d9e672e6f9ca87d77075215",
+      "mode": "100644",
+      "output": "skills/playwright-java/references/config.md"
+    },
+    "skills/playwright-java/fixtures.md": {
+      "digest": "351a005aa105e875a9d4da35138a02b617fb700384215eeb78704222830ec17d",
+      "mode": "100644",
+      "output": "skills/playwright-java/references/fixtures.md"
+    },
+    "skills/playwright-java/page-objects.md": {
+      "digest": "f2455dd622bb973fb301a183ca9a09e2136ed78023fff21ca26db967d220115e",
+      "mode": "100644",
+      "output": "skills/playwright-java/references/page-objects.md"
+    }
+  }
+}

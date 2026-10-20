@@ -1,0 +1,75 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "b9319d8e44c8f058c1c4f003168295ab2582567fd6329c8b933409116e938bc6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/SKILL.md",
+      "path": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "size": 12530
+    },
+    {
+      "digest": "7a11adaea5ac1bb76269bf473f5cf5cbd636a83c2ec0b7007f2b1cbf4a8a725f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/examples/http-server.json",
+      "path": "plugins/plugin-dev/skills/mcp-integration/examples/http-server.json",
+      "size": 502
+    },
+    {
+      "digest": "2bb1c32911c5714158e368d4bb347306078f6d2097b653e9e5c9a02d2cc0510e",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/examples/sse-server.json",
+      "path": "plugins/plugin-dev/skills/mcp-integration/examples/sse-server.json",
+      "size": 337
+    },
+    {
+      "digest": "46148a5dc7fc5e63c681c5fb975d3908d3f3052f51de7236725cdadda41e2b5d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/examples/stdio-server.json",
+      "path": "plugins/plugin-dev/skills/mcp-integration/examples/stdio-server.json",
+      "size": 686
+    },
+    {
+      "digest": "2f48cf8fd68d169e885ce96a62a7feaadd0fa293d74b451a51998947f41a8f86",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/references/authentication.md",
+      "path": "plugins/plugin-dev/skills/mcp-integration/references/authentication.md",
+      "size": 10159
+    },
+    {
+      "digest": "44e8be4103d6e6bf98790fd9c9b16102026e322cf7359ea259d345bf16e2dd51",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/references/server-types.md",
+      "path": "plugins/plugin-dev/skills/mcp-integration/references/server-types.md",
+      "size": 10587
+    },
+    {
+      "digest": "8dd0005d7ba6cd2d24e72f9e6102c129b7445fc818e14656ad9ebaef6621a7a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-mcp-integration/skills/mcp-integration/references/tool-usage.md",
+      "path": "plugins/plugin-dev/skills/mcp-integration/references/tool-usage.md",
+      "size": 11674
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "0d189c64847839bed282494a8319a621fe227f6d84f92171ed5f54353e90f29e",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/mcp-integration",
+  "schema_version": 1
+}

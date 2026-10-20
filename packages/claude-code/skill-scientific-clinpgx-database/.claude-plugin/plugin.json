@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: scientific-skills/clinpgx-database",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "name": "skill-scientific-clinpgx-database",
+  "repository": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "version": "1.0.0"
+}

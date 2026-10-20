@@ -13,7 +13,8 @@ market = json.loads((root / ".claude-plugin/marketplace.json").read_text(encodin
 registered = {f"{c['id']}/{s['id']}": s for c in registry["collections"] for s in c["skills"]}
 entries = lock["entries"]
 assert set(entries) == set(registered), "Selected roots not completely packaged"
-assert len(market["plugins"]) == len(entries), "Marketplace count mismatch"
+market_ids = {e["id"] for e in entries.values() if not e.get("reviewed_distribution", {}).get("native")}
+assert len(market["plugins"]) == len(market_ids), "Marketplace count mismatch"
 index = subprocess.run(["git", "ls-files", "--stage", "-z"], cwd=root, check=True, capture_output=True).stdout.decode("utf-8")
 modes = {row.split("\t", 1)[1]: row.split(" ", 1)[0] for row in index.split("\0") if row}
 count = 0
@@ -38,6 +39,38 @@ for key, entry in entries.items():
         if sys.platform != "win32":
             assert bool((root / name).stat().st_mode & 0o111) == (file["mode"] == "100755"), name
         count += 1
+    review = skill.get("reviewed_distribution")
+    assert entry.get("reviewed_distribution") == review, "Distribution approval changed"
+    if review:
+        assert review["version"] == 1 and set(review["files"]) == {f["path"] for f in entry["files"]}
+        destinations = []
+        for file in entry["files"]:
+            selected = review["files"][file["path"]]
+            assert selected["mode"] == file["mode"]
+            if selected.get("change_notice"):
+                original = (root / prefix / "upstream-notices/original-files" / file["path"]).read_bytes()
+                assert hashlib.sha256(original).hexdigest() == selected["digest"] == file["source_digest"]
+                assert (root / file["output_path"]).read_bytes() == original + ("\n\n---\n" + selected["change_notice"] + "\n").encode("utf-8")
+                destinations.append(("upstream-notices/original-files/" + file["path"]).lower())
+            else:
+                assert selected["digest"] == file["digest"]
+            assert file["output_path"] == prefix + selected["output"]
+            destinations.append(selected["output"].lower())
+        for path, extra in review.get("supplements", {}).items():
+            assert path.startswith("registry/licenses/")
+            data = (root / path).read_bytes()
+            assert hashlib.sha256(data).hexdigest() == extra["digest"]
+            assert (root / prefix / extra["output"]).read_bytes() == data
+            destinations.append(extra["output"].lower())
+        assert len(set(destinations)) == len(destinations), "Distribution output collision"
+        assert json.loads((root / prefix / "upstream-notices/distribution.json").read_text(encoding="utf-8")) == review
+        scopes = [p for obligation in review.get("obligations", []) for p in obligation["files"]]
+        if scopes:
+            assert len(scopes) == len(set(scopes)) and set(scopes) == set(review["files"])
+            assert {o["license"] for o in review["obligations"]} == set(skill["license"].split(" AND "))
+            for obligation in review["obligations"]:
+                assert obligation["attribution"] and obligation["notices"]
+                assert set(obligation["notices"]) <= set(review["files"]) | set(review.get("supplements", {}))
     guide = skill.get("reviewed_guide")
     assert entry.get("reviewed_guide") == guide, "Guide approval changed"
     if guide:
@@ -70,7 +103,7 @@ for key, entry in entries.items():
         assert "[DESIGN.md](DESIGN.md)" in text and "Numera Skill Forge" in text and "third-party" in text
         assert "adapter-version: '1'" in text
         assert generated_entry in entry["generated"]
-    adapted = [f for f in entry["files"] if f.get("source_digest")]
+    adapted = [f for f in entry["files"] if f.get("source_digest") and not (review or {}).get("files", {}).get(f["path"], {}).get("change_notice")]
     approval = skill.get("reviewed_name")
     if approval:
         original = (root / prefix / "upstream-notices/source-entry.md").read_bytes()
@@ -115,6 +148,12 @@ for key, entry in entries.items():
     assert manifest["name"] == entry["id"] and manifest["version"] == entry["version"]
     assert manifest["license"] == entry["license"]
     assert not any(field in manifest for field in ("hooks", "mcpServers", "lspServers", "workflows")), "Unapproved native runtime declaration"
+    if (review or {}).get("native"):
+        assert entry["id"] not in market_ids
+        assert set(entry["delivery"]) == {prefix + "plugin.json"}
+        assert not (root / prefix / ".cursor-plugin/plugin.json").exists()
+        assert not (root / prefix / ".codex-plugin/plugin.json").exists()
+        continue
     catalog_entry = next(plugin for plugin in market["plugins"] if plugin["name"] == entry["id"])
     assert catalog_entry["source"] == "./" + prefix.rstrip("/")
     for descriptor in (".codex-plugin/plugin.json", ".cursor-plugin/plugin.json", "plugin.json"):
@@ -127,8 +166,8 @@ for key, entry in entries.items():
         assert prefix + descriptor in entry["delivery"]
 for path in (".claude-plugin/marketplace.json", ".cursor-plugin/marketplace.json"):
     native = json.loads((root / path).read_text(encoding="utf-8"))
-    assert {p["name"] for p in native["plugins"]} == {e["id"] for e in entries.values()}
-    assert len(native["plugins"]) == len(entries)
+    assert {p["name"] for p in native["plugins"]} == market_ids
+    assert len(native["plugins"]) == len(market_ids)
     for plugin in native["plugins"]:
         expected = f"packages/claude-code/{plugin['name']}"
         assert plugin["source"] == ("./" + expected if path.startswith(".claude-plugin") else expected)

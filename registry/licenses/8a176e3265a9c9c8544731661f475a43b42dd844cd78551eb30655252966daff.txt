@@ -1,0 +1,22 @@
+// Add signingConfigs and update buildTypes inside your android {} block in build.gradle
+// Environment variables are set by GitHub Actions from repository secrets.
+
+android {
+    signingConfigs {
+        release {
+            storeFile file("keystore.jks")
+            storePassword System.getenv("KEYSTORE_PASSWORD")
+            keyAlias System.getenv("KEY_ALIAS")
+            keyPassword System.getenv("KEY_PASSWORD")
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+// IMPORTANT: Do NOT set org.gradle.java.home in gradle.properties.
+// GitHub Actions uses Ubuntu runners — a hardcoded Windows JDK path will break the build.

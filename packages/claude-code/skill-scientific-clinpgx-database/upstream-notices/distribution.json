@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE.md": {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE.md"
+    },
+    "scientific-skills/clinpgx-database/SKILL.md": {
+      "digest": "f4b3586a58998dfdfe9cf724c44e1b78a045ebfaed93526d566e9a166bd97d0a",
+      "mode": "100644",
+      "output": "skills/clinpgx-database/SKILL.md"
+    },
+    "scientific-skills/clinpgx-database/references/api_reference.md": {
+      "digest": "efa00fab64657b376a929e720445b47b93cc6dd703b781d994363fc19508bb44",
+      "mode": "100644",
+      "output": "skills/clinpgx-database/references/api_reference.md"
+    },
+    "scientific-skills/clinpgx-database/scripts/query_clinpgx.py": {
+      "digest": "08d3a58cd193f8a305a16906e36e851201b051df3bb7b7a1455ae3cf3ce86dd0",
+      "mode": "100755",
+      "output": "skills/clinpgx-database/scripts/query_clinpgx.py"
+    }
+  },
+  "supplements": {
+    "registry/licenses/28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5.txt": {
+      "digest": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "output": "skills/clinpgx-database/LICENSE.CC-BY-SA-4.0.txt",
+      "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-sa/4.0/legalcode.txt",
+      "license": "CC-BY-SA-4.0"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "LICENSE.md",
+        "scientific-skills/clinpgx-database/SKILL.md",
+        "scientific-skills/clinpgx-database/references/api_reference.md"
+      ],
+      "notices": [
+        "LICENSE.md"
+      ],
+      "attribution": "Copyright (c) 2025 K-Dense Inc.; exact unchanged original Markdown and notice source. Independent aggregation does not relicense the separately declared script.",
+      "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/clinpgx-database/SKILL.md"
+    },
+    {
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "scientific-skills/clinpgx-database/scripts/query_clinpgx.py"
+      ],
+      "notices": [
+        "registry/licenses/28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5.txt"
+      ],
+      "attribution": "Original K-Dense published query_clinpgx.py with explicit CC-BY-SA-4.0 declaration, unchanged. Attribution/source preserved; no database results included, no additional restrictions or DRM.",
+      "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/clinpgx-database/scripts/query_clinpgx.py"
+    }
+  ]
+}

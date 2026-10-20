@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: file-organizer",
+  "license": "Apache-2.0",
+  "name": "skill-productivity-file-organizer",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "version": "1.0.0"
+}

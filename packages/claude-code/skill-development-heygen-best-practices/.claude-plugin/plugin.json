@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: heygen-video",
+  "license": "MIT",
+  "name": "skill-development-heygen-best-practices",
+  "repository": "https://github.com/heygen-com/skills",
+  "version": "1.0.0"
+}

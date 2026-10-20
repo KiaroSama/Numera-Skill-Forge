@@ -1,0 +1,26 @@
+{
+  "collection": "openai-historical-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-create-plan/skills/create-plan/LICENSE.txt",
+      "path": "skills/.experimental/create-plan/LICENSE.txt",
+      "size": 11358
+    },
+    {
+      "digest": "e3c1af59fe8fc6a040f50504babb5003c4489eee4fcfd987794227758f7291a3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-create-plan/skills/create-plan/SKILL.md",
+      "path": "skills/.experimental/create-plan/SKILL.md",
+      "size": 2482
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "6d0b0fddf71724a5a22a9a25e7a5040ee95deb37b0c9b57fdfeeb430d6d55d43",
+  "repository": "https://github.com/openai/skills",
+  "revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+  "root": "skills/.experimental/create-plan",
+  "schema_version": 1
+}

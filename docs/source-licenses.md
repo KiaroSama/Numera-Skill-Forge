@@ -3,9 +3,11 @@
 Authoritative source: [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates).
 Reviewed revision: [`a344359459263d73d8948651c789244093c02e4e`](https://github.com/davila7/claude-code-templates/commit/a344359459263d73d8948651c789244093c02e4e), checked 2026-10-15.
 
-Each accepted skill is a separate native Claude plugin. Original scripts, assets, binary companions
-and notices remain byte-identical. The 41 expressly approved name-only entry adaptations retain
-original entries separately; all other SKILL.md payloads remain exact. Generated wrappers and
+Each accepted skill is a separate package; four required-native DoorDash bundles use the explicit
+Forge project-Claude route instead of ordinary skill-only marketplace installation. Original scripts, assets, binary companions
+and notices remain byte-identical unless an expressly reviewed per-file compliance notice is appended.
+The41name-only entry adaptations and reviewed derivative-notice corrections retain original entries
+separately; every emitted change is recorded and hash-bound rather than silently rewriting source. Generated wrappers and
 provenance are separate.
 No imported code was executed. Plugin assembler metadata never claims authorship of upstream skills.
 The root Forge GPL-3.0 license covers Forge, not a replacement license for these payloads.
@@ -33,12 +35,17 @@ register MCP, grant rights to third-party website assets or license commercial a
 
 ## Published scope
 
-The current collection contains **803 davila packages**, plus307 packages from the other ten
-registered sources, for **1110 total** and **8453 payload/notice records**. The previous1038 accepted
-identities are unchanged; the latest72 additions contribute260 records. Forty-one expressly approved
-name-only adaptations retain their exact original entries separately; all bodies and companions remain
-unchanged. Nineteen generated guide entries reference unchanged original author documents;
-fifteen complete native originals replace no existing package. The latest three restored wshobson
+The current collection contains **812 davila packages**, plus333 packages from the other23
+registered collections, for **1145 total** and **8784 payload/notice records**. The latest35 additions
+preserve all1110 preceding accepted objects;107of153 missing canonical roots now have packages,
+with46precisely held. New scoped distributions include unchanged GPLv3 NeoLab originals and
+mixed MIT/CC-BY-SA ClinPGx source, exact legal supplements, recorded path repairs and prominent
+FastMCP/Move derivative notices with unchanged selected copies retained separately. The previous1038 accepted
+identities are unchanged; the earlier72 additions contributed260 records and this renewed35-package
+review adds331 records. Forty-one expressly approved name-only adaptations retain exact originals;
+reviewed compliance notices are separately recorded exceptions, not silent edits. Twenty generated
+guide entries reference unchanged original author documents (19 wshobson guides and one official
+Anthropic code-simplifier guide); complete native originals replace no existing package. The latest three restored wshobson
 roots use revision0874a27, retain four original skill files and three unchanged Seth Hobson MIT
 notices, and leave all1107 preceding accepted records unchanged. See
 [missing-skill additions and remaining blockers](missing-skill-imports.md). Original legal notices and

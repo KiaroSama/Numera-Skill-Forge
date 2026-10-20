@@ -17436,6 +17436,968 @@
             }
           ],
           "attribution": "Original source: nextlevelbuilder/ui-ux-pro-max-skill at caaa535c0a97ffcb8f41654a44e770e4942e5105. All 27 selected aggregator files match verified original native variants (.codex entry and .gemini core.py); original bytes, CRLF, companions and modes unchanged. Original MIT and applicable intermediary MIT/CC-BY-4.0 notices retain their respective scope. Forge only reads frontmatter without normalization; no upstream script execution or service activation."
+        },
+        {
+          "id": "skill-productivity-nowait",
+          "root": "cli-tool/components/skills/productivity/nowait",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [],
+          "attribution": "Owner-reviewed complete original source and explicit source-to-output layout repair for productivity/nowait. Original file bytes and modes unchanged; distribution mapping and supplemental original legal source identities retained. No execution or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/skills/productivity/nowait/SKILL.md": {
+                "digest": "fd71e79f36014d423e296fa7e71e48aa5ec437c15a8d096033766a898afc8a25",
+                "mode": "100644",
+                "output": "skills/nowait-reasoning-optimizer/SKILL.md"
+              },
+              "cli-tool/components/skills/productivity/nowait/refrences/keywords.md": {
+                "digest": "f6423a2351fad72ea376e63e83c104f6d4d4d00d341743c8440761beefa2a88f",
+                "mode": "100644",
+                "output": "skills/nowait-reasoning-optimizer/references/keywords.md"
+              },
+              "cli-tool/components/skills/productivity/nowait/scripts/nowait_processor.py": {
+                "digest": "8949b882dfb802117d48017f861e3fd0ddd653ac2b7cdb2f19940ecbfcdf2cff",
+                "mode": "100644",
+                "output": "skills/nowait-reasoning-optimizer/scripts/nowait_processor.py"
+              }
+            }
+          }
+        },
+        {
+          "id": "skill-analytics-google-analytics",
+          "root": "cli-tool/components/skills/analytics/google-analytics",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [],
+          "attribution": "Owner-reviewed complete original source and explicit source-to-output layout repair for analytics/google-analytics. Original file bytes and modes unchanged; distribution mapping and supplemental original legal source identities retained. No execution or host activation.",
+          "reviewed_templates": {
+            "cli-tool/components/skills/analytics/google-analytics/.env.example": "cd65d63069a730374bd8ff06899056143ca577debb728e3bb53baa514dca6c1c"
+          }
+        },
+        {
+          "id": "skill-development-android-cicd",
+          "root": "cli-tool/components/skills/development/android-cicd",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "attribution": "Exact canonical entry equals npm author ezescholz android-cicd1.0.4 SKILL.md. Missing signing.gradle and actual MIT terms recovered from exact SRI-verified original npm artifact; no fictional Git source. Registry artifact identity/member/digests recorded in reviewed distribution. No npm installation, signing/keystore action, Google Play access or source execution.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/skills/development/android-cicd/SKILL.md": {
+                "digest": "174181653943f9c555d703e375be018a47b451f03e13de9228ec4b8c34f74cd1",
+                "mode": "100644",
+                "output": "skills/android-cicd/SKILL.md"
+              }
+            },
+            "supplements": {
+              "registry/licenses/8a176e3265a9c9c8544731661f475a43b42dd844cd78551eb30655252966daff.txt": {
+                "digest": "8a176e3265a9c9c8544731661f475a43b42dd844cd78551eb30655252966daff",
+                "output": "skills/android-cicd/templates/gradle/signing.gradle",
+                "source": "https://registry.npmjs.org/android-cicd/-/android-cicd-1.0.4.tgz",
+                "license": "MIT",
+                "artifact": {
+                  "digest": "439fb3a38843577be549420885851416fc7075ee52d692b037dd3d46080a6e94",
+                  "member": "package/templates/gradle/signing.gradle",
+                  "integrity": "sha512-U87Nhp5zSlsF4Mj9leFVRtdG6YuXPNAaYe9avNIRST6WGZlUJ7Pf/bJXmXVY7oh9jgvo0ApVqq4zHF8Vc6vZcg=="
+                }
+              },
+              "registry/licenses/c5c62865b0adcc6ab85ff83ce04e7ff36e44449fa5cd6f9ceacd5b0a6752900d.txt": {
+                "digest": "c5c62865b0adcc6ab85ff83ce04e7ff36e44449fa5cd6f9ceacd5b0a6752900d",
+                "output": "skills/android-cicd/LICENSE.npm.txt",
+                "source": "https://registry.npmjs.org/android-cicd/-/android-cicd-1.0.4.tgz",
+                "license": "MIT",
+                "artifact": {
+                  "digest": "439fb3a38843577be549420885851416fc7075ee52d692b037dd3d46080a6e94",
+                  "member": "package/LICENSE",
+                  "integrity": "sha512-U87Nhp5zSlsF4Mj9leFVRtdG6YuXPNAaYe9avNIRST6WGZlUJ7Pf/bJXmXVY7oh9jgvo0ApVqq4zHF8Vc6vZcg=="
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "skill-development-move-code-quality",
+          "root": "cli-tool/components/skills/development/move-code-quality",
+          "license": "MIT AND Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [],
+          "attribution": "Owner-approved exact compliance correction, not rewritten instructions or license override. Preserve all companions/modes and original selected bytes; add prominent per-file derivative attribution and exact scoped Apache terms. No source execution.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/skills/development/move-code-quality/SKILL.md": {
+                "digest": "3bcc527a435b8d97b22933b99a1a9090b2b513868e11fa0ce69b4e6392ec1527",
+                "mode": "100644",
+                "output": "skills/move-code-quality/SKILL.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/book/guides/code-quality-checklist.md under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              }
+            },
+            "supplements": {
+              "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt": {
+                "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+                "output": "skills/move-code-quality/LICENSE.Apache-2.0.txt",
+                "source": "https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/LICENSE",
+                "license": "Apache-2.0"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  "LICENSE"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "Original skill authors and intermediary contribution under actual MIT terms; selected source retained, no blanket relicensing of earlier Apache material.",
+                "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/move-code-quality/SKILL.md"
+              },
+              {
+                "license": "Apache-2.0",
+                "files": [
+                  "cli-tool/components/skills/development/move-code-quality/SKILL.md"
+                ],
+                "notices": [
+                  "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt"
+                ],
+                "attribution": "MystenLabs/move-book original documentation and contributors; derived document mappings and prominent modification notices retained in every adapted file. Original selected bytes preserved separately.",
+                "source": "https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/LICENSE"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skill-development-fastmcp-server",
+          "root": "cli-tool/components/skills/development/fastmcp-server",
+          "license": "MIT AND Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "notices": [],
+          "attribution": "Owner-approved exact compliance correction, not rewritten instructions or license override. Preserve all companions/modes and original selected bytes; add prominent per-file derivative attribution and exact scoped Apache terms. No source execution.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/skills/development/fastmcp-server/SKILL.md": {
+                "digest": "5f7c5bd11cb89f75ba00bacf508320701f5bbcc18b6fdbcecb2dfd063af64fa6",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/SKILL.md"
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authentication/full-oauth-server.md": {
+                "digest": "feeb544eab35de10b846a6af632ce8781a6365f1803265d2aa8eaf691017c50f",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authentication/full-oauth-server.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/full-oauth-server.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authentication/oauth-proxy.md": {
+                "digest": "22f456a20c4f1eeb100bba99164635ff1cd0cd4dc9a3a892b36753b000e924d4",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authentication/oauth-proxy.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/oauth-proxy.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authentication/oidc-proxy.md": {
+                "digest": "4a80ca8a99ffab1f7bfe095e0b3ae247a05431094120e4bcb6f396ffbd8ac0ce",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authentication/oidc-proxy.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/oidc-proxy.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authentication/remote-oauth.md": {
+                "digest": "19382925d0737e03e4a7349628e01564666ecad3f18aa992edbb07521a1ac207",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authentication/remote-oauth.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/remote-oauth.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authentication/token-verification.md": {
+                "digest": "278b663ad8c042acf0ef8ec334a9a61f0ab3861f73dce4a1ab49be5a3b1a58e7",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authentication/token-verification.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/auth/token-verification.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/authorization.md": {
+                "digest": "200eec673ad367472ad490e8472bfb023020a6bcd3a743175c8f5c834a2a47c8",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/authorization.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/authorization.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/context/background-tasks.md": {
+                "digest": "cc9da4a05e0963be7761f737505e57fb7825a99173903c6346c830f6c54045bb",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/context/background-tasks.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/tasks.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/context/dependency-injection.md": {
+                "digest": "525f8322952674004699ca70b47383f78ef11ceb7480fb329a71f600afd999a7",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/context/dependency-injection.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/dependency-injection.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/context/mcp-context.md": {
+                "digest": "035d7e3f8eb7b59e412c0ebc392f6fc6b352c3696eff3af2d5406d592cc32ce7",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/context/mcp-context.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/context.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/context/user-elicitation.md": {
+                "digest": "f5972be7d42026ce58275007604eef20f72494dc4f92822609ca93e7c1e84fad",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/context/user-elicitation.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/elicitation.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/client-logging.md": {
+                "digest": "22c5dfad8736734150c70fe5f23b39af9476e14de9a52a10982de64d2b90a102",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/client-logging.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/logging.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/icons.md": {
+                "digest": "6c6bc59862c90c159c37a7688167e07e44e76eef9f4bb8df2629e23012d694e3",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/icons.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/icons.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/lifespans.md": {
+                "digest": "a2f037780a64c8b872cee1fee04c4ccf496164c5489a003c8cc0896d3bb5cb72",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/lifespans.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/lifespan.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/middleware.md": {
+                "digest": "e9b2f5b507df4f3c4b7c5cc59f8e8bed2c6b6f3b714bb89cb862480c5a32da57",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/middleware.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/middleware.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/opentelemetry.md": {
+                "digest": "6bc73f2d82baee3534f89ce7be07d0a1a2abe2fd4315d8c87ef380c4b11497ac",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/opentelemetry.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/telemetry.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/pagination.md": {
+                "digest": "f89996af529405d98334b9eb56307d87732ed6c8b82a081c1fe91f4b57ee8e8c",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/pagination.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/pagination.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/progress-reporting.md": {
+                "digest": "b4954acbc3d51a109b77c18f2dfe71c8ce51d1822342a293601f1844a2ba3438",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/progress-reporting.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/progress.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/sampling.md": {
+                "digest": "5b367a3a6063e54377378ec09f0ff5bbf5593aeb48d74c25ae2d05b68c209a69",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/sampling.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/v3/servers/sampling.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/storage-backends.md": {
+                "digest": "9006647b5ea92171e6f113ec94d5752ba877e6a0f85979321a0141f1739485c7",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/storage-backends.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/storage-backends.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/features/versioning.md": {
+                "digest": "81eefe32ff93d0be7ac5f123ed480095341b88dcf8f7b874d91d44e3b358693f",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/features/versioning.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/versioning.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/getting-started/installation.md": {
+                "digest": "da508e743d9dac1abed2ed7e05a2372413564afd596cb326082e553af849c628",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/getting-started/installation.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/installation.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/getting-started/quickstart.md": {
+                "digest": "6413f73ce790bcad258a66ec92d756825ace28549daa03f873490a403ac230f9",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/getting-started/quickstart.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/quickstart.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/getting-started/upgrade-guide.md": {
+                "digest": "591746f939f7fb6ff21eb3b2ac0b5eab15f85e080384c6b0a9f9c80afc78b618",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/getting-started/upgrade-guide.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/getting-started/upgrading/from-fastmcp-2.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/providers/custom.md": {
+                "digest": "7fb9d6232359f0a13b8beb89dadd72ddbf9c0e85994a378ffde58b1dca77a5d2",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/providers/custom.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/custom.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/providers/filesystem.md": {
+                "digest": "5b7a436b47606c33dd51e2400bb4ee3744675bcb4e11857d4e8d4484ee2d8905",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/providers/filesystem.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/filesystem.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/providers/local.md": {
+                "digest": "f66cc0ff655087cafbaba114e1abae1decf74a0b9cf6303f1b3fd8517dc64cbb",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/providers/local.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/local.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/providers/skills.md": {
+                "digest": "a1c1f744abfb6fa27c7432f415497b4477f93ecd702597be9680de041492e5c9",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/providers/skills.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/providers/skills.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/server/resources-and-templates.md": {
+                "digest": "f356ba30a3e30a26e863dbe30981c1ee06a845d32e789f60d2986d424aab6a04",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/server/resources-and-templates.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/resources.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/server/server-class.md": {
+                "digest": "14edece0ab3a741309e00b83dafe95dda82e12639c0ee21e1a3bb2648910711f",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/server/server-class.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/server.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              },
+              "cli-tool/components/skills/development/fastmcp-server/references/server/tools.md": {
+                "digest": "f9f2a2ed2705cbe80662bc52eee09625ffd100822f496a22b95d9235c4ba8ea8",
+                "mode": "100644",
+                "output": "skills/fastmcp-server/references/server/tools.md",
+                "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/docs/servers/tools.mdx under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+              }
+            },
+            "supplements": {
+              "registry/licenses/43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1.txt": {
+                "digest": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+                "output": "skills/fastmcp-server/LICENSE.Apache-2.0.txt",
+                "source": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE",
+                "license": "Apache-2.0"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  "LICENSE",
+                  "cli-tool/components/skills/development/fastmcp-server/SKILL.md"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "Original skill authors and intermediary contribution under actual MIT terms; selected source retained, no blanket relicensing of earlier Apache material.",
+                "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/fastmcp-server/SKILL.md"
+              },
+              {
+                "license": "Apache-2.0",
+                "files": [
+                  "cli-tool/components/skills/development/fastmcp-server/references/authentication/full-oauth-server.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/authentication/oauth-proxy.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/authentication/oidc-proxy.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/authentication/remote-oauth.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/authentication/token-verification.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/authorization.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/context/background-tasks.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/context/dependency-injection.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/context/mcp-context.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/context/user-elicitation.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/client-logging.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/icons.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/lifespans.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/middleware.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/opentelemetry.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/pagination.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/progress-reporting.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/sampling.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/storage-backends.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/features/versioning.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/getting-started/installation.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/getting-started/quickstart.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/getting-started/upgrade-guide.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/providers/custom.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/providers/filesystem.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/providers/local.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/providers/skills.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/server/resources-and-templates.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/server/server-class.md",
+                  "cli-tool/components/skills/development/fastmcp-server/references/server/tools.md"
+                ],
+                "notices": [
+                  "registry/licenses/43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1.txt"
+                ],
+                "attribution": "PrefectHQ/fastmcp original documentation and contributors; derived document mappings and prominent modification notices retained in every adapted file. Original selected bytes preserved separately.",
+                "source": "https://github.com/PrefectHQ/fastmcp/blob/e2fcc412001ff7414095c5dc282f94c70299a612/LICENSE"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skill-doordash-doordash-allergy-shield",
+          "root": "cli-tool/components/skills/doordash/doordash-allergy-shield",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "attribution": "Complete original skill with all four required hook/config pairs and five command companions; spending wrapper dependency included. Original bytes and modes unchanged; native project-Claude destination and hook event registration explicit. Acquisition does not activate hooks, access accounts or place orders. Original scripts fail open without Python3; not medical-grade or universal enforcement. External dd-cli/jq/Python remain prerequisites.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/commands/doordash/doordash-budget.md": {
+                "digest": "448887caad3279bad83c6de01ef2163a25619859b82bae791490d2d005f0d03d",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-budget.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-lunch.md": {
+                "digest": "02e71edff311b8d377c47e088cad130d47b12e68754c03ebfed8d98cbb0c743e",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-lunch.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-playbook.md": {
+                "digest": "d763ebd07cd1e4ceaa57f6384aa7d35d0d725938db3d743311b77e127dd4e221",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-playbook.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-profile.md": {
+                "digest": "2cd0b35b27ba871cd5172f24d4a866ccb3254d96c2cb59f4e61956a660b6fa6a",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-profile.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-report.md": {
+                "digest": "6da07271a717dfc56eaf4100b4a61f37d25b17d0b9444dc01c806ab179647f49",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-report.md"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json": {
+                "digest": "a9be65d922dfc1892f4edc06f53ef77553211a3f32444fe22c3386bffb17b213",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": {
+                "digest": "ef589fe31a2898314852591b597dcf2e49f4e54db7d83bd6e65e4208d503a42c",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.json": {
+                "digest": "5b3f6b96b5c7cdc01197b4677afb247751033c6cde9cbd9585ed14b1f2aac5f1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.sh": {
+                "digest": "59c8763497a9bc49309b2ddd97be43b2671f75bdd45ada86ade744056a77df33",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json": {
+                "digest": "7f9ca498b5430e9108df3f8498973d90f4811b500192f3984fc2427572ed5fca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": {
+                "digest": "182bea45969dafaba7bb8eae5fb814fd82ea00539b526166855bed97a88d59ca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.json": {
+                "digest": "a03e50b8bfca66e999ec7572a4c9acd39af58dc6f6b0c43df96c4bb7ac0236b2",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": {
+                "digest": "bf1749bf154b3364658bf98b4073fcccb2a71eb0f4163c4bd5de456fa220a9d1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.sh"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": {
+                "digest": "ac259bc7e58b7d291232b008e82299d23594a572976e0e5acf0e33f8f6a67a6e",
+                "mode": "100644",
+                "output": "skills/doordash-allergy-shield/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": {
+                "digest": "519507236097cd7ebaf58d0be9657003027ecff0a0596451becae7b6286cafc3",
+                "mode": "100644",
+                "output": "skills/doordash-allergy-shield/references/allergen-synonyms.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": {
+                "digest": "ae22f5f02488641d3e1a63857296e6a7e6958cb603a34ccd967df843c27d7c1f",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-group-orders/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": {
+                "digest": "372b892206f533ea0b2631953d921dbb253752ab6d1b8ccd26d491e5c4929225",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-order-ledger/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": {
+                "digest": "14b9ceda4fb1ac5b98169f95bf8aa5c1fd2354cb7a35470002a13a9bcedf5169",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": {
+                "digest": "62265a2827e452c263c540a331272bc203e5c198487b3db8fba4cb297c4755c8",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh"
+              }
+            },
+            "native": {
+              "files": {
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": ".claude/hooks/doordash-allergy-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": ".claude/hooks/doordash-group-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.sh": ".claude/hooks/doordash-audit-log.sh",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": ".claude/hooks/doordash-spend-guard.sh",
+                "cli-tool/components/commands/doordash/doordash-budget.md": ".claude/commands/doordash-budget.md",
+                "cli-tool/components/commands/doordash/doordash-lunch.md": ".claude/commands/doordash-lunch.md",
+                "cli-tool/components/commands/doordash/doordash-playbook.md": ".claude/commands/doordash-playbook.md",
+                "cli-tool/components/commands/doordash/doordash-profile.md": ".claude/commands/doordash-profile.md",
+                "cli-tool/components/commands/doordash/doordash-report.md": ".claude/commands/doordash-report.md",
+                "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": ".claude/skills/doordash-group-orders/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": ".claude/skills/doordash-order-ledger/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": ".claude/skills/doordash-spend-guard/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": ".claude/skills/doordash-spend-guard/scripts/dd-guard.sh"
+              },
+              "hook_configs": [
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.json",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.json"
+              ]
+            }
+          }
+        },
+        {
+          "id": "skill-doordash-doordash-group-orders",
+          "root": "cli-tool/components/skills/doordash/doordash-group-orders",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "attribution": "Complete original skill with all four required hook/config pairs and five command companions; spending wrapper dependency included. Original bytes and modes unchanged; native project-Claude destination and hook event registration explicit. Acquisition does not activate hooks, access accounts or place orders. Original scripts fail open without Python3; not medical-grade or universal enforcement. External dd-cli/jq/Python remain prerequisites.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/commands/doordash/doordash-budget.md": {
+                "digest": "448887caad3279bad83c6de01ef2163a25619859b82bae791490d2d005f0d03d",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-budget.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-lunch.md": {
+                "digest": "02e71edff311b8d377c47e088cad130d47b12e68754c03ebfed8d98cbb0c743e",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-lunch.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-playbook.md": {
+                "digest": "d763ebd07cd1e4ceaa57f6384aa7d35d0d725938db3d743311b77e127dd4e221",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-playbook.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-profile.md": {
+                "digest": "2cd0b35b27ba871cd5172f24d4a866ccb3254d96c2cb59f4e61956a660b6fa6a",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-profile.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-report.md": {
+                "digest": "6da07271a717dfc56eaf4100b4a61f37d25b17d0b9444dc01c806ab179647f49",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-report.md"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json": {
+                "digest": "a9be65d922dfc1892f4edc06f53ef77553211a3f32444fe22c3386bffb17b213",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": {
+                "digest": "ef589fe31a2898314852591b597dcf2e49f4e54db7d83bd6e65e4208d503a42c",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.json": {
+                "digest": "5b3f6b96b5c7cdc01197b4677afb247751033c6cde9cbd9585ed14b1f2aac5f1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.sh": {
+                "digest": "59c8763497a9bc49309b2ddd97be43b2671f75bdd45ada86ade744056a77df33",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json": {
+                "digest": "7f9ca498b5430e9108df3f8498973d90f4811b500192f3984fc2427572ed5fca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": {
+                "digest": "182bea45969dafaba7bb8eae5fb814fd82ea00539b526166855bed97a88d59ca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.json": {
+                "digest": "a03e50b8bfca66e999ec7572a4c9acd39af58dc6f6b0c43df96c4bb7ac0236b2",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": {
+                "digest": "bf1749bf154b3364658bf98b4073fcccb2a71eb0f4163c4bd5de456fa220a9d1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.sh"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": {
+                "digest": "ac259bc7e58b7d291232b008e82299d23594a572976e0e5acf0e33f8f6a67a6e",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": {
+                "digest": "519507236097cd7ebaf58d0be9657003027ecff0a0596451becae7b6286cafc3",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": {
+                "digest": "ae22f5f02488641d3e1a63857296e6a7e6958cb603a34ccd967df843c27d7c1f",
+                "mode": "100644",
+                "output": "skills/doordash-group-orders/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": {
+                "digest": "372b892206f533ea0b2631953d921dbb253752ab6d1b8ccd26d491e5c4929225",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-order-ledger/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": {
+                "digest": "14b9ceda4fb1ac5b98169f95bf8aa5c1fd2354cb7a35470002a13a9bcedf5169",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": {
+                "digest": "62265a2827e452c263c540a331272bc203e5c198487b3db8fba4cb297c4755c8",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh"
+              }
+            },
+            "native": {
+              "files": {
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": ".claude/hooks/doordash-allergy-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": ".claude/hooks/doordash-group-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.sh": ".claude/hooks/doordash-audit-log.sh",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": ".claude/hooks/doordash-spend-guard.sh",
+                "cli-tool/components/commands/doordash/doordash-budget.md": ".claude/commands/doordash-budget.md",
+                "cli-tool/components/commands/doordash/doordash-lunch.md": ".claude/commands/doordash-lunch.md",
+                "cli-tool/components/commands/doordash/doordash-playbook.md": ".claude/commands/doordash-playbook.md",
+                "cli-tool/components/commands/doordash/doordash-profile.md": ".claude/commands/doordash-profile.md",
+                "cli-tool/components/commands/doordash/doordash-report.md": ".claude/commands/doordash-report.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": ".claude/skills/doordash-allergy-shield/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": ".claude/skills/doordash-allergy-shield/references/allergen-synonyms.md",
+                "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": ".claude/skills/doordash-order-ledger/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": ".claude/skills/doordash-spend-guard/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": ".claude/skills/doordash-spend-guard/scripts/dd-guard.sh"
+              },
+              "hook_configs": [
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.json",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.json"
+              ]
+            }
+          }
+        },
+        {
+          "id": "skill-doordash-doordash-order-ledger",
+          "root": "cli-tool/components/skills/doordash/doordash-order-ledger",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "attribution": "Complete original skill with all four required hook/config pairs and five command companions; spending wrapper dependency included. Original bytes and modes unchanged; native project-Claude destination and hook event registration explicit. Acquisition does not activate hooks, access accounts or place orders. Original scripts fail open without Python3; not medical-grade or universal enforcement. External dd-cli/jq/Python remain prerequisites.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/commands/doordash/doordash-budget.md": {
+                "digest": "448887caad3279bad83c6de01ef2163a25619859b82bae791490d2d005f0d03d",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-budget.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-lunch.md": {
+                "digest": "02e71edff311b8d377c47e088cad130d47b12e68754c03ebfed8d98cbb0c743e",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-lunch.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-playbook.md": {
+                "digest": "d763ebd07cd1e4ceaa57f6384aa7d35d0d725938db3d743311b77e127dd4e221",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-playbook.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-profile.md": {
+                "digest": "2cd0b35b27ba871cd5172f24d4a866ccb3254d96c2cb59f4e61956a660b6fa6a",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-profile.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-report.md": {
+                "digest": "6da07271a717dfc56eaf4100b4a61f37d25b17d0b9444dc01c806ab179647f49",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-report.md"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json": {
+                "digest": "a9be65d922dfc1892f4edc06f53ef77553211a3f32444fe22c3386bffb17b213",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": {
+                "digest": "ef589fe31a2898314852591b597dcf2e49f4e54db7d83bd6e65e4208d503a42c",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.json": {
+                "digest": "5b3f6b96b5c7cdc01197b4677afb247751033c6cde9cbd9585ed14b1f2aac5f1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.sh": {
+                "digest": "59c8763497a9bc49309b2ddd97be43b2671f75bdd45ada86ade744056a77df33",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json": {
+                "digest": "7f9ca498b5430e9108df3f8498973d90f4811b500192f3984fc2427572ed5fca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": {
+                "digest": "182bea45969dafaba7bb8eae5fb814fd82ea00539b526166855bed97a88d59ca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.json": {
+                "digest": "a03e50b8bfca66e999ec7572a4c9acd39af58dc6f6b0c43df96c4bb7ac0236b2",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": {
+                "digest": "bf1749bf154b3364658bf98b4073fcccb2a71eb0f4163c4bd5de456fa220a9d1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.sh"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": {
+                "digest": "ac259bc7e58b7d291232b008e82299d23594a572976e0e5acf0e33f8f6a67a6e",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": {
+                "digest": "519507236097cd7ebaf58d0be9657003027ecff0a0596451becae7b6286cafc3",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": {
+                "digest": "ae22f5f02488641d3e1a63857296e6a7e6958cb603a34ccd967df843c27d7c1f",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-group-orders/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": {
+                "digest": "372b892206f533ea0b2631953d921dbb253752ab6d1b8ccd26d491e5c4929225",
+                "mode": "100644",
+                "output": "skills/doordash-order-ledger/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": {
+                "digest": "14b9ceda4fb1ac5b98169f95bf8aa5c1fd2354cb7a35470002a13a9bcedf5169",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": {
+                "digest": "62265a2827e452c263c540a331272bc203e5c198487b3db8fba4cb297c4755c8",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh"
+              }
+            },
+            "native": {
+              "files": {
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": ".claude/hooks/doordash-allergy-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": ".claude/hooks/doordash-group-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.sh": ".claude/hooks/doordash-audit-log.sh",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": ".claude/hooks/doordash-spend-guard.sh",
+                "cli-tool/components/commands/doordash/doordash-budget.md": ".claude/commands/doordash-budget.md",
+                "cli-tool/components/commands/doordash/doordash-lunch.md": ".claude/commands/doordash-lunch.md",
+                "cli-tool/components/commands/doordash/doordash-playbook.md": ".claude/commands/doordash-playbook.md",
+                "cli-tool/components/commands/doordash/doordash-profile.md": ".claude/commands/doordash-profile.md",
+                "cli-tool/components/commands/doordash/doordash-report.md": ".claude/commands/doordash-report.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": ".claude/skills/doordash-allergy-shield/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": ".claude/skills/doordash-allergy-shield/references/allergen-synonyms.md",
+                "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": ".claude/skills/doordash-group-orders/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": ".claude/skills/doordash-spend-guard/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": ".claude/skills/doordash-spend-guard/scripts/dd-guard.sh"
+              },
+              "hook_configs": [
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.json",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.json"
+              ]
+            }
+          }
+        },
+        {
+          "id": "skill-doordash-doordash-spend-guard",
+          "root": "cli-tool/components/skills/doordash/doordash-spend-guard",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+          "attribution": "Complete original skill with all four required hook/config pairs and five command companions; spending wrapper dependency included. Original bytes and modes unchanged; native project-Claude destination and hook event registration explicit. Acquisition does not activate hooks, access accounts or place orders. Original scripts fail open without Python3; not medical-grade or universal enforcement. External dd-cli/jq/Python remain prerequisites.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "cli-tool/components/commands/doordash/doordash-budget.md": {
+                "digest": "448887caad3279bad83c6de01ef2163a25619859b82bae791490d2d005f0d03d",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-budget.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-lunch.md": {
+                "digest": "02e71edff311b8d377c47e088cad130d47b12e68754c03ebfed8d98cbb0c743e",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-lunch.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-playbook.md": {
+                "digest": "d763ebd07cd1e4ceaa57f6384aa7d35d0d725938db3d743311b77e127dd4e221",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-playbook.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-profile.md": {
+                "digest": "2cd0b35b27ba871cd5172f24d4a866ccb3254d96c2cb59f4e61956a660b6fa6a",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-profile.md"
+              },
+              "cli-tool/components/commands/doordash/doordash-report.md": {
+                "digest": "6da07271a717dfc56eaf4100b4a61f37d25b17d0b9444dc01c806ab179647f49",
+                "mode": "100644",
+                "output": "native-originals/commands/doordash/doordash-report.md"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json": {
+                "digest": "a9be65d922dfc1892f4edc06f53ef77553211a3f32444fe22c3386bffb17b213",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": {
+                "digest": "ef589fe31a2898314852591b597dcf2e49f4e54db7d83bd6e65e4208d503a42c",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-allergy-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.json": {
+                "digest": "5b3f6b96b5c7cdc01197b4677afb247751033c6cde9cbd9585ed14b1f2aac5f1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-audit-log.sh": {
+                "digest": "59c8763497a9bc49309b2ddd97be43b2671f75bdd45ada86ade744056a77df33",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-audit-log.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json": {
+                "digest": "7f9ca498b5430e9108df3f8498973d90f4811b500192f3984fc2427572ed5fca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": {
+                "digest": "182bea45969dafaba7bb8eae5fb814fd82ea00539b526166855bed97a88d59ca",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-group-checkout-gate.sh"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.json": {
+                "digest": "a03e50b8bfca66e999ec7572a4c9acd39af58dc6f6b0c43df96c4bb7ac0236b2",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.json"
+              },
+              "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": {
+                "digest": "bf1749bf154b3364658bf98b4073fcccb2a71eb0f4163c4bd5de456fa220a9d1",
+                "mode": "100644",
+                "output": "native-originals/hooks/doordash/doordash-spend-guard.sh"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": {
+                "digest": "ac259bc7e58b7d291232b008e82299d23594a572976e0e5acf0e33f8f6a67a6e",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": {
+                "digest": "519507236097cd7ebaf58d0be9657003027ecff0a0596451becae7b6286cafc3",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": {
+                "digest": "ae22f5f02488641d3e1a63857296e6a7e6958cb603a34ccd967df843c27d7c1f",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-group-orders/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": {
+                "digest": "372b892206f533ea0b2631953d921dbb253752ab6d1b8ccd26d491e5c4929225",
+                "mode": "100644",
+                "output": "native-originals/skills/doordash/doordash-order-ledger/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/SKILL.md": {
+                "digest": "14b9ceda4fb1ac5b98169f95bf8aa5c1fd2354cb7a35470002a13a9bcedf5169",
+                "mode": "100644",
+                "output": "skills/doordash-spend-guard/SKILL.md"
+              },
+              "cli-tool/components/skills/doordash/doordash-spend-guard/scripts/dd-guard.sh": {
+                "digest": "62265a2827e452c263c540a331272bc203e5c198487b3db8fba4cb297c4755c8",
+                "mode": "100644",
+                "output": "skills/doordash-spend-guard/scripts/dd-guard.sh"
+              }
+            },
+            "native": {
+              "files": {
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.sh": ".claude/hooks/doordash-allergy-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.sh": ".claude/hooks/doordash-group-checkout-gate.sh",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.sh": ".claude/hooks/doordash-audit-log.sh",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.sh": ".claude/hooks/doordash-spend-guard.sh",
+                "cli-tool/components/commands/doordash/doordash-budget.md": ".claude/commands/doordash-budget.md",
+                "cli-tool/components/commands/doordash/doordash-lunch.md": ".claude/commands/doordash-lunch.md",
+                "cli-tool/components/commands/doordash/doordash-playbook.md": ".claude/commands/doordash-playbook.md",
+                "cli-tool/components/commands/doordash/doordash-profile.md": ".claude/commands/doordash-profile.md",
+                "cli-tool/components/commands/doordash/doordash-report.md": ".claude/commands/doordash-report.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/SKILL.md": ".claude/skills/doordash-allergy-shield/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-allergy-shield/references/allergen-synonyms.md": ".claude/skills/doordash-allergy-shield/references/allergen-synonyms.md",
+                "cli-tool/components/skills/doordash/doordash-group-orders/SKILL.md": ".claude/skills/doordash-group-orders/SKILL.md",
+                "cli-tool/components/skills/doordash/doordash-order-ledger/SKILL.md": ".claude/skills/doordash-order-ledger/SKILL.md"
+              },
+              "hook_configs": [
+                "cli-tool/components/hooks/doordash/doordash-allergy-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-group-checkout-gate.json",
+                "cli-tool/components/hooks/doordash/doordash-audit-log.json",
+                "cli-tool/components/hooks/doordash/doordash-spend-guard.json"
+              ]
+            }
+          }
         }
       ]
     },
@@ -21665,6 +22627,653 @@
           "license_digest": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
           "notices": [],
           "attribution": "Owner-approved complete original-author restoration for intermediary cli-tool/components/skills/workflow-automation/github-actions-templates. Exact original source https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/cicd-automation/skills/github-actions-templates. Author repaired phantom companion references; current complete original instructions, companions and MIT notice preserved without local edits. Historical intermediary entry is not represented as byte-equivalent. No upstream script, workflow or service executed."
+        }
+      ]
+    },
+    {
+      "id": "anthropic-official-originals",
+      "repository": "https://github.com/anthropics/claude-plugins-official",
+      "branch": "main",
+      "reviewed_revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+      "skills": [
+        {
+          "id": "skill-development-agent-development",
+          "root": "plugins/plugin-dev/skills/agent-development",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/agent-development. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/agent-development. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-command-development",
+          "root": "plugins/plugin-dev/skills/command-development",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/command-development. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/command-development. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-hook-development",
+          "root": "plugins/plugin-dev/skills/hook-development",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/hook-development. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/hook-development. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-mcp-integration",
+          "root": "plugins/plugin-dev/skills/mcp-integration",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/mcp-integration. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/mcp-integration. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-plugin-settings",
+          "root": "plugins/plugin-dev/skills/plugin-settings",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/plugin-settings. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/plugin-settings. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-plugin-structure",
+          "root": "plugins/plugin-dev/skills/plugin-structure",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/plugin-structure. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/plugin-dev/skills/plugin-structure. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-productivity-writing-rules",
+          "root": "plugins/hookify/skills/writing-rules",
+          "license": "Apache-2.0",
+          "license_path": "plugins/hookify/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary productivity/writing-rules. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/hookify/skills/writing-rules. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-productivity-code-simplifier",
+          "root": "plugins/code-simplifier/agents",
+          "license": "Apache-2.0",
+          "license_path": "plugins/code-simplifier/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary productivity/code-simplifier. Source: https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16/plugins/code-simplifier/agents. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+          "reviewed_guide": {
+            "name": "code-simplifier",
+            "path": "plugins/code-simplifier/agents/code-simplifier.md",
+            "source_digest": "2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb",
+            "adapter_version": 1
+          }
+        },
+        {
+          "id": "skill-development-skill-development",
+          "root": "plugins/plugin-dev/skills/skill-development",
+          "license": "Apache-2.0",
+          "license_path": "plugins/plugin-dev/LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-reviewed complete original source and explicit source-to-output layout repair for development/skill-development. Original file bytes and modes unchanged; distribution mapping and supplemental original legal source identities retained. No execution or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "plugins/plugin-dev/LICENSE": {
+                "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+                "mode": "100644",
+                "output": "upstream-notices/plugins_plugin-dev_LICENSE"
+              },
+              "plugins/plugin-dev/skills/skill-development/SKILL.md": {
+                "digest": "d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f",
+                "mode": "100644",
+                "output": "skills/skill-development/SKILL.md"
+              },
+              "plugins/plugin-dev/skills/skill-development/references/skill-creator-original.md": {
+                "digest": "8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816",
+                "mode": "100644",
+                "output": "skills/skill-development/references/skill-creator-original.md"
+              }
+            },
+            "supplements": {
+              "registry/licenses/bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362.txt": {
+                "digest": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+                "output": "skills/skill-development/references/LICENSE.txt",
+                "source": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+                "license": "Apache-2.0"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "heygen-originals",
+      "repository": "https://github.com/heygen-com/skills",
+      "branch": "master",
+      "reviewed_revision": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "skills": [
+        {
+          "id": "skill-development-heygen-best-practices",
+          "root": "heygen-video",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "ed9ff67751c11e70907ac5186918c8339981cf40907ba09ae896714127e5644c",
+          "notices": [
+            {
+              "path": "registry/licenses/e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c.txt",
+              "digest": "e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c",
+              "source": "https://github.com/garrytan/gstack/blob/9665621d18086efc3c755d1052dc103f076846a5/LICENSE",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/heygen-best-practices. Source: https://github.com/heygen-com/skills/tree/1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a/heygen-video. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "eval-genius-originals",
+      "repository": "https://github.com/alexgreensh/eval-genius",
+      "branch": "main",
+      "reviewed_revision": "dd1270441c2fbb75f85253571e2c74e7a4ad183c",
+      "skills": [
+        {
+          "id": "skill-development-eval-genius",
+          "root": "skills/eval-genius",
+          "license": "Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/eval-genius. Source: https://github.com/alexgreensh/eval-genius/tree/dd1270441c2fbb75f85253571e2c74e7a4ad183c/skills/eval-genius. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "sanjay-originals",
+      "repository": "https://github.com/sanjay3290/ai-skills",
+      "branch": "main",
+      "reviewed_revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",
+      "skills": [
+        {
+          "id": "skill-ai-research-deep-research",
+          "root": "skills/deep-research",
+          "license": "Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "7999c0fed82cce6afd734c4f64c6a1ebc0c05ba33eaf4191a72b68093b9dba6e",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary ai-research/deep-research. Source: https://github.com/sanjay3290/ai-skills/tree/281d88df199357e3091a3be5c743a0fca9a9ae1b/skills/deep-research. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+          "reviewed_templates": {
+            "skills/deep-research/.env.example": "b94ef0a3267baf3990c96aa12ba39324e09cecde3322e94fe1d2c7505b50f371"
+          }
+        }
+      ]
+    },
+    {
+      "id": "engineering-originals",
+      "repository": "https://github.com/mhattingpete/claude-skills-marketplace",
+      "branch": "main",
+      "reviewed_revision": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+      "skills": [
+        {
+          "id": "skill-development-git-pushing",
+          "root": "engineering-workflow-plugin/skills/git-pushing",
+          "license": "Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "e7b895e3484e5d60786f8925bae58ea9446c3aaaaca4c47f7b5813d6fa3cbcdc",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/git-pushing. Source: https://github.com/mhattingpete/claude-skills-marketplace/tree/b5b34bcf4c920bb72cee1c391b54a33cb5353c12/engineering-workflow-plugin/skills/git-pushing. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-development-test-fixing",
+          "root": "engineering-workflow-plugin/skills/test-fixing",
+          "license": "Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "e7b895e3484e5d60786f8925bae58ea9446c3aaaaca4c47f7b5813d6fa3cbcdc",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/test-fixing. Source: https://github.com/mhattingpete/claude-skills-marketplace/tree/b5b34bcf4c920bb72cee1c391b54a33cb5353c12/engineering-workflow-plugin/skills/test-fixing. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "composio-originals",
+      "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "reviewed_revision": "be2a406907dbc61b73e6827ded415c96139d13a2",
+      "skills": [
+        {
+          "id": "skill-productivity-file-organizer",
+          "root": "file-organizer",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12",
+          "notices": [
+            {
+              "path": "registry/licenses/e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12.txt",
+              "digest": "e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12",
+              "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md",
+              "license": "Apache-2.0"
+            },
+            {
+              "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+              "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary productivity/file-organizer. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/file-organizer. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "composio-automation-originals",
+      "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "branch": "master",
+      "reviewed_revision": "e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b",
+      "skills": [
+        {
+          "id": "skill-workflow-automation-github-automation",
+          "root": "github-automation",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+          "notices": [
+            {
+              "path": "registry/licenses/61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef.txt",
+              "digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+              "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/README.md",
+              "license": "Apache-2.0"
+            },
+            {
+              "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+              "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary workflow-automation/github-automation. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/github-automation. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-workflow-automation-jira-automation",
+          "root": "jira-automation",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+          "notices": [
+            {
+              "path": "registry/licenses/61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef.txt",
+              "digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+              "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/README.md",
+              "license": "Apache-2.0"
+            },
+            {
+              "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+              "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary workflow-automation/jira-automation. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/jira-automation. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-workflow-automation-linear-automation",
+          "root": "linear-automation",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+          "notices": [
+            {
+              "path": "registry/licenses/61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef.txt",
+              "digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+              "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/README.md",
+              "license": "Apache-2.0"
+            },
+            {
+              "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+              "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary workflow-automation/linear-automation. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/linear-automation. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        },
+        {
+          "id": "skill-workflow-automation-slack-automation",
+          "root": "slack-automation",
+          "license": "Apache-2.0",
+          "license_path": "",
+          "license_digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+          "notices": [
+            {
+              "path": "registry/licenses/61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef.txt",
+              "digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+              "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/README.md",
+              "license": "Apache-2.0"
+            },
+            {
+              "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+              "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE",
+              "license": "Apache-2.0"
+            }
+          ],
+          "attribution": "Owner-approved complete original-author restoration for intermediary workflow-automation/slack-automation. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/slack-automation. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "neolab-originals",
+      "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+      "branch": "master",
+      "reviewed_revision": "23e2428e809d77717f8acc9659c374a3a1fcb93e",
+      "skills": [
+        {
+          "id": "skill-ai-research-prompt-engineering",
+          "root": "skills/prompt-engineering",
+          "license": "GPL-3.0-only",
+          "license_path": "LICENSE",
+          "license_digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary ai-research/prompt-engineering. Source: https://github.com/NeoLabHQ/context-engineering-kit/tree/23e2428e809d77717f8acc9659c374a3a1fcb93e/skills/prompt-engineering. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "skills/prompt-engineering/SKILL.md": {
+                "digest": "6280c7c8cc9e33b42ef69a326874cc80acc5bbe08859f4b79dc0fc69501e43a5",
+                "mode": "100644",
+                "output": "skills/prompt-engineering/SKILL.md"
+              }
+            },
+            "obligations": [
+              {
+                "license": "GPL-3.0-only",
+                "files": [
+                  "LICENSE",
+                  "skills/prompt-engineering/SKILL.md"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "NeoLabHQ context-engineering-kit; unchanged preferred-form Markdown source and original GPL terms. No additional restrictions.",
+                "source": "https://github.com/NeoLabHQ/context-engineering-kit/blob/23e2428e809d77717f8acc9659c374a3a1fcb93e/skills/prompt-engineering/SKILL.md"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skill-productivity-kaizen",
+          "root": "skills/kaizen",
+          "license": "GPL-3.0-only",
+          "license_path": "LICENSE",
+          "license_digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary productivity/kaizen. Source: https://github.com/NeoLabHQ/context-engineering-kit/tree/23e2428e809d77717f8acc9659c374a3a1fcb93e/skills/kaizen. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "skills/kaizen/SKILL.md": {
+                "digest": "1a300eb3c93aa3f8307e034cc5f45731076ae478f78c049e23f06ad2a0c98626",
+                "mode": "100644",
+                "output": "skills/kaizen/SKILL.md"
+              }
+            },
+            "obligations": [
+              {
+                "license": "GPL-3.0-only",
+                "files": [
+                  "LICENSE",
+                  "skills/kaizen/SKILL.md"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "NeoLabHQ context-engineering-kit; unchanged preferred-form Markdown source and original GPL terms. No additional restrictions.",
+                "source": "https://github.com/NeoLabHQ/context-engineering-kit/blob/23e2428e809d77717f8acc9659c374a3a1fcb93e/skills/kaizen/SKILL.md"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "neolab-historical-originals",
+      "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+      "branch": "master",
+      "reviewed_revision": "49be11a06d5e2a8c31e924ef55a771d9229fbca2",
+      "skills": [
+        {
+          "id": "skill-development-software-architecture",
+          "root": "plugins/ddd/skills/software-architecture",
+          "license": "GPL-3.0-only",
+          "license_path": "LICENSE",
+          "license_digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary development/software-architecture. Source: https://github.com/NeoLabHQ/context-engineering-kit/tree/49be11a06d5e2a8c31e924ef55a771d9229fbca2/plugins/ddd/skills/software-architecture. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "plugins/ddd/skills/software-architecture/SKILL.md": {
+                "digest": "9fdcdb61e44bd8b66da6d023282e1924b2887079695a82c14c4c3dd43c95c463",
+                "mode": "100644",
+                "output": "skills/software-architecture/SKILL.md"
+              }
+            },
+            "obligations": [
+              {
+                "license": "GPL-3.0-only",
+                "files": [
+                  "LICENSE",
+                  "plugins/ddd/skills/software-architecture/SKILL.md"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "NeoLabHQ context-engineering-kit; unchanged preferred-form Markdown source and original GPL terms. No additional restrictions.",
+                "source": "https://github.com/NeoLabHQ/context-engineering-kit/blob/49be11a06d5e2a8c31e924ef55a771d9229fbca2/plugins/ddd/skills/software-architecture/SKILL.md"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "neon-originals",
+      "repository": "https://github.com/neondatabase/agent-skills",
+      "branch": "main",
+      "reviewed_revision": "81392ac49afa3a1a0c523a5c2752328797282717",
+      "skills": [
+        {
+          "id": "skill-database-using-neon",
+          "root": "skills/neon-postgres",
+          "license": "Apache-2.0",
+          "license_path": "LICENSE",
+          "license_digest": "b1bde583dfbe4b29a2a47cf089c62c8d637c41b7fb596aa4086bcaacf390c29e",
+          "notices": [],
+          "attribution": "Owner-approved complete original-author restoration for intermediary database/using-neon. Source: https://github.com/neondatabase/agent-skills/tree/81392ac49afa3a1a0c523a5c2752328797282717/skills/neon-postgres. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation."
+        }
+      ]
+    },
+    {
+      "id": "openai-historical-originals",
+      "repository": "https://github.com/openai/skills",
+      "branch": "main",
+      "reviewed_revision": "dadec22b4a3501c2b7263a644aee44ff26228ee0",
+      "skills": [
+        {
+          "id": "skill-development-create-plan",
+          "root": "skills/.experimental/create-plan",
+          "license": "Apache-2.0",
+          "license_path": "skills/.experimental/create-plan/LICENSE.txt",
+          "license_digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "notices": [],
+          "attribution": "Owner-reviewed complete original source and explicit source-to-output layout repair for development/create-plan. Original file bytes and modes unchanged; distribution mapping and supplemental original legal source identities retained. No execution or host activation."
+        }
+      ]
+    },
+    {
+      "id": "java-layout-originals",
+      "repository": "https://github.com/sickn33/agentic-awesome-skills",
+      "branch": "main",
+      "reviewed_revision": "89a6b43c3e8cd210215e9803172be2bd8897b0c7",
+      "skills": [
+        {
+          "id": "skill-development-playwright-java",
+          "root": "skills/playwright-java",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+          "notices": [],
+          "attribution": "Owner-reviewed complete original source and explicit source-to-output layout repair for development/playwright-java. Original file bytes and modes unchanged; distribution mapping and supplemental original legal source identities retained. No execution or host activation.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "LICENSE-CONTENT": {
+                "digest": "deae07ece522fbca65ab33f0c18ca9630b1077a8f3f233c0af445235b3fb6fcf",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE-CONTENT"
+              },
+              "skills/playwright-java/BasePage.java": {
+                "digest": "2cf3e1fdf96377683a21b73a769bc2666f58bd8a65e577bcab2850d9f0c6dd6b",
+                "mode": "100644",
+                "output": "skills/playwright-java/templates/BasePage.java"
+              },
+              "skills/playwright-java/BaseTest.java": {
+                "digest": "a20b368795c8606431d4cbad2619e1321a7dfbce837cf458763b02bfdb3aeaf3",
+                "mode": "100644",
+                "output": "skills/playwright-java/templates/BaseTest.java"
+              },
+              "skills/playwright-java/SKILL.md": {
+                "digest": "0039fb01926c8521f6a15ef856c46413ed41acbb1fe44255370531c5c8d48545",
+                "mode": "100644",
+                "output": "skills/playwright-java/SKILL.md"
+              },
+              "skills/playwright-java/assertions.md": {
+                "digest": "c2963ceb57c8924bb9de5a826800a7892047fe460ce376c84b161b789d384e41",
+                "mode": "100644",
+                "output": "skills/playwright-java/references/assertions.md"
+              },
+              "skills/playwright-java/config.md": {
+                "digest": "e4d018dddd4d1c580a5e56676339d3dcd20dd3686d9e672e6f9ca87d77075215",
+                "mode": "100644",
+                "output": "skills/playwright-java/references/config.md"
+              },
+              "skills/playwright-java/fixtures.md": {
+                "digest": "351a005aa105e875a9d4da35138a02b617fb700384215eeb78704222830ec17d",
+                "mode": "100644",
+                "output": "skills/playwright-java/references/fixtures.md"
+              },
+              "skills/playwright-java/page-objects.md": {
+                "digest": "f2455dd622bb973fb301a183ca9a09e2136ed78023fff21ca26db967d220115e",
+                "mode": "100644",
+                "output": "skills/playwright-java/references/page-objects.md"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "clinpgx-historical-originals",
+      "repository": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "branch": "main",
+      "reviewed_revision": "4fc6ac7727a2b0c30f964906713bd884679ff188",
+      "skills": [
+        {
+          "id": "skill-scientific-clinpgx-database",
+          "root": "scientific-skills/clinpgx-database",
+          "license": "MIT AND CC-BY-SA-4.0",
+          "license_path": "LICENSE.md",
+          "license_digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+          "attribution": "Exact complete historical original, not a replacement with current database-lookup. All original source and modes retained under actual per-component MIT and CC-BY-SA obligations. No API/database/script execution.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE.md": {
+                "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE.md"
+              },
+              "scientific-skills/clinpgx-database/SKILL.md": {
+                "digest": "f4b3586a58998dfdfe9cf724c44e1b78a045ebfaed93526d566e9a166bd97d0a",
+                "mode": "100644",
+                "output": "skills/clinpgx-database/SKILL.md"
+              },
+              "scientific-skills/clinpgx-database/references/api_reference.md": {
+                "digest": "efa00fab64657b376a929e720445b47b93cc6dd703b781d994363fc19508bb44",
+                "mode": "100644",
+                "output": "skills/clinpgx-database/references/api_reference.md"
+              },
+              "scientific-skills/clinpgx-database/scripts/query_clinpgx.py": {
+                "digest": "08d3a58cd193f8a305a16906e36e851201b051df3bb7b7a1455ae3cf3ce86dd0",
+                "mode": "100755",
+                "output": "skills/clinpgx-database/scripts/query_clinpgx.py"
+              }
+            },
+            "supplements": {
+              "registry/licenses/28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5.txt": {
+                "digest": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+                "output": "skills/clinpgx-database/LICENSE.CC-BY-SA-4.0.txt",
+                "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-sa/4.0/legalcode.txt",
+                "license": "CC-BY-SA-4.0"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  "LICENSE.md",
+                  "scientific-skills/clinpgx-database/SKILL.md",
+                  "scientific-skills/clinpgx-database/references/api_reference.md"
+                ],
+                "notices": [
+                  "LICENSE.md"
+                ],
+                "attribution": "Copyright (c) 2025 K-Dense Inc.; exact unchanged original Markdown and notice source. Independent aggregation does not relicense the separately declared script.",
+                "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/clinpgx-database/SKILL.md"
+              },
+              {
+                "license": "CC-BY-SA-4.0",
+                "files": [
+                  "scientific-skills/clinpgx-database/scripts/query_clinpgx.py"
+                ],
+                "notices": [
+                  "registry/licenses/28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5.txt"
+                ],
+                "attribution": "Original K-Dense published query_clinpgx.py with explicit CC-BY-SA-4.0 declaration, unchanged. Attribution/source preserved; no database results included, no additional restrictions or DRM.",
+                "source": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/clinpgx-database/scripts/query_clinpgx.py"
+              }
+            ]
+          }
         }
       ]
     }

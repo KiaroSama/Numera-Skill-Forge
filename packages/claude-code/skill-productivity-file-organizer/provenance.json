@@ -1,0 +1,19 @@
+{
+  "collection": "composio-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-file-organizer/skills/file-organizer/SKILL.md",
+      "path": "file-organizer/SKILL.md",
+      "size": 11312
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "448d96b16230860ffbb7cc2bc64ae432b59e1ce9a1ea81ff76f0b8b853b34c52",
+  "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "revision": "be2a406907dbc61b73e6827ded415c96139d13a2",
+  "root": "file-organizer",
+  "schema_version": 1
+}

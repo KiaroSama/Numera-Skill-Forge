@@ -1,9 +1,15 @@
 # Missing skill imports
 
-The import adds **72 independently selectable packages**, bringing the accepted inventory
-to **1110 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
+The import adds **107 independently selectable packages**, bringing the accepted inventory
+to **1145 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
 records** remain unchanged. Importing instructions never executes scripts, installs hooks or
 activates external services.
+
+## Renewed five-group remediation
+
+A further **35 packages** resolve the previously held81-root review; all **1110 preceding accepted objects** remain identical. The current153-root table is **107 added /46 held**. New direct originals include eight official Anthropic skills, one transparent official agent guide, current HeyGen, complete eval-genius/deep-research/engineering/Composio roots, historical OpenAI/Neon and three GPL NeoLab roots. Exact reviewed layout fixes restore NoWait and Java references/templates; Android recovers the author npm signing companion without inventing Git provenance. ClinPGx retains scoped MIT and CC-BY-SA terms. FastMCP/Move retain original selected copies and prominent derivative notices plus actual Apache terms.
+
+Four DoorDash packages now include four native hook/config pairs, five commands and the complete companion skill dependencies. Only explicit project-scoped Claude installation is supported; skill-only conversion to other targets refuses. This task does not activate personal hooks or access an account/order. Original hooks fail open if Python3 is absent, use heuristic matching, and are not medical-grade or universal enforcement.
 
 ## What was added
 
@@ -58,6 +64,30 @@ source, with original Next Level Builder MIT and applicable intermediary notices
 LF/CRLF frontmatter without normalizing entry bytes, companions or modes. Its exact original
 native-variant provenance remains explicit; imported Python scripts were not executed.
 
+## Original-source registrations added in the renewed review
+
+| Collection | Exact source revision | Packages | Grant scope |
+| --- | --- | --- | --- |
+| Anthropic official originals | [8a8b381](https://github.com/anthropics/claude-plugins-official/tree/8a8b3819ab881e578edaa2b7f43019ea540bce16) | 8skills +1original-agent guide adapter | Scoped Apache-2.0; embedded creator terms preserved |
+| HeyGen originals | [1bd5e4d](https://github.com/heygen-com/skills/tree/1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a/heygen-video) | 1 | HeyGen MIT plus gstack MIT notice |
+| Eval Genius originals | [dd12704](https://github.com/alexgreensh/eval-genius/tree/dd1270441c2fbb75f85253571e2c74e7a4ad183c/skills/eval-genius) | 1 | Apache-2.0 +NOTICE, complete49-file root |
+| Sanjay originals | [281d88d](https://github.com/sanjay3290/ai-skills/tree/281d88df199357e3091a3be5c743a0fca9a9ae1b/skills/deep-research) | 1 | Apache-2.0, exact reviewed public placeholder template |
+| Engineering originals | [b5b34bc](https://github.com/mhattingpete/claude-skills-marketplace/tree/b5b34bcf4c920bb72cee1c391b54a33cb5353c12/engineering-workflow-plugin/skills) | 2 | Unchanged Apache originals for git-pushing/test-fixing |
+| Composio originals | [be2a406](https://github.com/ComposioHQ/awesome-claude-skills/tree/be2a406907dbc61b73e6827ded415c96139d13a2/file-organizer) | 1 | Actual README Apache declaration +full terms |
+| Composio automation originals | [e762a98](https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b) | 4 | Complete unchanged original Rube instructions; external MCP/account not activated |
+| NeoLab originals | [23e2428](https://github.com/NeoLabHQ/context-engineering-kit/tree/23e2428e809d77717f8acc9659c374a3a1fcb93e/skills) | 2 | GPL-3.0-only unchanged source and full terms |
+| NeoLab historical original | [49be11a](https://github.com/NeoLabHQ/context-engineering-kit/tree/49be11a06d5e2a8c31e924ef55a771d9229fbca2/plugins/ddd/skills/software-architecture) | 1 | GPL-3.0-only; actual historical skill, not invented current rule adapter |
+| Neon original | [81392ac](https://github.com/neondatabase/agent-skills/tree/81392ac49afa3a1a0c523a5c2752328797282717/skills/neon-postgres) | 1 | Complete original Apache root/name retained |
+| OpenAI historical original | [dadec22](https://github.com/openai/skills/tree/dadec22b4a3501c2b7263a644aee44ff26228ee0/skills/.experimental/create-plan) | 1 | Exact unchanged scoped Apache entry/license |
+| Java layout original | [89a6b43](https://github.com/sickn33/agentic-awesome-skills/tree/89a6b43c3e8cd210215e9803172be2bd8897b0c7/skills/playwright-java) | 1 | Original MIT;4references/2templates explicitly remapped |
+| ClinPGx historical original | [4fc6ac7](https://github.com/K-Dense-AI/claude-scientific-skills/tree/4fc6ac7727a2b0c30f964906713bd884679ff188/scientific-skills/clinpgx-database) | 1 | MIT Markdown +explicit CC-BY-SA-4.0 script, full terms/source retained |
+
+Nine other additions use the existing pinned Templates collection: NoWait, Google Analytics,
+Android CI/CD, FastMCP, Move quality and four DoorDash bundles. Their reviewed source-to-output
+maps, complete source identity, notices and any authored change notice appear in
+`upstream-notices/distribution.json`. Android supplements identify the actual npm1.0.4 tarball,
+archive SHA256/SHA512 SRI, exact member and output hash; no upstream Git commit is fabricated.
+
 ## Install and update
 
 Package IDs retain the intermediary category/name convention, for example:
@@ -71,25 +101,25 @@ claude plugin install skill-productivity-notion-knowledge-capture@numera-skill-f
 ```
 
 Use the existing [host setup](host-setup.md) and [upstream update rules](upstream-sync.md).
-Native descriptors do not register hooks, MCP servers or executable runtime integration.
+Ordinary skill descriptors do not activate runtime integrations. The four required-native DoorDash
+packages are excluded from ordinary skill-only marketplaces and require the explicit project-Claude
+Forge route in the host guide, including content-bound `--native-approval` after preview.
 Notion/GitHub credentials and tools remain separate prerequisites. Security instructions are for
 authorized use only; inclusion is not permission to test a target.
 
 ## What remains outside
 
-Of the previously identified **153 missing canonical roots**, **72 now have packages** and **81
-remain unbundled**:77 Templates roots plus four scientific Office roots. The [current per-root table](canonical-root-outcomes.md) accounts for every one of the153 roots.
+Of the previously identified **153 missing canonical roots**, **107 now have packages** and **46
+remain unbundled**:42 Templates roots plus four scientific Office roots. The [current per-root table](canonical-root-outcomes.md) accounts for every one of the153 roots.
 The historical [hold table](remaining-skill-disposition.md#held-roots-and-exact-next-condition)
-is superseded for these72 resolved rows.
+is superseded for these107 resolved rows.
 
 - Scientific `docx`, `pdf`, `pptx` and `xlsx` contain specific proprietary terms restricting copying
   and redistribution. A permissive fork-root label does not replace those scoped terms.
 - All25 intermediary playbook cases are resolved through complete author originals/guides, including
-  the author's repaired Grafana, Prometheus and GitHub Actions roots. Playwright Java and NoWait still
-  reference unavailable paths in their selected layouts; neither was silently relocated.
+  the author's repaired Grafana, Prometheus and GitHub Actions roots. Playwright Java and NoWait now retain explicit reviewed reference/template path mappings, with unchanged source bytes.
 - Other original-rights, name-and-origin, mixed-notice and modification-compliance holds need their
-  specific evidence or reviewed repair. Technical approval is not a license grant. Native DoorDash
-  enforcement needs components beyond a standalone skill.
+  specific evidence or reviewed repair. Technical approval is not a license grant. Internet Court still requires vendor grants not provided by its root MIT. DoorDash native components are now bundled, with host/runtime limits stated above.
 - The CRLF-only hold is resolved without rewriting source line endings. Every remaining held row
   has a concrete next-admission requirement in the current per-root table.
 

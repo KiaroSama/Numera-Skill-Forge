@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Unmodified upstream skill: plugins/ddd/skills/software-architecture",
+  "license": "GPL-3.0-only",
+  "name": "skill-development-software-architecture",
+  "version": "1.0.0"
+}

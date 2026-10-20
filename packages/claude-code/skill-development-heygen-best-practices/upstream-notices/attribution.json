@@ -1,0 +1,12 @@
+{
+  "attribution": "Owner-approved complete original-author restoration for intermediary development/heygen-best-practices. Source: https://github.com/heygen-com/skills/tree/1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a/heygen-video. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c",
+      "license": "MIT",
+      "path": "registry/licenses/e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c.txt",
+      "source": "https://github.com/garrytan/gstack/blob/9665621d18086efc3c755d1052dc103f076846a5/LICENSE"
+    }
+  ]
+}

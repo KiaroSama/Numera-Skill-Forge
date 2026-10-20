@@ -1,0 +1,40 @@
+{
+  "collection": "clinpgx-historical-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinpgx-database/upstream-notices/LICENSE.md",
+      "path": "LICENSE.md",
+      "size": 1068
+    },
+    {
+      "digest": "f4b3586a58998dfdfe9cf724c44e1b78a045ebfaed93526d566e9a166bd97d0a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinpgx-database/skills/clinpgx-database/SKILL.md",
+      "path": "scientific-skills/clinpgx-database/SKILL.md",
+      "size": 20891
+    },
+    {
+      "digest": "efa00fab64657b376a929e720445b47b93cc6dd703b781d994363fc19508bb44",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-scientific-clinpgx-database/skills/clinpgx-database/references/api_reference.md",
+      "path": "scientific-skills/clinpgx-database/references/api_reference.md",
+      "size": 17360
+    },
+    {
+      "digest": "08d3a58cd193f8a305a16906e36e851201b051df3bb7b7a1455ae3cf3ce86dd0",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-scientific-clinpgx-database/skills/clinpgx-database/scripts/query_clinpgx.py",
+      "path": "scientific-skills/clinpgx-database/scripts/query_clinpgx.py",
+      "size": 14295
+    }
+  ],
+  "license": "MIT AND CC-BY-SA-4.0",
+  "payload_digest": "a85b4702b8cb6550bfa4bd39a435710ccbd77e97c29191c98f41a8eb5c8988c5",
+  "repository": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "revision": "4fc6ac7727a2b0c30f964906713bd884679ff188",
+  "root": "scientific-skills/clinpgx-database",
+  "schema_version": 1
+}

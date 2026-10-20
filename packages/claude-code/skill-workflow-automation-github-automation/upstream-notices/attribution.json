@@ -1,0 +1,18 @@
+{
+  "attribution": "Owner-approved complete original-author restoration for intermediary workflow-automation/github-automation. Source: https://github.com/ComposioHQ/awesome-claude-skills/tree/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/github-automation. Original source bytes, companions and modes retained; this is not byte equivalence to the edited mirror. Acquisition grants no source execution, service/account access or host activation.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/61982c2b76ae9723ed6715eb0c4d2a3b82c1290f4f998fb953762cc00b2b84ef.txt",
+      "source": "https://github.com/ComposioHQ/awesome-claude-skills/blob/e762a98bd93f34c22926c7cf6ae7c9bb59ea9d5b/README.md"
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license": "Apache-2.0",
+      "path": "registry/licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+      "source": "https://github.com/anthropics/claude-plugins-official/blob/8a8b3819ab881e578edaa2b7f43019ea540bce16/LICENSE"
+    }
+  ]
+}

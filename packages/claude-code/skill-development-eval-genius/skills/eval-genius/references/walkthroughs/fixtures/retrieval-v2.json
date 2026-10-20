@@ -1,0 +1,311 @@
+{
+  "manifest": {
+    "run_id": "r-toy-ret-v2",
+    "fixture_hash": "sha256:66c898a60503b2be41f9fbe8730e9d249ddaaebd13228ff4d928723362a07926",
+    "liveness": "passed",
+    "negative_control_id": "ret-neg",
+    "arm": {
+      "name": "treatment-retriever",
+      "lever_value": "retriever v2"
+    },
+    "system": {
+      "version_or_commit": "toy",
+      "model_snapshot": "toy-model-snapshot"
+    },
+    "reproducibility": {
+      "seeds": {
+        "sampling": 0,
+        "order": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "ret-01",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-02",
+      "verdict": "pass",
+      "score": 0.5,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-03",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-04",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-05",
+      "verdict": "pass",
+      "score": 0.5,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-06",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-07",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-08",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-09",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-10",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-11",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-12",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-13",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-14",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-15",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-16",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-17",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-18",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-19",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-20",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-21",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-22",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-23",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-24",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-25",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-26",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-27",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-28",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-29",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-30",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-31",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-32",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-33",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-34",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-35",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-36",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-37",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-38",
+      "verdict": "pass",
+      "score": 1.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-39",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-40",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    },
+    {
+      "id": "ret-neg",
+      "verdict": "fail",
+      "score": 0.0,
+      "layer": "deterministic",
+      "error": null
+    }
+  ]
+}

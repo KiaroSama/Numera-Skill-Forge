@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/playwright-java",
+  "license": "MIT",
+  "name": "skill-development-playwright-java",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

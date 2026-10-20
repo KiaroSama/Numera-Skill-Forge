@@ -1,0 +1,40 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-development/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-development/skills/skill-development/SKILL.md",
+      "path": "plugins/plugin-dev/skills/skill-development/SKILL.md",
+      "size": 22825
+    },
+    {
+      "digest": "8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-skill-development/skills/skill-development/references/skill-creator-original.md",
+      "path": "plugins/plugin-dev/skills/skill-development/references/skill-creator-original.md",
+      "size": 11547
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "183c37ddce028261f1aeea1e30a02022c7620d0b39317a6c28c4dcaa244c2d81",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/skill-development",
+  "schema_version": 1
+}

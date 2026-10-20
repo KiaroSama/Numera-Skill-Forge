@@ -1,0 +1,33 @@
+{
+  "collection": "engineering-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e7b895e3484e5d60786f8925bae58ea9446c3aaaaca4c47f7b5813d6fa3cbcdc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-git-pushing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 9663
+    },
+    {
+      "digest": "d54394e9e9aff8e2b7a19d14b41c144131edd29832d204cb60896e2c900e2d3d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-git-pushing/skills/git-pushing/SKILL.md",
+      "path": "engineering-workflow-plugin/skills/git-pushing/SKILL.md",
+      "size": 1084
+    },
+    {
+      "digest": "a7e119a99142a7249f6d9611da801c4dbcfbb9338258b169a731bdce13b553c2",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-development-git-pushing/skills/git-pushing/scripts/smart_commit.sh",
+      "path": "engineering-workflow-plugin/skills/git-pushing/scripts/smart_commit.sh",
+      "size": 4123
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "4e6637cb0acb8712b70c4f370a8879d4b4612ce88431ab8d10056ddf549382c0",
+  "repository": "https://github.com/mhattingpete/claude-skills-marketplace",
+  "revision": "b5b34bcf4c920bb72cee1c391b54a33cb5353c12",
+  "root": "engineering-workflow-plugin/skills/git-pushing",
+  "schema_version": 1
+}

@@ -16,7 +16,9 @@ mod delivery;
 pub(crate) mod design;
 mod design_accept;
 mod design_review;
+mod distribution;
 pub(crate) mod guide;
+pub(crate) mod native;
 pub use design_accept::accept as design_accept;
 pub use design_review::{list as design_list, review as design_review};
 pub(crate) mod model;
@@ -100,7 +102,12 @@ fn selection(tree: &[Blob], skill: &Skill) -> Result<Vec<Blob>> {
             skill.reviewed_guide.as_ref().map_or_else(
                 || b.path.starts_with(&format!("{}/", skill.root)),
                 |g| b.path == g.path,
-            ) || b.path == skill.license_path
+            ) || skill
+                .reviewed_distribution
+                .as_ref()
+                .and_then(|r| r.native.as_ref())
+                .is_some_and(|n| n.files.contains_key(&b.path) || n.hook_configs.contains(&b.path))
+                || b.path == skill.license_path
                 || (policy::license(&b.path) && !b.path.contains('/'))
         })
         .cloned()
@@ -123,6 +130,7 @@ fn files(
     selected: &[Blob],
     payload: &BTreeMap<String, Vec<u8>>,
 ) -> Result<Vec<File>> {
+    distribution::source(skill, selected, payload)?;
     let entry = format!("{}/SKILL.md", skill.root);
     let emitted = if let Some(approval) = &skill.reviewed_guide {
         guide::source(skill, payload)?;
@@ -152,7 +160,9 @@ fn files(
         .iter()
         .map(|blob| {
             let relative = blob.path.strip_prefix(&format!("{}/", skill.root));
-            let output = if let Some(path) = relative {
+            let output = if let Some(mapped) = distribution::output(skill, &blob.path, name)? {
+                mapped
+            } else if let Some(path) = relative {
                 format!("packages/claude-code/{}/skills/{name}/{path}", skill.id)
             } else {
                 format!(
@@ -165,15 +175,24 @@ fn files(
             let bytes = payload
                 .get(&blob.path)
                 .ok_or_else(|| Error::new("integrity", "Missing source blob"))?;
-            let emitted = adaptation::payload(skill, &blob.path, bytes)?;
+            let emitted = distribution::payload(
+                skill,
+                &blob.path,
+                &adaptation::payload(skill, &blob.path, bytes)?,
+            )?;
             Ok(File {
                 path: blob.path.clone(),
                 output_path: output,
                 digest: storage::digest(&emitted),
                 mode: blob.mode.clone(),
                 size: emitted.len() as u64,
-                source_digest: (blob.path == entry && skill.reviewed_name.is_some())
-                    .then(|| storage::digest(bytes)),
+                source_digest: ((blob.path == entry && skill.reviewed_name.is_some())
+                    || skill
+                        .reviewed_distribution
+                        .as_ref()
+                        .and_then(|r| r.files.get(&blob.path))
+                        .is_some_and(|f| f.change_notice.is_some()))
+                .then(|| storage::digest(bytes)),
             })
         })
         .collect()
@@ -192,7 +211,11 @@ fn package(
     for file in &files {
         outputs.insert(
             file.output_path.clone(),
-            adaptation::payload(skill, &file.path, &payload[&file.path])?,
+            distribution::payload(
+                skill,
+                &file.path,
+                &adaptation::payload(skill, &file.path, &payload[&file.path])?,
+            )?,
         );
     }
     if let Some(approval) = &skill.reviewed_guide {
@@ -216,6 +239,20 @@ fn package(
             skill,
             &payload[&format!("{}/SKILL.md", skill.root)],
         )?);
+    }
+    outputs.extend(distribution::outputs(root, skill)?);
+    if let Some(review) = &skill.reviewed_distribution {
+        for (path, selected) in &review.files {
+            if selected.change_notice.is_some() {
+                outputs.insert(
+                    format!(
+                        "packages/claude-code/{}/upstream-notices/original-files/{path}",
+                        skill.id
+                    ),
+                    payload[path].clone(),
+                );
+            }
+        }
     }
     let prefix = format!("packages/claude-code/{}", skill.id);
     for (index, notice) in skill.notices.iter().enumerate() {
@@ -258,6 +295,7 @@ fn package(
             delivery: BTreeMap::new(),
             reviewed_design: skill.reviewed_design.clone(),
             reviewed_guide: skill.reviewed_guide.clone(),
+            reviewed_distribution: skill.reviewed_distribution.clone(),
         },
         outputs,
     ))
@@ -383,7 +421,7 @@ fn promote(
 pub use sync::execute as sync;
 
 fn catalog_values(state: &Lock) -> Vec<(String, Value)> {
-    let plugins=state.entries.values().map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":if a.reviewed_design.is_some() || a.reviewed_guide.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})).collect::<Vec<_>>();
+    let plugins=state.entries.values().filter(|a| !native::required(a)).map(|a|json!({"name":a.id,"source":format!("./packages/claude-code/{}",a.id),"version":a.version,"description":if a.reviewed_design.is_some() || a.reviewed_guide.is_some() { design::description(a) } else { format!("Original upstream skill: {}",a.root) }})).collect::<Vec<_>>();
     vec![
         (
             MARKETPLACE.into(),
@@ -515,7 +553,13 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
         if accepted
             .generated
             .keys()
-            .filter(|path| path.starts_with(&notice_prefix))
+            .filter(|path| {
+                path.strip_prefix(&notice_prefix).is_some_and(|name| {
+                    name.strip_suffix(".txt").is_some_and(|index| {
+                        !index.is_empty() && index.bytes().all(|b| b.is_ascii_digit())
+                    })
+                })
+            })
             .count()
             != skill.notices.len()
         {
@@ -548,6 +592,10 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
         adaptation::verify(root, skill, accepted)?;
         design::verify(root, skill, accepted)?;
         guide::verify(root, skill, accepted)?;
+        distribution::verify(root, skill, accepted)?;
+        if native::required(accepted) {
+            native::installation(root, accepted)?;
+        }
         for file in &accepted.files {
             if policy::protected(&file.path)
                 && skill.reviewed_templates.get(&file.path) != Some(&file.digest)
@@ -584,7 +632,15 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
         }
     }
     let catalog: Value = storage::read(&root.join(MARKETPLACE))?;
-    if catalog["plugins"].as_array().map(Vec::len) != Some(state.entries.len()) {
+    if catalog["plugins"].as_array().map(Vec::len)
+        != Some(
+            state
+                .entries
+                .values()
+                .filter(|a| !native::required(a))
+                .count(),
+        )
+    {
         return Err(Error::new(
             "catalog",
             "Marketplace differs from accepted plugin count",

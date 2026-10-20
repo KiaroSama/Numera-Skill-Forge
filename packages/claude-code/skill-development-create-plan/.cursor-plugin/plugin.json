@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/.experimental/create-plan",
+  "license": "Apache-2.0",
+  "name": "skill-development-create-plan",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

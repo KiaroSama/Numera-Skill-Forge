@@ -3,6 +3,9 @@ use super::*;
 pub(crate) const CURSOR_CATALOG: &str = ".cursor-plugin/marketplace.json";
 
 pub(super) fn descriptors(a: &Accepted) -> Result<BTreeMap<String, Vec<u8>>> {
+    if super::native::required(a) {
+        return super::native::descriptor(a);
+    }
     let prefix = format!("packages/claude-code/{}", a.id);
     let description = design::description(a);
     let native = json!({"name":a.id,"version":a.version,
@@ -28,6 +31,7 @@ pub(super) fn catalogs(state: &Lock) -> [(String, Value); 1] {
     let cursor = state
         .entries
         .values()
+        .filter(|a| !super::native::required(a))
         .map(|a| {
             json!({"name":a.id,
         "source":format!("packages/claude-code/{}",a.id),
@@ -147,7 +151,7 @@ pub fn build(root: &Path, id: &str, target: &str) -> Result<Value> {
     Ok(
         json!({"package":id,"target":target,"version":accepted.version,
         "digest":accepted.content_digest,"path":root.join("packages/claude-code").join(id),
-        "delivery":"shared original skill payload; native descriptors available",
+        "delivery":if super::native::required(accepted) { "required-native bundle; project Claude install requires explicit content-bound approval" } else { "shared original skill payload; native descriptors available" },
         "execution":"not-performed"}),
     )
 }

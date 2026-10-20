@@ -1,0 +1,33 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-writing-rules/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-writing-rules/upstream-notices/plugins_hookify_LICENSE",
+      "path": "plugins/hookify/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "2994b5d3152243b1a1cbf8358e9d7c18f290f31a23920647f31053c3efdf990d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-productivity-writing-rules/skills/writing-hookify-rules/SKILL.md",
+      "path": "plugins/hookify/skills/writing-rules/SKILL.md",
+      "size": 8423
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "669103a4d8a7e4e1850e24e92aa1f257b67a7067b48c660a88d8fd57f44d8de0",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/hookify/skills/writing-rules",
+  "schema_version": 1
+}

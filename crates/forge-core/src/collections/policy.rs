@@ -6,6 +6,8 @@ pub fn validate_skill(skill: &Skill) -> Result<()> {
     validation::identifier(&skill.id)?;
     super::design::validate(skill)?;
     super::guide::validate(skill)?;
+    super::distribution::validate(skill)?;
+    super::native::validate(skill)?;
     validation::relative_path(&skill.root)?;
     if let Some(approval) = &skill.reviewed_name {
         super::adaptation::validate(approval)?;
@@ -68,7 +70,8 @@ pub fn validate_skill(skill: &Skill) -> Result<()> {
             ));
         }
     }
-    if !matches!(skill.license.as_str(), "MIT" | "Apache-2.0" | "CC-BY-4.0")
+    if (!matches!(skill.license.as_str(), "MIT" | "Apache-2.0" | "CC-BY-4.0")
+        && skill.reviewed_distribution.is_none())
         || skill.license_digest.len() != 64
         || !skill.license_digest.bytes().all(|b| b.is_ascii_hexdigit())
     {
@@ -151,7 +154,17 @@ pub fn verify_license(
         ));
     }
     let text = String::from_utf8_lossy(bytes);
-    let expected = if skill.license == "MIT" {
+    super::distribution::obligations(root, skill, payload)?;
+    let expected = if skill
+        .reviewed_distribution
+        .as_ref()
+        .is_some_and(|r| !r.obligations.is_empty())
+    {
+        skill
+            .license
+            .split(" AND ")
+            .any(|term| super::distribution::terms_match(term, bytes))
+    } else if skill.license == "MIT" {
         text.contains("Permission is hereby granted")
     } else if skill.license == "Apache-2.0" {
         (text.contains("Apache License") && text.contains("Version 2.0"))
@@ -168,8 +181,9 @@ pub fn verify_license(
     for (path, bytes) in payload.iter().filter(|(path, _)| license(path)) {
         let text = String::from_utf8_lossy(bytes).to_ascii_lowercase();
         if text.contains("distribute, sublicense, or transfer these materials")
-            || text.contains("non-commercial")
-            || text.contains("noncommercial")
+            || text
+                .split(|c: char| !c.is_ascii_alphabetic() && c != '-')
+                .any(|word| matches!(word, "non-commercial" | "noncommercial"))
         {
             return Err(Error::new(
                 "license-review",

@@ -1,0 +1,75 @@
+{
+  "collection": "anthropic-official-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/upstream-notices/plugins_plugin-dev_LICENSE",
+      "path": "plugins/plugin-dev/LICENSE",
+      "size": 11358
+    },
+    {
+      "digest": "c7cb4931d6d71198cba6b552e4733b41940be56a65552a2ff7c5656750b95184",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/README.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/README.md",
+      "size": 3210
+    },
+    {
+      "digest": "a2dbc1e5502aacb360d0ca74732cdd7be4f6a12a49edf4f2ade4134fbc026247",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/SKILL.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/SKILL.md",
+      "size": 13796
+    },
+    {
+      "digest": "3d24f5856048a94cb99fe2b8207d99f2f5d69325771b361d63ec73024290759c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/examples/advanced-plugin.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/examples/advanced-plugin.md",
+      "size": 18746
+    },
+    {
+      "digest": "c4f14fe56b153be3c532b7947bb10b453fc92e280dca5a7da752d2b1b5d17448",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/examples/minimal-plugin.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/examples/minimal-plugin.md",
+      "size": 1731
+    },
+    {
+      "digest": "b8cfba84bd4dbdc83365cebcde5dcc6391252372300df0c1ea7890441582d784",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/examples/standard-plugin.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/examples/standard-plugin.md",
+      "size": 13310
+    },
+    {
+      "digest": "38681792a6aba4f06d3c391b20b04060263f1fbaacc5880cc0cafe0543d37f91",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/references/component-patterns.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/references/component-patterns.md",
+      "size": 12086
+    },
+    {
+      "digest": "d0ff8ffece4754df92c543266b8d0b689fb85473f51fbb57e215f2d235ee9782",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-plugin-structure/skills/plugin-structure/references/manifest-reference.md",
+      "path": "plugins/plugin-dev/skills/plugin-structure/references/manifest-reference.md",
+      "size": 12061
+    }
+  ],
+  "license": "Apache-2.0",
+  "payload_digest": "18dbd69b9571578d9b33534857eca15d4927bf3ed75d5fa911e123fe2d03dbcc",
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "8a8b3819ab881e578edaa2b7f43019ea540bce16",
+  "root": "plugins/plugin-dev/skills/plugin-structure",
+  "schema_version": 1
+}

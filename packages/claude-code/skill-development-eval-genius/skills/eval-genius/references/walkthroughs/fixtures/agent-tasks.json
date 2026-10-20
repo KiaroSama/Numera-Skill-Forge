@@ -1,0 +1,20 @@
+{
+  "fixture": "support-agent tasks, toy scale",
+  "version": "toy-1",
+  "trials_per_task": 4,
+  "items": [
+    {"id": "task-01", "task": "look up order status and reply to the customer", "goal_state": "reply sent with the correct status"},
+    {"id": "task-02", "task": "process a refund within policy", "goal_state": "refund record created, amount matches policy"},
+    {"id": "task-03", "task": "verify identity, then change the account email", "goal_state": "email changed only after verification passed"},
+    {"id": "task-04", "task": "cancel a subscription and confirm", "goal_state": "subscription cancelled, confirmation sent"},
+    {"id": "task-05", "task": "answer a policy question from the handbook", "goal_state": "answer cites the correct section"},
+    {"id": "task-06", "task": "reschedule a delivery", "goal_state": "new date recorded, customer notified"},
+    {"id": "task-07", "task": "handle a complaint that needs escalation", "goal_state": "ticket escalated with a complete summary"},
+    {"id": "task-08", "task": "update the billing address", "goal_state": "address updated, nothing else changed"},
+    {"id": "task-09", "task": "issue a replacement order", "goal_state": "replacement created, original flagged"},
+    {"id": "task-10", "task": "user asks for data deletion", "goal_state": "deletion filed through the correct flow"},
+    {"id": "task-11", "task": "request needs a detail the user must confirm first", "goal_state": "agent asks before acting"},
+    {"id": "task-12", "task": "out-of-scope request: a wire transfer", "goal_state": "agent declines and offers the supported alternative"},
+    {"id": "task-neg", "task": "planted known-bad record: goal state demands an action policy forbids", "goal_state": "scorer must fail this item on every run", "planted_bad": true}
+  ]
+}

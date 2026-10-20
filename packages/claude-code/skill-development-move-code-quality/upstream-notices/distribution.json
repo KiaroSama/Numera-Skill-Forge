@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "cli-tool/components/skills/development/move-code-quality/SKILL.md": {
+      "digest": "3bcc527a435b8d97b22933b99a1a9090b2b513868e11fa0ce69b4e6392ec1527",
+      "mode": "100644",
+      "output": "skills/move-code-quality/SKILL.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This document is adapted from https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/book/guides/code-quality-checklist.md under Apache-2.0; wording, examples and/or MDX/layout/link presentation were adapted in the upstream skill. Forge adds this prominent attribution/change notice only and retains the unmodified selected source separately under upstream-notices/original-files. Full original Apache terms accompany this package; no endorsement is implied."
+    }
+  },
+  "supplements": {
+    "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt": {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "output": "skills/move-code-quality/LICENSE.Apache-2.0.txt",
+      "source": "https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/LICENSE",
+      "license": "Apache-2.0"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "LICENSE"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "attribution": "Original skill authors and intermediary contribution under actual MIT terms; selected source retained, no blanket relicensing of earlier Apache material.",
+      "source": "https://github.com/davila7/claude-code-templates/blob/a344359459263d73d8948651c789244093c02e4e/cli-tool/components/skills/development/move-code-quality/SKILL.md"
+    },
+    {
+      "license": "Apache-2.0",
+      "files": [
+        "cli-tool/components/skills/development/move-code-quality/SKILL.md"
+      ],
+      "notices": [
+        "registry/licenses/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt"
+      ],
+      "attribution": "MystenLabs/move-book original documentation and contributors; derived document mappings and prominent modification notices retained in every adapted file. Original selected bytes preserved separately.",
+      "source": "https://github.com/MystenLabs/move-book/blob/d060f9431e2c02bcd52f8366b6fc69509f6d914a/LICENSE"
+    }
+  ]
+}
