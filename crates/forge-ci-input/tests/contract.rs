@@ -34,7 +34,8 @@ fn projection_uses_committed_bytes_and_omits_ambient_inputs() {
     };
     git(&["init", "-q"]);
     fs::write(repo.join("Cargo.toml"), "# committed α\n").unwrap();
-    git(&["add", "Cargo.toml"]);
+    fs::write(repo.join("LICENSE"), "Committed legal fixture\n").unwrap();
+    git(&["add", "Cargo.toml", "LICENSE"]);
     git(&["commit", "-qm", "fixture"]);
     let revision = String::from_utf8(git(&["rev-parse", "HEAD"])).unwrap();
     fs::write(repo.join("Cargo.toml"), "# ambient change\n").unwrap();
@@ -60,7 +61,11 @@ fn projection_uses_committed_bytes_and_omits_ambient_inputs() {
     let manifest: serde_json::Value =
         serde_json::from_slice(&fs::read(output.join("manifest.json")).unwrap()).unwrap();
     assert_eq!(manifest["source_revision"], revision.trim());
-    assert_eq!(manifest["files"].as_array().unwrap().len(), 1);
+    assert_eq!(manifest["files"].as_array().unwrap().len(), 2);
+    assert_eq!(
+        fs::read(output.join("input/LICENSE")).unwrap(),
+        b"Committed legal fixture\n"
+    );
     // A selected symlink Git mode is refused even without creating an OS symlink on Windows.
     git(&[
         "update-index",

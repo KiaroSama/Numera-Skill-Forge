@@ -14,11 +14,7 @@ impl Fixture {
     fn new() -> Self {
         let root = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
             .join("../../.ci-work/tests")
-            .join(format!(
-                "delivery-{}-{}",
-                std::process::id(),
-                chrono::Utc::now().timestamp_nanos_opt().unwrap()
-            ));
+            .join(forge_core::transaction::operation_id());
         let upstream = root.join("upstream");
         fs::create_dir_all(upstream.join("skills/demo/references")).unwrap();
         fs::write(

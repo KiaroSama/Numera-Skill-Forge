@@ -112,7 +112,7 @@ pub fn image(value: &str) -> Result<()> {
     Ok(())
 }
 pub fn selected(path: &str) -> bool {
-    matches!(path, "Cargo.toml" | "Cargo.lock")
+    matches!(path, "Cargo.toml" | "Cargo.lock" | "LICENSE")
         || path.starts_with("crates/")
         || (path.starts_with("apps/desktop/") && !path.starts_with("apps/desktop/src-tauri/icons/"))
 }

@@ -6,7 +6,10 @@ The prospective producer covers Linux Core/CLI tests and release builds, and fro
 
 Use the existing Linux Docker daemon with an immutable prepared image ID. The daemon, kernel, OCI runtime, compiler, browser, dependency provisioning and supervisor are an explicit trusted base. This is not universal hermeticity or a syscall read-set certificate. User-namespace/Landlock isolation is **not claimed**. No host-root/home/socket bind, privileged container, capability addition or host security-policy changes are allowed. Missing actual controls fail closed; no host fallback. Local WSL bubblewrap0.11.1 is ineligible and is never used.
 
-Source projection uses exact Git objects, declared paths and original modes, not a mutable checkout or ignored content. Runtime and prepared dependencies are declared by the entire immutable final image content identity. Dependencies are provisioned before controlled execution; Cargo runs locked/offline. Source is read-only. Only private scratch, home, temp and explicitly named fixture/output subtrees are writable. Container networking has loopback only, for Playwright's server; external networking is disabled.
+Source projection uses exact Git objects, declared paths and original modes, not a mutable checkout or ignored content.
+The root Cargo manifests/lock and LICENSE, crate sources/tests/fixtures and selected desktop inputs are
+explicitly declared. LICENSE is a compile-time input of the GPL distribution regression; it is not
+recovered from an ambient checkout. Runtime and prepared dependencies are declared by the entire immutable final image content identity. Dependencies are provisioned before controlled execution; Cargo runs locked/offline. Source is read-only. Only private scratch, home, temp and explicitly named fixture/output subtrees are writable. Container networking has loopback only, for Playwright's server; external networking is disabled.
 
 The supervisor independently inspects nonroot UID, read-only root, no-new-privileges, all capabilities dropped, default seccomp, no host namespace sharing, no host mounts/devices/ports, network none and resource settings **before** starting product commands. Real denial probes test source writes, outside paths, ambient environment/descriptors and external network.
 
