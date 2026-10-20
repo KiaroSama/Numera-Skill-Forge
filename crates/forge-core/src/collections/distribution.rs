@@ -285,11 +285,15 @@ pub fn output(skill: &Skill, source: &str, name: &str) -> Result<Option<String>>
     };
     let file = review.files.get(source).ok_or_else(invalid)?;
     let expected_entry = format!("skills/{name}/SKILL.md");
-    if source == format!("{}/SKILL.md", skill.root) && file.output != expected_entry
-        || file.output.starts_with("skills/")
-            && !file.output.starts_with(&format!("skills/{name}/"))
-    {
+    if source == format!("{}/SKILL.md", skill.root) && file.output != expected_entry {
         return Err(invalid());
+    }
+    if let Some(relative) = file.output.strip_prefix("skills/") {
+        let sibling = relative.split('/').next().ok_or_else(invalid)?;
+        validation::identifier(sibling)?;
+        if !relative.contains('/') {
+            return Err(invalid());
+        }
     }
     Ok(Some(format!(
         "packages/claude-code/{}/{}",

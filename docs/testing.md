@@ -26,8 +26,8 @@ once in CI on the pushed SHA, not duplicated locally.
 ## Actual release CLI tier
 
 On every Linux CI run, `scripts/verify-cli-lifecycle.py` executes the actual release binary from an
-unrelated working directory against fresh isolated consumers. Twenty representative packages from
-eleven of the24registered collections exercise catalog/build, preview/no-write, installation with complete
+unrelated working directory against fresh isolated consumers. Twenty-one representative packages from
+twelve of the25registered collections exercise catalog/build, preview/no-write, installation with complete
 companions/notices and original modes, repeat no-op, disable/enable, edited-file uninstall refusal,
 distinct-source same-name collision, unsupported native-only refusal, rollback and uninstall.
 An inert first-party Git repository additionally verifies prompt-only safe updates, installed receipt
@@ -42,7 +42,8 @@ Native GUI tests remain in the separate four-platform workflow; browser IPC mock
 
 The new reviewed-distribution service fixtures cover complete source inventory/hash/mode approval,
 path repair, scoped GPL/mixed terms, exact supplements/artifact provenance, prominent modification
-notices with retained originals, reconstruction, drift/withdrawal/collision refusal and required native
+notices with retained originals, reconstruction, drift/withdrawal/collision refusal, complete sibling
+skill bundles with selected-entry identity rather than companion ordering, and required native
 project-Claude install/uninstall. The original DoorDash hooks have a separate Linux no-network/PID
 namespace fixture: first-party fake dd-cli, temporary HOME/project, six positive/refusal/audit-redaction
 checks and no account/order. `verify-doordash-hooks.py` writes per-run UTF-8 UTC logs/result JSON;

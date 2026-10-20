@@ -89524,6 +89524,2178 @@
         "packages/claude-code/skill-productivity-notion-spec-to-implementation/plugin.json": "4584c1f5e80d8745f01b049db98dad3d79a21d9da7c80a3b976eac9ac7de48b6"
       }
     },
+    "reverse-skill-ctf/skill-reverse-ctf-sandbox": {
+      "collection": "reverse-skill-ctf",
+      "id": "skill-reverse-ctf-sandbox",
+      "root": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+      "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "version": "1.0.0",
+      "license": "MIT AND GPL-3.0-only",
+      "content_digest": "58cbf57a329e015d8106cc7928057e6e214f1ef6c9a632321f410bb485854f25",
+      "files": [
+        {
+          "path": "CTF-Sandbox-Orchestrator/LICENSE",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/CTF-LICENSE",
+          "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "mode": "100644",
+          "size": 35149
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/README.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/CTF-README.md",
+          "digest": "ee0276dc965dca47deb62e0fd2eac13232cfdb3376addb34907105f7f10eb7fd",
+          "mode": "100644",
+          "size": 3264
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/SKILL.md",
+          "digest": "acb228fae7ec89a9fb5656f5f6209e98309d0b06e204625fe52d46c5421ce96f",
+          "mode": "100644",
+          "size": 3279
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/agents/openai.yaml",
+          "digest": "a4e4e06bb8c806628c091fb84359d8bf4a27d1d2dfdfc1c45d824951c8865495",
+          "mode": "100644",
+          "size": 394
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/references/ad-certificate-abuse.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/references/ad-certificate-abuse.md",
+          "digest": "687b8c2dc614f7361ee7eb8ce78e05d7a66758c05478dd1664580f4f53899551",
+          "mode": "100644",
+          "size": 1154
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-agent-cloud/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/SKILL.md",
+          "digest": "9e56a603f14f2d6d9264bf77da408697deec9e152e5ccd6c391dc14440ff5032",
+          "mode": "100644",
+          "size": 4009
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-agent-cloud/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/agents/openai.yaml",
+          "digest": "50f6fb10a25e596bdb0f30b8f63a0998676fa96aff0fa6bf5f75cb627e76ec23",
+          "mode": "100644",
+          "size": 379
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-agent-cloud/references/agent-cloud.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/references/agent-cloud.md",
+          "digest": "274d751dfcb7f23b7f96e3abb2da3e8894705e8bffe54caa60fda8b30b758e4f",
+          "mode": "100644",
+          "size": 1085
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-android-hooking/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/SKILL.md",
+          "digest": "01ed954e9b6fcdc9a2e78de49fd8b7f52614a36c251851cfef97df20272af712",
+          "mode": "100644",
+          "size": 3178
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-android-hooking/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/agents/openai.yaml",
+          "digest": "0a1192e647429bc6d4321156517d572a18f6318b5ef908fb654ebfb7bb9368ed",
+          "mode": "100644",
+          "size": 388
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-android-hooking/references/android-hooking.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/references/android-hooking.md",
+          "digest": "441087c0d70cc1ece641ec3b1ff71f1bba154ae876065149e1b37cb40d43e713",
+          "mode": "100644",
+          "size": 1064
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-browser-persistence/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/SKILL.md",
+          "digest": "48282126789e97818c374d9479d831aa70d8825701e4bae16ded574631da1097",
+          "mode": "100644",
+          "size": 3167
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-browser-persistence/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/agents/openai.yaml",
+          "digest": "209fd7516099ce85e3889e3d943529e1ac6ab79197319ad421399f922f72004d",
+          "mode": "100644",
+          "size": 407
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-browser-persistence/references/browser-persistence.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/references/browser-persistence.md",
+          "digest": "b96d918b0e256ebdb71b83e43de89a3fa04d5d99f3400975a7fb1542452b289c",
+          "mode": "100644",
+          "size": 1125
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/SKILL.md",
+          "digest": "8f89baa5ea28f37f3920fe3e152f4b1d7d27d1442d97e57e0f6f7ffc836825ce",
+          "mode": "100644",
+          "size": 3204
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/agents/openai.yaml",
+          "digest": "0103052395bf3cf7cef8c60d142b1d3bf656741f3569dd34a16067c7df3a6ef7",
+          "mode": "100644",
+          "size": 420
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md",
+          "digest": "04035d3da0766bd14fb63b641881e7fd886c379b3d6ddf1da0b22ad6c63ec513",
+          "mode": "100644",
+          "size": 1086
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/SKILL.md",
+          "digest": "5f15e808652caad49611a7b75a6efbd9bccdf430c187f5dbf57a85b7954d4053",
+          "mode": "100644",
+          "size": 3428
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/agents/openai.yaml",
+          "digest": "9adb7a1c062e1ab3d7529daa71047fe2e271142b17205b985fbbee91049f337d",
+          "mode": "100644",
+          "size": 391
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/references/cloud-metadata-path.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/references/cloud-metadata-path.md",
+          "digest": "bd5f588230051b93c2803796d9b1d6dca2196660adfacc3839972bf628fe300a",
+          "mode": "100644",
+          "size": 1195
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-container-runtime/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/SKILL.md",
+          "digest": "87412c06f8caa85ed2bf8d53a00d356f9bd1813144df9b2ec499652066775c7b",
+          "mode": "100644",
+          "size": 3398
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-container-runtime/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/agents/openai.yaml",
+          "digest": "f09ac7be4c655f63c93a71a4e355b20f6f80585197d018eb3771c21a1ce267d1",
+          "mode": "100644",
+          "size": 409
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-container-runtime/references/container-runtime.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/references/container-runtime.md",
+          "digest": "9ab4224c6faff3e0c346ff5c4baea7ddcb8be511a9b31413f5e7f2a6143d5a5d",
+          "mode": "100644",
+          "size": 1111
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-crypto-mobile/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/SKILL.md",
+          "digest": "7d78f7d1dc176aafe9ccdc0e127e5189bd963593f4434a2da2f4b61aaec4c311",
+          "mode": "100644",
+          "size": 2854
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-crypto-mobile/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/agents/openai.yaml",
+          "digest": "16a00a541f6b2807276214287dd1805ed533647bbee008a171ae5a1f26b41752",
+          "mode": "100644",
+          "size": 376
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-crypto-mobile/references/crypto-mobile.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/references/crypto-mobile.md",
+          "digest": "c51bf4746d07e1cbb23280be89044baebdbd9a07a17bcef87b008b4e88d92e0b",
+          "mode": "100644",
+          "size": 932
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/SKILL.md",
+          "digest": "b4ffc7e7812293d8eb0f14ed04490a1fdb2f3eae8bfdb0a589a70b12a423f0f3",
+          "mode": "100644",
+          "size": 3045
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/agents/openai.yaml",
+          "digest": "d152127029dccec675a3b6da0d8285dc0c4d9a72345f7d3f25b2548f4392c515",
+          "mode": "100644",
+          "size": 397
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/references/custom-protocol-replay.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/references/custom-protocol-replay.md",
+          "digest": "0c43b793655555ff87409ce196369744db33d7a250c4188ad315338e1c26761c",
+          "mode": "100644",
+          "size": 1090
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/SKILL.md",
+          "digest": "029cf3988446e8d6dfde30516924ae910e4e8e0c667845d82b1ae2a2d507d7d2",
+          "mode": "100644",
+          "size": 3419
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/agents/openai.yaml",
+          "digest": "eba7bf6a2c25b9f9d5d4bb2a5a3b61b49c6e5fbd367c3c1881691449eb97864a",
+          "mode": "100644",
+          "size": 406
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/references/dpapi-credential-chain.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/references/dpapi-credential-chain.md",
+          "digest": "13b35d81191a72a4c6c5f94e5d911dc40fe83f4cab7e77f0c21a4a54ea6e322e",
+          "mode": "100644",
+          "size": 1120
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-file-parser-chain/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/SKILL.md",
+          "digest": "ac09fa9241fde21453174b9a3bd6f917c024b8523663ed24cdb4a90692fa0a6c",
+          "mode": "100644",
+          "size": 3163
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-file-parser-chain/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/agents/openai.yaml",
+          "digest": "b0239aebdac57003aa2b9e75891893996e3cc38eead5395f5fbf5f8a592a2195",
+          "mode": "100644",
+          "size": 410
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-file-parser-chain/references/file-parser-chain.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/references/file-parser-chain.md",
+          "digest": "bad1ef728c08ef6abe0e44eae668de58a20e9c1c6cb970ab16212ec9d45d4baf",
+          "mode": "100644",
+          "size": 1074
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-firmware-layout/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/SKILL.md",
+          "digest": "32e17b49d0f3bd17832124d3f60f5ec00b56bb423e732e28dac2ea61a6714d2e",
+          "mode": "100644",
+          "size": 3289
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-firmware-layout/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/agents/openai.yaml",
+          "digest": "6524b9bb3dd9397822480d491f1648f5a8dd9502f1bd03a701b795f0b001a6d6",
+          "mode": "100644",
+          "size": 402
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-firmware-layout/references/firmware-layout.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/references/firmware-layout.md",
+          "digest": "0c6cf03d2f73161f4e6a0a7c6a2f83b9eaf335e3b4c47dad316f813390a04308",
+          "mode": "100644",
+          "size": 1089
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-forensic-timeline/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/SKILL.md",
+          "digest": "552d9c4759b724618f9333a2cf7c686759b39ac6a3b856bb3f417760ab8de617",
+          "mode": "100644",
+          "size": 3289
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-forensic-timeline/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/agents/openai.yaml",
+          "digest": "7eacb09ed7a132d259c7110c9e85699a91ec0932b3d8e169561fcfbcf82dd6c4",
+          "mode": "100644",
+          "size": 394
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-forensic-timeline/references/forensic-timeline.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/references/forensic-timeline.md",
+          "digest": "6ec45b6ef81e147f2b4da90fbe27a894a70ea1b1c6a13201f5894082bc42728a",
+          "mode": "100644",
+          "size": 1300
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/SKILL.md",
+          "digest": "a6e8e2d54d79f065d13940b888d379aa31ee2b2470d459f4c1ab4f57763a47d5",
+          "mode": "100644",
+          "size": 3300
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/agents/openai.yaml",
+          "digest": "2d442eb419c5ca445cc0203d341e53941cfc40c34d1024e96699cb4c450379d8",
+          "mode": "100644",
+          "size": 388
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/references/graphql-rpc-drift.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/references/graphql-rpc-drift.md",
+          "digest": "c41eaf9034b47dcd028efc5b1a8e72b5f418f756e911fa7b253e9b08e05465ab",
+          "mode": "100644",
+          "size": 1095
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-identity-windows/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/SKILL.md",
+          "digest": "deec978f35c404f4b10b0cc4dcc274a48a7c2a75f73925043fc8454c32b2a6fd",
+          "mode": "100644",
+          "size": 3993
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-identity-windows/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/agents/openai.yaml",
+          "digest": "c3b07747d3cda874cd6f6c1b968cec5345c62c7908e3a2837c0e604d3d7e6dfa",
+          "mode": "100644",
+          "size": 387
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-identity-windows/references/identity-windows.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/references/identity-windows.md",
+          "digest": "cfcb3e6237d860d2f8698daf47865bdab103ff2824109b0dad6c34bd298222f3",
+          "mode": "100644",
+          "size": 1247
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/SKILL.md",
+          "digest": "11a041d6729a0733fb9813ecbc0753c87c2bf65b07cac6e3b6917a568d020156",
+          "mode": "100644",
+          "size": 3322
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ios-runtime/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/agents/openai.yaml",
+          "digest": "357acac7e122c279144480f3099826dce1109f26973620bae1ca6db2bb1815a2",
+          "mode": "100644",
+          "size": 392
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ios-runtime/references/ios-runtime.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/references/ios-runtime.md",
+          "digest": "9d5ba37db8bbc8e448630b374805799a47730ae70172dd04c31bccdd585865b7",
+          "mode": "100644",
+          "size": 1187
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/SKILL.md",
+          "digest": "f470a0467fdfe41accc0941d76976fb2d0f00ac21d29d49c049daf9d9274c7a5",
+          "mode": "100644",
+          "size": 3069
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/agents/openai.yaml",
+          "digest": "566dea9ca92499f95a75b2cbb265dad1e4828c275f0a16024fedbaa4fbb8d6e6",
+          "mode": "100644",
+          "size": 410
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/references/jwt-claim-confusion.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/references/jwt-claim-confusion.md",
+          "digest": "c80472b8347e1ccc557be259a4f682c4489970ed332972634276bf98e7f5fa04",
+          "mode": "100644",
+          "size": 1074
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/SKILL.md",
+          "digest": "18fa637d99266cd4776bd254d31b51c078d3fa5b4251cbf5baa9f6b4fdd7a262",
+          "mode": "100644",
+          "size": 3438
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/agents/openai.yaml",
+          "digest": "20783e1b97cae5043720322387c08316154ebed745069ac74503e7a2dc3e131f",
+          "mode": "100644",
+          "size": 404
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/references/k8s-control-plane.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/references/k8s-control-plane.md",
+          "digest": "71c64dacaf86790ee76afbf270c7d80759414b8b96d2eb8424a01475117f5e64",
+          "mode": "100644",
+          "size": 1111
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/SKILL.md",
+          "digest": "245321129a7f642dd0aae880f66d5c4e30578bae14e60c90128f5741e01b306a",
+          "mode": "100644",
+          "size": 2852
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/agents/openai.yaml",
+          "digest": "43300fd6466c0886d579cc29e6e1fcf5a03a1f27ac52aedf154cf7c91b2cb100",
+          "mode": "100644",
+          "size": 363
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/references/kerberos-delegation.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/references/kerberos-delegation.md",
+          "digest": "03f88165e94569a8da3220b0ed16081c7ddfa5746b7f3d9930c2d8795338af85",
+          "mode": "100644",
+          "size": 792
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/SKILL.md",
+          "digest": "c6e840b0365ea1aa895a14bab60a6c62cd5a8e157152097fb981582b6a722c9f",
+          "mode": "100644",
+          "size": 3008
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/agents/openai.yaml",
+          "digest": "2da8fd7a98da92e772cc19fd0bc419e640a4d1adc216207560f4f8e3c6f4e44f",
+          "mode": "100644",
+          "size": 379
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/references/kernel-container-escape.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/references/kernel-container-escape.md",
+          "digest": "ea5c9073be68ee362ca1915f47baf178e828f1653402c36f4b1b5d384de7b30a",
+          "mode": "100644",
+          "size": 987
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/SKILL.md",
+          "digest": "f00c32a3361cf34ce93a095cab5b416ddbcc7bf97d4a868c5bc57cd4db8eb125",
+          "mode": "100644",
+          "size": 2851
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/agents/openai.yaml",
+          "digest": "b03abb23d14dd7cb4b12112c755e2b8caa177c95e52e75d72d14084cb015da46",
+          "mode": "100644",
+          "size": 373
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/references/linux-credential-pivot.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/references/linux-credential-pivot.md",
+          "digest": "cedfda5f0074368a797bed81bef74ea577b1d7b628effc17ff70a3e2719e1225",
+          "mode": "100644",
+          "size": 928
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/SKILL.md",
+          "digest": "32ef1100a9c89d0914b0c31836d89250b9cc18dc39fccbb933cadf97aec334fb",
+          "mode": "100644",
+          "size": 3502
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/agents/openai.yaml",
+          "digest": "a4c65cb272e52c8cd85281dc9dee1d1ebc1f848d7ab916e138b78736cfbbb57e",
+          "mode": "100644",
+          "size": 415
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/references/lsass-ticket-material.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/references/lsass-ticket-material.md",
+          "digest": "0b0e953f5931fbd23f12de510a941f40f8f344ba752076f8d7871cc72b24a506",
+          "mode": "100644",
+          "size": 1100
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/SKILL.md",
+          "digest": "e83476c6a9882ddd0258e9d6bd217d8770a901b264f2f7b20195ace6a5f3df7a",
+          "mode": "100644",
+          "size": 3346
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/agents/openai.yaml",
+          "digest": "086a013faa3e39a0bfcf480b0628d4b76c419765f1defff6f7afd9119e07eb81",
+          "mode": "100644",
+          "size": 386
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/references/mailbox-abuse.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/references/mailbox-abuse.md",
+          "digest": "30d018bd5bd3f7909aa1db1b47337efbfa7752360fa15de5e14bf428d02a2a4c",
+          "mode": "100644",
+          "size": 1078
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-malware-config/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/SKILL.md",
+          "digest": "e8ece81ac60bdf17b7fca392b39af7d17af34d74d00ef94af4b2d10504607853",
+          "mode": "100644",
+          "size": 2800
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-malware-config/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/agents/openai.yaml",
+          "digest": "f207996104cb9eaaf5f929389066ee8988d17bcf5c2edbdd4a26e55af68ac94b",
+          "mode": "100644",
+          "size": 376
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-malware-config/references/malware-config.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/references/malware-config.md",
+          "digest": "b73441fcb3655d94727d47f8792e88ce106d8ece3f60b7eab620e2abedc7b5a9",
+          "mode": "100644",
+          "size": 1215
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/SKILL.md",
+          "digest": "47d4f2a26bee83c212b84295d4719a273b6e9a06773fe0510269a19569617878",
+          "mode": "100644",
+          "size": 3283
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/agents/openai.yaml",
+          "digest": "f5cb1a34cc521789ee3120d80f09a42dab4f0abbf8cde8440814b7e20948d804",
+          "mode": "100644",
+          "size": 390
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/references/oauth-oidc-chain.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/references/oauth-oidc-chain.md",
+          "digest": "8e88d765b550272fd34b48a664107c32351684a5efbdb7b8d180c0acf82454de",
+          "mode": "100644",
+          "size": 1070
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/SKILL.md",
+          "digest": "18285bb445a87a31548e482b74a6251b0136af68c68d65842cd4314fec5c893f",
+          "mode": "100644",
+          "size": 3479
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-pcap-protocol/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/agents/openai.yaml",
+          "digest": "d49e1ed4809d99ccb2128aee4a4334682652f1610c742953e9c5d0b32d107085",
+          "mode": "100644",
+          "size": 404
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-pcap-protocol/references/pcap-protocol.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/references/pcap-protocol.md",
+          "digest": "2d9508c75c3be8ca4e8c64102ef78a68ab8fb1d5f553fe9cd3af847f65778b70",
+          "mode": "100644",
+          "size": 1126
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-prompt-injection/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/SKILL.md",
+          "digest": "7c0344fa94d35679dfe0dd3513f72b95994a7044fd39b0c407e89c836425c443",
+          "mode": "100644",
+          "size": 2531
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-prompt-injection/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/agents/openai.yaml",
+          "digest": "b06769d6a3b87c7a9fb5f6b1899c5696237606512516a93b38bcdef67d1100a9",
+          "mode": "100644",
+          "size": 366
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-prompt-injection/references/prompt-injection.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/references/prompt-injection.md",
+          "digest": "eb69544636fafb10c519c7f157711b53ea083a1d39ca74a189884da3122ba6fc",
+          "mode": "100644",
+          "size": 996
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/SKILL.md",
+          "digest": "e39356ec96f379846ffc8f816f437a86bc69c3172b03607a76c9fdf788c013d5",
+          "mode": "100644",
+          "size": 3046
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/agents/openai.yaml",
+          "digest": "976477cfcf50c3653b16f91a601d6f2dcc21a668e749afab6753de4df2d9438c",
+          "mode": "100644",
+          "size": 402
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/references/queue-worker-drift.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/references/queue-worker-drift.md",
+          "digest": "c462d0852e8c86a6227b6336750c6aabf934c450e43a629eec06c369be3b630c",
+          "mode": "100644",
+          "size": 1100
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/SKILL.md",
+          "digest": "94338b6e63548f232041f59594e78e9d079a05710bda594fb1e07dd9b078167b",
+          "mode": "100644",
+          "size": 2747
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/agents/openai.yaml",
+          "digest": "39359988f9c00e3ad3bf9bb5fc73726ec6030e324f8c4e926e1aa61e352e2487",
+          "mode": "100644",
+          "size": 375
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/references/race-condition-state-drift.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/references/race-condition-state-drift.md",
+          "digest": "7ed7c1d0d0bfb27f3e412da279d397a5ebbcd6c0fc23136c5814560c874e7e95",
+          "mode": "100644",
+          "size": 944
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/SKILL.md",
+          "digest": "0902a70e320e4f4864b679f2a17836085218cc12d3cf5ca0dfb1cf1fb72c7ae3",
+          "mode": "100644",
+          "size": 3102
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/agents/openai.yaml",
+          "digest": "726b75fc9e6f03c73489b0a43ff960f5f99a147eb8d875820d5020aeee4be9a8",
+          "mode": "100644",
+          "size": 379
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/references/relay-coercion-chain.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/references/relay-coercion-chain.md",
+          "digest": "7d89cb8b12b3960c2f2b3b41a7f0182704d75ff63456e859c8a6f515075c81f2",
+          "mode": "100644",
+          "size": 946
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/SKILL.md",
+          "digest": "9b9dd18133e28ebc1ae7399fa20361a976f1d6e51bd808e3eda62e6f2a14dc63",
+          "mode": "100644",
+          "size": 2879
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/agents/openai.yaml",
+          "digest": "7780b9f59233e91b7e2ae80483de178dc51914b47a3820515ffeef1e3439d219",
+          "mode": "100644",
+          "size": 400
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/references/request-normalization-smuggling.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/references/request-normalization-smuggling.md",
+          "digest": "8e4b3695b62b557eb1f291cbffa162963a93487dab1524f7ba9938af9aff3eaa",
+          "mode": "100644",
+          "size": 958
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/SKILL.md",
+          "digest": "c8f622721f626346dec67fd1f25c41527f0a51f226c7ad71ed9d3ac1184fc5a8",
+          "mode": "100644",
+          "size": 3867
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-reverse-pwn/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/agents/openai.yaml",
+          "digest": "bbd61de5eb7b49b4717fc0a30580967725f2b739e5c913ac415a44ee714ac64f",
+          "mode": "100644",
+          "size": 370
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-reverse-pwn/references/reverse-pwn.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/references/reverse-pwn.md",
+          "digest": "685f29cbb658b59b00a1d88da34603e9bb08f2ae71ee8fd4e91adf681287a063",
+          "mode": "100644",
+          "size": 1010
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/SKILL.md",
+          "digest": "2d49d8e943f328fea03d4b72215b64422480f8b22d9d0376bfb424f307e196bc",
+          "mode": "100644",
+          "size": 3369
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-runtime-routing/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/agents/openai.yaml",
+          "digest": "21619695f8f85ba918479de71c6b78d4b0950429a73620e18371df1ab530f606",
+          "mode": "100644",
+          "size": 376
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-runtime-routing/references/runtime-routing.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/references/runtime-routing.md",
+          "digest": "66998afcefb124d90ec87f41391ed91414b1a84500bac27a092dba8e758e260e",
+          "mode": "100644",
+          "size": 984
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/SKILL.md",
+          "digest": "e54eea6f95f4e4fa7a4dd3e4e93889864cd067b48a48b4ed5f28ab9614894677",
+          "mode": "100644",
+          "size": 3020
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/agents/openai.yaml",
+          "digest": "2e7c364a9e0c68c9e30db95d8b227f553eb18df4b1893e4b17e360a57b90f883",
+          "mode": "100644",
+          "size": 372
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md",
+          "digest": "8f0a79320f038ee6f9d36b232d3817adfff81abbf66a7c78a6674d4739581a3a",
+          "mode": "100644",
+          "size": 1026
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-stego-media/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/SKILL.md",
+          "digest": "34c6ec0ebc773d9404dfe06c7ad018c68f807babd004bc4ecb9cb3e0e21ba192",
+          "mode": "100644",
+          "size": 2998
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-stego-media/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/agents/openai.yaml",
+          "digest": "6c7cde8d5ef2043d5d400e2882995fd35847656330598eab57645e4ae0255e9b",
+          "mode": "100644",
+          "size": 385
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-stego-media/references/stego-media.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/references/stego-media.md",
+          "digest": "08d6885eba31ae679949bb19964ac59718eedb181c4aafc81b328b06425e3185",
+          "mode": "100644",
+          "size": 1080
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-supply-chain/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/SKILL.md",
+          "digest": "9db0fa1c57f973c8c9d86a5ce2f509be5edb578d11114ffd667bde9df8bea339",
+          "mode": "100644",
+          "size": 2648
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-supply-chain/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/agents/openai.yaml",
+          "digest": "b388b4b7833e3f32aeeb407a44dfa2543c3d123654ca86f1cea6bce5960fcf73",
+          "mode": "100644",
+          "size": 385
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-supply-chain/references/supply-chain.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/references/supply-chain.md",
+          "digest": "cb541142f9ca72a197a79b68d762982c86ef0c0f8c7d0a1b53112d2ee3a23443",
+          "mode": "100644",
+          "size": 754
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-template-render-path/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/SKILL.md",
+          "digest": "0bf311c5e7e599dcb7542459dd21447e122362226dda278cc458be308be6a14b",
+          "mode": "100644",
+          "size": 3405
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-template-render-path/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/agents/openai.yaml",
+          "digest": "e360a9bcf82c273442a1cd2f5d765d9b6d37e9a4a74232e08cb2ccba90c984ed",
+          "mode": "100644",
+          "size": 415
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-template-render-path/references/template-render-path.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/references/template-render-path.md",
+          "digest": "d95701386cbd8ef13bc56c52f19d68847d4f85e1d098f9e43b95d9d2e4566a0a",
+          "mode": "100644",
+          "size": 1099
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-web-runtime/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/SKILL.md",
+          "digest": "a448411bf12ea91802457a3dd000e8ea98e9a78d28f116160b1929b3612cde87",
+          "mode": "100644",
+          "size": 5114
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-web-runtime/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/agents/openai.yaml",
+          "digest": "97eebb89b20b2ac34a7572760243f1ebd31e64c089ae661304a22e9d2369a531",
+          "mode": "100644",
+          "size": 369
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md",
+          "digest": "a0f3cd5884734743af6a9147c901baa18cd210305f1973f64ab81ee178c8bc4f",
+          "mode": "100644",
+          "size": 5132,
+          "source_digest": "5afe6d39d847d1badcb54903deefd8afdb46b02ae9ca876c12b71bb151cc6d0f"
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-web-runtime/references/routing-runtime.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/references/routing-runtime.md",
+          "digest": "7cc714c7fb0ccf8d2f495943c98725d15f35d8f274a2556cab5fdb34bf42b375",
+          "mode": "100644",
+          "size": 1132
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/SKILL.md",
+          "digest": "8237cae908ea7f950215620bc82700124cc3a2ace0d8c3bc1a40f39963ffd193",
+          "mode": "100644",
+          "size": 3063
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-websocket-runtime/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/agents/openai.yaml",
+          "digest": "a83e4923843d907a0be06b14af0536e27b3e27bb7c1d622e3bda2b9239b952de",
+          "mode": "100644",
+          "size": 389
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-websocket-runtime/references/websocket-runtime.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/references/websocket-runtime.md",
+          "digest": "b36c5aeee41f7ed980b8acd32af880a38e638208bb499d91908741644b4c3ded",
+          "mode": "100644",
+          "size": 989
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-windows-pivot/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/SKILL.md",
+          "digest": "70d5f5d5901813a3d16959748c4ffe4f6d8acc8e4c0d49d4d17fd8c3a1d3644d",
+          "mode": "100644",
+          "size": 3408
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-windows-pivot/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/agents/openai.yaml",
+          "digest": "eec4a90f92ba12d7c21f273b6a4247ee7b9f6675cf7004ab3e7b5c9d14228a37",
+          "mode": "100644",
+          "size": 386
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-windows-pivot/references/windows-pivot.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/references/windows-pivot.md",
+          "digest": "a7988e8958234dc901186ef9511173974618edc371ccbe7ccd3b6cf55ad0a39c",
+          "mode": "100644",
+          "size": 791
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-zip-archive/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/SKILL.md",
+          "digest": "fd29fcf4a4b9510b5cfc62e7a7265eb17f2ddd383853550099000052f5a398c2",
+          "mode": "100644",
+          "size": 6517,
+          "source_digest": "e2f86fcfded2727ce26118b4410ccaa203a4da0605d5d546ce325dd2dfdbb9e6"
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-zip-archive/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/agents/openai.yaml",
+          "digest": "3053745cf00cb989a193411c87c9b68e2579c458f17f848174c5868ae04fb85f",
+          "mode": "100644",
+          "size": 413
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/competition-zip-archive/references/zip-archive.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/references/zip-archive.md",
+          "digest": "1ac77784bc746ab6c9957b862f8f9b65829b578b8d7254726429100bc61593ec",
+          "mode": "100644",
+          "size": 2937
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/SKILL.md",
+          "digest": "a60c4d3e844e507988a29a14c41b3111b50a03dd5a2030e68001624d7c0c418d",
+          "mode": "100644",
+          "size": 7423
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/agents/openai.yaml",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/agents/openai.yaml",
+          "digest": "d73c58bfd20f872291e891202e285fec672f39502cbe3f54e13ce7c28fe99a06",
+          "mode": "100644",
+          "size": 350
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/agent-cloud.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/agent-cloud.md",
+          "digest": "ebb881be0a38b3e08199b636c4426bb2bea0b16712420a26d5f7915627a113c4",
+          "mode": "100644",
+          "size": 1669
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/crypto-mobile.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/crypto-mobile.md",
+          "digest": "aa50bf81d64f9080a71953394007981dc7839f5b07ccdae39d9544142602215b",
+          "mode": "100644",
+          "size": 1917
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/ctf-resources-digest.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/ctf-resources-digest.md",
+          "digest": "a3a3eb3437c5898ec4aef23f1ecbcb14d8bc81f69a4b9936ee8241507462dfda",
+          "mode": "100644",
+          "size": 4812
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/identity-windows.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/identity-windows.md",
+          "digest": "049e9d8d4751c4321023258a45b661210cbe3e37cf3c68b134a18392d0e4c076",
+          "mode": "100644",
+          "size": 1868
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reporting.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/reporting.md",
+          "digest": "753581067b0de2d4909417dec6361501866162b09a654ad3d5c1bccb3d433807",
+          "mode": "100644",
+          "size": 1608
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reverse-native.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/reverse-native.md",
+          "digest": "bd825c6fa1b3c22d47d43a3dacf5bea4aec6845714ba80d5758a920e93a92088",
+          "mode": "100644",
+          "size": 1753
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/router-matrix.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/router-matrix.md",
+          "digest": "2f8ce9a7d6f7ae5bad201a7ca4818dd6cc88476382fbc5edc4d33716ffb2b958",
+          "mode": "100644",
+          "size": 5755
+        },
+        {
+          "path": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/web-api.md",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/web-api.md",
+          "digest": "ec6a87f178660da60e09d7623adc9df3f7f734b91d925137ffd8bacf30329644",
+          "mode": "100644",
+          "size": 1649
+        },
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/root-MIT-LICENSE",
+          "digest": "20876806ebaaae11d53fe07e221a4de4e67a017b6c91bb02d62df906213d2f60",
+          "mode": "100644",
+          "size": 1067
+        },
+        {
+          "path": "kali/scripts/bootstrap-manifest.json",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-manifest.json",
+          "digest": "6de4155573f55c748800e8dbcf94c319b3dd414b89d1426848239e1946b07727",
+          "mode": "100644",
+          "size": 20716
+        },
+        {
+          "path": "kali/scripts/bootstrap-reverse.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-reverse.sh",
+          "digest": "02b5a96ffb2a1bbe6591ca4d1cbc249a466384cab872ce9df404632c34796486",
+          "mode": "100644",
+          "size": 27997
+        },
+        {
+          "path": "kali/scripts/ida-start.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/ida-start.sh",
+          "digest": "6d621c92277147ec058c9d31bde37aa423ca5df8110c874d69c27531d8d67f99",
+          "mode": "100644",
+          "size": 2419
+        },
+        {
+          "path": "kali/scripts/lib/tool-discovery.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/lib/tool-discovery.sh",
+          "digest": "931f418e9aa315f2a171fe3e2efc9a1e72ee07d1b1ce422b52389841ccc9667e",
+          "mode": "100644",
+          "size": 11947
+        },
+        {
+          "path": "kali/scripts/refresh-tool-index.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/refresh-tool-index.sh",
+          "digest": "1b2921de16714d25b71c1a191cadc74dd0c8221e13140310dff03a24d6c94446",
+          "mode": "100644",
+          "size": 7825
+        },
+        {
+          "path": "skills/scripts/bootstrap-manifest.json",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-manifest.json",
+          "digest": "8fb4fc5a08e3e7e937f80867b3f4b54232c05ee500d1703206c0135a93d43ed8",
+          "mode": "100644",
+          "size": 12810
+        },
+        {
+          "path": "skills/scripts/bootstrap-reverse.ps1",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.ps1",
+          "digest": "2e7af1be0fb27d3e754297ca3f6eca6c7acd7256fb0b4ac24e006f3c44c926c1",
+          "mode": "100644",
+          "size": 41987
+        },
+        {
+          "path": "skills/scripts/bootstrap-reverse.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.sh",
+          "digest": "325fc1359a8b345fa8b79ad84ea3d33388ac3e69b77de2cb231eb3a2150ae690",
+          "mode": "100644",
+          "size": 34957
+        },
+        {
+          "path": "skills/scripts/lib/BootstrapSupplyChain.ps1",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/BootstrapSupplyChain.ps1",
+          "digest": "1d0098113602a4d21833081ca4e1f56fbdd1f7b8b13a49fb3e50eacb0a672f11",
+          "mode": "100644",
+          "size": 7222
+        },
+        {
+          "path": "skills/scripts/lib/HostRuntime.ps1",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/HostRuntime.ps1",
+          "digest": "498dbb8dbed13df9a2099267cc670b3f73eed30913996a754c08ee53191bb74a",
+          "mode": "100644",
+          "size": 1933
+        },
+        {
+          "path": "skills/scripts/lib/ToolDiscovery.ps1",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/ToolDiscovery.ps1",
+          "digest": "460fa0653eb5ba67338c6342f0b119087a6d9629169daa3ab10094a18f0b26b8",
+          "mode": "100644",
+          "size": 45708
+        },
+        {
+          "path": "skills/scripts/refresh-tool-index.ps1",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.ps1",
+          "digest": "120e1b716d933aa18db33c122b57309878533ad976c413ddd4e9ec1e1659b8da",
+          "mode": "100644",
+          "size": 7883
+        },
+        {
+          "path": "skills/scripts/refresh-tool-index.sh",
+          "output_path": "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.sh",
+          "digest": "2e7808833ad64388128fd6b0b96b28d1a6ee0b2b77827c9a3377e51c5a18ef05",
+          "mode": "100644",
+          "size": 17662
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-reverse-ctf-sandbox/.claude-plugin/plugin.json": "9feffe1058438d403fa16d5bcd1c989b4ac54bd67d58f59da60760c2fdfaf557",
+        "packages/claude-code/skill-reverse-ctf-sandbox/provenance.json": "9350be6147e7b0e6b898daa8553bdce1b498ff2d5ad9f6d2c53297596f1d11bc",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/SKILL.md": "acb228fae7ec89a9fb5656f5f6209e98309d0b06e204625fe52d46c5421ce96f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/agents/openai.yaml": "a4e4e06bb8c806628c091fb84359d8bf4a27d1d2dfdfc1c45d824951c8865495",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ad-certificate-abuse/references/ad-certificate-abuse.md": "687b8c2dc614f7361ee7eb8ce78e05d7a66758c05478dd1664580f4f53899551",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/SKILL.md": "9e56a603f14f2d6d9264bf77da408697deec9e152e5ccd6c391dc14440ff5032",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/agents/openai.yaml": "50f6fb10a25e596bdb0f30b8f63a0998676fa96aff0fa6bf5f75cb627e76ec23",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-agent-cloud/references/agent-cloud.md": "274d751dfcb7f23b7f96e3abb2da3e8894705e8bffe54caa60fda8b30b758e4f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/SKILL.md": "01ed954e9b6fcdc9a2e78de49fd8b7f52614a36c251851cfef97df20272af712",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/agents/openai.yaml": "0a1192e647429bc6d4321156517d572a18f6318b5ef908fb654ebfb7bb9368ed",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-android-hooking/references/android-hooking.md": "441087c0d70cc1ece641ec3b1ff71f1bba154ae876065149e1b37cb40d43e713",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/SKILL.md": "48282126789e97818c374d9479d831aa70d8825701e4bae16ded574631da1097",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/agents/openai.yaml": "209fd7516099ce85e3889e3d943529e1ac6ab79197319ad421399f922f72004d",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-browser-persistence/references/browser-persistence.md": "b96d918b0e256ebdb71b83e43de89a3fa04d5d99f3400975a7fb1542452b289c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/SKILL.md": "8f89baa5ea28f37f3920fe3e152f4b1d7d27d1442d97e57e0f6f7ffc836825ce",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/agents/openai.yaml": "0103052395bf3cf7cef8c60d142b1d3bf656741f3569dd34a16067c7df3a6ef7",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md": "04035d3da0766bd14fb63b641881e7fd886c379b3d6ddf1da0b22ad6c63ec513",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/SKILL.md": "5f15e808652caad49611a7b75a6efbd9bccdf430c187f5dbf57a85b7954d4053",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/agents/openai.yaml": "9adb7a1c062e1ab3d7529daa71047fe2e271142b17205b985fbbee91049f337d",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-cloud-metadata-path/references/cloud-metadata-path.md": "bd5f588230051b93c2803796d9b1d6dca2196660adfacc3839972bf628fe300a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/SKILL.md": "87412c06f8caa85ed2bf8d53a00d356f9bd1813144df9b2ec499652066775c7b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/agents/openai.yaml": "f09ac7be4c655f63c93a71a4e355b20f6f80585197d018eb3771c21a1ce267d1",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-container-runtime/references/container-runtime.md": "9ab4224c6faff3e0c346ff5c4baea7ddcb8be511a9b31413f5e7f2a6143d5a5d",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/SKILL.md": "7d78f7d1dc176aafe9ccdc0e127e5189bd963593f4434a2da2f4b61aaec4c311",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/agents/openai.yaml": "16a00a541f6b2807276214287dd1805ed533647bbee008a171ae5a1f26b41752",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-crypto-mobile/references/crypto-mobile.md": "c51bf4746d07e1cbb23280be89044baebdbd9a07a17bcef87b008b4e88d92e0b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/SKILL.md": "b4ffc7e7812293d8eb0f14ed04490a1fdb2f3eae8bfdb0a589a70b12a423f0f3",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/agents/openai.yaml": "d152127029dccec675a3b6da0d8285dc0c4d9a72345f7d3f25b2548f4392c515",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-custom-protocol-replay/references/custom-protocol-replay.md": "0c43b793655555ff87409ce196369744db33d7a250c4188ad315338e1c26761c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/SKILL.md": "029cf3988446e8d6dfde30516924ae910e4e8e0c667845d82b1ae2a2d507d7d2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/agents/openai.yaml": "eba7bf6a2c25b9f9d5d4bb2a5a3b61b49c6e5fbd367c3c1881691449eb97864a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-dpapi-credential-chain/references/dpapi-credential-chain.md": "13b35d81191a72a4c6c5f94e5d911dc40fe83f4cab7e77f0c21a4a54ea6e322e",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/SKILL.md": "ac09fa9241fde21453174b9a3bd6f917c024b8523663ed24cdb4a90692fa0a6c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/agents/openai.yaml": "b0239aebdac57003aa2b9e75891893996e3cc38eead5395f5fbf5f8a592a2195",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-file-parser-chain/references/file-parser-chain.md": "bad1ef728c08ef6abe0e44eae668de58a20e9c1c6cb970ab16212ec9d45d4baf",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/SKILL.md": "32e17b49d0f3bd17832124d3f60f5ec00b56bb423e732e28dac2ea61a6714d2e",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/agents/openai.yaml": "6524b9bb3dd9397822480d491f1648f5a8dd9502f1bd03a701b795f0b001a6d6",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-firmware-layout/references/firmware-layout.md": "0c6cf03d2f73161f4e6a0a7c6a2f83b9eaf335e3b4c47dad316f813390a04308",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/SKILL.md": "552d9c4759b724618f9333a2cf7c686759b39ac6a3b856bb3f417760ab8de617",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/agents/openai.yaml": "7eacb09ed7a132d259c7110c9e85699a91ec0932b3d8e169561fcfbcf82dd6c4",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-forensic-timeline/references/forensic-timeline.md": "6ec45b6ef81e147f2b4da90fbe27a894a70ea1b1c6a13201f5894082bc42728a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/SKILL.md": "a6e8e2d54d79f065d13940b888d379aa31ee2b2470d459f4c1ab4f57763a47d5",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/agents/openai.yaml": "2d442eb419c5ca445cc0203d341e53941cfc40c34d1024e96699cb4c450379d8",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-graphql-rpc-drift/references/graphql-rpc-drift.md": "c41eaf9034b47dcd028efc5b1a8e72b5f418f756e911fa7b253e9b08e05465ab",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/SKILL.md": "deec978f35c404f4b10b0cc4dcc274a48a7c2a75f73925043fc8454c32b2a6fd",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/agents/openai.yaml": "c3b07747d3cda874cd6f6c1b968cec5345c62c7908e3a2837c0e604d3d7e6dfa",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-identity-windows/references/identity-windows.md": "cfcb3e6237d860d2f8698daf47865bdab103ff2824109b0dad6c34bd298222f3",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/SKILL.md": "11a041d6729a0733fb9813ecbc0753c87c2bf65b07cac6e3b6917a568d020156",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/agents/openai.yaml": "357acac7e122c279144480f3099826dce1109f26973620bae1ca6db2bb1815a2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ios-runtime/references/ios-runtime.md": "9d5ba37db8bbc8e448630b374805799a47730ae70172dd04c31bccdd585865b7",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/SKILL.md": "f470a0467fdfe41accc0941d76976fb2d0f00ac21d29d49c049daf9d9274c7a5",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/agents/openai.yaml": "566dea9ca92499f95a75b2cbb265dad1e4828c275f0a16024fedbaa4fbb8d6e6",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-jwt-claim-confusion/references/jwt-claim-confusion.md": "c80472b8347e1ccc557be259a4f682c4489970ed332972634276bf98e7f5fa04",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/SKILL.md": "18fa637d99266cd4776bd254d31b51c078d3fa5b4251cbf5baa9f6b4fdd7a262",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/agents/openai.yaml": "20783e1b97cae5043720322387c08316154ebed745069ac74503e7a2dc3e131f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-k8s-control-plane/references/k8s-control-plane.md": "71c64dacaf86790ee76afbf270c7d80759414b8b96d2eb8424a01475117f5e64",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/SKILL.md": "245321129a7f642dd0aae880f66d5c4e30578bae14e60c90128f5741e01b306a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/agents/openai.yaml": "43300fd6466c0886d579cc29e6e1fcf5a03a1f27ac52aedf154cf7c91b2cb100",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kerberos-delegation/references/kerberos-delegation.md": "03f88165e94569a8da3220b0ed16081c7ddfa5746b7f3d9930c2d8795338af85",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/SKILL.md": "c6e840b0365ea1aa895a14bab60a6c62cd5a8e157152097fb981582b6a722c9f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/agents/openai.yaml": "2da8fd7a98da92e772cc19fd0bc419e640a4d1adc216207560f4f8e3c6f4e44f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-kernel-container-escape/references/kernel-container-escape.md": "ea5c9073be68ee362ca1915f47baf178e828f1653402c36f4b1b5d384de7b30a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/SKILL.md": "f00c32a3361cf34ce93a095cab5b416ddbcc7bf97d4a868c5bc57cd4db8eb125",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/agents/openai.yaml": "b03abb23d14dd7cb4b12112c755e2b8caa177c95e52e75d72d14084cb015da46",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-linux-credential-pivot/references/linux-credential-pivot.md": "cedfda5f0074368a797bed81bef74ea577b1d7b628effc17ff70a3e2719e1225",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/SKILL.md": "32ef1100a9c89d0914b0c31836d89250b9cc18dc39fccbb933cadf97aec334fb",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/agents/openai.yaml": "a4c65cb272e52c8cd85281dc9dee1d1ebc1f848d7ab916e138b78736cfbbb57e",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-lsass-ticket-material/references/lsass-ticket-material.md": "0b0e953f5931fbd23f12de510a941f40f8f344ba752076f8d7871cc72b24a506",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/SKILL.md": "e83476c6a9882ddd0258e9d6bd217d8770a901b264f2f7b20195ace6a5f3df7a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/agents/openai.yaml": "086a013faa3e39a0bfcf480b0628d4b76c419765f1defff6f7afd9119e07eb81",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-mailbox-abuse/references/mailbox-abuse.md": "30d018bd5bd3f7909aa1db1b47337efbfa7752360fa15de5e14bf428d02a2a4c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/SKILL.md": "e8ece81ac60bdf17b7fca392b39af7d17af34d74d00ef94af4b2d10504607853",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/agents/openai.yaml": "f207996104cb9eaaf5f929389066ee8988d17bcf5c2edbdd4a26e55af68ac94b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-malware-config/references/malware-config.md": "b73441fcb3655d94727d47f8792e88ce106d8ece3f60b7eab620e2abedc7b5a9",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/SKILL.md": "47d4f2a26bee83c212b84295d4719a273b6e9a06773fe0510269a19569617878",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/agents/openai.yaml": "f5cb1a34cc521789ee3120d80f09a42dab4f0abbf8cde8440814b7e20948d804",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-oauth-oidc-chain/references/oauth-oidc-chain.md": "8e88d765b550272fd34b48a664107c32351684a5efbdb7b8d180c0acf82454de",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/SKILL.md": "18285bb445a87a31548e482b74a6251b0136af68c68d65842cd4314fec5c893f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/agents/openai.yaml": "d49e1ed4809d99ccb2128aee4a4334682652f1610c742953e9c5d0b32d107085",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-pcap-protocol/references/pcap-protocol.md": "2d9508c75c3be8ca4e8c64102ef78a68ab8fb1d5f553fe9cd3af847f65778b70",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/SKILL.md": "7c0344fa94d35679dfe0dd3513f72b95994a7044fd39b0c407e89c836425c443",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/agents/openai.yaml": "b06769d6a3b87c7a9fb5f6b1899c5696237606512516a93b38bcdef67d1100a9",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-prompt-injection/references/prompt-injection.md": "eb69544636fafb10c519c7f157711b53ea083a1d39ca74a189884da3122ba6fc",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/SKILL.md": "e39356ec96f379846ffc8f816f437a86bc69c3172b03607a76c9fdf788c013d5",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/agents/openai.yaml": "976477cfcf50c3653b16f91a601d6f2dcc21a668e749afab6753de4df2d9438c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-queue-worker-drift/references/queue-worker-drift.md": "c462d0852e8c86a6227b6336750c6aabf934c450e43a629eec06c369be3b630c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/SKILL.md": "94338b6e63548f232041f59594e78e9d079a05710bda594fb1e07dd9b078167b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/agents/openai.yaml": "39359988f9c00e3ad3bf9bb5fc73726ec6030e324f8c4e926e1aa61e352e2487",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-race-condition-state-drift/references/race-condition-state-drift.md": "7ed7c1d0d0bfb27f3e412da279d397a5ebbcd6c0fc23136c5814560c874e7e95",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/SKILL.md": "0902a70e320e4f4864b679f2a17836085218cc12d3cf5ca0dfb1cf1fb72c7ae3",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/agents/openai.yaml": "726b75fc9e6f03c73489b0a43ff960f5f99a147eb8d875820d5020aeee4be9a8",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-relay-coercion-chain/references/relay-coercion-chain.md": "7d89cb8b12b3960c2f2b3b41a7f0182704d75ff63456e859c8a6f515075c81f2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/SKILL.md": "9b9dd18133e28ebc1ae7399fa20361a976f1d6e51bd808e3eda62e6f2a14dc63",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/agents/openai.yaml": "7780b9f59233e91b7e2ae80483de178dc51914b47a3820515ffeef1e3439d219",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-request-normalization-smuggling/references/request-normalization-smuggling.md": "8e4b3695b62b557eb1f291cbffa162963a93487dab1524f7ba9938af9aff3eaa",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/SKILL.md": "c8f622721f626346dec67fd1f25c41527f0a51f226c7ad71ed9d3ac1184fc5a8",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/agents/openai.yaml": "bbd61de5eb7b49b4717fc0a30580967725f2b739e5c913ac415a44ee714ac64f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-reverse-pwn/references/reverse-pwn.md": "685f29cbb658b59b00a1d88da34603e9bb08f2ae71ee8fd4e91adf681287a063",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/SKILL.md": "2d49d8e943f328fea03d4b72215b64422480f8b22d9d0376bfb424f307e196bc",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/agents/openai.yaml": "21619695f8f85ba918479de71c6b78d4b0950429a73620e18371df1ab530f606",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-runtime-routing/references/runtime-routing.md": "66998afcefb124d90ec87f41391ed91414b1a84500bac27a092dba8e758e260e",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/SKILL.md": "e54eea6f95f4e4fa7a4dd3e4e93889864cd067b48a48b4ed5f28ab9614894677",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/agents/openai.yaml": "2e7c364a9e0c68c9e30db95d8b227f553eb18df4b1893e4b17e360a57b90f883",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md": "8f0a79320f038ee6f9d36b232d3817adfff81abbf66a7c78a6674d4739581a3a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/SKILL.md": "34c6ec0ebc773d9404dfe06c7ad018c68f807babd004bc4ecb9cb3e0e21ba192",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/agents/openai.yaml": "6c7cde8d5ef2043d5d400e2882995fd35847656330598eab57645e4ae0255e9b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-stego-media/references/stego-media.md": "08d6885eba31ae679949bb19964ac59718eedb181c4aafc81b328b06425e3185",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/SKILL.md": "9db0fa1c57f973c8c9d86a5ce2f509be5edb578d11114ffd667bde9df8bea339",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/agents/openai.yaml": "b388b4b7833e3f32aeeb407a44dfa2543c3d123654ca86f1cea6bce5960fcf73",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-supply-chain/references/supply-chain.md": "cb541142f9ca72a197a79b68d762982c86ef0c0f8c7d0a1b53112d2ee3a23443",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/SKILL.md": "0bf311c5e7e599dcb7542459dd21447e122362226dda278cc458be308be6a14b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/agents/openai.yaml": "e360a9bcf82c273442a1cd2f5d765d9b6d37e9a4a74232e08cb2ccba90c984ed",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-template-render-path/references/template-render-path.md": "d95701386cbd8ef13bc56c52f19d68847d4f85e1d098f9e43b95d9d2e4566a0a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/SKILL.md": "a448411bf12ea91802457a3dd000e8ea98e9a78d28f116160b1929b3612cde87",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/agents/openai.yaml": "97eebb89b20b2ac34a7572760243f1ebd31e64c089ae661304a22e9d2369a531",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md": "a0f3cd5884734743af6a9147c901baa18cd210305f1973f64ab81ee178c8bc4f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-web-runtime/references/routing-runtime.md": "7cc714c7fb0ccf8d2f495943c98725d15f35d8f274a2556cab5fdb34bf42b375",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/SKILL.md": "8237cae908ea7f950215620bc82700124cc3a2ace0d8c3bc1a40f39963ffd193",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/agents/openai.yaml": "a83e4923843d907a0be06b14af0536e27b3e27bb7c1d622e3bda2b9239b952de",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-websocket-runtime/references/websocket-runtime.md": "b36c5aeee41f7ed980b8acd32af880a38e638208bb499d91908741644b4c3ded",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/SKILL.md": "70d5f5d5901813a3d16959748c4ffe4f6d8acc8e4c0d49d4d17fd8c3a1d3644d",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/agents/openai.yaml": "eec4a90f92ba12d7c21f273b6a4247ee7b9f6675cf7004ab3e7b5c9d14228a37",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-windows-pivot/references/windows-pivot.md": "a7988e8958234dc901186ef9511173974618edc371ccbe7ccd3b6cf55ad0a39c",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/SKILL.md": "fd29fcf4a4b9510b5cfc62e7a7265eb17f2ddd383853550099000052f5a398c2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/agents/openai.yaml": "3053745cf00cb989a193411c87c9b68e2579c458f17f848174c5868ae04fb85f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/competition-zip-archive/references/zip-archive.md": "1ac77784bc746ab6c9957b862f8f9b65829b578b8d7254726429100bc61593ec",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/SKILL.md": "a60c4d3e844e507988a29a14c41b3111b50a03dd5a2030e68001624d7c0c418d",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/agents/openai.yaml": "d73c58bfd20f872291e891202e285fec672f39502cbe3f54e13ce7c28fe99a06",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/agent-cloud.md": "ebb881be0a38b3e08199b636c4426bb2bea0b16712420a26d5f7915627a113c4",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/crypto-mobile.md": "aa50bf81d64f9080a71953394007981dc7839f5b07ccdae39d9544142602215b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/ctf-resources-digest.md": "a3a3eb3437c5898ec4aef23f1ecbcb14d8bc81f69a4b9936ee8241507462dfda",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/identity-windows.md": "049e9d8d4751c4321023258a45b661210cbe3e37cf3c68b134a18392d0e4c076",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/reporting.md": "753581067b0de2d4909417dec6361501866162b09a654ad3d5c1bccb3d433807",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/reverse-native.md": "bd825c6fa1b3c22d47d43a3dacf5bea4aec6845714ba80d5758a920e93a92088",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/router-matrix.md": "2f8ce9a7d6f7ae5bad201a7ca4818dd6cc88476382fbc5edc4d33716ffb2b958",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/references/web-api.md": "ec6a87f178660da60e09d7623adc9df3f7f734b91d925137ffd8bacf30329644",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-manifest.json": "6de4155573f55c748800e8dbcf94c319b3dd414b89d1426848239e1946b07727",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-reverse.sh": "02b5a96ffb2a1bbe6591ca4d1cbc249a466384cab872ce9df404632c34796486",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/ida-start.sh": "6d621c92277147ec058c9d31bde37aa423ca5df8110c874d69c27531d8d67f99",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/lib/tool-discovery.sh": "931f418e9aa315f2a171fe3e2efc9a1e72ee07d1b1ce422b52389841ccc9667e",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/kali/scripts/refresh-tool-index.sh": "1b2921de16714d25b71c1a191cadc74dd0c8221e13140310dff03a24d6c94446",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-manifest.json": "8fb4fc5a08e3e7e937f80867b3f4b54232c05ee500d1703206c0135a93d43ed8",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.ps1": "2e7af1be0fb27d3e754297ca3f6eca6c7acd7256fb0b4ac24e006f3c44c926c1",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.sh": "325fc1359a8b345fa8b79ad84ea3d33388ac3e69b77de2cb231eb3a2150ae690",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/BootstrapSupplyChain.ps1": "1d0098113602a4d21833081ca4e1f56fbdd1f7b8b13a49fb3e50eacb0a672f11",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/HostRuntime.ps1": "498dbb8dbed13df9a2099267cc670b3f73eed30913996a754c08ee53191bb74a",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/ToolDiscovery.ps1": "460fa0653eb5ba67338c6342f0b119087a6d9629169daa3ab10094a18f0b26b8",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.ps1": "120e1b716d933aa18db33c122b57309878533ad976c413ddd4e9ec1e1659b8da",
+        "packages/claude-code/skill-reverse-ctf-sandbox/skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.sh": "2e7808833ad64388128fd6b0b96b28d1a6ee0b2b77827c9a3377e51c5a18ef05",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/CTF-LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/CTF-README.md": "ee0276dc965dca47deb62e0fd2eac13232cfdb3376addb34907105f7f10eb7fd",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/apsdehal-ctf-CC0.txt": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/devploit-ctf-MIT.txt": "f5f7a06e6a595601071c1f3a7cceba1a565b7e054e00f388faffd776b739439f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/distribution.json": "8c5dba9471b48bf9e4e7488a55147f9652eed47f85e405cc623525133a3d9a1b",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/original-files/CTF-Sandbox-Orchestrator/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md": "5afe6d39d847d1badcb54903deefd8afdb46b02ae9ca876c12b71bb151cc6d0f",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/original-files/CTF-Sandbox-Orchestrator/competition-zip-archive/SKILL.md": "e2f86fcfded2727ce26118b4410ccaa203a4da0605d5d546ce325dd2dfdbb9e6",
+        "packages/claude-code/skill-reverse-ctf-sandbox/upstream-notices/root-MIT-LICENSE": "20876806ebaaae11d53fe07e221a4de4e67a017b6c91bb02d62df906213d2f60"
+      },
+      "delivery": {
+        "packages/claude-code/skill-reverse-ctf-sandbox/.codex-plugin/plugin.json": "10190645c216df870b4e35aea3d80356192ccac8663da87cf2d7a77b867c62c2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/.cursor-plugin/plugin.json": "10190645c216df870b4e35aea3d80356192ccac8663da87cf2d7a77b867c62c2",
+        "packages/claude-code/skill-reverse-ctf-sandbox/plugin.json": "76669516919ef7e7d40d7ffb76ea6c9f8d353830aada3ac70ef92fa2287712e0"
+      },
+      "reviewed_distribution": {
+        "version": 1,
+        "files": {
+          "CTF-Sandbox-Orchestrator/LICENSE": {
+            "digest": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+            "mode": "100644",
+            "output": "upstream-notices/CTF-LICENSE"
+          },
+          "CTF-Sandbox-Orchestrator/README.md": {
+            "digest": "ee0276dc965dca47deb62e0fd2eac13232cfdb3376addb34907105f7f10eb7fd",
+            "mode": "100644",
+            "output": "upstream-notices/CTF-README.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/SKILL.md": {
+            "digest": "acb228fae7ec89a9fb5656f5f6209e98309d0b06e204625fe52d46c5421ce96f",
+            "mode": "100644",
+            "output": "skills/competition-ad-certificate-abuse/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/agents/openai.yaml": {
+            "digest": "a4e4e06bb8c806628c091fb84359d8bf4a27d1d2dfdfc1c45d824951c8865495",
+            "mode": "100644",
+            "output": "skills/competition-ad-certificate-abuse/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/references/ad-certificate-abuse.md": {
+            "digest": "687b8c2dc614f7361ee7eb8ce78e05d7a66758c05478dd1664580f4f53899551",
+            "mode": "100644",
+            "output": "skills/competition-ad-certificate-abuse/references/ad-certificate-abuse.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-agent-cloud/SKILL.md": {
+            "digest": "9e56a603f14f2d6d9264bf77da408697deec9e152e5ccd6c391dc14440ff5032",
+            "mode": "100644",
+            "output": "skills/competition-agent-cloud/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-agent-cloud/agents/openai.yaml": {
+            "digest": "50f6fb10a25e596bdb0f30b8f63a0998676fa96aff0fa6bf5f75cb627e76ec23",
+            "mode": "100644",
+            "output": "skills/competition-agent-cloud/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-agent-cloud/references/agent-cloud.md": {
+            "digest": "274d751dfcb7f23b7f96e3abb2da3e8894705e8bffe54caa60fda8b30b758e4f",
+            "mode": "100644",
+            "output": "skills/competition-agent-cloud/references/agent-cloud.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-android-hooking/SKILL.md": {
+            "digest": "01ed954e9b6fcdc9a2e78de49fd8b7f52614a36c251851cfef97df20272af712",
+            "mode": "100644",
+            "output": "skills/competition-android-hooking/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-android-hooking/agents/openai.yaml": {
+            "digest": "0a1192e647429bc6d4321156517d572a18f6318b5ef908fb654ebfb7bb9368ed",
+            "mode": "100644",
+            "output": "skills/competition-android-hooking/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-android-hooking/references/android-hooking.md": {
+            "digest": "441087c0d70cc1ece641ec3b1ff71f1bba154ae876065149e1b37cb40d43e713",
+            "mode": "100644",
+            "output": "skills/competition-android-hooking/references/android-hooking.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-browser-persistence/SKILL.md": {
+            "digest": "48282126789e97818c374d9479d831aa70d8825701e4bae16ded574631da1097",
+            "mode": "100644",
+            "output": "skills/competition-browser-persistence/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-browser-persistence/agents/openai.yaml": {
+            "digest": "209fd7516099ce85e3889e3d943529e1ac6ab79197319ad421399f922f72004d",
+            "mode": "100644",
+            "output": "skills/competition-browser-persistence/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-browser-persistence/references/browser-persistence.md": {
+            "digest": "b96d918b0e256ebdb71b83e43de89a3fa04d5d99f3400975a7fb1542452b289c",
+            "mode": "100644",
+            "output": "skills/competition-browser-persistence/references/browser-persistence.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/SKILL.md": {
+            "digest": "8f89baa5ea28f37f3920fe3e152f4b1d7d27d1442d97e57e0f6f7ffc836825ce",
+            "mode": "100644",
+            "output": "skills/competition-bundle-sourcemap-recovery/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/agents/openai.yaml": {
+            "digest": "0103052395bf3cf7cef8c60d142b1d3bf656741f3569dd34a16067c7df3a6ef7",
+            "mode": "100644",
+            "output": "skills/competition-bundle-sourcemap-recovery/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md": {
+            "digest": "04035d3da0766bd14fb63b641881e7fd886c379b3d6ddf1da0b22ad6c63ec513",
+            "mode": "100644",
+            "output": "skills/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/SKILL.md": {
+            "digest": "5f15e808652caad49611a7b75a6efbd9bccdf430c187f5dbf57a85b7954d4053",
+            "mode": "100644",
+            "output": "skills/competition-cloud-metadata-path/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/agents/openai.yaml": {
+            "digest": "9adb7a1c062e1ab3d7529daa71047fe2e271142b17205b985fbbee91049f337d",
+            "mode": "100644",
+            "output": "skills/competition-cloud-metadata-path/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/references/cloud-metadata-path.md": {
+            "digest": "bd5f588230051b93c2803796d9b1d6dca2196660adfacc3839972bf628fe300a",
+            "mode": "100644",
+            "output": "skills/competition-cloud-metadata-path/references/cloud-metadata-path.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-container-runtime/SKILL.md": {
+            "digest": "87412c06f8caa85ed2bf8d53a00d356f9bd1813144df9b2ec499652066775c7b",
+            "mode": "100644",
+            "output": "skills/competition-container-runtime/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-container-runtime/agents/openai.yaml": {
+            "digest": "f09ac7be4c655f63c93a71a4e355b20f6f80585197d018eb3771c21a1ce267d1",
+            "mode": "100644",
+            "output": "skills/competition-container-runtime/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-container-runtime/references/container-runtime.md": {
+            "digest": "9ab4224c6faff3e0c346ff5c4baea7ddcb8be511a9b31413f5e7f2a6143d5a5d",
+            "mode": "100644",
+            "output": "skills/competition-container-runtime/references/container-runtime.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-crypto-mobile/SKILL.md": {
+            "digest": "7d78f7d1dc176aafe9ccdc0e127e5189bd963593f4434a2da2f4b61aaec4c311",
+            "mode": "100644",
+            "output": "skills/competition-crypto-mobile/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-crypto-mobile/agents/openai.yaml": {
+            "digest": "16a00a541f6b2807276214287dd1805ed533647bbee008a171ae5a1f26b41752",
+            "mode": "100644",
+            "output": "skills/competition-crypto-mobile/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-crypto-mobile/references/crypto-mobile.md": {
+            "digest": "c51bf4746d07e1cbb23280be89044baebdbd9a07a17bcef87b008b4e88d92e0b",
+            "mode": "100644",
+            "output": "skills/competition-crypto-mobile/references/crypto-mobile.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/SKILL.md": {
+            "digest": "b4ffc7e7812293d8eb0f14ed04490a1fdb2f3eae8bfdb0a589a70b12a423f0f3",
+            "mode": "100644",
+            "output": "skills/competition-custom-protocol-replay/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/agents/openai.yaml": {
+            "digest": "d152127029dccec675a3b6da0d8285dc0c4d9a72345f7d3f25b2548f4392c515",
+            "mode": "100644",
+            "output": "skills/competition-custom-protocol-replay/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/references/custom-protocol-replay.md": {
+            "digest": "0c43b793655555ff87409ce196369744db33d7a250c4188ad315338e1c26761c",
+            "mode": "100644",
+            "output": "skills/competition-custom-protocol-replay/references/custom-protocol-replay.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/SKILL.md": {
+            "digest": "029cf3988446e8d6dfde30516924ae910e4e8e0c667845d82b1ae2a2d507d7d2",
+            "mode": "100644",
+            "output": "skills/competition-dpapi-credential-chain/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/agents/openai.yaml": {
+            "digest": "eba7bf6a2c25b9f9d5d4bb2a5a3b61b49c6e5fbd367c3c1881691449eb97864a",
+            "mode": "100644",
+            "output": "skills/competition-dpapi-credential-chain/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/references/dpapi-credential-chain.md": {
+            "digest": "13b35d81191a72a4c6c5f94e5d911dc40fe83f4cab7e77f0c21a4a54ea6e322e",
+            "mode": "100644",
+            "output": "skills/competition-dpapi-credential-chain/references/dpapi-credential-chain.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-file-parser-chain/SKILL.md": {
+            "digest": "ac09fa9241fde21453174b9a3bd6f917c024b8523663ed24cdb4a90692fa0a6c",
+            "mode": "100644",
+            "output": "skills/competition-file-parser-chain/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-file-parser-chain/agents/openai.yaml": {
+            "digest": "b0239aebdac57003aa2b9e75891893996e3cc38eead5395f5fbf5f8a592a2195",
+            "mode": "100644",
+            "output": "skills/competition-file-parser-chain/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-file-parser-chain/references/file-parser-chain.md": {
+            "digest": "bad1ef728c08ef6abe0e44eae668de58a20e9c1c6cb970ab16212ec9d45d4baf",
+            "mode": "100644",
+            "output": "skills/competition-file-parser-chain/references/file-parser-chain.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-firmware-layout/SKILL.md": {
+            "digest": "32e17b49d0f3bd17832124d3f60f5ec00b56bb423e732e28dac2ea61a6714d2e",
+            "mode": "100644",
+            "output": "skills/competition-firmware-layout/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-firmware-layout/agents/openai.yaml": {
+            "digest": "6524b9bb3dd9397822480d491f1648f5a8dd9502f1bd03a701b795f0b001a6d6",
+            "mode": "100644",
+            "output": "skills/competition-firmware-layout/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-firmware-layout/references/firmware-layout.md": {
+            "digest": "0c6cf03d2f73161f4e6a0a7c6a2f83b9eaf335e3b4c47dad316f813390a04308",
+            "mode": "100644",
+            "output": "skills/competition-firmware-layout/references/firmware-layout.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-forensic-timeline/SKILL.md": {
+            "digest": "552d9c4759b724618f9333a2cf7c686759b39ac6a3b856bb3f417760ab8de617",
+            "mode": "100644",
+            "output": "skills/competition-forensic-timeline/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-forensic-timeline/agents/openai.yaml": {
+            "digest": "7eacb09ed7a132d259c7110c9e85699a91ec0932b3d8e169561fcfbcf82dd6c4",
+            "mode": "100644",
+            "output": "skills/competition-forensic-timeline/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-forensic-timeline/references/forensic-timeline.md": {
+            "digest": "6ec45b6ef81e147f2b4da90fbe27a894a70ea1b1c6a13201f5894082bc42728a",
+            "mode": "100644",
+            "output": "skills/competition-forensic-timeline/references/forensic-timeline.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md": {
+            "digest": "a6e8e2d54d79f065d13940b888d379aa31ee2b2470d459f4c1ab4f57763a47d5",
+            "mode": "100644",
+            "output": "skills/competition-graphql-rpc-drift/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/agents/openai.yaml": {
+            "digest": "2d442eb419c5ca445cc0203d341e53941cfc40c34d1024e96699cb4c450379d8",
+            "mode": "100644",
+            "output": "skills/competition-graphql-rpc-drift/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/references/graphql-rpc-drift.md": {
+            "digest": "c41eaf9034b47dcd028efc5b1a8e72b5f418f756e911fa7b253e9b08e05465ab",
+            "mode": "100644",
+            "output": "skills/competition-graphql-rpc-drift/references/graphql-rpc-drift.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-identity-windows/SKILL.md": {
+            "digest": "deec978f35c404f4b10b0cc4dcc274a48a7c2a75f73925043fc8454c32b2a6fd",
+            "mode": "100644",
+            "output": "skills/competition-identity-windows/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-identity-windows/agents/openai.yaml": {
+            "digest": "c3b07747d3cda874cd6f6c1b968cec5345c62c7908e3a2837c0e604d3d7e6dfa",
+            "mode": "100644",
+            "output": "skills/competition-identity-windows/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-identity-windows/references/identity-windows.md": {
+            "digest": "cfcb3e6237d860d2f8698daf47865bdab103ff2824109b0dad6c34bd298222f3",
+            "mode": "100644",
+            "output": "skills/competition-identity-windows/references/identity-windows.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md": {
+            "digest": "11a041d6729a0733fb9813ecbc0753c87c2bf65b07cac6e3b6917a568d020156",
+            "mode": "100644",
+            "output": "skills/competition-ios-runtime/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ios-runtime/agents/openai.yaml": {
+            "digest": "357acac7e122c279144480f3099826dce1109f26973620bae1ca6db2bb1815a2",
+            "mode": "100644",
+            "output": "skills/competition-ios-runtime/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ios-runtime/references/ios-runtime.md": {
+            "digest": "9d5ba37db8bbc8e448630b374805799a47730ae70172dd04c31bccdd585865b7",
+            "mode": "100644",
+            "output": "skills/competition-ios-runtime/references/ios-runtime.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/SKILL.md": {
+            "digest": "f470a0467fdfe41accc0941d76976fb2d0f00ac21d29d49c049daf9d9274c7a5",
+            "mode": "100644",
+            "output": "skills/competition-jwt-claim-confusion/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/agents/openai.yaml": {
+            "digest": "566dea9ca92499f95a75b2cbb265dad1e4828c275f0a16024fedbaa4fbb8d6e6",
+            "mode": "100644",
+            "output": "skills/competition-jwt-claim-confusion/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/references/jwt-claim-confusion.md": {
+            "digest": "c80472b8347e1ccc557be259a4f682c4489970ed332972634276bf98e7f5fa04",
+            "mode": "100644",
+            "output": "skills/competition-jwt-claim-confusion/references/jwt-claim-confusion.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/SKILL.md": {
+            "digest": "18fa637d99266cd4776bd254d31b51c078d3fa5b4251cbf5baa9f6b4fdd7a262",
+            "mode": "100644",
+            "output": "skills/competition-k8s-control-plane/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/agents/openai.yaml": {
+            "digest": "20783e1b97cae5043720322387c08316154ebed745069ac74503e7a2dc3e131f",
+            "mode": "100644",
+            "output": "skills/competition-k8s-control-plane/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/references/k8s-control-plane.md": {
+            "digest": "71c64dacaf86790ee76afbf270c7d80759414b8b96d2eb8424a01475117f5e64",
+            "mode": "100644",
+            "output": "skills/competition-k8s-control-plane/references/k8s-control-plane.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/SKILL.md": {
+            "digest": "245321129a7f642dd0aae880f66d5c4e30578bae14e60c90128f5741e01b306a",
+            "mode": "100644",
+            "output": "skills/competition-kerberos-delegation/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/agents/openai.yaml": {
+            "digest": "43300fd6466c0886d579cc29e6e1fcf5a03a1f27ac52aedf154cf7c91b2cb100",
+            "mode": "100644",
+            "output": "skills/competition-kerberos-delegation/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/references/kerberos-delegation.md": {
+            "digest": "03f88165e94569a8da3220b0ed16081c7ddfa5746b7f3d9930c2d8795338af85",
+            "mode": "100644",
+            "output": "skills/competition-kerberos-delegation/references/kerberos-delegation.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/SKILL.md": {
+            "digest": "c6e840b0365ea1aa895a14bab60a6c62cd5a8e157152097fb981582b6a722c9f",
+            "mode": "100644",
+            "output": "skills/competition-kernel-container-escape/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/agents/openai.yaml": {
+            "digest": "2da8fd7a98da92e772cc19fd0bc419e640a4d1adc216207560f4f8e3c6f4e44f",
+            "mode": "100644",
+            "output": "skills/competition-kernel-container-escape/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/references/kernel-container-escape.md": {
+            "digest": "ea5c9073be68ee362ca1915f47baf178e828f1653402c36f4b1b5d384de7b30a",
+            "mode": "100644",
+            "output": "skills/competition-kernel-container-escape/references/kernel-container-escape.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md": {
+            "digest": "f00c32a3361cf34ce93a095cab5b416ddbcc7bf97d4a868c5bc57cd4db8eb125",
+            "mode": "100644",
+            "output": "skills/competition-linux-credential-pivot/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/agents/openai.yaml": {
+            "digest": "b03abb23d14dd7cb4b12112c755e2b8caa177c95e52e75d72d14084cb015da46",
+            "mode": "100644",
+            "output": "skills/competition-linux-credential-pivot/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/references/linux-credential-pivot.md": {
+            "digest": "cedfda5f0074368a797bed81bef74ea577b1d7b628effc17ff70a3e2719e1225",
+            "mode": "100644",
+            "output": "skills/competition-linux-credential-pivot/references/linux-credential-pivot.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/SKILL.md": {
+            "digest": "32ef1100a9c89d0914b0c31836d89250b9cc18dc39fccbb933cadf97aec334fb",
+            "mode": "100644",
+            "output": "skills/competition-lsass-ticket-material/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/agents/openai.yaml": {
+            "digest": "a4c65cb272e52c8cd85281dc9dee1d1ebc1f848d7ab916e138b78736cfbbb57e",
+            "mode": "100644",
+            "output": "skills/competition-lsass-ticket-material/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/references/lsass-ticket-material.md": {
+            "digest": "0b0e953f5931fbd23f12de510a941f40f8f344ba752076f8d7871cc72b24a506",
+            "mode": "100644",
+            "output": "skills/competition-lsass-ticket-material/references/lsass-ticket-material.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md": {
+            "digest": "e83476c6a9882ddd0258e9d6bd217d8770a901b264f2f7b20195ace6a5f3df7a",
+            "mode": "100644",
+            "output": "skills/competition-mailbox-abuse/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/agents/openai.yaml": {
+            "digest": "086a013faa3e39a0bfcf480b0628d4b76c419765f1defff6f7afd9119e07eb81",
+            "mode": "100644",
+            "output": "skills/competition-mailbox-abuse/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/references/mailbox-abuse.md": {
+            "digest": "30d018bd5bd3f7909aa1db1b47337efbfa7752360fa15de5e14bf428d02a2a4c",
+            "mode": "100644",
+            "output": "skills/competition-mailbox-abuse/references/mailbox-abuse.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-malware-config/SKILL.md": {
+            "digest": "e8ece81ac60bdf17b7fca392b39af7d17af34d74d00ef94af4b2d10504607853",
+            "mode": "100644",
+            "output": "skills/competition-malware-config/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-malware-config/agents/openai.yaml": {
+            "digest": "f207996104cb9eaaf5f929389066ee8988d17bcf5c2edbdd4a26e55af68ac94b",
+            "mode": "100644",
+            "output": "skills/competition-malware-config/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-malware-config/references/malware-config.md": {
+            "digest": "b73441fcb3655d94727d47f8792e88ce106d8ece3f60b7eab620e2abedc7b5a9",
+            "mode": "100644",
+            "output": "skills/competition-malware-config/references/malware-config.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/SKILL.md": {
+            "digest": "47d4f2a26bee83c212b84295d4719a273b6e9a06773fe0510269a19569617878",
+            "mode": "100644",
+            "output": "skills/competition-oauth-oidc-chain/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/agents/openai.yaml": {
+            "digest": "f5cb1a34cc521789ee3120d80f09a42dab4f0abbf8cde8440814b7e20948d804",
+            "mode": "100644",
+            "output": "skills/competition-oauth-oidc-chain/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/references/oauth-oidc-chain.md": {
+            "digest": "8e88d765b550272fd34b48a664107c32351684a5efbdb7b8d180c0acf82454de",
+            "mode": "100644",
+            "output": "skills/competition-oauth-oidc-chain/references/oauth-oidc-chain.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md": {
+            "digest": "18285bb445a87a31548e482b74a6251b0136af68c68d65842cd4314fec5c893f",
+            "mode": "100644",
+            "output": "skills/competition-pcap-protocol/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-pcap-protocol/agents/openai.yaml": {
+            "digest": "d49e1ed4809d99ccb2128aee4a4334682652f1610c742953e9c5d0b32d107085",
+            "mode": "100644",
+            "output": "skills/competition-pcap-protocol/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-pcap-protocol/references/pcap-protocol.md": {
+            "digest": "2d9508c75c3be8ca4e8c64102ef78a68ab8fb1d5f553fe9cd3af847f65778b70",
+            "mode": "100644",
+            "output": "skills/competition-pcap-protocol/references/pcap-protocol.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-prompt-injection/SKILL.md": {
+            "digest": "7c0344fa94d35679dfe0dd3513f72b95994a7044fd39b0c407e89c836425c443",
+            "mode": "100644",
+            "output": "skills/competition-prompt-injection/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-prompt-injection/agents/openai.yaml": {
+            "digest": "b06769d6a3b87c7a9fb5f6b1899c5696237606512516a93b38bcdef67d1100a9",
+            "mode": "100644",
+            "output": "skills/competition-prompt-injection/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-prompt-injection/references/prompt-injection.md": {
+            "digest": "eb69544636fafb10c519c7f157711b53ea083a1d39ca74a189884da3122ba6fc",
+            "mode": "100644",
+            "output": "skills/competition-prompt-injection/references/prompt-injection.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/SKILL.md": {
+            "digest": "e39356ec96f379846ffc8f816f437a86bc69c3172b03607a76c9fdf788c013d5",
+            "mode": "100644",
+            "output": "skills/competition-queue-worker-drift/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/agents/openai.yaml": {
+            "digest": "976477cfcf50c3653b16f91a601d6f2dcc21a668e749afab6753de4df2d9438c",
+            "mode": "100644",
+            "output": "skills/competition-queue-worker-drift/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/references/queue-worker-drift.md": {
+            "digest": "c462d0852e8c86a6227b6336750c6aabf934c450e43a629eec06c369be3b630c",
+            "mode": "100644",
+            "output": "skills/competition-queue-worker-drift/references/queue-worker-drift.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/SKILL.md": {
+            "digest": "94338b6e63548f232041f59594e78e9d079a05710bda594fb1e07dd9b078167b",
+            "mode": "100644",
+            "output": "skills/competition-race-condition-state-drift/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/agents/openai.yaml": {
+            "digest": "39359988f9c00e3ad3bf9bb5fc73726ec6030e324f8c4e926e1aa61e352e2487",
+            "mode": "100644",
+            "output": "skills/competition-race-condition-state-drift/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/references/race-condition-state-drift.md": {
+            "digest": "7ed7c1d0d0bfb27f3e412da279d397a5ebbcd6c0fc23136c5814560c874e7e95",
+            "mode": "100644",
+            "output": "skills/competition-race-condition-state-drift/references/race-condition-state-drift.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/SKILL.md": {
+            "digest": "0902a70e320e4f4864b679f2a17836085218cc12d3cf5ca0dfb1cf1fb72c7ae3",
+            "mode": "100644",
+            "output": "skills/competition-relay-coercion-chain/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/agents/openai.yaml": {
+            "digest": "726b75fc9e6f03c73489b0a43ff960f5f99a147eb8d875820d5020aeee4be9a8",
+            "mode": "100644",
+            "output": "skills/competition-relay-coercion-chain/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/references/relay-coercion-chain.md": {
+            "digest": "7d89cb8b12b3960c2f2b3b41a7f0182704d75ff63456e859c8a6f515075c81f2",
+            "mode": "100644",
+            "output": "skills/competition-relay-coercion-chain/references/relay-coercion-chain.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/SKILL.md": {
+            "digest": "9b9dd18133e28ebc1ae7399fa20361a976f1d6e51bd808e3eda62e6f2a14dc63",
+            "mode": "100644",
+            "output": "skills/competition-request-normalization-smuggling/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/agents/openai.yaml": {
+            "digest": "7780b9f59233e91b7e2ae80483de178dc51914b47a3820515ffeef1e3439d219",
+            "mode": "100644",
+            "output": "skills/competition-request-normalization-smuggling/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/references/request-normalization-smuggling.md": {
+            "digest": "8e4b3695b62b557eb1f291cbffa162963a93487dab1524f7ba9938af9aff3eaa",
+            "mode": "100644",
+            "output": "skills/competition-request-normalization-smuggling/references/request-normalization-smuggling.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md": {
+            "digest": "c8f622721f626346dec67fd1f25c41527f0a51f226c7ad71ed9d3ac1184fc5a8",
+            "mode": "100644",
+            "output": "skills/competition-reverse-pwn/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-reverse-pwn/agents/openai.yaml": {
+            "digest": "bbd61de5eb7b49b4717fc0a30580967725f2b739e5c913ac415a44ee714ac64f",
+            "mode": "100644",
+            "output": "skills/competition-reverse-pwn/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-reverse-pwn/references/reverse-pwn.md": {
+            "digest": "685f29cbb658b59b00a1d88da34603e9bb08f2ae71ee8fd4e91adf681287a063",
+            "mode": "100644",
+            "output": "skills/competition-reverse-pwn/references/reverse-pwn.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md": {
+            "digest": "2d49d8e943f328fea03d4b72215b64422480f8b22d9d0376bfb424f307e196bc",
+            "mode": "100644",
+            "output": "skills/competition-runtime-routing/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-runtime-routing/agents/openai.yaml": {
+            "digest": "21619695f8f85ba918479de71c6b78d4b0950429a73620e18371df1ab530f606",
+            "mode": "100644",
+            "output": "skills/competition-runtime-routing/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-runtime-routing/references/runtime-routing.md": {
+            "digest": "66998afcefb124d90ec87f41391ed91414b1a84500bac27a092dba8e758e260e",
+            "mode": "100644",
+            "output": "skills/competition-runtime-routing/references/runtime-routing.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/SKILL.md": {
+            "digest": "e54eea6f95f4e4fa7a4dd3e4e93889864cd067b48a48b4ed5f28ab9614894677",
+            "mode": "100644",
+            "output": "skills/competition-ssrf-metadata-pivot/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/agents/openai.yaml": {
+            "digest": "2e7c364a9e0c68c9e30db95d8b227f553eb18df4b1893e4b17e360a57b90f883",
+            "mode": "100644",
+            "output": "skills/competition-ssrf-metadata-pivot/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md": {
+            "digest": "8f0a79320f038ee6f9d36b232d3817adfff81abbf66a7c78a6674d4739581a3a",
+            "mode": "100644",
+            "output": "skills/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-stego-media/SKILL.md": {
+            "digest": "34c6ec0ebc773d9404dfe06c7ad018c68f807babd004bc4ecb9cb3e0e21ba192",
+            "mode": "100644",
+            "output": "skills/competition-stego-media/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-stego-media/agents/openai.yaml": {
+            "digest": "6c7cde8d5ef2043d5d400e2882995fd35847656330598eab57645e4ae0255e9b",
+            "mode": "100644",
+            "output": "skills/competition-stego-media/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-stego-media/references/stego-media.md": {
+            "digest": "08d6885eba31ae679949bb19964ac59718eedb181c4aafc81b328b06425e3185",
+            "mode": "100644",
+            "output": "skills/competition-stego-media/references/stego-media.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-supply-chain/SKILL.md": {
+            "digest": "9db0fa1c57f973c8c9d86a5ce2f509be5edb578d11114ffd667bde9df8bea339",
+            "mode": "100644",
+            "output": "skills/competition-supply-chain/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-supply-chain/agents/openai.yaml": {
+            "digest": "b388b4b7833e3f32aeeb407a44dfa2543c3d123654ca86f1cea6bce5960fcf73",
+            "mode": "100644",
+            "output": "skills/competition-supply-chain/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-supply-chain/references/supply-chain.md": {
+            "digest": "cb541142f9ca72a197a79b68d762982c86ef0c0f8c7d0a1b53112d2ee3a23443",
+            "mode": "100644",
+            "output": "skills/competition-supply-chain/references/supply-chain.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-template-render-path/SKILL.md": {
+            "digest": "0bf311c5e7e599dcb7542459dd21447e122362226dda278cc458be308be6a14b",
+            "mode": "100644",
+            "output": "skills/competition-template-render-path/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-template-render-path/agents/openai.yaml": {
+            "digest": "e360a9bcf82c273442a1cd2f5d765d9b6d37e9a4a74232e08cb2ccba90c984ed",
+            "mode": "100644",
+            "output": "skills/competition-template-render-path/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-template-render-path/references/template-render-path.md": {
+            "digest": "d95701386cbd8ef13bc56c52f19d68847d4f85e1d098f9e43b95d9d2e4566a0a",
+            "mode": "100644",
+            "output": "skills/competition-template-render-path/references/template-render-path.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-web-runtime/SKILL.md": {
+            "digest": "a448411bf12ea91802457a3dd000e8ea98e9a78d28f116160b1929b3612cde87",
+            "mode": "100644",
+            "output": "skills/competition-web-runtime/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-web-runtime/agents/openai.yaml": {
+            "digest": "97eebb89b20b2ac34a7572760243f1ebd31e64c089ae661304a22e9d2369a531",
+            "mode": "100644",
+            "output": "skills/competition-web-runtime/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md": {
+            "digest": "5afe6d39d847d1badcb54903deefd8afdb46b02ae9ca876c12b71bb151cc6d0f",
+            "mode": "100644",
+            "output": "skills/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md",
+            "change_notice": "Forge distribution notice: 2026-10-20. Original repository-qualified CTF-Sandbox-Orchestrator/competition-* citations refer to the native sibling skill directories in this distribution. From this reference directory, resolve the Web and JWT entries as ../../competition-web-runtime/SKILL.md and ../../competition-jwt-claim-confusion/SKILL.md. The optional reverse-engineering/languages-platforms.md citation belongs to the separate unbundled reverse router; consult the immutable source at https://github.com/zhaoxuya520/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/skills/reverse-engineering/languages-platforms.md if needed. It is not a bundled CTF workflow dependency. Original text is retained separately; no target or instruction activation is implied."
+          },
+          "CTF-Sandbox-Orchestrator/competition-web-runtime/references/routing-runtime.md": {
+            "digest": "7cc714c7fb0ccf8d2f495943c98725d15f35d8f274a2556cab5fdb34bf42b375",
+            "mode": "100644",
+            "output": "skills/competition-web-runtime/references/routing-runtime.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md": {
+            "digest": "8237cae908ea7f950215620bc82700124cc3a2ace0d8c3bc1a40f39963ffd193",
+            "mode": "100644",
+            "output": "skills/competition-websocket-runtime/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-websocket-runtime/agents/openai.yaml": {
+            "digest": "a83e4923843d907a0be06b14af0536e27b3e27bb7c1d622e3bda2b9239b952de",
+            "mode": "100644",
+            "output": "skills/competition-websocket-runtime/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-websocket-runtime/references/websocket-runtime.md": {
+            "digest": "b36c5aeee41f7ed980b8acd32af880a38e638208bb499d91908741644b4c3ded",
+            "mode": "100644",
+            "output": "skills/competition-websocket-runtime/references/websocket-runtime.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-windows-pivot/SKILL.md": {
+            "digest": "70d5f5d5901813a3d16959748c4ffe4f6d8acc8e4c0d49d4d17fd8c3a1d3644d",
+            "mode": "100644",
+            "output": "skills/competition-windows-pivot/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-windows-pivot/agents/openai.yaml": {
+            "digest": "eec4a90f92ba12d7c21f273b6a4247ee7b9f6675cf7004ab3e7b5c9d14228a37",
+            "mode": "100644",
+            "output": "skills/competition-windows-pivot/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-windows-pivot/references/windows-pivot.md": {
+            "digest": "a7988e8958234dc901186ef9511173974618edc371ccbe7ccd3b6cf55ad0a39c",
+            "mode": "100644",
+            "output": "skills/competition-windows-pivot/references/windows-pivot.md"
+          },
+          "CTF-Sandbox-Orchestrator/competition-zip-archive/SKILL.md": {
+            "digest": "e2f86fcfded2727ce26118b4410ccaa203a4da0605d5d546ce325dd2dfdbb9e6",
+            "mode": "100644",
+            "output": "skills/competition-zip-archive/SKILL.md",
+            "change_notice": "Forge distribution notice: 2026-10-20. The original Tool Setup commands are relative to the bundled repository directory at ../ctf-sandbox-orchestrator/repository/. Resolve skills/scripts and kali/scripts there, not against the consumer project. These original setup scripts can install tools or change configuration; disclose their exact effects and obtain separate approval before running them. The tool index is generated locally, not a bundled claim of installed tools. Manual bkcrack installation remains an alternative; preserve the actual executable path and version. All original CTF source and setup scripts retain their original licenses; no setup was executed by Forge."
+          },
+          "CTF-Sandbox-Orchestrator/competition-zip-archive/agents/openai.yaml": {
+            "digest": "3053745cf00cb989a193411c87c9b68e2579c458f17f848174c5868ae04fb85f",
+            "mode": "100644",
+            "output": "skills/competition-zip-archive/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/competition-zip-archive/references/zip-archive.md": {
+            "digest": "1ac77784bc746ab6c9957b862f8f9b65829b578b8d7254726429100bc61593ec",
+            "mode": "100644",
+            "output": "skills/competition-zip-archive/references/zip-archive.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md": {
+            "digest": "a60c4d3e844e507988a29a14c41b3111b50a03dd5a2030e68001624d7c0c418d",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/SKILL.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/agents/openai.yaml": {
+            "digest": "d73c58bfd20f872291e891202e285fec672f39502cbe3f54e13ce7c28fe99a06",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/agents/openai.yaml"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/agent-cloud.md": {
+            "digest": "ebb881be0a38b3e08199b636c4426bb2bea0b16712420a26d5f7915627a113c4",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/agent-cloud.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/crypto-mobile.md": {
+            "digest": "aa50bf81d64f9080a71953394007981dc7839f5b07ccdae39d9544142602215b",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/crypto-mobile.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/ctf-resources-digest.md": {
+            "digest": "a3a3eb3437c5898ec4aef23f1ecbcb14d8bc81f69a4b9936ee8241507462dfda",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/ctf-resources-digest.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/identity-windows.md": {
+            "digest": "049e9d8d4751c4321023258a45b661210cbe3e37cf3c68b134a18392d0e4c076",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/identity-windows.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reporting.md": {
+            "digest": "753581067b0de2d4909417dec6361501866162b09a654ad3d5c1bccb3d433807",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/reporting.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reverse-native.md": {
+            "digest": "bd825c6fa1b3c22d47d43a3dacf5bea4aec6845714ba80d5758a920e93a92088",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/reverse-native.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/router-matrix.md": {
+            "digest": "2f8ce9a7d6f7ae5bad201a7ca4818dd6cc88476382fbc5edc4d33716ffb2b958",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/router-matrix.md"
+          },
+          "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/web-api.md": {
+            "digest": "ec6a87f178660da60e09d7623adc9df3f7f734b91d925137ffd8bacf30329644",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/references/web-api.md"
+          },
+          "LICENSE": {
+            "digest": "20876806ebaaae11d53fe07e221a4de4e67a017b6c91bb02d62df906213d2f60",
+            "mode": "100644",
+            "output": "upstream-notices/root-MIT-LICENSE"
+          },
+          "kali/scripts/bootstrap-manifest.json": {
+            "digest": "6de4155573f55c748800e8dbcf94c319b3dd414b89d1426848239e1946b07727",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-manifest.json"
+          },
+          "kali/scripts/bootstrap-reverse.sh": {
+            "digest": "02b5a96ffb2a1bbe6591ca4d1cbc249a466384cab872ce9df404632c34796486",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/kali/scripts/bootstrap-reverse.sh"
+          },
+          "kali/scripts/ida-start.sh": {
+            "digest": "6d621c92277147ec058c9d31bde37aa423ca5df8110c874d69c27531d8d67f99",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/kali/scripts/ida-start.sh"
+          },
+          "kali/scripts/lib/tool-discovery.sh": {
+            "digest": "931f418e9aa315f2a171fe3e2efc9a1e72ee07d1b1ce422b52389841ccc9667e",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/kali/scripts/lib/tool-discovery.sh"
+          },
+          "kali/scripts/refresh-tool-index.sh": {
+            "digest": "1b2921de16714d25b71c1a191cadc74dd0c8221e13140310dff03a24d6c94446",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/kali/scripts/refresh-tool-index.sh"
+          },
+          "skills/scripts/bootstrap-manifest.json": {
+            "digest": "8fb4fc5a08e3e7e937f80867b3f4b54232c05ee500d1703206c0135a93d43ed8",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-manifest.json"
+          },
+          "skills/scripts/bootstrap-reverse.ps1": {
+            "digest": "2e7af1be0fb27d3e754297ca3f6eca6c7acd7256fb0b4ac24e006f3c44c926c1",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.ps1"
+          },
+          "skills/scripts/bootstrap-reverse.sh": {
+            "digest": "325fc1359a8b345fa8b79ad84ea3d33388ac3e69b77de2cb231eb3a2150ae690",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/bootstrap-reverse.sh"
+          },
+          "skills/scripts/lib/BootstrapSupplyChain.ps1": {
+            "digest": "1d0098113602a4d21833081ca4e1f56fbdd1f7b8b13a49fb3e50eacb0a672f11",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/BootstrapSupplyChain.ps1"
+          },
+          "skills/scripts/lib/HostRuntime.ps1": {
+            "digest": "498dbb8dbed13df9a2099267cc670b3f73eed30913996a754c08ee53191bb74a",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/HostRuntime.ps1"
+          },
+          "skills/scripts/lib/ToolDiscovery.ps1": {
+            "digest": "460fa0653eb5ba67338c6342f0b119087a6d9629169daa3ab10094a18f0b26b8",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/lib/ToolDiscovery.ps1"
+          },
+          "skills/scripts/refresh-tool-index.ps1": {
+            "digest": "120e1b716d933aa18db33c122b57309878533ad976c413ddd4e9ec1e1659b8da",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.ps1"
+          },
+          "skills/scripts/refresh-tool-index.sh": {
+            "digest": "2e7808833ad64388128fd6b0b96b28d1a6ee0b2b77827c9a3377e51c5a18ef05",
+            "mode": "100644",
+            "output": "skills/ctf-sandbox-orchestrator/repository/skills/scripts/refresh-tool-index.sh"
+          }
+        },
+        "supplements": {
+          "registry/licenses/apsdehal-ctf-CC0.txt": {
+            "digest": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+            "output": "upstream-notices/apsdehal-ctf-CC0.txt",
+            "source": "https://github.com/apsdehal/awesome-ctf/blob/eb504b242be3918cbd46e1a5a6274671f477071f/LICENSE",
+            "license": "CC0-1.0"
+          },
+          "registry/licenses/devploit-ctf-MIT.txt": {
+            "digest": "f5f7a06e6a595601071c1f3a7cceba1a565b7e054e00f388faffd776b739439f",
+            "output": "upstream-notices/devploit-ctf-MIT.txt",
+            "source": "https://github.com/devploit/awesome-ctf-resources/blob/1fbbc8107a8c9dcdc55e17c5122a9ae6e797eb96/LICENSE",
+            "license": "MIT"
+          }
+        },
+        "obligations": [
+          {
+            "license": "GPL-3.0-only",
+            "files": [
+              "CTF-Sandbox-Orchestrator/LICENSE",
+              "CTF-Sandbox-Orchestrator/README.md",
+              "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-ad-certificate-abuse/references/ad-certificate-abuse.md",
+              "CTF-Sandbox-Orchestrator/competition-agent-cloud/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-agent-cloud/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-agent-cloud/references/agent-cloud.md",
+              "CTF-Sandbox-Orchestrator/competition-android-hooking/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-android-hooking/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-android-hooking/references/android-hooking.md",
+              "CTF-Sandbox-Orchestrator/competition-browser-persistence/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-browser-persistence/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-browser-persistence/references/browser-persistence.md",
+              "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-bundle-sourcemap-recovery/references/bundle-sourcemap-recovery.md",
+              "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-cloud-metadata-path/references/cloud-metadata-path.md",
+              "CTF-Sandbox-Orchestrator/competition-container-runtime/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-container-runtime/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-container-runtime/references/container-runtime.md",
+              "CTF-Sandbox-Orchestrator/competition-crypto-mobile/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-crypto-mobile/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-crypto-mobile/references/crypto-mobile.md",
+              "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-custom-protocol-replay/references/custom-protocol-replay.md",
+              "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-dpapi-credential-chain/references/dpapi-credential-chain.md",
+              "CTF-Sandbox-Orchestrator/competition-file-parser-chain/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-file-parser-chain/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-file-parser-chain/references/file-parser-chain.md",
+              "CTF-Sandbox-Orchestrator/competition-firmware-layout/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-firmware-layout/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-firmware-layout/references/firmware-layout.md",
+              "CTF-Sandbox-Orchestrator/competition-forensic-timeline/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-forensic-timeline/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-forensic-timeline/references/forensic-timeline.md",
+              "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-graphql-rpc-drift/references/graphql-rpc-drift.md",
+              "CTF-Sandbox-Orchestrator/competition-identity-windows/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-identity-windows/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-identity-windows/references/identity-windows.md",
+              "CTF-Sandbox-Orchestrator/competition-ios-runtime/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-ios-runtime/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-ios-runtime/references/ios-runtime.md",
+              "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-jwt-claim-confusion/references/jwt-claim-confusion.md",
+              "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-k8s-control-plane/references/k8s-control-plane.md",
+              "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-kerberos-delegation/references/kerberos-delegation.md",
+              "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-kernel-container-escape/references/kernel-container-escape.md",
+              "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-linux-credential-pivot/references/linux-credential-pivot.md",
+              "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-lsass-ticket-material/references/lsass-ticket-material.md",
+              "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-mailbox-abuse/references/mailbox-abuse.md",
+              "CTF-Sandbox-Orchestrator/competition-malware-config/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-malware-config/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-malware-config/references/malware-config.md",
+              "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-oauth-oidc-chain/references/oauth-oidc-chain.md",
+              "CTF-Sandbox-Orchestrator/competition-pcap-protocol/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-pcap-protocol/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-pcap-protocol/references/pcap-protocol.md",
+              "CTF-Sandbox-Orchestrator/competition-prompt-injection/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-prompt-injection/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-prompt-injection/references/prompt-injection.md",
+              "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-queue-worker-drift/references/queue-worker-drift.md",
+              "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-race-condition-state-drift/references/race-condition-state-drift.md",
+              "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-relay-coercion-chain/references/relay-coercion-chain.md",
+              "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-request-normalization-smuggling/references/request-normalization-smuggling.md",
+              "CTF-Sandbox-Orchestrator/competition-reverse-pwn/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-reverse-pwn/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-reverse-pwn/references/reverse-pwn.md",
+              "CTF-Sandbox-Orchestrator/competition-runtime-routing/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-runtime-routing/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-runtime-routing/references/runtime-routing.md",
+              "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-ssrf-metadata-pivot/references/ssrf-metadata-pivot.md",
+              "CTF-Sandbox-Orchestrator/competition-stego-media/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-stego-media/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-stego-media/references/stego-media.md",
+              "CTF-Sandbox-Orchestrator/competition-supply-chain/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-supply-chain/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-supply-chain/references/supply-chain.md",
+              "CTF-Sandbox-Orchestrator/competition-template-render-path/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-template-render-path/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-template-render-path/references/template-render-path.md",
+              "CTF-Sandbox-Orchestrator/competition-web-runtime/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-web-runtime/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-web-runtime/references/cookie-hmac-key-reuse-auth-bypass.md",
+              "CTF-Sandbox-Orchestrator/competition-web-runtime/references/routing-runtime.md",
+              "CTF-Sandbox-Orchestrator/competition-websocket-runtime/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-websocket-runtime/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-websocket-runtime/references/websocket-runtime.md",
+              "CTF-Sandbox-Orchestrator/competition-windows-pivot/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-windows-pivot/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-windows-pivot/references/windows-pivot.md",
+              "CTF-Sandbox-Orchestrator/competition-zip-archive/SKILL.md",
+              "CTF-Sandbox-Orchestrator/competition-zip-archive/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/competition-zip-archive/references/zip-archive.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/SKILL.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/agents/openai.yaml",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/agent-cloud.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/crypto-mobile.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/ctf-resources-digest.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/identity-windows.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reporting.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/reverse-native.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/router-matrix.md",
+              "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator/references/web-api.md"
+            ],
+            "notices": [
+              "CTF-Sandbox-Orchestrator/LICENSE",
+              "registry/licenses/devploit-ctf-MIT.txt",
+              "registry/licenses/apsdehal-ctf-CC0.txt"
+            ],
+            "attribution": "Original CTF Sandbox Orchestrator authors, distributed as unchanged source under GNU GPL version 3; digest credits devploit MIT and apsdehal CC0. All native downstream entries and policies retained. Packaging and installation never establish target authorization.",
+            "source": "https://github.com/zhaoxuya520/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/CTF-Sandbox-Orchestrator/README.md"
+          },
+          {
+            "license": "MIT",
+            "files": [
+              "LICENSE",
+              "kali/scripts/bootstrap-manifest.json",
+              "kali/scripts/bootstrap-reverse.sh",
+              "kali/scripts/ida-start.sh",
+              "kali/scripts/lib/tool-discovery.sh",
+              "kali/scripts/refresh-tool-index.sh",
+              "skills/scripts/bootstrap-manifest.json",
+              "skills/scripts/bootstrap-reverse.ps1",
+              "skills/scripts/bootstrap-reverse.sh",
+              "skills/scripts/lib/BootstrapSupplyChain.ps1",
+              "skills/scripts/lib/HostRuntime.ps1",
+              "skills/scripts/lib/ToolDiscovery.ps1",
+              "skills/scripts/refresh-tool-index.ps1",
+              "skills/scripts/refresh-tool-index.sh"
+            ],
+            "notices": [
+              "LICENSE"
+            ],
+            "attribution": "Copyright 2026 zhaoxuya520. Root MIT declaration retained separately; CTF subtree remains GPLv3, not relicensed MIT.",
+            "source": "https://github.com/zhaoxuya520/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/LICENSE"
+          }
+        ]
+      }
+    },
     "sanjay-originals/skill-ai-research-deep-research": {
       "collection": "sanjay-originals",
       "id": "skill-ai-research-deep-research",

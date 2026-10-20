@@ -33,6 +33,7 @@ SELECTED = [
     ("clinpgx-historical-originals", "skill-scientific-clinpgx-database", "claude-code", ".claude/skills"),
     ("davila7-templates", "skill-development-fastmcp-server", "claude-code", ".claude/skills"),
     ("davila7-templates", "skill-doordash-doordash-allergy-shield", "claude-code", ".claude/skills"),
+    ("reverse-skill-ctf", "skill-reverse-ctf-sandbox", "claude-code", ".claude/skills"),
 ]
 
 
@@ -144,9 +145,9 @@ def verify(application, project, work):
                 cli(workspace, "install", package, "--target", "codex", "--destination", str(destination), error="unsupported-required")
             installed = destination / prefix / name
             for file in entry["files"]:
-                skill_path = file["output_path"].split(f"packages/claude-code/{package}/skills/{name}/", 1)
+                skill_path = file["output_path"].split(f"packages/claude-code/{package}/skills/", 1)
                 if len(skill_path) == 2:
-                    copied = installed / skill_path[1]
+                    copied = destination / prefix / skill_path[1]
                     assert digest(copied) == file["digest"]
                     assert bool(copied.stat().st_mode & 0o111) == (file["mode"] == "100755")
             for path, expected in receipt["files"].items():

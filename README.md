@@ -103,7 +103,7 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, Forge now accepts
-**1145 packages**: **1141 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [107 missing-root additions](docs/missing-skill-imports.md) include approved
+**1146 packages**: **1142 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [107 missing-root additions](docs/missing-skill-imports.md) include approved
 name-only adaptations, complete original-source packages, transparent guide adapters and reviewed
 layout/license-compliance repairs. The latest35 preserve all1110 preceding accepted objects.
 Forty-six canonical roots remain held for exact source/grant conditions; Animate UI is additionally
@@ -121,6 +121,26 @@ This collection has its own source/update identity. Scientific dependencies, clo
 credentials, datasets and GPU tools are not installed or executed by Forge. Packages with matching
 original names from different sources remain distinct; a conflicting standalone installation refuses
 rather than overwriting the other source. Packaging is not scientific or clinical validation.
+
+## Reverse and CTF source additions
+
+The complete42-skill CTF Sandbox Orchestrator family from
+[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) is available as one
+original dependency-complete bundle, retaining every sibling skill, reference and native invocation
+policy plus its original setup dependencies. Two appended path-repair notices preserve exact originals
+separately; bundled setup scripts remain inactive. Its GPLv3 scope and credited original MIT/CC0 notices remain intact; the1145previous packages
+are unchanged.
+
+```bash
+claude plugin install skill-reverse-ctf-sandbox@numera-skill-forge
+```
+
+Use the original `ctf-sandbox-orchestrator` entry; competition children are downstream-only. Packaging
+does not activate it or authorize any target. Its original assumption that supplied targets are sandbox
+assets is not evidence of ownership: confirm actual authorization before any active test.
+The full reverse-skill router remains held for copied-corpus provenance, and the separately requested
+Codeberg APK source is access-blocked. The47earlier holds were freshly checked without a new complete
+grant; see [exact source outcomes](docs/remaining-skill-disposition.md#additional-requested-reverse-sources).
 
 ## Vercel skills and design references
 

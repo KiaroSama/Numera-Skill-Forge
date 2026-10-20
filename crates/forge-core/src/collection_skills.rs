@@ -50,18 +50,24 @@ pub(crate) fn metadata(root: &Path, accepted: &Accepted) -> Result<(String, Stri
                 .files
                 .iter()
                 .find(|f| {
-                    f.output_path.starts_with(&prefix)
+                    f.path == format!("{}/SKILL.md", accepted.root)
+                        && f.output_path.starts_with(&prefix)
                         && f.output_path.ends_with("/SKILL.md")
                         && f.output_path[prefix.len()..].split('/').count() == 2
                 })
                 .map(|f| f.output_path.clone())
         })
         .ok_or_else(|| Error::new("skill-entrypoint", "Accepted skill entry point is missing"))?;
+    read_metadata(root, accepted, &path)
+}
+
+fn read_metadata(root: &Path, accepted: &Accepted, path: &str) -> Result<(String, String)> {
+    let prefix = format!("packages/claude-code/{}/skills/", accepted.id);
     let digest = accepted
         .generated
-        .get(&path)
+        .get(path)
         .ok_or_else(|| Error::new("integrity", "Skill entry is not owned"))?;
-    let bytes = storage::bytes(&validation::contained(root, &path)?)?;
+    let bytes = storage::bytes(&validation::contained(root, path)?)?;
     if &storage::digest(&bytes) != digest {
         return Err(Error::new("integrity", "Accepted skill bytes changed"));
     }
@@ -95,6 +101,16 @@ pub(crate) fn assess(root: &Path, accepted: &Accepted, target: &str) -> Result<V
     crate::collections::native::assess(accepted, target, None)?;
     adapters::install_prefix(target)?;
     let (name, description) = metadata(root, accepted)?;
+    let prefix = format!("packages/claude-code/{}/skills/", accepted.id);
+    for path in accepted.generated.keys().filter(|path| {
+        path.as_str() != format!("{prefix}{name}/SKILL.md")
+            && path.starts_with(&prefix)
+            && path.ends_with("/SKILL.md")
+            && path[prefix.len()..].split('/').count() == 2
+    }) {
+        let (sibling, description) = read_metadata(root, accepted, path)?;
+        assess_metadata(accepted, target, &sibling, &description)?;
+    }
     assess_metadata(accepted, target, &name, &description)
 }
 

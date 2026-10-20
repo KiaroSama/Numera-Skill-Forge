@@ -6,3 +6,5 @@
 - https://github.com/vercel-labs/agent-skills
 - https://github.com/voltagent/awesome-design-md
 - https://github.com/imskyleen/animate-ui
+- https://codeberg.org/dabao1955/apk-reverse
+- https://github.com/zhaoxuya520/reverse-skill

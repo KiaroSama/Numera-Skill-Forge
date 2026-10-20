@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+  "license": "MIT AND GPL-3.0-only",
+  "name": "skill-reverse-ctf-sandbox",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

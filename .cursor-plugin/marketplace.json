@@ -5115,6 +5115,11 @@
       "source": "packages/claude-code/skill-productivity-notion-spec-to-implementation"
     },
     {
+      "description": "Original upstream skill: CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+      "name": "skill-reverse-ctf-sandbox",
+      "source": "packages/claude-code/skill-reverse-ctf-sandbox"
+    },
+    {
       "description": "Original upstream skill: skills/deep-research",
       "name": "skill-ai-research-deep-research",
       "source": "packages/claude-code/skill-ai-research-deep-research"

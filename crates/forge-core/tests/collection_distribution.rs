@@ -10,6 +10,151 @@ impl Drop for Fixture {
 }
 
 #[test]
+fn reviewed_bundle_preserves_native_siblings_and_selected_identity() {
+    let f = Fixture(
+        PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .join("../../.ci-work/tests")
+            .join(transaction::operation_id()),
+    );
+    let upstream = f.0.join("upstream");
+    let originals: [(&str, &[u8], &str); 5] = [
+        ("bundle/z-router/SKILL.md", b"---\nname: z-router\ndescription: Routes to the original a-child sibling\n---\nRead ../a-child/SKILL.md.\n", "skills/z-router/SKILL.md"),
+        ("bundle/a-child/SKILL.md", b"---\nname: a-child\ndescription: Original downstream child\n---\nRead references/literal.md.\n", "skills/a-child/SKILL.md"),
+        ("bundle/a-child/references/literal.md", b"# Literal\nOriginal child companion.\n", "skills/a-child/references/literal.md"),
+        ("bundle/NOTICE.md", b"Original complete bundle notice.\n", "upstream-notices/bundle-NOTICE.md"),
+        ("LICENSE", b"MIT License\nPermission is hereby granted, free of charge\n", "upstream-notices/LICENSE"),
+    ];
+    let mut files = serde_json::Map::new();
+    for (path, bytes, output) in originals {
+        let destination = upstream.join(path);
+        fs::create_dir_all(destination.parent().unwrap()).unwrap();
+        fs::write(destination, bytes).unwrap();
+        files.insert(
+            path.into(),
+            json!({"digest":storage::digest(bytes),"mode":"100644","output":output}),
+        );
+    }
+    let git = |args: &[&str]| {
+        let mut command = vec!["-C".into(), upstream.to_string_lossy().into_owned()];
+        command.extend(args.iter().map(|a| a.to_string()));
+        String::from_utf8(process::git(&command, 15).unwrap()).unwrap()
+    };
+    git(&["init", "-b", "main"]);
+    git(&["add", "."]);
+    git(&[
+        "-c",
+        "user.name=Fixture",
+        "-c",
+        "user.email=fixture@example.invalid",
+        "commit",
+        "-m",
+        "fixture",
+    ]);
+    let registry = f.0.join("registry/collections.json");
+    let mut registration = json!({"schema_version":1,"collections":[{"id":"siblings","repository":format!("local:{}",upstream.display()),"branch":"main","reviewed_revision":git(&["rev-parse","HEAD"]).trim(),"skills":[{"id":"sibling-bundle","root":"bundle/z-router","license":"MIT","license_path":"LICENSE","license_digest":storage::digest(originals[4].1),"reviewed_distribution":{"version":1,"files":files}}]}]});
+    storage::write(&registry, &registration).unwrap();
+    let result = service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(result["status"], "success", "{result}");
+    let catalog = service::execute(&f.0, json!({"action":"catalog"})).unwrap();
+    assert_eq!(catalog[0]["name"], "z-router", "{catalog}");
+    let package = f.0.join("packages/claude-code/sibling-bundle");
+    for (_, bytes, output) in originals {
+        assert_eq!(fs::read(package.join(output)).unwrap(), bytes);
+    }
+    service::execute(&f.0, json!({"action":"collection-verify"})).unwrap();
+    let accepted = fs::read(f.0.join("catalogs/collections.lock.json")).unwrap();
+    service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(
+        fs::read(f.0.join("catalogs/collections.lock.json")).unwrap(),
+        accepted
+    );
+    fs::remove_dir_all(&package).unwrap();
+    service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(
+        fs::read(package.join("skills/a-child/references/literal.md")).unwrap(),
+        originals[2].1
+    );
+    let consumer = f.0.join("consumer");
+    fs::create_dir(&consumer).unwrap();
+    let request = json!({"action":"install","package":"sibling-bundle","target":"claude-code","destination":consumer,"dry_run":false});
+    let installed = service::execute(&f.0, request.clone()).unwrap();
+    let receipt = installed["id"].as_str().unwrap();
+    assert_eq!(
+        fs::read(consumer.join(".claude/skills/a-child/references/literal.md")).unwrap(),
+        originals[2].1
+    );
+    let mut preview = request;
+    preview["dry_run"] = json!(true);
+    assert_eq!(service::execute(&f.0, preview).unwrap()["changes"], 0);
+    service::execute(&f.0, json!({"action":"disable","receipt":receipt})).unwrap();
+    assert!(!consumer.join(".claude/skills/a-child/SKILL.md").exists());
+    service::execute(&f.0, json!({"action":"enable","receipt":receipt})).unwrap();
+    service::execute(&f.0, json!({"action":"uninstall","receipt":receipt})).unwrap();
+    assert!(!consumer.join(".claude/skills/z-router/SKILL.md").exists());
+    assert!(!consumer.join(".claude/skills/a-child/SKILL.md").exists());
+    let approved = registration.clone();
+    registration["collections"][0]["skills"][0]["reviewed_distribution"]["files"]
+        .as_object_mut()
+        .unwrap()
+        .remove("bundle/a-child/SKILL.md");
+    storage::write(&registry, &registration).unwrap();
+    assert_eq!(
+        service::execute(&f.0, json!({"action":"collection-verify"}))
+            .unwrap_err()
+            .code,
+        "approval-stale"
+    );
+    assert_eq!(
+        fs::read(f.0.join("catalogs/collections.lock.json")).unwrap(),
+        accepted
+    );
+    registration = approved.clone();
+    let child = format!(
+        "---\nname: a-child\ndescription: {}\n---\nOriginal downstream child.\n",
+        "x".repeat(1025)
+    );
+    fs::write(upstream.join("bundle/a-child/SKILL.md"), &child).unwrap();
+    git(&["add", "."]);
+    git(&[
+        "-c",
+        "user.name=Fixture",
+        "-c",
+        "user.email=fixture@example.invalid",
+        "commit",
+        "-m",
+        "child metadata",
+    ]);
+    registration["collections"][0]["skills"][0]["id"] = json!("long-child-bundle");
+    registration["collections"][0]["skills"][0]["reviewed_distribution"]["files"]["bundle/a-child/SKILL.md"]
+        ["digest"] = json!(storage::digest(child.as_bytes()));
+    registration["collections"][0]["reviewed_revision"] = json!(git(&["rev-parse", "HEAD"]).trim());
+    storage::write(&registry, &registration).unwrap();
+    assert_eq!(
+        service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap()["status"],
+        "success"
+    );
+    assert_eq!(
+        service::execute(
+            &f.0,
+            json!({"action":"build","package":"long-child-bundle","target":"codex"})
+        )
+        .unwrap_err()
+        .code,
+        "skill-metadata"
+    );
+    registration = approved;
+    registration["collections"][0]["skills"][0]["reviewed_distribution"]["files"][".ai/private.md"] =
+        json!({"digest":"0".repeat(64),"mode":"100644","output":"skills/z-router/private.md"});
+    storage::write(&registry, &registration).unwrap();
+    assert_eq!(
+        service::execute(&f.0, json!({"action":"collection-sync","apply":true}))
+            .unwrap_err()
+            .code,
+        "distribution-review"
+    );
+}
+
+#[test]
 fn reviewed_layout_preserves_bytes_and_refuses_withdrawal() {
     let f = Fixture(
         PathBuf::from(env!("CARGO_MANIFEST_DIR"))

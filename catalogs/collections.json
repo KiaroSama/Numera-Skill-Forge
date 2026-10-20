@@ -8209,6 +8209,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-reverse-ctf-sandbox",
+      "license": "MIT AND GPL-3.0-only",
+      "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "root": "CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+      "source": "reverse-skill-ctf",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-deep-research",
       "license": "Apache-2.0",
       "revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "description": "Upstream skill with reviewed name-only adaptation: CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+  "license": "MIT AND GPL-3.0-only",
+  "name": "skill-reverse-ctf-sandbox",
+  "version": "1.0.0"
+}

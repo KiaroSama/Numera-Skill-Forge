@@ -16,13 +16,41 @@ services, hooks and installation commands were inspected as data, never executed
 
 The supplied [Animate UI repository](https://github.com/imskyleen/animate-ui) contains an actual
 `skills/animate-ui` skill with40original files at
-[73e1dcc](https://github.com/imskyleen/animate-ui/tree/73e1dcc574b82244492566b3f5a67928d16967b5/skills/animate-ui).
-Its [root license](https://github.com/imskyleen/animate-ui/blob/73e1dcc574b82244492566b3f5a67928d16967b5/LICENSE.md)
+[e6cea6b5](https://github.com/imskyleen/animate-ui/tree/e6cea6b5ae5a4985d3bf3cc0ebea173555eafd72/skills/animate-ui), freshly checked2026-10-20.
+Its [root license](https://github.com/imskyleen/animate-ui/blob/e6cea6b5ae5a4985d3bf3cc0ebea173555eafd72/LICENSE.md)
 is custom MIT + Commons Clause, including a restriction on redistributing original components alone
 or in a bundle. No separate skill grant was located; the skill NOTICE's Emil Kowalski MIT notice
 covers credited upstream material, not an affirmative grant for the entire Animate UI skill.
 The source link is listed; the payload is not bundled pending an authoritative skill-specific grant
 or clarification. No library installation, script execution or personal activation was performed.
+
+## Additional requested reverse sources
+
+At [cab634bd](https://github.com/zhaoxuya520/reverse-skill/tree/cab634bd855fc287f6e420c1f36fd1a6b9245960),
+`zhaoxuya520/reverse-skill` contains89native entries across its router, specialists, optional adapter
+and CTF sidecar. The complete independent **CTF Sandbox Orchestrator family** is bundled as
+[`skill-reverse-ctf-sandbox`](../packages/claude-code/skill-reverse-ctf-sandbox):42original native entries,
+all136CTF files,13original setup dependencies, unchanged root MIT notice, scoped GPLv3 and exact
+credited MIT/CC0 terms. All sibling skills remain together so downstream routing references resolve.
+Two prominent appended distribution notices resolve original setup/citation paths; exact originals
+are retained separately. Setup scripts are contained under the orchestrator's `repository/` directory,
+never executed or installed globally by Forge. This is one dependency-complete
+package, not42independently installed packages and not the entire reverse-skill repository.
+
+The full reverse-skill router remains held: its required `src-hunter` corpus explicitly copies and
+translates Payloader/HackerOne/WooYun material. The named original Payloader repository returns404;
+its original redistribution scope is not established by the downstream MIT label or public availability.
+The corpus is not silently stripped, relabeled or executed. RootMIT and CTFGPL alone do not resolve it.
+
+The distinct [Codeberg APK source](https://codeberg.org/dabao1955/apk-reverse) could not be retrieved:
+the site's robots policy refused autonomous access. Its identity, payload and grant remain unverified;
+no alternate route was used to evade that refusal and no equivalence to newliver666 was assumed.
+A user-provided source archive with its original provenance/terms is a possible permitted input.
+
+The47renewed cases were checked again on2026-10-20; none gained a verified complete-root grant.
+All1145previous Accepted objects remain unchanged. The CTF addition raises the total to1146packages
+and8934original payload/notice records across25collections; it does not resolve those47holds.
+No imported source was activated, tools bootstrapped, services registered or targets tested.
 
 ## Admission boundaries
 

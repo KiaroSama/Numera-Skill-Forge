@@ -41,6 +41,30 @@ The REA analysis engines/MCP server and third-party commercial tools are not ins
 Some other packages likewise require external tools or services; inspect their original instructions
 before enabling them. Public availability is not blanket execution authorization.
 
+### Original reverse/CTF bundle
+
+`skill-reverse-ctf-sandbox` contains the complete42-entry CTF family at source revision
+`cab634bd855fc287f6e420c1f36fd1a6b9245960`. Install that one package with the native or standalone
+commands below. Keep all sibling directories together; do not copy a competition child alone.
+Invoke the original `ctf-sandbox-orchestrator` first; original downstream implicit-invocation policies
+are retained. GPLv3 source, root MIT declaration and credited MIT/CC0 terms accompany it.
+The ZIP child's original setup scripts and complete13-file setup dependency closure live under
+`ctf-sandbox-orchestrator/repository/`; resolve its repository-relative setup commands there. An
+appended notice records that path repair and keeps the original entry separately. Do not run setup
+without separate approval for its installation/configuration effects. No tool index or tool installation
+is fabricated.
+
+A standalone preview is:
+
+```bash
+numera-forge install skill-reverse-ctf-sandbox --target claude-code --destination /absolute/project --dry-run
+```
+
+The original family assumes competition/sandbox context; that text does not establish authorization.
+Confirm ownership/permission and real scope before active testing. Forge never activates the bundle,
+bootstraps tools or registers MCP servers. The full source router and the distinct Codeberg APK source
+are not included; see [their exact blockers](remaining-skill-disposition.md#additional-requested-reverse-sources).
+
 ## 2. Native plugin catalogs
 
 Every entry references an independent package under `packages/claude-code/<package-id>`.

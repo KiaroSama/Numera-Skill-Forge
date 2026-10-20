@@ -107,6 +107,10 @@ fn selection(tree: &[Blob], skill: &Skill) -> Result<Vec<Blob>> {
                 .as_ref()
                 .and_then(|r| r.native.as_ref())
                 .is_some_and(|n| n.files.contains_key(&b.path) || n.hook_configs.contains(&b.path))
+                || skill
+                    .reviewed_distribution
+                    .as_ref()
+                    .is_some_and(|review| review.files.contains_key(&b.path))
                 || b.path == skill.license_path
                 || (policy::license(&b.path) && !b.path.contains('/'))
         })
@@ -649,7 +653,6 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
     let mut metadata_limits = vec![];
     if id.is_none() {
         for accepted in state.entries.values() {
-            let (name, description) = crate::collection_skills::metadata(root, accepted)?;
             for target in [
                 "codex",
                 "opencode-v1",
@@ -659,9 +662,7 @@ pub(crate) fn verify_selected(root: &Path, id: Option<&str>) -> Result<Value> {
                 "kilo",
                 "kiro",
             ] {
-                if let Err(error) =
-                    crate::collection_skills::assess_metadata(accepted, target, &name, &description)
-                {
+                if let Err(error) = crate::collection_skills::assess(root, accepted, target) {
                     metadata_limits.push(json!({"package":accepted.id,"target":target,"code":error.code,"message":error.message}));
                 }
             }

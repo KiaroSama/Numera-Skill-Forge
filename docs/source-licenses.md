@@ -33,10 +33,26 @@ Neither upstream application, third-party analysis engine, private assistant con
 cloner's project-specific command bridge is bundled. Installing instructions does not install REA,
 register MCP, grant rights to third-party website assets or license commercial analysis tools.
 
+## Original CTF family and held reverse router
+
+The complete CTF subtree from [reverse-skill cab634bd](https://github.com/zhaoxuya520/reverse-skill/tree/cab634bd855fc287f6e420c1f36fd1a6b9245960/CTF-Sandbox-Orchestrator)
+is one dependency-complete package:42native entries,136original CTF files,13original setup dependencies
+and the unchanged root MIT declaration. Two appended distribution path notices retain exact originals
+separately; setup commands resolve under the orchestrator's contained `repository/` directory. The subtree's actual GPLv3 terms govern its source; the aggregate label
+`MIT AND GPL-3.0-only` records separate scopes, not MIT relicensing. Exact full devploit MIT and
+apsdehal CC0 terms accompany the credited resource digest. All original source, notices and native
+invocation policy survive unchanged; no binary/source-execution certification is implied.
+
+The full reverse router remains unbundled because its required copied Payloader corpus lacks verified
+earlier source terms. The named original returns404; downstreamMIT alone is insufficient. The distinct
+CodebergAPK source remains access-blocked, not declared unlicensed or equivalent to another source.
+All47earlier held cases were freshly reviewed2026-10-20 without a newly cleared complete root. See
+[precise outcomes](remaining-skill-disposition.md#additional-requested-reverse-sources).
+
 ## Published scope
 
-The current collection contains **812 davila packages**, plus333 packages from the other23
-registered collections, for **1145 total** and **8784 payload/notice records**. The latest35 additions
+The current collection contains **812 davila packages**, plus334 packages from the other24
+registered collections, for **1146 total** and **8934 payload/notice records**. The latest35 additions
 preserve all1110 preceding accepted objects;107of153 missing canonical roots now have packages,
 with46precisely held. New scoped distributions include unchanged GPLv3 NeoLab originals and
 mixed MIT/CC-BY-SA ClinPGx source, exact legal supplements, recorded path repairs and prominent

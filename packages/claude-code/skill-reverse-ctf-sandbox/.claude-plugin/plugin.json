@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
+  "license": "MIT AND GPL-3.0-only",
+  "name": "skill-reverse-ctf-sandbox",
+  "repository": "https://github.com/zhaoxuya520/reverse-skill.git",
+  "version": "1.0.0"
+}

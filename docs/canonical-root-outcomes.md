@@ -9,6 +9,14 @@ See [import details](missing-skill-imports.md) for source pins, transformations 
 `skills/` rows are distinct from Templates category paths. Older hold descriptions are retained as
 history in the [previous review](remaining-skill-disposition.md).
 
+Fresh2026-10-20 review rechecked all46 held roots plus Animate UI against current original sources.
+No new complete-root grant was established; the46held count is unchanged. Current office restrictions,
+unanswered original license requests, missing original terms and copied third-party scopes remain
+concrete admission conditions, not a generic claim that every held work is prohibited. Eight focused
+code searches timed out; that part of discovery is incomplete, not a zero-result search. Animate UI's
+current40-file root and full license were reread; custom redistribution conditions remain unresolved.
+The separately requested reverse sources and complete CTF bundle are [accounted for here](remaining-skill-disposition.md#additional-requested-reverse-sources).
+
 | Canonical root | Current outcome | Package or exact blocker | Next admission requirement |
 | --- | --- | --- | --- |
 | `skills/docx` | Held: restricted-scoped-license | Scoped proprietary terms restrict copying and redistribution; separate rights grant required. | Obtain an explicit rights-holder grant permitting public copying and redistribution of this exact root and companions; retain scoped terms. Root MIT is not a substitute. |
