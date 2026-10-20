@@ -298,9 +298,9 @@ host files or bypass an ownership conflict with a manual bulk copy.
 
 ## 4. Duplicate names and evidence limits
 
-There are 1159 accepted packages, 1075 distinct top-level bundled skill names and 121 shared-name groups.
+There are 1161 accepted packages, 1077 distinct top-level bundled skill names and 121 shared-name groups.
 Nested original workspace entries are routed resources, not additional independently registered names.
-The ordinary catalogs contain 1155 packages; four required-native DoorDash bundles use only the
+The ordinary catalogs contain 1157 packages; four required-native DoorDash bundles use only the
 explicit Forge route. Native per-package namespaces retain independent identity where implemented.
 Flat standalone roots refuse different-source same-name owners, even when their main SKILL.md bytes
 match. Only complete identical reviewed-native companion trees can share ownership as described above. Select another project/home destination

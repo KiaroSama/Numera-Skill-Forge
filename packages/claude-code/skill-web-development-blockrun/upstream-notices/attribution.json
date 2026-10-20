@@ -1,0 +1,12 @@
+{
+  "attribution": "Complete 26-file declared-MIT BlockRun mirror, exact canonical entry and all original scripts/assets/docs/modes. Actual README and plugin.json declare MIT; unaltered standard MIT text supplement retains template placeholders rather than inventing copyright. Original BlockRunAI credit retained; original source availability and mirror provenance remain uncertain. Root references/scripts are beside the entry; original plugin metadata is inert, not registered. SDK, inaccessible original installer URL, wallet creation, funding, payments and model calls are separate unverified prerequisites/actions, never executed or authorized by packaging.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "license": "MIT",
+      "path": "registry/licenses/blockrun-declared-MIT.txt",
+      "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt"
+    }
+  ]
+}

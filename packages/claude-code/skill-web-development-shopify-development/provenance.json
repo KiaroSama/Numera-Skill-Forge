@@ -1,0 +1,89 @@
+{
+  "collection": "shopify-declared-original",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1073
+    },
+    {
+      "digest": "0322c90680e9d54ceb2620f8303e11b004776f1fb21bcd9820adfb3f0a1ad6fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/README.md",
+      "path": "skills/shopify-development/README.md",
+      "size": 1739
+    },
+    {
+      "digest": "7aace9bf90f0bf5db393c9a7b18166bb68434274b575205d33eddaabfb6de99d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/SKILL.md",
+      "path": "skills/shopify-development/SKILL.md",
+      "size": 8883
+    },
+    {
+      "digest": "ea52e2b28ff51e04381a66823a85155b981becde52b477254f551ac7dff22601",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/app-development.md",
+      "path": "skills/shopify-development/references/app-development.md",
+      "size": 10566
+    },
+    {
+      "digest": "c4443785b289cd070b2699c959a914501bf0eb947f7ae184fe6731f5bc8a9971",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/extensions.md",
+      "path": "skills/shopify-development/references/extensions.md",
+      "size": 10680
+    },
+    {
+      "digest": "0a18523f8183f060d4867bec17a4f25f48f7e8cdbc0b6e543795dd00fa087c67",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/themes.md",
+      "path": "skills/shopify-development/references/themes.md",
+      "size": 10324
+    },
+    {
+      "digest": "77a3fc51977b7b652471b2106533b44f09d65981421fe946be66df1cc3a18729",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/.gitignore",
+      "path": "skills/shopify-development/scripts/.gitignore",
+      "size": 375
+    },
+    {
+      "digest": "ff02bd21c424070c78b466debfc2748ea3f42f43c5d4bd888c6be2c38e3bee45",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/requirements.txt",
+      "path": "skills/shopify-development/scripts/requirements.txt",
+      "size": 452
+    },
+    {
+      "digest": "88d7b9876e9d8d0d56074af3c9645ccbf249da995c638b1df37631618f6de0ea",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_graphql.py",
+      "path": "skills/shopify-development/scripts/shopify_graphql.py",
+      "size": 12650
+    },
+    {
+      "digest": "7068d0208872c41a39625f2d63a0bb02b003329b787a04b9e0b105c5ab1a7ecb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_init.py",
+      "path": "skills/shopify-development/scripts/shopify_init.py",
+      "size": 13187
+    },
+    {
+      "digest": "01266a605d5d73a250d8f8519f3b322522f2295096b9d6adc70da26b2f8f1442",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/tests/test_shopify_init.py",
+      "path": "skills/shopify-development/scripts/tests/test_shopify_init.py",
+      "size": 13245
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "2a495a3be673ca4219328b4e30557e53d6a7bbd94052f73afa2d88a3a3c9984a",
+  "repository": "https://github.com/sickn33/agentic-awesome-skills.git",
+  "revision": "9850b6b8e7c70e91e4704b29c5c71a3949848eb6",
+  "root": "skills/shopify-development",
+  "schema_version": 1
+}

@@ -81,6 +81,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-web-development-blockrun",
+      "license": "MIT",
+      "revision": "df56a233ed6cf9e373038bb37efd49bc5a12a6c5",
+      "root": "skills/blockrun",
+      "source": "blockrun-declared-original",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-scientific-clinpgx-database",
       "license": "MIT AND CC-BY-SA-4.0",
       "revision": "4fc6ac7727a2b0c30f964906713bd884679ff188",
@@ -8254,6 +8262,14 @@
       "revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",
       "root": "skills/deep-research",
       "source": "sanjay-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-web-development-shopify-development",
+      "license": "MIT",
+      "revision": "9850b6b8e7c70e91e4704b29c5c71a3949848eb6",
+      "root": "skills/shopify-development",
+      "source": "shopify-declared-original",
       "version": "1.0.0"
     },
     {

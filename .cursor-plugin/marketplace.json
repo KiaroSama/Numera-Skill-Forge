@@ -55,6 +55,11 @@
       "source": "packages/claude-code/skill-ai-research-fine-tuning-axolotl"
     },
     {
+      "description": "Original upstream skill: skills/blockrun",
+      "name": "skill-web-development-blockrun",
+      "source": "packages/claude-code/skill-web-development-blockrun"
+    },
+    {
       "description": "Original upstream skill: scientific-skills/clinpgx-database",
       "name": "skill-scientific-clinpgx-database",
       "source": "packages/claude-code/skill-scientific-clinpgx-database"
@@ -5143,6 +5148,11 @@
       "description": "Original upstream skill: skills/deep-research",
       "name": "skill-ai-research-deep-research",
       "source": "packages/claude-code/skill-ai-research-deep-research"
+    },
+    {
+      "description": "Original upstream skill: skills/shopify-development",
+      "name": "skill-web-development-shopify-development",
+      "source": "packages/claude-code/skill-web-development-shopify-development"
     },
     {
       "description": "Original upstream skill: swift-concurrency-expert",

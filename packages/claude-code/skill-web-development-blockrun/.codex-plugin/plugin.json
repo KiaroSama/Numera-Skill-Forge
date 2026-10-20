@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/blockrun",
+  "license": "MIT",
+  "name": "skill-web-development-blockrun",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

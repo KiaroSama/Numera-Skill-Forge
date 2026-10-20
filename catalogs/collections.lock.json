@@ -1005,6 +1005,421 @@
         ]
       }
     },
+    "blockrun-declared-original/skill-web-development-blockrun": {
+      "collection": "blockrun-declared-original",
+      "id": "skill-web-development-blockrun",
+      "root": "skills/blockrun",
+      "revision": "df56a233ed6cf9e373038bb37efd49bc5a12a6c5",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "b0143123985b7076b3b426ffc5f5b5aaf2371897ae45f3eea2468d7e2cc8c541",
+      "files": [
+        {
+          "path": ".claude-plugin/marketplace.json",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/.claude-plugin/marketplace.json",
+          "digest": "d8f573cb2f09c8b58d9ec2020c18de8285379a40394e9dcf4bbc749ba85c0be9",
+          "mode": "100644",
+          "size": 313
+        },
+        {
+          "path": ".gitignore",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/.gitignore",
+          "digest": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+          "mode": "100644",
+          "size": 13
+        },
+        {
+          "path": "BULLETPROOF_QUICKSTART.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/BULLETPROOF_QUICKSTART.md",
+          "digest": "b71f34d145b2bfc313960bf7b97b64a1a5645118d17639e691989e8644bdee58",
+          "mode": "100644",
+          "size": 2525
+        },
+        {
+          "path": "README.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/README.md",
+          "digest": "de1e0b683dbec8482d71ef9345680f9d2e2b222ff14868630412bbfb56860740",
+          "mode": "100644",
+          "size": 8818
+        },
+        {
+          "path": "USDC_ON_BASE.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/USDC_ON_BASE.md",
+          "digest": "d819a848e82fd1f2036462f319ef6225104e98ce9cc643b9fe19c041764712fb",
+          "mode": "100644",
+          "size": 3515
+        },
+        {
+          "path": "assets/blockrun-agent-skill.png",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/assets/blockrun-agent-skill.png",
+          "digest": "e1833fa99c216653103f8cd91247f7c61a38fbac944053f57e413c1fc04a8765",
+          "mode": "100644",
+          "size": 1645651
+        },
+        {
+          "path": "assets/logo.txt",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/assets/logo.txt",
+          "digest": "fbc489905a38677f46d9370e5e99ec42250f6d862a896e82530d9ea9c9d29144",
+          "mode": "100644",
+          "size": 351
+        },
+        {
+          "path": "docs/plans/2026-01-13-budget-tracking-design.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/docs/plans/2026-01-13-budget-tracking-design.md",
+          "digest": "788eb90bd9eb855f430f71544973e327572d7743dd5e63d757e950cd493e2bcf",
+          "mode": "100644",
+          "size": 4477
+        },
+        {
+          "path": "install.sh",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/install.sh",
+          "digest": "58a98671e80aee9c19ba759e8670e978262eae383c3062e5aa5351f986bbcf88",
+          "mode": "100755",
+          "size": 2070
+        },
+        {
+          "path": "plugin.json",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/plugin.json",
+          "digest": "c7131c9bca29bad5739fa48c61a8a853f0372c1679e0fea0abac1d4ea0e916b4",
+          "mode": "100644",
+          "size": 569
+        },
+        {
+          "path": "references/MODEL_GUIDE.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/references/MODEL_GUIDE.md",
+          "digest": "4b1bad892ca74265a68c4ec077e378635f07247cf26ff0cec9cd1c4c455c59e3",
+          "mode": "100644",
+          "size": 1377
+        },
+        {
+          "path": "references/PRICING.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/references/PRICING.md",
+          "digest": "97a6e5fe4c8666ab2af9b6b4ba93e9848341f66ae29983cffa8c75fab47aa123",
+          "mode": "100644",
+          "size": 1174
+        },
+        {
+          "path": "scripts/__init__.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/__init__.py",
+          "digest": "c845844adf9d2ad4352430f1e4d6ffd339ddf032cd6fc2ef367af855b2f7cb7a",
+          "mode": "100644",
+          "size": 79
+        },
+        {
+          "path": "scripts/llm/__init__.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/__init__.py",
+          "digest": "e8bb83428d1851f812d1138c317d965fc6961b21f6f8742708a44215c3fc4f9a",
+          "mode": "100644",
+          "size": 284
+        },
+        {
+          "path": "scripts/llm/chat.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/chat.py",
+          "digest": "1b021e2cae2599d2c226b911eee45fc498f2cee2f85b54032279527d086c3ecc",
+          "mode": "100644",
+          "size": 3804
+        },
+        {
+          "path": "scripts/llm/image.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/image.py",
+          "digest": "056fe9deed5d322b73842dc65fd181f37964a5473cbb7ecf6118268fbd9b10ec",
+          "mode": "100644",
+          "size": 2669
+        },
+        {
+          "path": "scripts/llm/router.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/router.py",
+          "digest": "03f14a4ddfa86da7ef85361ea555b9bcc92367b47c73716ebca92272b906560f",
+          "mode": "100644",
+          "size": 9557
+        },
+        {
+          "path": "scripts/run.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/run.py",
+          "digest": "4f3e58c44b98e8259b944f7ca9adad365a5b2fdc05bf3ec4d6c3436937a243c4",
+          "mode": "100644",
+          "size": 23616
+        },
+        {
+          "path": "scripts/utils/__init__.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/__init__.py",
+          "digest": "f31bd81f55f90cdb725eac1d113ee99a9c3d5da657446a4e7d5e348be28e48ff",
+          "mode": "100644",
+          "size": 139
+        },
+        {
+          "path": "scripts/utils/branding.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/branding.py",
+          "digest": "615c5a56ba9c70e5bd4c449a8f4dabc903c944c0dc8c2d08888fa3ac7475ced6",
+          "mode": "100644",
+          "size": 11190
+        },
+        {
+          "path": "scripts/utils/config.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/config.py",
+          "digest": "ea1484b47d4d3df8b999f5e2dae9904ef09f6753e9a9ca1a720954a99f5d24e5",
+          "mode": "100644",
+          "size": 3908
+        },
+        {
+          "path": "scripts/utils/spending.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/spending.py",
+          "digest": "68ef67e581f641c5e1cfca8a232c8a8b5fd0badcd319e7788462b359bd511a12",
+          "mode": "100644",
+          "size": 4569
+        },
+        {
+          "path": "scripts/wallet/__init__.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/__init__.py",
+          "digest": "c756bf81d8c4b7b84614f010e85776cdfa982e18fe519683cb0837db5a989999",
+          "mode": "100644",
+          "size": 219
+        },
+        {
+          "path": "scripts/wallet/balance.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/balance.py",
+          "digest": "ad3b36b3ec28988ea311a9828a8290ca565adee01417abe4c3a01043359b48cd",
+          "mode": "100644",
+          "size": 1556
+        },
+        {
+          "path": "scripts/wallet/status.py",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/status.py",
+          "digest": "0469fcdb9b1ca5475840fc0097fe68fc963d1349cf144e6cb46bbe6a5284204e",
+          "mode": "100644",
+          "size": 1290
+        },
+        {
+          "path": "skills/blockrun/SKILL.md",
+          "output_path": "packages/claude-code/skill-web-development-blockrun/skills/blockrun/SKILL.md",
+          "digest": "f1658d2cde534f4b2ecf07c5f7509f55209781c071e2d3c02c6e0ce338711594",
+          "mode": "100644",
+          "size": 8976
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-web-development-blockrun/.claude-plugin/plugin.json": "59340334ede4d3275de94fe6468280050feb5c8f34856135a8f5a27db12c180e",
+        "packages/claude-code/skill-web-development-blockrun/provenance.json": "f340f83e9c54d144322a6cbd4be007f250517517b914d5be3b211df201a41ace",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/.claude-plugin/marketplace.json": "d8f573cb2f09c8b58d9ec2020c18de8285379a40394e9dcf4bbc749ba85c0be9",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/.gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/BULLETPROOF_QUICKSTART.md": "b71f34d145b2bfc313960bf7b97b64a1a5645118d17639e691989e8644bdee58",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/README.md": "de1e0b683dbec8482d71ef9345680f9d2e2b222ff14868630412bbfb56860740",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/SKILL.md": "f1658d2cde534f4b2ecf07c5f7509f55209781c071e2d3c02c6e0ce338711594",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/USDC_ON_BASE.md": "d819a848e82fd1f2036462f319ef6225104e98ce9cc643b9fe19c041764712fb",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/assets/blockrun-agent-skill.png": "e1833fa99c216653103f8cd91247f7c61a38fbac944053f57e413c1fc04a8765",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/assets/logo.txt": "fbc489905a38677f46d9370e5e99ec42250f6d862a896e82530d9ea9c9d29144",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/docs/plans/2026-01-13-budget-tracking-design.md": "788eb90bd9eb855f430f71544973e327572d7743dd5e63d757e950cd493e2bcf",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/install.sh": "58a98671e80aee9c19ba759e8670e978262eae383c3062e5aa5351f986bbcf88",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/plugin.json": "c7131c9bca29bad5739fa48c61a8a853f0372c1679e0fea0abac1d4ea0e916b4",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/references/MODEL_GUIDE.md": "4b1bad892ca74265a68c4ec077e378635f07247cf26ff0cec9cd1c4c455c59e3",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/references/PRICING.md": "97a6e5fe4c8666ab2af9b6b4ba93e9848341f66ae29983cffa8c75fab47aa123",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/__init__.py": "c845844adf9d2ad4352430f1e4d6ffd339ddf032cd6fc2ef367af855b2f7cb7a",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/__init__.py": "e8bb83428d1851f812d1138c317d965fc6961b21f6f8742708a44215c3fc4f9a",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/chat.py": "1b021e2cae2599d2c226b911eee45fc498f2cee2f85b54032279527d086c3ecc",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/image.py": "056fe9deed5d322b73842dc65fd181f37964a5473cbb7ecf6118268fbd9b10ec",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/llm/router.py": "03f14a4ddfa86da7ef85361ea555b9bcc92367b47c73716ebca92272b906560f",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/run.py": "4f3e58c44b98e8259b944f7ca9adad365a5b2fdc05bf3ec4d6c3436937a243c4",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/__init__.py": "f31bd81f55f90cdb725eac1d113ee99a9c3d5da657446a4e7d5e348be28e48ff",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/branding.py": "615c5a56ba9c70e5bd4c449a8f4dabc903c944c0dc8c2d08888fa3ac7475ced6",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/config.py": "ea1484b47d4d3df8b999f5e2dae9904ef09f6753e9a9ca1a720954a99f5d24e5",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/utils/spending.py": "68ef67e581f641c5e1cfca8a232c8a8b5fd0badcd319e7788462b359bd511a12",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/__init__.py": "c756bf81d8c4b7b84614f010e85776cdfa982e18fe519683cb0837db5a989999",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/balance.py": "ad3b36b3ec28988ea311a9828a8290ca565adee01417abe4c3a01043359b48cd",
+        "packages/claude-code/skill-web-development-blockrun/skills/blockrun/scripts/wallet/status.py": "0469fcdb9b1ca5475840fc0097fe68fc963d1349cf144e6cb46bbe6a5284204e",
+        "packages/claude-code/skill-web-development-blockrun/upstream-notices/attribution.json": "37e1eb0783230c4641544a6048a150a86af8c53ffa16782e683b2e02d0a55e02",
+        "packages/claude-code/skill-web-development-blockrun/upstream-notices/declared-MIT.txt": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+        "packages/claude-code/skill-web-development-blockrun/upstream-notices/distribution.json": "3983b496853f9f56157cafcf25c11c7b7578acac1173ff626f0dd51f774dc17b",
+        "packages/claude-code/skill-web-development-blockrun/upstream-notices/original-0.txt": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+      },
+      "delivery": {
+        "packages/claude-code/skill-web-development-blockrun/.codex-plugin/plugin.json": "d21e373944440d970e7a2fca914fddec285079216c5089ab66701463a8197094",
+        "packages/claude-code/skill-web-development-blockrun/.cursor-plugin/plugin.json": "d21e373944440d970e7a2fca914fddec285079216c5089ab66701463a8197094",
+        "packages/claude-code/skill-web-development-blockrun/plugin.json": "e2c2f9f19c3674eae35d0c1c70f3dfd9d37f6ab2ff2161274fd72deaeda353c9"
+      },
+      "reviewed_distribution": {
+        "version": 1,
+        "files": {
+          ".claude-plugin/marketplace.json": {
+            "digest": "d8f573cb2f09c8b58d9ec2020c18de8285379a40394e9dcf4bbc749ba85c0be9",
+            "mode": "100644",
+            "output": "skills/blockrun/.claude-plugin/marketplace.json"
+          },
+          ".gitignore": {
+            "digest": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+            "mode": "100644",
+            "output": "skills/blockrun/.gitignore"
+          },
+          "BULLETPROOF_QUICKSTART.md": {
+            "digest": "b71f34d145b2bfc313960bf7b97b64a1a5645118d17639e691989e8644bdee58",
+            "mode": "100644",
+            "output": "skills/blockrun/BULLETPROOF_QUICKSTART.md"
+          },
+          "README.md": {
+            "digest": "de1e0b683dbec8482d71ef9345680f9d2e2b222ff14868630412bbfb56860740",
+            "mode": "100644",
+            "output": "skills/blockrun/README.md"
+          },
+          "USDC_ON_BASE.md": {
+            "digest": "d819a848e82fd1f2036462f319ef6225104e98ce9cc643b9fe19c041764712fb",
+            "mode": "100644",
+            "output": "skills/blockrun/USDC_ON_BASE.md"
+          },
+          "assets/blockrun-agent-skill.png": {
+            "digest": "e1833fa99c216653103f8cd91247f7c61a38fbac944053f57e413c1fc04a8765",
+            "mode": "100644",
+            "output": "skills/blockrun/assets/blockrun-agent-skill.png"
+          },
+          "assets/logo.txt": {
+            "digest": "fbc489905a38677f46d9370e5e99ec42250f6d862a896e82530d9ea9c9d29144",
+            "mode": "100644",
+            "output": "skills/blockrun/assets/logo.txt"
+          },
+          "docs/plans/2026-01-13-budget-tracking-design.md": {
+            "digest": "788eb90bd9eb855f430f71544973e327572d7743dd5e63d757e950cd493e2bcf",
+            "mode": "100644",
+            "output": "skills/blockrun/docs/plans/2026-01-13-budget-tracking-design.md"
+          },
+          "install.sh": {
+            "digest": "58a98671e80aee9c19ba759e8670e978262eae383c3062e5aa5351f986bbcf88",
+            "mode": "100755",
+            "output": "skills/blockrun/install.sh"
+          },
+          "plugin.json": {
+            "digest": "c7131c9bca29bad5739fa48c61a8a853f0372c1679e0fea0abac1d4ea0e916b4",
+            "mode": "100644",
+            "output": "skills/blockrun/plugin.json"
+          },
+          "references/MODEL_GUIDE.md": {
+            "digest": "4b1bad892ca74265a68c4ec077e378635f07247cf26ff0cec9cd1c4c455c59e3",
+            "mode": "100644",
+            "output": "skills/blockrun/references/MODEL_GUIDE.md"
+          },
+          "references/PRICING.md": {
+            "digest": "97a6e5fe4c8666ab2af9b6b4ba93e9848341f66ae29983cffa8c75fab47aa123",
+            "mode": "100644",
+            "output": "skills/blockrun/references/PRICING.md"
+          },
+          "scripts/__init__.py": {
+            "digest": "c845844adf9d2ad4352430f1e4d6ffd339ddf032cd6fc2ef367af855b2f7cb7a",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/__init__.py"
+          },
+          "scripts/llm/__init__.py": {
+            "digest": "e8bb83428d1851f812d1138c317d965fc6961b21f6f8742708a44215c3fc4f9a",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/llm/__init__.py"
+          },
+          "scripts/llm/chat.py": {
+            "digest": "1b021e2cae2599d2c226b911eee45fc498f2cee2f85b54032279527d086c3ecc",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/llm/chat.py"
+          },
+          "scripts/llm/image.py": {
+            "digest": "056fe9deed5d322b73842dc65fd181f37964a5473cbb7ecf6118268fbd9b10ec",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/llm/image.py"
+          },
+          "scripts/llm/router.py": {
+            "digest": "03f14a4ddfa86da7ef85361ea555b9bcc92367b47c73716ebca92272b906560f",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/llm/router.py"
+          },
+          "scripts/run.py": {
+            "digest": "4f3e58c44b98e8259b944f7ca9adad365a5b2fdc05bf3ec4d6c3436937a243c4",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/run.py"
+          },
+          "scripts/utils/__init__.py": {
+            "digest": "f31bd81f55f90cdb725eac1d113ee99a9c3d5da657446a4e7d5e348be28e48ff",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/utils/__init__.py"
+          },
+          "scripts/utils/branding.py": {
+            "digest": "615c5a56ba9c70e5bd4c449a8f4dabc903c944c0dc8c2d08888fa3ac7475ced6",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/utils/branding.py"
+          },
+          "scripts/utils/config.py": {
+            "digest": "ea1484b47d4d3df8b999f5e2dae9904ef09f6753e9a9ca1a720954a99f5d24e5",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/utils/config.py"
+          },
+          "scripts/utils/spending.py": {
+            "digest": "68ef67e581f641c5e1cfca8a232c8a8b5fd0badcd319e7788462b359bd511a12",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/utils/spending.py"
+          },
+          "scripts/wallet/__init__.py": {
+            "digest": "c756bf81d8c4b7b84614f010e85776cdfa982e18fe519683cb0837db5a989999",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/wallet/__init__.py"
+          },
+          "scripts/wallet/balance.py": {
+            "digest": "ad3b36b3ec28988ea311a9828a8290ca565adee01417abe4c3a01043359b48cd",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/wallet/balance.py"
+          },
+          "scripts/wallet/status.py": {
+            "digest": "0469fcdb9b1ca5475840fc0097fe68fc963d1349cf144e6cb46bbe6a5284204e",
+            "mode": "100644",
+            "output": "skills/blockrun/scripts/wallet/status.py"
+          },
+          "skills/blockrun/SKILL.md": {
+            "digest": "f1658d2cde534f4b2ecf07c5f7509f55209781c071e2d3c02c6e0ce338711594",
+            "mode": "100644",
+            "output": "skills/blockrun/SKILL.md"
+          }
+        },
+        "supplements": {
+          "registry/licenses/blockrun-declared-MIT.txt": {
+            "digest": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+            "output": "upstream-notices/declared-MIT.txt",
+            "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+            "license": "MIT"
+          }
+        },
+        "obligations": [
+          {
+            "license": "MIT",
+            "files": [
+              ".claude-plugin/marketplace.json",
+              ".gitignore",
+              "BULLETPROOF_QUICKSTART.md",
+              "README.md",
+              "USDC_ON_BASE.md",
+              "assets/blockrun-agent-skill.png",
+              "assets/logo.txt",
+              "docs/plans/2026-01-13-budget-tracking-design.md",
+              "install.sh",
+              "plugin.json",
+              "references/MODEL_GUIDE.md",
+              "references/PRICING.md",
+              "scripts/__init__.py",
+              "scripts/llm/__init__.py",
+              "scripts/llm/chat.py",
+              "scripts/llm/image.py",
+              "scripts/llm/router.py",
+              "scripts/run.py",
+              "scripts/utils/__init__.py",
+              "scripts/utils/branding.py",
+              "scripts/utils/config.py",
+              "scripts/utils/spending.py",
+              "scripts/wallet/__init__.py",
+              "scripts/wallet/balance.py",
+              "scripts/wallet/status.py",
+              "skills/blockrun/SKILL.md"
+            ],
+            "notices": [
+              "README.md",
+              "plugin.json",
+              "registry/licenses/blockrun-declared-MIT.txt"
+            ],
+            "attribution": "BlockRunAI as credited by the original entry/README/plugin metadata, distributed from the pinned ubounty-app mirror. Declared MIT scope retained; earlier original availability is unverified, no claim of rights-holder certification.",
+            "source": "https://github.com/ubounty-app/blockrun-agent-wallet/blob/df56a233ed6cf9e373038bb37efd49bc5a12a6c5/README.md"
+          }
+        ]
+      }
+    },
     "clinpgx-historical-originals/skill-scientific-clinpgx-database": {
       "collection": "clinpgx-historical-originals",
       "id": "skill-scientific-clinpgx-database",
@@ -100749,6 +101164,114 @@
         "packages/claude-code/skill-ai-research-deep-research/.codex-plugin/plugin.json": "7b5be17a7e480d475d68aa89771b267f0adfede56b0ea6739b668a9282acab60",
         "packages/claude-code/skill-ai-research-deep-research/.cursor-plugin/plugin.json": "7b5be17a7e480d475d68aa89771b267f0adfede56b0ea6739b668a9282acab60",
         "packages/claude-code/skill-ai-research-deep-research/plugin.json": "4286afb5ffb3803e92d3ee89c33cddd7a96a5af54849b0bea1fdaa2f2a124aa7"
+      }
+    },
+    "shopify-declared-original/skill-web-development-shopify-development": {
+      "collection": "shopify-declared-original",
+      "id": "skill-web-development-shopify-development",
+      "root": "skills/shopify-development",
+      "revision": "9850b6b8e7c70e91e4704b29c5c71a3949848eb6",
+      "version": "1.0.0",
+      "license": "MIT",
+      "content_digest": "2a495a3be673ca4219328b4e30557e53d6a7bbd94052f73afa2d88a3a3c9984a",
+      "files": [
+        {
+          "path": "LICENSE",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/upstream-notices/LICENSE",
+          "digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+          "mode": "100644",
+          "size": 1073
+        },
+        {
+          "path": "skills/shopify-development/README.md",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/README.md",
+          "digest": "0322c90680e9d54ceb2620f8303e11b004776f1fb21bcd9820adfb3f0a1ad6fe",
+          "mode": "100644",
+          "size": 1739
+        },
+        {
+          "path": "skills/shopify-development/SKILL.md",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/SKILL.md",
+          "digest": "7aace9bf90f0bf5db393c9a7b18166bb68434274b575205d33eddaabfb6de99d",
+          "mode": "100644",
+          "size": 8883
+        },
+        {
+          "path": "skills/shopify-development/references/app-development.md",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/app-development.md",
+          "digest": "ea52e2b28ff51e04381a66823a85155b981becde52b477254f551ac7dff22601",
+          "mode": "100644",
+          "size": 10566
+        },
+        {
+          "path": "skills/shopify-development/references/extensions.md",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/extensions.md",
+          "digest": "c4443785b289cd070b2699c959a914501bf0eb947f7ae184fe6731f5bc8a9971",
+          "mode": "100644",
+          "size": 10680
+        },
+        {
+          "path": "skills/shopify-development/references/themes.md",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/themes.md",
+          "digest": "0a18523f8183f060d4867bec17a4f25f48f7e8cdbc0b6e543795dd00fa087c67",
+          "mode": "100644",
+          "size": 10324
+        },
+        {
+          "path": "skills/shopify-development/scripts/.gitignore",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/.gitignore",
+          "digest": "77a3fc51977b7b652471b2106533b44f09d65981421fe946be66df1cc3a18729",
+          "mode": "100644",
+          "size": 375
+        },
+        {
+          "path": "skills/shopify-development/scripts/requirements.txt",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/requirements.txt",
+          "digest": "ff02bd21c424070c78b466debfc2748ea3f42f43c5d4bd888c6be2c38e3bee45",
+          "mode": "100644",
+          "size": 452
+        },
+        {
+          "path": "skills/shopify-development/scripts/shopify_graphql.py",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_graphql.py",
+          "digest": "88d7b9876e9d8d0d56074af3c9645ccbf249da995c638b1df37631618f6de0ea",
+          "mode": "100644",
+          "size": 12650
+        },
+        {
+          "path": "skills/shopify-development/scripts/shopify_init.py",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_init.py",
+          "digest": "7068d0208872c41a39625f2d63a0bb02b003329b787a04b9e0b105c5ab1a7ecb",
+          "mode": "100644",
+          "size": 13187
+        },
+        {
+          "path": "skills/shopify-development/scripts/tests/test_shopify_init.py",
+          "output_path": "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/tests/test_shopify_init.py",
+          "digest": "01266a605d5d73a250d8f8519f3b322522f2295096b9d6adc70da26b2f8f1442",
+          "mode": "100644",
+          "size": 13245
+        }
+      ],
+      "generated": {
+        "packages/claude-code/skill-web-development-shopify-development/.claude-plugin/plugin.json": "c49862bb6e56aa448cc558a59ec272d4c7793003d0b34576dd071ad18866a15f",
+        "packages/claude-code/skill-web-development-shopify-development/provenance.json": "0d78fe8dd9d847e32dc08feb528a5af0112b498f35b53e54e368c613f6dbb257",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/README.md": "0322c90680e9d54ceb2620f8303e11b004776f1fb21bcd9820adfb3f0a1ad6fe",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/SKILL.md": "7aace9bf90f0bf5db393c9a7b18166bb68434274b575205d33eddaabfb6de99d",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/app-development.md": "ea52e2b28ff51e04381a66823a85155b981becde52b477254f551ac7dff22601",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/extensions.md": "c4443785b289cd070b2699c959a914501bf0eb947f7ae184fe6731f5bc8a9971",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/references/themes.md": "0a18523f8183f060d4867bec17a4f25f48f7e8cdbc0b6e543795dd00fa087c67",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/.gitignore": "77a3fc51977b7b652471b2106533b44f09d65981421fe946be66df1cc3a18729",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/requirements.txt": "ff02bd21c424070c78b466debfc2748ea3f42f43c5d4bd888c6be2c38e3bee45",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_graphql.py": "88d7b9876e9d8d0d56074af3c9645ccbf249da995c638b1df37631618f6de0ea",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/shopify_init.py": "7068d0208872c41a39625f2d63a0bb02b003329b787a04b9e0b105c5ab1a7ecb",
+        "packages/claude-code/skill-web-development-shopify-development/skills/shopify-development/scripts/tests/test_shopify_init.py": "01266a605d5d73a250d8f8519f3b322522f2295096b9d6adc70da26b2f8f1442",
+        "packages/claude-code/skill-web-development-shopify-development/upstream-notices/LICENSE": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d"
+      },
+      "delivery": {
+        "packages/claude-code/skill-web-development-shopify-development/.codex-plugin/plugin.json": "64cc3f8e1b07d6eb6cc788e9edbee1fc0efa89b6da986d0c49fe4d0c7c75642f",
+        "packages/claude-code/skill-web-development-shopify-development/.cursor-plugin/plugin.json": "64cc3f8e1b07d6eb6cc788e9edbee1fc0efa89b6da986d0c49fe4d0c7c75642f",
+        "packages/claude-code/skill-web-development-shopify-development/plugin.json": "108610b367480e3b8f4af9880e0cc70363d77e9e3470ee9860ad5e4060309a08"
       }
     },
     "swift-declared-original/skill-development-swift-concurrency-expert": {

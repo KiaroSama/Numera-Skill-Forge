@@ -65,6 +65,12 @@
       "version": "1.0.0"
     },
     {
+      "description": "Original upstream skill: skills/blockrun",
+      "name": "skill-web-development-blockrun",
+      "source": "./packages/claude-code/skill-web-development-blockrun",
+      "version": "1.0.0"
+    },
+    {
       "description": "Original upstream skill: scientific-skills/clinpgx-database",
       "name": "skill-scientific-clinpgx-database",
       "source": "./packages/claude-code/skill-scientific-clinpgx-database",
@@ -6170,6 +6176,12 @@
       "description": "Original upstream skill: skills/deep-research",
       "name": "skill-ai-research-deep-research",
       "source": "./packages/claude-code/skill-ai-research-deep-research",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/shopify-development",
+      "name": "skill-web-development-shopify-development",
+      "source": "./packages/claude-code/skill-web-development-shopify-development",
       "version": "1.0.0"
     },
     {

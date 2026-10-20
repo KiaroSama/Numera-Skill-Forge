@@ -1,6 +1,6 @@
 # Completion of the remaining skill review
 
-**2026-10-20 reaffirmed update:** [119 canonical additions](missing-skill-imports.md) now resolve the missing inventory; accepted total is1159 including separate reverse/CTF packages. The latest13additions preserve all1146 preceding Accepted objects and add693original records. Thirty-four canonical roots remain held (30Templates/four scientific Office) for specific restriction, source, terms or unresolved compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
+**2026-10-20 reaffirmed update:** [121 canonical additions](missing-skill-imports.md) now resolve the missing inventory; accepted total is1161 including separate reverse/CTF packages. The earlier13additions preserve all1146 preceding Accepted objects and add693original records. Two further complete Shopify/BlockRun originals preserve all1159preceding objects and add37records, bringing the total to9664records/33collections. Thirty-two canonical roots remain held (28Templates/four scientific Office) for specific restriction, source, terms or unresolved compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
 
 The 299 previously held roots were checked against immutable originals, complete selected payloads,
 source grants, notices, native requirements and actual package admission. This pass adds **164**
@@ -69,11 +69,18 @@ name-only corrections and three prominent documentation change notices keep exac
   repository layout and original MIT/GPL/src-hunter/credited notices. Supply repository path explicitly.
   This is one workspace-dependent bundle, not89independent packages or personal activation.
 
-The34canonical holds remain individually identified in the current table:17explicit Office aliases,
-the missing-proprietary-terms PDF variant, two inaccessible original sources, ungranted D3/Remotion/
+Two further canonical originals are now included: Shopify's10files plus rootMIT at9850b6b8 and
+BlockRun's full26-file mirror at df56a233 with byte-identical canonical entry, actual MIT declarations
+and standard terms. Earlier Shopify provenance and BlockRun original availability remain uncertain.
+The contained BlockRun scripts/references accompany its native entry; original plugin metadata is
+inert. Its old installer URL, SDK/wallet/funding/payment/model behavior are not validated or activated.
+All1159preceding objects are unchanged; current total1161packages/9664records/33collections.
+
+The32canonical holds remain individually identified in the current table:17explicit Office aliases,
+the missing-proprietary-terms PDF variant, inaccessible AgentManager source, ungranted D3/Remotion/
 Claude migration/doc-coauthoring/template roots, InternetCourt required NoLicense vendors, paper
 source/license closure, copied Anthropic writing documentation, three earlier-source security cases,
-missing skill-share terms and earlier Shopify scope. AnimateUI's separate explicit component-bundle
+and missing skill-share terms. AnimateUI's separate explicit component-bundle
 restriction remains; Codeberg retrieval remains refused. Unknown rights are not called a prohibition.
 Every known corresponding public original repository URL is now in the source-only references file;
 links do not imply successful import. No source instructions/scripts/tools/accounts were activated.

@@ -38,7 +38,19 @@ register MCP, grant rights to third-party website assets or license commercial a
 The latest13packages add693original payload/notice records and preserve all1146preceding Accepted
 objects. Total1159packages/9627records/31collections;1155ordinary marketplace entries plus four
 required-native bundles. Twelve formerly held canonical roots now have complete packages, leaving
-34of153canonical roots held. Separate AnimateUI and Codeberg conditions remain explicit.
+34of153canonical roots held at that milestone. Two further Shopify/BlockRun originals now bring
+the current total to1161packages/9664records/33collections,1157ordinary entries and four required-native
+bundles, with121of153canonical roots added and32held. All1159preceding objects remain unchanged.
+Separate AnimateUI and Codeberg conditions remain explicit.
+
+Shopify preserves all10original skill files plus actual AntigravityUser MIT at sickn33/agentic-awesome-skills
+9850b6b8; its README also declares MIT. Earlier zircote provenance remains disclosed uncertainty.
+BlockRun preserves all26files/modes from ubounty-app/blockrun-agent-wallet df56a233; its native entry
+is byte-identical to the canonical source. Actual README/plugin metadata declare MIT; standard MIT
+terms are retained without invented copyright. The mirror/original-source availability remains
+qualified. References and scripts sit beside the native entry; original plugin metadata remains inert.
+The original installer's unavailable origin, external SDK, wallets/funding/payments/model calls are not
+validated, executed or authorized by packaging.
 
 | Original source | New packages | Actual declared scope |
 | --- | --- | --- |
@@ -75,8 +87,8 @@ access-blocked, not declared unlicensed or equivalent to another source. See
 ## Published scope
 
 The current collection contains **820 davila-source packages** across two source registrations,
-plus339 packages from the other29registered collections, for **1159 total** and
-**9627 payload/notice records**. The reaffirmed13-package additions described above supersede the
+plus341 packages from the other31registered collections, for **1161 total** and
+**9664 payload/notice records**. The reaffirmed13-package additions described above supersede the
 historical remaining counts in the following earlier milestone. The latest35 additions
 preserve all1110 preceding accepted objects;107of153 missing canonical roots now have packages,
 with46precisely held. New scoped distributions include unchanged GPLv3 NeoLab originals and

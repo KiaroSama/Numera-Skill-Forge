@@ -40,6 +40,8 @@ SELECTED = [
     ("swift-declared-original", "skill-development-swift-concurrency-expert", "claude-code", ".claude/skills"),
     ("templates-declared-originals", "skill-development-git-commit-helper", "claude-code", ".claude/skills"),
     ("axolotl-original-docs", "skill-ai-research-fine-tuning-axolotl", "claude-code", ".claude/skills"),
+    ("shopify-declared-original", "skill-web-development-shopify-development", "claude-code", ".claude/skills"),
+    ("blockrun-declared-original", "skill-web-development-blockrun", "claude-code", ".claude/skills"),
 ]
 
 

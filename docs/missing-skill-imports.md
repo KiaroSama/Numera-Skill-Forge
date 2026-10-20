@@ -1,7 +1,7 @@
 # Missing skill imports
 
-The canonical import now resolves **119 independently selectable packages**. Together with the
-separate reverse/CTF sources, the accepted inventory is **1159 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
+The canonical import now resolves **121 independently selectable packages**. Together with the
+separate reverse/CTF sources, the accepted inventory is **1161 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
 records** remain unchanged. Importing instructions never executes scripts, installs hooks or
 activates external services.
 
@@ -13,7 +13,9 @@ Swift and eight Templates originals. Four reviewed name repairs and three docume
 notices retain exact original copies. The full599-file reverse workspace is separately one bundle,
 with89original entrypoints as routed resources and its original optional adapter. Source declarations
 and residual earlier-chain uncertainty are documented, never falsely certified as universal grants.
-The current canonical table is **119added /34held**; AnimateUI and Codeberg remain separately
+Two further complete Shopify and BlockRun originals preserve all1159preceding objects and add37records;
+total9664records/33collections. Actual declared MIT notices and earlier-source uncertainty are retained.
+The current canonical table is **121added /32held**; AnimateUI and Codeberg remain separately
 accounted. See [current terms](source-licenses.md#reaffirmed-original-distributions),
 [exact outcomes](canonical-root-outcomes.md) and [repository references](reference-repositories.md).
 

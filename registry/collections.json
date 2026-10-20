@@ -28332,6 +28332,229 @@
           }
         }
       ]
+    },
+    {
+      "id": "shopify-declared-original",
+      "repository": "https://github.com/sickn33/agentic-awesome-skills.git",
+      "branch": "main",
+      "reviewed_revision": "9850b6b8e7c70e91e4704b29c5c71a3949848eb6",
+      "skills": [
+        {
+          "id": "skill-web-development-shopify-development",
+          "root": "skills/shopify-development",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+          "attribution": "Complete ten-file original Shopify development source and actual AntigravityUser MIT notice. Skill README also explicitly declares MIT. Earlier zircote/.claude contributor provenance remains uncertain and is not certified as a separate unrestricted grant or original authorship; its personal-use description is not an express redistribution prohibition. Original README, references, scripts and tests are unchanged. No Shopify store, CLI, wallet, account or upstream source code is executed or activated."
+        }
+      ]
+    },
+    {
+      "id": "blockrun-declared-original",
+      "repository": "https://github.com/ubounty-app/blockrun-agent-wallet.git",
+      "branch": "main",
+      "reviewed_revision": "df56a233ed6cf9e373038bb37efd49bc5a12a6c5",
+      "skills": [
+        {
+          "id": "skill-web-development-blockrun",
+          "root": "skills/blockrun",
+          "license": "MIT",
+          "license_path": "",
+          "license_digest": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "notices": [
+            {
+              "path": "registry/licenses/blockrun-declared-MIT.txt",
+              "digest": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+              "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+              "license": "MIT"
+            }
+          ],
+          "attribution": "Complete 26-file declared-MIT BlockRun mirror, exact canonical entry and all original scripts/assets/docs/modes. Actual README and plugin.json declare MIT; unaltered standard MIT text supplement retains template placeholders rather than inventing copyright. Original BlockRunAI credit retained; original source availability and mirror provenance remain uncertain. Root references/scripts are beside the entry; original plugin metadata is inert, not registered. SDK, inaccessible original installer URL, wallet creation, funding, payments and model calls are separate unverified prerequisites/actions, never executed or authorized by packaging.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              ".claude-plugin/marketplace.json": {
+                "digest": "d8f573cb2f09c8b58d9ec2020c18de8285379a40394e9dcf4bbc749ba85c0be9",
+                "mode": "100644",
+                "output": "skills/blockrun/.claude-plugin/marketplace.json"
+              },
+              ".gitignore": {
+                "digest": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+                "mode": "100644",
+                "output": "skills/blockrun/.gitignore"
+              },
+              "BULLETPROOF_QUICKSTART.md": {
+                "digest": "b71f34d145b2bfc313960bf7b97b64a1a5645118d17639e691989e8644bdee58",
+                "mode": "100644",
+                "output": "skills/blockrun/BULLETPROOF_QUICKSTART.md"
+              },
+              "README.md": {
+                "digest": "de1e0b683dbec8482d71ef9345680f9d2e2b222ff14868630412bbfb56860740",
+                "mode": "100644",
+                "output": "skills/blockrun/README.md"
+              },
+              "USDC_ON_BASE.md": {
+                "digest": "d819a848e82fd1f2036462f319ef6225104e98ce9cc643b9fe19c041764712fb",
+                "mode": "100644",
+                "output": "skills/blockrun/USDC_ON_BASE.md"
+              },
+              "assets/blockrun-agent-skill.png": {
+                "digest": "e1833fa99c216653103f8cd91247f7c61a38fbac944053f57e413c1fc04a8765",
+                "mode": "100644",
+                "output": "skills/blockrun/assets/blockrun-agent-skill.png"
+              },
+              "assets/logo.txt": {
+                "digest": "fbc489905a38677f46d9370e5e99ec42250f6d862a896e82530d9ea9c9d29144",
+                "mode": "100644",
+                "output": "skills/blockrun/assets/logo.txt"
+              },
+              "docs/plans/2026-01-13-budget-tracking-design.md": {
+                "digest": "788eb90bd9eb855f430f71544973e327572d7743dd5e63d757e950cd493e2bcf",
+                "mode": "100644",
+                "output": "skills/blockrun/docs/plans/2026-01-13-budget-tracking-design.md"
+              },
+              "install.sh": {
+                "digest": "58a98671e80aee9c19ba759e8670e978262eae383c3062e5aa5351f986bbcf88",
+                "mode": "100755",
+                "output": "skills/blockrun/install.sh"
+              },
+              "plugin.json": {
+                "digest": "c7131c9bca29bad5739fa48c61a8a853f0372c1679e0fea0abac1d4ea0e916b4",
+                "mode": "100644",
+                "output": "skills/blockrun/plugin.json"
+              },
+              "references/MODEL_GUIDE.md": {
+                "digest": "4b1bad892ca74265a68c4ec077e378635f07247cf26ff0cec9cd1c4c455c59e3",
+                "mode": "100644",
+                "output": "skills/blockrun/references/MODEL_GUIDE.md"
+              },
+              "references/PRICING.md": {
+                "digest": "97a6e5fe4c8666ab2af9b6b4ba93e9848341f66ae29983cffa8c75fab47aa123",
+                "mode": "100644",
+                "output": "skills/blockrun/references/PRICING.md"
+              },
+              "scripts/__init__.py": {
+                "digest": "c845844adf9d2ad4352430f1e4d6ffd339ddf032cd6fc2ef367af855b2f7cb7a",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/__init__.py"
+              },
+              "scripts/llm/__init__.py": {
+                "digest": "e8bb83428d1851f812d1138c317d965fc6961b21f6f8742708a44215c3fc4f9a",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/llm/__init__.py"
+              },
+              "scripts/llm/chat.py": {
+                "digest": "1b021e2cae2599d2c226b911eee45fc498f2cee2f85b54032279527d086c3ecc",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/llm/chat.py"
+              },
+              "scripts/llm/image.py": {
+                "digest": "056fe9deed5d322b73842dc65fd181f37964a5473cbb7ecf6118268fbd9b10ec",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/llm/image.py"
+              },
+              "scripts/llm/router.py": {
+                "digest": "03f14a4ddfa86da7ef85361ea555b9bcc92367b47c73716ebca92272b906560f",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/llm/router.py"
+              },
+              "scripts/run.py": {
+                "digest": "4f3e58c44b98e8259b944f7ca9adad365a5b2fdc05bf3ec4d6c3436937a243c4",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/run.py"
+              },
+              "scripts/utils/__init__.py": {
+                "digest": "f31bd81f55f90cdb725eac1d113ee99a9c3d5da657446a4e7d5e348be28e48ff",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/utils/__init__.py"
+              },
+              "scripts/utils/branding.py": {
+                "digest": "615c5a56ba9c70e5bd4c449a8f4dabc903c944c0dc8c2d08888fa3ac7475ced6",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/utils/branding.py"
+              },
+              "scripts/utils/config.py": {
+                "digest": "ea1484b47d4d3df8b999f5e2dae9904ef09f6753e9a9ca1a720954a99f5d24e5",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/utils/config.py"
+              },
+              "scripts/utils/spending.py": {
+                "digest": "68ef67e581f641c5e1cfca8a232c8a8b5fd0badcd319e7788462b359bd511a12",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/utils/spending.py"
+              },
+              "scripts/wallet/__init__.py": {
+                "digest": "c756bf81d8c4b7b84614f010e85776cdfa982e18fe519683cb0837db5a989999",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/wallet/__init__.py"
+              },
+              "scripts/wallet/balance.py": {
+                "digest": "ad3b36b3ec28988ea311a9828a8290ca565adee01417abe4c3a01043359b48cd",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/wallet/balance.py"
+              },
+              "scripts/wallet/status.py": {
+                "digest": "0469fcdb9b1ca5475840fc0097fe68fc963d1349cf144e6cb46bbe6a5284204e",
+                "mode": "100644",
+                "output": "skills/blockrun/scripts/wallet/status.py"
+              },
+              "skills/blockrun/SKILL.md": {
+                "digest": "f1658d2cde534f4b2ecf07c5f7509f55209781c071e2d3c02c6e0ce338711594",
+                "mode": "100644",
+                "output": "skills/blockrun/SKILL.md"
+              }
+            },
+            "supplements": {
+              "registry/licenses/blockrun-declared-MIT.txt": {
+                "digest": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+                "output": "upstream-notices/declared-MIT.txt",
+                "source": "https://github.com/spdx/license-list-data/blob/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+                "license": "MIT"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  ".claude-plugin/marketplace.json",
+                  ".gitignore",
+                  "BULLETPROOF_QUICKSTART.md",
+                  "README.md",
+                  "USDC_ON_BASE.md",
+                  "assets/blockrun-agent-skill.png",
+                  "assets/logo.txt",
+                  "docs/plans/2026-01-13-budget-tracking-design.md",
+                  "install.sh",
+                  "plugin.json",
+                  "references/MODEL_GUIDE.md",
+                  "references/PRICING.md",
+                  "scripts/__init__.py",
+                  "scripts/llm/__init__.py",
+                  "scripts/llm/chat.py",
+                  "scripts/llm/image.py",
+                  "scripts/llm/router.py",
+                  "scripts/run.py",
+                  "scripts/utils/__init__.py",
+                  "scripts/utils/branding.py",
+                  "scripts/utils/config.py",
+                  "scripts/utils/spending.py",
+                  "scripts/wallet/__init__.py",
+                  "scripts/wallet/balance.py",
+                  "scripts/wallet/status.py",
+                  "skills/blockrun/SKILL.md"
+                ],
+                "notices": [
+                  "README.md",
+                  "plugin.json",
+                  "registry/licenses/blockrun-declared-MIT.txt"
+                ],
+                "attribution": "BlockRunAI as credited by the original entry/README/plugin metadata, distributed from the pinned ubounty-app mirror. Declared MIT scope retained; earlier original availability is unverified, no claim of rights-holder certification.",
+                "source": "https://github.com/ubounty-app/blockrun-agent-wallet/blob/df56a233ed6cf9e373038bb37efd49bc5a12a6c5/README.md"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

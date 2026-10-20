@@ -29,3 +29,5 @@
 - https://github.com/zircote/.claude
 - https://github.com/MyuriKanao/src-hunter-skill
 - https://github.com/3516634930/Payloader
+- https://github.com/sickn33/agentic-awesome-skills
+- https://github.com/ubounty-app/blockrun-agent-wallet

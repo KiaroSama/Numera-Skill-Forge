@@ -1,7 +1,7 @@
 # Canonical missing-root outcomes
 
-This table accounts for all **153 canonical roots** absent at the start of the import: **119 added**,
-**34 held** (30 Templates and four scientific Office roots). It maps coverage, not byte-for-byte
+This table accounts for all **153 canonical roots** absent at the start of the import: **121 added**,
+**32 held** (28 Templates and four scientific Office roots). It maps coverage, not byte-for-byte
 fork equivalence. Complete-original and guide routes intentionally differ from incomplete mirrors.
 Acquisition never executes upstream code. Required DoorDash hooks have a separate isolated account-free CI fixture; no personal activation, models, accounts or orders are implied.
 
@@ -15,6 +15,9 @@ All1146preceding Accepted objects remain unchanged. Specific restrictions, absen
 and inaccessible sources remain distinct from speculative earlier lineage. The full599-file reverse
 workspace is separately added and does not count as a canonical153-root addition. See
 [current source outcomes](remaining-skill-disposition.md#reaffirmed-imports-and-declared-grants).
+A further complete Shopify original and26-file BlockRun mirror resolve two more canonical roots,
+with37immutable records and declared MIT notices; all1159preceding objects remain unchanged.
+The mirror's original-source availability and earlier Shopify provenance stay explicitly uncertain.
 
 | Canonical root | Current outcome | Package or exact blocker | Next admission requirement |
 | --- | --- | --- | --- |
@@ -161,9 +164,9 @@ workspace is separately added and does not count as a canonical153-root addition
 | `utilities/skill-share` | Held: missing-specific-terms | Accepted and original Composio entry explicitly license:Complete terms in LICENSE.txt; whole original skill directory lacks that file. READMEApache default cannot silently replace missing specific terms. | Supply the original referenced LICENSE.txt with verified provenance and establish permission scope; a default README license cannot replace specific missing terms. |
 | `utilities/template-skill` | Held: source-permission | Actual anthropics/skills f232228244495c018b3c1857436cf491ebb79bbb and current legal trees have no root license or scoped license for these roots. README says many skills Apache, not an identified grant for these specific files; other skill licenses cannot be borrowed. | Obtain an affirmative original rights-holder grant for this exact root and companions, or a verified complete licensed replacement; another skill or aggregator license does not cover it. |
 | `video/remotion` | Held: source-permission | Exact original remotion-dev/skills9550e1643dd451d3f8c131579d8ae827b2ce3eea full36-file tree contains no license; package.json has no license and points back to remotion monorepo with proprietary two-tier license. Current skills tree/README still no identified redistribution grant. Downstream MIT frontmatter alone insufficient. | Obtain an affirmative original rights-holder grant for this exact root and companions, or a verified complete licensed replacement; another skill or aggregator license does not cover it. |
-| `web-development/blockrun` | Held: source-access | Direct original contribution4dcd96e pointsBlockRunAI/blockrun-agent-wallet; actual original repository/branches404. Current organizationSDK/MCP/ClawRouter repos do not establish verified relocation or exact wallet-skill grant. No wallet/payment/model calls performed. | Provide an accessible immutable original or verified relocation, complete payload and a grant covering these exact bytes; a repository name or404 cannot establish rights. |
+| `web-development/blockrun` | Added: complete declared-MIT mirror | [skill-web-development-blockrun](../packages/claude-code/skill-web-development-blockrun) | All26original files/modes at ubounty-app df56a233; canonical entry exactly equal. Actual README/plugin MIT plus standard terms retained. Original BlockRunAI availability/mirror provenance remain uncertain; no installer, wallet/payment/model action or runtime assurance. |
 | `web-development/react-state-management` | Added: complete original | [skill-web-development-react-state-management](../packages/claude-code/skill-web-development-react-state-management) | Accepted; preserve registered source, notices and approval-bound update policy. |
-| `web-development/shopify-development` | Held: earlier-source-permission | Contributor vuth-dogo9850b6b8 ownREADME MIT, but explicitly cites earlier zircote/.claude. references/themes.md exact earlier source, extensions/script substantial adapted diffs. Full1235entry zircote tree no root/Shopify specific license; rootREADME only Personal configuration-adapt for own use. Third-party notice lists unrelated material, not Shopify grant. | Establish the earlier zircote Shopify material reproduction/derivative grant and notices for themes/extensions/scripts; the later contributor MIT does not settle earlier scope. |
+| `web-development/shopify-development` | Added: complete declared-MIT original | [skill-web-development-shopify-development](../packages/claude-code/skill-web-development-shopify-development) | All10original skill files and actual rootMIT at9850b6b8 retained; ownREADME MIT. Earlier zircote source-chain uncertainty disclosed rather than certified cleared or treated as an express prohibition. No Shopify CLI/store/account action. |
 | `web-development/zustand-store-ts` | Added: complete original | [skill-web-development-zustand-store-ts](../packages/claude-code/skill-web-development-zustand-store-ts) | Accepted; preserve registered source, notices and approval-bound update policy. |
 | `workflow-automation/github-actions-templates` | Added: complete repaired original | [skill-workflow-automation-github-actions-templates](../packages/claude-code/skill-workflow-automation-github-actions-templates) | Accepted at author0874a27; complete inline workflow examples no longer require phantom assets. Preserve exact source and MIT notice. |
 | `workflow-automation/github-automation` | Added: complete original | [skill-workflow-automation-github-automation](../packages/claude-code/skill-workflow-automation-github-automation) | Complete licensed original source, companions and actual notices retained; not a claim of edited-mirror byte equivalence. |

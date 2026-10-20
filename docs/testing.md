@@ -26,8 +26,8 @@ once in CI on the pushed SHA, not duplicated locally.
 ## Actual release CLI tier
 
 On every Linux CI run, `scripts/verify-cli-lifecycle.py` executes the actual release binary from an
-unrelated working directory against fresh isolated consumers. Twenty-seven representative packages from
-eighteen of the31registered collections exercise catalog/build, preview/no-write, installation with complete
+unrelated working directory against fresh isolated consumers. Twenty-nine representative packages from
+twenty of the33registered collections exercise catalog/build, preview/no-write, installation with complete
 companions/notices and original modes, repeat no-op, disable/enable, edited-file uninstall refusal,
 distinct-source same-name collision, unsupported native-only refusal, rollback and uninstall.
 An inert first-party Git repository additionally verifies prompt-only safe updates, installed receipt

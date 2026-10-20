@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/shopify-development",
+  "license": "MIT",
+  "name": "skill-web-development-shopify-development",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}
