@@ -103,11 +103,15 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, Forge now accepts
-**1161 packages**: **1157 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [missing-root additions](docs/missing-skill-imports.md) include approved
+**1164 packages**: **1160 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [missing-root additions](docs/missing-skill-imports.md) include approved
 name-only adaptations, complete original-source packages, transparent guide adapters and reviewed
 layout/license-compliance repairs. The latest13 additions preserve all1146 preceding accepted objects,
 adding693 original payload/notice records. Two further complete Shopify/BlockRun originals add37records,
-preserving all1159preceding objects: **9664records across33collections**. There are121resolved canonical roots and32remaining;
+preserving all1159preceding objects. Three complete Zebbern originals now preserve all1161preceding
+objects and add eight original records: **9672records across34collections**. There are124resolved canonical roots and29remaining;
+the two HackTricks-derived packages retain separate **CC-BY-NC-4.0 NonCommercial-only** conditions,
+full terms, attribution and prominent distribution notices. They are not relicensed under Forge's GPL
+or unrestricted MIT; see [scoped licensing](docs/source-licenses.md#separate-noncommercial-originals).
 Animate UI is additionally
 listed as a source reference pending clarification of its custom redistribution terms. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488

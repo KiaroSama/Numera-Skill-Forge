@@ -1,0 +1,35 @@
+{
+  "collection": "zebbern-reviewed-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-active-directory-attacks/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1064
+    },
+    {
+      "digest": "af2d30b2cfa6c4ee2ca8e18feed7c27e02a54920b7ffe8409a78db3e5c62da21",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-active-directory-attacks/skills/active-directory-attacks/SKILL.md",
+      "path": "skills/active-directory-attacks/SKILL.md",
+      "size": 10184,
+      "source_digest": "a086e99cb5f9a45f9499a465800189739acd65c555559960af52cdd2c3fcc61e"
+    },
+    {
+      "digest": "c43978edcc4c3214261e3f764a6d11d93011062065e3de4fb77e3862f210a562",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-active-directory-attacks/skills/active-directory-attacks/references/advanced-attacks.md",
+      "path": "skills/active-directory-attacks/references/advanced-attacks.md",
+      "size": 10676,
+      "source_digest": "2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316"
+    }
+  ],
+  "license": "MIT AND CC-BY-NC-4.0",
+  "payload_digest": "0a4d2447541a959e410395a85a8853eaa38423d04ac72f59221cd897dc746722",
+  "repository": "https://github.com/zebbern/claude-code-guide.git",
+  "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+  "root": "skills/active-directory-attacks",
+  "schema_version": 1
+}

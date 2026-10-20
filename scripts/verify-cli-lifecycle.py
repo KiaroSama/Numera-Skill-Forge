@@ -42,6 +42,8 @@ SELECTED = [
     ("axolotl-original-docs", "skill-ai-research-fine-tuning-axolotl", "claude-code", ".claude/skills"),
     ("shopify-declared-original", "skill-web-development-shopify-development", "claude-code", ".claude/skills"),
     ("blockrun-declared-original", "skill-web-development-blockrun", "claude-code", ".claude/skills"),
+    ("zebbern-reviewed-originals", "skill-security-active-directory-attacks", "claude-code", ".claude/skills"),
+    ("zebbern-reviewed-originals", "skill-security-top-web-vulnerabilities", "claude-code", ".claude/skills"),
 ]
 
 

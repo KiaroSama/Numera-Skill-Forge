@@ -1,0 +1,35 @@
+{
+  "collection": "zebbern-reviewed-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-cloud-penetration-testing/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1064
+    },
+    {
+      "digest": "eed4b81d900c1f8228d7f40a935b2d4a44d93b9fc00d00cad52251d23da29777",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-cloud-penetration-testing/skills/cloud-penetration-testing/SKILL.md",
+      "path": "skills/cloud-penetration-testing/SKILL.md",
+      "size": 14807,
+      "source_digest": "73527a8c1f4d8175086fefe25b9cadd858f138fea6b76ad35b58f5db7d5a1efc"
+    },
+    {
+      "digest": "4c220ea01aaae7821c8991671567752865926e2b9acdd9636d3dfb114df2de31",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-cloud-penetration-testing/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
+      "path": "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
+      "size": 12743,
+      "source_digest": "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff"
+    }
+  ],
+  "license": "MIT AND CC-BY-NC-4.0",
+  "payload_digest": "26f96a7f43a8870a797d53d99b0cd386c811ecf027d96797644160e0794ba6c3",
+  "repository": "https://github.com/zebbern/claude-code-guide.git",
+  "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+  "root": "skills/cloud-penetration-testing",
+  "schema_version": 1
+}

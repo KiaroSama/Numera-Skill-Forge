@@ -26546,175 +26546,175 @@
                 "mode": "100644",
                 "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md": {
                 "digest": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md": {
                 "digest": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md": {
                 "digest": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md": {
                 "digest": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md": {
                 "digest": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md": {
                 "digest": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md": {
                 "digest": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md": {
                 "digest": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md": {
                 "digest": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md": {
                 "digest": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md": {
                 "digest": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md": {
                 "digest": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md": {
                 "digest": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md": {
                 "digest": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md": {
                 "digest": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md": {
                 "digest": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md": {
                 "digest": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md": {
                 "digest": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md": {
                 "digest": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md": {
                 "digest": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md": {
                 "digest": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md": {
                 "digest": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md": {
                 "digest": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md": {
                 "digest": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md": {
                 "digest": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md": {
                 "digest": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md": {
                 "digest": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md": {
                 "digest": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md": {
                 "digest": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md": {
                 "digest": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md": {
                 "digest": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md": {
                 "digest": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md": {
                 "digest": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md": {
                 "digest": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md"
               },
               "skills/pentest-tools/src-hunter/references/payloader/index.md": {
                 "digest": "089fd77453da1971ba3fc3c3858494eadfda4312f2cbcedc6717ec5eb36c5db2",
@@ -26736,70 +26736,70 @@
                 "mode": "100644",
                 "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/raw/web.json"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md": {
                 "digest": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md": {
                 "digest": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md": {
                 "digest": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md": {
                 "digest": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md": {
                 "digest": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md": {
                 "digest": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md": {
                 "digest": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md": {
                 "digest": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md": {
                 "digest": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md": {
                 "digest": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md": {
                 "digest": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md": {
                 "digest": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md"
               },
-              "skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md": {
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md": {
                 "digest": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md"
+                "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md"
               },
               "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md": {
                 "digest": "0273517455962bb9908264f82e4708b31d541c91c2ec715e8032d6c1376728b5",
@@ -27724,57 +27724,57 @@
                   "skills/pentest-tools/src-hunter/references/methodology/03-evidence-discipline.md",
                   "skills/pentest-tools/src-hunter/references/methodology/04-control-gap-hunting.md",
                   "skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md",
                   "skills/pentest-tools/src-hunter/references/payloader/index.md",
                   "skills/pentest-tools/src-hunter/references/payloader/raw/navigation.json",
                   "skills/pentest-tools/src-hunter/references/payloader/raw/tools.json",
                   "skills/pentest-tools/src-hunter/references/payloader/raw/web.json",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md",
-                  "skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md",
+                  "skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md",
                   "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
                   "skills/pentest-tools/src-hunter/references/playbooks/00-index.md",
                   "skills/pentest-tools/src-hunter/references/playbooks/api-rest.md",
@@ -28553,6 +28553,169 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "id": "zebbern-reviewed-originals",
+      "repository": "https://github.com/zebbern/claude-code-guide.git",
+      "branch": "main",
+      "reviewed_revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+      "skills": [
+        {
+          "id": "skill-security-active-directory-attacks",
+          "root": "skills/active-directory-attacks",
+          "license": "MIT AND CC-BY-NC-4.0",
+          "license_path": "LICENSE",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "attribution": "Complete original Zebbern source and MIT notice retained; no source execution or security-target authorization. Earlier HackTricks material by Carlos Polop is separately NonCommercial-only under CC-BY-NC-4.0 with full original terms, attribution and prominent adaptation notice. Forge code remains separately GPL; no blanket relicensing.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "skills/active-directory-attacks/SKILL.md": {
+                "digest": "a086e99cb5f9a45f9499a465800189739acd65c555559960af52cdd2c3fcc61e",
+                "mode": "100644",
+                "output": "skills/active-directory-attacks/SKILL.md",
+                "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/active-directory-attacks. HackTricks: https://book.hacktricks.wiki/."
+              },
+              "skills/active-directory-attacks/references/advanced-attacks.md": {
+                "digest": "2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316",
+                "mode": "100644",
+                "output": "skills/active-directory-attacks/references/advanced-attacks.md",
+                "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/active-directory-attacks. HackTricks: https://book.hacktricks.wiki/."
+              }
+            },
+            "supplements": {
+              "registry/licenses/hacktricks-NC-original.txt": {
+                "digest": "1ee61457b57cf7098fce9a7a02ef8a95037e7ae3ce4245e68e6f1d9e2b99ea44",
+                "output": "upstream-notices/hacktricks-NC-original.txt",
+                "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md",
+                "license": "CC-BY-NC-4.0"
+              },
+              "registry/licenses/CC-BY-NC-4.0.txt": {
+                "digest": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+                "output": "upstream-notices/CC-BY-NC-4.0.txt",
+                "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-nc/4.0/legalcode.txt",
+                "license": "CC-BY-NC-4.0"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  "LICENSE"
+                ],
+                "notices": [
+                  "LICENSE"
+                ],
+                "attribution": "Copyright 2025 zebbern. Exact original MIT notice retained, without relicensing earlier covered material.",
+                "source": "https://github.com/zebbern/claude-code-guide/blob/fb25fc3215b6c24e9e45d5a201dd0156732e081f/LICENSE"
+              },
+              {
+                "license": "CC-BY-NC-4.0",
+                "files": [
+                  "skills/active-directory-attacks/SKILL.md",
+                  "skills/active-directory-attacks/references/advanced-attacks.md"
+                ],
+                "notices": [
+                  "registry/licenses/hacktricks-NC-original.txt",
+                  "registry/licenses/CC-BY-NC-4.0.txt"
+                ],
+                "attribution": "HackTricks, Carlos Polop, Copyright 2021, https://book.hacktricks.wiki/; original adaptation by zebbern and credited contributors. NonCommercial sharing only; complete source credits, copyright, license/disclaimer and exceptions retained. Forge adds only this prominent distribution/attribution notice; original unmodified copies retained; no endorsement.",
+                "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skill-security-cloud-penetration-testing",
+          "root": "skills/cloud-penetration-testing",
+          "license": "MIT AND CC-BY-NC-4.0",
+          "license_path": "LICENSE",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "attribution": "Complete original Zebbern source and MIT notice retained; no source execution or security-target authorization. Earlier HackTricks material by Carlos Polop is separately NonCommercial-only under CC-BY-NC-4.0 with full original terms, attribution and prominent adaptation notice. Forge code remains separately GPL; no blanket relicensing. Beau Bullock/dafthack MIT notice retained for credited cloud material.",
+          "reviewed_distribution": {
+            "version": 1,
+            "files": {
+              "LICENSE": {
+                "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+                "mode": "100644",
+                "output": "upstream-notices/LICENSE"
+              },
+              "skills/cloud-penetration-testing/SKILL.md": {
+                "digest": "73527a8c1f4d8175086fefe25b9cadd858f138fea6b76ad35b58f5db7d5a1efc",
+                "mode": "100644",
+                "output": "skills/cloud-penetration-testing/SKILL.md",
+                "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/cloud-penetration-testing. HackTricks: https://book.hacktricks.wiki/. Cloud companion additionally credits Beau Bullock/dafthack under its retained MIT notice."
+              },
+              "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md": {
+                "digest": "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff",
+                "mode": "100644",
+                "output": "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
+                "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/cloud-penetration-testing. HackTricks: https://book.hacktricks.wiki/. Cloud companion additionally credits Beau Bullock/dafthack under its retained MIT notice."
+              }
+            },
+            "supplements": {
+              "registry/licenses/hacktricks-NC-original.txt": {
+                "digest": "1ee61457b57cf7098fce9a7a02ef8a95037e7ae3ce4245e68e6f1d9e2b99ea44",
+                "output": "upstream-notices/hacktricks-NC-original.txt",
+                "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md",
+                "license": "CC-BY-NC-4.0"
+              },
+              "registry/licenses/CC-BY-NC-4.0.txt": {
+                "digest": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+                "output": "upstream-notices/CC-BY-NC-4.0.txt",
+                "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-nc/4.0/legalcode.txt",
+                "license": "CC-BY-NC-4.0"
+              },
+              "registry/licenses/cloud-dafthack-MIT.txt": {
+                "digest": "d4d6404bc4d6bcd1aaf3526e3ab30720524b75e600c4c29f45b23f072128de93",
+                "output": "upstream-notices/cloud-dafthack-MIT.txt",
+                "source": "https://github.com/dafthack/CloudPentestCheatsheets/blob/4882418d7e55b2fa4df8b1848aca252b589ee825/LICENSE",
+                "license": "MIT"
+              }
+            },
+            "obligations": [
+              {
+                "license": "MIT",
+                "files": [
+                  "LICENSE"
+                ],
+                "notices": [
+                  "LICENSE",
+                  "registry/licenses/cloud-dafthack-MIT.txt"
+                ],
+                "attribution": "Copyright 2025 zebbern; cloud companion credits Beau Bullock/dafthack where applicable. Exact original MIT notices retained, without relicensing earlier covered material.",
+                "source": "https://github.com/zebbern/claude-code-guide/blob/fb25fc3215b6c24e9e45d5a201dd0156732e081f/LICENSE"
+              },
+              {
+                "license": "CC-BY-NC-4.0",
+                "files": [
+                  "skills/cloud-penetration-testing/SKILL.md",
+                  "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+                ],
+                "notices": [
+                  "registry/licenses/hacktricks-NC-original.txt",
+                  "registry/licenses/CC-BY-NC-4.0.txt"
+                ],
+                "attribution": "HackTricks, Carlos Polop, Copyright 2021, https://book.hacktricks.wiki/; original adaptation by zebbern and credited contributors. NonCommercial sharing only; complete source credits, copyright, license/disclaimer and exceptions retained. Forge adds only this prominent distribution/attribution notice; original unmodified copies retained; no endorsement.",
+                "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skill-security-top-web-vulnerabilities",
+          "root": "skills/top-web-vulnerabilities",
+          "license": "MIT",
+          "license_path": "LICENSE",
+          "license_digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+          "attribution": "Complete original Zebbern source and MIT notice retained; no source execution or security-target authorization. Original entry credits KumarMS Top100WebVulnerabilities; earlier publication availability and independent grant remain uncertain, not certified as original Zebbern authorship or independently cleared provenance."
         }
       ]
     }

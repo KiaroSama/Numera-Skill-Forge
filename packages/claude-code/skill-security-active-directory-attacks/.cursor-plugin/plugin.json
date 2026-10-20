@@ -1,0 +1,7 @@
+{
+  "description": "Reviewed NonCommercial distribution with appended notices: skills/active-directory-attacks",
+  "license": "MIT AND CC-BY-NC-4.0",
+  "name": "skill-security-active-directory-attacks",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

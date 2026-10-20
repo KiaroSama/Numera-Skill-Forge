@@ -5788,6 +5788,21 @@
       "description": "Original upstream skill: plugins/cicd-automation/skills/github-actions-templates",
       "name": "skill-workflow-automation-github-actions-templates",
       "source": "packages/claude-code/skill-workflow-automation-github-actions-templates"
+    },
+    {
+      "description": "Original upstream skill: skills/active-directory-attacks",
+      "name": "skill-security-active-directory-attacks",
+      "source": "packages/claude-code/skill-security-active-directory-attacks"
+    },
+    {
+      "description": "Original upstream skill: skills/cloud-penetration-testing",
+      "name": "skill-security-cloud-penetration-testing",
+      "source": "packages/claude-code/skill-security-cloud-penetration-testing"
+    },
+    {
+      "description": "Original upstream skill: skills/top-web-vulnerabilities",
+      "name": "skill-security-top-web-vulnerabilities",
+      "source": "packages/claude-code/skill-security-top-web-vulnerabilities"
     }
   ]
 }

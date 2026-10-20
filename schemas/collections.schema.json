@@ -20,7 +20,7 @@
       "type": "object", "required": ["id", "root", "license", "license_path", "license_digest"],
       "properties": {
         "id": { "$ref": "#/$defs/id" }, "root": { "type": "string", "minLength": 1 },
-        "license": { "type": "string", "pattern": "^(MIT|Apache-2.0|CC-BY-2.0|CC-BY-4.0|GPL-3.0-only|CC-BY-SA-4.0)( AND (MIT|Apache-2.0|CC-BY-2.0|CC-BY-4.0|GPL-3.0-only|CC-BY-SA-4.0))*$" },
+        "license": { "type": "string", "pattern": "^(MIT|Apache-2.0|CC-BY-2.0|CC-BY-4.0|GPL-3.0-only|CC-BY-SA-4.0|CC-BY-NC-4.0)( AND (MIT|Apache-2.0|CC-BY-2.0|CC-BY-4.0|GPL-3.0-only|CC-BY-SA-4.0|CC-BY-NC-4.0))*$" },
         "reviewed_distribution": {
           "type": "object", "required": ["version", "files"], "additionalProperties": false,
           "properties": {

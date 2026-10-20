@@ -68,6 +68,29 @@ Office nonredistribution and AnimateUI component-bundle restrictions are not ove
 article's original URL and some earlier source origins remain unavailable. No imported source is run,
 no model/tool is installed, and no personal host/target/account is activated.
 
+## Separate NonCommercial originals
+
+Three complete roots from [Zebbern fb25fc32](https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills)
+add eight original records, preserving all1161prior Accepted objects. Current scope is1164packages,
+9672original records and34collections;124of153canonical roots added/29held, plus AnimateUI/Codeberg.
+
+- `active-directory-attacks` and `cloud-penetration-testing`: complete two-file original roots,
+  original Zebbern MIT notice, exact Carlos Polop/HackTricks license and full official CC-BY-NC-4.0
+  terms. Covered adapted material is **NonCommercial-only**; this is not unrestricted MIT/GPL.
+  Original source/creator/copyright/disclaimer and third-party exceptions are retained. Prominent
+  appended notices identify the distribution modification; unmodified original copies are retained.
+- Cloud additionally preserves Beau Bullock/dafthack's actual MIT notice for its credited material;
+  that notice does not relicense HackTricks material.
+- `top-web-vulnerabilities`: complete original entry plus actual Zebbern MIT. Original KumarMS
+  attribution remains; earlier publication availability and independent permission remain uncertain,
+  not certified as original Zebbern authorship or separately cleared rights.
+
+These packages remain legally separate from Forge code. NonCommercial means not primarily intended
+for or directed toward commercial advantage or monetary compensation; a free download alone does
+not authorize commercial reuse. No endorsement, extra downstream restriction or DRM is added.
+Exact reviewed terms/source/hash/scope are mandatory; missing obligations or wrong terms refuse.
+Packaging neither runs security commands nor establishes authorization to test a target.
+
 ## Original CTF family and reverse workspace
 
 The complete CTF subtree from [reverse-skill cab634bd](https://github.com/zhaoxuya520/reverse-skill/tree/cab634bd855fc287f6e420c1f36fd1a6b9245960/CTF-Sandbox-Orchestrator)
@@ -92,8 +115,8 @@ access-blocked, not declared unlicensed or equivalent to another source. See
 ## Published scope
 
 The current collection contains **820 davila-source packages** across two source registrations,
-plus341 packages from the other31registered collections, for **1161 total** and
-**9664 payload/notice records**. The reaffirmed13-package additions described above supersede the
+plus344 packages from the other32registered collections, for **1164 total** and
+**9672 payload/notice records**. The reaffirmed13-package additions described above supersede the
 historical remaining counts in the following earlier milestone. The latest35 additions
 preserve all1110 preceding accepted objects;107of153 missing canonical roots now have packages,
 with46precisely held. New scoped distributions include unchanged GPLv3 NeoLab originals and

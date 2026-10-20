@@ -6945,6 +6945,24 @@
       "name": "skill-workflow-automation-github-actions-templates",
       "source": "./packages/claude-code/skill-workflow-automation-github-actions-templates",
       "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/active-directory-attacks",
+      "name": "skill-security-active-directory-attacks",
+      "source": "./packages/claude-code/skill-security-active-directory-attacks",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/cloud-penetration-testing",
+      "name": "skill-security-cloud-penetration-testing",
+      "source": "./packages/claude-code/skill-security-cloud-penetration-testing",
+      "version": "1.0.0"
+    },
+    {
+      "description": "Original upstream skill: skills/top-web-vulnerabilities",
+      "name": "skill-security-top-web-vulnerabilities",
+      "source": "./packages/claude-code/skill-security-top-web-vulnerabilities",
+      "version": "1.0.0"
     }
   ]
 }

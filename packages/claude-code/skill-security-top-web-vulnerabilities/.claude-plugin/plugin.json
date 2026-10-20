@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: skills/top-web-vulnerabilities",
+  "license": "MIT",
+  "name": "skill-security-top-web-vulnerabilities",
+  "repository": "https://github.com/zebbern/claude-code-guide.git",
+  "version": "1.0.0"
+}

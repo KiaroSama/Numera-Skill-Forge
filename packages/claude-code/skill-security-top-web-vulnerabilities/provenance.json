@@ -1,0 +1,26 @@
+{
+  "collection": "zebbern-reviewed-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-top-web-vulnerabilities/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1064
+    },
+    {
+      "digest": "f5b61aa17df259df9e79736dfe6e210aec57f3841c063617d5e4c96c97f41248",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-security-top-web-vulnerabilities/skills/top-web-vulnerabilities/SKILL.md",
+      "path": "skills/top-web-vulnerabilities/SKILL.md",
+      "size": 24254
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ff84702aebb79cfc4695e4c4eb03e91afb8512d8fcb0783bc2d50149a825884b",
+  "repository": "https://github.com/zebbern/claude-code-guide.git",
+  "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+  "root": "skills/top-web-vulnerabilities",
+  "schema_version": 1
+}

@@ -154,7 +154,13 @@ pub fn validate(skill: &Skill) -> Result<()> {
             || !valid_source(&obligation.source)
             || !matches!(
                 obligation.license.as_str(),
-                "MIT" | "Apache-2.0" | "CC-BY-2.0" | "CC-BY-4.0" | "GPL-3.0-only" | "CC-BY-SA-4.0"
+                "MIT"
+                    | "Apache-2.0"
+                    | "CC-BY-2.0"
+                    | "CC-BY-4.0"
+                    | "GPL-3.0-only"
+                    | "CC-BY-SA-4.0"
+                    | "CC-BY-NC-4.0"
             )
         {
             return Err(invalid());
@@ -177,12 +183,19 @@ pub fn validate(skill: &Skill) -> Result<()> {
     if declared.iter().any(|term| {
         !matches!(
             *term,
-            "MIT" | "Apache-2.0" | "CC-BY-2.0" | "CC-BY-4.0" | "GPL-3.0-only" | "CC-BY-SA-4.0"
+            "MIT"
+                | "Apache-2.0"
+                | "CC-BY-2.0"
+                | "CC-BY-4.0"
+                | "GPL-3.0-only"
+                | "CC-BY-SA-4.0"
+                | "CC-BY-NC-4.0"
         )
     }) || (declared.len() > 1
         || declared.contains("CC-BY-2.0")
         || declared.contains("GPL-3.0-only")
-        || declared.contains("CC-BY-SA-4.0"))
+        || declared.contains("CC-BY-SA-4.0")
+        || declared.contains("CC-BY-NC-4.0"))
         && (review.obligations.is_empty()
             || review
                 .obligations
@@ -220,6 +233,7 @@ pub fn terms_match(license: &str, bytes: &[u8]) -> bool {
         }
         "CC-BY-2.0" => text.contains("Attribution 2.0 Generic"),
         "CC-BY-4.0" => text.contains("Attribution 4.0"),
+        "CC-BY-NC-4.0" => text.contains("Attribution-NonCommercial 4.0 International"),
         _ => false,
     }
 }

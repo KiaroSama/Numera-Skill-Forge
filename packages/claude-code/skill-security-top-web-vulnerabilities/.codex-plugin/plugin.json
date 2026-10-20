@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/top-web-vulnerabilities",
+  "license": "MIT",
+  "name": "skill-security-top-web-vulnerabilities",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

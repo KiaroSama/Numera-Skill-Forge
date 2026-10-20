@@ -9287,6 +9287,30 @@
       "root": "plugins/cicd-automation/skills/github-actions-templates",
       "source": "wshobson-guides",
       "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-active-directory-attacks",
+      "license": "MIT AND CC-BY-NC-4.0",
+      "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+      "root": "skills/active-directory-attacks",
+      "source": "zebbern-reviewed-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-cloud-penetration-testing",
+      "license": "MIT AND CC-BY-NC-4.0",
+      "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+      "root": "skills/cloud-penetration-testing",
+      "source": "zebbern-reviewed-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-security-top-web-vulnerabilities",
+      "license": "MIT",
+      "revision": "fb25fc3215b6c24e9e45d5a201dd0156732e081f",
+      "root": "skills/top-web-vulnerabilities",
+      "source": "zebbern-reviewed-originals",
+      "version": "1.0.0"
     }
   ],
   "schema_version": 1

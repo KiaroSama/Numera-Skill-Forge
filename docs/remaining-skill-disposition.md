@@ -1,5 +1,15 @@
 # Completion of the remaining skill review
 
+**2026-10-21 final-held update:** Three complete Zebbern originals add eight original records and
+preserve all1161prior Accepted objects:1164packages/9672records/34collections. Active Directory and
+cloud packages retain separate CC-BY-NC-4.0 NonCommercial-only scope, exact HackTricks/CC terms,
+creator/source credit, prominent distribution notices and unmodified original copies. Cloud also
+retains dafthack's actual MIT notice. Top-web retains declared Zebbern MIT and disclosed KumarMS
+ancestry uncertainty, not an invented independent earlier grant. No security code is executed.
+The current153-root table now has124added/29held; AnimateUI and Codeberg are two additional unresolved
+cases. Exact legacy natbib8.31 source and conference grants remain incomplete despite locating
+fancyhdr5.2 preferred source. Missing specific grants and explicit restrictions remain distinct.
+
 **2026-10-20 reaffirmed update:** [121 canonical additions](missing-skill-imports.md) now resolve the missing inventory; accepted total is1161 including separate reverse/CTF packages. The earlier13additions preserve all1146 preceding Accepted objects and add693original records. Two further complete Shopify/BlockRun originals preserve all1159preceding objects and add37records, bringing the total to9664records/33collections. Thirty-two canonical roots remain held (28Templates/four scientific Office) for specific restriction, source, terms or unresolved compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
 
 The 299 previously held roots were checked against immutable originals, complete selected payloads,

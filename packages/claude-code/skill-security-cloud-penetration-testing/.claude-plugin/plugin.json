@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Reviewed NonCommercial distribution with appended notices: skills/cloud-penetration-testing",
+  "license": "MIT AND CC-BY-NC-4.0",
+  "name": "skill-security-cloud-penetration-testing",
+  "repository": "https://github.com/zebbern/claude-code-guide.git",
+  "version": "1.0.0"
+}

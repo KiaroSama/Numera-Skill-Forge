@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "skills/cloud-penetration-testing/SKILL.md": {
+      "digest": "73527a8c1f4d8175086fefe25b9cadd858f138fea6b76ad35b58f5db7d5a1efc",
+      "mode": "100644",
+      "output": "skills/cloud-penetration-testing/SKILL.md",
+      "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/cloud-penetration-testing. HackTricks: https://book.hacktricks.wiki/. Cloud companion additionally credits Beau Bullock/dafthack under its retained MIT notice."
+    },
+    "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md": {
+      "digest": "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff",
+      "mode": "100644",
+      "output": "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
+      "change_notice": "Forge distribution notice: Original Zebbern adaptation retained; this appended notice identifies the distribution modification. Earlier HackTricks material by Carlos Polop (Copyright 2021) is shared under CC-BY-NC-4.0 for NonCommercial purposes only, with original source/terms/credits retained in upstream-notices. No commercial permission, relicensing of that material under MIT/GPL, or author endorsement is implied. Original unmodified bytes are retained under upstream-notices/original-files/. Source: https://github.com/zebbern/claude-code-guide/tree/fb25fc3215b6c24e9e45d5a201dd0156732e081f/skills/cloud-penetration-testing. HackTricks: https://book.hacktricks.wiki/. Cloud companion additionally credits Beau Bullock/dafthack under its retained MIT notice."
+    }
+  },
+  "supplements": {
+    "registry/licenses/CC-BY-NC-4.0.txt": {
+      "digest": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+      "output": "upstream-notices/CC-BY-NC-4.0.txt",
+      "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by-nc/4.0/legalcode.txt",
+      "license": "CC-BY-NC-4.0"
+    },
+    "registry/licenses/cloud-dafthack-MIT.txt": {
+      "digest": "d4d6404bc4d6bcd1aaf3526e3ab30720524b75e600c4c29f45b23f072128de93",
+      "output": "upstream-notices/cloud-dafthack-MIT.txt",
+      "source": "https://github.com/dafthack/CloudPentestCheatsheets/blob/4882418d7e55b2fa4df8b1848aca252b589ee825/LICENSE",
+      "license": "MIT"
+    },
+    "registry/licenses/hacktricks-NC-original.txt": {
+      "digest": "1ee61457b57cf7098fce9a7a02ef8a95037e7ae3ce4245e68e6f1d9e2b99ea44",
+      "output": "upstream-notices/hacktricks-NC-original.txt",
+      "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md",
+      "license": "CC-BY-NC-4.0"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "LICENSE"
+      ],
+      "notices": [
+        "LICENSE",
+        "registry/licenses/cloud-dafthack-MIT.txt"
+      ],
+      "attribution": "Copyright 2025 zebbern; cloud companion credits Beau Bullock/dafthack where applicable. Exact original MIT notices retained, without relicensing earlier covered material.",
+      "source": "https://github.com/zebbern/claude-code-guide/blob/fb25fc3215b6c24e9e45d5a201dd0156732e081f/LICENSE"
+    },
+    {
+      "license": "CC-BY-NC-4.0",
+      "files": [
+        "skills/cloud-penetration-testing/SKILL.md",
+        "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+      ],
+      "notices": [
+        "registry/licenses/hacktricks-NC-original.txt",
+        "registry/licenses/CC-BY-NC-4.0.txt"
+      ],
+      "attribution": "HackTricks, Carlos Polop, Copyright 2021, https://book.hacktricks.wiki/; original adaptation by zebbern and credited contributors. NonCommercial sharing only; complete source credits, copyright, license/disclaimer and exceptions retained. Forge adds only this prominent distribution/attribution notice; original unmodified copies retained; no endorsement.",
+      "source": "https://github.com/HackTricks-wiki/hacktricks/blob/3b71ffe518c3f48b3801eb4cd0d5b4a0bb80c097/src/LICENSE.md"
+    }
+  ]
+}

@@ -79,6 +79,24 @@ pub fn description(accepted: &Accepted) -> String {
             "Reviewed design adapter with original documents: {}",
             accepted.root
         )
+    } else if accepted
+        .license
+        .split(" AND ")
+        .any(|term| term == "CC-BY-NC-4.0")
+        && accepted
+            .reviewed_distribution
+            .as_ref()
+            .is_some_and(|review| {
+                review
+                    .files
+                    .values()
+                    .any(|file| file.change_notice.is_some())
+            })
+    {
+        format!(
+            "Reviewed NonCommercial distribution with appended notices: {}",
+            accepted.root
+        )
     } else if accepted.files.iter().any(|f| f.source_digest.is_some()) {
         format!(
             "Upstream skill with reviewed name-only adaptation: {}",

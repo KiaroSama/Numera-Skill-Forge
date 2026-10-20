@@ -103,6 +103,154 @@ fn mixed_attribution_two_preserves_originals_and_requires_exact_terms() {
 }
 
 #[test]
+fn reviewed_noncommercial_scope_preserves_terms_and_refuses_incomplete_review() {
+    let f = Fixture(
+        PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+            .join("../../.ci-work/tests")
+            .join(transaction::operation_id()),
+    );
+    let upstream = f.0.join("upstream");
+    let entry =
+        b"---\nname: nc-docs\ndescription: Original conditional reference\n---\nRead article.md.\n";
+    let article = b"# Original article\nAuthor: Fixture author\n";
+    let mit = b"MIT License\nPermission is hereby granted, free of charge\n";
+    let terms =
+        b"Attribution-NonCommercial 4.0 International\nNonCommercial sharing with attribution.\n";
+    let mut files = serde_json::Map::new();
+    for (path, bytes, output) in [
+        ("demo/SKILL.md", entry.as_slice(), "skills/nc-docs/SKILL.md"),
+        (
+            "demo/article.md",
+            article.as_slice(),
+            "skills/nc-docs/article.md",
+        ),
+        ("LICENSE", mit.as_slice(), "upstream-notices/LICENSE"),
+    ] {
+        let destination = upstream.join(path);
+        fs::create_dir_all(destination.parent().unwrap()).unwrap();
+        fs::write(destination, bytes).unwrap();
+        files.insert(
+            path.into(),
+            json!({"digest":storage::digest(bytes),"mode":"100644","output":output}),
+        );
+    }
+    let git = |args: &[&str]| {
+        let mut command = vec!["-C".into(), upstream.to_string_lossy().into_owned()];
+        command.extend(args.iter().map(|a| a.to_string()));
+        String::from_utf8(process::git(&command, 15).unwrap()).unwrap()
+    };
+    git(&["init", "-b", "main"]);
+    git(&["add", "."]);
+    git(&[
+        "-c",
+        "user.name=Fixture",
+        "-c",
+        "user.email=fixture@example.invalid",
+        "commit",
+        "-m",
+        "fixture",
+    ]);
+    let notice = f.0.join("registry/licenses/noncommercial.txt");
+    fs::create_dir_all(notice.parent().unwrap()).unwrap();
+    fs::write(&notice, terms).unwrap();
+    let source =
+        "https://github.com/example/original/blob/0123456789012345678901234567890123456789/LICENSE";
+    let registration = json!({"schema_version":1,"collections":[{"id":"nc-docs","repository":format!("local:{}",upstream.display()),"branch":"main","reviewed_revision":git(&["rev-parse","HEAD"]).trim(),"skills":[{"id":"nc-docs","root":"demo","license":"MIT AND CC-BY-NC-4.0","license_path":"LICENSE","license_digest":storage::digest(mit),"reviewed_distribution":{"version":1,"files":files,"supplements":{"registry/licenses/noncommercial.txt":{"digest":storage::digest(terms),"output":"skills/nc-docs/CC-BY-NC-4.0.txt","source":source,"license":"CC-BY-NC-4.0"}},"obligations":[{"license":"MIT","files":["demo/SKILL.md","LICENSE"],"notices":["LICENSE"],"attribution":"Fixture author, original entry","source":source},{"license":"CC-BY-NC-4.0","files":["demo/article.md"],"notices":["registry/licenses/noncommercial.txt"],"attribution":"Fixture author, Original article; NonCommercial only","source":source}]}}]}]});
+    let mut registration = registration;
+    registration["collections"][0]["skills"][0]["reviewed_distribution"]["files"]["demo/SKILL.md"]
+        ["change_notice"] =
+        json!("Forge distribution notice: NonCommercial material; original retained separately.");
+    let registry = f.0.join("registry/collections.json");
+    storage::write(&registry, &registration).unwrap();
+    let result = service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(result["status"], "success", "{result}");
+    service::execute(&f.0, json!({"action":"collection-verify"})).unwrap();
+    for path in [
+        ".claude-plugin/plugin.json",
+        ".codex-plugin/plugin.json",
+        ".cursor-plugin/plugin.json",
+        "plugin.json",
+    ] {
+        let manifest =
+            fs::read_to_string(f.0.join("packages/claude-code/nc-docs").join(path)).unwrap();
+        assert!(
+            manifest.contains("Reviewed NonCommercial distribution with appended notices"),
+            "{path}: {manifest}"
+        );
+        assert!(!manifest.contains("name-only adaptation"));
+    }
+    let consumer = f.0.join("consumer");
+    fs::create_dir(&consumer).unwrap();
+    let installed = service::execute(&f.0, json!({"action":"install","package":"nc-docs","target":"claude-code","destination":consumer,"dry_run":false})).unwrap();
+    assert_eq!(
+        fs::read(consumer.join(".claude/skills/nc-docs/article.md")).unwrap(),
+        article
+    );
+    assert_eq!(
+        fs::read(consumer.join(".claude/skills/nc-docs/CC-BY-NC-4.0.txt")).unwrap(),
+        terms
+    );
+    service::execute(
+        &f.0,
+        json!({"action":"uninstall","receipt":installed["id"]}),
+    )
+    .unwrap();
+    assert!(!consumer.join(".claude/skills/nc-docs/SKILL.md").exists());
+    let accepted = fs::read(f.0.join("catalogs/collections.lock.json")).unwrap();
+    for single in [false, true] {
+        let mut missing = registration.clone();
+        let skill = &mut missing["collections"][0]["skills"][0];
+        if single {
+            skill["license"] = json!("CC-BY-NC-4.0");
+        }
+        skill["reviewed_distribution"]["obligations"] = json!([]);
+        storage::write(&registry, &missing).unwrap();
+        assert!(service::execute(&f.0, json!({"action":"collection-sync","apply":true})).is_err());
+        assert_eq!(
+            fs::read(f.0.join("catalogs/collections.lock.json")).unwrap(),
+            accepted
+        );
+    }
+    let wrong = b"Attribution 4.0 International\n";
+    fs::write(&notice, wrong).unwrap();
+    let mut changed = registration.clone();
+    changed["collections"][0]["skills"][0]["reviewed_distribution"]["supplements"]["registry/licenses/noncommercial.txt"]
+        ["digest"] = json!(storage::digest(wrong));
+    storage::write(&registry, &changed).unwrap();
+    let refused = service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(refused["skills"][0]["code"], "distribution-review");
+    assert_eq!(
+        fs::read(f.0.join("catalogs/collections.lock.json")).unwrap(),
+        accepted
+    );
+    fs::write(&notice, terms).unwrap();
+    fs::write(
+        upstream.join("demo/article.md"),
+        b"Changed original article\n",
+    )
+    .unwrap();
+    git(&["add", "."]);
+    git(&[
+        "-c",
+        "user.name=Fixture",
+        "-c",
+        "user.email=fixture@example.invalid",
+        "commit",
+        "-m",
+        "changed fixture",
+    ]);
+    changed = registration;
+    changed["collections"][0]["reviewed_revision"] = json!(git(&["rev-parse", "HEAD"]).trim());
+    storage::write(&registry, &changed).unwrap();
+    let refused = service::execute(&f.0, json!({"action":"collection-sync","apply":true})).unwrap();
+    assert_eq!(refused["skills"][0]["code"], "distribution-review");
+    assert_eq!(
+        fs::read(f.0.join("catalogs/collections.lock.json")).unwrap(),
+        accepted
+    );
+}
+
+#[test]
 fn reviewed_bundle_preserves_native_siblings_and_selected_identity() {
     let f = Fixture(
         PathBuf::from(env!("CARGO_MANIFEST_DIR"))
