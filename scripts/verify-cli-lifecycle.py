@@ -100,7 +100,8 @@ def verify(application, project, work):
             if offline:
                 argv.append("--offline")
             code, output, _ = owner.run(argv + list(args), expected=None, seconds=25)
-            if code != (3 if error is not None else exit_code):
+            expected_code = (2 if error == "unsupported-required" else 3) if error is not None else exit_code
+            if code != expected_code:
                 logging.error("Unexpected CLI outcome command=%s exit=%d", args[0], code)
                 raise AssertionError("Actual CLI command status mismatch")
             value = json.loads(output.decode("utf-8"))
