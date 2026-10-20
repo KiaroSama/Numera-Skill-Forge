@@ -33,7 +33,30 @@ Neither upstream application, third-party analysis engine, private assistant con
 cloner's project-specific command bridge is bundled. Installing instructions does not install REA,
 register MCP, grant rights to third-party website assets or license commercial analysis tools.
 
-## Original CTF family and held reverse router
+## Reaffirmed original distributions
+
+The latest13packages add693original payload/notice records and preserve all1146preceding Accepted
+objects. Total1159packages/9627records/31collections;1155ordinary marketplace entries plus four
+required-native bundles. Twelve formerly held canonical roots now have complete packages, leaving
+34of153canonical roots held. Separate AnimateUI and Codeberg conditions remain explicit.
+
+| Original source | New packages | Actual declared scope |
+| --- | --- | --- |
+| softaworks/agent-toolkit3027f20f | README toolkit,14original skill files | MIT authored material plus embedded Art of README CC-BY-2.0; exact Josh Thomas, Danny Guo and Richard Littauer MIT notices; original title/source/credit and full CC2terms retained. Original article URL404 is not license revocation. |
+| Orchestra-Research/AI-Research-SKILLs773a5294 | Axolotl,5original documentation files | MIT skill/index and attributed Apache generated documentation; exact Axolotl/ADOPT/LongLoRA/FastChat/LMFlow terms and PRM NOTICE. Three prominent conversion/aggregation notices retain originals separately. Axolotl integration Community terms accompany the bundle conservatively; no integration implementation/model or unrestricted fine-tuning-service grant is asserted. |
+| vudovn/ag-kit63938f3f | Prisma expert | Complete one-file root plus actual VUDOVN MIT; earlier lineage remains uncertain, not certified sole authorship. |
+| Dimillian/Skills05ba982b | Swift concurrency expert | Complete five-file root, Thomas Ricouard MIT and exact cited Tuist MIT; unverified external prose origin remains disclosed, no invented Apple grant. |
+| davila7/claude-code-templates da2b74e9 | Git commit helper, PDF Processing Pro, email composer, Excel analysis; marketing campaigns, DevOps IaC, IT operations, security compliance | Complete declared-MIT roots; four exact reviewed name-only adaptations retain originals. NerdyChefs-origin and custom-root lineage remain uncertain; no false Anthropic attribution or claim that an aggregator can override an established earlier restriction. |
+| zhaoxuya520/reverse-skill cab634bd | Complete workspace bundle | All599original files/89native entries, unchanged original optional router adapter and original relative layout beneath its repository/ companion. RootMIT, src-hunterMIT and CTFGPL scopes plus credited MIT/CC0 notices retained. Earlier Payloader/HackerOne/WooYun rights are not independently certified; source declarations and residual uncertainty are explicit. |
+
+These admissions rely on actual source declarations and the owner's reaffirmed acceptance of documented
+provenance uncertainty, not on a fabricated grant or an assertion of universally cleared rights. Exact
+source revisions/mappings/attribution/terms are in registration and each package's notices. Specific
+Office nonredistribution and AnimateUI component-bundle restrictions are not overridden. The README
+article's original URL and some earlier source origins remain unavailable. No imported source is run,
+no model/tool is installed, and no personal host/target/account is activated.
+
+## Original CTF family and reverse workspace
 
 The complete CTF subtree from [reverse-skill cab634bd](https://github.com/zhaoxuya520/reverse-skill/tree/cab634bd855fc287f6e420c1f36fd1a6b9245960/CTF-Sandbox-Orchestrator)
 is one dependency-complete package:42native entries,136original CTF files,13original setup dependencies
@@ -43,16 +66,18 @@ separately; setup commands resolve under the orchestrator's contained `repositor
 apsdehal CC0 terms accompany the credited resource digest. All original source, notices and native
 invocation policy survive unchanged; no binary/source-execution certification is implied.
 
-The full reverse router remains unbundled because its required copied Payloader corpus lacks verified
-earlier source terms. The named original returns404; downstreamMIT alone is insufficient. The distinct
-CodebergAPK source remains access-blocked, not declared unlicensed or equivalent to another source.
-All47earlier held cases were freshly reviewed2026-10-20 without a newly cleared complete root. See
-[precise outcomes](remaining-skill-disposition.md#additional-requested-reverse-sources).
+The full reverse workspace is now separately bundled under its actual MIT/GPL declarations with
+explicit residual earlier-corpus provenance uncertainty, as described above; the unavailable named
+Payloader origin is not falsely called an express prohibition. The distinct CodebergAPK source remains
+access-blocked, not declared unlicensed or equivalent to another source. See
+[precise current outcomes](remaining-skill-disposition.md#reaffirmed-imports-and-declared-grants).
 
 ## Published scope
 
-The current collection contains **812 davila packages**, plus334 packages from the other24
-registered collections, for **1146 total** and **8934 payload/notice records**. The latest35 additions
+The current collection contains **820 davila-source packages** across two source registrations,
+plus339 packages from the other29registered collections, for **1159 total** and
+**9627 payload/notice records**. The reaffirmed13-package additions described above supersede the
+historical remaining counts in the following earlier milestone. The latest35 additions
 preserve all1110 preceding accepted objects;107of153 missing canonical roots now have packages,
 with46precisely held. New scoped distributions include unchanged GPLv3 NeoLab originals and
 mixed MIT/CC-BY-SA ClinPGx source, exact legal supplements, recorded path repairs and prominent

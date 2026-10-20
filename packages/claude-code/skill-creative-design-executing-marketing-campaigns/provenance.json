@@ -1,0 +1,117 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "a85a1fe091d0e4051fcfdcf19789ec7f5ae776c96629d5c02c86317c7fd0fbeb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/DELIVERY_SUMMARY.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/DELIVERY_SUMMARY.md",
+      "size": 16933
+    },
+    {
+      "digest": "15186cf1a24f81048c0beb6a39b1fc03a9c2dc6718b548dc8631b988754739cb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/DIRECTORY_STRUCTURE.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/DIRECTORY_STRUCTURE.md",
+      "size": 10836
+    },
+    {
+      "digest": "8965c2f1728975903f44f382196c24135392ff0dc71d30f3596e7655a90ecfdd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/IMPLEMENTATION_GUIDE.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/IMPLEMENTATION_GUIDE.md",
+      "size": 11003
+    },
+    {
+      "digest": "88363794d4212d27e4cd7d27a484b185e34c8ab4ffdf9411a4e5949a0c3bc0dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/README.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/README.md",
+      "size": 10682
+    },
+    {
+      "digest": "1c274700ca582408b6973e62c9eb1d0598fef9d77d34273eb7e44576fe215234",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/SKILL.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/SKILL.md",
+      "size": 5673
+    },
+    {
+      "digest": "a58fd279b17421ac24cbab5bb1c2f338e6efa42b62dc3b1e3dff6c8ab16301c1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/examples/campaigns_sample.csv",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/examples/campaigns_sample.csv",
+      "size": 1543
+    },
+    {
+      "digest": "7c1180a4b47e579980f82490a869aaf783d07364db1352d80e0b6c5952e054e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/analytics.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/analytics.md",
+      "size": 10867
+    },
+    {
+      "digest": "d4669d342ce1ec4da3379676a0fa990f9b4477652c0810605c762c53befa9adc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/brand.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/brand.md",
+      "size": 9175
+    },
+    {
+      "digest": "d6daafa7b8077587474aa7f6e85318c11bdb75cac696817a9027085dd1a93dba",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/campaigns.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/campaigns.md",
+      "size": 7347
+    },
+    {
+      "digest": "021507115ddbb426c4ac9756eb07801d62b34fb5dd6a76b217626b86ffa96086",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/content.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/content.md",
+      "size": 9577
+    },
+    {
+      "digest": "a6a7a7d579e9b0dc053483ea5bf47998c0137e3e09bd543fb2e5c691b22ca4bb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/email.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/email.md",
+      "size": 9797
+    },
+    {
+      "digest": "34983d0b58810bccc9270d893c3dca3f0287245f73e0e18ef22d4c51086ab0df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/social_media.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/social_media.md",
+      "size": 9449
+    },
+    {
+      "digest": "5ede70ce11e5f4a69ea31962a0a7ae8d48ac4df3059628803ff3370deda99535",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/reference/templates.md",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/reference/templates.md",
+      "size": 11863
+    },
+    {
+      "digest": "c6ce98dc1ce9551db2e14d962b4054f29e4ba51ace148685d0040297758451dc",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-creative-design-executing-marketing-campaigns/skills/executing-marketing-campaigns/scripts/marketing_utils.py",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/scripts/marketing_utils.py",
+      "size": 11857
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "ca585d9775f727787230450e5530892f2d1018b3f340b0694f74f24b5c52c983",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/creative-design/executing-marketing-campaigns",
+  "schema_version": 1
+}

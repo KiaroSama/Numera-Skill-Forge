@@ -1,11 +1,23 @@
 # Missing skill imports
 
-The import adds **107 independently selectable packages**, bringing the accepted inventory
-to **1145 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
+The canonical import now resolves **119 independently selectable packages**. Together with the
+separate reverse/CTF sources, the accepted inventory is **1159 packages**. The accepted lock records every payload/notice hash and mode. All **1038 previous accepted package
 records** remain unchanged. Importing instructions never executes scripts, installs hooks or
 activates external services.
 
-## Renewed five-group remediation
+## Reaffirmed complete originals
+
+The latest13packages preserve all1146previous Accepted objects and add693original records.
+Twelve canonical roots now use complete README(MIT/CC-BY2), Axolotl(MIT/Apache docs), Prisma,
+Swift and eight Templates originals. Four reviewed name repairs and three documentation change
+notices retain exact original copies. The full599-file reverse workspace is separately one bundle,
+with89original entrypoints as routed resources and its original optional adapter. Source declarations
+and residual earlier-chain uncertainty are documented, never falsely certified as universal grants.
+The current canonical table is **119added /34held**; AnimateUI and Codeberg remain separately
+accounted. See [current terms](source-licenses.md#reaffirmed-original-distributions),
+[exact outcomes](canonical-root-outcomes.md) and [repository references](reference-repositories.md).
+
+## Renewed five-group remediation (previous milestone)
 
 A further **35 packages** resolve the previously held81-root review; all **1110 preceding accepted objects** remain identical. The current153-root table is **107 added /46 held**. New direct originals include eight official Anthropic skills, one transparent official agent guide, current HeyGen, complete eval-genius/deep-research/engineering/Composio roots, historical OpenAI/Neon and three GPL NeoLab roots. Exact reviewed layout fixes restore NoWait and Java references/templates; Android recovers the author npm signing companion without inventing Git provenance. ClinPGx retains scoped MIT and CC-BY-SA terms. FastMCP/Move retain original selected copies and prominent derivative notices plus actual Apache terms.
 

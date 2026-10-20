@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/enterprise-communication/email-composer",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-email-composer",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "version": "1.0.0"
+}

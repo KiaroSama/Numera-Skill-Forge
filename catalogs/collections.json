@@ -73,6 +73,14 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-ai-research-fine-tuning-axolotl",
+      "license": "MIT AND Apache-2.0",
+      "revision": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "root": "03-fine-tuning/axolotl",
+      "source": "axolotl-original-docs",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-scientific-clinpgx-database",
       "license": "MIT AND CC-BY-SA-4.0",
       "revision": "4fc6ac7727a2b0c30f964906713bd884679ff188",
@@ -8209,6 +8217,22 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-development-prisma-expert",
+      "license": "MIT",
+      "revision": "63938f3f0cac02f9bde0ebcd0f46f73bcf2e531d",
+      "root": ".agent/skills/prisma-expert",
+      "source": "prisma-declared-original",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-productivity-crafting-effective-readmes",
+      "license": "MIT AND CC-BY-2.0",
+      "revision": "3027f20f3181758385a1bb8c022d4041dfb4de84",
+      "root": "skills/crafting-effective-readmes",
+      "source": "readme-toolkit-originals",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-reverse-ctf-sandbox",
       "license": "MIT AND GPL-3.0-only",
       "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
@@ -8217,11 +8241,91 @@
       "version": "1.0.0"
     },
     {
+      "id": "skill-reverse-skill-workspace",
+      "license": "MIT AND GPL-3.0-only",
+      "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "root": "plugins/reverse-skill/skills/reverse-skill-router",
+      "source": "reverse-skill-workspace",
+      "version": "1.0.0"
+    },
+    {
       "id": "skill-ai-research-deep-research",
       "license": "Apache-2.0",
       "revision": "281d88df199357e3091a3be5c743a0fca9a9ae1b",
       "root": "skills/deep-research",
       "source": "sanjay-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-swift-concurrency-expert",
+      "license": "MIT",
+      "revision": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+      "root": "swift-concurrency-expert",
+      "source": "swift-declared-original",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-creative-design-executing-marketing-campaigns",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/creative-design/executing-marketing-campaigns",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-devops-iac-engineer",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/development/devops-iac-engineer",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-git-commit-helper",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/development/git-commit-helper",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-it-operations",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/development/it-operations",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-development-security-compliance",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/development/security-compliance",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-document-processing-pdf-processing-pro",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/document-processing/pdf-processing-pro",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-email-composer",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/enterprise-communication/email-composer",
+      "source": "templates-declared-originals",
+      "version": "1.0.0"
+    },
+    {
+      "id": "skill-enterprise-communication-excel-analysis",
+      "license": "MIT",
+      "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+      "root": "cli-tool/components/skills/enterprise-communication/excel-analysis",
+      "source": "templates-declared-originals",
       "version": "1.0.0"
     },
     {

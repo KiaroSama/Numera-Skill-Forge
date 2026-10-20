@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/document-processing/pdf-processing-pro",
+  "license": "MIT",
+  "name": "skill-document-processing-pdf-processing-pro",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

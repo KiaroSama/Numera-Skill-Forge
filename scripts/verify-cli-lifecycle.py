@@ -34,6 +34,12 @@ SELECTED = [
     ("davila7-templates", "skill-development-fastmcp-server", "claude-code", ".claude/skills"),
     ("davila7-templates", "skill-doordash-doordash-allergy-shield", "claude-code", ".claude/skills"),
     ("reverse-skill-ctf", "skill-reverse-ctf-sandbox", "claude-code", ".claude/skills"),
+    ("readme-toolkit-originals", "skill-productivity-crafting-effective-readmes", "claude-code", ".claude/skills"),
+    ("reverse-skill-workspace", "skill-reverse-skill-workspace", "claude-code", ".claude/skills"),
+    ("prisma-declared-original", "skill-development-prisma-expert", "claude-code", ".claude/skills"),
+    ("swift-declared-original", "skill-development-swift-concurrency-expert", "claude-code", ".claude/skills"),
+    ("templates-declared-originals", "skill-development-git-commit-helper", "claude-code", ".claude/skills"),
+    ("axolotl-original-docs", "skill-ai-research-fine-tuning-axolotl", "claude-code", ".claude/skills"),
 ]
 
 

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "files": {
+    "03-fine-tuning/axolotl/SKILL.md": {
+      "digest": "9273d534cd6a06612b18418f2cd98f63d1ac9bb780eda511a91800dee48f1dda",
+      "mode": "100644",
+      "output": "skills/axolotl/SKILL.md"
+    },
+    "03-fine-tuning/axolotl/references/api.md": {
+      "digest": "fa42d8161bf366de96e8949f57bcd4e8021a332b28f58f379f67dbd09792c8a6",
+      "mode": "100644",
+      "output": "skills/axolotl/references/api.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This original Orchestra reference aggregates and converts Axolotl documentation/API layouts and credited ADOPT, LongLoRA, FastChat and LMFlow material; formatting, source links and document grouping differ from those originals. Exact selected Orchestra bytes are retained separately. Full original MIT/Apache source notices and conservative Axolotl integration Community terms accompany this package. Documentation only: no training implementation, model or third-party fine-tuning service is supplied or authorized."
+    },
+    "03-fine-tuning/axolotl/references/dataset-formats.md": {
+      "digest": "08005105153166d0dac4746bed3e3b0ef87d62cb3380ec3288754d40c38d9833",
+      "mode": "100644",
+      "output": "skills/axolotl/references/dataset-formats.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This original Orchestra reference aggregates and converts Axolotl documentation/API layouts and credited ADOPT, LongLoRA, FastChat and LMFlow material; formatting, source links and document grouping differ from those originals. Exact selected Orchestra bytes are retained separately. Full original MIT/Apache source notices and conservative Axolotl integration Community terms accompany this package. Documentation only: no training implementation, model or third-party fine-tuning service is supplied or authorized."
+    },
+    "03-fine-tuning/axolotl/references/index.md": {
+      "digest": "663ea0eeae52868ab221cb5620784d72d3a3fc1775ad9d3b3ef83e4e6e06471d",
+      "mode": "100644",
+      "output": "skills/axolotl/references/index.md"
+    },
+    "03-fine-tuning/axolotl/references/other.md": {
+      "digest": "bff49a43ec3072612eccebb9bbb597e4c6e2083f5aafd77ca57fdf740809e7d9",
+      "mode": "100644",
+      "output": "skills/axolotl/references/other.md",
+      "change_notice": "Forge distribution notice: 2026-10-20. This original Orchestra reference aggregates and converts Axolotl documentation/API layouts and credited ADOPT, LongLoRA, FastChat and LMFlow material; formatting, source links and document grouping differ from those originals. Exact selected Orchestra bytes are retained separately. Full original MIT/Apache source notices and conservative Axolotl integration Community terms accompany this package. Documentation only: no training implementation, model or third-party fine-tuning service is supplied or authorized."
+    },
+    "LICENSE": {
+      "digest": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    }
+  },
+  "supplements": {
+    "registry/licenses/axolotl-Apache.txt": {
+      "digest": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "output": "upstream-notices/axolotl-Apache.txt",
+      "source": "https://github.com/axolotl-ai-cloud/axolotl/blob/2f2be692e52e449ffb6664a57041990f3f32722b/LICENSE",
+      "license": "Apache-2.0"
+    },
+    "registry/licenses/axolotl-PRM-NOTICE.txt": {
+      "digest": "eb05a2bbda6894b51b3e758282a63aeacfc9a963566ee12edc4055dc0816f970",
+      "output": "upstream-notices/axolotl-PRM-NOTICE.txt",
+      "source": "https://github.com/axolotl-ai-cloud/axolotl/blob/2f2be692e52e449ffb6664a57041990f3f32722b/src/axolotl/core/trainers/prm/NOTICE",
+      "license": "Apache-2.0"
+    },
+    "registry/licenses/axolotl-adopt-Apache.txt": {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "output": "upstream-notices/axolotl-adopt-Apache.txt",
+      "source": "https://github.com/iShohei220/adopt/blob/6468572b4b3688a2f056b796b071da540568520e/LICENSE",
+      "license": "Apache-2.0"
+    },
+    "registry/licenses/axolotl-fastchat-Apache.txt": {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "output": "upstream-notices/axolotl-fastchat-Apache.txt",
+      "source": "https://github.com/lm-sys/FastChat/blob/587d5cfa1609a43d192cedb8441cac3c17db105d/LICENSE",
+      "license": "Apache-2.0"
+    },
+    "registry/licenses/axolotl-integrations-Community.txt": {
+      "digest": "923851cf4bbc3e20df8be464d3215c6f5a30118650217adf2f16796ef52f93d1",
+      "output": "upstream-notices/axolotl-integrations-Community.txt",
+      "source": "https://github.com/axolotl-ai-cloud/axolotl/blob/2f2be692e52e449ffb6664a57041990f3f32722b/src/axolotl/integrations/LICENSE.md",
+      "license": "LicenseRef-Axolotl-Community-2.1"
+    },
+    "registry/licenses/axolotl-lmflow-Apache.txt": {
+      "digest": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "output": "upstream-notices/axolotl-lmflow-Apache.txt",
+      "source": "https://github.com/OptimalScale/LMFlow/blob/e9b1da012f08d17fadad698278f505800d30a8af/LICENSE",
+      "license": "Apache-2.0"
+    },
+    "registry/licenses/axolotl-longlora-Apache.txt": {
+      "digest": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "output": "upstream-notices/axolotl-longlora-Apache.txt",
+      "source": "https://github.com/JIA-Lab-research/LongLoRA/blob/d4eb344c5ccc9e91c0812a2b2aeea69070df8c33/LICENSE",
+      "license": "Apache-2.0"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "03-fine-tuning/axolotl/SKILL.md",
+        "03-fine-tuning/axolotl/references/index.md",
+        "LICENSE"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "attribution": "Claude AI Research Skills Contributors / Orchestra Research, original authored skill and index under MIT.",
+      "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/LICENSE"
+    },
+    {
+      "license": "Apache-2.0",
+      "files": [
+        "03-fine-tuning/axolotl/references/api.md",
+        "03-fine-tuning/axolotl/references/dataset-formats.md",
+        "03-fine-tuning/axolotl/references/other.md"
+      ],
+      "notices": [
+        "registry/licenses/axolotl-Apache.txt",
+        "registry/licenses/axolotl-adopt-Apache.txt",
+        "registry/licenses/axolotl-longlora-Apache.txt",
+        "registry/licenses/axolotl-fastchat-Apache.txt",
+        "registry/licenses/axolotl-lmflow-Apache.txt",
+        "registry/licenses/axolotl-PRM-NOTICE.txt",
+        "registry/licenses/axolotl-integrations-Community.txt"
+      ],
+      "attribution": "Generated and aggregated Axolotl documentation, credited Axolotl/ADOPT/LongLoRA/FastChat/LMFlow/HuggingFace TRL contributors; exact Apache notices and source credits retained. Integration Community terms retained conservatively; signatures/docs are not the integration implementations and no third-party fine-tuning service rights are certified.",
+      "source": "https://github.com/axolotl-ai-cloud/axolotl/blob/2f2be692e52e449ffb6664a57041990f3f32722b/LICENSE"
+    }
+  ]
+}

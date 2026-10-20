@@ -62,8 +62,25 @@ numera-forge install skill-reverse-ctf-sandbox --target claude-code --destinatio
 
 The original family assumes competition/sandbox context; that text does not establish authorization.
 Confirm ownership/permission and real scope before active testing. Forge never activates the bundle,
-bootstraps tools or registers MCP servers. The full source router and the distinct Codeberg APK source
-are not included; see [their exact blockers](remaining-skill-disposition.md#additional-requested-reverse-sources).
+bootstraps tools or registers MCP servers. The distinct Codeberg APK source remains access-blocked.
+
+`skill-reverse-skill-workspace` separately contains all599original source files, including89original
+SKILL entries, as one workspace-dependent bundle. Its unchanged original optional adapter is installed
+at `.claude/skills/reverse-skill-router/SKILL.md`; the remaining original layout lives beneath
+`.claude/skills/reverse-skill-router/repository/`. Explicitly supply that absolute repository path to
+the adapter or open it as the workspace. Child entries inside that directory are routed resources,
+not independently registered top-level host skills. The original adapter's Codex-oriented instructions
+and external platform/tool requirements are retained, not a promise of every client's runtime support.
+Read [source terms and provenance limits](source-licenses.md#reaffirmed-original-distributions) before
+use. Never run router/bootstrap/security tools without separate approval and actual authorized scope.
+
+```bash
+numera-forge install skill-reverse-skill-workspace --target claude-code --destination /absolute/project --dry-run
+```
+
+The separate README toolkit, Axolotl documentation, Prisma, Swift and eight Templates packages use
+the same preview/install/update/lifecycle commands; exact source IDs are in the catalog. Installing
+Axolotl documentation does not install Python/torch/models or grant fine-tuning service rights.
 
 ## 2. Native plugin catalogs
 
@@ -281,8 +298,9 @@ host files or bypass an ownership conflict with a manual bulk copy.
 
 ## 4. Duplicate names and evidence limits
 
-There are 1145 accepted packages, 1020 distinct bundled skill names and 121 shared-name groups.
-The ordinary catalogs contain 1141 packages; four required-native DoorDash bundles use only the
+There are 1159 accepted packages, 1075 distinct top-level bundled skill names and 121 shared-name groups.
+Nested original workspace entries are routed resources, not additional independently registered names.
+The ordinary catalogs contain 1155 packages; four required-native DoorDash bundles use only the
 explicit Forge route. Native per-package namespaces retain independent identity where implemented.
 Flat standalone roots refuse different-source same-name owners, even when their main SKILL.md bytes
 match. Only complete identical reviewed-native companion trees can share ownership as described above. Select another project/home destination

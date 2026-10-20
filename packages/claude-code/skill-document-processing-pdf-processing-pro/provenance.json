@@ -1,0 +1,55 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/skills/pdf-processing-pro/FORMS.md",
+      "path": "cli-tool/components/skills/document-processing/pdf-processing-pro/FORMS.md",
+      "size": 14006
+    },
+    {
+      "digest": "f28c254d9f15eed42233a3e806f722f3a92c35d429df0b50641e7ef0efda10fb",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/skills/pdf-processing-pro/OCR.md",
+      "path": "cli-tool/components/skills/document-processing/pdf-processing-pro/OCR.md",
+      "size": 2828
+    },
+    {
+      "digest": "35570753464a9e14fbedf93b439d00fcbb40387520140f8b8750a8a0bafd0020",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/skills/pdf-processing-pro/SKILL.md",
+      "path": "cli-tool/components/skills/document-processing/pdf-processing-pro/SKILL.md",
+      "size": 7029,
+      "source_digest": "0e07e0c87b7189911b91f35da0b3aaad6678ff2b2781334bfc217a5432a3fe6f"
+    },
+    {
+      "digest": "ae2b4c9fc07a724f25415aa19d061477e52565ad50c7cb10a9b3bdc069dfe94f",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/skills/pdf-processing-pro/TABLES.md",
+      "path": "cli-tool/components/skills/document-processing/pdf-processing-pro/TABLES.md",
+      "size": 14911
+    },
+    {
+      "digest": "694c93c3e1dec5dc6a6e4ebdc2548c8a9200c52a9b261399893d0592831f4395",
+      "mode": "100755",
+      "output_path": "packages/claude-code/skill-document-processing-pdf-processing-pro/skills/pdf-processing-pro/scripts/analyze_form.py",
+      "path": "cli-tool/components/skills/document-processing/pdf-processing-pro/scripts/analyze_form.py",
+      "size": 8684
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0045f488fa56f769134bfeef52ef5a5e8a44fa4328258ff8e72147683a9c8b25",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/document-processing/pdf-processing-pro",
+  "schema_version": 1
+}

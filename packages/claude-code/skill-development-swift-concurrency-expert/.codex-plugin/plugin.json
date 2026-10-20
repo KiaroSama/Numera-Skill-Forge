@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: swift-concurrency-expert",
+  "license": "MIT",
+  "name": "skill-development-swift-concurrency-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+  "collection": "axolotl-original-docs",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "9273d534cd6a06612b18418f2cd98f63d1ac9bb780eda511a91800dee48f1dda",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/skills/axolotl/SKILL.md",
+      "path": "03-fine-tuning/axolotl/SKILL.md",
+      "size": 4797
+    },
+    {
+      "digest": "9df8bc7444eed8cdae8e0bd3779345fd99ad7125d7894b4e383fba36d673bef5",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/skills/axolotl/references/api.md",
+      "path": "03-fine-tuning/axolotl/references/api.md",
+      "size": 121704,
+      "source_digest": "fa42d8161bf366de96e8949f57bcd4e8021a332b28f58f379f67dbd09792c8a6"
+    },
+    {
+      "digest": "c6956f8cf22db65b64457579f59657357459ce789d75352196d4d5b51acaf260",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/skills/axolotl/references/dataset-formats.md",
+      "path": "03-fine-tuning/axolotl/references/dataset-formats.md",
+      "size": 46605,
+      "source_digest": "08005105153166d0dac4746bed3e3b0ef87d62cb3380ec3288754d40c38d9833"
+    },
+    {
+      "digest": "663ea0eeae52868ab221cb5620784d72d3a3fc1775ad9d3b3ef83e4e6e06471d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/skills/axolotl/references/index.md",
+      "path": "03-fine-tuning/axolotl/references/index.md",
+      "size": 199
+    },
+    {
+      "digest": "98259f7ed1bd90b9743fd9e56a327e5971acfd2d083d1b54d4610fba2b1361af",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/skills/axolotl/references/other.md",
+      "path": "03-fine-tuning/axolotl/references/other.md",
+      "size": 140969,
+      "source_digest": "bff49a43ec3072612eccebb9bbb597e4c6e2083f5aafd77ca57fdf740809e7d9"
+    },
+    {
+      "digest": "80b5899a9ab121a2d4aae63724f0c11defba7f23da487086932bb9abfb0f2a00",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-ai-research-fine-tuning-axolotl/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1095
+    }
+  ],
+  "license": "MIT AND Apache-2.0",
+  "payload_digest": "1730fe8d150178c3941a025da884f85b36d58bf534c943a715671c07072a350f",
+  "repository": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+  "revision": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "root": "03-fine-tuning/axolotl",
+  "schema_version": 1
+}

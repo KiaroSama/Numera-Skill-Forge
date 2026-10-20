@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/enterprise-communication/email-composer",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-email-composer",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

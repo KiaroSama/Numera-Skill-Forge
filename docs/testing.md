@@ -26,8 +26,8 @@ once in CI on the pushed SHA, not duplicated locally.
 ## Actual release CLI tier
 
 On every Linux CI run, `scripts/verify-cli-lifecycle.py` executes the actual release binary from an
-unrelated working directory against fresh isolated consumers. Twenty-one representative packages from
-twelve of the25registered collections exercise catalog/build, preview/no-write, installation with complete
+unrelated working directory against fresh isolated consumers. Twenty-seven representative packages from
+eighteen of the31registered collections exercise catalog/build, preview/no-write, installation with complete
 companions/notices and original modes, repeat no-op, disable/enable, edited-file uninstall refusal,
 distinct-source same-name collision, unsupported native-only refusal, rollback and uninstall.
 An inert first-party Git repository additionally verifies prompt-only safe updates, installed receipt
@@ -41,7 +41,8 @@ This tests real Forge operations, not model invocation or the scientific behavio
 Native GUI tests remain in the separate four-platform workflow; browser IPC mocks do not replace them.
 
 The new reviewed-distribution service fixtures cover complete source inventory/hash/mode approval,
-path repair, scoped GPL/mixed terms, exact supplements/artifact provenance, prominent modification
+path repair, scoped GPL/mixed terms including exact CC-BY-2.0 versus wrong-version refusal,
+complete contained reverse workspaces, exact supplements/artifact provenance, prominent modification
 notices with retained originals, reconstruction, drift/withdrawal/collision refusal, complete sibling
 skill bundles with selected-entry identity rather than companion ordering, and required native
 project-Claude install/uninstall. The original DoorDash hooks have a separate Linux no-network/PID

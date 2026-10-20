@@ -1,0 +1,26 @@
+{
+  "collection": "prisma-declared-original",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "67895cb892dc903f72c13ed5bd662bffba531906b9a323365b1b48affbb0644c",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-prisma-expert/skills/prisma-expert/SKILL.md",
+      "path": ".agent/skills/prisma-expert/SKILL.md",
+      "size": 10249
+    },
+    {
+      "digest": "fc18dc816be16d21676a4d8a6f6ea5625c0fcf6a2c32e52d06b62145544eeaf7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-prisma-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1063
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "0aef6ff7f8a5b62b67ad1a72898b0cad4bf27471848e47bad1348d5a8640682a",
+  "repository": "https://github.com/vudovn/ag-kit.git",
+  "revision": "63938f3f0cac02f9bde0ebcd0f46f73bcf2e531d",
+  "root": ".agent/skills/prisma-expert",
+  "schema_version": 1
+}

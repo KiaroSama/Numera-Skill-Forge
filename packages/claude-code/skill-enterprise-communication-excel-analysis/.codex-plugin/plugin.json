@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/enterprise-communication/excel-analysis",
+  "license": "MIT",
+  "name": "skill-enterprise-communication-excel-analysis",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

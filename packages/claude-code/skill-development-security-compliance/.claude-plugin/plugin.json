@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/security-compliance",
+  "license": "MIT",
+  "name": "skill-development-security-compliance",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "version": "1.0.0"
+}

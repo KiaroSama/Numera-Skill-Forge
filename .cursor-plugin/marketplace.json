@@ -50,6 +50,11 @@
       "source": "packages/claude-code/skill-productivity-writing-rules"
     },
     {
+      "description": "Original upstream skill: 03-fine-tuning/axolotl",
+      "name": "skill-ai-research-fine-tuning-axolotl",
+      "source": "packages/claude-code/skill-ai-research-fine-tuning-axolotl"
+    },
+    {
       "description": "Original upstream skill: scientific-skills/clinpgx-database",
       "name": "skill-scientific-clinpgx-database",
       "source": "packages/claude-code/skill-scientific-clinpgx-database"
@@ -5115,14 +5120,74 @@
       "source": "packages/claude-code/skill-productivity-notion-spec-to-implementation"
     },
     {
+      "description": "Original upstream skill: .agent/skills/prisma-expert",
+      "name": "skill-development-prisma-expert",
+      "source": "packages/claude-code/skill-development-prisma-expert"
+    },
+    {
+      "description": "Original upstream skill: skills/crafting-effective-readmes",
+      "name": "skill-productivity-crafting-effective-readmes",
+      "source": "packages/claude-code/skill-productivity-crafting-effective-readmes"
+    },
+    {
       "description": "Original upstream skill: CTF-Sandbox-Orchestrator/ctf-sandbox-orchestrator",
       "name": "skill-reverse-ctf-sandbox",
       "source": "packages/claude-code/skill-reverse-ctf-sandbox"
     },
     {
+      "description": "Original upstream skill: plugins/reverse-skill/skills/reverse-skill-router",
+      "name": "skill-reverse-skill-workspace",
+      "source": "packages/claude-code/skill-reverse-skill-workspace"
+    },
+    {
       "description": "Original upstream skill: skills/deep-research",
       "name": "skill-ai-research-deep-research",
       "source": "packages/claude-code/skill-ai-research-deep-research"
+    },
+    {
+      "description": "Original upstream skill: swift-concurrency-expert",
+      "name": "skill-development-swift-concurrency-expert",
+      "source": "packages/claude-code/skill-development-swift-concurrency-expert"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/creative-design/executing-marketing-campaigns",
+      "name": "skill-creative-design-executing-marketing-campaigns",
+      "source": "packages/claude-code/skill-creative-design-executing-marketing-campaigns"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/devops-iac-engineer",
+      "name": "skill-development-devops-iac-engineer",
+      "source": "packages/claude-code/skill-development-devops-iac-engineer"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/git-commit-helper",
+      "name": "skill-development-git-commit-helper",
+      "source": "packages/claude-code/skill-development-git-commit-helper"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/it-operations",
+      "name": "skill-development-it-operations",
+      "source": "packages/claude-code/skill-development-it-operations"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/development/security-compliance",
+      "name": "skill-development-security-compliance",
+      "source": "packages/claude-code/skill-development-security-compliance"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/document-processing/pdf-processing-pro",
+      "name": "skill-document-processing-pdf-processing-pro",
+      "source": "packages/claude-code/skill-document-processing-pdf-processing-pro"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/email-composer",
+      "name": "skill-enterprise-communication-email-composer",
+      "source": "packages/claude-code/skill-enterprise-communication-email-composer"
+    },
+    {
+      "description": "Original upstream skill: cli-tool/components/skills/enterprise-communication/excel-analysis",
+      "name": "skill-enterprise-communication-excel-analysis",
+      "source": "packages/claude-code/skill-enterprise-communication-excel-analysis"
     },
     {
       "description": "Original upstream skill: skills/composition-patterns",

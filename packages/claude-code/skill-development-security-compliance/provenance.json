@@ -1,0 +1,110 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "79d322c8443824baf1983bbb5e23882931c82645354e6ba4ce46c68ca4522dc3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/README.md",
+      "path": "cli-tool/components/skills/development/security-compliance/README.md",
+      "size": 16868
+    },
+    {
+      "digest": "9076c881bf76d634197cda8709c5721a70b1c06efa58511e4f3e2b66aa873001",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/SKILL.md",
+      "path": "cli-tool/components/skills/development/security-compliance/SKILL.md",
+      "size": 29060
+    },
+    {
+      "digest": "adb1fc8f572a14603c11a6a102d39487400bc070d278f9196bc3e2b3fc0e908a",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/examples/incident-response-template.md",
+      "path": "cli-tool/components/skills/development/security-compliance/examples/incident-response-template.md",
+      "size": 8153
+    },
+    {
+      "digest": "8447a36d2903e6ab78849eb2af885f6b180273e83f057dcd5c984a1a37cecba1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/examples/risks.csv",
+      "path": "cli-tool/components/skills/development/security-compliance/examples/risks.csv",
+      "size": 1383
+    },
+    {
+      "digest": "50531e08783d2dfcbaab924b6d80fd01c9e6de3cd3b6eac87338b8c9f09db19b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/examples/soc2-control-example.md",
+      "path": "cli-tool/components/skills/development/security-compliance/examples/soc2-control-example.md",
+      "size": 11354
+    },
+    {
+      "digest": "3859723cc3827f0168c417bf52f3dfb7bc613e446df26239cbcaae72af7ce4bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/examples/vulnerabilities.csv",
+      "path": "cli-tool/components/skills/development/security-compliance/examples/vulnerabilities.csv",
+      "size": 2111
+    },
+    {
+      "digest": "c548c9c876c0e569190e02483b20a6f22384d628799929dd5206b9c374754a76",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/reference/application-security.md",
+      "path": "cli-tool/components/skills/development/security-compliance/reference/application-security.md",
+      "size": 26748
+    },
+    {
+      "digest": "6c45b1607e943322aaaf19a349a990179be09d220a6bc032319a02cd509d3d88",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/reference/compliance-frameworks.md",
+      "path": "cli-tool/components/skills/development/security-compliance/reference/compliance-frameworks.md",
+      "size": 51686
+    },
+    {
+      "digest": "8ae471c1297bd776591d65f55cff6637a9c9284b1f72e93ad798fae52512aa1b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/reference/security-architecture.md",
+      "path": "cli-tool/components/skills/development/security-compliance/reference/security-architecture.md",
+      "size": 45301
+    },
+    {
+      "digest": "3a718152e1a3b9717dbd7d10772005486c551ee42c463d30f13b9deae2e96b9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/reference/security-operations.md",
+      "path": "cli-tool/components/skills/development/security-compliance/reference/security-operations.md",
+      "size": 29843
+    },
+    {
+      "digest": "d072e18bd87e4b412cf42b94fc57bcd71ad8aa9c153ca0f755e9c3d34a7547a6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/reference/threat-modeling-risk.md",
+      "path": "cli-tool/components/skills/development/security-compliance/reference/threat-modeling-risk.md",
+      "size": 44595
+    },
+    {
+      "digest": "db5fd62fe95fdaaa9894d5cbd2e4fceadfa2f3d9188beb8f95948bcb55645518",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/scripts/risk_calculator.py",
+      "path": "cli-tool/components/skills/development/security-compliance/scripts/risk_calculator.py",
+      "size": 13709
+    },
+    {
+      "digest": "c21509925701e49e895c09bef9789d205623b7f711583d55517462f05de563e4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-security-compliance/skills/security-compliance/scripts/vuln_prioritizer.py",
+      "path": "cli-tool/components/skills/development/security-compliance/scripts/vuln_prioritizer.py",
+      "size": 16795
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "656af1ac9d3f31e1e57e9e5a563c14bf8361bdc59354d0849e63547e5563f0ac",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/development/security-compliance",
+  "schema_version": 1
+}

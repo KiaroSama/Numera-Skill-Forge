@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/creative-design/executing-marketing-campaigns",
+  "license": "MIT",
+  "name": "skill-creative-design-executing-marketing-campaigns",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

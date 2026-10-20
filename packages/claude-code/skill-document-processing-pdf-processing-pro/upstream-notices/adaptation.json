@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "pdf-processing-pro",
+    "source_digest": "0e07e0c87b7189911b91f35da0b3aaad6678ff2b2781334bfc217a5432a3fe6f",
+    "source_name": "PDF Processing Pro"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "35570753464a9e14fbedf93b439d00fcbb40387520140f8b8750a8a0bafd0020",
+  "schema_version": 1
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "swift-declared-original",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "df17aae89ce4705d0a6e5f7b46eeea3b9023967ecad948f8779b47039eb55a8b",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1072
+    },
+    {
+      "digest": "6444fa364371e70cc52d9810457e132bba8d258c54b2a6464751e294433171bd",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/skills/swift-concurrency-expert/SKILL.md",
+      "path": "swift-concurrency-expert/SKILL.md",
+      "size": 4347
+    },
+    {
+      "digest": "c322b433e7bbc379eef39cb435c1bb66f36ca90bbafd9c0a0e4b1502e1b63652",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/skills/swift-concurrency-expert/agents/openai.yaml",
+      "path": "swift-concurrency-expert/agents/openai.yaml",
+      "size": 243
+    },
+    {
+      "digest": "1df28b4b69481281adcbb40729939433a222d741de2c51c55156277e8d3c8737",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/skills/swift-concurrency-expert/references/approachable-concurrency.md",
+      "path": "swift-concurrency-expert/references/approachable-concurrency.md",
+      "size": 2471
+    },
+    {
+      "digest": "0c6582198ab5e4c6d4a2b1d5fb20b25807b505da0d927b71454df5f69ba04c9d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/skills/swift-concurrency-expert/references/swift-6-2-concurrency.md",
+      "path": "swift-concurrency-expert/references/swift-6-2-concurrency.md",
+      "size": 10673
+    },
+    {
+      "digest": "5740721467d22d4ed566c59e56061a1da7a01c1f49989c423a46144ec645cb28",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-swift-concurrency-expert/skills/swift-concurrency-expert/references/swiftui-concurrency-tour-wwdc.md",
+      "path": "swift-concurrency-expert/references/swiftui-concurrency-tour-wwdc.md",
+      "size": 1645
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "05164dae0a9966b97bd71dd8c132c5955a4971cf5344ecc6613a529a4379b0ba",
+  "repository": "https://github.com/Dimillian/Skills.git",
+  "revision": "05ba982bfeb0d77d3c97d4542b0ee15034d05f84",
+  "root": "swift-concurrency-expert",
+  "schema_version": 1
+}

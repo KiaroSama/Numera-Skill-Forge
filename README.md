@@ -103,10 +103,11 @@ claude plugin install skill-newliver666-apk-reverse@numera-skill-forge
 
 All **177 original skills** from [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 are included as independent packages. Together with the reviewed additions, Forge now accepts
-**1146 packages**: **1142 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [107 missing-root additions](docs/missing-skill-imports.md) include approved
+**1159 packages**: **1155 ordinary marketplace plugins** and **four Forge-only required-native bundles**. The [missing-root additions](docs/missing-skill-imports.md) include approved
 name-only adaptations, complete original-source packages, transparent guide adapters and reviewed
-layout/license-compliance repairs. The latest35 preserve all1110 preceding accepted objects.
-Forty-six canonical roots remain held for exact source/grant conditions; Animate UI is additionally
+layout/license-compliance repairs. The latest13 additions preserve all1146 preceding accepted objects,
+adding693 original payload/notice records. There are119resolved canonical roots and34remaining;
+Animate UI is additionally
 listed as a source reference pending clarification of its custom redistribution terms. K-Dense original names,
 complete companions and MIT notices are preserved at reviewed revision `a1043ef`; the earlier 488
 packages are unchanged. Each package ID is `skill-kdense-<original-name>`; browse
@@ -138,9 +139,19 @@ claude plugin install skill-reverse-ctf-sandbox@numera-skill-forge
 Use the original `ctf-sandbox-orchestrator` entry; competition children are downstream-only. Packaging
 does not activate it or authorize any target. Its original assumption that supplied targets are sandbox
 assets is not evidence of ownership: confirm actual authorization before any active test.
-The full reverse-skill router remains held for copied-corpus provenance, and the separately requested
-Codeberg APK source is access-blocked. The47earlier holds were freshly checked without a new complete
-grant; see [exact source outcomes](docs/remaining-skill-disposition.md#additional-requested-reverse-sources).
+The full reverse-skill workspace is also available as `skill-reverse-skill-workspace`: all599original
+source files and89original skill entrypoints, with the unchanged optional router adapter at its native
+entry and the remaining repository layout under `reverse-skill-router/repository/`. Supply that local
+repository path explicitly or open it as the workspace; the adapter does not automatically discover it.
+This is one workspace-dependent bundle, not89independent plugins. Its rootMIT, CTFGPL and src-hunterMIT
+notices remain intact. Earlier Payloader/HackerOne/WooYun provenance is disclosed as uncertain, not
+certified or invented. No bundled code is executed by packaging or installation.
+
+Twelve former canonical holds also have complete original packages: README toolkit(MIT/CC-BY2),
+Axolotl documentation(MIT/Apache with conservative integration terms), Prisma, Swift and eight
+Templates roots. Original notices, four hash-bound name repairs and three appended documentation
+change notices retain original copies. Explicitly restricted sources are not relicensed; the distinct
+Codeberg APK source remains access-blocked. See [exact source outcomes](docs/remaining-skill-disposition.md#reaffirmed-imports-and-declared-grants).
 
 ## Vercel skills and design references
 

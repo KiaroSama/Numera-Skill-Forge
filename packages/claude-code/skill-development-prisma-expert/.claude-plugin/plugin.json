@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: .agent/skills/prisma-expert",
+  "license": "MIT",
+  "name": "skill-development-prisma-expert",
+  "repository": "https://github.com/vudovn/ag-kit.git",
+  "version": "1.0.0"
+}

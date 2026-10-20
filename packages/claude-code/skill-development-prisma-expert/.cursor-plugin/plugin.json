@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: .agent/skills/prisma-expert",
+  "license": "MIT",
+  "name": "skill-development-prisma-expert",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

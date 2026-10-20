@@ -1,0 +1,68 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "f6c6b9674e1ee9997b9a52a21c3de2273477432ee0059831f71a508c05c9b746",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/README.md",
+      "path": "cli-tool/components/skills/development/it-operations/README.md",
+      "size": 9738
+    },
+    {
+      "digest": "fa170d928b86c28a572229a8edceac0bfb5841f9d78e6e4c118cb22da876be93",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/SKILL.md",
+      "path": "cli-tool/components/skills/development/it-operations/SKILL.md",
+      "size": 15082
+    },
+    {
+      "digest": "4903c9d1a65ecfd96ff0708a8bda5322d49440d20683756719d5198659992def",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/reference/automation.md",
+      "path": "cli-tool/components/skills/development/it-operations/reference/automation.md",
+      "size": 40343
+    },
+    {
+      "digest": "577f1644cf072b742ed35c5a46ef21feb320b1bbbfabd86075a67fa8d1db91c6",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/reference/backup-recovery.md",
+      "path": "cli-tool/components/skills/development/it-operations/reference/backup-recovery.md",
+      "size": 26233
+    },
+    {
+      "digest": "9851e1c7159bf6634bb0c3dd264b0d18e6a6a90ebb02b82814ff3a80401885d7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/reference/incident-management.md",
+      "path": "cli-tool/components/skills/development/it-operations/reference/incident-management.md",
+      "size": 46805
+    },
+    {
+      "digest": "aa1ed351f5eb238b83c4eb26f28b4e84b90876f7840de34ac76e302ec1f8dd58",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/reference/infrastructure.md",
+      "path": "cli-tool/components/skills/development/it-operations/reference/infrastructure.md",
+      "size": 45301
+    },
+    {
+      "digest": "445a7b0ef74871e53c43f62a1910ee7a04f245ff2a4d097aecbee522b24da6df",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-it-operations/skills/it-operations/reference/monitoring.md",
+      "path": "cli-tool/components/skills/development/it-operations/reference/monitoring.md",
+      "size": 38260
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "1af9e80cd6c4430953bb3855c19439bd3fee05ddecb9369c898814bc509ecbc8",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/development/it-operations",
+  "schema_version": 1
+}

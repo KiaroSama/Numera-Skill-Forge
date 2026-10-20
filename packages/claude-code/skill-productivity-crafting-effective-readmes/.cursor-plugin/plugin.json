@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: skills/crafting-effective-readmes",
+  "license": "MIT AND CC-BY-2.0",
+  "name": "skill-productivity-crafting-effective-readmes",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

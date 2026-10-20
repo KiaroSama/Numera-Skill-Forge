@@ -1,0 +1,27 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-email-composer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "41ef0b0906ea45a8802bbc5f81b9b12a90a64d4d6fd304618216b2562eefba60",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-email-composer/skills/email-composer/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/email-composer/SKILL.md",
+      "size": 6813,
+      "source_digest": "fee7df66bbb4f9edc8d50bf2e0f5302ba3ab6330de8356ba2a9c712c10504eee"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "19d04e05580ee244503dd5da9441f51583c037ccb1913af38aa9c98761f8d51c",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/enterprise-communication/email-composer",
+  "schema_version": 1
+}

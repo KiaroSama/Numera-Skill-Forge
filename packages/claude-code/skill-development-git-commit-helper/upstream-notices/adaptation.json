@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "git-commit-helper",
+    "source_digest": "6dbef2aecbb3680f8fcb41e5c2a39b8905b42b29818b6feedab72621e728e850",
+    "source_name": "Git Commit Helper"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "30eeef683207e13e41c5f534b1e767c412f27a9c63ea8c630264a4c43ec182c5",
+  "schema_version": 1
+}

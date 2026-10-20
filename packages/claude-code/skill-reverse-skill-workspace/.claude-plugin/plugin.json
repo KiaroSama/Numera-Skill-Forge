@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: plugins/reverse-skill/skills/reverse-skill-router",
+  "license": "MIT AND GPL-3.0-only",
+  "name": "skill-reverse-skill-workspace",
+  "repository": "https://github.com/zhaoxuya520/reverse-skill.git",
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Numera Skill Forge (package assembler)"
+  },
+  "description": "Unmodified upstream skill: swift-concurrency-expert",
+  "license": "MIT",
+  "name": "skill-development-swift-concurrency-expert",
+  "repository": "https://github.com/Dimillian/Skills.git",
+  "version": "1.0.0"
+}

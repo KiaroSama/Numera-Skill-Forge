@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "excel-analysis",
+    "source_digest": "fb681b860b4d3bc20938cfbe490ebdc39d679d1634f1a6c12727bd4ab7ac91d0",
+    "source_name": "Excel Analysis"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "7c90ac714941c49a0e0b28f49e47bf233b49b7517113ea32381e0a2df6a5e7c3",
+  "schema_version": 1
+}

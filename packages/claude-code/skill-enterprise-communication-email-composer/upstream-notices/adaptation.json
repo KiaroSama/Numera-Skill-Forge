@@ -1,0 +1,10 @@
+{
+  "approval": {
+    "name": "email-composer",
+    "source_digest": "fee7df66bbb4f9edc8d50bf2e0f5302ba3ab6330de8356ba2a9c712c10504eee",
+    "source_name": "Email Composer"
+  },
+  "change": "Only the frontmatter name and matching skill directory were normalized by Forge; original body and companions are unchanged.",
+  "output_digest": "41ef0b0906ea45a8802bbc5f81b9b12a90a64d4d6fd304618216b2562eefba60",
+  "schema_version": 1
+}

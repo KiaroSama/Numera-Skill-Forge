@@ -1,0 +1,124 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "44e5d4f90b7acb2e02c9a55b3596607d3e4154e3ae7dc2ebc7d196f09434d1c4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/DIRECTORY_STRUCTURE.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/DIRECTORY_STRUCTURE.md",
+      "size": 8574
+    },
+    {
+      "digest": "fcf27aaf63021f50bc53ac4680e9a53b08f8674902a9fa8d15c9d73b0c68aed7",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/IMPLEMENTATION_GUIDE.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/IMPLEMENTATION_GUIDE.md",
+      "size": 11871
+    },
+    {
+      "digest": "d0c525690bc8abc790517b6c562d5ac18b3e7ae5e71a43d34b308a99eda7d051",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/README.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/README.md",
+      "size": 9110
+    },
+    {
+      "digest": "50ecac106cc68a6e73c811d34b7ba3accd4d1f585104e4f4a17da60563c997da",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/SKILL.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/SKILL.md",
+      "size": 6578
+    },
+    {
+      "digest": "797eb968742caf0ad64c26a2e33eaa9f5600a43ff32a09738e3bedc49f168c03",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/examples/kubernetes/complete-app.yaml",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/examples/kubernetes/complete-app.yaml",
+      "size": 4323
+    },
+    {
+      "digest": "721ea514ff03bc11a482b89f680caf75cc12737515398463f2f23d42f534a6d3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/examples/pipelines/github-actions.yml",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/examples/pipelines/github-actions.yml",
+      "size": 4512
+    },
+    {
+      "digest": "5b4f3cc0eb7101f21313afb82784536adfe868d44433b415924b45eb943748c2",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/examples/terraform/main.tf",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/examples/terraform/main.tf",
+      "size": 2574
+    },
+    {
+      "digest": "a66739a036033d602b9c047306f0bd62275994f7e962ab2cb61730f1348c748d",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/cicd.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/cicd.md",
+      "size": 15471
+    },
+    {
+      "digest": "a56216fd8f784f86589286898ce00d43950f8b827795a2a4f300f89fca0c6bc4",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/cloud_platforms.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/cloud_platforms.md",
+      "size": 16164
+    },
+    {
+      "digest": "c419580f105f26048a339deea463d3d86c04f18ea2a53328af3cfae68e7543e1",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/kubernetes.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/kubernetes.md",
+      "size": 20424
+    },
+    {
+      "digest": "7339ab2d7c4d527634424b9233c1459d3a938a69adb88cc740ab20497e92f0fe",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/observability.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/observability.md",
+      "size": 14424
+    },
+    {
+      "digest": "ee9a22987f5ac4170eb0ce3009dbe8301dca4c3df23fc4f5858ea853d198b4ee",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/security.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/security.md",
+      "size": 14095
+    },
+    {
+      "digest": "f314e2ae6901af2e6c8c838e88a5a5e70b47ae4cc47bc009eecfff0a5e4ed9b8",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/templates.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/templates.md",
+      "size": 18509
+    },
+    {
+      "digest": "68501fa719788234dece69513181b8a7366b70c34a862bf320cf6e7765651828",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/reference/terraform.md",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/reference/terraform.md",
+      "size": 16550
+    },
+    {
+      "digest": "bdc3cdcbfcf5e446a6b9bd148bfbdcb32ae148c2dd3afe918a423d982d878e62",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-development-devops-iac-engineer/skills/devops-iac-engineer/scripts/devops_utils.py",
+      "path": "cli-tool/components/skills/development/devops-iac-engineer/scripts/devops_utils.py",
+      "size": 14984
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "af16c53dd34f2323958cf4c9b2ad8221f5a73e8f69efd10219d46ceaf69932d5",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/development/devops-iac-engineer",
+  "schema_version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "collection": "templates-declared-originals",
+  "execution": "not-performed",
+  "files": [
+    {
+      "digest": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-excel-analysis/upstream-notices/LICENSE",
+      "path": "LICENSE",
+      "size": 1075
+    },
+    {
+      "digest": "7c90ac714941c49a0e0b28f49e47bf233b49b7517113ea32381e0a2df6a5e7c3",
+      "mode": "100644",
+      "output_path": "packages/claude-code/skill-enterprise-communication-excel-analysis/skills/excel-analysis/SKILL.md",
+      "path": "cli-tool/components/skills/enterprise-communication/excel-analysis/SKILL.md",
+      "size": 5166,
+      "source_digest": "fb681b860b4d3bc20938cfbe490ebdc39d679d1634f1a6c12727bd4ab7ac91d0"
+    }
+  ],
+  "license": "MIT",
+  "payload_digest": "7b50f0283dd796d352161be0739b115cdbd7651fecedc9e4ad25f193c5cbf867",
+  "repository": "https://github.com/davila7/claude-code-templates.git",
+  "revision": "da2b74e9059820e70ad07ff2d2b5321371ab1709",
+  "root": "cli-tool/components/skills/enterprise-communication/excel-analysis",
+  "schema_version": 1
+}

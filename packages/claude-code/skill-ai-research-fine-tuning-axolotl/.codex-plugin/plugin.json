@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: 03-fine-tuning/axolotl",
+  "license": "MIT AND Apache-2.0",
+  "name": "skill-ai-research-fine-tuning-axolotl",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

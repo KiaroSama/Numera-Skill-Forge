@@ -1,0 +1,7 @@
+{
+  "description": "Unmodified upstream skill: cli-tool/components/skills/development/it-operations",
+  "license": "MIT",
+  "name": "skill-development-it-operations",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

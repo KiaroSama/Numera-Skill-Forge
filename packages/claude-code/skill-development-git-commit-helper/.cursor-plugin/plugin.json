@@ -1,0 +1,7 @@
+{
+  "description": "Upstream skill with reviewed name-only adaptation: cli-tool/components/skills/development/git-commit-helper",
+  "license": "MIT",
+  "name": "skill-development-git-commit-helper",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

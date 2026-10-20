@@ -1,0 +1,12 @@
+{
+  "attribution": "Complete original declared-MIT source https://github.com/Dimillian/Skills/tree/05ba982bfeb0d77d3c97d4542b0ee15034d05f84/swift-concurrency-expert. Earlier contributor provenance remains uncertain and is not certified as sole original authorship. No conflicting scoped redistribution term has been established for this selected root; original notices and companions retained, no source execution.",
+  "payload": "Exact aggregator payload; upstream adaptations were not made by Forge",
+  "sources": [
+    {
+      "digest": "49e8c6dfbd97c8854504e615279125be5db9256470c9cdbd5367e83c266bf11a",
+      "license": "MIT",
+      "path": "registry/licenses/swift-tuist-MIT.txt",
+      "source": "https://github.com/tuist/fuckingapproachableswiftconcurrency/blob/cb72e2eac04b34293d9c359f057218f177e119a8/LICENSE.md"
+    }
+  ]
+}

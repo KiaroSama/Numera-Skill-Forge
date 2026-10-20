@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "files": {
+    "LICENSE": {
+      "digest": "4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321",
+      "mode": "100644",
+      "output": "upstream-notices/LICENSE"
+    },
+    "skills/crafting-effective-readmes/README.md": {
+      "digest": "f3be191de12d5f3ffb1293348830b28e067d181542f606e5efcbe5563ae106ca",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/README.md"
+    },
+    "skills/crafting-effective-readmes/SKILL.md": {
+      "digest": "638b271fdc148249ed8896dbdcf15f9067a8d64ba7d2d82ec3e86f8d82831b51",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/SKILL.md"
+    },
+    "skills/crafting-effective-readmes/references/art-of-readme.md": {
+      "digest": "8ca299e44ce728bd5e15803b1414b893c52ff67aed1d395181a789a5b7c98123",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/references/art-of-readme.md"
+    },
+    "skills/crafting-effective-readmes/references/make-a-readme.md": {
+      "digest": "81b1d33bc39b53dd8444c627fb7a5424a6a1272507a3f03e1a13c4bc03761057",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/references/make-a-readme.md"
+    },
+    "skills/crafting-effective-readmes/references/standard-readme-example-maximal.md": {
+      "digest": "75133e20217c8a431ab33d42c53e22a69bb5a57828cea6dfd2c93c1bc8693ba2",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/references/standard-readme-example-maximal.md"
+    },
+    "skills/crafting-effective-readmes/references/standard-readme-example-minimal.md": {
+      "digest": "1377439694911b257ed0ced67efd8b46212c9f05e1d831730fa3ff7180fcd162",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/references/standard-readme-example-minimal.md"
+    },
+    "skills/crafting-effective-readmes/references/standard-readme-spec.md": {
+      "digest": "e1b5584f15ed13e60442ff78e4989af7b6934c42330faa6fe567e9757aafbb22",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/references/standard-readme-spec.md"
+    },
+    "skills/crafting-effective-readmes/section-checklist.md": {
+      "digest": "e9da988cb2f4ec9f9bb830e7e39e161ff7053c80d55f2c6f043fa2beaf4b777b",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/section-checklist.md"
+    },
+    "skills/crafting-effective-readmes/style-guide.md": {
+      "digest": "9bc6308113d392d75bbd792799db1c4b12c852d45ec500e2d10f4e2b1230ce60",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/style-guide.md"
+    },
+    "skills/crafting-effective-readmes/templates/internal.md": {
+      "digest": "6d2d0ac208385fa97f5753608f3a941411f40daaa1901fb60021d29ed24c6ff0",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/templates/internal.md"
+    },
+    "skills/crafting-effective-readmes/templates/oss.md": {
+      "digest": "4e92c24937dee83f1d7fe7b8265ddaf91e5f1b1ae6808e1863f704d94949fa74",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/templates/oss.md"
+    },
+    "skills/crafting-effective-readmes/templates/personal.md": {
+      "digest": "2aea82c27a5f779b4cd4d67c3d5c08fc4c6ed476a18298ca7b3070f8a7ec6714",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/templates/personal.md"
+    },
+    "skills/crafting-effective-readmes/templates/xdg-config.md": {
+      "digest": "129095375dedfc2856bf68b561d7968c57aae433721f5ac412442e51ff94abc5",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/templates/xdg-config.md"
+    },
+    "skills/crafting-effective-readmes/using-references.md": {
+      "digest": "de80ec04ef24a43fdb205d47883efcc544acc6e179f8c072c54778f663045ce6",
+      "mode": "100644",
+      "output": "skills/crafting-effective-readmes/using-references.md"
+    }
+  },
+  "supplements": {
+    "registry/licenses/readme-CC-BY-2.0.txt": {
+      "digest": "a949dd5d7f931e974f835f62fac19b1c812e55fa2d5aa053dcd4ed53f2d30536",
+      "output": "upstream-notices/readme-CC-BY-2.0.txt",
+      "source": "https://github.com/creativecommons/cc-legal-tools-data/blob/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/docs/licenses/by/2.0/legalcode.en.html",
+      "license": "CC-BY-2.0"
+    },
+    "registry/licenses/readme-guo-MIT.txt": {
+      "digest": "a4b402584c5295718af397d5f8e75332975290ae82e44788aea25257d57d8ecf",
+      "output": "upstream-notices/readme-guo-MIT.txt",
+      "source": "https://github.com/dguo/make-a-readme/blob/6d9e22931e3bb0c6b926a7bb396d371f78e6e719/LICENSE",
+      "license": "MIT"
+    },
+    "registry/licenses/readme-josh-MIT.txt": {
+      "digest": "3137c31bb3dff5e35c8b2fc4ad2086104ea8277e34e1414e19eaf2587732254b",
+      "output": "upstream-notices/readme-josh-MIT.txt",
+      "source": "https://github.com/joshuadavidthomas/agent-skills/blob/516dee7a422b90937b2958d11c03694154ab9c09/LICENSE",
+      "license": "MIT"
+    },
+    "registry/licenses/readme-standard-MIT.txt": {
+      "digest": "776e6bbcaba8547d51abd5975d2d1913b7ba7b2e33e70786bb92e9ca3da5d9b8",
+      "output": "upstream-notices/readme-standard-MIT.txt",
+      "source": "https://github.com/RichardLitt/standard-readme/blob/5d18ad4db6a39fde5dc845258828153eda9828e8/LICENSE",
+      "license": "MIT"
+    }
+  },
+  "obligations": [
+    {
+      "license": "MIT",
+      "files": [
+        "LICENSE",
+        "skills/crafting-effective-readmes/README.md",
+        "skills/crafting-effective-readmes/SKILL.md",
+        "skills/crafting-effective-readmes/references/make-a-readme.md",
+        "skills/crafting-effective-readmes/references/standard-readme-example-maximal.md",
+        "skills/crafting-effective-readmes/references/standard-readme-example-minimal.md",
+        "skills/crafting-effective-readmes/references/standard-readme-spec.md",
+        "skills/crafting-effective-readmes/section-checklist.md",
+        "skills/crafting-effective-readmes/style-guide.md",
+        "skills/crafting-effective-readmes/templates/internal.md",
+        "skills/crafting-effective-readmes/templates/oss.md",
+        "skills/crafting-effective-readmes/templates/personal.md",
+        "skills/crafting-effective-readmes/templates/xdg-config.md",
+        "skills/crafting-effective-readmes/using-references.md"
+      ],
+      "notices": [
+        "LICENSE",
+        "registry/licenses/readme-josh-MIT.txt",
+        "registry/licenses/readme-guo-MIT.txt",
+        "registry/licenses/readme-standard-MIT.txt"
+      ],
+      "attribution": "Leonardo Flores; Josh Thomas; Danny Guo; Richard Littauer and credited contributors. Original MIT notices and complete references retained.",
+      "source": "https://github.com/softaworks/agent-toolkit/blob/3027f20f3181758385a1bb8c022d4041dfb4de84/LICENSE"
+    },
+    {
+      "license": "CC-BY-2.0",
+      "files": [
+        "skills/crafting-effective-readmes/references/art-of-readme.md"
+      ],
+      "notices": [
+        "skills/crafting-effective-readmes/references/art-of-readme.md",
+        "registry/licenses/readme-CC-BY-2.0.txt"
+      ],
+      "attribution": "Art of README, attributed in supplied copy to hackergrrl (Kira), https://github.com/hackergrrl/art-of-readme; https://creativecommons.org/licenses/by/2.0/. Original article reproduced unchanged from Softaworks. Original URL is currently unavailable; this is disclosed provenance uncertainty, not a new license or claimed author endorsement.",
+      "source": "https://github.com/softaworks/agent-toolkit/blob/3027f20f3181758385a1bb8c022d4041dfb4de84/skills/crafting-effective-readmes/references/art-of-readme.md"
+    }
+  ]
+}

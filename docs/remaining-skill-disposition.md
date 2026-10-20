@@ -1,6 +1,6 @@
 # Completion of the remaining skill review
 
-**2026-10-20 update:** [107 additional packages](missing-skill-imports.md) now resolve the missing canonical inventory; accepted total is1145. The latest35 additions preserve all1110 preceding accepted objects, adding complete originals, reviewed layout/companion/compliance repairs and required DoorDash native bundles. Forty-six canonical roots remain held (42 Templates/four scientific Office) for exact original grants/source/compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
+**2026-10-20 reaffirmed update:** [119 canonical additions](missing-skill-imports.md) now resolve the missing inventory; accepted total is1159 including separate reverse/CTF packages. The latest13additions preserve all1146 preceding Accepted objects and add693original records. Thirty-four canonical roots remain held (30Templates/four scientific Office) for specific restriction, source, terms or unresolved compliance conditions. The [current153-root table](canonical-root-outcomes.md) supersedes historical counts below.
 
 The 299 previously held roots were checked against immutable originals, complete selected payloads,
 source grants, notices, native requirements and actual package admission. This pass adds **164**
@@ -37,20 +37,46 @@ are retained separately. Setup scripts are contained under the orchestrator's `r
 never executed or installed globally by Forge. This is one dependency-complete
 package, not42independently installed packages and not the entire reverse-skill repository.
 
-The full reverse-skill router remains held: its required `src-hunter` corpus explicitly copies and
-translates Payloader/HackerOne/WooYun material. The named original Payloader repository returns404;
-its original redistribution scope is not established by the downstream MIT label or public availability.
-The corpus is not silently stripped, relabeled or executed. RootMIT and CTFGPL alone do not resolve it.
+The complete reverse workspace is now separately bundled with all599original files,89native
+entries and the original optional adapter. RootMIT, src-hunterMIT and CTFGPL declarations and
+credits remain scoped. Earlier Payloader/HackerOne/WooYun provenance is uncertain and disclosed,
+not certified or treated as an express redistribution prohibition. See the reaffirmed decision below.
 
 The distinct [Codeberg APK source](https://codeberg.org/dabao1955/apk-reverse) could not be retrieved:
 the site's robots policy refused autonomous access. Its identity, payload and grant remain unverified;
 no alternate route was used to evade that refusal and no equivalence to newliver666 was assumed.
 A user-provided source archive with its original provenance/terms is a possible permitted input.
 
-The47renewed cases were checked again on2026-10-20; none gained a verified complete-root grant.
-All1145previous Accepted objects remain unchanged. The CTF addition raises the total to1146packages
-and8934original payload/notice records across25collections; it does not resolve those47holds.
-No imported source was activated, tools bootstrapped, services registered or targets tested.
+## Reaffirmed imports and declared grants
+
+The owner's renewed request adds13complete packages:12former canonical holds plus the full reverse
+workspace. Total1159packages/9627original records/31collections; all1146previous Accepted objects
+remain equal. The new693records are independently compared to immutable Git originals/modes. Four
+name-only corrections and three prominent documentation change notices keep exact original copies.
+
+- README toolkit: all14skill files, original embedded Art of README CC-BY2 and full attribution/terms;
+  actual MIT notices for Softaworks, Josh Thomas, Danny Guo and Richard Littauer. An unavailable
+  original URL does not by itself revoke the preserved CC2grant.
+- Axolotl: all5original documentation files, scoped MIT/Apache, exact credited project terms/PRM
+  NOTICE, prominent conversion/aggregation notices and conservative integration Community terms.
+  No training implementation/model or unrestricted third-party fine-tuning-service grant is claimed.
+- Prisma and Swift: complete declared-MIT originals, plus Tuist notice for Swift. Earlier provenance
+  remains uncertain; no fabricated Anthropic/Apple grant or assurance of sole original authorship.
+- Eight Templates roots: complete marketing, DevOps, IT operations, compliance, Git helper, PDF Pro,
+  email and Excel sources. Preserve actual MIT declaration and NerdyChefs/custom-origin uncertainty;
+  four hash-bound name repairs do not change bodies or companions.
+- Full reverse workspace: all599original files/89entries, original native adapter plus contained
+  repository layout and original MIT/GPL/src-hunter/credited notices. Supply repository path explicitly.
+  This is one workspace-dependent bundle, not89independent packages or personal activation.
+
+The34canonical holds remain individually identified in the current table:17explicit Office aliases,
+the missing-proprietary-terms PDF variant, two inaccessible original sources, ungranted D3/Remotion/
+Claude migration/doc-coauthoring/template roots, InternetCourt required NoLicense vendors, paper
+source/license closure, copied Anthropic writing documentation, three earlier-source security cases,
+missing skill-share terms and earlier Shopify scope. AnimateUI's separate explicit component-bundle
+restriction remains; Codeberg retrieval remains refused. Unknown rights are not called a prohibition.
+Every known corresponding public original repository URL is now in the source-only references file;
+links do not imply successful import. No source instructions/scripts/tools/accounts were activated.
 
 ## Admission boundaries
 
@@ -61,8 +87,8 @@ No imported source was activated, tools bootstrapped, services registered or tar
   embedded third-party material. Full Apache terms accompany README-based Apache grants.
 - Original upstream stub entries remain stubs, explicitly disclosed in their attribution; their
   companion scripts are not enabled or presented as tested automation.
-- The five-link user-source reference file is unchanged; newly discovered provenance belongs here
-  and in package notices, not in that source list.
+- The source-only references file now includes the requested public original repository links;
+  technical frameworks, private/user-owned repositories and explanatory prose remain excluded.
 
 ## Accepted roots
 
