@@ -24424,7 +24424,7 @@
               ".gitattributes": {
                 "digest": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b",
                 "mode": "100644",
-                "output": "skills/reverse-skill-router/repository/.gitattributes"
+                "output": "upstream-notices/original-gitattributes.txt"
               },
               ".github/FUNDING.yml": {
                 "digest": "c64978a5a54c7240d0666e01bc6896ce38b5f4c0a929216191fa96f23b4fe61b",

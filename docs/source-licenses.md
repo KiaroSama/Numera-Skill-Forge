@@ -78,6 +78,11 @@ separately; setup commands resolve under the orchestrator's contained `repositor
 apsdehal CC0 terms accompany the credited resource digest. All original source, notices and native
 invocation policy survive unchanged; no binary/source-execution certification is implied.
 
+The exact original reverse-workspace `.gitattributes` is stored as
+`upstream-notices/original-gitattributes.txt`, not an active Git control file. Otherwise its nested
+line-ending rules override Forge's byte-preservation attributes during checkout. All599original
+records and modes remain unchanged; this is a reviewed storage-path repair, not source rewriting.
+
 The full reverse workspace is now separately bundled under its actual MIT/GPL declarations with
 explicit residual earlier-corpus provenance uncertainty, as described above; the unavailable named
 Payloader origin is not falsely called an express prohibition. The distinct CodebergAPK source remains

@@ -5,7 +5,7 @@
     {
       "digest": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b",
       "mode": "100644",
-      "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.gitattributes",
+      "output_path": "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/original-gitattributes.txt",
       "path": ".gitattributes",
       "size": 340
     },
@@ -4197,7 +4197,7 @@
     }
   ],
   "license": "MIT AND GPL-3.0-only",
-  "payload_digest": "7375252f1a4692909fb20c858d138badf4d8a150ab88348e72b0bee3b748733c",
+  "payload_digest": "473ca1272ab0188595927a75f9b33b1a0c87d9ed8ce6ac5643c33b1120f3b030",
   "repository": "https://github.com/zhaoxuya520/reverse-skill.git",
   "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
   "root": "plugins/reverse-skill/skills/reverse-skill-router",

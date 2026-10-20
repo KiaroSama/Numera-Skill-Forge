@@ -92644,11 +92644,11 @@
       "revision": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
       "version": "1.0.0",
       "license": "MIT AND GPL-3.0-only",
-      "content_digest": "7375252f1a4692909fb20c858d138badf4d8a150ab88348e72b0bee3b748733c",
+      "content_digest": "473ca1272ab0188595927a75f9b33b1a0c87d9ed8ce6ac5643c33b1120f3b030",
       "files": [
         {
           "path": ".gitattributes",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.gitattributes",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/original-gitattributes.txt",
           "digest": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b",
           "mode": "100644",
           "size": 340
@@ -95622,239 +95622,239 @@
           "size": 7914
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md",
           "digest": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020",
           "mode": "100644",
           "size": 6300
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md",
           "digest": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b",
           "mode": "100644",
           "size": 5659
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md",
           "digest": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb",
           "mode": "100644",
           "size": 2538
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md",
           "digest": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e",
           "mode": "100644",
           "size": 21992
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md",
           "digest": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b",
           "mode": "100644",
           "size": 18728
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md",
           "digest": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14",
           "mode": "100644",
           "size": 34990
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md",
           "digest": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53",
           "mode": "100644",
           "size": 18402
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md",
           "digest": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b",
           "mode": "100644",
           "size": 21645
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md",
           "digest": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b",
           "mode": "100644",
           "size": 13966
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md",
           "digest": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a",
           "mode": "100644",
           "size": 21333
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md",
           "digest": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7",
           "mode": "100644",
           "size": 12848
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md",
           "digest": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205",
           "mode": "100644",
           "size": 32146
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md",
           "digest": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd",
           "mode": "100644",
           "size": 46143
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md",
           "digest": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136",
           "mode": "100644",
           "size": 24175
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md",
           "digest": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b",
           "mode": "100644",
           "size": 20046
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md",
           "digest": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5",
           "mode": "100644",
           "size": 35915
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md",
           "digest": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a",
           "mode": "100644",
           "size": 38561
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md",
           "digest": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd",
           "mode": "100644",
           "size": 63081
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md",
           "digest": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a",
           "mode": "100644",
           "size": 37718
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md",
           "digest": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413",
           "mode": "100644",
           "size": 32069
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md",
           "digest": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48",
           "mode": "100644",
           "size": 20566
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md",
           "digest": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2",
           "mode": "100644",
           "size": 44495
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md",
           "digest": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163",
           "mode": "100644",
           "size": 24876
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md",
           "digest": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db",
           "mode": "100644",
           "size": 25356
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md",
           "digest": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723",
           "mode": "100644",
           "size": 26941
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md",
           "digest": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6",
           "mode": "100644",
           "size": 17846
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md",
           "digest": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631",
           "mode": "100644",
           "size": 19091
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md",
           "digest": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453",
           "mode": "100644",
           "size": 13962
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md",
           "digest": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121",
           "mode": "100644",
           "size": 47961
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md",
           "digest": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c",
           "mode": "100644",
           "size": 68771
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md",
           "digest": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862",
           "mode": "100644",
           "size": 14007
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md",
           "digest": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c",
           "mode": "100644",
           "size": 17318
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md",
           "digest": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4",
           "mode": "100644",
           "size": 65060
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md",
           "digest": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84",
           "mode": "100644",
           "size": 22425
@@ -95888,92 +95888,92 @@
           "size": 1147930
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md",
           "digest": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489",
           "mode": "100644",
           "size": 12908
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md",
           "digest": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9",
           "mode": "100644",
           "size": 2084
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md",
           "digest": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf",
           "mode": "100644",
           "size": 15474
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md",
           "digest": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369",
           "mode": "100644",
           "size": 15296
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md",
           "digest": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d",
           "mode": "100644",
           "size": 2757
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md",
           "digest": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d",
           "mode": "100644",
           "size": 883
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md",
           "digest": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3",
           "mode": "100644",
           "size": 9355
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md",
           "digest": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e",
           "mode": "100644",
           "size": 2148
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md",
           "digest": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5",
           "mode": "100644",
           "size": 9572
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md",
           "digest": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27",
           "mode": "100644",
           "size": 7906
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md",
           "digest": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e",
           "mode": "100644",
           "size": 799
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md",
           "digest": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1",
           "mode": "100644",
           "size": 4673
         },
         {
-          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md",
-          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md",
+          "path": "skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md",
+          "output_path": "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md",
           "digest": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d",
           "mode": "100644",
           "size": 1122
@@ -96842,9 +96842,8 @@
       ],
       "generated": {
         "packages/claude-code/skill-reverse-skill-workspace/.claude-plugin/plugin.json": "f1a109405bdc1b0c1a953d794c7fcb814e006d89f1cf173a87c4784e2c2ed0b5",
-        "packages/claude-code/skill-reverse-skill-workspace/provenance.json": "620dfd18229e8ca5c4ae64c3f0c125aff389f580c5766fd2d7c0ff59d4b096b1",
+        "packages/claude-code/skill-reverse-skill-workspace/provenance.json": "1fc28ca12f090ec914affe9338ea90fd0ed6fe1c8dec2e8e4a476b72e9af10b2",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/SKILL.md": "9991b8b028b30362f49f90f28093a14a24fc0091993bd49bcea7693fe4f6a435",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.gitattributes": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.github/FUNDING.yml": "c64978a5a54c7240d0666e01bc6896ce38b5f4c0a929216191fa96f23b4fe61b",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.github/workflows/auto-merge-journal.yml": "9257f56bec037a5419b4a223e3a6c9bf329eed69e46637aff468e04562963af1",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/.github/workflows/ci.yml": "00ce249dc850a5613165d0b565b13f0175a8fcebf18fd0fd6b2668022a752688",
@@ -97268,57 +97267,57 @@
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/methodology/03-evidence-discipline.md": "a132926f8529c1de23ff7bcf797a357c48b4edd515cc6067a7383e72038e767d",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/methodology/04-control-gap-hunting.md": "d6674c1c586e1352849bf7be7d1cd58fd43873f9bf6601961001918dc1acc9b8",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md": "d305fabc822db4948280eb2e8874041acd0ad3e6b75df162768907a7db705d12",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/index.md": "089fd77453da1971ba3fc3c3858494eadfda4312f2cbcedc6717ec5eb36c5db2",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/raw/navigation.json": "ffcb11d359554d2e8dd6f35d5121cf52ef4d26f0484fb9d5f30ff1058cd63971",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/raw/tools.json": "4cec9f217c270c13aa341ab73d4a74b63ba685bb8a5437c7e6533663d55041e0",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/raw/web.json": "25c5dcb30505f7ff7417d6bee274419fc8730855f33af1c35a89118c02d8de21",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1",
-        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1",
+        "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md": "0273517455962bb9908264f82e4708b31d541c91c2ec715e8032d6c1376728b5",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/playbooks/00-index.md": "7dff850138018018b112518a447a089d75e2eb7a37c08c94680a78b7eb76afed",
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/playbooks/api-rest.md": "559270ce29945cb1b3c536291c3a7e8936d2e3483e0728b1349ad33fbb21916d",
@@ -97444,7 +97443,8 @@
         "packages/claude-code/skill-reverse-skill-workspace/skills/reverse-skill-router/repository/skills/windows-ad/references/ad-attack-paths.md": "effab5e97278f30d54285372d9b2e76678665645b732b5772428275042cc12bc",
         "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/apsdehal-ctf-CC0.txt": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
         "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/devploit-ctf-MIT.txt": "f5f7a06e6a595601071c1f3a7cceba1a565b7e054e00f388faffd776b739439f",
-        "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/distribution.json": "250d2e2d46345182f08e1edaee105d70dd53b02e5984e6117d068015976cbb38"
+        "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/distribution.json": "17f20bce60bc3ebb3958491fbdba58056862ac817264d7345e3c353d1c5322a8",
+        "packages/claude-code/skill-reverse-skill-workspace/upstream-notices/original-gitattributes.txt": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b"
       },
       "delivery": {
         "packages/claude-code/skill-reverse-skill-workspace/.codex-plugin/plugin.json": "4081ab7c9cae570b20d84ec1f7beb528306494af54380085b56151a447ed1b07",
@@ -97457,7 +97457,7 @@
           ".gitattributes": {
             "digest": "e45c8af67839fc8ab6c81ca616718a70fb7175ad5dae7a22a3067f9ffd321e0b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/.gitattributes"
+            "output": "upstream-notices/original-gitattributes.txt"
           },
           ".github/FUNDING.yml": {
             "digest": "c64978a5a54c7240d0666e01bc6896ce38b5f4c0a929216191fa96f23b4fe61b",
@@ -99579,175 +99579,175 @@
             "mode": "100644",
             "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md": {
             "digest": "49764e95a2e121899961b1915794f9264d095343b471bca97d5317d020ed0020",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md": {
             "digest": "cf4caee522f21c3ba61b32d5d6f12194238bf52b8b17ae339eb2c83adcbb626b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md": {
             "digest": "7b70d23bb9f9513f01d168fa32a3905c064f82479c22a586f4c01693693efeeb",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md": {
             "digest": "5acfd461329ca663c7ce13e21f7ba842a628baeb9ab228ed32f3087dd07c716e",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md": {
             "digest": "2485e619ad92861fd0b5679cb7379b3080940aacac7faa370c80792d92dd970b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md": {
             "digest": "1342b24a3495cacb5a5b52cdcb651d57ca63acae27d308ced93e116957589d14",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md": {
             "digest": "d17eca3e9f70bd57f5b402b354c3fa7f0f819c45cad5172900d85ce3de9fac53",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md": {
             "digest": "35b9e8b08920b1bc3bdc10383d30d486da23ac32c6041bc8ee38cfad2f07bf8b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md": {
             "digest": "b7e706d1fd458c22ecda66b0a864c756c14668f6e447e4278ee93f404723309b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md": {
             "digest": "f5a021ef61469f424a1a7657f74cb5769040fa00fd83420d2cafdc961bb1b96a",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md": {
             "digest": "f6d800b30cc8082bdd0229823cbd993ea52740dfeed622753fd31798537ccfa7",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md": {
             "digest": "f46fe80c1d6bad523eab76a3617513d6805f29e590945bfe32ff00b5f1c4f205",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md": {
             "digest": "7e6f3250a870cc70a92ac487d1dde3ffdfbe843f9ed6aaaefd1dcec5f9bc2bbd",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md": {
             "digest": "902e611ac1e94675d16d9504942ded4d4ffac5e0b38c91aa64f2f6e68dcdb136",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md": {
             "digest": "ca8a4e5c96b617bf63d679aaf2173efe81c3b93e554e5f4dae69d8cf61fba93b",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md": {
             "digest": "8f3027b8f0e4f804883199186af7beb9c9e5c27fd511094ec1bbe4b00c0e9da5",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md": {
             "digest": "3c3f90ed64fce28b1a4c1447cc06488d0f4fd79235e466a9f1a77fd07732f19a",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md": {
             "digest": "54c8bc04c2e76f4387a284b28ee6ecbeee15f4fd93a2d762af0974197dc444bd",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md": {
             "digest": "cb1d17bd8a8e7d55b64d1c6fa42c9cbf61d709f14666241d5045e97cdb793d4a",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md": {
             "digest": "87795a61c8b447afb6149dca45d8b4e03611a08628c3ab6544e298be550a7413",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md": {
             "digest": "d09ac8509f7860073fe077090024a6d48341a1b4db56050df428f8902beede48",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md": {
             "digest": "2e1ec33087f87e6f953be9cd4e349e7dd04c4f519bce5fa6edf028bf50db79e2",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md": {
             "digest": "15033e2cfc27f9e13e519bd919b887cc942b6ad306794ccf5f3409786aba9163",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md": {
             "digest": "4979c6c25cfc88ce0a1f742a275d852a1c7231a922a67018a99be2d6fca423db",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md": {
             "digest": "06227cb4d026e2c2df16d2bb010349180cc69e2f68f9646edacdc935b18a8723",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md": {
             "digest": "f7acc4df83c0b406475c343df09324834dcbeb86589269b1d4517275f7fd3dc6",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md": {
             "digest": "8d74c1d9dbb503deb2af11a4eec5f55083ff35e51c2eec1a7d8d32e276fc4631",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md": {
             "digest": "da3ba98d03006743f88d94aef8abb630b2f2049937c1ce9ce2a1413ec1680453",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md": {
             "digest": "0236fc2822eaeb293c320045989f7d8468640fd0e22576c1c07e07217ef40121",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md": {
             "digest": "27c4743dc671f2ae9441d87f809a64f8978cfdaeeaa940f632c23937160f1c3c",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md": {
             "digest": "449736c9a519b0949861d2be912192875f0afc9a350bbe5e8fa041e7619ea862",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md": {
             "digest": "e6bf45fb9851dfcaba9aa8417cbabddf0f771aeee265c38a8de96a409303b67c",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md": {
             "digest": "b7f77de2c38ee4d1b376351a5d8373f76aca74dcafa16c3a6b3c4ccad460b0c4",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md": {
             "digest": "c5b9c665f23e3a2f2dcd5f78f81595774406f1ecdb5d041599db2842f1e63c84",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md"
           },
           "skills/pentest-tools/src-hunter/references/payloader/index.md": {
             "digest": "089fd77453da1971ba3fc3c3858494eadfda4312f2cbcedc6717ec5eb36c5db2",
@@ -99769,70 +99769,70 @@
             "mode": "100644",
             "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/raw/web.json"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md": {
             "digest": "39a2bbbfca07402744b4fa5ccb68ee925bc3e7bbe805dadedc09b17bac454489",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md": {
             "digest": "6bebbdfb5877ff550d2786f276ce8de29bc1bfef8c0a017d25bb3b193193e8a9",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md": {
             "digest": "c038c60912649e4a71e76f34168e744bcfe7ba50fc72f0475dc66afc3775bfaf",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md": {
             "digest": "91b16a15984e7595ac1ae0281d7061638f54b2f272341f9041bc182832d88369",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md": {
             "digest": "e9b7796010790258e403e3f034918dcfd67fa86e83843b56c0f69b668d2f402d",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md": {
             "digest": "8da38326c4a4cfc5d451141ec68242e067199366010e135101caaf65f6ce461d",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md": {
             "digest": "d2586e92d896fcd39fb70f4c317b643bbcccc9243d485094481dfbc9e7ab9cd3",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md": {
             "digest": "758c0337ef26cb7df26f16023b29c6c54498e5a36cbf190a3d9fdf3a06cb724e",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md": {
             "digest": "f5e490d5f35ce24a68f284e2cb4db3fee75dffb9b39d4ee6d3ba368f43706ae5",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md": {
             "digest": "5da09ab4d320b19fc3c7f2137753ceb7791b81f70f7e391313ddbb644bc86b27",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md": {
             "digest": "d50bc7bbaf879cdad7f96619e1c178b2dab3f4af0cc42b77afb4d05dadc2c07e",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md": {
             "digest": "b9da8bd5126c5f681ad7aaa7446b826c5405dfb15fe0a464a4985ae534e05ed1",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md"
           },
-          "skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md": {
+          "skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md": {
             "digest": "cf2842df7b97c820a513c27f5cb7f2b99c2376b376364cd4398ca699f586101d",
             "mode": "100644",
-            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md"
+            "output": "skills/reverse-skill-router/repository/skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md"
           },
           "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md": {
             "digest": "0273517455962bb9908264f82e4708b31d541c91c2ec715e8032d6c1376728b5",
@@ -100757,57 +100757,57 @@
               "skills/pentest-tools/src-hunter/references/methodology/03-evidence-discipline.md",
               "skills/pentest-tools/src-hunter/references/methodology/04-control-gap-hunting.md",
               "skills/pentest-tools/src-hunter/references/methodology/05-srctimebox-priority.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/信息收集.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/凭证窃取.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/域渗透攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限提升.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/权限维持.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/横向移动.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/隧道代理.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai安全.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api安全.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf跨站请求伪造.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt安全.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf服务端请求伪造.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket安全.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe实体注入.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/业务逻辑漏洞.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/云安全漏洞.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/供应链攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/原型链污染.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/开放重定向.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/点击劫持.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/缓存与cdn安全.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
-              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/请求走私.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/adcs\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/exchange\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/sharepoint\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u4fe1\u606f\u6536\u96c6.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u514d\u6740\u4e0e\u89c4\u907f.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u51ed\u8bc1\u7a83\u53d6.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u57df\u6e17\u900f\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u63d0\u5347.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6743\u9650\u7ef4\u6301.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u6a2a\u5411\u79fb\u52a8.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/\u96a7\u9053\u4ee3\u7406.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ai\u5b89\u5168.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/api\u5b89\u5168.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/csrf\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/jwt\u5b89\u5168.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi\u6587\u4ef6\u5305\u542b.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce\u8fdc\u7a0b\u4ee3\u7801\u6267\u884c.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql\u6ce8\u5165.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssrf\u670d\u52a1\u7aef\u8bf7\u6c42\u4f2a\u9020.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti\u6a21\u677f\u6ce8\u5165.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/websocket\u5b89\u5168.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss\u8de8\u7ad9\u811a\u672c.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xxe\u5b9e\u4f53\u6ce8\u5165.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e1a\u52a1\u903b\u8f91\u6f0f\u6d1e.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4e91\u5b89\u5168\u6f0f\u6d1e.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u4f9b\u5e94\u94fe\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u539f\u578b\u94fe\u6c61\u67d3.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u5f00\u653e\u91cd\u5b9a\u5411.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6587\u4ef6\u6f0f\u6d1e.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u6846\u67b6\u6f0f\u6d1e.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u70b9\u51fb\u52ab\u6301.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u7f13\u5b58\u4e0ecdn\u5b89\u5168.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8ba4\u8bc1\u6f0f\u6d1e.md",
+              "skills/pentest-tools/src-hunter/references/payloader/by-category/web/\u8bf7\u6c42\u8d70\u79c1.md",
               "skills/pentest-tools/src-hunter/references/payloader/index.md",
               "skills/pentest-tools/src-hunter/references/payloader/raw/navigation.json",
               "skills/pentest-tools/src-hunter/references/payloader/raw/tools.json",
               "skills/pentest-tools/src-hunter/references/payloader/raw/web.json",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/web渗透.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/信息收集.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/内网渗透.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/凭证窃取.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/域渗透.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/密码攻击.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/权限提升.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/漏洞利用.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/红队工具.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/编码解码.md",
-              "skills/pentest-tools/src-hunter/references/payloader/tools/隧道代理.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/web\u6e17\u900f.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/windows\u6e17\u900f.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u4fe1\u606f\u6536\u96c6.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u5185\u7f51\u6e17\u900f.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u51ed\u8bc1\u7a83\u53d6.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u57df\u6e17\u900f.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u5bc6\u7801\u653b\u51fb.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u6743\u9650\u63d0\u5347.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u6f0f\u6d1e\u5229\u7528.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7cfb\u7edf\u547d\u4ee4.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7ea2\u961f\u5de5\u5177.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u7f16\u7801\u89e3\u7801.md",
+              "skills/pentest-tools/src-hunter/references/payloader/tools/\u96a7\u9053\u4ee3\u7406.md",
               "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
               "skills/pentest-tools/src-hunter/references/playbooks/00-index.md",
               "skills/pentest-tools/src-hunter/references/playbooks/api-rest.md",
