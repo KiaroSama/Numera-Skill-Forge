@@ -1,6 +1,6 @@
 # Build context is scripts/, never the repository or a personal home.
 # Official node:24.21.0-bookworm-slim Linux amd64 manifest verified 2026-10-12 UTC.
-FROM node:26.11.1-bookworm-slim@sha256:86f07bc9c5dce4578cf37e5a418b7bfc7f817cda25cde66e2b66e95ed86c4567 AS dependencies
+FROM node:26.12.0-bookworm-slim@sha256:742a0fe7320e09e0321222b68165e6ac731d30470e7ea7f98f9bfc3a6e1034fe AS dependencies
 WORKDIR /opt/pi
 COPY host-activation/pi/package.json host-activation/pi/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org \
@@ -11,7 +11,7 @@ RUN npm ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npm
     && npm audit --ignore-scripts --registry=https://registry.npmjs.org \
     && node -e 'const fs=require("node:fs"),p=JSON.parse(fs.readFileSync("node_modules/@google/gemini-cli-core/package.json","utf8"));if(p.name!=="@google/gemini-cli-core"||p.version!=="0.63.0")throw Error("Gemini identity mismatch")'
 
-FROM node:26.11.1-bookworm-slim@sha256:86f07bc9c5dce4578cf37e5a418b7bfc7f817cda25cde66e2b66e95ed86c4567
+FROM node:26.12.0-bookworm-slim@sha256:742a0fe7320e09e0321222b68165e6ac731d30470e7ea7f98f9bfc3a6e1034fe
 COPY --from=dependencies /opt/pi /opt/pi
 COPY --from=dependencies /opt/gemini /opt/gemini
 COPY host-activation-probe.mjs /opt/forge/host-activation-probe.mjs
