@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@google/gemini-cli-core": "0.63.0"
+    "@google/gemini-cli-core": "0.65.0"
   },
   "overrides": {
     "shell-quote": "1.12.0",
