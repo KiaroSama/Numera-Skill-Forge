@@ -14,7 +14,7 @@
     "test:ui": "playwright test"
   },
   "dependencies": {
-    "@tauri-apps/api": "2.12.3"
+    "@tauri-apps/api": "2.12.4"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",
